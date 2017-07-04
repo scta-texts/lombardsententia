@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 16, Capitulus 2</title>
+        <author>Petrus Lombardus</author>
+        <editor></editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 16, Capitulus 2</title>
+          <date when="2015-11-02">November 02, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher></publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-11-02">November 02, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-02" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d16c2">
+        <head>Librum I, Distinctio 16, Capitulus 2</head>
+        <!-- Quod Filius, secundum quod homo, non modo Patre 
+          sed Spiritu sancto minor etiam est -->
+        <p xml:id="pll1d16c2-d1e3477">Notandum autem, quod Filius, secundum quod homo factus 
+          est, non tantum Patre, sed Spiritu sancto et etiam se ipso minor 
+          dicitur.</p>
+        <p xml:id="pll1d16c2-d1e3480">Et quod etiam se ipso minor dicatur secundum formam 
+          servi, <ref><name ref="#Augustine">Augustinus</name> ostendit in I libro <title ref="#deTrinitate">De Trinitate</title></ref> dicens: 
+          <cit>
+            <quote xml:id="pll1d16c2-Qd1e3491">Erraverunt homines, ea quae de Christo secundum hominem 
+              dicta sunt ad eius substantiam, quae sempiterna est, transferentes, 
+              sicut illud quod ipse Dominus dicit: 
+              <cit>
+                <quote xml:id="pll1d16c2-Qd1e3495" ana="#io14_28">Pater maior me est;</quote>
+                <bibl>Iohannes 14:28</bibl>
+              </cit>
+              quod 
+              propter formam servi Veritas dicit, secundum quem modum etiam 
+              se ipso minor est Filius. Quomodo enim non etiam se ipso minor 
+              fatus est, qui 
+              <cit>
+                <quote xml:id="pll1d16c2-Qd1e3504" ana="phil2_7">se ipsum exinanivit, formam servi accipiens?</quote>
+                <bibl>Philippians 2:7</bibl>
+              </cit>
+              Non enim sic accepit formam servi, ut amitteret formam Dei, in 
+              qua erat aequalis Patri. In forma ergo Dei Unigenitus Patris aequalis 
+              est Patri. In forma servi etiam se ipso minor est. Non igitur 
+              immerito Scriptura dicit utrumque, scilicet et aequalem Patri Filium, <!-- p.105 -->
+              et Patrem maiorem Filio; illud enim propter Dei formam, 
+              hoc autem propter formam servi intelligitur.</quote>
+            <bibl>Augustinus, De Trinitate, I, c. 7, n. 14 (PL 42:828)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d16c2-d1e3519">De hoc eodem in <ref>II libro <title ref="#deTrinitate">De Trinitate</title></ref> ait: 
+          <cit>
+            <quote xml:id="pll1d16c2-Qd1e3528">Dei Filius 
+              aequalis Patri secundum Dei formam, in qua est, et minor Patre 
+              secundum formam servi, quam accepit, in qua non modo Patre, 
+              sed etiam Spiritu sancto, nec hoc tantum, sed etiam se ipso minor 
+              inventus est.</quote>
+            <bibl>Augustinus, De Trinitate, II, c. 1, n. 2 (PL 42:845)</bibl>
+          </cit>
+          <cit>
+            <quote xml:id="pll1d16c2-Qd1e3537">Propter quam, ut <ref>idem ait in libro <title>Contra Maximinum</title></ref>, 
+              non tantum Patre, sed etiam se ipso et Spiritu sancto 
+              minor factus est, et etiam 
+              <cit>
+                <quote xml:id="pll1d16c2-Qd1e3546" ana="#hebr2_9">minoratus paulo minus ab Angelis.</quote>
+                <bibl>Hebraeos 2:9</bibl>
+              </cit>
+            </quote>
+            <bibl>Augustinus, Contra Maximinum, Epist. 17 (olim 66), n. 9 (PL 33:750)</bibl> <!-- dbcheck and clarify -->
+          </cit>
+          <cit>
+            <quote xml:id="pll1d16c2-Qd1e3562">Est ergo Dei Filius, ut ipse ait in <ref>I libro <title ref="#deTrinitate">De Trinitate,</title></ref> Deo 
+              Patri natura aequalis, habitu minor, id est in forma servi, quam 
+              accepti.</quote>
+            <bibl>Augustinus, De Trinitate, I, c. 7, n. 14 (PL 42:829)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d16c2-d1e3576">His auctoritatibus aperte ostenditur Filius secundum formam 
+          servi minor Patre et se ipso et Spiritu sancto.</p>
+        <p xml:id="pll1d16c2-d1e3579"><name ref="#HilaryOfPoitiers">Hilarius</name> autem dicere videtur, quod Pater sit maior Filio, 
+          nec tamen Filius sit minor Patre. Pater enim dicitur maior propter 
+          auctoritatem, quia in eo est auctoritas generationis, secundum 
+          quam dicit: 
+          <cit>
+            <quote xml:id="pll1d16c2-Qd1e3585" ana="#io14_28">Pater maior me est;</quote>
+            <bibl>Ioannes 14:28</bibl>
+          </cit>
+          et <name ref="#Paul">Apostolus</name>: 
+          <cit>
+            <quote xml:id="pll1d16c2-Qd1e3597" ana="#phil2_7">Donavit ei 
+              nomen, quod est super omne nomen.</quote>
+            <bibl>Phil. 2:7</bibl>
+          </cit>
+          Cum ergo ait: 
+          <cit>
+            <quote xml:id="pll1d16c2-Qd1e3606" ana="#io14_28">Pater maior 
+              me est,</quote>
+            <bibl>Ioannes 14:28</bibl>
+          </cit>
+          hoc est ac si diceret, donavit mihi nomen.
+          <cit>
+            <quote xml:id="pll1d16c2-Qd1e3615">Si ergo, inquit 
+              <ref><name ref="#HilaryOfPoitiers">Hilarius</name> in libro IX <title ref="#HilaryOfPoitiers_DeTrinitate">De Trinitate</title>,</ref>
+              donantis auctoritate 
+              Pater maior est, nunquid per doni confessionem Filius minor est? 
+              Maior itaque donans est, sed minor iam non est, cui unum esse 
+              donatur; ait enim: 
+              <cit>
+                <quote xml:id="pll1d16c2-Qd1e3627" ana="#io10_30">Ego et Pater unum sumus.</quote>
+                <bibl>Ioannes 10:30</bibl>
+              </cit>
+              Si non hoc donatur 
+              <name>Iesu</name>, ut confitendus sit in gloria Dei Patris, minor Patre 
+              est. Si autem in ea gloria ei donatur esse, <!-- possible mistaken period instead of comma here in printed edition --> qua Pater est, habes et 
+              in donantis auctoritate, quia maior est, et in donati confessione, 
+              quia unum sunt. Maior itaque Pater Filio est et plane maior, cui 
+              tantum donat esse, quantus est ipse; cui innascibilitatis esse imaginem <!-- p. 106 -->
+              sacramento nativitatis impertit, quem ex se in forma sua 
+              generat.</quote>
+            <bibl>Hilarius, De Trinitate, IX, n. 54 (PL 10:325)</bibl>
+          </cit>
+          Audisti lector, quid super hoc dicat <name ref="#HilaryOfPoitiers">Hilarius</name>, cuius 
+          verba, ubicumque occurrerint, diligenter nota pieque intellige.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

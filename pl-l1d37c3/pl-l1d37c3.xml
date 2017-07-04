@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 37, Capitulus 3</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 37, Capitulus 3</title>
+          <date when="2016-01-13">January 13, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-01-13">January 13, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d37c3">
+        <head xml:id="pll1d37c3-Hd1e3496">Librum I, Distinctio 37, Capitulus 3</head>
+        <!-- Ubi erat Deus, antequam esset creatura -->
+        <p xml:id="pll1d37c3-d1e3501">Si autem quaeris, ubi habitabat Deus, antequam Sancti essent; 
+          dicimus, quia in se habitabat.</p>
+        <p xml:id="pll1d37c3-d1e3504">Unde <ref><name ref="#Augustine">Augustinus</name> in libro <title>Contra Maximinum</title>:</ref> 
+          <cit>
+            <quote xml:id="pll1d37c3-Qd1e3516">In 
+              templo, inquit, suo habitat Deus,</quote>
+            <bibl>Augustinus, Contra Maximinum, 3</bibl>
+          </cit>
+          <cit>
+            <quote xml:id="pll1d37c3-Qd1e3525">scilicet in Sanctis, qui sunt 
+              templum Dei modo secundum fidem ambulantes; et templum Dei 
+              erunt aliquando etiam secundum speciem, qualiter etiam nunc templum 
+              Dei sunt Angeli. Sed dicet aliquis: Antequam faceret Deus 
+              caelum et terram, antequam faceret Sanctos, ubi habitabat? In se 
+              habitabat Deus, apud se habitat et apud se est. Non ergo sic 
+              sunt Sancti domus Dei, ut, ipsa subtracta, cadat Deus; immo sic 
+              habitat Deus in Sanctis, ut, si ipse discesserit, cadant.</quote>
+            <bibl>4</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d37c3-d1e3533">
+          <cit>
+            <quote xml:id="pll1d37c3-Qd1e3537">Sciendum etiam, quia, ut ait <ref><name ref="#Augustine">Augustinus</name> in libro <title>Ad 
+              Dardanum</title>,</ref> dici nisi stultissime nequit, Spiritum sanctum non 
+              habere locum in nostro corpore, quod totum nostra anima impleverit. 
+              Stultius enim dicitur, angustiis alicubi impediri Trinitatem, 
+              ut Pater et Filius et Spiritus sanctus alicubi simul esse non possit.</quote>
+            <bibl>Augustinus, Epist. 187, c. 4, n. 15, et c. 5, n. 16 (PL 33:837)</bibl>
+          </cit>
+          <cit>
+            <quote xml:id="pll1d37c3-Qd1e3554">Verum illud est multum mirabilius, quod cum Deus ubique 
+              <!-- 233 -->
+              sit totus, non tamen in omnibus habitat. Qui porro audeat opinari, 
+              nisi inseparabilitatem Trinitatis penitus ignoret, quod in aliquo possit 
+              habitare Pater aut Filius, in quo non habitet Spiritus sanctus, 
+              aut in aliquo Spiritus sanctus, in quo non habitet Pater et Filius? 
+              Fatendum est igitur, ubique esse Deum per divinitatis praesentiam, 
+              sed non ubique per inhabitationis gratiam. Propter hanc enim habitationem 
+              gratiae non dicimus: 
+              <cit>
+                <quote xml:id="pll1d37c3-Qd1e3560" ana="#mt6_9">Pater noster, qui es</quote>
+                <bibl>Matt 6:9 et Lucas 11:2</bibl>
+              </cit>
+              ubique, 
+              cum et hoc verum sit; sed 
+              <cit>
+                <quote xml:id="pll1d37c3-Qd1e3569" ana="#mt6_9">qui est in caelis,</quote>
+                <bibl>Matt 6:9 et Lucas 11:2</bibl>
+              </cit>
+            </quote>
+            <bibl>Augustinus, Epist. 187, c. 4, n. 15, et c. 5, n. 16 (PL 33:837) (??)</bibl>
+          </cit>
+          id est in Sanctis, 
+          in quibus est quodam excellentiori modo.</p>
+        <p xml:id="pll1d37c3-d1e3583">
+          <cit>
+            <quote xml:id="pll1d37c3-Qd1e3587">Illud quoque mirabile est, quia, ut ait <ref><name ref="#Augustine">Augustinus</name> in 
+              in eodem,</ref> Deus est inhabitator quorundam nondum cognoscentium 
+              Deum, et non quorundam cognoscentium Deum. Illi enim ad templum 
+              Dei non pertinent, qui 
+              <cit>
+                <quote xml:id="pll1d37c3-Qd1e3596" ana="#rom1_21">cognoscentes Deum, non sicut Deum 
+                  glorificant.</quote>
+                <bibl>Romanos 1:21</bibl>
+              </cit> 
+              Ad templum Dei pertinent parvuli sanctificati Sacramento 
+              Christi et remunerati Spiritu sancto, qui nondum valent 
+              cognoscere Deum. Igitur quem potuerunt illi nosse nec habere, isti 
+              potuerunt habere, antequam nosse. Beatissimi autem sunt illi, quibus 
+              hoc est Deum habere quod nosse.</quote>
+            <bibl>Augustinus, Epist. 187, c. 6, n. 21 (PL 33:840)</bibl>
+          </cit>
+          Hic aliquatenus aperit <name ref="#Augustine">Augustinus</name>, 
+          quomodo Deus habitet in aliquo, id est habeatur, cum 
+          videlicet ita est in aliquo, ut ab eo cognoscatur et diligatur.</p>
+        <p xml:id="pll1d37c3-d1e3612">Ex praedictis patet, quod Deus ubique totus est per essentiam, 
+          et in Sanctis habitat per gratiam.</p>
+        <p xml:id="pll1d37c3-d1e3615">Cumque superius, licet tenuiter, ostensum sit, qua ratione dicatur 
+          habitare in quibusdam, efflagitaret ordinis ratio, id etiam assignari, 
+          quomodo ubique per essentiam et totus sit, nisi huius considerationis 
+          sublimitas atque immensitas humanae mentis sensus 
+          omnino excederet.</p>
+        <p xml:id="pll1d37c3-d1e3618">Ut enim ait <ref><name ref="#JohnChrysostom">Chrysostomus</name> <title>Super Epistolam ad Hebraeos</title>:</ref>
+          <cit>
+            <quote xml:id="pll1d37c3-Qd1e3630">Sicut multa de Deo intelligimus, quae loqui penitus 
+              non valemus; ita multa loquimur, quae intelligere non sumus idonei, 
+              verbi gratia, quod ubique Deus est, scimus et dicimus; quomodo 
+              autem ubique sit, intellectu non capimus. Item, quod est 
+              incorporea quaedam virtus, quae omnium est causa bonorum, scimus; 
+              quomodo autem, vel quae ista sit, penitus ignoramus.</quote>
+            <bibl>Joannes Chrysostomus, Super Epistolam ad Hebraeos, homil. 2, n. 1 (PGL 63:19)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d37c3-d1e3638">Quidam tamen, immensa ingenio suo metiri praesumentes, hoc 
+          ita fore intelligendum tradiderunt, quod Deus ubique esse per essentiam 
+          dicitur, non quod Dei essentia proprie sit in omni loco et 
+          in omni creatura, sed quia omnis natura atque omne quod naturaliter 
+          est, in quocumque loco sit, per eum habet esse, et omnis 
+          locus, in quo illud est. Ipsi iidem etiam dicunt, ideo Deum ubique 
+          dici esse per praesentiam vel per potentiam, quia cuncta loca 
+          sunt ei praesentia, et quae in eis sunt, nec in eis aliquid operari 
+          cessat. Nam et ipsa loca, et quidquid in eis est, nisi ipse conservet, 
+          manere non possunt. In eis ergo per substantiam Deus esse dicitur, 
+          ut aiunt, quia per virtutem propriae substantiae suae facit, ut etiam 
+          loca sint, et omnia quae in eis sunt.</p>
+        <p xml:id="pll1d37c3-d1e3641">Sed licet haec vera sint, quae asserunt in explanandis intelligentiis 
+          praedictorum, in illis tamen verbis, quibus dicitur Deus 
+          ubique esse per essentiam, plus contineri credendum est; quod 
+          homo vivens capere non valet.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

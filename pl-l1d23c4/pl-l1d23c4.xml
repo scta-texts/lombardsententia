@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 23, Capitulus 4</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 23, Capitulus 4</title>
+          <date when="2015-11-25">November 25, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-11-25">November 25, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d23c4">
+        <head xml:id="pll1d23c4-Hd1e3496">Librum I, Distinctio 23, Capitulus 4</head>
+        <!-- Cur non dicimus tres essentias, ut tres personas. -->
+        <p xml:id="pll1d23c4-d1e3501">Verum et hic alia emergit quaestio, quam <name ref="#Augustine">Augustinus</name> consequenter 
+          annectit dicens: 
+          <cit>
+            <quote xml:id="pll1d23c4-Qd1e3508">Cur, inquit, et tres essentias non licet 
+              dicere, quod similiter Scriptura sicut non dicit, ita non contradicit? 
+              At si dicis, quod propter unitatem Trinitatis non dicuntur 
+              tres essentiae, sed una essentia; quaero, cur non propter eandem 
+              unitatem Trinitatis dicantur una persona, et non tres personae. 
+              Ut enim est illis commune nomen essentiae, ita ut singulus quisque 
+              dicatur essentia, sic illis commune est personae vocabulum.</quote>
+            <bibl>XX</bibl>
+          </cit>
+          <cit>
+            <quote xml:id="pll1d23c4-Qd1e3517">Quid igitur restat, nisi ut fateamur, loquendi necessitate a Graecis <!-- 151 --> 
+              et Latinis parta haec vocabula adversus insidias vel errores 
+              haereticorum? Cumque conaretur humana inopia loquendo proferre 
+              ad hominum sensus, quod in secretario mentis de Deo tenet sive 
+              per piam fidem sive per qualemcumque intelligentiam, timuit dicere 
+              tres essentias, ne intelligeretur in illa summa aequalitate ulla 
+              diversitas. Rursus non poterat dicere, non esse tria quaedam; quod 
+              quia dixit <name ref="#Sabellius">Sabellius</name>, in haeresim lapsus est. Quaesivit ergo, quid 
+              tria diceret, et dixit tres personas sive tres substantias secundum 
+              Graecos.</quote>
+            <bibl>XX</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d23c4-d1e3530">
+          <cit>
+            <quote xml:id="pll1d23c4-Qd1e3534">Quod enim de personis secundum nostram, hoc de substantiis 
+              secundum Graecorum consuetudinem oportet intelligi. Sic enim 
+              dicunt illi tres substantias, unam essentiam, id est tres hypostases, 
+              unam usiam: quemadmodum non dicimus tres personas, unam essentiam 
+              vel substantiam;</quote>
+            <bibl>XXX</bibl>
+          </cit>
+          <cit>
+            <quote xml:id="pll1d23c4-Qd1e3543">quamquam et illi, si vellent, sicut 
+              dicunt tres substantias, tres hypostases, possent dicere tres personas, 
+              tria <sic>prosopa</sic>. Illud autem maluerunt dicere, quia fortasse secundum 
+              linguae suae consuetudinem aptius dicitur.</quote>
+            <bibl>XXX</bibl>
+          </cit>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

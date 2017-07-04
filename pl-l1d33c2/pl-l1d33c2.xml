@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 33, Capitulus 2</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 33, Capitulus 2</title>
+          <date when="2015-12-30">December 30, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-12-30">December 30, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d33c2">
+        <head xml:id="pll1d33c2-Hd1e3496">Librum I, Distinctio 33, Capitulus 2</head>
+        <!-- Quomodo proprietates possint esse in natura Dei, 
+            nec eam determinent -->
+        <p xml:id="pll1d33c2-d1e3501">Sed forte quaeres, cum hae proprietates non possint esse in 
+          personis, quin eas determinent, quomodo in essentia divina esse 
+          possunt, ita ut non eam determinent.</p>
+        <p xml:id="pll1d33c2-d1e3504">Respondeo tibi et hic cum <name ref="#HilaryOfPoitiers">Hilario</name>: 
+          <cit>
+            <quote xml:id="pll1d33c2-Qd1e3511">Ego nescio, non requiro, 
+              et consolabor me tamen. Archangeli nesciunt, Angeli non 
+              audierunt, saecula non tenent, Propheta non sensit, Apostolus non 
+              interrogavit, Filius ipse non edidit. Cesset ergo dolor quaerelarum; 
+              non putet homo sua intelligentia generationis sacramentum posset 
+              consequi. Absolute tamen intelligendus est Pater et Filius,</quote>
+            <bibl>Hilarius, De Trinitate, II, n. 9, 10, 11 (PL 10:58)</bibl>
+          </cit>
+          et Spiritus 
+          sanctus. 
+          <cit>
+            <quote xml:id="pll1d33c2-Qd1e3520">Stat in hoc fine intelligentia verborum: Est Filius 
+              a Patre, qui est unigenitus ab ingenito, progenies a parente, 
+              vivus a vivo, non natura deitatis alia et alia, quia ambo unum.</quote>
+            <bibl>Hilarius, De Trinitate, II, n. 9, 10, 11 (PL 10:58)</bibl>
+          </cit>
+          <cit>
+            <quote xml:id="pll1d33c2-Qd1e3529">Hoc credendo incipe, percurre, persiste; etsi non perventurum 
+              sciam, tamen gratulabor profecturum. Qui enim pie infinita prosequitur, 
+              etsi non contingat, aliquando tamen proficiet prodeundo. 
+              Sed ne te inseras in illud secretum, et arcano inopinabilis nativitatis 
+              ne te immergas, summam intelligentiae comprehendere praesumens; 
+              sed intellige incomprehensibilia esse.</quote>
+            <bibl>Hilarius, De Trinitate, II, n. 9, 10, 11 (PL 10:58)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d33c2-d1e3537">His  aliisque multis evidenter ostenditur, nobis nullatenus licere 
+          <cit>
+            <quote xml:id="pll1d33c2-Qd1e3541" ana="#prov25_27">maiestatem perscrutari,</quote>
+            <bibl>Proverbia 25:27</bibl>
+          </cit>
+          ius ponere potestati, modum circumscribere 
+          infinito.</p>
+        <p xml:id="pll1d33c2-d1e3550">Verumtamen nondum desistunt impatientiae spiritu agitati, sed 
+          opinionem suam etiam Sancorum auctoritatibus munire conantur, 
+          quibus ostendere volunt, proprietatem, qua Pater est Pater, et proprietatem, 
+          qua Filius est Filius, non esse Deum; ad hoc inducentes 
+          verba <name ref="#Augustine">Augustini</name> super illum locum <title ref="#ps">Psalmi</title>: 
+          <cit> <!-- dbcheck psalm ref -->
+            <quote xml:id="pll1d33c2-Qd1e3562" ana="#ps68:3">Et non est substantia,</quote>
+            <bibl>Psalmus 68:3</bibl>
+          </cit>
+          ita dicentis: 
+          <cit>
+            <quote xml:id="pll1d33c2-Qd1e3571">Deus est quaedam substantia. Unde etiam in 
+              fide catholica sic aedificamur, ut dicamus, Patrem et Filium et Spiritum 
+              sanctum unius esse substantiae. Quid est unius substantiae? 
+              <sic>Quiquid</sic> est Pater, quod Deus est, hoc est Filius, hoc Spiritus 
+              sanctus. Cum autem Pater est, non illud est quod est. Pater 
+              enim non ad se, sed ad Filum dicitur; ad se autem Deus dicitur. 
+              Eo ergo quod vel quo Deus est, substantia est. Et quia eiusdem 
+              substantiae est Filius, proculdubio et Filius est Deus. At vero quod 
+              Pater est, quia non substantiae est, sed refertur ad Filium, non 
+              sic dicimus, Filium Patrem esse, sicut dicimus, Filium Deum esse.</quote>
+            <bibl>Augustinus, Enarratio in Psalmus 68:3, sermo 1, n. 5 (PL 36:844)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d33c2-d1e3582">Ex his verbis significari dicunt, quod proprietas Patris vel 
+          proprietas Filii non sit Deus vel essentia divina. Cum enim dicit: 
+          Eo quod Deus est, substantia est, sed quod Pater est, substantiae 
+          non est; aperte, inquiunt, ostendit, id esse substantiam, quo 
+          Deus est; id vero quo Pater est, non esse substantiam. Item cum 
+          ait: Pater non illud est quod est, ostendit, eum non esse Patrem, 
+          eo quod substantia est. Non enim simpliciter dixit: Pater non est 
+          illud quod est; sed ait: Cum Pater est, non illud est quod est, significans, 
+          quo Pater est non esse illud quo est, id est essentiam. 
+          Haec illi ita exponentes, sua commenta simplicibus et incautis vera 
+          videri faciunt.</p>
+        <p xml:id="pll1d33c2-d1e3585">Nos autem aliter ista intelligenda fore dicimus. Dicens enim: 
+          Eo quo Deus est, substantia est; sed quod Pater est, substantiae 
+          non est, hoc intelligi voluit, quia essentia Deus est, et 
+          <!-- 212 --> 
+          deitate substantia est. Eo enim substantia est, quo Deus est, et e 
+          converso, cuius ea est deitas, quae substantia, et substantia, quae 
+          deitas; sed quod Pater est, non est substantiae, id est, non quo 
+          Pater est, eo substantia est, quia proprietate generationis Pater est, 
+          qua substantia non est. Ipsam tamen proprietatem substantiam esse 
+          non negavit. Ita etiam illud intelligendum est quod ait: Cum Pater 
+          est, non illud est quod est, id est, non illo Pater est, quod vel quo 
+          ipse est, id est essentia, sed notione.</p>
+        <p xml:id="pll1d33c2-d1e3590">Item illis verbis <name ref="#Augustine">Augustini</name> vehementer insistunt superius 
+          positis, scilicet Verbum, secundum quod sapientia est et essentia, 
+          hoc est quod Pater; secundum quod Verbum, non hoc est quod 
+          Pater. Si, inquiunt, Verbum non est hoc quod Pater, secundum 
+          quod est verbum, id ergo, quo Verbum est, non est illud quod 
+          Pater est; proprietas igitur, qua Verbum est, non est id quod Pater 
+          est; non est igitur divina essentia.</p>
+        <p xml:id="pll1d33c2-d1e3596">Ad quod dicimus, quia licet secundum quod Verbum non sit 
+          hoc quod Pater est, ea tamen proprietas qua Verbum est, id est 
+          quod Pater est, id est divina essentia, sed non est hypostasis Patris.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 16, Capitulus 1</title>
+        <author>Petrus Lombardus</author>
+        <editor></editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.10-dev-master">
+          <title>Librum I, Distinctio 16, Capitulus 1</title>
+          <date when="2015-10-29">October 29, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher></publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-10-29">October 29, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-10-29" who="#JW" status="draft" n="2015.10">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d16c1">
+        <head>Librum I, Distinctio 16, Capitulus 1</head>
+        <!-- De missione Spiritus sancti, quae fit duobus modis, visibiliter et invisibiliter -->
+        <p xml:id="pll1d16c1-d1e3477">Nunc de Spiritu sancto videndum est, praeter illam ineffabilem 
+          et aeternam processionem, qua procedit a Patre et Filio, et 
+          non a se ipso, quae sit eius temporalis processio, quae dicitur 
+          missio sive donatio.</p>
+        <p xml:id="pll1d16c1-d1e3480">Ad quod dicimus, quia sicut Filius duobus modis dicitur 
+          mitti: uno, quo visibiliter apparuit, altero, quo invisibiliter castis 
+          mentibus percipitur; ita et Spiritus sanctus a Patre et Filio ac 
+          se ipso duobus modis procedere sive mitti sive dari dicitur: uno 
+          visibiliter, altero invisibiliter. Datus est enim visibilis creaturae 
+          demonstratione, sicut in die Pentecostes aliisque vicibus, et datur 
+          quotidie invisibiliter illabendo mentibus fidelium.</p>
+        <p xml:id="pll1d16c1-d1e3483">Et primo agamus de illo missionis modo, qui fit visibili 
+          specie.</p>
+        <p xml:id="pll1d16c1-d1e3487">De hoc <ref><name ref="#Augustine">Augustinus</name> in II libro <title ref="#deTrinitate">De Trinitate</title></ref> ita ait: 
+          <cit>
+            <quote xml:id="pll1d16c1-Qd1e3498">In promptu est intelligere de Spiritu sancto, cur missus et ipse 
+              dicatur. Facta est enim quaedam creaturae species ex tempore, in 
+              qua visibiliter ostenderetur Spiritus sanctus, sive cum in ipsum 
+              Dominum corporali specie columbae descendit, sive cum die Pentecostes 
+              factus est subito de caelo sonus, quasi ferretur flatus vehemens, 
+              et visae sunt illis linguae divisae sicut ignis, qui et insedit 
+              super unumquemque eorum. Haec operatio visibiliter expressa, 
+              et oculis oblata mortalibus, missio Spiritus sancti dicta est, non ut 
+              appareret eius ipsa substantia, qua et ipse invisibilis et incommutabilis 
+              est, sicut Pater et Filius, sed ut, exterioribus visis, corda 
+              hominum commota a temporali manifestatione venientis, ad occultam 
+              <!-- 103 --> 
+              aeternitatem semper praesentis converterentur.</quote>
+            <bibl>Augustine, De Trinitate, II, c. 5, n. 10 (PL 42:851)</bibl>
+          </cit>
+          Ecce his 
+          verbis aperit <name ref="#Augustine">Augustinus</name> illum modum missionis, qui visibiliter 
+          exhibetur, cum tamen ipse Spiritus in sui natura non videatur, 
+          qui nec in illis creaturis magis erat quam in aliis, sed ad aliud. 
+          In illis enim erat, ut per eas ad homines venientes ostenderetur 
+          esse in illis, ad quos illae creaturae veniebant. Non enim Spiritus 
+          sanctus temporali motu tunc venit vel descendit in homines, 
+          sed per temporalem motum creaturae significata est spiritualis et 
+          invisibilis Spiritus sancti infusio. Et ut apertius dicam, per illum 
+          modum missionis Spiritus sancti corporaliter exhibitum, monstrata 
+          est spiritualis et interior missio Spiritus sancti sive donatio, de 
+          qua agendum est.</p>
+        <p xml:id="pll1d16c1-d1e3511">Sed prius quaerendum est, cum Filius dicatur minor Patre 
+          secundum missionem, qua in forma creata apparuit, cur et Spiritus 
+          sanctus non dicatur similiter minor Patre, cum in forma 
+          creata apparuerit.</p>
+        <p xml:id="pll1d16c1-d1e3514">Nam de Filio, quod minor sit Patre secundum formam, qua 
+          missus apparuit, aperte ostendit <ref><name ref="#Augustine">Augustinus</name> in IV libro <title ref="#deTrinitate">De Trinitate</title></ref> 
+          dicens:
+          <cit>
+            <quote xml:id="pll1d16c1-Qd1e3525">
+              <cit>
+                <quote xml:id="pll1d16c1-Qd1e3529" ana="#gal4_4">Misit Deus Filium suum factum ex muliere, 
+                  factum sub lege,</quote>
+                <bibl>Galatas 4:4</bibl>
+              </cit>
+              usque adeo parvum, ut factum; eo itaque missum, 
+              quo factum. Fateamur ergo factum minorem, et in tantum 
+              minorem in quantum factum, et in tantum factum, in quantum 
+              missum.</quote>
+          </cit>
+          Ecce habes, quia Filius, in quantum est missus, id est 
+          factus, minor est Patre.</p>
+        <p xml:id="pll1d16c1-d1e3539">Cur ergo Spiritus sanctus non dicitur minor Patre, cum et 
+          ipse creaturam assumserit in qua apparuit?</p>
+        <p xml:id="pll1d16c1-d1e3542">Quia aliter Spiritus assumsit creaturam, in qua apparuit, 
+          aliter Filius: nam Filius accepit per unionem, Spiritus vero non. 
+          Filius enim accepit hominem ita, ut fieret homo; Spiritus vero 
+          sanctus non ita accepit columbam, ut fieret columba.</p>
+        <p xml:id="pll1d16c1-d1e3545">De hoc <name ref="#Augustine">Augustinus</name> in II libro <title ref="#deTrinitate">De Trinitate</title> ita ait: 
+          <cit>
+            <quote xml:id="pll1d16c1-Qd1e3555">Ideo 
+              nusquam scriptum est, quod Deus Pater maior sit Spiritu sancto, 
+              vel Spiritus sanctus minor Patre, quia non sic est <sic>assumta</sic> creatura 
+              <!-- p. 104 --> 
+              in qua appareret Spiritus sanctus, sicut <sic>assumtus</sic> est Filius 
+              hominis, in qua forma ipsius Dei Verbi persona praesentaretur, 
+              non ut haberet Verbum Dei, sicut alii Sancti sapientes, sed quod 
+              ipsum Verbum erat. Aliud est enim Verbum in carne, aliud Verbum 
+              caro, id est, aliud est Verbum in homine, aliud Verbum homo. 
+              Caro enim pro homine posita est in eo quod ait: 
+              <cit>
+                <quote xml:id="pll1d16c1-Qd1e3567" ana="#io1_14">Verbum caro 
+                  factum est.</quote>
+                <bibl>Ioannes 1:14</bibl>
+              </cit>
+              Non ergo sic assumta est creatura, in qua apparuit 
+              Spiritus sanctus, sicut assumta est caro illa et humana forma ex 
+              <name ref="#Mary">virgine Maria</name>. Non enim columbam vel illum flatum vel ignem 
+              illum beatificavit, sibi que in unitatem personae coniunxit in aeternum.</quote>
+            <bibl>Augustinus, De Trinitate, II, c. 6, n. 11 (PL 42:851)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d16c1-d1e3584">Ex praedictis aperte ostensum est, secundum quid Filius dicatur 
+          minor Patre, et quare Filius dicatur minor Patre, et non 
+          Spiritus sanctus.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 48, Capitulus 3</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 48, Capitulus 3</title>
+          <date when="2016-01-26">January 26, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-01-26">January 26, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+          <witness xml:id="Z" n="zbsSII72" xml:base="http://www.e-codices.unifr.ch/metadata/iiif/zbs-SII-0072/canvas/">Solothurn, Zentralbibliothek, Cod. S II 72</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <cb ed="#Z" n="53ra" select="zbs-SII-0072_053r.json"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d48c3">
+        <head xml:id="pll1d48c3-Hd1e3513">Librum I, Distinctio 48, Capitulus 3</head>
+        <head xml:id="pll1d48c3-Hd1e3516" type="questionTitle">Utrum placuerit viris sanctis, quod Christus pateretur et moreretur.</head>
+        <p xml:id="pll1d48c3-d1e3519">Ex quo solvitur quaestio, qua quaeri solet, utrum viris sanctis 
+          placere debuerit, quod Christus pateretur vel occideretur. Debuit 
+          enim eis placere intuitu nostrae redemptionis, sed non intuitu eius 
+          cruciatus. Voluerunt ergo ac vehementer cupierunt, Christum mori 
+          propter liberationem hominis et impletionem divinae voluntatis; 
+          sed non voluerunt delectatione ipsius afflictionis. De eodem ergo 
+          laetabantur et tristabantur, sed ob aliud gaudebant et propter 
+          aliud dolebant. 
+          <cb ed="#Z" n="53rb" select="zbs-SII-0072_053r.json"/>
+          Volebant igitur mori Christum pro hominis redemptione, 
+          et tamen de morte ipsius, diversis de causis, corda eorum 
+          varie movebantur.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

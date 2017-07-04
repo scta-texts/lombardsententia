@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum II, Distinctio 3, Capitulus 4</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.1-dev">
+          <title>Librum II, Distinctio 3, Capitulus 4</title>
+          <date when="2016-03-27">March 27, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-27">March 27, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+          <witness xml:id="Z" n="zbsSII72" xml:base="http://www.e-codices.unifr.ch/metadata/iiif/zbs-SII-0072/canvas/">Solothurn, Zentralbibliothek, Cod. S II 72</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="0.0.1">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        
+      </div>
+    </front>
+  	<body>
+  		<div xml:id="pl-l2d3c4">
+  			<head xml:id="pll2d3c4-Hd1e3508">Librum II, Distinctio 3, Capitulus 4</head>
+  			<head xml:id="pll2d3c4-Hd1e3511" type="questionTitle">An boni vel mali creati sint, et an aliqua mora fuerit 
+  				inter creationem et lapsum.</head>
+  			<p xml:id="pll2d3c4-d1e3514">Illud quoque investigatione dignum videtur, quod et a pluribus 
+  				quaeri solet, utrum boni vel mali, iusti vel iniusti creati 
+  				sint Angeli, et an aliqua mora fuerit inter creationem et lapsum, 
+  				vel sine mora in ipso creationis exordio ceciderint.</p>
+  			<p xml:id="pll2d3c4-d1e3517">Putant enim quidam, Angelos, qui ceciderunt, creatos esse 
+  				malos et non libero arbitrio in malitiam declinasse, sed in malitia 
+  				a Deo factos esse, nec aliquam fuisse moram inter creationem et 
+  				lapsum, sed ab initio apostatasse; alios vero creatos fuisse plene 
+  				beatos. Qui opinionem suam muniunt auctoritate <ref><name ref="#Augustine">Augustini</name> <title ref="#DeGenesiAdLitteram">Super Genesim</title></ref> 
+  				ita dicentis: 
+  				<cit>
+  					<quote xml:id="pll2d3c4-Qd1e3528">Non frustra putari potest, ab initio 
+  						temporis diabolum cecidisse, nec cum sanctis Angelis pacatam aliquando 
+  						vixisse et beatum, sed mox apostatasse; unde Dominus 
+  						ait: 
+  						<cit>
+  							<quote xml:id="pll2d3c4-Qd1e3532" ana="#io8_44">Ille homicida erat ab initio et in veritate non stetit,</quote>
+  							<bibl>Ioannes 8:44</bibl>
+  						</cit>
+  						ut <!-- 320 -->
+  						intelligamus, 
+  						<mentioned>quia in veritate non stetit</mentioned>
+  						ex quo creatus est, qui 
+  						staret, si stare voluisset.</quote>
+  					<bibl>Augustinus, De Genesi ad Litteram, XI, c. 16, n. 21 (PL 31, 437)</bibl>
+  				</cit>
+  			</p>
+  			<p xml:id="pll2d3c4-d1e3550">Idem in eodem: 
+  				<cit>
+  					<quote xml:id="pll2d3c4-Qd1e3554">Non frustra, inquit, putandum est, ab 
+  						ipso initio temporis vel conditionis suae diabolum cecidisse et nunquam 
+  						in veritate stetisse. Unde quidam in hanc malitiam libero 
+  						arbitrio non esse flexum, sed in hac, quamvis a Deo, putant esse 
+  						creatum, secundum illud <name ref="#Job">beati Iob</name>
+  						<cit>
+  							<quote xml:id="pll2d3c4-Qd1e3561">Hoc est, inquit, initium 
+  								figmenti Dei, quod fecit Deus, ut illudatur ei ab Angelis eius.</quote>
+  							<bibl>Job 40:19</bibl>
+  						</cit>
+  						Et Propheta ait: 
+  						<cit>
+  							<quote xml:id="pll2d3c4-Qd1e3570" ana="#ps103_26">Draco iste, quem formasti ad illudendum 
+  								ei,</quote>
+  							<bibl>Psalmus 103:26</bibl>
+  						</cit>
+  						tanquam primo factus sit malus, invidus et diabolus, non voluntate 
+  						depravatus.</quote>
+  					<bibl>Augustinus, De Genesi ad Litteram, XI, c. 16, n. 21 (PL 31, 437)</bibl>
+  				</cit>
+  			</p>
+  			<p xml:id="pll2d3c4-d1e3584">His aliisque testimoniis utuntur qui dicunt, Angelos, qui ceciderunt, 
+  				creatos fuisse malos et sine mora corruisse; eos vero qui 
+  				perstiterunt, perfectos et beatos fore creatos, astruunt auctoritate 
+  				<name ref="#Augustine">Augustini</name>, qui <title ref="#DeGenesiAdLitteram">Super Genesim</title> dicit, per caelum significari 
+  				spiritualem creaturam, quae ab exordio quo facta est, et perfecta 
+  				et beata est semper.</p>
+  			<p xml:id="pll2d3c4-d1e3593">Aliis autem videtur omnes Angelos creatos esse bonos et in 
+  				ipso creationis primordio bonos exstitisse, id est sine vitio, istosque 
+  				fuisse, id est innocentes, sed non iustos, id est virtutum 
+  				exercitium habentes. Nondum enim praediti erant virtutibus, quae 
+  				stantibus appositae fuerunt in confirmatione per gratiam, aliis 
+  				per liberum arbitrium superbientibus, et ideo cadentibus. Aliquam 
+  				etiam fuisse morulam aiunt inter creationem et lapsum vel confirmationem. 
+  				Et in illa brevitate temporis omnes boni erant, non 
+  				quidem per usum liberi arbitrii, sed per creationis beneficium; et 
+  				tales erant, qui stare poterant, id est, non cadere per bona creationis, 
+  				et cadere per liberum arbitrium. Poterant enim peccare 
+  				et non peccare, sed non poterant proficere ad meritum vitae, 
+  				nisi gratia superadderetur, quae addita est quibusdam in conformatione.</p>
+  			<!-- 321 -->
+  			<p xml:id="pll2d3c4-d1e3598">Et ad confirmandum hoc, utuntur testimoni <ref><name ref="#Augustine">Augustini</name>, qui 
+  				<title ref="#DeGenesiAdLitteram">Super Genesim</title></ref> dicit, angelicam naturam primo informiter creatam 
+  				et <mentioned>caelum</mentioned> dictam, postea formatam et <mentioned>lucem</mentioned> appellatam, 
+  				quando ad Creatorem est conversa, perfecta dilectione ei inhaerens. 
+  				Unde prius dictum est:
+  				<cit>
+  					<quote xml:id="pll2d3c4-Qd1e3615">In principio creavit Deus caelum 
+  						et terram,</quote>
+  					<bibl>xxx</bibl>
+  				</cit>
+  				et postea subditur: 
+  				<cit>
+  					<quote xml:id="pll2d3c4-Qd1e3624">Dixit Deus: Fiat lux, et facta 
+  						est lux,</quote>
+  					<bibl>xxx</bibl>
+  				</cit>
+  				quia primo agitur de creatione spiritualis naturae informis, 
+  				postea de formatione eiusdem.</p>
+  			<p xml:id="pll2d3c4-d1e3632">Ratio quoque obviat illis qui dicunt, Angelos creatos fuisse 
+  				malos. 
+  				<cit>
+  					<quote xml:id="pll2d3c4-Qd1e3636">Non enim potuit Creator optimus auctor mali esse; et ideo 
+  						totum bonum erat, quod ex ipso illis erat, et totum bonum erat, 
+  						quoniam ex ipso totum erat. Hoc modo probatur, quod boni erant 
+  						omnes Angeli, quando primo facti sunt,</quote>
+  					<bibl>2</bibl>
+  				</cit>
+  				sed ea bonitate, quam 
+  				natura incipiens acceperat.</p>
+  			<p xml:id="pll2d3c4-d1e3644">Ideoque <name ref="#Augustine">Augustinus</name>, exterminans opinionem eorum qui 
+  				Angelos creatos fuisse malos putant, auctoritate et ratione probat 
+  				bonos fuisse creatos; et verba praemissa <name ref="#Job">beati Iob</name>, quae illi pro 
+  				se inducebant, quomodo sint intelligenda aperit, ita dicens <title ref="#DeGenesiAdLitteram">Super 
+  					Genesim</title>: 
+  				<cit>
+  					<quote xml:id="pll2d3c4-Qd1e3657">Omnia, inquit, fecit Deus valde bona; naturam igitur 
+  						Angelorum bonam fecit. Et quia iniustum est, ut nullo merito hoc 
+  						in aliquo Deus damnet quod creavit, non naturam, sed voluntatem 
+  						malam puniendam esse credendum est, nec eius naturam esse 
+  						significatam, cum dicitur: 
+  						<cit>
+  							<quote xml:id="pll2d3c4-Qd1e3661">Hoc est initium figmenti Dei</quote>
+  							<bibl/>
+  						</cit>
+  						etc., sed 
+  						corpus aerum, quod tali voluntati aptavit Deus, vel ipsam ordinationem 
+  						Dei, in qua eum, etiam invitum, fecit utilem bonis, vel 
+  						ipsius Angeli facturam; quia etsi praesciret Deus, voluntate malum 
+  						futurum, fecit tamen eum, praevidens, quanta de illo sua 
+  						bonitate esse facturus. <mentioned>Figmentum</mentioned> ergo <mentioned>Dei</mentioned> dicitur, quia, cum 
+  						sciret Deus eum voluntate malum futurum, ut bonis noceret, creavit 
+  						tamen illum, ut de illo bonis prodesset; hoc autem fecit, 
+  						<cit>
+  							<quote xml:id="pll2d3c4-Qd1e3675">ut 
+  								illudatur ei.</quote>
+  							<bibl>xxx</bibl>
+  						</cit>
+  						Illuditur enim ei, cum Sanctis proficit tentatio eius; 
+  						sicut et mali homines - quos Deus, malos futuros praevidens, creavit 
+  						tamen ad Sanctorum utilitatem - luduntur, cum praestatur 
+  						<!-- 322 --> 
+  						Sanctis eorum tentatione profectus. Sed ipse est initium, quia praecedit 
+  						antiquitate et principatu malitiae. Haec autem illusio fit 
+  						angelis malis et hominibus per Angelos sanctos, quia subdit eis 
+  						angelos malos et homines malos, ut, non quantum nituntur, sed 
+  						quantum sinuntur, possint.</quote>
+  					<bibl>xxx</bibl>
+  				</cit>
+  			</p>
+  			<p xml:id="pll2d3c4-d1e3691">Ecce aperte ostendit, qualiter praedicta verba <name ref="#Job">Iob</name> intelligenda 
+  				sint, et angelicam naturam bonam creatam asseruit.</p>
+  			<p xml:id="pll2d3c4-d1e3697">Deinde, qualiter verba Domini, quae supra posuit, accipienda 
+  				sint aperit, ubi etiam sua quae praedixit verba determinat, evidenter 
+  				docens, Angelos bonos fuisse creatos, et post creationem, 
+  				interposita aliqua morula, cecidisse, ita inquiens: 
+  				<cit>
+  					<quote xml:id="pll2d3c4-Qd1e3701">Quod putatur 
+  						diabolus nunquam in veritate stetisse, nunquam beatam vitam duxisse, 
+  						sed ab initio cecidisse, non sic accipiendum est, ut malus 
+  						a bono Deo esse creatus putetur, quia ab initio non cecidisse diceretur: 
+  						non enim cecidit, si talis, id est malus, factus est. A quo 
+  						enim caderet? Factus ergo prius, statim a veritate se avertit, 
+  						propria potestate delectatus, beataeque vitae dulcendinem non gustavit, 
+  						quam acceptam non fastidivit, sed nolendo accipere, amisit. 
+  						Sui ergo casus praescius esse non potuit, quia sapientia 
+  						fructus est pietatis. Continuo autem ut factus est, cecidit, non 
+  						ab eo quod accepit, sed ab eo quod accepisset, si Deo subdi voluisset.</quote>
+  					<bibl>3</bibl>
+  				</cit>
+  				Ecce hic aperte declarat, Angelos bonos esse creatos et 
+  				post creationem cecidisse; et fuit ibi aliqua morula, licet brevissima.</p>
+  			<p xml:id="pll2d3c4-d1e3709">Quod <name ref="#Origen">Origines</name> confirmat <title>Super Ezechielem</title> ita dicens:
+  				<cit>
+  					<quote xml:id="pll2d3c4-Qd1e3719">Serpens, hostis contrarius veritate, non tamen a principio neque 
+  						statim super pectus et ventrem suum ambulavit; sicut <name>Adam</name> et <name>Eva</name> 
+  						non statim peccaverunt, ita et serpens aliquando non serpens, cum 
+  						in paradiso deliciarum moraretur; Deus enim malitiam non fecit.</quote>
+  					<bibl>xxx</bibl>
+  				</cit>
+  				Ecce aperte dicit, post creationem, interposita morula, cecidisse.</p>
+  			<!-- p. 322 -->
+  			<p xml:id="pll2d3c4-d1e3735">Ideoque verba illa sic accipienda videntur: 
+  				<cit>
+  					<quote xml:id="pll2d3c4-Qd1e3739" ana="#io8_44">Homicida erat 
+  						ab initio vel mendax,</quote>
+  					<bibl>Ioannes 8:44</bibl>
+  				</cit>
+  				id est statim post initium, quando sibi 
+  				Dei aequalitatem promisit et se ipsum occidit, qui <mentioned>homo</mentioned> dicitur 
+  				in Evangelio. Nec 
+  				<cit>
+  					<quote xml:id="pll2d3c4-Qd1e3751" ana="#is14_13">in veritate stetit,</quote>
+  					<bibl>Isaias 14:13</bibl>
+  				</cit>
+  				quia in ea non fuit, 
+  				sed <mentioned>ab initio</mentioned> temporis, id est statim post initium temporis, apostatavit. 
+  				Potest etiam et sic accipi illud: 
+  				<cit>
+  					<quote xml:id="pll2d3c4-Qd1e3763" ana="#io8_44">Ab initio homicida 
+  						fuit vel mendax,</quote>
+  					<bibl>Ioannes 8:44</bibl>
+  				</cit>
+  				id est, ex quo homo conditus fuit, quem per 
+  				invidiam in mortem praecipitavit et fallaciter seduxit.</p>
+  			<p xml:id="pll2d3c4-d1e3771">Ex praedicitis igitur liquet, Angelos omnes bonos esse creatos, 
+  				et post creationem quosdam cecidisse a bono quod habuissent, si 
+  				perstitissent.</p>
+  		</div>
+  	</body>
+  </text>
+</TEI>

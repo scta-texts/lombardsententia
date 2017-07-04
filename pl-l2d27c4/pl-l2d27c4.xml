@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber I, Distinctio 27, C. 4</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber I, Distinctio 27, C. 4</title>
+          <date when="2017-07-04">July 4, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative
+              Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="Quaracchi1916">Quaracchi 1916 Volume 1</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-07-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l2d27c4">
+        <head>Liber I, Distinctio 27, C. 4</head>
+        <head type="question-title">In quibus bonis sit liberum arbitrium.</head>
+        <p> Quaeritur autem, in quibus bonis contineatur liberum arbitrium. </p>
+        <p> De hoc Augustinus in libro [ Retractationum 1 ita ait: « ln mediis quidem bonis
+          invenitur liberum voluntatis arbitrium, quia et male illo uti possumus; sed f tamen tale
+          'est, ut sine illo recte vivere nequeamus. Bonus autem usus eius iam virtus est, quae 9 in
+          magnis reperitur bonis, quibus male uti nullus potest. Et quia bona'et magna et media et
+          minima ex Deo sunt, sequitur ut ex Deo sit etiam bonus usus liberae 'h voluntatis, qui
+          virtus est et in magnis numeratur bonis ». </p>
+        <p> Attende diligenter quae dicta sunt, eticonfer .- in unum; sic enim aperietur quod supra
+          quaerebatur. Dixit equidem opus vir- tutis esse bonum usum illorum bonorum, quibus etiam
+          non bene uti possumus, idest mediorum, in quibus posuit liberum arbi- trium, cuius **
+          quoque bonum usum dixit esse virtutem. Quod si» est., non est ergo opus virtutis, quod
+          þsupra dixit, quia aliud est virtus, aliudz opus eius. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

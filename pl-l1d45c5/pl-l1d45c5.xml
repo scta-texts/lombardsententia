@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 45, Capitulus 5</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 45, Capitulus 5</title>
+          <date when="2016-01-25">January 25, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-01-25">January 25, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+          <witness xml:id="Z" n="zbsSII72" xml:base="http://www.e-codices.unifr.ch/metadata/iiif/zbs-SII-0072/canvas/">Solothurn, Zentralbibliothek, Cod. S II 72</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <cb ed="#Z" n="49va" select="zbs-SII-0072_049v.json"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d45c5">
+        <head xml:id="pll1d45c5-Hd1e3504">Librum I, Distinctio 45, Capitulus 5</head>
+        <!-- Quibus modis accipitru Dei voluntas -->
+        <p xml:id="pll1d45c5-d1e3509">Hic non est praetereundum nobis, quod sacra Scriptura de 
+          voluntate Dei variis modis loqui consuevit; et non est Dei voluntas 
+          diversa, sed locutio diversa est de voluntate, quia nomine 
+          <!-- 275 -->
+          voluntatis diversa accipit. Nam voluntas Dei vere ac proprie dicitur 
+          quae in ipso est, et ipsius essentia est; et haec una est, nec 
+          multiplicitatem recipit nec mutabilitatem, quae inexpleta esse 
+          non potest.</p>
+        <p xml:id="pll1d45c5-d1e3514">De qua <name>Propheta</name> ait: 
+          <cit>
+            <quote xml:id="pll1d45c5-Qd1e3521" ana="#ps113_11">Omnia quaecumque voluit, Dominus 
+              fecit.</quote>
+            <bibl>Psalmus 113:11</bibl>
+          </cit>
+          Et <name ref="#Paul">Apostolus</name>: 
+          <cit>
+            <quote xml:id="pll1d45c5-Qd1e3533" ana="#rom9_19">Voluntati eius quis resistit?</quote>
+            <bibl>Romanos 9:19</bibl>
+          </cit>
+          Et a<cb ed="#Z" n="49vb" select="zbs-SII-0072_049v.json"/>libi: 
+          <cit>
+            <quote xml:id="pll1d45c5-Qd1e3545" ana="#rom12_2">Ut probetis, quae sit voluntas Dei bona et beneplacens 
+              et perfecta.</quote>
+            <bibl>Romanos 12:2</bibl>
+          </cit>
+          Et haec voluntas recte appellatur beneplacitum Dei 
+          sive dispositio.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

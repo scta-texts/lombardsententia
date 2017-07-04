@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 40, Capitulus 1</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 40, Capitulus 1</title>
+          <date when="2016-01-22">January 22, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-01-22">January 22, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d40c1">
+        <head xml:id="pll1d40c1-Hd1e3496">Librum I, Distinctio 40, Capitulus 1</head>
+        <!-- the first two paragaphs here stand outside what is designated as chapter 1. We might need to add an introduction file -->
+        <p xml:id="pll1d40c1-d1e3501">Praedestinatio vero de bonis salutaribus est et de hominibus 
+          salvandis.</p>
+        <p xml:id="pll1d40c1-d1e3504">Ut enim ait <ref><name ref="#Augustine">Augustinus</name> in libro <title>De praedestinatione sanctorum</title>,</ref> 
+          <cit>
+            <quote xml:id="pll1d40c1-Qd1e3516">praedestinatio est gratiae praeparatio, quae sine praescientia 
+              esse non potest. Potest autem sine praedestinatione esse 
+              praescientia. Praedestinatione quippe Deus ea praescivit, quae fuerat 
+              ipse facturus; sed praescivit Deus etiam quae non est ipse facturus, 
+              id est omnia mala.</quote>
+            <bibl>Augustinus, De praedestinatione sanctorum, c. 10, n. 19 (PL 44:974)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d40c1-d1e3524">Praedestinavit eos quos elegit, reliquos vero reprobavit, id est, 
+          ad mortem aeternam praescivit peccaturos.</p>
+        <!-- c. 1 starts here; an aliquis praedestinatus possit damnari, vel reprobus salvari -->
+        <p xml:id="pll1d40c1-d1e3530">Praedestinatorum nullus videtur posse damnari, nec reproborum 
+          aliquis posse salvari.</p>
+        <p xml:id="pll1d40c1-d1e3533">Unde <ref><name ref="#Augustine">Augustinus</name> in libro <title>De correptione et gratia</title>:</ref> 
+          <cit>
+            <quote xml:id="pll1d40c1-Qd1e3545">In 
+              <title ref="#ap">Apocalypsi</title>, inquit, dicitur: 
+              <cit>
+                <quote xml:id="pll1d40c1-Qd1e3552" ana="#ap3_11">Tene quod habes, ne alius accipiat 
+                  coronam tuam.</quote>
+                <bibl>Apocalypsis 3:11</bibl>
+              </cit>
+              Si alius non est accepturus, nisi iste perdiderit, 
+              certus est electorum numerus,</quote>
+            <bibl>Augustinus, De correptione et gratia, c. 13, n. 39 (PL 44:940)</bibl>
+          </cit>
+          id est, non potest augeri vel 
+          minui.</p>
+        <p xml:id="pll1d40c1-d1e3565">Ad hoc autem obiiciunt quidam, nitentes probare, numerum 
+          electorum posse minui et augeri, sic: Posset Deus non apponere 
+          gratiam quibus apponit, et posset subtrahere quibus non subtrahit; 
+          quod si fieret, utique damnarentur; possent ergo damnari isti, 
+          <!-- 250 -->
+          qui tamen salvabuntur; posset itaque minui electorum numerus. 
+          Ita posset etiam augeri, quia posset apponi gratia quibus non apponitur, 
+          per quam salvarentur; possent ergo salvari, habita gratia, 
+          qui tamen sine ea damnabuntur; posset itque augeri numerus 
+          electorum.</p>
+        <p xml:id="pll1d40c1-d1e3570">Quibus respondemus, ex ea ratione dictum esse et verum esse, 
+          numerum electorum non posset augeri vel minui, quia non potest 
+          utrumque simul esse, scilicet, ut aliquis salvetur et non sit praedestinatus, 
+          vel ut aliquis praedestinatus sit et damnetur. Intelligentia 
+          enim conditionis implicitae veritatem facit in dicto, et impossibilitatem 
+          in vero. Si vero simpliciter intelligatur, impossibilitas 
+          non admittitur, ut cum dicitur: Praedestinatus potest vel non potest 
+          damnari, et reprobus potest salvari. In his enim et huiusmodi 
+          locutionibus ex ratione dicti diiudicanda haec accipiantur dicta, 
+          atque alia, si per disiunctionem, ut supra, cum de praescientia 
+          agebatur, praetaxatum est. Si enim, cum dicis: Praedestinatus non 
+          potest damnari, intelligas ita: id est, non potest esse, ut praedestinatus 
+          sit et damnetur, verum dicis, quia coniunctim intelligis; 
+          falsum autem, si disiunctim, ut si intelligas, istum non posse damnari, 
+          quem dico praedestinatum. Potuit enim non esse praedestinatus, 
+          et ita damnaretur.</p>
+        <p xml:id="pll1d40c1-d1e3573">Verumtamen adhuc instant et secundum coniunctionem argumentando 
+          ita procedunt. Non, inquiunt, potest esse, ut aliquis praedestinatus 
+          sit et damnetur. Utrumque istorum simul esse non potest; 
+          sed alterum horum non potest non esse, scilicet, quin iste sit 
+          praedestinatus; ab aeterno enim praedestinatus est, et non potest 
+          modo non esse praedestinatus. Cum ergo impossibile sit, simul 
+          utrumque esse, et impossibile sit, alterum non esse, videtur, non 
+          posse alterum esse, scilicet ut damnetur. Quod si est, ergo non 
+          potest esse, ut non salvetur.</p>
+        <p xml:id="pll1d40c1-d1e3576">In huius quaestionis solutione mallem alios audire quam docere; 
+          dicimus tamen, similem de praescientia posse moveri quaestionem; 
+          ideoque, tam hic quam ibi, unam facimus responsionem 
+          dicentes, determinandum fore illud, cui innititur tota haec quaestio, 
+          scilicet impossibile est, alterum non esse, scilicet, quin iste modo 
+          <!-- 251 --> 
+          sit praedestinatus; ab aeterno enim iste praedestinatus est. Distinguendum 
+          enim est, cum ait: iste non potest modo non esse praedestinatus, 
+          vel non potest modo esse, quin sit praedestinatus. Hoc 
+          enim et coniunctim et disiunctim intelligi potest. Non enim potest 
+          esse, ut ab aeterno sit praedestinatus et modo non sit praedestinatus, 
+          nec potest esse simul, ut sit praedestinatus et non sit praedestinatus; 
+          sed tamen potuit esse ab aeterno, quod non esset praedestinatus, 
+          et potuit non esse ab aeterno praedestinatus. Et sicut 
+          ab aeterno Deus potuit eum non praedestinare, ita conceditur a 
+          quibusdam, quod et modo potest Deus eum non praedestinasse. Ab 
+          aeterno ergo potest Deus non praedestinasse eum; ergo potest iste 
+          non fuisse praedestinatus. Si vero non fuisset praedestinatus, nec 
+          modo esset praedestinatus; ergo potest modo non esse praedestinatus. 
+          Ita et de praescientia et praescitis dicunt; quod in actionibus 
+          vel operationibus Dei et hominum nullatenus concedunt. 
+          Ex quo enim aliquid factum est vel dictum, non concedunt, quod 
+          possit non esse vel non fuisse, immo impossibile est, non esse vel 
+          non fuisse quod factum est vel dictum, referentes possibilitatem 
+          vel impossibilitatem ad naturam rei existentis. Cum vero de praescientia 
+          vel praedestinatione Dei agitur, possibilitas vel impossibilitas 
+          ad potentiam Dei refertur, quae semper eadem fuit et est, 
+          quia praedestinatio, praescientia, potentia unum in Deo est.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

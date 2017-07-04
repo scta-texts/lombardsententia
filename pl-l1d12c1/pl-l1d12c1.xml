@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 12, Capitulus 1</title>
+        <author>Petrus Lombardus</author>
+        <editor></editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.10-dev-master">
+          <title>Librum I, Distinctio 12, Capitulus 1</title>
+          <date when="2015-10-24">October 24, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher></publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-10-24">October 24, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-10-24" who="#JW" status="draft" n="2015.10">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d12c1">
+        <head>Librum I, Distinctio 12, Capitulus 1</head>
+        <!-- Utrum Spiritus sanctus prius vel plenius procedat a Patre quam a Filio. -->
+        <p xml:id="pll1d12c1-d1e3477">Item quaeritur, cum Spiritus sanctus procedat a Patre et Filio, 
+          utrum prius vel magis processerit a Patre quam a Filio; quod nititur 
+          haereticus ostendere ita dicens: Si processit Spiritus sanctus 
+          de Patre, processit utique aut nato iam Filio, aut non nato Filio. 
+          Si vero iam nato Filio processit, ante natus est Filius, quam processerit 
+          Spiritus sanctus: praecessit igitur nativitas Filii processionem 
+          Spiritus sancti. Si autem processit a Patre non genito Filio, 
+          ante processit quam Filius genitus fuerit.</p>
+        <p xml:id="pll1d12c1-d1e3480">His et huiusmodi quaestionibus magis laboriosis quam fructuosis 
+          respondet <ref><name ref="#Augustine">Augustinus</name> in XV libro <title ref="#deTrinitate">De Trinitate</title></ref> dicens: 
+          <cit>
+            <quote xml:id="pll1d12c1-Qd1e3491">In illa summa Trinitate, quae Deus est, intervalla temporum 
+              nulla sunt, per quae possit ostendi aut saltem requiri, utrum prius 
+              de Patre natus sit Filius, et postea de ambobus processerit Spiritus 
+              sanctus.</quote>
+            <bibl>Augustinus, De Trinitate, XV, c. 26, n. 45 (PL 42:1092)</bibl>
+          </cit>
+          <cit>
+            <quote xml:id="pll1d12c1-Qd1e3500">Nunquid ergo possumus quaerere, utrum iam pro<!-- p. 82 -->cesserat 
+              Spiritus sanctus, de Patre quando natus est Filius, an 
+              nondum processerat et, illo nato, de utroque processit? Non possunt 
+              prorsus ista ibi quaeri, ubi nihil ex tempore inchoatur, ut 
+              consequenti perficiatur in tempore. Ideo qui potest intelligere sine 
+              tempore generationem Filii de Patre, intelligat sine tempore processionem 
+              Spiritus sancti de utroque.</quote>
+            <bibl>Augustinus, De Trinitate, XV, c. 26, n. 47 (PL 42:1092)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d12c1-d1e3510">Ecce his verbis absoluta est quaestio illa, qua quaerebatur, 
+          utrum prius processerit Spiritus sanctus a Patre quam a Filio.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

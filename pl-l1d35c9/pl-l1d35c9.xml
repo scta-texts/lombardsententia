@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 35, Capitulus 9</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 35, Capitulus 9</title>
+          <date when="2016-01-06">January 06, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-01-06">January 06, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d35c9">
+        <head xml:id="pll1d35c9-Hd1e3496">Librum I, Distinctio 35, Capitulus 9</head>
+        <!-- Quomodo omnia dicuntur esse in Deo et vita in eo. -->
+        <p xml:id="pll1d35c9-d1e3501">Propterea omnia dicuntur esse in Deo et fuisse ab aeterno.</p>
+        <p xml:id="pll1d35c9-d1e3504">Unde <name ref="#Augustine">Augustinus</name> <title>Super Genesim</title>: 
+          <cit>
+            <quote xml:id="pll1d35c9-Qd1e3514">Haec visibilia, inquit, 
+              antequam fierent, non erant. Quomodo ergo Deo nota erant 
+              quae non erant? Et rursus: Quomodo ea faceret, quae sibi nota 
+              non erant? non enim quidquam fecit ignorans. Nota ergo fecit, non 
+              facta cognovit. Proinde, antequam fierent, et erant, et non erant: 
+              erant in Dei scientia, non erant in sua natura. Ipsi autem Deo non 
+              audeo dicere alio modo innotuisse, cum ea fecisset, quam illo quo 
+              ea noverat, ut faceret, 
+              <cit>
+                <quote xml:id="pll1d35c9-Qd1e3518" ana="#iac1_17">apud quem non est transmutatio, nec vicissitudinis obumbratio.</quote>
+                <bibl>Iacobus 1:17</bibl>
+              </cit>
+            </quote>
+            <bibl>Augustinus, De Genesi ad litteram, V, c. 18, n. 36 (PL 34:333)</bibl>
+          </cit>
+          Ecce hic habes, quia visibilia haec 
+          antequam fierent, in Dei scientia erant.</p>
+        <p xml:id="pll1d35c9-d1e3531">Ex hoc igitur sensu omnia dicuntur esse in Deo, et omne quod 
+          <mentioned>factum est</mentioned> dicitur esset <mentioned>vita in ipso</mentioned>; non ideo, quod creatura sit 
+          <!-- 224 --> 
+          Creator, vel quod ista temporalia essentialiter sint in Deo, sed quia 
+          in eius scientia semper sunt, quae vita est.</p>
+        <p xml:id="pll1d35c9-d1e3543">Inde est etiam, quod omnia dicuntur ei esse praesentia, non 
+          solum ea quae sunt, sed etiam ea quae praeterierunt, et ea quae 
+          futura sunt, secundum illud: 
+          <cit>
+            <quote xml:id="pll1d35c9-Qd1e3547" ana="#rom4_17">Qui vocat ea quae non sunt, tanquam 
+              ea quae sunt:</quote>
+            <bibl>Romanos 4:17</bibl>
+          </cit>
+          <cit>
+            <quote xml:id="pll1d35c9-Qd1e3556">quia ut ait <name ref="#Ambrose">Ambrosius</name> in libro <title>De Trinitate,</title> 
+              ita cognoscit ea quae non sunt, ut ea quae sunt.</quote>
+            <bibl>(xxx PL 16:689)</bibl>
+          </cit>
+          Et hac 
+          ratione omnia dicuntur esse in eo vel apud eum sive ei praesentia.</p>
+        <p xml:id="pll1d35c9-d1e3570">Unde <ref><name ref="#Augustine">Augustinus</name>, super illum locum <title ref="#ps">Psalmi</title></ref> 
+          <cit>
+            <quote xml:id="pll1d35c9-Qd1e3581">
+              <cit>
+                <quote xml:id="pll1d35c9-Qd1e3585" ana="49_11">Et pulcritudo 
+                  agri mecum est,</quote>
+                <bibl>Psalmus 49:11</bibl>
+              </cit>
+              ideo inquit,
+              <mentioned>mecum est,</mentioned> quia apud Deum 
+              nihil praeteriit, nihil futurum est. Cum illo sunt omnia futura, et 
+              ei non detrahuntur iam praeterita. Cum illo sunt omnia cognitione 
+              quadam ineffabili sapientiae Dei.</quote>
+            <bibl>Augustinus, In Psalmo 49:11 (PL 36:577)</bibl>
+          </cit> 
+          Ecce hic aperit <name ref="#Augustine">Augustinus</name>, 
+          ex qua intelligentia accipienda sint huiusmodi verba: Omnia sunt 
+          Deo praesentia, in Deo sunt omnia, vel cum Deo, vel apud 
+          Deum, vel in eo vita; quia ineffabilis omnium cognitio in eo est.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 43, Capitulus 1</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 43, Capitulus 1</title>
+          <date when="2016-01-23">January 23, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-01-23">January 23, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+          <witness xml:id="Z" n="zbsSII72" xml:base="http://www.e-codices.unifr.ch/metadata/iiif/zbs-SII-0072/canvas/">Solothurn, Zentralbibliothek, Cod. S II 72</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d43c1">
+        <head xml:id="pll1d43c1-Hd1e3499">Librum I, Distinctio 43, Capitulus 1</head>
+        <!-- Invectio contra illos qui dicunt, Deum nil posse, 
+          nis quod vult et facit. -->
+        <p xml:id="pll1d43c1-d1e3504">Quidam tamen 
+          <cit>
+            <quote xml:id="pll1d43c1-Qd1e3508">de suo sensu gloriantes, Dei potentiam coarctare 
+              sub mensura conati sunt. Cum enim dicunt: Hucusque potest 
+              Deus et non amplius, quid est hoc aliud, quam eius potentiam, 
+              quae infinita est, restringere et concludere ad mensuram? Aiunt 
+              enim: Non potest Deus aliud facere, quam facit, nec melius facere 
+              id quod facit, nec aliquid praetermittere de his quae facit.</quote>
+            <bibl>4</bibl>
+          </cit>
+          Istamque 
+          suam opinionem verisimilibus argumentis causisque commentitiis, 
+          nec non et sacrarum auctoritatum testimoniis munire nituntur, 
+          dicentes: Non potest Deus facere, nisi quod bonum est et 
+          <!-- 264 --> 
+          istum fieri; non est autem bonum et iustum fieri ab eo, nisi 
+          quod facit. Si enim aliud iustum est et bonum eum facere, quam 
+          facit, non ergo facit omne quod iustum est et bonum est eum 
+          facere. Sed quis audeat hoc dicere?</p>
+        <p xml:id="pll1d43c1-d1e3518">Addunt etiam: Non potest facere, nisi quod iustitia eius exigit; 
+          sed non exigit eius iustitia, ut faciat, nisi quod facit; non 
+          ergo potest facere, nisi quod facit. Eademque iustitia exigit, ut id 
+          non faciat, quod non facit; non autem potest facere contra iustitiam 
+          suam; non igitur potest aliquid eorum facere, quae dimittit.</p>
+        <p xml:id="pll1d43c1-d1e3521">His autem respondemus, duplicem verborum intelligentiam 
+          aperientes, et ab eis involuta evolventes, sic; Non potest facere Deus, 
+          nisi quod bonum est et iustum, id est, non potest facere, nisi illud 
+          quod, si faceret, bonum esset et iustum, verum est; sed multa 
+          potest facere, quae nec bona sunt nec iusta, quia nec sunt, nec 
+          erunt, nec bene fiunt vel fient, quia nunquam fient.</p>
+        <p xml:id="pll1d43c1-d1e3525">Item, quod secundo propositum fuit: Non potest facere, nisi 
+          quod iustitia sua exigit, et non potest id facere, quod iustitia 
+          sua exigit, ut non fiat; dicimus, quia exactionis verbum de Deo 
+          congrue non dicitur, nec proprie accipitur: et in illis locutionibus 
+          duplex est sensus.</p>
+        <p xml:id="pll1d43c1-d1e3528">Si enim intelligas: Non potest facere, nisi quod iustitia sua 
+          exigit, id est, nisi quod iusta voluntas sua vult, falsum dicis. Iustitia 
+          enim Dei ipsius aequissima voluntas accipitur, qualiter accepit 
+          <name ref="#Augustine">Augustinus</name>, illa verba Domini in <title ref="#gen">Genesi</title> loquentis ad 
+          <name ref="#Lot">Loth</name>: 
+          <cit>
+            <quote xml:id="pll1d43c1-Qd1e3541" ana="#gen19_22">Non possum quidquam facere, donec illo introeas,</quote>
+            <bibl>Genesis 19:22</bibl>
+          </cit>
+          exponens: 
+          <cit>
+            <quote xml:id="pll1d43c1-Qd1e3550">Non posse, inquit, se dixit, quod sine dubio poterat per 
+              potentiam, sed non poterat per iustitiam;</quote>
+            <bibl>Augustinus, Contra Gaudentium, I, c. 30, n. 35 (PL 43:727)</bibl>
+          </cit>
+          quasi: poterat quidem, 
+          sed non volebat, et illa voluntas iusta erat.</p>
+        <p xml:id="pll1d43c1-d1e3558">Si vero per haec verba intelligas, eum non posse facere nisi 
+          illud quod, si fieret, iustitiae eius conveniret, verum dicis. Similiter 
+          distingue illud: Non potest facere, quod iustitia eius exigit 
+          <!-- 265 -->
+          ut non faciat, id est, non potest facere id quod ipse, qui est summa 
+          iustitia, non vult facere, falsum est. Si autem intelligas his verbis, 
+          eum non posse facere id quod iustitiae eius convenire non 
+          potest, verum dicis.</p>
+        <p xml:id="pll1d43c1-d1e3563">Addunt quoque et alia dicentes: 
+          <!-- possible quote -->
+          Non potest Deus facere 
+          nisi quod debet; non autem debet facere nisi quod facit. Si enim 
+          debet alia facere, non ergo facit omne quod debet; si vero facit 
+          omne quod debet, nec potest facere nisi quod debet, non ergo 
+          potest facere nisi quod facit.</p>
+        <p xml:id="pll1d43c1-d1e3568">Item, aut debet dimittere quod dimittit, ne faciat, aut non 
+          debet. Si non debet, non recte dimittit; si vero debet dimittere, 
+          ergo non debet facere. Si autem non debet, nec decet, nec oportet 
+          eum facere; et si non decet, nec oportet eum facere, ergo non 
+          potest facere ; non ergo potest facere nisi quod facit. Nec potest 
+          illud dimittere quod facit, quin faciat, quia debet illud facere; et 
+          quod debet facere, non potest illud dimittere.</p>
+        <p xml:id="pll1d43c1-d1e3571">Sed, ut mihi videtur, hoc verbum debet venenum habet. Multiplicem 
+          enim et involutam tent intelligentiam, nec Deo proprie 
+          competit, qui non est debitor nobis, nisi forte ex promisso, nos 
+          vero ei debitores sumus ex commisso. Ut autem venenum evacuetur, 
+          distingue verbi sensus: Non potest Deus facere nisi quod 
+          debet, id est, nisi quod vult, falsum est: sic enim potest ipse 
+          dici debere aliquid, quia vult illud. Si autem dicatur: Non potest 
+          nisi quod debet, id est, non potest nisi illud quod, si faceret, ei 
+          bene conveniret, verum est.</p>
+        <p xml:id="pll1d43c1-d1e3575">Adiiciunt quoque illi dicentes: Nihil facit aut dimittit, nisi 
+          optima et rationabili causa, licet nobis occulta sit, secundum 
+          quam oportet eum facere et dimittere, quae facit vel dimittit. 
+          Ratio enim penes eum est, qua illa facit et illa dimittit; quae 
+          ratio aeterna est et semper manens, praeter quam non potest facere 
+          aliquid vel dimittere. Illa ergo manente, non potest quod 
+          facit dimittere, nec quod dimittit facere, et ita non potest facere, 
+          nisi quod facit.</p>
+        <!-- 266 -->
+        <p xml:id="pll1d43c1-d1e3580">Et ad hoc respondemus, ambiguitatem locutionis determinantes. 
+          Cum enim dicitur: Ratio vel causa optima penes Deum est, qua 
+          facit cuncta quae facit, et dimittit ea quae dimittit, verum quidem est, 
+          quia in eo voluntas est aequissima et rectissima, qua facit et dimittit 
+          quae vult, contra quam facere non potest, nec praeter eam facere 
+          potest. Nec utique contra eam faceret nec praeter eam, si quae 
+          facit dimitteret, vel quae dimittit faceret, sed eadem manente ratione 
+          et causa, alia potuit facere et ista dimittere. Licet ergo ratio 
+          sit penes eum, qua alia facit, alia dimittit, potest tamen secundum 
+          eandem rationem et dimittere quae facit, et facere quae dimittit.</p>
+        <p xml:id="pll1d43c1-d1e3583">Et ad hoc dicimus, locutiones ambiguas esse, et ideo determinandas. 
+          Si enim, cum dicitur: Non potest facere, nisi quod ratio 
+          est eum facere, intelligas, eum non posse facere, nisi ea quae rationabilia 
+          sunt, et ea quae, si fierent, rationabilia essent, verus est 
+          sensus. Si autem intelligas, eum non posse facere alia rationabilia 
+          et bona, nisi ea quae vult et facit, falsus est intellectus.</p>
+        <p xml:id="pll1d43c1-d1e3586">Item aliud adiungunt dicentes: Si potest aliud facere Deus 
+          quam facit, potest igitur facere quod non praescivit; et si facere 
+          potest quod non praescivit, potest sine praescientia operari, quia 
+          omne quod facturum se praescivit facit, nec facit aliquid quod non 
+          praesciverit. Quod si praeter praescientiam eius aliquid fieri impossibile 
+          est, omne quod praescitum est, fieri necesse est; ergo 
+          aliud fieri, quam fit, nulla ratione possibile est; non ergo potest 
+          a Deo fieri, nisi quod fit.</p>
+        <p xml:id="pll1d43c1-d1e3589">Haec autem quaestio de praescientia facile determinari potest 
+          per ea quae superius dicta sunt, cum de praescientia ageretur.</p>
+        <p xml:id="pll1d43c1-d1e3593">His autem illi scrutatores, 
+          <cit>
+            <quote xml:id="pll1d43c1-Qd1e3597" ana="#ps63_7">qui defecerunt scrutantes scrutinia,</quote>
+            <bibl>Psalmus 63:7</bibl>
+          </cit>
+          Sanctorum annectunt testimonia.</p>
+        <!-- p. 267 -->
+        <p xml:id="pll1d43c1-d1e3607">Dicit enim <ref><name ref="#Augustine">Augustinus</name> in libro <title>De Symbolo</title>:</ref>
+          <cit>
+            <quote xml:id="pll1d43c1-Qd1e3619">Hoc solum 
+              non potest Deus, quod non vult.</quote>
+            <bibl>Augustinus, Ad Catech. c. 1, n. 2 (PL 40:627)</bibl>
+          </cit>
+          Per quod videtur non 
+          posse facere aliquid, nisi quod vult: sed non vult nisi quod facit; 
+          et ita videtur non posse nisi quod facit.</p>
+        <p xml:id="pll1d43c1-d1e3627">Illud autem ita intelligendum est: Id solum non potest Deus, 
+          quod non vult, scilicet se posse.</p>
+        <p xml:id="pll1d43c1-d1e3630">Idem in libro VII <title>Confessionum</title> ad Deum loquens ait: 
+          <cit>
+            <quote xml:id="pll1d43c1-Qd1e3637">Nec 
+              cogeris invitus ad aliquid, quia voluntas tua non est maior quam 
+              potentia; esset autem maior, si te ipso tu ipse maior esses.</quote>
+            <bibl>Augustinus, Confessionum, VII, c. 4, n. 6 (PL 32:736)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d43c1-d1e3645">Ex hoc videtur, quod Deus non possit plura, quam vult, sicut 
+          non vult plura, quam potest. Sicut enim voluntas non est maior potentia, 
+          ita nec potentia maior est voluntate. Ideoque, sicut plura non 
+          vult, quam potest, ita eum non plura posse quam velle dicunt.</p>
+        <p xml:id="pll1d43c1-d1e3649">Sed ad hoc dicimus, quia nec voluntas potentia, nec potentia 
+          maior voluntate est, qua una et eadem res est potentia et voluntas, 
+          scilicet ipse Deus, qui esset maior se ipso, si voluntas esset 
+          maior potentia, vel potentia voluntate. Nec hac auctoritate negatur, 
+          Deum plura posse quam velle, quia plura sunt subiecta eius potentiae 
+          quam voluntati. Fateamur itaque Deum multa posse facere, 
+          quae non vult, et posse dimittere quae facit.</p>
+        <p xml:id="pll1d43c1-d1e3652">Quod ut certius firmiusque teneatur, Scripturae testimoniis afferamus, 
+          Deum plura facere posse, quam faciat.</p>
+        <p xml:id="pll1d43c1-d1e3655">Veritas ipsa secundum <title ref="#mt">Matthaeum</title> ait: 
+          <cit>
+            <quote xml:id="pll1d43c1-Qd1e3662" ana="#mt26_53">An putas, quia 
+              non possum rogare Patrem meum, et exhibebit mihi modo 
+              plus quam duodecim legiones Angelorum?</quote>
+            <bibl>Matthaeus 26:53</bibl>
+          </cit>
+          Ex quibus verbis patenter 
+          innuitur, quia et Filius poterat rogare quod non rogabat, 
+          et Pater exhibere quod non exhibebat. Uterque igitur poterat facere 
+          quod non faciebat.</p>
+        <p xml:id="pll1d43c1-d1e3670"><ref><name ref="#Augustine">Augustinus</name> etiam in <title ref="#Enchiridion">Enchiridio</title></ref> ait: 
+          <cit>
+            <quote xml:id="pll1d43c1-Qd1e3680">Omnipotentis 
+              voluntas multa potest facere, quae nec vult nec facit: potuit enim facere, 
+              ut duodecim legiones Angelorum pugnarent contra illos qui 
+              Christum ceperunt.</quote>
+            <bibl>Augustinus, Enchiridion, c. 95, n. 24 (PL 40:275)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d43c1-d1e3688"><ref>Item in eodem:</ref> 
+          <cit>
+            <quote xml:id="pll1d43c1-Qd1e3694">Cur apud quosdam non 
+              <cit>
+                <quote xml:id="pll1d43c1-Qd1e3698" ana="#mt11_21">factae sunt virtutes, 
+                  quae si factae fuissent, egissent illi homines poenitentiam;</quote>
+                <bibl>Matthaeus 11:21</bibl>
+              </cit>
+              et factae 
+              sunt apud eos qui non fuerant credituri? Tunc non latebit quod 
+              nunc latet. Nec utique Deus iniuste noluit salvos fieri, cum possent 
+              salvi esse, si vellet. Tunc in clarissima luce Sapientiae videbitur 
+              quod nunc piorum fides habet, antequam manifesta cognitione videatur, 
+              quam certa et incommutabilis et efficacissima sit voluntas Dei, 
+              quae multa possit et non velit, nihil autem quod non possit, velit.</quote>
+            <bibl>Augustinus, Enchiridion, c. 95, n. 24 (PL 40:275)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d43c1-d1e3711"><ref>Idem in libro <title>De natura et gratia</title>:</ref> 
+          <cit>
+            <quote xml:id="pll1d43c1-Qd1e3720">Dominus <name>Lazarum</name> 
+              suscitavit in corpore. Nunquid dicendum est, non potuit Iudam 
+              suscitare in mente? Potuit quidem, sed noluit.</quote>
+            <bibl>Augustinus, De natura et gratia, c. 7, n. 8 (PL 44:250)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d43c1-d1e3732">Hic auctoritatibus multisque aliis aperte docetur, quod Deus 
+          multa possit facere, quae non vult.</p>
+        <p xml:id="pll1d43c1-d1e3735">Quod etiam ratione probari potest. Non enim vult Deus omnes 
+          homines iustificare, et tamen quis dubitat, eum posse? Potest ergo 
+          Deus aliud facere, quam facit, et tamen, si aliud faceret, alius ipse 
+          non esset. Et potest aliud velle, quam vult, et tamen eius voluntas 
+          nec alia nec nova nec mutabilis aliquo modo potest esse. Etsi enim
+          possit velle quod nunquam voluit, non tamen noviter nec nova voluntate, 
+          sed sempiterna tantum velle potest: potest enim velle, 
+          quod potest ab aeterno voluisse. Habet enim potentiam volendi et 
+          nunc et ab aeterno, quod tamen nec modo vult, nec ab aeterno voluit.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

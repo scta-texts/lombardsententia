@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 20, Capitulus 3</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 20, Capitulus 3</title>
+          <date when="2015-11-20">November 20, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-11-20">November 20, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d20c3">
+        <head xml:id="pll1d20c3-Hd1e3472">Librum I, Distinctio 20, Capitulus 3</head>
+        <!-- De obiectionibus haereticis contra hoc et responsionibus catholicis -->
+        <p xml:id="pll1d20c3-d1e3477">
+          <cit>
+            <quote xml:id="pll1d20c3-Qd1e3481">Tu autem hoc de potentia sapis, quod potens sit Filius, sed 
+              potentior Pater, ut secundum doctrinam vestram potens potentem 
+              potuerit gignere, et non omnipotens omnipotentem. Habet ergo 
+              Pater omnipotentiam, quam non habet Filius; et si hoc est, falsum 
+              est quod ait Filius: 
+              <cit>
+                <quote xml:id="pll1d20c3-Qd1e3485" ana="#io16_15">Omnia quae habet Pater, mea sunt.</quote>
+                <bibl>Ioannes 16:15</bibl>
+              </cit>
+            </quote>
+            <bibl>XXX</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d20c3-d1e3498">
+          <cit>
+            <quote xml:id="pll1d20c3-Qd1e3502">Sed, inquis, Pater a nemine potentiam accepit, Filius autem 
+              a Patre. Fatemur et nos, Filium accepisse potentiam ab illo, de quo 
+              natus est potens; Patri vero potentiam nullus dedit, quia nullus 
+              eum genuit. Gignendo enim dedit Pater potentiam Filio, sicut omnia
+              <!-- p. 139 -->
+              quae habet in substantia sua, gignendo dedit ei quem genuit de 
+              substantia.</quote>
+            <bibl>XXX</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d20c3-d1e3512">
+          <cit>
+            <quote xml:id="pll1d20c3-Qd1e3516">Sed quaeritur, utrum tantam, quanta ipsi est, potentiam Pater 
+              Filio dederit, an minorem. Si tantam, non solum potentem, sed 
+              etiam omnipotentem genuisse Omnipotens intelligitur; si vero minorem, 
+              quomodo omnia quae habet Pater, Filii sunt? Si Patris 
+              omnipotentia Filii non est, non omnia procul dubio, quae habet 
+              Pater, Filii sunt;</quote>
+            <bibl>XXX</bibl>
+          </cit>
+          at omnia Filii sunt; omnipotentia ergo Patris 
+          etiam Filii est; non est ergo Pater potentior Filio.</p>
+        <p xml:id="pll1d20c3-d1e3525">Item, alio modo probat Filium aequalem Patri <title>Contra Maximinum</title> 
+          ita dicens: 
+          <cit>
+            <quote xml:id="pll1d20c3-Qd1e3532">Tu dicis, quod Pater genuit Filium minorem 
+              se ipso, in quo et Patri derogas, qui si Filium unicum minorem 
+              genuit, aut non potuit, aut non voluit gignere aequalem. Si autem 
+              dicis, quia non voluit, eum invidum esse dixisti; si autem non 
+              potuit, ubi est omnipotentia Dei Patris? Prorsus ad hunc articulum 
+              res colligitur, ut Deus Pater aequalem sibi gignere Filium aut 
+              non potuerit, aut noluerit. Si non potuit, infirmus; si noluit, invidus 
+              invenitur. Sed utrumque hoc falsum est; Patri igitur Filius 
+              verus aequalis est. Genuit ergo Pater sibi aequalem Filium et ab 
+              utroque procedit utrique aequalis Spiritus sanctus.</quote>
+            <bibl>XXX</bibl>
+          </cit>
+          <cit>
+            <quote xml:id="pll1d20c3-Qd1e3541">Si enim formam 
+              suam, ut ait <ref><name ref="#Augustine">Augustinus</name> contra eundum,</ref> Pater in unico 
+              Filio plenam gignere potuit, nec tamen plenam genuit, sed minorem, 
+              cogimini Patrem invidum dicere.</quote>
+            <bibl>XXX</bibl>
+          </cit>
+          Plenum ergo Deum aequalem 
+          genuit sibi Filium.</p>
+        <p xml:id="pll1d20c3-d1e3554">Hoc autem per similitudinem humanam ita esse demonstrat 
+          inquiens: 
+          <cit>
+            <quote xml:id="pll1d20c3-Qd1e3558">Homo pater, si potuisset, aequalem filium genuisset. 
+              Quis ergo audeat dicere, quod hoc Omnipotens non potuit? Addo 
+              etiam, quia, si posset homo, maiorem melioremque se ipso gigneret 
+              filium; sed maius vel melius Deo quidquam esse non potest;</quote>
+            <bibl>XXX</bibl>
+          </cit>
+          <cit>
+            <quote xml:id="pll1d20c3-Qd1e3567">Deus ergo cur non aequalem, ut ais, genuit Filium, cui nec anni 
+              necessarii fuerunt, per quos adimpleretur aequalitas, nec omnipotentia 
+              defuit. An forte noluit? Ergo, quod absit, invidit; sed non
+              <!-- p. 140 -->
+              invidit; aequalem igitur genuit.</quote>
+            <bibl>Augustinus, XX, c. 15, n. 5 (PL 42:780)</bibl>
+          </cit>
+          <cit>
+            <quote xml:id="pll1d20c3-Qd1e3578">Credamus ergo, ei Filium 
+              esse aequalem.</quote>
+            <bibl>Augustinus, XX, c. 18, n. 3 (PL 42:786)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d20c3-d1e3586">
+          <cit>
+            <quote xml:id="pll1d20c3-Qd1e3590">Se forte dices: Eo ipso maior est Pater Filio, quia de nullo 
+              genitus genuit tamen aequalem. Ad quod cito respondebo: Immo 
+              ideo non est maior Pater Filio, quia aequalem genuit. Originis enim 
+              quaestio est ista, quis de quo sit; aequalitatis autem, qualis aut 
+              quantus sit;</quote>
+            <bibl>Augustinus, XX, c. 18, n. 3 (PL 42:786)</bibl> <!-- dbcheck -->
+          </cit>
+          quod est dicere: Ad originem pertinet quaestio, 
+          qua quaeritur, quid de quo sit; ad aequalitatem vero illa qua 
+          quaeritur, qualis aut quantus quis sit.
+          <cit>
+            <quote xml:id="pll1d20c3-Qd1e3601">Nec cum dicitur Filius a 
+              Patre genitus, ostenditur inaequalitas substantiae, sed ordo naturae, 
+              non quo alter prior esset altero, sed quo alter est ex altero.</quote>
+            <bibl>Augustinus, XX, c. 14, n. 8 (PL 42:775)</bibl> 
+          </cit>
+          Non ergo secundum hoc, quod Pater genuit, et Filius genitus est, 
+          vel Spiritus sanctus ab utroque procedit, aequalitas vel inaequalitas 
+          ibi existit, quia non secundum hoc alia persona alii aequalis vel 
+          inaequalis dicitur.</p>
+        <p xml:id="pll1d20c3-d1e3609">Ecce aequalitas Trinitatis et una eademque substantia, quantum 
+          breviter potuimus, demonstrata est in superioribus, qualiter 
+          scilicet aliqua trium personarum quamlibet aliam nec aeternitate 
+          nec magnitudine nec potentia excellat.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

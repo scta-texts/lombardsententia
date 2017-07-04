@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 22, Capitulus 4</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 22, Capitulus 4</title>
+          <date when="2015-11-23">November 23, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-11-23">November 23, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d22c4">
+        <head xml:id="pll1d22c4-Hd1e3496">Librum I, Distinctio 22, Capitulus 4</head>
+        <!-- De his quae proprie ad singulas personas pertinent, 
+          et de his quae unitatem essentiae significant. -->
+        <p xml:id="pll1d22c4-d1e3501">Sciendum est igitur, quod illa quae proprie ad singulas pertinent 
+          personas relative ad invicem dicuntur, sicut Pater et Filius, 
+          et utriusque Donum, Spiritus sanctus; ea vero, quae unitatem essentiae 
+          significant, ad se dicuntur. Et quae ad se dicuntur, substantialiter 
+          utique dicuntur et de omnibus communiter et de singulis 
+          singillatim dicuntur personis, et singulariter, non pluraliter 
+          accipiuntur in summa, ut: Deus, bonus, potens, magnus et huiusmodi; 
+          quae autem relative dicuntur, substantialiter non dicuntur.</p>
+        <p xml:id="pll1d22c4-d1e3504">Unde <name ref="#Augustine">Augustinus</name> in V libro <title>De Trinitate</title> ita ait: 
+          <cit>
+            <quote xml:id="pll1d22c4-Qd1e3514">Quidquid 
+              ad se dicitur, praestantissima illa et divina sublimitas substantialiter 
+              dicitur; quod autem ad aliquid dicitur, non substantialiter, 
+              se relative dicitur. Tantaque vis est eiusdem substantiae in Patre 
+              <!-- p. 146 --> 
+              et Filio et Spiritu sancto, ut quidquid de singulis ad se ipso dicitur, 
+              non pluraliter in summa, sed singulariter accipiatur. Dicimus 
+              enim: Pater est Deus, Filius est Deus, et Spiritus sanctus est Deus, 
+              quod secundum substantiam dici nemo dubitat; non tamen dicimus, 
+              hanc Trinitatem esse tres deos, sed unum Deum. Ita dicitur Pater 
+              magnus, Filius magnus, et Spiritus sanctus magnus; non tamen 
+              tres magni, sed unus magnus. Ita et omnipotens Pater, omnipotens 
+              Filius, omnipotens Spiritus sanctus; non tamen tres omnipotentes, 
+              sed unus omnipotens. Quidquid ergo ad se ipsum dicitur 
+              Deus, et de singulis personis similiter dicitur, et simul de ipsa Trinitate, 
+              non pluraliter, sed singulariter dicitur. Et quoniam non est 
+              aliud Deo esse, et aliud magnum esse, sed hoc idem est illi esse, 
+              quod est magnum esse, propterea, sicut non dicimus tres essentias, 
+              sic non dicimus tres magnitudines, sed unam essentiam et unam 
+              magnitudinem.</quote>
+            <bibl>Augustinus, De Trinitate, V, xxx</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d22c4-d1e3524">
+          <cit>
+            <quote xml:id="pll1d22c4-Qd1e3528">Deus enim non est magnus ea magnitudine, quae non est 
+              quod ipse, ut quasi particeps eius sit; alioquin maior esset illa 
+              magnitudo quam Deus; Deo autem non est aliquid maius; ea igitur 
+              magnitudine magnus est, qua ipsa est. Ideoque nec tres magnitudines 
+              dicimus, sed unam magnitudinem, nec tres magnos, sed unum 
+              magnum, quia non participatione magnitudinis Deus magnus est. sed 
+              se ipso magno magnus est, quia ipse est sua magnitudo. Ita et de 
+              bonitate et aeternitate et omnipotentia Dei dicendum est et de omnibus 
+              omnino, quae de Deo possunt pronuntiari substantialiter, quibus 
+              ad se ipsum dicitur, non translative ac per similitudinem, sed 
+              proprie, si tamen de illo proprie aliquid ore hominis dici potest.</quote>
+            <bibl>Augustinus, De Trinitate, V, c. 10, n. 11 (PL 42:918)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d22c4-d1e3537">Ecce aperte docuit, quod nomina unitatem divinae maiestatis 
+          significantia et ad se dicuntur de Deo, id est sine relatione, et de 
+          omnibus personis communiter et de singulis divisim dicuntur, nec 
+          pluraliter, sed singulariter in summa accipiuntur, illa vero nomina, 
+          quae proprie ad singulas pertinent personas, relative, non substantialiter 
+          dicuntur. 
+          <cit>
+            <quote xml:id="pll1d22c4-Qd1e3541">Quod enim proprie singula in Trinitate persona 
+              dicitur, ut ait <ref><name ref="#Augustine">Augustinus</name> in eodem,</ref> nullo modo ad se ipsam, 
+              sed ad aliam invicem vel ad creaturam dicitur; et ideo relative, 
+              non substantialiter dici manifestum est.</quote>
+            <bibl>Augustinus, De Trinitate, V, c. 12, n. 12 (PL 42:918)</bibl>
+          </cit>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

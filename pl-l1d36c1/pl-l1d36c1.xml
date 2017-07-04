@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 36, Capitulus 1</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 36, Capitulus 1</title>
+          <date when="2016-01-07">January 07, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-01-07">January 07, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d36c1">
+        <head xml:id="pll1d35c8-Hd1e3496">Librum I, Distinctio 36, Capitulus 1</head>
+        <!-- Utrum omnia debeant dici esse in Dei essentia, ut in 
+          Dei cognitione vel praesentia esse dicuntur --> 
+        <p xml:id="pll1d36c1-d1e3501">Solet hic quaeri, cum omnia dicantur esse in Dei cognitione 
+          seu praesentia, vel in Deo per cognitionem, et eius cognitio vel 
+          praesentia sit divina essentia, utrum concedendum sit, omnia esse 
+          in divina essentia vel in Deo per essentiam.</p>
+        <p xml:id="pll1d36c1-d1e3504">Ad quod dicimus, quia Dei cognitio eius utique essentia est, 
+          et eius praesentia, in qua sunt omnia, ipsius cognitio est, nec tamen 
+          omnia, quae sunt in eius praesentia vel cognitione, in eius essentia 
+          esse dici debent. Si enim hoc diceretur, intelligerentur esse eiusdem 
+          <!-- p. 225 -->
+          cum eo essentiae. In Deo enim dicitur esse per essentiam, quod 
+          est divina essentia, quod est Deus. Habet ergo Deus apud se in 
+          praesentia sua, quae non habet in sui natura.</p>
+        <p xml:id="pll1d36c1-d1e3509">Unde <name ref="#Augustine">Augustinus</name> de verbis <name>Apostoli</name> ita ait: 
+          <cit>
+            <quote xml:id="pll1d36c1-Qd1e3519">
+              <cit>
+                <quote xml:id="pll1d36c1-Qd1e3523" ana="#eph1_4">Elegit 
+                  nos ante mundi constitutionem.</quote>
+                <bibl>Ephesios 1:4</bibl>
+              </cit> 
+              Quis sufficit hoc explicare? Eliguntur 
+              quin non sunt, nec errat qui eligit, nec vane eligit; eligit 
+              tamen et habet electos quos creaturus est eligendos, quos habet 
+              apud semetipsum non in natura sua, sed in praesentia sua.</quote>
+            <bibl>Augustinus, Sermo 26, c. 4, n. 4 (PL 38:173)</bibl>
+          </cit>
+          Nondum 
+          erant quibus promittebatur, sed et ipsi promissi sunt, quibus 
+          promittebatur.</p>
+        <p xml:id="pll1d36c1-d1e3537">Ecce hic aperte dicit, Deum apud semetipsum habere electos 
+          ante mundum, non in natura sua, sed in praesentia sua, cum 
+          tamen eius praesentia non sit aliud quam natura, quia ipsius 
+          praesentia est eius notitia. Potest tamen ad electos referri, cum ait: 
+          in natura sua, id est illorum. Illos quippe habuit ab aeterno apud 
+          se, non in natura sui, id est illorum, quia nondum erant, sed in 
+          sua praesentia, quia eos ita novit, ac si essent.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

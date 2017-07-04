@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum II, Distinctio 7, Capitulus 3</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.1-dev">
+          <title>Librum II, Distinctio 7, Capitulus 3</title>
+          <date when="2016-04-10">April 10, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-04-10">April 10, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+          <witness xml:id="Z" n="zbsSII72" xml:base="http://www.e-codices.unifr.ch/metadata/iiif/zbs-SII-0072/canvas/">Solothurn, Zentralbibliothek, Cod. S II 72</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="0.0.1">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        
+      </div>
+    </front>
+  	<body>
+  		<div xml:id="pl-l2d7c3">
+  			<head xml:id="pll2d7c3-Hd1e3508">Librum II, Distinctio 7, Capitulus 3</head>
+  			<head xml:id="pll2d7c3-Hd1e3511" type="questionTitle">Quod boni post confirmationem liberius habent 
+  				arbitrium quam ante.</head>
+  			<p xml:id="pll2d7c3-d1e3514">Boni vero arbitrium habent multo liberius post confirmationem 
+  				quam ante.</p>
+  			<!-- 335 -->
+  			<p xml:id="pll2d7c3-d1e3519">Ut enim <ref><name ref="#Augustine">Augustinus</name> tradit in <title ref="#Enchiridion">Enchiridio</title>:</ref> 
+  				<cit>
+  					<quote xml:id="pll2d7c3-Qd1e3531">Non ideo 
+  						carent libero arbitrio, quia male velle non possunt: multo 
+  						quippe liberius est arbitrium, quod non potest servire peccato. 
+  						Neque culpanda est voluntas; aut voluntas non est, aut libera dicenda 
+  						non est, quia beati esse sic volunt, ut esse miseri non solum 
+  						nolint, sed nec prorsus velle possint.</quote>
+  					<bibl>Augustinus, Enchiridion, c. 105 (PL 40:281)</bibl>
+  				</cit>
+  			</p>
+  			<p xml:id="pll2d7c3-d1e3540">Non possunt itaque boni Angeli velle malum, vel velle esse 
+  				miseri; neque hoc habent ex naturae sed gratiae beneficio. Ange 
+  				gratiae namque confirmationem potuerunt peccare Angeli, et quidam 
+  				etiam peccaverunt et daemones facti sunt.</p>
+  			<p xml:id="pll2d7c3-d1e3543">Unde <ref><name ref="#Augustine">Augustinus</name> in libro <title>Contra Maximinum</title>:</ref> 
+  				<cit>
+  					<quote xml:id="pll2d7c3-Qd1e3555">Creaturarum natura caelestium mori potuit, quia peccare potuit. Nam 
+  						et Angeli peccaverunt et daemones facti sunt, quorum diabolus est 
+  						princeps; et qui non peccaverunt peccare potuerunt; et cuicumque 
+  						creaturae rationali praestatur ut peccare non possit, non est hoc 
+  						naturae propriae, sed Dei gratiae. Ideoque solus Deus est, qui non 
+  						gratia cuiusquam, sed natura sua nec potuit nec potest nec poterit 
+  						peccare.</quote>
+  					<bibl>Augustinus, Contra Maximinum, II, c. 12, n. 2 (PL 42:768)</bibl>
+  				</cit>
+  				Ecce hic insinuatur, quod Angeli ante confirmationem 
+  				peccare potuerunt, sed post confirmationem non possunt. 
+  				Et quod potuerunt, fuit eis ex libero arbitrio, quod est eis naturale; 
+  				quod vero modo non possunt peccare, non est eis ex natura, 
+  				id est ex libero arbitrio, sed ex gratia; ex qua gratia est etiam 
+  				ut ipsum liberum arbitrium iam non possit servire peccato.</p>
+  		</div>
+  	</body>
+  </text>
+</TEI>

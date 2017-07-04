@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 27, Capitulus 1</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 27, Capitulus 1</title>
+          <date when="2015-12-15">December 15, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-12-15">December 15, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d27c1">
+        <head xml:id="pll1d27c1-Hd1e3496">Librum I, Distinctio 27, Capitulus 1</head>
+        <!-- Quae sint illae proprietates, quibus distinguuntur personae -->
+        <p xml:id="pll1d27c1-d1e3501">Hic quaeri potest, utrum proprietates, quas Hilarius supra 
+          assignavit, scilicet quod Pater semper est Pater, et Filius semper 
+          est Filius, sint illae eaedem proprietates, quas <name ref="#Augustine">Augustinus</name> superius 
+          distinxit dicens, proprium esse Patris, quod genuit Filium; 
+          et proprium Filii, quod genitus est a Patre; et Spiritus sancti, quod 
+          ab utroque procedit. Ac deinde, utrum et istae sint illae quae dicuntur 
+          paternitas, filiatio, processio.</p>
+        <p xml:id="pll1d27c1-d1e3507">Videtur quod non sint eaedem proprietates, quas ponit <name ref="#HilaryOfPoitiers">Hilarius</name>, 
+          et illae, quas ponit <name ref="#Augustine">Augustinus</name>. Si enim eaedem sunt, 
+          idem est ergo Patri esse Patrem et genuisse Filium; quod utique 
+          quidam concedunt. Si autem hoc est; cui ergo convenit ut sit pater, 
+          ei convenit genuisse Filium. Natura igitur divina si Pater est, 
+          genuit Filium; si vero non genuit, Pater non est. Sed quis audeat 
+          dicere, aut quod ipsa genuit Filium, qut quod ipsa Pater non 
+          sit. Si autem ipsa Pater est, nec Filium genuit, non est erog idem 
+          dicere, aliquid esse Patrem et gignere Filium. Et ita non videtur 
+          una eademque esse proprietas.</p>
+        <p xml:id="pll1d27c1-d1e3516">Ad quod sine praeiudicio aliorum dicimus, quod easdem proprietates 
+          notavit uterque, licet diversis verbis.</p>
+        <p xml:id="pll1d27c1-d1e3520">Quod enim <name ref="#HilaryOfPoitiers">Hilarius</name> ait, ita intelligi debet: Proprium Patris 
+          est, quod semper Pater est, id est, proprietas Patris est, qua 
+          semper Pater est; semper vero Pater est, quia semper genuit Filium. 
+          Ita et proprium Filii est, quod semper Filius est, id est, 
+          proprietas Filii est, qua semper Filius est; Filius vero semper est, 
+          quia semper genitus est. Ergo proprietas, qua Pater semper est 
+          <!-- p. 172 --> 
+          pater, est qui semper genuit; et haec eadem dicitur paternitas 
+          vel generatio. Et proprietas, qua Filius semper est filius, est quia 
+          semper genitus est a Patre; et haec eadem dicitur filiatio, vel genitura, 
+          vel nativitas, vel origo, vel nascibilitas. Sic et proprietas, qua 
+          Spiritus sanctus est spiritus sanctus vel donum, est quia procedit 
+          ab utroque; et haec eadem dicitur processio. In praemissis igitur 
+          locutionibus eaedem significatae sunt proprietates.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 19, Capitulus 12</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 19, Capitulus 12</title>
+          <date when="2015-11-19">November 19, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-11-19">November 19, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d19c12">
+        <head xml:id="pll1d19c12-Hd1e3472">Librum I, Distinctio 19, Capitulus 12</head>
+        <!-- Quod Deus non est dicendus triplex, sed trinus. -->
+        <p xml:id="pll1d19c12-d1e3477">Propterea cum Deus dicatur trinus, non tamen debet dici 
+          triplex. Ibi enim non est triplicitas, ubi summa est unitas et indifferens 
+          aequalitas.</p>
+        <!-- p. 137 -->
+        <p xml:id="pll1d19c12-d1e3482">Unde <ref><name ref="#Augustine">Augustinus</name> in libro VI <title ref="#deTrinitate">De Trinitate</title></ref> ait: 
+          <cit>
+            <quote xml:id="pll1d19c12-Qd1e3493">Non, 
+              quoniam Deus Trinitas est, ideo triplex putandus est: alioquin minor 
+              esset Pater solus, vel Filius solus, quam simul Pater et Filius.</quote>
+            <bibl>Augustinus, De Trinitate, VI, c. 7, n. 9 (PL 42:929)</bibl>
+          </cit>
+          <cit>
+            <quote xml:id="pll1d19c12-Qd1e3502">Cum itaque tantus est solus Pater, vel solus Filius, vel 
+              solus Spiritus sanctus, quantus est simul Pater et Filius et Spiritus 
+              sanctus, nullo modo triplex dicendus est Deus. Non enim Pater 
+              cum Filio et Spiritu sancto maior Deus eset quam singuli eorum, 
+              quia non est quo crescat illa perfectio. Perfectus autem est 
+              et Pater et Filius et Spiritus sanctus, et perfectus Deus singulus 
+              eorum; et ideo Trinitas potius quam triplex dici debet.</quote>
+            <bibl>Augustinus, De Trinitate, VI, c. 8, n. 9 (PL 42:929)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d19c12-d1e3511">
+          <cit>
+            <quote xml:id="pll1d19c12-Qd1e3515">In rebus corporeis non tantum est una, quantum tres simul, 
+              et plus sunt duae quam una res; in Trinitate vero summa tantum 
+              est una persona, quantum tres simul, et tantum sunt duae, quantum 
+              una, et in se infinitae sunt,</quote>
+            <bibl>Augustinus, De Trinitate, VI, c. 10, n. 12 (PL 42:929)</bibl>
+          </cit>
+          quia 
+          <cit>
+            <quote xml:id="pll1d19c12-Qd1e3524" ana="#ps144_3">non est finis magnitudinis</quote>
+            <bibl>Psalmus 144:3</bibl>
+          </cit>
+          earum. Ac per hoc aperitur quod supra diximus, scilicet 
+          quomodo et singula sunt in singulis, et omnia in singulis, et singula 
+          in omnibus, et omnia in omnibus, et unum in omnibus 
+          est, et unum omnia.</p>
+        <p xml:id="pll1d19c12-d1e3532">Ecce iam ostendimus sufficienter, qualiter in Trinitate aliqua 
+          persona aliam non superet magnitudine.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

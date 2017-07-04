@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 36, Capitulus 4</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 36, Capitulus 4</title>
+          <date when="2016-01-11">January 11, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-01-11">January 11, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d36c4">
+        <head xml:id="pll1d36c4-Hd1e3496">Librum I, Distinctio 36, Capitulus 4</head>
+        <!-- Quod omnia sunt in quolibet trium et per ipsum et in ipso. -->
+        <p xml:id="pll1d36c4-d1e3501">Praeterea sciendum est, quod licet ibi indicetur distinctio personarum, 
+          cum dicitur: <mentioned>ex ipso</mentioned>, <mentioned>per ipsum</mentioned>, <mentioned>in ipso,</mentioned> omnia 
+          tamen ex Patre et per Patrem et in Patre sunt: similiter de Filio 
+          et Spiritu sancto accipiendum est.</p>
+        <p xml:id="pll1d36c4-d1e3513">Unde <ref><name ref="#Augustine">Augustinus</name> in libro <title ref="#deTrinitate">De Trinitate</title></ref>: 
+          <cit>
+            <quote xml:id="pll1d36c4-Qd1e3524">Non confuse, 
+              inquit, accipiendum est quod ait <name ref="#Paul">Apostolus</name> 
+              <cit>
+                <quote xml:id="pll1d36c4-Qd1e3531">ex ipso, et per ipsum, 
+                  et in ipso: </quote>
+                <bibl>xxx</bibl>
+              </cit>
+              <mentioned>ex ipso</mentioned> dicens propter Patrem, <mentioned>per ipsum</mentioned> propter Filium, 
+              <mentioned>in ipso</mentioned> propter Spiritum sanctum.</quote>
+            <bibl>Augustinus, De Trinitate, VI, c. 10, n. 12 (PL 42:932)</bibl>
+          </cit>
+          Vigilanter autem attende, 
+          ne, quia Patrem volens intelligi dixit <mentioned>ex ipso,</mentioned> sic intelligas, 
+          omnia esse ex Patre, ut neges, omnia esse ex Filio vel ex Spiritu 
+          sancto, cum ex Patre et per Patrem et in Patre omnia esse sane 
+          dici possit; similiter et de Filio et de Spiritu sancto sentiendum 
+          est.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 41, Capitulus 1</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 41, Capitulus 1</title>
+          <date when="2016-01-22">January 22, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-01-22">January 22, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d41c1">
+        <head xml:id="pll1d41c1-Hd1e3496">Librum I, Distinctio 41, Capitulus 1</head>
+        <!-- Utrum aliquid sit meritum obdurationis vel misericordiae -->
+        <p xml:id="pll1d41c1-d1e3501">Si autem quaerimus meritum obdurationis et misericordiae, 
+          obdurationis meritum invenimus, misericordiae vero meritum non 
+          invenimus, quia nullum est misericordiae meritum, ne gratia vacuetur, 
+          si non gratis donatur, sed meritis redditur. Miseretur itaque 
+          secundum gratiam, quae gratis datur; obdurat autem secundum 
+          iudicium, quod meritis redditur.</p>
+        <p xml:id="pll1d41c1-d1e3504">
+          <cit>
+            <quote xml:id="pll1d41c1-Qd1e3508">Unde datur intelligi, ut sicut reprobatio Dei est nolle misereri, 
+              ita obduratio Dei sit non misereri, ut non ab illo irrogetur 
+              aliquid, quo sit homo deterior, sed tantum quo sit melior non 
+              erogetur.</quote>
+            <bibl>4</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d41c1-d1e3516">Ex his aperte ostenditur, quid misericordiam, quid obdurationem 
+          intellexerit <name ref="#Paul">Apostolus</name>, et quia misericordiam nullum advocat 
+          meritum, obduratio vero non est sine merito. Et misericordiae 
+          verbo hic accipitur praedestinatio, et praecipue praedestinationis 
+          <!-- 254 -->
+          effectus, obdurationis vero non ipsa Dei aeterna reprobatio, quia 
+          eius nullum est meritum, sed gratiae privatio sive subtractio, quae 
+          quodam modo est reprobationis effectus. Accipitur tamen aliquando 
+          reprobatio pro obduratione, sicut et praedestinatio pro suo effectu, 
+          qui est gratia apposita: gratia enim, quae apponitur, effectus est 
+          praedestinationis.</p>
+        <p xml:id="pll1d41c1-d1e3525">Cum igitur gratiae, quae apponitur homini ad iustificationem, 
+          nulla sint merita, multo minus et ipsius praedestinationis, qua 
+          ab aeterno elegit Deus quos voluit, aliqua possunt existere merita; 
+          ita nec reprobationis, qua ab aeterno quosdam praescivit futuros 
+          malos et damnandos: sicut elegit <name ref="#Jacob">Iacob</name>, et <name ref="#Esau">Esau</name> reprobavit, quod 
+          non fuit pro meritis eorum, quae tunc haberent, quia nulla habebant, 
+          quoniam nec ipsi existebant; nec propter futura merita, 
+          quae praevideret, vel illum elegit, vel illum reprobavit.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

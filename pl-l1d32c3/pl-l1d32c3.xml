@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 32, Capitulus 3</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 32, Capitulus 3</title>
+          <date when="2015-12-29">December 29, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-12-29">December 29, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d32c3">
+        <head xml:id="pll1d32c3-Hd1e3496">Librum I, Distinctio 32, Capitulus 3</head>
+        <!-- An filius sit sapiens se ipso vel per se ipsum -->
+        <p xml:id="pll1d32c3-d1e3501">Ex praedictis constat, quod Filius non est sapiens a se neque 
+          de se, sed a Patre et de Patre. Quaeri autem solet, utrum Filius 
+          sit sapiens se ipso vel per se ipsum.</p>
+        <p xml:id="pll1d32c3-d1e3504">Quidam dicunt, multiplicem hic fieri intelligentiam, et ideo 
+          distinguendum fore, ita ut, cum dicis, Filium esse sapientem 
+          se ipso vel per se ipsum, si sui natura et essentia sapientem 
+          intelligas, verus sit intellectus; si vero a se ipso vel de se 
+          ipso sapientem esse intelligas, falsitati subiectam habes intelligentiam.</p>
+        <p xml:id="pll1d32c3-d1e3507">Alii vero simpliciter et absque determinatione concedunt huiusmodi 
+          locutiones: Filius sapiens est per se, sed non a se vel de se; et 
+          Filius est Deus per se, et est per se, sed non a se vel de se; hoc 
+          confirmantes verbis <name ref="#HilaryOfPoitiers">Hilarii</name>, qui Filium non a se, sed per se agere, 
+          in libro <title ref="#HilaryOfPoitiers_DeTrinitate">De Trinitate</title> ait: 
+          <cit>
+            <quote xml:id="pll1d32c3-Qd1e3517">Naturae, inquit cui contradicis, 
+              haeretice, haec unitas est, ut ita per se agat Filius, ne a se agat, 
+              et ita non a se agat, ut per se agat. Intellige Filium agentem, et 
+              per eum Patrem agentem. Non a se agit, cum Pater in eo manere 
+              <!-- p. 204 -->
+              monstratur; per se agit, cum secundum nativitatem Filii agit ipse 
+              quae placita sunt. Infirmus sit non a se agendo, nisi a Deo ipse 
+              agit: non sit vero in unitate naturae, si quae agit et in quibus 
+              placet non per se agit.</quote>
+            <bibl>Hilarius, De Trinitate, Num. 48 (PL 10:319)</bibl>
+          </cit>
+          Sicut ergo, inquiunt, Filius per se agit, sed 
+          non a se, ita Filius debet dici sapiens per se, sed non a se; sic 
+          et per se Deus est, vel esse dicendus est, ut aiunt, sed non a se 
+          vel de se.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

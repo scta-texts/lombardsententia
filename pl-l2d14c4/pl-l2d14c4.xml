@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum II, Distinctio 14, Capitulus 4</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.1-dev">
+          <title>Librum II, Distinctio 14, Capitulus 4</title>
+          <date when="2016-06-30">June 30, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-06-30">June 30, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+          <witness xml:id="Z" n="zbsSII72" xml:base="http://www.e-codices.unifr.ch/metadata/iiif/zbs-SII-0072/canvas/">Solothurn, Zentralbibliothek, Cod. S II 72</witness>
+        	<witness xml:id="H" n="hopkinsMSB19" xml:base="http://scta.info/iiif/pl-hopkins/canvas/">Baltimore, Hopkins</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="0.0.1">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+      	<cb ed="#H" n="68rb" select="68r"/>
+      </div>
+    </front>
+  	<body>
+  		<div xml:id="pl-l2d14c4">
+  			<head xml:id="pll2d14c4-Hd1e3513">Librum II, Distinctio 14, Capitulus 4</head>
+  			<head xml:id="pll2d14c4-Hd1e3516" type="questionTitle">Quomodo aquae possint esse super caelum, et quales sint</head>
+  			<p xml:id="pll2d14c4-d1e3519">
+  				<cit>
+  					<quote xml:id="pll2d14c4-Qd1e3523">Si quem vero movet, quomodo aquae, natura fluidae et in 
+  						ima labiles super caelum possint consistere, de Deo scriptum esse 
+  						meminerit: 
+  						<cit>
+  							<quote xml:id="pll2d14c4-Qd1e3527" ana="#iob26_8">Qui ligat aquas in nubibus suis.</quote>
+  							<bibl>Iob 26:8</bibl>
+  						</cit>
+  						Qui enim infra caelum 
+  						ligat 
+  						<cb ed="#H" n="68va" select="68v"/>
+  						aquas ad tempus vaporibus nubium retentas, potest etiam 
+  						super caeli sphaeram non vaporali tenuitate, sed glaciali soliditate 
+  						aquas suspendere, ne labantur. Quales autem et ad quid conditae
+  						sint, ipse novit qui condidit</quote>
+  					<bibl>xxx</bibl>
+  				</cit>.
+  			</p>
+  			<p xml:id="pll2d14c4-d1e3540">Ecce ostensum est his verbis, quod caelum factum sit, scilicet 
+  				illud in quo fixa sunt sidera, id est, quod excedit aerem; et de 
+  				qua materia, scilicet de aquis; et quales sint aquae, quae super 
+  				illud caelum sunt, scilicet ut glacies solidatae.</p>
+  			<p xml:id="pll2d14c4-d1e3543">Quidam vero caelum, quod excedit aeris spatia igneae naturae 
+  				dicunt, asserentes super aerem purum ignem esse, qui dicitur 
+  				esse caelum, de quo igne sidera et luminaria facta esse coniectant; 
+  				quibus <name ref="#Augustine">Augustinus</name> consentire videtur.</p>
+  			<p xml:id="pll2d14c4-d1e3550">Utrum vero nomine firmamenti caeli quod excedit aerem, 
+  				an ipse aer hic intelligatur, idem <name>Augustinus</name> quaerit nec solvit. 
+  				Magis tamen approbare videtur, caelum illud hic accipi, 
+  				quod spatia aeris excedit. Aquas autem, quae super illud 
+  				caelum sunt, dicit vaporaliter trahi et levissimis suspendi guttis, 
+  				sicut aer iste <sic>nobilosus</sic> exhalatione terrae aquas vaporaliter trahit, 
+  				et per subtiles minutias suspendit, et post corpulentius conglobatas 
+  				pluvialiter refundit. Si ergo 
+  				<cit>
+  					<quote xml:id="pll2d14c4-Qd1e3560">potest aqua, sicut videmus, ad tantas 
+  						minutias pervenire, ut feratur vaporaliter super aerem aquis 
+  						naturaliter leviorem; cur non credamus, etiam super illud levius 
+  						caelum minutioribus guttis et levioribus immanare vaporibus</quote>
+  					<bibl>Augustinus, De Genese ad litteram, c. 4, n. 8</bibl>
+  				</cit>?
+  			</p>
+  		</div>  
+  	</body>
+  </text>
+</TEI>

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 31, Capitulus 2</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 31, Capitulus 2</title>
+          <date when="2015-12-27">December 27, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-12-27">December 27, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d31c2">
+        <head xml:id="pll1d31c2-Hd1e3496">Librum I, Distinctio 31, Capitulus 2</head>
+        <!-- De sententia sancti Hilarii, qua in Trinitate personarum propria ostendit -->
+        <p xml:id="pll1d31c2-d1e3501">Non est hic praetereundum, quod illustris vir <name ref="#HilaryOfPoitiers">Hilarius</name> 
+          proprietates personarum assignans dicit, aeternitatem esse in Patre, 
+          speciem in Imagine, usum in Munere. Quae tantae difficultatis sunt 
+          verba, ut in eorum intelligentia atque explanatione vehementer 
+          laboraverit 
+          <ref><name ref="#Augustine">Augustinus</name>, ut ipse ostendit in VI libro <title ref="#deTrinitate">De Trinitate</title></ref> 
+          ita dicens: 
+          <cit>
+            <quote xml:id="pll1d31c2-Qd1e3515">Quidam, cum vellet brevissime singularum in 
+              Trinitate personarum insinuare propria, aeternitas est, inquit, in 
+              Patre, species in Imagine, usus in Munere. Et quia non mediocris 
+              auctoritatis in tractione Scripturarum et assertione fidei vir extitit 
+              -- Hilarius enim hoc in libris suis posuit -- horum verborum, 
+              id est Patris et Imagines et Muneris, aeternitatis, speciei et usus, 
+              abditam scrutatus intelligentiam, quantum valeo, non eum secutum 
+              arbitror in aeternitatis vocabulo, nisi quod Pater non habet 
+              patrem, de quo sit; Filius autem de Patre est, ut sit, atque ut illi 
+              coaeternus sit.</quote>
+            <bibl>Augustinus, De Trinitate, VI, c. 10, n. 11 (PL 42:931)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d31c2-d1e3523">
+          <cit>
+            <quote xml:id="pll1d31c2-Qd1e3527">Imago enim, si perfecte implet illud cuius imago est, ipsa 
+              coaequatur ei, non illud imagini suae; in qua imagine speciem 
+              nominavit, credo, propter pulcritudinem, ubi est tanta congruentia 
+              <!-- p. 193 -->
+              et prima aequalitas et prima similitudo, nulla in re dissidens et 
+              nullo modo inaequalis et nulla ex parte dissimilis, sed ad identitatem 
+              respondens ei cuius imago est; ubi est prima et summa 
+              vita, cui non est aliud vivere et aliud esse, sed idem; et primus 
+              ac summus intellectus, cui non est aliud vivere et aliud intelligere, 
+              sed idem, hoc est, unum, tanquam verbum perfectum, cui 
+              non desit, aliquid, et ars quaedam omnipotentis et sapientis Dei, 
+              plena omnium rationum viventium incommutabilium, et omnes 
+              unum in ea, sicut ipsa unum de uno, cum quo unum; ibi novit 
+              omnia Deus, quae fecit per ipsam.</quote>
+            <bibl>Augustinus, De Trinitate, VI, c. 10, n. 11 <!-- possible also n. 12 --> (PL 42:931)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d31c2-d1e3539">
+          <cit>
+            <quote xml:id="pll1d31c2-Qd1e3543">Est autem ineffabilis quidam complexus Patris et Imaginis, 
+              qui non est sine perfruitione, sine caritate, sine gaudio. Illa ergo 
+              dilectio, delectatio, felicitas vel beatitudo -- si tamen aliqua humana 
+              voce digne dicitur -- usus ab illo appellata est breviter, et 
+              est in Trinitate Spiritus sanctus non genitus, sed genitoris genitique 
+              suavitas, ingenti largitate atque ubertate perfundens omnes creaturas 
+              pro captu earum. Itaque illa tria et a se invicem determinari videntur, 
+              et in se infinita sunt. Qui videt hoc vel 
+              <cit>
+                <quote xml:id="pll1d31c2-Qd1e3547" ana="Icor13_12">ex parte vel per 
+                  speculum et in aenigmate,</quote>
+                <bibl>I Cor 13:12</bibl>
+              </cit>
+              gaudeat cognoscens Deum et gratias 
+              agat; qui vero non videt, tendat per pietatem ad videndum, non 
+              per caecitatem ad calumniandum, quoniam unus est Deus, sed 
+              tamen Trinitas.</quote>
+            <bibl>Augustinus, De Trinitate, VI, c. 10, n. 11 <!-- possible also n. 12 --> (PL 42:931)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d31c2-d1e3563">Ecce habes, qualiter verba <name ref="#HilaryOfPoitiers">Hilarii</name> praemissa accipienda sint, 
+          licet tantae sint profunditatis, ut etiam adhibita expositione, vix 
+          aliquatenus ea intelligere valeat humanus sensus, cum et ipsa eorum 
+          explanatio, quam hic <name ref="#Augustine">Augustinus</name> edidit, plurimum in se habeat 
+          difficultatis et ambiguitatis.</p>
+        <p xml:id="pll1d31c2-d1e3572">Non enim secundum praemissam expositionem distinguuntur 
+          hic tres illae proprietates superius assignatae, sed ipsae hypostases 
+          distinctae ab invicem monstrantur. Aeternitatis tamen nomine 
+          eadem videtur designata proprietas, quam notat hoc nomen ingentius. 
+          Sed videamus, quid sit quod ait: 
+          <cit>
+            <quote xml:id="pll1d31c2-Qd1e3576">Imago si perfecte implet 
+              illud cuius imago est, ipsa coaequatur ei, non illud imagini 
+              suae.</quote>
+            <bibl>xxx</bibl>
+          </cit>
+          Videtur enim dicere, quod Filius, qui est imago Patris, 
+          <!-- p. 194 --> 
+          coaequatur Patri, non Pater Filio, cum et Filius dicatur aequalis 
+          Patri in Scriptura, et Pater Filio; sed Filius hoc habet a Patre, ut 
+          sit ei aequalis, Pater autem non habet a Filio, et tamen Filius 
+          plene ac perfecte aequalis est Patri, id est imago ei cuius est imago.</p>
+        <!-- next paragraph is in smaller font size 
+        note indicates that almost all codices have this paragraph (which appears to be a possible marginal note but not in this place.
+        -->
+        <p xml:id="pll1d31c2-d1e3588"><ref><name ref="#HilaryOfPoitiers">Hilarius</name> in libro <title>De Synodis</title>:</ref> 
+          <cit>
+            <quote xml:id="pll1d31c2-Qd1e3599">Imago eius, ad quem imaginatur 
+              species indifferens est. Neque enim sibi ipse quisquam imago est; sed eum cuius 
+              imago est, necesse est ut imago demonstret. Imago igitur est rei ad rem coaequandam 
+              et imaginata et indiscreta similitudo. Est ergo pater, est et Filius, 
+              quia imago Patris est Filius; et quia imago est, ut rei imago sit, speciem necesse 
+              est et naturam et essentiam, secundum quod imago est, in se habeat auctoris.</quote>
+            <bibl>Hilarius, De Synodis, Propositio I, . 13 (PL 10: 490)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d31c2-d1e3607">Propria igitur pesonarum in praedictis verbis assignasse dicitur 
+          <name ref="#HilaryOfPoitiers">Hilarius</name>, quia relativa nomina personarum posuit, scilicet 
+          Patris, Imaginis et Muneris, quae relative dicuntur de personis et 
+          proprietates notant, quibus distinguuntur personae. Ita enim dicitur 
+          Spiritus sanctus munus relative, sicut donum. Verumtamen 
+          ipsas proprietates aliis tribus nominibus non significavit, iuxta prae dictam 
+          <name ref="#Augustine">Augustini</name> expositionem, nisi solo nomine aeternitatis, quo 
+          non ipsam paternitatem, sed eam voluit intelligi notionem, qua dicitur 
+          ingenitus.</p>
+        <!-- next paragraph is again in smaller font possibly indicating a marginal note ?? -->
+        <p xml:id="pll1d31c2-d1e3619"><ref><name ref="#HilaryOfPoitiers">Hilarius</name> in libro <title>De Synodis</title>:</ref> 
+          <cit>
+            <quote xml:id="pll1d31c2-Qd1e3630">Si quis innascibilem et sine initio dicat 
+              Filium, quasi duo sine principio et duo innascibilia et duo innata dicens, duos 
+              faciat deos: anathema sit. Caput enim, quod est principium omnium Filius;
+              <!-- p. 195 -->
+              caput autem, quod est principum Christi, Deus. Sic enim ad unum ininitiabilem 
+              omnium initium per Filium universa referimus; Filium innascibilem confiteri, 
+              impiissimum est. Iam enim non erit Deus unus, quia Deum unum praedicari, 
+              natura unius innascibilis Dei exigit. Cum ergo Deus unus sit; duo innascibiles 
+              esse non possunt; cum idcirco Deus unus sit -- cum est Pater Deus sit, et Filius 
+              Dei Deus sit -- quia innascibilitas sola penes unum sit. Filius autem idcirco Deus, 
+              quia ex innascibili essentia natus existat. Caput enim omnium Filius est, sed 
+              caput Filii Deus est, et ad unum Deum omnia hoc gradu et hac confessione referuntur, 
+              cum ab eo sumant universa principum, cum ipse principum sit.</quote>
+            <bibl>Propositio 26, n. 59 et 60 (PL 10:521)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d31c2-d1e3640">Idem <ref>in eodem:</ref>
+          <cit>
+            <quote xml:id="pll1d31c2-Qd1e3647">Omnibus creaturis substantiam voluntas Die attulit, sed 
+              naturam dedit Filio ex impassibili ac non nata substantia perfecta nativitas. 
+              Talia enim cuncta creata sunt, qualia Deus esse voluit. Filius autem natus ex Deo 
+              talis subsistit, qualis et Deus est, nec dissimilem sui edidit natura naturam; sed 
+              ex substantia Dei genitus naturae secundum originem attulit, non secundum 
+              creaturas voluntatis essentiam.</quote>
+            <bibl>Propositio 24, n. 58 (PL 10:520)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d31c2-d1e3655">Illud etiam sciri oportet, quod earundem trium personarum 
+          distinctionem Augustinus ostendere volens sine expressione illarum trium proprietatum superius commemoratarum, in I libro 
+          <title ref="#deDoctrinaChristiana">De doctrina christiana</title> si ait: 
+          <cit>
+            <quote xml:id="pll1d31c2-Qd1e3662">In Patre est unitas, in Filio 
+              aequalitas, in Spiritu sancto unitatis aequalitatisque concordia: et 
+              tria haec unum omnia propter Patrem, aequalia omnia propter Filium, 
+              connexa omnia propter Spiritum sanctum. Itaque Pater et 
+              Filius ac Spiritus sanctus et singulus quisque horum Deus est, et 
+              simul omnes unus Deus, et singulus quisque horum plena substantia est, 
+              et simul omnes una substantia. Pater nec Filius est 
+              nec Spiritus sanctus; Filius nec Pater est nec Spiritus sanctus; 
+              Spiritus sanctus nec Pater est nec Filius, sed Pater tantum pater, 
+              et Filius tantum filius, et Spiritus sanctus tantum spiritus sanctus. 
+              Eadem tribus aeternitas, eadem incommutabilitas, eadem maiestas, 
+              eadem potestas.</quote>
+            <bibl>Augustinus, De doctrina christiana, I, c. 5, n. 5 (PL 34:21)</bibl>
+          </cit>
+          In his verbis aperte insinuatur personarum 
+          trium distinctio.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

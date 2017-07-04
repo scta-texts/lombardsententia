@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 26, Capitulus 6</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 26, Capitulus 6</title>
+          <date when="2015-12-14">December 14, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-12-14">December 14, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d26c6">
+        <head xml:id="pll1d26c6-Hd1e3496">Librum I, Distinctio 26, Capitulus 6</head>
+        <!-- Quod spiritus sanctus eadem proprietate donum dicitur, qua Spiritus sanctus, et utroque modo relative vel ad Patrem vel ad Filium -->
+        <p xml:id="pll1d26c6-d1e3501">Ita etiam et de Spiritu sancto dicendum est, qui proprie dicitur 
+          donum Dei, cum tamen et alia plura sint dona Dei. Sed Spiritus 
+          sanctus ita proprietate immutabili et aeterna donum est, 
+          sicut Filius proprietate filius. Eo enim donum dicitur, quo Spiritus 
+          sanctus, et utroque utique nomine relative dicitur, eademque 
+          relatione dicitur Spiritus sanctus et donum; licet ipsa relatio 
+          non ita appareat in hoc nomine Spiritus sanctus, sicut in hoc 
+          nomine donum.</p>
+        <p xml:id="pll1d26c6-d1e3504">Unde <name ref="#Augustine">Augustinus</name>, in V libro <title ref="#deTrinitate">De Trinitate</title> ita ait: 
+          <cit>
+            <quote xml:id="pll1d26c6-Qd1e3514">Spiritus 
+              sanctus, qui non est Trinitas, sed in Trinitate, intelligitur, 
+              in eo quod proprie dicitur Spiritus sanctus, relative dicitur, cum 
+              et ad Patrem et ad Filium refertur, quia Spiritus sanctus et Patris 
+              et Filii spiritus est. Sed ipsa relatio non apparet in hoc nomine, 
+              apparet autem, cum dicitur Donum Dei; donum est enim 
+              Patris et Filii, quia et a Patre procedit et a Filio. Ergo Spiritus 
+              sanctus ineffabilis quaedam Patris Filiique communio est. Et ideo 
+              fortasse sic appellatur, ut iam diximus, nec iterare piget, quia 
+              Patri et Filio potest eadem appellatio convenire. Nam hoc ipse proprie 
+              dicitur, quod illi communiter, quia et Pater spiritus, et Filius 
+              spiritus; et Pater sanctus, et Filius sanctus. Ut ergo ex nomine, 
+              quod utrique convenit, utriusque communio significetur, vocatur 
+              donum amborum Spiritus sanctus.</quote>
+            <bibl>Augustinus, De Trinitate, V, c. 11, n. 12 (PL 42:919)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d26c6-d1e3522">Ecce habes, quare Spiritus sanctus proprie dicatur donum, et 
+          quod relative dicitur sive donum, sive Spiritus sanctus, et quod 
+          nomen sibi proprium tenet, quod communiter Patri et Filio convenit, 
+          sed divisim. Et est sciendum, quia cum Pater vel Filius dicitur 
+          spiritus, sive spiritus, neutrum relative dicitur, sed secundum 
+          substantiam.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

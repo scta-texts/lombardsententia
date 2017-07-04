@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 30, Capitulus 1</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 30, Capitulus 1</title>
+          <date when="2015-12-25">December 25, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-12-25">December 25, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d30c1">
+        <head xml:id="pll1d30c1-Hd1e3496">Librum I, Distinctio 30, Capitulus 1</head>
+        <!-- De his quae temporaliter de Deo dicuntur, et relative secundum accidens, quod non Deo, sed creaturis accidit. -->
+        <p xml:id="pll1d30c1-d1e3501">Sunt etiam quaedam, quae ex tempore de Deo dicuntur, eique 
+          temporaliter conveniunt sine sui commutatione, et relative dicuntur 
+          secundum accidens, non quod accidit Deo, sed quod accidit 
+          creaturis, ut: creator, dominus, refugium, datum vel donatum et 
+          huiusmodi.</p>
+        <p xml:id="pll1d30c1-d1e3504">De his <ref><name ref="#Augustine">Augustinus</name> in V libro <title ref="#deTrinitate">De Trinitate</title></ref> ita ait: 
+          <cit>
+            <quote xml:id="pll1d30c1-Qd1e3515">Creator relative dicitur ad creaturam, sicut dominus ad servum.</quote>
+            <bibl>Augustinus, De Trinitate, V, c. 13, n. 14 (PL 42:920)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d30c1-d1e3523">Item: 
+          <cit>
+            <quote xml:id="pll1d30c1-Qd1e3527">Non moveat, quod Spiritus sanctus, cum sit coaeternus Patri et Filio, dicitur tamen aliquid ex tempore, veluti hoc 
+              ipsum quod donatum diximus. Nam sempiterne Spiritus est donum, 
+              <!-- p. 188 --> 
+              temporaliter autem donatum. Et si dominus non dicitur, nisi cum 
+              habere incipit servum, etiam ista appellatio relativa ex tempore 
+              est Deo. Non enim sempiterna creatura est, cuius ille dominus est; 
+              ergo dominum esse non sempiternum habet, ne cogamur etiam 
+              creaturam sempiternam dicere, quia ille sempiterne non dominaretur, 
+              nisi etiam ista sempiterne famularetur. Sicut autem non potest 
+              esse servus qui non habet dominum, sic nec dominus qui non 
+              habet servum.</quote>
+            <bibl>Augustinus, De Trinitate, V, c. 16, n. 17 (PL 42:921)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d30c1-d1e3538">Sed hic aliquis dicet, quod non ex tempore competit Deo haec 
+          appellatio, qua dicitur dominus, quia non est tantum dominus rerum, 
+          quae ex tempore coeperunt, sed etiam illius rei, quae non 
+          coepit ex tempore, id est ipsius temporis, quod non coepit in 
+          tempore, quia non erat ante tempus quam inciperet; et ideo non 
+          coepit esse dominus ex tempore.</p>
+        <p xml:id="pll1d30c1-d1e3541">Ad quod dici potest, quia licet non coeperit ex tempore esse 
+          dominus temporis, coepit tamen esse dominus temporis, quia non 
+          semper fuit tempus; et ipsius hominis ex tempore coepit esse 
+          dominus.</p>
+        <p xml:id="pll1d30c1-d1e3544">De hoc <ref><name ref="#Augustine">Augustinus</name> in eodem libro</ref> continue ita dicit: 
+          <cit>
+            <quote xml:id="pll1d30c1-Qd1e3553">Quisquis extiterit, quia aeternum Deum solum icat, tempora vero 
+              non esse aeterna propter varietatem et mutabiltitatem, sed tamen 
+              tempora non in tempore esse coepisse, quia non erat tempus, antequam 
+              tempora inciperent, et ideo non in tempore acciderit Deo, 
+              ut dominus esset, quia ipsorum temporum dominus erat, quae utique 
+              non in tempore esse coeperunt -- quid respondebit de homine, 
+              qui in tempore factus est, cuius utique dominus non erat, antequam 
+              esset? Certe, ut dominus hominis esset, ex tempore accidit 
+              Deo, et ut omnis amoveatur controversia, certe et tuus dominus 
+              esset vel meus, qui modo esse coepimus, ex tempore habuit. 
+              Quomodo igitur obtinebimus, nihil secundum accidens dici Deum? 
+              <!-- p. 189 -->
+              Nisi quia ipsius naturae nihil accidit, quo mutetur, ut ea sint accidentia 
+              relativa, quae cum aliqua mutatione rerum, de quibus dicuntur, 
+              accidunt, sicut amicus relative dicitur. Non enim amicus 
+              esse incipit, nisi cum amare coeperit; fit ergo aliqua mutatio voluntatis, 
+              ut amicus dicatur. Nummus vero, cum dicitur pretium, 
+              relative dicitur: nec tamen mutatus est, cum esse coepit pretium, 
+              neque cum icitur pignus et huiusmodi. Si ergo nummus 
+              potest nulla sui mutatione toties dici relative, ut neque cum incipit 
+              dici, neque cum desinit, aliquid in eius natura vel forma, qua 
+              nummus est, mutationis fiat: quanto facilius de illa incommutabili 
+              Dei substantia debemus accipere, quod ita dicatur relative aliquid 
+              ad creaturam, ut, quamvis temporaliter incipiat dicit, non tamen 
+              ipsi substantiae Dei accidisse aliquid intelligatur, sed illi creaturae, 
+              ad quam dicitur. Qualiter etiam 
+              <cit>
+                <quote xml:id="pll1d30c1-Qd1e3559" ana="#ps17:2">refugium nostrum</quote>
+                <bibl>Psalmus 17:2</bibl>
+              </cit>
+              dicitur: refugium enim nostrum dicitur Deus relative: ad nos enim 
+              refertur, et tunc refugium nostrum fit, cum ad eum refugimus. 
+              Nunquid tunc fit aliquid in eius natura, quod, antequam refugeremus 
+              ad eum, non erat? In nobis ergo fit aliqua mutatio, qui ad 
+              eum refugiendo efficimur meliores; in illo autem nulla. Sicut et 
+              pater noster esse incipit, cum per eius gratiam regeneramur, qui 
+              <cit>
+                <quote xml:id="pll1d30c1-Qd1e3568" ana="#io1_12">dedit nobis <!-- nobis not strictly part of quotation -->potestate filios Dei fieri.</quote>
+                <bibl>Ioannes 1:12</bibl>
+              </cit>
+              Substantia igitur nostra mutatur 
+              in melius, cum filii eius efficimur. Simul et ille pater noster 
+              esse incipit, sed nulla suae commutatione substantiae. Quod 
+              ergo temporaliter dici incipit Deus quod antea non dicebatur, <!-- actual text has "ma-manifestum" --> 
+              manifestum est relative dici, non tamen secundum accidens Dei, 
+              quod ei aliquid acciderit, sed plane secundum accidens eius, ad 
+              quod dici aliquid Deus incipit relative.</quote>
+            <bibl>Augustinus, De Trinitate, V, c. 16, n. 17 (PL 42:921)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d30c1-d1e3585">Ex his aperte ostenditur, quod quaedam de Deo temporaliter 
+          dicuntur relative ad creaturas sine mutatione deitatis, sed non sine 
+          mutatione creaturae; et ita accidens est in creatura, non in Creatore, 
+          et appellatio, qua creatura relative dicitur ad Creatorem, relativa 
+          est et relationem notat, quae est in ipsa creatura. Appellatio 
+          vero illa, qua Creator relative dicitur ad creaturam, relativa quidem 
+          est, sed nullam notat relationem, quae sit in Creatore.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

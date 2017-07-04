@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 13, Capitulus 3</title>
+        <author>Petrus Lombardus</author>
+        <editor></editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.10-dev-master">
+          <title>Librum I, Distinctio 13, Capitulus 3</title>
+          <date when="2015-10-24">October 24, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher></publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-10-24">October 24, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-10-24" who="#JW" status="draft" n="2015.10">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d13c3">
+        <head>Librum I, Distinctio 13, Capitulus 3</head>
+        <!-- Quod non potest mortalis distinguere inter generationem Filii et processionem Spiritus sancti -->
+        <p xml:id="pll1d13c3-d1e3477">Inter generationem vero Filii et processionem Spiritus sancti, 
+          dum hic vivimus, distinguere non sufficimus.</p>
+        <p xml:id="pll1d13c3-d1e3480">Unde <name ref="#Augustine">Augustinus</name> Maximino praemissam quaestionem refricanti, 
+          scilicet quaerenti, cur Spiritus sanctus non diceretur filius,  
+          cum de Patris esset substantia, respondens sic ait: 
+          <cit>
+            <quote xml:id="pll1d13c3-Qd1e3487">Quaeris a 
+              me, si de substantia Patris et Filius, de substantia Patris etiam 
+              est Spiritus sanctus, cur unus filius, et alius non sit filius. Ecce 
+              respondeo, sive capias sive non capias: De Patre est Filius, de Patre 
+              est Spiritus sanctus, sed ille genitus est, iste procedens; ideo ille 
+              Filius est Patris, de quo est genitus; iste autem Spiritus utriusque, 
+              quoniam de utroque procedit. Sed ideo, cum de illo loqueretur, 
+              ait: 
+              <cit>
+                <quote xml:id="pll1d13c3-Qd1e3491" ana="#io15_26">De Patre procedit</quote>
+                <bibl>Ioannes 15:26</bibl>
+              </cit>
+              <!-- p. 87 -->
+              auctor, qui talem Filium genuit et gignendo ei dedit, ut etiam de 
+              ipso procederet Spiritus sanctus. Nam nisi procederet etiam de ipso, 
+              non diceret discipulis: 
+              <cit>
+                <quote xml:id="pll1d13c3-Qd1e3502" ana="#io20_22">Accipite Spiritum sanctum,</quote>
+                <bibl>Ioannes 20:22</bibl>
+              </cit>
+              eumque insufflando 
+              daret, ut, a se quoque procedere significans, aperte ostenderet 
+              flando, quod spirando dabat occulte. Quia ergo, si nasceretur, 
+              non tantum de Patre nec tantum de Filio, sed de ambobus utique 
+              nasceretur; sine dubio filius diceretur amborum. Ac per hoc, quia 
+              filius amborum nullo modo esset, non oportuit nasci eum de ambobus. 
+              Amborum est ergo Spiritus, procedendo de ambobus.</quote>
+            <bibl>Augustinus, Ad Maximinum <!-- dbcheck title -->, II, c. 14, n. 1 (PL 42:770)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d13c3-d1e3517">
+          <cit>
+            <quote xml:id="pll1d13c3-Qd1e3521">Quid autem inter nasci et procedere intersit, de illa excellentissima 
+              natura loquens explicare quis potest? Non omne quod 
+              procedit, nascitur, quamvis omne procedat, quod nascitur; sicut 
+              non omne quod bipes est, homo est, quamvis bipes sit omnis qui 
+              homo est. Hoc scio; distinguere autem inter illam generationem 
+              et hanc processionem nescio, non valeo, non sufficio. Ac per hoc, 
+              quia et illa et ista est ineffabilis, icut Propheta de Filio loquens 
+              ait: 
+              <cit>
+                <quote xml:id="pll1d13c3-Qd1e3525" ana="#is53_8">Generationem eius quis enarrabit?</quote>
+                <bibl>Isias 53:8</bibl>
+              </cit>
+              ita de Spiritu sancto 
+              verissime dicitur: Processionem eius quis enarrabit? Satis ergo sit 
+              nobis, quia non est a se ipso Filius, sed ab illo de quo natus est, 
+              non est a se ipso Spiritus sanctus, sed ab illo de quo procedit, et 
+              quia de utroque procedit, sicut iam ostendimus.</quote>
+            <bibl>Augustinus, Ad Maximinum <!-- dbcheck title -->, II, c. 14, n. 1 (PL 42:770)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d13c3-d1e3541">De Spiritu sancto, quomodo ipse de Deo sit, nec tamen ipse 
+          filius sit, quoniam procedendo, non nascendo, legitur esse de Deo 
+          <ref type="commentary" target="http://scta.info/resource/pl-l1d13c1">iam superius</ref>, 
+          quantum visum est, disputavimus.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

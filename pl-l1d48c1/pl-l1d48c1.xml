@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 48, Capitulus 1</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 48, Capitulus 1</title>
+          <date when="2016-01-26">January 26, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-01-26">January 26, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+          <witness xml:id="Z" n="zbsSII72" xml:base="http://www.e-codices.unifr.ch/metadata/iiif/zbs-SII-0072/canvas/">Solothurn, Zentralbibliothek, Cod. S II 72</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <cb ed="#Z" n="52va" select="zbs-SII-0072_052v.json"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d48c1">
+        <head xml:id="pll1d48c1-Hd1e3513">Librum I, Distinctio 48, Capitulus 1</head>
+        <head xml:id="pll1d48c1-Hd1e3516" type="questionTitle">Quod homo aliquando bona voluntate aliud vult quam Deus, 
+          et mala idem quod Deus.</head>
+        <p xml:id="pll1d48c1-d1e3519"><cb ed="#Z" n="52vb" select="zbs-SII-0072_052v.json"/>Sciendum quoque est, quod aliquando est mala voluntas hominis, 
+          idem volentis quod Deus vult fieri; et aliquando bona est 
+          voluntas hominis, aliud volentis quam Deus. Ut enim bona sit hominis 
+          voluntas, oportet attendere, quid congruat ei velle et quo 
+          fine: tantum enim interest inter voluntatem Dei et voluntatem 
+          hominis, ut in quibusdam aliud congruat Deo velle, aliud homini.</p>
+        <p xml:id="pll1d48c1-d1e3523">Unde <name ref="#Augustine">Augustinus</name> in <title>Enchiridio</title>: 
+          <cit>
+            <quote xml:id="pll1d48c1-Qd1e3533">Aliquando, inquit, 
+              bona voluntate homo vult aliquid, quod Deus non vult bona multo 
+              amplius multoque certius voluntate - nam ipsius mala voluntas 
+              esse nunquam potest - tanquam si bonus filius patrem velit vivere, 
+              quem Deus bona voluntate vult mori. Et rursus fieri potest, 
+              ut hoc velit homo voluntate mala, quod Deus vult bona: velut si 
+              malus filius velit mori patrem, velit etiam hoc Deus. Nempe ille 
+              vult quod non vult Deus, iste vero id vult quod vult et Deus; et 
+              tamen bonae Dei voluntati pietas illius potius consonat, quamvis 
+              aliud volentis, quam huius idem volentis impietas. Multum enim 
+              interest, quid velle homini, quid Deo congruat, et ad quem finem 
+              quisque suam referat voluntatem, ut approbetur vel improbetur.</quote>
+            <bibl>Augustinus, Enchiridion, c. 101, n. 26 (PL 40:279)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d48c1-d1e3541">Potest enim velle bonum, quod non congruit ei velle; et potest 
+          velle bonum, quod congruit, sed non refert ad rectum finem, 
+          et ideo non est bona voluntas.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

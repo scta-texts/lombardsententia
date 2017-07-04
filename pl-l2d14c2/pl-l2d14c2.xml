@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum II, Distinctio 14, Capitulus 2</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.1-dev">
+          <title>Librum II, Distinctio 14, Capitulus 2</title>
+          <date when="2016-06-29">June 29, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-06-29">June 29, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+          <witness xml:id="Z" n="zbsSII72" xml:base="http://www.e-codices.unifr.ch/metadata/iiif/zbs-SII-0072/canvas/">Solothurn, Zentralbibliothek, Cod. S II 72</witness>
+        	<witness xml:id="H" n="hopkinsMSB19" xml:base="http://scta.info/iiif/pl-hopkins/canvas/">Baltimore, Hopkins</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="0.0.1">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+      	<cb ed="#H" n="68rb" select="68r"/>
+      </div>
+    </front>
+  	<body>
+  		<div xml:id="pl-l2d14c2">
+  			<head xml:id="pll2d14c2-Hd1e3513">Librum II, Distinctio 14, Capitulus 2</head>
+  			<head xml:id="pll2d14c2-Hd1e3516" type="questionTitle"/>
+  			<p xml:id="pll2d14c2-d1e3518">
+  				<cit>
+  					<quote xml:id="pll2d14c2-Qd1e3522">Sciendum est, quod illius caeli describitur hic 
+  						creatio, sicut ait <ref><name>Beda</name> <title>Super Geneism</title></ref>, in quo fixa sunt sidera, 
+  						cui suppositae sunt aquae in aere et in terra, et superpositae 
+  						aliae, de quibus dicitur: 
+  						<cit>
+  							<quote xml:id="pll2d14c2-Qd1e3533" ana="#ps103_3">Qui tegis aquis superiora 
+  								eius</quote>
+  							<bibl>Psalmus 103:3</bibl>
+  						</cit>.
+  						In medio ergo firmamentum est, scilicet, sidereum caelum;</quote>
+  					<bibl>Beda, Hexaemeron, I (PL 91:18)</bibl>
+  				</cit>
+  			</p>
+  			
+  			
+  		</div>  
+  	</body>
+  </text>
+</TEI>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 36, Capitulus 5</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 36, Capitulus 5</title>
+          <date when="2016-01-11">January 11, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-01-11">January 11, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d36c5">
+        <head xml:id="pll1d36c5-Hd1e3496">Librum I, Distinctio 36, Capitulus 5</head>
+        <!-- Quod non omnia, quae ex Deo sunt, etiam de ipso sunt -->
+        <p xml:id="pll1d36c5-d1e3501">Illud etiam hic annectendum est, quod non omnia quae dicuntur 
+          esse ex Deo, etiam de ipso esse dici debeant; 
+          <cit>
+            <quote xml:id="pll1d36c5-Qd1e3505">quia, ut 
+              ait <name ref="#Augustine">Augustinus</name> in libro <title>De natura boni</title>, non hoc significat 
+              penitus <mentioned>ex ipso,</mentioned> quod de ipso. Quod enim de ipso est, potest dici 
+              <!-- p. 229 --> 
+              <mentioned>ex ipso,</mentioned>
+              sed non omne quod <mentioned>ex ipso</mentioned> est, potest dici esse de ipso, 
+              qui non est de sua substantia. <mentioned>Ex ipso</mentioned> enim sunt caelum et 
+              terra, quia ipse fecit ea, non autem de ipso, quia non de substantia 
+              sua. Sicut aliquis homo si generat filium et facit domum, ex 
+              ipso est filius, ex ipso est et domus, sed filius de ipso, domus vero 
+              de terra et ligno,</quote>
+            <bibl>Augustinus, De natura boni, c. 27 (PL 42:563)</bibl>
+          </cit>
+          non de se ipso.</p>
+        <p xml:id="pll1d36c5-d1e3534">In praemissis apertum est, quod in Dei cognitione sive praesentia 
+          sunt omnia, scilicet bona et mala, sed non omni modo sunt 
+          ibi mala, quo bona; et quod in Deo bona tantum sunt, sicut <mentioned>ex ipso</mentioned>, 
+          et <mentioned>per ipsum</mentioned>, non mala; et ex quo sensu haec accipienda sint, assignatum 
+          est; et quod de ipso non dicitur esse proprie quod aliud est 
+          ab ipso; <mentioned>ex ipso</mentioned> autem dicuntur esse omnia quae eo auctore sunt.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

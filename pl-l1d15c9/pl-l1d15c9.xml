@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 15, Capitulus 9</title>
+        <author>Petrus Lombardus</author>
+        <editor></editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.10-dev-master">
+          <title>Librum I, Distinctio 15, Capitulus 9</title>
+          <date when="2015-10-29">October 29, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher></publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-10-29">October 29, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-10-29" who="#JW" status="draft" n="2015.10">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d15c9">
+        <head>Librum I, Distinctio 15, Capitulus 9</head>
+        <!-- Quare Pater non dicitur missus. -->
+        <p xml:id="pll1d15c9-d1e3477">Hic quaeritur, cur Pater non dicitur missus, cum ex tempore 
+          a quoquam cognoscitur, sicut Filius.</p>
+        <!-- p. 101 -->
+        <p xml:id="pll1d15c9-d1e3482">Ad quod dicimus, quia in eo est principii auctoritas, qui non 
+          habet de quo sit, a quo Filius est et Spiritus sanctus. 
+          <cit>
+            <quote xml:id="pll1d15c9-Qd1e3486">Pater enim 
+              est, ut ait <ref><name ref="#Augustine">Augustinus</name> in eodem libro,</ref> 
+              principium totius divinitatis, vel, si melius dicitur, deitatis,</quote>
+            <bibl>Augustinus, De Trinitate, IV, c. 20, n. 29 (PL 42:908)</bibl>
+          </cit>
+          quia principium est Filii 
+          et Spiritus sancti. Nam, ut ait <name ref="#Augustine">Augustinus</name> in eodem: 
+          <cit>
+            <quote xml:id="pll1d15c9-Qd1e3503">Si voluisset 
+              etiam Deus Pater per subiectam creaturam visibiliter apparere, 
+              absurdissime tamen aut a Filio, quem genuit, aut a sancto 
+              Spiritu, qui de illo procedit, missus diceretur.</quote>
+            <bibl>Augustinus, De Trinitate, IV, c. 21, n. 32 (PL 42:908)</bibl>
+          </cit>
+          Congruenter autem 
+          ille missus dicitur, qui in carne apparuit; misisse autem ille, qui 
+          in ea non apparuit.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

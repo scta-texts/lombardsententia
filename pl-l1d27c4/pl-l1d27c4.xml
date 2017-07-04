@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 27, Capitulus 4</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 27, Capitulus 4</title>
+          <date when="2015-12-16">December 16, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-12-16">December 16, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d27c4">
+        <head xml:id="pll1d27c4-Hd1e3496">Librum I, Distinctio 27, Capitulus 4</head>
+        <!-- De Generali regula eorum quae ad se, et eorum quae relative dicuntur -->
+        <p xml:id="pll1d27c4-d1e3501">Et est hic advertenda quaedam generalis regula eorum quae 
+          ad se, et eorum quae relative dicuntur de Patre et Filio.</p>
+        <p xml:id="pll1d27c4-d1e3504">
+          <cit>
+            <quote xml:id="pll1d27c4-Qd1e3508">Quidquid enim ad se dicuntur, ut ait 
+              <ref><name ref="#Augustine">Augustinus</name>, in VI 
+                libro <title ref="#deTrinitate">De Trinitate</title></ref>
+              non dicitur alter sine altero, id est, quidquid 
+              dicuntur quod substantiam eorum ostendat, ambo simul dicuntur. 
+              Ergo nec Pater est Deus sine Filio, nec Filius sine Patre, sed ambo 
+              simul Deus,</quote>
+            <bibl>Augustinus, De Trinitate, VI, c. 2, n. 2 (PL 42:925)</bibl>
+          </cit>
+          sed non ambo simul pater, nec simul filius vel 
+          verbum vel imago.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 28, Capitulus 6</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 28, Capitulus 6</title>
+          <date when="2015-12-25">December 25, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-12-25">December 25, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d28c6">
+        <head xml:id="pll1d28c6-Hd1e3496">Librum I, Distinctio 28, Capitulus 6</head>
+        <!-- Si sapientia dicitur genita secundum relationem, vel secundum substantiam. -->
+        <p xml:id="pll1d28c6-d1e3501">Sciendum quoque est, quod sicut solus Filius dicit Verbum 
+          vel Imago, ita etiam ipse solus dicitur Sapientia nata vel genita. 
+          Et ideo quaeritur, utrum hoc relative dicatur; et si relativa dicitur, 
+          an secundum eandem relationem relationem, qua dicitur Verbum et Imago.</p>
+        <p xml:id="pll1d28c6-d1e3504">De hoc <ref><name ref="#Augustine">Augustinus</name> in VII libro <title>De Trinitate</title></ref> ita ait: 
+          <cit>
+            <quote xml:id="pll1d28c6-Qd1e3515">Id dici accipiamus, cum dicitur Verbum, ac si dicatur nata Sapientia, 
+              ut sit et Filius et Imago; et haec duo cum dicuntur, id 
+              est nata Sapientia, in uno eorum, eo quoe est nata, et Verbum et 
+              Imago et Filius intelligitur -- et in omnibus his nominibus non 
+              ostendatur essentia, quia relative dicuntur -- at in altero, quod 
+              est Sapientia, etiam essentia demonstretur, quoniam et ad se dicitur. 
+              Se ipsa enim sapiens est, et hoc est eius esse quod sapere; unde 
+              Pater et Filius simul una sapientia, quia una essentia.</quote>
+            <bibl>Augustinus, De Trinitate, VII, c. 2, n. 3 (PL 42:936)</bibl>
+          </cit>
+        </p>
+        <!-- p. 182 -->
+        <p xml:id="pll1d28c6-d1e3526">Cave, lector, qualiter intelligas, quod hic dicit <name ref="#Augustine">Augustinus.</name> 
+          Videtur enim dicere, quod cum dicitur nata Sapientia, ibi sapientia 
+          essentiam significet, et nata relationem notet. Quod si ita est, cogimur 
+          dicere, essentiam divinam esse natam; quod superioribus repugnat.</p>
+        <p xml:id="pll1d28c6-d1e3532">Sed ad hoc dicimus, quod in altero, id est, in eo quod est 
+          nata, eadem notio intelligitur, quae notatur cum dicitur Verbum et 
+          Imago; in altero vero, scilicet Sapientia, demonstratur essentia, id 
+          est, demonstratur quod Filius sit essentia, quia Sapientia secundum 
+          essentiam dicitur. Et ideo cum dicitur nata Sapientia, intelligitur 
+          quod ipse qui natus est, essentia est. Ibi tamen sapientia non 
+          pro essentia, sed pro hypostasi facit, ut, sicut quando dicitur Verbum 
+          vel Filius, intelligitur hypostasis cum sua proprietate; ita cum 
+          dicitur nata Sapientia, idem intelligatur, id est genita hypostasis. 
+          Ideo vigilanter ait, idem esse intelligendum, cum dicitur Verbum, et 
+          cum dicitur nata Sapientia, id est eadem relatio eademque hypostasis, 
+          cui inest illa proprietas. Et ex hoc adiuvatur illud quod supra 
+          diximus, scilicet quod cum dicitur Pater vel Vilius vel Spiritus 
+          sanctus, non tantum illae proprietates significantur, ut cum dicitur 
+          paternitas, filiatio, sed etiam hypostases cum suis proprietatibus.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

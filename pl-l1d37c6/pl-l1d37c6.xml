@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 37, Capitulus 6</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 37, Capitulus 6</title>
+          <date when="2016-01-14">January 14, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-01-14">January 14, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d37c6">
+        <head xml:id="pll1d37c6-Hd1e3496">Librum I, Distinctio 37, Capitulus 6</head>
+        <!-- Quibus modis aliquid dicitur locale aut circumscriptibile. -->
+        <p xml:id="pll1d37c6-d1e3501">Duobus namque his modis dicitur in Scriptura aliquid locale 
+          sive circumscriptibile, et e converso, scilicet vel quia dimensionem 
+          capiens longitudinis, altitudinis et latitudinis distantiam facit 
+          in loco, ut corpus; vel quia loco definitur ac determinatur, quoniam, 
+          cum sit alicubi, non ubique invenitur; quod non solum 
+          corpori, sed etiam omni creato spiritui congruit.</p>
+        <p xml:id="pll1d37c6-d1e3504">Omne igitur corpus omni modo locale est; spiritus vero creatus 
+          quodam modo localis est, et quodam modo non est localis. 
+          Localis quidem dicitur, quia definitione loci terminatur, quoniam 
+          cum alicubi praesens sit, totus alibi non invenitur; non autem ita 
+          localis est, ut, dimensionem capiens, distantiam in loco faciat.</p>
+        <p xml:id="pll1d37c6-d1e3507">Divina igitur sola essentia omnino in-localis et incircumscriptibilis 
+          est, quae nec locis movetur aliquo modo - scilicet vel determinatione finita, 
+          vel dimensione suscepta - nec temporibus, scilicet 
+          affectu et cognitione. His enim duobus modis, scilicet loco 
+          vel tempore, fit mutatio creaturae, quae longe est a Creatore.</p>
+        <p xml:id="pll1d37c6-d1e3511">Unde <ref><name ref="#Augustine">Augustinus</name> <title>Super Genesim</title>:</ref> 
+          <cit>
+            <quote xml:id="pll1d37c6-Qd1e3523">Deus, inquit, omnipotens, 
+              incommutabili aeternitate, voluntate, veritate semper idem, 
+              movet per tempus creaturam spiritualem; movet etiam per tempus 
+              et locum creaturam corporalem, ut eo motu naturas, quas 
+              condidit, administret. Cum ergo tale aliquid agit, non debemus 
+              opinari eius substantiam, quae Deus est, temporibus locisque mutabilem, 
+              sive per tempora et loca mobilem, cum sit ipse et interior <!-- p. 237 --> 
+              omni re, quia in ipso sunt omnia; et exterior omni re, quia 
+              ipse est super omnia; et antiquior omnibus, quia ipse est ante 
+              omnia; et novior omnibus, quia ipse idem est post omnia,</quote>
+            <bibl>Augustinus, Super Genesim, VIII, c. 26, n. 48</bibl>
+          </cit>
+          scilicet post omnium initia.</p>
+        <p xml:id="pll1d37c6-d1e3533">Ecce hic aperte ostenditur, quia nec locis nec temporibus 
+          mutatur vel movetur Deus. Spiritualis autem creatura per tempus 
+          movetur, corporalis vero etiam per tempus et locum.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

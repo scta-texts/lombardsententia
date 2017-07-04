@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 18, Capitulus 4</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 18, Capitulus 4</title>
+          <date when="2015-11-13">November 13, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-11-13">November 13, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d18c4">
+        <head xml:id="pll1d18c4-Hd1e3472">Librum I, Distinctio 18, Capitulus 4</head>
+        <!-- quod spiritus sanctus dicitur donum et donatum, secundum 
+          duos modos praedictos processionis, qui, secundum quod 
+          donum est, refertur ad Patrem [et Filium], secundum quod 
+          datum, ad eum qui dedit et ad eos quibus datur. -->
+        <p xml:id="pll1d18c4-d1e3477">Ex praedictis patet, quod Spiritus sanctus sempiterne donum
+          est et temporaliter datum vel donatum. Ex quo apparet illa distinctio 
+          geminae processionis, de qua supra egimus. Nam secundum 
+          alteram processionem dicitur donatum vel datum, secundum 
+          alteram vero dicitur donum.</p>
+        <p xml:id="pll1d18c4-d1e3480">Et secundum hoc, quod sempiterne donum est, refertur ad 
+          Patrem et Filium; secundum hoc vero, quod dicitur datum vel donatum, 
+          et ad eum qui dedit refertur, et ad eos quibus datur; et 
+          eius dicitur esse qui dat, et illorum quibus datur.</p>
+        <p xml:id="pll1d18c4-d1e3483">Unde <ref><name ref="#Augustine">Augustinus</name> in V libro <title ref="#deTrinitate">De Trinitate</title></ref> ait: 
+          <cit>
+            <quote xml:id="pll1d18c4-Qd1e3494">Quod 
+              datum est, et ad eum qui dedit refertur, et ad eos quibus dedit. 
+              Itaque Spiritus sanctus non tantum Patris et Filii, qui dederunt, 
+              sed etiam noster dicitur, qui accepimus. Spiritus ergo et Dei est, 
+              qui dedit, et noster, qui accepimus; non ille spiritus noster, quo 
+              sumus, quia ipse 
+              <cit>
+                <quote xml:id="pll1d18c4-Qd1e3498" ana="#Icor2_11">spiritus est hominis qui in ipso est;</quote>
+                <bibl>I Corinthios 2:11</bibl>
+              </cit>
+              quamvis 
+              et illum spiritum, qui hominis dicitur, utique accepimus; sed 
+              aliter iste, aliter ille noster dicitur. Aliud est enim quod accepimus, 
+              ut essemus, aliud quod accepimus, ut sancti essemus.</quote> 
+            <bibl>Augustinus, De Trinitate, V, c. 14, n. 15 (PL 42:921)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d18c4-d1e3512">
+          <cit>
+            <quote xml:id="pll1d18c4-Qd1e3516">Quod autem Spiritus sanctus noster dicatur, Scriptura ostendit. 
+              Scriptum est enim de <name ref="#John">Ioanne</name>, quod 
+              <cit>
+                <quote xml:id="pll1d18c4-Qd1e3523" ana="#lc1_17">in spiritu Eliae</quote>
+                <bibl>Lucas 1:17</bibl>
+              </cit>
+              veniret.
+              Ecce dictus est <name>Eliae</name> spiritus, scilicet Spiritus sanctus, quem 
+              accepit <name>Elias</name>. Et <name ref="#Moses">Moysi</name> ait Dominus: 
+              <cit>
+                <quote xml:id="pll1d18c4-Qd1e3542" ana="#num11_17">Tollam de spiritu tuo et 
+                  dabo eis,</quote>
+                <bibl>Num. 11:17</bibl>
+              </cit>
+              id est, dabo illis de Spiritu sancto, quem iam tibi dedi</quote>
+            <bibl>Augustinus, De Trinitate, V, c. 14, n. 15 (PL 42:921)</bibl>
+          </cit>
+          Ecce hic dictus est spiritus Moysi. Pater igitur, quia Spiritus 
+          sanctus noster dicitur spiritus, scilicet quia nobis datus, et datus 
+          <!-- p. 123 -->
+          utique ad hoc, ut sancti essemus: Spiritus vero creatus ad hoc est 
+          datus, ut essemus.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

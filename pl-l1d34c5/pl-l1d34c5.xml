@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 34, Capitulus 5</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 34, Capitulus 5</title>
+          <date when="2016-01-04">January 04, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-01-04">January 04, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d34c5">
+        <head xml:id="pll1d34c5-Hd1e3496">Librum I, Distinctio 34, Capitulus 5</head>
+        <!-- De hoc nomine homousion, ubi in auctoritate receptum sit, et quid significet -->
+        <p xml:id="pll1d34c5-d1e3501">Hic non est praetermittendum, quod <ref><name ref="#Augustine">Augustinus</name> in libro II, 
+          <title>Contra Maximinum</title></ref> dicit de hoc nomine homousion, quo Latini 
+          tractatores frequenter utuntur. 
+          <cit>
+            <quote xml:id="pll1d34c5-Qd1e3512">Pater, inquit, et Filius unius sunt 
+              eiusdemque substantiae. Hoc est illud homousion, quod in Concilio 
+              Nicaeno adversus haereticos Arianos a catholicis Patribus veritatis 
+              auctoritate firmatum est; quod postea in Concilio Ariminensi, 
+              propter novitatem verbi, minus quam potuit intellectam - quam 
+              tamen fides antiqua pepererat - multis paucorum fraude deceptis, 
+              haeretica impietas sub haeretico imperatore <name>Constantio</name> labefactare 
+              tentavit. Sed post non longum tempus libertate fidei catholicae 
+              praevalente, postquam vis verbi, sicut debuit, intellecta 
+              est, homousion illud catholicae fidei sanitate longe lateque defensum 
+              est et diffusum. Quid enim est homousion nisi unius eiusdem 
+              quae substantiae? Quid est, inquam, homousion nisi: 
+              <cit>
+                <quote xml:id="pll1d34c5-Qd1e3519" ana="#io10_30">Ego et Pater 
+                  unum sumus?</quote>
+                <bibl>Ioannes 10:30</bibl>
+              </cit>
+              Non ergo inter profanas novitates vocum hoc vitandum est.</quote>
+            <bibl>Augustinus, Contra Maximinum, c. 14, n. 3 (PL 42:772)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d34c5-d1e3532">Praeterea sciendum est, quod in assignatione distinctionis nominum, 
+          inter alia, quae supra diligenter executi sumus, quaedam 
+          diximus translative ac per similitudinem de Deo dici, ut: speculum, 
+          splendor, character, figura et huiusmodi. De quibus pio lectori breviter 
+          trado quod sentio, ut scilicet, ratione similitudinis considerata, 
+          ex causis dicendi dictorum intelligentiam assumat, sed catholicam.</p>
+        <p xml:id="pll1d34c5-d1e3535">De sacramento Unitatis atque Trinitatis summae et ineffabilis 
+          multa iam diximus. Nihil tamen eius ineffabilitate dignum tradisse 
+          profitemur, sed potius ex nobis <sic>mirificatam</sic> eius scientiam, 
+          nec potuisse nos ad illam.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 31, Capitulus 3</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 31, Capitulus 3</title>
+          <date when="2015-12-27">December 27, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-12-27">December 27, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d31c3">
+        <head xml:id="pll1d31c3-Hd1e3496">Librum I, Distinctio 31, Capitulus 3</head>
+        <!-- Quare patri attribuitur unitas. --> 
+        <p xml:id="pll1d31c3-d1e3501">Sed plurimos movet, quod Patri attribuit unitatem, Filio aequalitatem. 
+          Cum enim unitas dicatur secundum substantiam, non tantum 
+          in Patre est, sed et in Filio, et in Spiritu sancto; et aequalitas 
+          una est Patris et Filii et Spiritus sancti. Cur ergo Patri attribuitur 
+          unitas et Filio aequalitas?</p>
+        <p xml:id="pll1d31c3-d1e3504">Forte eadem ratione attribuitur Patri unitas secundum <name ref="#Augustine">Augustinum</name>, 
+          qua supra eidem aeternitas secundum <name ref="#HilaryOfPoitiers">Hilarium</name>: quia 
+          videlicet Pater ita est, ut ab alio non sit, et quia Filium genuit 
+          unum secum Deum, et Spiritus ab eo procedit unus cum eo Deus. 
+          Unitas ergo in Patre esse dicitur, quia nec est aliquid aliud, a quo 
+          sit -- non enim ab alio est -- nec ab eo aliquid vel est 
+          ab aeterno, quod unum cum eo non sit; Filius enim et Spiritus 
+          sanctus unum sunt cum Patre. Unde Veritas ait: 
+          <cit>
+            <quote xml:id="pll1d31c3-Qd1e3514" ana="#io10_30">Ego et Pater 
+              unum sumus.</quote>
+            <bibl>Ioannes 10:30</bibl>
+          </cit>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

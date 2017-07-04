@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 19, Capitulus 10</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 19, Capitulus 10</title>
+          <date when="2015-11-19">November 19, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-11-19">November 19, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d19c10">
+        <head xml:id="pll1d19c10-Hd1e3472">Librum I, Distinctio 19, Capitulus 10</head>
+        <!-- Utrum tres personae differant numero, quae proprietatibus distinctae sunt. -->
+        <p xml:id="pll1d19c10-d1e3477">Quod autem <name ref="#John">Ioannes</name> dicit, hypostases differre numero non natura, 
+          in eo quod non differre natura ait, verissime et sine ullo scrupulo 
+          loquitur; quod vero dicit, differre numero, cavendum est, quomodo 
+          intelligatur; diversis enim modis dicuntur aliqua differre numero.</p>
+        <p xml:id="pll1d19c10-d1e3483">Dicuntur enim aliqua differre numero, quando ita differunt, 
+          ut hoc non sit illud nec aliquid, quod illud est, vel in ipso est: 
+          qualiter differunt <name ref="#Socrates">Socrates</name> et <name ref="#Plato">Plato</name> et huiusmodi, quae apud philosophos 
+          dicuntur individua vel particularia; iuxta quem modum 
+          non possunt dici tres personae differre numero.</p>
+        <p xml:id="pll1d19c10-d1e3492">Dicuntur quoque differre numero quae in enumeratione sive 
+          computatione non sibi adiunguntur, sed a se invicem discernuntur, 
+          ut cum de aliquibus rebus loquentes dicimus una, duae, tres; et 
+          secundum hunc modum forte dixit <name ref="#John">Ioannes</name> hypostases, id est personas 
+          differre numero. Possumus enim dicere: Pater est unus, et 
+          Pater et Filius sunt duo, et Pater et Filius et Spiritus sanctus sunt 
+          tres; et item: Haec persona est una, et haec et illa sunt duae, et 
+          haec et illa et alia sunt tres. Convenientius tamen tres illae personae 
+          proprietatibus tantum distingui dicuntur, de quarum distinctione 
+          secundum proprietates in sequenti tractabitur.</p>
+        <p xml:id="pll1d19c10-d1e3499">Nunc vero ad inceptum redeamus, quae dicta sunt repetentes, 
+          ut saepius versando familiarius innotescant.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

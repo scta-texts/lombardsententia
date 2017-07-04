@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber I, Distinctio 33, C. 5</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber I, Distinctio 33, C. 5</title>
+          <date when="2017-07-04">July 4, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative
+              Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="Quaracchi1916">Quaracchi 1916 Volume 1</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-07-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l2d33c5">
+        <head>Liber I, Distinctio 33, C. 5</head>
+        <head type="question-title">Quomodo peccata parentum visitentur in filios, et non;
+          visitentur.</head>
+        <p> Et licet peccatis parentum nisi Adae, parvuli non obligentur, non est tamen dittitendum,
+          peccata parentum in filios redundare, sicut Dominus in Exodo 3 ad Moysen ait: Ego sum Deus
+          fortis, zelotes, visitans iniquitates d- patrum in filios usque ttt. tertiam et quartam
+          generationem, his qui oderunt me. His verbis aperte <pb ed="#Q" n="485"/> insinuatur, quod
+          Deus reddit peccata patrum ** super tiliostertios et quartos. </p>
+        <p> Huic autem videtur adversari quod Dominus ait in Eze— chielel: Quid est, quod inter vos
+          parabolam vertitis in pro- verbium istud, dicentes: Patres b comederunt uvam acerbam, et
+          dentes filiorum obstupescunt? Vivo ego, dicit Dominus, si 0 erit vobis ultra parabola haec
+          in proverbium d. Ecce! omnes animae meae sunt, ut anima patris, ita et anima filii mea
+          est. Et anima, quae peccaverit, 'ipsa morietur. Filius non portabit ini- quitatem patris,
+          et pater non portabit iniquitatem ilii. Iustitia iusti super cum. erit 6, et impietas
+          impii erit super eum. </p>
+        <p> His verbis videtur Deus corrigere per Prophetam, quod "313 male dixerit in Lege. «Si
+          enim peccata patrum reddit in tertiam et quartam generationem, iniustitia videtur esse
+          Dei, ut alius peccet, et alius puniatur. Quomodo enim iustum est, alium peccare, et alium
+          peccata lugere»? </p>
+        <p> Sed, ut 9 ait Hieronymus 3, « ne Lex et Prophetae, id est "Exodus et Ezechiel, immo ipse
+          Deus, qui et hic et ibi locutus est, in sententiis discrepare videantur-h», attendamus
+          finem auctoritatis illius Exodi. Dicto 2" enim: Redde iniquitates patrum in filios, ad-
+          dit 4: His k qui oderunt me; per quod evidenter ostendit 2, «non ideo puniri lilios, quia
+          peccaverunt patres 7", sed quia eis " similes quodam haereditario malo Deum oderunt ». </p>
+        <p> Illud. ergo, quod in Exodo Dominus dicit 0, sicut Hierony- mus tradit, non id sonat quod
+          multi aestimant 77, nec est simile huic proverbio: Patres comederunt uvam acerbam etc.
+          Illud enim Exodi Hieronymus Super Ezechielem, et Augustinus Super . Psalmum fl 5: Deus
+          laudem meam ne tacueris, de filiis pec- cata patrum imitantibus accipiendum Censentt";
+          super quosdicitur Deusreddere peccata, patrum, quia punit eos, eo quod imitantur peccata
+          patrum, non quia patres peccaverunt. Non itaque corrigit <pb ed="#Q" n="486"/> Deus in
+          Propheta quod ante dixerat in Lege, sed quomodo intelligendum sit, aperit. Unde et illos
+          qui prave intelligebant arguit, qui dicebant: Patres comederant, etc. </p>
+        <p> Verumtamen, si de imitatoribus malorum illud accipitur, quare tertiam et quartam
+          generationem tantum memoravit 0, cum in qualibet generatione rei teneantur, qui peccata
+          patrum imitantur? Et quare patres commemoravit, cum et illi omnes mali sint, qui
+          quorumlibet malorum peccata imitantur? </p>
+        <p> Sed ideo patres specialiter nominavit, quia maxime patres tilii imitari solent, quos
+          praecipue diligunt. Et tertiam et quartam 'ge— nerationem ideo memoravit 17, quia solent
+          parentes interdum tam- diu vivere, donec filios tertios et quartos habeant, qui patrum
+          iniquitates videntes, eorum impietatis haeredes per imitationem C effri- ciuntur. Secundum
+          hunc modum" recte intelligitur ad litteram quod in Exodo dicitur 4. </p>
+        <p> Quod etiam mystice intelligendum» essee ostenditur, ex eo quod parabola dicitur. « Si
+          enim parabola 'est, ut ait Hierony- musï, aliud verbis sonat f, aliud sensu continet. Unde
+          aliqui ita edisserunt: Patrem in nobis esse dicunt levem punctum sensuum »: scilicet
+          primum motum suggestionis, vel cogitationis; « filium vero, si cogitatioiconceperit
+          peccatum »:in quo notatur consensus et de- lectatio mulieris; nepotem, si quod cogitaveris
+          atqueconceperis, opere compleveris », vel complere decreveris: in quo notatur con— sensus
+          viri,*sive patratio 9 peccati; « pronepotem autem, si non so- lum feceris, sed in eo
+          glorieris, et haec est quarta generatio h » non quia tres praecesserint, sed quarta
+          dicitur, quia quarto loco a primo motu, qui est quasi pater, enumeratur. Deus igitur «
+          pri- mos et secundos stimulos z' cogitationum, quos Graeci propathias vocant, sine quibus
+          nullus hominum esse potest, non puniet aeterna- liter, sed si cogitata quis facere
+          decreverit, et quae fecit corrigere noluerit», quae sunt mortalia peccata et tertia'et
+          quarta generatio. </p>
+        <p> « Ad probandum vero, ut ait Hieronymus 2, quod primus pulsus cogitationis non puniatur a
+          Deo aeternaliter, illud de Genesi <pb ed="#Q" n="487"/> afferendum est: Cham enim
+          peccavit, irridens nuditatem patris, et sententiam non ipSe, sed filius eius Chanaan
+          accepit: Maledictus Chanaan., servit-s- erit fratrum suorum 1. Quae enim iustitia estb ut
+          pater peccaverit, et filius punitus sit »? Sed in mvsterio illud * dictum est. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

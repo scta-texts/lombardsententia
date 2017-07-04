@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 39, Capitulus 2</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 39, Capitulus 2</title>
+          <date when="2016-01-20">January 20, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-01-20">January 20, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    
+    <body>
+      <div xml:id="pl-l1d39c2">
+        <head xml:id="pll1d39c2-Hd1e3496">Librum I, Distinctio 39, Capitulus 2</head>
+        <!-- An Deus possit noviter vel ex tempore scire vel praescire aliquid -->
+        <p xml:id="pll1d39c2-d1e3501">Hic opponitur a quibusdam ita: Si Deus potest aliquid scire 
+          vel praescire quod nunquam scivit nec praescivit; potest ergo ex 
+          tempore aliquid scire vel praescire.</p>
+        <p xml:id="pll1d39c2-d1e3504">Ad quod dicimus: Potest quidem Deus scire vel praescire omne 
+          quod potest facere, et potest facere quod nunquam fiet; potest 
+          igitur scire vel praescire, quod nunquam fiet, nec est, nec fuit. Nec
+          <!-- p. 247 -->
+          illud scit vel scivit, neque praescit vel praescivit, quia scientia eius 
+          non est, nisi de his quae sunt vel fuerunt vel erunt; et praescientia 
+          non est nisi de futuris. Et licet possit scire vel praescire 
+          quod nunquam est, nec erit; non tamen potest aliquid scire vel  
+          praescire ex tempore. Potest utique scire vel praescire quod nunquam 
+          est, nec erit; nec illud scitum vel praescitum est ab aeterno; 
+          non tamen potest incipere scire vel praescire illud, sed ita potest 
+          modo scire vel praescire, sicut potest scisse vel praescisse ab aeterno. 
+          Si enim dicas, eum modo posse scire vel praescire quod ab aeterno 
+          non scivit vel praescivit, id est, ita quod ab aeterno non sciverit vel 
+          praesciverit, quasi utrumque simul esse possit; falsum est. Si vero 
+          dicis, eum posse modo scire vel praescire quod ab aeterno non scivit 
+          vel praescivit, id est, habere potentiam sciendi et praesciendi ab 
+          aeterno et modo aliquid, nec illud tamen praescitum est vel futurum; 
+          verum est. Non potest ergo noviter vel ex tempore scire vel 
+          praescire aliquid, sicut non potest noviter vel ex tempore velle aliquid; 
+          et tamen potest vell quod nunquam voluit.</p> 
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 11, Capitulus 1</title>
+        <author>Petrus Lombardus</author>
+        <editor></editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.10-dev-master">
+          <title>Librum I, Distinctio 11, Capitulus 1</title>
+          <date when="2015-10-19">October 19, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher></publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-10-19">October 19, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-10-19" who="#JW" status="draft" n="2015.10">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d11c1">
+        <head>Librum I, Distinctio 11, Capitulus 1</head>
+        <!-- Quod spiritus sanctus procedit a Patre et Filio, quem tamen 
+          Graeci a Filio procedere diffitentur. -->
+        <p xml:id="pll1d11c1-d1e3477">Hic dicendum est, Spiritum sanctum esse a Patre et Filio et 
+          procedere a Patre et Filio, quod multi haeretici negaverunt.</p>
+        
+        <p xml:id="pll1d11c1-d1e3480">Quod autem de utroque procedat, 
+          <cit>
+            <quote xml:id="pll1d11c1-Qd1e3484">multis divinorum eloquiorum 
+              testimoniis comprobatur.</quote>
+          </cit>
+        </p>
+        <p xml:id="pll1d11c1-d1e3489">Dicit enim <name ref="#Paul">Apostolus</name>: 
+          <cit>
+            <quote xml:id="pll1d11c1-Qd1e3496" ana="#gal4_16">Misit Deus Spiritum Filii sui in 
+              corda nostra.</quote>
+            <bibl>Gal. 4:16</bibl>
+          </cit>
+          Ecce hic dicitur Spiritus Filii. Et ibi: 
+          <cit>
+            <quote xml:id="pll1d11c1-Qd1e3505" ana="#rom8_9">Qui autem Spiritum Christi non habet, hic non est eius.</quote>
+            <bibl>Rom 8:9</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d11c1-d1e3514">Ipse etiam Filius de Spiritu sancto dicit in Evangelio: 
+          <cit>
+            <quote xml:id="pll1d11c1-Qd1e3518" ana="#io15_26">Quem 
+              ego mitto vobis a Patre.</quote>
+            <bibl>Ioannes 15:26</bibl>
+          </cit>
+          Patris autem Spiritus dictus est, ubi 
+          legitur: 
+          <cit>
+            <quote xml:id="pll1d11c1-Qd1e3527" ana="#rom8_11">Si Spiritus eius, qui suscitavit Christum a mortuis, 
+              habitat in vobis.</quote>
+            <bibl>Romans 8:11</bibl>
+          </cit>
+          Et ipse Christus dicit: 
+          <cit>
+            <quote xml:id="pll1d11c1-Qd1e3536" ana="#mt10_20">Non enim vos estis, qui 
+              loquimini, sed Spiritus Patris vestri, quo loquitur in vobis</quote>
+            <bibl>Matthaeus 10:20</bibl>
+          </cit>
+          <!-- pg. 78 -->
+          Et alio loco: 
+          <cit>
+            <quote xml:id="pll1d11c1-Qd1e3547" ana="#io14_26">Quem mittet Pater in nomine meo.</quote>
+            <bibl>Ioannes 14:26</bibl>
+          </cit>
+          Et alibi ipse 
+          Filius de Spiritu sancto ait: 
+          <cit>
+            <quote xml:id="pll1d11c1-Qd1e3557" ana="#io15_26">De Patre procedit.</quote>
+            <bibl>Ioannes 15:26</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d11c1-d1e3565">His et aliis pluribus auctoritatibus ostenditur, quod Spiritus 
+          sanctus a Patre et Filio procedit.</p>
+        <p xml:id="pll1d11c1-d1e3568">
+          <cit>
+            <quote xml:id="pll1d11c1-Qd1e3572">Graeci tamen dicunt, Spiritum sanctum tantum procedere a 
+              Patre, et non a Filio.</quote>
+            <bibl>XXX</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d11c1-d1e3580">Quod ideo dicunt, quia Veritas in Evangelio fidem integre 
+          continente, de processione Spiritus loquens, solum Patrem commemorat 
+          dicens: 
+          <cit>
+            <quote xml:id="pll1d11c1-Qd1e3584" ana="#io15_26">Spiritus, qui a Patre procedit.</quote>
+            <bibl>Ioannes 15:26</bibl>
+          </cit>
+          Et etiam ideo, 
+          quia in principalibus Conciliis, quae apud eos celebrata sunt, ita 
+          Symbola eorum subiunctis anathematibus sancita sunt, ut nulli de 
+          Trinitatis fid aliud docere vel aliter praedicare, quam ibi continetur, 
+          liceat. In quibus quidem Symbolis cum Spiritus commemoretur 
+          procedere a Patre, et non a Filio, quicumque, inquiunt, a 
+          Filio eum procedere addunt, anathema incurrunt; unde et nos arguunt 
+          anathematis reos.</p>
+        <p xml:id="pll1d11c1-d1e3592">Addunt etiam ad assertionem suae opinionis et in testimonium 
+          nostrae damnationis de Symbolo fidei, quod secundum traditionem 
+          praedictorum Conciliorum Leo tertius Romae transcriptum 
+          in tabula argentea post altare beati Pauli posita posteris reliquit, 
+          pro amore, ut ipse ait, et cautela fidei orthodoxae. In quo quidem 
+          Symbolo in processione Spiritus solus commemoratur Pater his 
+          verbis: 
+          <cit>
+            <quote xml:id="pll1d11c1-Qd1e3596">Et in Spiritum sanctum, Dominum et vivificatorem, 
+              ex Patre procedentem, cum Patre et Filio coadorandum et conglorificandum.</quote>
+            <bibl>XXX</bibl>
+          </cit>
+          etc. Illud est Symbolum, quod in Missa cantatur, 
+          editum in Nicaeno Concilio, in fine cuius subiunctum est: 
+          <cit>
+            <quote xml:id="pll1d11c1-Qd1e3605">Qui 
+              <!-- p. 79 --> 
+              aliud docuerit vel aliter praedicaverit, anathema sit.</quote>
+            <bibl>XXX</bibl>
+          </cit>
+          Ideoque 
+          Graeci nos anathematizatos dicunt, quia dicimus, Spiritum sanctum 
+          procedere a Filio, quod ibi non continetur. Quod enim secundum 
+          nos ibi dicitur: 
+          <cit>
+            <quote xml:id="pll1d11c1-Qd1e3616">Qui a Patre Filioque procedit,</quote>
+            <bibl>XXX</bibl>
+          </cit>
+          alterum a Latinis 
+          est additum, scilicet Filioque.</p>
+        <p xml:id="pll1d11c1-d1e3624">Nos autem illa verba ita determinamus: 
+          <cit>
+            <quote xml:id="pll1d11c1-Qd1e3628">Qui aliud docuerit, 
+              vel aliter praedicaverit,</quote>
+            <bibl>XXX</bibl>
+          </cit>
+          id est, contrarium docuerit vel contrario 
+          modo praedicaverit, anathema sit. Aliud ergo posuit pro opposito, 
+          qualiter <ref><name ref="#Paul">Apostolus</name> in <title ref="#gal">Epistola ad Galatas</title>:</ref>
+          <cit>
+            <quote xml:id="pll1d11c1-Qd1e3645" ana="#gal1_8">Si quis aliud 
+              evangelizaverit 
+              id est contrarium, anathema sit.</quote>
+            <bibl>Galatas 1:8</bibl>
+          </cit>
+          Non dicit: Si 
+          quis addiderit. 
+          <cit>
+            <quote xml:id="pll1d11c1-Qd1e3654">Nam si illud diceret, sibi ipsi, ut ait <name ref="#Augustine">Augustinus</name>, 
+              praeiudicaret, qui cupiebat venire ad quosdam, quibus scribebat, 
+              sicut ad Thessalonicenses, ut 
+              <cit>
+                <quote xml:id="pll1d11c1-Qd1e3661" ana="#Ith3_10">suppleret, quae illorum fidei 
+                  deerant.</quote>
+                <bibl>I Thess. 3:10</bibl>
+              </cit>
+              Sed qui supplet, quod minus erat addit, non quod inerat 
+              tollit. Qui qutem praetergreditur fidei regulam, non accedit in via, 
+              sed recedit a via.</quote>
+            <bibl>Augustinus, In Ev. Ioannes, tract. 98, n. 7 (PL 35:1884)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d11c1-d1e3675">Ad illud autem, quod de Evangelio opponunt, respondemus 
+          ita: Quia cum dicat in eo Veritas, 
+          <cit>
+            <quote xml:id="pll1d11c1-Qd1e3679" ana="#io15_26">Spiritum sanctum a Patre 
+              procedere,</quote>
+            <bibl>Ioannes 15:26</bibl>
+          </cit>
+          non addit solo, et ideo etiam a se procedere non negat; 
+          sed ideo Patrem tantum nominat, quia ad eum solet referre 
+          etiam quod ipsius est, quia ab illo habet.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

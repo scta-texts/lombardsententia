@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 28, Capitulus 5</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 28, Capitulus 5</title>
+          <date when="2015-12-24">December 24, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-12-24">December 24, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d28c5">
+        <head xml:id="pll1d28c5-Hd1e3496">Librum I, Distinctio 28, Capitulus 5</head>
+        <!-- An diversum sit esse patrem et esse filium -->
+        <p xml:id="pll1d28c5-d1e3501">Praeterea quaeri solet, cum supra dictum sit, quia aliud est 
+          dicere ingenitum, aliud patrem, et quod diversum sit genitus et 
+          ingenitus, utrum similiter diversum sit esse patrem et esse filium, 
+          an idem.</p>
+        <p xml:id="pll1d28c5-d1e3504">Ad quod dicimus, quia ex eodem sensu, quo dicitur diversum 
+          genitus et ingenitus, et quo dicitur, non esse idem dicere genitum 
+          et ingenitum, potest dici, non esse idem sed diversum esse patrem 
+          et esse filium, vel esse spiritum sanctum, quia non ea notione 
+          Pater est pater, qua Filius est filius, vel qua Spiritus sanctus est 
+          spiritus sanctus. Ideoque ex hoc sensu concedimus, quod aliud 
+          et esse patrem, et aliud est esse filium, quia alia notio est, qua
+          <!-- p. 181 -->
+          Pater est pater, alia, qua Filius est filius. Sed si transponas, ut 
+          dicas, aliud est patrem esse, aliud filium esse, variatur intelligentia; 
+          et ideo non conceditur. Est enim sensus talis ac si dicatur: 
+          Aliud est, quo Pater est, non quidem pater, sed est; aliud, 
+          quo Filius est, non quidem filius, sed est; quod penitus falsum 
+          est. Eo enim Pater est, quo Pater Deus est, id est per essentiam 
+          vel naturam; at Filius eo Deus est, quo Pater est Deus; eo igitur 
+          Filius est, quo Pater est, et ita idem est Patrem esse et Filium 
+          esse; sed non est idem esse patrem et esse filium.</p>
+        <p xml:id="pll1d28c5-d1e3509">Unde <ref><name ref="#Augustine">Augustinus</name> in V libro <title ref="#deTrinitate">De Trinitate</title></ref> ait: 
+          <cit>
+            <quote xml:id="pll1d28c5-Qd1e3520">Quamvis 
+              diversum sit esse patrem et esse filium, non est tamen diversa 
+              substantia, quia hoc non secundum substantiam dicitur, sed secundum 
+              relativum; quod tamen relativum non est accidens, quia non 
+              est mutabile.</quote>
+            <bibl>Augustinus, De Trinitate, V, c. 5, n. 6 (PL 42:914)</bibl>
+          </cit>
+          Ecce diversum esse dicit esse patrem et esse filium; 
+          quod iuxta rationem praedictam accipi oportet, quia scilicet alia notio 
+          est, qua est pater, alia, qua est filius: non enim secundum essentiam 
+          Pater dicitur pater, vel Filius filius, sed secundum relationem.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

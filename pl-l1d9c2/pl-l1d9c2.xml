@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 9, Capitulus 2</title>
+        <author>Petrus Lombardus</author>
+        <editor></editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.10-dev-master">
+          <title>Librum I, Distinctio 9, Capitulus 2</title>
+          <date when="2015-10-12">October 12, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher></publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-10-05">October 12, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-10-12" who="#JW" status="draft" n="2015.10">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d9c2">
+        <head>Librum I, Distinctio 9, Capitulus 2</head>
+        <!-- De coaeternitate Patris et Filii -->
+        <p xml:id="pll1d9c2-d1e3477">Genitus est enim a Patre Filius, et ideo alius, nec tamen ante 
+          fuit Pater quam Filius; coaeternae enim sibi sunt tres personae.</p>
+        <p xml:id="pll1d9c2-d1e3480">Sed contra hoc inquit haereticus, ut refert <ref><name ref="#Ambrose">Ambrosius</name> in 
+          I libro <title>De Trinitate</title>:</ref> 
+          <cit>
+            <quote xml:id="pll1d9c2-Qd1e3492">Omne quod natum est, principium habet; 
+              et ideo, quia Filius est, principium habet et esse coepit; quod haereticorum 
+              ore sic dictum est.</quote>
+            <bibl>Ambrosius, De Trinitate, I, c. 11, n. 73 (PL 16:545)</bibl>
+          </cit>
+          <cit>
+            <quote xml:id="pll1d9c2-Qd1e3501">Nam ipse <name ref="#Arius">Arius</name>, ut meminit <ref><name ref="#Augustine">Augustinus</name> 
+              in VI libro <title ref="#deTrinitate">De Trinitate</title>,</ref> dixisse refertur: Si Filius 
+              est, natus est; si natus est, erat quando non erat Filius.</quote>
+            <bibl>Augustinus, De Trinitate, VI, c. 1, n. 1 (PL 42:923)</bibl>
+          </cit>
+          Qui hoc dicit 
+          <cit>
+            <quote xml:id="pll1d9c2-Qd1e3521">non intelligit, etiam natum esse Deo sempiternum 
+              esse, ut sit coaeternus Patri Filius, sicut splendor, qui gignitur ab 
+              igne atque diffunditur, coaevus est illi, et esset coaeternus, si ignis 
+              esset aeternus.</quote>
+            <bibl>XXX</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d9c2-d1e3529">Item: 
+          <cit>
+            <quote xml:id="pll1d9c2-Qd1e3533">Si Dei Filius, inquit <name ref="#Augustine">Augustinus</name>, virtus et sapientia 
+              Dei est, nec unquam fuit Deus sine virtute et sapientia, coaeternus 
+              est Deo Patri Filius. Dicit autem <name ref="#Paul">Apostolus</name>: 
+              <cit>
+                <quote xml:id="pll1d9c2-Qd1e3543" ana="#Icor1_24">Christum esse Dei 
+                  virtutem et Dei sapientiam;</quote>
+                <bibl>I Corinthios 1:24</bibl>
+              </cit>
+              aut igitur non fuit, quando non fuit 
+              Filius, aut aliquando Deus non habuit virtutem et sapientiam, quod 
+              dementis est dicere.</quote>
+            <bibl>Augustinus, De Trinitate, VI, c. 1, n. 1 (PL 42:923)</bibl> <!-- db check -->  
+          </cit>
+          Constat enim, quia semper habuit sapientiam, 
+          semper igitur habuit Filium.</p>
+        <p xml:id="pll1d9c2-d1e3559">Eidem quoque Arianicae quaestioni <name ref="#Ambrose">Ambrosius</name> in hunc 
+          modum respondet: 
+          <cit>
+            <quote xml:id="pll1d9c2-Qd1e3566">Ego, inquam, Filium natum esse confiteor; 
+              quod reliquum est impietatis horresco.</quote>
+            <bibl>Ambrosius, XXX</bibl>
+          </cit>
+          <cit>
+            <quote xml:id="pll1d9c2-Qd1e3575">Scriptum est enim in 
+              veteri Testamento, ut vel unum e pluribus dicam: 
+              <cit>
+                <quote xml:id="pll1d9c2-Qd1e3579" ana="#is43_10">Ante me 
+                  <!-- pg. 67 --> 
+                  non fuit alius Deus, et post me non erit.</quote>
+                <bibl>Isaias 43:10</bibl>
+              </cit>
+              Quis ergo hoc dicit? 
+              Pater an Filius? Si Filius, ante me, inquit, non fuit alius Deus; 
+              si Pater, post me, inquit, non erit: hic priorem, ille posteriorem 
+              non habet. Invicem enim in se et Pater in Filio, et Filius in Patre 
+              cognoscitur. <!-- allusion to john 14:9-10 here --> Cum enim Patrem dixeris, eius etiam Filium designasti, 
+              quia nemo ipse sibi filius est. Itaque nec Filius sine 
+              Patre, nec Pater potest esse sine Filio: semper igitur Pater, semper 
+              et Filius.</quote>
+            <bibl>Ambrosius, XXX, c. 8, n. 55</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d9c2-d1e3596">Item: 
+          <cit>
+            <quote xml:id="pll1d9c2-Qd1e3600">Dic, inquam, mihi haeretice, fuitne, quando omnipotens 
+              Deus Pater non erat, et Deus erat? Nam si Pater esse 
+              coepit, Deus ergo primo erat et postea Pater factus est. Quomodo 
+              igitur immutabilis Deus est? Si enim ante Deus, postea Pater fuit, 
+              utique generationis accessione mutatus est. Sed avertat Deus hanc 
+              amentiam.</quote>
+            <bibl>Ambrosius, XXX, c. 9, n. 58, 59, et 60 (PL 16:541-542)</bibl>
+          </cit>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

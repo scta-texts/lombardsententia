@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum II, Distinctio 11, Capitulus 1</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.1-dev">
+          <title>Librum II, Distinctio 11, Capitulus 1</title>
+          <date when="2016-06-14">June 14, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-06-14">June 14, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+          <witness xml:id="Z" n="zbsSII72" xml:base="http://www.e-codices.unifr.ch/metadata/iiif/zbs-SII-0072/canvas/">Solothurn, Zentralbibliothek, Cod. S II 72</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="0.0.1">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        
+      </div>
+    </front>
+  	<body>
+  		<div xml:id="pl-l2d11c1">
+  			<head xml:id="pll2d11c1-Hd1e3508">Librum II, Distinctio 11, Capitulus 1</head>
+  			<head xml:id="pll2d11c1-Hd1e3511" type="questionTitle">Quod singulae animae habeant Angelum bonoum ad custodiam, malum ad exercitium</head>
+  			<p xml:id="pll2d11c1-d1e3514">Illud quoque sciendum est, quod Angeli boni deputati sunt ad 
+  				custodiam hominum, ita ut quisque electorum habeat Angelum, ad 
+  				sui profectum atque custodiam specialiter delegatum.</p>
+  			<!-- 334 -->
+  			<p xml:id="pll2d11c1-d1e3519">Unde in Evangelio Veritas, a pusillorum scandalo prohibens, 
+  				ait: 
+  				<cit>
+  					<quote xml:id="pll2d11c1-Qd1e3523" ana="#mt18_10">Angeli eorum semper vident faciem Patris</quote>
+  					<bibl>Matthaeus 18:10</bibl>
+  				</cit>.
+  				Angelos dicit 
+  				eorum esse, quibus ad custodiam deputati sunt. Super quam locum 
+  				<name ref="#Jerome">Hieronymus</name> tradit, unamquamque animam ab exordio nativitatis 
+  				habere Angelum ad sui custodiam deputatum, inquiens ita: 
+  				<cit>
+  					<quote xml:id="pll2d11c1-Qd1e3535">Magna dignitas animarum eset, ut unquaequae habeat ab ortu 
+  						nativitatis in sui custodiam delegatum Angelum</quote>
+  					<bibl>Hieronymus, In Evang. Matth. (PL 26:130).</bibl>
+  				</cit>.
+  			</p>
+  			<p xml:id="pll2d11c1-d1e3544"><name ref="#GregoryGreat">Gregorius</name> quoque dicit, quod quisque unum bonum 
+  				Angelum sibi ad custodiam deputatum, et unum malum ad exercitium 
+  				habet. Cum enim omnes Angeli boni nostrum bonum velint 
+  				communiterque saluti omnium studeant, ille tamen qui deputatus 
+  				est alicui ad custodiam, eum specialiter hortatur ad bonum, sicut 
+  				legitur de <name>Angelo Tobiae</name> et de <name>Angelo Petri</name> in <title ref="#act">Actibus Apostolorum</title>; 
+  				similiter et mali angeli, cum desiderent malum hominum; 
+  				magis tamen hominem ad malum incitat et ad nocendum fortius 
+  				instat ille qui ad exercitium eius deputatus est.</p>
+  			<p xml:id="pll2d11c1-d1e3558">Solet autem quaeri, utrum singuli Angeli singulis hominibus, 
+  				an unus pluribus ad custodiam vel exercitium deputatus sit.</p>
+  			<p xml:id="pll2d11c1-d1e3561">
+  				<cit>
+  					<quote xml:id="pll2d11c1-Qd1e3565">Sed cum electi tot sint, quot et boni Angeli sunt, plures constat 
+  						esse omnes simul bonos et malos homines, quam boni Angeli 
+  						sint</quote>
+  					<bibl>Hugo, Sum. Sent, tr. 2, c. 6 (PL 176:88)</bibl>
+  				</cit>.
+  				Et cum tot sint electi quot Angeli boni, et Angeli boni plures 
+  				sint quam mali, pluresque sint homines mali quam boni, non 
+  				est ambiguum, plures esse bonos homines quam sint mali angeli, 
+  				et plures esse malos homines quam sint mali angeli vel bono Angeli. 
+  				Ideoque dici oportet, unum eundemque Angelum, bonum vel 
+  				malum, pluribus hominibus deputari ad custodiam vel exercitium, 
+  				sive eodem tempore, sive diversis temporibus.</p>
+  			<p xml:id="pll2d11c1-d1e3573">Ideo autem dicimus 
+  				<cit>
+  					<quote xml:id="pll2d11c1-Qd1e3577">eodem tempore, vel diversis temporibus</quote>
+  					<bibl/>
+  				</cit>,
+  				quia videtur quibusdam, quod omnes homines, qui sunt simul in 
+  				aliquo tempore, singuli singulos Angelos habere possint, bonos 
+  				vel malos, quia, licet maior sit numerus hominum, computatis 
+  				in unum omnibus qui fuerunt et sunt et futuri sunt, quam Angelorum, 
+  				tamen, quia homines decedentibus hominibus succedunt, 
+  				et ideo nunquam simul sunt in hac vita, Angeli vero nunquam 
+  				decedunt, sed simul omnes sunt: esse potest, ut singuli hominum, 
+  				dum in hac vita sunt, singulos habeant Angelos, bonos vel malos, 
+  				ad sui custodiam vel exercitium destinatos. Ceterum sive ita sit 
+  				sive non, non est dubitandum unumquemque habere Angelum sibi 
+  				deputatum, sive pluribus simul destinatus sit, sive uni singulariter. 
+  				Nec est mirandum unum Angelum pluribus hominibus ad 
+  				custodiam deputari, cum ni homini plurium custodia deputetur, 
+  				ita ut eorum quisque suum dicatur habere dominum vel episcopum 
+  				vel abbatem.</p>
+  		</div>
+  	</body>
+  </text>
+</TEI>

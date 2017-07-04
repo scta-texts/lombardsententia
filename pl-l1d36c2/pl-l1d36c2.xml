@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 36, Capitulus 2</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 36, Capitulus 2</title>
+          <date when="2016-01-11">January 11, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-01-11">January 11, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d36c2">
+        <head xml:id="pll1d36c2-Hd1e3496">Librum I, Distinctio 36, Capitulus 2</head>
+        <!-- Qua ratione bona dicuntur esse in Deo, et non mala. -->
+        <p xml:id="pll1d36c2-d1e3501">Post praedicta quaeritur, cum omnia dicantur esse in Deo, non 
+          per essentiam naturae, sed per cognitionem scientiae, et Deus sciat 
+          bona et mala, utrum concedendum sit simpliciter, mala esse in 
+          Deo, sive esse in Deo per cognitionem.</p>
+        <p xml:id="pll1d36c2-d1e3504">Scit enim Deus et scivit semper omnia, tam bona quam mala, 
+          etiam antequam fierent, et praescivit ab aeterno ea futura. Ideoque 
+          cum omnia bona dixerimus esse in Deo propter praesentiam cognitionis, 
+          eadem ratione videtur dicendum, omnia mala esse in eo, 
+          cum ea semper noverit, et per cognitionem ei praesentia fuerint. 
+          Praecognovit enim Deus ab aeterno quosdam futuros malos et eorum 
+          malitiam, ut ait <name ref="#Augustine">Augustinus</name>, praescivit, sed non praeparavit. 
+          Cum ergo peccata omnium sciat, nunquid intelligendum est, ea includi <!-- 226 --> 
+          in illa generalitate locutionis, qua dicit <name ref="#Paul">Apostolus</name>, omnia 
+          esse in Deo? 
+          <cit>
+            <quote xml:id="pll1d36c2-Qd1e3516" ana="#rom11_36">Ex ipso, inquit, 
+              et per ipsum et in ipso sunt omnia.</quote>
+            <bibl>Romanos 11:36</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d36c2-d1e3524">Sed quis, nisi insanus dixerit, mala esse in Deo? Illa enim 
+          esse in Deo intelliguntur, quae ex ipso et per ipsum sunt; ea vero 
+          per ipsum sunt et ex ipso, quorum auctor est: sed non auctor est; sed non auctor est 
+          nisi bonorum. Non ergo ex ipso vel per ipsum sunt nisi bona; 
+          ita ergo nec in ipso sunt nisi bona; non ergo mala in Deo sunt, 
+          quia, licet ea noscat, non tamen ita noscit omnino, ut bona. Mala 
+          quasi de longe cognoscit, ut ait <name>Propheta</name>, 
+          <cit>
+            <quote xml:id="pll1d36c2-Qd1e3531" ana="#ps137_6">et alta de longe 
+              cognoscit,</quote>
+            <bibl>Psalmus 137:6</bibl>
+          </cit>
+          id est superbiam. Et alibi ad Deum loquens de malis 
+          ait: 
+          <cit>
+            <quote xml:id="pll1d36c2-Qd1e3540" ana="16_14">De absconditis tuis adimpletus est venter eorum.</quote>
+            <bibl>Psalm 16:14</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d36c2-d1e3549">Quod exponens <name ref="#Augustine">Augustinus</name>: 
+          <cit>
+            <quote xml:id="pll1d36c2-Qd1e3556">Abscondita, inquit, peccata 
+              sunt, quae a lumine tuae veritatis absconduntur.</quote>
+            <bibl>Augustinus, Enarrat. in Psalm. 16, n. 3 (PL 36:147)</bibl>
+          </cit>
+          Sed quomodo 
+          peccata a lumine veritatis divinae absconduntur, cum a Deo sciantur? 
+          Si enim non sciret, quomodo de illis iudicaret, et pro illis 
+          malos damnaret?</p>
+        <p xml:id="pll1d36c2-d1e3564">Alibi <name>Propheta</name> dicit: 
+          <cit>
+            <quote xml:id="pll1d36c2-Qd1e3571" ana="#ps74_7">Quia neque ab Oriente, neque ab 
+              Occidente</quote>
+            <bibl>Psalmus 74:7</bibl>
+          </cit>
+          deest. Quod exponens <name ref="#Cassiodorus">Cassiodorus</name> inquit: 
+          <cit>
+            <quote xml:id="pll1d36c2-Qd1e3583">Neque 
+              a bonis, neque a malis deest Deus, sed omnibus praesens et cognitor 
+              est.</quote>
+            <bibl>Cassiodorus, Expositio in Psalterium (PL 70:538)</bibl>
+          </cit>
+          Cognoscit ergo Deus et bona et mala per scientiam, 
+          sed bona cognoscit etiam per approbationem, per beneplacitum; 
+          mala vero non.</p>
+        <p xml:id="pll1d36c2-d1e3591">Unde <ref><name>Cassiodorus</name> <title>Super Psalmum</title></ref> dicit: 
+          <cit>
+            <quote xml:id="pll1d36c2-Qd1e3602">Peccata abscondita 
+              Deo sunt, quia non novit, id est non approbat.</quote>
+            <bibl>Cassiodorus, Expositio in Psalterium (PL 70:122)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d36c2-d1e3610">Et ex eo sensu <name ref="#Augustine">Augustinus</name> dixit ea abscondi a lumine 
+          Dei. Qui etiam in libro <title>Ad Helvidium</title> insinuat, cognitionem Dei 
+          variis modis accipiendam, inquiens: 
+          <cit>
+            <quote xml:id="pll1d36c2-Qd1e3620">Si ad scientiam referas, non 
+              ignorat Deus aliquos vel aliqua, qui tamen in iudicio quibusdam 
+              dicet: 
+              <cit>
+                <quote xml:id="pll1d36c2-Qd1e3624" ana="#mt7_23"> <!-- and also lc13:27 -->Non novi vos,</quote>
+                <bibl>Matthae 7:23 et Lucas 13:27</bibl>
+              </cit>
+              sed eorum improbatio hoc verbo insinuata 
+              est.</quote>
+            <bibl>Augustinus, Ad Evodium, epist. 169, n. 2 (PL 33:743)</bibl>
+          </cit>
+          Ecce non cognoscere dicitur Deus quae non approbat, quae 
+          <!-- p. 227 -->
+          ei non placent. Apparet itaque, verum esse quod diximus, scilicet 
+          quia quodam modo cognoscit Deus bona, quo non cognoscit mala. 
+          Pariter quidem utraque eodemque modo noscit quantum ad notitiam, 
+          sed bona etiam approbatione et beneplacito cognoscit.</p>
+        <p xml:id="pll1d36c2-d1e3641">Et inde est, quod bona tantum dicuntur esse in Deo, non mala, 
+          et illa prope, haec longe, quia licet in Deo aliqua dicantur esse 
+          propter cognitionis praesentiam, et Deus bona et mala cognoscat, 
+          mala tamen non cognoscit nisi per notitiam, bona vera non solum per 
+          scientiam, sed etiam per approbationem et beneplacitum. Et ob talem 
+          cognitionem aliqua dicuntur esse in Deo, scilicet quia ita ea scit, 
+          ut etiam approbet, et placeant, id est, ita scit, ut eorum sit auctor.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

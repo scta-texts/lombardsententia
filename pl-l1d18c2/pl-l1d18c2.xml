@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 18, Capitulus 2</title>
+        <author>Petrus Lombardus</author>
+        <editor></editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 18, Capitulus 2</title>
+          <date when="2015-11-11">November 11, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher></publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-11-11">November 11, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d18c2">
+        <head xml:id="pll1d18c2-Hd1e3472">Librum I, Distinctio 18, Capitulus 2</head>
+        <p xml:id="pll1d18c2-d1e3475">Praeterea diligenter considerandum est, cum Spiritus sanctus 
+          dicatur donum et datum, utrum eadem ratione utrumque nomen 
+          ei conveniat. Quod utique videri potest: Cum enim idem sit Spiritum 
+          sanctum dari et Spiritum sanctum donari, ex eadem ratione 
+          videtur Spiritus sanctus dici datum et donum.</p>
+        
+        <p xml:id="pll1d18c2-d1e3478">Hoc etiam videtur <ref><name ref="#Augustine">Augustinus</name> significare in XV libro <title ref="#deTrinitate">De 
+          Trinitate</title>,</ref> cum ait: 
+          <cit>
+            <quote xml:id="pll1d18c2-Qd1e3490">Spiritus sanctus in tantum donum Dei est, 
+              in quantum datur eis quibus datur; apud se autem Deus est, etsi 
+              nemini detur.</quote>
+            <bibl>Augustinus, De Trinitate, XV, c. 19, n. 36</bibl>
+          </cit>
+          Ecce aperte dicit, Spiritum sanctum donum appellatur donum, quia 
+          datur, non ab aeterno fuit donum, quia non datur nisi ex tempore.</p>
+        <p xml:id="pll1d18c2-d1e3498">Ad quod dicimus, quia Spiritus sanctus et donum dicitur et 
+          datum sive donatum; sed datum sive donatum ex eo tantum dicitur, 
+          quia datur vel donatur, quod habet tantum ex tempore. 
+          Donum vero dicitur non ex eo tantum quod donetur, sed ex 
+          proprietate, quam habuit ab aeterno; unde et ab aeterno fuit 
+          donum. Sempiterne enim donum fuit, non quia daretur, sed quia 
+          processit a Patre et Filio.</p>
+        <p xml:id="pll1d18c2-d1e3501">Unde <ref><name ref="#Augustine">Augustinus</name> in IV libro <title ref="#deTrinitate">De Trinitate</title></ref>: 
+          <cit>
+            <quote xml:id="pll1d18c2-Qd1e3512">Sicut 
+              natum esse est Filio a Patre esse, ita Spiritui sancto donum Dei 
+              esse est a Patre procedere et Filio.</quote>
+            <bibl>Augustinus, De Trinitate, IV, c. 20, n. 29 (PL42:908)</bibl>
+          </cit>
+          Hic aperte ostenditur, quod 
+          Spiritus sanctus eo donum est, quod procedit a Patre et Filio, 
+          sicut Filius eo est a Patre, quod natus est ab eo. Non enim idem 
+          est Filio esse a Patre et Spiritui sancto, id est, non ea proprietate 
+          Filius dicitur esse a Patre, qua Spiritus sanctus. Nam Filius dicitur 
+          esse a Patre, quia genitus est ab eo; Spiritus sanctus vero 
+          dicitur esse a Patre et a Filio, quia Spiritus est donum Patris 
+          et Filii, id est, quia procedit ab utroque. Eo enim dicitur Spiritus 
+          sanctus quo donum; et eo donum, quo procedens.</p>
+        <p xml:id="pll1d18c2-d1e3521">Unde <ref><name ref="#Augustine">Augustinus</name> in V libro <title ref="#deTrinitate">De Trinitate</title></ref> ait: 
+          <cit>
+            <quote xml:id="pll1d18c2-Qd1e3532">Spiritus 
+              sanctus, qui non Trinitas, sed in Trinitate intelligitur, in eo quod 
+              proprie dicitur Spiritus sanctus, relative dicitur, cum et ad Patrem 
+              et ad Filium refertur, quia Spiritus sanctus et Patris et Filii 
+              Spiritus est. Sed ipsa relatio non apparet in hoc nomine; apparet 
+              <!-- p. 119 -->
+              autem, cum dicitur donum Dei: donum est enim Patris et Filii, 
+              quia a Patre procedit et a Filio.</quote>
+            <bibl>Augustinus, De Trinitate, V, c. 11, n. 12 (PL 42:919)</bibl>
+          </cit>
+          Ecce his verbis aperte ostenditur, 
+          eadem relatione dici Spiritum sanctum et donum; donum autem, 
+          quia procedit a Patre et Filio. Proprietas ergo, qua dicitur 
+          Spiritus sanctus vel donum, processio ipsa est, de qua post plenius 
+          agemus cum aliis. Cum ergo ab aeterno processerit ab utroque, 
+          et ab aeterno donum fuit, non ergo Spiritus sanctus eo tantum 
+          dicitur donum, quia donatur; nam et ante fuit donum quam donaretur.</p>
+        <p xml:id="pll1d18c2-d1e3542">Unde <ref><name ref="#Augustine">Augustinus</name> in V libor <title ref="#deTrinitate">De Trinitate</title>:</ref> 
+          <cit>
+            <quote xml:id="pll1d18c2-Qd1e3554">Semper procedit 
+              Spiritus sanctus, et non ex tempore, sed ab aeternitate procedit; 
+              sed quia sic procedebat, ut esset donabile, iam donum erat, 
+              antequam esset cui daretur. Aliter enim intelligitur, cum dicitur 
+              donum, aliter cum dicitur donatum: nam donum potest esse etiam 
+              antequam detur; donatum autem, nisi datum fuerit, nullo modo 
+              dici potest.</quote>
+            <bibl>Augustinus, De Trinitate, V, c. 15, n. 16 (PL 42:921)</bibl>
+          </cit>
+          <cit>
+            <quote xml:id="pll1d18c2-Qd1e3563">Sempiterne ergo Spiritus est donum, temporaliter 
+              autem donatum.</quote>
+            <bibl>Augustinus, De Trinitate, V, c. 16, n. 17 (PL 42:921)</bibl>
+          </cit>
+          His verbis aperte ostenditur, quo sicut Spiritus 
+          sanctus ab aeterno procedit, ita ab aeterno donum est; non 
+          quia donaretur a Patre Filio, vel a Filio Patri, sed quia ab aeterno 
+          processit donabilis.</p>
+        <p xml:id="pll1d18c2-d1e3571">Sed quaeritur, cui donabilis: Utrum Patri et Filio, an tantum 
+          nobis, qui nondum eramus? Si autem non erat donabilis Patri et 
+          Filio, sed tantum nobis, et ex eo donum erat, quia sic donabilis 
+          procedebat, videtur quod Filius eadem ratione semper donum fuerit; 
+          quia processit a Patre ab aeterno, donabilis nobis in tempore. 
+          Nam et de Filio legitur, quod 
+          <cit>
+            <quote xml:id="pll1d18c2-Qd1e3575" ana="#is9_6">datus est nobis</quote>
+            <bibl>Isaias 9:6</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d18c2-d1e3583">Ad quod dicimus, quia Spiritus sanctus nobis tantum, non 
+          Patri vel Filio, donabilis processit, sicut et nobis tantum datus 
+          est. Et Filius vere datus est nobis et ab aeterno processit a Patre, 
+          non ut donabilis tantum, sed ut genitus, qui etiam donari 
+          posset. Processit ergo ut genitus et donabilis; sed Spiritus sanctus 
+          non procedit ut genitus, sed tantum ut donum. Donum autem 
+          semper fuit, non solum quia donabilis, sed quia ab utroque processit, 
+          et quia donabilis fuit.</p>
+        <!-- p. 120 -->
+        <p xml:id="pll1d18c2-d1e3588">Unde <ref><name ref="#Augustine">Augustinus</name> in V libro <title ref="#deTrinitate">De Trinitate</title>:</ref> 
+          <cit>
+            <quote xml:id="pll1d18c2-Qd1e3600">Eo ipso, 
+              quod daturus erat eum Deus, iam donum erat, etiam antequam 
+              daretur,</quote>
+            <bibl>Augustinus, De Trinitate, V, c. 15, n. 16</bibl> <!-- dbcheck -->
+          </cit>
+          et ideo donabilis; sed aliter donabilis quam Filius; nam 
+          et aliter datus et aliter processit quam Filius. Filii enim processio 
+          genitura est vel nativitas, Spiritus sancti vero processio nativitas 
+          non est; utraque vero ineffabilis est.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

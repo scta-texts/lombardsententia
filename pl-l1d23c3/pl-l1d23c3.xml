@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 23, Capitulus 3</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 23, Capitulus 3</title>
+          <date when="2015-11-25">November 25, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-11-25">November 25, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d23c3">
+        <head xml:id="pll1d23c3-Hd1e3496">Librum I, Distinctio 23, Capitulus 3</head>
+        <!-- Quare non dicimus Patrem et Filium et Spiritum sanctum 
+          esse tres deos, ut tres personas -->
+        <p xml:id="pll1d23c3-d1e3501">Sed quaeritur hic, cum dicamus, Patrem et Filium et Spiritum 
+          sanctum esse tres personas, quia commune est eis quod persona 
+          est, id est, quia Pater est persona, et Filius est persona, et Spiritus 
+          sanctus est persona, cur non dicamus similiter tres deos, cum et 
+          Pater sit Deus, et Filius sit Deus, et Spiritus sanctus sit Deus?</p>
+        
+        <p xml:id="pll1d23c3-d1e3504">Quia scilicet illud Scriptura contradicit; hoc autem, etsi non 
+          dicit, non tamen contradicit.</p>
+        <!-- p. 150 -->
+        <p xml:id="pll1d23c3-d1e3510">Unde <name ref="#Augustine">Augustinus</name> movens hanc quaestionem atque definiens 
+          in libro VII <title ref="#deTrinitate">De Trinitate</title> ita ait: 
+          <cit>
+            <quote xml:id="pll1d23c3-Qd1e3520">Si ideo dicimus, Patrem et 
+              Filium et Spiritum sanctum esse tres personas, quia commune est 
+              eis id quod persona est, cur non etiam tres deos dicimus? Certe, 
+              ut praedictum est, quia Pater, ideo tres personae dicuntur. Quia ergo 
+              Pater Deus, et Filius Deus, et Spiritus sanctus Deus, cur non dicuntur 
+              tres dii?</quote>
+            <bibl>Augustinus, De Trinitate, VII, c. 4, n. 8 (PL 42:941)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d23c3-d1e3528">Ecce proposuit quaestionem; attende quid respondeat subdens: 
+          <cit>
+            <quote xml:id="pll1d23c3-Qd1e3532">An ideo non dicuntur tres dii, quia Scriptura 
+              non dicit tres deos? Sed nec tres personas alicubi Scripturae textus 
+              commemorat. An ideo licuit loquendi et disputandi necessitate tres 
+              personas dicere, non quia Scriptura dicit, sed quia Scriptura non 
+              contradicit? Si autem diceremus tres deos, contradiceret Scriptura 
+              dicens: 
+              <cit>
+                <quote xml:id="pll1d23c3-Qd1e3536" ana="#deut6_4">Audi Israel, Deus tuus, Deus unus est.</quote>
+                <bibl>Deuter. 6:4</bibl>
+              </cit>
+              <bibl>Augustinus, De Trinitate, VII, c. 4, n. 8 (PL 42:941)</bibl>
+            </quote>
+          </cit>
+        </p>
+        <p xml:id="pll1d23c3-d1e3549">Ecce absolutio quaestionis, quare potius dicamus tres personas 
+          quam tres deos, quia scilicet illud non contradicit Scriptura.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

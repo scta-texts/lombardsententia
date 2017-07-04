@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 45, Capitulus 6</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 45, Capitulus 6</title>
+          <date when="2016-01-25">January 25, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-01-25">January 25, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+          <witness xml:id="Z" n="zbsSII72" xml:base="http://www.e-codices.unifr.ch/metadata/iiif/zbs-SII-0072/canvas/">Solothurn, Zentralbibliothek, Cod. S II 72</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <cb ed="#Z" n="49vb" select="zbs-SII-0072_049v.json"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d45c6">
+        <head xml:id="pll1d45c6-Hd1e3504">Librum I, Distinctio 45, Capitulus 6</head>
+        <!-- Quod praeceptio, prohibitio, permissio, consilium, operatio, 
+          nomine voluntatis interdum intelliguntur -->
+        <p xml:id="pll1d45c6-d1e3509">
+          <cit>
+            <quote xml:id="pll1d45c6-Qd1e3513">Aliquando vero, secundum quandam dicendi figuram, voluntas 
+              Dei vocatur, quod secundum proprietatem non est voluntas 
+              eius, ut: prohibitio, praeceptio, consilium, nec non permissio et 
+              operatio. Ideoque pluraliter aliquando Scriptura voluntates Dei pronuntiat.</quote>
+            <bibl>Hugo de Sancto Victore, De Sacramentis, xxx</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d45c6-d1e3521">
+          <cit>
+            <quote xml:id="pll1d45c6-Qd1e3525">Unde <name>Propheta</name>: 
+              <cit>
+                <quote xml:id="pll1d45c6-Qd1e3532" ana="#ps110_2">Magna opera Domini, exquisita in 
+                  omnes voluntates eius.</quote>
+                <bibl>Psalmus 110:2</bibl>
+              </cit>
+              Cum non sit nisi una voluntas Dei, quae 
+              ipse est, pluraliter tamen dicit voluntates Dei, quia voluntas Dei 
+              variis modis ac pro diversis accipitur, ut dictum est.</quote>
+            <bibl>Hugo de Sancto Victore, De Sacramentis, xxx</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d45c6-d1e3545">
+          <cit>
+            <quote xml:id="pll1d45c6-Qd1e3549">Ita etiam idem <name>Propheta</name> propter multos effectus misericoridae 
+              et iustitiae pluraliter dicit: 
+              <cit>
+                <quote xml:id="pll1d45c6-Qd1e3556" ana="#ps88_2">Misericordias Domini in aeternum 
+                  cantabo.</quote>
+                <bibl>Psalmus 88:2</bibl>
+              </cit>
+              Et alibi: 
+              <cit>
+                <quote xml:id="pll1d45c6-Qd1e3565" ana="#ps18_9">Iustitiae Domini rectae, laetificantes 
+                  corda,</quote>
+                <bibl>Psalmus 18:9</bibl>
+              </cit>
+              cum tamen in Deo una sit misericordia, una iustitia,</quote>
+            <bibl>Hugo De Sancto Victore, De Sacramentis, xxx (PL 176:64)</bibl>
+          </cit>
+          eademque sit misericordia quae iustitia, scilicet divina usia.</p>
+        <!-- p. 276 -->
+        <p xml:id="pll1d45c6-d1e3581">Ideo autem 
+          <cit>
+            <quote xml:id="pll1d45c6-Qd1e3585">praeceptio et prohibitio atque consilium, cum 
+              sint tria, dicitur tamen unumquodque eorum Dei voluntas, quia 
+              ista signa sunt divinae voluntatis. Quemadmodum et signa irae dicuntur 
+              ira, et dilectionis signa dilectio appellantur, et dicitur iratus 
+              Deus, et non est ira aliqua in eo, sed signa tantum, quae 
+              foris fiunt, quibus iratus ostenditur, ira ipsius nominantur. Et 
+              est figura dicendi, secundum quam non est falsum quod dicitur, 
+              sed verum, quod dicitur, sub tropi nubilo obumbratur. Et secundum 
+              hos tropos diversae voluntates Dei dicuntur, quia diversa sunt 
+              illa quae per tropum voluntas Dei dicuntur.</quote>
+            <bibl>Hugo Sancto de Victore, De Sacramentis</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d45c6-d1e3593">
+          <cit>
+            <quote xml:id="pll1d45c6-Qd1e3597">Pro praecepto Dei atque consilio potest accipi voluntas ibi: 
+              <cit>
+                <quote xml:id="pll1d45c6-Qd1e3601" ana="#mt6_10">Fiat voluntas tua, sicut in caelo et in terra;</quote>
+                <bibl>Matthaeus</bibl>
+              </cit>
+              et ibi:
+              <cit>
+                <quote xml:id="pll1d45c6-Qd1e3610" ana="#mt12_50">Qui facit 
+                  voluntatem Patris mei, qui in caelis est, ipse fater meus et 
+                  soror et mater est.</quote>
+                <bibl>Matthaeus 12:50</bibl>
+              </cit>
+              Et contra hanc voluntatem multa fiunt.</quote>
+            <bibl>Hugo Sancto de Victore, De Sacramentis, p. 4, a cap. 4 ad cap. 10 (Pl 176:235)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d45c6-d1e3623">
+          <cit>
+            <quote xml:id="pll1d45c6-Qd1e3627">Unde <ref><name ref="#Augustine">Augustinus</name>, in libro <title>De spiritu et littera</title>:</ref> Infideles, 
+              inquit, contra voluntatem Dei faciunt, cum Evangelio eius 
+              non credunt.</quote>
+            <bibl>Hugo Sancto de Victore, De Sacramentis, p. 4, a cap. 4 ad cap. 10 (Pl 176:235)</bibl>
+          </cit>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

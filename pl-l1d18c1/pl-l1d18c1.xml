@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 18, Capitulus 1</title>
+        <author>Petrus Lombardus</author>
+        <editor></editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 18, Capitulus 1</title>
+          <date when="2015-11-03">November 03, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher></publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-11-03">November 03, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-03" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d18c1">
+        <head xml:id="pll1d18c1-Hd1e3472">Librum I, Distinctio 18, Capitulus 1</head>
+        <!-- utrum concedendum sit, per donum dari dona. -->
+        <p xml:id="pll1d18c1-d1e3477">Hic quaeritur, cum Spiritus sanctus, per quem dividuntur 
+          dona, ipse sit donum, utrum concedendum sit, quod per donum 
+          dividantur ac dentur dona.</p>
+        <p xml:id="pll1d18c1-d1e3480">Ad quod dicimus, quia per donum, quod est Spiritus sanctus, 
+          singulis propria dividuntur, et ipsum communiter omnes boni habent.</p>
+        <p xml:id="pll1d18c1-d1e3483">Unde <ref><name ref="#Augustine">Augustinus</name> in XV libro <title ref="#deTrinitate">De Trinitate</title></ref> ait: 
+          <cit>
+            <quote xml:id="pll1d18c1-Qd1e3494">Per 
+              donum, quod est Spiritus sanctus, in commune omnibus membris 
+              Christi multa dona, quae sunt quibusque propria, dividuntur. Non 
+              enim singuli quique habent omnia, sed hi illa, alii alia, quamvis 
+              ipsum donum, a quo cuique propria dividuntur, omnes habeant, 
+              id est Spiritum sanctum. Aperte dicit, per donum dona dari.</quote> <!-- missing end quotation in text -->
+            <bibl>Augustinus, De Trinitate, XV, c. 19, n. 34 (Pl 42:1084)</bibl>
+          </cit>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

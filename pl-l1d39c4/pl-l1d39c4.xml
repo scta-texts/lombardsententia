@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 39, Capitulus 4</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 39, Capitulus 4</title>
+          <date when="2016-01-21">January 21, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-01-21">January 21, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+          <witness xml:id="Z" n="zbsSII72" xml:base="http://www.e-codices.unifr.ch/metadata/iiif/zbs-SII-0072/canvas/">Solothurn, Zentralbibliothek, Cod. S II 72</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <cb ed="#Z" n="44rb" select="zbs-SII-0072_044r.json"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d39c4">
+        <head xml:id="pll1d39c4-Hd1e3496">Librum I, Distinctio 39, Capitulus 4</head>
+        <!-- Quod Deus et semper et simul scit omnia -->
+        <p xml:id="pll1d39c4-d1e3501">Ei vero quod praedictum est, scilicet quo Deus omnia semper 
+          videt et simul, videtur obviare, quod ait <ref><name ref="#Jerome">Hieronymus</name> in <title>Expositione Habacuc</title>:</ref> <!-- 248 -->
+          <cit>
+            <quote xml:id="pll1d39c4-Qd1e3515">Absurdum est, inquit, ad hoc deducere Dei 
+              maiestatem, ut sciat per momenta singula, quot culices nascantur, 
+              quotve moriantur, quota pulicum et muscarum sit multitudo, quotve 
+              pisces natent in aquis, et similia. Non simus tam fatui adulatores 
+              Dei, ut dum providentiam eius etiam ad ima retrudimus, in nos 
+              ipsos iniuriosi simus, eandem irrationabilium et rationabilium providentiam 
+              esse dicentes.</quote>
+            <bibl>Hieronymus, Expositio Habacuc, ad c. 1:14 (PL 25:1286)</bibl>
+          </cit>
+          Hic videtur dicere <name ref="#Jerome">Hieronymus</name>, quod 
+          Deus illorum minimorum scientiam sive providentiam non habeat. 
+          Quodsi est, tunc non omnia simul scit et semper.
+        </p>
+        <p xml:id="pll1d39c4-d1e3526">Ex tali itaque sensu illud dictum esse noverimus, ut Deum 
+          illa alternatim vel particulatim scire neget, nec per diversa temporum 
+          momenta sic illa cognovit, sicut per varia momenta illorum 
+          quaedam deficiunt, quaedam incipiunt. Neque illis aliisque irrationabilibus 
+          ita providet, 
+          <cb ed="#Z" n="44va" select="zbs-SII-0072_044v.json"/>
+          quemadmodum rationabilibus. 
+          <cit>
+            <quote xml:id="pll1d39c4-Qd1e3530" ana="#Icor9_9">Nunquid 
+              enim, ut ait <name ref="#Paul">Apostolus</name>, cura est Deo de bobus?</quote>
+            <bibl>I Cor 9:9</bibl>
+          </cit>
+          Et sicut non 
+          est cura Deo de bobus, ita nec de aliis irrationabilibus. Dicit tamen 
+          Scriptura, quia ipsi 
+          <cit>
+            <quote xml:id="pll1d39c4-Qd1e3542" ana="#sap12_13">cura est de omnibus.</quote>
+            <bibl>Sap 12:13</bibl>
+          </cit>
+          Providentiam ergo et 
+          curam universaliter de cunctis quae condidit, habet, ut habeat 
+          unumquodque quod sibi debetur et convenit. Sed specialem providentiam 
+          atque curam habet de rationabilibus, de quibus praecepta 
+          tradidit, eisque recte vivendi legem praescripsit, ac praemia promisit. 
+          Hanc providentiam et curam de irrationabilibus non habet. Ideoque 
+          <name ref="#Paul">Apostolus</name> dicit, quia 
+          <cit>
+            <quote xml:id="pll1d39c4-Qd1e3554" ana="#Icor9_9">non est cura Deo de bobus.</quote>
+            <bibl>I Cor 9:9</bibl>
+          </cit>
+          Providet 
+          tamen omnibus et curat, id est gubernat omnia, 
+          <cit>
+            <quote xml:id="pll1d39c4-Qd1e3563" ana="#mt5_45">quia omnibus solem 
+              suum oriri facit et pluviam dat.</quote>
+            <bibl>Matthaeus 5:45</bibl>
+          </cit>
+          Scit itaque Deus, quanta sit 
+          multitudo pulicum, culicum et muscarum ac piscium, et quod nascantur, 
+          quotve moriantur; sed non scit hoc per momenta singula, 
+          immo simul et semper omnia, neque ita scit, ut eandem habeat 
+          providentiam irrationabilium et rationabilium, id est, ut eodem penitus 
+          modo provideat irrationabilibus et rationabilibus. Rationabilibus 
+          enim et praecepta dedit; et 
+          <cit>
+            <quote xml:id="pll1d39c4-Qd1e3573">Angelos ad custodiam delegavit.</quote>
+            <bibl>Hugo de Sancto Victore, xxx</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d39c4-d1e3581">Simul itaque et immutabiliter scit Deus omnia quae fuerunt 
+          et sunt et erunt, tam bona quam mala; praescit quoque omnia 
+          futura, tam bona quam mala.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

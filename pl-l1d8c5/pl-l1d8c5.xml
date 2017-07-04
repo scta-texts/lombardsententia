@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 8, Capitulus 5</title>
+        <author>Petrus Lombardus</author>
+        <editor></editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.10-dev-master">
+          <title>Librum I, Distinctio 8, Capitulus 5</title>
+          <date when="2015-10-05">October 05, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher></publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-10-05">October 05, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-10-05" who="#JW" status="draft" n="2015.10">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d8c5">
+        <head>Librum I, Distinctio 8, Capitulus 5</head>
+        <!-- Quod Deus, cum sit simplex, tamen multipliciter dicitur. -->
+        <p xml:id="pll1d8c5-d1e3477">Hic diligenter notandum est, cum dicat <name ref="#Augustine">Augustinus</name>, solum 
+          Deum vere simplicem esse, cur dicat, eundem multipliciter dici.</p>
+        <p xml:id="pll1d8c5-d1e3483">Sed hoc non propter diversitatem accidentium vel partium dicit, 
+          sed propter diversitatem ac multitudinem nominum, quae de Deo dicuntur; 
+          quae licet multiplicia sint, unum tamen significant, scilicet 
+          divinam naturam. Haec enim non ita accipiuntur, cum de illa incommutabili 
+          aeternaque substantia incomparabiliter simpliciore, 
+          quam est humanus animas, dicuntur, quemadmodum cum de 
+          creaturis dicuntur.</p>
+        <p xml:id="pll1d8c5-d1e3486">Unde <ref><name ref="#Augustine">Augustinus</name> in libro VI <title ref="#deTrinitate">De Trinitate</title>:</ref>
+          <cit>
+            <quote xml:id="pll1d8c5-Qd1e3498">Deo hoc 
+              est esse, quod est fortem esse, vel sapientem esse, vel iustum esse, 
+              et si quid de illa simplici multiplicitate vel multiplici simplicitate 
+              dixeris, quo substantia eius significetur. Humano autem animo non 
+              est hoc esse, quod est fortem esse aut prudentem aut iustum; 
+              potest enim esse animus et nullam istarum habere virtutem.</quote>
+            <bibl>Augustinus, De Trinitate, VI, c. 4, n. 6 (PL 42:927)</bibl>
+          </cit>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

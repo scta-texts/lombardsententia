@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 39, Capitulus 1</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 39, Capitulus 1</title>
+          <date when="2016-01-19">January 19, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-01-19">January 19, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    
+    <body>
+      <div xml:id="pl-l1d39c1">
+        <head xml:id="pll1d39c1-Hd1e3496">Librum I, Distinctio 39, Capitulus 1</head>
+        <!-- Utrum scientia Dei possit augeri vel minui, 
+            vel aliquo modo mutari -->
+        <p xml:id="pll1d39c1-d1e3501">Praeterea solet quaeri, utrum scientia Dei possit augeri vel 
+          minui, utrumque enim videtur posse probari.</p>
+        <p xml:id="pll1d39c1-d1e3504">Quod divina scientia possit augeri vel mutari, hoc modo 
+          probatur: quia potest Deus scire quod nunquam scit. Est enim aliquis, 
+          qui non est lecturus hodie, et tamen potest esse, ut legat 
+          hodie; potest enim hodie legere. Nihil autem potest fieri, quod non 
+          possit a Deo sciri. Potest ergo Deus scire, hunc lecturum hodie; 
+          potest igitur aliquid scire, quod non scit; ergo potest eius scientia 
+          augeri vel mutari. Eademque videtur posse minui. Est enim aliquis 
+          hodie lecturus, quem Deus scit lecturum. At potest esse, ut 
+          non legat; ergo potest Deus non scire hunc lecturum; potest igitur 
+          non scire aliquid, quod scit; ergo potest eius minui scientia, 
+          vel mutari.</p>
+        <p xml:id="pll1d39c1-d1e3507">Ad quod dicimus, quia Dei scientia omnino immutabilis est, 
+          nec augeri potest vel minui.</p>
+        <p xml:id="pll1d39c1-d1e3511">Nam, ut ait <ref><name ref="#Augustine">Augustinus</name> in XV libro <title ref="#deTrinitate">De Trinitate</title></ref>: 
+          <cit>
+            <quote xml:id="pll1d39c1-Qd1e3522">Scientia Dei est ipsa sapientia, et sapientia est ipsa essentia sive 
+              substantia Dei; quia in illius naturae simplicitate mirabili non est 
+              aliud sapere, aliud esse, sed quod sapere est, hoc est etiam esse.</quote>
+            <bibl>Augustinus, De Trinitate, XV, c. 13, n. 22 (PL 42:1076)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d39c1-d1e3530">
+          <cit>
+            <quote xml:id="pll1d39c1-Qd1e3534">Ideoque novit omnia Verbum, quae novit Pater; sed ei nosse 
+              de Patre est, sicut esse; nosse enim et esse ibi unum est. Et ideo 
+              Patri, sicut esse non est a Filio, ita nec nosse. Proinde, tanquam 
+              <!-- 246 --> 
+              se ipsum dicens, Pater genuit Verbum sibi aequale per omnia. 
+              Non enim se ipsum integre perfecteque dixisset, si aliquid minus 
+              aut amplius esset in eius Verbo, quam in se ipso. Hoc est ergo 
+              omnino Verbum, quod Pater; non tamen Pater est, quia iste Filius, 
+              ille Pater. Sciunt ergo invicem Pater et Filius, sed ille gignendo, 
+              iste nascendo. Et omnia quae sunt in eorum scientia, in eorum 
+              sapientia, in eorum essentia, unusquisque eorum simul videt, non 
+              particulatim aut singillatim, velut alternante conspectu hinc illuc, 
+              et inde huc et rursus inde, vel inde in aliud atque aliud, ut aliqua
+              videre non possit, nisi non videns alia; sed omnia simul videt, 
+              quorum nullum est, quod non semper videat</quote>
+            <bibl>Augustinus, De Trinitate, XV, c. 14, n. 23 (PL 42:1076)</bibl>
+          </cit>
+          et sciat.</p>
+        <p xml:id="pll1d39c1-d1e3544">Ex hac auctoritate clare ostenditur, scientiam Dei omnino 
+          invariabilem esse, sicut ipsa essentia Dei omnino invariabilis est; 
+          et quod Pater et Filius cum Spiritu sancto simul omnia sciunt et 
+          vident. Sicut ergo non potest augeri vel minui divina essentia, ita 
+          nec divina scientia. Et tamen conceditur posse scire quod non scit, 
+          et posset non scire quod scit; quia posset aliquid esse subiectum 
+          eius scientiae, quod non est, et posset non esse subiectum aliquid, 
+          quod est, sine permutatione ipsius scientiae.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

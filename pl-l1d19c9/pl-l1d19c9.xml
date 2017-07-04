@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 19, Capitulus 9</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 19, Capitulus 9</title>
+          <date when="2015-11-19">November 19, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-11-19">November 19, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d19c9">
+        <head xml:id="pll1d19c9-Hd1e3472">Librum I, Distinctio 19, Capitulus 9</head>
+        <!-- Nec ita dicuntur tres personae una essentia, ut tres 
+          homines [una natura vel] unius naturae. -->
+        <p xml:id="pll1d19c9-d1e3477">His quoque addendum est, quod tres personas non ita dicimus 
+          esse unam essentiam, ut <ref><name ref="#Augustine">Augustinus</name> in eodem</ref> ait, vel unius 
+          essentiae, 
+          <cit>
+            <quote xml:id="pll1d19c9-Qd1e3486">sicut dicimus, aliquos tres homines eiusdem sexus et 
+              eiusdem temperationis corporis eiusdemque animi unam esse naturam 
+              vel unius naturae. Nam in his rebus non tantum est unus 
+              homo, quantum tres homines simul, et plus aliquid sunt homines 
+              duo quam unus homo, sicut et in statuis esse diximus; at in 
+              <!-- 133 -->
+              Deo non ita est. Non enim maior essentia est Pater et Filius simul 
+              quam solus Pater vel solus Filius, sed tres simul illae personae 
+              aequales sunt singulis.</quote>
+            <bibl>Augustinus, XXX</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d19c9-d1e3496">Ex praemissis patet, quod tres personae dicuntur divina essentia 
+          nec secundum materialem causam, ut tres statuae unum 
+          aurum, nec secundum complexionis similitudinem, ut tres homines 
+          unius naturae, nec ut genus praedicatur de speciebus, vel ut species 
+          de individuis, id est continens de contentis, maius de minoribus.</p>
+        <p xml:id="pll1d19c9-d1e3499">His autem videntur adversari ea quae quidam Scripturae 
+          sacrae tractatores catholici in suis scriptis tradiderunt, in quibus 
+          significare videntur, quod essentia divina sit quoddam commune 
+          et universale, velut species; tres vero personae sint tria particularia, 
+          tria individua numero differentia.</p>
+        <p xml:id="pll1d19c9-d1e3503">Unde <name ref="#JohnDamascenus">Ioannes Damascenus</name>, inter Graecorum doctores 
+          magnus, in libro quem <title ref="#deTrinitate">De Trinitate</title> scripsit, quem et <name>papa Eugenius</name> 
+          transferri fecit, ait: 
+          <cit>
+            <quote xml:id="pll1d19c9-Qd1e3516">Communia et universalia praedicantur 
+              de subiectis sibi ipsis particularibus. Commune igitur substantia 
+              est, particulare vero hypostasis, id est persona. Particulare autem 
+              dicitur, non quoniam patrem naturae habet, sed particulare numero, 
+              ut atomus, id est individuum. Numero enim et non natura 
+              differre dicuntur hypostases.</quote>
+            <bibl>Ioannes Damascenus, De Fide orthodoxa, III, c. 6 (PG 94:1002)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d19c9-d1e3524">Item in eodem: 
+          <cit>
+            <quote xml:id="pll1d19c9-Qd1e3528">Substantia significat communem et circumplectivam 
+              speciem homoideon, id est similium specie hypostaseon, 
+              id est personarum, ut puta Deus, homo; hypostasis autem 
+              individuum demonstrat, scilicet Patrem, Filium et Spiritum sanctum, 
+              Petrum, Paulum et huiusmodi.</quote>
+            <bibl>Ioannes Damascenus, De Fide orthodoxa, III, c. 4 (PG 94:1002)</bibl>
+          </cit>
+          Ecce aperte dicit, substantiam 
+          esse universale, hypostasim vero particulare, et quod Deus 
+          est species, ut homo, et quod Pater et Filius et Spiritus sanctus 
+          sunt individua, sicut <name ref="#Peter">Petrus</name>, <name ref="#Paul">Paulus</name>, et quod numero differunt; 
+          quae praemissae sententiae <name ref="#Augustine">Augustini</name> penitus contradicere videntur. 
+          Quid ergo dicemus ad haec? Hoc utique dicere possumus 
+          atque debemus, quod ea quae <name ref="#Augustine">Augustinus</name> tradidit superius, 
+          sine omni haesitatione tenenda sunt.</p>
+        <p xml:id="pll1d19c9-d1e3548">Haec autem, quae dicuntur hic, licet in sermonis superficie 
+          aliquid a fide alienum resonare videantur, sane tamen intelligi 
+          queunt piumque lectorem ac intellectorem efflagitant plurimum. 
+          In quorum explanatione mallem silens alios audire, quam loquendo 
+          malevolis detrahendi occasionem praestare.</p>
+        <p xml:id="pll1d19c9-d1e3551">Videtur tamen mihi ita posse accipi: Cum ait, substantia est 
+          commune, et hypostasis est particulare; non ita haec accepit, cum 
+          de Deo dicantur, ut accipiuntur in philosophica disciplina, sed per 
+          similitudinem eorum quae a philosophis dicuntur, locutus est; ut 
+          sicut ibi commune vel universale dicitur quod praedicatur de pluribus, 
+          particulare vero vel individuum quod de uno solo; ita hic 
+          essentia divina dicta est universale, quia de omnibus personis simul 
+          et de singulis separatim dicitur, particulare vero singula quaelibet 
+          personarum, quia nec de aliis communiter nec aliqua aliarum 
+          singulariter praedicatur. Propter similitudinem ergo praedicationis, 
+          substantiam dixit universale, et personas particularia vel 
+          individua. Propter hoc idem etiam eadem divinam essentiam dixit 
+          esse 
+          <cit>
+            <quote xml:id="pll1d19c9-Qd1e3555">speciem communem et circumplectivam similium specie personarum,</quote>
+            <bibl>XXX</bibl>
+          </cit>
+          quia sicut haec species homo de suis praedicatur individuis, 
+          velut de <name ref="#Peter">Petro</name> et <name ref="#Paul">Paulo</name> et aliis, nec ista specie differunt, 
+          sed conveniunt, ita Deus de tribus praedicatur personis, quae 
+          in divinitate non differunt, sed per omnia conveniunt. Hanc ergo 
+          similitudinem inter res sempiternas et res temporales perpendens 
+          <name facs="#John">Ioannes</name> universalitatis et particularitatis nomina, quae rebus temporalibus 
+          proprie conveniunt, ad res aeternas transtulit; <name ref="#Augustine">Augustinus</name> 
+          vero, maiorem videns dissimilitudinem quam similitudinem inter 
+          res praedictas, ab excellentia Trinitatis praedicta nomina removit.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

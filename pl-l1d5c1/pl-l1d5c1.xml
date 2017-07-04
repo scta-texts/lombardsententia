@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 5, Capitulus 1</title>
+        <author>Petrus Lombardus</author>
+        <editor>Brady</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.09-dev-master">
+          <title>Librum I, Distinctio 5, Capitulus 1</title>
+          <date when="2015-09-27">September 27, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher></publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-09-27">September 27, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-27" who="#JW" status="draft" n="2015.09">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d5c1">
+        <head>Librum I, Distinctio 5, Capitulus 1</head>
+        <p xml:id="pll1d5c1-d1e3476">Post haec quaeritur, utrum concedendum sit, quod pater genuit 
+          divinam essentiam, vel quod divina essentia genuit Filium, vel 
+          essentia genuit essentiam, an omnino non genuit nec genita est 
+          divina essentia.</p>
+        <p xml:id="pll1d5c1-d1e3479">Ad quod catholicis tractatoribus consentientes dicimus, quod 
+          nec Pater genuit divinam essentiam, nec divina essentia genuit Filium, 
+          nec divina essentia genuit essentiam. Hic autem nomine essentiae 
+          intelligimus divinam naturam, quae communis est tribus 
+          personis et tota in singulis.</p>
+        <p xml:id="pll1d5c1-d1e3482">Ideo non est dicendum, quod Pater genuit divinam essentiam; 
+          quia si Pater diceretur genuisse divinam essentiam, essentia divina 
+          relative diceretur ad patrem vel pro relativo poneretur. Si autem 
+          relative diceretur vel pro relativo poneretur, non indicaret essentiam. 
+          Ut enim ait <ref><name>Augustinus</name> in V libro <title ref="#deTrinitate">De Trinitate</title>:</ref> 
+          <cit>
+            <quote xml:id="pll1d5c1-Qd1e3494">Quod 
+              relative dicitur, non indicat substantiam.</quote>
+            <bibl>Augustinus, De Trinitate, V, c. 7, n. 8 (PL 42:916)</bibl>
+          </cit>
+        </p>
+        <!-- p. 43 -->
+        <p xml:id="pll1d5c1-d1e3505">Item, cum Deus Pater sit divina essentia, si eius esset genitor, esset utique genitor eius rei, quae ipse est; et ita eadem 
+          res se ipsam genuisset, quod <name ref="#Augustine">Augustinus</name> negat, ut supra 
+          ostendimus.</p>
+        <p xml:id="pll1d5c1-d1e3511">Item, si Pater est genitor essentiae divinae, cum ipse essentia 
+          divina et sit et Deus sit, eo ergo quod generat, et est, et Deus 
+          est. Ita ergo non illud quod generatur, est a Patre Deus, sed Pater 
+          eo quod generat, et est, et Deus est. Et si ita est, non genito 
+          gignens, sed gignenti genitus causa est, ut est sit, et Deus sit.</p>
+        <p xml:id="pll1d5c1-d1e3514">Simili ratione probat <ref><name ref="#Augustine">Augustinus</name> in libro VII <title ref="#deTrinitate">De Trinitate</title>,</ref> 
+          <cit>
+            <quote xml:id="pll1d5c1-Qd1e3526">quod Pater non est sapiens sapientia, quam genuit, quia 
+              si ea sapiens est, ea est; hoc enim est ibi esse quod sapere. Quodsi 
+              hoc est ibi esse quod sapere, non per illam sapientiam, quam genuit, 
+              sapiens Pater est. Quid enim aliud dicimus, cum dicimus: 
+              hoc illi est esse quod sapere, nisi, eo est quo sapiens est? Ergo 
+              quae causa illi est, ut sapiens sit, etiam ipsa illi causa est, ut sit. 
+              Si ergo sapientia, quam genuit, illi causa est, ut sapiens sit, et 
+              causa illi est, ut sit. Sed causam Patri, qua sit, a Patre genitam, 
+              nullo modo quidquam dixerit sapientiam. Quod enim est insanius? 
+              Ita ergo, si Pater genuit essentiam, qua est, essentia, quam genuit, 
+              causa est illi ut sit.</quote>
+            <bibl>Augustinus, De Trinitate, VII, c. 1, n.2 (PL 42:934)</bibl>
+          </cit>
+          Non igitur ipsam, qua est, essentiam genuit.
+          <cit>
+            <quote xml:id="pll1d5c1-Qd1e3535">Nam in illa simplicitate, inquit <name ref="#Augustine">Augustinus</name>, quia non 
+              est aliud sapere quam esse, eadem ibi sapientia quae essentia;</quote>
+            <bibl>Augustinus, De Trinitate, VII, c. 1, n.2 (PL 42:934) <!-- dbcheck; citation unclear --></bibl>
+          </cit>
+          ideoque quod de sapientia, hoc de essentia dicimus. Sicut 
+          ergo non genuit sapientiam, qua sapiens est, ita nec essentiam, 
+          quae est. Ut enim sapientia sapiens est et potentia potens, ita et 
+          essentia ipse est, eademque est sapientia et potentia, quae essentia.</p>
+        <p xml:id="pll1d5c1-d1e3547">Patet itque ex praedictis, quia Pater essentiam divinam non 
+          genuit.</p>
+        <p xml:id="pll1d5c1-d1e3550">Huic autem videtur contrarium quod <ref><name ref="#Augustine">Augustinus</name> ait in 
+          libro <title>De fide ad Petrum</title>:</ref> 
+          <cit>
+            <quote xml:id="pll1d5c1-Qd1e3562">Deus, cum Verbum genuit, id quod 
+            ipse est genuit, nec de nihilo nec de aliqua iam facta conditaque 
+            materia, sed de ipso id quod est ipse</quote>
+            <bibl>Augustinus, De fide et symbolo, n. 4 (PL 40:183)</bibl>
+          </cit>
+        </p>
+        <!-- p. 44 -->
+        <p xml:id="pll1d5c1-d1e3573">Item: 
+          <cit>
+            <quote xml:id="pll1d5c1-Qd1e3577">Deus Pater, qui verissime se indicare animis cognituris 
+              et voluit et potuit, hoc ad se ipsum indicandum genuit, 
+              quod est ipse qui genuit.</quote>
+            <bibl>Augustinus, De fide et symbolo, n. 4 (PL 40:183) <!-- dbcheck unsure --></bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d5c1-d1e3586">Ecce aperte dicit his verbis, Deum Patrem genuisse illud quod 
+          ipse est. Illud autem quod ipse est, non est nisi divina essentia; 
+          videtur ergo divinam essentiam genuisse.</p>
+        <p xml:id="pll1d5c1-d1e3589">Ad quod respondemus, illa verba sic intelligenda esse dicentes: 
+          Pater de se ipso genuit illud quod ipse est, id est Filium, 
+          qui est illud quod Pater est. Nam quod Pater est, et Filius hoc 
+          est, sed non qui Pater est, et Filius hic est.</p>
+        <p xml:id="pll1d5c1-d1e3592">Ita etiam non est dicendum, quod divina essentia genuit 
+          Filium, quia cum filius sit divina essentia, iam esset Filius res, a 
+          qua generatur et ita eadem res se ipsam generaret. Ita etiam dicimus, 
+          quod essentia divina non genuit essentiam. Cum enim una 
+          et summa quaedam res sit divina essentia, si divina essentia essentiam 
+          genuit, eadem res se ipsam genuit, quod omnino esse non 
+          potest; sed Pater solus genuit Filium, et a Patre et Filio procedit 
+          Spiritus santus.</p>
+        <p xml:id="pll1d5c1-d1e3595">Praedictis autem videtur esse contrarium, quod dicit <ref><name ref="#Augustine">Augustinus</name> 
+          in libro VII <title ref="#deTrinitate">De Trinitate</title>:</ref> 
+          <cit>
+            <quote xml:id="pll1d5c1-Qd1e3607">Hoc, inquit, est Deo esse 
+              quod sapere; unde Pater et Filius simul sunt una sapientia, quia 
+              una essentia: et singillatim sapientia de sapientia, sicut essentia 
+              de essentia.</quote>
+            <bibl>Augustinus, De Trinitate, VII, c. 1, n. 2, n. 3 passim excerptum (PL 42:931 et sqq.) <!-- dbcheck and clarify --></bibl>
+          </cit>
+          Ecce his verbis aperte dicit <name ref="#Augustine">Augustinus</name>, 
+          sapientiam de sapientia et essentiam de essentiam, ubi videtur significare, 
+          quod sapientia sapientiam et essentia essentiam genuerit.</p>
+        <p xml:id="pll1d5c1-d1e3619">Idem <ref>in libro <title>De fide ad Petrum</title></ref> ait: 
+            <cit>
+              <quote xml:id="pll1d5c1-Qd1e3628">Sic Christum 
+                Dei Filium, id est unam ex Trinitate personam, Deum verum crede, 
+                ut divinitatem eius de natura Patris natam esse non dubites.</quote> 
+              <bibl>Augustinus, De Fide ad Petrum, c. 2, n. 15 (PL 40</bibl>
+            </cit>
+          Hic videtur dicere, quod natura Filii sit nata de natura Patris.</p>
+        <p xml:id="pll1d5c1-d1e3637">Idem etiam in <ref>XV libro <title ref="#deTrinitate">De Trinitate</title></ref> ait: 
+          <cit>
+            <quote xml:id="pll1d5c1-Qd1e3646">Dicitur Filius 
+              consilium de consilio et voluntas de voluntate, sicut substantia de 
+              substantia et, sapientia de sapientia.</quote>
+            <bibl>Augustinus, <title>De Trinitate</title>, XV, c. 19, n. 38 (PL 42:1087)</bibl>
+          </cit>
+          Et hic videtur dicere, quod 
+          substantia sit genita de substantia et sapientia de sapientia.
+        </p>
+        <p xml:id="pll1d5c1-d1e3657">Sed haec ita determinamus: 
+          <cit>
+            <quote xml:id="pll1d5c1-Qd1e3661">Sapientia de sapientia, et substantia 
+              de substantia est,</quote>
+            <bibl>Augustinus, <title>De Trinitate</title>, XV, c. 19, n. 38 (PL 42:1087)</bibl>
+          </cit>
+          id est Filius, qui est sapientia, qui est 
+          substantia, est de Patre, qui est eadem substantia et sapientia; et 
+          Filius, qui est divinitas, natus est de patre, qui est divina natura. 
+          Et ut expressius dicamus, dicimus, Filium sapientiam esse de Patre 
+          sapientia, et dicimus, Filium substantiam esse genitum de Patre 
+          et a Patre substantia.</p>
+        <p xml:id="pll1d5c1-d1e3672">Quod autem ita intelligi debeat, <ref><name ref="#Augustine">Augustinus</name> ostendit in 
+          VII libro <title ref="#deTrinitate">De Trintitate</title></ref> dicens: 
+          <cit>
+            <quote xml:id="pll1d5c1-Qd1e3683">Pater ipse sapientia est; et dicitur 
+              Filius sapientia Patris, quomodo dicitur lumen Patris, id est, 
+              sicut lumen de lumine et uterque unum lumen, sic intelligatur 
+              sapientia de sapientia, et uterque una sapientia et una essentia.</quote>
+            <bibl>Augustinus, <title>De Trinitate</title>, VII, c. 1, n. 2 (PL 42:936)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d5c1-d1e3694">Item: 
+          <cit>
+            <quote xml:id="pll1d5c1-Qd1e3698">Ideo dicitur Christus virtus est sapientia Dei, quia 
+              de Patre, virtute et sapientia, etiam ipse virtus et sapientia est, 
+              sicut ipse lumen de Patre lumine est, et ipse fons vitae est apud 
+              Deum Patrem, fontem vitae. Filius ergo sapientia de Patre sapientia 
+              est, sicut Filius lumen de lumine Patre, et Deus Filius de Deo 
+              Patre, ut et singulus sit lumen et singulus sit Deus et singulus 
+              sit sapientia, et simul unum lumen, unus Deus, una sapientia.</quote>
+            <bibl>Augustinus, <title>De Trinitate</title>, VII, c. 3, n. 4 (PL 42:937)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d5c1-d1e3709">Ecce his verbis manifeste aperit <name ref="#Augustine">Augustinus</name>, ex quo sensu 
+          accipienda sint praedicta verba et his similia, scilicet cum dicitur: 
+          Substantia de substantia, vel substantia genuit substantiam.</p>
+        <p xml:id="pll1d5c1-d1e3715">Huic vero id etiam contrarium videtur, quod <ref><name ref="#HilaryOfPoitiers">Hilarius</name> 
+          ait in IV libro <title ref="#deTrinitate">De Trinitate</title>:</ref> 
+          <cit>
+            <quote xml:id="pll1d5c1-Qd1e3727">Nihil, inquit, nisi natum habet 
+              Filius; et geniti honoris admiratio in honore generantis est.</quote>
+            <bibl>Hilarius, De Trinitate, IV, n. 10 (PL 10:103)</bibl>
+          </cit>
+          Cum 
+          ergo Filius essentiam habet -- tota enim in eo est divina essentia -- 
+          videtur quod ipsa divina essentia nata sit. <!-- end with close quotation mark but no opening quotation mark; dbcheck quote and citaiton -->
+        </p>
+        <p xml:id="pll1d5c1-d1e3738">Item in <ref>V libro</ref> ait: 
+          <cit>
+            <quote xml:id="pll1d5c1-Qd1e3745">Nativitas Dei non potest eam ex 
+              qua profecta est non tenere naturam, nec enim aliud quam Deus 
+              subsistit, quod non aliunde quam de Deo subsistit.</quote>
+            <bibl>Hilarius, De Trinitate, IV, n. 37 (PL 10:155)</bibl>
+          </cit>
+          Ecce hic dicit 
+          nativitatem Dei profectam ex natura, et ita videtur ex his verbis 
+          atque praedictis natura Dei et genita et genuisse.</p>
+        <!-- p. 46 -->
+        <p xml:id="pll1d5c1-d1e3755">Quod apertius dicit in <ref>libro IX <title ref="#deTrinitate">De Trinitate</title></ref> 
+          <cit>
+            <quote xml:id="pll1d5c1-Qd1e3764">Nos, inquit, 
+              unigenitum Deum, in forma servi manentem, in natura Dei mansisse 
+              profitemur, nec unitatem formae servilis in naturam divinae 
+              unitatis refundimus; nec rursus corporali insinuatione Patrem in 
+              Filio praedicamus, sed ex eo eiusdem generis genitam naturam 
+              naturaliter in se gignentem habuisse naturam, quae in forma nautrae 
+              se gignentis manens, formam naturae et infirmitatis corporalis 
+              accepit. Non enim defecerat Dei natura, ne esset; sed in se humilitatem 
+              terrenae nativitatis manens sibi Dei natura susceperat, generis 
+              sui potestatem in habitu assumptae <!-- assumtae in text --> humilitatis exercens.</quote>
+            <bibl>Hilarius, De Trinitate, IX, n. 51 (PL 10:322)</bibl>
+          </cit>
+          Ecce hic aperte dicit, et naturam genuisse, et naturam genita, 
+            et naturam assumpsisse <!-- text has assumsisse --> naturam; quod a plerisque negatur.</p>
+        <p xml:id="pll1d5c1-d1e3776">Item in <ref>eodem</ref>: 
+          <cit>
+            <quote xml:id="pll1d5c1-Qd1e3783">Nunquid unigenito Deo contumelia est, 
+              Patrem sibi innascibilem Deum esse, cum ex innascibili Deo nativitas 
+              unigenita in naturam unigenitam subsistat?</quote>
+            <bibl>Hilarius, De Trinitate, IX, n. 53 (PL 10:324)</bibl>
+          </cit>
+          Ecce et hic dicit 
+          unigenitam naturam.</p>
+        <p xml:id="pll1d5c1-d1e3791">Sed quia haec verba sane vult intelligi, <ref>ipse idem dicit in IV 
+          libro:</ref> 
+          <cit>
+            <quote xml:id="pll1d5c1-Qd1e3798">Intelligentia dictorum ex causis est assumenda dicendi, 
+              quia non sermoni res, sed rei est sermo subiectus.</quote>
+            <bibl>Hilarius, De Trinitate, IV, n. 14 (PL 10:107)</bibl>
+          </cit>
+          Haec ergo 
+          verba ita intelligi possunt: Nihil habet Filius nisi natum, id est, 
+          nihil habet secundum quod Deus est, nisi quod nascendo accepit, 
+          et ipse nascendo Patris in se subsistentem habuit naturam.</p>
+        <p xml:id="pll1d5c1-d1e3806">Unde <ref>idem <name>Hilarius</name> adit in libro V:</ref> 
+          <cit>
+            <quote xml:id="pll1d5c1-Qd1e3816">Eandem naturam 
+              habet genitus, quam ille qui genuit, ita tamen, ut natus non sit 
+              ille qui genuit (nam quomodo erit ipse, cum genitus sit?), sed 
+              in his ipsis subsistat ille qui genitus est, in quibus totus est ipse 
+              qui genuit, quia non est aliunde qui genitus est. Et ideo non refertur 
+              ad aliud quod in uno subsistit ex uno. Ac si in generatione 
+              Filii et naturam suam, ut ita dicam, sequitur indemutabilis Deus 
+              indemutabilem gignens Deum, nec naturam suam deserit ex indemutabili 
+              Deo indemutabili Dei perfecta nativitas. Subsistentem 
+              <!-- p. 47 --> 
+              igitur in eo Dei naturam intelligamus, cum in Deo Deus insit; 
+              nec praeter eum qui est Deus, quisquam Deus alius sit, quia 
+              ipse Deus, et in eo Deus.</quote>
+            <bibl>Hilarius, De Trinitate, V, n. 37 (PL 10:155)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d5c1-d1e3827">Naturae ergo Dei Patris veritas in Deo Filio esse docetur, cum 
+          in eo Deus intelligitur esse, qui Deus est. Est enim unus in uno 
+          et unus ab uno.</p>
+        <p xml:id="pll1d5c1-d1e3830">Dicitur quoque et frequenter in Scriptura sacra legitur, Patrem 
+          de sua substantia genuisse Filium.</p>
+        <p xml:id="pll1d5c1-d1e3833">Unde <name ref="#Augustine">Augustinus</name> in libro <title>De fide ad Petrum</title> ait: 
+          <cit>
+            <quote xml:id="pll1d5c1-Qd1e3843">Pater 
+              Deus, de nullo genitus Deo, semel de sua natura sine initio genuit 
+              Filium, Dum sibi aequalem, et eadem, qua ipse naturaliter aeternus 
+              est, divinitate coaeternum.</quote>
+            <bibl>Augustine, De fide ad Petrum, c. 2, n. 10 (PL 40 756)</bibl>
+          </cit>
+          Ecce hic dicit <name ref="#Augustine">Augustinus</name>, 
+          Filium genitum de natura Patris. Est autem una natura Patris 
+          et Filii et Spiritus sancti. Si ergo de natura Patris genitus est 
+          Filius, genitus est de natura Filii et Spiritus sancti, immo de natura 
+          trium personarum.</p>
+        <p xml:id="pll1d5c1-d1e3854">Idem quoque <ref><name ref="#Augustine">Augustinus</name> in libro XV <title ref="#deTrinitate">De Trinitate</title></ref> dicit, 
+          Christum esse Filium substantiae Patris et de substantia Patris genitum, 
+          tractans illud verbum <name ref="#Paul">Apostoli</name> loquentis de Deo Patre 
+          sic: 
+          <cit>
+            <quote xml:id="pll1d5c1-Qd1e3868" ana="#col1_13">Qui eruit nos de potestate tenebrarum et transtulit in 
+              regnum Filii caritatis suae.</quote>
+            <bibl>Col. 1:13</bibl>
+          </cit>
+          <cit>
+            <quote xml:id="pll1d5c1-Qd1e3877">Quod dictum est, inquit, <mentioned>Filii 
+              caritatis suae,</mentioned> nihil aliud intelligatur quam Filii sui dilecti, quam 
+              Filii substantiae suae. Caritas quippe Patris, quae in natura eius 
+              est ineffabiliter simplici, nihil est aliud quam ipsa natura atque 
+              substantia, ut saepe diximus et saepe iterare non piget, ac per hoc 
+              Filius caritatis eius nullus est alius, quam qui de substantia eius 
+              est genitus.</quote>
+            <bibl>Augustine, De Trinitate XV, c. 19, n. 37 (PL 42:1086)</bibl>
+          </cit> 
+          Ecce aperte hic dicit <name ref="#Augustine">Augustinus</name> Filium esse genitum 
+          de substantia Patris et Filium substantiae Patris.</p>
+        <p xml:id="pll1d5c1-d1e3891">Idem quoque <ref><name ref="#Augustine">Augustinus</name> in libro II <title>Contra Maximinum haereticum</title>,</ref> 
+          substantiam Dei genuisse Filium, et Filium genitum 
+          de substantia Patris asserit dicens: 
+          <cit>
+            <quote xml:id="pll1d5c1-Qd1e3903">Carnalibus cogitationibus 
+              pleni, substantiam Dei de se ipsa gignere Filium non putatis, 
+              nisi hoc patiatur, quod substantia carnis patitur, quando gignit. 
+              <cit>
+                <quote xml:id="pll1d5c1-Qd1e3907" ana="mt22_29">Erratis nescientes Scripturas neque virtutem Dei.</quote>
+                <bibl>Matth. 22:29</bibl>
+              </cit> 
+              Nullo enim 
+              <!-- p. 48 --> 
+              modo verum Dei Filium cogitatis, si eum natum esse de substantia 
+              Patris negatis. Non enim iam erat hominis Filius, et Deo donante 
+              factus est Dei Filius, ex Deo natus gratia, non natura. An forte, 
+              etsi non hominis filius erat, tamen aliqua iam erat qualiscumque 
+              creatura, et in Dei Filium, Deo mutante, conversa est? Sed nihil 
+              horum est; ergo aut de nihilo, aut de aliqua substantia natus est. 
+              Sed ne crederemus, vos putare de nihilo esse Dei Filium, affirmastis, 
+              non vos dicere de nihilo esse Dei Filium. De aliqua ergo 
+              substantia est; et si non de substantia Patris, de qua sit, dicite sed 
+              non invenietis. Iam igitur unigenitum Dei Filium. Iesum Christum, 
+              de Patris esse substantia, non vos nobiscum pigeat confiteri.</quote>
+            <bibl>Augustinus, Contra Maximinum, II, c. 14, n. 2 (PL 42:771)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d5c1-d1e3922">Item in <ref>eodem:</ref> 
+          <cit>
+            <quote xml:id="pll1d5c1-Qd1e3929">Utrique legimus, 
+              <cit>
+                <quote xml:id="pll1d5c1-Qd1e3933" ana="#Iio5_10">ut simus in vero Filio eius,</quote>
+                <bibl>I Ioannes 5:20</bibl>
+              </cit>
+              Iesu Christo. Dicite ergo nobis, utrum iste verus Dei Filius, 
+              ab eis qui gratia filii sunt, quadam proprietate discretus, de nulla 
+              substantia sit, an de aliqua? Non dico, in quis, de nulla, nec dicam 
+              de nihilo; ergo de aliqua substantia est. Quaero, de qua? 
+              Si non de Patris substantia est, aliam quaere. Si aliam non invenis, 
+              Patris agnosce substantiam, et cum Patre Filium homousion 
+              confitere.</quote>
+            <bibl>Augustinus, Contra Maximinum, II, c. 14, n. 3 (PL 42:771)</bibl> <!-- dbheck -->
+          </cit>
+        </p>
+        <p xml:id="pll1d5c1-d1e3949">Item in <ref>eodem:</ref> 
+          <cit>
+            <quote xml:id="pll1d5c1-Qd1e3956">Confiteor, Deum Patrem omnino incorruptibiliter genuisse, 
+            sed quod ipse est genuisse. Item dico quod 
+            saepe dicendum est: Aut de aliqua substantia natus est Dei Filius, 
+            aut de nulla. Si de nulla; ergo de nihilo; quod vos iam non dicitis; 
+            si vero de aliqua, nec tamen de Patris substantia, non est verus 
+            Filius; si vero de Patris substantia, unius eiusdemque substantiae 
+            sunt Pater et Filius. Vos autem nec Filium de Patris substantia 
+            genitum vultis; et tamen eum nec ex nihilo nec ex aliqua materia, 
+            sed ex Patre esse conceditis; nec videtis, quam necesse sit, ut qui 
+            non est ex nihilo nec ex aliqua re alia, sed ex Deo, nisi ex 
+            Dei substantia esset non possit, et hoc esse quod Deus est, de quo 
+            est, id est Deus de Deo natus; quia non alius prius fuit, sed natura 
+            coaeterna de Deo est.</quote>
+          </cit>
+        </p>
+        <p xml:id="pll1d5c1-d1e3961">His verbis praemissis innui videtur, quod divina substantia 
+          Filium genuerit, et quod Filius sit genitus de substantia Patris, et 
+          quod de Deo est natura coaeterna, et quod Pater id quod ipse
+          <!-- p. 49 --> 
+          est genuit. Id autem quo ipse est, essentia divina est; et ita putari 
+          potest, divinam essentiam genuisse.</p>
+        <p xml:id="pll1d5c1-d1e3966">Vehementer movent nos haec verba, quae quomodo intelligenda 
+          sint, mallem ab aliis audire quam tradere. Ut tamen sine 
+          praeiudicio atque temeritate loquar, ex hoc sensu dicta possunt 
+          accipi: Natura coaeterna de Deo est, id est, Filius coaeternus Patri 
+          de Patre est, ita quod est eadem cum eo natura vel eiusdem naturae. 
+          Quem sensu confirmat <name ref="#Augustine">Augustinus</name>, ibidem subiiciens 
+          et quod dixerat quasi explanans. Dicto enim: 
+          <cit>
+            <quote xml:id="pll1d5c1-Qd1e3973">Natura coaeterna 
+              de Deo est,</quote>
+            <bibl>Augustinus, Contra Maximinum, II, c. 14, n. 2 (PL 42:771)</bibl> <!-- dbheck -->
+          </cit>
+          addidit: 
+          <cit>
+            <quote xml:id="pll1d5c1-Qd1e3984">Non est aliud Filius quam illud de quo 
+            est, id est, unius eiusdemque substantiae est.</quote>
+            <bibl>Augustinus, Contra Maximinum, II, c. 14, n. 2 (PL 42:771)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d5c1-d1e3992">Deinde apertius talem intellectum ex praedictis verbis fore 
+          habendum aperit in <ref>eodem libro <title>Contra Maximinum</title></ref> dicens: 
+          <cit>
+            <quote xml:id="pll1d5c1-Qd1e4001">Trinitas haec unius eiusdemque substantiae est, quia non de aliqua 
+              materia vel de nihilo est Filius, sed de quo est genitus. Itemque 
+              Spiritus sanctus non de aliqua materia vel de nihil est, sed inde 
+              est unde procedit.</quote>
+            <bibl>Augustinus, Contra Maximinum, II, c. 14, n. 2 (PL 42:771)</bibl> <!-- dbcheck -->
+          </cit>
+        </p>
+        <p xml:id="pll1d5c1-d1e4011">His utique verbis aperte ostendit, ea ratione dici Filium esse 
+          de substantia Patris, quia est de Patre genitus, ita quod est eiusdem 
+          substantiae cum eo; et Spiritum sanctum esse de substantia Patris 
+          et Filii, quia ab utroque procedit, ita quod est eiusdem substantiae.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

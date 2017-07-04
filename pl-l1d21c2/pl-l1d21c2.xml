@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 21, Capitulus 2</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 21, Capitulus 2</title>
+          <date when="2015-11-22">November 22, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-11-22">November 22, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d21c2">
+        <head xml:id="pll1d21c2-Hd1e3496">Librum I, Distinctio 21, Capitulus 2</head>
+        <!-- Utrum debeat dici: Solus Pater est Deus, vel solus Filius est Deus, 
+            vel solus Spiritus sanctus est Deus; an, Pater est solus 
+            Deus, Filius est solus Deus, Spiritus sanctus est solus Deus. -->
+        <p xml:id="pll1d21c2-d1e3501">Post haec quaeritur, utrum, sicut dicitur: Solus Pater est Pater, 
+          vel solus Filius est Filius, ita possit dici: Solus Pater est Deus, 
+          vel solus Filius est Deus, ita et de Spiritu sancto; aut, Pater est 
+          solus Deus, Filius est solus Deus.</p>
+        <p xml:id="pll1d21c2-d1e3504">Ad quod dicimus, quia Pater et Filius et Spiritus sanctus dicitur 
+          et est unus Deus, et haec Trinitas simul proprie dicitur esse 
+          <!-- p. 142 -->
+          solus Deus, sicut solus sapiens, solus potens. Sed non videtur debere 
+          dici a nobis, verbis nostris utentibus, nisi ubi sermo auctoritatis 
+          occurrit: Solus Pater est Deus, vel Pater est solus Deus; ita 
+          de Filio et Spiritu sancto dicimus.</p>
+        <p xml:id="pll1d21c2-d1e3509">Unde <ref><name ref="#Augustine">Augustinus</name> in VI libro <title ref="#deTrinitate">De Trinitate</title></ref> ait: 
+          <cit>
+            <quote xml:id="pll1d21c2-Qd1e3520">Quoniam 
+              ostendimus, quomodo possit dici solus Pater vel solus Filius, 
+              consideranda est illa sententia, qua dicitur, non esse solum Patrem 
+              Deum verum solum, sed Patrem et Filium et Spiritum sanctum</quote>
+            <bibl>Augustinus, De Trinitate, VI, xxx</bibl>
+          </cit>
+          Ecce habes, quia non solus Pater dicendus est esse solus verus Deus.
+        </p>
+        <p xml:id="pll1d21c2-d1e3529">Item in eodem: 
+          <cit>
+            <quote xml:id="pll1d21c2-Qd1e3533">Si quis interroget, Pater solus utrum sit 
+              Deus; quomodo respondebimus non esse, nisi forte ita dicamus, esse 
+              quidem Patrem Deum, sed non eum esse solum Deum? Esse autem 
+              solum Deum dicamus Patrem et Filium et Spiritum sanctum.</quote>
+            <bibl>Augustinus, XXX</bibl>
+          </cit>
+          Ecce et hic habes, quia Pater non debet dici solus Deus; atque hic 
+          solum in parte subiecti tantum accipere quidam volunt, in parte 
+          vero praedicati si sit, concedunt, quod Pater est solus Deus.</p>
+        <p xml:id="pll1d21c2-d1e3541">Sed ex verbis <name ref="#Augustine">Augustini</name> videtur ostendi, quod proprie solus 
+          Deus dici debeat tota Trinitas. Et haec Trinitas, ut ait <ref><name ref="#Augustine">Augustinus</name> 
+            <title>Contra Maximinum</title>,</ref> intelligitur, cum <name ref="#Paul">Apostolus</name> dicit: 
+          <cit>
+            <quote xml:id="pll1d21c2-Qd1e3559" ana="#Itim6_15">Beatus et solus potens;</quote>
+            <bibl>I Tim. 6:15</bibl>
+          </cit>
+          et ibi: 
+          <cit>
+            <quote xml:id="pll1d21c2-Qd1e3568" ana="#rom16_27">Soli sapienti Deo;</quote>
+            <bibl>Romanos 16:27</bibl>
+          </cit>
+          et ibi:
+          <cit>
+            <quote xml:id="pll1d21c2-Qd1e3578" ana="#Itim1_17">Invisibili soli Deo.</quote>
+            <bibl>I Tim. 1:17</bibl>
+          </cit>
+          Non enim haec de solo Patre accipienda sunt, ut contendebat 
+          <name>Maximinus</name> et alii haeretici, sed de Trinitate; sicut et illud: 
+          <cit>
+            <quote xml:id="pll1d21c2-Qd1e3590">Solus habet immortalitatem,</quote>
+            <bibl>??</bibl>
+          </cit>
+          quia secundum rectam fidem ipsa 
+          Trinitas est unus solus Deus, beatus, potens, sapiens, invisibilis.</p>
+        <p xml:id="pll1d21c2-d1e3598">Unde <name ref="#Augustine">Augustinus</name> in eodem: 
+          <cit>
+            <quote xml:id="pll1d21c2-Qd1e3605">Cum unus Deus sit Trinitas, 
+              haec sit nobis solutio quaestionis, ut intelligamus solum deum 
+              sapientem, solum potentem Patrem et Filium et Spiritum sanctum, 
+              qui est unus et solus Deus.</quote>
+            <bibl>Augustinus, XXX, c. 3, n. 1 (PL 42: 769)</bibl>
+          </cit>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

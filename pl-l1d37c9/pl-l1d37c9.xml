@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 37, Capitulus 9</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 37, Capitulus 9</title>
+          <date when="2016-01-14">January 14, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-01-14">January 14, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d37c9">
+        <head xml:id="pll1d37c9-Hd1e3496">Librum I, Distinctio 37, Capitulus 9</head>
+        <!-- Quod Deus est ubique sine locali motu -->
+        <p xml:id="pll1d37c9-d1e3501">Fateamur itaque, divinam naturam pro immensitate sui nusquam 
+          deesse, eamque solam omnino in-localem et incircumscriptibilem <!-- 239 -->
+          nullo concludi loco, sed 
+          <cit>
+            <quote xml:id="pll1d37c9-Qd1e3507" ana="#sap8_1">a fine usque ad finem attingere,</quote>
+            <bibl>Sapientia 8:1</bibl>
+          </cit>
+          non tamen spatiosa magnitudine nec locai motu, sed immensitate 
+          atque immobilitate suae essentiae.</p>
+        <p xml:id="pll1d37c9-d1e3515">Unde <ref><name ref="#Augustine">Augustinus</name> <title>Ad Dardanum</title></ref> ait: 
+          <cit>
+            <quote xml:id="pll1d37c9-Qd1e3526">Non quasi spatiosa 
+              magnitudine opinemur Deum per cuncta diffundi, sicut humus 
+              aut lux ista diffunditur, sed potius sicut in duobus sapientibus, 
+              quorum alter altero corpore gradior est, sed sapientior non 
+              est, una sapientia est, nec est in maiore maior, nec in minore 
+              minor, nec minor in uno quam in duobus; ita Deus, sine labore 
+              regens et continens mundum, in caelo totus est, in terra totus, 
+              et in utroque totus, et nullo contentus loco, sed in se ipso ubique 
+              totus.</quote>
+            <bibl>Augustinus, Ad Dardanum, Epist. 187, c. 4, n. 11 (PL 33:836)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d37c9-d1e3534">Idem quoque <title>Super Psalmum</title> ait: 
+          <cit>
+            <quote xml:id="pll1d37c9-Qd1e3541">Ad Verbum Dei pertinet 
+              non esse in parte, sed ubique esse per se ipsum. Haec est 
+              enim sapientia Dei, quae 
+              <cit>
+                <quote xml:id="pll1d37c9-Qd1e3545">attingit a fine usque ad finem fortiter,</quote>
+                <bibl>Psalmus 147:22</bibl>
+              </cit>
+              non tamen motu locali, sed immobilitate sui: velut si moles aliqua 
+              saxea impleat aliquem locum, dicitur, quo attingit a fine illius 
+              loci usque ad finem, cum tamen alterum non deserat, alterum occupando; 
+              non ergo habet motum localem Verbum illud, et Sapientia 
+              illa solida est et ubique.</quote>
+            <bibl>Augustinus, Enarrat. in Psalm. 147, n. 22 (PL 37:1931)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d37c9-d1e3559">Ex praedictis innotescit, quod Deus ita est ubique per essentiam, 
+          quod nec spatiosa magnitudine diffunditur, nec, uno deserto 
+          loco, alium occupat, quia localem motum non habet.</p>
+        <p xml:id="pll1d37c9-d1e3562">Ideoque <name ref="#Augustine">Augustinus</name>, volens praescidere a Dei puritate 
+          omnem localem motum et localem circumscriptionem, potius dicit, 
+          omnia esse in illo, quam ipsum esse alicubi, nec tamen ipsum esse 
+          locum, qui non est in loco, in libro <title ref="#deDiversisQuaestionibus">83 Quaestionum</title> ita inquiens: 
+          <cit>
+            <quote xml:id="pll1d37c9-Qd1e3572">Deus non alicubi est. Quod alicubi est continetur loco; quod continetur 
+              loco corpus est; Deus autem non est corpus; non igitur 
+              alicubi est. Et tamen, quia est, et in loco non est, in illo sunt potius 
+              omnia, quam ipse alicubi; nec tamen ita in illo, ut ipse sit 
+              locus. Locus enim in spatio est, quod longitudine et latitudine et 
+              altitudine corporis occupatur; nec Deus tale aliquid est. Et omnia 
+              igitur in ipso sunt, et locus non est, nec in loco est; locus tamen 
+              <!-- 240 -->
+              Dei, sed improprie, dicitur templum Dei, non quod eo contineatur. 
+              Id autem nihil melius quam anima munda intelligitur.</quote>
+            <bibl>Augustinus, De diversis quaestionum, q. 20 (PL 40:15) <!-- ambiguous end of quotation because end quotation mark is missing in text --></bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d37c9-d1e3583">Ecce hic dicit, Deum non esse in loco. Sed intelligendum est, 
+          eum non esse in loco localiter, scilicet quia nec circumscriptionem 
+          nec localem motum habet.</p>
+        <p xml:id="pll1d37c9-d1e3586">Ad hoc autem solet opponi sic: Quotidie fiunt creaturae, quae 
+          ante non erant, et in eis Deus est, cum ante non esset in eis; 
+          est ergo ubi ante non erat, ideoque mutabilis videtur.</p>
+        <p xml:id="pll1d37c9-d1e3589">Sed licet quotidie incipiat esse in creaturis, in quibus ante 
+          non erat, quia illae non erant; hoc tamen fit sine sui mutatione, 
+          qualiter in mundo coepit esse, quem fecit, tamen sine mutabilitate; 
+          similiter et desinit esse, in quibus ante erat, sine sui mutatione, 
+          nec tunc ipse deserit locum, sed locus desinit esse.</p>
+        <p xml:id="pll1d37c9-d1e3592">Iam sufficienter demonstratum videtur, quomodo omnia dicantur 
+          esse in Deo, et Deus in omnibus; quam disceptationem quasi 
+          incidenter suscepimus, quia id videbatur postulare res, circa quam 
+          noster versabatur sermo. Disserebamus enim de scientia sive sapientia 
+          Dei, et cum doceremus Deum scire omnia, quaesitum 
+          est, utrum propter cognitionem, quam de omnibus habet, dicerentur 
+          omnia esse in Deo, an alia ratione hoc diceret Scriptura. Huius ergo 
+          quaestionis occasio in praemissam nos deduxit disputaitonem.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 46, Capitulus 6</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 46, Capitulus 6</title>
+          <date when="2016-01-26">January 26, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-01-26">January 26, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+          <witness xml:id="Z" n="zbsSII72" xml:base="http://www.e-codices.unifr.ch/metadata/iiif/zbs-SII-0072/canvas/">Solothurn, Zentralbibliothek, Cod. S II 72</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <cb ed="#Z" n="51rb" select="zbs-SII-0072_051r.json"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d46c6">
+        <head xml:id="pll1d46c6-Hd1e3504">Librum I, Distinctio 46, Capitulus 6</head>
+        <head xml:id="pll1d46c6-Hd1e3507" type="questionTitle">Quod mala universitati valent.</head>
+        <p xml:id="pll1d46c6-d1e3510">Hinc patet, quod ex malis quae fiunt, aliquod proventi bonum, 
+          dum bona magis placent et laudabiliora existunt. Ipsis etiam 
+          facientibus, ex malis quae faciunt, interdum bona veniunt, si 
+          <cit>
+            <quote xml:id="pll1d46c6-Qd1e3514">secundum 
+              propositum vocati sunt Sancti</quote>
+            <bibl>xxx</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d46c6-d1e3522">
+          <cit>
+            <quote xml:id="pll1d46c6-Qd1e3526">Talibus enim, ut ait <ref><name ref="#Augustine">Augustinus</name> in libro <title>De correptione 
+              et gratia</title>,</ref> usque adeo Deus omnia cooperatur in bonum, ut, si qui 
+              eorum deviant et exorbitant, etiam hoc ipsum eis faciat proficere 
+              in bonum, quia humiliores redeunt atque doctiores,</quote>
+            <bibl>Augustinus, De correptione et gratia, c. 9, n. 24 (PL 44:930)</bibl>
+          </cit>
+          ut <name ref="#Peter">Petrus</name>.</p>
+        <p xml:id="pll1d46c6-d1e3545">
+          <cit>
+            <quote xml:id="pll1d46c6-Qd1e3549">Illa etiam mala, quae ab iniquis fideles pie perferunt, ut ait 
+              <name ref="#Augustine">Augustinus</name> in libro <title ref="#deTrinitate">De Trinitate</title>, ipsis utique prosunt vel ad 
+              demenda peccata, vel ad exercendam probandamque iustitiam, 
+              vel ad demonstrandam huius vitae miseriam.</quote>
+            <bibl>Augustinus, De Trinitate, XIII, c. 16, n. 20 (PL 42:1030)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d46c6-d1e3564">Ideoque et <name ref="#Job">Iob</name> Dei manum, et Apostolus satanae stimulum 
+          sensit; et uterque profecti, quia 
+          <cb ed="#Z" n="51va" select="zbs-SII-0072_051v.json"/>
+          malum bene portavit.</p>
+        <p xml:id="pll1d46c6-d1e3572">Si quis igitur diligenter attendat quae scripta sunt, facile 
+          est ei percipere, ex malis bona pervenire, et ex ea ratione dictum 
+          esse, quod bonum est mala fieri. Non est enim bonum malum 
+          fieri ab aliquo, quia non est bonum, ut aliquis faciat malum: 
+          si enim hoc esset bonum, profecto huius Deus auctor esset, qui 
+          est auctor omnis boni. Quodsi huius auctor est Deus, eo ergo 
+          auctore homo agit malum, et ita eo auctore homo fit deterior. 
+          Et si eo auctore homo fit deterior, tunc eo volente homo fit 
+          deterior - idem est enim dicere aliquid fieri Deo auctore, quod 
+          Deo volente - Deo autem auctore non fit homo deterior; ergo nec 
+          Deo volente, ut <ref><name ref="#Augustine">Augustinus</name> in libro <title ref="#deDiversisQuaestionibus">83 Quaestionum</title></ref> aperte 
+          <!-- 285 -->
+          astruit a minori, dicens ita: 
+          <cit>
+            <quote xml:id="pll1d46c6-Qd1e3585">Nullo sapiente homine auctore fit 
+              homo deterior; tanta est enim ista culpa, quod in sapientem hominem 
+              cadere nequeat; est autem Deus omni homine sapiente 
+              praestantior; multo minus igitur Deo auctore fit homo deterior; 
+              multo enim est praestantior Dei voluntas, quam hominis sapientis; 
+              illo autem auctore cum dicitur, illo volente dicitur; est ergo vitium 
+              voluntatis, quo est homo deterior. Quod vitium, si longe abest 
+              a Dei voluntate, ut ratio docet, a quo sit, quaerendum est.</quote>
+            <bibl>Augustinus, De diversis quaestionibus, q. 3 (PL 40:11)</bibl>
+          </cit>
+          <cit>
+            <quote xml:id="pll1d46c6-Qd1e3594">Ecce hic <name ref="#Augustine">Augustinus</name> dicit aperte, Deo auctore vel volente 
+              hominem non fieri deteriorem, sed vitio voluntatis suae. Non 
+              est ergo Deo auctore, quod malum fit ab aliquo; et ita Deo volente, 
+              mala non fiunt.</quote>
+          </cit>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

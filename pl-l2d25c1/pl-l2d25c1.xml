@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber I, Distinctio 25, C. 1</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber I, Distinctio 25, C. 1</title>
+          <date when="2017-07-04">July 4, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative
+              Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="Quaracchi1916">Quaracchi 1916 Volume 1</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-07-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l2d25c1">
+        <head>Liber I, Distinctio 25, C. 1</head>
+        <head type="question-title">Definitio liberi arbitrii secundum philosophos</head>
+        <p> Iam vero ad propositum redeamus, scilicet ad liberi arbitrii tractatum; quod philosophi
+          2 definientes dixerunt libernm de voluntate indicium, quia potestas ipsa et habilitas
+          voluntatis et rationis, quam supra 3 diximus esse liberum arbitrinm, libera est ad
+          utrumlibet, quia libere potest moveri ad hoc vel ad illnd. Liberum ergo dicitnr arbitrium
+          quantum ad voluntatem, quia volnntarie moveri et spontaneo appetitn potest ferri c ad ea
+          quae bona vel mala indicat, vel iudicare valet. </p>
+        <p> Hoc antem sciendum est, quoniam liberum arbitrium ad praesens vel ad praeteritum non
+          refertur, sed ad futura c9ntingentia. Quod enim in praesenti est, determinatum est, nec in
+          potestate nostra est, ut tunc sit vel non sit, quando est. Potest enim non esse, vel aliud
+          esse postea; sed non potest non esse, dum est, vel aliud esse, dum id est, quod est; sed
+          in futuro an hoc sit, vel illud a, ad potestatem liberi arbitrii spectat. Nee tamen omnia
+          futura sub potestate liberi arbitrii veniunt, sed ea tantum, quae <pb ed="#Q" n="429"/>
+          per liberum arbitrium possunt fieri, vel non fieri. Si quis enim tale quid velit ac
+          disponat facere, quod in eius nullatenus sit potestate, vel quod sine ipsius dispositione
+          aeque fieret, in hoc ipse liberum non habet arbitrium. </p>
+        <p> Et quidem, secundum praedicam assignationem, in his tantum videtur esse liberum
+          arbitrium, qui voluntatem mutare et in contraria pssunt deflectere, in quorum videlicet
+          potestate est eligere bonum, vel malum, et utrumlibet secundum electionem facere, vel
+          dimittere; secundum quod nec in Deo nec in his omnibus, qui tanta beatudinis gratia sunt
+          roborati, ut iam peccare nequeant, liberum arbitrium esse nequit. </p>
+        <p> Sed quod Deus liberum arbitrium habeat, Augustinus docet in libro XXII De civitate Dei,
+          ita inquiens: <quote>Certe Deus ipse nunquid, quoniam peccare non potest, ideo liberum
+            arbitrium habere negandus est</quote>? </p>
+        <p> Ambrosius quoque in libro De Trinitate ait: <quote>Paulus dicit quoniam <quote>omnia
+              operatur unus atque idem spiritus, dividens singulis, prout vult</quote>, id est, pro
+            liberae voluntatis arbitrio, non pro necessitatis obsequi.</quote>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

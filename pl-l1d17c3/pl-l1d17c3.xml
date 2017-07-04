@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 17, Capitulus 3</title>
+        <author>Petrus Lombardus</author>
+        <editor></editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 17, Capitulus 3</title>
+          <date when="2015-11-03">November 03, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher></publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-11-03">November 03, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-03" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d17c3">
+        <head xml:id="pll1d17c3-Hd1e3472">Librum I, Distinctio 17, Capitulus 3</head>
+        <!-- Quod non est dictum per causam illud: Deus est caritas, sicut illud: Tu est patientia et spes mea -->
+        <p xml:id="pll1d17c3-d1e3477">Sed ne forte aliquis dicat, illud dictum esse per expressionem 
+          causae: 
+          <cit>
+            <quote xml:id="pll1d17c3-Qd1e3481">Deus caritas est,</quote>
+            <bibl/>
+          </cit>
+          eo scilicet quod caritas sit ex Deo et 
+          <!-- p. 109 -->
+          non sit ipse Deus, sicut dicitur: Deus nostra patientia et spes, 
+          non quod ipse sit ista, sed quia ista ex eo sunt, occurrit <name ref="#Augustine">Augustinus</name> 
+          ostendens, non hoc esse dictum per causam, sicut illa, 
+          in <ref>XV libro <title ref="#deTrinitate">De Trinitate</title></ref> ita dicens: 
+          <cit>
+            <quote xml:id="pll1d17c3-Qd1e3499">Non dicturi sumus, caritatem 
+              non propterea esse dictam Deum, quod ipsa caritas sit ulla 
+              substantia, quae Dei digna sit nomine, sed quod donum sit Dei, 
+              sicut dictum est Deo: 
+              <cit>
+                <quote xml:id="pll1d17c3-Qd1e3503" ana="ps70_5">Tu est patientia mea.</quote>
+                <bibl>Psalmus 70:5</bibl>
+              </cit>
+              Non utique ideo 
+              dictum est quod Dei substantia est nostra patientia, sed quia ab 
+              ipso nobis est. Unde alibi: 
+              <cit>
+                <quote xml:id="pll1d17c3-Qd1e3512" ana="ps61_6">Ab ipso est patientia mea.</quote>
+                <bibl>Psalmus 61:6</bibl>
+              </cit>
+              Hunc enim 
+              sensum facile refellit Scripturarum ipsa locutio. Tale enim est: 
+              <cit>
+                <quote xml:id="pll1d17c3-Qd1e3521" ana="#ps70_5">Tu 
+                  est patientia mea,</quote>
+                <bibl>Psalmus 70:5</bibl>
+              </cit>
+              quale est: 
+              <cit>
+                <quote xml:id="pll1d17c3-Qd1e3530" ana="#ps90_9">Domine spes mea,</quote>
+                <bibl>Psalmus 90:9</bibl>
+              </cit>
+              et
+              <cit>
+                <quote xml:id="pll1d17c3-Qd1e3539" ana="#ps58_18">Deus meus 
+                  misericordia mea</quote>
+                <bibl>Psalmus 58:18</bibl>
+              </cit>
+              et multa similia. Non est autem dictum: Domine 
+              caritas mea, aut: Tu est caritas mea, aut: Deus caritas mea; 
+              sed ita dictum est: 
+              <cit>
+                <quote xml:id="pll1d17c3-Qd1e3549" ana="#Iio4_16">Deus caritas est,</quote>
+                <bibl>I Ioannes 4:16</bibl>
+              </cit>
+              sicut dictum est: 
+              <cit>
+                <quote xml:id="pll1d17c3-Qd1e3558" ana="#Iio4_24">Deus 
+                  spiritus est.</quote>
+                <bibl>I Ioannes 4:24</bibl>
+              </cit>
+              Hoc qui non discernit intellectum a Domino, non expositionem 
+              a nobis quaerat: non enim apertius quidquam possumus 
+              dicere. 
+              <cit>
+                <quote xml:id="pll1d17c3-Qd1e3567" ana="#Iio4_16">Deus ergo <!-- ergo should be outside of quote segment --> caritas est</quote>
+                <bibl>I Ioannes 4:16</bibl>
+              </cit>
+            </quote>
+            <bibl>Augustinus, De Trinitate, XV, c. 17, n. 27 (PL 42:1080)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d17c3-d1e3582">Ex praedictis clarescit, quod Spiritus sanctus caritas est, qua 
+          diligimus Deum et proximum; unde facilius est nobis ostendere, 
+          quomodo Spiritus sanctus mittatur sive detur nobis.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

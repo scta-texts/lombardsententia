@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber I, Distinctio 24, C. 1</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber I, Distinctio 24, C. 1</title>
+          <date when="2017-07-04">July 4, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative
+              Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="Quaracchi1916">Quaracchi 1916 Volume 1</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-07-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l2d24c1">
+        <head>Liber I, Distinctio 24, C. 1</head>
+        <head type="question-title">De gratia hominis et potentia ante casum.</head>
+        <p> Nunc diligenter investigari oportet, quam gratiam vel potentiam habuerit homo ante
+          casum, et utrum per eam potuerit stare, vel non. </p>
+        <p> Sciendum est igitur quod homini in creatione, sicut de Angelis diximus 3, datum est per
+          gratiam auxilium, et collata potentia, per quam poterat stare, id est non declinare ab eo
+          uod acceperat; sed non poterat proficere in tantum ut per raïiam creationis» sine alia
+          mereri salutem valeret. Poterat quidäm illud auxilium gratiae creationis resistere malo,
+          sed non erücï; bonum. Poterat tamen per 'illud bene vivere quodam modo uia Poterat vivere
+          sine peccato; sed non poterat sine alio gratiae,;diu- torio spiritualiter vivere, quo
+          vitam mereretur aeternam 4 </p>
+        <p> Unde Augustinus in Enchii'z'dz'o 5: «Sic factus est homo rectus, ut et manere in ea
+          rectitudine posset, non sine divino ad iitorio, et suo iieri perversus arbitrio;
+          utrumlibet horum ele '- set,De1 voluntas fieret vel ab ille, vel de illo. Et quia suam
+          ngias—ï uit facere voluntatem quam Dei, de illo facta est voluntas Dei» </p>
+        <p> Item in eodem 6: «Sic oportebat, prius hominem fieri, ut et bene posset velle et male;
+          nec frustra, si bene; nec impune, si mala. </p>
+        <p>
+          <pb ed="#Q" n="420"/> Idem qnoque a in libro De correctfone et gratia 1 ait: « Si hoc
+          adiutorium vel Angelo vel homini, cum primum facti sunt, defuisset (quoniam non talis
+          natura facta erat, nt sine divino adiutorio b posset manere, si vellet) non utique sua
+          culpa cecidisset; defnisset quippe c adiutorium, sine quo manere non posset ». </p>
+        <p> Idem: « Dederat Deus homini bonam voluntatem, in illa qnippe eum fecerat rectum; dederat
+          adiutorium, sine quo non posset in ea manere, si vellet, et per quad posset a. Ut autem
+          hoc vellet, in eius dimisit arbitrio. </p>
+        <p> Item e in eodem: Acceperat posse, si vellet; sed non habuit velle, quo posset; nam si
+          habnisset, perseverasset ». </p>
+        <p> His testimoniis evidenter monstratur, quod homo rectitndinem et bonam voluntatem in
+          creatione acceperit . atque auxilium, quo stare poterat; alioquin non sua culpa videretnr
+          cecidisse 2 </p>
+        <p> Sed quomodo rectam et bonam voluntatem habnit homo r, si per earn nee mereri vi tam
+          vaJqit, nee ea stare voluit? </p>
+        <p> Quia nec aliquid mali et tune volebat, et ad tempus stare voluit sed non perseveranter;
+          et ideo recta et bona fuit tune voluntas hominis. </p>
+        <p> Ad hoc antem, quod diximus, hominem non potuisse proficere vel mereri per gratiam
+          creationis, solet opponi sic 3 : Per illud auxilium gratiae creation is potuit stare in
+          bono quod acceperat; potuit ergo resistere tentationi; sed resistere tentationibus atque
+          suggestionibus malis meritum est ac bonui;n remunerabile; omne autem bonum meritum
+          profectus est; per gratiam igitur creationis proficere potuit sine adiectione alterius
+          gratiae. </p>
+        <p> Ad quod dicimus, quia resistere malo et non consentire tentationi non fecisset i lli
+          meritum, etsi non consensisset, quia nihil in eo erat, quod ad malum impelleret, sicut
+          Angelis qui non ceciderunt, non fuit meritnm quod steterunt, id est, quod non corruerunt.
+          Nobis autem meritum est u aliquando, si malum non fa. cimus, sed resistimus, ibi dumtaxat
+          ubi causa subest, quae nos id n, facere movet: quia ex peccati corrnptela proni sunt ad
+          lapsum <pb ed="#Q" n="421"/> gressus nostri. Ubi autem non intervenit causa nos ad malum
+          impellens, non meremur si ab eo declinamus. Declina.re enirn a malo semper vitat poenam,
+          sed non semper meretur palmam. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

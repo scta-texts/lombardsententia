@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 32, Capitulus 1</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 32, Capitulus 1</title>
+          <date when="2015-12-28">December 28, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-12-28">December 28, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d32c1">
+        <head xml:id="pll1d32c1-Hd1e3496">Librum I, Distinctio 32, Capitulus 1</head>
+        <!-- Utrum Pater vel Filius ea dilectione diligat, 
+          quae procedit ab utroque, id est Spiritu sancto. -->
+        <p xml:id="pll1d32c1-d1e3501">Hic oritur quaestio ex praedictis deducta. Dictum est enim 
+          supra atque Sanctorum auctoritatibus ostensum, quod Spiritus 
+          sanctus est communio Patris et Filii, et amor quo Pater et Filius 
+          <!-- p. 200 --> 
+          se invicem diligunt. Ideo quaeritur, utrum Pater vel Filius per 
+          Spiritum sanctum vel Spiritu sancto diligat. Quod utique videtur 
+          oportere dici secundum auctoritates supra postas, quibus ostenditur, 
+          Spiritum sanctum esse, quo genitus a gignente diligatur, genitoremque suum diligat.</p>
+        
+        <p xml:id="pll1d32c1-d1e3506">Sed contra: Si Pater vel Filius dicatur diligere per Spiritum 
+          sanctum, videtur esse per Spiritum sanctum, quia non est aliud 
+          Deo esse, et aliud diligere, sed idem; quia ait <ref><name>Augustinus</name> 
+            in XV libro <title ref="#deTrinitate">De Trinitate</title>:</ref> 
+          <cit>
+            <quote xml:id="pll1d32c1-Qd1e3518">Quidquid secundum qualitates in illa 
+              simplici natura dici videtur, secundum essentiam est intelligendum,</quote>
+            <bibl>1</bibl>
+          </cit>
+          ut: bonus, magnus, immortalis, sapiens, diligens et huiusmodi. 
+          Ideoque, si Pater vel Filius diligit per Spiritum sanctum, per 
+          ipsum Spiritum esse videtur. neque tantum essentia sua diligit, 
+          sed etiam Dono.</p>
+        <p xml:id="pll1d32c1-d1e3526">Huic quaestioni, cum altitudinem nimiae profunditatis contineat, 
+          id solum respondemus, quod <name ref="#Augustine">Augustinus</name> significare videtur, 
+          scilicet quod Pater et Filius se diligant et unitatem servent 
+          non solum essentia sua, sed suo Dono proprio; quod licet supra 
+          positum sit, iterare tamen non piget, quia sic expedit.</p>
+        <p xml:id="pll1d32c1-d1e3533">Ait ergo in VI libro <title ref="#deTrinitate">De Trinitate</title> ita: 
+          <cit>
+            <quote xml:id="pll1d32c1-Qd1e3540">Manifestum est, 
+              quod non aliquid duorum est, quo uterque coniungitur, quo genitus 
+              a gignente diligatur, genitoremque suum diligat, suntque non 
+              participatione, sed essentia sua, neque dono superioris alicuius, 
+              sed suo proprio 
+              <cit>
+                <quote xml:id="pll1d32c1-Qd1e3544">servantes unitatem pacis.</quote>
+                <bibl>4</bibl>
+              </cit>
+            </quote>
+            <bibl>3</bibl>
+          </cit>
+          Ecce hic dicit, quod 
+          essentia sua et Dono suo servant unitatem.</p>
+        <p xml:id="pll1d32c1-d1e3557">Idem in <ref>XV libro <title ref="#deTrinitate">De Trinitate</title>:</ref> 
+          <cit>
+            <quote xml:id="pll1d32c1-Qd1e3567">In illa Trinitate, quis 
+              audeat dicere, Patrem nec se nec Filium nec Spiritum sanctum diligere 
+              nisi per Spiritum sanctum?</quote>
+            <bibl>Augustinus, De Trinitate, XV, c. 7, 12 (PL 42:1065)</bibl>
+          </cit>
+          Hic aperte ostendit, Patrem 
+          non tantum per Spiritum sanctum diligere; non autem simpliciter 
+          dicit, Patrem non diligere per Spiritum sanctum.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

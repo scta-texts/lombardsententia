@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 14, Capitulus 2</title>
+        <author>Petrus Lombardus</author>
+        <editor></editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.10-dev-master">
+          <title>Librum I, Distinctio 14, Capitulus 2</title>
+          <date when="2015-10-26">October 26, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher></publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-10-26">October 26, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-10-26" who="#JW" status="draft" n="2015.10">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d14c2">
+        <head>Librum I, Distinctio 14, Capitulus 2</head>
+        <!-- Quod non solum dona Spiritus sancti, sed etiam ipse 
+          Spiritus sanctus Deus datur hominibus et mittitur. -->
+        <p xml:id="pll1d14c2-d1e3477">Sunt autem aliqui, qui dicunt, Spiritum sanctum ipsum 
+          Deum non dari, sed dona eius, quae non sunt ipse Spiritus. Et, ut 
+          aiunt, Spiritus sanctus dicitur dari, cum gratia eius, quae tamen 
+          non est ipse, datur homini. Et hoc dicunt, <name ref="#Bede">Bedam</name> sensisse in 
+          superioribus verbis, quibus dicit, Spiritum sanctum procedere, cum 
+          ipsius gratia datur hominibus, tanquam non ipsemet detur, sed 
+          eius gratia.</p>
+        <p xml:id="pll1d14c2-d1e3483">Sed quod ipse Spiritus sanctus, qui Deus est et tertia in Trinitate 
+          persona, detur, aperte ostendit <ref><name ref="#Augustine">Augustinus</name> in XV libro 
+            <title ref="#deTrinitate">De Trinitate</title></ref> ita dicens: 
+          <cit>
+            <quote xml:id="pll1d14c2-Qd1e3494">Eundem Spiritum sanctum datum, 
+              cum insufflasset Iesus, de quo mox ait: 
+              <cit>
+                <quote xml:id="pll1d14c2-Qd1e3498" ana="#mt28_19">Ite, baptizate omnes gentes 
+                  in nomine Patris et Filii et Spiritus sancti,</quote>
+                <bibl>Matthaeus 28:19</bibl>
+              </cit>
+              ambigere 
+              non debemus. Ipse igitur est, qui etiam de caelo datus est die 
+              Pentecostes. Quomodo ergo Deus non est qui dat Spiritum sanctum? 
+              Immo quantus est Deus qui dat Deum?</quote>
+            <bibl>Augustinus, De Trinitate, XV, c. 26, n. 46 (PL 42:193)</bibl> <!-- dbcheck -->
+          </cit>
+          Ecce his verbis 
+          aperte dicit, Spiritum sanctum, ipsum scilicet Deum, dari hominibus 
+          a Patre et Filio.</p>
+        <p xml:id="pll1d14c2-d1e3513">Et quod ipse Spiritus sanctus, qui Deus est ac tertia in Trintiate 
+          persona, nobis detur, nostrisque infundatur atque illabatur 
+          mentibus, aperte ostendit <ref><name ref="#Ambrose">Ambrosius</name> in I libro <title>De Spiritu sancto</title></ref> 
+          dicens; 
+          <cit>
+            <quote xml:id="pll1d14c2-Qd1e3524">Licet multi dicantur spiritus, quia legitur: 
+              <cit>
+                <quote xml:id="pll1d14c2-Qd1e3528" ana="#ps103_4">Qui facit angelos suos spiritus</quote>
+                <bibl>Psalmus 103_4</bibl>
+              </cit>
+              unus tamen Dei est Spiritus. 
+              Ipsum igitur unum Spiritum et Apostoli et Prophetae sunt consecuit; 
+              sicut etiam vas electionis dicit, quia 
+              <cit>
+                <quote xml:id="pll1d14c2-Qd1e3537" ana="#Icor12_13">unum Spiritum potavimus,</quote>
+                <bibl>I Corinthios 12:13</bibl>
+              </cit>
+              quasi eum, qui non queat scindi, sed infundatur animis et 
+              <!-- 92 -->
+              sensibus illabatur, ut saecularis sitis restringat ardorem; qui Spiritus 
+              sanctus non est de substantia corporalium nec de substantia 
+              invisibilium creaturarum.</quote>
+            <bibl>Ambrosius, De Spiritu sancto, I, c. 4 n. 60-62 (PL 16:719)</bibl>
+          </cit>
+          His verbis aperte dicit, Spiritum sanctum 
+          ipsum, qui creatura non est, infundi mentibus nostris.</p>
+        <p xml:id="pll1d14c2-d1e3553">Item in eodem: 
+          <cit>
+            <quote xml:id="pll1d14c2-Qd1e3557">Omnis mutabilis est creatura, sed non 
+              mutabilis Spiritus sanctus.</quote>
+            <bibl>Ambrosius, XXX</bibl>
+          </cit>
+          <cit>
+            <quote xml:id="pll1d14c2-Qd1e3566">Quid autem dubitem dicere, quia 
+              datus est et Spiritus sanctus, cum scriptu sit: 
+              <cit>
+                <quote xml:id="pll1d14c2-Qd1e3570" ana="#rom5_5">Caritas Dei 
+                  diffusa est in cordibus nostris per Spiritum sanctum, qui datus 
+                  est nobis?</quote>
+                <bibl>Romanos 5:5</bibl>
+              </cit>
+            </quote>
+            <bibl>Ambrosius, XXX</bibl>
+          </cit>
+          <cit>
+            <quote xml:id="pll1d14c2-Qd1e3584">Qui cum sit inaccessibilis natura, receptabilis tamen 
+              propter bonitatem suam nobis est, complens virtute omnia, sed 
+              qui solis participetur iustis, simplex substantia opulens virtutibus, 
+              unicuique praesens, 
+              <cit>
+                <quote xml:id="pll1d14c2-Qd1e3588" ana="#Icor12_11">dividens de suo singulis</quote>
+                <bibl>I Corinthios 12:11</bibl>
+              </cit>
+              et ubique 
+              totus.</quote>
+            <bibl>Ambrosius, XXX</bibl>
+          </cit>
+          <cit>
+            <quote xml:id="pll1d14c2-Qd1e3602">Incircumscriptus igitur et infinitus Spiritus sanctus, qui 
+              discipulorum sensus separatorum infundit, quem nihil potest fallere. 
+              Angeli ad paucos mittebantur, Spiritus autem sanctus populis 
+              infundebatur. Quis igitur dubitet, quin divinum sit quod infunditur 
+              simul pluribus nec videtur? Unus est Spiritus sanctus, qui datus 
+              est omnibus licet separatis Apostolis.</quote>
+            <bibl>Ambrosius, XXX</bibl>
+          </cit>
+          Et hic aperte dicit 
+          <name ref="#Ambrose">Ambrosius</name>, quod Spiritus sanctus, qui est substantia simplex, cum 
+          sit unus, datur pluribus. Alia quoque auctoritate hoc idem astruitur, 
+          scilicet quod Spiritus sanctus, qui eset aequalis Filio, hominibus 
+          detur.</p>
+        <p xml:id="pll1d14c2-d1e3613">Ait enim <name ref="#Augustine">Augustinus</name> de verbis <name ref="#Paul">Apostoli</name> sic: 
+          <cit>
+            <quote xml:id="pll1d14c2-Qd1e3623">
+              <cit>
+                <quote xml:id="pll1d14c2-Qd1e3627" ana="#rom5_5">Caritas 
+                  Dei diffusa est in cordibus nostris per Spiritum sanctum, 
+                  qui datus est nobis.</quote>
+                <bibl>Romanos 5:5</bibl>
+              </cit>
+              A quo datur? Ab illo, qui 
+              <cit>
+                <quote xml:id="pll1d14c2-Qd1e3636" ana="#rom5_5">dona dedit hominibus.</quote>
+                <bibl>Romanos 5:5</bibl>
+              </cit>
+              Quae dona? Spiritum sanctum, qui tale dat donum, qualis 
+              ipse est. Magna est misericordia eius: donum dat aequale sibi, quia 
+              donum eius Spiritus sanctus est.</quote>
+            <bibl>Augustinus, Sermo 128, n. 4 (olim 43) (PL 38:715</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d14c2-d1e3649">Praemissis et aliis pluribus auctoritatibus aperte monstratur, 
+          quod Spiritus sanctus aequalis Patri et Filio nobis datur; nec ideo 
+          tamen minor est Patre et Filio. Unde <ref><name ref="#Augustine">Augustinus</name> in IV libro
+            <!-- p. 93 -->
+            <title ref="#deTrinitate">De Trinitate</title>:</ref> 
+          <cit>
+            <quote xml:id="pll1d14c2-Qd1e3663">Non ideo, inquit, minorem Spiritum sanctum, 
+              quia et eum Pater misit et Filius, arbitrandum est.</quote>
+            <bibl>Augustinus, De Trinitate, IV, c. 21, n. 32 (PL 42:910)</bibl>
+          </cit>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

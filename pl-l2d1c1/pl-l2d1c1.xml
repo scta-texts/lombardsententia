@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum II, Distinctio 1, Capitulus 1</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.1-dev">
+          <title>Librum I, Distinctio 48, Capitulus 4</title>
+          <date when="2016-03-19">March 19, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-19">March 19, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+          <witness xml:id="Z" n="zbsSII72" xml:base="http://www.e-codices.unifr.ch/metadata/iiif/zbs-SII-0072/canvas/">Solothurn, Zentralbibliothek, Cod. S II 72</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="0.0.1">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l2d1c1">
+        <head xml:id="pll2d1c1-Hd1e3508">Librum II, Distinctio 1, Capitulus 1</head>
+        <head xml:id="pll2d1c1-Hd1e3511" type="questionTitle">Quod unum eset principium, non plura</head>
+        <p xml:id="pll2d1c1-d1e3514">
+          <cit>
+            <quote xml:id="pll2d1c1-Qd1e3518">Creationem rerum insinuans Scriptura Deum esse creatorem 
+              initiumque temporis atque omnium visibilium vel invisibilium 
+              creaturarum in primordio sui, ostendit</quote>
+            <bibl>XXX</bibl>
+          </cit>
+          dicens: 
+          <cit>
+            <quote xml:id="pll2d1c1-Qd1e3527" ana="#gen1_1">In principio 
+              creavit Deus caelum et terram.</quote>
+            <bibl>Genesis 1:1</bibl>
+          </cit>
+          <cit>
+            <quote xml:id="pll2d1c1-Qd1e3536">His etenim verbis <name ref="#Moses">Moyses</name> 
+              Spiritu Dei afflatus, in uno principio a Deo creaotre mundum 
+              factum refert,</quote>
+            <bibl>XXX</bibl>
+          </cit>
+          elidens errorem quorundam, plura sine principio 
+          <!-- 307 -->
+          fuisse principia opinantium. 
+          <cit>
+            <quote xml:id="pll2d1c1-Qd1e3550"><name ref="#Plato">Plato</name> namque tria initia aestimavit, 
+              Deum scilicet et exemplar et materiam, et ipsa increata sine 
+              principio, et Deum quasi artificem, non creatorem.</quote>
+            <bibl>XXX</bibl>
+          </cit>
+          Creatore enim 
+          est, qui de nihilo aliqua facit.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

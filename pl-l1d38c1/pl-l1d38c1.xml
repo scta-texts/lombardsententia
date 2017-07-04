@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 38, Capitulus 1</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 38, Capitulus 1</title>
+          <date when="2016-01-15">January 15, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-01-15">January 15, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d38c1">
+        <head xml:id="pll1d38c1-Hd1e3496">Librum I, Distinctio 38, Capitulus 1</head>
+        <!-- An scientiea vel praescientia Dei sit causa rerum, vel e converso. -->
+        <p xml:id="pll1d38c1-d1e3501">Nunc ergo ad propositum revertentes, coepto insistamus. Supra 
+          dictum est, quod praescientia Dei futurorum tantum est, 
+          sed omnium tam bonorum quam malorum; scientia vero vel sapientia 
+          non modo de praeteritis, sed etiam de praesentibus et 
+          futuris, nec tantum de temporalibus, sed etiam de aeternis, quia 
+          se ipsum novit Deus.</p>
+        <!-- 241 -->
+        <p xml:id="pll1d38c1-d1e3506">Hic oritur quaestio non dissimulanda, utrum scilicet scientia 
+          vel praescientia sit causa rerum, an res sint causa scientia vel 
+          praescientiae Dei.</p>
+        <p xml:id="pll1d38c1-d1e3510">Videtur enim praescientia Dei causa esse eorum quae ei subsunt, 
+          ac necessitatem eveniendi eis facere, quia nec aliqua futura 
+          fuissent, nisi ea Deus praescisset, nec possunt non evenire, cum 
+          Deus ea praesciverit. Si autem impossibile est, ea non evenire, quia 
+          praescita sunt, videtur igitur ipsa praescientia, qua praescita sunt, 
+          eis esse causa eveniendi. Impossibile est autem, ea non evenire, cum 
+          praescita sint, quia si non evenirent, cum praescita sint, falleretur 
+          Dei praescientia; at Dei praescientia falli non potest; impossibile est 
+          ergo ea non evenire, cum praescita sint. Sic igitur praescientia 
+          causa esse eorum videtur, quae praescita sunt. Hoc idem et de 
+          scientia dicitur, scilicet quod, quia Deus aliqua novit, ideo sint.</p>
+        <p xml:id="pll1d38c1-d1e3513">Cui sententiae <ref><name ref="#Augustine">Augustinus</name> attestari videtur in XV libro <title ref="#deTrinitate">De 
+          Trinitate</title></ref> sic dicens: 
+          <cit>
+            <quote xml:id="pll1d38c1-Qd1e3524">Non ista ex aliquo tempore cognovit 
+              Deus, sed futura omnia temporalia atque in eis etiam, quid et 
+              quando ab illo petituri fueramus, et quos et de quibus rebus vel 
+              exauditurus vel non exauditurus esset, sine initio ante praescivit. 
+              Universas autem creaturas, et spirituales et corporales, non quia 
+              sunt, ideo novit, sed ideo sunt, quia novit. Non enim nescivit quae 
+              fuerat creaturus; quia ergo scivit, creavit, non quia creavit, scivit; 
+              nec aliter scivit creata quam creanda. Non enim eius sapientiae 
+              aliquid accessit ex eis, sed illis existentibus, sicut oportebat et 
+              quando oportebat, illa mansit ut erat. Unde in <title>Ecclesiastico</title>: 
+              <cit>
+                <quote xml:id="pll1d38c1-Qd1e3531" ana="#sir23_29">Antequam crearentur, omnia nota sunt illi, sic set postquam 
+                  consummata sunt.</quote>
+                <bibl>Ecclesiasticus 23:29</bibl>
+              </cit>
+            </quote>
+            <bibl>Augustinus, De Trinitate, XV, c. 13, n. 22 (PL 42:1075)</bibl>
+          </cit>
+          Ecce his verbis videtur <name ref="#Augustine">Augustinus</name> innuere, 
+          scientiam vel praescientiam Dei causam esse eorum quae 
+          fiunt, cum dicit ideo ea esse, quia Deus novit.</p>
+        <p xml:id="pll1d38c1-d1e3547">Idem quoque in VI libro dicere videtur: 
+          <cit>
+            <quote xml:id="pll1d38c1-Qd1e3551">Cum, inquit, 
+              decedant et succedant tempora, non decedit aliquid vel succedit 
+              scientiae Dei, in qua novit omnia quae fecit per ipsam. Non enim 
+              haec quae creata sunt, ideo sciuntur a Deo, quia facta sunt, sed 
+              potius ideo facta sunt, quia immutabiliter ab eo sciuntur.</quote>
+            <bibl>Augustinus, De Trinitate, VI, c. 10, n. 11 (PL 42:931)</bibl>
+          </cit>
+          Et
+          <!-- 242 -->
+          hic etiam significare videtur, Dei scientiam causam esse eorum 
+          quae fiunt, dicens, non ideo Deum ea novisse, quia facta sunt, 
+          sed ideo facta, quia novit ea Deus. Ideoque videtur scientia Dei 
+          vel praescientia causa eorum esse quae novit.</p>
+        <p xml:id="pll1d38c1-d1e3561">Quod si ita est, est igitur causa omnium malorum, cum omnia 
+          mala sciantur et praesciantur a Deo; quod longe est a veritate. 
+          <cit>
+            <quote xml:id="pll1d38c1-Qd1e3565">Si 
+              enim Dei scientia vel praescientia causa esset malorum, esset utique 
+              Deus auctor malorum, quod penitus falsum est.</quote>
+            <bibl>1</bibl>
+          </cit>
+          Non igitur scientia 
+          vel praescientia Dei causa est omnium quae ei subsunt.</p>
+        <p xml:id="pll1d38c1-d1e3573">
+          <cit>
+            <quote xml:id="pll1d38c1-Qd1e3577">Neque etiam res futurae causae sunt Dei praescientiae: licet 
+              enim non essent futurae, nisi praescirentur a Deo, non tamen 
+              ideo praesciuntur, quia futurae sunt. Si enim hoc esset, tunc eius 
+              quod aeternum est, aliquid existeret causa ab eo alienum, ab eo 
+              diversum, et ex creaturis penderet praescientia Creatoris, et creatum 
+              causa esset increati.</quote>
+            <bibl>2</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d38c1-d1e3585"><ref><name ref="#Origen">Origenes</name> tamen <title>Super Epistolam ad Romanos</title></ref> ait: 
+          <cit>
+            <quote xml:id="pll1d38c1-Qd1e3595">Non propterea aliquid erit, quia id scit Deus futurum, sed quia futurum 
+              est, ideo scitur a Deo, antequam fiat.</quote>
+            <bibl>3</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d38c1-d1e3604">Hoc videtur praemissis verbis <name ref="#Augustine">Augustini</name> obviare. Hic enim 
+          significari videtur, quod res futurae causae sint praescientiae; ibi 
+          vero, quod praescientia causa sit rerum futurarum.</p>
+        <p xml:id="pll1d38c1-d1e3610">Hanc igitur quae videtur repugnantiam de medio tollere cupientes, 
+          dicimus, res futuras nullatenus causam esse praescientiae 
+          vel scientiae Dei, nec ideo praesciri vel sciri, quia futurae vel 
+          factae sunt; ita exponentes quod ait <name ref="#Origen">Origenes</name>, 
+          <cit>
+            <quote xml:id="pll1d38c1-Qd1e3617">quia futurum 
+              est, ideo scitur a Deo, antequam fiat, id est quod futurum est, 
+              a Deo scitur, antequam fiat, neque sciretur, nisi futurum esset, 
+              ut non notetur ibi causa, nisi sine qua non fieret.</quote>
+            <bibl/>
+          </cit>
+          Ita etiam 
+          dicimus, scientiam vel praescientiam Dei non esse causam eorum 
+          quae fiunt, nisi talem, sine qua non fiunt, si tamen scientiam ad 
+          notitiam tantum referamus. Si vero nomine scientiae includitur 
+          etiam beneplacitum atque dispositio, tunc recte potest dici causa 
+          eorum quae Deus facit. His enim duobus modis, ut superius praetaxatum <!-- 243 --> 
+          est, accipitur cognitio vel scientia Dei, scilicet pro notitia sola, 
+          vel pro notitia simul et beneplacito.</p>
+        <p xml:id="pll1d38c1-d1e3626">Hoc modo forte accepit <name ref="#Augustine">Augustinus</name> dicens: Ideo sunt, quia 
+          novit, id est, quia scienti placuit, et quia sciens disposuit. Et hic 
+          sensus ex eo adiuvatur, quia de bonis ibi tantum agit <name ref="#Augustine">Augustinus</name>, 
+          scilicet de creaturis, de his quae Deus facit, quae omnia 
+          novit non solum scientia, sed beneplacito etiam ac dispositione. Sic 
+          ergo ibi accipitur Dei cognitio, ut non modo notitiam, sed etiam 
+          beneplacitum Dei significet.</p>
+        <p xml:id="pll1d38c1-d1e3635">Mala vero scit Deus et praescit, antequam fiant, sed sola notitia, 
+          non beneplacito. Praescit enim Deus et praedicit etiam quae 
+          non est ipse futurus, sicut praescivit et praedixit infidelitatem ludaeorum, 
+          sed non fecit. Nec ideo, quia praescivit, ad peccatum infidelitatis 
+          eos coegit, nec praescisset vel praedixisset eorum mala, 
+          nisi essent ea habituri.</p>
+        <p xml:id="pll1d38c1-d1e3638">Unde <name ref="#Augustine">Augustinus</name> <title>Super Ioannem</title>: 
+          <cit>
+            <quote xml:id="pll1d38c1-Qd1e3648">Deus, inquit, futurorum praescius per Prophetam praedixit infidelitatem Iudaeorum, 
+              sed non fecit, neque praescisset mala eorum, nisi ea haberent. 
+              Non enim ideo quemquam ad peccandum cogit, quia futura 
+              hominum peccata praenovit: illorum enim peccata praescivit, non 
+              sua. Ideoque si ea quae ille praescivit ipsorum, non sunt ipsorum 
+              non vere ille praescivit. Sed quia illius praescientia falli non potest, 
+              sine dubio non alius, sed ipsi peccent, quos Deus peccaturos 
+              esse praescivit. Et ideo, si non malum sed bonum facere voluissent, 
+              non malum facturi praeviderentur ab eo, quia novit quod sit 
+              quisque facturus.</quote>
+            <bibl>Augustinus, Super Ioannem, Tract. 53, n. 4 (PL 35:1776)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d38c1-d1e3656">His verbis aperte ostenditur, si diligenter intendamus praescientiam Dei 
+          non esse causam malorum, quae praescit, quia non 
+          ea praescit tanquam facturus nec tanquam sua, sed illorum qui 
+          sunt ea facturi vel habituri. Praescivit ergo illa sola notitia, non 
+          beneplacito auctoritatis. Unde datur intelligi, quod Deus e converso 
+          praescit bona tanquam sua, tanquam ea quae facturus est, 
+          ut in illa praesciendo simul fuerit ipsius notitia et auctoritatis 
+          beneplacitum.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

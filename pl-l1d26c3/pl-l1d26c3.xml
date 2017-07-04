@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 26, Capitulus 3</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 26, Capitulus 3</title>
+          <date when="2015-12-03">December 03, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-12-03">December 03, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d26c3">
+        <head xml:id="pll1d26c2-Hd1e3496">Librum I, Distinctio 26, Capitulus 3</head>
+        <!-- Quod non omnia dicuntur de Deo secundum substantiam; quaedam 
+          enim secundum relationem, nihil tamen secundum accidens -->
+        <p xml:id="pll1d26c3-d1e3501">Quocirca sciendum est, non omne quod de Deo dicitur, dici 
+          secundum substantiam; quia quaedam dicuntur secundum relationem, 
+          quae non est accidens, quia non est mutabilis.</p>
+        <p xml:id="pll1d26c3-d1e3504">Ut enim <ref><name ref="#Augustine">Augustinus</name> in V libro <title ref="#deTrinitate">De Trinitate</title></ref> docet: 
+          <cit>
+            <quote xml:id="pll1d26c3-Qd1e3515">Nihil in Deo secundum accidens dicitur, quia nihil ei accidit; nec 
+              tamen omne quod dicitur, secundum substantiam dicitur. In rebus 
+              creatis atque mutabilibus, quod non secundum substantiam dicitur,
+              <!-- p. 166 -->
+              restat ut secundum accidens dicatur. In Deo autem nihil quidem 
+              secundum accidens dicitur, quia nihil in eo mutabile est aut amissibile; 
+              nec tamen omne quod dicitur, secundum substantiam dicitur. 
+              Dicitur enim ad aliquid, sicut Pater ad Filium, et Filius ad 
+              Patrem, quod non est accidens; quia et ille semper Pater, et ille 
+              semper Filius; et ita semper, quia semper natus est Filius, nec 
+              coepit unquam esse Filius. Quod si aliquando esse coepisset, aut 
+              aliquando desineret esse Filius, secundum accidens diceretur. Et quia 
+              Pater non dicitur Pater, nisi ex eo quod est ei Filius, et Filius non 
+              dicitur, nisi ex eo quod habet Patrem; non secundum substantiam 
+              haec dicuntur, sed ad invicem ista dicuntur; neque tamen secundum 
+              accidens, quia et quod dicitur Pater, et quod dicitur Filius 
+              aeternum atque incommutabile est eis.</quote>
+            <bibl>Augustinus, De Trinitate, V, c. 5, n. 6 (PL 42:914)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d26c3-d1e3525">Ecce ex his verbis aperte ostenditur, quaedam dici de Deo 
+          secundum substantiam, quaedam secundum relationem, nihil tamen 
+          secundum accidens. Ostenditur etiam proprietas Patris esse, quod 
+          habet Filium, et proprietas Filii, quod habet Patrem. Ideoque, cum 
+          dixit, aeternum et incommutabile esse, quod Pater dicitur, et quod 
+          Filius dicitur, ita intelligi voluit, id est: Proprietas, qua Pater est 
+          Pater, et proprietas, qua Filius est Filius, aeterna est et incommutabilis, 
+          quia et Pater semper Pater, et Filius semper Filius.</p>
+        <p xml:id="pll1d26c3-d1e3529">Unde <name ref="#HilaryOfPoitiers">Hilarius</name> proprietates personarum assignans in <ref>libro XII 
+          <title ref="#HilaryOfPoitiers_DeTrinitate">De Trinitate</title></ref> ita ait: 
+          <cit>
+            <quote xml:id="pll1d26c3-Qd1e3541">Si semper Patri proprium est, quod semper 
+              est Pater, necesse est semper Filio proprium esse, quod semper est 
+              Filius. Ubi enim semper Pater est, semper et Filius est; ergo qui 
+              non semper Pater est, non semper genuit.</quote>
+            <bibl>Hilarius, De Trinitate, XII, n. 23 (PL 10:447)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d26c3-d1e3549">Item in eodem: 
+          <cit>
+            <quote xml:id="pll1d26c3-Qd1e3553">Nato Deo manifestum est proprium esse, 
+              quod Filius est.</quote>
+            <bibl>Hilarius, De Trinitate, XII, n. 14 (PL 10:442)</bibl>
+          </cit>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

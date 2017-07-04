@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 2, Capitulus 1</title>
+        <author>Petrus Lombardus</author>
+        <editor></editor>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.09-dev-master">
+          <title>Librum I, Distinctio 2, Capitulus 1</title>
+          <date when="2015-09-20">September 20, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher></publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-09-20">September 20, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+          <witness xml:id="Z" n="zbsSII72" xml:base="http://www.e-codices.unifr.ch/metadata/iiif/zbs-SII-0072/canvas/">Solothurn, Zentralbibliothek, Cod. S II 72</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-20" who="#JW" status="draft" n="2015.09">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include
+          href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml"
+          xpointer="worksCited"/>
+        <xi:include
+          href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml"
+          xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <cb ed="#Z" n="4rb" select="zbs-SII-0072_004r.json"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d2c1">
+        <head>Librum I, Distinctio 2, Capitulus 1</head>
+        <p xml:id="pll1d2c1-d1e3473">Hoc itaque vera ac pia fide tenendum est 
+          <cit>
+            <quote xml:id="pll1d2c1-Qd1e3477">quod Trinitas 
+              sit unus et solus veru Deus, ut <name ref="#Augustine">Augustinus</name> in I libro 
+              <title ref="#deTrinitate">De Trinitate</title>, scilicet Pater et Filius et Spiritus sanctus; et haec 
+              Trinitas unius eiusdemque substantiae vel essentiae dicitur, creditur 
+              et it intelligitur, quae est summum bonum, quod purgatissimis 
+              mentibus cernitur. Mentis enim humanae acies invalida in tam excellenti 
+              luce non figitur, nisi per iustitiam fidei emundetur.</quote>
+            <bibl>Augustine, De Trinitate, I, c. 2, n. 4 (PL 42:822)</bibl>
+          </cit>
+        </p>
+        <!-- this paragraph is in a smaller font the meaning of which is not clear -->
+        <p xml:id="pll1d2c1-d1e3493">Idem in eodem: 
+          <cit>
+            <quote xml:id="pll1d2c1-Qd1e3497">Non approbo quod in oratione dixi: 
+              <cit>
+                <quote xml:id="pll1d2c1-Qd1e3501">Deus, qui 
+                  nisi mundos verum scire voluisti.</quote>
+              </cit>
+              Responderi enim potest, multos etiam 
+              non mundos multa scire vera.
+            </quote>
+            <bibl>Augustine, Soliloq., Libr. I, c. 1, n. 2 (PL 32:870)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d2c1-d1e3511">De hac igitur re summa et excellentissima cum modestia et 
+          timore agendum est, et attentissimis auribus atque devotis audiendum 
+          <cit>
+            <quote xml:id="pll1d2c1-Qd1e3515">ubi quaeritur unitas Trinitatis, Patris scilicet et Filii et Spiritus 
+              sancti, quia nec periculosius alicubi erratur, nec laboriosius 
+              aliquid quaeritur, nec fructuosius aliquid invenitur.</quote>
+            <bibl>Augustinus, De Trinitate, I, c. 3, n. 5 (PL 42:822)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d2c1-d1e3524">Proinde omnis, qui audit et legit ea quae de ineffabili et inaccessibili 
+          Deitatis luce dicuntur, studeat imitari atque servare, 
+          quod <ref><name ref="#Augustine">venerabilis doctor Augustinus</name> in libro I <title ref="#deTrinitate">De Trinitate</title></ref> 
+          de se ipso ait: 
+          <cit>
+            <quote xml:id="pll1d2c1-Qd1e3535">Non pigebit me, inquit, sicubi 
+              <cb ed="P" n="6ra"/>
+              haesito, quaerere, 
+              nec pudebit, sicubi erro, discere. Quisquis ergo haec audit vel legit, 
+              ubi pariter certus est, pergat mecum; ubi pariter haesitat, quaerat 
+              mecum; ubi errorem suum cognoscit, redeat ad me; ubi meum, 
+              revocet me. Ita ingrediamur simul caritatis viam, tendentes ad 
+              eum de quo dictum est: 
+              <cit>
+                <quote xml:id="pll1d2c1-Qd1e3539" ana="#ps104_4">Quaerite faciem eius semper</quote>
+                <bibl>Psalm 104:4</bibl>
+              </cit>
+            </quote>
+            <bibl>Augustinus, De Trinitate, c. 4, n. 7 (PL 42:824)</bibl>
+          </cit>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

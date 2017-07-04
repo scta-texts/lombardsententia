@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 23, Capitulus 2</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 23, Capitulus 2</title>
+          <date when="2015-11-23">November 23, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-11-23">November 23, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d23c2">
+        <head xml:id="pll1d23c2-Hd1e3496">Librum I, Distinctio 23, Capitulus 2</head>
+        <!-- Qua necessitate dictum sit tres personae a Latinis, 
+          et a Graecis tres hypostases vel substantiae -->
+        <p xml:id="pll1d23c2-d1e3501">Qua necessitate non solum Latinus sermo, sed etiam Graecus 
+          eadem pene super hac re laborans nominum penuria coarctatur.</p>
+        <p xml:id="pll1d23c2-d1e3504">Unde <name ref="#Augustine">Augustinus</name>, quid a Graecis vel a Latinis necessitate 
+          de ineffabili Trinitate dictum sit aperiens, in VII libro <title ref="#deTrinitate">De Trinitate</title> 
+          ait: 
+          <cit>
+            <quote xml:id="pll1d23c2-Qd1e3514">Loquendi causa de ineffabilibus, ut fari aliquo modo 
+              possemus, dictum est a Graecis una essentia, tres substantiae, (id 
+              est una usia, tres hypostases; aliter enim Graeci accipiunt substantiam, <!-- 149 --> 
+              quam Latini). A Latinis autem dictum est una essentia vel 
+              substantia, tres personae, quia non aliter in sermone nostro, id est 
+              Latino, essentia quam substantia solet intelligi. Et ut intelligatur 
+              saltem in aenigmate, placuit ita dici, ut cum quaereretur, quod tria 
+              sint, aliquid diceretur, quae tria esse fides vera pronuntiat, cum 
+              et Patrem non dicit esse Filium, et Spiritum sanctum, scilicet Donum 
+              Dei, nec Patrem dicit esse, nec Filium. Cum ergo quaeritur, 
+              quod tria vel quid tres, conferimus nos ad inveniendum aliquod 
+              nomen, quo complectamur haec tria. Neque occurrit animo, quia 
+              supereminentia divinitatis usitati eloquii facultatem excedit. Verius 
+              enim cogitatur Deus quam dicitur, et verius est quam cogitatur.</quote>
+            <bibl>XXX</bibl>
+          </cit>
+          <cit>
+            <quote xml:id="pll1d23c2-Qd1e3525">Pater ergo et Filius et Spiritus sanctus, quoniam tres sunt, 
+              quid tres sint quaeramus, quid commune habeant. Non enim possunt 
+              dici tres patres, quoniam tantum Pater ibi Pater est; nec tres 
+              filii, cum nec Pater ibi sit Filius, nec Spiritus sanctus; nec tres spiritus 
+              sancti, quia Spiritus sanctus propria significatione, qua etiam 
+              Donum Dei dicitur, nec Pater est, nec Filius. Quid igitur tres? Si 
+              tres personae esse dicuntur, commune est eis id quod persona est.</quote>
+            <bibl>XXX</bibl>
+          </cit>
+          <cit>
+            <quote xml:id="pll1d23c2-Qd1e3534">Certe enim quia Pater est persona, et Filius est persona, et Spiritus 
+              sanctus est persona, ideo dicuntur tres personae.</quote>
+            <bibl>XXX</bibl>
+          </cit>
+          <cit>
+            <quote xml:id="pll1d23c2-Qd1e3544">Propterea ergo 
+              dicimus tres personas, quia commune est eis id quod persona est.</quote>
+            <bibl>XXX</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d23c2-d1e3552">Ex praedictis aperte intelligi potest, qua necessitate dictum 
+          sit a Latinis tres personae, cum persona secundum substantiam dicatur. 
+          Unde et tribus commune est id quod persona est.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

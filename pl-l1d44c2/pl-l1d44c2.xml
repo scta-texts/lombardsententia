@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 44, Capitulus 2</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 44, Capitulus 2</title>
+          <date when="2016-01-24">January 24, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-01-24">January 24, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+          <witness xml:id="Z" n="zbsSII72" xml:base="http://www.e-codices.unifr.ch/metadata/iiif/zbs-SII-0072/canvas/">Solothurn, Zentralbibliothek, Cod. S II 72</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div type="startOn">
+        <cb ed="#Z" n="48va" select="zbs-SII-0072_048v.json"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d44c2">
+        <head xml:id="pll1d44c2-Hd1e3501">Librum I, Distinctio 44, Capitulus 2</head>
+        <!-- Utrum Deus semper possit omne quod potuit. -->
+        <p xml:id="pll1d44c2-d1e3506">Praeterea quaeri solet, utrum Deus semper possit omne quod 
+          olim potuit. Quod quibusdam non videtur dicentibus: Potuit 
+          Deus incarnari, et potuit mori et resurgere, et alia huiusmodi, quae 
+          modo non potest. Potuit ergo quae modo non potest, et ita habuit 
+          potentiam, quam modo non habet; unde videtur eius potentia imminuta.</p>
+        <p xml:id="pll1d44c2-d1e3509">Ad quod dicimus, quia sicut omnia semper scit, quae aliquando 
+          scivit, et semper vult, quae aliquando voluit, nec unquam 
+          aliquam scientiam amittit, vel voluntatem mutat, quam habuit; ita 
+          omnia semper potest, quae aliquando potuit, nec unquam aliqua 
+          sua potentia privatur. Non est ergo privatur potentia incarnandi 
+          vel resurgendi, licet non possit modo incarnari vel resurgere. Sicut 
+          enim potuit olim incarnari, ita et modo potest esse incarnatus in 
+          quo eiusdem rei potentia monstratur.</p>
+        <p xml:id="pll1d44c2-d1e3513">Ut enim olim scivit se resurrecturum, ita et modo scit, se 
+          resurrexisse, nec est scientia alia illud olim scivisse, et hoc modo 
+          <!-- 271 -->
+          <cb ed="#Z" n="49ra" select="zbs-SII-0072_048v.json"/>
+          scire, sed eadem omnino; et sicut olim voluit resurgere, et modo 
+          resurrexisse, in quo unius rei voluntas exprimitur: ita potuit olim 
+          nasci et resurgere, et modo potest natus fuisse et resurrexisse; et 
+          est eiusdem rei potentia. Si enim posset modo nasci et resurgere, 
+          non esset idem posse. Verba enim diversorum temporum, diversis 
+          prolata temporibus et diversis adiuncta adverbiis, eundem faciunt 
+          sensum, ut modo loquentes dicimus: Iste potest hodie legere; cras 
+          autem dicemus: Iste potest legisse, vel potuit legere heri, ubi 
+          unius rei monstratur potentia. Si autem diversis temporibus loquentes 
+          eiusdem temporis verbis et adverbiis utamur, dicentes hodie: 
+          Potest iste legere hodie, et dicentes cras: Iste potest hodie 
+          legere; non idem, sed diversa dicimus eum posse. Fateamur igitur, 
+          Deum semper posse quidquid semel potuit, id est habere 
+          omnem illam potentiam, quam semel habuit et illius omnis rei 
+          potentiam cuius semel habuit; sed non semper posse facere omne 
+          illud, quod aliquando potuit facere; potest quidem facere aut 
+          fecisse quod aliquando potuit. Similiter quidquid voluit, et vult, 
+          id est, omnem quam habuit voluntatem et modo habet; et cuiuscumque 
+          rei voluntatem habuit, et modo habet; non tamen vult 
+          esse vel fieri omne, quod aliquando voluit esse vel fieri, sed vult 
+          fuisse vel factum esse. Ita et de scientia Dei dicendum est.</p>
+        
+      </div>
+    </body>
+  </text>
+</TEI>

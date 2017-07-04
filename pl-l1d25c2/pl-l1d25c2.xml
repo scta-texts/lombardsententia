@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 25, Capitulus 2</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 25, Capitulus 2</title>
+          <date when="2015-12-01">December 01, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-12-01">December 01, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d25c2">
+        <head xml:id="pll1d25c2-Hd1e3496">Librum I, Distinctio 25, Capitulus 2</head>
+        <!-- De triplici acceptione huius nominis persona in Trinitate -->
+        <p xml:id="pll1d25c2-d1e3501">Sciendum est igitur, quod hoc nomen persona multiplicem 
+          non unam tantum intelligentiam facit. Et ut <ref><name ref="#HilaryOfPoitiers">Hilarius</name> ait in 
+            libro <title ref="#deTrinitate">De Trinitate</title>:</ref> 
+          <cit>
+            <quote xml:id="pll1d25c2-Qd1e3513">Intelligentia dictorum ex causis est assumenda 
+              dicendi, quia non sermoni res, sed est rei sermo subiectus.</quote>
+            <bibl>Augustinus, De Trinitate, I, n. 14 (PL 10:107)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d25c2-d1e3521">Discernentes ergo dicendi causas huius nominis, scilicet persona, 
+          significationem distinguimus dicentes, quod hoc nomen, scilicet 
+          persona, proprie secundum substantiam dicitur et essentiam 
+          significat, sicut supra ostendit <name ref="#Augustine">Augustinus</name>, cum dicitur: Deus 
+          est persona, Pater est persona.</p>
+        <p xml:id="pll1d25c2-d1e3527">Quadam tamen necessitate, ut supra dixit <name ref="#Augustine">Augustinus</name>, 
+          translatum est hoc nomen, ut pluraliter diceretur tres personae, 
+          cum quaereretur, quid tres, vel quid tria; ubi non significat essentiam, 
+          id est naturam divinam quae est tribus communis, sed 
+          subsistentias vel hypostases secundum Graecos. Graeci quippe, 
+          ut supra dixit <name ref="#Augustine">Augustinus</name>, aliter accipiunt substantiam, id 
+          est hypostasim, aliter nos. Nos enim substantiam dicimus essentiam 
+          sive naturam. Personas autem dicimus, sicut illi dicunt, substantias, 
+          id est hypostases. Si ergo nos ita accipimus personas, ut 
+          illi accipiunt substantias vel hypostases; at illi aliter accipiunt 
+          hypostases, quam nos substantiam; aliter ergo nos accipimus personas 
+          quam substantiam. Cum ergo dicimus tres personas, non 
+          <!-- p. 160 --> 
+          ibi personae nomine essentiam significamus. Quid ergo dicimus? 
+          Dicimus, quia tres personae sunt, id est tres subsistentiae, scilicet 
+          tres entes; pro quo Graeci dicunt tres hypostases.</p>
+        <p xml:id="pll1d25c2-d1e3539">Et hic sensus adiuvatur ex verbis <name ref="#Augustine">Augustini</name> praemissis, si 
+          interius intelligantur. Quia enim Pater est persona, id est essentia, 
+          et Filius persona, et Spiritus sanctus persona, ideo dicuntur tres 
+          personae, id est tres subsistentiae, tres entes. Non enim possent 
+          dici tres subsistentiae vel entes, nisi singulus eorum esset persona, 
+          id est essentia. Quia ergo eis commune est id quod est persona, 
+          id est essentia, ideo recte dicuntur tres personae, id est subsistentiae 
+          vel subsistentes, ut, sicut essentia, quae est eis communis, 
+          vere ac proprie est, ita illi tres vere ac proprie subsistentiae 
+          vel entes intelligantur. Ideoque <name ref="#Augustine">Augustinus</name>, causas dictorum 
+          discernens, dicit, tres personas esse unam essentiam vel eiusdem 
+          essentiae, non ex eadem essentia, ne aliud intelligatur ibi esse persona, 
+          aliud essentia. Tres enim personae, id est subsistentiae, una 
+          sunt essentia et unius essentiae, non autem sunt una persona vel 
+          unius personae, licet persona secundum substantiam aliquando dicatur: 
+          nam si hoc diceretur, confusio fieret in personis.</p>
+        <p xml:id="pll1d25c2-d1e3548">Ad hoc autem, quod illi dicunt: Cum quaeritur, quid tres, vel 
+          quid tria, de essentia quaeritur, quia non invenitur, quid illi tres 
+          sint nisi essentia - per hoc volentes nos inducere, ut nomine personae 
+          essentiam intelligamus, cum respondemus: tres personas - 
+          ita dicimus: Indubitabiliter verum est, quia non invenitur unum 
+          aliquid, quod illi tres sint nisi essentia; unum enim sunt illi tres, 
+          id est essentia divina. Unde Veritas ait: 
+          <cit>
+            <quote xml:id="pll1d25c2-Qd1e3552" ana="#io10_30">Ego et Pater unum sumus.</quote>
+            <bibl>Ioannes 10:30</bibl>
+          </cit>
+          Verumtamen, cum quaeritur, quid tres, vel quid tria, non 
+          de essentia quaeritur, nec ibi quid ad essentiam refertur; sed cum 
+          fides catholica tres ese profiteretur, sicut <ref><name ref="#John">Ioannes</name> in <title ref="#Iio">Epistola 
+            canonica</title></ref> ait: 
+          <cit>
+            <quote xml:id="pll1d25c2-Qd1e3568">Tres sunt, qui testimonium perhibent in caelo,</quote>
+            <bibl>I Ioannes 5:7</bibl>
+          </cit>
+          quaerebatur, quid illi tres essent, id est, an essent tres res, et 
+          quae tres res, et quo nomine illae tres res significarentur. Et ideo 
+          <!-- p. 161 -->
+          loquendi necessitate inventum est ad respondendum hoc nomen 
+          persona, et dictum est: tres personae.</p>
+        <p xml:id="pll1d25c2-d1e3578">Non autem te moveat, quod diximus tres res: non enim hoc 
+          dicentes diversarum rerum numerum ponimus in Trinitate, sed ita 
+          tres res dicimus, ut eandem esse unam quandam summam rem 
+          confiteamur.</p>
+        <p xml:id="pll1d25c2-d1e3581">Unde 
+          <ref><name ref="#Augustine">Augustinus</name> in I libro <title ref="#deDoctrinaChristiana">De doctrina christiana</title></ref> 
+          sic 
+          ait: 
+          <cit>
+            <quote xml:id="pll1d25c2-Qd1e3592">Res quibus fruendum est, nos beatos faciunt.</quote>
+            <bibl>Augustinus, De doctrina christiana, I, c. 3, n. 3 (PL 34:20)</bibl>
+          </cit>
+          <cit>
+            <quote xml:id="pll1d25c2-Qd1e3601">Res igitur, 
+              quibus fruendum est, sunt Pater et Filius et Spiritus sanctus. 
+              Eademque Trinitas una quaedam summa res est communisque 
+              fruentibus ea, si tamen res, et non rerum omnium causa sit, si 
+              tamen et causa. Non enim facile potest inveniri nomen, quod tantae 
+              excellentiae conveniat, nisi quod melius dicitur: Trinitas haec 
+              unus Deus.</quote>
+            <bibl>Augustinus, De doctrina christiana, I, c. 5, n. 5 (PL 34:21)</bibl>
+          </cit>
+          Sicut ergo tres res dicuntur, et hae sunt una res, 
+          ita tres subsistentiae dicuntur, et hae sunt una substantia.</p>
+        <p xml:id="pll1d25c2-d1e3609">Ecce ostensum est, quae sit intelligentia huius nominis persona, 
+          cum dicimus: tres personas.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

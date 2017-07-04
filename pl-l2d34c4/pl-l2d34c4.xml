@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber I, Distinctio 34, C. 4</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber I, Distinctio 34, C. 4</title>
+          <date when="2017-07-04">July 4, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative
+              Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="Quaracchi1916">Quaracchi 1916 Volume 1</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-07-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l2d34c4">
+        <head>Liber I, Distinctio 34, C. 4</head>
+        <head type="question-title">Quod non nisi in bona re sit malum.</head>
+        <p> Ostensa origine mali, superest videre, in qua re Sit malum, scilicet an in re bona, an
+          in re mala. </p>
+        <p>
+          <pb ed="#Q" n="489"/> Qui recte acuteque sapit, non nisi in bono malum esse intel- ligit,
+          id est in natura bona. Malum enim est a corruptio vel pri— vatio boni; ubi autem bonum non
+          est, non potest esse corruptio vel privatio boni. Peccatum igitur non potest esse nisi in
+          re bona. </p>
+        <p> Sicut enim morbis ac vulneribus corrumpuntur corpora, quae, ut ait'Augustinus in
+          Enchiridio 1, « sunt privationes eiusboni, quod dicitur sanitas, ita et animorum
+          quaecumque sunt vitia, natu- ralium sunt privationes honorum. Quid est enim aliud quod
+          malum dicitur, nisi privatioboni»? « Bonum-enim minui, malum est; quamvis quantumcumque
+          minuatur, necesse est, ut aliquid rema- neat, si adhuc natura b est. Non enim consumi
+          potest bonum quod est natura, nisi et ipsa consumatur. Cum vero corrumpitur, ideo malum
+          est eius corruptio, quia eam qualicumque privat bono. Nam si nullo bono privat, non nocet;
+          nocet autem; adimit igiturc bonum. Quamdiu itaque a natura corrumpitur, inest ei bonum,
+          quo prive- tur 2 ». « Ac per hoc nullum est, quod dicitur malum, si nullum sit bonum; sed
+          bonum, omnino malo carens, integrum bonum est. Cum € vero inest malum, vitiatum vel
+          vitiosum bonum est; nec malum unquam potest esse ullum, ubi est bonum nullum. Unde res
+          mira conticitur, ut quia omnisf natura, in quantum natura est, bonum est, nihil aliud
+          (lici videatur 9,-cum vitiosa " natura, mala natura esse dicitur, nisi malum esse quod
+          bonum est; nec malumi esse, nisi quod bonum est 3 ». </p>
+        <p> Hac contextione evidenter insinuatur, malum non posse esse nisi in re bona; ubi etiam,
+          licet absurdum videatur, manifeste di- citur esse k malum, quod bonum est. </p>
+        <p> Ex quo colligitiir,'nihil aliud significari, cum dicitur homo 320 malus, nisi bonum
+          malum. </p>
+        <p> Unde Augustinus in eodem 4 subdit: « Quid est malus homo nisi mala natura; quia homo
+          natura est. Porro, si homo aliquod *" bonum' est, quia natura est, quid aliud est malus
+          liomo, nisi malum bonum? Tamen cum duo ista discernimus, invenimus nec ideo <pb ed="#Q"
+            n="490"/> malum, quia homo est, nec ideo bonum, quoniam iniquus est . sed bonum, quia
+          homo; malum, quia iniquus. Omnis itaque na— tura, etiam si vitiosa sit, in quantum natura
+          est, bona est, in quantum vitiosa est, mala est». </p>
+      </div>
+    </body>
+  </text>
+</TEI>

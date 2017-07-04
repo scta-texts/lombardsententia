@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 9, Capitulus 1</title>
+        <author>Petrus Lombardus</author>
+        <editor></editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.10-dev-master">
+          <title>Librum I, Distinctio 9, Capitulus 1</title>
+          <date when="2015-10-12">October 12, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher></publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-10-05">October 12, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-10-12" who="#JW" status="draft" n="2015.10">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d9c1">
+        <head>Librum I, Distinctio 9, Capitulus 1</head>
+        <!-- De distinctione trium personarum -->
+        <p xml:id="pll1d9c1-d1e3477">Nunc ad distinctionem personarum accedamus.</p>
+        <p xml:id="pll1d9c1-d1e3480">
+          <cit>
+            <quote xml:id="pll1d9c1-Qd1e3484">Teneamus igitur, ut docet <name>Augustinus</name> in libro <title>De fide 
+              ad Petrum</title>, Patrem et Filium et Spiritum sanctum unum esse 
+              naturaliter Deum, nec tamen ipsum Patrem esse qui Filius est, 
+              <!-- p. 66 -->
+              nec Filium ipsum esse qui Pater est, nec Spiritum sanctum ipsum 
+              esse qui Pater est aut Filius. Una est enim essentia Patris et Filii 
+              et Spiritus sancti, in qua non est aliud Pater, aliud Filius, aliud 
+              Spiritus sanctus, quamvis personaliter sit alius Pater, alius Filius, 
+              alius Spiritus sanctus.
+            </quote>
+            <bibl>Augustinus, De fide ad Petrum, c. 1, n. 5 (PL 40:755)</bibl>
+          </cit>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

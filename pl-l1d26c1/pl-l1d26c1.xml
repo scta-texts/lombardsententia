@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 26, Capitulus 1</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 26, Capitulus 1</title>
+          <date when="2015-12-03">December 03, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-12-03">December 03, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d26c1">
+        <head xml:id="pll1d26c1-Hd1e3496">Librum I, Distinctio 26, Capitulus 1</head>
+        <!-- De hoc nomine hypostasis -->
+        <p xml:id="pll1d26c1-d1e3501">Nunc de proprietatibus personarum, quas frequenter in hoc 
+          tractatu commemoravimus, aliquid nos loqui oportet.</p>
+        <p xml:id="pll1d26c1-d1e3504">Sed primum audiamus, quid de hoc nomine, scilicet hypostasis, 
+          <name ref="#Jerome">Hieronymus</name> dicit. Ait enim, sub hoc nomine venenum latere. 
+          Sed hoc dicit, secundum quod haeretici eo utebantur, ut simplices 
+          seducerent, scilicet pro persona et pro essentia, ut, sive diceretur <!-- 164 --> 
+          una tantum hypostasis sive tres, minus peritos ad inconveniens 
+          deducerent, cum non erat hoc nomen ita apud catholicos vulgatum, 
+          nec ita eius significatio determinata, ut modo. Et ideo <name ref="#Jerome">Hieronymus</name> 
+          dicit, hoc nomine non utendum fore sine distinctione vel 
+          expositione, tunc scilicet, quando cum haereticis contendebatur, ita 
+          scribens <title>De fide catholica ad Damasum Papam</title>: 
+          <cit>
+            <quote xml:id="pll1d26c1-Qd1e3519">Ab Arianorum 
+              praesule, hypostaseon novellum nomen a me, homine Romano, 
+              exigitur. Interrogamus, quid tres hypostases arbitrentur intelligi; 
+              tres personas subsistentes, aiunt. Respondemus, nos ita credere. 
+              Non sufficit eis sensus, ipsum nomen efflagitant, quia nescio quid 
+              veneni in syllabis latet. Clamamus: Si quis tres hypostases, id est, 
+              tres subsistentes personas non confitetur, anathema sit. Si quis autem, 
+              hypostasim usiam intelligens, non tribus personis unam hypostasim indicit, 
+              alienus a Christo est, qui scilicet, tres hypostases 
+              dicens, sub nomine pietatis tres naturas conatur asserere. Sufficiat 
+              nobis dicere unam substantiam et tres personas perfectas et aequales; 
+              tacemus tres hypostases, si placet. Non bonae suspicionis 
+              est, cum in eodem verbo sensus dissentiunt. Aut si rectum putatis, 
+              tres hypostases cum interpretationibus suis debere nos dicere, 
+              non negamus. Sed mihi credite, venenum sub melle latet; 
+              <cit>
+                <quote xml:id="pll1d26c1-Qd1e3523" ana="#IIcor11_14">transfigurat 
+                  enim se angelus satanae in Angelum lucis.</quote>
+                <bibl>II Cor. 11:14</bibl>
+              </cit>
+            </quote>
+            <bibl>Hieronymus, Epist. 15, n. 3 et 4 (PL 22, 356)</bibl>
+          </cit>
+          His verbis 
+          non negat utendum esse nomine hypostasis, sed haereticos eo prave 
+          usos ostendit, contra quos cautela opus erat in distinctione significationis; 
+          alioquin sibi contradiceret, qui supra tres hypostases 
+          confitetur.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

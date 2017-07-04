@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 25, Capitulus 1</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 25, Capitulus 1</title>
+          <date when="2015-12-01">December 01, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-12-01">December 01, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d25c1">
+        <head xml:id="pll1d25c1-Hd1e3496">Librum I, Distinctio 25, Capitulus 1</head>
+        <!-- quid significetur hoc nomine persona in plurali numero, scilicet cum dicitur personae. -->
+        <p xml:id="pll1d25c1-d1e3501">Praeterea considerandum est, cum hoc nomen persona, ut 
+          praedictum est, secundum substantiam dicatur, quae sit intelligentia 
+          dicti, cum pluraliter profertur: Tres personae, vel duae 
+          personae, et cum dicitur: Alia est persona Patris, alia persona 
+          Filii, alia persona Spiritus sancti.</p>
+        <!-- p. 157 -->
+        <p xml:id="pll1d25c1-d1e3506">Si enim in his locutionibus personae vocabulum essentiae intelligentiam 
+          facit, plures essentias confiteri videmur, et ita plures deos. 
+          Si vero essentiae significationem ibi non tenet, alia ratio est huius 
+          nominis cum dicitur: Pater est persona, Filius et persona; et alia, 
+          cum dicitur: Pater et Filius et Spiritus sanctus sunt tres personae; 
+          et cum dicitur: Alia est persona Patris, alia Filii, et huiusmodi.</p>
+        <p xml:id="pll1d25c1-d1e3510">
+          <cit>
+            <quote xml:id="pll1d25c1-Qd1e3514">Persona enim, ut <ref>supra ait <name ref="#Augustine">Augustinus</name>,</ref> ad se dicitur, 
+              et idem est Deo esse personam quod esse, sicut idem est ei esse 
+              quod Deum esse</quote>
+            <bibl>Augustinus, XXX</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d25c1-d1e3528">Unde manifeste colligitur, quod essentiam divinam praedicamus, 
+          dicentes: Pater est persona, Filius est persona, Spiritus 
+          sanctus est persona, id est essentia; et omnino unum et idem 
+          significatur nomine personae, id est essentia divina, cum dicitur: 
+          Pater est persona, et Filius est persona, quod significatur nomine 
+          Dei cum dicitur: Pater est Deus, Filius est Deus. Ita etiam 
+          idem significatur, cum dicitur: Deus est Deus, et Deus est persona; 
+          utroque enim nomine essentia divina intelligitur, quia 
+          utrumque secundum substantiam dicitur.</p>
+        <p xml:id="pll1d25c1-d1e3531">Cum vero dicitur: Pater et Filius et Spiritus sanctus sunt 
+          tres personae, quid nomine personae significamus? An essentiam? 
+          Hoc enim videtur, si supra posita verba <name ref="#Augustine">Augustini</name> diligenter 
+          scrutemur.</p>
+        <p xml:id="pll1d25c1-d1e3537">Supra enim dixit, quod 
+          <cit>
+            <quote xml:id="pll1d25c1-Qd1e3541">ideo tres personas dicimus, quia id 
+              quod persona est, commune est tribus.</quote>
+            <bibl>Augustinus, xxx</bibl>
+          </cit>
+          Et item, 
+          <cit>
+            <quote xml:id="pll1d25c1-Qd1e3550">quia Pater 
+              est persona, et Filius est persona, et Spiritus sanctus est persona, 
+              ideo tres personae dicuntur.</quote>
+            <bibl>Augustinus, XXX</bibl>
+          </cit>
+          Videtur ergo, eandem tenere significationem 
+          hoc nomen persona, cum dicitur: tres personae, quam 
+          habet cum dicitur: Pater est persona, Filius est persona, Spiritus 
+          sanctus est persona; quia ut ostendit <name ref="#Augustine">Augustinus</name>, hoc dicitur 
+          - id est tres personae - propter illud, id est, quia id quod 
+          persona est, commune est eis. Id ergo quod commune est eis, id 
+          est Patri et Filio et Spiritui sancto, videtur significari nomine personae, 
+          cum dicitur: tres personae.</p>
+        <!-- p. 158 -->
+        <p xml:id="pll1d25c1-d1e3563">Aliter etiam potest ostendi, quod ibi nomine personae significetur 
+          essentia, cum dicitur: tres personae.</p>
+        <p xml:id="pll1d25c1-d1e3567">Ut enim supra dixit <name ref="#Augustine">Augustinus</name>, ea necessitate diximus 
+          tres personas, ut responderemus quaerentibus, quid tres, vel quid 
+          tria. Cum ergo quaeritur, quid tres vel quid tria, convenienter 
+          respondetur, cum dicitur: personae tres. At cum quaeritur, quid 
+          tres, vel quid tria, per quid de essentia quaeritur. Non enim invenitur, 
+          quid illi tres sint, nisi essentia. Si ergo quaestioni recte 
+          respondemus, oportet ut respondendo essentiam significemus; alioquin 
+          non ostendimus, quid tres sint. Si vero respondentes essentiam 
+          significamus, ipsam essentiam personae nomine intelligimus, 
+          cum dicitur; tres personae.</p>
+        <p xml:id="pll1d25c1-d1e3573">Quibusdam videtur, quod nomine personae significetur essentia, 
+          cum dicitur: tres personae, propterea quia <name ref="#Augustine">Augustinus</name> dicit, 
+          ideo dici tres personas, quia commune est eis id quod est persona, 
+          ut sit talis intelligentia: Pater et Filius et Spiritus sanctus sunt 
+          tres personae, id est, sunt tres id habentes commune, quod est 
+          persona, id est, tres sunt, quorum quisque est persona, id est 
+          essentia. Sed quomodo iuxta hanc intelligentiam dicetur: Alia est 
+          persona Patris, alia Filii? Et hoc etiam ita volunt intelligere, 
+          scilicet alius est Pater, et alius Filius, id tamen commune habentes 
+          quod est persona.</p>
+        <p xml:id="pll1d25c1-d1e3579">Et hoc confirmant auctoritate <ref><name ref="#Augustine">Augustini</name>, qui in VII libro 
+          <title ref="#deTrinitate">De Trinitate</title></ref> ait: 
+          <cit>
+            <quote xml:id="pll1d25c1-Qd1e3590">Tres personas eiusdem essentiae, vel tres 
+              personas unam essentiam dicimus. Tres autem personas ex eadem 
+              essentia non dicimus, quasi aliud ibi sit quod essentia est, 
+              aliud quod persona.</quote> <!-- no end quotation in text -->
+            <bibl>Augustinus, De Trinitate, VII, c. 6, n. 11 (PL 42:945)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d25c1-d1e3600">Hac auctoritate et praemissis conantur asserere, in praedictis 
+          locutionibus nomen personae essentiam significare.</p>
+        <p xml:id="pll1d25c1-d1e3603">Sed quid respondebunt ad id quod ipse <ref><name ref="#Augustine">Augustinus</name> in 
+          libro <title>De fide ad Petrum</title></ref> dicit, 
+          <cit>
+            <quote xml:id="pll1d25c1-Qd1e3614">scilicet, quod alius est Pater 
+              <!-- p. 159 -->
+              in persona sive personaliter, alius personaliter Filius, alius personaliter 
+              Spiritus sanctus?</quote>
+            <bibl>Augustinus, De fide ad Petrum, c. 1, n. 5 (PL 40:755)</bibl>
+          </cit>
+          Quomodo enim alius personaliter Pater, 
+          alius personaliter Filius, alius personaliter Spiritus sanctus, 
+          si in esse personam omnino conveniunt, id est, si persona essentiae 
+          tantum intelligentiam facit? Ideo nobis videtur aliter hoc 
+          posse dici congruentius iuxta catholicorum doctorum auctoritates.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 2, Capitulus 3</title>
+        <author>Petrus Lombardus</author>
+        <editor></editor>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.09-dev-master">
+          <title>Librum I, Distinctio 2, Capitulus 3</title>
+          <date when="2015-09-20">September 20, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher></publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-09-20">September 20, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+          <witness xml:id="Z" n="zbsSII72" xml:base="http://www.e-codices.unifr.ch/metadata/iiif/zbs-SII-0072/canvas/">Solothurn, Zentralbibliothek, Cod. S II 72</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-20" who="#JW" status="draft" n="2015.09">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include
+          href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml"
+          xpointer="worksCited"/>
+        <xi:include
+          href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml"
+          xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <cb ed="#Z" n="4va" select="zbs-SII-0072_004v.json"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d2c3">
+        <head>Librum I, Distinctio 2, Capitulus 3</head>
+        <p xml:id="pll1d2c3-d1e3473">Ceterum, ut in <ref>libro I <title ref="#deTrinitate">De Trinitate</title> <name ref="#Augustine">Augustinus</name></ref> docet: 
+          <cit>
+            <quote>Primum secundum auctoritates sanctarum Scripturarum, utrum 
+            fides ita habeat, demonstratum est. Deinde adversus garrulos 
+            ratiocinatores, elatiores quam capaciores, rationibus catholicis et 
+            similitudinibus congruis ad defensionem et assertionem fidei utendum est, ut eorum inquisitionibus satisfacientes, mansuetos plenius 
+            instruamus, et illi, si nequiverint invenire quod quaerunt, de suis 
+            <!-- 23 -->
+            mentibus potius quam de ipsa veritate vel de nostra dissertione 
+            conquerantur</quote>
+            <bibl>Augustinus, De Trinitate, I, c. 2, n. 4 (PL 42:822)</bibl>
+          </cit>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

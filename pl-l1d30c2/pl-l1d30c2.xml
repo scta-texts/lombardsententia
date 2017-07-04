@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 30, Capitulus 2</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 30, Capitulus 2</title>
+          <date when="2015-12-26">December 26, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-12-26">December 26, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d30c2">
+        <head xml:id="pll1d30c2-Hd1e3496">Librum I, Distinctio 30, Capitulus 2</head>
+        <!-- An Spiritus sanctus dicatur datum vel donatum relative ad se, cum a se detur -->
+        <p xml:id="pll1d30c2-d1e3501">Hic potest solvi quaestio superius proposita, ubi quaerebatur, 
+          cum Spiritus sanctus dicatur datum vel donatum -- quod autem datur 
+          refertur et ad eum qui dat, et ad illum cui datur -- et cum Spiritus 
+          sanctus det se ipsum, utrum ad se ipsum relative dicatur, 
+          cum dicitur dari vel donari.</p>
+        <p xml:id="pll1d30c2-d1e3504">Cui quaestioni respondentes dicimus, Spiritum sanctum dici 
+          datum vel donatum relative et ad dantem, et ad illum cui datur. 
+          Dans autem sive donator est Pater cum Filio et Spiritu sancto. 
+          nec tamen dicimus, Spiritum sanctum referri ad se, sed appellatio 
+          dati vel donati refertur et ad dantem et ad recipientem, quia non 
+          potest aliquid dici datum, nisi ab aliquo et alicui detur. Cum autem 
+          Spiritus sanctus dari a se vel datus a se dicitur, relative quidem 
+          dicitur ad illum cui datur; et est appellatio relativa, et in 
+          illo cui datur mutatio fit, non in dante.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

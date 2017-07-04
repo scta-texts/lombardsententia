@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 18, Capitulus 5</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 18, Capitulus 5</title>
+          <date when="2015-11-13">November 13, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-11-13">November 13, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d18c5">
+        <head xml:id="pll1d18c5-Hd1e3472">Librum I, Distinctio 18, Capitulus 5</head>
+        <!-- An Filius, cum sit nobis datus, possit dici noster, ut Spiritus sanctus -->
+        <p xml:id="pll1d18c5-d1e3477">Hic quaeritur, utrum et Filius, cum sit nobis datus, dicatur 
+          vel possit dici noster.</p>
+        <p xml:id="pll1d18c5-d1e3480">Ad quod dicimus, quia Filius dicitur noster panis, noster redemptor 
+          et huiusmodi; sed non dicitur noster Filius, quia Filius 
+          dicitur relative tantum ad illum qui genuit. Et ideo non potest 
+          dici noster Filius, sed Patris tantum. In eo autem quod dicitur 
+          datus, et ad eum qui dedit, et ad eos quibus datus est, referatur, 
+          ut Spiritus sanctus; qui etiam cum in Scriptura, ut praedictum 
+          est, dicatur spiritus noster, vel spiritus tuus, vel illius, ut de <name ref="#Moses">Moyse</name> 
+          et <name>Elia</name> dictum est, nusquam tamen in Scriptura occurrit ita dici: 
+          Spiritus sanctus noster, vel tuus spiritus, vel illius, sed spiritus 
+          noster, vel tuus, vel illius, quia Spiritus sanctus eo dicitur quo 
+          donum, et utrumque relative dicitur ad patrem et ad Filium, et 
+          hoc sempiterna relatione. Si tamen aliquando dicitur donum nostrum, 
+          accipitur donum pro donato vel dat. Cum vero donum 
+          accipitur eo modo, quo Spiritus sanctus donum tantum Patris et 
+          Filii dicitur, non hominis, ita et Filius sub hac appellatione non 
+          potest dici noster, ut dicatur Filius noster, sicut nec dicitur Spiritus 
+          sanctus noster; et tamen de Filio dicitur panis noster, et de 
+          Spiritu, spiritus noster. Ille noster panis, quia nos reficit nobis 
+          datus; iste noster spiritus, quia nobis inspiratur a Patre et Filio, 
+          et in nobis spirat, sicut vult.</p>
+        <p xml:id="pll1d18c5-d1e3489">Unde <ref><name ref="#Augustine">Augustinus</name> in V libro <title ref="#deTrinitate">De Trinitate</title></ref> ait: 
+          <cit>
+            <quote xml:id="pll1d18c5-Qd1e3499">Quod 
+              de Patre natum est, ad Patrem solum refertur, cum dicitur Filius; 
+              et ideo Filius Patris est, et non noster. Dicimus tamen et 
+              <cit>
+                <quote xml:id="pll1d18c5-Qd1e3503" ana="#mt6_11"> <!-- and lc11_3 -->panem 
+                  nostrum da nobis,</quote>
+                <bibl>Matthaeus 6:11, Lucas 11:3</bibl>
+              </cit>
+              sicut dicimus, spiritum nostrum.</quote>
+            <bibl>Augustinus, De Trinitate, V, c. 14, n. 15 (PL 42:921)</bibl>
+          </cit>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

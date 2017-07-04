@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 15, Capitulus 5</title>
+        <author>Petrus Lombardus</author>
+        <editor></editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.10-dev-master">
+          <title>Librum I, Distinctio 15, Capitulus 5</title>
+          <date when="2015-10-28">October 28, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher></publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-10-28">October 28, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-10-26" who="#JW" status="draft" n="2015.10">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d15c5">
+        <head>Librum I, Distinctio 15, Capitulus 5</head>
+        <!-- Quomodo intelligendum sit: A me ipso non veni -->
+        <p xml:id="pll1d15c5-d1e3477">Sed ad hoc opponitur: Si Filius a se ipso missus est, cur ergo 
+          ait: 
+          <cit>
+            <quote xml:id="pll1d15c5-Qd1e3481" ana="#io7_28"> <!-- and io8_42 -->A me ipso non veni?</quote>
+            <bibl>Ioannes 7:28; 8:42</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d15c5-d1e3491">Ad hoc <ref><name ref="#Augustine">Augustinus</name> respondet in II libro <title ref="#deTrinitate">De Trinitate</title></ref> dicens: 
+          <cit>
+            <quote xml:id="pll1d15c5-Qd1e3502">Hoc dictum esse secundum formam servi, secundum quam 
+              non fecit, ut mitteretur,</quote>
+            <bibl>Augustinus, De Trinitate, II, c. 5, n. 9 (PL 42:851)</bibl>
+          </cit>
+          id est, non est operatus incarnationem, 
+          sed secundum formam Dei.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

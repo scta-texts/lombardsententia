@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 48, Capitulus 4</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 48, Capitulus 4</title>
+          <date when="2016-01-26">January 26, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-01-26">January 26, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+          <witness xml:id="Z" n="zbsSII72" xml:base="http://www.e-codices.unifr.ch/metadata/iiif/zbs-SII-0072/canvas/">Solothurn, Zentralbibliothek, Cod. S II 72</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <cb ed="#Z" n="53rb" select="zbs-SII-0072_053r.json"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d48c4">
+        <head xml:id="pll1d48c4-Hd1e3513">Librum I, Distinctio 48, Capitulus 4</head>
+        <head xml:id="pll1d48c4-Hd1e3516" type="questionTitle">Utrum passiones Sanctorum debeamus velle.</head>
+        <p xml:id="pll1d48c4-d1e3519">Si vero quaeritur, utrum eodem modo sentiendum sit de passionibus 
+          et martyriis Sanctorum, dicimus, aliquam esse differentiam 
+          inter passionem capitis et membrorum. Christi namque passio 
+          causa est nostrae salutis, quod non est passio alicuius Sancti. 
+          Nullius enim passione redempti sumus nisi Christi. Profuerunt quidem 
+          non modo eis qui passi sunt, verum etiam aliis fidelibus eorum 
+          passiones; verumtamen nostra redemptio non sunt; hoc enim 
+          illius sola passio potuit, qui Deus est et homo. Illius ergo passionem 
+          credentium piae mentes voluerunt et optaverunt fieri, sicut 
+          futuram credebant; passiones vero sanctorum possumus velle et 
+          nolle, et utrumque bona voluntate, si rectos nobis proponamus 
+          fines. Cui enim placuit <name ref="#Paul">Pauli</name> passio eo fine, quia praemium eius 
+          per hoc auctum et paratum cernebat, bonam videtur habuisse voluntatem, 
+          quae voluntati eius congruebat, qua 
+          <cit>
+            <quote xml:id="pll1d48c4-Qd1e3526" ana="#phil1_23">cupiebat dissolvi et 
+              esse cum Christo.</quote>
+            <bibl>Phil. 1:23</bibl>
+          </cit>
+          Qui autem voluit, eum declinare passionem 
+          <!-- 294 -->
+          et effugere manus iniquorum, compassione pietatis, et ille bonam 
+          habuit voluntatem.</p>
+        <p xml:id="pll1d48c4-d1e3536">Unde <ref><name ref="#Augustine">Augustinus</name> in <title ref="#Enchiridion">Enchiridio</title>:</ref> 
+          <cit>
+            <quote xml:id="pll1d48c4-Qd1e3548">Bonae apparebant voluntates 
+              piorum fidelium, qui nolebant <name ref="#Paul">Apostolum Paulum</name> Ierusalem 
+              pergere, ne ibi pateretur mala, quae <name>Agabus propheta</name> praedixerat praedixerat. 
+              Et tamen hoc illum Deus pati volebat pro annuntianda 
+              fide Christi, exercens martyrem Christi; neque bonam voluntatem 
+              suam ipse implevit per Christianorum voluntates bonas, sed per 
+              Iudaeorum malas; et ad eum potius pertinebant qui nolebant quod 
+              volebat, quam illi per quos volentes factum est quod volebat, quia 
+              id ipsum mala voluntate fecerunt, quod Deus bona voluntate voluit.</quote>
+            <bibl>Augustinus, Enchiridion, c. 101, n. 26 (PL 40:279) <!-- db check, edition is ambiguous --></bibl> 
+          </cit>
+        </p>
+        <p xml:id="pll1d48c4-d1e3563">Ita et in passione Christi factum est. Quod enim Deus voluit, 
+          hoc idem <name ref="#JudasIscariot">Iudas</name>, Iudaeus et diabolus, sed illi mala voluntate, 
+          Deus vero bona voluntate, scilicet ut Christus moreretur. Verumtamen 
+          illi actum voluerunt, quem Deus non voluit.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 8, Capitulus 1</title>
+        <author>Petrus Lombardus</author>
+        <editor>Brady</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.10-dev-master">
+          <title>Librum I, Distinctio 8, Capitulus 1</title>
+          <date when="2015-10-05">October 05, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher></publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-10-05">October 05, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-10-05" who="#JW" status="draft" n="2015.10">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d8c1">
+        <head>Librum I, Distinctio 8, Capitulus 1</head>
+        <p xml:id="pll1d8c1-d1e3476">Nunc de veritate sive proprietate, et incommutabilitate atque 
+          simplicitate divinae naturae vel substantiae sive essentiae agendum est.</p>
+        <p xml:id="pll1d8c1-d1e3479">
+          <cit>
+            <quote xml:id="pll1d8c1-Qd1e3483">Est itaque Deus, ut ait <ref><name ref="#Augustine">Augustinus</name> in V libro <title ref="#deTrinitate">De Trinitate</title>,</ref> 
+              sine dubitatione substantia vel, si melius hoc appellatur, 
+              essentia, quam Graeci usiam vocant. Sicut enim ab eo quod est 
+              sapere dicta est sapientia, et ab eo quod est scire dicta est scientia; 
+              ita ab eo quod est esse dicta est essentia. Et quis magis est 
+              quam ille, qui dixit famulo suo <name ref="#Moses">Moysi</name>: 
+              <cit>
+                <quote xml:id="pll1d8c1-Qd1e3498" ana="#ex3_14">Ego sum qui sum. Et 
+                  dices filiis Israel: Qui est misit me ad vos.</quote>
+                <bibl>Exodus 3:14</bibl>
+              </cit>
+            </quote>
+            <bibl>Augustinus, De Trinitate, 5, c. 2, n. 3 (PL 42:912)</bibl>
+          </cit>
+          Ipse vere ac proprie 
+          dicitur essentia, cuius essentia non novit praeteritum vel futurum.</p>
+        <p xml:id="pll1d8c1-d1e3511">Unde <ref><name ref="#Jerome">Hieronymus</name> <title>Ad Marcellam</title>:</ref> 
+          <cit>
+            <quote xml:id="pll1d8c1-Qd1e3523">Deus 
+              solus, qui exordium non habet, verae essentiae nomen tenuit quia 
+              <!-- 38 -->
+              in eius comparatione, qui vere est, quia incommutabilis est, quasi 
+              non sunt, quae mutabilia sunt. Deo quo enim dicitur fuit, non est; 
+              et deo quo dicitur erit, nondum est; Deus autem tantum est, qui 
+              non novit fuisse vel futurum esse; solus igitur Deus vere est, 
+              cuius essentiae comparatum nostrum esse non est.</quote>
+            <bibl>Hieronymus, non invenimus</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d8c1-d1e3533">Hic diligenter advertendum est, quomodo intelligi debeant illa 
+          verba <name ref="#Jerome">Hieronymi</name>, scilicet 
+          <cit>
+            <quote xml:id="pll1d8c1-Qd1e3540">Deus tantum est et non novit 
+              fuisse,</quote>
+            <bibl>Hieronymus</bibl>
+          </cit>
+          tanquam non possit dici de deo fuit, vel erit, sed tantum 
+          est, cum de eo frequenter scriptum reperiamus: Fuit ab aeterno, 
+          fuit semper, et erit in saecula, et huiusmodi; unde videtur, 
+          quia non est tantum dicendum de Deo fuit, vel est, vel erit. Si 
+          enim diceretur tantum fuit, putaretur, quod desierit esse; si diceretur 
+          tantum est, putaretur, quod non semper fuerit, sed esse 
+          coeperit; si tantum diceretur erit, putaretur non esse modo. Dicatur 
+          ergo, quia semper fuit, est et erit, ut intelligatur, quia nec 
+          coepit, nec desiit, nec desinit, nec desinet esse.</p>
+        <p xml:id="pll1d8c1-d1e3549">De hoc <ref><name ref="#Augustine">Augustinus</name> <title>Super Iohannem</title></ref> ita ait: 
+          <cit>
+            <quote xml:id="pll1d8c1-Qd1e3560">Cum de 
+              sempiterna re proprie dicatur est, secundum nos bene dicitur fuit 
+              et erit; ita fuit, quia nunquam desiit; erit, quia nunquam deerit; 
+              est, quia semper est; non praeteriit, quasi quod non maneat; non 
+              orietur, quasi quod non erat. Cum ergo nostra locutio per tempora 
+              varietur, de eo vere dicuntur verba cuiuslibet temporis, qui 
+              nullo tempore defuit vel deest vel deerit; et ideo non est mirum, 
+              si de Spiritu veritatis Veritas loquens dixit per futurum: 
+              <cit>
+                <quote xml:id="pll1d8c1-Qd1e3564" ana="#io16_13">Quaecumque audiet loquetur.</quote>
+                <bibl>Iohannes 16:13</bibl>
+              </cit>
+              <mentioned>Audiet,</mentioned> scilicet ab eo a quo procedit: 
+              audire illius est scire, idem est esse; a quo ergo est illi essentia, 
+              ab illo audientia, id est scientia, quae non est aliud quam 
+              essentia. <mentioned>Audiet</mentioned> ergo dixit de eo quod audivit et audit, id est, 
+              quod semper scivit, scit et sciet.</quote>
+            <bibl>Augustinus, Super Iohannem, Tract. 99, n. 4 et 5 (PL 35:1888)</bibl>
+          </cit>
+          Ecce hic dicit <name ref="#Augustine">Augustinus</name>, 
+          verba cuiuslibet temporis dici de Deo, sed proprie est.</p>
+        <p xml:id="pll1d8c1-d1e3586">Illud ergo quod <name ref="#Jerome">Hieronymus</name> dicit, ita intelligendum est: 
+          Non novit fuisset vel futurum esse, sed tantum esse, id est, cum
+          <!-- p. 59 --> 
+          dicitur de Deo, quod fuit, vel erit, non est intelligendum, quod 
+          praeterierit, vel futurus sit, sed quod existat simpliciter sine aliquo 
+          temporali motu. Licet enim verba substantiva diversorum temporum 
+          de Deo dicantur, ut fuit, erit, est, erat, non tamen temporales 
+          motus tunc distinguunt, scilicet praeteritum vel futurum vel 
+          praeteritum imperfectum vel praeteritum perfectum vel praeteritum 
+          plus quam perfectum, sed essentiam sive existentiam divinitatis 
+          simpliciter insinuant. Deus ergo solus proprie dicitur essentia 
+          vel esse.</p>
+        <p xml:id="pll1d8c1-d1e3594">Unde <ref><name ref="#HilaryOfPoitiers">Hilarius</name> in VII libro <title ref="#HilaryOfPoitiers_DeTrinitate">De Trinitate</title></ref> ait: 
+          <cit>
+            <quote xml:id="pll1d8c1-Qd1e3605">Esse non 
+              esse accidens Deo, sed subsistens veritas et manens causa et naturalis 
+              generis proprietas.</quote>
+            <bibl>Hilarius, De Trinitate, VII, n. 11 (PL 10:208)</bibl>
+          </cit>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

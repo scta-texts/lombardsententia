@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 35, Capitulus 8</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 35, Capitulus 8</title>
+          <date when="2016-01-06">January 06, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-01-06">January 06, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d35c8">
+        <head xml:id="pll1d35c8-Hd1e3496">Librum I, Distinctio 35, Capitulus 8</head>
+        <!-- Quod scientia Dei est de temporalibus et aeternis -->
+        <p xml:id="pll1d35c8-d1e3501">Scientia vero de sapientia non tantum de temporalibus, sed 
+          etiam de aeternis est, ideoque, etsi nulla fuissent futura, esset 
+          tamen in Deo scientia eadem, quae modo est, nec minor esset 
+          quam modo, nec maior est quam esset. Scivit ergo Deus ab 
+          aeterno aeternum et omne quod futurum erat, et scivit immutabiliter. 
+          Scit quoque non minus praeterita vel futura quam praesentia, 
+          et sua aeterna sapientia et immutabili scit ipse omnia quae sciuntur. 
+          <cit>
+            <quote xml:id="pll1d35c8-Qd1e3505">Omnis enim ratio supernae et terrenae sapientiae, ut ait 
+              <name ref="#Ambrose">Ambrosius</name>, in eo est, quia omnem sapientiam et essentiam 
+              capit sua immensa scientia.</quote>
+            <bibl>Ambrosius, In Epistolam ad Colos. 2, 3 (PL 17:427)</bibl>
+          </cit>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

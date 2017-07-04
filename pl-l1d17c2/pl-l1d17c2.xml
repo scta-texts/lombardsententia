@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 17, Capitulus 2</title>
+        <author>Petrus Lombardus</author>
+        <editor></editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 17, Capitulus 2</title>
+          <date when="2015-11-03">November 03, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher></publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-11-03">November 03, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-03" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d17c2">
+        <head xml:id="pll1d17c2-Hd1e3472">Librum I, Distinctio 17, Capitulus 2</head>
+        <!-- Quod fraterna dilectio est Deus, non Pater nec Filius, sed tantum Spiritus sanctus -->
+        <p xml:id="pll1d17c2-d1e3477">Cum autem fraterna dilectio sit Deus, nec Pater est, nec Filius 
+          est, sed tantum Spiritus sanctus, qui proprie dilectio in Trinitate 
+          vel caritas dicitur.</p>
+        <p xml:id="pll1d17c2-d1e3480">Unde <ref><name ref="#Augustine">Augustinus</name> in libro XV <title ref="#deTrinitate">De Trinitate</title>:</ref> 
+          <cit>
+            <quote xml:id="pll1d17c2-Qd1e3492">Si in donis 
+              Dei nihil maius est caritate, et nullum est maius donum Dei 
+              quam Spiritus sanctus, quid consequentius est, quam ut ipse sit 
+              caritas, quae dicitur et Deus et ex Deo?</quote>
+            <bibl>Augustinus, De Trinitate, XV, c. 19, n. 37 (PL 42:1086)</bibl>
+          </cit>
+          <cit>
+            <quote xml:id="pll1d17c2-Qd1e3501">Ita enim ait <name ref="#John">Ioannes</name>: 
+              <cit>
+                <quote xml:id="pll1d17c2-Qd1e3508" ana="#Iio4_7">Dilectio ex Deo est;</quote>
+                <bibl>I Ioannes 4:7</bibl> <!-- dbcheck -->
+              </cit>
+              et paulo post: 
+              <cit>
+                <quote xml:id="pll1d17c2-Qd1e3519" ana="#Iio4_8">Deus dilectio est.</quote>
+                <bibl>I Ioannes 4:8</bibl> <!-- dbcheck -->
+              </cit>
+              Ubi manifestat, eam se dixisse dilectionem Deum, quam dixit <mentioned>ex Deo.</mentioned>
+              Deus; ergo ex Deo est dilectio.</quote>
+            <bibl>Augustinus, De Trinitate, XV, c. 17, n. 31 (PL 42:1086)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d17c2-d1e3537">Item in eodem: 
+          <cit>
+            <quote xml:id="pll1d17c2-Qd1e3541"><name ref="#John">Ioannes</name> volens de hac re apertius 
+              loqui inquit: 
+              <cit>
+                <quote xml:id="pll1d17c2-Qd1e3547" ana="Iio4_13">In hoc cognovimus, quia in ipso manemus et ipse 
+                  in nobis, quia de Spiritu suo dedit nobis.</quote>
+                <bibl>I Ioannes 4:13</bibl>
+              </cit>
+              Spiritus itaque sanctus, 
+              de quo dedit nobis, facit nos in Deo manere et ipsum in nobis; 
+              hoc autem facit dilectio; ipse est igitur Deus dilectio; ipse ergo 
+              significatur, ubi legitur: <mentioned>Deus dilectio est</mentioned>.
+            </quote>
+            <bibl>Augustinus, De Trinitate, XV, c. 17, n. 31 (PL 42:1086)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d17c2-d1e3564">Ex his apparet, quod Spiritus sanctus caritas est.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

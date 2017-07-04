@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 10, Capitulus 3</title>
+        <author>Petrus Lombardus</author>
+        <editor></editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.10-dev-master">
+          <title>Librum I, Distinctio 10, Capitulus 3</title>
+          <date when="2015-10-19">October 19, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher></publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-10-19">October 19, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-10-19" who="#JW" status="draft" n="2015.10">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d10c3">
+        <head>Librum I, Distinctio 10, Capitulus 3</head>
+        <!-- quod spiritus sanctus, sicut Patri et Filio est communis, ita commune nomen habet proprium. -->
+        <p xml:id="pll1d10c3-d1e3477">Hic notandum est, quod sicut Spiritus sanctus in Trinitate specialiter 
+          dicitur caritas, quae est Patris et Filii unio, ita et nomen 
+          tenet proprie, quod Patri et Filio communiter quodam modo congruit.</p>
+        <p xml:id="pll1d10c3-d1e3480">Unde <ref><name ref="#Augustine">Augustinus</name> ait in XV libro <title ref="#deTrinitate">De Trinitate</title>:</ref> 
+          <cit>
+            <quote xml:id="pll1d10c3-Qd1e3492">Si 
+              caritas, inquit, qua Pater diligit Filium, et Patrem diligit Filius, 
+              ineffabiliter communionem demonstrat amborum, quid convenientius, 
+              quam ut ille proprie dicatur caritas, qui spiritus est communis 
+              ambobus? Hoc enim sanius creditur et intelligitur, ut non solum 
+              Spiritus sanctus caritas sit in illa Trinitate, sed non frustra proprie 
+              caritas nuncupetur, propter illa quae dicta sunt; sicut non 
+              solus in illa Trinitate vel spiritus est vel sanctus, quia et Pater 
+              spiritus et Filius spiritus, et Pater sanctus et Filius sanctus, et 
+              tamen ipse non frustra dicitur Spiritus sanctus. Qui enim est communis <!-- 77 --> 
+              ambobus, id vocatur ipse proprie, quod ambo communiter. 
+              Alioquin si in illa Trinitate solus Spiritus sanctus est caritas, profecto 
+              et Filius non solius Patris, sed etiam Spiritus sancti Filius 
+              invenitur. Ait enim <name ref="#Paul">Apostolus</name> de Deo Patre: 
+              <cit>
+                <quote xml:id="pll1d10c3-Qd1e3501" ana="#col1_13">Transtulit nos 
+                  in regnum Filii caritatis suae.</quote>
+                <bibl>Col. 1:13</bibl>
+              </cit>
+              Si ergo non est in illa Trinitate 
+              caritas Dei nisi Spiritus sanctus, Filius est etiam Spiritus sancti. 
+              Sed quia hoc absurdissimum est, restat ut non solus ibi sit caritas 
+              Spiritus sanctus, sed propter illa, de quibus satis disserui, 
+              proprie sic vocatur.</quote>
+            <bibl>Augustine, De Trinitate, XV, c. 19, n. 37 (PL 42: 1086)</bibl>
+          </cit>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

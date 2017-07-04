@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 46, Capitulus 4</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 46, Capitulus 4</title>
+          <date when="2016-01-26">January 26, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-01-26">January 26, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+          <witness xml:id="Z" n="zbsSII72" xml:base="http://www.e-codices.unifr.ch/metadata/iiif/zbs-SII-0072/canvas/">Solothurn, Zentralbibliothek, Cod. S II 72</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <cb ed="#Z" n="51ra" select="zbs-SII-0072_051r.json"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d46c4">
+        <head xml:id="pll1d46c4-Hd1e3504">Librum I, Distinctio 46, Capitulus 4</head>
+        <head xml:id="pll1d46c4-Hd1e3507" type="questionTitle">Quomodo intelligendum sit illud Augustini: Mala fieri bonum est.</head>
+        <p xml:id="pll1d46c4-d1e3510">Quod vero <name ref="#Augustine">Augustinus</name> ait: 
+          <cit>
+            <quote xml:id="pll1d46c4-Qd1e3517">Mala fieri bonum est, nec 
+              sinerentur mala ab omnipotenti Bono fieri, nisi hoc esse bonum, 
+              ut ea essent;</quote>
+            <bibl>Augustinus, Enchiridion, c. 96, n. 24 (PL 40:276)</bibl>
+          </cit>
+          ea ratione dictum esse asserunt, quia ex malis, quae 
+          fiunt, Deus bona elicit; nec ipse permitteret ea fieri, nisi de eis 
+          aliquid boni faceret.</p>
+        <p xml:id="pll1d46c4-d1e3525">Unde <name ref="#Augustine">Augustinus</name> in eodem libro <title>Enchiridion</title>, aperte indicans, 
+          praedictorum verborum talem esse intelligentiam, ait: 
+          <cit>
+            <quote xml:id="pll1d46c4-Qd1e3535">Deus 
+              omnipotens, cui rerum summa est potestas, cum suume bonus sit, 
+              nullo modo sineret aliquid mali esse in operibus suis, nisi usque 
+              adeo esset omnipotens et bonus, ut benefaceret etiam de malo.</quote>
+            <bibl>Augustinus, Enchiridion, c. 11, n. 3 (PL 40:236)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d46c4-d1e3543"><ref>Item in eodem:</ref> 
+          <cit>
+            <quote xml:id="pll1d46c4-Qd1e3549">Melius iudicavit Deus de malis bona facere, 
+              quam mala nulla permittere.</quote>
+            <bibl>Augustinus, Enchiridion, c. 27, n. 8 (PL 40:245)</bibl>
+          </cit>
+        </p>
+        <!-- 283 -->
+        <p xml:id="pll1d46c4-d1e3560">Ex hoc itaque sensu dictum est ac verum est, bonum esse 
+          mala fieri, quia ex malis, quae fiunt, bonis 
+          <cit>
+            <quote xml:id="pll1d46c4-Qd1e3564" ana="#rom8_28">qui secundum propositum 
+              vocati sunt Sancti,</quote>
+            <bibl>Romanos 8:28</bibl>
+          </cit>
+          accedit bonitas, id est utilitas. Talibus 
+          enim, ut ait <name ref="#Paul">Apostolus,</name> 
+          <cit>
+            <quote xml:id="pll1d46c4-Qd1e3576" ana="#rom8_28">in bonum cooperantur omnia,</quote>
+            <bibl>Romanos 8:28</bibl>
+          </cit>
+          etiam mala, quia 
+          <cb ed="#Z" n="51rb" select="zbs-SII-0072_051r.json"/>
+          eis prosunt, quae aliis facientibus obsunt.</p>
+        <p xml:id="pll1d46c4-d1e3586">Unde etiam aliquando in Scriptura legitur, malum appellari 
+          bonum, ut <ref><name ref="#Jerome">Hieronymus</name> <title>Super Marcum</title>:</ref> Malum, inquit, 
+          Iudae bonum fuit, scilicet nobis. Nec si bonum est illi vel illi, 
+          inde sequitur, quod simpliciter bonum sit. Proprie autem ac simpliciter 
+          bonum est, quod in se et facienti bonum est.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

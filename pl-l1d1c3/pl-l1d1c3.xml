@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 1, Capitulus 3</title>
+        <author>Petrus Lombardus</author>
+        <editor>Brady</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.09-dev-master">
+          <title>Librum I, Distinctio 1, Capitulus 3</title>
+          <date when="2015-09-07">September 07, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher></publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-09-06">September 09, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+          <witness xml:id="Z" n="zbsSII72" xml:base="http://www.e-codices.unifr.ch/metadata/iiif/zbs-SII-0072/canvas/">Solothurn, Zentralbibliothek, Cod. S II 72</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-07" who="#JW" status="draft" n="2015.09">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include
+          href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml"
+          xpointer="worksCited"/>
+        <xi:include
+          href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml"
+          xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <cb ed="#Z" n="3rb" select="zbs-SII-0072_003r.json"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d1c3">
+        <head>Librum I, Distinctio 1, Capitulus 3</head>
+        <p xml:id="pll1d1c3-d1e3473">Notandum vero, quod idem <ref><name ref="#Augustine">Augustinus</name> in libro X <title>De Trinitate</title>,</ref> 
+          aliter quam supra accipiens uti et frui, sic dicit 
+          <cit>
+            <quote xml:id="pll1d1c3-Qd1e3485">Uti est 
+              assumere aliquid in facultatem voluntatis; frui autem est uti cum 
+              gaudio non adhuc spei, sed iam rei: ideoque omnis, qui fruitur, 
+              <cb ed="#Z" n="3va" select="zbs-SII-0072_003v.json"/>
+              utitur; assumit enim aliquid in facultatem voluntatis cum fine delectationis. 
+              <cb ed="#Pb" n="3va"/>
+              Non autem omnis, qui utitur, et fruitur; si id quod in 
+              facultatem voluntatis assumit, non propter ipsum, sed propter aliud 
+              appetivit.</quote>
+            <bibl>Augustine, <title>De Trinitate</title> X, n. 13 <!-- unclear if 13 is correct --> (PL 42, 981)</bibl>
+          </cit>
+        </p>
+        
+        <p xml:id="pll1d1c3-d1e3498">Et attende, quia videtur <name ref="#Augustine">Augustinus</name> dicere, illos frui tantum, 
+          qui in re gaudent, non iam in spe; et ita in hac vita non 
+          videmur frui, sed tantum uti, ubi gaudemus in spe, cum supra 
+          dictum sit, frui esse amore inhaerere alicui rei propter se, qualiter 
+          etiam hic multi adhaerent Deo.</p>
+        
+        <p xml:id="pll1d1c3-d1e3504">Haec ergo, quae sibi contradicere videntur, sic determinamus 
+          dicentes, nos et hic et in futuro frui, sed ibi proprie et perfecte 
+          et plene, ubi per speciem videbimus quo fruemur; 
+          <cb ed="P" n="5rb"/>
+          hic autem, dum 
+          in spe ambulamus, fruimur quidem, sed non adeo plene.</p>
+        
+        <p xml:id="pll1d1c3-d1e3507">Unde 
+          <ref><name ref="#Augustine">Augustinus</name> in libro X <title ref="#deTrinitate">De Trinitate</title>:</ref> 
+          <cit>
+            <quote xml:id="pll1d1c3-Qd1e3519">Fruimur cognitis, in quibus ipsis voluntas est.</quote>
+            <bibl>Augustine, <title>De Trinitate</title> X, n. 13 <!-- unclear if 13 is correct --> (PL 42, 981)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d1c3-d1e3533">Item <ref>in libro <title ref="#deDoctrinaChristiana">De doctrina christiana</title></ref> ait: 
+          <cit>
+            <quote xml:id="pll1d1c3-Qd1e3542">Angeli illo 
+              fruentes iam beati sunt, quo et nos frui desideramus; et quantum 
+              in hac vita iam fruimur vel 
+              <cit>
+                <quote xml:id="pll1d1c3-Qd1e3546" ana="#Icor13_12">per speculum vel in aenigmate,</quote>
+                <bibl>I Corinthios 13:12</bibl>
+              </cit>
+              tanto nostra peregrinationem et tolerabilius sustinemus et ardentius finire cupimus.
+            </quote>
+          </cit>
+        </p>
+        <!-- pg. 17 -->
+        <p xml:id="pll1d1c3-d1e3558">Potest etiam dici, quod qui etiam fruitur in hac vita non tantum 
+          habet gaudium spei, sed etiam rei, quia iam delectatur in eo 
+          quod diligit, et ita iam rem aliquatenus tenet. Constat ergo, quia 
+          Deo debemus frui, non uti. 
+          <cit>
+            <quote xml:id="pll1d1c3-Qd1e3562">Illo enim, ut ait Augustinus, 
+              frueris, quo efficieris beatus et in quo spem ponis, ut ad id pervenias.</quote>
+            <bibl>Augustine, <title>De doctrina christiana</title>, I, c. 33, n. 37 (PL 34, 33).</bibl> <!-- confirm -->
+          </cit>
+        </p>
+        <p xml:id="pll1d1c3-d1e3575">De hoc idem ait <ref>in libro <title>De doctrina christiana</title>:</ref> 
+          <cit>
+            <quote xml:id="pll1d1c3-Qd1e3585">Dicimus 
+              ea re frui nos, quam diligimus propter se, et ea re nobis 
+              fruendum esse tantum, qua efficimur beati; ceteris vero utendum.</quote>
+            <bibl>Augustine, <title>De doctrina christiana</title>, I, c. 31, n. 34 (PL 34, 32).</bibl> <!-- confirm -->
+          </cit>  
+          Frequenter tamen 
+          <cit>
+            <quote xml:id="pll1d1c3-Qd1e3599">dicitur frui cum delectatione uti. Cum enim 
+              adest quod diligitur, etiam delectationem secum gerit. Si tamen per 
+              eam transieris, et a illud, ubi permanendum est, eam retuleris, 
+              uteris ea et abusive, non proprie diceris frui. Si vero inhaeseris 
+              atque permanseris, finem in ea ponens laetitiae tuae, tunc vere et 
+              proprie frui dicendus es; quod non est faciendum nisi in illa Trinitate, 
+              id est in summo et incommutabili bono.</quote>
+            <bibl>Augustine, <title>De doctrina christiana</title>, I, c. 33, n. 37 (PL 34, 33).</bibl> <!-- confirm -->
+          </cit>
+        </p>
+        <p xml:id="pll1d1c3-d1e3612">Cum autem homines, qui fruuntur et utuntur aliis rebus, res 
+          aliquae sint, quaeritur 
+          <cit>
+            <quote xml:id="pll1d1c3-Qd1e3616">utrum frui se debeant, an uti, an utrumque.</quote>
+            <bibl>XXX</bibl> <!-- brady offers no citation;  -->
+          </cit>
+        </p>
+        <p xml:id="pll1d1c3-d1e3626">Ad quod sic respondet <ref><name ref="#Augustine">Augustinus</name> in libro 
+          <cb ed="#Z" n="3vb" select="zbs-SII-0072_003v.json"/>
+          <title ref="#deDoctrinaChristiana">De doctrina christiana</title>:</ref> 
+          <cit>
+            <quote xml:id="pll1d1c3-Qd1e3638">Si propter se homo diligendus est, fruimur eo; si 
+              propter aliud, utimur eo: videtur autem mihi propter aliud diligendus. 
+              Quod enim propter se diligendum est, in eo constituitur 
+              <cb ed="#Pb" n="3vb"/>
+              beata vita, cuius etiam spes hoc tempore consolatur. In homine 
+              autem spes ponenda non est, quia 
+              <cit>
+                <quote xml:id="pll1d1c3-Qd1e3642" ana="ier17_5">maledictus est</quote>
+                <bibl>Ierem. 17:5</bibl>
+              </cit>
+              qui hoc facit. 
+              Ergo si liquide advertas, nec seipso quisquam frui debet, quia non 
+              se debet diligere propter se, sed propter illud quo fruendum est.</quote>
+            <bibl>Augustine, <title>De doctrina christiana</title>, I, c. 22, n. XX (PL 34, 26).</bibl> <!-- confirm -->
+          </cit>
+        </p>
+        
+        <p xml:id="pll1d1c3-d1e3661">Huic autem contrarium videtur quod <ref><name ref="#Paul">Apostolus</name> <title ref="#phm">Ad philemonem</title></ref> 
+          loquens ait: 
+          <cit>
+            <quote xml:id="pll1d1c3-Qd1e3672" ana="phm1_20">Ita, frater, ego te fruar in Domino.</quote>
+            <bibl>Ad Philemonem 1:20</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d1c3-d1e3680">Quod ita determinat <name ref="#Augustine">Augustinus</name>: 
+          <cit>
+            <quote xml:id="pll1d1c3-Qd1e3687">Si dixisset tantum 
+              <mentioned>ter fruar</mentioned>, et non addidisset <mentioned>in Domino</mentioned>, videretur finem dilectionis 
+              ac spem constituisse in eo; sed quia illud addidit, <mentioned>in Domino</mentioned> se 
+              finem posuisse eodemque frui significavit.</quote>
+            <bibl>Augustine, <title>De doctrina christiana</title>, I, c. 33, n. 37 (PL 34, 33).</bibl> <!-- confirm -->
+          </cit>
+          <cit>
+            <quote xml:id="pll1d1c3-Qd1e3710">Cum enim, ut 
+              <!-- p. 18 --> 
+              idem <name ref="#Augustine">Augustinus</name> ait, homine in Deo frueris, Deo potius quam 
+              homine frueris.</quote>
+            <bibl>Augustine, <title>De doctrina christiana</title>, I, c. 33, n. 37 (PL 34, 33).</bibl> <!-- confirm -->
+          </cit>
+        </p>
+        <p xml:id="pll1d1c3-d1e3728">Sed cum Deus diligat nos, ut frequenter Scriptura dicit, quae 
+          eius dilectionem erga nos multum commendat, quaerit <name ref="#Augustine">Augustinus</name>, 
+          quomodo diligit an ut utens, an ut fruens, et procedit ita: 
+          <cit>
+            <quote xml:id="pll1d1c3-Qd1e3735">Si fruitur, eget bono nostro, quod nemo sanus dixerit; ait enim 
+              Propheta 
+              <cit>
+                <quote xml:id="pll1d1c3-Qd1e3739">Bonorum meorum non indiges.</quote>
+              </cit>
+              <cb ed="#P" n="5va"/>
+              Omne enim bonum 
+              nostrum vel ipse est, vel ab ipso est: non ergo fruitur nobis, sed 
+              utitur. Si enim nec fruitur nobis nec utitur, non invenio, quomodo 
+              diligat nos. Neque tamen sic utitur nobis, ut nos aliis rebus. Nos 
+              enim res, quibus utimur, ad id referimus, ut Dei bonitate perfruamur: 
+              Deus vero ad suam bonitatem usum nostrum refert: ille enim 
+              miseretur nostri propter suam bonitatem, nos autem nobis invicem 
+              propter illius bonitatem; ille nostri miseretur, ut se perfruamur, 
+              nos vero nostri invicem miseremur, ut illo perfruamur. Cum enim 
+              nos alicuius miseremur et alicui consulimus, ad eius quidem facimus 
+              utilitatem eamque intuemur, sed et nostra fit consequens, cum 
+              misericordiam, quam aliis impedimus, non relinquit Deus sine 
+              mercede. Haec autem merces summa est, ut ipso perfruamur.</quote>
+            <bibl/>
+          </cit>
+        </p>
+        <p xml:id="pll1d1c3-d1e3748">Item: 
+          <cit>
+            <quote xml:id="pll1d1c3-Qd1e3752">Quia bonus est, sumus, et inquantum sumus, boni 
+              sumus. Porro quia etiam iustus est, non impune mali sumus, et 
+              in quantum mali sumus, in tantum etiam minus sumus. Ille igitur 
+              us<cb ed="#Z" n="4ra" select="zbs-SII-0072_004r.json"/>us, quo nobis utitur Deus, non ad eius, sed ad nostram utilitatem 
+              refertur, ad eius vero tantummodo bonitatem.</quote>
+            <bibl>XXX</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d1c3-d1e3760">Hic considerandum est, utrum virtutibus sit utendum, an 
+          fruendum.</p>
+        <p xml:id="pll1d1c3-d1e3763">Quibusdam videtur, quod eis sit utendum et non fruendum, 
+          et hoc confirmant auctoritate <name ref="#Augustine">Augustini</name>, qui, ut praetaxatum 
+          est, dicit, non esse fruendum nisi Trinitate, id est, summo et incommutabili 
+          bono.</p>
+        <p xml:id="pll1d1c3-d1e3770">Item dicunt, ideo non esse fruendum 
+          <cb ed="#Pb" n="4ra"/>
+          eis, quia propter se 
+          amandae non sunt, sed propter aeternam beatitudinem. Illud autem, 
+          quo fruendum est, propter se amandum est.</p>
+        <!-- p. 19 -->
+        <p xml:id="pll1d1c3-d1e3775">Sed quod virtutes propter se amandae non sint, immo propter 
+          solam beatitudinem, probant auctoritate <ref><name ref="#Augustine">Augustini</name>, qui in libro 
+            XIII <title ref="#deTrinitate">De Trinitate</title></ref> contra quosdam ait: 
+          <cit>
+            <quote xml:id="pll1d1c3-Qd1e3786">Forte virtutes, quas 
+              propter solam beatitudinem amamus, sic persuadere nobis audent, 
+              ut ipsam beatitudinem non amemus; quod si faciunt, etiam ipsas 
+              utique amare desistimus, quando illam, propter quam solam istas 
+              amavimus, non amamus.</quote>
+            <bibl><!-- n. 1 --></bibl>
+          </cit>
+          Ecce his verbis videtur <name ref="#Augustine">Augustinus</name> 
+          ostendere, quod virtutes non propter se, sed propter solam beatitudinem 
+          amandae sint. Quod si ita est, ergo eis fruendum non est.</p>
+        <p xml:id="pll1d1c3-d1e3797">Aliis vero contra videtur, scilicet quod eis fruendum sit, quia 
+          propter se petendae et amandae sunt. Et hoc confirmant auctoritate 
+          <name ref="#Ambrose">Ambrosii</name>, qui ait super illum locum <title ref="#gal">Epistolae ad Galatas</title>: 
+          <cit>
+            <quote xml:id="pll1d1c3-Qd1e3807" ana="#gal5_22">Fructus autem spiritus est caritas, gaudium, pax, patientia</quote>
+            <bibl>Galatas 5:22</bibl>
+          </cit>
+          etc.: 
+          <cit>
+            <quote xml:id="pll1d1c3-Qd1e3816">Haec non nominat opera, sed fructus, quia propter 
+              se petenda sunt.</quote>
+            <bibl>Ambrosius, </bibl>
+          </cit> 
+          Si vero propter se petenda sunt, ergo propter se amanda.
+        </p>
+        <p xml:id="pll1d1c3-d1e3824">Nos vero harum quae videntur auctoritatum repugnantiam 
+          de medio eximere cupientes, dicimus, quod virtutes propter se 
+          petendae et amandae sunt, et tamen propter solam beatitudinem. 
+          Propter se quidem amandae sunt, quia delectant sui possessores 
+          sincera et sancta delectatione et in eis 
+          <cb ed="P" n="5vb"/>
+          pariunt gaudium spirituale. 
+          Verumtamen non est hic consistendum, sed ultra gradiendum. Non 
+          hic haereat dilectionis gressus, neque hic sit dilectionis terminus, 
+          sed referatur hoc ad illud summum bonum, cui soli omnino inhaerendum 
+          est, quia illud propter se tantum amandum est, et ultra 
+          illud nihil quaerendum est; illud est enim supremus finis.</p>
+        
+        <p xml:id="pll1d1c3-d1e3827">Ideo <name ref="#Augustine">Augustinus</name> dicit, quo eas diligimus propter solam 
+          beatitudinem, non quin eas propter se diliga<cb ed="#Z" n="4rb" select="zbs-SII-0072_004r.json"/>mus, sed quia id ipsum, 
+          quod eas diligimus, referimus ad illud summum bonum, cui soli 
+          <!-- p. 20 --> 
+          inhaerendum est, et in eo permanendum finique laetitiae ponendus; 
+          quare virtutibus non est fruendum.</p>
+        
+        <p xml:id="pll1d1c3-d1e3836">Sed dicet aliquis: Frui est amore inhaerere alicui rei propter 
+          se ipsam, ut praedictum est; si ergo virtutes propter se amandae 
+          sunt, et eis fruendum est.</p>
+        
+        <p xml:id="pll1d1c3-d1e3839">Ad quod dicimus: In illa descriptione, ubi dicitur propter se 
+          ipsam, intelligendum est tantummodo, ut scilicet ametur propter 
+          se ipsam tantum, ut non referatur ad aliud, sed ibi ponatur finis, 
+          ut supra ostendit <name ref="#Augustine">Augustinus</name> dicens: 
+          <cit>
+            <quote xml:id="pll1d1c3-Qd1e3846">Si inhaeseris atque 
+              permanseris, finem ponens laetitiae, tunc vere et proprie frui dicendus 
+              es. Quod non est faciendum nisi in illa Trinitate, id est 
+              summo et incommutabili bono.</quote>
+            <bibl/> <!-- this quote was used  above -->
+          </cit> 
+          Utendum est ergo virtutibus et 
+          per eas fruendum summo bono; ita et de voluntate bona 
+          <cb ed="#Pb" n="4rb"/>
+          dicimus.
+        </p>
+        <p xml:id="pll1d1c3-d1e3855">Unde <ref><name ref="#Augustine">Augustinus</name> in libro X <title ref="#deTrinitate">De Trinitate</title></ref> ait: 
+          <cit>
+            <quote xml:id="pll1d1c3-Qd1e3866">Voluntas 
+              est per quam fruimur;</quote>
+            <bibl>XXX</bibl>
+          </cit>
+          ita et per virtutes fruimur, non eis, nisi 
+          forte aliqua virtus sit Deus, ut caritas, de qua post tractabitur.
+        </p>
+        <p xml:id="pll1d1c3-d1e3874">
+          <cit>
+            <quote xml:id="pll1d1c3-Qd1e3878">Omnium igitur, quae dicta sunt, ex quo de rebus specialiter 
+              tractavimus, haec summa est:</quote>
+            <bibl><!-- 4 --></bibl>
+          </cit>
+          quo aliae sunt, quibus fruendum, 
+          aliae, quibus utendum, aliae, quae fruuntur et utuntur; et inter 
+          eas, quibus utendum est, etiam quaedam sunt, per quas fruimur, 
+          ut virtutes et potentiae animi, quae sunt naturalia bona. De 
+          quibus omnibus, antequam tractemus de signis, agendum est, ac 
+          primum de rebus, quibus fruendum est, scilicet de sancta atque 
+          individua Trinitate.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

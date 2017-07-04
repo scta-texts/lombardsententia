@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 15, Capitulus 8</title>
+        <author>Petrus Lombardus</author>
+        <editor></editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.10-dev-master">
+          <title>Librum I, Distinctio 15, Capitulus 8</title>
+          <date when="2015-10-29">October 29, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher></publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-10-29">October 29, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-10-29" who="#JW" status="draft" n="2015.10">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d15c8">
+        <head>Librum I, Distinctio 15, Capitulus 8</head>
+        <!-- Quod secundum alterum modum sit semel missus, secundum alterum saepe; 
+          et secundum alterum modum dicitur missus in mundum, secundum alterum non. -->
+        <p xml:id="pll1d15c8-d1e3477">Ecce distincti sunt duo modi missionis Filii, et secundum alterum 
+          semel tantum missus est Dei Filius, secundum alterum saepe 
+          <!-- p. 100 -->
+          missus est et mittitur quotidie: nam secundum alterum missus est, 
+          ut sit homo, quod semel tantum factum est; secundum alterum 
+          vero mittitur, ut sit cum homine, quo modo quotidie mittitur ad 
+          Sanctos, et missus est etiam ante incarnationem ad omnes Sanctos, 
+          qui ante fuerunt, et etiam ad Angelos.</p>
+        <p xml:id="pll1d15c8-d1e3482">Unde <name ref="#Augustine">Augustinus</name> de Filio, id est de Sapientia Patris loquens 
+          in <ref>IV libro <title ref="#deTrinitate">De Trinitate</title></ref> ait: 
+          <cit>
+            <quote xml:id="pll1d15c8-Qd1e3494">Aliter Sapientia mittitur, 
+              ut sit cum homine; aliter missa est, ut sit homo. 
+              <cit>
+                <quote xml:id="pll1d15c8-Qd1e3498" ana="#sap7_27">In animas enim 
+                  sanctas se transfert, et amicos Dei et Prophetas constituit;</quote>
+                <bibl>Sapientia 7:27</bibl>
+              </cit>
+              sicut etiam implet sanctos Angelos. Sed cum venit plenitudo temporis, 
+              missa est, non ut impleret Angelos, nec ut esset Angelus, nec 
+              ut esset cum hominibus vel in hominibus, ut antea in Patribus 
+              erat et in Prophetis, sed ut ipsum Verbum fieret caro, id est 
+              homo.</quote>
+            <bibl>Augustinus, De Trinitate, IV, c. 20, n. 27</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d15c8-d1e3511">Praeterea notandum est, quod cum his duobus modis mittatur 
+          Filius, secundum alterum dicitur missus in mundum, secundum 
+          alterum vero non. Eo enim modo missus in mundum dicitur, quo 
+          visibilis mundo apparuit.</p>
+        <p xml:id="pll1d15c8-d1e3515">Unde <name ref="#Augustine">Augustinus</name> in eodem libro ait: 
+          <cit>
+            <quote xml:id="pll1d15c8-Qd1e3522">Cum ex tempore 
+              cuiusquam mente percipitur, mitti quidem dicitur, sed non in hunc 
+              mundum. Non enim sensibiliter apparet, id est, corporeis sensibus 
+              praesto est. Nam et nos etiam secundum quod mente aliquid aeternum 
+              capimus, non in hoc mundo sumus, et omnium iustorum 
+              spiritus etiam in carne viventium, in quantum divina sapiunt, non 
+              sunt in hoc mundo.</quote>
+            <bibl>Augustinus, De Trinitate, IV, c. 20, n. 28</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d15c8-d1e3530">Ex praedictis liquet, quod praeter ineffabilem genituram duobus 
+          modis mittitur Filius, scilicet cum visibiliter apparuit, vel invisibiliter 
+          percipitur mente.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 23, Capitulus 5</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+        <respStmt>
+          <resp>Encoded in TEI</resp>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 23, Capitulus 5</title>
+          <date when="2015-11-25">November 25, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-11-25">November 25, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d23c5">
+        <head xml:id="pll1d23c4-Hd1e3496">Librum I, Distinctio 23, Capitulus 5</head>
+        <!-- Quod in Trinitate non est diversitas vel singularitas vel solitudo, 
+          sed unitas et trinitas et distinctio et identitas. -->
+        <p xml:id="pll1d23c5-d1e3510">Iam sufficienter, ut puto, ostensum est, qua necessitate dicamus 
+          tres personas, et quare non similiter tres deos vel essentias, 
+          quia scilicet in altero obviat Scriptura, in altero diversitatis intelligentia; 
+          quia ibi nulla penitus et diversitas, sicut nec singularitas 
+          vel solitudo, sed unitas et trinitas.</p>
+        <p xml:id="pll1d23c5-d1e3513">Unde <ref><name ref="#Augustine">Augustinus</name> in libro VII <title ref="#deTrinitate">De Trinitate</title></ref> ait: 
+          <cit>
+            <quote xml:id="pll1d23c5-Qd1e3524">Humana 
+              inopia quaerens, quid diceret tria, dixit tres personas vel 
+              substantias, quibus nominibus non diversitatem voluit intelligi, sed 
+              singularitatem noluit, ut non solum ibi unitas intelligatur ex 
+              eo, quod dicitur una essentia, sed trinitas ex eo, quod dicuntur 
+              tres personae.</quote>
+            <bibl>Augustinus, De Trinitate, VII, c. 4, n. 9 (PL 42:941)</bibl>
+          </cit>
+        </p>
+        <!-- p. 152 --> 
+        <p xml:id="pll1d23c5-d1e3535"><name ref="#HilaryOfPoitiers">Hilarius</name> quoque in libro VII <title ref="#deTrinitate">De Trinitate</title> ait: 
+          <cit>
+            <quote xml:id="pll1d23c5-Qd1e3544">Dominus 
+              dicit: 
+              <cit>
+                <quote xml:id="pll1d23c5-Qd1e3548" ana="#io14_9">Qui me videt, videt et Patrem.</quote>
+                <bibl>Ioannes 14:9</bibl>
+              </cit>
+              Cum hoc dicitur, excluditur 
+              singularis atque unici, id est solitarii intelligentia. Nam nec 
+              solitarium sermo significat, et indifferentem tamen naturam professio 
+              docet. Visus est enim in Filio Pater per naturae unitam 
+              similitudinem. Unum sunt enim natus est generans, unum sunt neque 
+              unus. Non itaque solitarius Filius est, nec singularis, nec dispar.</quote>
+            <bibl>Hilarius, De Trinitate, VII, n. 38 et 39 (PL 10:231)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d23c5-d1e3561">Item in eodem: 
+          <cit>
+            <quote xml:id="pll1d23c5-Qd1e3565">Sicut in Patre et Filio credere duos deos 
+              impium est, ita Patrem et Filium singularem Deum praedicare sacrilegum est. 
+              Nihil in his novum, nihil diversum, nihil alienum, 
+              nihil separabile est.</quote>
+            <bibl>Hilarius, De Trinitate, VII, n. 39 (PL 10:231)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d23c5-d1e3573">De hoc etiam <name resp="#Augustine">Augustinus</name> in libro <title>Quaestionum veteris ac 
+          novae Legis</title> ait: 
+          <cit>
+            <quote xml:id="pll1d23c5-Qd1e3583">Unus est Deus, sed non singularis.</quote>
+            <bibl>Augustinus, Quaestiones ex veteri et novo Testamento, q. 122 (PL 35:2367)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d23c5-d1e3591">Item <ref>in libro <title ref="#deTrinitate">De Trinitate</title> <name ref="#Ambrose">Ambrosius</name></ref> ait: 
+          <cit>
+            <quote xml:id="pll1d23c5-Qd1e3603">Quod unius 
+              est substantiae separari non potest, etsi non sit singularitatis, sed 
+              unitatis.</quote>
+            <bibl>Ambrosius, De Trinitate, XXX</bibl>
+          </cit>
+          <cit>
+            <quote xml:id="pll1d23c5-Qd1e3612">Deus unus cum dicitur, nequaquam Deitatis trinitatem 
+              excludit, et ideo non quod singularitatis, sed quod unitatis 
+              est praedicatur.</quote>
+            <bibl>Ambrosius, De Trinitate, XXX</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d23c5-d1e3620">Ecce ex praedictis ostenditur, quod nec singularis nec diversus 
+          nec unicus vel solitarius confitendus est Deus, quia singularitas vel 
+          solitudo personarum pluralitatem excludit, et diversitas unitatem 
+          essentiae tollit. Diversitas inducit separationem Divinitatis, singularitas 
+          adimit distinctionem Trinitatis.</p>
+        <p xml:id="pll1d23c5-d1e3623">Ideo <ref><name resp="#Ambrose">Ambrosius</name> in II libro <title ref="#deTrinitate">De Trinitate</title></ref> ait: 
+          <cit>
+            <quote xml:id="pll1d23c5-Qd1e3634">Non est 
+              diversa nec singularis aequalitas;</quote>
+            <bibl>Augustinus, De Trinitate, II</bibl>
+          </cit>
+          <cit>
+            <quote xml:id="pll1d23c5-Qd1e3643">nec iuxta Sabellianos Patrem 
+              <!-- p. 153 -->
+              Filiumque confundens, nec iuxta Arianos Patrem Filiumque secernens. 
+              Pater enim et Filius distinctionem habent, separationem vero 
+              non habent.</quote>
+            <bibl/>
+          </cit>
+        </p>
+        <p xml:id="pll1d23c5-d1e3653">Item in eodem: 
+          <cit>
+            <quote xml:id="pll1d23c5-Qd1e3657">Pater et Filius divinitate unum sunt, nec 
+              est ibi substantiae differentia nec ulla diversitas; alioquin quomodo 
+              unum Deum dicimus? Diversitas enim plures facit.</quote>
+          </cit>
+        </p>
+        <p xml:id="pll1d23c5-d1e3662">Constat ergo ex praedictis, quia in Trinitate nulla est diversitas; 
+          si tamen aliquando in Scriptura invenitur dictum tres diversae 
+          personae et huiusmodi, diversas dicit distinctas.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

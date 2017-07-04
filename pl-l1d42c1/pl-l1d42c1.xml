@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 42, Capitulus 1</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 42, Capitulus 1</title>
+          <date when="2016-01-23">January 23, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-01-23">January 23, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d42c1">
+        <head xml:id="pll1d42c1-Hd1e3496">Librum I, Distinctio 42, Capitulus 1</head>
+        <!-- De omnipotentia Dei, quare dicatur omnipotens, cum nos multa possimus, quae ipse non possit. -->
+        <p xml:id="pll1d42c1-d1e3501">Nunc de omnipotentia Dei agendum est, ubi prima consideratio 
+          occurrit, quomodo vere Deus dicatur omnipotens: an quia 
+          omnia possit, an tantum, quia ea possit quae vult.</p>
+        <p xml:id="pll1d42c1-d1e3504">Quod enim Deus omnia possit, pluribus auctoritatibus probatur.</p>
+        <p xml:id="pll1d42c1-d1e3507">Ait enim <ref><name ref="#Augustine">Augustinus</name> in libro <title>Quaestionum veteris ac novae 
+          Legis</title>:</ref>
+          <cit>
+            <quote xml:id="pll1d42c1-Qd1e3519">Omnia quidem potest Deus, sed non facit nisi quod 
+              convenit veritati eius et iustitiae.</quote>
+            <bibl>Augustinus, Quaestionum ex novo Test., q. 97 (PL 35:2291)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d42c1-d1e3528"><ref>Idem in eodem:</ref> 
+          <cit>
+            <quote xml:id="pll1d42c1-Qd1e3534">Potuit Deus cuncta simul facere, sed 
+              ratio prohibuit,</quote>
+            <bibl>Augustinus, Quaestionum ex novo Test., q. 106 (PL 35:2320)</bibl>
+          </cit>
+          id est voluntas. Rationem nempe ibi voluntatem 
+          appellavit, quia Dei voluntas rationabilis est et aequissima. 
+          Fatendum est ergo, Deum omnia posse.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

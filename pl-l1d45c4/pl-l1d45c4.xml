@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 45, Capitulus 4</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 45, Capitulus 4</title>
+          <date when="2016-01-24">January 24, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-01-24">January 24, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+          <witness xml:id="Z" n="zbsSII72" xml:base="http://www.e-codices.unifr.ch/metadata/iiif/zbs-SII-0072/canvas/">Solothurn, Zentralbibliothek, Cod. S II 72</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <cb ed="#Z" n="49rb" select="zbs-SII-0072_049r.json"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d45c4">
+        <head xml:id="pll1d45c4-Hd1e3504">Librum I, Distinctio 45, Capitulus 4</head>
+        <!-- Quod Dei voluntas summe bona causa est omnium, quae naturaliter sunt, eius autem 
+          causa non est quaerenda, quia prima est et summa causa omnium. -->
+        <p xml:id="pll1d45c4-d1e3509">Haec itaque summe bona voluntas causa est omnium, quae 
+          naturaliter fiunt vel facta sive futura sunt, quae nulla praeventa 
+          est causa, quia aeterna est. Ideoque causa ipsius quaerenda non 
+          est: qui enim eius causam quaerit, aliquid maius ea quaerit, cum 
+          nihil maius ea sit.</p>
+        <p xml:id="pll1d45c4-d1e3512">Unde <ref><name ref="#Augustine">Augustinus</name> in libro <title ref="#deDiversisQuaestionibus">83 Quaestionum</title>:</ref> 
+          <cit>
+            <quote xml:id="pll1d45c4-Qd1e3524">Qui quaerit, 
+              quare voluerit Deus mundum facere, causam quaerit voluntatis 
+              Dei. Omnis autem causa efficiens maior est eo quod efficitur; 
+              nihil autem maius est voluntate Dei; non ergo eius causa quaerenda 
+              est.</quote>
+            <bibl>Augustinus, De Diversis Quaestionibus, q. 28 (PL 40:18)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d45c4-d1e3532">Ideo <ref>in libro <title>Contra Manichaeos</title>:</ref> 
+          <cit>
+            <quote xml:id="pll1d45c4-Qd1e3542">Si qui dixerint: 
+              Quid placuit Deo facere caelum et terram? respondendum est eis 
+              qui voluntatem Dei nosse desiderant, causas et voluntatem Dei 
+              scire quaerunt: quod voluntas Dei omnium quae sunt, ipsa sit 
+              causa. Si enim habet causam voluntas, est aliquid, quod antecedat 
+              vo<cb ed="#Z" n="49rb" select="zbs-SII-0072_049r.json"/>luntatem Dei, quod nefas est credere. Qui ergo dicit: Quare 
+              Deus fecit caelum et terram respondendum est illi: quia voluit. 
+              Voluntas enim Dei causa est caeli et terrae, et ideo maior est voluntas 
+              Dei quam caelum et terra. Qui autem dicit: Quare voluit 
+              facere caelum et terram? maius aliquid quaerit, quam est voluntas 
+              <!-- 274 --> 
+              Dei; nihil autem maius inveniri potest. Compescat ergo se humana 
+              temeritas, et id quod non est non quaerat, ne id quod est non 
+              inveniat.</quote>
+            <bibl>Augustinus, De Genesi contra Manichaeos, I, c. 2, n. 4 (PL 34:175)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d45c4-d1e3555">Ecce his auctoritatibus aperte insinuatur, quod voluntatis 
+          Dei causa nulla est, et ideo quaerenda non est.</p>
+        <p xml:id="pll1d45c4-d1e3558">
+          <cit>
+            <quote xml:id="pll1d45c4-Qd1e3562">Voluntas igitur Dei, ut ait <ref><name ref="#Augustine">Augustinus</name> in libro III <title ref="#deTrinitate">De Trinitate</title>,</ref> 
+              prima et summa est causa omnium specierum atque motionum: 
+              nihil enim fit, quod non de interiori atque intelligibili aula 
+              summi Imperatoris egrediatur secundum ineffabilem iustitiam.</quote>
+            <bibl>Augustinus, De Trinitate, III, c. 4, n. 9 (PL 42:873)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d45c4-d1e3578">
+          <cit>
+            <quote xml:id="pll1d45c4-Qd1e3582">Ubi enim non operatur quod vult omnipotentis Dei sapientia, 
+              quae 
+              <cit>
+                <quote xml:id="pll1d45c4-Qd1e3586" ana="#sap8_1">pertingit a fine usque ad finem fortiter, et disponit 
+                  omnia suaviter?</quote>
+                <bibl>Sap 8:1</bibl>
+              </cit>
+            </quote>
+            <bibl>Augustinus, De Trinitate, III, c. 1, n. 6 (PL 42:871)</bibl>
+          </cit>
+          <cit>
+            <quote xml:id="pll1d45c4-Qd1e3600">et non solum ea quae perseverantia consuetudinis 
+              admirationem non admittunt,</quote>
+            <bibl>Augustinus, De Trinitate, III, c. 2, n. 8</bibl>
+          </cit>
+          <cit>
+            <quote xml:id="pll1d45c4-Qd1e3609">sed etiam ea quae 
+              propter raritatem et insolitum eventum mira videntur, ut sunt defectus 
+              luminarium et terrae motus et monstruosi animantium partus 
+              et his similia, quorum nihil fit sine Dei voluntate. Sed plerisque 
+              non apparet; ideoque placuit vanitati philosophorum etiam 
+              causis aliis ea tribuere, cum omnino videre non possent superiorem 
+              ceteris omnibus causam, id est voluntatem Dei. Itaque non 
+              nisi Dei voluntas causa prima est sanitatis, aegritudinis, praemiorum 
+              atque poenarum, gratiarum et retributionum.</quote>
+            <bibl>Augustinus, De Trinitate, III, c. 3, n. 8 et c. 4, n. 9 </bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d45c4-d1e3617">Haec igitur sola est, unde ortum est quidquid est, et ipsa non 
+          est orta sed aeterna.</p>
+        
+      </div>
+    </body>
+  </text>
+</TEI>

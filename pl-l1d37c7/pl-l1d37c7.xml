@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 37, Capitulus 7</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 37, Capitulus 7</title>
+          <date when="2016-01-14">January 14, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-01-14">January 14, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d37c7">
+        <head xml:id="pll1d37c7-Hd1e3496">Librum I, Distinctio 37, Capitulus 7</head>
+        <!-- Quid sit mutari secundum tempus -->
+        <p xml:id="pll1d37c7-d1e3501">Mutari autem per tempus est variari secundum qualitates interiores, 
+          quae sunt in ipsa re, quae mutatur, ut quando suscipit 
+          vicissitudinem gaudii, doloris, scientiae, oblivionis, vel variationem 
+          formae sive alicuius qualitatis exterioris. Haec enim mutatio, quae 
+          fit secundum tempus, variatio est qualitatum, quae fit in corporali 
+          vel spirituali creatura, et ideo vocatur tempus.</p>
+        <p xml:id="pll1d37c7-d1e3504">De mutatione vero loci magna inter conquirentes disceptatio 
+          versatur. Sunt enim qui dicunt, nullum spiritum aliquo modo 
+          posset mutari loco, ab omni spiritu locum universaliter removere 
+          volentes, quoniam secundum dimensionem tantum et circumscriptionem 
+          locum constare asserunt, atque in solum locale vel in loco 
+          esse dicunt, quod dimensionem recipit, et distantiam in loco facit. 
+          Et hoc dicunt <name ref="#Augustine">Augustinum</name> sensisse, mutationem temporis tantum 
+          spirituali creaturae tribuentem, loci vero et temporis corporeae.</p>
+        <p xml:id="pll1d37c7-d1e3510">Sed, ut supra diximus, dupliciter dicitur res esse localis vel 
+          circumscriptibilis, scilicet vel quia dimensionem recipit et distantiam 
+          facit, vel quia loci termino definitur, quorum utrumque convenit 
+          corporeae creaturae, alterum vero tantum spirituali. Nam, ut supra 
+          diximus, corporalis creatura ita est localis vel circumscriptibilis, 
+          quod terminatur definitione loci, et quod dimensionem recipiens 
+          distantiam facit; spiritualis vero tantum definitione loci 
+          concluditur, cum ita sit alicubi, quod non alibi; sed nec dimensionem 
+          recipit, nec distantiam in loco facit, quia si multi spiritus 
+          essent hic, non coangustarent locum, quo minus de corporibus 
+          <!-- 238 -->
+          contineret. Ideoque <name ref="#Augustine">Augustinus</name> attribuit mutationem loci corpori, 
+          non spiritui, quia licet spiritus transeat de loco ad locum, 
+          non tamen ita, ut dimensionibus circumscriptus, interpositione sui 
+          faciat distantiam circumstantium, sicut corpus.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

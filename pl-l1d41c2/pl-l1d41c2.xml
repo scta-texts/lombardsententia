@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 41, Capitulus 2</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 41, Capitulus 2</title>
+          <date when="2016-01-22">January 22, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-01-22">January 22, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d41c2">
+        <head xml:id="pll1d41c2-Hd1e3496">Librum I, Distinctio 41, Capitulus 2</head>
+        <!-- De variis super hoc carnalium opinionbius -->
+        <p xml:id="pll1d41c2-d1e3501">Opinati sunt quidam tamen, Deum ideo elegisse <name ref="#Jacob">Iacob</name>, quia 
+          talem futurum praescivit, qui in eum crederet et ei serviret.</p>
+        <p xml:id="pll1d41c2-d1e3507">Quod aliquando se <ref><name ref="#Augustine">Augustinus</name> sensisse dicit in libro <title>Retractationum</title>,</ref> 
+          ubi aperte ostendit, quod si propter futura merita 
+          electus esset, iam non ex gratia esset electio. Non ergo ideo 
+          electus est a Deo, quia talis futurus erat, sed ex electione talis 
+          est factus, ita dicens: 
+          <cit>
+            <quote xml:id="pll1d41c2-Qd1e3519">Disputans, quid elegerit Deus in nondum 
+              nato, cui dixit, serviturum esse maiorem, et quid in eodem 
+              maiore similiter nondum nato reprobaverit, ad hoc perduxi ratiocinationem, 
+              ut dicerem: Non ergo elegit Deus opera cuiusquam in 
+              praescientia, quae ipse daturus est, sed fidem elegit in praescientia, 
+              et quem sibi crediturum esse praescivit, ipsum elegit, cui 
+              <!-- 255 -->
+              Spiritum sanctum daret, ut bona operando etiam aeternam vitam 
+              consequeretur.</quote>
+            <bibl>xxx</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d41c2-d1e3529">Ecce hic aperte dicit, non propter opera eum elegisse, sed 
+          propter fidem, qua eum praescivit crediturum.</p>
+        <p xml:id="pll1d41c2-d1e3533">Sed quia et in fide meritum est, sicuti et in operibus, hoc 
+          retractavit dicens: 
+          <cit>
+            <quote xml:id="pll1d41c2-Qd1e3537">Nondum diligentius quaesiveram nec adhuc 
+              inveneram, qualis sit electio gratiae, de qua dicit <name ref="#Paul">Apostolus</name>: 
+              <cit>
+                <quote xml:id="pll1d41c2-Qd1e3544" ana="#rom11_5">Reliquiae per electionem gratiae salvae fient;</quote>
+                <bibl>Romanos 11:5</bibl>
+              </cit>
+              quae utique non 
+              est gratia, si ex meritis procedit, ut iam quod datur non secundum 
+              gratiam, sed secundum debitum reddatur potius meritis, quam 
+              donetur. Proinde quod continuo dixi: Dicit enim idem <name ref="#Paul">Apostolus</name>: 
+              <cit>
+                <quote xml:id="pll1d41c2-Qd1e3556" ana="#Icor12_6">Idem Deus qui operatur omnia in omnibus.</quote>
+                <bibl>I Cor 12:6</bibl>
+              </cit>
+              Nusquam 
+              autem dictum est: Deus credit omnia in omnibus. Ac deinde 
+              subiunxi: Quod ergo credimus, nostrum est; quod vero bonum 
+              operamur, illius est, qui credentibus dat Spiritum sanctum. Profecto 
+              non dicerem, si iam scirem, etiam ipsam fidem inter Dei munera 
+              reperiri, quae dantur in eodem spiritu. Utrumque ergo nostrum 
+              est propter arbitrium voluntatis, et utrumque datum est per 
+              spiritum fidei et caritatis. Et quod paulo post dixi: Nostrum est 
+              enim credere et velle, illius autem dare credentibus et volentibus 
+              facultatem bene operandi per 
+              <cit>
+                <quote xml:id="pll1d41c2-Qd1e3565" ana="#rom5_5">Spiritum sanctum, per quem caritas 
+                  diffunditur in cordibus nostris,</quote>
+                <bibl>Romanos 5:5</bibl>
+              </cit>
+              verum est quidem, sed eadem 
+              regula et utrumque ipsius est, quia ipse praeparat voluntatem, 
+              et utrumque nostrum, quia non fit, nisi volentibus nobis;</quote>
+            <bibl>xxx (1)</bibl>
+          </cit>
+          ergo et meritum fidei de misericordia Dei venit. Non ergo propter 
+          fidem vel aliqua merita elegit Deus aliquos ab aeterno, vel apposuit 
+          gratiam iustificationis in tempore, sed gratuita bonitate sua 
+          elegit, ut boni essent.</p>
+        <p xml:id="pll1d41c2-d1e3578">Unde <ref><name ref="#Augustine">Augustinus</name> in libro <title>De praedestinatione Sanctorum</title>:</ref> 
+          <cit>
+            <quote xml:id="pll1d41c2-Qd1e3590">Non quia futuros nos tales esse praescivit, ideo elegit, 
+              sed ut essemus tales per ipsam electionem gratiae suae, qua 
+              <cit>
+                <quote xml:id="pll1d41c2-Qd1e3594" ana="#eph1_6">gratificavit 
+                  nos in dilecto Filio suo</quote>
+                <bibl>Ephesios 1:6</bibl>
+              </cit>
+            </quote>
+            <bibl>Augustinus, De praedestinatione Sanctorum, c. 19, n. 38 (PL 44:988)</bibl>
+          </cit>
+        </p>
+        <!-- 256 -->
+        <p xml:id="pll1d41c2-d1e3609">His tamen videtur adversari, quod dicit <ref><name ref="#Augustine">Augustinus</name> <title>Super 
+          Malachiam</title></ref> prophetam, ubi scriptum est: 
+          <cit>
+            <quote xml:id="pll1d41c2-Qd1e3620" ana="#mal1_2"><!-- and mal 1_3 --><name ref="#Jacob">Iacob</name> dilexi, <name>Esau</name> 
+              autem odio habuit:</quote>
+            <bibl>Malach 1:2-3</bibl>
+          </cit>
+          <cit>
+            <quote xml:id="pll1d41c2-Qd1e3635">
+              <cit>
+                <quote xml:id="pll1d41c2-Qd1e3639" ana="#rom9_18">Cui vult, inquit, miseretur, et quem vult 
+                  indurat.</quote>
+                <bibl>Romanos 9:18</bibl>
+              </cit>
+              Sed haec voluntas Dei iniusta esse non potest. Venit 
+              enim de occultissimis meritis, quia et ipsi peccatores cum 
+              propter generale peccatum unam massam fecerunt, non tamen 
+              nulla inter eos est diversitas. Praecedit ergo aliquid in peccatoribus, 
+              quo, quamvis nondum sint iustificati, digni efficiantur iustificatione. 
+              Et item praecedit in aliis peccatoribus, quo digni sunt 
+              obtusione.</quote>
+            <bibl>Augustinus, De Diversis Quaestionibus, q. 68, n. 4 (PL 40:72)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d41c2-d1e3652">Ecce hic videtur <name ref="#Augustine">Augustinus</name> dicere, quod et ipsa Dei voluntas, 
+          qua alios elegit, alios reprobat, ex meritis veniat, sed 
+          occultissimis, id est, quod pro meritis alios voluerit eligere, alios 
+          reprobare, et quod pro meritis aliis apponitur gratia iustificationis, 
+          aliis non, unde obtunduntur.</p>
+        <p xml:id="pll1d41c2-d1e3658">
+          <cit>
+            <quote xml:id="pll1d41c2-Qd1e3662">Sed quid intelligere voluerit, ignoratur, nisi forte dicatur hoc 
+              intellexisse, quod supra diximus eum retractasse. Nam ibidem 
+              etiam quaedam alia continue subdit, quae in libro <title ref="#Retractationum">Retractionum</title> 
+              aperte retractat; quod utrumque legenti patebit. Unde verisimile 
+              est, in praemissis etiam hoc retractasse.</quote>
+            <bibl>xxx</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d41c2-d1e3674">Quidam tamen ex eo sensu accipiunt fore dictum, non quia 
+          aliquis praedestinetur pro meritis vel iustificationis gratiam mereatur, 
+          sed quia aliqui non adeo mali sunt, ut mereantur sibi 
+          gratiam non impetriri. Nullus enim gratiam Dei mereri potest, per 
+          quam iustificatur; potest tamen mereri, ut non apponatur, ut penitus 
+          abiiciatur. Et quidem aliqui in tantum profundum iniquitatis 
+          devenerunt, ut hoc mereantur, ut hoc digni sint; alii vero 
+          ita vivunt, ut, etsi non mereantur gratiam iustificationis, non tamen 
+          merentur omnino repelli et gratiam sibi subtrahi. Ideoque 
+          dixit, in quibusdam praecedere quo digni sint iustificatione, et 
+          in aliis quo dignis sint obtusione. Sed hoc frivolum est.</p>
+        <!-- 257 -->
+        <p xml:id="pll1d41c2-d1e3679">
+          <cit>
+            <quote xml:id="pll1d41c2-Qd1e3683">Multi vero de isto profundo quaerentes reddere rationem, 
+              atque secundum coniecturas cordis sui inscrutabilem altitudinem 
+              iudiciorum Dei cogitare conantes, in fabulas vanitatis abierunt, dicentes, 
+              quia animae sursum in caelo peccant et secundum sua peccata 
+              ad corpora pro meritis diriguntur, et dignis sibi quasi carceribus 
+              includuntur. Ierunt hi tales post cogitationes suas, et volentes 
+              disputare de Dei profundo, versi sunt in profundum, dicentes, animas 
+              in caelo ante conversatas, et ibi aliquid boni vel mali egisse, et pro 
+              meritis ad corpora terrena destruas esse. Hoc autem respuit catholica 
+              fides propter evidentem <name ref="#Paul">Apostoli</name> sententiam, qua ait: 
+              <cit>
+                <quote xml:id="pll1d41c2-Qd1e3690" ana="#rom9_11"> <!-- and rom9_12 -->Cum 
+                  nondum nati essent, aut aliquid boni vel mali egissent</quote>
+                <bibl>Romanos 9:11-12</bibl>
+              </cit>
+            </quote>
+            <bibl>Augustinus, serm. 165, c. 5, n. 6 (PL 38:905)</bibl>
+          </cit>
+          etc. 
+          Melior est ergo fidelis ignorantia quam temeraria scientia.</p>
+        <p xml:id="pll1d41c2-d1e3705">
+          <cit>
+            <quote xml:id="pll1d41c2-Qd1e3709">Elegit ergo quos voluit gratuita misericordia, non quia fideles 
+              erant futuri, sed ut fideles essent, eisque gratiam dedit, non quia 
+              fideles erant, sed ut fierent. Ait enim <name ref="#Paul">Apostolus</name>: 
+              <cit>
+                <quote xml:id="pll1d41c2-Qd1e3716" ana="#Icor7_25">Misericordiam 
+                  consecutus sum, ut fidelis essem;</quote>
+                <bibl>I Cor 7:25</bibl>
+              </cit>
+              non ait, quia fidelis eram. Datur 
+              quidem et fideli, sed data est etiam prius, ut esset fidelis.</quote>
+            <bibl>Augustinus, Retractionum I, c. 23, n. 4 (PL 32:622); et De praedest. Sanctor. c. 3, n. 7 (PL 44:964)</bibl>
+          </cit>
+          Ita 
+          etiam reprobavit quod voluit, non propter merita futura, quae praevideret, 
+          veritate tamen rectissima, et a nostris sensibus remota.</p>
+        <p xml:id="pll1d41c2-d1e3729">Sed quaeritur, utrum, sicut dicitur elegisse quosdam, ut 
+          boni fierent et fideles, ita etiam concedi debeat, reprobasse quosdam, 
+          ut mali essent et infideles, et obdurare, ut peccent.</p>
+        <p xml:id="pll1d41c2-d1e3732">Quod nullatenus concedit oportet: Non enim reprobatio ita est 
+          causa mali, sicut praedestinatio causa boni; neque obduratio ita 
+          facit homine malum, quemadmodum misericordia facit bonum.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

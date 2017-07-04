@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber I, Distinctio 36, C. 5</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber I, Distinctio 36, C. 5</title>
+          <date when="2017-07-04">July 4, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative
+              Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="Quaracchi1916">Quaracchi 1916 Volume 1</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-07-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l2d36c5">
+        <head>Liber I, Distinctio 36, C. 5</head>
+        <head type="question-title">Quod, cum peccatum. etiam sit poena peccati, peccatum, est ab
+          homine, poena a Deo.</head>
+        <p> Quod autem quaedam peccata poena e isint, et ipsa poena ius-ta sit et a Deo sit,
+          Augustinus evidenter tradit in libro ! Retracta- tionum 3 dicens, quaedam necessitate
+          fieri ab homine, quae mala Sunt, et eadem iusta poena peccati sunt: « Sunt, inquit 7",
+          necessi— tate facta improbanda, ubi vnlt homo reete 9 facere, et non potest. </p>
+        <p> « Unde est illud A pos to li4: Non. quod. volo facio bonum, sed - quod odi malum, hoc
+          ago. Et illud 5: Caro concupiscit adver- sus spiritum, et spiritus adversus carnem. Haec
+          enim invi- cem. h adversantur, ut non ea quae vultis, faeiatis;,sed haec omnia ex illa
+          mortis damnatione sunt z'. Nam si non est ista poena hominis, sed natura, nulla ista
+          peccata sunt: si enim non rece- ditur ab eo modo, quo naturaliter factus 'est homo, cum
+          haec facit, ea utique facit, quae debet. Si autem homo, quia ita est, non est bonus, nec
+          habet in potestate ut sit bonus —-- sive» non videndo qualis esse debeat, sive videndoR et
+          non valendo esse qualem se» esse debere videt 5— poenam istam esse, quis dubitet? <pb
+            ed="#Q" n="503"/> Omnis autem poena, si peccati poena est, iusta est et sapplicium
+          nominatur. Si. autem iniusta est poena -— quoniam poenam esse, nemo ambigit — iniusto
+          aliquo dominante homini imposita est. «Porro, quia de omnipotentia 0" Dei et iustitia
+          dubitare dementis est, iusta est haec poena et pro peccato aliquo impenditur. ') Non enim
+          quisquam iniuste dominans, aut suriipere hominem potuit, veluti ignoranti Deo, aut
+          extorquere invito tanquam invalidiori, ut homi- nem iniusta poena cruciaret Relinquitur
+          ergo, ut haec poena iusta de damnatione bominis veniat». </p>
+        <p> His atque aliis pluribus testimoniis docetur, quaedam esse pec- cata et poenas peccati
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

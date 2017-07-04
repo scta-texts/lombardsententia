@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="/Users/jcwitt/Projects/lombardpress/lombardpress-schema/src/1.0/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="/Users/jcwitt/Projects/lombardpress/lombardpress-schema/src/1.0/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum II, Distinctio 15, Capitulus 6</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2016-08-05">August 05, 2016</date>
+        </edition>
+      </editionStmt>
+    	<publicationStmt>
+    		<authority>A Sentences Commentary Text Project</authority>
+    		<availability status="free">
+    			<p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+    		</availability>
+    	</publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+          <witness xml:id="Z" n="zbsSII72" xml:base="http://www.e-codices.unifr.ch/metadata/iiif/zbs-SII-0072/canvas/">Solothurn, Zentralbibliothek, Cod. S II 72</witness>
+        	<witness xml:id="H" n="hopkinsMSB19" xml:base="http://scta.info/iiif/pl-hopkins/canvas/">Baltimore, Hopkins</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+  	<encodingDesc>
+  		<variantEncoding method="parallel-segmentation" location="internal"/>
+  		<schemaRef n="lbp-critical-1.0.0" target="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/critical.rng"/>
+  		<editorialDecl>
+  			<p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a critical edition.</p>
+  		</editorialDecl>
+  	</encodingDesc>
+  	<revisionDesc status="draft">
+  		<listChange>
+  			<change when="2016-07-20" status="draft" n="0.0.0-dev">
+  				<p>Created file for the first time.</p>
+  			</change>
+  		</listChange>
+  	</revisionDesc>
+  </teiHeader>
+  <text type="critical" xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+      	<!-- <pb ed="#H" n="68-v" facs="68v"/><cb ed="#H" n="b"/> -->
+      </div>
+    </front>
+  	<body>
+  		<div xml:id="pl-l2d15c6">
+  			<head xml:id="pll2d15c6-Hd1e3513">Librum II, Distinctio 15, Capitulus 6</head>
+  			<head xml:id="pll2d15c6-Hd1e3516" type="questionTitle">De sententia illorum qui simul omnia facta esse contendunt</head>
+  			<p xml:id="pll2d15c6-d1e3519">Aliis autem videtur, quod non per intervalla temporum facta 
+  				sint, sed simul ita formata ad esse prodierint.</p>
+  			<p xml:id="pll2d15c6-d1e3522">Quod <name ref="#Augustine">Augustinus</name> <title>Super Genesim</title> pluribus modis nititur 
+  				ostendere dicens, 
+  				<cit>
+  					<quote xml:id="pll2d15c6-Qd1e3532">elementa quatuor ita formata sicut modo 
+  						apparent, ab initio exstitisse, et caelum sideribus ornatum fuisse; 
+  						quaedam vero non formaliter, sed materialiter tunc facta fuisse: 
+  						quaedam vero non formaliter, sed materialiter tunc facta fuisse, 
+  						quae post, per temporis accessum, formaliter distincta sunt, ut herbae, 
+  						arbores et forte animalia. Omnia ergo in ipso temporis initio 
+  						facta esse dicunt, sed quaedam formaliter et secundum species 
+  						quas habere cernimus, ut maiores mundi partes; quaedam vero 
+  						materialiter tamen</quote>
+  					<bibl>Augustinus, Super Genesim, IV, c. 32, n. 49, 50; V, c. 4-5 (PL 34:16)</bibl> <!-- dbcheck -->
+  				</cit>
+  			</p>
+  			<p xml:id="pll2d15c6-d1e3542">Sed, ut dicunt, Moyses, loquens rudi et carnali populo, locutionis 
+  				modum temperavit, de Deo loquens a simili hominis, qui per 
+  				moras temporum opera sua perficit, cum ipse simul sua opera 
+  				fecerit.</p>
+  			<p xml:id="pll2d15c6-d1e3546">Unde <name ref="#Augustine">Augustinus</name>: 
+  				<cit>
+  					<quote xml:id="pll2d15c6-Qd1e3553">Ideo, inquit, Moyses divisim refert, 
+  						Deum illa opera fecisse, quia non potuit simul ab homine dici, quod 
+  						a Deo simul potuit fieri</quote>
+  					<bibl>Augustinus, Super Genesim, I, c. 10, n. 19; c. 15, n. 29 (PL 34:253 et sqq.)</bibl>
+  				</cit>.
+  			</p>
+  			<p xml:id="pll2d15c6-d1e3561">Item: 
+  				<cit>
+  					<quote xml:id="pll2d15c6-Qd1e3565">Potuit dividere Scriptura loquendi temporibus, quod 
+  						Deus operandi temporibus non divisit</quote>
+  					<bibl>Augustinus, Super Genesim, I, xxx</bibl>
+  				</cit>.
+  			</p>
+  			<p xml:id="pll2d15c6-d1e3573">Illi qui his auctoritatibus et aliis huiusmodi inhaerentes dicunt, 
+  				quatuor elementa atque caeli luminaria ita formata, simul esse 
+  				habuisse, illos sex dies, quos Scriptura memorat, sex rerum 
+  				genera, id est distinctiones appellant, quae simul factae sunt, partim 
+  				formaliter, partim causaliter.</p>
+  		</div>  
+  	</body>
+  </text>
+</TEI>

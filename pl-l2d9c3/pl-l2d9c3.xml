@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum II, Distinctio 9, Capitulus 3</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.1-dev">
+          <title>Librum II, Distinctio 9, Capitulus 3</title>
+          <date when="2016-05-30">May 30, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-05-30">May 30, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+          <witness xml:id="Z" n="zbsSII72" xml:base="http://www.e-codices.unifr.ch/metadata/iiif/zbs-SII-0072/canvas/">Solothurn, Zentralbibliothek, Cod. S II 72</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="0.0.1">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        
+      </div>
+    </front>
+  	<body>
+  		<div xml:id="pl-l2d9c3">
+  			<head xml:id="pll2d9c3-Hd1e3508">Librum II, Distinctio 9, Capitulus 3</head>
+  			<head xml:id="pll2d9c3-Hd1e3511" type="questionTitle">Quod nomina illa sumta a donis gratiae, non propter se, sed propter nos eis data</head>
+  			<p xml:id="pll2d9c3-d1e3514">Haec nomina illis non propter se, sed propter nos data sunt. 
+  				Qui enim sibi noti sunt contemplatione, nobis innotescunt cognominatione; 
+  				et nominantur singuli ordines a donis gratiarum, quae 
+  				non singulariter, sed excellenter data sunt in participatione. In 
+  				illa enim caelesti patria, ubi plenitudo boni est, licet quaedam data 
+  				sint excellenter, nihil tamen possidetur singulariter: omnia enim 
+  				in omnibus sunt, non quidem aequaliter, quia alii aliis sublimius possident, 
+  				quae tamen omnes habent. Cumque omnia dona gratiarum 
+  				superiores ordines sublimius et perfectius perceperint, tamen ex 
+  				praecipuis sortiti sunt vocabula, inferioribus cetera relinquentes
+  				<!-- 347 -->
+  				ordinibus ad cognominationem; ut Seraphim, qui ordo excellentissimus 
+  				aestimatur, tam dilectionem quam cognitionem divinitatis 
+  				et cetera virtutum dona ceteris omnibus sublimius percepti; et 
+  				tamen ab excellentiori dono, id est a caritate, nomen accepit ille 
+  				superior ordo: maius enim donum est caritas quam scientia.</p>
+  			<p xml:id="pll2d9c3-d1e3519">Item, maius est scire quam iudicare; scientia namque informat 
+  				iudicium; ideoque secundus ordo a secundo dono, id est 
+  				cognitione veritatis appellatus est, scilicet Cherubim. Ita et de aliis 
+  				intelligendum est.</p>
+  			<p xml:id="pll2d9c3-d1e3522">
+  				<cit>
+  					<quote xml:id="pll2d9c3-Qd1e3526">Assignatur ergo excellentia ordinum secundum excellentiam 
+  						donorum; et tamen, sicut <name ref="#GregoryGreat">Gregorius</name> ait, illa dona omnibus sunt 
+  						communia: omnes enim ardent caritate, et scientia pleni sunt</quote>
+  					<bibl>Gregorius, xxx, n. 14</bibl>
+  				</cit>
+  				sic et de aliis; sed superiores aliis excellentius, ut iam dictum 
+  				est, ipsa acceperunt, a quibus et nominantur. <!-- end quotatio mark here without clear opening quotation -->
+  			</p>
+  			<p xml:id="pll2d9c3-d1e3540">Unde <name ref="#GregoryGreat">Gregorius</name>: 
+  				<cit>
+  					<quote xml:id="pll2d9c3-Qd1e3547">In illa summa civitate quisque ordo 
+  						eius rei censetur nomine, quam plenius accepit in munere.</quote>
+  					<bibl>Gregorius, xxx, 14</bibl>
+  				</cit>
+  			</p>
+  			<p xml:id="pll2d9c3-d1e3555">
+  				<cit>
+  					<quote xml:id="pll2d9c3-Qd1e3559">Sed oritur hic quaestio talis: Si quisque ordo ab illo dono 
+  						nominatur, quod plenius possidet, tunc Cherubim in scientia praeeminet 
+  						omnibus, quia a scientia nominatur.</quote>
+  					<bibl>Gregorius, xx, n. 10</bibl> <!-- not sure -->
+  				</cit>
+  			</p>
+  			<p xml:id="pll2d9c3-d1e3569">
+  				<cit>
+  					<quote xml:id="pll2d9c3-Qd1e3573">Sed qui magis diligit plus <sic>congnoscit</sic> (tantum enim, ut tradit 
+  						auctoritas, cognoscit ibi quisque quantum diligit); ita Seraphim 
+  						non solum in caritate, sed etiam in scientia praeeminent. Ideoque 
+  						auctoritas illa sic videtur intelligenda, ut comparatio non referatur 
+  						ad omnes ordines, sed ad quosdam, scilicet inferiores. Ille enim 
+  						ordo non plenius Seraphim accipit scientiam in munere, sed plenius 
+  						aliis ordinibus, qui sunt inferiores. Nec nominatur ordo quisque 
+  						ab omni re, quam plenius aliis accepti, sed ab aliqua rerum, 
+  						quas accepit</quote>
+  					<bibl>Gregorius, xx, n. 10</bibl>
+  				</cit>
+  			</p>
+  			<p xml:id="pll2d9c3-d1e3584">
+  				<cit>
+  					<quote xml:id="pll2d9c3-Qd1e3588">Vel potest comparatio referri non ad ipsos ordines, sed ad 
+  						alia dona, nec ad omnia alia dona, sed ad quaedam. Sicut enim 
+  						homines, cum plura habeant dona, quaedam aliis excellentius possident, 
+  						ita forte et Angeli quibusdam muneribus magis pollent et 
+  						aliis quibusdam minus.</quote>
+  					<bibl>Hugo Sum. Sent., xxx</bibl>
+  				</cit>
+  			</p>
+  			
+  		</div>
+  	</body>
+  </text>
+</TEI>

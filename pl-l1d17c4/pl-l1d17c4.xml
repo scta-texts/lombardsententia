@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 17, Capitulus 4</title>
+        <author>Petrus Lombardus</author>
+        <editor></editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 17, Capitulus 4</title>
+          <date when="2015-11-03">November 03, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher></publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-11-03">November 03, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-03" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d17c4">
+        <head xml:id="pll1d17c4-Hd1e3472">Librum I, Distinctio 17, Capitulus 4</head>
+        <!-- Quomodo Spiritus sanctus mittatur vel detur nobis -->
+        <p xml:id="pll1d17c4-d1e3477">Tunc enim mitti vel dari nobis dicitur, cum ita in nobis 
+          est, ut facit nos diligere Deum et proximum, per quod manemus 
+          in Deo et Deus in nobis.</p>
+        <p xml:id="pll1d17c4-d1e3480">Unde <name ref="#Augustine">Augustinus</name> hunc missionis modum insinuans, in <ref>XV 
+          libro <title ref="#deTrinitate">De Trinitate</title></ref> ait: 
+          <cit>
+            <quote xml:id="pll1d17c4-Qd1e3492">Deus Spiritus sanctus, qui procedit 
+              ex Deo, cum datus fuerit homini, accendit eum ad diligendum 
+              Deum et proximum, et ipse dilectio est. Non enim habet homo. 
+              <!-- p. 110 -->
+              unde Deum diligat, nisi ex Deo.</quote>
+            <bibl>Augustinus, De Trinitate, XV, c. 17, n. 31 (PL 42:1080) <!-- dbcheck PL reference --></bibl>
+          </cit>
+          Ecce quomodo datur vel mittitur 
+          nobis Spiritus sanctus, secundum quod dicitur datum sive 
+          donum.</p>
+        <p xml:id="pll1d17c4-d1e3503">Quod donum <name ref="#Augustine">Augustinus</name> commendat explanans apertius 
+          quomodo datur, in eodem libro: 
+          <cit>
+            <quote xml:id="pll1d17c4-Qd1e3510">
+              <cit>
+                <quote xml:id="pll1d17c4-Qd1e3514" ana="#rom5_5">Dilectio, inquit, Dei diffusa est 
+                  in cordibus nostris ut ait <name ref="#Paul">Apostolus</name>, per Spiritum sanctum, 
+                  qui datus est nobis.</quote>
+                <bibl>Romanos 5:5</bibl>
+              </cit>
+              Nullum est isto Dei dono excellentius. Solum 
+              est, quod dividit inter filios regni et filios perditionis. Dantur et 
+              alia per Spiritum munera, sed sine caritate nihil prosunt. Nisi ergo 
+              tantum impertiatur cuiquam Spiritus sanctus, ut eum Dei et proximi 
+              faciat amatorem, a sinistra non transfertur ad dexteram. Nec 
+              Spiritus sanctus proprie dicitur donum nisi propter dilectionem, 
+              quam qui non habuerit, etsi 
+              <cit>
+                <quote xml:id="pll1d17c4-Qd1e3526" ana="#Icor13_1">loquatur omnibus linguis, et habuerit 
+                  prophetiam et omnem scientiam et omnem fidem, et distribuerit 
+                  substantiam suam, et tradiderit corpus suum, ut ardeat nihil 
+                  ei prodest.</quote>
+                <bibl>I Corinthios 13:1</bibl>
+              </cit>
+              Quantum ergo bonum est, sine quo ad aeternam vitam 
+              neminem tanta bona perducunt? Ipsa vero dilectio vel caritas 
+              -- nam unius rei nomen est utrumque -- perducit ad regnum. 
+              Dilectio igitur, quae ex Deo est et Deus, proprie Spiritus sanctus 
+              est, per quem 
+              <cit>
+                <quote xml:id="pll1d17c4-Qd1e3535" ana="#rom5_5">diffunditur in cordibus nostris</quote>
+                <bibl>Romanos 5:5</bibl>
+              </cit>
+              Deus caritas, per 
+              quam nos tota inhabitat Trinitas. Quocirca rectissime Spiritus sanctus, 
+              cum sit Deus, vocatur etiam donum Dei. Quod donum proprie 
+              quid nisi caritas intelligendum est, quae perducit ad Deum, 
+              et sine qua quodlibet aliud Dei donum non perducit ad Deum?</quote>
+            <bibl>Augustinus, De Trinitate, XV, c. 18, n. 32 (PL 42:1080) <!-- dbcheck PL reference --></bibl>
+          </cit>
+          Ecce hic aperitur, quod supra dictum erat, scilicet quod caritas 
+          sit aperitur, quod supra dictum erat, scilicet quod caritas 
+          sit Spiritus sanctus et donum excellentius, et quomodo hoc 
+          donum, id est Spiritus sanctus, detur nobis, scilicet cum ita impertitur 
+          alicui, id est, ita habet esse in aliquo, ut eum faciat Dei et 
+          proximi amatorem. Quod cum facit, tunc dari dicitur sive mitti 
+          alicui, et tunc ille dicitur proprie habere Spiritum sanctum.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

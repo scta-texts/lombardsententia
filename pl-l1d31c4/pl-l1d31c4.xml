@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 31, Capitulus 4</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 31, Capitulus 4</title>
+          <date when="2015-12-27">December 27, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-12-27">December 27, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d31c4">
+        <head xml:id="pll1d31c4-Hd1e3496">Librum I, Distinctio 31, Capitulus 4</head>
+        <!-- Quare Pater et Filius dicantur unum esse 
+          vel unus Deus, sed non unus --> 
+        <p xml:id="pll1d31c4-d1e3501">Hic dici oportet, quod Pater et Filius et Spiritus sanctus recte 
+          dicuntur esse unum et unus Deus, sed non unus. Res enim duae 
+          vel plures recte possunt dici unum esse, si sint unius essentiae, 
+          et earum una sit natura. Unus autem vel una non potest dici de 
+          diversis rebus, nisi addatur, quid unus vel una; quo addito, recte 
+          potest dici de rebus et unius et diversae substantiae.</p>
+        <p xml:id="pll1d31c4-d1e3504">Unde <ref><name ref="#Augustine">Augustinus</name> in VI libro <title ref="#deTrinitate">De Trinitate</title></ref> ait sic: 
+          <cit>
+            <quote xml:id="pll1d31c4-Qd1e3515">Nescio, 
+              utrum inveniatur in Scripturis dicutm, unum sunt, quorum 
+              est diversa natura. Si autem et aliqua plura eiusdem naturae sint, 
+              et diversa sentiant, non sunt unum, in quantum diversa sentiunt. 
+              Cum ergo sic dicitur unum, ut non addatur quid unum, et plura 
+              unum dicuntur; eadem natura atque essentia, non dissidens neque 
+              dissentiens significatur.</quote>
+            <bibl>Augustinus, De Trinitate, VI, c. 3, n. 4 (PL 42:926)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d31c4-d1e3523">
+          <cit>
+            <quote xml:id="pll1d31c4-Qd1e3527">Unde Paulus et Apollo, qui et ambo homines erant et idem 
+              sentiebant, unum esse dicuntur, cum dicitur: 
+              <cit>
+                <quote xml:id="pll1d31c4-Qd1e3531" ana="#Icor3_8">Qui plantat et qui 
+                  rigat unum sunt.</quote>
+                <bibl>I Cor 3:8</bibl>
+              </cit>
+              Cum vero additur quid unum, potest aliquid 
+              significari ex pluribus unum factum, quamvis diversis natura; 
+              sicut anima et corpus non possunt utique dici unum -- quid enim 
+              tam diversum? -- nisi addatur vel subintelligatur, quid unum, id 
+              est unus homo. Unde <name ref="#Paul">Apostolus</name>: 
+              <cit>
+                <quote xml:id="pll1d31c4-Qd1e3543" ana="#IIcor6_7">Qui adhaeret, inquit, Domino 
+                  unus spiritus est.</quote>
+                <bibl>I Cor 6:7</bibl>
+              </cit>
+              Non dixit: Unus est, vel unum sunt, sed 
+              addidit <mentioned>spiritus</mentioned>. Diversi sunt enim natura spiritus hominis et spiritus 
+              Dei, sed inhaerendo fit spiritus hominis unus spiritus cum 
+              Deo,</quote>
+            <bibl>Augustinus, De Trinitate, VI, c. 3, n. 4 (PL 42:926)</bibl>
+          </cit>
+          quia particeps fit veritatis et beatitudinis illius. Si ergo de 
+          his quae diversae substantiae sunt, recte dicitur, quod sint <mentioned>unus 
+            spiritus,</mentioned> quanto magis qui unius substantiae sunt, recte dicuntur 
+          unus Deus esse? 
+          <cit>
+            <quote xml:id="pll1d31c4-Qd1e3563">Pater ergo et Filius unum sunt, utique secundum 
+              unitatem substantiae, et unus Deus.</quote>
+            <bibl>Xxx</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d31c4-d1e3572">In quo Ariana haeresis damnatur, quae Patrem et Filium et 
+          Spiritus sanctum, ut ait <ref><name ref="#Augustine">Augustinus</name> in libro <title>De haeresibus,</title></ref> 
+          non vult esse unius eiusdemque substantiae atque naturae vel, ut 
+          expressius dicatur, essentiae, quae Graece dicitur usia, sed Filium 
+          esse creaturam. Nec non et Sabelliana, quae, ut ait <ref><name ref="#Augustine">Augustinus</name> 
+            in eodem libro,</ref> dicebat, Christum eundem ipsum et Patrem et 
+          Spiritum sanctum esse, ut esset trinitas nominum sine subsistentia 
+          personarum.</p>
+        <!-- where i left on pg. 197 -->
+        <p xml:id="pll1d31c4-d1e3589">
+          <cit>
+            <quote xml:id="pll1d31c4-Qd1e3593">Utrum pestem, ut ait <ref><name ref="#Augustine">Augustinus</name> <title>Super Ioannem</title>,</ref> 
+              elidit Veritas dicens: 
+              <cit>
+                <quote xml:id="pll1d31c4-Qd1e3605">Ego et Pater unum sumus.</quote>
+                <bibl/>
+              </cit>
+              Utrumque audi, 
+              et adverte et <mentioned>unum</mentioned> et <mentioned>sumus,</mentioned> et a Charybdi et a Scylla liberaberis. 
+              Quod enim dixit <mentioned>unum,</mentioned> liberat te ab Ario; quod dixit <mentioned>sumus,</mentioned> 
+              liberat te a Sabellio. Si <mentioned>unum,</mentioned> ergo non diversum; si <mentioned>sumus,</mentioned> 
+              ergo et Pater et Filius: <mentioned>sumus</mentioned> enim non diceret de uno, nec 
+              <mentioned>unum</mentioned> de diverso. Erubescant ergo Sabelliani, qui dicunt, ipsum 
+              esse Patrem, qui est Filius, confundentes personas, qui et dicit sunt 
+              Patripassiani, quia dicunt, Patrem fuisse passum. Ariani vero dicunt, 
+              aliud dicunt, Patrem fuisse passum. Ariani vero dicunt, 
+              aliud Patrem esse, aliud Filium, non unam substantiam sed 
+              duas: Patrem maiorem, Filium minorem. Noli hoc dicere, tu catholice! 
+              <!-- p. 198 --> 
+              In medio ergo naviga, utrumque periculosum latus devita 
+              et dic: Pater pater est , et Filius filius est; alius Pater, alius 
+              Filius, sed non aliud, immo hoc iopsum, quia unus Deus.</quote>
+            <bibl>Augustinus, Super Ioannem, a. 36 et 41 (PL 42:32)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d31c4-d1e3644">Ecce ostensum est, quare unitas esse in Patre dicatur, cum 
+          tres illi unum sint.</p>
+        <!-- paragraph in smaller font -->
+        <p xml:id="pll1d31c4-d1e3649"><ref><name ref="#Hilarius">Hilarius</name> in libro <title>De Synodis</title>:</ref> 
+          <cit>
+            <quote xml:id="pll1d31c4-Qd1e3660">Minus forte expresse videtur de indifferenti 
+              similitudine Patris et Filii fides locuta esse, cum de Patre et Filio et Spiritu 
+              sancto ita senserit significatam in nominibus propriam uniuscuiusque nominatorum 
+              substantiam et ordinem et gloriam, ut sint quidem per substantiam tria, per 
+              consonantiam vero unum. Volens igitur congregata sanctorum Synodus impietatem 
+              illam perimere, quae veritatem Patris et Filii et Spiritus sancti nominum 
+              numero eluderet, ut, non subsistente causa uniuscuiusque nominis, 
+              triplex nuncupatio obtineret sub falsitate nominum unionem, et Pater solus atque 
+              unus idem et ipse haberet et Spiritus sancti nomen et Filii. Idcirco tres substantias 
+              esse dixerunt, subsistentium personas per substantias edocentes, non 
+              substantiam Patris et Filii diversitate dissimilis essentiae separantes. Quod autem 
+              dictum est, ut sint quidem per substantiam tria, per consonantiam vero unum, 
+              non habet calumniam; quia connominato Spiritu, id est Paraclito, consonantiae 
+              potius quam essentiae per similitudinem substantiae praedicari convenit unitatem.</quote>
+            <bibl>Hilarius, De Synodis, Num 31, 32 (PL 10:504)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d31c4-d1e3669">Idem <ref>in eodem:</ref> 
+          <cit>
+            <quote xml:id="pll1d31c4-Qd1e3676">Cum Deum Patrem confitemur, et Christum Dei Filium 
+              praedicamus, et inter haec duorum deorum sit irreligiosa confessio, non possunt 
+              secundum naturae indifferentiam et nomen indifferens non unum esse in essentiae 
+              genere, quorum essentiae nomen non licet esse nisi unum. Non enim religiosa 
+              unitas nominis ex indifferentis naturae essentia constitutam personam 
+              genitae ademit essentiae, ut unica ac singularis Dei substantia per unionem 
+              nominis intelligatur, cum utriusque essentiae nomen unum, id est Deus unus, 
+              ob indiscretae in utroque naturae indissimilem substantiam praedicetur.</quote>
+            <bibl>Hilarius, De Synodis, Num 41 et 42 (PL 10:513, 514)</bibl>
+          </cit>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

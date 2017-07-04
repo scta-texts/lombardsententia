@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 35, Capitulus 4</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 35, Capitulus 4</title>
+          <date when="2016-01-05">January 05, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-01-05">January 05, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d35c4">
+        <head xml:id="pll1d35c4-Hd1e3496">Librum I, Distinctio 35, Capitulus 4</head>
+        <p xml:id="pll1d35c4-d1e3499">Praedestinatio de hominibus salvandis, et de bonis, 
+          quibus et hic liberantur et in futuro coronabuntur. Praedestinavit 
+          autem ab aeterno Deus homines ad bona eligendo, et praedestinavit 
+          eis bona praeparando.</p>
+        <p xml:id="pll1d35c4-d1e3502">Quod homines praedestinavit, <name ref="#Paul">Apostolus</name> ostendit dicens: 
+          <cit>
+            <quote xml:id="pll1d35c4-Qd1e3509" ana="#rom8_29">Praedestinavit quos praescivit fieri conformes imaginis Filii 
+              sui.</quote>
+            <bibl>Romanos 8:29</bibl>
+          </cit>
+          Et alibi: 
+          <cit>
+            <quote xml:id="pll1d35c4-Qd1e3518" ana="#eph1:4">Elegit nos ante mundi constitutionem, ut essemus 
+              sancti et immaculati.</quote>
+            <bibl>Ephes. 1:4</bibl>
+          </cit>
+        </p>
+        <!-- p. 221 -->
+        <p xml:id="pll1d35c4-d1e3528">Quod autem eis bona praeparaverit, propheta <name ref="#is">Isaias</name> ostendit 
+          dicens: 
+          <cit>
+            <quote xml:id="pll1d35c4-Qd1e3535" ana="#is64_4">Oculus non vidit, Deus, absque te, quae praeparasti diligentibus 
+              vel exspectantibus te.</quote>
+            <bibl>Isaias 64:4 et I Cor 2:9</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d35c4-d1e3544">Ergo ab aeterno praedestinavit quosdam futuros bonos et beatos, 
+          id est elegit, ut essent boni et beati, et bona eis praedestinavit, 
+          id est praeparavit.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 37, Capitulus 8</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 37, Capitulus 8</title>
+          <date when="2016-01-14">January 14, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-01-14">January 14, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d37c8">
+        <head xml:id="pll1d37c8-Hd1e3496">Librum I, Distinctio 37, Capitulus 8</head>
+        <!-- Utrum spiritus creati sint locales et circumscriptibiles -->
+        <p xml:id="pll1d37c8-d1e3501">Sunt ergo spiritus creati in loco et transeunt de loco ad locum, 
+          et quodam modo locales et circumscriptibiles sunt, sed non 
+          omni eo modo, quo creaturae corporeae. Spiritus autem increatus, 
+          qui Deus est, in loco quidem est et in omni loco, sed omnino in-localis 
+          et incircumscriptibilis est.</p>
+        <p xml:id="pll1d37c8-d1e3504">Unde <name ref="#Bede">Beda</name> <title>Super Lucam</title> ait: 
+          <cit>
+            <quote xml:id="pll1d37c8-Qd1e3514">Cum ad nos Angelis veniunt, 
+              sic exterius implent ministerium, ut tamen ante Deum interius 
+              per contemplationem assistant, quia, etsi Angelus est spiritus 
+              circumscriptus, summus tamen spiritus, qui Deus est, incircumscriptus 
+              est, intra quem currit Angelus, quocumque mittatur.</quote>
+            <bibl>Beda, Super Lucam, (1)</bibl>
+          </cit>
+          Ecce hic dicitur, quia spiritus angelicus circumscriptus est, spiritus autem, 
+          qui Deus est, incircumscriptus.</p>
+        <p xml:id="pll1d37c8-d1e3522">Alibi etiam <name ref="#Ambrose">Ambrosius</name>, distantiam ostendens inter spiritum 
+          increatum et spiritum creatum, dicit, Seraph de loco ad locum 
+          transire, ita inquiens <ref>in libro <title>De Trinitate</title>:</ref> 
+          <cit>
+            <quote xml:id="pll1d37c8-Qd1e3535">Dixit <name ref="#Isaias">Isaias</name>: Quia 
+              <cit>
+                <quote xml:id="pll1d37c8-Qd1e3542" ana="#is6_6">missus est ad me unus de Seraphim.</quote>
+                <bibl>Isaias 6:6</bibl>
+              </cit>
+              Et Spiritus quidem sanctus 
+              missus dicitur, sed Seraph ad unum, Spiritus ad omnes. Seraph 
+              mittitur in ministerio, Spiritus operatur mysterium. Seraph de 
+              loco ad locum transit - non enim complet omnia - sed ipse 
+              repletur a Spiritu.</quote>
+            <bibl>Ambrosius, De Spiritu sancto, c. 10, n. 115, et c. 11, n. 116 (PL 16:731, 732) </bibl>
+          </cit>
+          Hic aperte monstratur, quo Angeli quodam 
+          modo locales sunt.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

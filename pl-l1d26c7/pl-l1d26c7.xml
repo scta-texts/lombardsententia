@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 26, Capitulus 7</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 26, Capitulus 7</title>
+          <date when="2015-12-14">December 14, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-12-14">December 14, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d26c7">
+        <head xml:id="pll1d26c7-Hd1e3496">Librum I, Distinctio 26, Capitulus 7</head>
+        <!-- Utrum Pater vel Trinitas ipsa vel Filius possit dici spiritus sanctus -->
+        <p xml:id="pll1d26c7-d1e3501">Hic quaeri potest, utrum Pater vel Filius vel etiam ipsa Trinitas 
+          possit dici spiritus sanctus, sicut disiunctim dicitur et spiritus et 
+          sanctus.</p>
+        <p xml:id="pll1d26c7-d1e3504">De hoc <name ref="#Augustine">Augustinus</name> in V libro <title ref="#deTrinitate">De Trinitate</title> sic ait: 
+          <cit>
+            <quote xml:id="pll1d26c7-Qd1e3514">Trinitas nullo modo potest dici filius, spiritus vero sanctus potest 
+              quidem universaliter dici, secundum id quod scriptum est: 
+              <cit>
+                <quote xml:id="pll1d26c7-Qd1e3518" ana="#io4_24">Quoniam Deus spiritus est.</quote>
+                <bibl>Ioannes 4:24</bibl>
+              </cit>
+              Itaque Pater et Filius et Spiritus 
+              sanctus, quoniam unus est Deus, et utique Deus sanctus est, et 
+              Deus spiritus est, potest appellari trinitas, et spiritus <!-- why isn't this capitalized --> sanctus. Sed 
+              <!-- p. 170 -->
+              tamen tunc spiritus sanctus relative non dicetur, sed secundum 
+              essentiam, quia proprie Spiritus sanctus, qui non est Trinitas, sed 
+              in Trinitate, dicitur relative.</quote>
+            <bibl>Augustinus, De Trinitate, V, xxx</bibl>
+          </cit>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

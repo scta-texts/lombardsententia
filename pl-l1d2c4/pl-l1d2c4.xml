@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 2, Capitulus 4</title>
+        <author>Petrus Lombardus</author>
+        <editor></editor>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.09-dev-master">
+          <title>Librum I, Distinctio 2, Capitulus 4</title>
+          <date when="2015-09-20">September 20, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher></publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-09-20">September 20, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+          <witness xml:id="Z" n="zbsSII72" xml:base="http://www.e-codices.unifr.ch/metadata/iiif/zbs-SII-0072/canvas/">Solothurn, Zentralbibliothek, Cod. S II 72</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-20" who="#JW" status="draft" n="2015.09">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include
+          href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml"
+          xpointer="worksCited"/>
+        <xi:include
+          href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml"
+          xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <cb ed="#Z" n="4va" select="zbs-SII-0072_004v.json"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d2c4">
+        <head>Librum I, Distinctio 2, Capitulus 4</head>
+        <p xml:id="pll1d2c4-d1e3473">Proponamus ergo in medium veteris ac novi Testamenti auctoritates, 
+          quibus divinae 
+          <cb ed="#Z" n="4vb" select="zbs-SII-0072_004v.json"/>
+          Unitatis atque Trinitatis veritas demonstretur.</p>
+        
+        <p xml:id="pll1d2c4-d1e3476">Ac primum ipsa Legis exordia occurant, ubi <name ref="#Moses">Moyses</name> ait: 
+          <cit>
+            <quote xml:id="pll1d2c4-Qd1e3483" ana="#deut6_4">Audi Israel, Dominus Deus tuus, Deus unus est.</quote>
+            <bibl>Deut. 6:4</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d2c4-d1e3491">Item: 
+          <cit>
+            <quote xml:id="pll1d2c4-Qd1e3495" ana="#ex20_23">Ego sum Dominus Deus tuus, qui eduxi te de 
+              terra Aegypti; non erunt tibi dii alii praeter me.</quote>
+            <bibl>Exodus 20:23</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d2c4-d1e3503">Ecce hic significavit unitatem divinae naturae. 
+          <cit>
+            <quote xml:id="pll1d2c4-Qd1e3507"><mentioned>Deus</mentioned> enim 
+              et <mentioned>Dominus</mentioned>, ut ait <ref><name ref="#Ambrose">Ambrosius</name> in I libro <title>de Trinitate</title></ref>, 
+              nomen est naturae, nomen est potestatis.</quote>
+            <bibl>Ambrose, De Trinitate sive De fide ad Gratian, c. 1, n. 7 (PL 16:530)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d2c4-d1e3528">Item alibi Deus loquens ad <name ref="#Moses">Moysen</name> ait: 
+          <cit>
+            <quote xml:id="pll1d2c4-Qd1e3535" ana="#ex3_14">Ego sum qui sum, 
+              et si quaesierint nomen meum, vade et dic eis: Qui est, misit 
+              me ad vos.</quote>
+            <bibl>Exodus 3:14</bibl>
+          </cit>
+          Dicens enim <mentioned>Ego sum,</mentioned> non nos sumus et <mentioned>qui est,</mentioned> 
+          non qui sumus, 
+          <cb ed="#Pb" n="4vb"/>
+          apertissime declaravit, unum solum Deum esse.</p>
+        
+        <p xml:id="pll1d2c4-d1e3549">In <title ref="#cant">Cantico</title> etiam <title ref="#ex">Exodi</title> legitur: 
+          <cit>
+            <quote xml:id="pll1d2c4-Qd1e3559" ana="#ex15:3">Dominus, omnipotens nomen 
+              eius</quote>
+            <bibl>Exodus 15:3</bibl>
+          </cit>
+          Non ait <mentioned>Domini</mentioned>, unitatem volens significare.
+        </p>
+        <p xml:id="pll1d2c4-d1e3570">Personarum quoque pluralitatem et naturae unitatem simul 
+          ostendit 
+          <cb ed="P" n="6rb"/>
+          Dominus in <title ref="#gen">Genesi</title> dicens: 
+          <cit>
+            <quote xml:id="pll1d2c4-Qd1e3577" ana="#gen1_26">Faciamus homine ad imaginem 
+              et similitudinem nostram.</quote>
+            <bibl>Genesis 1:26</bibl>
+          </cit>
+          Dicens <mentioned>faciamus</mentioned> et <mentioned>nostram</mentioned>, 
+          pluralitatem personarum ostendit: dicens vero <mentioned>imaginem</mentioned>, unitatem 
+          essentiae.</p>
+        <p xml:id="pll1d2c4-d1e3594">Ut enim dicit <ref><name ref="#Augustine">Augustinus</name> in libro <title>De fide ad Petrum</title>:</ref> 
+          <cit>
+            <quote xml:id="pll1d2c4-Qd1e3606">Si in illa natura Patris et Filii et Spiritus sancti una esset tantum 
+              <!-- p. 24 --> persona, non diceretur: 
+              <cit>
+                <quote xml:id="pll1d2c4-Qd1e3612" ana="#gen1_26">Faciamus hominem ad imaginem 
+                  et similitudinem nostram.</quote>
+                <bibl>Genesis 1:26</bibl>
+              </cit>
+              Cum enim dicit <mentioned>ad imaginem</mentioned>, ostendit, 
+              unam naturam esse, ad cuius imaginem homo fieret; cum vero 
+              dicit <mentioned>nostram,</mentioned> ostendit, eundem Deum non unam, sed plures esse 
+              personas.</quote>
+          </cit>
+        </p>
+        <p xml:id="pll1d2c4-d1e3628">
+          <ref><name ref="#HilaryOfPoitiers">Hilarius</name> quoque in libro III <title>De Trinitate</title></ref> dicit, his verbis 
+          significari, quod in Trinitate nec diversitas est nec singularitas, 
+          nec solitudo, sed similitudo et pluralitas sive distinctio. Ait enim 
+          sic: 
+          <cit>
+            <quote xml:id="pll1d2c4-Qd1e3639">Qui dixit: 
+              <cit>
+                <quote xml:id="pll1d2c4-Qd1e3643" ana="#gen1_26">Faciamus hominem ad imaginem et similitudinem 
+                  nostram,</quote>
+                <bibl>Genesis 1:26</bibl>
+              </cit>
+              invidem esse sui similes in eo quod dicit: <mentioned>imaginem 
+                et similitudinem nostram,</mentioned> ostendit. Imago enim sola non 
+              est, et similitudo non sibi est: neque diversitatem duobus admisceri 
+              alterius ad alterum similitudo permittit.</quote>
+            <bibl>Hilarius, De Trinitate, IV, n. 18, 19, 20 (PL 10:111)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d2c4-d1e3659">Item <ref>idem in IV libro:</ref> 
+          <cit>
+            <quote xml:id="pll1d2c4-Qd1e3666">Absolutius voluit intelligi, significationem 
+              hanc non ad se tantum esse referendam, dicendo: 
+              <cit>
+                <quote xml:id="pll1d2c4-Qd1e3670" ana="#gen1_26">Faciamus 
+                  hominem ad imaginem et similitudinem nostram;</quote>
+                <bibl>Genesis 1:26</bibl>
+              </cit>
+              professio 
+              enim consortii sustulit intelligentiam singularitatis, quia consortium 
+              aliquod non potest sibi ipsi esse solitario, neque rursum solitudo 
+              solitarii <mentioned>faciamus</mentioned> recipit, neque quisquam alieno a se loquitur 
+              <mentioned>nostram.</mentioned> Uterque igitur sermo, scilicet <mentioned>faciamus</mentioned> et <mentioned>nostram</mentioned>, 
+              ut solitarium eundemque non patitur, ita neque diversum 
+              a se alienumque 
+              <cb ed="#Z" n="5ra" select="zbs-SII-0072_005r.json"/>
+              significat. Solitario convenit faciam et meam; 
+              non solitario vero convenit <mentioned>faciamus</mentioned> et <mentioned>nostram</mentioned>. Uterque 
+              sermo, ut non solitarium tantum, ita neque differentem esse vel diversum 
+              esse significat. Nobis quoque nec solitarius, nec diversus 
+              est confitendus. Ita ergo Deus ad communem sibi cum Deo imaginem 
+              eandemque similitudinem hominem reperitur operari; ut 
+              nec significatio efficientis admittat intelligentiam solitudinis, nec 
+              operatio constituta ad eandem imaginem vel similitudinem patiatur 
+              diversitatem divinitatis.</quote>
+          </cit>
+        </p>
+        <p xml:id="pll1d2c4-d1e3700">In his verbis <name ref="#HilaryOfPoitiers">Hilarius</name> pluralitatem personarum voluit intelligi 
+          nomine consortii, atque significavit, nomine consortii vel 
+          pluralitatis non poni aliquid, sed removeri. Pluralitas enim vel consortium 
+          personarum cum dicitur, 
+          <cb ed="#Pb" n="5ra"/>
+          solitudo et singularitas negatur; 
+          <!-- p. 25 -->
+          cum dicimus, plures esse personas, significamus, quod non est 
+          una sola.</p>
+        <p xml:id="pll1d2c4-d1e3708">Ideo <name ref="#HilaryOfPoitiers">Hilarius</name> volens ista subtiliter et sane intelligi, ait: 
+          <cit>
+            <quote xml:id="pll1d2c4-Qd1e3715">Professio consortii sustulit intelligentiam singularitatis,</quote>
+            <bibl>Hillarius, De Trinitate, XXX</bibl>
+          </cit>
+          non 
+          dicit posuit aliquid. Ita etiam cum dicimus tres personas, singularitatem 
+          et solitudinem tollimus, et quod Pater non est solus, nec 
+          Filius est solus, nec Spiritus sanctus est solus, significamus, et 
+          quod nec Pater tantum est et Filius, nec Pater tantum et Spiritus 
+          sanctus, nec Filius tantum et Spiritus sanctus. De hoc autem in 
+          sequenti plenius agetur, ubi etiam secundum 
+          <cb ed="P" n="6va"/>
+          quid similes dicantur 
+          tres personae, et utrum aliquo modo sit ibi diversitas vel 
+          differentia, ostendetur.</p>
+        <p xml:id="pll1d2c4-d1e3723">Nunc vero ad propositum redeamus et ad ostendendam pluralitatem 
+          personarum atque essentiae divinae unitatem alias Sanctorum 
+          auctoritates inducamus.</p>
+        <p xml:id="pll1d2c4-d1e3726"><name ref="#Moses">Moyses</name> dicit: 
+          <cit>
+            <quote xml:id="pll1d2c4-Qd1e3732" ana="#gen1_1">In principio creavit Deus caelum et terram,</quote>
+            <bibl>Genesis 1:1</bibl>
+          </cit>
+          per Deum significans Patrem, per principium Filium. Et pro 
+          <!-- 26 --> 
+          eo quod apud nos dicitur Deus, Hebraica veritas habet <mentioned>heloym</mentioned>, 
+          quod est plurale huius singularis, quod est <mentioned>hel</mentioned>. Quod ergo non 
+          est dictum <mentioned>hel</mentioned>, quod est Deus, sed <mentioned>heolym,</mentioned> quod potest interpretari 
+          dii sive iudices, ad pluralitatem personarum refertur.</p>
+        <p xml:id="pll1d2c4-d1e3755">Ad quam etiam illud attinere videtur, quod diabolus per serpentem 
+          dixit: 
+          <cit>
+            <quote xml:id="pll1d2c4-Qd1e3759" ana="#gen3_3">Eritis sicut dii,</quote>
+            <bibl>Genesis 3:3</bibl>
+          </cit>
+          pro quo in Hebraeo habetur 
+          <mentioned>heloym</mentioned>, ac si diceret: eritis sicut divinae personae.</p>
+        <p xml:id="pll1d2c4-d1e3770">Ille etiam maximus Prophetarum et regum, <name ref="#David">David</name>, qui suam 
+          ceteris praefert in<cb ed="#Z" n="5rb" select="zbs-SII-0072_005r.json"/>telligentiam dicens: 
+          <cit>
+            <quote xml:id="pll1d2c4-Qd1e3777" ana="#ps118_100">Super senes intellexi,</quote>
+            <bibl>Psalm 118:100</bibl>
+          </cit>
+          unitatem divinae naturae ostendens ait: 
+          <cit>
+            <quote xml:id="pll1d2c4-Qd1e3786" ana="#ps67_5">Dominus nomen est illi;</quote>
+            <bibl>Psalm 67:5</bibl>
+          </cit>
+          non dicit Domini.</p>
+        <p xml:id="pll1d2c4-d1e3795">Alibi etiam eiusdem unitatem et aeternitatem simul ostendens 
+          ait ex persona Dei: 
+          <cit>
+            <quote xml:id="pll1d2c4-Qd1e3799" ana="#ps80_9"> <!-- also ps 80_10 -->Israel, si me audieris, non erit in te Deus 
+              recens, neque adorabis Deum alienum.</quote>
+            <bibl>Psalm 80:9-10</bibl>
+          </cit>
+          <cit>
+            <quote xml:id="pll1d2c4-Qd1e3810">Aliud horum, ut dicit 
+              <ref><name ref="#Ambrose">Ambrosius</name> in I libro <title>De Trinitate</title></ref>, 
+              significat aeternitatem, 
+              aliud unitatem substantiae indifferentis, ut neque posteriorem Patre, 
+              neque alterius divinitatis Filium vel Spiritum sanctum esse credamus. 
+              Nam si Patre posterior est Filius vel Spiritus sanctus, recens 
+              est; et si unius non est divinitatis, alienus est; sed nec posterior 
+              est, quia recens non est, nec alienus, quia ex Patre natus</quote>
+            <bibl>Hilarius, De Trinitate sive De fide ad Gratian, c. 11, n. 68 (PL 16:544)</bibl>
+          </cit>
+          est Filius, ex Patre procedit Spiritus sanctus.
+        </p>
+        <p xml:id="pll1d2c4-d1e3825">Alibi quoque distinctionem personarum insinuans ait: 
+          <cit>
+            <quote xml:id="pll1d2c4-Qd1e3829" ana="#ps32_6">Verbo 
+              Domini caeli firmati sunt, et Spiritu oris eius omnis virtus eorum.</quote>
+            <bibl>Psalm 32:6</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d2c4-d1e3837">Alibi etiam ait: 
+          <cit>
+            <quote xml:id="pll1d2c4-Qd1e3841" ana="#ps66_6">Benedicat nos Deus, Deus noster, benedicat 
+              nos Deus, et metuant eum omnes fines terrae.</quote>
+            <bibl>Psalm 66:6</bibl>
+          </cit>
+          Trina enim 
+          confessio Dei trinitatem exprimit personarum; unitatem vero essentiae 
+          aperit, cum singulariter subiungit <mentioned>eum</mentioned>. <!-- Cfr. Abaelard. Theologia christiana, libr. 1, c. 3 (PL 178:1128) -->
+        </p>
+        <p xml:id="pll1d2c4-d1e3854"><title ref="#Isaias">Isaias</title> quoque dicit, se audisse Seraphim clamantia: 
+          <cit>
+            <quote xml:id="pll1d2c4-Qd1e3860" ana="#is6_3">Sanctus, 
+              Sanctus, Sanctus, Dominus Deus.</quote>
+            <bibl>Isaias 6:3</bibl>
+          </cit>
+          Per hoc quod dicit <mentioned>Sanctus</mentioned>
+          <!-- p. 27 -->
+          ter, Trinitatem significat: 
+          <cb ed="#Pb" n="5rb"/>
+          per hoc quod subdit <mentioned>Dominus Deus,</mentioned> 
+          unitatem essentiae.
+        </p>
+        <p xml:id="pll1d2c4-d1e3876"><name ref="#David">David</name> quoque aeternam Filii generationem aperte insinuat ex 
+          persona Filii dicens: 
+          <cit>
+            <quote xml:id="pll1d2c4-Qd1e3882" ana="#ps2_3">Dominus dixit ad me: Filius meus es tu, 
+              ego hodie genui te.</quote>
+            <bibl>Psalm 2:3</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d2c4-d1e3890">De hac ineffabili generatione <name ref="#Isaias">Isaias</name> ait: 
+          <cit>
+            <quote xml:id="pll1d2c4-Qd1e3897" ana="#is53_8">Generationem eius 
+              quis enarrabit?</quote>
+            <bibl>Isaias 53:8</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d2c4-d1e3906">In libro quoque Sapietiae aeternitas Filii cum Patre monstratur, 
+          ubi Sapientia ita loquitur: 
+          <cit>
+            <quote xml:id="pll1d2c4-Qd1e3910" ana="#prov8_22"> <!-- prov 8:22-30 --> Dominus possedit me in initio 
+              viarum suarum, antequam quidquam faceret a principio: ab 
+              aeterno ordinata sum, antequam terra fieret; necdum erant 
+              abyssi, et ego iam concepta eram; necdum fontes, necdum montes 
+              aut colles, et ego parturiebar; adhuc terram non fecerat et cardines 
+              orbis terrae: quando praeparabat caelos, aderam: 
+              <cb ed="P" n="6vb"/>
+              quando 
+              appendebat fundamenta terrae, cum eo eram cuncta componens, 
+              et delectabar per singulos dies, ludens coram eo.</quote>
+            <bibl>Proverbs 8:22-30</bibl>
+          </cit>
+          Ecce apertum 
+          de aeterna genitura testimonium, quo ipsa Sapientia perhibet se 
+          ante mundum conceptam esse et parturiri, id est genitam, et 
+          apud Patrem aeternaliter existere.
+        </p>
+        <p xml:id="pll1d2c4-d1e3920">Ipsa etiam alibi ait: 
+          <cit>
+            <quote xml:id="pll1d2c4-Qd1e3924" ana="#sir24_5">Ego ex ore Altissimi prodii, primogenita ante omnem creaturam.</quote>
+            <bibl>Eccli 24:5</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d2c4-d1e3932"><name>Michaeas</name> quoque Propheta aeternam Verbi generationem 
+          et temporalem 
+          <cb ed="#Z" n="5va" select="zbs-SII-0072_005v.json"/>
+          ex <name ref="#Mary">Maria</name> simul insinuavit dicens: 
+          <cit>
+            <quote xml:id="pll1d2c4-Qd1e3938" ana="#mic5_2">Et tu, Bethlehem 
+              Ephrata, parvulus vicus es in milibus Iuda: ex te egredietur 
+              qui sit dominator in Israel, et egressus eius ab initio, a diebus 
+              aeternitatis.</quote>
+            <bibl>Michaeas 5:2</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d2c4-d1e3946">De Spiritu sancto etiam expressa documenta in veteri Testamento 
+          habemus.</p>
+        <p xml:id="pll1d2c4-d1e3949">In <title ref="#gen">Genesi</title> enim legitur: 
+          <cit>
+            <quote xml:id="pll1d2c4-Qd1e3956" ana="#gen1_2">Spiritus Domini ferebatur super 
+              aquas.</quote>
+            <bibl>Genesis 1:2</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d2c4-d1e3964">Et <name ref="#David">David</name> dicit: 
+          <cit>
+            <quote xml:id="pll1d2c4-Qd1e3971" ana="ps138_7">Quo ibo a Spiritu tuo?</quote>
+            <bibl>Psalm 138:7</bibl>
+          </cit>
+        </p>
+        <!-- p. 28 -->
+        <p xml:id="pll1d2c4-d1e3982">Et in libro <title ref="#sap">Sapientiae</title> dicitur: 
+          <cit>
+            <quote xml:id="pll1d2c4-Qd1e3989" ana="#sap1_5"> <!-- sap 1:5-6 -->Spiritus sanctus disciplinae 
+              effugiet fictum, benignus est enim spiritus sapientiae.</quote>
+            <bibl>Sapientia 1:5-6</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d2c4-d1e3999"><name ref="#Isaias">Isaias</name> quoque ait: 
+          <cit>
+            <quote xml:id="pll1d2c4-Qd1e4005" ana="#is61_1">Spiritus Domini super me</quote>
+            <bibl>Isaias 61:1</bibl>
+          </cit>
+          etc. <!-- note about abelard here -->
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

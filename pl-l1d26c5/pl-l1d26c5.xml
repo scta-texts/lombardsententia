@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 26, Capitulus 5</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 26, Capitulus 5</title>
+          <date when="2015-12-07">December 07, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-12-07">December 07, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d26c5">
+        <head xml:id="pll1d26c5-Hd1e3496">Librum I, Distinctio 26, Capitulus 5</head>
+        <!-- Quod homo dicitur filius Trinitatis, et Trinitas pater hominum. -->
+        <p xml:id="pll1d26c5-d1e3501">Homo vero, qui filius Dei est factura, non tantum Patris, sed 
+          et Filii et Spiritus sancti filius est, id est totius Trinitatis; et Trinitas 
+          ipsa Pater eius dici potest.</p>
+        <p xml:id="pll1d26c5-d1e3504">Unde <name ref="#Augustine">Augustinus</name> in V libro <title ref="#deTrinitate">De Trinitate</title> ait: 
+          <cit>
+            <quote xml:id="pll1d26c5-Qd1e3514">Non 
+              potest dici Trinitas pater, nisi forte translative ad creaturam propter 
+              adoptionem filiorum. Quod enim scriptum est: 
+              <cit>
+                <quote xml:id="pll1d26c5-Qd1e3518" ana="#deut6_4">Audi Israel, 
+                  Dominus Deus tuus, Deus unus est,</quote>
+                <bibl>Deuteronomium 6:4</bibl>
+              </cit>
+              non utique, excepto Filio 
+              aut Spiritu sancto, oportet intelligi; quem unum Dominum Deum 
+              nostrum recte dicimus etiam Patrem nostrum, per gratiam suam 
+              nos regenerantem.</quote>
+            <bibl>Augustinus, De Trinitate, V, c. 11, n. 12 (PL 42:918)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d26c5-d1e3531">De hoc <ref><name ref="#HilaryOfPoitiers">Hilarius</name> etiam, in VI libro <title ref="#deTrinitate">De Trinitate</title></ref> ait: 
+          <cit>
+            <quote xml:id="pll1d26c5-Qd1e3542">Omnibus per fidem Deus est pater, quibus est pater; per eam 
+              fidem, Iesum Christum Dei Filium confitemur.</quote>
+            <bibl>Hilarius, De Trinitate, n. 30 (PL 10:181)</bibl>
+          </cit>
+          Ecce ostensum 
+          est, quare proprium dicatur esse Dei nati, quod filius est, quia 
+          scilicet ipse solus natus proprie dicitur.</p>
+        <p xml:id="pll1d26c5-d1e3551">Unde <name ref="#HilaryOfPoitiers">Hilarius</name> in libro III <title>De Trinitate</title> ait: 
+          <cit>
+            <quote xml:id="pll1d26c5-Qd1e3561">Dominus 
+              dicens: 
+              <cit>
+                <quote xml:id="pll1d26c5-Qd1e3565" ana="#io17_1">Clarifica filium tuum,</quote>
+                <bibl>Ioannes 17:1</bibl>
+              </cit>
+              non solo nomine contestatus est 
+              se esse filium, sed et proprietate. Nos filii Dei sumus, sed non talis 
+              hic filius. Hic enim verus et proprius est filius origine, non adoptione; 
+              veritate, non nuncupatione; nativitate, non creatione.</quote>
+            <bibl>Hilarius, De Trinitate, III, n. 11 (PL 10:81)</bibl>
+          </cit>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

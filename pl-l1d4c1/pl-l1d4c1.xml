@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 4, Capitulus 1</title>
+        <author>Petrus Lombardus</author>
+        <editor>Brady</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.09-dev-master">
+          <title>Librum I, Distinctio 4, Capitulus 1</title>
+          <date when="2015-09-26">September 26, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher></publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-09-26">September 26, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-26" who="#JW" status="draft" n="2015.09">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d4c1">
+        <head>Librum I, Distinctio 4, Capitulus 1</head>
+        <p xml:id="pll1d4c1-d1e3476">Hic oritur quaestio satis necessaria. Constat enim et irrefragabiliter 
+          verum est, quod Deus Pater genuit Filium. Ideo quaeritur, 
+          utrum concedendum sit, quod Deus genuit Deum. Si enim Deus 
+          genuit Deum, videtur quod aut se Deum, aut alium genuerit; si 
+          vero alium Deum genuit, non est tantum unus Deus; si autem se 
+          ipsum Deum genuit, aliqua res se ipsam genuit. <!-- possible allusion to hugh here -->
+        </p>
+        <p xml:id="pll1d4c1-d1e3481">Ad quod respondentes dicimus, sane et catholice concedi, 
+          quod unus unum genuit, et quod Deus Deum genuit, quia Deus 
+          Pater Deum Filium genuit. In Symbolo quoque scriptu est: 
+          <cb ed="#Pb" n="7va"/>
+          <cit>
+            <quote xml:id="pll1d4c1-Qd1e3485">Lumen de lumine, Deum verum de Deo vero.</quote>
+            <bibl>Symbolo</bibl>
+          </cit>
+          Quod vero additur: 
+          Ergo genuit se Deum vel alium Deum, neutrum concedendum dicimus 
+          esse. Quod alium Deum non genuit, manifestum est, quia 
+          unus tantum Deus est. Quod autem se ipsum non genuit, ostendit 
+          <ref><name ref="#Augustine">Augustinus</name> in I libro <title ref="#deTrinitate">De Trinitate</title></ref> 
+          dicens: 
+          <cit>
+            <quote xml:id="pll1d4c1-Qd1e3501">Qui putant 
+              <!-- p. 40 -->
+              eius potentiae esse Deum, ut se ipsum ipse genuerit, eo plus errant, 
+              quod non solum Deus ita non est, sed nec spiritualis neque 
+              corporalis creatura. Nulla enim res est, quae se ipsam gignat, ut 
+              sit;</quote>
+            <bibl>Augustine, De Trinitate, I, c. 1, n. 1 (PL 42:820)</bibl>
+          </cit>
+          et ideo non est credendum vel dicendum, quod Deus genuit se.</p>
+        <p xml:id="pll1d4c1-d1e3511">Sed adhuc opponunt garruli ratiocinatores dicentes: Si Deus 
+          Pater genuit Deum, aut genuit Deum, qui est Deus Pater, aut 
+          Deum, qui non est Deus Pater. Si genuit Deum, qui non est Deus 
+          Pater, ergo Deus est, qui non est Deus Pater; non ergo unus tantum 
+          Deus est. Si vero genuit Deum, qui Deus Pater, ego genuit 
+          se ipsum.</p>
+        <p xml:id="pll1d4c1-d1e3514">Ad quod respondemus determinantes illam propositionem, quam 
+          sic proponunt: Si Deus Pater genuit Deum, aut Deum, qui est Deus 
+          Pater, aut Deum, qui non est Deus Pater. Hoc enim sane et prave 
+          intelligi potest; et ideo respondendum est ita: Deus Pater genuit 
+          Deum, qui est ipse Pater, hoc dicimus esse falsum; et concedimus 
+          alteram, scilicet genuit Deum, qui non est Pater; nec tamen genuit 
+          alterum Deum, nec ille qui genitus est, alius Deus est quam 
+          Pater, sed unus Deus cum Patre. Si vero additur: Genuit Deum, 
+          qui non est Deus Pater, hic distinguimus, quia dupliciter potest 
+          intelligi: genuit Deum, qui non est Deus Pater, scilicet Deum Filium, 
+          qui Filius non est Pater, qui Deus est; hic sensus verus est. 
+          Si vero intelligatur sic: Genuit Deum, qui non est Deus Pater, id 
+          est, qui non est Deus, qui est Pater; hic sensus falsus est. Unus 
+          enim et idem Deus est Pater, Filius et Spiritus sanctus; et e 
+          converso Pater et Filius et Spiritus sanctus est unus Deus.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

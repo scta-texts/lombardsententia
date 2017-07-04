@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 15, Capitulus 3</title>
+        <author>Petrus Lombardus</author>
+        <editor></editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.10-dev-master">
+          <title>Librum I, Distinctio 15, Capitulus 3</title>
+          <date when="2015-10-28">October 28, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher></publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-10-28">October 28, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-10-26" who="#JW" status="draft" n="2015.10">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d15c3">
+        <head>Librum I, Distinctio 15, Capitulus 3</head>
+        <!-- Quomodo a Spiritu sancto etiam Filius sit missus. -->
+        <p xml:id="pll1d15c3-d1e3477">Et quod a Spiritu sancto missus sit, ut ait <name ref="#Augustine">Augustinus</name> 
+          in eodem, auctoritatibus confirmatur.</p>
+        <p xml:id="pll1d15c3-d1e3483">Ipse Christus dicit per <name ref="#Isaias">Isaiam</name>: 
+          <cit>
+            <quote xml:id="pll1d15c3-Qd1e3490" ana="#is48_16">Nunc misit me Dominus 
+              et Spiritus eius.</quote>
+            <bibl>Isaias 48:16</bibl>
+          </cit>
+          De hoc <ref><name ref="#Ambrose">Ambrosius</name> in libro III <title>De Spiritu 
+            sancto</title></ref> ita ait: 
+          <cit>
+            <quote xml:id="pll1d15c3-Qd1e3506">Quis est, qui dicit: 
+              <cit>
+                <quote xml:id="pll1d15c3-Qd1e3510" ana="#is48_16">Misit me Dominus et Spiritus eius,</quote>
+                <bibl>Isaias 48:16</bibl>
+              </cit>
+              nisi qui venit a Patre, ut salvos faceret peccatores,</quote>
+            <bibl>Ambrosius, De Spiritu sancto, III, XXX</bibl>
+          </cit>
+          id est Christus?
+          <cit>
+            <quote xml:id="pll1d15c3-Qd1e3524">Ergo et Pater Filium misit et Spiritus</quote>
+            <bibl>Ambrosius, De Spiritu sancto, III, XXX</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d15c3-d1e3532">Idem in eodem: 
+          <cit>
+            <quote xml:id="pll1d15c3-Qd1e3536">Datus est a Patre, ut <title ref="#is">Isaias</title> dicit: 
+              <cit>
+                <quote xml:id="pll1d15c3-Qd1e3543" ana="#is9_6">Puer natus est nobis, et Filius datus est nobis.</quote>
+                <bibl>Isaias 9:6</bibl>
+              </cit>
+              Datus est, audeo 
+              dicere, et a Spiritu, quia et a Spiritu missus est.</quote>
+            <bibl>Ambrosius, De Spiritu sancto, III, c. 2</bibl>
+          </cit>
+          <cit>
+            <quote xml:id="pll1d15c3-Qd1e3557">Dicit enim 
+              Filius Dei: 
+              <cit>
+                <quote xml:id="pll1d15c3-Qd1e3561" ana="#lc4_18"><!-- also 4_19 -->Spiritus Domini super me, propter quod unxit me: 
+                  <!-- p. 97 -->
+                  evangelizare pauperibus misit me, praedicare captivis remissionem</quote>
+                <bibl>Lucas 4:18-19</bibl>
+              </cit>
+              etc. Quod cum de libro <title ref="#is">Isaiae</title> legeret, ait in Evangelio: 
+              <cit>
+                <quote xml:id="pll1d15c3-Qd1e3576" ana="#lc4_21">Hodie completa est haec Scriptura in auribus vestris,</quote>
+                <bibl>Lucas 4:21</bibl>
+              </cit>
+              ut de se 
+              dictum esse significaret. Bene autem dixit, <mentioned>super me;</mentioned> quia quasi 
+              filius hominis et unctus est et missus ad praedicandum. Nam secundum 
+              divinitatem non super Christum est Spiritus, sed in Christo.</quote>
+            <bibl>Ambrosius, De Spiritu sancto, III, c. 1, n. 1, 2, 6, passim.</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d15c3-d1e3593">Ecce his verbis ostendit <name ref="#Ambrose">Ambrosius</name>, Filium esse missum 
+          et datum nobis non tantum a patre, sed etiam a Spiritu sancto.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

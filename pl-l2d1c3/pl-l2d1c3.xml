@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum II, Distinctio 1, Capitulus 3</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.1-dev">
+          <title>Librum II, Distinctio 1, Capitulus 3</title>
+          <date when="2016-03-20">March 20, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-20">March 20, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+          <witness xml:id="Z" n="zbsSII72" xml:base="http://www.e-codices.unifr.ch/metadata/iiif/zbs-SII-0072/canvas/">Solothurn, Zentralbibliothek, Cod. S II 72</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="0.0.1">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l2d1c3">
+        <head xml:id="pll2d1c3-Hd1e3508">Librum II, Distinctio 1, Capitulus 3</head>
+        <head xml:id="pll2d1c3-Hd1e3511" type="questionTitle">Secundum quam rationem dicuntur de Deo huiusmodi verba: agere, facere</head>
+        <p xml:id="pll2d1c3-d1e3514">Verumtamen sciendum est, haec verba, scilicet facere, creare 
+          agere, et huiusmodi alia, de Deo non posse dici secundum eam 
+          rationem qua dicuntur de creaturis. 
+          <cit>
+            <quote xml:id="pll2d1c3-Qd1e3518">Quippe cum dicimus, eum 
+              aliquid facere, non aliquem in operando motum illi intelligimus 
+              inesse, vel aliquam in laborando passionem, sicut nobis solet solet accidere, 
+              sed eius sempiternae voluntatis novum aliquem significamus 
+              effectum, id est aeterna eius voluntate aliquid noviter existere. 
+              Cum ergo dicitur aliquid facere, tale est ac si dicatur, iuxta eius 
+              voluntatem vel per eius voluntatem aliquid noviter contingere vel 
+              <!-- p. 308 --> 
+              esse, ut in ipso nihil novi contingat, sed novum aliquid, sicut in 
+              eius aeterna fuerat voluntate, fiat sine aliqua sui mutatione sive 
+              motione. Nos vero operando mutari dicimur, quia movemur; non 
+              enim sine motu aliquid facimus.</quote>
+            <bibl>1</bibl>
+          </cit>
+          Deus ergo facere vel agere aliquid 
+          dicitur, quia causa est rerum noviter existentium, dum eius 
+          voluntate res novae esse incipiunt, quae ante non erant absque 
+          ipsius agitatione; ut actus proprie dici non queat, cum videlicet 
+          actus omnis in motu consitat, in Deo autem motus nullus est. Sicut 
+          ergo ex calore solis aliqua fieri contingit, nulla tamen in ipso vel 
+          in ipsius calore facta motione vel mutatione, ita ex Dei voluntate 
+          nova habent esse sine mutatione auctoris, qui est unum est solum 
+          principium omnium. <name ref="#Aristotle">Aristoteles</name> vero duo principia dixit, scilicet 
+          materiam et speciem, et tertium, operatorium dictum; mundum 
+          quoque semper esse et fuisse</p>
+        <p xml:id="pll2d1c3-d1e3531">Horum ergo et similium errorem Spiritus sanctus evacuans, 
+          veritatisque disciplinam tradens, Deum in principio temporum mundum 
+          creasse et ante tempora aeternaliter exstitisse significat, ipsius 
+          aeternitatem et omnipotentiam commendans; cui voluisse, facere 
+          est, quia, ut praediximus, ex eius voluntate et bonitate novae 
+          res existunt.</p>
+        <p xml:id="pll2d1c3-d1e3534">
+          <cit>
+            <quote xml:id="pll2d1c3-Qd1e3538">Credamus igitur, rerum creaturarum caelestium vel terrestrium, 
+              visibilium vel invisibilium causam non esse nisi bonitatem 
+              Creatoris, qui est Deus unus et verus. Cuius tanta est bonitas, 
+              ut summe bonus, beatitudinis suae quae aeternaliter beatus est, alios 
+              velit esse participes; quam videt et communicari posset et minui 
+              omnino non posse. Illud igitur bonum, quod ipse erat et quo beatus 
+              erat, sola bonitate, non necessitate aliis communicari voluit, 
+              quia summe boni erat prodesse vell, et omnipotentissimi nocere 
+              non posse.</quote>
+            <bibl>Hugo, I, De Sacramentis, p. 2, c. 4 (PL 176:208)</bibl>
+          </cit>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

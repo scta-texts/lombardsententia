@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum II, Distinctio 3, Capitulus 2</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.1-dev">
+          <title>Librum II, Distinctio 3, Capitulus 2</title>
+          <date when="2016-03-26">March 26, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-03-26">March 26, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+          <witness xml:id="Z" n="zbsSII72" xml:base="http://www.e-codices.unifr.ch/metadata/iiif/zbs-SII-0072/canvas/">Solothurn, Zentralbibliothek, Cod. S II 72</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="0.0.1">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        
+      </div>
+    </front>
+  	<body>
+  		<div xml:id="pl-l2d3c2">
+  			<head xml:id="pll2d3c2-Hd1e3508">Librum II, Distinctio 3, Capitulus 2</head>
+  			<head xml:id="pll2d3c2-Hd1e3511" type="questionTitle">An omnes Angeli fuerint aequales in essentia, sapientia, libertate arbitrii.</head>
+  			<p xml:id="pll2d3c2-d1e3514">
+  				<cit>
+  					<quote xml:id="pll2d3c2-Qd1e3518">Hic considerandum est, utrum in substantia spirituali et 
+  						sapientia rationali et libertate arbitrii, quae omnibus inerant, 
+  						omnes aequales fuerint, ut sit prima consideratio de substantia, 
+  						secunda de forma, tertia de potestate.</quote>
+  					<bibl>Hugo De Sancto Victore, De sacramentis, p. 5, cc. 8-11 (PL 176:250ff)</bibl>
+  				</cit>
+  			</p>
+  			<p xml:id="pll2d3c2-d1e3526">
+  				<cit>
+  					<quote xml:id="pll2d3c2-Qd1e3530">Persona quippe substantia est; sapientia forma; arbitrium potestas: 
+  						et ad substantiam quidem pertinet naturae subtilitas, ad 
+  						formam vero intelligentiae perspicacitas, et ad potestatem voluntatis 
+  						rationalis habilitas.</quote>
+  					<bibl>Hugo De Sancto Victore, De sacramentis, p. 5, cc. 8-11 (PL 176:250ff)</bibl>
+  				</cit>
+  			</p>
+  			<p xml:id="pll2d3c2-d1e3538">
+  				<cit>
+  					<quote xml:id="pll2d3c2-Qd1e3542">Illae igitur essentiae rationales, quae personae erant et spiritus 
+  						erant, naturaque simplices ac vita immortales, differentem essentiae 
+  						tenuitatem et differentem sapientiae perspicacitatem atque differentem 
+  						arbitrii habilitatem recte habuisse intelliguntur; sicut in corporibus 
+  						nonnulla differentia est secundum essentiam ac formam et pondus; 
+  						quaedam enim aliis meliorem ac digniorem essentiam et formam 
+  						habent, et alia aliis leviora atque agiliora sunt. Ad hunc igitur modum 
+  						credendum est, illas spirituales naturae convenientes suae 
+  						puritati et excellentiae et in essentia et in forma et in facultate 
+  						differentias accepisse in exordio suae conditionis, quibus alii superiores, 
+  						alii inferiores Dei sapientia constituerentur, aliis maiora, 
+  						aliis minora dona praestantis, ut qui tunc per naturalia bona aliis 
+  						excellebant, ipsi etiam post, per munera gratiae, eisdem prae 
+  						essent. Qui enim natura magis subtiles et sapientia amplius perspicaces 
+  						creati sunt, hi etiam maioribus gratiae muneribus praediti 
+  						sunt, et dignitate excellentiores aliis constituti. Qui vero natura 
+  						minus subtiles et sapientia minus perspicaces conditi sunt, 
+  						minora gratiae dona habuerunt, et inferiores constituti sunt 
+  						sapientia Dei aequo monderamine cuncta ordinantis. In ipsa facultate 
+  						arbitrii differentia animadvertenda est secundum differentem 
+  						naturae virtutem et differentem cognitionis et intelligentiae vim. <!-- 319 -->
+  						Et sicut differens vigor et subtilitas naturae infirmitatem non 
+  						adducit, minorque cognitio sapientiae ignorantiam non ingerit, sic 
+  						libertas inferior nullam arbitrio necessitatis voluntatem imponit</quote>
+  					<bibl>Hugo De Sancto Victore, De sacramentis, p. 5, cc. 8-11 (PL 176:250ff)</bibl>
+  				</cit>
+  			</p>
+  		</div>
+  	</body>
+  </text>
+</TEI>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 28, Capitulus 1</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 28, Capitulus 1</title>
+          <date when="2015-12-24">December 24, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-12-24">December 24, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d28c1">
+        <head xml:id="pll1d28c1-Hd1e3496">Librum I, Distinctio 28, Capitulus 1</head>
+        <!-- Quod non tres tantum sunt proprietates personarum -->
+        <p xml:id="pll1d28c1-d1e3501">Praeterea considerari oportet, quod non tantum tres praedictae 
+          proprietates sive notiones in personis sunt, verum etiam aliae, quae 
+          aliis notantur nominibus.</p>
+        <p xml:id="pll1d28c1-d1e3504">Nam etiam hoc nomen Ingenitus relative dicitur de Patre tantum, 
+          et aliam designat notionem quam Pater vel Genitor. Non est 
+          enim idem esse patrem et esse ingenitum, id est, non ea notione 
+          pater dicitur, qua ingenitus. Pater enim, ut praedictum est, dicitur 
+          secundum proprietatem generationis, ingenitus autem secundum 
+          proprietatem innascibilitatis. Differt ergo Pater a Filio auctoritate 
+          generationis, differt etiam proprietate innascibilitatis, id est quia 
+          ingenitus.</p>
+        <p xml:id="pll1d28c1-d1e3507">Unde <name ref="#Augustine">Augustinus</name>, distinguens inter proprietatem, qua dicitur 
+          pater, et illam, qua dicitur ingenitus, in <ref>V libro <title ref="#deTrinitate">De Trinitate</title></ref> 
+          sic ait: 
+          <cit>
+            <quote xml:id="pll1d28c1-Qd1e3519">Non est hoc dicere ingenitum quod est patrem dicere: 
+              quia etsi Filium non genuisset, nihil prohiberet dicere eum 
+              ingenitum. Et si gignat quisque filium, non ex eo ipse est ingenitus, 
+              quia geniti homines gignunt alios;</quote>
+            <bibl>Augustinus, De Trinitate, V, c. 6, n. 7 (PL 42:914)</bibl>
+          </cit>
+          non ergo ideo dicitur 
+          pater, quia ingenitus. Ideoque cum 
+          <cit>
+            <quote xml:id="pll1d28c1-Qd1e3528">de Deo Patre utrumque dicatur, 
+              alia notio est, qua intelligitur genitor, alia, qua ingenitus: 
+              genitor enim dicitur ad genitum, id est filium. Cum vero ingenitus 
+              dicitur, non quid sit, sed quid non sit, dicitur.</quote>
+            <bibl>Augustinus, De Trinitate, V, c. 6, n. 7 (PL 42:914)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d28c1-d1e3537">
+          <cit>
+            <quote xml:id="pll1d28c1-Qd1e3541">Hoc exemplis planum faciendum est. Quod dicitur ingenitus, 
+              hoc ostenditur, quod non sit filius; sed genitus et ingenitus commode 
+              dicuntur, filius autem latine dicitur, sed ut dicatur in filius, 
+              non admittit loquendi consuetudo; nihil tamen intellectui demitur, 
+              si dicatur non-filius; quemadmodum etiam, si dicatur non-genitus 
+              pro eo quod dicitur ingenitus, nihil aliud dicitur. Ideo non est in 
+              <!-- p. 178 --> 
+              rebus considerandum, quid vel sinat vel non sinat dici usus sermonis 
+              nostri, sed quis rerum ipsarum intellectus elucat. Non ergo iam 
+              tantum dicamus ingenitum, sed et non-genitum, quod tantum valet. 
+              Nunquid ergo aliud dicimus, quam non-filium? Negativa porro particular 
+              non id efficit, ut quod sine illa relative dicitur, eadem praeposita, 
+              substantialiter dicatur; sed id tantum negatur, quod sine 
+              illa aiebatur, sicut in aliis praedicamentis, cum dicimus: Homo est, 
+              substantiam designamus. Qui ergo dicit: Non homo eest, non aliud 
+              genus praedicamenti, sed tantum illud negat. Sicut ergo 
+              secundum substantiam aio: Homo est, sic secundum substantiam 
+              nego, cum dico: Non homo est. At si tantum valet quod dicitur 
+              genitus, quantum valet quod dicitur filius, tantundem ergo valet quod 
+              dicitur non-genitus, quantum valet quod dicitur non-filius. Relative 
+              autem negamus dicendo non-filius; relative igitur negamus dicendo 
+              non-genitus. Ingenitus porro quid est nisi non genitus? Non ergo receditur 
+              a relativo praedicamento, cum ingenitus dicitur. Sicut enim 
+              genitus non ad se dicitur, sed quod ex genitore sit; ita cum dicitur 
+              ingenitus, non ad se dicitur, sed quod ex genitore non sit, ostenditur; 
+              utrumque tamen relative dicitur. Quod autem relative pronuntiatur 
+              non iudicat substantiam. Quamvis ergo diversum sit genitus et ingenitus, 
+              tamen non indicat diversam substantiam, quia sicut filius 
+              ad patrem, et non-filius ad non patrem refertur, ita genitus ad genitorem, 
+              et non-genitus ad non genitorem referatur necesse est.</quote>
+            <bibl>Augustinus, De Trinitate, V, c. 6, n. 8 (PL 42:914)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d28c1-d1e3551">Ecce evidenter ostendit, quod ingenitus relative dicitur et de 
+          solo Patre accipitur, aliaque notio est, qua dicitur ingenitus, alia, 
+          qua pater. Atque tantum valet, cum dicitur ingenitus, quantum 
+          non-genitus vel non-filius.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

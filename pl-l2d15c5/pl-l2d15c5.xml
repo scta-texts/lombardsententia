@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="/Users/jcwitt/Projects/lombardpress/lombardpress-schema/src/1.0/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="/Users/jcwitt/Projects/lombardpress/lombardpress-schema/src/1.0/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum II, Distinctio 15, Capitulus 5</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2016-08-04">August 04, 2016</date>
+        </edition>
+      </editionStmt>
+    	<publicationStmt>
+    		<authority>A Sentences Commentary Text Project</authority>
+    		<availability status="free">
+    			<p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+    		</availability>
+    	</publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+          <witness xml:id="Z" n="zbsSII72" xml:base="http://www.e-codices.unifr.ch/metadata/iiif/zbs-SII-0072/canvas/">Solothurn, Zentralbibliothek, Cod. S II 72</witness>
+        	<witness xml:id="H" n="hopkinsMSB19" xml:base="http://scta.info/iiif/pl-hopkins/canvas/">Baltimore, Hopkins</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+  	<encodingDesc>
+  		<variantEncoding method="parallel-segmentation" location="internal"/>
+  		<schemaRef n="lbp-critical-1.0.0" target="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/critical.rng"/>
+  		<editorialDecl>
+  			<p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a critical edition.</p>
+  		</editorialDecl>
+  	</encodingDesc>
+  	<revisionDesc status="draft">
+  		<listChange>
+  			<change when="2016-07-20" status="draft" n="0.0.0-dev">
+  				<p>Created file for the first time.</p>
+  			</change>
+  		</listChange>
+  	</revisionDesc>
+  </teiHeader>
+  <text type="critical" xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+      	<!-- <pb ed="#H" n="68-v" facs="68v"/><cb ed="#H" n="b"/> -->
+      </div>
+    </front>
+  	<body>
+  		<div xml:id="pl-l2d15c5">
+  			<head xml:id="pll2d15c5-Hd1e3513">Librum II, Distinctio 15, Capitulus 5</head>
+  			<head xml:id="pll2d15c5-Hd1e3516" type="questionTitle">Quare post omnia factus est homo</head>
+  			<p xml:id="pll2d15c5-d1e3519">
+  				<cit>
+  					<quote xml:id="pll2d15c5-Qd1e3523">Omnibus autem creatis atque dispositis, novissime factus est 
+  						homo, tanquam dominus et possessor, qui et omnibus praeferendus 
+  						erat</quote>
+  					<bibl>xxx</bibl>
+  				</cit>;
+  				unde sequitur: 
+  				<cit>
+  					<quote xml:id="pll2d15c5-Qd1e3532" ana="#gen1_25"> <!-- and 1:26 -->Vidit Deus, quod esset bonum, et ait: 
+  						Faciamus hominem</quote>
+  					<bibl>Genesis 1:25-26</bibl>
+  				</cit>
+  				etc.
+  			</p>
+  			<p xml:id="pll2d15c5-d1e3542">Sed antequam de hominis creatione tractemus, quod supra 
+  				breviter tetigimus, plenius versantes clarius faciamus.</p>
+  			<p xml:id="pll2d15c5-d1e3545">In hac enim rerum distinctione catholici tractatores dissentire, 
+  				ut supra diximus, inveniuntur, aliis dicentibus res creatas 
+  				atque distinctas secundum species suas per intervalla sex dierum. 
+  				Quorum sententiae, quia littera Genesis magis inservire videtur, 
+  				atque Ecclesia magis approbat, ideo hactenus studiose docuimus, 
+  				quomodo ex illa communi materia, prius informiter facta, postea 
+  				rerum corporalium genera per sex dierum volumina distinctim sint 
+  				formata.</p>
+  		</div>  
+  	</body>
+  </text>
+</TEI>

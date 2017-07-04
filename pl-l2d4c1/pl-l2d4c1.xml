@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum II, Distinctio 4, Capitulus 1</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.1-dev">
+          <title>Librum II, Distinctio 4, Capitulus 1</title>
+          <date when="2016-04-08">April 08, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-04-08">April 08, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+          <witness xml:id="Z" n="zbsSII72" xml:base="http://www.e-codices.unifr.ch/metadata/iiif/zbs-SII-0072/canvas/">Solothurn, Zentralbibliothek, Cod. S II 72</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="0.0.1">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        
+      </div>
+    </front>
+  	<body>
+  		<div xml:id="pl-l2d4c1">
+  			<head xml:id="pll2d4c1-Hd1e3508">Librum II, Distinctio 4, Capitulus 1</head>
+  			<head xml:id="pll2d4c1-Hd1e3511" type="questionTitle">An perfecti et beati creati sint, an miseri et imperfecti</head>
+  			<p xml:id="pll2d4c1-d1e3514">Post haec videndum est, utrum perfectos et beatos creaverit 
+  				Deus Angelos, an miseros et imperfectos.</p>
+  			<p xml:id="pll2d4c1-d1e3517">Ad quod dici potest, quod nec in beatitudine nec in miseria 
+  				creati sunt. Miseri enim ante peccatum esse non potuerunt, quia 
+  				ex peccato miseria est: nam si non fuisset peccatum, nulla esset 
+  				miseria. Beati quoque nunquam fuerunt illi qui ceciderunt, 
+  				quia sui eventus ignari fuerunt, id est peccati et supplicii futuri. 
+  				Si enim lapsum suum praescierunt: aut vitare voluerunt, sed non 
+  				potuerunt, et ita erant miserir; aut potuerunt, sed noluerunt, et 
+  				ita erant stulti et maligni. Ideoque dicimus, quia non erant praescii 
+  				eventus sui, nec eis data est cognitio eorum quae futura erant 
+  				super eos.</p>
+  			<p xml:id="pll2d4c1-d1e3520">Boni vero et qui perstiterunt forte suae beatitudinis praescii 
+  				fuerunt. Unde <ref><name ref="#Augustine">Augustinus</name> <title ref="#DeGenesiAdLitteram">Super Genesim</title>:</ref> 
+  				<cit>
+  					<quote xml:id="pll2d4c1-Qd1e3532">Quomodo, inquit, 
+  						beatus inter Angelos fuit qui futuri peccati atque supplicii 
+  						praescius non fuit? Quaeritur autem cur non fuerit. Forte Deus 
+  						revelare diabolo noluit, quid facturus vel passurus esset; ceteris 
+  						vero revelare voluit, quod in veritate mansuri essent.</quote>
+  					<bibl>Augustinus, De Genesi ad Litteram, XI, c. 17, n. 22 (PL 34:438)</bibl>
+  				</cit>
+  			</p>
+  			<p xml:id="pll2d4c1-d1e3541">His verbis videtur <name ref="#Augustine">Augustinus</name> significare, quod Angeli qui 
+  				corruerunt, non fuerunt praescii sui casus, ideoque beati non fuerunt; 
+  				et quod Angeli, qui perstiterunt, beatitudinem sibi affuturam 
+  				praescierunt atque de ea certi in spe exstiterunt; unde 
+  				quodam modo iam beati erant. Et revera, si ita fuisset, posset dici, 
+  				illos aliquo modo fuisse beatos, alios vero non, qui nescierunt 
+  				eventum suum.</p>
+  			<!-- p. 325 -->
+  			<p xml:id="pll2d4c1-d1e3549">Sed haec magis opinando et quaerendo dicit <name ref="#Augustine">Augustinus</name> 
+  				quam asserendo; unde et huic opinioni opponens consequenter 
+  				subdit: 
+  				<cit>
+  					<quote xml:id="pll2d4c1-Qd1e3556">Sed quare discernebantur illi a ceteris, ut Deus istis 
+  						quae ad ipsos pertinerent non revelaret, aliis vero revelaret, cum 
+  						non prius sit ipse ultor quam aliquis peccator? Non enim damnat 
+  						ipse innocentes.</quote>
+  					<bibl>xxx</bibl>
+  				</cit>
+  				Hic videtur innuere, quod nec peccaturis futurum 
+  				malum, nec permansuris futurum bonum revelaverit. Ideoque 
+  				nec illi qui ceciderunt, unquam, nec illi qui perstiterunt, usque ad 
+  				consummationem beati fuerunt; quia beati non poterant esse, si de 
+  				beatitudine certi non erant, vel si damnationis incerti erant.</p>
+  			<p xml:id="pll2d4c1-d1e3564">Unde <name ref="#Augustine">Augustinus</name> in eodem:
+  				<cit>
+  					<quote xml:id="pll2d4c1-Qd1e3571">Dicere, inquit, de Angelis, 
+  						quod in suo genere beati esse possunt, damnationis vel salutis 
+  						incerti, quibus nec spes esset, quod mutandi essent in melius, 
+  						nimia praesumtio est.</quote>
+  					<bibl>xx</bibl>
+  				</cit>
+  				<cit>
+  					<quote xml:id="pll2d4c1-Qd1e3580">Quomodo enim beati esse possunt, quibus 
+  						est incerta sua beatitudo?</quote>
+  					<bibl>xxx</bibl>
+  				</cit>
+  			</p>
+  			<p xml:id="pll2d4c1-d1e3588">Ex praedictis consequitur, quod Angeli qui corruerunt, nunquam 
+  				beati fuerunt, nisi beatitudinem aliquis accipiat illum statum 
+  				innocentiae, in quo fuerunt ante peccatum. Illi vero qui perstiterunt, 
+  				aut suam beatitudinem futuram, Deo revelante, praescierunt, 
+  				et ita spei certitudine aliquo modo beati fuerunt; vel incerti 
+  				exstiterunt suae beatitudinis, et ita aliter beati non fuerunt, quam 
+  				reliqui qui ceciderunt. Mihi autem quod posterius dictum est 
+  				probabilius videtur.</p>
+  			<p xml:id="pll2d4c1-d1e3591">Ad hoc autem, quod quaerebatur, utrum perfecti vel imperfecti 
+  				fuerint creati, dici potest, quod quodam modo perfecti fuerunt, 
+  				et quodam ali imperfecti: non enim uno modo dicitur aliquid 
+  				perfectum, sed pluribus.</p>
+  			<p xml:id="pll2d4c1-d1e3595">
+  				<cit>
+  					<quote xml:id="pll2d4c1-Qd1e3599">Dicitur namque perfectum tribus modis: est enim perfectum 
+  						secundum tempus, et est perfectum secundum naturam, et est universaliter 
+  						perfectum. Secundum tempus perfectum, quod habet 
+  						quidquid tempus requirit et convenit secundum tempus haberi; et 
+  						hoc modo Angeli erant perfecti ante confirmationem, vel lapsum. <!-- 326 -->
+  						Secundum naturam perfectum est, quod habet quidquid debitum 
+  						est vel expedit naturae suae ad glorificationem; et hoc modo perfecti 
+  						fuerunt Angeli post confirmationem, et erunt Sancti post resurrectionem. 
+  						Universaliter et summe perfectum est, cui nihil unquam 
+  						deest, et a quo universa proveniunt bona, quod solius Dei 
+  						est.</quote>
+  					<bibl>1</bibl>
+  				</cit>
+  				Prima igitur perfectio est naturae conditae, secunda naturae 
+  				glorificatae, tertia naturae increatae.</p>
+  			<p xml:id="pll2d4c1-d1e3609">Quales fuerunt Angeli in creatione ostensum est, boni scilicet 
+  				et non mali, et iusti, id est innocentes, et perfecti quodam modo, 
+  				alio vero imperfecti. Beati vero non fuerunt usque ad confirmationem, 
+  				nisi beatitudo accipiatur, ut iam dictum est, ille status innocentiae 
+  				et bonitatis, in quo conditi sunt.</p>
+  		</div>
+  	</body>
+  </text>
+</TEI>

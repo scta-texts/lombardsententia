@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 19, Capitulus 6</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 19, Capitulus 6</title>
+          <date when="2015-11-15">November 15, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-11-15">November 15, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d19c6">
+        <head xml:id="pll1d19c6-Hd1e3472">Librum I, Distinctio 19, Capitulus 6</head>
+        <!-- Quare tres personae dicantur summe unum. -->
+        <p xml:id="pll1d19c6-d1e3477">
+          <cit>
+            <quote xml:id="pll1d19c6-Qd1e3481">Tres enim personae sunt Pater et Filius et Spiritus sanctus, 
+              et hi tres, quia unius substantiae sunt, unum sunt et summe unum 
+              sunt, ubi nulla naturarum, nulla est diversitas voluntatum. Si 
+              enim natura unum essent, et consensione non essent, non summe 
+              unum essent; si vero natura dispares essent, unum non essent. 
+              Hi ergo tres, qui unum sunt propter ineffabilem coniunctionem 
+              Deitatis, qua ineffabiliter copulantur, unus Deus est. Pars 
+              ergo Trinitatis esse non potest quicumque unus in tribus. In 
+              Trinitate igitur quae Deus est, et Pater Deus est, et Filius Deus est, 
+              et Spiritus sanctus Deus est, et simul hi tres unus Deus; nec huius 
+              Trinitatis tertia pars est unus, nec maius aliquid duo quam unus 
+              est ibi, nec maius aliquid sunt omnes quam singuli, quia spiritualis, 
+              non corporalis est magnitudo. 
+              <cit>
+                <quote xml:id="pll1d19c6-Qd1e3485" ana="#mt19_42">Qui potest capere, capiat;</quote>
+                <bibl>Matth. 19:42</bibl>
+              </cit>
+              qui autem non potest, credat et oret, ut quod credit intelligat. 
+              <!-- 130 -->
+              Verum est enim quod per Prophetam dicitur: 
+              <cit>
+                <quote xml:id="pll1d19c6-Qd1e3496" ana="#is7_9">Nisi credideritis, 
+                  non intelligetis.</quote>
+                <bibl>Isaias 7:9</bibl>
+              </cit>
+            </quote>
+            <bibl>Augustinus, XXX, n. 2, XXX</bibl>
+          </cit>
+          His verbis aperte ostendit indifferentem magnitudinem 
+          trium personarum.
+        </p>
+        <p xml:id="pll1d19c6-d1e3509">Item in eodem: 
+          <cit>
+            <quote xml:id="pll1d19c6-Qd1e3513">Tu nempe dixisti, unum Deum non ex 
+              partibus esse compositum; et hoc de Patre vis intelligi. Ille, inquis, 
+              virtus est ingenita, simplex. Et tamen in hac simplici virtute 
+              multa videris commemorare, cum dicis: Deus Deum genuit, bonus 
+              bonum genuit, sapiens sapientem, clemens clementem, potens potentem. 
+              Numquid ergo bonitas et sapientia et clementia et potentia 
+              partes sunt unius virtutis, quam simplicem esse dixisti? 
+              Si dixeris, partes sunt, simplex ergo virtus ex partibus constat. 
+              Et simplex ista virtus, te definiente, unus est Deus; ergo Deum 
+              ex partibus compositum esse dicis. Non dico, inquis, non sunt 
+              ergo partes. Si ergo in una persona Patris et illa invenis quae 
+              plura videntur, et partes non invenis quia una virtus simplex est; 
+              quanto magis Pater et Filius et Spiritus sanctus et propter individuam 
+              deitatem unus Deus, et propter uniuscuiusque proprietatem 
+              tres personae sunt, et propter singulorum perfectionem partes unius 
+              Dei non sunt. Virtus est Pater, virtus est Filius, virtus est Spiritus 
+              sanctus. Hoc verum dicis; sed quod virtutem de virtute genitam 
+              et virtutem de virtute procedentem non vis eandem habere 
+              naturam, hoc falsum dicis, hoc contra fidem rectam et catholicam 
+              dicis.</quote>
+            <bibl>Augustinus, XXX, n. 3, XXX</bibl>
+          </cit>
+          His verbis aperte docetur, quod tres illae personae non sunt 
+          partes Dei vel divinae essentiae, nullaque earum Trinitatis pars 
+          dicenda est nec una maior aliis.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

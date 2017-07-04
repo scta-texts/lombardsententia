@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 23, Capitulus 1</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 23, Capitulus 1</title>
+          <date when="2015-11-23">November 23, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-11-23">November 23, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d23c1">
+        <head xml:id="pll1d23c1-Hd1e3496">Librum I, Distinctio 23, Capitulus 1</head>
+        <!-- p. 147 -->
+        <!-- de hoc nomine quod est persona, quo secundum substantiam 
+            dicatur, non singulariter, sed pluraliter accipitur in summa. -->
+        <p xml:id="pll1d23c1-d1e3503">Praedictis adiiciendum est, quod, cum omnia nomina, quae 
+          secundum substantiam de Deo dicuntur, singulariter et non pluraliter 
+          de omnibus in summa dicantur personis, ut supra ostensum 
+          est, est tamen unum nomen, scilicet persona, quod secundum substantiam 
+          dicitur de singulis personis et pluraliter, non singulariter 
+          in summa accipitur. Dicimus enim: Pater est persona, Filius est 
+          persona, Spiritus sanctus est persona, et hoc secundum substantiam 
+          dicitur. Nec tamen dicitur: Pater et Filius et Spiritus sanctus 
+          sunt una persona, sed tres personae. Hoc ergo nomen excipitur a 
+          praedicta regula nominum, quae secundum substantiam de Deo 
+          dicuntur, quia cum hoc ad se dicatur et secundum substantiam, 
+          pluraliter tamen, non singulariter in summa accipitur.</p>
+        <p xml:id="pll1d23c1-d1e3506">Quod autem persona secundum substantiam dicatur, <ref><name ref="#Augustine">Augustinus</name> 
+          ostendit in libro VII <title ref="#deTrinitate">De Trinitate</title></ref> dicens: 
+          <cit>
+            <quote xml:id="pll1d23c1-Qd1e3517">Non est 
+              aliud Deo esse, aliud personam esse, sed omnino idem.</quote>
+            <bibl>Augustinus, De Trinitate, VII, c. 6, n. 11 (PL 42:943)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d23c1-d1e3526">Item: 
+          <cit>
+            <quote xml:id="pll1d23c1-Qd1e3530">In hac Trinitate cum dicimus personam Patris, non 
+              aliud dicimus quam substantiam Patris. Quocirca ut substantia 
+              Patris ipse Pater est, non quo Pater est, sed quo est; ita et persona 
+              Patris non aliud quam ipse Pater est; ad se quippe dicitur 
+              persona, non ad Filium vel Spiritum sanctum, sicut ad se dicitur 
+              Deus et magnus et bonus et iustus et huiusmodi. Et quemadmodum 
+              hoc illi est esse, quod Deum esse, quod magnum esse, quod bonum 
+              esse, ita hoc est illi esse, quod personam esse.</quote>
+            <bibl>Augustinus, De Trinitate, VII, c. 6, n. 11 (PL 42:943)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d23c1-d1e3538">Ecce expresse habes, quod persona secundum substantiam dicitur, 
+          ut cum dicitur: Pater est persona, hic sit sensus: Pater est 
+          essentia divina; similiter, cum dicitur: Filius est persona, Spiritus 
+          sanctus est persona, id est essentia divina.</p>
+        <!-- 148 -->
+        <p xml:id="pll1d23c1-d1e3543">Ideo oritur hic quaestio difficilis quidem, sed non inutilis, 
+          qua quaeritur, cur non dicantur hi tres una persona, sicut una 
+          essentia et unus Deus.</p>
+        <p xml:id="pll1d23c1-d1e3546">Quam quaestionem <name ref="#Augustine">Augustinum</name> diligenter tractat atque congrue 
+          explicat in <ref>VII libro <title ref="#deTrinitate">De Trinitate</title></ref> ita dicens: 
+          <cit>
+            <quote xml:id="pll1d23c1-Qd1e3558">Cur non 
+              haec tria simul unam personam dicimus, sicut unam essentiam et 
+              unum Deum, sed dicimus tres personas, cum tres deos aut tres 
+              essentias non dicamus? Quia volumus vel unum aliquod vocabulum 
+              servare huic significationi, qua intelligitur Trinitas, ne omnino taceremus 
+              interrogati, quid tres essent, cum tres esse fateamur.</quote>
+            <bibl>Augustinus, De Trinitate, VII, c. 6, n. 11 (PL 42:943)</bibl>
+          </cit>
+          <cit>
+            <quote xml:id="pll1d23c1-Qd1e3567">Cum ergo quaeritur, quid tres, ut ait <ref><name ref="#Augustine">Augustinus</name> in libro V 
+              <title ref="#deTrinitate">De Trinitate</title></ref>, magna prorsus inopia humanum laborat eloquium. 
+              Dictum est tamen tres personae, non ut illud diceretur, sed ne taceretur.</quote>
+            <bibl>Augustinus, De Trinitate, V, c. 9, n. 10 (PL 42:918)</bibl>
+          </cit>
+          Non enim rei ineffabilis eminentia hoc vocabulo explicari valet.</p>
+        <p xml:id="pll1d23c1-d1e3582">Ecce ostendit, qua necessitate dicatur pluraliter personae, videlicet 
+          ut hoc uno nomine quaerentibus de tribus responderemus.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

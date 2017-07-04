@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 9, Capitulus 3</title>
+        <author>Petrus Lombardus</author>
+        <editor></editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.10-dev-master">
+          <title>Librum I, Distinctio 9, Capitulus 3</title>
+          <date when="2015-10-12">October 12, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher></publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-10-05">October 12, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-10-12" who="#JW" status="draft" n="2015.10">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d9c3">
+        <head>Librum I, Distinctio 9, Capitulus 3</head>
+        <!-- De ineffabili et inintelligibili generationis modo -->
+        <p xml:id="pll1d9c3-d1e3477">
+          <cit>
+            <quote xml:id="pll1d9c3-Qd1e3481">Sed quaeris a me, inquit <name ref="#Ambrose">Ambrosius</name>, quomodo, si Filius 
+              sit, non priorem habeat Patrem? Quaero item abs te, quomodo vel 
+              quando Filium putes esse generatum? Mihi enim impossibile est 
+              generationis scire secretum. Mens deficit, vox silet, non mea tantum 
+              sed Angelorum; supra potestates et supra Angelos et supra 
+              Cherubim et supra Seraphim et supra omnem sensum est, quia 
+              scriptum est: 
+              <cit>
+                <quote xml:id="pll1d9c3-Qd1e3488" ana="#phil4_7">Pax Christi supra omnem sensum est</quote>
+                <bibl>Philip. 4:7</bibl>
+              </cit>
+              Et si pax 
+              Christi supra omnem sensum est, quomodo non est supra omnem 
+              sensum tanta generatio?
+            </quote>
+            <bibl>Ambrose, De fide ad Gratian, I, c. 10, n. 64 et 65 (PL 16:543)</bibl>
+          </cit>
+          <cit>
+            <quote xml:id="pll1d9c3-Qd1e3502">Tu ergo ori manum admove; scrutari 
+              non licet superna mysteria. Licet scire, quod natus sit, non 
+              <!-- p. 68 --> <!-- possible references Eccli 3:15 and 3:22 -->
+              licet discutere, quomodo natus sit. Illud negare mihi non licet, hoc 
+              quaerere metus est.</quote>
+            <bibl>Ambrose, De fide ad Gratian, I, c. 10, n. 64 et 65 (PL 16:543)</bibl> <!-- not sure; dbhcheck -->
+          </cit>
+          Ineffabilis enim est illa generatio; unde 
+          <title ref="#is">Isaias</title>: 
+          <cit>
+            <quote xml:id="pll1d9c3-Qd1e3520" ana="#is53_8">Generationem eius quis enarrabit?</quote>
+            <bibl>Isaias 53:8</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d9c3-d1e3528">Quidam tamen de ingenio suo praesumentes dicunt, illam generationem 
+          posse intelligi et alia huiusmodi inhaerentes illi auctoritati 
+          <ref><name ref="#Jerome">Hieronymi</name> <title>Super Ecclesiasten</title>:</ref> 
+          <cit>
+            <quote xml:id="pll1d9c3-Qd1e3540">In sacris Scripturis 
+              <mentioned>quis</mentioned> saepissime non pro impossibili, sed pro difficili ponitur, ut
+              ibi: 
+              <cit>
+                <quote xml:id="pll1d9c3-Qd1e3547" ana="#is53_8">Generationem eius quis enarrabit?</quote>
+                <bibl>Isaias 53:8</bibl>
+              </cit>
+            </quote>
+            <bibl>Hieronymi, Super Ecclesiasten, c. 3 (PL 23:1042)</bibl>
+          </cit>
+          Sed hoc non dixit <name ref="#Jerome">Hieronymus</name> 
+          ideo, quod generatio Filii aeterna plene intelligi vel explicari 
+          possit a quoquam mortalium, sed quia de ea aliquid intelligi 
+          vel dici potest. Quidam tamen hoc accipiunt dictum de temporali 
+          Christi generatione.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

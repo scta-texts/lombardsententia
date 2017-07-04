@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 19, Capitulus 7</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 19, Capitulus 7</title>
+          <date when="2015-11-15">November 15, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-11-15">November 15, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d19c7">
+        <head xml:id="pll1d19c7-Hd1e3472">Librum I, Distinctio 19, Capitulus 7</head>
+        <!-- Cum dicimus, tres personas esse unam essentiam, nec ut genus 
+          de speciebus nec ut speciem de individuis praedicamus, 
+          quia non est essentia genus, et persona species, vel essentia 
+          species, et personae indiviua. -->
+        <p xml:id="pll1d19c7-d1e3477">Hic adiiciendum est, quod tanta est aequalitas trium personarum 
+          atque indifferens magnitudo, quod cum dicamus, tres personas <!-- p. 131 --> 
+          unam esse essentiam vel substantiam, neque ut genus de speciebus, 
+          neque ut speciem de individuis praedicamus. Non enim 
+          essentia divina genus est et tres personae species, vel essentia divina 
+          species et tres personae individua.</p>
+        <p xml:id="pll1d19c7-d1e3482">Quod <name ref="#Augustine">Augustinus</name> rationibus probabilibus atque irrefragabilibus 
+          aperte demonstrat in <ref>libro VII <title ref="#deTrinitate">De Trinitate</title></ref> ita dicens: 
+          <cit>
+            <quote xml:id="pll1d19c7-Qd1e3494">Si essentia genus est, species autem persona, ut nonnulli sentiunt, 
+              oportet appellari tres substantias, ut appellantur tres personae; 
+              sicut cum sit animal genus et equus species, appellantur tres equi, 
+              iidemque tria animalia. Non enim species ibi pluraliter dicitur et 
+              genus singulariter, ut si diceretur, tres equi sunt unum animal; 
+              sed sicut tres equi speciali nomine, ita tria animalia nomine generali 
+              dicuntur.</quote>
+            <bibl>Augustinus, De Trinitate, VII, c. 6, n. 11 (PL 42:943)</bibl>
+          </cit>
+          Cum ergo tres personas unam fateamur esse essentiam, 
+          non tres essentias, cum tres equi tria animalia dicantur, 
+          non unum: patet, nomine essentiae non significari genus, nec nomine 
+          personae speciem.</p> 
+        <p xml:id="pll1d19c7-d1e3502">
+          <cit>
+            <quote xml:id="pll1d19c7-Qd1e3506">Si vero dicunt, nomine personae non speciem significari, 
+              sed aliquid singulare atque individuum, et nomine essentiae speciem 
+              intelligi, ut personae non dicatur sicut homo, sed quomodo 
+              dicitur hic homo, velut <name ref="#Abraham">Abraham</name>, <name>Isaac</name> et <name ref="#Jacob">Iacob</name> vel quis alius, 
+              qui etiam digito praesens demonstrari possit; sic quoque illos eadem 
+              ratio confutabit. Sicut enim dicuntur <name>Abraham</name>, <name>Isaac</name> et <name>Iacob</name> 
+              tria individua, ita tres homines et tria animalia. Cur ergo pater 
+              Et Filius et Spiritus sanctus, si secundum genus et speciem et individuum 
+              ista disserimus, non ita dicuntur tres essentiae, ut tres 
+              personae?</quote>
+            <bibl>Augustinus, De Trinitate, VII, c. 6, n. 11 (PL 42:943)</bibl> <!-- db check, not sure -->
+          </cit>
+        </p>
+        <p xml:id="pll1d19c7-d1e3536">Alio quoque modo idem probat <name ref="#Augustine">Augustinus</name>, scilicet quod 
+          essentia divina non est genus, nec personae species, vel essentia 
+          non est species, nec personae individua. 
+          <cit>
+            <quote xml:id="pll1d19c7-Qd1e3543">Una, inquit, essentia 
+              non habet species, sicut unum animal non habet species; Pater 
+              ergo et Filius et Spiritus sanctus non sunt tres species unius 
+              essentiae; divina ergo essentia genus non est. Sed nec species 
+              est essentia divina et personae individua, sicut homo species est, 
+              individua autem <name ref="#Abraham">Abraham</name>, <name>Isaac</name> et <name ref="#Jacob">Iacob</name>. Si enim essentia species 
+              est, ut homo, sicut non dicitur unus homo est <name ref="#Abraham">Abraham</name>, <name>Isaac</name> 
+              et <name ref="#Jacob">Iacob</name>, ita non dicetur una essentia esse tres personae. Non 
+              itaque secundum genus est species ista dicimus.</quote>
+            <bibl>Augustinus, De Trinitate, VII, c. 6, n. 11 (PL 42:943)</bibl> <!-- db check, not sure -->
+          </cit>
+        </p>
+        
+      </div>
+    </body>
+  </text>
+</TEI>

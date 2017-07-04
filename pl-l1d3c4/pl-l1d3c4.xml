@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 3, Capitulus 4</title>
+        <author>Petrus Lombardus</author>
+        <editor>Brady</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.09-dev-master">
+          <title>Librum I, Distinctio 3, Capitulus 4</title>
+          <date when="2015-09-25">September 25, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher></publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-09-25">September 25, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-25" who="#JW" status="draft" n="2015.09">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d3c4">
+        <head>Librum I, Distinctio 3, Capitulus 4</head>
+        <p xml:id="pll1d3c4-d1e3476">
+          <cit> 
+            <quote xml:id="pll1d3c4-Qd1e3480">Quapropter iuxta istam considerationem, ut ait 
+              <ref><name ref="#Augustine">Augustinus</name> in IX libro <title ref="#deTrinitate">De Trinitate</title></ref>
+              credamus, Patrem et Filium et 
+              Spiritum sanctum unum esse Deum, universae creaturae conditorem 
+              et rectorem; nec Patrem esse Filium, nec Spiritum sanctum 
+              vel Patrem esse vel Filium, sed Trinitatem relatarum ad invicem 
+              personarum.</quote>
+            <bibl>Augustine, De Trinitate, IX, c. 1, n. 1 (PL 42:961)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d3c4-d1e3495">Ut enim ait ipse in libro <title>De fide ad Petrum</title>: 
+          <cit>
+            <quote xml:id="pll1d3c4-Qd1e3502">Una est 
+              natura sive essentia Patris et Filii et Spiritus sancti, non una persona. 
+              Si enim sic esset una persona, sicut est una substantia Patris 
+              et Filii et Spiritus sancti, veraciter trinitas non diceretur. Rursus
+              <!-- p. 39 -->
+              quidem trinitas esset era, sed unus Deus Trinitas ipsa non 
+              esset, si quemadmodum Pater et Filius et Spiritus sanctus personarum 
+              sunt ab invicem proprietate distincti, sic fuissent naturarum 
+              quoque diversitate discreti. Fides autem Patriarcharum, Prophetarum 
+              atque Apostolorum unum Deum praedicat esse Trinitatem.</quote>
+            <bibl>Augustine, <title>De fide ad Petrum</title>, c. 1, n. 4 (PL 40:754).</bibl>
+          </cit>
+          <cit>
+            <quote xml:id="pll1d3c4-Qd1e3516">In illa igitur sancta Trinitate unus est Deus Pater, 
+              qui solus essentialiter de se ipso unum Filium genuit; et unus 
+              Filius, qui de uno Patre solus essentialiter natus; et unus Spiritus 
+              sanctus, qui solus essentialiter a Patre Filioque procedit. Hoc 
+              autem totum non potest una persona, id est, gignere se, et nasci 
+              de se, et procedere de se.</quote>
+            <bibl>Augustine, De fide ad Petrum, c. 1, n. 6 (PL 40:755).</bibl>
+          </cit>
+          Ut enim ait <ref><name ref="#Augustine">Augustinus</name> in I libro 
+            <title ref="#deTrinitate">De Trinitate</title></ref>: 
+          <cit>
+            <quote xml:id="pll1d3c4-Qd1e3532">Nulla res est, quae se ipsam gignat, ut sit.</quote>
+            <bibl>Augustine, <title>De fide ad Petrum</title>, c. 1, n. 1 (PL 42:820).</bibl>
+          </cit>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 21, Capitulus 3</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 21, Capitulus 3</title>
+          <date when="2015-11-22">November 22, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-11-22">November 22, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d21c3">
+        <head xml:id="pll1d21c3-Hd1e3496">Librum I, Distinctio 21, Capitulus 3</head>
+        <!-- Quomodo Trinitas dicitur solus Deus, cum ipsa sit cum spiritibus et animabus sanctis -->
+        <p xml:id="pll1d21c3-d1e3501">Sed iterum quaeritur, quomodo ipsam Trinitatem dicimus 
+          solum Deum, cum sit cum spiritibus et animabus sanctis.</p>
+        <p xml:id="pll1d21c3-d1e3504">Ad quod respondet <ref><name ref="#Augustine">Augustinus</name> in VI libro <title ref="#deTrinitate">De Trinitate</title></ref> 
+          ita dicens: 
+          <cit>
+            <quote xml:id="pll1d21c3-Qd1e3515">Trinitatem dicimus Deum solum, quamvis semper sit 
+              cum spiritibus et animabus sanctis, sed solum dicimus, quia non 
+              aliud quam ipsa Trinitas Deus est. Non enim illi cum illa Deus 
+              sunt,</quote>
+            <bibl>Augustinus, De Trinitate, VI, c. 7. n. 9 (PL 42:929)</bibl>
+          </cit>
+          vel aliqua alia, sed ipsa Trinitas tantum, non illi vel alia 
+          Deus est.</p>
+        <p xml:id="pll1d21c3-d1e3523">
+          <cit>
+            <quote xml:id="pll1d21c3-Qd1e3527">Verumtamen, ut ait <name ref="#Augustine">Augustinus</name>, etsi de solo Patre praedicta 
+              dicerentur, non tamen excluderetur Filius vel Spiritus sanctus, 
+              quia 
+              <cit>
+                <quote xml:id="pll1d21c3-Qd1e3534" ana="#Iio5_7">hi tres unum sunt:</quote>
+                <bibl>I Ioannes 5:7</bibl>
+              </cit>
+              sicut in <title ref="#ap">Apocalypsi</title> de Filio legitur, 
+              quod 
+              <cit>
+                <quote xml:id="pll1d21c3-Qd1e3546" ana="#ap19_12">habet nomen scriptum, quod nemo scit nisi ipse.</quote>
+                <bibl>Apocalypsis 19:12</bibl>
+              </cit>
+              Non tamen 
+              inde separatur Pater vel Spiritus sanctus. Et cum dicitur: 
+              <cit>
+                <quote xml:id="pll1d21c3-Qd1e3555" ana="#mt11_27">Nemo novit Patrem nisi Filius;</quote>
+                <bibl>Matthaeus 11:27</bibl>
+              </cit>
+              non inde separatur Pater, et Spiritus 
+              sanctus, quia inseparabiles sunt.</quote>
+            <bibl>Augustinus, Contra Maximinum, II, c. 13, n. 1 (PL 42:769)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d21c3-d1e3569">Aliquando etiam nominatur Pater et Filius, et tacetur Spiritus 
+          sanctus; sicut Veritas ad Patrem loquens ait: 
+          <cit>
+            <quote xml:id="pll1d21c3-Qd1e3573" ana="#io17_3">Ut cognoscant te 
+              et quem misisti Iesum Christum esse unum verum Deum.</quote>
+            <bibl>Ioannes 17:3</bibl>
+          </cit>
+          <cit>
+            <quote xml:id="pll1d21c3-Qd1e3582">Cur ergo, inquit <name ref="#Augustine">Augustinus</name>, tacuit de Spiritu sancto? Quia consequens 
+              est, ut ubicumque nominatur unus, sicut Pater et Filius, 
+              tanta pace uni adhaerens intelligatur etiam ipsa Pax, quamvis non 
+              commemoretur.</quote>
+            <bibl>Augustinus, De Trinitate, VI, c. 9, n. 10 (PL 42:930)</bibl>
+          </cit>
+          Uno ergo istorum nominato, etiam relinqui intelliguntur; 
+          quod in pluribus Scripturae locis occurrit.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

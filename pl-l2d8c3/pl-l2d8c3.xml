@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum II, Distinctio 8, Capitulus 3</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.1-dev">
+          <title>Librum II, Distinctio 8, Capitulus 3</title>
+          <date when="2016-04-21">April 21, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-04-21">April 21, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+          <witness xml:id="Z" n="zbsSII72" xml:base="http://www.e-codices.unifr.ch/metadata/iiif/zbs-SII-0072/canvas/">Solothurn, Zentralbibliothek, Cod. S II 72</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="0.0.1">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        
+      </div>
+    </front>
+  	<body>
+  		<div xml:id="pl-l2d8c3">
+  			<head xml:id="pll2d8c3-Hd1e3508">Librum II, Distinctio 8, Capitulus 3</head>
+  			<head xml:id="pll2d8c3-Hd1e3511" type="questionTitle">Quod Deus in specie, qua Deus est, nunquam apparuit mortalibus.</head>
+  			<p xml:id="pll2d8c3-d1e3514">Sed ubi Deum hominibus in corporalibus imaginibus apparuisse 
+  				asserit, perplexam quaestionem proponit, quam nec absolvit, 
+  				quaerens, utrum in illis corporalibus apparitionibus creatura aliqua 
+  				crearetur ad illud opus tantum, in qua Deus hominibus appareret; 
+  				an Angeli, qui ante erant, ita mitterentur, ut manentes in suis spiritualibus 
+  				corporibus, assumerent ex corpulenta inferiorem elementorum 
+  				materia aliquam speciem corporalem, quam coaptatam quasi 
+  				aliquam vestem mutarent in quaslibet corporales species, veras quidem; 
+  				an corpus suum proprium verterent in species aptas actionibus 
+  				suis per virtutem sibi a Deo datam.</p>
+  			<p xml:id="pll2d8c3-d1e3517">Ait enim <ref><name ref="#Augustine">Augustinus</name> in III libro <title ref="#deTrinitate">De Trinitate</title>:</ref> 
+  				<cit>
+  					<quote xml:id="pll2d8c3-Qd1e3529">Quaerendum 
+  						est in illis antiquis corporalibus formis et visis, utrum ad
+  						hoc opus tantum creatura formata sit, in qua Deus, sicut tunc 
+  						oportuisse iudicavit, humanis ostenderetur aspectibus; an Angeli, 
+  						qui iam erant, ita mittebantur, ut ex persona Dei loquerentur, 
+  						assumentes corporalem speciem de creatura corporea in usum ministerii 
+  						sui; an ipsum corpus suum, cui non subduntur, sed subditum 
+  						regunt, mutantes atque vertentes in species, quas vellent, 
+  						accommodatas atque aptas actionibus suis secundum attributam a 
+  						Creatore sibi potentiam?</quote>
+  					<bibl>Augustinus, De Trinitate, III, c. 1, n. 4 (PL 42:870)</bibl>
+  				</cit>
+  			</p>
+  			<p xml:id="pll2d8c3-d1e3537">
+  				<cit>
+  					<quote xml:id="pll2d8c3-Qd1e3541">Sed fateor excedere vires intentionis meae, utrum Angeli, 
+  						manente spirituali sui corporis qualitate, per hanc occultius operantes 
+  						assumant ex inferioribus elementis corpulentioribus corpus, <!-- 343 --> 
+  						quod sibi coaptatum quasi aliquam vestem mutent et vertant 
+  						in quaslibet species corporales, et ipsas veras, sicut aqua 
+  						vera in verum vinum conversa est a Domino, an ipsa propria 
+  						corpora et sua transforment in id quod volunt, ad id quod 
+  						agunt <sic>accomodatum</sic>. Quod horum sit, quoniam homo sum, nullo 
+  						experimento comprehendere valeo, sicut Angeli, qui hoc agunt.</quote>
+  					<bibl>Augustinus, De Trinitate, III, c. 1, n. 5 (PL 42:870)</bibl>
+  				</cit>
+  			</p>
+  			<p xml:id="pll2d8c3-d1e3555">Attende, lector, quia quaestionem propositam non solvit, sed 
+  				indiscussam relinqui, utrum Angeli, qui mittuntur, servatis suis 
+  				propriis spiritualibus corporibus, supervestirentur aliqua corpulentiori 
+  				speciei, in qua possint videri; an ipsum corpus mutent et 
+  				transforment in quamcumque velint speciem, in qua possit 
+  				cerni. In quibus verbis videtur <name ref="#Augustine">Augustinus</name> attestari Angelos esse 
+  				corporeos, ac propria et spiritualia habere corpora.</p>
+  			<p xml:id="pll2d8c3-d1e3561">Ceterum haec velut nimis profunda atque obscura reliquentes, 
+  				illud indubitanter teneamus, quod Deus in specie essentiae suae 
+  				nunquam mortalibus apparuit, sicut famulo suo <name ref="#Moses">Moysi</name> dicit: 
+  				<cit>
+  					<quote xml:id="pll2d8c3-Qd1e3568" ana="#ex33_20">Non 
+  						videbit me homo, et vivet.</quote>
+  					<bibl>Exodus 33:20</bibl>
+  				</cit>
+  				Et in <title ref="#io">Evangelio Ioannis</title> legitur: 
+  				<cit>
+  					<quote xml:id="pll2d8c3-Qd1e3580" ana="io1_18">Deum 
+  						nemo vidit unquam.</quote>
+  					<bibl>Ioannes 1:18</bibl>
+  				</cit>
+  				<cit>
+  					<quote xml:id="pll2d8c3-Qd1e3589">Visibile enim quidquam non est, quod 
+  						non sit mutabile.</quote>
+  					<bibl>Augustinus, De Trinitate III, c. 10, n.21 (PL 42:881)</bibl>
+  				</cit>
+  				<cit>
+  					<quote xml:id="pll2d8c3-Qd1e3599">ideo substantia sive essentia Dei, quoniam 
+  						nullo modo mutabilis est, nullo modo potest per se ipsam esse visibilis. 
+  						Proinde illa omnia quae patribus visa sunt, cum Deus 
+  						illis praesentaretur, per creaturam facta esse manifestum est. Etsi 
+  						nos lateat, quomodo ea ministris Angelis fecerit Deus, per Angelos 
+  						tamen esse facta dicimus.</quote>
+  					<bibl>Augustinus, De Trinitate III, c. 11, n. 21, 22 (PL 42:881)</bibl> <!-- db check PL ref -->
+  				</cit>
+  				<cit>
+  					<quote xml:id="pll2d8c3-Qd1e3610">Audeo igitur fiducialiter dicere, nec 
+  						Deum Patrem nec Verbum eius nec Spiritum eius, qui est unus 
+  						Deus, per id quod est atque id ipsum est, ullo modo esse mutabilem, 
+  						ac per hoc multo minus visibilem.</quote>
+  					<bibl>Augustinus, De Trinitate III, c. 11, n. 21 (PL 42:881)</bibl> <!-- db check PL ref -->
+  				</cit>
+  			</p>
+  		</div>
+  	</body>
+  </text>
+</TEI>

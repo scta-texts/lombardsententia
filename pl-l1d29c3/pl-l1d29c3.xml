@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 29, Capitulus 3</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 29, Capitulus 3</title>
+          <date when="2015-12-25">December 25, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-12-25">December 25, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d29c3">
+        <head xml:id="pll1d29c3-Hd1e3496">Librum I, Distinctio 29, Capitulus 3</head>
+        <!-- Quomodo Pater sit principium Filii, 
+          et ipse cum Filio Spiritus sancti. -->
+        <p xml:id="pll1d29c3-d1e3501">Deinde in eodem libro continue ostendit, quomodo Pater dicatur 
+          principium ad Filium, et ad Spiritum sanctum ipse et Filius, 
+          dicens, ideo Patrem esse principium Filii, quia genuit eum, et 
+          Patrem et Filium esse principium Spiritus sancti, quia Spiritus 
+          sanctus procedit vel datur ab utroque.</p>
+        <p xml:id="pll1d29c3-d1e3504">Ait enim ita: 
+          <cit>
+            <quote xml:id="pll1d29c3-Qd1e3508">Si gignens ad id quod gignit principium est, 
+              Pater ad Filium principium est, quia genuit eum. Utrum autem et 
+              ad Spiritum sanctum principium sit Pater, quia dictum est: 
+              <cit>
+                <quote xml:id="pll1d29c3-Qd1e3512" ana="#io15_26">De 
+                  Patre procedit,</quote>
+                <bibl>Ioannes 15:26</bibl>
+              </cit>
+              non parva quaestio est. Quod si ita est, non iam 
+              principium ei tantum rei erit, quam gignit aut facit, sed etiam ei, 
+              quam dat, et quae procedit ab ipso. Si ergo quod datur vel quod 
+              procedit, principium habet a quo datur vel procedit, fatendum est, 
+              Patrem et Filium principium esse Spiritus sancti, non duo principia. 
+              Sed sicut pater et Filius ad creaturam relative unus creator 
+              et unus dominus dicitur, sic relative ad Spiritum sanctum unum 
+              principium. Ad creaturam vero Pater et Filius et Spiritus sanctus 
+              unum principium sicut unus creator et unus dominus.</quote>
+            <bibl>Augustinus, De Trinitate, IV, c. 14, n. 15 (PL 42:92)</bibl>
+          </cit>
+        </p>
+        <!-- p. 186 -->
+        <p xml:id="pll1d29c3-d1e3528">Ecce habes, quod Pater principium Filii dicitur, quia genuit 
+          eum; qua ergo notione est Pater, ea principium Filii dicitur, id 
+          est generatione, secundum quam etiam dicitur auctor Filii.</p>
+        <p xml:id="pll1d29c3-d1e3531">Unde <name ref="#HilaryOfPoitiers">Hilarius</name> in IV libro <title>De Trinitate</title> ait: 
+          <cit>
+            <quote xml:id="pll1d29c3-Qd1e3541">Ipso quo 
+              Pater dicitur, eius quem genuit auctor ostenditur, id habens nomen 
+              quod neque ex alio profectum intelligatur, et ex quo is qui 
+              genitus est, substitisse doceatur.</quote>
+            <bibl>Hilarius, De Trinitate, n. 9 (PL 10:102)</bibl>
+          </cit>
+          <cit>
+            <quote xml:id="pll1d29c3-Qd1e3550">Novit Ecclesia unum innascibilem 
+              Deum, novit unigenitum Dei Filium. Confitetur Patrem ab origine 
+              liberum, confitetur et Filii originem ab initio, non ipsum ab 
+              initio, sed ab ininitabili, non per se ipsum, sed ab eo qui a nemine est, 
+              natum ab aeterno, nativitatem scilicet ex paterna aeternitate 
+              sumentem. Edita est hic fidei professio, sed professionis ratio 
+              nondum exposita est;</quote>
+            <bibl>Hilarius, De Trinitate, n. 6 (PL 10:102)</bibl>
+          </cit>
+          et ideo quaerenda, scilicet quomodo intelligendum 
+          sit quod ait, Filii originem esse ab initio, et non ipsum 
+          esse ab initio, sed ab ininitiabili.</p>
+        <p xml:id="pll1d29c3-d1e3558">Hoc utique subdens determinavit, quomodo acceperit initium, 
+          inquiens, originem Filii esse ab initio, ac si diceret: Non ita intelligas, 
+          originem Filii esse ab initio, quasi ipse Filius habeat initium, 
+          sed quia ipse est ab ininitiabili, id est a Patre, a quo sunt omnia. 
+          Nam licet Filius sit principium de principio, non est tamen concedendum, 
+          quod Filius habeat principium. Cumque Filius sit principium 
+          de principio, et Pater principium non de principio, non est 
+          principium de principio principium sine principio, sicut Filius non 
+          est Pater; neque duo tamen principia, sed unum, sicut Pater et 
+          Filius non duo creatores, sed unus creator.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

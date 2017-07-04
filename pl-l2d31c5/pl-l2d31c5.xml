@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber I, Distinctio 31, C. 5</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber I, Distinctio 31, C. 5</title>
+          <date when="2017-07-04">July 4, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative
+              Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="Quaracchi1916">Quaracchi 1916 Volume 1</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-07-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l2d31c5">
+        <head>Liber I, Distinctio 31, C. 5</head>
+        <head type="question-title">Quare dicitur peccatum esse in carne.</head>
+        <p> Ideoque ipsum peccatum dicitur manere in-carne. « Caro igitur, * quae in concupiscentia
+          libidinis seminatur, nec. culpam habet nec actum culpae, sed causam. ln eo igitur quod
+          seminatur, corlruptio est; in eo autem quodnascitur, concupiscentia ** Vitiumest ». </p>
+        <p> Unde Ambrosius2 de verbis Apostoli, sic ait: «'Quo-. modo habitat peccatum in carne, cum
+          non sitb substantia,-sed». privatio boni? Ecce primi hominis corpus corruptum est per pec-
+          catum, ipsaque corruptio per conditionem OfdeSlOIi-l-S manet incor- pore, robur tenens
+          divinae sententiaenatae in Adam, cuiiis con— sortio anima C maculatur peccato. Per id
+          ergo, quod facti causa manet, inhabitare dicitur peccatum. in carne »; haec est lex
+          carnis. </p>
+        <p> Idem3:. «Non habitat peccatum in anima, sed in carne, quia peccati causa ex carne est,
+          non 'ex anima; quia caro est ex origine carnis peceati, et per traducem omnis caro
+          tit-Fi-pec— . cati »; anima vero non traducitur, et ideo Causam peccati in se non habet. </p>
+        <p> Augustinus quoque, ex carne peccatum animam contra- here, in sermone quodam De verbts
+          Apostolz4 ostendit dicens: «Vitium concupiscentiae est, quod e anima 7", sed ex. carne
+          con— traxit. Natura quippe humana non opere Dei cumvmo primitus est instituta, sed ex
+          voluntatis arbitrio priorum hominum venienti 9, vitio est sauciata, ita ut non sit in
+          carne bonum,sed Vitium quo inficitur anima ». </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 31, Capitulus 1</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 31, Capitulus 1</title>
+          <date when="2015-12-27">December 27, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-12-27">December 27, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d31c1">
+        <head xml:id="pll1d31c1-Hd1e3496">Librum I, Distinctio 31, Capitulus 1</head>
+        <!-- An- Filius dicatur aequalis vel similis Patri secundum substantiam. -->
+        <p xml:id="pll1d31c1-d1e3501">Praeterea considerari oportet, cum tres personae coaequales 
+          sibi sint, utrum relative hoc dicatur, an secundum substantiam; 
+          et si relative, utrum secundum relationem, an secundum essentiam 
+          consideranda sit aequalitas; deinde, quid sit ipsa aequalitas.</p>
+        <p xml:id="pll1d31c1-d1e3504">Ad quod dicimus, quia, sicut simile nihil sibi est, -- 
+          <cit>
+            <quote xml:id="pll1d31c1-Qd1e3508">similitudo 
+              enim, ut ait <name ref="#HilaryOfPoitiers">Hilarius</name>, sibi ipsi non est</quote>
+            <bibl>Hilarius, De Trinitate, III, n. 23 (PL 10:92)</bibl>
+          </cit>
+          -- ita et aequale 
+          aliquid sibi non dicitur, ac per hoc, sicut simile, ita et aequale relative 
+          <!-- p. 191 --> 
+          dicitur. Dicitur ergo relative Filius aequalis Patri et utrique 
+          Spiritus sanctus.</p>
+        <p xml:id="pll1d31c1-d1e3521">Est tamen aequalis Patri Filius et utrique Spiritus sanctus 
+          propter summam simplicitatem essentiae et unitatem; aequalis est 
+          igitur Filius Patri secundum substantiam, non secundum relationem.</p>
+        <p xml:id="pll1d31c1-d1e3525">Unde <name ref="#Augustine">Augustinus</name> in V libro <title ref="#deTrinitate">De Trinitate</title> ait: 
+          <cit>
+            <quote xml:id="pll1d31c1-Qd1e3535">Quaerimus, secundum quid aequalis sit Patri Filius. Non secundum hoc, 
+              quod ad Patrem dicitur, Filius aequalis est Patri; restat igitur, ut 
+              secundum id aequalis sit, quod ad se dicitur; quidquid autem ad 
+              se dicitur, secundum substantiam dicitur; restat ergo, ut secundum 
+              substantiam sit aequalis. Eadem igitur est utriusque substantia.</quote>
+            <bibl>Augustinus, De Trinitate, V, c. 6, n. 7 (PL 42:914)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d31c1-d1e3543">Item in VI libro: 
+          <cit>
+            <quote xml:id="pll1d31c1-Qd1e3547">Satis est videre, nullo modo Filium 
+              aequalem esse Patri, si in aliquo, scilicet quod pertineat ad significandum 
+              eius substantiam, inaequalis invenitur. In omnibus ergo 
+              aequalis est Patri Filius et est eiusdem substantiae.</quote>
+            <bibl>Augustinus, De Trinitate, V, c. 4, n. 6 (PL 42:927)</bibl>
+          </cit>
+          <cit>
+            <quote xml:id="pll1d31c1-Qd1e3556">Aequalis 
+              est etiam Spiritus sanctus Patri et Filio et in omnibus aequalis 
+              propter summam simplicitatem illius substantiae.</quote>
+            <bibl>Augustinus, De Trinitate, V, c. 5, n. 7 (PL 42:927)</bibl>
+          </cit>
+          Ex his perspicuum 
+          fit, quod secundum substantiam Filius est aequalis Patri 
+          et utrique Spiritus sanctus, et appellatio tantum relativa est.</p>
+        <p xml:id="pll1d31c1-d1e3564">Aequalitas ergo Patris et Filii non est relatio vel notio, sed 
+          propter naturae unitatem <sic>indisparitas.</sic></p>
+        <p xml:id="pll1d31c1-d1e3569">Hoc idem etiam dicimus de simili et similitudine. Cum enim 
+          dicitur Filius similis Patri, relative quidem dicitur, sed similis est 
+          Patri propter unitatem essentiae. Est ergo appellatio tantum relativa, 
+          similitudo vero est 
+          <cit>
+            <quote xml:id="pll1d31c1-Qd1e3573">indifferens essentia.</quote>
+            <bibl>Hilarius, De Synodis, n. 73 (PL 10:528)</bibl>
+          </cit>
+        </p>
+        <!-- p. 192 -->
+        <p xml:id="pll1d31c1-d1e3583">Unde quibusdam non indocte videtur, nomine aequalitatis vel 
+          similitudinis non aliquid poni, sed removeri, ut ea ratione dicatur 
+          Filius aequalis Patri, quia nec maior est eo nec minor, et hoc 
+          propter unitatem essentiae. Ita et similis dicitur, quia nec diversus 
+          nec alienus nec in aliquod dissimilis, et hoc propter essentiae simplicitatem. 
+          Non ergo secundum quod Filius est genitus a Patre, 
+          aequalis vel inaequalis est patri, nec similis vel dissimilis, sed aequalis 
+          et similis secundum substantiam.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

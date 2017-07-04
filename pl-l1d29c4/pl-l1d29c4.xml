@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 29, Capitulus 4</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 29, Capitulus 4</title>
+          <date when="2015-12-25">December 25, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-12-25">December 25, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d29c4">
+        <head xml:id="pll1d29c4-Hd1e3496">Librum I, Distinctio 29, Capitulus 4</head>
+        <!-- An eadem notione Pater et Filius sint principium Spiritus sancti. -->
+        <p xml:id="pll1d29c4-d1e3501">Unum autem principium sunt Pater et Filius non tantum creaturarum, 
+          ut dictum est supra, sed etiam Spiritus sancti: ideo 
+          quaeri solet, utrum eadem notione Pater sit principium Spiritus 
+          sancti et Filius, an sit alia notio, qua Pater dicatur principium 
+          Spiritus sancti, et alia, qua Filius.</p>
+        <!-- 187 -->
+        <p xml:id="pll1d29c4-d1e3506">Ad quod dicimus, cum Pater dicatur principium Spiritus sancti 
+          et Filius -- quia Spiritus santus procedit vel datur ab utroque, 
+          nec aliter procedit vel datur a Patre quam a Filio -- sane intelligi 
+          potest, Patrem et Filium eadem relatione vel notione dici principium 
+          Spiritus sancti.</p>
+        <p xml:id="pll1d29c4-d1e3510">Si vero quaeritur, quae sit illa notio, quam ibi notat principium, 
+          nomen eius non habemus, sed non est ipsa paternitas vel 
+          filiatio, immo notio quaedam, quae Patris est et Filii, qua ab 
+          aeterno Pater et Filius unum, principium est Spiritus sancti. Donator 
+          autem, ut praedictum est, dicitur Pater vel Filius ex tempore, 
+          sicut Spiritus sanctus datum vel donatum.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

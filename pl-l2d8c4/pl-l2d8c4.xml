@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum II, Distinctio 8, Capitulus 4</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.1-dev">
+          <title>Librum II, Distinctio 8, Capitulus 4</title>
+          <date when="2016-04-30">April 30, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-04-30">April 30, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+          <witness xml:id="Z" n="zbsSII72" xml:base="http://www.e-codices.unifr.ch/metadata/iiif/zbs-SII-0072/canvas/">Solothurn, Zentralbibliothek, Cod. S II 72</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="0.0.1">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        
+      </div>
+    </front>
+  	<body>
+  		<div xml:id="pl-l2d8c4">
+  			<head xml:id="pll2d8c3-Hd1e3508">Librum II, Distinctio 8, Capitulus 4</head>
+  			<head xml:id="pll2d8c3-Hd1e3511" type="questionTitle">Quomodo dicuntur daemones intrare in homines.</head>
+  			<p xml:id="pll2d8c4-d1e3514">Illud etiam consideratione dignum videtur, utrum daemones, 
+  				sive corporei sive incorporei sint, hominum substantialiter intrent 
+  				corpora eorumque animabus illabantur; an ideo intrare dicantur, 
+  				quia malitiae suae effectum ibi exercent Dei permissione, opprimendo 
+  				atque vexando eas, vel in peccatum pro voluntate sua 
+  				trahendo.</p>
+  			<p xml:id="pll2d8c4-d1e3517">Quod in homines introeant atque ab eis expulsi exeant, Evangelium 
+  				aperte declarat, commemorans daemonia in quosdam ingressa 
+  				et per Christum eiecta; sed utrum secundum substantiam 
+  				fuerint ingressa, an propter mali effectum dicantur ingressa, non 
+  				adeo perspicuum est.</p>
+  			<p xml:id="pll2d8c4-d1e3520">De hoc autem <name>Gennadius</name> in <title>Definitionibus ecclesiasticorum 
+  				dogmatum</title> ait: 
+  				<cit>
+  					<quote xml:id="pll2d8c4-Qd1e3530">Daemones per energicam operationem 
+  						non credimus substantialiter illabi animae, sed applicatione oppressione 
+  						uniri. Illabi autem menti illi soli possibile est, qui creavit, 
+  						qui natura subsistens incorporeus capabilis est suae facturae.</quote>
+  					<bibl>Gennadius, De ecclesiast. dogmat. c. 50 (PL 58:993)</bibl>
+  				</cit>
+  				Ecce hic videtur insinuari, quod substantialiter non illabantur daemones 
+  				vel introeant corda hominum.</p>
+  			<p xml:id="pll2d8c4-d1e3539"><name ref="#Bede">Beda</name> quoque super illum locum <title ref="#act">Actuum Apostolorum</title>, ubi 
+  				<name ref="#Peter">Petrus</name> ait <name>Ananiae</name>: 
+  				<cit>
+  					<quote xml:id="pll2d8c4-Qd1e3554" ana="#act5_3">Cur implevit vel tentavit satanas cor tuum?</quote>
+  					<bibl>Actuum Apostolorum 5:3</bibl>
+  				</cit>
+  				dicit: 
+  				<cit>
+  					<quote xml:id="pll2d8c4-Qd1e3563">Notandum, quod mentem hominis iuxta substantiam nihil 
+  						implere possit nisi creatrix Trinitas, quia tantummodo secundum 
+  						operationem et voluntatis instinctum anima de his quae sunt creata, 
+  						impletur. Implet vero satanas cor alicuius, non quidem ingrediens 
+  						in eum et in sensum eius, neque introiens aditum cordis - siquidem 
+  						potestas haec solius Dei est - sed callida et fradulenta <!-- 345 --> 
+  						deceptione animam in affectum malitiae trahens per cogitationes 
+  						et incentiva vitiorum, quibus plensu est. Implevit ergo satans cor 
+  						<name>Ananiae</name> non intrando, sed malitiae suae virus inserendo</quote>
+  					<bibl>Bede, Ad Actuum 5:3 </bibl>
+  				</cit>
+  			</p>
+  			<p xml:id="pll2d8c4-d1e3576">Idem: 
+  				<cit>
+  					<quote xml:id="pll2d8c4-Qd1e3580">Spiritus immundus, flamma virtutum de cordibus fidelium 
+  						expulsus, doctoribus veritatis venenum persecutionis infundit.</quote>
+  					<bibl>Bede, Ad Actuum 28:3 </bibl>
+  				</cit>
+  			</p>
+  			<p xml:id="pll2d8c4-d1e3588">His auctoritatibus ostenditur, quod daemones non substantialiter 
+  				intrent corda hominum, sed propter malitiae suae effectum; 
+  				de quibus pelli dicuntur, cum nocere non sinuntur.</p>
+  		</div>
+  	</body>
+  </text>
+</TEI>

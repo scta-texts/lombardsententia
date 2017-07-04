@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 18, Capitulus 3</title>
+        <author>Petrus Lombardus</author>
+        <editor></editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 18, Capitulus 3</title>
+          <date when="2015-11-11">November 11, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher></publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-11-11">November 11, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d18c3">
+        <head xml:id="pll1d18c3-Hd1e3472">Librum I, Distinctio 18, Capitulus 3</head>
+        <!-- Quod sicut Filius nascendo accepit non tantum, ut esset Filius, 
+          sed etiam essentia, ita Spiritus sanctus procedendo accepti 
+          non tantum, ut esset donum, sed ut esset essentia. -->
+        <p xml:id="pll1d18c3-d1e3477">Et notandum, quod sicut Filius nascendo accepit non tantum, 
+          ut Filius sit, sed omnino ut sit, et ut ipsa substantia sit; ita et 
+          Spiritus sanctus a Patre et Filio procedendo accepti non tantum, 
+          ut Spiritus sanctus sit vel donum, sed etiam, ut omnino sit, ut et 
+          substantia sit; quod utique non accept ex eo quod datur. Nam 
+          cum non detur nisi ex tempore, si hoc haberet eo quo datur, accepisset 
+          ergo ex tempore ut esset.</p>
+        <p xml:id="pll1d18c3-d1e3480">Unde <ref><name ref="#Augustine">Augustinus</name> in V libro <title ref="#deTrinitate">De Trinitate</title>:</ref> 
+          <cit>
+            <quote xml:id="pll1d18c3-Qd1e3492">Filius non 
+              hoc tantum habet nascendo, ut sit Filius, sed omnino ut sit. Quaeritur 
+              ergo, utrum Spiritus sanctus eo quo datur, habeat non tantum, 
+              ut donum sit, sed omnino ut sit. Quod si non est, nisi quia 
+              datur, id est, si non habet esse, nisi eo quo datur, sicut Filius 
+              nascendo habet non tantum, ut sit Filius, quod relative dicitur, 
+              sed omnino ut sit ipsa substantia, quomodo iam Spiritus sanctus 
+              erat ipsa substantia, cum non prius daretur, quam esset cui daretur?</quote>
+            <bibl>Augustinus, De Trinitate, V, c. 15, n. 16 (PL XXX)</bibl>
+          </cit>
+          Non ergo eo quo datur, sed procedendo habet, ut sit 
+          donum, et ut sit essentia; sicut Filius non eo quo datus est, sed 
+          nascendo accepti non tantum, ut sit Filius, ed ut sit essentia.</p>
+        <p xml:id="pll1d18c3-d1e3500">Unde <name ref="#Augustine">Augustinus</name> in XV libro <title ref="#deTrinitate">De Trinitate</title> ait: 
+          <cit>
+            <quote xml:id="pll1d18c3-Qd1e3510">Sicut 
+              Filio praestat essentiam sine initio temporis, sine mutabilitate 
+              naturae de Patre generatio, ita Spiritui sancto praestat essentiam <!-- p. 121 --> 
+              sine ullo initio temporis, sine ulla mutabilitate naturae de 
+              utroque processio.</quote>
+          </cit>
+        </p>
+        <p xml:id="pll1d18c3-d1e3518">Hic oritur quaestio: Si Filius nascendo habet non tantum, ut 
+          sit Filius, sed ut sit essentia, et Spiritus sanctus procedendo non 
+          tantum, ut sit donum, sed ut sit essentia, ergo et Filius nativitate 
+          essentia est, et Spiritus sanctus processione essentia est; cum alibi 
+          dicatur, quod nec Pater eo Pater est; quo Deus, nec Filius eo Filius, 
+          quo Deus, nec Spiritus sanctus eo donum, quo Deus; quia, 
+          ut <ref><name ref="#Augustine">Augustinus</name> ait in VII libro <title ref="#deTrinitate">De Trinitate</title>,</ref> 
+          <cit>
+            <quote xml:id="pll1d18c3-Qd1e3530">his nominibus 
+              relativa eorum ostenduntur, non essentia;</quote>
+            <bibl>Augustinus, De Trinitate, VII, c. 2, n. 3 (PL 42:936)</bibl>
+          </cit>
+          unde post plenius agemus.</p>
+        <p xml:id="pll1d18c3-d1e3538">Ad quod breviter respondentes dicimus, quia nec Filius nativitate 
+          essentia est, sed tantum Filius; nec Spiritus sanctus processione 
+          essentia est, sed tantum donum; et tamen uterque, et 
+          ille nascendo, ut iste procedendo, accepit, ut esset essentia.</p>
+        <p xml:id="pll1d18c3-d1e3541">
+          <cit>
+            <quote xml:id="pll1d18c3-Qd1e3545">Non enim, ut ait <ref><name ref="#HilaryOfPoitiers">Hilarius</name> in V libro <title ref="#HilaryOfPoitiers_DeTrinitate">De Trinitate</title>,</ref> per 
+              defectionem, aut protensionem, aut derivationem ex Deo Deus 
+              est, sed ex virtute naturae in naturam eandem nativitate subsistit 
+              Filius,</quote>
+            <bibl>Hilarius, De Trinitate, V, n. 37 (PL 10:154)</bibl>
+          </cit>
+          et ex virtute naturae in naturam eandem processione 
+          subsistit Spiritus sanctus.</p>
+        <p xml:id="pll1d18c3-d1e3561">Quod ita intelligi potest: Ex Patre, qui est virtus ingenita, 
+          naturam, quam habet eandem Filius nativitate, id est nascendo, et 
+          Spiritus sanctus processione, id est procedendo, habet. Unde ipse 
+          idem apertius eloquens, quod dixerat aperit, subdens: 
+          <cit>
+            <quote xml:id="pll1d18c3-Qd1e3565">Nativitas, 
+              inquit, Dei non potest non eam, de qua profecta est, tenere naturam; 
+              non enim aliud quam Deus subsistit, quod non aliunde quam 
+              de Deo subsistit.</quote>
+            <bibl>Hilarius, De Trinitate, V, n. 37 (PL 10:154)</bibl>
+          </cit>
+          Ecce his verbis aperitur, quomodo accipiendum 
+          sit illud: 
+          <cit>
+            <quote xml:id="pll1d18c3-Qd1e3574">De Patre generatio praestat essentiam Filio, et de 
+              utroque processio praestat essentiam Spiritui sancto;</quote>
+            <bibl>Augustinus, De Trinitate, XV, c. 26, n. 47 (PL 42:1079)</bibl>
+          </cit>
+          non quia 
+          ille essentia sit Filius, et iste essentia sit Spiritus sanctus, immo 
+          proprietate personali, sed quia et ille nascendo, et iste procedendo, 
+          essentiam habet eandem et totam, quae in Patre est.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 34, Capitulus 1</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 34, Capitulus 1</title>
+          <date when="2016-01-02">January 02, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-01-02">January 02, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d34c1">
+        <head xml:id="pll1d34c1-Hd1e3496">Librum I, Distinctio 34, Capitulus 1</head>
+        <!-- De verbis Hilarii, quibus secundum pravorum intelligentiam videtur dicere, non idem esse divinam naturam et rem naturae, 
+        et non idem esse Deum et quod Dei est. -->
+        <p xml:id="pll1d34c1-d1e3501">Praedictis est adiiciendum, quod quidam perversi sensus homines 
+          in tantam prosilierunt insaniam, ut dicerent, non idem esse 
+          naturam Dei et personam sive hypostasim, dicentes, eandem essentiam 
+          non posse esse Patrem et Filium sine personarum confusione. 
+          Si enim, inquiunt, ea essentia, quae Pater est, Filius est, idem sibi 
+          Pater est et Filius. Si hanc rem dicis esse Patrem, et aliam quaere, 
+          quam dicas Filium. Si vero aliam non quaesieris, sed eandem dixeris, <!-- p. 213 --> 
+          idem genuit et genitus est. Propter haec et huiusmodi inter 
+          naturam et personam dividunt, ita ut non recipiant unam deitatis 
+          naturam et simplicem esse tres personas.</p>
+        
+        <p xml:id="pll1d34c1-d1e3506">Idque testimonio <ref><name ref="#HilaryOfPoitiers">Hilarii</name> defendere nituntur, qui in VIII libro 
+          <title ref="#HilaryOfPoitiers_DeTrinitate">De Trinitate</title></ref> quaerens, utrum <name ref="#Paul">Apostolus</name>, nominans 
+          <cit>
+            <quote xml:id="pll1d34c1-Qd1e3520" ana="#rom8_9">spiritum 
+              Dei et spiritum Christi,</quote>
+            <bibl>Romanos 8:9</bibl>
+          </cit>
+          idem significaverit utroque verbo, inquit 
+          ita: 
+          <cit>
+            <quote xml:id="pll1d34c1-Qd1e3529">Gentium praedicator, volens naturae unitatem in Patre et 
+              Filio docere, ait: 
+              <cit>
+                <quote xml:id="pll1d34c1-Qd1e3533" ana="#rom8_9"> <!-- "#rom8_10 and "#rom8_11" -->Spiritus Dei in vobis est. Si quis autem spiritum 
+                  Christi non habet, hic non est eius. Si autem spiritus eius 
+                  qui suscitavit Christum</quote>
+                <bibl>Romanos 8:9-11</bibl>
+              </cit>
+              etc. Spirituales omnes sumus, si in nobis 
+              est spiritus Dei, sed et hic spiritus Dei est et spiritus Christi. Et 
+              cum Christi spiritus est in nobis, eius spiritus in nobis est, qui 
+              suscitavit Christum. Et cum eius qui suscitavit Christum in nobis 
+              est spiritus, et spiritus in nobis est Christi; nec tamen non Dei est 
+              spiritus, qui in nobis est. Discerne ergo, o haeretice, spiritum 
+              Christi a spiritu Dei, et excitati a mortuis spiritum Christi a spiritu 
+              Dei, Christum a mortuis excitantis; cum qui habitat in nobis 
+              spiritus Christi spiritus Dei sit, et spiritus Christi a mortuis 
+              excitati spiritus Dei tantum sit Christum a mortuis excitantis. Et 
+              quaero nunc, <mentioned>in spiritu Dei</mentioned> utrum naturam, an rem naturae significatam 
+              existimes. Non idem est enim natura quod res naturae, 
+              sicut non idem est homo est quod hominis est; nec idem est ignis 
+              et quod ipsius ignis est; et secundum hoc non idem est Deus et 
+              quod Dei.</quote>
+            <bibl>Hilarius, De Trinitate, I, n. 21, 22 (PL 10:252)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d34c1-d1e3551">Hoc quidem dicunt, non intelligentes pia diligentia Scripturae 
+          circumstantiam, qua considerata, percipi potest, quomodo praemissa <!-- 214 --> 
+          dixerit <name ref="#HilaryOfPoitiers">Hilarius</name>. Subsequenter enim in eadem serie ostendit, 
+          in <mentioned>spiritu Dei</mentioned> aliquando significari Patrem, ut cum dicitur: 
+          <cit>
+            <quote xml:id="pll1d34c1-Qd1e3563" ana="#is61_1">Spiritus Domini super me;</quote>
+            <bibl>Isaias 61:1</bibl>
+          </cit>
+          aliquando significari Filium, ut cum
+          dicitur: 
+          <cit>
+            <quote xml:id="pll1d34c1-Qd1e3572" ana="#mt12_28">In spiritu Dei eiicio daemonia,</quote>
+            <bibl>Matthaeus 12:28</bibl>
+          </cit>
+          naturae suae potestate 
+          se daemones eiicere demonstrans; aliquando Spiritum sanctum, ut 
+          ibi: 
+          <cit>
+            <quote xml:id="pll1d34c1-Qd1e3582" ana="#ioel2_28">Effundam de spiritu meo super omnem carnem.</quote>
+            <bibl>Ioel 2:28</bibl>
+          </cit>
+          Quod dicit 
+          consummatum fuisse, cum <name ref="#Paul">Apostoli</name>, misso Spiritu, omnibus linguis 
+          locuti sunt.</p>
+        <p xml:id="pll1d34c1-d1e3594">Deinde, quare hanc distinctionem fecerit, et quod in superioribus 
+          verbis <name ref="#Paul">Apostoli</name> idem Spiritus significatus sit, et quod ipse 
+          sit res unius naturae Patris et Filii, aperte ostendit inquiens ita: 
+          <cit>
+            <quote xml:id="pll1d34c1-Qd1e3601">Haec idcirco sunt demonstrata, ut quacumque parte haeretica 
+              falsitas se contulisset, finibus veritatis concluderetur. Habitat enim 
+              in nobis Christus, quo habitante habitat Deus; et cum habitat in 
+              nobis spiritus Christi, non alius tamen habitat quam spiritus Dei. 
+              Quodsi per Spiritum sanctum Christus in nobis intelligitur esse, 
+              hunc tamen ita spiritum Dei ut spiritum Christi esse noscendum 
+              est. Et cum per naturam Dei natura ipsa habitet in nobis, indifferens 
+              natura Filii creditur esse a Patre, cum Spiritus sanctus, qui 
+              est spiritus Christi, et Spiritus Dei res naturae demonstretur unius. 
+              Quaero nunc igitur, quomodo non ex natura unum sunt. A Patre 
+              procedit Spiritus veritatis, a Filio mittitur, et a Filio accipit. Sed 
+              omnia quae habet Pater, Filii sunt; et idcirco qui ab eo accipit 
+              Dei spiritus est, et idem spiritus Christi est. Res naturae Filii est, 
+              sed et eadem res et naturae Patris est, et Dei excitantis Christum 
+              a mortuis spiritus est, et idem spiritus Christi est a mortuis excitati. 
+              In aliquo differt Christi et Dei natura, ne eadem sit, si praestari 
+              potest ut spiritus qui Dei est non sit etiam Christi.</quote>
+            <bibl>Hilarius, De Trinitate, I, n. 26, 27, et 28 (PL 10:255 et 256)</bibl>
+          </cit>
+          <cit>
+            <quote xml:id="pll1d34c1-Qd1e3610">Est 
+              ergo in nobis spiritus Dei, et est in nobis spiritus Christi; et cum 
+              spiritus Christi inest, inest spiritus Dei. Ita cum quod Dei est, et 
+              Christi est, et quod Christi est, Dei est, non potest quid aliud diversum 
+              Christus esse, quam Deus est. Deus igitur Christus est 
+              unus cum Deo spiritus,</quote>
+            <bibl>Hilarius, De Trinitate, I, n. 26, 27, et 28 (PL 10:255 et 256)</bibl>
+          </cit>
+          <cit>
+            <quote xml:id="pll1d34c1-Qd1e3619">secundum illud 
+              <cit>
+                <quote xml:id="pll1d34c1-Qd1e3623" ana="#io10_30">Ego et Pater unum <!-- 215 -->sumus.</quote>
+                <bibl>Ioannes 10:30</bibl>
+              </cit>
+              In quo docet Veritas, unitatem esse naturae, non solitudinem 
+              unionis.</quote>
+            <bibl>Hilarius, De Trinitate, I, n. 26, 27, et 28 (PL 10:255 et 256)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d34c1-d1e3638">Ecce, si haec verba diligenter attendas, invenis Spiritum sanctum 
+          rem naturae dici Patris et Filii, et eundem dici esse naturam 
+          Dei, ubi dicitur: Per naturam Dei natura ipsa habitat in 
+          nobis, si per Spiritum sanctum Christus est in nobis.</p>
+        <p xml:id="pll1d34c1-d1e3641">Itaque in Trinitate non ita distinguendum est inter naturam 
+          et rem naturae, sicut in rebus creatis, quia, ut ait <name ref="#HilaryOfPoitiers">Hilarius</name>: 
+          <cit>
+            <quote xml:id="pll1d34c1-Qd1e3648">Comparatio terrenorum ad Deum nulla est; et si qua comparationum 
+              exempla interdum afferuntur, nemo ea aestimet absolute 
+              in se rationis perfectionem continere;</quote>
+            <bibl>Hilarius, De Trinitate, I, n. 19 (PL 10:38)</bibl>
+          </cit>
+          <cit>
+            <quote xml:id="pll1d34c1-Qd1e3657">non enim humano sensu 
+              de Deo loquendum est.</quote>
+            <bibl>Hilarius, De Trinitate, VIII, n. 14 (PL 10:247)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d34c1-d1e3665">Ad naturam ergo rerum creatarum respiciens inquit: 
+          <cit>
+            <quote xml:id="pll1d34c1-Qd1e3669">Non 
+              idem est natura quod naturae res,</quote>
+            <bibl>xxx</bibl>
+          </cit>
+          subiiciens exempla de ipsis 
+          creaturis. Inde ostendens, erroris esse, sub mensura creaturarum 
+          metiri Creatorem, addit: Et secundum hoc 
+          <cit>
+            <quote xml:id="pll1d34c1-Qd1e3678">non idem est Deus, 
+              et quod Dei est,</quote>
+            <bibl>xxx</bibl>
+          </cit>
+          ac si diceret: Si ad instar creaturarum de Creatore 
+          sentis, cogeris fateri, quia non idem est Deus et quod Dei 
+          est; quod dicere impium est, cum Spiritus Dei Deus sit, et Dei 
+          Filius sit Deus.</p>
+        <p xml:id="pll1d34c1-d1e3686">Non ergo secundum corporales modos, ut in eadem serie subdit, 
+          accipienda sunt haec quae de Deo dicuntur. Ubi evacuans opinionem 
+          eorum qui ita putant aliud esse Deum, et aliud quod Dei 
+          est, aliudque naturam Dei et rem naturae, ut est in creaturis, 
+          aperte docet, non aliud esse Deum et quae sua sunt, ita ut insit 
+          illi, sic dicens: 
+          <cit>
+            <quote xml:id="pll1d34c1-Qd1e3690">Homo aut aliquid ei simile, cum alicubi erit, 
+              alibi non erit, quia id quod est, illic continetur, ubi fuerit in forma, 
+              ut non ubique sit qui insistens alicubi sit. Deus autem immensae 
+              virtutis, vivens potestas, quae nusquam non adsit, nec desit usquam, 
+              se omnem per sua edocet, et sua non aliud quam se esse significat, 
+              ut ubi sua insint, ipse esse per sua intelligatur. Non autem 
+              corporali modo, cum alicubi sit, non etiam ubique esse credatur, <!-- 216 --> 
+              cum per sua in omnibus esse non desinat. Non aliud autem 
+              sint quam quod est ipse, quae sua sunt. Et haec propter naturae 
+              intelligentiam dicta sunt.</quote>
+            <bibl>Hilarius, De Trinitate, VIII, n. 24 (PL 10:253)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d34c1-d1e3700">His verbis aperte significat -- si tamen intelligis, haeretice -- 
+          quia divina natura non aliud est ab his quae sua sunt, ita ut insint, 
+          et per illa in omnibus est suis, quae non insunt. Sua enim 
+          sunt etiam quae non insunt, id est omnes creaturae; et sua sunt 
+          quae insunt, ut tres personae, quae sunt eiusdem naturae et eadem 
+          natura, sicut supra <name ref="#Augustine">Augustini</name> testimonio firmavimus dicentis, 
+          tres personas esse eiusdem essentiae vel eandem essentiam, sed non 
+          ex eadem essentia, ne aliud intelligatur essentia, aliud persona.</p>
+        <p xml:id="pll1d34c1-d1e3707">Nec tamen diffitemur, aliquam distinctionem habendam fore 
+          secundum intelligentiae rationem, cum dicitur hypostasis, et cum 
+          dicitur essentia; quia ibi significatur quod est commune tribus, hic 
+          vero non. Est tamen hypostasis essentia, et e converso. Fateamur 
+          ergo, unum atque idem esse tres personas secundum essentiam, 
+          differentes autem proprietatibus.</p>
+        <p xml:id="pll1d34c1-d1e3710">Unde <name ref="#Augustine">Augustinus</name> super locum <title ref="#ps">Psalmi</title> praetaxatum ait: 
+          <cit>
+            <quote xml:id="pll1d34c1-Qd1e3720">Quaeris, quid sit Pater? Respondetur: Deus. Quaeris, quid sit 
+              Filius? Respondetur: Deus. Quaeris, quid sit Pater et Filius? Respondetur: 
+              Deus. De singulis interrogatus, Deum responde. De 
+              utroque interrogatus, non deos, sed Deum responde. Non sic in 
+              hominibus. Tanta enim ibi est substantiae unitas, ut aequalitatem 
+              admittat, pluralitatem non admittat. Si ergo tibi dictum fuerit, 
+              cum dicis, Filium esse quod Pater est: profecto Filius Pater est; 
+              responde; secundum substantiam tibi dixi hoc esse Filium quod 
+              Pater est, non secundum id quod ad aliud dicitur. Ad se enim dicitur 
+              Deus, ad Patrem Filius dicitur. Rursumque Pater ad se dicitur 
+              Deus, ad Filius dicitur Pater. Quod Pater ad Filium dicitur, 
+              non est Filius; quod dicitur Filius ad Patrem, non est Pater; 
+              quod dicitur Pater ad se, Filius ad se, hoc est Pater et Filius, 
+              id est Deus.</quote>
+            <bibl>Augustinus, Enarrat. In Psalm 68, sermo 1, n. 5 (PL 36:845)</bibl>
+          </cit>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

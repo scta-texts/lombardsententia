@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 29, Capitulus 2</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 29, Capitulus 2</title>
+          <date when="2015-12-25">December 25, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-12-25">December 25, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d29c2">
+        <head xml:id="pll1d29c2-Hd1e3496">Librum I, Distinctio 29, Capitulus 2</head>
+        <!-- Quod ab aeterno Pater est principium et Filius, 
+          sed non Spiritus sanctus -->
+        <p xml:id="pll1d29c2-d1e3501">Et Pater ab aeterno principium est Filii, et Pater et Filius 
+          principium Spiritus sancti, quia Filius est a Patre, et Spiritus 
+          sanctus ab utroque; Spiritus vero sanctus non ab aeterno principium <!-- 184 --> 
+          est, sed esse coepit, quia non dicitur principium nisi ad 
+          creaturas. Cum ergo creaturae esse coeperunt, et Spiritus sanctus 
+          esse coepit principium earum. Ita etiam Pater et Filius esse coepit 
+          cum Spiritu sancto unum principium creaturarum, cum creaturae 
+          coeperunt esse a Patre et Filio et Spiritu sancto. Et dicuntur 
+          hi tres, non tria sed unum principium omnium creaturarum, quia 
+          uno eodemque modo principium rerum sunt. Non enim aliter sunt 
+          res a Patre et aliter a Filio, sed penitus eodem modo.</p>
+        <p xml:id="pll1d29c2-d1e3506">Ideo <name ref="#Paul">Apostolus</name> intelligens hanc Trinitatem unum esse principium 
+          rerum, ait: 
+          <cit>
+            <quote xml:id="pll1d29c2-Qd1e3513" ana="#rom11_36">Ex ipso et per ipsum et in ipso sunt omnia.</quote>
+            <bibl>Romanos 11:36</bibl>
+          </cit>
+          <cit>
+            <quote xml:id="pll1d29c2-Qd1e3522">Cum vero audimus, omnia esse ex Deo, ut ait <ref><name ref="#Augustine">Augustinus</name> 
+              <title>De natura boni</title>,</ref> omnes utique naturas intelligere debemus, et 
+              omnia quae naturaliter sunt. Non enim ex ipso sunt peccata, quae 
+              naturam non servant, sed vitiant, quae ex voluntate peccantium 
+              nascuntur.</quote>
+            <bibl>Augustinus, De natura boni, c. 28 (PL 42:560)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d29c2-d1e3538">Omnium ergo, quae naturaliter sunt, unum principium est 
+          Pater cum Filio et Spiritu sancto, et hoc esse coepit. Ab aeterno 
+          autem Pater principium Filii est generatione, et Pater et Filius 
+          unum principium Spiritus sancti.</p>
+        <p xml:id="pll1d29c2-d1e3542">Unde <name ref="#Augustine">Augustinus</name> in V libro <title>De Trinitate</title> ita ait: 
+          <cit>
+            <quote xml:id="pll1d29c2-Qd1e3552">Dicitur relative Pater, idemque relative dicitur principium; sed Pater 
+              ad Filium dicitur, principium vero ad omnia quae ab ipso 
+              sunt. Et principium dicitur Filius. Cum enim diceretur ei: 
+              <cit>
+                <quote xml:id="pll1d29c2-Qd1e3556" ana="#io8_25">Tu quis est? respondit: <!-- respondit is not part of the quote -->Principium, qui est loquor vobis.</quote>
+                <bibl>Ioannes 8:25</bibl>
+              </cit>
+              Sed nunquid Patris principium est? Immo creatorem se voluit ostendere 
+              cum se dixit esse principium, sicut et Pater principium est creaturae, 
+              quia ab ipso sunt omnia. Cum vero dicimus et Patrem principium 
+              et Filium principium, non duo principia creaturae dicimus, 
+              quia Pater et Filius simul ad creaturam unum principium est, 
+              sicut unus creator. Si autem quidquid in se manet et gignit vel 
+              operatur aliquid, principium est eius rei quam gignit, vel eius 
+              quam operatur, non possumus negare, etiam Spiritum sanctum 
+              <!-- p. 185 -->
+              recte dici principium, quia non eum separamus ab appellatione 
+              creatoris; quia scriptum est de illo, quod operetur, et utique in 
+              se manens operatur: non enim in aliquid eorum quae operatur, 
+              ipse mutatur et vertitur. Unum ergo principium ad creaturam 
+              cum Patre et Filio est Spiritus sanctus, non duo vel tria principia.</quote>
+            <bibl>Augustinus, De Trinitate, V, c. 13, n. 14</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d29c2-d1e3573">Ecce aperte ostendit <name ref="#Augustine">Augustinus,</name> Patrem et Filium et Spiritum 
+          sanctum esse unum principium rerum creatarum, id est, 
+          uno eodemque modo esse principium; et ilum modum satis aperuit, 
+          quia scilicet operantur omnia, et quia simul operantur hi 
+          tres, ideo unum principium esse dicuntur.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

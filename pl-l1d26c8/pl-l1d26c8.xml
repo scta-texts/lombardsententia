@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 26, Capitulus 8</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 26, Capitulus 8</title>
+          <date when="2015-12-15">December 15, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-12-15">December 15, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d26c8">
+        <head xml:id="pll1d26c8-Hd1e3496">Librum I, Distinctio 26, Capitulus 8</head>
+        <!-- Quod non omnia, quae relative dicuntur, suis ad se vicissim respondent vocabulis -->
+        <p xml:id="pll1d26c8-d1e3501">Quidam tamen putant, Spiritum sanctum vel donum non dici 
+          relative ad Patrem vel Filium.</p>
+        <p xml:id="pll1d26c8-d1e3504">Si enim, inquiunt, haec relative ad se dicuntur, suis invicem 
+          sibi respondent vocabulis; ut, sicut dicitur: Pater Filii pater, et 
+          Filius Patris filius, ita dicatur pater Spiritus sancti vel Doni pater, 
+          et Spiritus vel Donum, Patris spiritus vel donum. Sed non ita 
+          est in omnibus relativis; non enim omnia, quae relative dicuntur, 
+          suis a se vicissim respondent vocabulis.</p>
+        <p xml:id="pll1d26c8-d1e3507">Unde <ref><name ref="#Augustine">Augustinus</name> horum elidens opinionem, in V libro <title ref="#deTrinitate">De 
+          Trinitate</title></ref> ait: 
+          <cit>
+            <quote xml:id="pll1d26c8-Qd1e3518">Non moveat, inquit, quod diximus, Spiritum 
+              sanctum non ipsam Trinitatem, sed eum qui est in Trinitate, relative 
+              dici, licet non ei vicissim respondeat vocabulum eius, ad 
+              quem refertur. Dicimus enim Spiritum sanctum Patris, sed non 
+              vicissim dicimus Patrem Spiritus sancti, ne filius eius intelligatur 
+              Spiritus sanctus. Item dicimus Spiritum sanctum Filii, sed non dicimus 
+              Filium Spiritus sancti, ne pater eius intelligatur Spiritus 
+              sanctus. In multis enim relativis hoc contingit, ut non inveniatur 
+              vocabulum, quo sibi vicissim respondeant. Cum ergo dicimus 
+              donum Patris et Filii, non quidem possumus dicere patrem doni 
+              aut filium doni, sed ut haec vicissim respondeant, dicimus donum 
+              donatoris, et donatorem doni, quia hic potuit inveniri usitatum vocabulum, 
+              illic non potuit.</quote>
+            <bibl>Augustinus, De Trinitate, V, c. 12, n. 13 (PL 42:919)</bibl>
+          </cit>
+          <cit>
+            <quote xml:id="pll1d26c8-Qd1e3527">Donatoris ergo donum, et donator doni 
+              cum dicimus, relative utrumque ad invicem dicimus.</quote>
+            <bibl>Augustinus, De Trinitate, V, c. 15, n. 16 (PL 42:xxx)</bibl>
+          </cit>
+          <cit>
+            <quote xml:id="pll1d26c8-Qd1e3536">Donator 
+              tamen non fuit Deus nisi ex tempore, cum Spiritus sanctus sit donum 
+              etiam ab aeterno.</quote>
+            <bibl>Augustinus, De Trinitate, V, c. 16, n. 17 (PL 42:xxx)</bibl>
+          </cit>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

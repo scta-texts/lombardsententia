@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 17, Capitulus 1</title>
+        <author>Petrus Lombardus</author>
+        <editor></editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 17, Capitulus 1</title>
+          <date when="2015-11-03">November 03, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher></publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-11-03">November 03, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-03" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d17c1">
+        <head>Librum I, Distinctio 17, Capitulus 1</head>
+        <!-- Quod Spiritus sanctus est caritas, qua diligimus Deum et proximum -->
+        <p xml:id="pll1d17c1-d1e3477">Iam nunc accedamus ad assignandam missionem Spiritus sancti, 
+          qua invisibiliter mittitur in corda fidelium. Nam ipse Spiritus 
+          sanctus, qui Deus est ac tertia in Trinitate persona, ut supra ostensum 
+          est, a Patre et Filio ac se ipso temporaliter procedit, id est, 
+          mittitur ac donatur fidelibus. Sed quae sit ista missio sive donatio, 
+          vel quomodo fiat, considerandum est.</p>
+        <p xml:id="pll1d17c1-d1e3480">Hoc autem ut intelligibilius doceri ac plenius perspici valeat, 
+          praemittendum est quiddam ad hoc valde necessarium. Dictum quidem 
+          est supra, et sacris auctoritatibus ostensum, quod Spiritus 
+          sanctus amor est Patris et Filii, quo se invicem amant et nos. His 
+          autem addendum est, quod ipse idem Spiritus sanctus est amor 
+          sive caritas, qua nos diligimus Deum et proximum. Quae caritas, 
+          cum ita est in nobis, ut nos faciat diligere Deum ac proximum, 
+          tunc Spiritus sanctus dicitur mitti vel dari nobis; et qui diligit 
+          ipsam dilectionem, qua diligit proximum, in eo ipso Deum diligit, 
+          quia ipsa 
+          <cit>
+            <quote xml:id="pll1d17c1-Qd1e3484" ana="#Iio4_8"><!-- and io 4_16 -->dilectio Deus est</quote>
+            <bibl>I Ioannes 4:8 et 4:16</bibl>
+          </cit> 
+          id est Spiritus sanctus.</p>
+        <p xml:id="pll1d17c1-d1e3493">Ne autem in re tanta aliquid de nostro influere videamur, sacris 
+          auctoritatibus quod dictum est corroboremus.</p>
+        <p xml:id="pll1d17c1-d1e3497">De hoc <ref><name ref="#Augustine">Augustinus</name> in VIII libro <title ref="#deTrinitate">De Trinitate</title></ref> ait: 
+          <cit>
+            <quote xml:id="pll1d17c1-Qd1e3508">Qui 
+              proximum diligit, consequens est, ut ipsam praecipue dilectionem 
+              diligat;
+              <cit>
+                <quote xml:id="pll1d17c1-Qd1e3512" ana="#Iio4_16">Deus autem dilectio est.</quote>
+                <bibl>I Ioannes 4:16</bibl>
+              </cit>
+              Consequens ergo est, ut praecipue
+              Deum diligat.</quote>
+            <bibl>Augustinus, De Trinitate, VIII, c. 7, n. 10 (PL 42, 957)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d17c1-d1e3525">Item in eodem: 
+          <cit>
+            <quote xml:id="pll1d17c1-Qd1e3529">
+              <cit>
+                <quote xml:id="pll1d17c1-Qd1e3533" ana="#io4_16">Deus dilectio est,</quote>
+                <bibl>Ioannes 4:16</bibl>
+              </cit>
+              ut ait <name ref="#John">Ioannes Apostolus</name>. 
+              Ut quid ergo imus et currimus in sublimia caelorum et ima 
+              terrarum, quaerentes eum qui est apud nos, si nos esse velimus 
+              apud eum?</quote>
+            <bibl>Augustinus, De Trinitate, VIII, c. 7, n. 14 (PL 42, 957)</bibl>
+          </cit>
+          <cit>
+            <quote xml:id="pll1d17c1-Qd1e3550">Nemo dicat: non novi, quid diligam. Diligat fratrem 
+              et diligat eandem dilectionem. Magis enim novit dilectionem, 
+              qua diligit, quam fratrem, quem diligit. Ecce iam potest notiorem 
+              Deum habere quam fratrem, plane notiorem, quia praesentiorem, 
+              quia interiorem, quia certiorem. Amplectere dilectionem Deum et 
+              dilectione amplectere Deum. Ipsa est dilectio, quae omnes bonos 
+              Angelos et omnes Dei servos consociat vinculo sanctitatis. Quanto 
+              igitur sanctiores sumus, quanto a tumore superbia inaniores, 
+              tanto sumus dilectione pleniores: et quo nisi Deo plenus est, qui 
+              plenus est dilectione.</quote>
+            <bibl>Augustinus, De Trinitate, VIII, c. 8, n. 12 (PL 42:957)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d17c1-d1e3558">His verbis satis ostendit <name ref="#Augustine">Augustinus</name>, quod dilectio ipsa, qua 
+          diligimus Deum vel proximum, Deus est.</p>
+        <p xml:id="pll1d17c1-d1e3564">Sed adhuc apertius in eodem libro subdit dicens: 
+          <cit>
+            <quote xml:id="pll1d17c1-Qd1e3568">Dilectionem fraternam quantum commendet <name ref="#John">Ioannes Apostolus,</name> attendamus. 
+              <cit>
+                <quote xml:id="pll1d17c1-Qd1e3575" ana="Iio2_10">Qui diligit, inquit, fratrem in lumine manet, et scandalum 
+                  in eo non est.</quote>
+                <bibl>I Ioannes 2:10</bibl>
+              </cit>
+              Manifestum est, quod iustitiae perfectionem 
+              in fratris dilectione posuerit. Nam in quo scandalum non est, utique 
+              perfectus est. Et tamen videtur, dilectionem Dei tacuisse, quod 
+              nunquam faceret, nisi quia in ipsa fraterna dilectione vult intelligi 
+              Deum. Apertissime enim in eadem Epistola paulo post dicit 
+              ita: 
+              <cit>
+                <quote xml:id="pll1d17c1-Qd1e3584" ana="#Iio4_7"> <!-- and 4_8 -->Dilectissimi, diligamus invicem, quia dilectio ex Deo est: 
+                  et omnis qui diligit, ex Deo natus est et cognovit Deum. Qui 
+                  non diligit non cognovit Deum, quia Deus dilectio est.</quote>
+                <bibl>I Ioannes 4:7-8</bibl>
+              </cit> 
+              Ista contextio 
+              satis aperte declarat, eandem ipsam fraternam dilectionem 
+              (nam fraterna dilectio est qua diligimus invicem) non solum ex 
+              Deo, sed etiam Deum esse, tanta auctoritate, scilicet <name ref="#John">Ioannis</name>, praedicari. 
+              Cum ergo de dilectione diligimus fratrem, de Deo diligimus 
+              <!-- p. 108 -->
+              fratrem; nec fieri potest, ut eandem dilectionem non praecipue 
+              diligamus, qua fratrem diligimus, quoniam 
+              <cit>
+                <quote xml:id="pll1d17c1-Qd1e3601" ana="#Iio4_8"> <!-- and 4_16 -->Deus dilectio est.</quote>
+                <bibl>I Ioannes 4:8 and 4:16</bibl>
+              </cit>
+            </quote>
+            <bibl>Augustinus, De Trinitate, VIII, c. 8, n. 12 (PL 42:957)</bibl> <!-- dbcheck -->
+          </cit>
+        </p>
+        <p xml:id="pll1d17c1-d1e3618">Item: 
+          <cit> 
+            <quote xml:id="pll1d17c1-Qd1e3622">Qui non diligit fratrem non est in dilectione; et 
+              qui non est in dilectione non est in Deo, quia 
+              <cit>
+                <quote xml:id="pll1d17c1-Qd1e3626" ana="#Iio4_8"> <!-- and 4_16 -->Deus dilectio est.</quote>
+                <bibl>I Ioannes 4:8 and 4:16</bibl>
+              </cit>
+            </quote>
+            <bibl>Augustinus, De Trinitate, VIII, c. 8, n. 12 (PL 42:957)</bibl> <!-- dbcheck -->
+          </cit>
+        </p>
+        <p xml:id="pll1d17c1-d1e3643">Ecce apertissime dixit, fraternam dilectionem Deum esse.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

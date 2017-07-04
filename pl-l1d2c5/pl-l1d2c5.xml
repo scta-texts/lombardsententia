@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 2, Capitulus 5</title>
+        <author>Petrus Lombardus</author>
+        <editor></editor>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.09-dev-master">
+          <title>Librum I, Distinctio 2, Capitulus 5</title>
+          <date when="2015-09-20">September 24, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher></publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-09-20">September 24, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+          <witness xml:id="Z" n="zbsSII72" xml:base="http://www.e-codices.unifr.ch/metadata/iiif/zbs-SII-0072/canvas/">Solothurn, Zentralbibliothek, Cod. S II 72</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-20" who="#JW" status="draft" n="2015.09">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <cb ed="#Z" n="5va" select="zbs-SII-0072_005v.json"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d2c5">
+        <head>Librum I, Distinctio 2, Capitulus 5</head>
+        <p xml:id="pll1d2c5-d1e3476">Nunc post testimonia veteris Testamenti de fide sanctae 
+          Trinitatis et Unitatis ad novi Testamenti auctoritates accedamus, ut 
+          <cit>
+            <quote xml:id="pll1d2c5-Qd1e3480" ana="#hab3_2">in medio duum animalium</quote>
+            <bibl>Habacuc 3:2</bibl>
+          </cit>
+          cognoscatur veritas, et 
+          <cit>
+            <quote xml:id="pll1d2c5-Qd1e3489" ana="#is6_6">forcipe de 
+              altari sumatur calculus,</quote>
+            <bibl>Isaias 6:6</bibl>
+          </cit>
+          quo tangantur ora fidelium.</p>
+        <p xml:id="pll1d2c5-d1e3497">Dominus itaque Christus unitatem divinae essentiae ac personarum 
+          trinitatem aperte insinuat, dicens <name ref="#Paul">Apostolis</name>: 
+          <cit>
+            <quote xml:id="pll1d2c5-Qd1e3504" ana="#mt28_19">Ite, baptizate 
+              gentes in nomine Patris et Filii et Spiritus sancti.</quote>
+          </cit>
+          <cit>
+            <quote xml:id="pll1d2c5-Qd1e3510">
+              <mentioned>In nomine</mentioned> utique ait, ut ait 
+              <ref><name ref="#Ambrose">Ambrosius</name> in I libro <title>De Trinitate</title>,</ref> 
+              non in 
+              nominibus,</quote>
+            <bibl>Ambrose, <title>De Trinitate</title> sive <title>De Fide ad Gratiam</title>, I, XXX</bibl>
+          </cit>
+          ut unitas essentiae ostendatur; per nomina tria, 
+          quae supposuit, tres esse personas declaravit.</p>
+        
+        <p xml:id="pll1d2c5-d1e3535">
+          <cit>
+            <quote xml:id="pll1d2c5-Qd1e3539">Ipse etiam ait: 
+              <cit>
+                <quote xml:id="pll1d2c5-Qd1e3543" ana="#io10_30">Ego et Pater unum sumus.</quote>
+                <bibl>Ioanes 10:30</bibl>
+              </cit>
+              <mentioned>Unum</mentioned> dixit, 
+              ut ait <ref><name ref="#Ambrose">Ambrosius</name> in eodem libro</ref>, ne fiat discretio potestatis,
+              naturae; sed addit <mentioned>sumus</mentioned>, ut Patrem Filiumque cognoscas, 
+              <!-- p. 29 -->
+              scilicet ut perfectus Pater Filium perfectum genuisse 
+              <cb ed="#Pb" n="5va"/> <!-- actually occurs at genu-|-isse -->
+              credatur, et 
+              quod Pater et Filius unum sint, non confusione, sed unitate naturae.</quote>
+            <bibl>Ambrose, <title>De Trinitate</title> sive <title>De Fide ad Gratiam</title>, I, XXX <!-- citation unclear --></bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d2c5-d1e3576">
+          <ref><name ref="#John">Ioannes</name> quoque in <title ref="#Iio">Epistola canonica</title>:</ref>
+          <cit>
+            <quote xml:id="pll1d2c5-Qd1e3588" ana="#Iio5_7">Tres sunt, qui testimonium perhibent in caelo: Pater, Verbum, Spiritus 
+              sanctus, et hi tres unum sunt.</quote>
+          </cit>
+          <bibl/>
+        </p>
+        <p xml:id="pll1d2c5-d1e3596">Ipse etiam in initio Evangelii sui ait: 
+          <cit>
+            <quote xml:id="pll1d2c5-Qd1e3600" ana="#io1_1">In principio erat Verbum, 
+              et Verbum erat apud Deum, et Deus erat Verbum;</quote>
+            <bibl>Ioannes 1:1</bibl>
+          </cit>
+          ubi aperte ostendit, Filium semper et aeternaliter fuisse apud Patrem, 
+          ut alium apud alium.
+        </p>
+        <p xml:id="pll1d2c5-d1e3608"><name ref="#Paul">Apostolus</name> quoque aperte trinitatem distinguit dicens: 
+          <cit>
+            <quote xml:id="pll1d2c5-Qd1e3614" ana="#gal4_6">Misit Spiritum Filii sui in corda nostra.</quote>
+            <bibl>Galatas 4:6</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d2c5-d1e3622">Et alibi: 
+          <cit>
+            <quote xml:id="pll1d2c5-Qd1e3626" ana="#rom8_11">Si spiritus eius, qui suscitavit Iesum, habitat 
+              in nobis</quote>
+            <bibl>Romanos 8:11</bibl>
+          </cit>
+          etc.
+        </p>
+        <p xml:id="pll1d2c5-d1e3634">Item alibi trinitatem atque unitatem evidentissime commendat 
+          dicens:
+          <cit>
+            <quote xml:id="pll1d2c5-Qd1e3638" ana="#rom11_36">Quoniam ex ipso, et per ipsum, et in ipso sunt omnia, 
+              ipsi gloria.</quote>
+            <bibl>Romanos 11:36</bibl>
+          </cit>
+          <cit>
+            <quote xml:id="pll1d2c5-Qd1e3647">
+              <mentioned>ex ipso,</mentioned>
+              ut 
+              <ref><name ref="#Augustine">Augustinus</name> in libor <title ref="#deTrinitate">De Trinitate</title></ref> 
+              dicit, propter Patrem; <mentioned>per ipsum</mentioned> dicit propter Filium; 
+              <mentioned>in ipso</mentioned> propter Spiritum sanctum.</quote>
+            <bibl>Augustine, <title ref="#deTrinitate">De Trinitate</title> I, c. 6, n. 12 (PL 42:827)</bibl>
+          </cit>
+          Per hoc vero, quod non ait 
+          ex ipsis, per ipsos et in ipsis, nec ait ipsis gloria, sed 
+          <cb ed="#P" n="7ra"/>
+          <mentioned>ipsis,</mentioned> insi<cb ed="#Z" n="5vb" select="zbs-SII-0072_005v.json"/>nuavit, 
+          hanc Trinitatem unum Dominum Deum esse.
+        </p>
+        <p xml:id="pll1d2c5-d1e3677">Sed quia singulae pene syllabae novi Testamenti hanc ineffabilis 
+          Unitatis atque Trinitatis veritatem concorditer insinuant, inductioni 
+          testimoniorum super hac re supersedeamus et rationibus 
+          congruisque similitudinis ita esse, prout infirmitas nostra 
+          valet, ostendamus.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

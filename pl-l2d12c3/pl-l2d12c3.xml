@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum II, Distinctio 12, Capitulus 3</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.1-dev">
+          <title>Librum II, Distinctio 12, Capitulus 3</title>
+          <date when="2016-06-18">June 18, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-06-18">June 18, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+          <witness xml:id="Z" n="zbsSII72" xml:base="http://www.e-codices.unifr.ch/metadata/iiif/zbs-SII-0072/canvas/">Solothurn, Zentralbibliothek, Cod. S II 72</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="0.0.1">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        
+      </div>
+    </front>
+  	<body>
+  		<div xml:id="pl-l2d12c3">
+  			<head xml:id="pll2d12c3-Hd1e3508">Librum II, Distinctio 12, Capitulus 3</head>
+  			<head xml:id="pll2d12c3-Hd1e3511" type="questionTitle">Quomodo per intervalla temporis res corporales conditae sint</head>
+  			<p xml:id="pll2d12c3-d1e3514">Secundum hanc itaque traditionem, ordinem atque modum 
+  				creationis formationisque rerum inspiciamus, sicut supra memoratum est.</p>
+  			<p xml:id="pll2d12c3-d1e3517">
+  				<cit>
+  					<!-- example of case where we might one a pointer from one quote to the next -->
+  					<!-- similar to how we might want a pointer from one apparatus to the the next -->
+  					<quote xml:id="pll2d12c3-Qd1e3525" ana="#gen1_1" n="1">In principio creavit Deus caelum</quote>
+  					<bibl>Genesis 1_1</bibl>
+  				</cit>
+  				scilicet angelicam naturam, 
+  				sed adhuc informem, ut quibusdam placet: 
+  				<quote xml:id="pll2d12c3-Qd1e3532" ana="#gen1_1" n="2">et terram</quote>, 
+  				id est illam confusam materiam quatuor elementorum, quam nomine 
+  				terrae, ut ait <name ref="#Augustine">Augustinus</name> <title>Contra Manichaeos,</title> ideo appellavit 
+  				<name>Moyses</name>,
+  				<cit>
+  					<quote xml:id="pll2d12c3-Qd1e3547">quia terra inter omnia elementa minus est speciosa; 
+  						et illa <mentioned>inanis</mentioned> erat et <mentioned>incomposita</mentioned>, propter omnium elementorum 
+  						commixtionem.</quote>
+  					<bibl>Augustinus, Contra Manichaeos, c. 7, n. 12 (PL 34:179)</bibl>
+  				</cit>
+  			</p>
+  			<p xml:id="pll2d12c3-d1e3561">
+  				<cit>
+  					<quote xml:id="pll2d12c3-Qd1e3565">Eandem etiam abyssum vocat, dicens: 
+  						<cit>
+  							<quote xml:id="pll2d12c3-Qd1e3569" ana="#gen1_2">Et tenebrae erant 
+  								super faciem abyssi</quote>
+  							<bibl>Genesis 1:2</bibl>
+  						</cit>,
+  						quia confusa erat et commixta, specie distincta 
+  						carens.</quote>
+  					<bibl>Augustinus, Contra Manichaeos, c. 7, n. 12 (PL 34:179)</bibl>
+  				</cit>
+  			</p>
+  			<p xml:id="pll2d12c3-d1e3583">
+  				<cit>
+  					<quote xml:id="pll2d12c3-Qd1e3587">Eadem etiam materia informis dicta est aqua, super quam 
+  						<cit>
+  							<quote xml:id="pll2d12c3-Qd1e3591" ana="#gen1_2">ferebatur 
+  								spiritus Domini</quote>
+  							<bibl>Genesis 1:2</bibl>
+  						</cit>,
+  						sicut superfertur fabricandis rebus voluntas 
+  						artificis; quia subiacebat bonae voluntati Creatoris quod formandum <!-- 360 -->
+  						perficiendumque inchoaverat, qui sicut Dominus et Conditor 
+  						praeerat fluitanti et confusae materiae, ut distingueret per 
+  						species varias quando vellet et sicut vellet. Haec ideo dicta est aqua, 
+  						quia omnia, quae in terra nascuntur, sive animalia sive arbores vel 
+  						herbae et similia, ab humore incipiunt formari atque nutriri.</quote>
+  					<bibl>Augustinus, Contra Manichaeos, c. 7, n. 12 (PL 34:179)</bibl>
+  				</cit>
+  			</p>
+  			<p xml:id="pll2d12c3-d1e3606">
+  				<cit>
+  					<quote xml:id="pll2d12c3-Qd1e3610">His omnibus vocabulis vocata est illa informis materia, ut res 
+  						ignota notis vocabulis insinuaretur imperitioribus, et non uno 
+  						tantum; nam si uno tantum significaretur vocabulo, hoc esse putaretur, 
+  						quod consueverant homines in illo vocabulo intelligere.</quote>
+  					<bibl>Augustinus, Contra Manichaeos, c. 7, n. 12 (PL 34:179)</bibl>
+  				</cit>
+  				Sub his ergo nominibus significata est illa materia invisa et informis, 
+  				quae nulla specie cerni aut tractari poterat, id est nominibus 
+  				visibilium rerum, quae inde futurae erant, propter infirmitate 
+  				parvulorum, qui minus idonei sunt invisibilia comprehendere.</p>
+  			<p xml:id="pll2d12c3-d1e3618">Et tunc <mentioned>erant tenebrae</mentioned>, id est lucis absentia. 
+  				<cit>
+  					<quote xml:id="pll2d12c3-Qd1e3625">Non enim tenebrae 
+  						aliquid sunt, sed ipsa lucis absentia; sicut silentium non aliqua 
+  						res est, sed ubi sonus non est, silentium dicitur; et nuditas non 
+  						aliqua res est, sed in corpore, ubi tegumentum non est, nuditas 
+  						dicitur; sicut et inanitas non est aliquid, sed inanis dicitur locus 
+  						esse, ubi corpus non est, et inanitas absentia corporis</quote>
+  					<bibl>Augustinus, Contra Manichaeos, c. 4, n. 7 (PL 34:XXX) et Confessionum XII, c. 3, n. 3 (PL 32:827)</bibl>
+  				</cit>
+  			</p>
+  		</div>
+  	</body>
+  </text>
+</TEI>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 15, Capitulus 2</title>
+        <author>Petrus Lombardus</author>
+        <editor></editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.10-dev-master">
+          <title>Librum I, Distinctio 15, Capitulus 2</title>
+          <date when="2015-10-28">October 28, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher></publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-10-28">October 28, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-10-26" who="#JW" status="draft" n="2015.10">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d15c2">
+        <head>Librum I, Distinctio 15, Capitulus 2</head>
+        <!-- Quomodo intelligenda sit missio utriusque -->
+        <p xml:id="pll1d15c2-d1e3477">
+          <cit>
+            <quote xml:id="pll1d15c2-Qd1e3481">Quocirca quaerendum est, quomodo intelligatur missio Filii 
+              vel Spiritus sancti. Pater enim solus, inquit <name ref="#Augustine">Augustinus</name> in eodem, 
+              nusquam legitur missus,</quote>
+            <bibl>Augustine, XXX</bibl>
+          </cit>
+          sed Filius et Spiritus sanctus. 
+          Et de Filio primum videamus, quomodo missus? 
+          <cit>
+            <quote xml:id="pll1d15c2-Qd1e3493"><name ref="#Paul">Apostolus</name> 
+              dicit: 
+              <cit>
+                <quote xml:id="pll1d15c2-Qd1e3499" ana="#gal4_4">Misit Deus Filium suum factum ex muliere,</quote>
+                <bibl>Galatas 4:4</bibl>
+              </cit>
+              ubi satis 
+              ostendit, eo ipso missum Filium, quo factum ex muliere. Proinde 
+              mitti a Patre sine Spiritu sancto non potuit, quia Pater intelligitur 
+              misisse eum, cum fecit ex femina; quod utique non fecit sine Spiritu 
+              sancto.</quote>
+            <bibl>XXX</bibl>
+          </cit>
+          Ecce hic dicit, Filium missum a Patre et Spiritu 
+          sancto.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

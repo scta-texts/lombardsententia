@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 25, Capitulus 3</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 25, Capitulus 3</title>
+          <date when="2015-12-02">December 02, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-12-02">December 02, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d25c3">
+        <head xml:id="pll1d25c3-Hd1e3496">Librum I, Distinctio 25, Capitulus 3</head>
+        <!-- Ex quo sensu dicatur: Alia persona Patris, et alia Filii, 
+          [alia Spiritus sancti]; sive alius in persona Pater, 
+          alius Filius, [alius Spiritus sanctus] -->
+        <p xml:id="pll1d25c3-d1e3501">Nunc inspiciamus, utrum secundum eandem rationem et causam 
+          dicatur: Alia est persona Patris, alia Filii, alia Spiritus sancti.</p>
+        <p xml:id="pll1d25c3-d1e3504">Quod utique sane intelligi potest, ut sit sensus talis: Alia est 
+          subsistentia vel hypostasis Patris, alia subsistentia Filii, alia subsistentia 
+          Spiritus sancti; et alia subsistentia Pater, alia Filius, alia 
+          Spiritus sanctus.</p>
+        <p xml:id="pll1d25c3-d1e3507">Deinde quaeritur, utrum secundum eandem rationem accipiatur, 
+          cum dicitur: Alius est Pater in persona, alius Filius in persona, 
+          alius Spiritus sanctus in persona; sive alius personaliter Pater, 
+          alius personaliter Filius, alius personaliter Spiritus sanctus.</p>
+        <!-- 162 --> 
+        <p xml:id="pll1d25c3-d1e3513">Ad quod dicimus, quia etsi posset eodem modo accipi, congruentius 
+          tamen ex ratione dicti alia variatur intelligentia, ut hic personae 
+          nomine proprietas personae intelligatur, ut sit sensus talis: Alius est 
+          in persona vel personaliter Pater, id est, proprietate sua Pater alius 
+          est quam Filius, et Filius sua proprietate alius quam Pater; paternali 
+          enim proprietate distinguitur hypostasis Patris ab hypostasi 
+          Filii, et hypostasis Filii filiali proprietate discernitur a Patre, et 
+          Spiritus sanctus ab utroque distinguitur processibili proprietate.</p>
+        <p xml:id="pll1d25c3-d1e3516">Hoc etiam modo sane potest accipi persona in praemissis locutionibus, 
+          cum dicitur: Alia est persona Patris, alia Filii, id est, 
+          alia est proprietas qua Pater est Pater, alia qua Filius est Filius, 
+          alia qua Spiritus sanctus est Spiritus sanctus.</p>
+        <p xml:id="pll1d25c3-d1e3519">Ita etiam nomine personae quidam proprietates intelligere 
+          volunt, cum dicuntur tres personae; sed melius est, ut subsistentias 
+          vel hypostases intelligamus cum dicimus tres personas.</p>
+        <p xml:id="pll1d25c3-d1e3522">Ex praedictis colligitur, quod nomen personae in Trinitate 
+          triplicem tenet rationem. Est enim ubi facit intelligentiam essentiae, 
+          et est ubi facit intelligentiam hypostasis, et est ubi facit intelligentiam 
+          proprietatis.</p>
+        <p xml:id="pll1d25c3-d1e3525">Quod autem secundum substantiam dicatur, et essentiam aliquando 
+          significet, supra ex dictis <name ref="#Augustine">Augustini</name> aperte ostendimus.</p>
+        <p xml:id="pll1d25c3-d1e3531">Quod vero pro hypostasi atque proprietate accipiatur, ex auctoritatibus 
+          Sanctorum ostendi oportet, ne coniecturis nostris aliquid 
+          ausi dicere videamur.</p>
+        <p xml:id="pll1d25c3-d1e3535">De hoc <ref><name ref="#Jerome">Hieronymus</name> in <title>Expositione fidei catholicae ad 
+          Alipium et Augustinum episcopos</title></ref> ita ait: 
+          <cit>
+            <quote xml:id="pll1d25c3-Qd1e3546">Non est prorsus 
+              aliquis in Trinitate gradus, nihil quod inferius superiusve dici possit, 
+              sed tota deitas sui perfectione aequalis est, ut exceptis vocabulis, 
+              quae proprietatem indicant personarum, quidquid de una 
+              dicitur persona, de tribus dignissime possit intelligi. Atque ut confutantes 
+              <name ref="#Arius">Arium</name>, unam eandemque dicimus Trinitatis esse substantiam, 
+              <!-- p. 163 --> 
+              et unum in tribus personis fatemur Deum; ita impietatem Sabellii 
+              declinantes, tres personas expressas sub proprietate distinguimus; 
+              non ipsum sibi Patrem, ipsum sibi Filium, ipsum sibi Spiritum 
+              sanctum esse dicentes, sed aliam Patris, aliam Filii, aliam Spiritus 
+              sancti esse personam. Non enim nomina tantummodo, sed etiam 
+              nominum proprietates, id est personas, vel, ut Graeci exprimunt, 
+              hypostases, id est subsistentias, confitemur. Nec Pater Filii vel Spiritus 
+              sancti personam aliquando excludit; nec Filius vel Spiritus 
+              sanctus Patris nomen personamque recipit, sed Pater semper Pater, 
+              et Filius semper Filius, et Spiritus sanctus semper Spiritus 
+              sanctus. Itaque substantia unum sunt, sed personis ac nominibus 
+              distinguuntur.</quote>
+            <bibl>Hieronymus, xxx</bibl>
+          </cit>
+          Ecce hic aperte dicit <name ref="#Jerome">Hieronymus</name>, proprietates 
+          esse personas, et personas esse subsistentias. Unde manifestum sit 
+          quod diximus, scilicet personae nomine significari et hypostasim et 
+          proprietatem.</p>
+        
+        <p xml:id="pll1d25c3-d1e3562"><name ref="#JohnDamascenus">Ioannes</name> etiam <name ref="#JohnDamascenus">Damascenus</name> <!-- this break up is annoying encoding challenge --> personas dicit esse hypostases, 
+          et eas dicit entes, ita inquiens: 
+          <cit>
+            <quote xml:id="pll1d25c3-Qd1e3573">In deitate unam naturam 
+              confitemur et tres hypostases secundum veritatem entes, id est 
+              personas.</quote>
+            <bibl>Ioannes Damascenus, De fide orthodoxa, III, c. 5 (PGL 94:999)</bibl>
+          </cit>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

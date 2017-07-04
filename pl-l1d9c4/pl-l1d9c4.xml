@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 9, Capitulus 4</title>
+        <author>Petrus Lombardus</author>
+        <editor></editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.10-dev-master">
+          <title>Librum I, Distinctio 9, Capitulus 4</title>
+          <date when="2015-10-12">October 12, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher></publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-10-05">October 12, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-10-12" who="#JW" status="draft" n="2015.10">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d9c4">
+        <head>Librum I, Distinctio 9, Capitulus 4</head>
+        <!-- Utrum debeat dici: Semper gignitur Filius, vel semper genitus est -->
+        <p xml:id="pll1d9c4-d1e3477">Hic quaeri potest, cum generatio Filii a Patre nec principium 
+          habeat nec finem, quia aeterna est, utrum debeat dici: Filius semper 
+          gignitur, vel semper genitus est, vel semper gignetur.</p>
+        <p xml:id="pll1d9c4-d1e3480">De hoc <ref><name ref="#GregoryGreat">Gregorius</name> <title>Super Iob</title></ref> ait: 
+          <cit>
+            <quote xml:id="pll1d9c4-Qd1e3491">Dominus Deus Iesus 
+              in eo, quod virtus et sapientia Dei est, de Patre ante tempora 
+              natus est, vel potius, quia nec coepit nasci nec desiit, dicamus 
+              verius semper natus; non autem possumus dicere semper nascitur, 
+              ne imperfectus esse videatur. At vero, ut aeternus designari valeat 
+              perfectus et semper dicamus et natus, quatenus et natus ad perfectionem 
+              pertineat et semper ad aeternitatem; quamvis per hoc 
+              ipsum, quod perfectum dicimus, multum ab illius veritatis expressione 
+              deviamus, quia quod factum non est, nec potest dici proprie 
+              perfectum;</quote>
+            <bibl>Gregorius, Moralia, XXIX, c. 1 (PL 76:477)</bibl>
+          </cit>
+          sed balbutiendo, ut possumus, excelsa Dei resonamus.
+          <cit>
+            <quote xml:id="pll1d9c4-Qd1e3500">Et Dominus, nostrae infirmitatis verbis condescendens, 
+              <cit>
+                <quote xml:id="pll1d9c4-Qd1e3504" ana="#mt5_48">Estote, inquit, perfecti, sicut et Pater vester caelestis perfectus est.</quote>
+                <bibl>Matthaeus 5:48</bibl>
+              </cit>
+            </quote>
+            <bibl>Gregorius, Moralia, XXIX, c. 1 (PL 76:477)</bibl>
+          </cit>
+        </p>
+        <!-- p. 69 -->
+        <p xml:id="pll1d9c4-d1e3520">Super illum locum etiam <title ref="#ps">Psalmi</title>: 
+          <cit>
+            <quote xml:id="pll1d9c4-Qd1e3527" ana="#ps2_7">Ego hodie genui te,</quote>
+            <bibl>Psalmus 2:7</bibl>
+          </cit>
+          de hac 
+          generatione Filii ita loquitur <name ref="#Augustine">Augustinus</name>: 
+          <cit>
+            <quote xml:id="pll1d9c4-Qd1e3539">Quamquam per 
+              hoc, quod dicit <mentioned>hodie</mentioned>, possit etiam intelligi dies ille, quo Christus 
+              secundum hominem natus est; tamen quia <mentioned>hodie</mentioned> praesentiam significat, 
+              atque in aeternitate neque praeteritum quidquam est, quasi 
+              esse desierit, nec futurum, quasi nondum sit, sed praesens tantum, 
+              quia quidquid aeternum est, semper est; divinius accipitur de 
+              sempiterna generatione sapientiae Dei.</quote>
+            <bibl>Augustinus, Enarrat. in Psalm 2, v. 6 (PL 36:71)</bibl>
+          </cit>
+          Ecce his verbis ostendit 
+          <name ref="#Augustine">Augustinus</name>, quod generatio Filii semper est nec praeteriit nec 
+          futura est, quia aeterna est. Ideo enim dixi <mentioned>genui,</mentioned> ne novum 
+          putaretur, scilicet ne videretur incepisse; <mentioned>hodie</mentioned> dixit, ne praeterita 
+          generatio videretur.</p>
+        <p xml:id="pll1d9c4-d1e3563">
+          <cit>
+            <quote xml:id="pll1d9c4-Qd1e3567">Ex his ergo verbis Prophetae, ut ait <name ref="#JohnChrysostom">Ioannes Chrysostomus</name>, 
+              nihil aliud manifestatur, nisi quia ex ipsa essentia 
+              Patris semper genitus est Filius.</quote>
+            <bibl>Ioannes Chrysostomus, In Epist. ad Hebr., Homil. 2, n. 4 (PG L 63:25)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d9c4-d1e3578">
+          <ref><name ref="#Origen">Origenes</name> super <title>Super Ieremiam</title></ref> dicit, quod Filius semper 
+          generatur a Patre, his verbis: 
+          <cit>
+            <quote xml:id="pll1d9c4-Qd1e3589">Salvator noster est sapientia Dei; 
+              sapientia vero est splendor aeternae lucis: Salvator ergo noster 
+              splendor est claritatis. Splendor autem non semel nascitur et desinit, 
+              sed quoties ortum fuerit lumen, ex quo splendor oritur, toties 
+              oritur etiam splendor claritatis: sic ergo Salvator semper 
+              nescitur. Unde ait in libro <title ref="#sap">Sapientiae</title> 
+              <cit>
+                <quote xml:id="pll1d9c4-Qd1e3596" ana="#prov8_25">Ante omnes colles generat me,</quote>
+                <bibl>Proverbs 8:25</bibl>
+              </cit>
+              non, ut quidam male legunt, generavit</quote>
+          </cit>
+          His verbis aperte 
+          ostendit <name ref="#Origen">Origenes</name> sane dici posse et debere: 
+          <cit>
+            <quote xml:id="pll1d9c4-Qd1e3610">Filius semper nascitur,</quote>
+            <bibl>XXX <!-- citation unclear, in Italics, but doensn't seem to be a biblical quote --></bibl>
+          </cit>
+          quod videtur contrarium illi verbo <name ref="#GregoryGreat">Gregorii</name> praemisso, 
+          scilicet, 
+          <cit>
+            <quote xml:id="pll1d9c4-Qd1e3624">non possumus dicere: <mentioned>semper nascitur</mentioned></quote>
+            <bibl>XXX</bibl>
+          </cit>
+        </p>
+        <!-- next paragraph in smaller font -->
+        <p xml:id="pll1d9c4-d1e3636"><ref><name ref="#Augustine">Augustinus</name> in libro <title ref="#deDiversisQuaestionibus">83 Quaest.</title></ref> de semper nato disserens ait: 
+          <cit>
+            <quote xml:id="pll1d9c4-Qd1e3646">Melior est natus, quam qui semper nascitur, quia qui semper nascitur nondum
+              <!--  p. 70 -->
+              natus et nunquam natus est aut natus erit, si semper nascitur. Aliud est enim 
+              nasci, aliud natum esse, ac per hoc nunquam Filius est, si nunquam natus est; 
+              Filius autem est, quia natus, et semper Filius, quia aeternus; semper ergo natus.
+            </quote>
+            <bibl>Augustinus, De Diversis Quaestionibus, q. 37 (PL 40:27)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d9c4-d1e3656">Sed ne tanti auctores sibi contradicere in re tanta videantur, 
+          illa verba <name ref="#GregoryGreat">Gregorii</name> benigne interpretemur. 
+          <cit>
+            <quote xml:id="pll1d9c4-Qd1e3663">Dominus, inquit, 
+              Iesus ante tempora de Patre natus est, vel potius, quia nec coepit 
+              nasci nec desiit, dicamus verius: semper natus.</quote>
+            <bibl>Gregorius, XXX</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d9c4-d1e3672">Sed quomodo verius dicitur hoc, scilicet, quod Filius semper 
+          natus est, quam illud, scilicet quod de Patre ante tempora natus 
+          est? Illud enim sincera et catholica fides tenet ac praedicat ut 
+          istud. Quare ergo ait: 
+          <mentioned>Dicamus verius,</mentioned> cum utrumque pariter 
+          sit verum, nisi quia volebat intelligi hoc ad maiorem evidentiam 
+          et expressionem veritatis dici quam illud? His etenim verbis omnis 
+          calumniandi versutis haereticis obstruitur aditus, quibus Christi secundum 
+          deitatem generatio sine initio et sine fine esse ac perfecta 
+          monstratur. Non autem adeo aperte manifestatur veritas, cum 
+          dicitur: Filius ante tempora genitus est de Patre, vel Filius semper 
+          nascitur de Patre. Et ideo dicit <name ref="#GregoryGreat">Gregorius</name>, quod 
+          <cit>
+            <quote xml:id="pll1d9c4-Qd1e3682">non possumus 
+              dicere, semper nascitur;</quote>
+            <bibl>Gregorius, XXX</bibl>
+          </cit>
+          non, inquam, ita convenienter, non ita 
+          congrue ad explanationem veritatis; potest tamen dici, si sane intelligatur. 
+          <cit>
+            <quote xml:id="pll1d9c4-Qd1e3691">Semper enim nascitur Filius de Patre,</quote>
+            <bibl>Origines</bibl>
+          </cit>
+          ut ait <name ref="#Origen">Origenes</name>; 
+          non quod quotidie iteretur illa generatio, sed quia semper 
+          est. Semper ergo nascitur, id est, nativitas eius sempiterna est.</p>
+        <p xml:id="pll1d9c4-d1e3702"><name ref="#HilaryOfPoitiers">Hilarius</name> quoque dicit, Filium nasci ex Patre, in <ref>libro VII 
+          <title ref="#HilaryOfPoitiers_DeTrinitate">De Trinitate</title></ref> his verbis: 
+          <cit>
+            <quote xml:id="pll1d9c4-Qd1e3713">Vivens Deus et naturae aeternae viventis 
+              potestas est; et quod cum sacramento scientiae suae ex eo nascitur, 
+              non potuit aliud esse quam vivens. Nam cum ait: 
+              <cit>
+                <quote xml:id="pll1d9c4-Qd1e3717" ana="#io6_58">Sicut misit me 
+                  vivens Pater, et ego vivo per Patrem,</quote>
+                <bibl>Iohannes 6:58</bibl>
+              </cit>
+              docuit, vitam in se per viventem Patrem inesse.
+            </quote>
+            <bibl>Hilarius, De Trinitate, VII, n. 27, (PL 10:223)</bibl>
+          </cit>
+          Ecce hic habes, quia Filius nascitur ex Patre.</p>
+        <p xml:id="pll1d9c4-d1e3730">Item in eodem: 
+          <cit>
+            <quote xml:id="pll1d9c4-Qd1e3734">Cum dicit Christus: 
+              <cit>
+                <quote xml:id="pll1d9c4-Qd1e3738" ana="#io5_26">Sicut Pater habet 
+                  vitam in se, sic et Filio dedit vitam habere in semetipso,</quote>
+                <bibl>Iohannes 5:26</bibl>
+              </cit>
+              omnia viva sua ex vivente testatus est. Quod autem ex vivo vivum 
+              natum est, habet nativitatis perfectum sine novitate naturae. Non 
+              enim novum est quod ex vivo generatur in vivum, quia nec ex 
+              nihilo est; et vita, quae nativitatem sumit ex vita, necesse est per 
+              naturae unitatem et perfectae nativitatis sacramentum, ut in vivente 
+              vivat et in se habeat vitam viventem.</quote>
+            <bibl>Hilarius, De Trinitate, VII, n. 27, (PL 10:223)</bibl>
+          </cit>
+          Ecce et hic habes, 
+          quia generatur ex vivo vivens Filius.
+        </p>
+        <p xml:id="pll1d9c4-d1e3751">Item in eodem: 
+          <cit>
+            <quote xml:id="pll1d9c4-Qd1e3755">In deo totum quod est vivit; Deus enim 
+              vita est, et ex vita non potest quidquam esse nisi vivum; neque 
+              ex derivatione, sed ex virtute nativitas est. Ac sic, dum totum 
+              quod est vivit, et dum totum quod ex eo nascitur virtus est, habet 
+              nativitatem Filius, non demutationem.</quote>
+            <bibl>Hilarius, De Trinitate, VII, n. 28, (PL 10:224)</bibl>
+          </cit>
+          Et hic dicit, quia nascitur.
+        </p>
+        <p xml:id="pll1d9c4-d1e3763">Item in <ref>IX libro <title ref="#HilaryOfPoitiers_DeTrinitate">De Trinitate</title>:</ref> 
+          <cit>
+            <quote xml:id="pll1d9c4-Qd1e3773">Donat Pater Filio tantum 
+              esse, quantum est ipse, cui innascibilitatis esse imaginem sacramento 
+              nativitatis impertit, quem ex se in forma sua generat.</quote>
+            <bibl>Hilarius, De Trinitate, VII, n. 54, (PL 10:325)</bibl>
+          </cit>
+          Hic dicit, quia generat Pater Filium.
+        </p>
+        <p xml:id="pll1d9c4-d1e3781">Dicamus ergo, Filium natum de Patre ante tempora et semper 
+          nasci de Patre, sed congruentius semper natum; et eundem fateamur 
+          ab aeterno esse et Patri coaeternum, id est auctori. Pater enim 
+          generatione auctor Filii est, ut in sequenti ostendatur. Ut ergo 
+          Pater est aeternus, ita et Filius aeternus est, sed Pater sine auctore, 
+          Filius vero non, quia Pater innascibilis, Filius natus.</p>
+        <p xml:id="pll1d9c4-d1e3785">Et ut ait <ref><name ref="#HilaryOfPoitiers">Hilarius</name> in XII libro <title ref="#HilaryOfPoitiers_DeTrinitate">De Trinitate</title>:</ref> 
+          <cit>
+            <quote xml:id="pll1d9c4-Qd1e3795">Aliud est 
+              sine auctore semper esse aeternum, aliud Patri, id est auctori, esse 
+              coaeternum. Ubi autem Pater auctor est, ibi et nativitas est; 
+              quia sicut nativitas ab autore est, ita et ab aeterno auctore aeterna 
+              nativitas est. Omne autem, quod semper est, etiam aeternum est; 
+              sed tamen non omne, quod aeternum est, etiam innatum est; quia 
+              quod ab aeterno nascitur, habet aeternum esse, quod natum est. 
+              Quod autem non natum est, id cum aeternitate non natum est, 
+              iam non erit et Pater auctor aeternus. Si quid igitur ei, qui ab 
+              aeterno Patre natus est, ex aeternitate defuerit, id ipsum auctori 
+              non est ambiguum defuisse, quia si gignenti est infinitum gignere, 
+              <!-- pp. 72 --> 
+              et nascenti etiam est infinitum nasci. Medium enim quid inter nativitatem 
+              Filii Dei et generationem Dei Patris nec sensus admittit, 
+              quia et in generatione nativitas est, et in nativitate generatio est, 
+              quia sine utroque neutrum est; utrumque ergo sine intervallo 
+              sui est.</quote>
+            <bibl>Hilarius, De Trinitate, XII, n. 21, (PL 10:446)</bibl>
+          </cit>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 34, Capitulus 2</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 34, Capitulus 2</title>
+          <date when="2016-01-03">January 03, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-01-03">January 03, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d34c2">
+        <head xml:id="pll1d34c2-Hd1e3496">Librum I, Distinctio 34, Capitulus 2</head>
+        <!-- Utrum ita possit dici: Unus Deus trium personarum, ut dicitur 
+          una essentia trium personarum; et tres personae unius Dei, 
+          ut tres personae unius essentiae -->
+        <p xml:id="pll1d34c2-d1e3501">Hic considerandum est, cum Deus sit divina essentia, et ita 
+          dicatur unus Deus esse tres personae, sicut una essentia dicitur 
+          tres personae, utrum ita valeat sane dici, unus Deus trium personarum, 
+          vel tres personae unius Dei, sicut dicitur una essentia trium 
+          personarum, et tres personae unius essentiae.</p>
+        <p xml:id="pll1d34c2-d1e3504">In his locutionibus Scripturae usus nobis aemulandus videtur, 
+          ubi frequenter reperitur ita dictum: Una est essentia trium personarum, 
+          et tres sunt personae unius essentiae; nusquam autem 
+          occurrit legisse, unum Deum trium personarum, vel tres personas 
+          unius Dei. Quod ideo puto sanctos doctores vitasse, ne ita forte 
+          acciperetur in divinis personis, ut accipitur cum de creaturis simile 
+          quid dicitur. Dicitur enim 
+          <cit>
+            <quote xml:id="pll1d34c2-Qd1e3508" ana="#ex3_6">Deus Abraham, Isaac et Iacob,</quote>
+            <bibl>Exodus 3:6</bibl>
+          </cit>
+          et 
+          <cit>
+            <quote xml:id="pll1d34c2-Qd1e3517" ana="#iudt9_17">Deus omnis creaturae.</quote>
+            <bibl>Iudith 9:17</bibl>
+          </cit>
+          Quod utique dicitur propter principium 
+          creationis vel gratiae privilegium, et creaturae subiectionem vel 
+          servitutem. Cum ergo in Trinitate nihil sit creatum vel serviens 
+          vel subiectum, non admisit fides in Trinitate talem locutionis modum. 
+          Ita etiam e converso non dicitur de Dei essentia, quod ipsa 
+          sit essentia Abraham, Isaac et Iacob vel alicuius creaturae, ne 
+          Creatoris et creaturae naturam confudere videamur.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

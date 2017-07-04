@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber I, Distinctio 30, C. 10</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber I, Distinctio 30, C. 10</title>
+          <date when="2017-07-04">July 4, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative
+              Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="Quaracchi1916">Quaracchi 1916 Volume 1</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-07-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l2d30c10">
+        <head>Liber I, Distinctio 30, C. 10</head>
+        <p> Ex his datur intelligi, quid sit originale peccatum, scilicet vitium concupiscentiae,
+          quod in omnes concupiscentialiter natos, per Adam intravit, eosque vitiavit 6. </p>
+        <p> Unde Augustinus, in libro De baptismo parvulorumzz « Adam praeter imitationis exemplum
+          occulta etiam tabe cainalis concupiscentiae suae tabiücavit in se omnes de sua stirpe
+          ventu-k 1os. Unde Apostolus recte ait?): In quo omnes peccaverunt. 31rcumspecte et sine
+          ambiguitate dicit hoc Apostolus; sive enim intelligatur, in quo homine, sive in quo
+          peccato, sanum est». </p>
+        <p> « In Adam enim onmes peccaverunt ut in materia, non solum— eius exemplo, ut dicunt
+          Pelagiani. Omnes enim ille unus homo fuerant, id est, in eo materialiter erant 4 «
+          Manifestum est itaque omnes in Adam peccasse quasi in massa. lpse enim per peccatum;
+          corruptus quos genuit, omnes nati sunt sub peccato; ex eo igiturd' constituti sunt
+          peccatores». Ita et in illo uno peccato, quod in- travn in mundum, recte omnes dic11ntu1
+          peccasse; quia, sicut ab illo uno homine, sic ab eodem uno peccato immunes esse non
+          possunt, nisi ab eius reatu per Christi baptismum absolvantur. « Alia ergo sunt propria
+          peccata, in quibus tantum peccant quo- rum peccata sunt; aliud hoc unum, in quo onmes
+          peccaverunt, id est, ex quo omnes peccatores constituti sunt 5» </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 36, Capitulus 3</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 36, Capitulus 3</title>
+          <date when="2016-01-11">January 11, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-01-11">January 11, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d36c3">
+        <head xml:id="pll1d36c3-Hd1e3496">Librum I, Distinctio 36, Capitulus 3</head>
+        <!-- Utrum idem sit: Omnia esse ex Deo, et per ipsum et in ipso. -->
+        <p xml:id="pll1d36c3-d1e3501">Proinde si diligenter inspiciamus, idem videtur esse omnia 
+          esse ex Deo et per ipsum et in ipso.</p>
+        <p xml:id="pll1d36c3-d1e3504">Unde <ref><name ref="#Ambrose">Ambrosius</name> in III libro <title>De Spiritu sancto</title></ref>: 
+          <cit>
+            <quote xml:id="pll1d36c3-Qd1e3515">Haec 
+              tria: 
+              <cit>
+                <quote xml:id="pll1d36c3-Qd1e3519" ana="#rom11:36">ex ipso et per ipsum et in ipso sunt omnia;</quote>
+                <bibl>Romanos 11:36</bibl>
+              </cit>
+              unum esse, 
+              supra diximus. Cum dicit, <mentioned>per ipsum</mentioned> esse omnia, negavit <mentioned>in ipso</mentioned> 
+              esse omnia. Eandem vim habent omnia haec, scilicet <mentioned>in ipso</mentioned> et 
+              <mentioned>cum ipso</mentioned> et <mentioned>per ipsum,</mentioned> et unum in his atque consimile, non contrarium 
+              intelligitur.</quote>
+            <bibl>Ambrosius, De Spiritu Sancto, III, c. 11, n. 84 (PL 16:796)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d36c3-d1e3548">Ecce habes, quia ex eadem intelligentia Scriptura dicit, omnia 
+          esse <mentioned>in ipso</mentioned> et <mentioned>per ipsum</mentioned> et <mentioned>ex ipso</mentioned> vel <mentioned>cum ipso.</mentioned> Cum ergo ex 
+          ea ratione omnia dicantur esse ex Deo vel <mentioned>per ipsum,</mentioned> non solum 
+          quia scit, sed etiam quia auctor est eorum; consequitur, ut eadem 
+          ratione ea esse in Deo dicantur, scilicet quia scit et eorum auctor 
+          est, dicitur, quia 
+          <cit>
+            <quote xml:id="pll1d36c3-Qd1e3568" ana="#act17:28">in illo vivimus, movemur et sumus,</quote>
+            <bibl>Act. 17:28</bibl>
+          </cit>
+          quia ex eo auctore sumus, et movemur et vivimus. Cum ergo non 
+          sit auctor nisi bonorum, merito sola bona in eo esse dicuntur, 
+          sicut <mentioned>ex ipso</mentioned> vel <mentioned>per ipsum.</mentioned> Cum igitur in eius cognitione vel 
+          praesentia sint omnia, scilicet bona et mala, in eo tamen non dicuntur 
+          esse nisi bona, quorum auctor est.</p> 
+        <!-- 228 -->
+        <p xml:id="pll1d36c3-d1e3585">Unde <ref><name ref="#Augustine">Augustinus</name> in libro <title>De natura boni</title>:</ref>
+          <cit>
+            <quote xml:id="pll1d36c3-Qd1e3597">Cum audimus, 
+              inquit, <mentioned>ex</mentioned> Deo et <mentioned>per ipsum</mentioned> et <mentioned>in ipso</mentioned> esse omnia, omnes 
+              utique naturas intelligere debemus, et omnia quae naturaliter sunt. 
+              Neque enim ex ipso sunt peccata, quae naturam non servant, sed 
+              vitiant, quae ex voluntate peccantium nascuntur.</quote>
+            <bibl>Augustinus, De natura boni, cap 28 (PL 42:590)</bibl>
+          </cit>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

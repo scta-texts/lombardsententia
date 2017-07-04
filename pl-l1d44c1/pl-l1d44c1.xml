@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 44, Capitulus 1</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 44, Capitulus 1</title>
+          <date when="2016-01-24">January 24, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-01-24">January 24, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+          <witness xml:id="Z" n="zbsSII72" xml:base="http://www.e-codices.unifr.ch/metadata/iiif/zbs-SII-0072/canvas/">Solothurn, Zentralbibliothek, Cod. S II 72</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div type="startOn">
+        <cb type="startsOn" ed="#Z" n="48va" select="zbs-SII-0072_048v.json"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d44c1">
+        <head xml:id="pll1d44c1-Hd1e3501">Librum I, Distinctio 44, Capitulus 1</head>
+        <!-- An Deus possit facere aliquid melius, quam facit, 
+          vel alio vel meliori modo. -->
+        <p xml:id="pll1d44c1-d1e3506">Nunc illud restat discutiendum, utrum melius aliquid Deus 
+          possit facere, quam facit.</p>
+        <!-- 269 -->
+        <p xml:id="pll1d44c1-d1e3512">Solent enim scrutatores illi dicere, quod ea quae facit Deus, 
+          non potest meliora facere, quia si posset facere et non faceret, 
+          invidus esset et non summe bonus. Et hoc a simili astruere 
+          conantur.</p>
+        <p xml:id="pll1d44c1-d1e3515">Ait enim <ref><name select="#Augustine">Augustinus</name> in libro <title ref="#deDiversisQuaestionibus">83 Quaestionum</title>:</ref> 
+          <cit>
+            <quote xml:id="pll1d44c1-Qd1e3527">Deus 
+              quem genuit, quoniam meliorem se generare non potuit - nihil 
+              enim Deo melius - debuit aequalem. Si enim voluit et non potuit, 
+              infirmus est; si potuit et noluit, invidus. Ex quo conficitur, 
+              aequalem genuisse filium.</quote>
+            <bibl>Augustinus, De Diversis Quaestionum</bibl>
+          </cit>
+          A simili volunt dicere, quod si potest 
+          Deus rem meliorem facere, quam facit, invidus est. Sed non valet 
+          huius similitudinis inductio, quia Filium genuit de sua substantia; 
+          ideoque, si posset gignere aequalem et non gigneret, invidus esset. 
+          Alia vero, quae non de sua substantia facit, meliora facere potest.</p>
+        <p xml:id="pll1d44c1-d1e3535">Verumtamen hic responderi ab eis deposco, cur dicant, 
+          rem aliquam sive etiam rerum universitatem, in qua maior consummatio 
+          est expressa, non posse esse meliorem, quam est: sive 
+          ideo, quia summe bona est, ita ut nulla omnino boni perfectio ei 
+          desit; sive ideo, quia maius bonum, quod ei deest, capere ipsa non 
+          valeat. Sed si ita summe bona dicitur, ut nulla ei perfectio boni 
+          desit, iam creatura Creatori aequatur. Si vero ideo melior non 
+          potest esse, quia bonum amplius, quod ei deest, capere ipsa non 
+          valet; hoc iam ipsum non posse defectionis est, non consummationis; 
+          et potest esse melior, si fiat capax melioris boni, quod ipse potest 
+          qui eam fecit. Potest ergo Deus meliorem rem facere, quam faciat.</p>
+        <p xml:id="pll1d44c1-d1e3538">Unde <ref><name ref="#Augustine">Augustinus</name> <title ref="#DeGenesiAdLitteram">Super Genesim</title>:</ref> 
+          <cit>
+            <quote xml:id="pll1d44c1-Qd1e3550">Talem potuit Deus 
+              hominem fecisse, qui nec peccare posset, nec vellet; et si talem 
+              fecisset, quis dubitat eum meliorem fuisse?</quote>
+            <bibl>Augustinus, De Genesi Ad Litteram, XI, c. 7, n. 9 (PL 34:433)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d44c1-d1e3558">Ex praedictis 
+          <cb ed="#Z" n="48vb" select="zbs-SII-0072_048v.json"/>
+          constat, quod potest Deus et alia facere, quam 
+          facit, et quae facit, meliora ea facere, quam facit.</p>
+        <p xml:id="pll1d44c1-d1e3561">Post haec considerandum est, utrum alio modo vel meliori, 
+          quam facit, possit ea facere quae facit. Si modus operationis ad 
+          sapientiam opificis referatur, nec alius nec melior esse potest.</p>
+        <!-- p. 270 -->
+        <p xml:id="pll1d44c1-d1e3567">Non enim potest facere aliquid aliter vel melius, quam facit, id 
+          est alia sapientia vel maiori sapientia; nihil enim sapientius potest 
+          facere, quam facit. Si vero referatur modus ad rem ipsam, 
+          quam facit Deus, dicimus, quia et alius et melior potest esse modus. 
+          Et secundum hoc concedi potest quia ea quae facit, potest 
+          facere melius et aliter, quam facit, quia potest quibusdam meliorem 
+          modum existendi praestare, et quibusdam alium.</p>
+        <p xml:id="pll1d44c1-d1e3570">Unde <ref><name ref="#Augustine">Augustinus</name> in XIII libro <title ref="#deTrinitate">De Trinitate</title></ref> dicit, quod 
+          fuit et alius modus nostrae liberationis possibilis Deo, qui omnia 
+          potest; sed nullus alius modus nostrae miseriae sanandae fuit 
+          convenientior. Potest igitur Deus eorum quae facit, quaedam alio 
+          modo meliori, quaedam alio modo aeque bono, quaedam etiam minus 
+          bono facere, quam facit; ut tamen modus referatur ad qualitatem 
+          creaturae, non ad Creatoris sapientiam.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 19, Capitulus 4</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 19, Capitulus 4</title>
+          <date when="2015-11-13">November 13, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-11-13">November 13, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft" >
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11" corresp="versionlog.xml#">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d19c4">
+        <head xml:id="pll1d19c4-Hd1e3472">Librum I, Distinctio 19, Capitulus 4</head>
+        <!-- Quo modo dicitur Pater esse in Filio et Filius in Patre et Spiritus sanctus in utroque -->
+        <p xml:id="pll1d19c4-d1e3477">Et inde est, quod Pater dicitur esse in Filio et Filius in Patre 
+          et Spiritus sanctus in utroque et singulus in singulis.</p>
+        <p xml:id="pll1d19c4-d1e3480">Unde <ref><name ref="#Augustine">Augustinus</name> in libro <title>De fide ad Petrum</title>:</ref> 
+          <cit>
+            <quote xml:id="pll1d19c4-Qd1e3492">Propter 
+              unitatem naturalem totus Pater in Filio et Spiritu sancto est, 
+              totus quoque Spiritus sanctus in Patre et Filio est. Nullus horum 
+              extra quemlibet ipsorum est propter naturae divinae unitatem.</quote>
+            <bibl>Augustinus, De fide ad Petrum, c. 1, n. 4 (PL 40:754)</bibl>
+          </cit>
+          Ecce hic aperit aliquatenus - non enim plene potest tantum ab 
+          homine reserari arcanum - ex qua intelligentia dicatur singula 
+          personarum tota esse in aliis.</p>
+        <!-- p. 127 -->
+        <p xml:id="pll1d19c4-d1e3503">Unde etiam <ref><name ref="#HilaryOfPoitiers">Hilarius</name> ista interius perquirens in libro III <title ref="#HilaryOfPoitiers_DeTrinitate">De 
+          Trinitate</title></ref> ait: 
+          <cit>
+            <quote xml:id="pll1d19c4-Qd1e3514">Affert plerisque obscuritatem sermo Domini, cum 
+              dicit: 
+              <cit>
+                <quote xml:id="pll1d19c4-Qd1e3518" ana="#io14_11">Ego in Patre, et Pater in me est;</quote>
+                <bibl>Ioannes 14:11</bibl>
+              </cit>
+              nec immerito. Natura 
+              enim intelligentiae humanae rationem dicti huius non capit, nec 
+              exemplum aliquod rebus divinis comparatio humana praestabit; sed 
+              quod <sic>inintelligibile</sic> est homini, Deo esse possibile est. Cognoscendum 
+              itaque atque intelligendum est, quid sit illud: 
+              <cit>
+                <quote xml:id="pll1d19c4-Qd1e3530" ana="#io14_11">Ego in Patre, 
+                  et Pater in me est;</quote>
+                <bibl>Ioannes 14:11</bibl>
+              </cit>
+              si tamen comprehendere hoc ita ut est valebimus, 
+              ut quod natura rerum pati non posse aestimatur, id divinae 
+              veritatis ratio consequatur.</quote>
+            <bibl>Hilarius, De Trinitate, III n. 1 (PL 10:76)</bibl>
+          </cit>
+          <cit>
+            <quote xml:id="pll1d19c4-Qd1e3544">Patrem ergo in Filio et Filium 
+              in Patre esse, plenitudo in utroque divinitatis perfecta est;</quote>
+            <bibl>Hilarius, De Trinitate, III, n. 23 (PL 10:xxx)</bibl>
+          </cit>
+          <cit>
+            <quote xml:id="pll1d19c4-Qd1e3553">quia 
+              plenitudo deitatis in Filio. Quod in Patre est, hoc et in Filio est; 
+              quod in Ingenito, hoc in Genito; alter ab altero et uterque 
+              unum.</quote>
+            <bibl>Hilarius, De Trinitate, III, n. 4 (PL 10:xxx)</bibl>
+          </cit>
+          <cit>
+            <quote xml:id="pll1d19c4-Qd1e3562">is scilicet qui est, nihil habens quod non sit etiam in 
+              eo, a quo est;</quote>
+            <bibl>Hilarius, De Trinitate, III, n. 23 (PL 10:xxx)</bibl>
+          </cit>
+          <cit>
+            <quote xml:id="pll1d19c4-Qd1e3572">non duo unus, sed alius in alio, quia non 
+              aliud in utroque</quote>
+            <bibl>Hilarius, De Trinitate, III, n. 4 (PL 10:xxx)</bibl>
+          </cit>
+          <cit>
+            <quote xml:id="pll1d19c4-Qd1e3581">ut unum sint in fide nostra uterque, non 
+              unus; nec eundem utrumque, nec aliud confitemur; quia Deum 
+              ex Deo natum, nec eundem nativitas, nec aliud esse permittit.</quote>
+            <bibl>Hilarius, De Trinitate, I, n. 17 (PL 10:37)</bibl>
+          </cit>
+          <cit>
+            <quote xml:id="pll1d19c4-Qd1e3590">Eandem igitur in utroque et virtutis similitudinem et deitatis plenitudinem 
+              confitemur, quia Veritas dicit: 
+              <cit>
+                <quote xml:id="pll1d19c4-Qd1e3594" ana="#io14_11">Ego in Patre et Pater 
+                  in me est.</quote>
+                <bibl>Ioannes 14:11</bibl>
+              </cit>
+              Omnia enim Filius accepit a Patre.</quote>
+            <bibl>Hilarius, De Trinitate, III, n. 23 (PL 10:92)</bibl>
+          </cit>
+          <cit>
+            <quote xml:id="pll1d19c4-Qd1e3608">Nam si partem 
+              eiusdem, qui genuit, accepti, neuter ergo perfectus est; deest 
+              enim ei unde decessit, nec plenitudo in eo erit, qui ex portione 
+              constiterit. Neuter ergo perfectus est, si plenitudinem suam et qui 
+              genuit amittit, nec qui natus est consequitur.</quote>
+            <bibl>Hilarius, De Trinitate, III, n. 8 (PL 10:92)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d19c4-d1e3616">
+          <cit>
+            <quote xml:id="pll1d19c4-Qd1e3620">Fateamur ergo, quod Pater est in Filio, et Filius in Patre 
+              Deus in Deo, 
+              ut idem <ref><name ref="#HilaryOfPoitiers">Hilarius</name> ait in VII libro <title ref="#HilaryOfPoitiers_DeTrinitate">De Trinitate</title>,</ref> 
+              non per duplicem convenientium generum coniunctionem, nec 
+              per insitivam capacioris substantiae naturam, sed per naturae unitam 
+              similitudinem, per nativitatem viventis naturae ex vivente natura; 
+              dum res non differt, dum naturam Dei non degenerat nativitas, <!-- p. 128 --> 
+              dum non aliud aliquid ex Deo quam Deus nascitur, dum 
+              nihil in his novum est, nihil alienum, nihil separabile.</quote>
+            <bibl>Hilarius, De Trinitate, VII, n. 39 (PL 10:XXX)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d19c4-d1e3638">Ecce his verbis, prout humana permittit infirmitas, ex quo 
+          sensu Christus dixerit, se esse in Patre et Patrem in se, ex eodem 
+          etiam sensu intelligitur Spiritus sanctus esse in utroque et singula 
+          personarum in singulis; quia scilicet in singulis est eadem plenitudo 
+          divinitatis et unita similitudo naturae; quia non est maior 
+          natura divina in aliqua harum personarum, sed unius et indifferentis 
+          naturae sunt hae tres personae. Ideoque altera in altera esse dicitur, 
+          ut praedictum est.</p>
+        <p xml:id="pll1d19c4-d1e3641">Unde <ref><name>Ambrosius</name> praedictorum verborum sententiam nobis 
+          aperiens <title>Super Epistolam secundam ad Corinthios</title></ref> ait: 
+          <cit>
+            <quote xml:id="pll1d19c4-Qd1e3652">Per 
+              hoc intelligitur Pater esse in Filio et Filius in Patre, quia una est 
+              eorum substantia. Ibi est enim unitas, ubi nulla est diversitas.</quote>
+            <bibl>Ambrosius, XXX</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d19c4-d1e3660">Ecce tribus illustrium virorum testimoniis, scilicet <name ref="#Augustine">Augustinus</name>, 
+          <name ref="#HilaryOfPoitiers">Hilarii</name> atque <name ref="#Ambrose">Ambrosii,</name> iin idem concurrentibus, revelatione 
+          Spiritus sancti in eis loquentis, pie credere volentibus ostenditur - tamen quasi 
+          <cit>
+            <quote xml:id="pll1d19c4-Qd1e3673" ana="#Icor13_12">per speculum et in aenigmate</quote>
+            <bibl>I Cor. 13:12</bibl>
+          </cit>
+          - qualiter 
+          accipiendum sit, cum dicitur Pater in Filio esse, vel Filius in Patre, 
+          vel Spiritus sanctus in utroque.
+        </p>
+        <p xml:id="pll1d19c4-d1e3681">Sed iam nunc ad propositum redeamus coeptoque insistamus 
+          ostendentes, quod magnitudine nulla trium personarum aliam 
+          superat, quia nulla maior aliis, nec maius aliquid sunt duae 
+          quam una, nec tres quam deuae, nec maior Deus quam singuli 
+          eorum; quia singulus eorum perfectus est, nec est quo crescat 
+          illa perfectio.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

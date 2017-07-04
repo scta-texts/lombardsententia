@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 13, Capitulus 1</title>
+        <author>Petrus Lombardus</author>
+        <editor></editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.10-dev-master">
+          <title>Librum I, Distinctio 13, Capitulus 1</title>
+          <date when="2015-10-24">October 24, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher></publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-10-24">October 24, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-10-24" who="#JW" status="draft" n="2015.10">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d13c1">
+        <head>Librum I, Distinctio 13, Capitulus 1</head>
+        <!-- Quod Spiritus sanctus, cum sit de substantia Patris, 
+          non dicatur genitus, sed tantum procedens. -->
+        <p xml:id="pll1d13c1-d1e3477">Post haec considerandum est, quantum a talibus, quales nos 
+          sumus, intelligi potest, cum Spiritus sanctus procedat de Patre et 
+          sit de substantia Patris, cur non dicatur esse natus, sed potius 
+          procedere; et cur non dicatur filius.</p>
+        <p xml:id="pll1d13c1-d1e3480">Quare autem Spiritus sanctus non dicatur vel sit natus, et 
+          ideo non sit filius, <ref><name ref="#Augustine">Augustinus</name> ostendit in XV libro <title ref="#deTrinitate">De Trinitate</title></ref> 
+          ita dicens: 
+          <cit>
+            <quote xml:id="pll1d13c1-Qd1e3491">Si Spiritus sanctus filius diceretur, amborum 
+              utique filius diceretur, quod absurdissimum est. Filius quippe nullus 
+              est duorum nisi patris et matris. Absit autem, ut inter Deum 
+              Patrem et Deum Filium tale aliquid suspicemur.</quote>
+            <bibl>Augustinus, De Trinitate, XV, c. 27, n. 48 (PL 42:1095)</bibl>
+          </cit>
+          Absurdissime 
+          ergo filius diceretur amborum, id est Patris et Filii. 
+          <cit>
+            <quote xml:id="pll1d13c1-Qd1e3500">Amborum 
+              enim filius diceretur, si eum ambo genuissent, quod abhorret 
+              ab omnium sanorum sensibus. Non igitur ab utroque est genitus, 
+              sed procedit ab utroque amborum Spiritus.</quote>
+            <bibl>Augustinus, De Trinitate, XV, c. 26, n. 47 (PL 42:1095)</bibl>
+          </cit> 
+          His verbis ostenditur, 
+          cur Spiritus sanctus, cum sit de Patre, non tamen dicatur 
+          genitus vel filius.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

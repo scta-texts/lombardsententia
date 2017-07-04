@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 8, Capitulus 2</title>
+        <author>Petrus Lombardus</author>
+        <editor></editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.10-dev-master">
+          <title>Librum I, Distinctio 8, Capitulus 2</title>
+          <date when="2015-10-05">October 05, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher></publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-10-05">October 05, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-10-05" who="#JW" status="draft" n="2015.10">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d8c2">
+        <head>Librum I, Distinctio 8, Capitulus 2</head>
+        <!-- De incommutabilitate eiusdem -->
+        <p xml:id="pll1d8c2-d1e3477">Dei etiam solius essentia proprie incommutabilis dicitur, quia 
+          nec mutatur, nec mutari potest.</p>
+        <p xml:id="pll1d8c2-d1e3480">Unde <ref><name ref="#Augustine">Augustinus</name> in V libro <title ref="#deTrinitate">De Trinitate</title>:</ref> 
+          <cit>
+            <quote xml:id="pll1d8c2-Qd1e3492">Aliae, inquit, essentiae vel substantiae capiunt accidentia, quibus in eis 
+              fiat vel magna vel quantacumque mutatio; Deo autem aliquid huiusmodi 
+              accidere non potest; et ideo sola substantia vel essentia, 
+              quae est Deus, incommutabilis est, cui profecto maxime ac verissime 
+              competit esse. Quod enim mutatur non servat ipsum esse; 
+              et quod mutari potest, etiam si non mutetur, potest, quod fuerat, non 
+              esse; ideoque illud solum, quod non tantum non mutatur, verum 
+              etiam mutari omnino non potest, verissime dicitur esse,</quote>
+            <bibl>Augustinus, De Trinitate, III, c. 2, n. 3 (PL 42:912)</bibl>
+          </cit>
+          id est 
+          substantia Patris et Filii et Spiritus sancti.</p>
+        <p xml:id="pll1d8c2-d1e3500">Ideoque Apostolus de Deo loquens ait: 
+          <cit>
+            <quote xml:id="pll1d8c2-Qd1e3504" ana="#Itim6_16">Qui solus habet 
+              immortalitatem.</quote>
+            <bibl>I Timotheus 6:16</bibl>
+          </cit>
+          Ut enim ait <ref><name ref="#Augustine">Augustinus</name> in libro I <title ref="#deTrinitate">De Trinitate</title>:</ref> 
+          <cit>
+            <quote xml:id="pll1d8c2-Qd1e3521">Cum anima quodam modo immortalis esse dicatur et sit, 
+              non diceret <name ref="#Paul">Apostolus</name>: 
+              <cit>
+                <quote xml:id="pll1d8c2-Qd1e3528" ana="#Itim6_16">Solus habet immortalitate,</quote>
+                <bibl>I Timotheus 6:16</bibl>
+              </cit>
+              nisi quia 
+              vera immortalitas incommutabilitas est, quam nulla potest habere 
+              creatura, quoniam solius Creatoris.</quote>
+          </cit>
+        </p>
+        <p xml:id="pll1d8c2-d1e3539">Unde <name ref="#James">Iacobus</name> ait: 
+          <cit>
+            <quote xml:id="pll1d8c2-Qd1e3546">Apud quem non est transmutatio nec 
+              vicissitudinis obumbratio.</quote>
+            <bibl>Iacobus 1:17</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d8c2-d1e3554">Et <name ref="#David">David</name>: 
+          <cit>
+            <quote xml:id="pll1d8c2-Qd1e3561" ana="#ps101_28">Mutabis ea, et mutabuntur; tu autem idem ipse se.</quote>
+            <bibl>Psalm 101:28</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d8c2-d1e3569">Ideo <name ref="#Augustine">Augustinus</name> <title ref="#DeGenesiAdLitteram">Super Genesim</title> dicit, quod Deus nec 
+          per loca nec per tempora movetur, creatura vero per tempora et 
+          loca; per tempora moveri est per affectiones commutari; Deus 
+          autem nec loco nec affectione mutari potest, qui per Prophetam 
+          ait: 
+          <cit>
+            <quote xml:id="pll1d8c2-Qd1e3579" ana="#mal3_6">Ego Deus, et non mutor</quote>
+            <bibl>Malach. 3:6</bibl>
+          </cit>
+          qui est immutabilis solus. Unde 
+          recte <mentioned>solus</mentioned> dicitur <mentioned>habere immortalitatem.</mentioned>
+        </p>
+        <p xml:id="pll1d8c2-d1e3593">
+          <cit>
+            <quote xml:id="pll1d8c2-Qd1e3597">In omni enim mutabili natura, ut <ref><name ref="#Augustine">Augustinus</name> <title>Contra 
+              Maximinum</title>,</ref> 
+              nonnulla mors est ipsa mutatio, quia facit aliquid 
+              in ea non esse, quod erat. Unde et ipsa anima humana, quae 
+              ideo dicitur immortalis, quia secundum modum suum nunquam 
+              desinit vivere, habet tamen quandam mortem suam; quia si iuste 
+              vivebat et peccat, moritur iustitiae; si peccatrix erat et iustificatur, 
+              moritur peccato, ut alias eius mutationes taceam, de quibus 
+              modo longum est disputare. Et creaturarum natura caelestium mori 
+              potuit, quia peccare potuit. Nam et Angeli peccaverunt det daemones
+              facti sunt, quorum est diabolus princeps; et qui non peccaverunt 
+              peccare potuerunt; et cuicumque creaturae rationabili praestatur, 
+              ut peccare non possit, non est hoc naturae propriae, sed 
+              Dei gratiae. Et ideo 
+              <cit>
+                <quote xml:id="pll1d8c2-Qd1e3609" ana="#Itim6_16">solus Deus, ut ait <name ref="#Paul">Apostolus</name>, habet immortalitatem,</quote>
+                <bibl>I Timotheus 6:16</bibl>
+              </cit>
+              qui non cuiusquam gratia, sed natura sua nec potuit 
+              nec potest aliqua conversione mutari, nec potuit nec poterit aliqua 
+              mutatione peccare.</quote>
+            <bibl>Augustinus, Contra Maximinum, II, c. 12, n. 2 (PL 42:768)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d8c2-d1e3625">
+          <cit>
+            <quote xml:id="pll1d8c2-Qd1e3629">Proinde, ut ait 
+              <ref><name ref="#Augustine">Augustinus</name> in libro I <title ref="#deTrinitate">De Trinitate</title>,</ref>
+              substantiam Dei sine ulla sui commutatione mutabilia facientem et 
+              sine ullo suo temporali motu temporalia creantem intueri et nosse, 
+              licet sit difficile, oportet.</quote>
+            <bibl>Augustinus, De Trinitate, I, c. 1, n. 3 (PL 42:821)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d8c2-d1e3645">Vere ergo ac proprie incommutabilis est sola Divinitatis essentia, 
+          quae sine sui mutatione cunctas condidit naturas.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

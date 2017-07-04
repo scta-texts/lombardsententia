@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum II, Distinctio 11, Capitulus 2</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.1-dev">
+          <title>Librum II, Distinctio 11, Capitulus 2</title>
+          <date when="2016-06-14">June 14, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-06-14">June 14, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+          <witness xml:id="Z" n="zbsSII72" xml:base="http://www.e-codices.unifr.ch/metadata/iiif/zbs-SII-0072/canvas/">Solothurn, Zentralbibliothek, Cod. S II 72</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="0.0.1">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        
+      </div>
+    </front>
+  	<body>
+  		<div xml:id="pl-l2d11c2">
+  			<head xml:id="pll2d11c2-Hd1e3508">Librum II, Distinctio 11, Capitulus 2</head>
+  			<head xml:id="pll2d11c2-Hd1e3511" type="questionTitle">Utrum Angeli proficiant in merito et praemio usque ad iudicium</head>
+  			<p xml:id="pll2d11c2-d1e3514">Praeterea illud considerari oportet, utrum Angeli boni in merito 
+  				vel in praemio proficiant usque ad iudicium.</p>
+  			<p xml:id="pll2d11c2-d1e3517">Quod in meritis proficiant atque quotidie magis ac magis 
+  				<lb ed="#B"/>mereantur, quibusdam videtur ex eo, quod quotidie utilitatibus 
+  				<lb ed="#B"/>hominum inserviunt eorumque profectibus student. Quibus etiam 
+  				<lb ed="#B"/>nihilominus videtur, quod et in praemio proficiant, scilicet in cognitione 
+  				et dilectione Dei. Licet enim, ut aiunt, in confirmatione beatitudinem 
+  				acceperint aeternam atque perfectam, augetur tamen quotidie 
+  				eorum beatitudo, quia magis ac magis diligunt aque cognoscunt; 
+  				et est eorum caritas, qua Deum et nos diligunt, et meritum 
+  				<lb ed="#B"/>et praemium: meritum, quia per eam et obsequia, ex ea nobis 
+  				<lb ed="#B"/>impensa, merentur et in beatitudine proficiunt; et ipsa eadem est 
+  				<lb ed="#B"/>praemium, quia ea beati sunt.</p>
+  			<p xml:id="pll2d11c2-d1e3533">Et quod Angeli proficiant in cognitione ac per hoc in beatitudine, 
+  				testimoniis Sanctorum confirmant.</p>
+  			<p xml:id="pll2d11c2-d1e3537">Dicit enim <title ref="#Isaias">Isaias</title> ex persona Angelorum, Christi ascendentis 
+  				<lb ed="#B"/>magnificentiam admirantium: 
+  				<cit>
+  					<quote xml:id="pll2d11c2-Qd1e3546" ana="#is63_1">Quis est iste qui venit de Edom, 
+  						tinctis vestibus de Bosra</quote>
+  					<bibl>Isaias 63:1</bibl>
+  				</cit>?
+  				Et in <title ref="#ps">Psalmo</title>:
+  				<cit>
+  					<quote xml:id="pll2d11c2-Qd1e3558" ana="#ps23_8">Quis est iste rex gloriae</quote>
+  					<bibl>Psalmus 23:8</bibl>
+  				</cit>?
+  				Ex quibus apparet, quod mysterium Verbi incarnati plenius <!-- 356 --> 
+  				cognoverunt Angeli post impletionem quam ante. Et sicut in cogni<lb ed="#B"/>tione 
+  				mysterii huius profecerunt, ita dicunt eos in Deitatis cognitione 
+  				proficere.</p>
+  			<p xml:id="pll2d11c2-d1e3571">Quod autem in mysterii huius cognitione profecerint, evidenter 
+  				docet <name ref="#Paul">Apostolus</name> dicens: 
+  				<cit> <!-- double check extraction script to see if it can handle multiple ana references -->
+  					<quote xml:id="pll2d11c2-Qd1e3580" ana="#eph3_9 #eph3_10">Quae sit dispensatio sacramenti 
+  						absconditi a saeculis in Deo, ut innotescat multiformis sapientia 
+  						Dei per Ecclesiam Principibus et Potestatibus in caelestibus</quote>
+  					<bibl>Eph. 3:9-10</bibl>
+  				</cit>. 
+  				Super 
+  				quem locum dicit <name ref="#Jerome">Hieronymus</name>, Angelicas dignitates praefatum 
+  				mysterium ad purum non intellexisse, donec completa est passio 
+  				Christi, et Apostolorum praedicatio per gentes dilatata.</p>
+  			<p xml:id="pll2d11c2-d1e3591">His autem videtur contradicere <ref><name ref="#Augustine">Augustinus</name> super eundem 
+  				locum Epistolae</ref> dicens: 
+  				<cit>
+  					<quote xml:id="pll2d11c2-Qd1e3600">Non latuit Angelos mysterium regni 
+  						caelorum, quod opportuno tempore revelatum est pro nostra salute. 
+  						Illis ergo a saeculis innotuit supra memoratum mysterium, quia 
+  						omnis creatura non ante saecula, sed a saeculis est</quote>
+  					<bibl>Augustinus, De Gen. ad litt. V, c. 19, n. 38, 39 (PL 34:334) see also: Glossa ad Eph 3:9-10</bibl>
+  				</cit>.
+  			</p>
+  			<p xml:id="pll2d11c2-d1e3608">Attende, lector, quia videntur dissentire in hac sententia illustres 
+  				doctores.</p>
+  			<p xml:id="pll2d11c2-d1e3611">Ideoque ut omnis repugnantia de medio tollatur, praedicta, 
+  				<name>Haymonem</name> sequentes, ita determinemus, 
+  				<cit>
+  					<quote xml:id="pll2d11c2-Qd1e3618">ut illis Angelis, qui 
+  						maioris dignitatis sunt, et per quorum ministerium illa nuntiata 
+  						sunt, ex parte a saeculis cognita fuisse, utpote familiaribus et nuntiis; 
+  						illis vero, qui minoris dignitatis sunt, incognita exstitisse dicamus, 
+  						usquequo impleta sunt et per Ecclesiam praedicta, et tunc 
+  						ab omnibus Angelis perfecte fuerunt cognita</quote>
+  					<bibl>Haymo, Super Epist. ad Eph. (PL 117:715)</bibl>
+  				</cit>.
+  			</p>
+  			<p xml:id="pll2d11c2-d1e3626">Constat itaque, omnes Angelos in cognitione divinorum mysteriorum 
+  				secundum processum temporis profecisse. Unde non incongruenter 
+  				ipsi iidem dicunt, Angelorum scientiam ac beatitudinem 
+  				augeri usque ad futuram consummationem, quando in scientia 
+  				ac beatitudine ita perfectissimi erunt, ut nec augeatur amplius 
+  				nec minuatur.</p>
+  			<!-- 357 -->
+  			<p xml:id="pll2d11c2-d1e3632">Alii autem dicunt, Angelos in confirmatione tanta Deitatis dilectione 
+  				atque notitia fuisse praeditos, ut in his ulterius non profecerint, 
+  				nec profecturi sint. Profecerunt tamen in scientia rerum exteriorum, 
+  				sicut in cognitione sacramenti Incarnationis et huiusmodi, 
+  				sed non in contemplatione Deitatis, quia Trinitatem in Unitate, atque 
+  				Unitatem in Trinitate non plenius intelligunt sive intellecturi sunt, 
+  				quam ab ipsa confirmatione perceperunt. Ita etiam dicunt, eos in 
+  				caritate non profecisse post confirmationem, quia eorum caritas 
+  				postea non aucta est; et sic dicunt, eos non profecisse in meritis, 
+  				sed hoc quantum ad vim merendi, non quantum ad numerum 
+  				meritorum. Plura enim bona fecerunt postea, quae tunc non fecerant; 
+  				sed eorum caritas, ex qua illa processerunt, non est aucta, 
+  				ex qua tantum meruerunt, antequam ista adderentur, quantum 
+  				postea, his adiectis.</p>
+  			<p xml:id="pll2d11c2-d1e3635">Illud vero, quod alii superius dicunt, probabilius videtur, scilicet 
+  				quod Angeli usque ad iudicium in scientia et in aliis proficiant.</p>
+  			<p xml:id="pll2d11c2-d1e3638">Quibus tamen videntur obviare quorundam auctoritatum 
+  				verba.</p>
+  			<p xml:id="pll2d11c2-d1e3641">Ait enim <ref><name ref="#IsidoreOfSeville">Isidorus</name> in libro <title>De summo bono</title></ref>: 
+  				<cit>
+  					<quote xml:id="pll2d11c2-Qd1e3652">Angeli in 
+  						Verbo Dei omnia sciunt, antequam fiant</quote>
+  					<bibl>Isidorus, Sent. I, c. 10, n. 17 (PL 83:556)</bibl>
+  				</cit>.
+  				Sed nec omnes nec 
+  				omnia perfecte Angelos scire dixit, et ideo eos in scientia proficere 
+  				non removit.</p>
+  			<p xml:id="pll2d11c2-d1e3660"><ref><name ref="#GregoryGreat">Gregorius</name> quoque in libro <title>Dialogorum</title></ref> ait: 
+  				<cit>
+  					<quote xml:id="pll2d11c2-Qd1e3670">Quid est 
+  						quod ibi nesciant, ubi scientem omnia sciunt</quote>
+  					<bibl>Gregorius, Dialogorum, c. IV, c. 33 (PL 77:376)</bibl>
+  				</cit>?
+  				Ubi videtur 
+  				dicere, quod omnia sciant Angeli, et nihil sit quod nesciant. Sed 
+  				accipiendum est hoc de his quorum cognitio beatum facit cognitorem,
+  				ut sunt ea, quae ad mysterium Trinitatis et Unitatis 
+  				pertinent.</p>
+  		</div>
+  	</body>
+  </text>
+</TEI>

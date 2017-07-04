@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 32, Capitulus 4</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 32, Capitulus 4</title>
+          <date when="2015-12-29">December 29, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-12-29">December 29, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d32c4">
+        <head xml:id="pll1d32c4-Hd1e3496">Librum I, Distinctio 32, Capitulus 4</head>
+        <!-- An una tantum sit sapientia Patris -->
+        <p xml:id="pll1d32c4-d1e3501">Post haec a quibusdam quaeri solet, utrum una tantum sit 
+          sapientia Patris; quod non esse, nituntur probare hoc modo: Filius, 
+          inquiunt, est sapientia Patris genita, qua Pater sapiens non est; est 
+          igitur aliqua sapientia Patris, qua sapiens non est; est autem et 
+          sapientia Patris ingenita, et ea Pater sapiens est; est ergo quaedam 
+          sapientia Patris, qua sapiens est, et ipsa non est illa sapientia Patris, 
+          qua Pater sapiens non est; non est ergo una tantum sapientia 
+          Patris.</p>
+        <p xml:id="pll1d32c4-d1e3504">Item, sapientia ingenita est sapientia Patris, et sapientia genita 
+          est sapientia Patris; non est autem sapientia ingentia sapientia 
+          genita; non est igitur una tantum sapientia Patris.</p>
+        <p xml:id="pll1d32c4-d1e3507">Haec et his similia tanquam sophistica et a veritate longinqua 
+          cunctisque in theologia peritis patentia abiicimus, responso indigna 
+          advertentes, id tamen adiicientes, quia una est tantum sapientia Patris, 
+          sed non uno modo dicitur. Nam sapientia Patris dicitur illa quam 
+          genuit, et sapientia Patris dicitur ea quae sapiens est; diversa est 
+          ergo ratio dicti. Illa enim dicitur patris, quia eam genuit; et ea 
+          dicitur Patris, quia ea sapit. Una est tamen sapientia Patris, quia 
+          sapientia genita est eadem sapientia, et ea qua sapiens est, sive 
+          ea qua sapiens est intelligatur persona Patris, sive essentia Patris; 
+          quia persona Patris, quae intelligitur, cum dicitur sapientia ingenita, 
+          et persona Filii, quae significatur, cum dicitur sapientia genita, 
+          una eademque sapientia est, quae essentia divina intelligitur 
+          communis tribus personis.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

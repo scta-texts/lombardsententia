@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 35, Capitulus 7</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 35, Capitulus 7</title>
+          <date when="2016-01-06">January 06, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-01-06">January 06, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d35c7">
+        <head xml:id="pll1d35c7-Hd1e3496">Librum I, Distinctio 35, Capitulus 7</head>
+        <!-- Utrum praescientia vel dispositio vel praedestinatio Dei esse 
+            potuerit, si nulla essent futura. -->
+        <p xml:id="pll1d35c7-d1e3501">Hic considerari oportet, utrum scientia vel praescientia, vel 
+          dispositio, vel praedestinatio potuerit esse in Deo, si nulla fuissent 
+          futura.</p>
+        <p xml:id="pll1d35c7-d1e3504">Cum enim 
+          <cit>
+            <quote xml:id="pll1d35c7-Qd1e3508">praescientia sit futurorum, et dispositio faciendorum, 
+              et praedestinatio salvandorum,</quote>
+            <bibl>2</bibl>
+          </cit>
+          si nulla essent futura, si 
+          nihil esset facturus Deus, vel aliquos salvaturus, non videtur potuisse 
+          in Deo esse praescientia, vel dispositio, vel praedestinatio; 
+          potuit autem Deus nulla praescire futura, potuit non creare aliquid, 
+          vel non salvare aliquos; potuit ergo non esse in Deo praescientia, 
+          vel dispositio, vel praedestinatio.</p>
+        <p xml:id="pll1d35c7-d1e3516">Ad hoc autem ita a quibusdam opponitur: Si, inquiunt, potuit 
+          praescientia Dei non esse in Deo ab aeterno, et potuit non esse; 
+          si vero potuit non esse, cum praescientia Dei sit eius scientia, et 
+          <!-- p. 222 --> 
+          scientia sit eius essentia, potuit ergo non esse ab aeterno id quod 
+          est divina essentia. Ita et de dispositione et de praedestinatione, 
+          quae est divina essentia, obiiciunt.</p>
+        <p xml:id="pll1d35c7-d1e3522">Addunt quoque et alia, ita dicentes: 
+          <cit>
+            <quote xml:id="pll1d35c7-Qd1e3526">Si potuit Deus non 
+              praescire aliqua, cum idem sit Deo praescire quod scire, et scire 
+              quod esse, potuit ergo non esse. Item, cum idem sit Deo praescium 
+              esse et Deum esse, si potuit nulla praescire; 
+              at potuit nulla praescire, quia potuit nulla facere.</quote>
+            <bibl>xxx</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d35c7-d1e3534">Ad hoc iuxta modulum nostrae intelligentiae ita dicimus: Praescientia, 
+          et dispositio, vel praedestinatio ad aliquid dici videntur. 
+          Sicut enim creator ad creaturam relative dicitur, ita praescientia 
+          vel praescius ad futura referri videtur, et dispositio ad facienda, 
+          ac praedestinatio ad salvanda. Verumtamen creator ita relative 
+          dicitur, ut essentiam non significet. Praescientia vero vel praescius 
+          et in respectu futurorum dicitur, et essentiam designat; ita etiam 
+          dispositio et praedestinatio.</p>
+        <p xml:id="pll1d35c7-d1e3537">Ideoque cum dicitur: Si nulla essent futura, non esset in Deo 
+          praescientia, vel non esset Deus praescius, quia varia est ibi causa 
+          dicendi, distingui oportet rationem dicti. Cum ergo dicis: Si nulla 
+          essent futura, non esset in Deo praescientia, vel non esset praescius, 
+          si in dicendo hanc causam attendis, scilicet quia nulla essent 
+          subiecta eius praescientiae, unde ipsa possit dici praescientia, 
+          vel ipse praescius, quod utrumque dicitur propter futura; verus 
+          est intellectus. Sin autem ex ea ratione id dicis, quod non sit 
+          in eo scientia, qua praescit futura, vel quod ipse non sit Deus, qui 
+          est futurorum praescius, falsa est intelligentia.</p>
+        <p xml:id="pll1d35c7-d1e3540">Similiter et illae locutiones determinandae sunt: Potuit non 
+          esse praescientia Dei, vel potuit non esse praescius, et potuit Deus 
+          non praescire aliqua: id est, potuit esse, quod nulla futura subiecta 
+          essent eius scientiae, et ita non posset dici praescius vel praescire, 
+          vel eius scientia praescientia; non eo tamen ipse minus esset vel 
+          eius scientia, sed non posset dici praescius vel praescire vel praescientia, 
+          si eius scientiae futura nulla forent subiecta.</p>
+        <!-- p. 223 --> 
+        <p xml:id="pll1d35c7-d1e3545">Similiter de dispositione et praedestinatione vel providentia. 
+          Haec enim, ut dictum est, ad temporalia referuntur et de temporalibus 
+          tantum sunt.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

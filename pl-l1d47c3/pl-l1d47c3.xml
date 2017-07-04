@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 47, Capitulus 3</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 47, Capitulus 3</title>
+          <date when="2016-01-26">January 26, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-01-26">January 26, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+          <witness xml:id="Z" n="zbsSII72" xml:base="http://www.e-codices.unifr.ch/metadata/iiif/zbs-SII-0072/canvas/">Solothurn, Zentralbibliothek, Cod. S II 72</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <cb ed="#Z" n="52va" select="zbs-SII-0072_052v.json"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d47c3">
+        <head xml:id="pll1d47c3-Hd1e3513">Librum I, Distinctio 47, Capitulus 3</head>
+        <head xml:id="pll1d47c3-Hd1e3516" type="questionTitle">Quae praecipit Deus omnibus bona facere et mala vitare, 
+          si non id ab omnibus vult impleri.</head>
+        <p xml:id="pll1d47c3-d1e3519">Ex praedictis liquet, quod voluntas Dei, quae ipse est, semper 
+          invicta est, nec in aliquo cassatur, sed per omnia impletur. 
+          Consilium vero eius atque praeceptio sive prohibitio non ab omnibus 
+          implentur, quibus proposita et data sunt. Neque ideo praecepit 
+          omnibus bona vel prohibuit mala vel consuluit optima, quod 
+          vellet ab omnibus bona quae praecepti fieri, vel mala quae prohibet 
+          vitari - si enim vellet, utique et fierent, quia in nullo superari 
+          potest ab homine vel impediri eius voluntas - sed ut iustitiam 
+          suam hominibus ostenderet, et mali essent inexcusabiles; 
+          denique, ut boni ex obedientia gloriam, mali ex inobedientia 
+          poenam sortirentur, sicut utrisque ab aeterno praeparavit. Ea igitur, 
+          quae omnibus praecepit vel prohibuit, a quibusdam voluit fieri 
+          vel vitari, sed non ab omnibus; et quaedam personaliter praecepit 
+          et in veteri et in nova Lege, quae ab eis quibus praecepit, fieri 
+          noluit, ut <name ref="#Abraham">Abrahae</name> de immolatione filii, et in <title>Evangelio</title> quibusdam 
+          curatis, quibus praecepit, ne cui dicerent.</p>
+        
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 8, Capitulus 3</title>
+        <author>Petrus Lombardus</author>
+        <editor></editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.10-dev-master">
+          <title>Librum I, Distinctio 8, Capitulus 3</title>
+          <date when="2015-10-05">October 05, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher></publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-10-05">October 05, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-10-05" who="#JW" status="draft" n="2015.10">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d8c3">
+        <head>Librum I, Distinctio 8, Capitulus 3</head>
+        <p xml:id="pll1d8c3-d1e3475">Eademque sola proprie ac vere simplex est, ubi nec partium 
+          nec accidentium seu quarumlibet formarum ulla est diversitas sive 
+          variatio vel multitudo.</p>
+        <p xml:id="pll1d8c3-d1e3478">Ut autem scias, quomodo simplex sit illa substantia, ut te 
+          docet <ref><name ref="#Augustine">Augustinus</name> in VI in libro <title ref="#deTrinitate">De Trinitate</title>,</ref> 
+          <cit>
+            <quote xml:id="pll1d8c3-Qd1e3490">animadverte 
+              primo, quare omnis creatura sit multiplex et nullo modo vere simplex, 
+              et primo de corporali, postea de spirituali creatura. Corporalis 
+              utique creatura partibus constat, ita ut sit ibi alia pars 
+              maior, alia minor, et maius sit totum quam pars quaelibet; et in 
+              unoquoque corpore aliud est magnitudo, aliud color, aliud figura. 
+              Potest enim, et minuta magnitudine, manere idem color et eadem 
+              figura; et colore mutato, manere eadem figura et eadem magnitudo. 
+              Ac per hoc multiplex esse convincitur natura corporis, simplex 
+              autem nullo modo.</quote>
+          </cit>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

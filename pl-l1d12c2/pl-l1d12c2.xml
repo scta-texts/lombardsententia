@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 12, Capitulus 2</title>
+        <author>Petrus Lombardus</author>
+        <editor></editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.10-dev-master">
+          <title>Librum I, Distinctio 12, Capitulus 2</title>
+          <date when="2015-10-24">October 24, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher></publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-10-24">October 24, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-10-24" who="#JW" status="draft" n="2015.10">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d12c2">
+        <head>Librum I, Distinctio 12, Capitulus 2</head>
+        <!-- Quod Spiritus sanctus principaliter et proprie dicitur procedere a Patre. -->
+        <p xml:id="pll1d12c2-d1e3477">Nunc tractandum est quod secundo quaerebatur, scilicet an 
+          plenius vel magis procedat Spiritus sanctus a Patre quam a Filio.</p>
+        <p xml:id="pll1d12c2-d1e3480">Ad quod dicimus, quia sicut non ante procedit a Patre quam 
+          a Filio, ita non magis vel plenius procedit a Patre quam a Filio. 
+          <ref><name ref="#Augustine">Augustinus</name> tamen in XV libro <title ref="#deTrinitate">De Trinitate</title></ref> dicit, quod 
+          Spiritus sanctus principaliter procedit de Patre. 
+          <cit>
+            <quote xml:id="pll1d12c2-Qd1e3491">Non frustra, inquit, 
+              in hac Trinitate non dicitur Verbum Dei nisi Filius, nec Donum 
+              Dei nisi Spiritus sanctus, nec de quo genitum est Verbum, et de 
+              quo procedit principaliter Spiritus sanctus, nisi Deus Pater.</quote>
+            <bibl>Augustinus, De Trinitate, XV, c. 17, n. 29 (PL 42:1081)</bibl>
+          </cit>
+          Ecce 
+          audisti, quia Spiritus sanctus principaliter procedit a Patre.</p>
+        <p xml:id="pll1d12c2-d1e3499">Sed ne hoc te turbaret, ipse continuo ex quo sensu dixerit 
+          aperit, subdens: 
+          <cit>
+            <quote xml:id="pll1d12c2-Qd1e3503">Ideo addidi principaliter, quia et de Filio Spiritus 
+              sanctus procedere reperitur, sed hoc quoque illi Pater dedit, 
+              non iam existenti et nondum habenti. Sed quidquid unigenito Verbo 
+              dedit, gignendo dedit. Sic ergo eum genuit, ut etiam de illo Donum 
+              commune procederet, et Spiritus sanctus Spiritus esset amborum.</quote>
+            <bibl>Augustinus, De Trinitate, XV, c. 17, n. 29 (PL 42:1081)</bibl>
+          </cit>
+          Ecce exposuit ipsemet, quomodo Spiritus principaliter procedat 
+          a Patre, non quia prius vel magis procedat a Patre quam a 
+          Filio, sed quia, cum procedat a Filio, hoc ipsum habet Filius a Patre.</p>
+        <p xml:id="pll1d12c2-d1e3512">Ex eodem sensu etiam dicitur proprie procedere de Patre.</p> 
+        <!-- 83 --> 
+        <p xml:id="pll1d12c2-d1e3517">Unde <name ref="#Jerome">Hieronymus</name> in <title>Expositione catholicae fidei Nicaenique Symboli</title> ait: 
+          <cit>
+            <quote xml:id="pll1d12c2-Qd1e3527">Credimus in Spiritum sanctum, qui de Patre 
+              procedit proprie.</quote>
+            <bibl>Hieronymus, Ad Cyrillum, Epist. 17, c. 1 et 3 (PL 30:176)</bibl>
+          </cit>
+          Item: 
+          <cit>
+            <quote xml:id="pll1d12c2-Qd1e3536">Spiritum sanctum verum Deum invenimus 
+              in Scriptura, et de Patre proprie esse.</quote>
+            <bibl>Hieronymus, Ad Cyrillum, Epist. 17, c. 1 et 3 (PL 30:176)</bibl>
+          </cit>
+          Et item: 
+          <cit>
+            <quote xml:id="pll1d12c2-Qd1e3545">De 
+              Patre Filius, et Spiritus proprie et vere de Patre procedit.</quote>
+            <bibl>Hieronymus, Ad Cyrillum, Epist. 17, c. 1 et 3 (PL 30:176)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d12c2-d1e3553">Ecce aperte dicit, Spiritum sanctum proprie esse de Patre et 
+          proprie procedere a Patre. Quod non ita est intelligendum, tanquam 
+          prius vel plenius a Patre procedat quam a Filio, sed quia hoc habet 
+          Pater a se, non ab alio, ut de ipso sit et procedat Spiritus sanctus; 
+          Filius autem non a se, sed a Patre hoc habet, ut de ipso sit et 
+          procedat Spiritus sanctus.</p>
+        <p xml:id="pll1d12c2-d1e3556">Forte etiam iuxta hanc intelligentiam dicitur Spiritus sanctus 
+          a Patre mitti per Filium et a Patre esse per Filium.</p>
+        <p xml:id="pll1d12c2-d1e3559">Unde <name ref="#HilaryOfPoitiers">Hilarius</name> ad Deum Patrem de Spiritu sancto et Filio loquens 
+          in <ref>XII libro <title ref="#HilaryOfPoitiers_DeTrinitate">De Trinitate</title></ref> ait: 
+          <cit>
+            <quote xml:id="pll1d12c2-Qd1e3571">In sancto Spiritu tuo ex 
+              te profecto et per eum misso.</quote>
+            <bibl>Hilarius, De Trinitate, XII, n. 55 (PL 10:469)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d12c2-d1e3580">Item: 
+          <cit>
+            <quote xml:id="pll1d12c2-Qd1e3584">Ante tempora Unigenitus tuus ex te natus manet, 
+              ita quod ex te per eum sanctus Spiritus tuus est; quod etsi sensu 
+              non percipiam, tamen teneo conscientia. In spiritualibus enim rebus 
+              tuis hebes suum.</quote>
+            <bibl>Hilarius, De Trinitate, XII, n. 56 (PL 10:469)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d12c2-d1e3592">item in eodem: 
+          <cit>
+            <quote xml:id="pll1d12c2-Qd1e3596">Conserva hanc, oro, fidei meae religionem, 
+              ut quod in regenerationis meae Symbolo professus sum, semper 
+              obtineam: Patrem scilicet te et Filium tuum una tecum adorem; 
+              sanctum Spiritum tuum, qui ex te per Unigenitum tuum est, 
+              promerear.</quote>
+            <bibl>Hilarius, De Trinitate, XII, n. 57 (PL 10:469)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d12c2-d1e3604">Ecce aperte dicit, Spiritum sanctum a Patre per Filium et 
+          mitti et esse; quod non est intelligendum, quasi a Patre per Filium 
+          minorem mittatur vel sit, sed quia ex Patre et Filio est et 
+          mittitur ab utroque. Sed hoc ipsum habet Filius a Patre, ut ab 
+          ipso et sit et mittatur Spiritus sanctus. Hoc ergo voluit significare 
+          <name ref="#HilaryOfPoitiers">Hilarius</name>, distinctionem faciens in locutione, ut ostenderet in Patre 
+          esse auctoritatem.</p>
+        <!-- p. 84 -->
+        <p xml:id="pll1d12c2-d1e3612">Inde est etiam, quod Veritas ostendens, Patrem esse auctorem 
+          processionis, qua procedit Spiritus a Filio, dixit in Evangelio: 
+          <cit>
+            <quote xml:id="pll1d12c2-Qd1e3616" ana="#io15_26">De Patre procedit,</quote>
+            <bibl>Ioannes 15:26</bibl>
+          </cit>
+          cum de Patre et Filio procedat Spiritus 
+          sanctus.</p>
+        <p xml:id="pll1d12c2-d1e3624">Unde <name ref="#Augustine">Augustinus</name> quaerit: 
+          <cit>
+            <quote xml:id="pll1d12c2-Qd1e3631">Si de patre et Filio procedit 
+              Spiritus sanctus, cur Filius dixit: <mentioned>De Patre procedit?</mentioned> Cur 
+              putas, nisi quia solet ad eum referre etiam quod ipsius est, de 
+              quo et ipse est, sicut ait: 
+              <cit>
+                <quote xml:id="pll1d12c2-Qd1e3638" ana="#io7_16">Mea doctrina non est mea, sed eius 
+                  qui misit me?</quote>
+                <bibl>Ioannes 7:16</bibl>
+              </cit>
+              Si igitur hic intelligitur eius doctrina, quam tamen 
+              non dixit suam, sed Patris, quanto magis illic intelligendus est 
+              Spiritus sanctus de ipso procedere, ubi sic ait: <mentioned>De Patre procedit</mentioned>, 
+              ut non diceret: De me non procedit. A quo autem habet Filius, 
+              ut sit Deus - est enim de Deo Deus - ab illo utique habet, ut 
+              etiam de illo procedat Spiritus sanctus. Et ideo Spiritus sanctus, 
+              ut etiam de Filio procedat, sicut procedit de Patre, ab ipso habet 
+              Patre.</quote>
+            <bibl>Augustinus, De Trinitate, XV, c. 27, n. 48 (PL 42:1095)</bibl>
+          </cit>
+          <cit>
+            <quote xml:id="pll1d12c2-Qd1e3655">Quapropter, qui potest intelligere in eo, quod ait Filius: 
+              <cit>
+                <quote xml:id="pll1d12c2-Qd1e3659" ana="#io5_26">Sicut Pater habet vitam in semetipso, sic dedit Filio 
+                  vitam habere in semetipso,</quote>
+                <bibl>Ioannes 5:26</bibl>
+              </cit>
+              non sine vita existenti iam Filio vitam 
+              Patrem dedisse, sed ita eum sine tempore genuisse, ut vita, quam 
+              Pater Filio gignendo dedit, coaeterna sit vitae Patris, qui dedit; intelligat 
+              etiam, sicut habet Pater in semetipso, ut de illo procedat 
+              Spiritus sanctus, sic dedisse Filio, ut etiam de illo procedat idem 
+              Spiritus sanctus, et utrumque sine tempore. Ita ergo dictum est, 
+              Spiritum sanctum de Patre procedere, ut intelligatur, quod etiam 
+              procedit de Filio de Patre esse Filio. Si enim quidquid habet, de 
+              Patre habet Filius, de Patre habet utique, ut et de illo procedat 
+              Spiritus sanctus. Sed nulla ibi tempora cogitentur, quae habeant 
+              prius et posterius, quia ibi omnino nulla sunt.</quote> 
+            <bibl>Augustinus, De Trinitate, XV, c. 27, n. 47 (PL 42:1095)</bibl>
+          </cit>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

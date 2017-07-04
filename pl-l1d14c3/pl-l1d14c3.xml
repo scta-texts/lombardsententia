@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 14, Capitulus 3</title>
+        <author>Petrus Lombardus</author>
+        <editor></editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.10-dev-master">
+          <title>Librum I, Distinctio 14, Capitulus 3</title>
+          <date when="2015-10-28">October 28, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher></publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-10-28">October 28, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-10-26" who="#JW" status="draft" n="2015.10">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d14c3">
+        <head>Librum I, Distinctio 14, Capitulus 3</head>
+        <!-- An viri sancti possint dare spiritum sanctum -->
+        <p xml:id="pll1d14c3-d1e3477">Hic quaeritur, utrum et sancti viri dent vel possint dare aliis 
+          Spiritum sanctum. Quem si aliis dant, cum eius donatio sit supradicta 
+          processio, videtur ab eis procedere Spiritus sanctus vel mitti; 
+          sed Creator a creatura non procedit vel mittitur; restat ergo, ut 
+          ipsi non dent Spiritum sanctum, nec dare possint.</p>
+        <p xml:id="pll1d14c3-d1e3480">Unde <ref><name ref="#Augustine">Augustinus</name> in XV libro <title ref="#deTrinitate">De Trinitate</title>:</ref> 
+          <cit>
+            <quote xml:id="pll1d14c3-Qd1e3492">Non aliquis 
+              discipulorum Christi dedit Spiritum sanctum. 
+              <cit>
+                <quote xml:id="pll1d14c3-Qd1e3496" ana="#act8_15">Orabant quippe, 
+                  ut veniret in eos,</quote>
+                <bibl>Actuum 8:15</bibl>
+              </cit>
+              quibus manum imponebant, non ipsi eum dabant. 
+              Quem morem in suis praepositis etiam nunc servat Ecclesia. 
+              Denique et <name ref="#SimonMagician">Simon magus</name> offerens Apostolis pecuniam, non ait: 
+              Date et mihi hanc potestatem, ut dem Spiritum sanctum; sed, 
+              <cit>
+                <quote xml:id="pll1d14c3-Qd1e3508" ana="#act8_17">cuicumque, inquit, imposuero manus, accipiat Spiritum sanctum;</quote>
+                <bibl>Actuum 8:15</bibl>
+              </cit>
+              quia nec Scriptura superius dixerat: Videns autem Simon; quia 
+              Apostoli darent Spiritum sanctum, sed dixerat: 
+              <cit>
+                <quote xml:id="pll1d14c3-Qd1e3517" ana="#act8_18">Videns autem Simon, 
+                  quia per impositionem manuum Apostolorum daretur Spiritus 
+                  sanctus.</quote>
+                <bibl>Actuum 8:18</bibl>
+              </cit>
+            </quote>
+            <bibl>Augustinus, De Trinitate, XV, c. 26, n. 46 (PL 42:1093)</bibl>
+          </cit> 
+          Ecce his verbis ostendit <name ref="#Augustine">Augustinus</name>, nec Apostolos 
+          nec alios praelatos Ecclesiae dedisse vel dare Spiritum sanctum.</p>
+        <p xml:id="pll1d14c3-d1e3533">Et quod plus est, non posse etiam dare, dicit in eodem libro 
+          subdens: 
+          <cit>
+            <quote xml:id="pll1d14c3-Qd1e3537">De Christo scriptum est, quod 
+              <cit>
+                <quote xml:id="pll1d14c3-Qd1e3541" ana="#act2_33">acceperit a Patre 
+                  promissionem Spiritus sancti et effuderit;</quote>
+                <bibl>Actuum 2:33</bibl>
+              </cit>
+              in quo utraque natura 
+              monstrata est, humana scilicet et divina. Accepit quippe ut homo, 
+              effudit ut Deus. Nos autem accipere quidem hoc Donum possumus 
+              pro modulo nostro, effundere super alios vero non utique possumus, 
+              sed ut hoc fiat, Deum super eos, a quo id efficitur, invocamus.</quote>
+            <bibl>Augustinus, De Trinitate, XV, c. 26, n. 46 (PL 42:1093)</bibl>
+          </cit>
+          His verbis expresse dicit, nos Spiritum sanctum non 
+          posse super alios effundere, id est aliis dare.</p>
+        <!-- p. 94 -->
+        <p xml:id="pll1d14c3-d1e3557">Sed huic videtur contrarium quod <ref><name ref="#Paul">Apostolus</name> <title ref="#gal">ad Galatas</title></ref> 
+          de se loquens ait: 
+          <cit>
+            <quote xml:id="pll1d14c3-Qd1e3568" ana="#gal3_5">Qui tribuit vobis Spiritum, et operatur 
+              virtutes in vobis.</quote>
+            <bibl>Galatas 3:5</bibl>
+          </cit>
+          Ecce evidenter dicit, se tribuisse Spiritum. Sed 
+          intelligendum est, <name ref="#Paul">Apostolum</name> dixisse hoc, non quia haberet 
+          potestatem et auctoritatem dandi Spiritum sanctum, sed quia ministerium 
+          habuerit, in quo dabatur a Deo Spiritus sanctus.</p>
+        <p xml:id="pll1d14c3-d1e3579">Ut enim ait <name ref="#Augustine">Augustinus</name> super eundem locum, exponens 
+          illud <name>Apostoli</name> verbum: 
+          <cit>
+            <quote xml:id="pll1d14c3-Qd1e3589">Ab <name ref="#Paul">Apostolo</name> praedicata est eis fides, 
+              in <!-- dbcheck in --> qua praedicatione adventum et praesentiam sancti Spiritus senserant, 
+              sicut illo tempore in novitate invitationis ad fidem etiam 
+              sensibilibus miraculis praesentia sancti Spiritus apparebat, ut in 
+              <title ref="#act">Actibus Apostolorum</title> legitur.</quote>
+            <bibl>Augustinus, Exposit. ad Gal., n. 20 (PL 35:2117)</bibl>
+          </cit>
+          Aperte hic ostendit, quomodo illis 
+          Spiritum sanctum Apostolus tribuerit, non utique ipsum mittendo 
+          in eos; sed praedicando eis fidem Christi, quam illis recipientibus, 
+          quod Spiritus sanctus in eis esset, aliquibus signis visibilibus 
+          monstrabatur. Non ergo homines, quantumcumque sancti, dare possunt 
+          Spiritum sanctum.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 40, Capitulus 2</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 40, Capitulus 2</title>
+          <date when="2016-01-22">January 22, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-01-22">January 22, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d40c2">
+        <head xml:id="pll1d40c2-Hd1e3496">Librum I, Distinctio 40, Capitulus 2</head>
+        <!-- Quid sit reprobatio Dei, et in quibus consideretur, 
+           et quid sit praedestinationis effectus -->
+        <p xml:id="pll1d40c2-d1e3501">Cumque praedestinatio sit gratiae praeparatio, id est divina 
+          electio, 
+          <cit>
+            <quote xml:id="pll1d40c2-Qd1e3505" ana="#eph1_4">qua elegit quos voluit ante mundi constitutione,</quote>
+            <bibl>Ephesios 1:4</bibl>
+          </cit>
+          ut ait 
+          <name ref="#Paul">Apostolus</name>; 
+          reprobatio e converso intelligenda est praescientia 
+          iniquitatis quorundam et praeparatio damnationis eorumdem. Sicut 
+          enim praedestinationis effectus illa gratia est, qua in praesenti iustificamur 
+          atque ad recte vivendum et in bono perseverandum adiuvamur, 
+          et illa qua in futuro beatificamur; ita reprobatio Dei, qua 
+          <!-- 252 -->
+          ab aeterno non eligendo quosdam reprobavit, secundum duo consideratur, 
+          quorum alterum praescit et non praeparat, id est iniquitatem, 
+          alterum praescit et praeparat, scilicet aeternam poenam.</p>
+        <p xml:id="pll1d40c2-d1e3518">Unde <ref><name ref="#Augustine">Augustinus</name> <title>Ad Prosperum et Hilarium</title>:</ref> 
+          <cit>
+            <quote xml:id="pll1d40c2-Qd1e3530">Haec, 
+              inquit, regula inconcusse tenenda est, peccatores in peccatis praescitos 
+              esse, non praeparatos, poenam autem praeparatam esse.</quote>
+            <bibl>Augustinus, Ad Prosperum et Hilarium, XXX</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d40c2-d1e3538">
+          <cit>
+            <quote xml:id="pll1d40c2-Qd1e3542">Praeparavit enim Deus, ut <ref><name ref="#Augustine">Augustinus</name> ait in libro <title>De bono 
+              perseverantiae</title>,</ref> in praescientia sua, quibus voluit bona sua; et 
+              quibuscumque donat, proculdubio se donaturum esse praescivit.</quote>
+            <bibl>Augustinus, De bono perseverantiae, (2)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d40c2-d1e3559">
+          <cit>
+            <quote xml:id="pll1d40c2-Qd1e3563">Praeparavit etiam Deus, ut ait <name>Fulgentius</name>, malis ignem 
+              aeternum, illis utique, quos iuste praeparavit ad luenda supplicia; 
+              nec tamen praeparavit ad facienda peccata. Praeparavit enim Deus, 
+              quod divina aequitas redderet, non quod humana iniquitas admitteret. 
+              Non enim, sicut praeparavit Sanctos ad iustitiam percipiendam, 
+              sic praeparavit iniquos ad iustitiam amittendam, quia praevitatis 
+              praeparator nunquam fuit.</quote>
+            <bibl>Fulgentius, Ad Monimum, I, c. 25 (PL 65:172)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d40c2-d1e3574">Sicut ergo praedestinatio Dei proprie est praescientia et praeparatio 
+          beneficiorum Dei, quibus certissime liberantur quicumque 
+          liberantur; ita reprobatio Dei est praescientia malitiae in quibusdam 
+          non finiendae, et praeparatio poenae non terminandae. Et sicut 
+          praedestinationis effectus est gratiae appositio, ita reprobationis aeternae 
+          quodam modo effectus esse videtur obduratio.</p>
+        <p xml:id="pll1d40c2-d1e3577">
+          <cit>
+            <quote xml:id="pll1d40c2-Qd1e3581">Nec obdurat Deus, ut ait <ref><name ref="#Augustine">Augustinus</name> <title>Ad Sixtum</title>,</ref> impertiendo 
+              malitiam, sed non impertiendo gratiam, sicut nec digni 
+              sunt. Quibus enim non impertitur nec digni sunt, nec merentur; 
+              potius ut non impertiatur, hoc digni sunt, hoc merentur.</quote>
+            <bibl>Augustinus, Ad Sixtum, Epist. 194, c. 3, n. 14 (PL 33:879)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d40c2-d1e3597">Unde <name ref="#Paul">Apostolus</name> ait: 
+          <cit>
+            <quote xml:id="pll1d40c2-Qd1e3604" ana="#rom9_18">Cuius vult miseretur Deus, et quem 
+              vult indurat;</quote>
+            <bibl>Romanos 9:18</bibl>
+          </cit>
+          misericordiam appellans praedestinationem et praecipue 
+          praedestinationis effectum, id est gratiae appositionem, obdurationem 
+          vero gratiae privationem.</p>
+        <!-- p. 253 -->
+        <p xml:id="pll1d40c2-d1e3614">
+          <cit>
+            <quote xml:id="pll1d40c2-Qd1e3618">Non enim, ut ait <ref><name ref="#Augustine">Augustinus</name> <title>Ad Simplicianum</title>,</ref> intelligendum 
+              est, quod Deus ita induret, quasi quemquam peccare cogat; 
+              sed tantum quibusdam peccatoribus misericordiam iustificationis 
+              suae non largitur, et ob hoc eos obdurare dicitur, quia 
+              non eorum miseretur, non quia impellit ut peccent. Eorum autem 
+              non miseretur, quibus gratiam non esse praebendam aequitate occultissima 
+              et ab humanis sensibus remotissima iudicat;</quote>
+            <bibl>Augustinus, Ad Simplicianum, I, q. 2, n. 16 (PL 40:121)</bibl>
+          </cit>
+          <cit>
+            <quote xml:id="pll1d40c2-Qd1e3635">quam 
+              non aperit, sed miratur <name ref="#Paul">Apostolus</name> dicens: 
+              <cit>
+                <quote xml:id="pll1d40c2-Qd1e3642" ana="#rom11_33">O altitudo divitiarum 
+                  sapientiae et scientiae Dei.</quote>
+                <bibl>Romanos 11:33</bibl>
+              </cit>
+            </quote>
+            <bibl>Augustinus, Ad Sixtum, c. 2, n. 5 (PL 33:876)</bibl>
+          </cit>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

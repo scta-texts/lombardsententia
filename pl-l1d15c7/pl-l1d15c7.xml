@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 15, Capitulus 7</title>
+        <author>Petrus Lombardus</author>
+        <editor></editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.10-dev-master">
+          <title>Librum I, Distinctio 15, Capitulus 7</title>
+          <date when="2015-10-29">October 29, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher></publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-10-29">October 29, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-10-29" who="#JW" status="draft" n="2015.10">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d15c7">
+        <head>Librum I, Distinctio 15, Capitulus 7</head>
+        <!-- De duobus modis missionis Filii. -->
+        <p xml:id="pll1d15c7-d1e3477">Ad quod dicimus, quod duobus modis dicitur Filius mitti 
+          praeter illam aeternam genituram, quae ineffabilis est, secundum 
+          quam etiam missus posset dici, ut videtur quibusdam, sed melius 
+          ac verius secundum eam dicitur genitus. Praeter eam igitur duobus 
+          modis dicitur mitti, scilicet vel cum visibiliter mundo apparuit 
+          carne indutus, vel cum 
+          <cit>
+            <quote xml:id="pll1d15c7-Qd1e3481" ana="#sap7_27">se in animas pias sic transfert,</quote> 
+            <bibl>Sapientia 7:27</bibl>
+          </cit>
+          ut ab 
+          eis percipiatur ac cognoscatur.</p>
+        <p xml:id="pll1d15c7-d1e3489">Hoc duos missionis modos <ref><name ref="#Augustine">Augustinus</name> aperte distinguit in 
+          IV libro <title ref="#deTrinitate">De Trinitate</title></ref> dicens: 
+          <cit>
+            <quote xml:id="pll1d15c7-Qd1e3500">Non eo ipso quod de Patre 
+              natus est, missus dicitur Filius, sed vel eo quod apparuit huic 
+              mundo Verbum caro factum; unde dicit: 
+              <cit>
+                <quote xml:id="pll1d15c7-Qd1e3504" ana="#io16_28">A Patre exivi et veni 
+                  in mundum;</quote>
+                <bibl>Ioannes 16:28</bibl>
+              </cit>
+              vel eo quod ex tempore cuiusquam mente percipitur, 
+              sicut dictum est de Sapientia: 
+              <cit>
+                <quote xml:id="pll1d15c7-Qd1e3513" ana="#sap9_10">Emitte illam de caelis sanctis 
+                  tuis et a sede magnitudinis tuae, ut mecum sit, et mecum laboret,</quote>
+                <bibl>Sapientia 9:10</bibl>
+              </cit>
+              id est, doceat me laborare. Et tunc unicuique mittitur, cum a 
+              quoquam cognoscitur atque percipitur, quantum cognosci et percipi 
+              potest pro captu vel proficientis in Deum, vel perfectae in Deo 
+              animae rationalis.</quote>
+            <bibl>Augustinus, De Trinitate, IV, c. 20, n. 28 et aliqua verba n. 27 (PL 42:997)</bibl>
+          </cit>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

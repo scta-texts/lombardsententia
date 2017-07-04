@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 26, Capitulus 4</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 26, Capitulus 4</title>
+          <date when="2015-12-07">December 07, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-12-07">December 07, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d26c4">
+        <head xml:id="pll1d26c2-Hd1e3496">Librum I, Distinctio 26, Capitulus 4</head>
+        <!-- Quare dicatur, proprium esse Unigenti, Filium Dei esse, cum etiam homines sint filii Dei. -->
+        <p xml:id="pll1d26c4-d1e3501">Hic quaeritur, quomodo dicatur esse proprium nato Deo, quod 
+          est Dei Filius vel genitus ex Deo, cum etiam homines filii Dei dicantur 
+          et sint, secundum illud: 
+          <cit>
+            <quote xml:id="pll1d26c4-Qd1e3505" ana="#ps81_6">Filii Excelsi omnes.</quote>
+            <bibl>Psalmus 81:6</bibl>
+          </cit>
+          Et ad <name ref="#Moses">Moysen</name> 
+          de populo Israel Dominus ait: 
+          <cit>
+            <quote xml:id="pll1d26c4-Qd1e3517" ana="#ex4_22">Filius meus primogenitus Israel.</quote>
+            <bibl>Exodus 4:22</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d26c4-d1e3525">Sed magna est distantia; homines enim filii Dei sunt factura, 
+          non nativitatis proprietate; Deus autem Filius originis proprietate 
+          Filius est et veritate nativitatis, non factura vel adoptione; et illi 
+          quidem ante sunt, quam filii Dei sint; fiunt enim filii, non nascuntur 
+          filii Dei.</p>
+        <p xml:id="pll1d26c4-d1e3528">Unde <name ref="#HilaryOfPoitiers">Hilarius</name>, solum Deum natum originis proprietate Dei 
+          filium ostendens, inter ipsum et homines filios Dei evidentissime 
+          distinguit in <ref>XII libro <title>De Trinitate</title></ref> ita dicens: 
+          <cit>
+            <quote xml:id="pll1d26c4-Qd1e3540">Vero Patri solus 
+              qui ex eo nascitur vere Filius est. Et nos quidem filii Deo 
+              sumus, sed per facturam. Fuimus enim 
+              <cit>
+                <quote xml:id="pll1d26c4-Qd1e3544" ana="#eph2_3">aliquando filii iracundiae,</quote>
+                <bibl>Ephesians 2:3</bibl>
+              </cit>
+              sed filii Dei per adoptionem effecti sumus potius, quam nascimur. 
+              Et quia omne quod fit, antequam fiat, non fuit, nos, cum filii 
+              non fuissemus, efficimur. Ante enim filii non eramus, sed per gratiam 
+              facti sumus, non nati; neque generati, sed acquisiti. Acquisivit 
+              enim nos Deus sibi, et per hoc nos dicitur genuisse. Genuisse 
+              enim Deum filios nunquam cum proprietatis significatione cognoscimus 
+              dici.</quote>
+            <bibl>Hilarius, De Trinitate, XII, n. 12 et 13 (PL 10:440)</bibl>
+          </cit>
+          <cit>
+            <quote xml:id="pll1d26c4-Qd1e3558">Ex adoptione enim homo est filius Dei, non ex 
+              generatione; neque ei proprietas est, sed nuncupatio, ac per id non 
+              vere filius, quia nec proprie natus dicitur, nec semper filius fuit. 
+              Unigenitus autem Deus nec fuit aliquando non filius, nec fuit aliquid 
+              antequam filius, nec quidquam ipse nisi filius. Atque ita 
+              qui semper est filius, nascibilitatis proprietate ac veritate filius 
+              est eius solius, qui genuit; et ille tantum qui genuit, pater ipsius 
+              est, quia sicut ille filius origine, ita patet ille generatione.</quote>
+          </cit>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 5, Capitulus 2</title>
+        <author>Petrus Lombardus</author>
+        <editor>Brady</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.09-dev-master">
+          <title>Librum I, Distinctio 5, Capitulus 2</title>
+          <date when="2015-09-29">September 29, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher></publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-09-29">September 29, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-29" who="#JW" status="draft" n="2015.09">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d5c2">
+        <head>Librum I, Distinctio 5, Capitulus 2</head>
+        <p xml:id="pll1d5c2-d1e3476">Ostenditur quoque ex illis verbis, Filium et Spiritum sanctum 
+          non esse de nihilo, sed de aliquo, nec tamen de aliqua materia.</p>
+        <p xml:id="pll1d5c2-d1e3479">Unde etiam <ref><name ref="#HilaryOfPoitiers">Hilarius</name> in XII libro <title ref="#HilaryOfPoitiers_DeTrinitate">De Trinitate</title></ref> ait: 
+          <cit>
+            <quote xml:id="pll1d5c2-Qd1e3490">Unigenitus 
+              Deus, cum natus sit, patrem testatur auctorem; cum ex 
+              manente natus est, non est natus ex nihilo; et cum ange tempus 
+              natus est, omnem sensum praevenit nascendo.</quote>
+            <bibl>Hilarius, De Trinitate, XII, n. 25 (PL 10:449)</bibl>
+          </cit>
+          Hic aperte dicitur, 
+          quod Filius non est natus ex nihilo.</p>
+        <!-- p. 50 -->
+        <p xml:id="pll1d5c2-d1e3500">Similiter et Spiritus sanctus non est dicendus esse vel procedere 
+          ex nihilo, 
+          <cit>
+            <quote xml:id="pll1d5c2-Qd1e3504">quia Filius de substantia Patris natus est,</quote>
+            <bibl>Augustinus, De fide et symbolo, c. 4, n. 6 (PL 40:185)</bibl>
+          </cit>
+          id est, a Patre est, cum quo est eiusdem substantiae et eadem 
+          substantia. Ex quo sensu etiam accipiendum est illud: 
+          <cit>
+            <quote xml:id="pll1d5c2-Qd1e3513">Pater 
+              genuit id quod est ipse,</quote>
+            <bibl>Augustinus, De fide et symbolo, c. 3, n. 4 (PL 40:183)</bibl>
+          </cit>
+          id est, Filium, qui est hoc quod Pater.</p>
+        <p xml:id="pll1d5c2-d1e3522">Et hoc ita debere intelligi <ref><name ref="#Augustine">Augustinus</name> aperit, dicens in 
+          I libro <title>Contra Maximinum</title>:</ref> 
+          <cit>
+            <quote xml:id="pll1d5c2-Qd1e3534">Hoc genuit Pater quod est; alioquin 
+              non est verus Filius, si quod est Pater non est Filius.</quote>
+            <bibl>Augustinus, Contra Maximinum, I, c. 18 (PL 42:756)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d5c2-d1e3542">Item: 
+          <cit>
+            <quote xml:id="pll1d5c2-Qd1e3546">Substantia Dei genuit Filium,</quote>
+            <bibl>Augustinus, Contra Maximinum, II, c. 14 (PL 42:779 sqq.)</bibl>
+          </cit>
+          id est, Pater substantia genuit Filium, qui est eadem substantia et eiusdem substantiae. 
+          Quod sic esse intelligendum <name ref="#Augustine">Augustinus</name> ostendit, dicens 
+          ad <name>Maximinum</name>: 
+          <cit>
+            <quote xml:id="pll1d5c2-Qd1e3561">Sicut dicis, spiritus spiritum genuit; ita dic: 
+              spiritus eiusdem naturae vel substantiae spiritum genuit. Item, 
+              sicut dicis: Deus Deum genuit, ita dic: Deus eiusdem naturae vel 
+              substantiae Deum genuit. Hoc si credideris et dixeris, nihil de 
+              hac re ulterius accusaberis.</quote>
+            <bibl>Augustinus, Contra Maximinum, II, c. 13, n. 3 (PL 42:779)</bibl>
+          </cit>
+          His enim verbis aperit, quomodo 
+          praedicta debeant intelligi.
+        </p>
+        <p xml:id="pll1d5c2-d1e3569">Similiter: 
+          <cit>
+            <quote xml:id="pll1d5c2-Qd1e3573">Filius natus est de substantia Patris, vel Pater 
+              genuit Filium de sua natura sive essentia,</quote> 
+            <bibl>XXX</bibl>
+          </cit>
+          id est, de se natura 
+          et essentia genuit Filium eiusdem essentiae ac naturae, et qui est 
+          eadem essentia ac natura. Similiter expone illud: 
+          <cit>
+            <quote xml:id="pll1d5c2-Qd1e3582">Filius substantiae 
+              Patris,</quote>
+            <bibl>XXX</bibl>
+          </cit>
+          id est, Filius Patris substantiae, id est, qui est substantia, 
+          cum quo et Filius eadem substantia est, quia consubstantialis 
+          est Patri Filius.</p>
+        <p xml:id="pll1d5c2-d1e3590">Et hic sensus iuvatur ex verbis <name ref="#Augustine">Augustini,</name> qui in libro VII 
+          <title ref="#deTrinitate">De Trinitate</title> ait: 
+          <cit>
+            <quote xml:id="pll1d5c2-Qd1e3600">Tres personas eiusdem essentiae, vel tres 
+              personas unam essentiam dicimus. Tres autem personas ex eadem 
+              essentia non dicimus, quasi aliud ibi sit quod essentia est, aliud 
+              quod persona.</quote>
+            <bibl>Augustinus, De Trinitate, VII, c. 6, n. 11 (PL 42:945)</bibl>
+          </cit>
+          His verbis ostendit, non esse dicendum, personam 
+          esse ex essentia, nisi ex sensu praedicto.</p>
+        <!-- p. 51 -->
+        <p xml:id="pll1d5c2-d1e3610">Qui sensus confirmatur etiam ex eo quod in <ref>XV libro 
+          <title>De Trinitate</title> idem</ref> ait: 
+          <cit>
+            <quote xml:id="pll1d5c2-Qd1e3620">Sicut nostra scientia scientiae Dei, sic et 
+              nostrum verbum, quod nascitur de nostra scientia, dissimile est 
+              illi Verbo Dei, quod natum est de Patris essentia. Tale est autem, 
+              ac si dicerem: De Patris scientia, de Patris sapientia, vel quod est 
+              expressius, de Patre essentia, de Patre scientia, de Patre sapientia.</quote>
+            <bibl>Augustinus, De Trinitate, XV, c. 13, n. 22 (PL 42:1076)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d5c2-d1e3629">Ex hoc itaque intellectu Verbum Dei Patris, unigenitus Filius, 
+          per omnia Patri similis et aequalis, recte dicitur Deus de Deo, lumen 
+          de lumine, sapientia de sapientia, essentia de essentia; quia est hoc 
+          omnino quod Pater, non tamen Pater, quia iste Filius, ille Pater.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

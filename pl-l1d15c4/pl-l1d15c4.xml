@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 15, Capitulus 4</title>
+        <author>Petrus Lombardus</author>
+        <editor></editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.10-dev-master">
+          <title>Librum I, Distinctio 15, Capitulus 4</title>
+          <date when="2015-10-28">October 28, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher></publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-10-28">October 28, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-10-26" who="#JW" status="draft" n="2015.10">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d15c4">
+        <head>Librum I, Distinctio 15, Capitulus 4</head>
+        <!-- Quod Filius etiam sit datus a se ipso -->
+        <p xml:id="pll1d15c4-d1e3477">Deinde ostendit, esse datum etiam a se ipso, ita dicens in eodem 
+          libro: 
+          <cit>
+            <quote xml:id="pll1d15c4-Qd1e3481">Cum non definitum fuerit per Prophetam, a quo 
+              datus sit Filius, ostenditur datus gratia Trinitatis, ut etiam ipse 
+              Filius dederit.</quote>
+            <bibl>Augustinus, XXX, c. 2, n. 9</bibl>
+          </cit>
+          Ecce hic dicit, quod Filius se dedit quia Trinitas 
+          eum dedit. Si autem Filius se dedit, quia Trinitas 
+          eum dedit. Si autem Filius a se datus est, a se igitur missus 
+          est, a se processit. Et hoc utique verum est et concedi oportet, 
+          cum eius missio sit divina operatio.</p>
+        <p xml:id="pll1d15c4-d1e3488">Quod autem a se mittatur, <ref><name ref="#Augustine">Augustinus</name> astruit in libro II 
+          <title ref="#deTrinitate">De Trinitate</title></ref> dicens: 
+          <cit>
+            <quote xml:id="pll1d15c4-Qd1e3499">Forte aliquis cogat, ut dicamus, etiam a 
+              se ipso missum esse Filium; quia <name ref="#Mary">Mariae</name> conceptus et partus operatio 
+              Trinitatis est. Sed, inquit aliquis, quomodo Pater eum misit, 
+              si ipse se misit? Cui respondeo quaerens, ut dicat, quomodo eum 
+              Pater sanctificavit, si ipse se sanctificavit? Utrumque enim Dominus 
+              ait: 
+              <cit>
+                <quote xml:id="pll1d15c4-Qd1e3506" ana="#io10_36">Quem Pater, inquit, sanctificavit et misit in hunc mundum.</quote>
+                <bibl>Ioannes 10:36</bibl>
+              </cit>
+              Et alibi 
+              <cit>
+                <quote xml:id="pll1d15c4-Qd1e3514" ana="#io17_19">Ego pro eis sanctifico me ipsum.</quote>
+                <bibl>Ioannes 17:19</bibl>
+              </cit>
+              Item quaero, quomodo 
+              Pater eum tradidit, si ipse se tradidit? Utrumque enim legitur. 
+              Credo, respondebit, si probe sapit, quia una voluntas est Patris et 
+              Filii et inseparabilis operatio. Sic igitur intelligat, illam incarnationem 
+              et ex Virgine nativitatem, in qua Filius intelligitur missus, una 
+              eademque operatione Patris et Filii inseparabiliter esse factam, non 
+              <!-- p. 98 -->
+              inde separato Spiritu sancto; ergo a Patre et Filio missus est idem 
+              Filius, quia a Patre et Verbo eius factum est, ut mitteretur, id 
+              est, incarnatus hominibus appareret: non enim missus est mutando 
+              locum, quia in mundo erat. Quapropter Pater invisibilis una cum 
+              Filio secum invisibili eundem Filium visibilem faciendo, misisse 
+              eum dictus est; qui si ita visibilis fieret, ut cum Patre invisibilis 
+              esse desisteret, id est si substantia invisibilis Verbi in creaturam 
+              visibilem mutata et transiens verteretur, ita missus a Patre intelligeretur 
+              Filius, ut tantum missus, non etiam cum Patre mittens 
+              inveniretur. Cum vero sic accepta est <quote xml:id="pll1d15c4-Qd1e3522">forma servi</quote>, ut maneret 
+              incommutabilis 
+              <cit>
+                <quote xml:id="pll1d15c4-Qd1e3528" ana="#phil2_6"> <!-- and phil 2_7 -->forma Dei,</quote>
+                <bibl>Phil 2:6-7</bibl>
+              </cit>
+              manifestum est, quod a Patre et Filio 
+              non apparentibus factum sit, quod appareret in Filio, id est, ab 
+              invisibili Patre cum invisibili Filio idem ipse Filius visibilis mitteretur.</quote>
+            <bibl>Augustinus, De Trinitate, II, c. 5, n. 9 (PL 42:850)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d15c4-d1e3543">Ex supradictis aperte monstratur, quod Filius missus est a 
+          Patre et a Spiritu sancto et a se ipso, et quae sit ipsa missio, 
+          scilicet incarnatio, id est, quod factus est homo, per quod visibilis 
+          apparuit, quod est opus commune Patris et Filii et Spiritus sancti.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 42, Capitulus 2</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 42, Capitulus 2</title>
+          <date when="2016-01-23">January 23, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-01-23">January 23, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d42c2">
+        <head xml:id="pll1d42c2-Hd1e3496">Librum I, Distinctio 42, Capitulus 2</head>
+        <!-- Quomodo dicatur Deus omnia posse -->
+        <p xml:id="pll1d42c2-d1e3501">Sed quaeritur, quomodo omnia posse dicatur, cum nos quaedam 
+          possimus, quae ipse non potest: non enim potest ambulare, 
+          loqui et huiusmodi, quae a natura divinitatis penitus sunt aliena, 
+          <!-- p. 260 -->
+          cum horum instrumenta nullatenus habere queat incorporea et 
+          simplex substantia.</p>
+        <p xml:id="pll1d42c2-d1e3506">Quibus id respondendum arbitror, quod huiusmodi actiones, 
+          ambulatio scilicet et locutio et huiusmodi, a Dei potentia alienae 
+          non sunt, sed ad ipsam pertinent. Licet enim huiusmodi actiones 
+          in se Deus habere non possit - non enim potest ambulare vel loqui 
+          et huiusmodi - eas tamen in creaturis potest operari. Facit enim, 
+          ut homo ambulet et loquatur, et huiusmodi. Non ergo per istas 
+          actiones divinae potentiae detrahitur aliquid, quia et haec potest 
+          facere Deus omnipotens.</p>
+        <p xml:id="pll1d42c2-d1e3509">Sed sunt alia quaedam, quae nullatenus Deus facere potest, 
+          ut peccata: non enim potest mentiri, non potest peccare.</p>
+        <p xml:id="pll1d42c2-d1e3513">Sed non ideo omnipotentiae Dei detrahitur in aliquo vel derogatur, 
+          si peccare non posse dicitur, quia non esset hoc potentiae, 
+          sed infirmitatis: si enim hoc posset, omnipotens non esset. 
+          Non igitur impotentiae, sed potentiae imputandum est, quod ista 
+          non potest.</p>
+        <p xml:id="pll1d42c2-d1e3516">Unde <ref><name ref="#Augustine">Augustinus</name> in XV libro <title ref="#deTrinitate">De Trinitate</title>:</ref> 
+          <cit>
+            <quote xml:id="pll1d42c2-Qd1e3528">Magna, 
+              inquit, Dei potentia est non posse mentiri.</quote>
+            <bibl>Augustinus, De Trinitate, 15, c. 15, n. 24 (PL 42:1077)</bibl>
+          </cit>
+          Sunt enim quaedam, 
+          quae in aliis rebus potentiae deputanda sunt, in aliis vero minime, 
+          et quae in aliis laudabilia sunt, in aliis sunt reprehensibilia. 
+          Non ergo ideo Deus minus potens est, quia peccare non potest, 
+          cum omnipotens nullatenus sit qui hoc potest.</p>
+        <p xml:id="pll1d42c2-d1e3536">Sunt etiam et alia quaedam, quae Deus non potest; unde 
+          videtur non omnia posse: non enim potest mori vel falli.</p>
+        <p xml:id="pll1d42c2-d1e3539">Unde <ref><name ref="#Augustine">Augustinus</name> in libro <title>De Symbolo</title>:</ref> 
+          <cit>
+            <quote xml:id="pll1d42c2-Qd1e3551">Deus omnipotens 
+              non potest mori, non potest falli, non potest miser fieri, non 
+              potest vinci. Haec utique et huiusmodi, absit ut omnipotens possit: 
+              si enim huiusmodi passionibus atque defectibus subiici posset, 
+              omnipotens minime foret.</quote>
+            <bibl>Augustinus, Ad Catech., c. 1, n. 2 (PL 40:627)</bibl>
+          </cit>
+          Et inde monstratur omnipotens, 
+          quia haec ei appropinquare non valent; potest tamen haec in 
+          aliis operari.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

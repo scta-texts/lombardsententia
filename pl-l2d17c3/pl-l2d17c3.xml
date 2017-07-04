@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="/Users/jcwitt/Projects/lombardpress/lombardpress-schema/src/1.0/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="/Users/jcwitt/Projects/lombardpress/lombardpress-schema/src/1.0/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum II, Distinctio 17, Capitulus 3</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2016-09-04">September 04, 2016</date>
+        </edition>
+      </editionStmt>
+    	<publicationStmt>
+    		<authority>A Sentences Commentary Text Project</authority>
+    		<availability status="free">
+    			<p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+    		</availability>
+    	</publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+          <witness xml:id="Z" n="zbsSII72" xml:base="http://www.e-codices.unifr.ch/metadata/iiif/zbs-SII-0072/canvas/">Solothurn, Zentralbibliothek, Cod. S II 72</witness>
+        	<witness xml:id="H" n="hopkinsMSB19" xml:base="http://scta.info/iiif/pl-hopkins/canvas/">Baltimore, Hopkins</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+  	<encodingDesc>
+  		<variantEncoding method="parallel-segmentation" location="internal"/>
+  		<schemaRef n="lbp-critical-1.0.0" target="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/critical.rng"/>
+  		<editorialDecl>
+  			<p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a critical edition.</p>
+  		</editorialDecl>
+  	</encodingDesc>
+  	<revisionDesc status="draft">
+  		<listChange>
+  			<change when="2016-07-20" status="draft" n="0.0.0-dev">
+  				<p>Created file for the first time.</p>
+  			</change>
+  		</listChange>
+  	</revisionDesc>
+  </teiHeader>
+  <text type="critical" xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+      	<!-- <pb ed="#H" n="68-v" facs="68v"/><cb ed="#H" n="b"/> -->
+      </div>
+    </front>
+  	<body>
+  		<div xml:id="pl-l2d17c3">
+  			<head xml:id="pll2d17c3-Hd1e3513">Librum II, Distinctio 17, Capitulus 3</head>
+  			<head xml:id="pll2d17c3-Hd1e3516" type="questionTitle">In qua aetate factus sit homo</head>
+  			<p xml:id="pll2d17c3-d1e3519">Solet etiam quaeri, utrum Deus hominem repente in virili 
+  				aetate fecerit, an perficiendo et aetates augendo, sicut nunc format 
+  				in matris utero.</p>
+  			<p xml:id="pll2d17c3-d1e3522"><ref><name ref="#Augustine">Augustinus</name> <title ref="#DeGenesiAdLitteram">Super Genesim</title></ref> dicit, quod <name>Adam</name> in virili 
+  				aetate continuo factus est, et hoc secundum superiores, non inferiores 
+  				causas, id est secundum voluntatem et potentiam Dei, quam 
+  				naturae generibus non alligavit: qualiter et virga <name>Moysi</name> conversa 
+  				est in draconem. Nec talia contra naturam fiunt nisi nobis, quibus 
+  				aliter naturae cursus innotuit, Deo autem natura est quod facit; 
+  				non ergo contra dispositionem suam illud fecit Deus. Erat enim in 
+  				prima causarum conditione, sic hominem posse fieri, sed non 
+  				ibi erat necesse ut sic fieret; 
+  				<cit>
+  					<quote xml:id="pll2d17c3-Qd1e3538">hoc enim non erat in conditione 
+  						creaturae, sed in beneplacito Creatoris, cuius voluntas necessitas 
+  						est</quote>
+  					<bibl>Augustinus, De Genesi ad litteram c. 75</bibl>
+  				</cit>.
+  				<cit>
+  					<quote xml:id="pll2d17c3-Qd1e3547">Hoc enim necessario futurum est quod vult et praescit. 
+  						<!-- 383 -->
+  						Multa vero secundum inferiores causas futura sunt, sed in praescientia 
+  						Dei futura non sunt. Si autem ibi aliter futura sunt, potius 
+  						futura sunt, sicut ibi sunt, ubi praescit ille qui non potest 
+  						falli</quote>
+  					<bibl>Augustinus, De Genesi ad litteram, c. 17</bibl>
+  				</cit>.
+  				<cit>
+  					<quote xml:id="pll2d17c3-Qd1e3558">Sic ergo factus est Adam non secundum inferiores causas, 
+  						quia non erat in rerum causis seminalibus, ut ita fieret, sed secundum 
+  						superiores, non contra naturam operantes, quia in rerum 
+  						causis naturalibus erat, ut ita posset fieri.</quote>
+  					<bibl>Augustinus, De Genesi ad litteram, c. 18</bibl>
+  				</cit>
+  			</p>
+  			
+  		</div>
+  	</body>
+  </text>
+</TEI>

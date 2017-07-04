@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum II, Distinctio 13, Capitulus 6</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.1-dev">
+          <title>Librum II, Distinctio 13, Capitulus 6</title>
+          <date when="2016-06-28">June 28, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-06-28">June 28, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+          <witness xml:id="Z" n="zbsSII72" xml:base="http://www.e-codices.unifr.ch/metadata/iiif/zbs-SII-0072/canvas/">Solothurn, Zentralbibliothek, Cod. S II 72</witness>
+        	<witness xml:id="H" n="hopkinsMSB19" xml:base="http://scta.info/iiif/pl-hopkins/canvas/">Baltimore, Hopkins</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="0.0.1">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+      	<cb ed="#H" n="68ra" select="68r"/>
+      </div>
+    </front>
+  	<body>
+  		<div xml:id="pl-l2d13c6">
+  			<head xml:id="pll2d13c6-Hd1e3513">Librum II, Distinctio 13, Capitulus 6</head>
+  			<head xml:id="pll2d13c6-Hd1e3516" type="questionTitle">De intelligentia horum verborum: Dixit Deus.</head>
+  			<p xml:id="pll2d13c6-d1e3519">Praeterea investigandum est, quomodo accipiendum sit quod 
+  				ait: <mentioned>Dixit Deus</mentioned>, utrum temporaliter, an sono voris illud dixerit, 
+  				an alio modo.</p>
+  			<p xml:id="pll2d13c6-d1e3525"><ref><name ref="#Augustine">Augustinus</name> <title>Super Genesim</title></ref> tradit, nec temporaliter nec 
+  				sono vocis Deum fuisse locutum; quia si temporaliter, et mutabiliter; 
+  				et si corporaliter dicatur sonuisse vox Dei, nec lingua erat, 
+  				qua loqueretur, nec erat quem oporteret audire et intelligere. Bene 
+  				ergo vox Dei ad naturam Verbi, per quod omnia facta sunt, refertur.
+  				Dixit ergo Deus: <mentioned>Fiat</mentioned> etc. non temporaliter, non sono vocis, 
+  				sed in Verbo sibi coaeterno, id est, Verbum genuit intemporaliter 
+  				in quo erat; et disposuit ab aeterno ut fieret in tempore, 
+  				et in eo factum est.</p>
+  		</div>  
+  	</body>
+  </text>
+</TEI>

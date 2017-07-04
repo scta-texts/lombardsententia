@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 28, Capitulus 4</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 28, Capitulus 4</title>
+          <date when="2015-12-24">December 24, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-12-24">December 24, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d28c4">
+        <head xml:id="pll1d28c4-Hd1e3496">Librum I, Distinctio 28, Capitulus 4</head>
+        <!-- Responsio Ambrosii contra Arianos de ingenito -->
+        <p xml:id="pll1d28c4-d1e3501">Illud etiam taceri non oportet, quod Ariani ex eo probare 
+          nitebantur, alterius substantiae esse Patrem, alterius Filius, quia 
+          ille ingenitus, et iste genitus dicitur, cum diversum sit esse ingenitum, 
+          et esse genitum.</p>
+        <p xml:id="pll1d28c4-d1e3504">Unde <name ref="#Ambrose">Ambrosius</name> eorum quaestioni respondens dicit, se in 
+          divinis Scripturis hoc nomen, scilicet ingenitus, non legisse, ita inquiens 
+          in <ref>libro <title>De Spiritu sancto</title>:</ref> 
+          <cit>
+            <quote xml:id="pll1d28c4-Qd1e3517">Cum dudum audierint quidam, 
+              dicentibus nobis, Filium Dei, qui generatus est, Patri qui generavit, 
+              <!-- p. 180 --> 
+              inaequalem esse non posse, quamvis ille generatus sit, iste 
+              generaverit, quia generatio est naturae; adversus quidem illam 
+              quaestionem vocem sibi arbitrantur <sic>acclusam</sic>, sed tergiversatione 
+              damnabili in eodem loco vestigium vertunt, ut putent, mutationem 
+              fieri quaestionis mutatione sermonis, dicentes: Quomodo possunt 
+              ingenitus et genitus esse unius naturae atque substantiae? Ergo ut 
+              respondeam mihi propositae quaestioni, primo omnium in divinis 
+              Scripturis ingenitum nusquam invenio, non legi, non audivi. Cuius 
+              igitur mutabilitatis sunt homines huiusmodi, ut nos dicant ea usurpare, 
+              quae non sunt scripta, cum ea quae sunt scripta dicamus, et 
+              ipsi obiiciant quod scriptum non sit? Nonne ipsi sibi adversantur 
+              et auctoritatem calumniae suae derogant?</quote>
+            <bibl>Ambrosius, De Incarnationis Dominicae sacramento, c. 8, n. 79 et 80 (PL 16:838)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d28c4-d1e3530">Attende, lector, quoniam hoc nomine ingenitus nolebat uti 
+          <name ref="#Ambrose">Ambrosius</name> propter haereticos. Ita et nos subticere quaedam 
+          oportet propter calumniantium insidias, quae catholicis ac piis lectoribus 
+          secure credi possunt. Sunt etenim quaedam, quae non tantae 
+          sunt religionis et auctoritatis, ut eis nos oporteat semper confitendo 
+          ac recipiendo inservire, verum silentio praeteriri queunt 
+          aliquando; nec illius tamen sunt perversitatis, quin, cum opportunum 
+          fuerit, eis uti liberum habeamus.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

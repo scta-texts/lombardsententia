@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 8, Capitulus 4</title>
+        <author>Petrus Lombardus</author>
+        <editor></editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.10-dev-master">
+          <title>Librum I, Distinctio 8, Capitulus 4</title>
+          <date when="2015-10-05">October 05, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher></publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-10-05">October 05, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-10-05" who="#JW" status="draft" n="2015.10">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d8c4">
+        <head>Librum I, Distinctio 8, Capitulus 4</head>
+        <p xml:id="pll1d8c4-d1e3475">
+          <cit>
+            <quote xml:id="pll1d8c4-Qd1e3479">Creatura quoque spiritualis, ut est anima, in comparatione 
+              quidem corporis est simplex, sine comparatione vero corporis 
+              multiplex est, et non simplex. Quae ideo simplex dicitur respectu 
+              corporis, quia mole non diffunditur per spatium loci, sed in unoquoque 
+              corpore et in toto tota est et in qualibet parte eius tota 
+              est. Et ideo, cum fit aliquid in quavis exigua particula corporis, 
+              quod sentiat anima, quamvis non fiat in toto corpore, illa tamen 
+              tota sentit, quia totam non latet. Sed tamen nec in ipsa anima 
+              vera simplicitas est. Cum enim aliud sit artificiosum esse, aliud 
+              <!-- p. 62 --> 
+              inertem, aliud acutum, aliud memorem, aliud cupiditas, aliud timore, 
+              aliud laetitia, aliud tristitia, possinque haec et alia huiusmodi innumerabilia 
+              in animae natura inveniri, et alia sine aliis, et alia 
+              magis, alia minus, manifestum est, non simplicem, sed multiplicem 
+              naturam esse. Nihil enim simplex mutabile est; omnis autem 
+              creatura mutabilis est;</quote>
+            <bibl>Augustine, De Trinitate, VI, c. 6, n. 8 (PL 42:928)</bibl>
+          </cit>
+          nulla ergo creatura vere simplex 
+          est.
+          <cit>
+            <quote xml:id="pll1d8c4-Qd1e3490">Deus vero, etsi multipliciter dicatur, vere tamen et summe 
+              simplex est. Dicitur enim magnus, bonus, sapiens, beatus, verus 
+              et quidquid aliud non indigne dici videtur, sed eadem magnitudo 
+              eius est, quae sapientia. Non enim mole magnus est, sed virtue, 
+              et eadem bonitas, quae sapientia et magnitudo et veritas; et non 
+              est ibi aliud ipsum beatum esse, et aliud magnum aut sapientem 
+              aut verum aut bonum esse aut omnino esse.</quote>
+            <bibl>Augustine, De Trinitate, VI, c. 6 et c. 7</bibl>
+          </cit>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

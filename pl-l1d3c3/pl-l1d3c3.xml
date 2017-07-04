@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 3, Capitulus 3</title>
+        <author>Petrus Lombardus</author>
+        <editor>Brady</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.09-dev-master">
+          <title>Librum I, Distinctio 3, Capitulus 3</title>
+          <date when="2015-09-25">September 25, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher></publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-09-25">September 25, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-25" who="#JW" status="draft" n="2015.09">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d3c3">
+        <head>Librum I, Distinctio 3, Capitulus 3</head>
+        <p xml:id="pll1d3c3-d1e3476">
+          <cit>
+            <quote xml:id="pll1d3c3-Qd1e3480">Verumtamen caveat, ne hanc imaginem ab eadem Trinitate 
+              factam ita ei comparet, ut omnino aestimet similem, sed potius in 
+              qualicumque ista similitudine magnam quoque dissimilitudinem 
+              cernat.</quote>
+            <bibl>Augustine, De Trinitate XV, c. 20, n. 39 (PL 42:1088)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d3c3-qboiee"> 
+          <cit>
+            <quote xml:id="pll1d3c3-Qd1e3489">Quod breviter ostendi potest. Homo unus per illa tria meminit, 
+              intelligit, diligit, qui nec memoria est, nec intelligentia, nec 
+              dilectio, sed haec habet. Unus homo ergo est, qui habet haec tria, 
+              non ipse est haec tria. In illius vero summae simplicitate naturae, 
+              quae Deus est, quamvis unus sit Deus, tres tamen personae 
+              sunt, Pater et Filius et Spiritus sanctus,</quote>
+            <bibl>Augustine, De Trinitate XV, c. 22, n. 42 (PL 42:1090)</bibl>
+          </cit>
+          et hae tres unus 
+          Deus.
+          <cit>
+            <quote xml:id="pll1d3c3-Qd1e3498">Aliud est itaque Trinitas res ipsa, aliud imago Trinitatis 
+              in re alia; propter quam imaginem etiam illud in quo sunt haec 
+              tria, imago dicitur, scilicet homo. Sicut imago dicitur et tabula et 
+              pictura, quae est in ea; sed tabula nomine imaginis appellatur 
+              propter picturam, quae in ea est.</quote>
+            <bibl>Augustine, De Trinitate, XV, c. 22, n. 43 (PL 42:1090)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d3c3-d1e3506">
+          <cit>
+            <quote xml:id="pll1d3c3-Qd1e3510">Rursus ista imago, quae est homo habens illa tria, una persona 
+              est. Illa vero Trinitas non una persona est, sed tres personae, 
+              Pater Filii et Filius Patris et Spiritus Patris et Filii. Itaque in ista 
+              imagine Trinitatis non haec tria unus homo, sed unius hominis 
+              sunt. In illa vero summa Trinitate, cuius haec
+              <cb ed="#Pb" n="7ra"/>
+              imago est, non unius 
+              Dei sunt illa tria, sed unus Deus; et tres sunt illae, non una persona.</quote>
+            <bibl>Augustine, De Trinitate, XV, c. 22, n. 43 (PL 42:1090)</bibl>
+          </cit>
+          <cit>
+            <quote xml:id="pll1d3c3-Qd1e3519">Illa enim tria non homo sunt, sed hominis sunt vel in 
+              homine sunt. Sed nunquid possumus dicere, Trinitatem sic esse in 
+              Deo, ut aliquid Dei sit, nec ipsa sit Deus?</quote>
+            <bibl>Augustine, <title>De Trinitate</title>, XV, c. 22, n. 43 (PL 42:1090)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d3c3-d1e3530">Absit ut hoc credamus. 
+          <!-- p. 37 -->
+          Dicamus ergo, in mente nostra Trinitatis imagine, sed 
+          exiguam et qualemcumque esse, quae summae Trinitatis ita gerit 
+          similitudinem, ut ex maxima parte sit dissimilis. Sciendum vero, 
+          quod 
+          <cit>
+            <quote xml:id="pll1d3c3-Qd1e3536">haec Trinitas mentis, ut ait 
+              <ref><name ref="#Augustine">Augustinus</name> in XIV libro <title ref="#deTrinitate">De Trinitate</title>,</ref>
+              non propterea tantum imago Dei est, quia sui meminerit 
+              mens et intelligit ac diligit se, sed quia potest etiam meminisse 
+              et intelligere et amare illum, a quo facta est.</quote>
+            <bibl>Augustine, <title>De Trinitate</title>, XIV, c. 12, n. 15 (PL 42:1048)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d3c3-d1e3555">Potest etiam alio modo aliisque nominibus distingui trinitas 
+          in anima, quae est imago illius summae et ineffabilis Trinitatis.</p>
+        <p xml:id="pll1d3c3-d1e3559">Ut enim ait <ref><name ref="#Augustine">Augustinus</name> in IX libro <title ref="#deTrinitate">De Trinitate</title></ref>: 
+          <cit>
+            <quote xml:id="pll1d3c3-Qd1e3570">Mens 
+              et notitia eius et amor tria quaedam sunt. Mens enim novit se et 
+              amat se; nec amare se potest, nisi etiam noverit se. Duo quaedam 
+              sunt mens et notitia eius; item duo quaedam sunt mens et amor 
+              eius.</quote>
+            <bibl>Augustinus, De Trinitate, IX, c. 4, n. 4 (PL 42:963)</bibl>
+          </cit>
+          <cit>
+            <quote xml:id="pll1d3c3-Qd1e3579">Cum ergo se novit mens et amat se, manet trinitas, scilicet 
+              mens, amor et notitia.</quote>
+            <bibl>Augustinus, De Trinitate, IX, c. 5, n. 8 (PL 42:965)</bibl>
+          </cit>
+          <cit>
+            <quote xml:id="pll1d3c3-Qd1e3588">Mens autem hic accipitur non pro 
+              anima, sed pro eo quod in anima excellentius est.</quote>
+          </cit>
+          Haec autem 
+          tria, cum sint distincta a se invicem, dicuntur tamen esse unum, 
+          quia in animo substantialiter existunt.
+        </p>
+        <p xml:id="pll1d3c3-d1e3593">Et est ipsa mens quasi parens, et notitia eius quasi proles 
+          eius. 
+          <cit>
+            <quote xml:id="pll1d3c3-Qd1e3597">Mens enim cum se cognoscit, notitiam sui gignit et est sola 
+              parens suae notitiae. Tertius est amor, qui de ipsa mente et notitia 
+              procedit, dum mens cognoscens se diligit se; non enim posset 
+              se diligere, nisi cognosceret se. Amat etiam placitam prolem, id 
+              est notitiam suam; et ita amor quidam complexus eset parentis et 
+              prolis. Nec minor est proles parente, dum tantam se novit mens, 
+              quanta est; nec minor est amor parente et prole, id est mente et 
+              notitia, dum tantum se diligit mens, quantum se novit et quanta 
+              <!-- p. 38 --> 
+              est. Sunt etiam haec singula in se ipsis, quia et mens amans in 
+              amore est, et amor in amantis notitia, et notitia in mente noscente 
+              est.</quote>
+            <bibl><!-- citation unclear --> Augustine, De Trinitate, IX, c. 12, n. 18 (PL 42:970); IX, c. 5, n. 8 (PL 42:965).</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d3c3-d1e3608">Ecce in his tribus qualecumque vestigium Trinitatis apparet.</p>
+        <p xml:id="pll1d3c3-d1e3611">Mens itaque rationalis 
+          <cb ed="#Pb" n="7rb"/>
+          considerans haec tria et illam unam 
+          essentiam, in qua ista sunt, extendit se ad contemplationem Creatoris 
+          et videt unitatem in trinitate et trinitatem in unitate. Intelligit 
+          enim unum Deum esse, unam essentiam, unum principium. 
+          Intelligit enim, quia si duo essent, vel uterque insufficiens esset, 
+          vel alter superflueret; quia si aliquid deesset uni, quod haberet 
+          alter, non esset ibi summa perfectio; si vero nihil uni deesset, 
+          quod haberet alter, cum in uno essent omnia, alter superflueret. 
+          Intellexit ergo, unum esse Deum, unum omnium auctorem, et vidit, 
+          quia absque sapientia non sit, quasi res fatua; et ideo intellexit, 
+          eum habere sapientiam, quae ab ipso genita est; et quia sapientiam 
+          suam diligit, intellexit etiam, ibi esse amorem.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

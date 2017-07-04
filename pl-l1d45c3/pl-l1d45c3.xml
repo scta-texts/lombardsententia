@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 45, Capitulus 3</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 45, Capitulus 3</title>
+          <date when="2016-01-24">January 24, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-01-24">January 24, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+          <witness xml:id="Z" n="zbsSII72" xml:base="http://www.e-codices.unifr.ch/metadata/iiif/zbs-SII-0072/canvas/">Solothurn, Zentralbibliothek, Cod. S II 72</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <cb ed="#Z" n="49ra" select="zbs-SII-0072_049r.json"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d45c3">
+        <head xml:id="pll1d45c3-Hd1e3504">Librum I, Distinctio 45, Capitulus 3</head>
+        <!-- De intelligentia harum locutionum; Deus scit, vel Deus vult, 
+          Deus scit omnia vel vult aliquid -->
+        <p xml:id="pll1d45c3-d1e3509">Et ubicumque Deus scire dicitur vel sciens, et velle vel 
+          volens, haec de eo secundum essentiam dicuntur.</p>
+        <p xml:id="pll1d45c3-d1e3512">Cum enim dicitur: Deus scit vel Deus vult, sive Deus est 
+          sciens vel volens, essentia divina praedicatur, et Deus esse enuntiatur. 
+          Cum autem additur omnia vel aliquid vel aliqua, et dicitur: 
+          Deus scit omnia, vel vult aliquid vel aliqua, essentia quidem divina 
+          praedicatur, non simpliciter et absolute, sed ita ut scientiae, 
+          quae ipsa est, omnia subiecta monstrentur, et voluntati, quae 
+          ipsa eadem est, aliquid vel aliqua subiecta esse dicantur, ut talis 
+          fiat sensus: Deus scit omnia, id est, Deus est, cuius scientiae, quae 
+          ipsius essentia est, omnia subiecta sunt. Similiter: Deus vult haec 
+          <!-- p. 273 -->
+          vel illa, id est, Deus est, cuius voluntati, quae ipse et, haec sive 
+          illa subiecta sunt. Volens ergo sive velle dicitur Deus secundum 
+          essentiam, cuius voluntas essentia est sempiterna et immutabilis 
+          - licet ea varientur et transeant, quae ei subiecta sunt - quae 
+          non potest esse iniusta nec mala, quia Deus est.</p>
+        
+      </div>
+    </body>
+  </text>
+</TEI>

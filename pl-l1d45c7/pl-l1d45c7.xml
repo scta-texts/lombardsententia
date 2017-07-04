@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 45, Capitulus 7</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 45, Capitulus 7</title>
+          <date when="2016-01-25">January 25, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-01-25">January 25, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+          <witness xml:id="Z" n="zbsSII72" xml:base="http://www.e-codices.unifr.ch/metadata/iiif/zbs-SII-0072/canvas/">Solothurn, Zentralbibliothek, Cod. S II 72</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <cb ed="#Z" n="49vb" select="zbs-SII-0072_049v.json"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d45c7">
+        <head xml:id="pll1d45c7-Hd1e3504">Librum I, Distinctio 45, Capitulus 7</head>
+        <!-- Utrum Deus velit ab omnibus fieri ea quae praecipit, 
+            vel non fieri quae prohibt. -->
+        <p xml:id="pll1d45c7-d1e3509">Et si illa tria dicantur Dei voluntas, ideo qui signa sunt 
+          divinae voluntatis, non est tamen 
+          <cb ed="#Z" n="50ra" select="zbs-SII-0072_050r.json"/>
+          intelligendum, Deum omne illud 
+          fieri velle, quod cuicumque praecepit, vel non fieri quod prohibuit. 
+          Praecepit enim <name ref="#Abraham">Abrahae</name> immolare filium, nec tamen voluit; nec 
+          ideo praecepit ut id fieret, sed ut <name ref="#Abraham">Abrahae</name> probaretur fides. Et 
+          in Evangelio praecepit sanato, ne cui diceret; ille autem praedicavit 
+          ubique, intelligens, Deum non ideo prohibuisse, quin vellet 
+          opus suum praedicari, sed ut aret formam homini laudem humanam 
+          declinandi.</p>
+        <p xml:id="pll1d45c7-d1e3520">Permissio quoque Dei et operatio voluntas Dei appellantur 
+          qualiter accipit <ref><name ref="#Augustine">Augustinus</name> in <title ref="#Enchiridion">Enciridio</title></ref> dicens: 
+          <cit>
+            <quote xml:id="pll1d45c7-Qd1e3531">Non fit 
+              aliquid, nisi Omnipotens fieri velit, vel sinendo ut fiat, vel ipse 
+              faciendo. Nec dubitandum est, Deum facere bene etiam sinendo fieri, 
+              quaecumque fiunt male. non enim hoc nisi iusto iudicio sinit, 
+              et profecto bonum est omne quod iustum est.</quote>
+            <bibl>Augustinus, Enchiridion, c. 95 et 96, n. 24 (PL 40:275)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d45c7-d1e3539">Ecce hic manifeste habes, Dei voluntatem appellari ipsius 
+          operationem vel permissionem, cum dicit, 
+          <cit>
+            <quote xml:id="pll1d45c7-Qd1e3543">non fieri aliquid, nisi 
+              Omnipotens fieri velit,</quote>
+            <bibl>xxx</bibl>
+          </cit>
+          ubi includit et bona et mala omnia, quae 
+          fiunt. Ideoque aperte distinguit, quomodo Deum velle dixerit, ne 
+          eadem ratione intelligeretur velle bona et mala, subdens 
+          <mentioned>vel sinendo, ut fiat</mentioned>
+          - hoc quantum ad mala dicit - 
+          <mentioned>vel ipse faciendo</mentioned>
+          - hoc quantum ad bona. Mala enim sinit fieri, sed non 
+          facit; bona vero ipse facit. Ideoque dixit, <mentioned>eum velle,</mentioned> quia et 
+          volens mala sinit et bona volens operatur; et ob hoc permissio 
+          et operatio Dei voluntas dicuntur.</p>
+        <p xml:id="pll1d45c7-d1e3561">Quinque igitur supra posita sunt, quae dicuntur secundum 
+          tropum Dei voluntas, quia signa sunt divinae voluntatis, quae una 
+          est et immutabilis, scilicet Dei beneplacitum. Ideoque diligenter distinguat 
+          lector, ubi de voluntate Dei Scriptura commemorat, iuxta 
+          quem modum accipi oporteat, utrum scilicet pro beneplacito Dei 
+          an pro aliquo signo eius. Magna enim est adhibenda 
+          <cit>
+            <quote xml:id="pll1d45c7-Qd1e3565">discretio 
+              in cognitione divinae voluntatis, quia et beneplacitum Dei est voluntas 
+              eius, et signum beneplaciti eius dicitur voluntas eius. 
+              Sed beneplacitum eius aeternum est, signum vero beneplaciti 
+              eius non; et consonat rerum effectibus beneplacitum ipsius, et ipsi 
+              effectus rerum 
+              <cb ed="#Z" n="50rb" select="zbs-SII-0072_050r.json"/>
+              ab illo non discordat: fit enim omne quod beneplacito 
+              vult fieri, et omne quod vult non fieri, nequaquam 
+              fit. Non ita autem est de signis, quia praecepit Deus multis ea 
+              quae non faciunt, et prohibet quae non cavent, et consulit 
+              quae non implent.</quote>
+            <bibl>Hugo de Sancto Victore, De Sacramentis, I, p. 4, c. 8 (PL 176:237)</bibl>
+          </cit>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 21, Capitulus 1</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 21, Capitulus 1</title>
+          <date when="2015-11-20">November 20, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-11-20">November 20, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d21c1">
+        <head xml:id="pll1d21c1-Hd1e3472">Librum I, Distinctio 21, Capitulus 1</head>
+        <!-- Quomodo possit dici: Solus Pater vel solus Filius vel 
+          solus Spiritus sanctus, cum sint inseparabiles -->
+        <p xml:id="pll1d21c1-d1e3477">Hic oritur quaestio trahens originem ex praedictis. Dictum est 
+          enim supra, quod tantus est solus Pater vel solus Filius vel solus 
+          Spiritus sanctus, quantum simul illi tres, et quod duae vel tres 
+          personae simul non sunt maius aliquid quam una sola.</p>
+        
+        <p xml:id="pll1d21c1-d1e3480">Ideo quaerit <ref><name ref="#Augustine">Augustinus</name> in VI libro <title ref="#deTrinitate">De Trinitate</title>:</ref> 
+          <cit>
+            <quote xml:id="pll1d21c1-Qd1e3492">Quomodo 
+              haec sane dici possint, cum nec Pater sit solus, nec Filius, 
+              <!-- 141 -->
+              nec Spiritus sanctus, sed semper et inseparabiliter et Filius cum 
+              Patre, et Pater cum Filio, et Spiritus sanctus cum utroque; 
+              inseparabiles enim sunt hae tres personae.</quote>
+            <bibl>Augustinus, De Trinitate, VI, c. 7, n. 9 (PL 42:929)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d21c1-d1e3502">Ad quod ita respondet <ref><name ref="#Augustine">Augustinus</name> in eodem:</ref> 
+          <cit>
+            <quote xml:id="pll1d21c1-Qd1e3509">Solum 
+              Parem dicimus, non quia separatur a Filio vel Spiritu sancto, 
+              sed hoc dicentes significamus, quia illi simul cum eo non sunt 
+              Pater.</quote>
+            <bibl>Augustinus, De Trinitate, VI, c. 7, n. 9 (PL 42:929)</bibl>
+          </cit>
+          Solus enim Pater <sic>Pater</sic> est. Quod non dicitur, quia ipse 
+          sit solus, id est sine Filio vel Spiritu sancto, sed per hoc Filius 
+          et Spiritus sanctus a paternitatis consortio excluduntur. Ita et cum 
+          dicitur: Solus Filius <sic>Filius</sic> est, vel solus Spiritus sanctus Spiritus 
+          sanctus est, non dividitur Filius a Patre vel Spiritus sanctus ab 
+          utroque, sed a consortio filialis proprietatis excluduntur Pater et 
+          Spiritus sanctus, et a consortio processibilis proprietatis Pater et 
+          Filius. Cum ergo dicitur: Tantus est solus Pater, quantum simul 
+          illi tres, per hoc quod dicitur solus non separatur Pater ab aliis, 
+          sed hic est sensus; Solus Pater, id est Pater, qui ita Pater est, 
+          quod nec Filius nec Spiritus sanctus, tantus est etc. Similiter intellige, 
+          cum dicitur: Solus Filius, vel solus Spiritus sanctus. 
+          <cit>
+            <quote xml:id="pll1d21c1-Qd1e3524">Solus 
+              ergo Pater dicitur, ut ait <ref><name ref="#Augustine">Augustinus</name> in eodem,</ref> quia non nisi 
+              ipsi ibi Pater est,</quote>
+            <bibl>Augustinus, De Trinitate, VI, c. 9, n. 10 (PL 42:930)</bibl>
+          </cit>
+          et solus Filius, quia non nisi ipse ibi Filius 
+          est, et solus Spiritus sanctus, quia non nisi ipse ibi Spiritus 
+          sanctus est.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

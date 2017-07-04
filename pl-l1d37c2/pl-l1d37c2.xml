@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 37, Capitulus 2</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 37, Capitulus 2</title>
+          <date when="2016-01-12">January 12, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-01-12">January 12, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d37c2">
+        <head xml:id="pll1d37c2-Hd1e3496">Librum I, Distinctio 37, Capitulus 2</head>
+        <!-- Quod Deus non ubicumque est, habitat, sed e converso -->
+        <p xml:id="pll1d37c2-d1e3501">In Sanctis vero etiam habitat, in quibus est per gratiam. Non 
+          enim ubicumque est, ibi habitat, ubi vero habitat, ibi est. In 
+          solis bonis habitat, qui sunt templum eius et sedes eius.</p>
+        <p xml:id="pll1d37c2-d1e3504">Unde per <title ref="#is">Isaiam</title> Dominus ait: 
+          <cit>
+            <quote xml:id="pll1d37c2-Qd1e3511" ana="#is66_1">Caelum mihi sedes est, 
+              terra autem scabellum pedum meorum,</quote>
+            <bibl>Isaias 66:1</bibl>
+          </cit>
+          quia in electis, qui sunt 
+          caelum, habitat Deus et regnat, qui eius voluntati devoti obtemperant; 
+          malos vero, qui sunt terra, iudicii districtione calcat.</p>
+        <p xml:id="pll1d37c2-d1e3519">Unde etiam in libro Sapientiae dicitur: Thronus sapientiae 
+          anima iusti, quia in iustis specialius est quam in aliis rebus, in 
+          quibus tamen omnibus totus est.</p>
+        <p xml:id="pll1d37c2-d1e3523">
+          <cit>
+            <quote xml:id="pll1d37c2-Qd1e3527">Quemadmodum anima, ut ait <name ref="#Augustine">Augustinus</name> in <title>Epistola ad 
+              Hieronymum</title> de origine animae, per omnes particulas corporis 
+              tota adest simul, nec minor in minoribus, nec in maioribus maior 
+              est, sed tamen in aliis intensius, in aliis remissius operatur, cum 
+              in singulis particulis corporis essentialiter sit,</quote>
+            <bibl>Augustinus, Epistola ad Hieronymum, Epist. 166, c. 2, n. 4 (PL 33:722)</bibl>
+          </cit>
+          ita et Deus, 
+          cum sit in omnibus essentialiter ac totus, in illis tamen plenius 
+          esse dicitur, quos inhabitat, id est, in quibus ita est, ut faciat eos 
+          templum suum. Et hi tales cum eo sunt iam ex parte, sed in beatitudine 
+          perfecte; mali vero, etsi ibi sint, ubi ipse est, qui nusquam 
+          deest, non tamen sunt cum eo.</p>
+        <p xml:id="pll1d37c2-d1e3541">Unde <ref><name ref="#Augustine">Augustinus</name> <title>Super Ioannem</title>:</ref> 
+          <cit>
+            <quote xml:id="pll1d37c2-Qd1e3553">Non satis fuit dicere 
+              <cit>
+                <quote xml:id="pll1d37c2-Qd1e3557" ana="#io17_24">Ubi ego sum, et illi sint,</quote>
+                <bibl>Ioannes 17:24</bibl>
+              </cit>
+              sed addidit <mentioned>mecum,</mentioned> quia et miseri 
+              possunt esse, ubi et ille est, qui nusquam deest; sed Beati 
+              sunt cum illo, quia non sunt beati nisi ex eo.</quote>
+            <bibl>Augustinus, Super Ioannem, tract. 111, n. 2 (PL 35:1927)</bibl>
+          </cit>
+          Cum illo sunt.
+          <!-- 232 -->
+          qui fruuntur eo, vident illum, sicut est; mali vero non sunt 
+          cum illo, ut caeci in luce non sunt cum luce. Nec boni ita 
+          nunc cum eo sunt, ut videant per speciem, etsi aliquo modo cum 
+          eo per fidem.</p>
+        <p xml:id="pll1d37c2-d1e3575">Quomodo autem Deus habitet in bonis, ex illis aliquatenus 
+          intelligere valebis, quae supra dicta sunt, cum de Spiritus sancti 
+          processione temporali ageretur, ubi, licet ex parte, exponitur - 
+          <cit>
+            <quote xml:id="pll1d37c2-Qd1e3579" ana="#Icor13_9">ex 
+              parte enim cognoscimus, et ex parte prophetamus</quote>
+            <bibl>I Cor 13:9</bibl>
+          </cit>
+          - quomodo 
+          Spiritus habitet in nobis, qui non sine Patre et Filio inhabitat.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

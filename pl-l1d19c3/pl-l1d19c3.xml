@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 19, Capitulus 3</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 19, Capitulus 3</title>
+          <date when="2015-11-13">November 13, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-11-13">November 13, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d19c3">
+        <head xml:id="pll1d19c3-Hd1e3472">Librum I, Distinctio 19, Capitulus 3</head>
+        <!-- Quod aliqua personarum aliam non excedit magnitudine, quia 
+          non est maior una persona quam alia, nec maius aliquid duae quam una, 
+          nec tres quam duae vel una. -->
+        <p xml:id="pll1d19c3-d1e3477">Nunc igitur superest ostendere, quod magnitudine vel potentia 
+          alius alium non excedat; et prius de magnitudine videamus.</p>
+        <p xml:id="pll1d19c3-d1e3480">Sciendum est igitur, quia Pater non est maior Filio, nec Pater 
+          vel Filius maior Spiritu sancto, nec maius aliquid duae personae 
+          simul sunt quam una, nec tres simul maius aliquid quam duae, 
+          nec maior est essentia in tribus quam in duabus, nec in duabus 
+          quam in una, quia tota est in singulis.</p>
+        <p xml:id="pll1d19c3-d1e3483">Unde <name ref="#JohnDamascenus">Ioannes Damascenus</name> ait: 
+          <cit>
+            <quote xml:id="pll1d19c3-Qd1e3490">Confitemur Deitatis 
+              naturam omnem perfecte esse in singula suarum hypostaseon, id 
+              est personarum: omnem in Patre, omnem in Filio, omnem in Spiritu 
+              sancto. Ideoque perfectus Deus Pater, perfectus Deus Filius, 
+              perfectus Deus Spiritus sanctus.</quote>
+            <bibl>Ioannes Damescenus, De Trinitate, VI, c. 10, n. 12, vel etiam c. 8, n. 9 (PL 42:929 et sqq.)</bibl>
+          </cit>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

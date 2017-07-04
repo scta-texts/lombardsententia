@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 26, Capitulus 2</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 26, Capitulus 2</title>
+          <date when="2015-12-03">December 03, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-12-03">December 03, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d26c2">
+        <head xml:id="pll1d26c2-Hd1e3496">Librum I, Distinctio 26, Capitulus 2</head>
+        <!-- De proprietatibus personarum et de nominibus earum relativis -->
+        <p xml:id="pll1d26c2-d1e3501">Iam de proprietatibus personarum videamus, quae etiam notiones 
+          sive relationes in Scriptura plerumque dicuntur in illa 
+          Trinitate sancta; quae ideo a nobis repetitur, ut nostro cordi tenacius 
+          infigatur.</p>
+        <!-- p. 165-->
+        <p xml:id="pll1d26c2-d1e3506">Ait <ref><name ref="#Augustine">Augustinus</name> in libro <title ref="#OnFaithToPeter">De fide ad Petrum</title>:</ref> 
+          <cit>
+            <quote xml:id="pll1d26c2-Qd1e3518">Aliud 
+              est genuisse quam natum esse, aliudque procedere quam genuisse 
+              vel natum esse; unde manifestum est, quod alius est Pater, alius 
+              est Filius, alius est Spiritus sanctus.</quote>
+            <bibl>Ps-Augustinus, De fide ad Petrum, c. 1, n. 6 (PL 40:755)</bibl>
+          </cit>
+          <cit>
+            <quote xml:id="pll1d26c2-Qd1e3527">Et est proprium solius 
+              Patris, non quia non est natus ipse, sed quod unum Filium genuit; 
+              propriumque solius Filii, non quia ipse non genuit, sed quia de 
+              Patris essentia natus; proprium vero Spiritus sancti est, non quia 
+              nec natus est ipse, nec genuit, sed quia solus de Patre Filioque 
+              procedit.</quote>
+            <bibl>Ps-Augustinus, De fide ad Petrum, c. 2, n. 7 (PL 40:755)</bibl>
+          </cit>
+          Ecce breviter assignavit tres proprietates trium personarum, 
+          quarum una non est alia. Hoc enim significavit, cum dixit: 
+          Aliud est genuisse quam natum esse, aliudque procedere, id est, 
+          alia proprietas sive notio est generatio, et alia nativitas, alia processio, 
+          quae aliis nominibus dicuntur paternitas, filiatio. Has proprietates 
+          designant nomina illa personarum, scilicet Pater, Filius, 
+          Spiritus sanctus, quae relativa sunt, et ad se invicem dicuntur, quia 
+          notant relationes, quae non sunt Deo accidentales, sed in ipsis personis 
+          ab aeterno sunt immutabiliter, ut non modo appellationes sint 
+          relativae, sed etiam ipsae relationes sive notiones in rebus ipsis, 
+          scilicet in personis sint.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

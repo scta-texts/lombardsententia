@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 46, Capitulus 1</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 46, Capitulus 1</title>
+          <date when="2016-01-25">January 25, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-01-25">January 25, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+          <witness xml:id="Z" n="zbsSII72" xml:base="http://www.e-codices.unifr.ch/metadata/iiif/zbs-SII-0072/canvas/">Solothurn, Zentralbibliothek, Cod. S II 72</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <cb ed="#Z" n="50rb" select="zbs-SII-0072_050r.json"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d46c1">
+        <head xml:id="pll1d46c1-Hd1e3504">Librum I, Distinctio 46, Capitulus 1</head>
+        <!-- Quod voluntas Dei, quae ipse est, in nulo cassari potest. -->
+        <p xml:id="pll1d46c1-d1e3509">Hic oritur quaestio. Dictum est enim in superioribus et auctoritatibus 
+          communitum, quod voluntas Dei, quae ipse est vocaturque 
+          beneplacitum ipsius, cassari non potest, quia illa voluntate 
+          <cit>
+            <quote xml:id="pll1d46c1-Qd1e3513" ana="#ps113_11">quaecumque voluit, fecit in caelo et in terra;</quote>
+            <bibl>Psalmus 113:11</bibl>
+          </cit>
+          cui, teste <name ref="#Paul">Apostolo</name>, 
+          <cit>
+            <quote xml:id="pll1d46c1-Qd1e3525" ana="#rom9_19">nihil resistit.</quote>
+            <bibl>Romanos 9:19</bibl>
+          </cit>
+          <cit>
+            <quote xml:id="pll1d46c1-Qd1e3534">Quaeritur ergo, quomodo accipiendum sit 
+              quod <name ref="#Paul">Apostolus</name> de Domino ait: 
+              <cit>
+                <quote xml:id="pll1d46c1-Qd1e3541" ana="#Itim2_4">Qui vult omnes homines salvos fieri.</quote>
+                <bibl>I Tim. 2:4</bibl>
+              </cit>
+              Cum enim non omnes salvi fiat, sed plures damnentur, 
+              videtur utique non fieri quod Deus vult fieri, humana scilicet 
+              impediente voluntate voluntatem Dei. Dominus quoque in Evangelio 
+              impiam civitatem compellans: 
+              <cit>
+                <quote xml:id="pll1d46c1-Qd1e3550" ana="#mt23_37">Quoties, inquit, volui congregare 
+                  filios tuos, sicut gallina congregat pullos suos sub 
+                  alas et noluisti!</quote>
+                <bibl>Matthaeus 23:37</bibl>
+              </cit>
+              Haec ita dicuntur, tamquam Dei voluntas superata 
+              sit hominum voluntate, et infirmissimis nolendo impedientibus, 
+              non potuerit facere potentissimus quod volebat. Ubi est ergo 
+              illa omnipotentia, quia 
+              <cit>
+                <quote xml:id="pll1d46c1-Qd1e3559" ana="#ps113_11">in caelo et in terra, secundum Prophetam, 
+                  omnia quaecumque voluit, fecit?</quote>
+                <bibl>Psalmus 113:11</bibl>
+              </cit>
+              Et quomodo 
+              <cit>
+                <quote xml:id="pll1d46c1-Qd1e3568" ana="#rom9_19">voluntati 
+                  eius, secundum <name ref="#Paul">Apostolum</name> nihil resistit,</quote>
+                <bibl>Romanos 9:19</bibl>
+              </cit>
+              si colligere filios Ierusalem 
+              voluit, et non fecit?</quote>
+          </cit>
+          Haec enim praedictis plurimum 
+          obviare videntur.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

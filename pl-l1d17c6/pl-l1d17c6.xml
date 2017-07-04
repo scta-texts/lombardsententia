@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 17, Capitulus 6</title>
+        <author>Petrus Lombardus</author>
+        <editor></editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 17, Capitulus 6</title>
+          <date when="2015-11-03">November 03, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher></publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-11-03">November 03, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-03" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d17c6">
+        <head xml:id="pll1d17c6-Hd1e3472">Librum I, Distinctio 17, Capitulus 6</head>
+        <!-- Quod aliqui dicunt, caritatem Dei et proximi non esse Spiritum sanctum -->
+        <p xml:id="pll1d17c6-d1e3477">Supra dictum est, quod Spiritus sanctus caritas est Patris et 
+          Filii, qua se invicem diligunt et nos, et ipse idem est caritas, quae 
+          diffunditur in cordibus nostris ad diligendum Deum et proximum. 
+          Horum alterum omnes catholici concedunt, scilicet quod Spiritus 
+          sanctus sit caritas Patris et Filii; quod autem ipse idem sit caritas, 
+          qua diligimus Deum et proximum, a plerisque negatur. Dicunt 
+          enim: Si Spiritus sanctus caritas est Patris et Filii et nostra, 
+          eadem ergo caritas est, qua Deus diligit nos, et qua nos diligimus 
+          eum.</p>
+        <p xml:id="pll1d17c6-d1e3480">Hoc autem Sanctorum auctoritates negare videntur. Dicit enim 
+          <ref><name ref="#Augustine">Augustinus</name> in libro <title>De spiritu et littera</title>.</ref> 
+          <cit>
+            <quote xml:id="pll1d17c6-Qd1e3492">Unde est dilectio, 
+              nisi unde et ipsa fides, id est a Spiritu sancto? Non enim 
+              esset in nobis, nisi 
+              <cit>
+                <quote xml:id="pll1d17c6-Qd1e3496" ana="#rom5_5">diffunderetur in cordibus per Spiritum.</quote>
+                <bibl>Romanos 5:5</bibl>
+              </cit>
+              <!-- p. 114 -->
+              Caritas autem Dei dicta est diffundi in cordibus nostris, non qua 
+              nos ipse diligit, sed qua nos facit dilectores suos. Sicut iustitia 
+              Dei dicitur, qua nos iusti eius munere efficimur; et Domini salus, 
+              qua nos salvat; et fides Christi, qua nos fideles facit.</quote>
+            <bibl>Augustinus, De spiritu et littera, c. 32, n. 56 (PL 44:237)</bibl>
+          </cit>
+          His verbis 
+          videtur monstrari distinctio inter caritate, qua Deus diligit, et 
+          qua nos diligimus. Et sicut iustitia nostra dicitur Dei, non quod 
+          ipse sit ea iustus, sed quia ea nos iustos facit, similiter et fides 
+          et salus; sic videtur dicta caritas Dei, quae est in nobis, non quod 
+          ipse ea diligat, sed quia ea nos diligere facit.</p>
+        <p xml:id="pll1d17c6-d1e3511">De hoc etiam idem <ref><name ref="#Augustine">Augustinus</name> in libro XV <title ref="#deTrinitate">De Trinitate</title></ref> 
+          ait: 
+          <cit>
+            <quote xml:id="pll1d17c6-Qd1e3522">Cum <name ref="#John">Ioannes</name> commemorasset Dei dilectionem, non qua 
+              nos eum, sed qua 
+              <cit>
+                <quote xml:id="pll1d17c6-Qd1e3529" ana="#Iio4_10">nos ipse dilexit, et misit Filium suum litatorem 
+                  pro peccatis nostris</quote>
+                <bibl>I Ioannes 4:10</bibl>
+              </cit>
+              etc. Ecce et hic videtur manifeste 
+              dividere dilectionem, qua nos diligimus Deum, ab ea, qua ipse 
+              diligit nos. Si ergo, inquiunt, Spiritus sanctus dilectio est, qua Deus 
+              diligit, et qua nos diligimus, dilectio est duplex, immo duo diversa 
+              est, quod absurdum et a veritate longe est. Non est ergo 
+              dilectio, qua diligimus, sed qua Deus tantum diligit nos.
+            </quote>
+            <bibl>Augustinus, De Trinitate, XV, c. 17, n. 31 (PL 42:1082)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d17c6-d1e3543">His respondemus praedictarum auctoritatum verba determinantes 
+          hoc modo: Caritas Dei dicta est diffundi in cordibus nostris, 
+          non qua ipse diligit nos, sed qua nos diligere facit etc. His 
+          verbis non dividitur nec divisa ostenditur caritas, qua Deus 
+          diligit, ab ea, qua nos diligimus, sed potius, cum sit una et eadem 
+          caritas et dicatur ipsa Dei caritas, diversis de causis et rationibus 
+          Dei caritas appellari in Scriptura ostenditur. Dicitur enim 
+          Dei caritas, vel quia ea Deus diligit nos, vel quia nos ea sui dilectores 
+          facit.</p>
+        <p xml:id="pll1d17c6-d1e3546">Cum ergo ab <name ref="#Paul">Apostolo</name> dicitur 
+          <cit>
+            <quote xml:id="pll1d17c6-Qd1e3553">caritas Dei diffundi in cordibus 
+              nostris,</quote>
+            <bibl/>
+          </cit>
+          non est dicta caritas Dei, qua diligit nos, sed qua 
+          facit nos diligere; id est, non ibi appellatur caritas Dei, eo quod 
+          Deus nos ea diligit, sed eo quod nos ea sui dilectores facit. Et 
+          quod ea ratione posset dici caritas Dei, quia nos ea diligere facit, 
+          <!-- p. 113 -->
+          ex simili genere locutionis ostenditur; sicut dicitur iustitia Dei, qua 
+          nos iustificat, et Domini salus, qua nos salvat, et fides Christi, 
+          qua nos fideles facit.</p>
+        <p xml:id="pll1d17c6-d1e3562">Similiter et aliam exponimus auctoritatem, ubi ait, dilectionem 
+          Dei commemorari, non qua nos eum, sed qua ipse dilexit nos, ac 
+          si diceret, commemorat dilectionem Dei, non secundum quod ea 
+          nos diligimus Deum, sed secundum quod ipse ea diligit nos.</p>
+        <p xml:id="pll1d17c6-d1e3565">Sed aliud est, inquiunt, quod magis urget. Dixit enim <name ref="#Augustine">Augustinus</name> 
+          supra, quod dilectio est a Spiritu sancto, a quo fides. 
+          Sicut ergo fides non est Spiritus sanctus, a quo est, ita nec caritas. 
+          Quomodo enim caritas Spiritus sanctus est, si ab ipso est? 
+          Nam si ab ipso est, et ipse est, ergo Spiritus sanctus a se ipso est.</p>
+        <p xml:id="pll1d17c6-d1e3571">Ad quod dicimus: Spiritus sanctus quidem a se ipso non est, 
+          sed tamen et a se ipso datur nobis, ut supra dictum est. Dat 
+          enim se ipsum nobis Spiritus sanctus. Et ex hoc sensu dictum est, 
+          quod caritas ab ipso est in nobis, et tamen ipsa Spiritus sanctus 
+          est. Fides autem est a Spiritu sancto, et non est Spiritus sanctus, 
+          quia donum vel datum solummodo est, non Deus dans.</p>
+        <p xml:id="pll1d17c6-d1e3574">Alias quoque inducunt rationes ad idem ostendendum, scilicet 
+          quod caritas non sit Spiritus sanctus, quia caritas affectio 
+          mentis est et motus animi; Spiritus sanctus vero non est affectio 
+          animi vel motus mentis, quia Spiritus sanctus immutabilis est et 
+          increatus; non est ergo caritas.</p>
+        <p xml:id="pll1d17c6-d1e3578">Quod autem caritas sit affectio animi et motus mentis, auctoritatibus 
+          confirmant. Dicit enim <ref><name ref="#Augustine">Augustinus</name> in III libro <title ref="#deDoctrinaChristiana">De 
+            doctrina christiana</title>:</ref> 
+          <cit>
+            <quote xml:id="pll1d17c6-Qd1e3590"> <!-- and rom8_39 -->Caritatem voco motum animi ad fruendum 
+              Deo propter ipsum et se ac proximo propter Deum.</quote>
+            <bibl>Augustinus, De Doctrina Christiana, III, c. 10, n. 16 (PL 34:72)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d17c6-d1e3600">Idem <ref>in libro <title>De moribus Ecclesiae catholicae</title>,</ref> tractans 
+          illud verbum <name>Apostoli</name>: 
+          <cit>
+            <quote xml:id="pll1d17c6-Qd1e3613" ana="#rom8_38"><!-- and 8:39 -->Nec mors nec vita poterit nos separare 
+              a caritate Dei:</quote>
+            <bibl>Romanos 8:38-39</bibl>
+          </cit>
+          <cit>
+            <quote xml:id="pll1d17c6-Qd1e3623">Caritas Dei, inquit, hic dicta est virtus, 
+              quae animi nostri rectissima affectio est, quae coniungit nos Deo, 
+              qua eum diligimus.</quote>
+            <bibl>Augustinus, De Moribus Ecclesiae catholicae, I, c. 11, n. 19 (PL 32:1319)</bibl>
+          </cit>
+          Ecce his verbis exprimitur, quod caritas est 
+          affectio et motus animi, ac per hoc non videtur esse Spiritus sanctus.</p>
+        <!-- p. 116 -->
+        <p xml:id="pll1d17c6-d1e3633">Ad quod dicimus, hoc ita dictum esse, sicut dicitur 
+          <cit>
+            <quote xml:id="pll1d17c6-Qd1e3637">Deus esse 
+              spes nostra, et patientia nostra,</quote>
+            <bibl/>
+          </cit>
+          quia facit nos sperare et pati; 
+          ita caritas dicitur esse motus sive affectio animi, quia per eam 
+          movetur et afficitur animus ad diligendum Deum. Non autem mireris, 
+          si caritas, cum sit Spiritus sanctus, dicatur motus mentis, 
+          cum etiam in libro <title ref="#sap">Sapientiae</title> dicatur de Spiritu Sapientiae, 
+          <cit>
+            <quote xml:id="pll1d17c6-Qd1e3648" ana="#sap8_1">quae attingit a fine usque ad finem,</quote> <!-- dbcheck citation -->
+            <bibl>Sapientia 8:1 et 7:22</bibl>
+          </cit>
+          qui est actus mobilis, 
+          certus, incoinquinatus. Quod non ideo dicitur, quod Sapientia sit 
+          mobile aliquid vel actus aliquis, sed quia sui immobilitate omnia 
+          attingit non locali motu, sed ut ubique semper sit, et nusquam 
+          inclusa teneatur. Sic ergo caritas dicitur motus animi, non quod 
+          ipsa sit motus vel affectio vel virtus animi, sed quia per eam, 
+          quasi esset virtus, afficitur mens et movetur.</p>
+        <p xml:id="pll1d17c6-d1e3658">Sed si caritas Spiritus sanctus est, 
+          <cit>
+            <quote xml:id="pll1d17c6-Qd1e3662" ana="#Icor12_11">qui operatur in singulis, 
+              prout vult,</quote>
+            <bibl>I Corinthios 12:11</bibl>
+          </cit>
+          cum per eum mens hominis afficiatur et moveatur 
+          ad credendum vel sperandum et huiusmodi, sicut ad diligendum; 
+          quare non sic dicitur caritas motus vel affectio mentis ad credendum 
+          vel sperandum, sicut ad diligendum?</p>
+        <p xml:id="pll1d17c6-d1e3670">Ad quod sane dici potest, quia alios actus atque motus virtutum 
+          operatur caritas, id est Spiritus sanctus, mediantibus virtutibus, 
+          quarum actus sunt, utpote actum fidei, id est credere fide 
+          media, et actum spei, id est sperare media spe; per fidem enim 
+          et spem praedictos operatur actus. Diligendi vero actum per se 
+          tantum sine alicuius virtutis medio operatur, id est diligere; aliter 
+          ergo hunc actum operatur quam alios virtutum actus. Ideoque 
+          differenter de hoc et de aliis loquitur Scriptura, quae istum specialiter 
+          caritati tribuit; est ergo caritas ver Spiritus sanctus.</p>
+        <p xml:id="pll1d17c6-d1e3674">Unde <name ref="#Augustine">Augustinus</name>, praemissum <name ref="#Paul">Apostoli</name> verbum tractans, 
+          in eodem libro caritatem dicit esse bonum, quo nil melius est, 
+          et per hoc ipsam esse Deum significat, dicens: 
+          <cit>
+            <quote xml:id="pll1d17c6-Qd1e3684">Si nulla res ab eius 
+              caritate nos separat, quid esse non solum melius, sed etiam certius 
+              hoc bono potest?</quote>
+            <bibl>Augustinus, De moribus Eccl, I, c. 11, n. 18 (PL 32:1319)</bibl>
+          </cit>
+          Ecce dicit, quia caritate nihil est melius. 
+          Caritas ergo Spiritus sanctus est, qui est Deus et donum Dei sive 
+          <!-- p. 117 -->
+          datum, qui dividit singulis fidelibus dona, nec ipse dividitur, sed 
+          indivisus singulis datur.</p>
+        <p xml:id="pll1d17c6-d1e3694">Unde <name ref="#Augustine">Augustinus</name>, ubi <name ref="#John">Ioannes</name> dicit, 
+          <cit>
+            <quote xml:id="pll1d17c6-Qd1e3704" ana="#io3_34">non ad mensuram 
+              Christo dari Spiritum,</quote>
+            <bibl>Ioannes 3:34</bibl> <!-- dbcheck -->
+          </cit>
+          ait: 
+          <cit>
+            <quote xml:id="pll1d17c6-Qd1e3715">Ceteris vero dividitur, non quidem 
+              ipse Spiritus, sed dona eius.</quote> <!-- text is missing closing quotation mark -->
+            <bibl>Augustinus, In Evang. Ioan., Tract. 74, n. 3 (PL 35:1828)</bibl>
+          </cit>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

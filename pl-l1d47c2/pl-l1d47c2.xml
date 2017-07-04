@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 47, Capitulus 2</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 47, Capitulus 2</title>
+          <date when="2016-01-26">January 26, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-01-26">January 26, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+          <witness xml:id="Z" n="zbsSII72" xml:base="http://www.e-codices.unifr.ch/metadata/iiif/zbs-SII-0072/canvas/">Solothurn, Zentralbibliothek, Cod. S II 72</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <cb ed="#Z" n="52rb" select="zbs-SII-0072_052r.json"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d47c2">
+        <head xml:id="pll1d47c1-Hd1e3504">Librum I, Distinctio 47, Capitulus 2</head>
+        <head xml:id="pll1d47c1-Hd1e3507" type="questionTitle">Ex quo sensu quaedam dicuntur fieri contra Dei voluntatem.</head>
+        <p xml:id="pll1d47c2-d1e3510">Multa enim fiunt contra Dei praeceptum vel prohibitionem, 
+          quae tamen non fiunt praeter eius permissionem. Ipsius namque 
+          permissione omnia fiunt mala, quae tamen praeter eius voluntatem 
+          sempiternam fiunt.</p>
+        <p xml:id="pll1d47c2-d1e3513">Sicut <ref><name ref="#Augustine">Augustinus</name> dicit super illum locum <title ref="#ps">Psalmi</title>:</ref> 
+          <cit>
+            <quote xml:id="pll1d47c2-Qd1e3525" ana="#ps16_4">Ut non loquatur os meum opera hominum.</quote>
+            <bibl>Psalmus 16:4</bibl>
+          </cit>
+          Opera enim hominum 
+          dicit ea quae mala sunt, 
+          <cit>
+            <quote xml:id="pll1d47c2-Qd1e3534">quae praeter Dei voluntatem fiunt,</quote>
+            <bibl>xxx</bibl>
+          </cit>
+          quae ipse est, sed non praeter eius permissionem, quae ipse non 
+          est; appellatur tamen ipsa Dei voluntas, quia Deus volens sinit 
+          mala fieri. Fiunt et contra eius praeceptionem vel prohibitionem, 
+          sed non contra eius voluntatem, quae ipse est, nisi dicantur contra 
+          eam fieri, quia praeter eam fiunt: contra eam quippe nihil 
+          ita fit, ut velit fieri, et non fiat, vel nolit fieri et fiat.</p>
+        <p xml:id="pll1d47c2-d1e3542">Quod evidenter ibi <name ref="#Augustine">Augustinus</name> notavit, ubi ait: 
+          <cit>
+            <quote xml:id="pll1d47c2-Qd1e3549">Quantum 
+              ad ipsos attinet, quod Deus noluit fecerunt; quantum vero 
+              ad omnipotentiam Dei, nullo modo id facere valuerunt;</quote>
+            <bibl>Augustinus, xxx</bibl>
+          </cit>
+          ac si diceret: Fecerunt contra Dei praeceptum, quod appellatur voluntas, 
+          sed non fecerunt contra Dei voluntatem omnipotentem, quia hoc 
+          non valuerunt, illud valuerunt; et ita per hoc quod fecerunt 
+          contra Dei voluntatem, id est praeceptum, de 
+          <cb ed="#Z" n="52va" select="zbs-SII-0072_052v.json"/>
+          ipsis facta est voluntas 
+          eius; id est, impleta est voluntas eius sempiterna, qua eos 
+          damnari volebat.</p>
+        <p xml:id="pll1d47c2-d1e3560">Unde <ref><name ref="#GregoryGreat">Gregorius</name> <title>Super Genesim</title></ref>: 
+          <cit>
+            <quote xml:id="pll1d47c2-Qd1e3571">Multi voluntatem Dei 
+              peragunt, unde mutare contendunt, et consilio eius resistentes obsequuntur; 
+              quia hoc eius dispositioni militat, quod per humanum 
+              studium resultat.</quote>
+            <bibl>Gregorius Magnus, Moral. VI, c. 18, n. 28 (PL 75:745)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d47c2-d1e3579">Hic aperte ostenditur, quia dum mali, consilio ac praecepto 
+          Dei resistunt, quod Dei voluntas appellatur, ea faciunt unde voluntas <!-- p. 290 --> 
+          eius, quae ipse est, impletur, quae dispositio vel beneplacitum 
+          vocatur</p>
+        <p xml:id="pll1d47c2-d1e3584">
+          <cit>
+            <quote xml:id="pll1d47c2-Qd1e3588">Nam, ut ait <ref><name ref="#Augustine">Augustinus</name> in <title ref="#Enchiridion">Enchiridio</title>,</ref> quantaelibet 
+              sint voluntates Angelorum vel hominum, bonorum vel malorum, 
+              vel illud quod Deus vel alius volentium quam Deus, Omnipotentis 
+              voluntas semper invicta est, quae mala esse nunquam potest, 
+              quae etiam, dum mala irrogat, iusta est; et profecto quae 
+              iusta est, mala non est. Deus igitur omnipotens, sive per misericordiam 
+              <cit>
+                <quote xml:id="pll1d47c2-Qd1e3600" ana="#rom8_18">cuius vult misereatur sive per iudicium quem vult induret,</quote>
+                <bibl>Romanos 8:18</bibl>
+              </cit>
+              nec inique aliquid facit, nec nisi volens quidquam facit, 
+              et omnia quaecumque vult, facit.</quote>
+            <bibl>Augustinus, Enchiridion, c. 102, n. 26 (PL 40:280)</bibl>
+          </cit>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 47, Capitulus 1</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 47, Capitulus 1</title>
+          <date when="2016-01-26">January 26, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-01-26">January 26, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+          <witness xml:id="Z" n="zbsSII72" xml:base="http://www.e-codices.unifr.ch/metadata/iiif/zbs-SII-0072/canvas/">Solothurn, Zentralbibliothek, Cod. S II 72</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <cb ed="#Z" n="52ra" select="zbs-SII-0072_052r.json"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d47c1">
+        <head xml:id="pll1d47c1-Hd1e3504">Librum I, Distinctio 47, Capitulus 1</head>
+        <head xml:id="pll1d47c1-Hd1e3507" type="questionTitle">Quod voluntas Dei de homine impletur, quocumque se vertat.</head>
+        <p xml:id="pll1d47c1-d1e3510">Voluntas quippe Dei semper efficax est, ut fiat omne quod 
+          velit, et nihil fiat quod nolit; quae de homine semper impletur, 
+          quocumque se vertat. Nihil enim, ut ait <name ref="#Augustine">Augustinus</name>, in libero 
+          arbitrio constitutum superat voluntatem Dei; etsi faciat contra voluntatem <!-- editions has vo-voluntatem --> 
+          eius, tamen contra voluntatem eius, quae ipse est, 
+          nihil putandum est ita fieri, tanquam velit fieri, et non fiat; vel 
+          nolit fieri et fiat.</p>
+        <p xml:id="pll1d47c1-d1e3518">Illa enim voluntas, ut ait <name ref="#Augustine">Augustinus</name> in <title ref="#Enchiridion">Enchiridio</title>, semper 
+          impletur aut de nobis, aut a nobis. De nobis impletur, sed 
+          tamen non implemus eam, quando peccamus. A nobis impletur, 
+          quando bonum facimus: ideo enim facimus, quia scimus placere 
+          Deo. Ita de homine semper Deus suam implet voluntatem, quia 
+          nihil facit homo, de quo Deus non operetur quod vult. Non enim 
+          vult Deus, ut peccet homo quilibet; si autem peccaverit, poenitenti
+          vult parcere, ut vivat; in peccatis vero perseverantem punit, 
+          ut iustitiae potentiam contumax non evadat. Sicut alios ab 
+          aeterno praeparavit ad poenam, alios praeparavit ad gloriam.</p>
+        <!-- p. 288 -->
+        <p xml:id="pll1d47c1-d1e3530">
+          <cit>
+            <quote xml:id="pll1d47c1-Qd1e3534">Et haec sunt 
+              <cit>
+                <quote xml:id="pll1d47c1-Qd1e3538">magna opera Domini, exquisita in omnes 
+                  voluntate eius,</quote>
+                <bibl>1</bibl>
+              </cit>
+              et tam sapienter exquisita, ut cum angelica et 
+              humana creatura peccasset, id est, non quod ille, sed quod illa voluit 
+              fecisset, etiam per eandem creaturae voluntatem, qua factum 
+              est quod Creator non voluit, impleret ipse quod voluit, bene 
+              utens etiam malis, tanquam summe bonus, ad eorum damnationem 
+              quos iuste praedestinavit ad poenam, et ad eorum salutem quos 
+              benigne praedestinavit ad gloriam. Quantum enim ad ipsos attinet, 
+              quod Deus noluit fecerunt; quantum vero ad omnipotentiam 
+              Dei, nullo modo id facere valuerunt. Hoc quippe ipso, quod contra 
+              eius voluntatem fecerunt, de ipsis facta est volun<cb ed="#Z" n="52rb" select="zbs-SII-0072_052r.json"/>tas eius. Propterea 
+              namque 
+              <cit>
+                <quote xml:id="pll1d47c1-Qd1e3549" ana="#ps110_2">magna opera Domini, exquisita sunt in omnes 
+                  voluntates eius,</quote>
+                <bibl>Psalmus 110:2</bibl>
+              </cit>
+              ut in miro et ineffabili modo non fiat praeter eius 
+              voluntatem, quod etiam fit contra eius voluntatem; quia non 
+              fieret, si non sineret, nec utique nolens sinit, sed volens; nec 
+              sineret bonus fieri male, nisi omnipotens et de malo posset facere 
+              bene.</quote>
+            <bibl>Augustinus, Enchiridion, c. 100, n. 26 (PL 40:279)</bibl>
+          </cit>
+          His verbis evidenter monstratur, quo voluntas 
+          Dei aeterna semper impletur de homine, etiam si faciat homo 
+          contra Dei voluntatem.</p>
+        <p xml:id="pll1d47c1-d1e3562">Sed attendendum est diligenter, quomodo in superioribus dicitur, 
+          fieri aliquid contra Dei voluntatem, quod tamen non fit praeter 
+          eam; et qualiter intelligendum sit illud: 
+          <cit>
+            <quote xml:id="pll1d47c1-Qd1e3566">Quantum ad se, fecerunt 
+              quod Deus noluit; quantum vero ad omnipotentiam Dei, nullo 
+              modo id facere valuerunt.</quote>
+            <bibl>xxx</bibl>
+          </cit>
+          Videntur enim ista superioribus obviare, 
+          ubi dictum est: 
+          <cit>
+            <quote xml:id="pll1d47c1-Qd1e3575">Voluntati eius nihil resistere.</quote>
+            <bibl>xxx</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d47c1-d1e3583">Verum, ut supra diximus, voluntas Dei diversis modis accipitur, 
+          quae diversitas in praedictis verbis si diligenter notetur, 
+          nihil ibi contradictionis reperietur. ubi enim dicit, 
+          <cit>
+            <quote xml:id="pll1d47c1-Qd1e3587">non fieri praeter 
+              eius voluntatem, etiam quod fit contra eius voluntatem,</quote>
+            <bibl>xxx</bibl>
+          </cit>
+          dissimiliter 
+          accepit voluntatem, et non ipsam voluntatem, quae Deus 
+          est et sempiterna est, sed eius signa praedictis verbis intelligi 
+          voluit, id est prohibitionem sive praeceptionem et permissionem.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

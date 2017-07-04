@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 15, Capitulus 10</title>
+        <author>Petrus Lombardus</author>
+        <editor></editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.10-dev-master">
+          <title>Librum I, Distinctio 15, Capitulus 10</title>
+          <date when="2015-10-29">October 29, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher></publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-10-29">October 29, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-10-29" who="#JW" status="draft" n="2015.10">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d15c10">
+        <head>Librum I, Distinctio 15, Capitulus 10</head>
+        <!-- Quod Filius et Spiritus sanctus non sunt quasi 
+          minores Patre, quia missi. -->
+        <p xml:id="pll1d15c10-d1e3477">Ideoque putaverunt quidam haeretici, cum Pater non sit missus, 
+          sed Filius et Spiritus sanctus, Patrem maiorem esse ac Filium 
+          minorem et Spiritum sanctum; atque Patrem quasi maiorem 
+          misisse utrumque quasi minorem.</p>
+        <p xml:id="pll1d15c10-d1e3480">Quod <ref><name ref="#Augustine">Augustinus</name> improbat in IV libro <title ref="#deTrinitate">De Trinitate</title>,</ref> illis 
+          contradicens: 
+          <cit>
+            <quote xml:id="pll1d15c10-Qd1e3492">Non ideo, inquit, arbitrandum est, minorem esse 
+              Filium, quod missus est a Patre, nec ideo minorem Spiritum sanctum, 
+              quia et Pater eum misit et Filius; sive enim propter visibilem 
+              creaturam, sive potius propter principii commendationem, 
+              non propter inaequalitatem vel imparitatem vel dissimilitudinem 
+              substantiae in Scripturis haec posita intelliguntur.</quote>
+            <bibl>Augustinus, De Trinitate, IV, c. 21, n. 32</bibl>
+          </cit>
+          Non ergo ideo Pater dicitur misisse Filium vel Spiritum sanctum, quod ille esset 
+          maior et illi minores, sed maxime propter auctoritatem principii 
+          commendandam, et quia in visibili creatura non, sicut illi, apparuit.</p>
+        <p xml:id="pll1d15c10-d1e3500">Ecce ostensum est, quae sit missio Filii, et quibus modis mittatur.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

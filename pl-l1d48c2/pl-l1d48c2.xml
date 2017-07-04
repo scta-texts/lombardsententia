@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 48, Capitulus 2</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 48, Capitulus 2</title>
+          <date when="2016-01-26">January 26, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-01-26">January 26, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+          <witness xml:id="Z" n="zbsSII72" xml:base="http://www.e-codices.unifr.ch/metadata/iiif/zbs-SII-0072/canvas/">Solothurn, Zentralbibliothek, Cod. S II 72</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <cb ed="#Z" n="52vb" select="zbs-SII-0072_052v.json"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d48c2">
+        <head xml:id="pll1d48c2-Hd1e3513">Librum I, Distinctio 48, Capitulus 2</head>
+        <head xml:id="pll1d48c2-Hd1e3516" type="questionTitle">Quod Dei voluntas per malas hominum voluntates impletur.</head>
+        <p xml:id="pll1d48c2-d1e3519">Illud quoque non est praetermittendum, quod aliquando Dei 
+          voluntas bona per malum hominis voluntatem impletur, ut in crucifixione 
+          Christi factum est, quem Deus bona voluntate mori voluit, <!-- 292 --> 
+          Iudaei vero impia voluntate eum crucifixerunt. Et volebant 
+          Iudaei mala voluntate quiddam, quod Deus bona voluntate volebat, 
+          scilicet ut Christus pateretur, moreretur; sed volebant et
+          aliquid aliud, quod Deus non volebat, scilicet occidere Christum, 
+          quod fuit mala actio et peccatum. Actum quippe Iudaeorum non 
+          voluit Deus, passionem vero Christi voluit, sicut in Psalmo Christus 
+          ad Patrem ait: 
+          <cit>
+            <quote xml:id="pll1d48c2-Qd1e3525" ana="#ps138_2">Tu cognovisti sessionem meam,</quote>
+            <bibl>Psalmus 138:2</bibl>
+          </cit>
+          <cit>
+            <quote xml:id="pll1d48c2-Qd1e3534">id est, 
+              voluisti et appro<cb ed="#Z" n="53ra" select="zbs-SII-0072_053r.json"/>basti passionem meam:</quote>
+            <bibl>Augustinus, Enchiridion, c. 101, n. 26 (PL 40:279)</bibl>
+          </cit>
+          Tibi enim placuit. Voluit 
+          itaque tota Trinitas, ut Christus pateretur, nec tamen voluit, ut 
+          Iudaei occiderent; quia voluit poenam Christi, sed non voluit culpam 
+          Iudaeorum, nec tamen noluit: si enim noluisset, nec fuisset.</p>
+        <p xml:id="pll1d48c2-d1e3544">Sed ad hoc opponitur: Si voluit Deus, ut Christus pateretur, 
+          voluit utique, ut pateretur a Iudaeis, vel non. Si voluit ut 
+          non pateretur a Iudaeis, cum passus sit, factum est itque quod 
+          voluit Deus non fieri. Si autem voluit eum pati a Iudaeis, ergo 
+          voluit eum occidi a Iudaeis; voluit itque ut Iudaei occiderent eum.</p>
+        <p xml:id="pll1d48c2-d1e3547">Ad quod respondentes dicimus, simpliciter concedendum esse, 
+          quod Deus voluit Christum pati, mori, quia eius passio bonum 
+          fuit et causa nostrae salutis. Cum autem dicitur: volebat eum 
+          pati vel occidi a Iudaeis, hic distinguendum est. Si enim intelligitur 
+          sic: Volebat eum sustinere passionem sive crucifixionem a Iudaeis 
+          illatam, verus est sensus. Si vero intelligitur sic: Volebat, 
+          ut Iudaei occiderent eum, falsum est: non enim volebat Deus actionem 
+          Iudaeorum, quae mala erat, sed volebat passionem bonam; 
+          et haec voluntas per malas Iudaeorum voluntates impleta est.</p>
+        <p xml:id="pll1d48c2-d1e3551">Unde <name ref="#Augustine">Augustinus</name> in <title ref="#Enchiridion">Enchiridio</title>: 
+          <cit>
+            <quote xml:id="pll1d48c2-Qd1e3561">Deus quasdam voluntates 
+              suas, utique bonas, implet per malorum hominum voluntates 
+              malas, sicut per malevolos Iudaeos, bona voluntate Patris, Christus pro 
+              nobis occisus est; quod tantum bonum fuit, ut <name ref="#Peter">Apostolus Petrus</name>, 
+              quando id fieri nolebat, satanas ab ipso qui occisus est, diceretur.</quote>
+            <bibl>Augustinus, Enchiridion, c. 101, n. 26 (PL 40:279)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d48c2-d1e3572">Ecce manifeste habes, magnum bonum fuisse, quod Christus 
+          occisus est; et hoc bonum quia Petrus nolebat, ideo redargutus est.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

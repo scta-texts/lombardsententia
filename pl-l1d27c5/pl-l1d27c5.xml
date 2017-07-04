@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 27, Capitulus 5</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 27, Capitulus 5</title>
+          <date when="2015-12-16">December 16, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-12-16">December 16, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d27c5">
+        <head xml:id="pll1d27c5-Hd1e3496">Librum I, Distinctio 27, Capitulus 5</head>
+        <!-- An secundum substantiam dicatur: Deus de Deo et huiusmodi -->
+        <p xml:id="pll1d27c5-d1e3501">Hic quaeritur, cum dicitur: Deus de Deo, lumen de lumine, 
+          et huiusmodi, utrum dicantur secundum substantiam. Nam secundum 
+          relationem constat ista non dici. Si vero secundum substantiam 
+          dicuntur, simul ambo, scilicet Pater et Filius, possunt dici 
+          Deus de Deo, lumen de lumine, secundum praedictam regulam.</p>
+        <p xml:id="pll1d27c5-d1e3504">Ad quod dicimus, quia licet Deus secundum substantiam dicatur 
+          et lumen et sapientia et huiusmodi, et nunquam relative 
+          <!-- p. 176 --> 
+          accipiantur, aliquando tamen pro relativis, id est pro personis, sed 
+          non relative accipiuntur; ut, cum dicitur: Deus genuit Deum, alterum 
+          pro Patre, alterum pro Filio ponimus: similiter, cum dicitur: 
+          deus de Deo, lumen de lumine. In aliis quoque locutionibus 
+          saepe reperiuntur nomina essentiae ad significationem personarum 
+          deducta, ut cum dicitur: Deus natus, Deus mortuus, Deus passus, 
+          ubi Filius tantum significatur. Ita et de solo Filio intelligitur, 
+          cum dicitur: Deus de Deo, et huiusmodi.</p>
+        <p xml:id="pll1d27c5-d1e3509">Unde <name ref="#Augustine">Augustinus</name> quaerens quomodo huiusmodi dicantur, 
+          in VI libro <title ref="#deTrinitate">De Trinitate</title> ait: 
+          <cit>
+            <quote xml:id="pll1d27c5-Qd1e3519">Quomodo Deus de Deo, lumen 
+              de lumine dicitur? Non enim simul ambo Deus de Deo, sed solus 
+              Filius de Deo, scilicet Patre; nec ambo simul lumen de lumine, 
+              sed solus Filius de lumine Patre.</quote>
+            <bibl>Augustinus, De Trinitate, VI, c. 2, n. 3</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d27c5-d1e3528">Et est sciendum, quod secundum nomina substantiae tantum 
+          dicitur illud de illo, licet illa nomina ibi substantiam non significent. 
+          Secundum vero eadem nomina personarum nunquam dicitur 
+          illud de illo, sicut Verbum de Verba, vel Filius de Filio, quia 
+          huiusmodi nomina diversis personis convenire non possunt.</p>
+        <p xml:id="pll1d27c5-d1e3531">Quod <ref><name ref="#Augustine">Augustinus</name>, licet obscure, in eodem libro</ref> ita dicit: 
+          <cit>
+            <quote xml:id="pll1d27c5-Qd1e3540">Hoc solum de eis dici non potest illud de illo, quod simul ambo 
+              non sunt.</quote>
+            <bibl>Augustinus, De Trinitate, VI, c. 2, n. 3</bibl>
+          </cit>
+          id est, illo solo, nomine non possumus uti ad ostendendum unum 
+          de uno, quod simul ambobus non convenit, 
+          <cit>
+            <quote xml:id="pll1d27c5-Qd1e3549">sicut 
+              Verbum de Verbo dici non potest, quia non simul ambo Verbum, 
+              nec Imago de Imagine, nec Filius de Filio, quia non simul ambo 
+              Filius, vel Imago.</quote>
+            <bibl>Augustinus, De Trinitate, VI, c. 2, n. 3</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d27c5-d1e3557">Et sicut nomina substantiae aliquando intelligentiam personarum 
+          distincte faciunt, ita etiam interdum totius Trinitatis 
+          simul.</p>
+        <p xml:id="pll1d27c5-d1e3560">Unde <name ref="#Augustine">Augustinus</name> in eodem libro ait: 
+          <cit>
+            <quote xml:id="pll1d27c5-Qd1e3567">In Patris nomine 
+              ipse per se pronuntiatur, in Dei vero nomine et ipse et 
+              Filius et Spiritus sanctus, ut cum dicitur: 
+              <cit>
+                <quote xml:id="pll1d27c5-Qd1e3571" ana="#lc18_19">Nemo bonus nisi solus 
+                  Deus,</quote>
+                <bibl>Lucas 18:19</bibl>
+              </cit>
+              quia Trinitas est unus Deus.</quote>
+            <bibl>Augustinus, De Trinitate, V, c. 8, n. 9 (PL 42:917)</bibl>
+          </cit>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

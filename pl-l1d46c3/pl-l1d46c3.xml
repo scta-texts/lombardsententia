@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 46, Capitulus 3</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 46, Capitulus 3</title>
+          <date when="2016-01-25">January 25, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-01-25">January 25, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+          <witness xml:id="Z" n="zbsSII72" xml:base="http://www.e-codices.unifr.ch/metadata/iiif/zbs-SII-0072/canvas/">Solothurn, Zentralbibliothek, Cod. S II 72</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <cb ed="#Z" n="50va" select="zbs-SII-0072_050v.json"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d46c3">
+        <head xml:id="pll1d46c3-Hd1e3504">Librum I, Distinctio 46, Capitulus 3</head>
+        <!-- Utrum mala Deo volente vel nolente fiant -->
+        <p xml:id="pll1d46c3-d1e3509">Ideoque cum constet, omnia bona, quae fiunt, eius fieri voluntate, 
+          quae si fieri nollet, nullatenus fierent, recte quaeri solet: 
+          utrum et omnia mala, quae fiunt, id est peccata, fiant voluntate 
+          Dei, an eo nolente fiant.</p>
+        <p xml:id="pll1d46c3-d1e3512">Super hoc diversi, varie sentientes, sibi contradicere inveni<cb ed="#Z" n="50vb" select="zbs-SII-0072_050v.json"/>untur. 
+          Alii enim dicunt, quod Deus vult mala esse vel fieri, non 
+          tamen vult mala. Alii vero, quod nec vult mala esse nec fieri. 
+          In hoc tamen conveniunt et hi et illi, quod utrique fatentur, Deum 
+          mala non velle. Utrique vero auctoritatibus et rationibus innituntur 
+          ad muniendum suam assertionem.</p>
+        <p xml:id="pll1d46c3-d1e3517">Qui enim dicunt, Deum mala velle esse vel fieri, suam his 
+          modis muniunt intentionem. Si enim, inquiunt, mala non esse vel 
+          non fieri vellet, nullo modo essent vel fierent, quia, si vult ea 
+          non esse vel non fieri, et non potest id efficere, scilicet ut non 
+          sint vel fiant, voluntati eius et potentiae aliquid resistit, et non 
+          <!-- 281 -->
+          est omnipotens, quia non potest omne quod vult, sed impotens; 
+          sicut et nos sumus, qui quod volumus quandoque non valemus. 
+          Sed quia omnipotens est et in nullo impotens, certum est, non 
+          posse fieri mala vel esse, nisi eo volente. Quomodo enim, eo invito 
+          et nolente, posset ab aliquo malum fieri, cum scriptum sit: 
+          <cit>
+            <quote xml:id="pll1d46c3-Qd1e3523">Voluntati eius quis resistit?</quote>
+            <bibl>xxx</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d46c3-d1e3532">Supra etiam dixit <name ref="#Augustine">Augustinus</name>: 
+          <cit>
+            <quote xml:id="pll1d46c3-Qd1e3539">Quia necesse est fieri, 
+              si voluerit.</quote>
+            <bibl>1</bibl>
+          </cit>
+          Sed vult mala fieri, aut non fieri; si vult non fieri, 
+          non fiunt; fiunt autem; vult igitur fieri.</p>
+        <p xml:id="pll1d46c3-d1e3547">Item, bonum est mala esse vel fieri, alioquin summe bonus 
+          non permitteret ea fieri.</p>
+        <p xml:id="pll1d46c3-d1e3550">Unde <ref><name ref="#Augustine">Augustinus</name> in <title>Enchiridio</title>:</ref> 
+          <cit>
+            <quote xml:id="pll1d46c3-Qd1e3562">Quamvis ea, inquit, 
+              quae mala sunt, in quantum mala sunt, non sunt bona, tamen ut 
+              non solum bona, sed etiam sint et mala, bonum est. Nam nisi esset 
+              hoc bonum, ut essent et mala, nullo modo esse sinerentur ab 
+              omnipotenti Bono, cui proculdubio quam facile est quod vult facere, 
+              tam facile est quod non vult esse, non sinere. Haec nisi 
+              credamus, periclitatur nostra confessio, qua nos in Patrem omnipotentem 
+              credere confitemur.</quote>
+            <bibl>Augustinus, Enchiridion, c. 96, n. 24 (PL 40:276)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d46c3-d1e3570">Ecce hic aperte habes, quod bonum est mala esse, omnis boni 
+          autem Deus auctor est, qui vult, omne bonum esse quod est. Cum 
+          ergo bonum sit mala fieri vel esse, et vult mala esse vel fieri. 
+          His atque aliis huiusmodi rationibus et auctoribus utuntur qui 
+          dicunt, Deum mala esse vel fieri velle.</p>
+        <p xml:id="pll1d46c3-d1e3573">Illi vero, qui dicunt, Dei voluntate mala non fieri vel non 
+          esse, inductionibus praemissis ita respondent dicentes, Deum nec 
+          velle mala fieri, nec velle non fieri vel 
+          <cb ed="#Z" n="51ra" select="zbs-SII-0072_051r.json"/>
+          nolle fieri, sed tantum 
+          non velle fieri. Si enim vellet ea fieri vel esse, faceret ea utique 
+          fieri vel esse, et ita esset auctor malorum; non est autem auctor 
+          malorum, ut Sanctorum protestantur auctoritates; non ergo eius 
+          voluntate mala fiunt.</p>
+        <!-- 282 -->
+        <p xml:id="pll1d46c3-d1e3581">Item, si nollet mala fieri vel vellet non fieri, et tamen fierent, 
+          omnipotens non esset, cum eius voluntas humanae voluntatis 
+          effectu impediretur. Ideoque non concedunt, Deum velle mala fieri, 
+          ne malorum auctor intelligatur; nec concedunt, eum velle mala non 
+          fieri vel nolle fieri, ne impotens videatur; sed tantum dicunt, 
+          eum non velle mala fieri, ut non auctor, sed permissor malorum 
+          monstretur.</p>
+        <p xml:id="pll1d46c3-d1e3584">Unde et Evangelista, ubi ostendit, Deum auctorem esse 
+          omnium bonorum, dicens: 
+          <cit>
+            <quote xml:id="pll1d46c3-Qd1e3588" ana="#io1_3">Omnia per ipsum facta sunt,</quote>
+            <bibl>Ioannes 1:3</bibl>
+          </cit>
+          consequenter malorum auctorem esse negat, dicens: 
+          <cit>
+            <quote xml:id="pll1d46c3-Qd1e3597">Et sine ipso 
+              factum est nihil,</quote>
+            <bibl>xxx</bibl>
+          </cit>
+          id est peccatum.</p>
+        <p xml:id="pll1d46c3-d1e3605">Non dixit, per eum factum esse, vel eo nolente et invito, sed 
+          tantum sine eo, id est sine eius voluntate, quia non eius voluntate 
+          fit peccatum. Non ergo Deo volente vel nolente, sed non volente 
+          fiunt mala, quia non subest voluntati Dei, ut malum fiat vel non 
+          fiat, sed ut fieri sinat, quia bonum est sinere mala fieri; et utique 
+          volens sinit, non volens mala, sed volens sinere, ut illa fiant; 
+          quia nec mala sunt bona, nec ea fieri vel esse bonum est.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

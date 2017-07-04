@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 46, Capitulus 7</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 46, Capitulus 7</title>
+          <date when="2016-01-26">January 26, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-01-26">January 26, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+          <witness xml:id="Z" n="zbsSII72" xml:base="http://www.e-codices.unifr.ch/metadata/iiif/zbs-SII-0072/canvas/">Solothurn, Zentralbibliothek, Cod. S II 72</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <cb ed="#Z" n="51va" select="zbs-SII-0072_051v.json"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d46c7">
+        <head xml:id="pll1d46c7-Hd1e3504">Librum I, Distinctio 46, Capitulus 7</head>
+        <head xml:id="pll1d46c7-Hd1e3507" type="questionTitle">Quod in Deo non est causa, ut sit homo deterior</head>
+        <p xml:id="pll1d46c7-d1e3510">Deinde idem <name ref="#Augustine">Augustinus</name> quaerens, quae sit causa, ut 
+          sit homo deterior, in Deo non esse asserit, in eodem libro sic dicens: 
+          <cit>
+            <quote xml:id="pll1d46c7-Qd1e3517">Ut si homo deterior, aut in ipso est, aut in alio, aut in 
+              nihilo. Si in nihilo, nulla causa est; si in alio, aut in Deo, aut in 
+              aliquo quolibet homine, aut in eo quod neque est homo, neque 
+              Deus. Sed non in Deo: bonorum enim Deus tantum causa est; 
+              ergo aut in homine, aut in eo quod nec Deus nec homo, aut 
+              in nihilo.</quote>
+            <bibl>Augustinus, De Diversis Quaestionibus, q. 4</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d46c7-d1e3525">Ex his aperte ostenditur, quod non est bonum, ut sit homo 
+          deterior, quia non est Deus huius rei causa, qui tantum causa bonorum 
+          est. Et si non est bonum, ut homo fiat deterior, non est 
+          igitur bonum, ut ab eo fiat ma<cb ed="#Z" n="51vb" select="zbs-SII-0072_051v.json"/>lum; 
+          non igitur vult Deus, ut ab 
+          eo fiat malum.</p>
+        <p xml:id="pll1d46c7-d1e3530">Item aliter etiam ostenditur, quod Deo auctore, id est volente, 
+          non fiunt mala, quia ipse non est causa tendendi ad non-esse: 
+          tendere enim ad non-esse malum est; Ipse autem auctor mali non 
+          est; tendit vero ad non-esse qui operatur malum; non ergo Deo
+          <!-- 286 -->
+          auctore est, quod aliquis operatur malum; non est ergo bonum, 
+          quod aliquis operatur malum, quia tantum boni Deus auctor est.</p>
+        <p xml:id="pll1d46c7-d1e3536">Hoc autem in eodem libro <name ref="#Augustine">Augustinus</name> aperte explicat 
+          ita dicens: 
+          <cit>
+            <quote xml:id="pll1d46c7-Qd1e3543">Qui omnium quae sunt, auctor est, et ad cuius 
+              bonitatem id pertinet ut sit omne quod est, boni tantummodo 
+              bonum est, a quo nullo deficere bonum est, et malum est deficere: 
+              non est igitur causa deficiendi, id est tendendi ad non-esse, 
+              qui, ut ita dicam, essendi causa est; quia omnium quae sunt, 
+              auctor est, quae in quantum sunt, bona sunt.</quote>
+            <bibl>Augustinus, De Diversis Quaestionibus, q. 21 (PL 40:16)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d46c7-d1e3551">Ecce aperte habes, quod deficere a Deo, qui est summum bonum, 
+          malum est; mala ergo facere, malum est; non ergo Deo 
+          auctore vel volente mala fiunt. Iam sufficienter ostensum est, quod 
+          Deo auctore non fiunt mala.</p>
+        <p xml:id="pll1d46c7-d1e3554">Quidam tamen sophistice incedentes, et ideo 
+          <cit>
+            <quote xml:id="pll1d46c7-Qd1e3558" ana="#sir37_23">Deo odibiles,</quote>
+            <bibl>Ecclesiasticus 37:23</bibl>
+          </cit>
+          probare conantur, ex Deo auctore esse, quod mala fiunt, hoc 
+          modo. Quod mala fiunt, verum est; omne autem verum quod est, 
+          est a veritate quae Deus est; a Deo igitur est, quod mala fiunt.</p>
+        <p xml:id="pll1d46c7-d1e3566">Quod autem omne verum a Deo sit, confirmant auctoritate 
+          <ref><name ref="#Augustine">Augustini</name> in libro <title ana="#deDiversisQuaestionibus">83 Quaestionum</title></ref> ita dicentis: 
+          <cit>
+            <quote xml:id="pll1d46c7-Qd1e3577">Omne verum 
+              a veritate verum est; est autem veritas Deus; Deum igitur 
+              habet auctorem omne verum;</quote>
+            <bibl>Augustinus, De Diversis Quaestionibus, q. 1 (PL 40:11)</bibl>
+          </cit>
+          est autem verum, quod mala 
+          fiunt vel sunt; ergo Deo auctore est, quod sunt vel fiunt mala.</p>
+        <p xml:id="pll1d46c7-d1e3585">Quibus facile est nobis respondere; sed indignum videtur 
+          responsione quod dicunt.</p>
+        <p xml:id="pll1d46c7-d1e3588">
+          <cit>
+            <quote xml:id="pll1d46c7-Qd1e3592">Omne namque verum a Deo est,</quote>
+            <bibl>xx</bibl>
+          </cit>
+          ut ait <name ref="#Augustine">Augustinus</name>, 
+          cui consonat <name ref="#Ambrose">Ambrosius</name>, qui tractans illud verbum <name ref="#Paul">Apostoli</name>: 
+          <cit>
+            <quote xml:id="pll1d46c7-Qd1e3610" ana="#ICor12_3">Nemo post dicere: Dominus Iesus, nisi in Spiritu sancto,</quote>
+            <bibl>I Cor 12:3</bibl>
+          </cit>
+          dicit quod 
+          <cit>
+            <quote xml:id="pll1d46c7-Qd1e3620">omne verum, a quocumque dicitur, a Spiritu sancto est.</quote>
+            <bibl>Ambrosius, In Epist. I ad Cor., c. 12, 3 (PL 17:245)</bibl>
+          </cit>
+          Cum itaque verum sit, quod mala fiunt, hoc verum, quod dicitur 
+          illa locutione, scilicet mala fiunt, a Deo est, sed non inde sequitur, 
+          quod a Deo sit, ut mala fiant: si enim hoc diceretur, 
+          auctor malorum Deus esse intelligeretur. Quod ex simili manifeste <!-- 287 -->
+          <cb ed="#Z" n="52ra" select="zbs-SII-0072_052r.json"/>
+          falsum ostenditur: Deus prohibet fieri furtum; sed fieri furtum 
+          verum est; ergo prohibet verum. Non sequitur.</p>
+        <p xml:id="pll1d46c7-d1e3633">Haec igitur et alia huiusmodi inania relinquentes, praemissae 
+          quaestionis parti saniori faventes, quae Sanctorum testimoniis plenius 
+          approbatur, dicamus, Deum non velle mala fieri, non tamen 
+          velle non fieri, neque nolle fieri; omne enim quod vult fieri, fit, 
+          et omne quod vult non fieri, non fit. Fiunt autem multa, quae non 
+          vult fieri, ut omnia mala.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

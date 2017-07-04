@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 37, Capitulus 4</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 37, Capitulus 4</title>
+          <date when="2016-01-14">January 14, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-01-14">January 14, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d37c4">
+        <head xml:id="pll1d37c4-Hd1e3496">Librum I, Distinctio 37, Capitulus 4</head>
+        <!-- Quod Deus, cum sit in omnibus rebus essentialiter, 
+          non tamen coninquinatur sordibus rerum. -->
+        <p xml:id="pll1d37c4-d1e3501">
+          <cit>
+            <quote xml:id="pll1d37c4-Qd1e3505">Solet etiam ab eisdem quaeri, quomodo substantialiter insit 
+              omnibus rebus, corporalium sordium inquinationibus non contingatur.</quote>
+            <bibl>Augustinus, De agone christiano, c. 18, n. 20 (PL 40:300)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d37c4-d1e3513">
+          <cit>
+            <quote xml:id="pll1d37c4-Qd1e3517">Quod tam frivolum est, ut nec responsione sit dignum, cum 
+              etiam spiritus creatus sordibus corporeis etiam leprosi vel quantumcumque 
+              polluti inquinari non possit. Sol quoque radios suos 
+              sine sui pollutione effundit super loca et corpora non solum munda, 
+              sed etiam immunda ac sordibus foetentia, quorum contactu homines 
+              ac quaedam aliae res inficiuntur; solis vero radii impolluti et 
+              incontaminati, ea contingentes, existunt. Non est igitur mirandum, 
+              si essentia divina omnino simplex et incommutabilis omnia replet 
+              loca, et omnibus creaturis essentialiter inest, nec tamen cuiusquam 
+              rei sordibus contaminetur vel contingatur.</quote>
+            <bibl>Augustinus, De agone christiano, c. 18, n. 20 (PL 40:300)</bibl>
+          </cit>
+        </p>
+        <!-- p. 235 -->
+        <p xml:id="pll1d37c4-d1e3528">Unde <ref><name ref="#Augustine">Augustinus</name> in libro <title>De natura boni</title>:</ref> 
+          <cit>
+            <quote xml:id="pll1d37c4-Qd1e3540">Cum in 
+              Deo, inquit, sint omnia quae condidit, non tamen inquinant eum 
+              illi qui peccant. De cuius etiam sapientia, quae 
+              <cit>
+                <quote xml:id="pll1d37c4-Qd1e3544" ana="sap8_1">attingit a fine
+                  usque ad finem fortiter,</quote>
+                <bibl>Sap 8:1</bibl>
+              </cit>
+              dicitur: 
+              <mentioned>Attingit</mentioned> omnia propter suam 
+              munditiam, et 
+              <cit>
+                <quote xml:id="pll1d37c4-Qd1e3556" ana="#sap7_25">nihil inquinatum in eam incurrit</quote>
+                <bibl>Sap 7:25</bibl>
+              </cit>
+            </quote>
+          </cit>
+        </p>
+        <p xml:id="pll1d37c4-d1e3566"><ref><name ref="#Augustine">Augustinus</name> <title>De agone christiano</title></ref>: 
+          <cit>
+            <quote xml:id="pll1d37c4-Qd1e3576">Timent quidam quod fieri non 
+              potest, scilicet ne humana carne veritas et substantia Dei inquinetur; et tamen 
+              praedicant, istum visibilem solem radios suos per omnes faeces et sordes spargere, 
+              et eos mundos et sinceros servare. Si ergo visibilia munda visibilibus 
+              immundis contingi possunt et non inquinari, quanto magis invisibilis et incommutabilis 
+              Veritas.</quote>
+            <bibl>Augustinus, De agone christiano, c. 18, n. 20 (PL 40:300)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d37c4-d1e3584">Postremo respondeant, quid potius de Deo resopndendum aestiment: 
+          vel quod nusquam per essentiam sit, vel quod ubique, 
+          vel alicubi, ita quod non ubique? Sed quis audeat dicere, quod 
+          nusquam divina essentia sit, vel quod alicubi, et non ubique? Si 
+          enim ita est alicubi, quod non ubique, ergo localis est. Est ergo 
+          ubique tota, quae continet totum et penetrat totum, quae nec pro 
+          sui simplicitate dividi, nec pro sui puritate maculari, nec pro sui 
+          immensitate ullo modo comprehendi potest.</p>
+        <p xml:id="pll1d37c4-d1e3587">Unde <name ref="#Augustine">Augustinus</name>: 
+          <cit>
+            <quote xml:id="pll1d37c4-Qd1e3594">Deus ubique est, cui non locis, sed 
+              actionibus propinquamus.</quote>
+            <bibl>Augustinus, Enarrat. in Psalm. 34, serm. 2, n. 6 (PL 37:337)</bibl>
+          </cit>
+        </p>
+        
+      </div>
+      
+    </body>
+  </text>
+</TEI>

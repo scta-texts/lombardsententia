@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 17, Capitulus 5</title>
+        <author>Petrus Lombardus</author>
+        <editor></editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 17, Capitulus 5</title>
+          <date when="2015-11-03">November 03, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher></publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-11-03">November 03, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-03" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d17c5">
+        <head xml:id="pll1d17c5-Hd1e3472">Librum I, Distinctio 17, Capitulus 5</head>
+        <!-- Utrum spiritus sanctus augeatur in homine vel minus vel magis 
+          habeatur vel detur et an detur habenti et non habenti -->
+        <p xml:id="pll1d17c5-d1e3477">Hic quaeritur, si caritas Spiritus sanctus est, cum ipsa augeatur 
+          et minuatur in homine et magis et minus per diversa tempora 
+          habeatur, utrum concedendum sit, quod Spiritus sanctus augeatur 
+          vel minuatur in homine, et magis vel minus habeatur.</p>
+        <p xml:id="pll1d17c5-d1e3480">Si enim in homine augetur et magis vel minus datur et habetur, 
+          mutabilis esse videtur; Deus autem omnino immutabilis est. 
+          Videtur ergo, quod vel Spiritus sanctus non sit caritas, vel caritas 
+          non augeatur vel minuatur in homine.</p>
+        <p xml:id="pll1d17c5-d1e3483">Item, caritas et non habenti datur, ut habeat, et habenti ut 
+          plenius habeat. Si ergo Spiritus sanctus caritas est, et non habenti 
+          datur, ut habeat, et habenti, ut plenius habeat.</p>
+        <p xml:id="pll1d17c5-d1e3487">Sed quomodo datur non habenti, cum ipse, ut Deus, sit ubique 
+          et in omnibus creaturis totus? Et quomodo plenius datur vel habetur 
+          sine sui mutatione?</p>
+        <p xml:id="pll1d17c5-d1e3490">His ita respondemus dicentes, quod Spiritus sanctus sive caritas 
+          penitus immutabilis est, nec in se augetur vel minuitur, nec 
+          in se recipit magis vel minus, sed in homine vel potius homini 
+          augetur et minuitur, et magis vel minus datur vel habetur; sicut 
+          Deus dicitur magnificari et exaltari in nobis, qui tamen in se nec 
+          magnificatur nec exaltatur.</p>
+        <p xml:id="pll1d17c5-d1e3493">Unde Propheta: 
+          <cit>
+            <quote xml:id="pll1d17c5-Qd1e3497" ana="#ps64_7"><!-- and ps64_8 -->Accedet homo ad cor altum, et exaltabitur 
+              Deus.</quote>
+            <bibl>Psalmus 64:7-8</bibl>
+          </cit>
+          Super quem locum ait auctoritas: 
+          <cit>
+            <quote xml:id="pll1d17c5-Qd1e3507">Deus non in se, 
+              sed in corde hominis grandescit.</quote>
+            <bibl>Cassiodorus, Super Psalm. 63:6 (PL 70:441)</bibl>
+          </cit>
+          Sic igitur Spiritus sanctus 
+          homini datur, et datus amplius datur, id eset augetur, et magis ac 
+          minus habetur, et tamen immutabilis existit.</p>
+        <p xml:id="pll1d17c5-d1e3515">Cumque ubique sit et in omni creatura totus, sunt tamen 
+          multi, qui eum non habent. Non enim omnes Spiritum sanctum 
+          habent, in quibus est; alioquin et irrationabiles creaturae haberent 
+          Spiritum sanctum, quod fidei pietas non admittit.</p>
+        <!-- p. 112 -->
+        <p xml:id="pll1d17c5-d1e3520">Ut autem certius fiat quod diximus, auctoritate firmamus.</p>
+        <p xml:id="pll1d17c5-d1e3524">Quod Spiritus sanctus magis ac minus percipiatur et homini 
+          augeatur et non habenti detur, et habenti, ut plus habeatur, 
+          <ref><name ref="#Augustine">Augustinus</name> ostendit <title>Super Ioannem</title></ref> dicens: 
+          <cit>
+            <quote xml:id="pll1d17c5-Qd1e3535">Sine Spiritu 
+              sancto constat Christum nos non diligere, et eius mandata servare 
+              non posse, et id nos posse atque agere tanto minus, quanto 
+              illum percipimus minus; tanto vero amplius, quanto illum percipimus 
+              amplius. Ideoque non solum non habenti, verum etiam habenti 
+              non incassum promittitur: non habenti quidem, ut habeatur, 
+              habenti autem, ut amplius habeatur. Nam si ab alio minus et ab 
+              alio amplius non haberetur, <name>sanctus Eliseus</name> <name>sancto Eliae</name> non diceret: 
+              <cit>
+                <quote xml:id="pll1d17c5-Qd1e3545" ana="#IIpara2_9">Spiritus qui est in te, duplo sit in me</quote> <!-- dbcheck this -->
+                <bibl>IV Reg. 2:9</bibl>
+              </cit>
+            </quote>
+            <bibl>Augustinus, Super Ioannem, Tract. 74, n. 2 et 3 (PL 35, 1827)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d17c5-d1e3560"><!-- small font paragraph; continues Augustine quote in above paragraph -->
+          <cit>
+            <quote xml:id="pll1d17c5-Qd1e3565">In libro <title>Regum</title> sic: 
+              <cit>
+                <quote xml:id="pll1d17c5-Qd1e3572">Elias dixit ad Eliseum: Postual quod vis, et faciam 
+                  tibi, antequam tollar a te. Dixitque Eliseus: Obsecro, ut fiat spiritus tuus duplex 
+                  in me.</quote>
+                <bibl/>
+              </cit>
+              Quod ibidem sic exponitur: Elias spiritu prophetali et operatione 
+              miraculorum excellenter pollebat. Geminam ergo gratiam, quam Eliseus in Magistro 
+              vigere cognoscebat, sibi tribui rogavit. Unde patet, quod non esse discipulus 
+              super Magistrum postulavit.</quote>
+            <bibl>Augustinus, Super Ioannem, Tract. 74, n. 2 et 3 (PL 35, 1827)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d17c5-d1e3584">
+          <cit>
+            <quote xml:id="pll1d17c5-Qd1e3588">Christo autem, qui est Dei Filius, 
+              <cit>
+                <quote xml:id="pll1d17c5-Qd1e3592" ana="#io3_34">non ad mensuram datus 
+                  est Spiritus.</quote>
+                <bibl>Ioannes 3:34</bibl>
+              </cit>
+              Neque enim sine gratia Spiritus sancti est 
+              <cit>
+                <quote xml:id="pll1d17c5-Qd1e3601" ana="#Itim2_5">Mediator 
+                  Dei et hominum, homo Christus;</quote>
+                <bibl>I Tim 2:5</bibl>
+              </cit>
+              quod enim est unigenitus 
+              Filius aequalis Patri, non est gratiae, sed naturae; quod autem in 
+              unitatem personae Unigeniti assumtus est homo, gratiae est, non 
+              naturae. Ceteris autem ad mensuram datur et datus additur, donec 
+              unicuique pro modo suae perfectionis propria mensura compleatur</quote>
+            <bibl>Augustinus, Super Ioannem, Tract. 74, n. 2 et 3 (PL 35, 1827)</bibl>
+          </cit>
+        </p>
+        <!-- p. 113 -->
+        <p xml:id="pll1d17c5-d1e3616">Ecce expressum habes, quod Spiritus sanctus magis et minus 
+          datur vel accipitur, et homini datus augetur, et habenti et non 
+          habenti datur, quia Spiritus sanctus est caritas, quae non habenti 
+          datur, et in habente augetur et proficit. Immo, ut verius et magis 
+          proprie loquar, homo in ea proficit et deficit aliquando; et tunc 
+          ipsa dicitur proficere, quae tamen nec proficit nec deficit in se, 
+          quia Deus est.</p>
+        <p xml:id="pll1d17c5-d1e3619">Unde <name ref="#Augustine">Augustinus</name> in homilia IX <title>Super Epistolam Ioannis</title> 
+          ait: 
+          <cit>
+            <quote xml:id="pll1d17c5-Qd1e3629">Probet se quisque, quantum in illo profecerit caritas, vel 
+              potius quantum ipse in caritate profecerit. Nam si caritas Deus est, 
+              nec proficit, nec deficit. Sic ergo dicitur proficere in te caritas, 
+              quia tu in ea proficis.</quote>
+            <bibl>Augustinus, Super Epistolam Ioannis, Tract. 9, n. 2 (PL 35, 2045)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d17c5-d1e3638">Ecce quomodo intelligendum sit, cum dicitur Spiritus sanctus 
+          augeri nobis, quia nos in eo scilicet proficimus; sic et alia 
+          huiusmodi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 27, Capitulus 2</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 27, Capitulus 2</title>
+          <date when="2015-12-15">December 15, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-12-15">December 15, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d27c2">
+        <head xml:id="pll1d27c2-Hd1e3496">Librum I, Distinctio 27, Capitulus 2</head>
+        <!-- Quod non omnino idem dicere est: Esse Patrem et genuisse vel habere Filium -->
+        <p xml:id="pll1d27c2-d1e3501">Nec tamen videtur nobis, omnino esse idem dicere aliquid 
+          esse Patrem et genuisse Filium; vel aliquid esse Filium et habere 
+          Patrem, vel esse Spiritum sanctum et procedere ab utroque. Alioquin 
+          Pater non esset nomen hypostasis, id est personae, sed proprietatis 
+          tantum; similiter Filius et Spiritus sanctus; et ita non 
+          per tria nomina significarentur tres personae.</p>
+        <p xml:id="pll1d27c2-d1e3504">Ideoque dicimus, quia Patris nomen non tantum relationem 
+          notat, sed etiam hypostasim, id est subsistentiam significat, ita et 
+          Filius et Spiritus sanctus. Relationum vero vocabula, scilicet paternitas, 
+          filiatio, processio, vel gignere, gigni, procedere, ipsas tantum 
+          relationes, non hypostases significant, sive habere filium, et habere 
+          patrem. Ut verbi gratia, cum dicimus: Deus est pater, nomine 
+          patris et relationem notamus et divinam hypostasim significamus, 
+          ut sit intelligentia talis: Deus vel divina essentia est Pater, id est 
+          ille qui genuit, scilicet hypostasis, quae habet filium. Similiter: Deus 
+          est Filius, id est hypostasis genita, vel habens patrem. Ita etiam 
+          Deus est Spiritus sanctus, id est hypostasis procedens ab utroque, 
+          sive ille qui procedit. Cum vero nomina relationum ponimus in praedicatis, 
+          notiones ipsas tantum significamus, non hypostases, ut cum 
+          dicitur: Deus genuit, id est habet filium; et Deus genitus est, id 
+          est habet patrem. Et tunc opertet intelligi in subiectis hypostases 
+          tantum, non essentiam, quae illis proprietatibus determinantur.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

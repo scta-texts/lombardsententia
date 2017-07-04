@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum II, Distinctio 9, Capitulus 7</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.1-dev">
+          <title>Librum II, Distinctio 9, Capitulus 7</title>
+          <date when="2016-05-30">May 30, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-05-30">May 30, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+          <witness xml:id="Z" n="zbsSII72" xml:base="http://www.e-codices.unifr.ch/metadata/iiif/zbs-SII-0072/canvas/">Solothurn, Zentralbibliothek, Cod. S II 72</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="0.0.1">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        
+      </div>
+    </front>
+  	<body>
+  		<div xml:id="pl-l2d9c7">
+  			<head xml:id="pll2d9c7-Hd1e3508">Librum II, Distinctio 9, Capitulus 7</head>
+  			<head xml:id="pll2d9c7-Hd1e3511" type="questionTitle">Utrum homines assumantur iuxta numerum stantium vel lapsorum spirituum</head>
+  			<p xml:id="pll2d9c7-d1e3514">Non enim iuxta numerum eorum qui ceciderunt, sed eorum 
+  				qui permanserunt, homines ad beatitudinem admittuntur.</p>
+  			<p xml:id="pll2d9c7-d1e3517">Unde <name ref="#GregoryGreat">Gregorius</name>: 
+  				<cit>
+  					<quote xml:id="pll2d9c7-Qd1e3524">Superna illa civitas ex Angelis et 
+  						hominibus constat, ad quam credimus tantum humani generis 
+  						ascendere, quantos illic contigit Angelos remansisse,sicut scriptum 
+  						est in Cantico Deuteronomii: 
+  						<cit>
+  							<quote xml:id="pll2d9c7-Qd1e3528" ana="#deut32_8">Statuit terminos populorum iuxta 
+  								numerum Angelorum Dei.</quote>
+  							<bibl>Deut. 32:8</bibl>
+  						</cit>
+  					</quote>
+  					<bibl>Gregorius, xxx.,  n. 11</bibl>
+  				</cit>
+  			</p>
+  			<p xml:id="pll2d9c7-d1e3541">A quibusdam tamen putatur, quod homines reparentur iuxta 
+  				numerum angelorum, qui ceciderunt, ut illa caelestis civitas nec 
+  				suorum civium numero privetur, nec maiori copia regnet.</p>
+  			<p xml:id="pll2d9c7-d1e3545">Quod <ref><name ref="#Augustine">Augustinus</name> in <title ref="#Enchiridion">Enchiridio</title></ref> sentire videtur, non asserens 
+  				de hominibus plus salvari, quam corruit de Angelis, sed 
+  				non minus ita dicens: 
+  				<cit>
+  					<quote xml:id="pll2d9c7-Qd1e3556">Superna Ierusalem, mater nostra, civitas 
+  						Dei, nulla civium suorum numerositate fraudabitur, aut uberiore 
+  						etiam copia fortasse regnabit. Neque enim numerum aut sanctorum 
+  						hominum, aut immundorum daemonum novimus, in quorum locum 
+  						succedentes filii catholicae matris, quae sterilis apparebat in terris, 
+  						in ea pace, de qua illi ceciderunt, sine ullo temporis termino 
+  						permanebunt. Sed illorum civium numerus, sive qui est, sive qui fuit, 
+  						sive qui futurus est, in contemplatione eius artificis est, 
+  						<cit>
+  							<quote xml:id="pll2d9c7-Qd1e3560" ana="#rom4_17">qui vocat <!-- 351 --> 
+  								ea quae non sunt, tanquam ea quae sunt.</quote>
+  							<bibl>Romanos 4:17</bibl>
+  						</cit>
+  					</quote>
+  					<bibl>Augustinus, Enchiridio, c. 29 (PL 40:246) <!-- see also De Civitate Dei XXII c. 1 (PL 41:751) --></bibl>
+  				</cit>
+  				Ecce aperte 
+  				dicit, non minus de hominibus salvari, quam corruit de Angelis, 
+  				sed plus non asserit.</p>
+  		</div>
+  	</body>
+  </text>
+</TEI>

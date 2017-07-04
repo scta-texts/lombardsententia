@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 19, Capitulus 11</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 19, Capitulus 11</title>
+          <date when="2015-11-19">November 19, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-11-19">November 19, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d19c11">
+        <head xml:id="pll1d19c11-Hd1e3472">Librum I, Distinctio 19, Capitulus 11</head>
+        <!-- Quare tres personae simul non sunt maius aliquid quam una -->
+        <p xml:id="pll1d19c11-d1e3477">Sciendum est igitur, 
+          <cit>
+            <quote xml:id="pll1d19c11-Qd1e3481">tantam aequalitatem esse in Trinitate, 
+              ut ait <ref><name ref="#Augustine">Augustinus</name> in VIII libro <title ref="#deTrinitate">De Trinitate</title></ref> ut non solum 
+              Pater non sit maior quam Filius, sed nec Pater et Filius simul 
+              <!-- p. 136 -->
+              maius aliquid sint quam Spiritus sanctus, aut quaelibet persona 
+              minus aliquid sit quam ipsa Trinitas.</quote>
+            <bibl>Augustinus, De Trinitate, Prooem. n. 1 (PL 42:947)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d19c11-d1e3498">Quod autem ita sit, aliquo modo, si fieri potest, demonstrandum est.
+          <cit>
+            <quote xml:id="pll1d19c11-Qd1e3502">Quantum ergo ipse Creator adiuvat, attendamus, inquit 
+              <ref><name ref="#Augustine">Augustinus</name> in eodem,</ref> quomodo in hac Trinitate duae vel tres 
+              personae non sunt maius aliquid quam una earum.</quote>
+            <bibl>Augustinus, De Trinitate, Prooem. n. 1, et in principio c. 1, n. 2 (PL 42:947)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d19c11-d1e3515">
+          <cit>
+            <quote xml:id="pll1d19c11-Qd1e3519">Quod ibi magnum dicitur, aliunde magnum non est quam 
+              eo, quo vere est; quia ibi magnitudo ipsa veritas est et veritas 
+              essentia; non ergo ibi maius est quod verius non est. Non autem 
+              verius est Pater et Filius simul, quam Pater solus vel Filius; non 
+              ergo maius aliquid utrunque simul quam singulus eorum. Et quia 
+              aeque vere est etiam Spiritus sanctus, ideo Pater et Filius simul 
+              non sunt aliquid maius quam ipse, quia nec verius sunt. Item in 
+              essentia veritatis hoc est verum esse, quod est esse, et hoc est 
+              esse, quod est magnum esse; hoc est ergo magnum esse quod verum 
+              esse. Quod igitur ibi aeque verum est, et aeque magnum 
+              est; quod ergo ibi plus veritatis non habet, non habet plus magnitudinis; 
+              plus autem veritatis non habet, quod verius non est. non 
+              est autem verius una persona alia, vel duae quam una, vel tres 
+              simul quam singula; non ergo plus veritatis habet una quam 
+              alia, vel tres simul quam singula. Sic ergo est ipsa Trinitatis 
+              non est maius aliquid quam unaquaeque ibi persona, sed tam magnum 
+              quam singula. Non enim ibi maior quae verior non est, 
+              ubi ipsa veritas magnitudo est.</quote>
+            <bibl>Augustinus, De Trinitate, principio, c. 1, n. 2 (PL 42:947)</bibl> <!-- re unclear dbcheck -->
+          </cit>
+        </p>
+        <p xml:id="pll1d19c11-d1e3530">Ecce modo convenienti et ratione catholica ostensum est, quomodo 
+          indifferens sit magnitudo trium personarum, quia nec una maior 
+          est alia, nec duae una, nec tres simul maius aliquid quam singula.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 10, Capitulus 2</title>
+        <author>Petrus Lombardus</author>
+        <editor></editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.10-dev-master">
+          <title>Librum I, Distinctio 10, Capitulus 2</title>
+          <date when="2015-10-19">October 19, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher></publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-10-19">October 19, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-10-19" who="#JW" status="draft" n="2015.10">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d10c2">
+        <head>Librum I, Distinctio 10, Capitulus 2</head>
+        <!-- quod eadem nomina proprie et universaliter accipiuntur -->
+        <p xml:id="pll1d10c2-d1e3477">
+          <cit>
+            <quote xml:id="pll1d10c2-Qd1e3481">Pluribus enim exemplis doceri potest, multa rerum vocabula 
+              et universaliter poni, et proprie quibusdam rebus adhiberi, 
+              sicut Legis nomine aliquando simul omnia veteris Instrumenti significantur 
+              eloquia, aliquando autem proprie vocatur Lex, quae 
+              data est per <name ref="#Moses">Moysen</name>.</quote>
+            <bibl>XXX</bibl>
+          </cit>
+          Multa alia suppetunt exempla, sed in re 
+          aperta vitanda est longitudo sermonis.</p>
+        <p xml:id="pll1d10c2-d1e3492">
+          <cit>
+            <quote xml:id="pll1d10c2-Qd1e3496">Sicut ergo unicum Dei Verbum proprie vocamus nomine sapientiae, 
+              cum sit universaliter et Spiritus sanctus et Pater ipsa sapientia; 
+              ita Spiritus sanctus proprie nuncupatur vocabulo caritatis, 
+              cum sit et Pater et Filius universaliter caritas. Sed Dei Verbum, 
+              id est unigenitus Dei Filius, aperte dictus est Dei sapientia ore 
+              <name ref="#Paul">Apostoli</name> dicentis: 
+              <cit>
+                <quote xml:id="pll1d10c2-Qd1e3503" ana="#Icor1_24">Christum Dei virtutem et Dei sapientiam.</quote>
+                <bibl>I Corinthios 1:24</bibl>
+              </cit>
+              Spiritus autem sanctus ubi sit dictus caritas, invenimus, si diligenter 
+              <name ref="#John">Ioannis Apostoli</name> eloquium scrutemur, qui cum dixisset: 
+              <cit>
+                <quote xml:id="pll1d10c2-Qd1e3515" ana="#Iio4_7">Diligamus invicem, quia dilectio ex Deo est, adiunxit: 
+                  Et omnis, qui diligit, ex Deo natus est, quia Deus dilectio est.</quote>
+                <bibl>I Ioannes 4:7</bibl>
+              </cit>
+              Hic manifestavit se dixisse, eam dilectionem esse Deum, quam 
+              dixit ex Deo. Deus ergo ex Deo est dilectio; sed quia et Filius 
+              ex Deo Patre natus est, et Spiritus sanctus ex Deo Patre procedit, 
+              <!-- p. 75 -->
+              quem potius eorum hic debeamus accipere dictum esse dilectionem, 
+              merito quaeritur. Pater enim solus ita Deus est, ut ex Deo non 
+              sit; et ideo dilectio, quae ita est Deus, ut ex Deo sit, non ipse 
+              Pater est, sed aut Filius, aut Spiritus sanctus. Sed in consequentibus 
+              cum Dei dilectionem commemorasset <name ref="#John">Ioannes</name>, qua 
+              <cit>
+                <quote xml:id="pll1d10c2-Qd1e3530" ana="#Iio4_11">dilexit nos, et hinc hortatus esset, ut et nos invicem diligamus, atque 
+                  ita in nobis Deus maneat,</quote>
+                <bibl>I Ioannes 4:11</bibl>
+              </cit>
+              quia utique dilectionem Deum dixerat, 
+              statim, volens de hac re apertius aliquid eloqui, inquit: 
+              <cit>
+                <quote xml:id="pll1d10c2-Qd1e3539" ana="#Iio4_13">In hoc 
+                  cognoscimus, quia in ipso manemus, et ipse in nobis, quia de 
+                  spiritu suo dedit nobis.</quote>
+                <bibl>I Ioannes 4:13</bibl>
+              </cit>
+              Sanctus itaque Spiritus, de quo dedit 
+              nobis, facit nos in Deo manere, et ipsum in nobis; hoc autem facit 
+              dilectio. Ipse est igitur Deus dilectio. Deus igitur Spiritus sanctus, 
+              qui procedit ex Deo, significatur ubi legitur: 
+              <cit>
+                <quote xml:id="pll1d10c2-Qd1e3548">Deus dilectio est,</quote>
+                <bibl>XXX</bibl>
+              </cit>
+              et 
+              <cit>
+                <quote xml:id="pll1d10c2-Qd1e3557">dilectio ex Deo est.</quote>
+                <bibl>XXX</bibl>
+              </cit> 
+            </quote>
+          </cit>
+        </p>
+        <p xml:id="pll1d10c2-d1e3567">Ecce his verbis aperte dicit <name ref="#Augustine">Augustinus</name>, Spiritum sanctum 
+          esse caritatem Patris et Filii; et in tantum quoque sermonem produxit, 
+          ut videatur dixisse, Spiritum sanctum non solum esse dilectionem Patris et Filii, qua se invicem et nos diligunt, sed etiam 
+          dilectionem, qua diligimus Deum. Sed utrum ipse sit caritas, qua 
+          nos diligimus Deum, 
+          <ref target="http://scta.info/resource/pl-l1d17" type="commentary">
+            <seg>in sequenti</seg>
+            <bibl>Vide infra d. XVII</bibl>
+          </ref> 
+          explicabitur.</p>
+        <p xml:id="pll1d10c2-d1e3583">Nunc vero quod incepimus, ostendere curemus, scilicet Spiritum 
+          sanctum dilectionem esse sive amorem Patris et Filii, quo scilicet 
+          Pater diligit Filium et Filius Patrem.</p>
+        <p xml:id="pll1d10c2-d1e3586">De hoc <ref><name ref="#Jerome">Hieronymus</name> <title>Super XII Psalmum</title></ref> ait: 
+          <cit>
+            <quote xml:id="pll1d10c2-Qd1e3597">Spiritus 
+              sanctus nec Pater est nec Filius, sed dilectio, quam habet Pater 
+              in Filium et Filius in Patrem.</quote>
+            <bibl>Hironymus, Super XII Psalmum, v. 1</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d10c2-d1e3605"><ref><name ref="#Augustine">Augustinus</name> quoque in VI libro <title ref="#deTrinitate">De Trinitate</title></ref> ait: 
+          <cit>
+            <quote xml:id="pll1d10c2-Qd1e3615">In 
+              omnibus aequalis est Patri Filius et est unius eiusdemque substantiae. 
+              Quapropter etiam Spiritus sanctus in eadem unitate substantiae 
+              et aequalitate consistit.</quote>
+            <bibl>Augustinus, De Trinitate, VI, c. 4 et 5, n. 6 et 7 (PL 42:1061)</bibl>
+          </cit>
+          <cit>
+            <quote xml:id="pll1d10c2-Qd1e3624">Sive enim sit unitas amborum, 
+              sive sanctitas, sive caritas, manifestum est, quod non aliquis duorum 
+              est quo uterque coniungitur, quo genitus a gignente diligatur 
+              <!-- p. 76 -->
+              genitorem suum diligat, sintque non participatione, sed essentia 
+              sua, neque dono superioris alicuius, sed suo proprio, 
+              <cit>
+                <quote xml:id="pll1d10c2-Qd1e3630" ana="#eph4_8">servantes 
+                  unitatem spiritus in vinculo pacis.</quote>
+                <bibl>Ephes. 4:8</bibl>
+              </cit>
+            </quote>
+            <bibl>Augustinus, De Trinitate, VI, c. 4 et 5, n. 6 et 7 (PL 42:1061)</bibl> <!-- dbcheck -->
+          </cit>
+          Ecce hic habes Spiritum 
+          sanctum esse quo Filius diligitur a Patre et Pater a Filio, et quo 
+          illi duo servant unitatem pacis.</p>
+        <p xml:id="pll1d10c2-d1e3645">
+          <cit>
+            <quote xml:id="pll1d10c2-Qd1e3649">Sanctus ergo Spiritus, ut ait <name ref="#Augustine">Augustinus</name> in eodem, commune 
+              est aliquid Patris et Filii, quidquid illud est. At ipsa communio 
+              consubstantialis et coaeterna est, quae si amicitia convenienter <!-- in 1916 edition it says convevenienter[sic] --> 
+              dici potest, dicatur, sed aptius dicitur caritas; et haec 
+              quoque substantia, quia Deus substantia est, et 
+              <cit>
+                <quote xml:id="pll1d10c2-Qd1e3658" ana="Iio4_16">Deus caritas est.</quote>
+                <bibl>I Ioannes 4:16</bibl>
+              </cit>
+              Tria ergo sunt et non amplius: unus diligens eum qui de illo 
+              est, et unus diligens eum de quo est, et ipsa dilectio, quae si 
+              nihil est, quomodo Deus dilectio est? Si non est substantia, quomodo 
+              Deus substantia est?</quote>
+            <bibl>Augustinus, De Trinitate, VI, c. 4 et 5, n. 6 et 7 (PL 42:1061)</bibl> <!-- dbcheck -->
+          </cit>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

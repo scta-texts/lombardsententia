@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 6, Capitulus 1</title>
+        <author>Petrus Lombardus</author>
+        <editor>Brady</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.09-dev-master">
+          <title>Librum I, Distinctio 6, Capitulus 1</title>
+          <date when="2015-09-30">September 30, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher></publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-09-30">September 30, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-30" who="#JW" status="draft" n="2015.09">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d6c1">
+        <head>Librum I, Distinctio 6, Capitulus 1</head>
+        <p xml:id="pll1d6c1-d1e3476">Praeterea quaeri solet, utrum Pater genuerit Filium voluntate, 
+          an necessitate.</p>
+        <p xml:id="pll1d6c1-d1e3479">De hoc <name>Orosius</name> ad <name ref="#Augustine">Augustinum</name> ita ait: 
+          <cit>
+            <quote xml:id="pll1d6c1-Qd1e3489">Voluntate genuit 
+              Pater Filium, vel necessitate? Nec voluntate, nec necessitate, quia 
+              necessitas in Deo non est, praeire voluntas sapientiam non potest.</quote>
+            <bibl>Augustinus, De Trinitate, <!-- reference unclear; dbcheck and get book number -->  c. 13, n. 22 (PL 42:1076)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d6c1-d1e3499">
+          <cit>
+            <quote xml:id="pll1d6c1-Qd1e3503">Quocirca, ut 
+              <ref><name ref="#Augustine">Augustinus</name> ait in libro XV <title ref="#deTrinitate">De Trinitate</title>,</ref> 
+              ridenda est dialectica <name>Eunomii</name>, a quo Eunomiani haeretici orti 
+              sunt, qui cum non potuisset intelligere nec credere voluisset, unigenitum 
+              Deum Verbum Filium Dei esse natura, id est de substantia 
+              Patris genitum, non naturae vel substantiae dixit esse Filium, sed 
+              Filium voluntatis Dei, volens asserere accedentem Deo voluntatem, 
+              qua gigneret Filium, sicut nos aliquid aliquando volumus, 
+              quod antea non volebamus, propter quod mutabilis intelligitur nostra 
+              natura; quod absit, ut in Deo esse credamus</quote>
+            <bibl>Augustinus, De Trinitate, XV, c. 20, n. 38 (PL 42:1087)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d6c1-d1e3522">Dicamus ergo, Verbum Dei esse Filium Dei natura, non voluntate, 
+          ut docet <ref><name ref="#Augustine">Augustinus</name> in libro XV <title ref="#deTrinitate">De Trinitate</title>,</ref> ubi quendam 
+          catholicum haeretico respondentem commendat dicens: 
+          <cit>
+            <quote xml:id="pll1d6c1-Qd1e3534">Acute 
+              sane quidam respondit haeretico versutissime interroganti, utrum 
+              Deus Filum nolens, an volens genuerit, ut si diceret nolens, absurdissima 
+              Dei miseria sequeretur; si autem volens, continuo quod 
+              intendebat concluderet, scilicet non naturae esse Filium, sed voluntatis. 
+              At ille vigilantissime vicissim quaesivit ab eo, utrum Deus 
+              Pater volens, an nolens sit Deus, ut si responderet nolens, sequeretur 
+              grandis absurditas et miseria, quam de Deo credere magna 
+              est insania; si autem diceret volens, responderetur ei: ergo et ipse 
+              voluntate sua Deus est, non natura. Quid ergo restabat, nisi ut 
+              obmutesceret, sua interrogatione obligatum insolubili vinculo se videns?</quote>
+            <bibl>Augustinus, De Trinitate, XV, c. 20, n. 38 (PL 42:1087)</bibl>
+          </cit> 
+          Ex praedictis docetur, non esse concedendum, quod Deus 
+          voluntate vel necessitate, vel volens vel nolens genuerit Filium.</p>
+        <p xml:id="pll1d6c1-d1e3543">Sed contra hoc opponitur sic: Voluntas Dei est natura sive, 
+          sicut una est essentia trium personarum, ita et una voluntas. Si 
+          ergo Deus natura Deus est, et voluntate Deus est; et si Verbum 
+          Dei natura Filius Dei est, et voluntate Dei est.</p>
+        <p xml:id="pll1d6c1-d1e3546">Hoc autem facile est refellere. Nam et praescientia Dei sive 
+          scientia, qua scit vel praescit bona et mala, divina natura sive essentia 
+          est; et praedestinatio sive voluntas eius eadem divina essentia 
+          est, nec est aliud Deo scire vel velle quam esse. Et cum sit unum 
+          et idem scientia Dei vel voluntas, non tamen dicitur de voluntate 
+          quidquid dicitur de scientia, et e converso. Nec omnia illa sua voluntate 
+          <!-- p. 53 --> 
+          Deus vult, quae sua scientia scit, cum scientia sua noverit 
+          tam bona quam mala, voluntate autem non velit nisi bona. Scientia 
+          quippe Dei et praescientia de bonis est et malis, voluntas vero et 
+          praedestinatio de bonis est tantum; et tamen unum et idem est in 
+          Deo scientia et voluntas, et praescientia et praedestinatio. Ita cum 
+          unum sit natura Dei et voluntas, dicitur tamen Pater genuisse Filium 
+          natura, non voluntate, et esse Deus natura, non voluntate.</p>
+        <p xml:id="pll1d6c1-d1e3551">Praedicta tamen verba, quibus prudenter dictum est, quod 
+          Deus Pater nec volens nec nolens est Deus, nec nolens nec volens 
+          genuit Filium, sive voluntate vel necessitate, ex tali sensu mihi videntur 
+          accipienda, ut voluntatem praecedentem vel accedentem intelligamus, 
+          qualiter <name>Eunomius</name> intelligebat. Non enim ipse est Deus 
+          voluntate praecedenti vel efficienti, vel volens, priusquam Deus; 
+          nec voluntate praecedenti vel accedenti genuit Filium, nec prius 
+          volens quam generans genuit Filium. Volens tamen genuit, sicut 
+          potens genuit, et bonus genuit, et sapiens genuit, et huiusmodi. Si 
+          enim Pater sapiens et bonus dicitur genuisse Filium, cur non est 
+          volens? cum ita sit Deo idem esse volentem, quod est esse Deum; 
+          sicut idem est esse sapientem, quod est esse Deum. Dicamus ergo, 
+          quia Pater sicut sapiens, ita volens genuit Filium, sed non voluntate 
+          praecedenti vel accedenti. Quem sensum aperit <ref><name ref="#Augustine">Augustinus</name> <!-- might actually be Jerome -->
+            et confirmat, ita dicens <title>Super Epistolam ad Ephesios</title>:</ref> 
+          <cit>
+            <quote xml:id="pll1d6c1-Qd1e3568">De Filio 
+              Dei, id est Domino nostro Iesu Christo scriptum est, quia cum patre 
+              <mentioned>semper fuit,</mentioned> et nunquam eum, ut esset, voluntas paterna praecessit; 
+              et ille quidem natura Filius est.</quote>
+            <bibl>Hieronymus, Super Epistolam ad Ephesios, c. 1, 5, (PL 26:448)</bibl>
+          </cit>
+        </p>
+        <!-- next paragraph is in small font; meaning is unclear -->
+        <p xml:id="pll1d6c1-d1e3581"><name ref="#HilaryOfPoitiers">Hilarius</name> in libro <title>De Synodo</title> 
+          <cit>
+            <quote xml:id="pll1d6c1-Qd1e3590">Eos qui dicunt, de non exstantibus 
+              esse Filium Dei, similiter qui dicunt, quod neque consilio neque voluntate Pater 
+              genuit Filium, anathematizat sancta Ecclesia.</quote>
+            <bibl>Hilarius, De Synodo, n. 39, I (PL 10:510)</bibl>
+          </cit>
+          Item 
+          <cit>
+            <quote xml:id="pll1d6c1-Qd1e3599">si quis nolente Patre dicat 
+              natum Filium, anathema sit. Non enim, nolente Patre, coactus Pater vel naturali 
+              necessitate ductus, cum nollet, genuit Filium, sed mox ut voluit, sine tempore 
+              et impassibiliter ex se Unigenitum demonstravit.</quote>
+            <bibl>Hilarius, De Synodo, n. 58, XXV (PL 10:520)</bibl>
+          </cit>
+          <!-- dbcheck above two quotations -->
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

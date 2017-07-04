@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 19, Capitulus 2</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 19, Capitulus 2</title>
+          <date when="2015-11-13">November 13, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-11-13">November 13, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d19c2">
+        <head xml:id="pll1d19c1-Hd1e3472">Librum I, Distinctio 19, Capitulus 2</head>
+        <!-- Quod aeternitas et magnitudo et potentia in Deo est unum, etsi videantur diversa. -->
+        <p xml:id="pll1d19c2-d1e3477">Cumque enumerentur ista quasi diversa, in Deo tamen unum 
+          et idem sunt, scilicet essentia divina simplex et incommutabilis.</p>
+        <p xml:id="pll1d19c2-d1e3480">Unde <ref><name ref="#Augustine">Augustinus</name> in VII libro <title ref="#deTrinitate">De Trinitate</title>:</ref> 
+          <cit>
+            <quote xml:id="pll1d19c2-Qd1e3492">Non alio 
+              magnus, alio Deus est, sed eo magnus, quo Deus; quia non aliud 
+              illi est magnum esse, aliud Deum esse. Eadem quippe eius magnitudo, 
+              quae virtus, et eadem essentia, quae magnitudo.</quote>
+            <bibl>Augustinus, De Trinitate, VII, c. 1, n. 1 (PL 42:933)</bibl>
+          </cit>
+          Pater 
+          igitur et Filius simul una essentia et una magnitudo.</p>
+        <p xml:id="pll1d19c2-d1e3500">Ita etiam et potentia Dei essentia divina est. Unde <ref><name ref="#Augustine">Augustinus</name> 
+          in VII libro <title ref="#Confessions">Confessionum</title>:</ref> 
+          <cit>
+            <quote xml:id="pll1d19c2-Qd1e3512">Voluntas et potentia Dei Deus 
+              ipse est.</quote>
+            <bibl>Augustinus, De Trinitate, VII, c. 4, n. 6 (PL 32:736)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d19c2-d1e3521">Aeternitas quoque Dei essentia divina est. Quod <ref><name ref="#Augustine">Augustinus</name> 
+          ostendit super illum locum <title ref="#ps">Psalmi</title>:</ref> 
+          <cit>
+            <quote xml:id="pll1d19c2-Qd1e3533" ana="#ps101_25">In generationem et generationem 
+              anni tui,</quote>
+            <bibl>Psalmus 101:25</bibl>
+          </cit>
+          dicens: 
+          <cit>
+            <quote xml:id="pll1d19c2-Qd1e3542">Est generationibus, id est sancti. In illa 
+              erunt anni Dei, qui non transeunt, id est aeternitas Dei; non enim 
+              aliud sunt anni Dei, aliud ipse, sed anni Dei aeternitas Dei est. 
+              Aeternitas vero ipsa Dei substantia est, nihil habens mutabile.</quote>
+            <bibl>Augustinus, Ennarat. serm. 2, n. 10 (PL 37:1311)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d19c2-d1e3550">Inconcusse igitur teneamus, quod unum idemque est, id est 
+          essentia divina, Dei aeternitas, potentia, magnitudo; et tamen consuevit 
+          Scriptura haec et his similia quasi distincta ponere. In his 
+          ergo verbis aequalitatem trium personarum breviter complexus est 
+          <name ref="#Augustine">Augustinus</name>, 
+          <cit>
+            <quote xml:id="pll1d19c2-Qd1e3557">quia alius alium nec aeternitate nec magnitudine 
+              nec potentia superat.</quote>
+            <bibl>Augustinus, XXX</bibl>
+          </cit>
+          Quod autem aeternitate aliqua trium personarum 
+          aliam non excedat, supra ostensum est, ubi coaeternitas 
+          trium personarum insinuata est.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

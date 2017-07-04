@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 42, Capitulus 3</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.11-dev-master">
+          <title>Librum I, Distinctio 42, Capitulus 3</title>
+          <date when="2016-01-23">January 23, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-01-23">January 23, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-11" who="#JW" status="draft" n="2015.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d42c3">
+        <head xml:id="pll1d42c3-Hd1e3496">Librum I, Distinctio 42, Capitulus 3</head>
+        <!-- Quod omnipotentia Dei secundum duo consideretur -->
+        <p xml:id="pll1d42c3-d1e3501">Sic igitur diligenter considerantibus omnipotentia eius secundum 
+          duo apparet, scilicet quod omnia facit quae vult, et nihil 
+          omnino patitur. 
+          <cit>
+            <quote xml:id="pll1d42c3-Qd1e3505">Secundum utrumque Deus omnipotens verissime 
+              praedicatur, quia nec aliquid est, quod ad patiendum corruptionem 
+              ei inferre valeat, nec aliquid ad faciendum impedimentum 
+              afferre. Manifestum est itaque, Deum omnino nihil posse pati et 
+              omnia posse facere, praeter ea sola quibus dignitas eius laederetur, 
+              eiusque excellentiae derogaretur; in quo tamen non est minus 
+              omnipotens, hoc enim posse non esset posse, sed non posse. 
+              Nemo ergo Deum impotentem in aliquo dicere praesumat, qui 
+              omnia potest, quae posse potentiae est; et inde vere dicitur omnipotens.</quote>
+            <bibl>Hugo de Sancto Victore, De sacramentis, p. 2, c. 22 (PL 176:214)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d42c3-d1e3513">Ex quibusdam tamen auctoritatibus traditur, ideo vere omnipotens 
+          dici, quia quidquid vult potest.</p>
+        <p xml:id="pll1d42c3-d1e3516">Unde <ref><name ref="#Augustine">Augustinus</name> in <title ref="#Enchiridion">Enchiridio</title>:</ref> 
+          <cit>
+            <quote xml:id="pll1d42c3-Qd1e3528">Non ob aliud veraciter 
+              vocatur omnipotens, nisi quoniam quidquid vult, potest, nec voluntate 
+              cuiuspiam creaturae voluntatis omnipotentis impeditur effectus.</quote>
+            <bibl>Augustinus, Enchiridion, c. 96, n. 24 (PL 40:276)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d42c3-d1e3537"><ref>Idem in libro <title>De spiritu et littera</title>:</ref> 
+          <cit>
+            <quote xml:id="pll1d42c3-Qd1e3546">Non potest Deus facere 
+              iniusta, quia ipse summa iustitia est et bonitas. Omnipotens 
+              vero est, non quod omnia possit facere, sed quia potest efficere 
+              quidquid vult, ita ut nihil valeat eius voluntati resistere, quin 
+              compleatur, aut aliquo modo impedire eandem.</quote>
+            <bibl>Augustinus, De spiritu et littera, c. 31, n. 53 et ultimo (PL 44:234 et seqq.)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d42c3-d1e3554"><name ref="#JohnChrysostom">Ioannes Chrysostomus</name> in homilia quadam <title>De expositione 
+          Symboli</title> ait: 
+          <cit>
+            <quote xml:id="pll1d42c3-Qd1e3563">Omnipotens dicitur, quia posse illius non 
+              potest invenire non posse, dicente Propheta: 
+              <cit>
+                <quote xml:id="pll1d42c3-Qd1e3567" ana="#ps113_11">Omnia quaecumque 
+                  voluit, fecit;</quote>
+                <bibl>Psalmus 113:11</bibl>
+              </cit>
+              ipse est ergo omnipotens, ut totum quod vult, possit. 
+              Unde <name ref="#Paul">Apostolus</name>: 
+              <cit>
+                <quote xml:id="pll1d42c3-Qd1e3579" ana="#rom9_19">Eius, inquit, voluntati quis resistit?</quote>
+                <bibl>Romanos 9:19</bibl>
+              </cit>
+            </quote> <!-- end of quote not marked in text -->
+            <bibl>Ioannes Chrysostomus, xxx</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d42c3-d1e3594">His auctoritatibus videtur ostendi, quod Deus ex eo dicatur 
+          tantum omnipotens, quia omnia potest, quae vult, non quia possit 
+          omnia.</p>
+        <p xml:id="pll1d42c3-d1e3597">Sed ad haec potest dici, quod <name ref="#Augustine">Augustinus</name>, ubi dicit: 
+          <cit>
+            <quote xml:id="pll1d42c3-Qd1e3604">Omnipotens non dicitur, quia omnia posset</quote>
+            <bibl>Augustinus, xxx</bibl>
+          </cit>
+          etc.
+        </p>
+        <!-- 262 -->
+        <p xml:id="pll1d42c3-d1e3614">His auctoritatibus videtur ostendi, quod Deus ex eo dicatur 
+          tantum omnipotens, quia omnia potest, quae vult, non quia possit 
+          omnia.</p>
+        <p xml:id="pll1d42c3-d1e3618">Sed ad haec potest dici, quod <name ref="#Augustine">Augustinus</name>, ubi dicit: 
+          <cit>
+            <quote xml:id="pll1d42c3-Qd1e3625">Omnipotens non dicitur, quia omnia possit</quote>
+            <bibl>Augustinus, xxx</bibl>
+          </cit>
+          etc., tam ample et 
+          generaliter accepit omnia, ut etiam mala includeret, quae Deus nec 
+          vult, nec potest. Non ergo negavit, eum posse omnia quae convenit, 
+          ei posse. Similiter, cum dicit: 
+          <cit>
+            <quote xml:id="pll1d42c3-Qd1e3634">Non ob aliud veraciter dicitur 
+              omnipotens, nisi quoniam quidquid vult, potest,</quote>
+            <bibl>xxx</bibl>
+          </cit>
+          non negat, eum 
+          posse etiam ea quae non vult; sed adversus eos qui dicebant, 
+          Deum multa velle, quae non poterat, affirmat, eum posse quidquid 
+          vult, et ex eo vere dici omnipotentem, non ob aliud, quia potest 
+          quidquid vult.</p>
+        <p xml:id="pll1d42c3-d1e3642">Sed cave, quomodo intelligas: potest quidquid vult 
+          fieri. Si enim dicas, ideo omnipotentem vocari, quia potest quidquid 
+          vult se posse, ergo et Petrus nunc omnipotens similiter 
+          dici potest, vel quilibet sanctorum Beatorum, quia potest quidquid 
+          vult se posse, et potest facere quidquid vult facere.. Non enim 
+          vult facere, nisi quod facit, nec posse, nisi quod potest; sed non 
+          potest facere quidquid vult fieri. Vult enim, salvos fieri qui 
+          salvandi sunt; verumtamen eos salvare non valet. Deus autem 
+          quidquid vult fieri, potest facere. Si enim vult aliquid fieri per 
+          se, potest illud per se facere, et per se facit, sicut caelum et 
+          terram per se fecit, quia voluit. Si autem vult fieri per creaturam 
+          et per eam operatur - sicut per homines facit domos et 
+          huiusmodi artificiali -- et Deus quidem ex se et per se potest; 
+          homo autem vel Angelus, quantumcumque beatus, non est 
+          potens per se vel ex se.</p>
+        <p xml:id="pll1d42c3-d1e3645">Sed forte dices: Nec Dei Filius potest a se, nec Spiritus sanctus, 
+          sed solus Pater: ille enim potest a se, qui est a se; Filius 
+          autem, quia non est a se, sed a Patre, non potest a se, sed a Patre; 
+          et Spiritus sanctus ab utroque.</p>
+        <p xml:id="pll1d42c3-d1e3648">Ad quod dicimus, quia licet Filius non possit a se, nec operetur 
+          a se, potest tamen et operatur per se; sic et Spiritus sanctus.</p>
+        <p xml:id="pll1d42c3-d1e3651">Unde <ref><name ref="#HilaryOfPoitiers">Hilarius</name> in libro IX <title ref="#HilaryOfPoitiers_DeTrinitate">De Trinitate</title>:</ref> 
+          <cit>
+            <quote xml:id="pll1d42c3-Qd1e3663">Naturae, inquit, 
+              cui contradicis, haeretice, haec unitas est, ut ita per se agat 
+              Filius, ne a se agat, et ita non a se agat, ut per se agat.</quote>
+            <bibl>Hilarius, De Trinitate, n. 48 (PL 10:319)</bibl>
+          </cit>
+          Per 
+          se autem dicitur agere et potens esse, quia naturalem habet potentiam 
+          eandem, quam et Pater, qua potens est et operatur; sed 
+          quia illam habet a Patre, non a se, ideo a Patre, non a se dicitur 
+          posse et agere. Homo autem vel Angelus gratuitam habet potentiam, 
+          qua potens est.</p>
+        <p xml:id="pll1d42c3-d1e3671">Ideo igitur vere ac proprie Deus Trinitas omnipotens dicitur, 
+          quia per se, id est naturali potentia, potest quidquid vult fieri, et 
+          quidquid vult se posse. Nihil enim vult fieri, quod non possit facere 
+          per se vel per creaturam; et nihil vult se posse, quod non 
+          possit; et omne quod vult fieri, vult se posse; sed non omne quod 
+          vult se posse, vult et fieri. Si enim vellet, et fieret, quia voluntati 
+          eius nihil resistere posset.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

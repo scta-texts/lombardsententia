@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 11, Capitulus 2</title>
+        <author>Petrus Lombardus</author>
+        <editor></editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.10-dev-master">
+          <title>Librum I, Distinctio 11, Capitulus 2</title>
+          <date when="2015-10-19">October 19, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher></publisher>
+        <pubPlace></pubPlace>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2015-10-19">October 19, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-10-19" who="#JW" status="draft" n="2015.10">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d11c2">
+        <head>Librum I, Distinctio 11, Capitulus 2</head>
+        <!-- De convenientia Latinorum et Graecorum in sensu, et differentia in verbis -->
+        <p xml:id="pll1d11c2-d1e3477">Sciendum tamen est, quod Graeci confitentur, Spiritum sanctum 
+          esse Filii, sicut Patris quia est <name ref="#Paul">Apostolus</name> dicit 
+          <cit>
+            <quote xml:id="pll1d11c2-Qd1e3484" ana="#gal4_6">Spiritum Filii</quote>
+            <bibl>Galatas 4:6</bibl>
+          </cit>
+          et Veritas in Evangelio 
+          <cit>
+            <quote xml:id="pll1d11c2-Qd1e3493" ana="#io16_13">Spiritum veritatis.</quote>
+            <bibl>Ioannes 16:13</bibl>
+          </cit>
+          Sed cum non 
+          sit aliud Spiritum sanctum esse Patris vel Filii, quam esse a Patre 
+          et Filio, etiam in hoc in eandem nobiscum fidei sententiam convenire 
+          videntur, licet verbis dissentiant.</p>
+        <!-- p. 80 -->
+        <p xml:id="pll1d11c2-d1e3503">Unde etiam quidam eorum catholici doctores, intelligentes, 
+          unam eandemque fore sententiam praedictorum verborum, quibus 
+          dicitur Spiritus sanctus procedere a Filio et esse Filii, professi sunt, 
+          Spiritum sanctum etiam a Filio procedere.</p>
+        <p xml:id="pll1d11c2-d1e3507">Unde <ref><name ref="#Athanasius">Athanasius</name> in <title>Symbolo fidei</title>:</ref> 
+          <cit>
+            <quote xml:id="pll1d11c2-Qd1e3519">Spiritus sanctus a Patre et Filio, non factus, nec creatus, nec genitus, sed procedens.</quote>
+            <bibl>Symbolum: Quicumque</bibl>
+          </cit>
+          Ecce Spiritum sanctum aperte dixit procedere a Patre et Filio.</p>
+        <p xml:id="pll1d11c2-d1e3527"><ref><name ref="#Didymus">Didymus</name> etiam, eorum maximus doctor, in libro <title>De spiritu sancto</title>,</ref> 
+          Spiritum sanctum a Filio procedere dicit: 
+          <cit>
+            <quote xml:id="pll1d11c2-Qd1e3538">Salvator, 
+              inquit, qui et Veritas: 
+              <cit>
+                <quote xml:id="pll1d11c2-Qd1e3542" ana="#io16_13">Non enim loquetur a semetipso,</quote>
+                <bibl>Ioannes 16:13</bibl>
+              </cit>
+              hoc est, 
+              non sine me et sine meo et Patris arbitrio, quia inseparabilis est 
+              a me et a Patris voluntate, quia ex se non est, sed ex Patre et 
+              me est. Hoc enim ipsum, quod subsistit et loquitur, a Patre et a 
+              me illi est.</quote>
+            <bibl>Didymus, De spiritu sanctu, n. 34 (PGL 39:1063)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d11c2-d1e3555">Item: 
+          <cit>
+            <quote xml:id="pll1d11c2-Qd1e3559">Spiritus sanctus, qui est Spiritus veritatis Spiritusque 
+              sapientiae, non potest audire a Filio loquente quae nescit, cum 
+              ipsum sit hoc, quod profertur a Filio, id est, procedens Deus de 
+              Deo, Spiritus Veritatis procedens a Veritate, consolator manans ex 
+              consolatione.</quote>
+            <bibl>Didymus, De spiritu sanctu, n. 36 (PGL 39:1063)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d11c2-d1e3567">Item <name ref="#CyrilOfAlexandria">Cyrillus</name> episcopus in <title>Epistola Nestorio</title> directa, ait: 
+          <cit>
+            <quote xml:id="pll1d11c2-Qd1e3577">Spiritus intelligitur per se, secundum quod Spiritus est, et non Filius; sed tamen non est alienus ab eo. Spiritus enim Veritatis 
+              nominatur et profluit ab eo, sicut ex Deo Patre.</quote>
+            <bibl>Cyrillus, Epistola Nestorio, Epist. 17 (PGL 77:118)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d11c2-d1e3585"><name ref="#JohnChrysostom">Ioannes</name> quoque <name ref="#JohnChrysostom">Chrysostomus</name> in homilia quadam 
+          <title>De Expositione Symboli</title> sic ait: 
+          <cit>
+            <quote xml:id="pll1d11c2-Qd1e3597">Iste est Spiritus sanctus procedens 
+              de Patre et Filio, quid dividit <!-- dividit is italicized --> dona propria, prout vult <!-- prout vult is italicized; reason unclear -->.</quote>
+            <bibl>XXX</bibl>
+          </cit>
+        </p>
+        <!-- p. 81 -->
+        <p xml:id="pll1d11c2-d1e3612">Idem in alia homilia: 
+          <cit>
+            <quote xml:id="pll1d11c2-Qd1e3616">Credendum est, Spiritum sanctum 
+              Patris esse et Filii. Istum Spiritum sanctum dicimus Patri et Filio 
+              coaequalem et procedentem de Patre et Filio. Hoc credite, ne 
+              <cit>
+                <quote xml:id="pll1d11c2-Qd1e3620" ana="Icor15:33">colloquia mala corrumpant bonos mores</quote>
+                <bibl>I Corinthios 15:33</bibl>
+              </cit>
+            </quote>
+            <bibl>XXX</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d11c2-d1e3633">Ecce a doctoribus Graecorum aperta habemus testimonia, quibus 
+          Spiritus sanctus a Patre et Filio procedere ostenditur. 
+          <cit>
+            <quote xml:id="pll1d11c2-Qd1e3637" ana="#phil2_11">Omnis ergo lingua confiteatur,</quote>
+            <bibl>Philip. 2:11</bibl>
+          </cit>
+          Spiritum sanctum procedere a Patre 
+          et Filio.</p>
+      </div>
+    </body>
+  </text>
+</TEI>
