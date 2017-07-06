@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -33,8 +32,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -54,33 +52,33 @@
     </front>
     <body>
       <div xml:id="pl-l2d40c1">
-        <head>Liber I, Distinctio 40, C. 1</head>
-        <head type="question-title">An ex fine. omnes aetas pensari debeant, ut ex affectu vel fine
+        <head xml:id="pl-l2d40c1-Hd1e102">Liber I, Distinctio 40, C. 1</head>
+        <head xml:id="pl-l2d40c1-Hd1e105" type="question-title">An ex fine. omnes aetas pensari debeant, ut ex affectu vel fine
           omnes sint boni, vel mali. </head>
-        <p> Post haec de actibus adiiciendum videtur, utrum et ipsi ex fine, sicut voluntas, pensari
+        <p xml:id="pl-l2d40c1-d1e108"> Post haec de actibus adiiciendum videtur, utrum et ipsi ex fine, sicut voluntas, pensari
           debeant boni, vel mali. </p>
-        <p> Licet enim, secundum quosdam, omnes boni sint, in quantum sunt, non tamen absolutee
+        <p xml:id="pl-l2d40c1-d1e111"> Licet enim, secundum quosdam, omnes boni sint, in quantum sunt, non tamen absolutee
           onmes dicendi sunt boni, nec omnes remunerabiles, sedquidam simpliciter mali dicuntur,
           sicut et. alii boni. Nam simpliciter ac vere boni Sunt illi actus, qui bonam ha- bent
           causam et intentionem, id est, qui bonam voluntatem comi- tantur et ad bonum finem
           tendunt. Mali. vero simpliciter dici de— bent qui perversam habent causam et intentionem. </p>
-        <p> Unde Ambrosius2 ait: « Afiectus tuus nomen operi tuo imponit». </p>
-        <p>
+        <p xml:id="pl-l2d40c1-d1e114"> Unde Ambrosius2 ait: « Afiectus tuus nomen operi tuo imponit». </p>
+        <p xml:id="pl-l2d40c1-d1e118">
           <pb ed="#Q" n="519"/>Et Augustinus · Super Psalmttm 31 1: « Nemo computet bona opera sna
           ante fidem. It.a enim mihi videntur esse nt magnae vires et cursus celerrimus praeter
           viam; quia obi fides non erat, bonum opus non erat: bonum enim opus intenti.o facit,
           intentionern fides a dirigit. Non valde attendas, quid homo facial, sed qnid, cum facii,
           attendat, quo lacertos b optimae gnbernalionis dirigat ». His teslimoniis insinnari
           videlur, ex affel'ln et fine opera bona esse, vel mala. </p>
-        <p> Quibus consonat quod in Evangelio 2 ait Veritas c: Non a palest arboi· bona· fructus
+        <p xml:id="pl-l2d40c1-d1e123"> Quibus consonat quod in Evangelio 2 ait Veritas c: Non a palest arboi· bona· fructus
           malos facere, neque arbor mala fruclus bo· nos facere e. Nomine arboris r non nalnra
           humanae mentis, ~ed volnntas intelligilur, quae si mala fllerit, non bona, sed mala opera
           facil; si vero bona fuerit, bona, non mala facit opera. Seel quaeritur, utrum omnia opera
           hominis ex affectn et fine 365 sint bona, vel rnala. </p>
-        <p> Quibnsdam 3 ita ·esse videtnr, qni dicnnt, omnes actus esse g indifferentes, ut nee boni
+        <p xml:id="pl-l2d40c1-d1e126"> Quibnsdam 3 ita ·esse videtnr, qni dicnnt, omnes actus esse g indifferentes, ut nee boni
           nee mali per se sint, sec! ex intentione bona bonus, et ex mala mains sit omnis actns.
           ~ecundum qnos, quilibet actus potest esse bonus, si bona intentione geratur. </p>
-        <p> Aliis anlem videtur, quod qnidam actus in se mali sint, lta ul non possint esse nisi
+        <p xml:id="pl-l2d40c1-d1e129"> Aliis anlem videtur, quod qnidam actus in se mali sint, lta ul non possint esse nisi
           peccata, etiam si bonam habeant cansam; , et quidarn in se boni, ita nt, elsi malam
           habeant causarn, non ta~ men boni esse desinant. Quod testimonio Augustin i 4 confirmant,
           qui dicit, bonum aliquando non bene fieri: « Quod enim quis invitus vel necessitate facit,
@@ -88,14 +86,14 @@
           « Servilis, inquit, timor non est in caritale, in quo quarnvis credatur Deo, non tamen in
           Deum~ et si bonum fiat, non ta men bene ». « Nemo enim invitus bene facit, etiamsi bonum
           est quod facit .6 ». </p>
-        <p> Ecce babes, quod aliquis non bene facit illud quod bonum est; facit ergo quod bonum est
+        <p xml:id="pl-l2d40c1-d1e132"> Ecce babes, quod aliquis non bene facit illud quod bonum est; facit ergo quod bonum est
           'intentione non bona. ldeo asserunt <pb ed="#Q" n="520"/> illi, quaedam opera esse talia,
           quae sic bona sunt, quod mala esse ,- j non possunt, quocumque modo fiant, sicut e
           converso quaedam sic sunt mata, ut non possint esse bona, quacumque ex causa fiant "';
           alia autem esse opera, quae ex fine vel ex fcausa ? bona sunt, vel mala; et ad illa
           referunt Sanctorum testimonia, quibus ex ? af— fectu, vel intentione iudicium operum
           pensari dicunt; tripartitam edunt isti differentiam actuum. </p>
-        <p> Sed Augustinus evidentissime docet in libro Contra, mcnda— cium 1, omnes actus secundum
+        <p xml:id="pl-l2d40c1-d1e137"> Sed Augustinus evidentissime docet in libro Contra, mcnda— cium 1, omnes actus secundum
           intentionem et causam iudicandos bonos, vel malos, praeter quosdam, qui ita sunt mali, ut
           nunquam possint esse boni, etiam si bonam videantur habere causam. « ln- terest, inquit d,
           plurimum, qua causa, quo tine, qua. intentione quid fiat. Sed. ea quae constat esse
@@ -125,31 +123,31 @@
           qui alienum corrumpit testamentum, ut is esset hae- res, qni faceret eleemosynas largas,
           non ille qui nullas; et eum qui 'se fecisse adulterium ostendit, ' hominem de morte
           liberetz» </p>
-        <p> Sed « dicet aliquis: Ergo aequandus est fur quilibet furi, qui voluntate misericordiae
+        <p xml:id="pl-l2d40c1-d1e143"> Sed « dicet aliquis: Ergo aequandus est fur quilibet furi, qui voluntate misericordiae
           furatur. Quis hoc dixerit? Sed ho1um dno- rum non ideo quisquam est bonus, quia peior est
           unus: peior est qui miserando ?' furatur. Sed si furtum omne peccatum est, ab omn ifurto
           abstinendum est. Quis enim dicat esse peccandum, etiamsi aliud sit gravius, alind leviusd
           peccatum? Nunc autem quaerimus, quis actus peccatum sit, vel non; non, quid gravius sit,
           vel levius 3 </p>
-        <p> Intende, lector, propositis verbis tota mentis consideratione, sit peccatum, qui
+        <p xml:id="pl-l2d40c1-d1e146"> Intende, lector, propositis verbis tota mentis consideratione, sit peccatum, qui
           scilicet malam habet causam, nec ille tan.,tum quia sunt nonnulli actus, qui etsi bonam
           habeant causam, tamen. peccata sunt, ut supra positum est. </p>
-        <p> Ex quo consequi videtur, quod non semper ex fine iudicatur voluntas sive actio mala,
+        <p xml:id="pl-l2d40c1-d1e149"> Ex quo consequi videtur, quod non semper ex fine iudicatur voluntas sive actio mala,
           sicut in illis quae per se peccata sunt. illa enim cum quis gesserit pro aliqua causa
           bona, bonum. viden- tur ? habere finem; nec ex fine voluntas est mala, nec ex volun— tate
           actio fit mala, sed ex actione voluntas fit prava. In quibus aliqui ponunt actum
           Iudaeorum, qui crucifigendo Christum arbi- trabantur, se obsequium praestem Deo '" 4, quia
           bonum finem di- <pb ed="#Q" n="522"/> cunt eos sibi posuisse, scilicet Dei obsequium 0, et
           tamen. volunta tern eorum et actionem perversam fore asserunt. </p>
-        <p> De bonis autem nulla fit exceptio in praemissis verbis Au- gustini, quin omnis voluntas
+        <p xml:id="pl-l2d40c1-d1e154"> De bonis autem nulla fit exceptio in praemissis verbis Au- gustini, quin omnis voluntas
           bona ex line sit bona, et ex, fine et b. voluntate omnis bona 0 actio, bona est. Sed non
           omnis, mala voluntas ex line mala est, nec omnis mala actio ex fine et vo— luntate mala
           "est, et omnis d quae habet malam causam, mala est, sed non Omnis quae bonam habet causam,
           bona est. Ideoque? cum exf affectu dicitur imponi" nomen operi, in bonis operibus.,
           gene1aliter vera est haec regula, sed in malis illa excipiuntur? quae per se mala sunt. </p>
-        <p> Omnia igitur opera hominis secundum intentionem et causam iudicantur bona vel mala,
+        <p xml:id="pl-l2d40c1-d1e157"> Omnia igitur opera hominis secundum intentionem et causam iudicantur bona vel mala,
           exceptis his, quae per se mala sunt, id est, quae sine praevaricatione iieri nequeunt. </p>
-        <p> Quae tamen quidam contendunt nunquam habere bonam causam. Qui enim " aliena furatur, ut
+        <p xml:id="pl-l2d40c1-d1e160"> Quae tamen quidam contendunt nunquam habere bonam causam. Qui enim " aliena furatur, ut
           pauperibus tribuat, non pro bono,'ut aiunt, furatur: non enim bonum (est aliena pauperibus
           dare. Qui enim de rapina sacrificium oiïert Deo, ut ait auctoritas, idem facit, ac si
           filiam in conspectu patris uictimet 1, vel sacri- /iciam canis i Deo offerat 2.

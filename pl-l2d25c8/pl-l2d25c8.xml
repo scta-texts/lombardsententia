@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -33,8 +32,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -54,95 +52,95 @@
     </front>
     <body>
       <div xml:id="pl-l2d25c8">
-        <head>Liber I, Distinctio 25, C. 8</head>
-        <head type="question-title">De tribus modis libertatis liberi arbitrii: a necessitate, a
+        <head xml:id="pl-l2d25c8-Hd1e102">Liber I, Distinctio 25, C. 8</head>
+        <head xml:id="pl-l2d25c8-Hd1e105" type="question-title">De tribus modis libertatis liberi arbitrii: a necessitate, a
           peccato, et miseria.</head>
-        <p> « Est namqueb libertas C triplex, scilicet a necessitate, a peccato, a miseria. </p>
-        <p> « A necessitate et ante peccatum et post aeque liberum est arbitrium. Sicut enim tunc
+        <p xml:id="pl-l2d25c8-d1e108"> « Est namqueb libertas C triplex, scilicet a necessitate, a peccato, a miseria. </p>
+        <p xml:id="pl-l2d25c8-d1e111"> « A necessitate et ante peccatum et post aeque liberum est arbitrium. Sicut enim tunc
           cogi non poterat, ita nec modo. ideoque <pb ed="#Q" n="433"/> voluntas merito apud Deum
           iudicatur, quae semper a necessitate libera: est et nunquam cogi potest. Ubi · necessitas,
           ibi non ·est libertas; ubi non est libertas, nee voluntas, et ideo nee meritum. Baec
           libertas in omnibus est, tam in bonis quam in malis. </p>
-        <p>
-          <quote>Est et alia Jibertas, a peccato scilicet, de qua dicit Apo st o- 1 us 1 :. Vbi
+        <p xml:id="pl-l2d25c8-d1e116">
+          <quote xml:id="pl-l2d25c8-Qd1e118">Est et alia Jibertas, a peccato scilicet, de qua dicit Apo st o- 1 us 1 :. Vbi
             Spiritus Domini, ihi libertas; et Veritas in Evangelia 2 : Si Filius vos liheraverit,
             vere liberi eritis. </quote>
         </p>
-        <p> Haec libertas a servitute peccati liberal et servos iustitiae facit, sicut e converso
+        <p xml:id="pl-l2d25c8-d1e123"> Haec libertas a servitute peccati liberal et servos iustitiae facit, sicut e converso
           servitns peccati a liberos iustitiae facit. </p>
-        <p>
-          <quote>Unde Apo st o I us 3 : Liberati a peccato, servi facti estis iu,- .~titiae. Et item
+        <p xml:id="pl-l2d25c8-d1e126">
+          <quote xml:id="pl-l2d25c8-Qd1e128">Unde Apo st o I us 3 : Liberati a peccato, servi facti estis iu,- .~titiae. Et item
             4 : Cum servi essetis peccati, liberi fuistis iustitae. </quote>
         </p>
-        <p> Hanc libertatem homo peccando amisit; ideoq ue August in us 5 . dicit, quod homo male
+        <p xml:id="pl-l2d25c8-d1e132"> Hanc libertatem homo peccando amisit; ideoq ue August in us 5 . dicit, quod homo male
           utens libero arbitrio, et se perdidit et ipsum, quia perdita est per peccatum Jibertas,
           non a necessitate, sed a peccato: Qui enim f'acit peccatum servus est peccati. </p>
-        <p>
-          <quote>Istarn libertatem, quae !3St a peccato, illi soli nunc habent, quos Filius per
+        <p xml:id="pl-l2d25c8-d1e135">
+          <quote xml:id="pl-l2d25c8-Qd1e137">Istarn libertatem, quae !3St a peccato, illi soli nunc habent, quos Filius per
             gratiam liberal et reparat, non ita qnod penitus sint sine peccato in hac mortali came,
             sed ut b in· eis peccatnm non domiDf~tur, neque regnet. Et haec est vera et bona
             libertas, quae bonam parit servitutem, scilicet iustitiae. </quote>
         </p>
-        <p>
-          <quote> Unde Augustin n s in Enchiridio c 6: Ad iustitiam faciendam non erit aliquis
+        <p xml:id="pl-l2d25c8-d1e141">
+          <quote xml:id="pl-l2d25c8-Qd1e143"> Unde Augustin n s in Enchiridio c 6: Ad iustitiam faciendam non erit aliquis
             liber, nisi a peccato liberatus, esse iustitiae coeperit servus; et ipsa est vera
             libertas propter reeti facti laetitiam, simul et pia servitus propter praecepti
             obedientiarn 7 &gt;). </quote>
         </p>
-        <p> Est alia Jibertas non vera, malae servituti adinncta, qnae est 223 ad malum a faciendum,
+        <p xml:id="pl-l2d25c8-d1e147"> Est alia Jibertas non vera, malae servituti adinncta, qnae est 223 ad malum a faciendum,
           ubi ratio dissentit a voluntate, iudicans non esse faciendum quod voluntas appetit; ad
           bonum vero faciendum ratio concordat voluntati, et ideo ibi e vera libertas est et pia. </p>
-        <p> De libertate autem ad malumetservitute malaait Augustin us in Enchiridio 8 : <quote>
+        <p xml:id="pl-l2d25c8-d1e151"> De libertate autem ad malumetservitute malaait Augustin us in Enchiridio 8 : <quote xml:id="pl-l2d25c8-Qd1e153">
             Servi addicti r quae potest esse libertas, nisi quando eum peccare delectat? Liberaliter
             enim servit, qui sui Domini voluntatem libenter facit; ac per hoc ad peccandum liber est
             qui peccati servns . est.</quote>
         </p>
-        <p>
+        <p xml:id="pl-l2d25c8-d1e157">
           <pb ed="#Q" n="434"/> Hic quaeri potest *, utrum haec libertas, qua quis liber est ad
           malum, sit libertas arbitrii.» Si enim-libertas arbitiii est, bonum quidem est, quia
           libertas arbitrii bonum b naturale est. </p>
-        <p> Quibusdam videtur, quod sit ipsa libertas arbitrii, quae sem- per bona est, sed propter
+        <p xml:id="pl-l2d25c8-d1e162"> Quibusdam videtur, quod sit ipsa libertas arbitrii, quae sem- per bona est, sed propter
           peccati servitutem ad malum sit libe- rior et pronior; et'ideo dicitur non vera esse
           libertas, quia ad malum est. </p>
-        <p> Aliis autem videt11r,q11od haec libertas ad malum, quam su- pra commemoravit Augustinus,
+        <p xml:id="pl-l2d25c8-d1e165"> Aliis autem videt11r,q11od haec libertas ad malum, quam su- pra commemoravit Augustinus,
           non sit ipsa libertas arbitrii, sed sit quaedam prouitas peccandi et curvitas, quae ex
           peccato est et mala est. </p>
-        <p> Similiter etiam e quaeri solet, utrum illa libertas vera, quae est ad iustitiam
+        <p xml:id="pl-l2d25c8-d1e168"> Similiter etiam e quaeri solet, utrum illa libertas vera, quae est ad iustitiam
           faciendam, sit ipsa d libertas arbitrii. </p>
-        <p> Quidam dicunt, illam eandem esse, sed reparatam per gra- tiam, qua iuvante libera-est ad
+        <p xml:id="pl-l2d25c8-d1e171"> Quidam dicunt, illam eandem esse, sed reparatam per gra- tiam, qua iuvante libera-est ad
           bonum, sine gratia veronon est libera ad bonum. </p>
-        <p> Unde Augustinus in Enehz'rz'dzfol: « lsta libertas ad bene ** faciendum unde erit homini
+        <p xml:id="pl-l2d25c8-d1e175"> Unde Augustinus in Enehz'rz'dzfol: « lsta libertas ad bene ** faciendum unde erit homini
           addicto et vendito, nisi eum redimat ille '" qui dicit 2: Si Filius vos liberaverit, vere
           liberi erilis? Quod - antequam heri in homine incipiat, quomodo quisquamde libero arbitrio
           gloriatur, qui nondum est liber ad bene '9 operandum»? Ecce aperte ostendit, liberum
           arbitrium per gratiam liberari n., ut per illud bene operetur quis. ideoque dicunt, illam
           l'ibertatemwveram, quae est ad bene faciendum, cuius supra meminit Augustinus, esse
           libertatem ipsami arbitrii, gratia Dei liberatam et adiutam. </p>
-        <p> Alii veroputant non esse ipsam arbitrii libertatem, sed aliam quandam, quae ex gratia et
+        <p xml:id="pl-l2d25c8-d1e178"> Alii veroputant non esse ipsam arbitrii libertatem, sed aliam quandam, quae ex gratia et
           libero arbitrio in mente hominis, Deo operante, incipit esse cum reparatur. </p>
-        <p> Verumk nobis magis placet ut ipsa libertas arbitrii sit et illal qua quis liber est ad m
+        <p xml:id="pl-l2d25c8-d1e181"> Verumk nobis magis placet ut ipsa libertas arbitrii sit et illal qua quis liber est ad m
           malum, et illa qua quis liber est ad bonum faciendum: ex causis enim variis sortitur
           diversa vocabula. Dicitur enim libertas ad malumfaciendum, antequam per gratiam sit re—
           parata; sed cum per gratiam fuerit reparata, dicitur libertas ad bonum faciendum, quia
           ante gratiam libera est voluntas ad ma<pb ed="#Q" n="435"/>lum, per gratiam vero libera
           fit ad bonum. Semper igitur voluntas ,. ominis aliquo modo libera est, sed non Semper bona
           est. Non enim est bona nisi a peccato liberata; est tamen a necessitate libera. </p>
-        <p> Unde Augustinus in libro De gratia, et libero arbitrio 1: « Semper in nobis voluntas
+        <p xml:id="pl-l2d25c8-d1e186"> Unde Augustinus in libro De gratia, et libero arbitrio 1: « Semper in nobis voluntas
           libera est 4, sed non semper bona est. Aut enim libera est iustitiae, quando servit
           peccato, et tunc est mala; aut a pecccato libera est, quando servit iustitiae, et tunc est
           bOna ». </p>
-        <p> Est iterum libertas a miseria, de qua Apostolus 2 ait: E1226 ipsa creatum liberabitur 11
+        <p xml:id="pl-l2d25c8-d1e189"> Est iterum libertas a miseria, de qua Apostolus 2 ait: E1226 ipsa creatum liberabitur 11
           servitute corruptionis in libertatem- glorzae älzorum Dei. </p>
-        <p> Hanc libertatem habuit homo ante peccatum, quia omni carebat miseria et nulla tangebatur
+        <p xml:id="pl-l2d25c8-d1e192"> Hanc libertatem habuit homo ante peccatum, quia omni carebat miseria et nulla tangebatur
           b molestia, et plenius habebit in futura beatitudine, ubi miser esse non poterit. Sed in
           hac vita, quae est inter primum peccatum et ultimam confirmationem, nemo a mi- seria liber
           est, quia poena peccati non caret. ' « Ex praedictis iam apparet, in quo per peccatumsit
           imminu- tum vel corruptum liberum arbitrium, quia ante peccatum nulla erat homini
           ditïicultas nullumque impedimentum de lege membro- rum ad bonum, nulla impulsio vel
           instigatio ad malum 3 </p>
-        <p> Nunc autem per legem carnis ad bonum impeditur et ad ma- lum instigatur, ut non possit
+        <p xml:id="pl-l2d25c8-d1e196"> Nunc autem per legem carnis ad bonum impeditur et ad ma- lum instigatur, ut non possit
           velle et perticere bonum, nisi per gratiam liberetur et adiuvetur, quia, ut ait Apostolus
-          4, <quote ana="rom7_17">peccatum habitat in carne</quote>. Liberum ergo arbitrium, cum
+          4, <quote xml:id="pl-l2d25c8-Qd1e198" ana="rom7_17">peccatum habitat in carne</quote>. Liberum ergo arbitrium, cum
           semper et in singulis sit liberum, non est tamen liberum pariter in'bonis et in malis, et
           ad bona et ad mala. Liberius enim est in bonis, ubi li- beratum est, quam in malis, ubi
           liberatum non est. Et liberius est. ad malum, quod per se potest, quam ad bonum, quod,

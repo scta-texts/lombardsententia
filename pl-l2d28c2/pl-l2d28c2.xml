@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -33,8 +32,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -54,8 +52,8 @@
     </front>
     <body>
       <div xml:id="pl-l2d28c2">
-        <head>Liber I, Distinctio 28, C. 2</head>
-        <p> Pelagianorum haeresis omnium recentissima Pelagio monacho est exorta. Hi Dei gratiae,
+        <head xml:id="pl-l2d28c2-Hd1e102">Liber I, Distinctio 28, C. 2</head>
+        <p xml:id="pl-l2d28c2-d1e105"> Pelagianorum haeresis omnium recentissima Pelagio monacho est exorta. Hi Dei gratiae,
           qua praedestinati sumus, et qua meruimus de potestate tenebrarum erui 1, in tantum inimici
           . --snnt, ut sine hac credant hominem posse facere omnia divina man— data. Denique
           Pelagius a fratribus increpatus, quod nihil tribueret adiutorio gratiae Dei ad eius

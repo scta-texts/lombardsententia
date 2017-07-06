@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -33,8 +32,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -54,15 +52,15 @@
     </front>
     <body>
       <div xml:id="pl-l2d17c5">
-        <head>Liber I, Distinctio 17, C. 5</head>
-        <head type="question-title">Quibus modis paradisus accipitur.</head>
-        <p> Intelligitur autem paradisus localis et corporalis, in quo homo locatus est. </p>
-        <p>
-          <quote>Tres enim generales de paradiso sententiae sunt: una eorum qui corporaliter
+        <head xml:id="pl-l2d17c5-Hd1e102">Liber I, Distinctio 17, C. 5</head>
+        <head xml:id="pl-l2d17c5-Hd1e105" type="question-title">Quibus modis paradisus accipitur.</head>
+        <p xml:id="pl-l2d17c5-d1e108"> Intelligitur autem paradisus localis et corporalis, in quo homo locatus est. </p>
+        <p xml:id="pl-l2d17c5-d1e111">
+          <quote xml:id="pl-l2d17c5-Qd1e113">Tres enim generales de paradiso sententiae sunt: una eorum qui corporaliter
             intelligi volunt tantum; alia eorum qui spritualiter tantum; tertia eorum qui utroque
             modo paradisum accipiunt. Tertiam mihi placere fateor, ut homo in corporali paradiso sit
             positus</quote>, qui ab illo principio plantatus accipi potest, quo omnem terram,
-          remotis aquis, herbas et ligna producere iussit. <quote>Qui etsi praesentis Ecclesiae vel
+          remotis aquis, herbas et ligna producere iussit. <quote xml:id="pl-l2d17c5-Qd1e116">Qui etsi praesentis Ecclesiae vel
             futurae typum tenet, ad litteram tamen intelligendum est, esse locum amoenissimum,
             fructuosis arboribus magnum et magno fonte fecundum. Quod dicimus a principio, antiqua
             translatio dicit ad orientem. Unde volunt, in orientali <pb ed="#Q" n="386"/> parte esse

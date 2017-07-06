@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -33,8 +32,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -54,10 +52,10 @@
     </front>
     <body>
       <div xml:id="pl-l2d35c2">
-        <head>Liber I, Distinctio 35, C. 2</head>
-        <head type="question-title">De peccato.</head>
-        <p> Quocirca, diversitatis hnius verbornm occasione, de peccato plurimi diversa senserunt. </p>
-        <p> Alii enim dixerunt, voluntatem ma\am lantum peccatnrn esse et non actus exteriores b;
+        <head xml:id="pl-l2d35c2-Hd1e102">Liber I, Distinctio 35, C. 2</head>
+        <head xml:id="pl-l2d35c2-Hd1e105" type="question-title">De peccato.</head>
+        <p xml:id="pl-l2d35c2-d1e108"> Quocirca, diversitatis hnius verbornm occasione, de peccato plurimi diversa senserunt. </p>
+        <p xml:id="pl-l2d35c2-d1e111"> Alii enim dixerunt, voluntatem ma\am lantum peccatnrn esse et non actus exteriores b;
           alii c, volnntatem et actus; alii nentrum, dicentes, ornnes actns esse bonos, et a Deo et
           ex Deo auctore esse, malum autem nihil esse, nt ait Aug n st in us Super Ioanne11~ ~:
           Omnia per ipsuni a facta sunt, et sine ipso f'actn11i. est mlul, id est peccatum, qnod
@@ -66,13 +64,13 @@
           Sumnrnm malum nullum modum babel, caret emm om~t bono; at modns aliqnid boni est; non
           igitnr est, qui.a n.ulla specie continetnr, totnmque hoc nomen mali de ~peciei privat1one
           repertum est 1. </p>
-        <p> Idem in Dogmatibus ecclesiasticis 5 dicitur: «Mal urn :el ?1alitiam non esse a Oeo
+        <p xml:id="pl-l2d35c2-d1e114"> Idem in Dogmatibus ecclesiasticis 5 dicitur: «Mal urn :el ?1alitiam non esse a Oeo
           creatarn, sed a diabolo inventam, qm et ipse bonus creatus est ». </p>
-        <p> Idem etiam in libro Contra Manichaeos 6, quid sit peccare ostendit, dice~s: Peccare quid
+        <p xml:id="pl-l2d35c2-d1e118"> Idem etiam in libro Contra Manichaeos 6, quid sit peccare ostendit, dice~s: Peccare quid
           71; aliud est, nisi in veritatis praeceptis <pb ed="#Q" n="493"/> vel in ipsa veritate a
           errare? Quod si non voluntate faciunt pecca- tores, iniuste iudicantur». </p>
-        <p> Quid igitur in hacb tanta varietate tenendum, quidc dicendumd? </p>
-        <p> Sane dici potest et libere tradi debet, peccatum esse actum malum interiorem et
+        <p xml:id="pl-l2d35c2-d1e123"> Quid igitur in hacb tanta varietate tenendum, quidc dicendumd? </p>
+        <p xml:id="pl-l2d35c2-d1e126"> Sane dici potest et libere tradi debet, peccatum esse actum malum interiorem et
           exteriorem, scilicet malam cogitationem, lo- cutionem et operationem; praecipue tamen in
           voluntate peccatum consistit, ex qua, tanquam ex arbore malia, procedunt opera mala
           tanquam fructus mali. </p>

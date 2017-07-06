@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -33,8 +32,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -54,18 +52,17 @@
     </front>
     <body>
       <div xml:id="pl-l2d29c6">
-        <head>Liber I, Distinctio 29, C. 6</head>
-        <head type="question-title">An ante peccatum Immo comederit de ligno vitae.</head>
-        <p> Potest autem quaeri, utrum de ligno vitae ante peccatum comederit homo'. </p>
-        <p> De hoc Augustinus in libro De baptismo parvulorum 6 sic ait: «Recte profecto
+        <head xml:id="pl-l2d29c6-Hd1e102">Liber I, Distinctio 29, C. 6</head>
+        <head xml:id="pl-l2d29c6-Hd1e105" type="question-title">An ante peccatum Immo comederit de ligno vitae.</head>
+        <p xml:id="pl-l2d29c6-d1e108"> Potest autem quaeri, utrum de ligno vitae ante peccatum comederit homo'. </p>
+        <p xml:id="pl-l2d29c6-d1e111"> De hoc Augustinus in libro De baptismo parvulorum 6 sic ait: «Recte profecto
           intelliguntur primi homines ante malignam diaboli persuasionem abstinuisse a cibo vetito,
-          atque usi, fuisse concessus ». His verbis ostenditur, quod de ligno vitae ante <pb ed="#Q"
-            n="460"/> peccatum sumserint: quibus praeceptum erat, ut de omni ligno paradisi
+          atque usi, fuisse concessus ». His verbis ostenditur, quod de ligno vitae ante <pb ed="#Q" n="460"/> peccatum sumserint: quibus praeceptum erat, ut de omni ligno paradisi
           comederent, nisi de ligno scientiae boni et mali. </p>
-        <p> Quare ergo perpetua soliditate et beata: immortalitate vestiti non sunt, ut nulla
+        <p xml:id="pl-l2d29c6-d1e116"> Quare ergo perpetua soliditate et beata: immortalitate vestiti non sunt, ut nulla
           infirmitate vel aetate in deterius mutarentur? Hanc enim virtutem naturaliter illud lignum
           habuisse a dicitur. </p>
-        <p> Sed forte non hoc conferebat, nisi saepe de illo-sumeretur. Potuit ergo tieri, ut de
+        <p xml:id="pl-l2d29c6-d1e120"> Sed forte non hoc conferebat, nisi saepe de illo-sumeretur. Potuit ergo tieri, ut de
           illo semel sumeret, et non saepius; qni per aliquam moram 1 in paradiso fuisse
           intelligitur, cum Scrip- tura clicat, eum ibi soporatum fuisse, quando costa de latere
           eius assumta b est, et inde formata mulier, et animalia ante eum ducta, quibus nomina

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -33,8 +32,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -54,10 +52,10 @@
     </front>
     <body>
       <div xml:id="pl-l2d19c6">
-        <head>Liber I, Distinctio 19, C. 6</head>
-        <head type="question-title">De immortalitate corporis prima et secunda.</head>
+        <head xml:id="pl-l2d19c6-Hd1e102">Liber I, Distinctio 19, C. 6</head>
+        <head xml:id="pl-l2d19c6-Hd1e105" type="question-title">De immortalitate corporis prima et secunda.</head>
         <!-- where i left off -->
-        <p> De hac vero hominis immortalitate, qualis fuerit, Augusti» nus Super Genesim 1
+        <p xml:id="pl-l2d19c6-d1e110"> De hac vero hominis immortalitate, qualis fuerit, Augusti» nus Super Genesim 1
           quaestionem movens.-Sic 8- ait-. .« Quaeritur, quomodo immortalis factus [sit homo prae
           ains animantibus; et quo- modo cum illis communem acceperit, alimoniam. Sed alia est im
           mortalitas carnis, quam in Adam accepimus; alia, quam in resur rectione speramus per
@@ -75,10 +73,10 @@
           caro primi neminis numertalitatem in "se habuerit, quae per alimoniam ciborum con-
           servaretur usque ad tempus suae translationis in melius, quando de ligno vitae comederet
           et fieret omnino immortalis, ita' itt non posset mori. </p>
-        <p> Ideo aliqui dicunt, quod immortalitatem de natura habebat, qua poterat non mori, quae
+        <p xml:id="pl-l2d19c6-d1e115"> Ideo aliqui dicunt, quod immortalitatem de natura habebat, qua poterat non mori, quae
           aliorum lignorum esu poterat conser— ari; sed non poterat consummari. nisi per assumtionem
           ligni vitae. </p>
-        <p> Quod Augustinus videtur sentire Super Genesim? dicens: Hoc quoque addo 7", talem cibum
+        <p xml:id="pl-l2d19c6-d1e119"> Quod Augustinus videtur sentire Super Genesim? dicens: Hoc quoque addo 7", talem cibum
           illam arborem praestitisse, quo Corpus hominis stabili sanitate tirmaretur, non sicut ex 9
           alio cibo, sed inspiratione salubritatis occulta ». Hic innuere videtur, quod eum aliis
           cibis posset corpus sustentari, hoc cibo indeticienti saniite tirmaretur. EX quo consequi
@@ -86,7 +84,7 @@
           moriendi; ai aliquam immortalitatem in natura sui kf habuit, id est aptitu— ïnem 1, qua
           poterat non mori, cibis adiutus; sed si perstitisset, inmortalitatis perfectio esSet ei de
           ligno vitae. </p>
-        <p> Sed qui hoc tradunt, quomodo" superiora Augustini verba 2, nibus dicit, quod erat
+        <p xml:id="pl-l2d19c6-d1e122"> Sed qui hoc tradunt, quomodo" superiora Augustini verba 2, nibus dicit, quod erat
           immortalis ex ligno vitae, huic sententiae en contradicant, diligenter inquirant. </p>
       </div>
     </body>

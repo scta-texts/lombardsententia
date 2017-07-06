@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -33,8 +32,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -54,10 +52,10 @@
     </front>
     <body>
       <div xml:id="pl-l2d31c1">
-        <head>Liber I, Distinctio 31, C. 1</head>
-        <head type="question-title">Quomodo peccatum originale a patribus transeat in filios, an
+        <head xml:id="pl-l2d31c1-Hd1e102">Liber I, Distinctio 31, C. 1</head>
+        <head xml:id="pl-l2d31c1-Hd1e105" type="question-title">Quomodo peccatum originale a patribus transeat in filios, an
           secundum animam, an secundum carnem.</head>
-        <p> « Nunc superest investigare, qualiter iliud peccatum a patri- bus traducatur in filios,
+        <p xml:id="pl-l2d31c1-d1e108"> « Nunc superest investigare, qualiter iliud peccatum a patri- bus traducatur in filios,
           scilicet an secundum solam animam, an secundum carnem, sive secundum utrumquef </p>
       </div>
     </body>

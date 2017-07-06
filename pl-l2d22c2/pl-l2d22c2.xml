@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -33,8 +32,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -54,13 +52,13 @@
     </front>
     <body>
       <div xml:id="pl-l2d22c2">
-        <head>Liber I, Distinctio 22, C. 2</head>
-        <head type="question-title">De mulieris elatione</head>
-        <p> Et talis quidem elatio in mente mulieris pro certo fuit, qua credidit et voluit habere
+        <head xml:id="pl-l2d22c2-Hd1e102">Liber I, Distinctio 22, C. 2</head>
+        <head xml:id="pl-l2d22c2-Hd1e105" type="question-title">De mulieris elatione</head>
+        <p xml:id="pl-l2d22c2-d1e108"> Et talis quidem elatio in mente mulieris pro certo fuit, qua credidit et voluit habere
           similitudinem Dei cum aequalitate quadam, putans id esse verum quod diabolus dicebat. </p>
-        <p> Et ideo specialiter mulierem commemorat Augustinus inquiens: <quote>Quomodo crederet
+        <p xml:id="pl-l2d22c2-d1e111"> Et ideo specialiter mulierem commemorat Augustinus inquiens: <quote xml:id="pl-l2d22c2-Qd1e113">Quomodo crederet
             mulier diabolo, nisi esset in mente eius de se praesumptio superba</quote>? Et quod ibi
-          sequtiru, scilicet, <quote>quae per tentationem fuerat convincenda, vel perimenda</quote>,
+          sequtiru, scilicet, <quote xml:id="pl-l2d22c2-Qd1e116">quae per tentationem fuerat convincenda, vel perimenda</quote>,
           ad mulierem referendum est, ut intelligatur quae mulier, non elatio, fuerat per
           tentationem etc. </p>
       </div>
