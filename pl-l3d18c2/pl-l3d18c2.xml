@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cap. II.</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Cap. II.</title>
+          <date when="2017-09-05">September 05, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+              Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-09-05" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l3d18c2">
+        <head xml:id="pl-l3d18c2-Hd1e111">Cap. II.</head>
+        <head xml:id="pl-l3d18c2-Hd1e114" type="question-title"> Quod a conceptu meruit Christus sibi idem, quod per passionem. </head>
+        <p xml:id="pl-l3d18c2-d1e117"> Nec solum haec meruit Christus, quando Patri obediens crucem subiit, sed etiam ab ipsa
+          conceptione, ex quo homo factus est, per caritatem el iustitiam et alias virtutes, in
+          quarum plenitudine fuit secundum hominem conditus, sibi tantum meruit, quantum post per
+          martyrii tolerantiam. Tanta enim plenitudo spiritualium charismatum in eo fuit, quod in
+          eis proficere non potuit; et deo ipsius melior anima fieri non potuit, quam ab initio suae
+          conditionis exstitit, quia proficere in meritis non valuit. </p>
+        <p xml:id="pl-l3d18c2-d1e120"> Ut enim Gregorius ait: <quote xml:id="pl-l3d18c2-Qd1e122">Non habuit omnino Christus iuxta animae meritum, quo
+            potuisset proficere; in membris autem, quae nos sumus, quotidie proficit</quote>. </p>
+        <p xml:id="pl-l3d18c2-d1e126"> Non ergo plus meruit sibi per crucis patibulum, quam a conceptione meruit per gratiam
+          virtutum; non igitur profecit secundum animae meritum, quantum ad virtutem meriti ;
+          profecit tamen quantum ad numerum meritorum: plura enim habuit merita in passione quam in
+          conceptione; sed maioris virtutis non exstiterunt in merendo plura, quam ante fuerant
+          pauciora. Meruit ergo a conceptione non modo gloriam impassibilitatis et immortalitatis
+          corporis, sed etiam impassibilitatem animae. Per quid? Per obe- dientiam et voluntatem
+          perfectam, quam non tunc primum habuit, nec maiorem, cum pali coepit et mori: obediens
+          enim perfecte et bonus exstitit secundum hominem, ex quo fuit homo. </p>
+        <p xml:id="pl-l3d18c2-d1e130"> Habuit igitur anima illa aliquod bonum in se post mortem, quod non habuit ante. Num
+          igitur melior vel beatior fuit quam ante? Absit, quod melior fuerit, quia non sanctior,
+          non gratia cumulatior; nec etiam beatior fuit in Dei contemplatione, in quo praecipue
+          beatitudo consistit. Potest tamen dici in hoc fuisse beatior, quia ab omni miseria
+          immunis; ex quo nequit inferri simpliciter, quod beatior fuerit. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

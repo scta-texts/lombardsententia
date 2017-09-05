@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cap. VII.</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Cap. VII.</title>
+          <date when="2017-09-05">September 05, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+              Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-09-05" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l3d19c7">
+        <head xml:id="pl-l3d19c7-Hd1e111">Cap. VII.</head>
+        <head xml:id="pl-l3d19c7-Hd1e114" type="question-title"> Secundum quam naturam sil mediator. </head>
+        <p xml:id="pl-l3d19c7-d1e117"> Unde et mediator dicitur secundum humanitatem, non secundum divinitatem. </p>
+        <p xml:id="pl-l3d19c7-d1e120">
+          <quote xml:id="pl-l3d19c7-Qd1e122"> Non est enim mediator inter Deum et Deum, quia unus est Deus; sed inter Deum et
+            hominem, quasi inter duo extrema, quia medius esse non potest nisi inter aliqua
+          </quote>. Mediator est igitur, in quantum homo; nam in quantum Deus, non est mediator, sed
+          aequalis Patri est, hoc idem quod Pater, cum Patre unus Deus. Mediat ergo inter homines et
+          Deum-Trinitatem secundum hominis naturam, in qua suscepit illa, per quae reconciliamur
+          Deo-Trini- tali ; et secundum eandem habet aliquid simile Deo et aliquid simile hominibus;
+          quod mediatori congruebat, ne per omnia similis hominibus longe esset a Deo, aut per omnia
+          Deo similis longe esset ab hominibus, et ita mediator non esset. Verus igitur mediator
+          Christus inter mortales peccatores et immortalem iustum, apparuit mortalis cum hominibus,
+          iustus cum Deo; per infirmitatem propinquans nobis, per iustitiam Deo. Recte igitur
+          mediator dictus est, quia inter Deum immortalem et hominem mortalem est Deus-homo,
+          reconcilians hominem Deo, in tantum mediator, in quantum est homo; in quantum autem
+          Verbum, non est medius, quia unus cum Patre Deus. </p>
+        <p xml:id="pl-l3d19c7-d1e126"> Si ergo Christus secundum vos, o haeretici, unam tantum habet naturam, unde medius erit?
+          Nisi ita sit medius, ut Deus sil propter naturam divinitatis, et homo propter humanitatis
+          naturam; quomodo humana in eo reconciliantur divinis? Nam ipse veniens prius in se humana
+          sociavit divinis, per utriusque naturae conjunctionem in una persona; deinde omnes fideles
+          per mortem reconciliavit Deo, dum sanati sunt ab impietate, quicumque humilitatem Christi
+          credendo dilexerunt, et diligendo imitati sunt. </p>
+        <p xml:id="pl-l3d19c7-d1e130"> Ecce, hic aliquatenus insinuatur, quare Christus solus dicitur mediator Dei et hominum;
+          et secundum quam naturam mediet, scilicet humanam; et cui mediet, scilicet Deo-Trinilati :
+          Trinitati enim nos reconciliavit per mortem, per quam etiam nos redemit a servitute
+          diaboli. Nam, ut Petrus ait, <quote xml:id="pl-l3d19c7-Qd1e132">non corruptibilibus auro et argento redempti sumus,
+            sed pretioso sanguine Agni immaculati.</quote>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

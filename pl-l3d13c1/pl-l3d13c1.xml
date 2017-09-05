@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cap. Unicum.</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Cap. Unicum.</title>
+          <date when="2017-09-05">September 05, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+              Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-09-05" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l3d13c1">
+        <head xml:id="pl-l3d13c1-Hd1e111">Cap. Unicum.</head>
+        <head xml:id="pl-l3d13c1-Hd1e114" type="question-title"> De sapientia et gratia Christi hominis, an in eis proficere
+          potuerit. </head>
+        <p xml:id="pl-l3d13c1-d1e117"> Praeterea sciendum est, Christum secundum hominem ab ipsa conceptione gratiae
+          plenitudinem recepisse, cui <quote xml:id="pl-l3d13c1-Qd1e119">spiritus datus est non ad mensuram,</quote> et in quo
+            <quote xml:id="pl-l3d13c1-Qd1e122">plenitudo divinitatis habitat corporaliter</quote>. </p>
+        <p xml:id="pl-l3d13c1-d1e126">
+          <quote xml:id="pl-l3d13c1-Qd1e128">Ita vero habitat, ut ait <name ref="#Augustine">Augustinus</name>
+            <title>Ad Dardanum</title> , quod omni gratia plenus est; non ita habitat in Sanctis. Ut
+            et in nostro corpore inest sensas singulis membris, sed non quantum in capite; ibi enim
+            et visus est et auditus et olfactus et gustus et tactus, in ceteris autem solus est
+            tactus</quote>: ita et in Christo ha- </p>
+        <p xml:id="pl-l3d13c1-d1e138"> bitat omnis plenitudo divinitatis, quia ille est caput, in quo sunt omnes sensus. In
+          Sanctis vero quasi solus tactus est, quibus datus est spiritus ad mensuram, cum de <quote xml:id="pl-l3d13c1-Qd1e140" ana="#io1_16">illius plenitudine acceperunt </quote> Acceperunt autem de illius
+          plenitudine non secundum essentiam, sed secundum similitudinem, quia nunquam illam eandem
+          essentialiter, sed similem acceperunt gratiam. Puer ergo ille <quote xml:id="pl-l3d13c1-Qd1e143" ana="#lc2_40">plenus
+            sapientia et gratia</quote> fuit ab ipsa conceptione. </p>
+        <p xml:id="pl-l3d13c1-d1e148"> Unde Ieremias recte dicit: <quote xml:id="pl-l3d13c1-Qd1e150" ana="#ier31_22">Novum faciet Dominus super terram;
+            mulier circumdabit virum;</quote> quia in utero Virginis perfectus vir exstitit, non
+          solum propter animam et carnem, sed etiam propter sapientiam et gratiam, qua plenus erat. </p>
+        <p xml:id="pl-l3d13c1-d1e154"> Huic autem sententiae videtur obviare quod in Lucae Evangelio legitur: <quote xml:id="pl-l3d13c1-Qd1e156" ana="#lc2_52">Iesus proficiebat sapientia et aetate et gratia apud Deum et
+            homines.</quote> Si enim proficiebat sapientia et gratia, non </p>
+        <p xml:id="pl-l3d13c1-d1e160"> videtur a conceptione habuisse plenitudinem gratiae sine mensura. </p>
+        <p xml:id="pl-l3d13c1-d1e163"> Ad quod sane dici potest, ipsum secundum hominem tantam a conceptione accepisse
+          sapientiae et gratiae plenitudinem, ut Deus ei plenius conferre non potuerit; et tamen
+          vere dicitur pro¬ fecisse sapientia et gratia, non quidem in se, sed in aliis, qui de eius
+          sapientia et gratia proficiebant, dum eis sapientiae et gratiae munera, secundum processum
+          aetatis, magis ac magis patefaciebat. </p>
+        <p xml:id="pl-l3d13c1-d1e166"> Unde <name>Gregorius</name> in quadam homilia ait: <quote xml:id="pl-l3d13c1-Qd1e171"> Iuxta hominis naturam
+            proficiebat sapientia, non quod ipse sapientior esset ex tempore, qui a prima
+            conceptionis hora spiritu sapientiae plenus permanebat; sed eandem qua plenus erat
+            sapientiam, ceteris ex tempore paulatim demonstrabat, luxta hominis naturam
+              <quote xml:id="pl-l3d13c1-Qd1e173">proficiebat aetate</quote> de infantia ad iuvenlutem; iuxta hominis naturam
+              <quote xml:id="pl-l3d13c1-Qd1e176">proficiebat gratia,</quote> non ipse quod non habebat per accessum temporis
+            accipiendo, sed pandendo donum gratiae, quod habebat. <quote xml:id="pl-l3d13c1-Qd1e179">Apud Deum et
+              homines,</quote> quia quantum, proficiente aetate, patefaciebat hominibus dona
+            gratiae, quae sibi inerant, et sapientiae, tantum eos ad laudem Dei excitabat; et sic
+            Deo Patri ad laudem, el hominibus ad salutem proficiebat </quote>. In aliis ergo, non in
+          se, proficiebat sapientia et gratia. Unde in eodem Evangelio puer ille <quote xml:id="pl-l3d13c1-Qd1e183">plenus
+            sapientia et gratia</quote> perhibetur. Sic ergo dicitur profecisse sapientia et gratia,
+          ut aliquis rector ecclesiasticus dicitur proficere in cura sibi credita, dum per eius
+          industriam alii proficiunt. </p>
+        <p xml:id="pl-l3d13c1-d1e187"> Alibi tamen scriptum reperitnr, quod secundum sensum hominis profecerit, sicut aetate
+          hominis profecit. </p>
+        <p xml:id="pl-l3d13c1-d1e191"> Ait enim <name>Ambrosius</name> in libro III <title>De Spiritu sancto </title>sic:
+            <quote xml:id="pl-l3d13c1-Qd1e199"> Dens perfectionem naturae assumsit humanae. Suscepit sensum hominis, sed non
+            sensu carnis fuit inflatus. Sensu hominis animam dixit turbatam; sensu hominis esurivit
+            et rogavit; sensu hominis profecit, sicut scriptum est : <quote xml:id="pl-l3d13c1-Qd1e201" ana="#lc2_52">Iesus
+              proficiebat aetate et sapientia et gratia.</quote> Quomodo proficiebat sapientia Dei?
+            Profectus aetatis et profectus sapientiae sed humanae est. Ideo aetatem commemoravit, ut
+            secundum hominem crederes dictum; aetas enim non divinitatis, sed corporis est. Ergo si
+            proficiebat aetate hominis, proficiebat sapientia hominis. Sensus autem proficit , quia
+            sensus, ideo sapientia. Quis sensus proficiebat? Si humanus, ergo ipse susceptus est; si
+            divinus, ergo mutabilis per profectum; quod enim proficit, mutatur in melius; sed quod
+            divinum est non mutatur; quod ergo mutatur non est divinum. Sensus igitur proficiebat
+            humanus; sensum ergo suscepit humanum </quote>. </p>
+        <p xml:id="pl-l3d13c1-d1e206">
+          <quote xml:id="pl-l3d13c1-Qd1e208"> Non poterat confortari virtus Dei, nec crescere Deus, nec altitudo sapientiae Dei
+            impleri. Quae igitur implebatur, erat non Dei, sed nostra sapientia. Nam quomodo
+            implebatur, qui, ut <quote xml:id="pl-l3d13c1-Qd1e210" ana="#eph4_10">omnia impleret, descendit</quote>? Per quem
+            autem sensum dixit Isaias, quod patrem puer nesciebat aut matrem ? Scriptum est enim:
+              <quote xml:id="pl-l3d13c1-Qd1e213" ana="#is8_4">Priusquam sciat puer patrem aut matrem, accipiet spolia
+              Samariae.</quote> Sapientiam enim Dei futura et occulta non fallunt. Expers autem
+            agnitionis infantia, per humanam utique imprudentiam, quod adhuc non didicit ignorat.
+            Sed verendum est, inquam, ne, si duos principales sensus, aut geminam sapientiam Christo
+            tribuimus, Christum dividamus. Nunquid , cum et divinitatem eius et carnem adoramus,
+            Christum dividimus? Nunquid, cum in eo imaginem Dei crucemque veneramur, dividimus eum?
+            Apostolus certe, qui de eo dixit, <quote xml:id="pl-l3d13c1-Qd1e216" ana="#IIcor13_4">quoniam, etsi crucifixus est
+              ex infirmitate nostra, vivit tamen ex virtute Dei,</quote> ipse dixit quia <quote xml:id="pl-l3d13c1-Qd1e219">non
+              divisus est Christus.</quote> Nunquid etiam, cum dicimus, quia animam rationalem et
+            intellectus nostri suscepit capacem, dividimus eum ? Non enim ipse Deus-Verbum pro anima
+            rationali et intellectus capaci in carne sua fuit; sed animam rationalem et intellectus
+            capacem, et ipsam humanam, et eiusdem substantiae cuius nostrae animae, et carnem
+            nostrae similem, eiusdemque cuius caro est nostra substantiae, suscipiens, perfectus
+            etiam homo fuit</quote>. </p>
+        <p xml:id="pl-l3d13c1-d1e224"> Haec verba Ambrosii pia diligentia inspicienda sunt, quae ex parte, hominis ignorantiam
+          instruunt et illuminant, ex parte, errandi fomitem male intellecta ministrant. His etenim
+          evidenter traditur, duos in Christo esse principales sensus sive geminam sapientiam. Neque
+          ideo unitas et singularitas personae dividitur, sed iuxta duas naturas, duas habet
+          sapientias: unam non creatam, sed genitam, quae ipse est; alteram non genitam, sed creatam
+          et per gratiam ei collatam. Nam Isaias de eo praetestatur: <quote xml:id="pl-l3d13c1-Qd1e226" ana="#is11_2">Requiescet
+            super eum spiritus sapientiae et intellectus</quote> etc. Spiritu ergo sapientiae et
+          intellectus, id est sapientia et intelligentia, per Spiritum sanctum gratis data, Christus
+          erat sapiens secundum animam; secundum Deum vero sapiens erat sapientia genita , quae ipse
+          est. Et sicut, in quantum Deus est, bonus est bonitate naturali, quae ipse est, et iustus
+          iustitia naturali, quae ipse est, ita sapiens sapientia naturali, quae ipse est. Anima
+          vero eius , sicut bona est et insta, bonitate vel iustitia gratis data, quae ipse vel ipsa
+          non est, ita est sapiens sapientia gratis data, quae ipsa non est. Et licet gemina in
+          Christo sit sapientia, una tamen eademque persona est, quae, in quantum est Deus, vel in
+          quantum est divina natura, sapiens est sapientia aeterna . In quantum vero eadem persona
+          homo est, id est secundum hominem acceptum, vel in quantum est subsistens ex anima et
+          carne, sapiens est sapientia gratuita. Sapiens est igitur humano sensu et divino. </p>
+        <p xml:id="pl-l3d13c1-d1e230"> Sed ex qua causa illius dicti intelligentia, scilicet <quote xml:id="pl-l3d13c1-Qd1e232"> sensus proficiebat
+            humanus</quote>, assumenda est? Aperte enim videtur <name>Ambrosius</name> innuere, quod
+          Christus secundum humanum sensum profecerit, et quod infantia eius expers cognitionis
+          fuerit, et patrem et matrem ignoraverit; quod nec Ecclesia recipit, nec praemissae
+          auctoritates patiuntur sic intelligi. </p>
+        <p xml:id="pl-l3d13c1-d1e239"> Sed ita sane potest accipi, ut quantum ad visum hominum et sui sensus ostensionem,
+          Christus profecisse dicatur. Proficiebat ergo humanus sensus in eo secundum ostensionem,
+          et aliorum hominum opinionem. Ita etiam patrem et matrem dicitur ignorasse in infantia,
+          quia ita se habebat et gerebat, ac si agnitionis esset expers. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

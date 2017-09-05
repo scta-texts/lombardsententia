@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Cap. VI]</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>[Cap. VI]</title>
+          <date when="2017-09-05">September 05, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+              Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-09-05" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l3d19c6">
+        <head xml:id="pl-l3d19c6-Hd1e111">[Cap. VI]</head>
+        <p xml:id="pl-l3d19c6-d1e114"> Qui solus dicitur mediator, non Pater, vel Spiritus sanctus. </p>
+        <p xml:id="pl-l3d19c6-d1e117"> De quo Apostolus: <quote xml:id="pl-l3d19c6-Qd1e119" ana="#Itim2_5">Unus mediator Dei et hominum, homo Christus
+            Iesus,</quote> id est, per hominem, quasi in medio, arbiter est ad componendam pacem, id
+          est ad reconciliandum homines Deo. <quote xml:id="pl-l3d19c6-Qd1e122">Hic est arbiter, quem Iob desiderat: <quote xml:id="pl-l3d19c6-Qd1e124" ana="#iob9_33">Utinam esset nobis arbiter</quote>
+          </quote>. <quote xml:id="pl-l3d19c6-Qd1e128" ana="#rom5_10">Reconciliati enim sumus Deo, ut ait Apostolus, per mortem
+            Christi.</quote>
+          <quote xml:id="pl-l3d19c6-Qd1e131"> Quod non sic est intelligendum, quasi nos ei sic reconciliaverit Christus, ut
+            inciperet amare quos oderat, sicut reconciliatur inimicus mimico, ut deinde sint amici,
+            qui ante se oderant; sed iam nos diligenti Deo reconciliati sumus. Non enim, ex quo ei
+            reconciliati sumus per sanguinem Filii, nos coepit diligere, sed ante mundum, priusquam
+            nos aliquid essemus </quote>. Quomodo ergo diligenti nos Deo sumus reconciliati ?
+            <quote xml:id="pl-l3d19c6-Qd1e134"> Propter peccatum cum eo habebamus inimicitias, qui habebat erga nos caritatem,
+            etiam cum inimicitias exercebamus adversus eum , operando iniquitatem </quote>. <quote xml:id="pl-l3d19c6-Qd1e138">
+            Ita ergo inimici eramus Deo, sicut iustiliae sunt inimica peccata; et ideo, remissis
+            peccatis, tales inimicitiae finiuntur, et reconciliantur iusto quos ipse iuslifical
+          </quote>. </p>
+        <p xml:id="pl-l3d19c6-d1e142"> Christus ergo dicitur mediator, eo quod medius inter Deum et homines, ipsos reconciliat
+          Deo. Reconciliat autem, dum offendicula hominum tollit ab oculis Dei, id est, dum peccata
+          delet, quibus Deus offendebatur, et nos inimici eius eramus. </p>
+        <p xml:id="pl-l3d19c6-d1e145"> Sed cum peccata deleat non solus Filius, sed et Pater et Spiritus sanctus, deletio
+          quorum est nostra ad Deum reconciliatio, quare solus Filius dicitur mediator ? Nam de
+          Patre legitur, quod reconciliaverit sibi mundum. Ait enim Apostolus: <quote xml:id="pl-l3d19c6-Qd1e147" ana="#IIcor5_19">Deus erat in Christo mundum sibi reconcilians.</quote> Cum igitur
+          reconciliet, quare non dicitur mediator? </p>
+        <p xml:id="pl-l3d19c6-d1e152"> Quia nec medius est inter Deum et homines, nec in se ha- huit illa sacramenta, quorum
+          fide et imitatione instificemur, id est reconciliemur Deo. Reconciliavit igitur nos tota
+          Trinitas virtutis usu, scilicet dum peccata delet; sed Filius solus impletione obedien-
+          tiae, in quo patrata sunt secundum humanam naturam, per quae credentes et imitantes
+          justificantur. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

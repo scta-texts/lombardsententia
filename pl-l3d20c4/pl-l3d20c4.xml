@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Cap. IV]</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>[Cap. IV]</title>
+          <date when="2017-09-05">September 05, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+              Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-09-05" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l3d20c4">
+        <head xml:id="pl-l3d20c4-Hd1e111">[Cap. IV]</head>
+        <p xml:id="pl-l3d20c4-d1e114">
+          <quote xml:id="pl-l3d20c4-Qd1e116"> Si enim tres illi in causam venirent, scilicet Deus, homo , diabolus, diabolus et
+            homo quid adversus Deum dicerent, non haberent. Diabolus enim de iniuria Dei
+            convinceretur, quia servum eius, scilicet hominem, et fraudulenter abduxit et violenter
+            tenuit. Homo etiam iniurius Deo convinceretur, quia praecepta eius contempsit, et se
+            alieno dominio mancipavit. De hominis etiam iniuria convinceretur diabolus, quia illum
+            et prius fallaci promissione decepit, et post, mala inferendo, laesit. Iniuste igitur
+            diabolus quantum ad se, tenebat hominem, sed homo iuste tenebatur; quia diabolus nunquam
+            meruit potestatem habere super hominem, sed homo meruit per culpam pali diaboli
+            tyrannidem </quote>. </p>
+        <p xml:id="pl-l3d20c4-d1e120"> Si igitur Deus, qui utrique praeerat, potentia hominem liberare vellet, sola iussionis
+          virtute hominem poterat rectissime liberare, sed, ob causam praemissam, iustitia
+          humilitatis uti voluit. Qui dum in carne mortali crucifixus est, iustificati sumus, id est
+          per remis¬ sionem peccatorum eruti de potestate diaboli, et ita a Christo iustitia
+          diabolus victus est, non potentia. Quomodo autem in eius sanguine nobis peccata sint
+          dimissa, supra expositum est. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

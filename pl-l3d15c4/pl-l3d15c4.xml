@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cap. IV.</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Cap. IV.</title>
+          <date when="2017-09-05">September 05, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+              Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-09-05" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l3d15c4">
+        <head xml:id="pl-l3d15c4-Hd1e111">Cap. IV.</head>
+        <head xml:id="pl-l3d15c4-Hd1e114" type="question-title"> De tristitia Christi et eius causa secundum eundem. </head>
+        <p xml:id="pl-l3d15c4-d1e117"> Tristitiam tamen in eo fuisse, consequenter asserit, sed causam eius exstitisse non suam
+          mortem, sed defectum Petri et aliorum Apostolorum. </p>
+        <p xml:id="pl-l3d15c4-d1e120"> Dicit enim, Christum non propter mortem, sed <quote xml:id="pl-l3d15c4-Qd1e122">usque ad mortem</quote> tristem
+          fuisse, his verbis: <quote xml:id="pl-l3d15c4-Qd1e125"> Interrogo, quid sit tristem esse <quote xml:id="pl-l3d15c4-Qd1e127">usque ad
+              mortem.</quote> Non enim eiusdem significationis est, tristem esse propter mortem, et
+              <quote xml:id="pl-l3d15c4-Qd1e130">usque ad mortem,</quote> quia, ubi propter mortem tristitia est, illic mors
+            causa tristitiae est; ubi vero tri¬ stitia <quote xml:id="pl-l3d15c4-Qd1e133">usque ad mortem</quote> est, mors non
+            tristitiae causa est, sed finis</quote>. <quote xml:id="pl-l3d15c4-Qd1e137">Adeo autem non propter mortem suscepta
+            est tristitia, ut sil destituta per mortem </quote>. <quote xml:id="pl-l3d15c4-Qd1e140"> Non ergo sibi tristis est,
+            sed illis qui in scandalo per infirmitatem carnis erant futuri, quos monet orare, ne
+              <quote xml:id="pl-l3d15c4-Qd1e142">inducantur in tenlalionem</quote> , qui ante polliciti erani se non
+            scandalizari </quote>. </p>
+        <p xml:id="pl-l3d15c4-d1e147">
+          <name>Hilarius</name> in libro <title>De Synodis :</title> Cum haec passionum genera
+          infirmitatem carnis afficiant, Deus tamen Verbum, caro factus , non potuit a se
+          demutabilis esse patiendo. Verbum enim quod caro factum est, licet se passioni subdiderit,
+          non tamen demutatum est passibilitate patiendi. Nam pati potuit, et passibilis esse non
+          potuit, quia passibilitas naturae infirmae significatio est; passio autem eorum est , quae
+          sunt illata, perpessio. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cap. I.</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Cap. I.</title>
+          <date when="2017-09-05">September 05, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+              Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-09-05" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l3d19c1">
+        <head xml:id="pl-l3d19c1-Hd1e111">Cap. I.</head>
+        <head xml:id="pl-l3d19c1-Hd1e114" type="question-title"> Qualiter a diabolo et a peccato et a poena redemit nos Christus
+          per mortem. </head>
+        <p xml:id="pl-l3d19c1-d1e117"> Nunc igitur quaeramus, quomodo per mortem ipsius a diabolo et a peccato et a poena
+          redempti sumus. </p>
+        <p xml:id="pl-l3d19c1-d1e120"> A diabolo igitur et a peccato per Christi mortem liberati sumus, quia ut ait Apostolus,
+            <quote xml:id="pl-l3d19c1-Qd1e122">in sanguine ipsius iustificati sumus,</quote> et in eo, quod sumus iustificati,
+          id est a peccatis soluti, a diabolo sumus liberali, qui nos vinculis peccatorum tenebat. </p>
+        <p xml:id="pl-l3d19c1-d1e126"> Sed quomodo a peccatis per eius mortem soluti sumus? Quia per eius mortem, ut ait
+          Apostolus, <quote xml:id="pl-l3d19c1-Qd1e128">commendatur nobis caritas Dei,</quote> id est, apparet eximia et
+          commendabilis caritas Dei erga nos in hoc, quod <quote xml:id="pl-l3d19c1-Qd1e131">Filium suum tradidit in
+            mortem</quote> pro nobis peccatoribus. Exhibita autem tantae erga nos dilectionis arrha,
+          et nos movemur accendimurque ad diligendum Deum, qui pro nobis tan tum fecit; et per hoc
+          iustificamur, id est soluti a peccatis, iusli efficimur. Mors igitur Christi nos
+          iustificat, dum per eam caritas excitatur in cordibus nostris. </p>
+        <p xml:id="pl-l3d19c1-d1e136"> Dicimur quoque et aliter per mortem Christi iustificari, quia per fidem mortis eius a
+          peccatis mundamur. </p>
+        <p xml:id="pl-l3d19c1-d1e139"> Unde Apostolus: <quote xml:id="pl-l3d19c1-Qd1e141" ana="#rom3_22">Iustitia Dei esi per fidem Iesu Christi;
+          </quote>item : <quote xml:id="pl-l3d19c1-Qd1e144" ana="#rom3_25">Quem Deus proposuit propitiatorem per fidem in
+            sanguine ipsius,</quote> id est per fidem passionis, ut olim aspicientes in
+            <quote xml:id="pl-l3d19c1-Qd1e147"> </quote>serpentem aeneum, in ligno erectum, a morsibus serpentum sanabantur . Si
+          ergo rectae fidei intuitu in illum respicimus, qui pro nobis pependit in ligno, a vinculis
+          diaboli solvimur, id est a peccatis; et ita a diabolo liberamur, ut nec post hanc vitam in
+          nobis inveniat quod puniat. <quote xml:id="pl-l3d19c1-Qd1e150"> Morte sua quippe, uno verissimo sacrificio, quidquid
+            culparum erat, unde nos diabolus ad luenda supplicia detinebat, Christus
+            exstinxit</quote>, ut in hac vita lentando, nobis non praevaleat. Licet enim nos tentet
+          post Christi mortem, quibus modis ante tentabat, non tamen vincere potest, sicut ante
+          vincebat. Nam Petrus, qui ante Christi mortem, voce ancillae territus negavit , post
+          mortem, ante reges et praesides ductus, non cessit. Quare? quia <quote xml:id="pl-l3d19c1-Qd1e153">fortior,</quote> id
+          est Christus, veniens <quote xml:id="pl-l3d19c1-Qd1e157">in domum fortis</quote>, id est in corda nostra, ubi diabolus
+          habitabat, <quote xml:id="pl-l3d19c1-Qd1e160">alligavit fortem, </quote>id est, a seductione compescuit fidelium, ut
+          tentationem, quae ei adhuc permittitur, non sequatur seductio. </p>
+        <p xml:id="pl-l3d19c1-d1e164"> Itaque in Christi sanguine, qui solvit quae non rapuit, redempti sumus a peccato, et per
+          hoc a diabolo. Nam, ut ait Augustinus, <quote xml:id="pl-l3d19c1-Qd1e166">in ipso vincuntur inimicae nobis invisibiles
+            potestates, ubi vincuntur invisibiles cupiditates</quote>. <quote xml:id="pl-l3d19c1-Qd1e169">Fuso enim sanguine
+            sine culpa, omnium culparum chirographa deleta sunt, quibus debitores, qui in eum
+            credunt, a diabolo ante tenebantur; unde: <quote xml:id="pl-l3d19c1-Qd1e171">Qui pro multis effundetur</quote>
+          </quote>. Per illum ergo redempti sumus, in quo <quote xml:id="pl-l3d19c1-Qd1e175">princeps mundi</quote> nihil
+          invenit. </p>
+        <p xml:id="pl-l3d19c1-d1e179"> Unde Augustinus, causam et modum nostrae redemptionis insinuans, ait: <quote xml:id="pl-l3d19c1-Qd1e181">Nihil
+            invenit diabolus in Christo, ut moreretur, sed pro voluntate Patris mori Christus
+            voluit; non habens mortis causam de peccalo, sed de obedientia et iustitia, mortem
+            gustavit, per quam nos redemit a servitute diaboli. Incideramus enim in principem huius
+            saeculi, qui seduxit Adam et servum fecit, coepitque nos quasi vernaculos possidere; sed
+            venit Redemptor, et victus est deceptor. Et quid fecit Redemptor captivatori nostro?
+            Tetendit ei muscipulam crucem suam, posuit ibi quasi escam sanguinem suum. Ille autem
+            sanguinem fudit non-debitoris, per quod recessit a debitoribus . Ille quippe ad hoc
+            sanguinem suum fudit, ut peccata nostra deleret. Unde ergo diabolus nos te¬ nebat,
+            deletum est sanguine Redemptoris: non enim tenebat nos nisi vinculis peccatorum
+            nostrorum ; istae erant catenae captivorum. Venit ille, <quote xml:id="pl-l3d19c1-Qd1e183">alligavit fortem</quote>
+            vinculis passionis suae; intravit in <quote xml:id="pl-l3d19c1-Qd1e186">domum eius,</quote> id est in corda eorum,
+            ubi ipse habitabat, et <quote xml:id="pl-l3d19c1-Qd1e189">vasa</quote> eius, scilicet nos, eripuit, quae ille
+            impleverat amaritudine sua. Dens autem noster vasa eius eripiens et sua faciens, fudit
+            amaritudinem et implevit dulcedine</quote>, per mortem suam a peccatis redimens, et
+          adoptionem gloriae filiorum largiens. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

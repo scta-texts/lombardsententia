@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cap. II. Prima est eorum qui dicunt, in incarnatione hominem quendam ex anima et
+          carne constitutum, et illum hominem factum esse Deum, et Deum illum hominem; et
+          auctoritates, quibus ita asserunt, ponit. </title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Cap. II. Prima est eorum qui dicunt, in incarnatione hominem quendam ex anima et
+            carne constitutum, et illum hominem factum esse Deum, et Deum illum hominem; et
+            auctoritates, quibus ita asserunt, ponit. </title>
+          <date when="2017-09-05">September 05, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+              Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-09-05" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l3d6c2">
+        <head xml:id="pl-l3d6c2-Hd1e111">Cap. II.</head>
+        <head xml:id="pl-l3d6c2-Hd1e114"> Prima est eorum qui dicunt, in incarnatione hominem quendam ex anima et carne
+          constitutum, et illum hominem factum esse Deum, et Deum illum hominem; et auctoritates,
+          quibus ita asserunt, ponit. </head>
+        <p xml:id="pl-l3d6c2-d1e117"> Alii enim dicunt, in ipsa Verbi incarnatione hominem quendam ex anima rationali et
+          humana carne constitutum, ex quibus duobus omnis verus homo constituitur; et ille homo
+          coepit esse Deus, non quidem natura Dei, sed persona Verbi; et Deus coepit esse homo ille.
+          Concedunt etiam, hominem illum assumtum a Verbo et unitum Verbo, et tamen esse Verbum; et
+          ea ratione tradunt dictum esse, Deum factum hominem, vel esse hominem, quia Deus factus
+          est, id est, coepit esse quaedam substantia ex anima rationali et humana carne subsistens;
+          et illa substantia facta est, id est, coepit esse Deus. Non tamen demigratione naturae in
+          naturam, sed utriusque naturae servata proprietate, facium est, ut Deus esset illa
+          substantia, et illa substantia esset Deus. Unde vere dicitur: Deus factus homo, et homo
+          factus Deus; et Deus esse homo, et homo Deus; et Filius Dei filius hominis, et e converso.
+          Cumque dicant, illum hominem ex anima rationali et humana carne subsistere, non tamen
+          fatentur, ex duabus naturis esse compositum, divina scilicet et humana; nec illius paries
+          esse duas naturas, sed animam tantum et carnem. </p>
+        <p xml:id="pl-l3d6c2-d1e120"> Et ne de suo sensu tantum loqui putentur, hanc sententiam pluribus muniunt testimoniis. </p>
+        <p xml:id="pl-l3d6c2-d1e123"> Ait enim <name ref="#Augustine">Augustinus</name> in libro <quote xml:id="pl-l3d6c2-Qd1e128">De Trinitate:</quote>
+          <quote xml:id="pl-l3d6c2-Qd1e131">Cum legitur: <quote xml:id="pl-l3d6c2-Qd1e133" ana="#io1_14">Verbum caro factum est,</quote> in Verbo
+            intelligo verum Dei Filium, in carne agnosco verum hominis filium, et utrumque simul
+            unam personam, Deum et hominem ineffabilis gratiae largitate coniunctum </quote>. </p>
+        <p xml:id="pl-l3d6c2-d1e139"> Idem in <quote xml:id="pl-l3d6c2-Qd1e141">Enchiridio</quote>: <quote xml:id="pl-l3d6c2-Qd1e144">Christus lesus Deus de Deo est, homo autem
+            natus est de Spiritu sancto ex Maria Virgine. Utraque substantia, divina scilicet et
+            humana, Filius est unicus Dei Patris omnipotentis, de quo procedit Spiritus sanctus
+          </quote>; <quote xml:id="pl-l3d6c2-Qd1e147"> utrumque unus, sed aliud propter Verbum, et aliud propter hominem, non
+            duo filii, Deus et homo, sed unus Dei Filius, Deus sine initio, homo a certo initio
+          </quote>. </p>
+        <p xml:id="pl-l3d6c2-d1e151"> Item in eodem : <quote xml:id="pl-l3d6c2-Qd1e153">Quid natura humana in Christo homine meruit, ut in unitatem
+            personae unici Filii Dei singulariter assumta esset? Quae bona voluntas, quae bona opera
+            praecesserunt, quibus mereretur iste homo una fieri persona cum Deo ? Nunquid antea fuit
+            homo, et hoc ei singulare beneficium praestitum est, ut singulariter promereretur Deum?
+            Nempe ex quo homo esse coepit, non aliud coepit esse homo quam Dei Filius, et hoc
+            unicus; et proplerea Dei Verbum <quote xml:id="pl-l3d6c2-Qd1e155">,</quote> quod illa suscepta caro facta est,
+            utique Deus; ut quemadmodum est una persona quilibet homo, anima scilicet rationalis et
+            caro, ita sil Christus una persona, Verbum et homo </quote>. </p>
+        <p xml:id="pl-l3d6c2-d1e160"> Idem <title>Super loannem</title> : <quote xml:id="pl-l3d6c2-Qd1e165"> Agnoscamus geminam substantiam Christi,
+            divinam scilicet, qua aequalis est Patri, et humanam, qua minor est Patre ; utrumque
+            autem simul, non duo, sed unus est Christus, ne sit quaternitas, non trinitas Deus. Ac
+            per hoc Christus est Deus, anima rationalis et caro</quote>. </p>
+        <p xml:id="pl-l3d6c2-d1e169"> Idem quoque in libro <title>De praedestinatione Sanctorum</title>: <quote xml:id="pl-l3d6c2-Qd1e174">Ille homo, ut
+            a Verbo, Patri coaeterno, in unitatem personae assumtus, Filius Dei unigenitus esset,
+            unde hoc meruit? Quod eius bonum praecessit, ut ad hanc ineffabilem excellentiam
+            perveniret ? Facienle ac suscipiente Deo-Verbo , ipse homo, ex quo esse coepit, Filius
+            Dei unicus esse coepit </quote>. </p>
+        <p xml:id="pl-l3d6c2-d1e178"> Item: <quote xml:id="pl-l3d6c2-Qd1e180">Homo quicumque ita gratia fit Christianus, sicut gratia homo ille ab initio
+            factus est Christus</quote>. </p>
+        <p xml:id="pl-l3d6c2-d1e184"> Idem in libro XIII <title ref="#deTrinitate">De Trinitate</title>: <quote xml:id="pl-l3d6c2-Qd1e189">Gratia Dei
+            nobis in homine Christo commendatur; quia nec ipse, ut, tanta unitate Deo vero
+            coniunctus , una cum illo persona Filius Dei fieret, ullis est praecedentibus meritis
+            assecuius, sed ex quo homo esse coepit, ex illo est et Deus. Unde dictum est: Verbum
+            caro facium est</quote>. </p>
+        <p xml:id="pl-l3d6c2-d1e194">
+          <name>Hilarius</name> quoque in X libro <title>De Trinitate</title> ait: <quote xml:id="pl-l3d6c2-Qd1e202">Christum
+            non ambigimus esse Deum-Verbum, neque rursus Filium hominis ex anima et corpore
+            constitisse ignoramus</quote>. </p>
+        <p xml:id="pl-l3d6c2-d1e206"> His aliisque auctoritatibus utuntur, qui hominem quendam, ex anima rationali et carne
+          compositum, Deum factum dicunt, sed gratia, non natura. Sola enim gratia habuit ille homo,
+          non meritis vel natura, ut esset Deus, sive Dei Filius, ut haberet omnem scientiam et
+          potentiam quam habet Verbum, cum quo est una persona. Nec tantum in superioribus legitur,
+          quod homo ille sit una persona cum Verbo et sit ipsum Verbum, sed etiam, quod anima
+          rationalis et caro eadem persona sit, et Christus sit, et Deus. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cap. III.</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Cap. III.</title>
+          <date when="2017-09-05">September 05, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+              Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-09-05" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l3d11c3">
+        <head xml:id="pl-l3d11c3-Hd1e111">Cap. III.</head>
+        <head xml:id="pl-l3d11c3-Hd1e114" type="question-title"> An homo ille semper fuerit. </head>
+        <p xml:id="pl-l3d11c3-d1e117"> Post praedicta quaeritur, utrum homo ille coeperit esse, vel semper fuerit, sicut
+          simpliciter enuntiamus, Christum, vel Dei Filium semper fuisse nec coepisse. </p>
+        <p xml:id="pl-l3d11c3-d1e120"> De hoc <name ref="#Augustine">Augustinus</name> inquit ita <quote xml:id="pl-l3d11c3-Qd1e125">Super Ioannem</quote>:
+            <quote xml:id="pl-l3d11c3-Qd1e128">Habuit aliquando Dei Filius quod nondum habuit idem ipse homo filius, quia nondum
+            erat homo</quote>. </p>
+        <p xml:id="pl-l3d11c3-d1e132"> Item in eodem: <quote xml:id="pl-l3d11c3-Qd1e134">Priusquam mundus esset, nec nos eramus, nec ipse mediator Dei et
+            hominum, homo Christus lesus</quote>. </p>
+        <p xml:id="pl-l3d11c3-d1e139"> Item <quote xml:id="pl-l3d11c3-Qd1e141">Super Psalmum</quote>: <quote xml:id="pl-l3d11c3-Qd1e144">Christus noster, etsi forte homo recens est,
+            tamen est aeternus Deus </quote>. </p>
+        <p xml:id="pl-l3d11c3-d1e148"> Alibi vero legitur, quod puer ille creavit stellas; et Christus dicit, se esse
+            <quote xml:id="pl-l3d11c3-Qd1e150">principium,</quote> et esse <quote xml:id="pl-l3d11c3-Qd1e153">ante Abraham</quote> . </p>
+        <p xml:id="pl-l3d11c3-d1e157"> His igitur auctoritatibus in nullo resultantes, dicimus, hominem illum, in quantum homo
+          est, coepisse; in quantum Verbum est, semper fuisse. </p>
+        <p xml:id="pl-l3d11c3-d1e160"> Hic enim absque distinctione non est ferenda responsio. Nam et ipse <name ref="#Augustine">Augustinus</name> huiusmodi utitur distinctione in pluribus locis
+          dicens, per Christum omnia esse facta, in quantum Verbum est; secundum id vero, quod homo
+          est, ipsum esse factum et glo- rificatum. Si igitur ad personam respicias, confidenter
+          dic, hominem illum semper fuisse; si vero ad naturam hominis, concede eum coepisse. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

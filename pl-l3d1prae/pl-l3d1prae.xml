@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Distintio 1, Praeambulum</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Distintio 1, Praeambulum</title>
+          <date when="2017-09-05">September 05, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+              Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-09-05" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l3d1prae">
+        <head xml:id="pl-l3d1prae-Hd1e111">Distintio 1, Praeambulum</head>
+        <p xml:id="pl-l3d1prae-d1e114">
+          <quote xml:id="pl-l3d1prae-Qd1e116" ana="#gal4_4">Cum venit igitur plenitudo temporis, ut ait Apostolus,misit Deus
+            Filium suum, factum de muliere, factum sub lege, ut eos qui sub lege erant redimeret, ut
+            adoptionem filiorum Dei reciperemus.</quote>
+        </p>
+        <p xml:id="pl-l3d1prae-d1e120"> Tempus autem plenitudinis dicitur tempus gratiae, quod ab adventu Salvatoris exordium
+          sumsit. Hoc est <quote xml:id="pl-l3d1prae-Qd1e122">tempus miserendi</quote> et <quote xml:id="pl-l3d1prae-Qd1e125">annus benignitatis,</quote> in
+          quo <quote xml:id="pl-l3d1prae-Qd1e128">gratia et veritas per Iesum Christum facta est</quote>: <quote xml:id="pl-l3d1prae-Qd1e131">gratia,</quote>
+          quia per caritatem impletur quod in Lege praecipiebatur; <quote xml:id="pl-l3d1prae-Qd1e134">veritas,</quote> quia per
+          Christi adventum exhibetur atque perficitur humanae redemptionis sponsio facta ab antiquo.
+            <quote xml:id="pl-l3d1prae-Qd1e138"> Filii ergo missio est ipsa incarnatio </quote>. Eo enim missus est, quod in
+          forma hominis mundo visibilis apparuit, de quo supra sufficienter dictum est. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

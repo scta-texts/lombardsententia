@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Cap. 3]</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>[Cap. 3]</title>
+          <date when="2017-09-05">September 05, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+              Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-09-05" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l3d12c3">
+        <head xml:id="pl-l3d12c3-Hd1e111">[Cap. 3]</head>
+        <head xml:id="pl-l3d12c3-Hd1e114" type="question-title"> Si Deus potuit assumere hominem in sexu muliebri. </head>
+        <p xml:id="pl-l3d12c3-d1e117"> Solet etiam quaeri, quamvis curiose, a nonnullis, si Deus humanam naturam potuit
+          assumere secundum muliebrem sexum. </p>
+        <p xml:id="pl-l3d12c3-d1e120"> Quidam arbitrantur, eum potuisse assumere hominem in femineo sexu, ut assumsit in
+          virili; sed opportunius atque convenientius factum est, ut de femina nasceretur et virum
+          assumeret, ut ita utriusque sexus liberatio ostenderetur. </p>
+        <p xml:id="pl-l3d12c3-d1e123"> Unde <name ref="#Augustine">Augustinus</name> in libro <title>83 Quaestionum</title>:
+            <quote xml:id="pl-l3d12c3-Qd1e131">Hominis liberatio in utroque sexu debuit apparere. Ergo quia virum oportebat
+            suscipere , qui sexus honorabilior est, consequens erat, ut feminei sexus liberatio hinc
+            appareret, quod ille vir de femina natus est </quote>. Sapientia ergo Dei, quae dicitur
+          unigenitus Filius, homine suscepto in utero et de utero Virginis, liberationem hominis
+          indicavit. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

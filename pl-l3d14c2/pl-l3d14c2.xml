@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cap. II.</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Cap. II.</title>
+          <date when="2017-09-05">September 05, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+              Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-09-05" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l3d14c2">
+        <head xml:id="pl-l3d14c2-Hd1e111">Cap. II.</head>
+        <head xml:id="pl-l3d14c2-Hd1e114" type="question-title"> Quare Deus non dedit illi animae potentiam omnium, ut
+          scientiam. </head>
+        <p xml:id="pl-l3d14c2-d1e117"> Si vero quaeritur, quare Deus non ei dederit potentiam faciendi omnia, ut scientiam,
+          responderi potest, quia naturaliter capax est scientiae; et ideo id ei congrue datum est
+          sine mensura, cuius ipsa naturaliter capax est. Non est autem ei datum posse facere omnia,
+          quae Deus facit, ne omnipotens et per hoc Deus putaretur. Verumtamen forte nec potentiam
+          faciendi omnia ei Deus praestare potuit, etsi potentiam faciendi aliqua, quae non facere
+          potest. Scit igitur anima Christi omnia, quae Deus, in Verbo Dei, quod liquidius et
+          praesentius omni creatura contemplatur, ut ei unita, in quo etiam Angeli et quae Dei sunt
+          et quae futura sunt, cognoscunt. </p>
+        <p xml:id="pl-l3d14c2-d1e120"> Sed si anima illa non habet tantam potentiam, quantam et Deus, nec homo assumtus tantam
+          potentiam, quantam et Deus, quomodo ergo intelligitur illud Ambrosii <title>Super
+            Lucam</title>, ubi Angelus de nascituro Filio Virginis ait: <quote xml:id="pl-l3d14c2-Qd1e125">
+            <quote xml:id="pl-l3d14c2-Qd1e127">Hic erit magnus et Filius Altissimi vocabitur?</quote> Non ideo, inquit, erit
+            magnus, quod ante partum Virginis magnus non fuerit, sed quia potentiam, quam Dei Filius
+            naturaliter habet, homo erat ex tempore accepturus, ut una sit persona homo et
+            Deus</quote>. Ecce aperte dicit, quod homo erat accepturus ex tempore potentiam, quam
+          habuit Dei Filius naturaliter, Sed si homo accepturus erat illam potentiam, ergo vel
+          persona, vel natura hominis; sed persona non, quia semper habuit et habet; ergo natura; si
+          natura, ergo anima: nam de carne constat, quod accipere non possel. </p>
+        <p xml:id="pl-l3d14c2-d1e132"> Ad quod dicimus, illud esse accipiendum de persona, sed non in quantum est Dei, immo in
+          quantum est hominis persona. Una est enim persona Dei et hominis, Filii Dei et filii
+          hominis, quae, in quantum est Dei persona, semper et naturaliter omnipotentiam habuit, sed
+          in quantum est hominis, non semper fuit. Illa ergo persona, quae semper fuerat Dei, futura
+          erat hominis persona; et secundum hoc, quod futura erat hominis persona, acceptura erat ex
+          tempore potentiam, quam naturaliter el semper habuerat, in quantum Dei persona . </p>
+        <p xml:id="pl-l3d14c2-d1e136"> Secundum hanc distinctionem illud et similia sane accipi possunt; quae distinctio in
+          pluribus quaestionum articulis est necessaria adversus quorumdam perplexam verbositatem.
+          Sed cum de rebus constat, in verbis frustra habetur controversia. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

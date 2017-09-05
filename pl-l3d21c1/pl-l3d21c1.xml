@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cap. I.</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Cap. I.</title>
+          <date when="2017-09-05">September 05, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+              Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-09-05" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l3d21c1">
+        <head xml:id="pl-l3d21c1-Hd1e111">Cap. I.</head>
+        <head xml:id="pl-l3d21c1-Hd1e114" type="question-title"> Si in Christi morte separata fuit anima vel caro a Verbo. </head>
+        <p xml:id="pl-l3d21c1-d1e117"> Post praedicta considerandum est, utrum in morte a Verbo sit separata anima, vel caro. </p>
+        <p xml:id="pl-l3d21c1-d1e120"> Quidam putaverunt carnem, sicut ab anima, ita a divinitate in morte fuisse divisam. Si
+          enim, inquiunt, anima media divinitas carnem sibi univit, sicut superius praelaxatum est,
+          ergo quando divisa est caro ab anima, divisa est etiam a divinitate, quia non potuit ab
+          anima seiungi, per quam Verbo erat unita, quin a Verbo divideretur. Fuit autem divisa ab
+          anima in morte, alioquin vera mors ibi non fuisset, quia, ut ait Augustinus, <quote xml:id="pl-l3d21c1-Qd1e122">mors,
+            quam liment homines, separatio est animae a carne; mors autem, quam non liment ,
+            separatio est animae a Deo. Utraque vero diaboli suasu, homini propinata est</quote>. Si
+          ergo in Christo homine vera mors fuit, divisa est ibi anima , ac per hoc divinitas a
+          carne. </p>
+        <p xml:id="pl-l3d21c1-d1e126"> Huic suae probabilitati addunt auctoritatis testimonium. </p>
+        <p xml:id="pl-l3d21c1-d1e130">
+          <name>Ambrosius</name> enim , tractans de Christi derelictione, qui in cruce, voce magna
+          clamans, dixit: <quote xml:id="pl-l3d21c1-Qd1e135">Deus, Deus meus, ut quid me dereliquisti?</quote> ait:
+            <quote xml:id="pl-l3d21c1-Qd1e138">Clamat homo separatione divinitatis moriturus. Nam cum divinitas mortis libera
+            sit, utique mors ibi esse non poterat, nisi vita discederet, quia vita divinitas
+            est</quote>. Hic videtur tradi, quod divinitas separata sit in morte ab homine, quae
+          nisi discessisset, homo ille mori non posset. Quod illi ad carnem referunt, quam dicunt a
+          Deo separatam. </p>
+        <p xml:id="pl-l3d21c1-d1e142"> Quibus respondemus, illam separationem sic esse accipiendam, sicut intelligitur
+          derelictio, quae illis verbis significatur: <quote xml:id="pl-l3d21c1-Qd1e144">Ut quid me dereliquisti?</quote>
+          Quomodo igitur Christus derelictus erat a Patre, cum in cruce se derelictum clamabat? Non
+          recesserat Deus ab homine, ita quod esset soluta unio Del et hominis: alioquin fuit
+          quoddam tempus, quando Christus, adhuc vivus, homo erat et non Deus; quia, adhuc vivus, se
+          derelictum clamabat, non derelinquendum. Si ergo derelictio illa, unionis intelligatur
+          solutio, ante facta fuit solutio Dei et hominis, quam Christus mortuus esset. Sed quis hoc
+          dicat? Fateamur igitur, Deum quodam modo illum hominem in morte deseruisse, quia potestati
+          persequentium eum exposuit ad tempus; non suam potentiam exercendo illum defendit, ut non
+          moreretur. Separavit se divinitas, quia subtraxit protectionem, sed non solvit unionem;
+          separavit se loris, ut non adesset ad defensionem, sed non intus defuit ad unionem. Si non
+          ibi cohibuisset potentiam, sed exercuisset, non moreretur Christus. Mortuus est Christus,
+          divinitate recedente, id esi effectum potentiae defendendo non exhibente. Hic est hircus
+          apopompaeus , qui, altero hirco immolato, in solitudinem mittebatur, ut legitur in
+          Levitico . <quote xml:id="pl-l3d21c1-Qd1e147"> Duo enim hirci humanitas et divinitas Christi intelli- guntur.
+            Humanitate igitur immolata, divinitas in solitudinem abiit, id est in caelum. Unde
+            Hesychius: In solitudinem, id est in caelum, tempore passionis, divinitas abiisse
+            dicitur, non locum mu¬ tans, sed quodam modo virtutem cohibens, ut possent impii
+            consummare passionem. Abiit ergo, id est, virtutem cohibuit , el <quote xml:id="pl-l3d21c1-Qd1e149">portavit
+              iniquitates nostras</quote> , non ut haberet, sed et consumeret. <quote xml:id="pl-l3d21c1-Qd1e152">Deus</quote>
+            enim <quote xml:id="pl-l3d21c1-Qd1e155">ignis consumens est.</quote>
+          </quote>
+        </p>
+        <p xml:id="pl-l3d21c1-d1e160"> Ex his satis ostenditur, praemissa verba Ambrosii sic esse accipienda, ut praediximus. </p>
+        <p xml:id="pl-l3d21c1-d1e163"> Alii quoque auctoritati innituntur, qui asserunt, divinitatem in morte recessisse ab
+          homine secundum carnem. </p>
+        <p xml:id="pl-l3d21c1-d1e166"> Ait enim Athanasius: <quote xml:id="pl-l3d21c1-Qd1e168">Maledictus, qui totum hominem, quem assumsit Dei Filius,
+            denuo assumtum vel liberatum, tertia die a mortuis resurrexisse non confitetur. Fiat,
+            fiat </quote>. Si, inquiunt, denuo assumtus est homo in resurrectione, quem assumserat
+          in incarnatione, deposuit ergo eum in morte; separata ergo fuit divinitas in morte ab
+          humanitate. </p>
+        <p xml:id="pl-l3d21c1-d1e172"> Quibus respondemus, quod si his verbis assumtio talis intel- ligatur, quae sit secundum
+          unionem, non carnem tantum, sed totum hominem, id est animam et carnem, denuo sibi univit
+          in resurrectione, quia non simpliciter hominem, sed totum hominem assumtum dicit. Totum
+          igitur hominem in morte deposuit, id est animam et carnem. Sed quis, nisi hostis
+          veritatis, dicat animam a Verbo depositam ? Et tamen, nisi hoc fateantur, quod totus homo
+          sit assumtus, non pro eis facit illa auctoritas, quae totum dicit assumtum. </p>
+        <p xml:id="pl-l3d21c1-d1e176"> Sciendum est igitur, Athanasium id dixisse contra illorum perfidiam, qui resurrectionem
+          Christi negabant, putantes, morte detineri qui solus <quote xml:id="pl-l3d21c1-Qd1e178">inter mortuos liber</quote>
+          <sup>1</sup> est. Ideo maledicit illum, qui non confitetur, totum hominem denuo assumtum,
+          resurrexisse, id est Christum animam denuo corpori coniunxisse et in illis duobus, denuo
+          coniunctis in resurrectione, vere secundum hominem vixisse, sicut ante mortem. </p>
+        <p xml:id="pl-l3d21c1-d1e185"> Nam in morte separata est anima a carne (unde vere dicitur Christus mortuus) sed neutrum
+          separatum est a Verbo Dei, sicut <name ref="#Augustine">Augustinus</name>
+          <title>Super loannem </title>docet, tractans illud Domini verbum : <quote xml:id="pl-l3d21c1-Qd1e193">Ego pono animam
+            meam, ut iterum sumam eam. Nemo tollit eam a me, sed ego pono eam a me ipso</quote>;
+            <quote xml:id="pl-l3d21c1-Qd1e196">potestatem habeo ponendi eam et iterum sumendi eam</quote> Hic animam dicit
+          emissam. A quo emissa est? A se ipsa non est emissa, quia se ipsam non posuit; nec Verbum
+          animam posuit vel carnem. Caro ergo animam posuit, sed potestate in se manentis deitatis;
+          potentia ergo deitatis anima divisa est a carne, sed neutrum a Verbo Dei. </p>
+        <p xml:id="pl-l3d21c1-d1e200"> Unde <name>Augustinus</name>: <quote xml:id="pl-l3d21c1-Qd1e205"> Verbum, ex quo suscepit hominem, id est carnem et
+            animam, nunquam deposuit animam, ut esset anima a Verbo separata; sed caro posuit
+            animam, quando exspi¬ ravit, qua redeunte surrexit. Mors ergo ad tempus carnem et animam
+            separavit, sed neutrum a Verbo Dei. Caro igitur ponit et sumit animam, non potestate
+            sua, sed potestate inhabitantis carnem deitatis</quote>. Hic evidenter traditur, nec
+          animam nec carnem a Verbo Dei in morte divisam, ut aliquo modo soluta fuerit unio. </p>
+        <p xml:id="pl-l3d21c1-d1e209"> Unde <name ref="#Augustine">Augustinus</name>
+          <title>Contra Felicianum</title> : <quote xml:id="pl-l3d21c1-Qd1e217">Absit, ut sic Christus senserit mortem, ut ,
+            quantum in se est, vita vitam perdiderit: si enim hoc ita esset, vitae fons aruisset.
+            Sensit igitur mor¬ tem participatione humani affectus, quem sponte susceperat; non
+            naturae suae perdidit potentiam, per quam cuncta vivificat. Sic in sepulcro carnem suam
+            commoriendo non deseruit, sicut in utero Virginis connascendo formavit. Mortuus est
+            ergo, non di- scedente vita, sicut passus est, non pereunte potentia. Nemo tollit animam
+            eius ab eo, quia potestatem habet ponendi et sumendi</quote>. Ecce et hic habes,
+          Christum non deseruisse carnem in morte, et vitam non discessisse a mortuo, et quod sponte
+          tradidit spiritum, non alius extorsit. </p>
+        <p xml:id="pl-l3d21c1-d1e221"> Unde <name>Ambrosius</name>: <quote xml:id="pl-l3d21c1-Qd1e226">
+            <quote xml:id="pl-l3d21c1-Qd1e228">Emisit</quote> Christus <quote xml:id="pl-l3d21c1-Qd1e231">spiritum,</quote> et tamen quasi arbiter eruendi
+            suspendendique corporis, <quote xml:id="pl-l3d21c1-Qd1e234">emisit</quote> spiritum, non amisit; pendebat in cruce,
+            et omnia commovebat</quote>. <quote xml:id="pl-l3d21c1-Qd1e238">Sed unde emisit? Ex carne. Quo emisit? Ad Patrem
+          </quote>. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

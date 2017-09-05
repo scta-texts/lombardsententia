@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Cap. II].</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>[Cap. II].</title>
+          <date when="2017-09-05">September 05, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+              Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-09-05" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l3d17c2">
+        <head xml:id="pl-l3d17c2-Hd1e111">[Cap. II].</head>
+        <p xml:id="pl-l3d17c2-d1e114"> Quocirca ambigendum non est, diversas in Christo fuisse voluntates iuxta duas naturas,
+          divinam scilicet voluntatem et humanam. </p>
+        <p xml:id="pl-l3d17c2-d1e117"> Et humana voluntas est affectus rationis, vel affectus sensualitatis; et alius est
+          affectus animae secundum rationem, alius secundum sensualitatem; uterque tamen dicitur
+          humana voluntas. Affectu autem rationis id volebat quod voluntate divina, scilicet pati et
+          mori, sed affectu sensualitatis non volebat, immo refugiebat. </p>
+        <p xml:id="pl-l3d17c2-d1e120"> Nec tamen in eo caro contra spiritum, vel contra Deum concupiscebat, quia, ut ait
+          Augustinus, <quote xml:id="pl-l3d17c2-Qd1e122">nonnullum est vitium, cum <quote xml:id="pl-l3d17c2-Qd1e124">caro concupiscit adversus
+              spiritum</quote>
+          </quote>. <quote xml:id="pl-l3d17c2-Qd1e128"> Caro autem dicta est concupiscere, quia hoc secundum ipsam agit anima,
+            sicut anima per aurem audit, et per oculum videt. Caro enim nihil nisi per animam
+            concupiscit; sed concupisere dicitur, cum anima carnali concupiscentia spiritui
+            reluctatur, habens carnalem delecta¬ tionem de carne et a carne, adversus delectationem
+            quam spiritus habet. Ipsius autem carnalis concupiscentiae causa non est in anima sola,
+            nec in carne sola; ex utroque enim fit, quia sine utroque delectatio talis non sentitur
+          </quote>. </p>
+        <p xml:id="pl-l3d17c2-d1e132"> Talis igitur rixa talisque concertatio in anima Christi nullatenus potuit esse, quia
+          carnalis concupiscentia ibi esse nequivit. Dei etiam voluntas erat et rationi placebat, ut
+          id secundum carnem vellet, quatenus veritas humanitatis in eo probaretur. Nam qui hominis
+          naturam suscepit, quae ipsius sunt, subire debuit. Ideo- que sicut in nobis duplex est
+          affectus, mentis scilicet et sensualitatis, ita et in eo debuit esse geminus affectus, ut
+          mentis affectu vellet mori, et sensualitatis affectu nollet, sicut in viris sanctis fit.
+          Petro enim ipsa Veritas dicit: <quote xml:id="pl-l3d17c2-Qd1e134">Cum senueris, extendes manus luas, et alius cinget
+            te et ducet quo tu non vis,</quote> scilicet ad mortem. Quod exponens <name ref="#Augustine">Augustinus</name> dicit, quod Petrus <quote xml:id="pl-l3d17c2-Qd1e140">ad illam molestiam nolens
+            est ductus <quote xml:id="pl-l3d17c2-Qd1e142">;</quote> nolens ad eam venit, sed volens eam vicit; et reliquit
+            affectum infirmitatis, quo nemo vult mori, qui adeo est naturalis, ut eum Petro nec
+            senectus abstulerit. Unde etiam Dominus ait: <quote xml:id="pl-l3d17c2-Qd1e145">Transeat a me calix iste;</quote>
+            sed vicit eum vis amoris</quote>. Ergo et in Christo secundum humanitatem, et in membris
+          eius geminus est affectus: unus rationis, caritate informatus, quo propler Deum quis mori
+          vult; alter sensualitatis, carnis infirmitati propinquus et ideo coniunctus, quo mors
+          refugitur. </p>
+        <p xml:id="pl-l3d17c2-d1e151"> Ut enim ait Augustinus: <quote xml:id="pl-l3d17c2-Qd1e153">Pius mentis ratione cupit <quote xml:id="pl-l3d17c2-Qd1e155">dissolvi et esse cum
+              Christo </quote>; sensu autem carnis refugii et recusat. Hoc habet humanus affectus,
+            quoniam diligit vitam, odit mortem </quote>. Secundum istum affectum Christus mori
+          noluit; nec obtinuit quod secundum istum affectum petiit. </p>
+        <p xml:id="pl-l3d17c2-d1e160"> Ex affectu igitur humano, quem de Virgine traxit, volebat non mori, et calicem transire
+          orabat. </p>
+        <p xml:id="pl-l3d17c2-d1e163"> Unde Beda: <quote xml:id="pl-l3d17c2-Qd1e165">Orat, transire calicem, quia homo est dicens : <quote xml:id="pl-l3d17c2-Qd1e167">Pater, si fieri
+              potest, transeat a me calix iste.</quote> Ecce, habes voluntatem humanam expressam.
+            Vide iam rectum cor: <quote xml:id="pl-l3d17c2-Qd1e170">Sed non quod ego volo, sed quod tu vis.</quote> Unde alibi
+              <quote xml:id="pl-l3d17c2-Qd1e173">: Non veni facere voluntatem meam,</quote> quam scilicet temporaliter sumsi de
+            Virgine, <quote xml:id="pl-l3d17c2-Qd1e176">sed voluntatem eius qui misit me,</quote> quam scilicet aeternus habui
+            cum Patre</quote>. Hic aperte dicit, duas in Christo fuisse voluntates, secundum quas
+          diversa voluit. </p>
+        <p xml:id="pl-l3d17c2-d1e181">
+          <name>Hieronymus</name> quoque super illum locum: <quote xml:id="pl-l3d17c2-Qd1e186">Spiritus promptus est, caro autem
+            infirma,</quote> dans intelligi, hic duas voluntates exprimi, ait ita: <quote xml:id="pl-l3d17c2-Qd1e189">Hoc contra
+            Eutychianos, qui dicunt in Christo unam tantum voluntatem. Hic autem ostendit humanam,
+            quae propter infirmitatem carnis recusat passionem, et divinam, quae prompta est
+            perficere dispensationem </quote>. </p>
+        <p xml:id="pl-l3d17c2-d1e193">
+          <name ref="#Augustine">Augustinus</name> etiam duas in Christo asserit voluntates, dicens:
+            <quote xml:id="pl-l3d17c2-Qd1e198">Quantum distat Deus ab homine, tantum voluntas Dei a voluntate hominis. Unde
+            hominem gerens Christus ostendit privatam quandam hominis voluntatem, in qua et suam et
+            nostram figuravit, qui caput nostrum est, et ad eum sicut membra pertinemus.
+              <quote xml:id="pl-l3d17c2-Qd1e200">Paler,</quote> inquit, <quote xml:id="pl-l3d17c2-Qd1e203">si fieri potest, transeat a me calix iste</quote>
+            . Haec humana voluntas erat, proprium aliquid et tanquam privatum vo¬ lens. Sed quia
+            rectum vult esse hominem et ad Deum dirigi, subdit: <quote xml:id="pl-l3d17c2-Qd1e206">Non quod ego volo, sed quod
+              tu vis;</quote> ac si diceret: Vide te in me, quia potes aliquid proprium velle, ut
+            Deus aliud velit. Conceditur hoc humanae fragilitati </quote>. </p>
+        <p xml:id="pl-l3d17c2-d1e211"> Idem alibi: Christus in passione duas expressit in se voluntates secundum naturas duas;
+          ait enim: <quote xml:id="pl-l3d17c2-Qd1e213">Pater, si fieri potest, transeat a me calix iste.</quote> Ecce, habes
+          hominis voluntatem, quam ad divinam continuo dirigens, ait: <quote xml:id="pl-l3d17c2-Qd1e216">Verumtamen, non sicut
+            ego volo, sed sicut tu</quote> . </p>
+        <p xml:id="pl-l3d17c2-d1e221">
+          <name>Ambrosius</name> etiam in libro II <title>De Trinitate:</title>
+          <quote xml:id="pl-l3d17c2-Qd1e229">Scriptum est: <quote xml:id="pl-l3d17c2-Qd1e231">Pater, si possibile est , transfer a me calicem hunc.</quote>
+            Verba Christi sunt, sed quo modo et in sua forma dicantur, adverte: hominis substantiam
+            gerit, hominis assumsit affectum. Non ergo quasi Deus, sed quasi homo loquitur </quote>.
+            <quote xml:id="pl-l3d17c2-Qd1e235"> Suscepit quidem voluntatem meam. Mea est voluntas, quam suam dixit, cum ait:
+              <quote xml:id="pl-l3d17c2-Qd1e237">Non sicut ego volo, sed sicut tu vis</quote>
+          </quote>. <quote xml:id="pl-l3d17c2-Qd1e241"> Cum autem dixit: <quote xml:id="pl-l3d17c2-Qd1e243">Omnia quae habet Pater, mea sunt,</quote> quia
+            nihil excipitur, sine dubio, quam Pater habet, eandem et Filius habet voluntatem
+          </quote>. <quote xml:id="pl-l3d17c2-Qd1e248">Eadem est Christi voluntas, quae paterna </quote>. <quote xml:id="pl-l3d17c2-Qd1e251"> Una ergo
+            voluntas est Patris et Filii </quote>. <quote xml:id="pl-l3d17c2-Qd1e254">Sed alia voluntas hominis, alia Dei, ut
+            scias vitam in voluntate esse hominis, passionem autem Christi in voluntate divina, ut
+            pateretur pro nobis </quote>. </p>
+        <p xml:id="pl-l3d17c2-d1e258"> His testimoniis evidenter docetur, in Christo duas fuisse voluntates; quod quia negavit
+          Macarius archiepiscopus, in Metropolitana Synodo condemnatus est. </p>
+        <p xml:id="pl-l3d17c2-d1e261"> Et ex affectu humano sensualitatis quidem, non rationis, illud voluit et petiit, quod
+          non impetravit. Nec ideo petiit ut impetraret, quia sciebat, Deum non esse facturum illud;
+          nec illud fieri volebat affectu rationis, vel voluntate divinitatis. Ad quid ergo petiit?
+          Ut membris formam praeberet, imminente turbatione, clamandi ad Dominum et subiiciendi
+          voluntatem suam divinae voluntati, ut, si pulsante molestia tristantur pro eiusdem
+          amotione orent; sed si nequeunt vitare, dicant quod ipse Christus. Non ergo ad
+          insipientiam fuit, quod Christus clamans non auditur ad salutem corporalem: bonum quidem
+          petiit, scilicet ut non moreretur, sed melius erat, ut moreretur; quod et factum est. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

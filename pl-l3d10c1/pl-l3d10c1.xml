@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cap. I.</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Cap. I.</title>
+          <date when="2017-09-05">September 05, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+              Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-09-05" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l3d10c1">
+        <head xml:id="pl-l3d10c1-Hd1e111">Cap. I.</head>
+        <head xml:id="pl-l3d10c1-Hd1e114" type="question-title">An Christus, secundum quod homo, sit persona, vel
+          aliquid.</head>
+        <p xml:id="pl-l3d10c1-d1e117"> Solet etiam a quibusdam inquiri, utrum Christus, secundum quod homo, sit persona, vel
+          etiam sil aliquid . </p>
+        <p xml:id="pl-l3d10c1-d1e120"> Ex utraque parte quaestionis argumenta concurrant. Quod enim persona sit, his edisserunt
+          rationibus. Si, secundum quod homo, aliquid est: vel persona, vel substantia, vel aliud
+          est. Sed aliud non; ergo persona, vel substantia. Sed si substantia est: vel rationalis,
+          vel irrationalis. Sed non est irrationalis substantia; ergo rationalis. Si vero, secundum
+          quod homo, est rationalis substantia, ergo persona, quia haec est definitio personae:
+            <quote xml:id="pl-l3d10c1-Qd1e122">Substantia rationalis individuae naturae </quote>. Si ergo, secundum quod homo,
+          est aliquid, et, secundum quod homo, persona est. </p>
+        <p xml:id="pl-l3d10c1-d1e126"> Sed e converso si secundum quod homo, persona est, vel tertia in Trinitate, vel alia.
+          Sed alia non; ergo tertia in Trinitate persona. At si, secundum quod homo, persona est
+          tertia in Trinitate, ergo Deus. </p>
+        <p xml:id="pl-l3d10c1-d1e130"> Propter haec inconvenientia et alia, quidam dicunt, Christum secundum hominem non esse
+          personam nec aliquid, nisi forte <quote xml:id="pl-l3d10c1-Qd1e132">secundum </quote> sit expressivum unitatis
+          personae. <quote xml:id="pl-l3d10c1-Qd1e135">Secundum </quote> enim multiplicem habet rationem: aliquando enim
+          exprimit conditionem vel proprietatem naturae divinae, vel humanae; aliquando unitatem
+          personae; aliquando notat habitum; aliquando causam. Cuius distinctionis rationem
+          diligenter lector animadvertat atque in sinu memoriae recondat, ne eius confundatur
+          sensus, cum de Christo sermo occurrerit. </p>
+        <p xml:id="pl-l3d10c1-d1e139"> Illud tamen non sequitur, quod in argumentatione superiori inductum est, quod si
+          Christus, secundum quod homo, est substantia rationalis, ergo persona. Nam et modo anima
+          Christi est substantia rationalis, non tamen persona, quia non est per se sonans, immo
+          alii rei coniuncta. Illa tamen personae descriptio non est data pro tribus illis personis. </p>
+        <p xml:id="pl-l3d10c1-d1e142"> Sed adhuc aliter nituntur probare, Christum secundum hominem esse personam: quia
+          Christus , secundum quod homo, <quote xml:id="pl-l3d10c1-Qd1e144" ana="#rom1_4">praedestinatus est, ut sit Dei filius
+            ;</quote> sed illud est, quod ut sit, praedestinatus est; ergo si praedestinatus est
+          secundum quod homo, ut sit filius Dei; et secundum quod homo, est filius Dei. </p>
+        <p xml:id="pl-l3d10c1-d1e148"> Ad quod dici potest, Christum esse id, quod ut sit, praedestinatus est: est enim
+          praedestinatus, ut sit filius Dei, et ipse vere est filius Dei. Sed secundum hominem
+          praedestinatus est, ut sit filius Dei, quia per gratiam hoc habet, secundum hominem; nec
+          tamen secundum hominem est filius Dei, nisi forte <quote xml:id="pl-l3d10c1-Qd1e150"> secundum </quote> unitatis
+          personae sit expressivum, ut sit sensus: ipse qui est homo, est Dei filius; ut autem ipse,
+          ens homo, sit Dei filius, per gratiam habet. Sed si causa notetur, falsum est; non enim
+          quo homo est, eo Dei filius est. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cap. III.</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Cap. III.</title>
+          <date when="2017-09-05">September 05, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+              Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-09-05" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l3d15c3">
+        <head xml:id="pl-l3d15c3-Hd1e111">Cap. III.</head>
+        <p xml:id="pl-l3d15c3-d1e114"> De quibusdam capitulis Hilarii obscuris, quibus a carne Christi passionis dolores
+          submoveri videntur. </p>
+        <p xml:id="pl-l3d15c3-d1e117"> Verumtamen magis movent ac difficiliorem afferunt quaestionem verba Hilarii, quibus
+          videtur tradere, ictus et vulnera et huiusmodi, sic in Christum incidisse, ut passionis
+          dolorem non incuterent, sicut telum, tractum per aquam vel ignem vel aera, ea facit, quae
+          et, cum trahitur per corpora animata, quia perforat et compungit, non tamen dolorem
+          ingerit, quia non sunt illae ° res doloris capaces. Ita et corpus Christi sine sensu
+          poenae, vim poenae excepisse dicit, quia, sicut corpus nostrum non habet talem naturam, ut
+          valeat calcare undas, ita corpus Christi dicit non habuisse naturam nostri doloris, quia
+          non habuit naturam ad do- lendum. </p>
+        <p xml:id="pl-l3d15c3-d1e120"> Ait enim sic in X libro <title>De Trinitate:</title>
+          <quote xml:id="pl-l3d15c3-Qd1e125">Unigenitus Deus hominem verum secundum similitudinem nostri hominis, non deficiens
+            a se Deo, sumsit. In quo, quamvis aut ictus incideret, aut vulnus descenderet, aut nodi
+            concurrerent, aut suspensio elevaret, afferrent quidem haec impetum passionis, non tamen
+            dolorem passionis inferrent: ut telum aliquod aquam perforans, vel ignem compungens, vel
+            aera vulnerans, omnes quidem has passiones naturae suae infert, ut foret ut compungat,
+            ut vulneret; sed naturam suam in hoc passio illata non retinet, dum in natura non est
+            vel aquam forari, vel pungi ignem, vel aera vulnerari, quamvis naturae teli sit et
+            vulnerare et compungere et forare. Passus quidem Christus est, dum caeditur, dum
+            suspenditur, dum moritur; sed in corpus irruens passio nec non fuit passio, non tamen
+            naturam passionis exercuit, dum et poenali ministerio poena desaevit, et virtus corporis
+            sine sensu poenae vim poenae in se desaevientis excepit. Habuit sane illud domini corpus
+            doloris nostri naturam, si corpus nostrum id naturae habet, ut calcet undas, et fluctus
+            desuper eat, nec clausae domus obstaculis arceatur. At vero si Domini <quote xml:id="pl-l3d15c3-Qd1e127"> </quote>corporis solum ista natura sit, ut feratur in humidis et sistat in liquidis et
+            structa transcurrat: quid per naturam humani corporis carnem ex Spiritu conceptam
+            iudicamus? Caro illa de caelis est, et homo ille de Deo est, habens ad patiendum corpus;
+            et passus est, sed naturam non habens ad dolendum </quote>. </p>
+        <p xml:id="pl-l3d15c3-d1e132"> Idem in eodem: <quote xml:id="pl-l3d15c3-Qd1e134">Videamus, an ille passionis ordo infirmitatem in Domino doloris
+            permittat intelligi. Dilatis enim causis, ex quibus metum Domino haeresis ascribit, res
+            ipsas, ut gestae sunt, conferamus. Nec enim fieri potest, ut limor eius significetur in
+            verbis, cuius fiducia contineatur in factis. Timuisse igitur, haeretice, passionem
+            videtur? Sed ob ignorantiae huius errorem, Pe- trus et satanas et scandalum est . Anne
+            timuit qui armatis obvius prodiit? El in corpore eius infirmitas fuit, ad cuius occursum
+            consternata persequentium agmina supinatis corporibus conciderunt ? Quam igitur
+            infirmitatem dominatam huius corporis credis, cuius tantam habuit natura virtutem? Sed
+            forte vulnerum dolorem timuit? Quem, rogo, o tu Dominicae infirmitatis assertor,
+            penetrantis carnem clavi habuit terrorem, qui excisam aurem solo restituit attactu?
+            Producens haec aurem manus clavum dolet, et sentit vulnus, qui alteri dolorem vulneris
+            non reliquit? Pungendae carnis metu tristis est, cuius attactu, caro post caedem
+            sanatur</quote>? </p>
+        <p xml:id="pl-l3d15c3-d1e139"> Item: <quote xml:id="pl-l3d15c3-Qd1e141"> Collatis igitur dictorum gestorumque virtutibus, demonstrari non est
+            ambiguum, in natura corporis eins infirmitatem corporeae naturae non fuisse, et
+            passionem illam, licet illata corpori sit, non tamen naturam dolendi corpori intulisse;
+            quia, licet forma corporis nostri esset in Domino, non tamen vitiosae infirmitatis
+            nostrae forma erat in corpore, quod ex conceptu Spiritus sancti Virgo progenuit</quote>. </p>
+        <p xml:id="pl-l3d15c3-d1e145"> Audisti, lector, verba Hilarii, quibus dolorem excludere videtur. Sed si, excussa sensus
+          et impietatis hebetudine, praemissis diligenter intendas, atque ipsius scripturae
+          circumstantiam inspi- cias, dictorum rationem atque virtutem percipere utcumque poteris,
+          et intelligentiam arguere non attentabis. Intelligitur enim ea ratione dixisse, dolorem
+          passionis in Christum non incidisse, et virtutem corporis Christi excepisse vim poenae
+          sine sensa poenae, quia causam et meritum doloris in se non habuit. Quod videtur notasse,
+          ubi ait: <quote xml:id="pl-l3d15c3-Qd1e147">Non habens naturam ad dolendum</quote>. Et ideo non indicanda est caro
+          illius secundum naturam nostri corporis. Nec in eo etiam dominium habuit passio ; ita
+          etiam non habuit naturam ad timendum, vel tristandum, quia non habuit talem naturam, in
+          qua esset causa timoris, vel tristitiae. Itaque necessitas timendi non fuit in eo, sicut
+          est in nobis; nec natura doloris fuit in eo, sicut est in nobis. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

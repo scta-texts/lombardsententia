@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cap. III.</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Cap. III.</title>
+          <date when="2017-09-05">September 05, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+              Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-09-05" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l3d7c3">
+        <head xml:id="pl-l3d7c3-Hd1e111">Cap. III.</head>
+        <head xml:id="pl-l3d7c3-Hd1e114" type="question-title"> Quod non debet dici homo dominicus. </head>
+        <p xml:id="pl-l3d7c3-d1e117"> Et licet dicatur homo Deus, non tamen congrue dicitur homo dominicus. </p>
+        <p xml:id="pl-l3d7c3-d1e120"> Unde <name ref="#Augustine">Augustinus</name> in libro <title>Retractationum</title> :
+            <quote xml:id="pl-l3d7c3-Qd1e128">Non video, utrum recte dicatur homo dominicus, qui est mediator Dei et hominum,
+            Christus lesus, cum sit utique Dominus; et hoc quidem ut dicerem, apud quosdam legi
+            tractatores catholicos. Sed ubicumque hoc dixi, dixisse me nollem. Postea quippe vidi,
+            non esse di¬ cendum, quamvis nonnulla ratione possit defendi </quote>. </p>
+        <p xml:id="pl-l3d7c3-d1e132"> Secundum istos etiam dicitur persona Filii in duabus et ex duabus existere naturis,
+          secundum adhaerentiam et inhaerentiam: altera enim inhaeret ei, altera inest. </p>
+        <p xml:id="pl-l3d7c3-d1e136"> Salis diligenter iuxta diversorum sententias, supra positam absque assertione et
+          praeiudicio tractavi quaestionem. Verumta- men nolo , in re tanta tamque ad agnoscendum
+          difficili, putare lectorem istam sibi nostram debere sufficere disputationem; sed legat et
+          alia melius forte considerata atque tractata, et ea quae hic movere possunt, vigilantiore
+          atque intelligentiore, si potest, mente discutiat, hoc firmiter tenens, quod <quote xml:id="pl-l3d7c3-Qd1e138">Deus
+            hominem assumsit, homo in Deum transivit, non naturae versibilitate, sed Dei dignatione;
+            ut nec Deus mutaretur in humanam substantiam, assumendo hominem, nec homo in divinam,
+            glorificatus in Deum; quia mutatio vel versibilitas naturae diminutionem et abolitionem
+            substantiae facit</quote>. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

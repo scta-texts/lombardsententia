@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Cap. 2] Si homo ille potuerit peccare, vel non esse Deus. </title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>[Cap. 2] Si homo ille potuerit peccare, vel non esse Deus. </title>
+          <date when="2017-09-05">September 05, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+              Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-09-05" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l3d12c2">
+        <head xml:id="pl-l3d12c2-Hd1e111">[Cap. 2]</head>
+        <head xml:id="pl-l3d12c2-Hd1e114"> Si homo ille potuerit peccare, vel non esse Deus. </head>
+        <p xml:id="pl-l3d12c2-d1e117"> Ideo non immerito quaeritur, utrum homo ille potuerit peccare, vel non esse Dens. Si
+          enim potuit peccare, et potuit damnari; si potuit damnari, potuit non esse Dens; ergo si
+          potuit pecrare, potuit non esse Deus; quia esse Deum et posse velle iniquitatem simul
+          nequeunt esse. </p>
+        <p xml:id="pl-l3d12c2-d1e120"> Hic distinctione opus est, utrum de persona, an de natura agatur. Si enim de persona
+          agitur, manifestum est, quia peccare non potuit, nec Deus non esse potuit. Si vero de
+          natura, discu¬ tiendum est, utrum agat de ea ut Verbo unita, an de ea tan- quam non unita
+          Verbo, et tamen enti, id est, an de ea, secundum quod fuit unita Verbo, an de ea, secundum
+          quod esse potuit et non unita Verbo. Non est enim ambiguum, animam illam, entem unitam
+          Verbo, peccare non posse; et est sine ambiguo verum, eandem, si esset et non unita Verbo,
+          posse peccare. </p>
+        <p xml:id="pl-l3d12c2-d1e123"> Quidam tamen probare conantur, eam etiam unitam Verbo, posse peccare, quia liberum
+          arbitrium habet, et ita potest flecti in utramque partem. </p>
+        <p xml:id="pl-l3d12c2-d1e127"> Quod frivolum est, cum et Angeli liberum arbitrium habeant, et tamen gratia a Deo sunt
+          confirmati, ut peccare nequeant. Quanto magis ergo ille homo, cui <quote xml:id="pl-l3d12c2-Qd1e129">spiritus</quote>
+          <quote xml:id="pl-l3d12c2-Qd1e132">est datus sine mensura</quote> ? </p>
+        <p xml:id="pl-l3d12c2-d1e136"> Inducunt quoque auctoritatem ad probandum idem. Scriptum est enim in libro Sapientiae :
+            <quote xml:id="pl-l3d12c2-Qd1e138">Qui potuit transgredi, et non est transgressus; facere malum, et non
+            fecit.</quote>
+        </p>
+        <p xml:id="pl-l3d12c2-d1e142"> Sed hoc accipiendum est secundum membra, vel partim de capite, partim de membris; de
+          capite: <quote xml:id="pl-l3d12c2-Qd1e144">non est transgressus,</quote> et <quote xml:id="pl-l3d12c2-Qd1e147">non fecit malum;</quote> de
+          membris: <quote xml:id="pl-l3d12c2-Qd1e150">potuit transgredi,</quote> et <quote xml:id="pl-l3d12c2-Qd1e153">facere malum.</quote>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

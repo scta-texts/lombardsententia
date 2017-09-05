@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cap. V</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Cap. V</title>
+          <date when="2017-09-05">September 05, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+              Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-09-05" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l3d20c5">
+        <head xml:id="pl-l3d20c5-Hd1e111">Cap. V</head>
+        <head xml:id="pl-l3d20c5-Hd1e114" type="question-title"> De traditione Christi facta a Iuda, a Deo, a Iudaeis. </head>
+        <p xml:id="pl-l3d20c5-d1e117"> Christus ergo est sacerdos, idemque hostia et pretium nostrae reconciliationis, qui se
+          in ara crucis non diabolo, sed Deo- Trinitati obtulit pro omnibus quantum ad pretii
+          sufficientiam, sed pro electis tantum quantum ad efficaciam , quia praedestinatis tantum
+          salutem effecit. De quo et legitur, quod sit traditus a Patre, et quod se ipsum tradidit,
+          et quod ludas eum tradidit, et Indaei. Ipse se tradidit, quia sponte ad passionem
+          accessit; et Paler eum tradidit, quia voluntate Patris, immo totius Trinitatis passus est;
+          ludas tradidit prodendo, et Iudaei instigando. </p>
+        <p xml:id="pl-l3d20c5-d1e120"> Et fuit actus Iudae et Iudaeorum malus, et actus Christi vel Patris bonus. Opus Christi
+          et Patris bonum, quia bona Patris et Filii voluntas; malum fuit opus Iudae et ludaeorum,
+          quia mala fuit intentio. Diversa fuerunt ibi facta sive opera, id est diversi actus, et
+          una res sive factum, scilicet passio ipsa. </p>
+        <p xml:id="pl-l3d20c5-d1e123"> Ideo doctores aliquando uniunt in facto illo Patrem, Filium, Iudam, Iudaeum, aliquando
+          disiungunt. Respicientes enim ad passionem, unum opus illorum dicunt; attendentes
+          intentiones et actus, facta diversa discernunt. </p>
+        <p xml:id="pl-l3d20c5-d1e127"> Unde <name>Augustinus</name>: <quote xml:id="pl-l3d20c5-Qd1e132">Facta est, inquit, traditio a Patre, facta est
+            traditio a Filio, facta est traditio a luda: una res facta est. Quid ergo discernit
+            inter eos? Quia hoc fecit Paler et Filius in caritate; ludas vero in proditione.
+            Videtis, quia non quid faciat homo, sed qua voluntate, considerandum est. In eodem facto
+            invenimus Deum, quo ludam; Deum benedicimus, Iudam detestamur; quia Dens cogitavit
+            salutem nostram, ludas cogitavit pretium, quo vendidit Dominum, Filius pretium, quod
+            dedit pro nobis. Diversa ergo intentio diversa facta facit, cum tamen sit una res ex
+            diversis </quote>. </p>
+        <p xml:id="pl-l3d20c5-d1e136"> Ecce unam rem dicit ibi fuisse et diversa facta, quia una ibi fuit passio, sed diversi
+          actus; et actus quidem Iudae ac Iudaeorum mali, quibus operati sunt Christi passionem,
+          quae bonum est, et opus Dei est. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

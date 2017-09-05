@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cap. IV.</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Cap. IV.</title>
+          <date when="2017-09-05">September 05, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+              Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-09-05" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l3d6c4">
+        <head xml:id="pl-l3d6c4-Hd1e111">Cap. IV.</head>
+        <head xml:id="pl-l3d6c4-Hd1e114" type="question-title"> Tertia est eorum qui non solum personam ex naturis compositam
+          negant, sed etiam aliquem hominem vel aliquam substantiam ibi ex carne et anima compositam
+          diffitentur; et sic illa duo, scilicet animam et carnem, Verbo unita dicunt, ut non ex
+          illis aliqua substantia vel persona componeretur, sed illis duobus velut indumento Deus
+          vestiretur, ut mortalibus oculis appareret; qui rationem incarnationis secundum habitum
+          accipiunt. </head>
+        <p xml:id="pl-l3d6c4-d1e117"> Sunt etiam et alii, qui in incarnatione Verbi non solum personam ex naturis compositam
+          negant, verum etiam hominem aliquem, sive etiam aliquam substantiam ibi ex anima et carne
+          compositam vel factam diffitentur; sed sic illa duo, scilicet animam et carnem, Verbi
+          personae vel naturae unita esse aiunt, ut non ex illis duobus, vel ex bis Iribus aliqua
+          substantia vel persona fieret sive componeretur, sed illis duobus velut indumento Verbum
+          Dei vestiretur, ut mortalium oculis congruenter appareret . Qui ideo dicitur factus verus
+          homo, quia veritatem carnis et animae accepit. Quae duo etiam in singularitatem vel
+          unitatem suae personae accepisse legitur, non quia illa duo, vel aliqua res ex illis
+          composita, sit una persona cum Verbo, vel sit Verbum, sed quia, illis duobus accedentibus
+          Verbo, non est personarum numerus auctus, ut fieret quaternitas in Trinitate; et quia ipsa
+          persona Verbi, quae prius erat sine indumento, assumtione indumenti non est divisa vel
+          mutata, sed una eademque immutata permansit. Qui secundum habitum Deum hominem factum
+          dicunt. Accipiendo enim hominem, dictus est Deus factus homo; et propter acceptum hominem
+          dicitur Deus vere esse homo; et propter assumentem Deum dicitur homo esse Deus. Nam si
+          essentialiter, inquiunt illi, Deus esse homo, vel homo esse Deus intelligere- tur, tunc si
+          Deus hominem assumsisset in sexu muliebri, et mulier essentialiter Deus esset, et e
+          converso; at potuit Deus assumsisse hominem in sexu muliebri; potuit igitur mulier esse
+          Deus, et e converso. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

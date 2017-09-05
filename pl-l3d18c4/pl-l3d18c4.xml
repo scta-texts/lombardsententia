@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cap. IV.</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Cap. IV.</title>
+          <date when="2017-09-05">September 05, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+              Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-09-05" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l3d18c4">
+        <head xml:id="pl-l3d18c4-Hd1e111">Cap. IV.</head>
+        <head xml:id="pl-l3d18c4-Hd1e114" type="question-title"> Si Christus sine omni merito habere valuit, quod merito
+          obtinuit. </head>
+        <p xml:id="pl-l3d18c4-d1e117"> Si vero quaeritur, utrum Christus illam immortalitatis et impassibilitatis gloriam et
+          nominis Dei manifestationem sine omni merito habere potuerit, sane dici potest, quia
+          humanam naturam ita gloriosam suscipere potuit, sicut in resurrectione exstitit, no-
+          menque suum et aliter hominibus manifestare potuit; sed homo passibilis esse non potuit,
+          sicut fuit, et ad illam gloriam sine merito pervenire. </p>
+        <p xml:id="pl-l3d18c4-d1e120"> Potuit quidem pervenire ad illam sine merito passionis, quia potuit, consumta
+          mortalitate, immortalitatis gloria vestiri, sed non sine merito iustitiae et caritatis,
+          aliarumque virtutum. Non enim Christus homo esse potuit, in quo plenitudo virtutum et
+          gratiae non fuerit; nec virtutes inesse ei potuerunt, cilicio mortalitatis induto, quin
+          per eas mereretur. Habens igitur has virtutes secundum hominem passibilem ac mortalem, non
+          potuit non mereri gloriam immortalitatis; non ergo potuit, factus mortalis, sine merito
+          gloriam impassibilitatis et immortalitatis ac manifestationem Dei nominis consequi. Potuit
+          tamen haec assequi sine merito passionis, quia per passionem niI sibi meruit, quod non
+          ante per vir¬ tutes meruerit. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

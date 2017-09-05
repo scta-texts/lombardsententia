@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cap. III.</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Cap. III.</title>
+          <date when="2017-09-05">September 05, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+              Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-09-05" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l3d18c3">
+        <head xml:id="pl-l3d18c3-Hd1e111">Cap. III.</head>
+        <head xml:id="pl-l3d18c3-Hd1e114" type="question-title"> De eo quod scriptum est: Donavit illi, nomen, quod est supra
+          omne nomen. </head>
+        <p xml:id="pl-l3d18c3-d1e117"> Nec tantum gloriam impassibilitatis et immortalitatis meruit, sed etiam donari sibi
+            <quote xml:id="pl-l3d18c3-Qd1e119">nomen, quod est super omne nomen,</quote> scilicet honorificentiam, quod vocatur
+          Deus. Hoc tamen nomen ante mortem habuit: habuit enim hoc nomen Dei Filius , in quantum
+          Deus est, ab aeterno per naturam; in quantum vero homo factus est, habuit ex tempore per
+          gratiam. </p>
+        <p xml:id="pl-l3d18c3-d1e123"> Verumtamen <name ref="#Augustine">Augustinus</name> dicit, <quote xml:id="pl-l3d18c3-Qd1e128">homini donatum esse
+            illud nomen, non Deo, quia illud nomen habuit, cum in forma Dei tantum erat; sed cum
+            dicitur: <quote xml:id="pl-l3d18c3-Qd1e130">Propter quod illum exaltavit, et donavit illi nomen, quod est super omne
+              nomen,</quote> satis apparet, propter quid exaltaverit, id est propter obedientiam, et
+            in qua forma exaltatus sit. In qua enim forma crucifixus est, in ea exal¬ tatus est, et
+            in ea donatum est ei nomen, ut cum ipsa <quote xml:id="pl-l3d18c3-Qd1e133">forma servi</quote> nominetur unigenitus
+            Filius Dei: hoc illi donatum est ut homini, quod iam habebat idem ipse Deus </quote>.
+          Hoc igitur per gratiam accepit, ut ipse ens homo vel subsistens in forma servi, id est in
+          anima et carne, nominetur et sit Deus. </p>
+        <p xml:id="pl-l3d18c3-d1e138"> Sed nunquid hoc meruit? Supra enim dictum est, quia hoc tantum bonum homo ille non
+          meruit; quomodo ergo hic dicitur: Propter obedientiam donatum est ei hoc nomen ? </p>
+        <p xml:id="pl-l3d18c3-d1e142"> Secundum tropum illum, in Scriptura creberrimum, hoc accipiendum est, quo <quote xml:id="pl-l3d18c3-Qd1e144">
+            dicitur res fieri, quando innotescit </quote>. Post resurrectionem vero in evidenti
+          positum est quod ante erat , ut scirent homines et daemones . Manifestationem ergo illius
+          nominis donavit ei Deus post resurrectionem, sed illam meruit per obedientiam passionis,
+          qui , eo quod obedivit patiendo, exaltatus est resurgendo, et per hoc manifestum est
+          nomen. </p>
+        <p xml:id="pl-l3d18c3-d1e148"> Hoc eodem tropo usus est etiam post resurrectionem dicens : <quote xml:id="pl-l3d18c3-Qd1e150">Data est mihi omnis
+            potestas in caelo et in terra;</quote> non quod tunc primo acceperit, sed quam ante
+          habebat, tunc manifestata est potestas. </p>
+        <p xml:id="pl-l3d18c3-d1e154"> Celerum <name>Ambrosius</name> dicit, nomen illud donatum esse Deo, non homini; et
+          videtur secus verborum superficiem oppositus Augustino; sed intelligentia non obviat,
+          licet diversum sapiat. Nam <name>Ambrosius</name> de naturali donatione id dictum
+          intelligit, qua aeternaliter Pater generando dedit Filio nomen, quod est super omne nomen,
+          scilicet esse Deum per naturam, quia genuit ab ae¬ terno Filium plenum et sibi aequalem
+          Deum; quod tamen nomen Apostolus propter passionis obedientiam Christo donatum dicit. Sed
+          praemisso locutionis modo accipiendum est. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

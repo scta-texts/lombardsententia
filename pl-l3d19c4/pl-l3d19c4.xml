@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Cap. IV].</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>[Cap. IV].</title>
+          <date when="2017-09-05">September 05, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+              Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-09-05" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l3d19c4">
+        <head xml:id="pl-l3d19c4-Hd1e111">[Cap. IV].</head>
+        <p xml:id="pl-l3d19c4-d1e114"> Peccata quoque nostra, id est poenam nostrorum peccatorum, dicitur <quote xml:id="pl-l3d19c4-Qd1e116">in corpore suo
+            super lignum portasse,</quote> quia per ipsius poenam, quam in cruce tulit, omnis poena
+          temporalis, quae pro peccato converso debetur, in Baptismo penitus relaxatur , ut nulla a
+          baptizato exigatur, et in Poenitentia minoratur: non enim sufficeret illa poena, qua
+          poenitentes ligat Ecclesia, nisi Christi poena cooperaretur, qui pro nobis solvit. Unde
+          peccata iustorum, qui fuerunt ante adventum <quote xml:id="pl-l3d19c4-Qd1e119">,</quote> in sustentatione Dei fuisse
+          usque ad Christi mortem, dicit Apostolus, <quote xml:id="pl-l3d19c4-Qd1e122">ad ostensionem iusti- tiae eius in hoc
+            tempore</quote> . </p>
+        <p xml:id="pl-l3d19c4-d1e126"> Ecce, ex parte expositum est, quomodo et quid Christus per mortem nobis meruit et
+          impetravit. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

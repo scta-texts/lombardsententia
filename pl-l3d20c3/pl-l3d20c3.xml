@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Cap. III]</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>[Cap. III]</title>
+          <date when="2017-09-05">September 05, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+              Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-09-05" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l3d20c3">
+        <head xml:id="pl-l3d20c3-Hd1e111">[Cap. III]</head>
+        <p xml:id="pl-l3d20c3-d1e114">
+          <quote xml:id="pl-l3d20c3-Qd1e116">Sed qua iustitia? lesu Christi. Et quomodo victus est ea? Quia in eo nihil dignum
+            morte inveniens , occidit eum ta¬ men. Et utique iustum est, ut debitores, quos tenebat,
+            liberi dimittantur in eum credentes, quem sine ullo debito occidit </quote>. <quote xml:id="pl-l3d20c3-Qd1e119">
+            Ideo autem potentia vincere noluit, quia diabolus vitio perversitatis suae, amator est
+            potentiae et desertor oppugnatorque iustitiae; in quo homines magis eum imitantur, qui,
+            neglecta vel etiam perosa iustitia, potentiae magis student eiusque vel adeptione
+            laetantur, vel cupiditate inflammantur, ideoque placuit Deo, ut non potentia, sed
+            iustitia vincens, hominem erueret , in quo homo eum imitari disceret </quote>. <quote xml:id="pl-l3d20c3-Qd1e122">
+            Post vero in resurrectione secuta est potentia, quia revixit mortuus, nunquam postea
+            moriturus</quote>. <quote xml:id="pl-l3d20c3-Qd1e125">Sed nonne iure aequissimo vinceretur diabolus, si potentia
+            tantum Christus cum illo agere voluisset? Utique, sed postposuit Christus quod potuit,
+            ut prius ageret quod oportuit </quote>. </p>
+        <p xml:id="pl-l3d20c3-d1e129"> Iustitia ergo humilitatis hominem liberavit, quem sola potentia aequissime liberare
+          potuit. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

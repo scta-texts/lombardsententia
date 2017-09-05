@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cap. I.</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Cap. I.</title>
+          <date when="2017-09-05">September 05, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+              Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-09-05" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l3d14c1">
+        <head xml:id="pl-l3d14c1-Hd1e111">Cap. I.</head>
+        <head xml:id="pl-l3d14c1-Hd1e114" type="question-title"> Si anima Christi habuerit sapientiam parem cum Deo, el si omnia
+          scit, quae Deus. </head>
+        <p xml:id="pl-l3d14c1-d1e117"> Hic quaeri opus est, cum anima Christi esset sapiens sapientia gratuita, utrum habuerit
+          sapientiam aequalem Deo, sive omnium rerum scientiam habuerit vel habeat, id est, utrum
+          omnia sciat, quae Deus scit. </p>
+        <p xml:id="pl-l3d14c1-d1e120"> Quibusdam placet, quod nec parem cum Deo habeat scientiam, nec omnia sciat, quae Deus,
+          quia in nullo creatura aequatur Creatori. Cum igitur anima illa creatura sit, in nullo
+          aequatur Creatori, ergo nec in sapientia; non ergo habet aequalem cum Deo sapientiam, nec
+          scit omnia, quae scit Deus. </p>
+        <p xml:id="pl-l3d14c1-d1e123"> Item si anima illa aequalem habet cum Deo sapientiam, non ergo Deus in omni bono maiorem
+          habet sufficientiam quam eius creatura. </p>
+        <p xml:id="pl-l3d14c1-d1e127"> Inducunt etiam auctoritates ad idem probandum. Ait enim Propheta ex persona hominis
+          assumti: <quote xml:id="pl-l3d14c1-Qd1e129">Mirabilis facta est scientia tua ex me</quote> , <quote xml:id="pl-l3d14c1-Qd1e132">et non potero ad
+            eam.</quote> Quod exponens Cassiodorus ait: <quote xml:id="pl-l3d14c1-Qd1e135">Veritas humanae conditionis
+            ostenditur, quia homo assumtus divinae substantiae non potest aequari in scientia, vel
+            in alio </quote>. </p>
+        <p xml:id="pl-l3d14c1-d1e139"> Apostolus etiam ait: <quote xml:id="pl-l3d14c1-Qd1e141">Nemo novit quae sunt Dei, nisi Spiritus Dei, qui solus
+            scrutatur omnia, etiam profunda Dei.</quote>
+        </p>
+        <p xml:id="pl-l3d14c1-d1e145"> His aliisque pluribus rationibus et auctoritatibus nituntur, qui animam Christi asserunt
+          nec parem cum Deo habere scientiam, nec omnia scire, quae Deus; quia si omnia scit, quae
+          Deus, scit ergo creare mundum, scit etiam creare se ipsam. </p>
+        <p xml:id="pl-l3d14c1-d1e148"> Quibus respondentes dicimus , animam Christi per sapientiam gratis datam in Verbo Dei,
+          cui unita est, quod perfecte intelligit, omnia scire, quae scit Deus, sed non omnia posse,
+          quae potest Deus, nec ita clare ac perspicue omnia capit, ut Deus; et ideo non aequatur
+          Creatori suo in scientia, etsi omnia sciat, quae et ipse; nec est eius sapientia aequalis
+          sapientiae Dei, quia illa multo est dignior, digniusque et perfectius omnia capit quam
+          illius animae sapientia. Ergo et in scientia maiorem habet sufficientiam Deus, quam anima
+          illa, quae dignior est omni creatura. </p>
+        <p xml:id="pl-l3d14c1-d1e151"> Illud vero Apostoli, quod inducunt: <quote xml:id="pl-l3d14c1-Qd1e153">Nemo novit quae Dei sunt, nisi Spiritus Dei,
+            qui solus scrutatur omnia,</quote> pro nobis facit. Mox enim addit Apostolus : <quote xml:id="pl-l3d14c1-Qd1e156" ana="#Icor2_12">Nos autem Spiritum Dei habemus,</quote> ut per Spiritum quem habebat,
+          Dei profunda se scire ostenderet. Sed anima illa prae omnibus Spiritum Dei habuit, cui
+            <quote xml:id="pl-l3d14c1-Qd1e159">Spiritus non est datus ad mensuram,</quote> ut ait loannes Evan- gelista . Dona
+          igitur Spiritus sancti sine mensura habuit, ergo et sapientiam . Omnia ergo scivit anima
+          illa: si enim quaedam scivit, quaedam non, non sine mensura scientiam habuit; sed sine
+          mensura scientiam habuit; scit igitur omnia. </p>
+        <p xml:id="pl-l3d14c1-d1e163"> Fulgentius etiam in sermone quodam multa inducit, quibus asserit, animam illam rerum
+          omnium scientiam habere, utens auctoritate Apostoli dicentis: <quote xml:id="pl-l3d14c1-Qd1e165">In quo sunt omnes
+            thesauri sapientiae et scientiae absconditi.</quote>
+        </p>
+        <p xml:id="pl-l3d14c1-d1e170"> Quod etiam ratione potest probari sic: Nihil scit aliquis, quod eius anima ignoret; sed
+          Christus, secundum omnium concessionem, omnia scit; igitur anima eius omnia scit. </p>
+        <p xml:id="pl-l3d14c1-d1e173"> Ad id vero quod dicunt: Si omnia scit, ergo scit creare mundum vel se ipsam;
+          respondemus, quod scientiam habet creandi mundum, sed non potentiam, et creandi animam; et
+          scit, quomodo Deus se ipsam creaverit; habet ergo scientiam sui creatae, sed non sui
+          creandae, quia non est creanda, sed creata. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

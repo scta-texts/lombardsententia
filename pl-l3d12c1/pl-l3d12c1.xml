@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cap. I.</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Cap. I.</title>
+          <date when="2017-09-05">September 05, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+              Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-09-05" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l3d12c1">
+        <head xml:id="pl-l3d12c1-Hd1e111">Cap. I.</head>
+        <head xml:id="pl-l3d12c1-Hd1e114" type="question-title"> An Deus alium sumere potuerit, vel aliunde quam de genere Adae. </head>
+        <p xml:id="pl-l3d12c1-d1e117"> Solet etiam quaeri, utrum alium hominem, vel aliunde hominem quam de genere illius Adam,
+          Deus assumere potuerit. </p>
+        <p xml:id="pl-l3d12c1-d1e120"> Ad quod sane dici potest, ipsum aliam animam et aliam carnem potuisse assumere, quia
+          gratia tantum assumta est anima illa et caro a Verbo Dei. Etenim ait Augustinus: <quote xml:id="pl-l3d12c1-Qd1e122">In
+            rebus per tempus ortis illa summa gratia est, quod homo in unitate personae coniunctus
+            est Deo</quote>. Potuit igitur Deus aliam animam et aliam carnem sumere , et carnem
+          utique aliunde quam de genere Adam. </p>
+        <p xml:id="pl-l3d12c1-d1e126"> Unde Augustinus, in libro XIII <title ref="#deTrinitate">De Trinitate </title>:
+            <quote xml:id="pl-l3d12c1-Qd1e131">Poterat utique Deus hominem aliunde suscipere, in quo esset me- diator Dei et
+            hominum, non de genere illius Adam, qui peccato suo genus obligavit humanum, sicut
+            ipsum, quem primum creavit, non de genere alicuius creavit. Potuit ergo vel sic, vel
+            alio quo vellet modo creare unum alium, de quo vinceretur victor prioris. Sed melius
+            iudicavit, et de ipso quod victum fuerat genere, assumere hominem, per quem hominis
+            vinceret inimicum; et tamen ex Virgine, cuius conceptum Spiritus, non caro, fides, non
+            libido praevenit, nec interfuit carnis concupiscentia, qua ceteri concipiuntur qui
+            originale trahunt peccatum; sed credendo, non concumbendo sancta est fecundata
+            virginitas </quote>. </p>
+        <p xml:id="pl-l3d12c1-d1e136"> Ex his aperte ostenditur, et alium et aliunde hominem Deum assumere potuisse. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

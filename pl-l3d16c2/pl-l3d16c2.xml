@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cap. II.</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Cap. II.</title>
+          <date when="2017-09-05">September 05, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+              Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-09-05" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l3d16c2">
+        <head xml:id="pl-l3d16c2-Hd1e111">Cap. II.</head>
+        <head xml:id="pl-l3d16c2-Hd1e114" type="question-title"> De statibus hominis, et quid Christus de singulis acceperit. </head>
+        <p xml:id="pl-l3d16c2-d1e117"> Et est hic notandum, Christum de omni statu hominis aliquid accepisse, qui omnes venit
+          salvare. Sunt enim quatuor status hominis: primus ante peccatum, secundus post peccatum et
+          ante gratiam, tertius sub gratia, quartus in gloria. </p>
+        <p xml:id="pl-l3d16c2-d1e120"> De primo statu accepit immunitatem peccati. Unde <name ref="#Augustine">Augustinus</name> illud Ioannis Evangelistae exponens: <quote xml:id="pl-l3d16c2-Qd1e125">Qui desursum venit, super
+            omnes est,</quote> dicit, <quote xml:id="pl-l3d16c2-Qd1e128"> Christum venisse desursum, id est de altitudine
+            humanae naturae ante peccatum, quia de illa altitudine assumsit Verbum Dei humanam
+            naturam, dum non assumsit culpam, cuius assumsit poenam </quote>. Sed poenam assumsit de
+          statu secundo, et alios defectus; de tertio vero gratiae plenitudinem; de quarto, non
+          posse peccare, et Dei perfectam contemplationem. Habuit enim simul bona viae quaedam, et
+          bona patriae, sicut et quaedam mala viae. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

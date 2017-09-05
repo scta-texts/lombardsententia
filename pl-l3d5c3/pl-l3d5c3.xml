@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title/>
+          <date when="2017-09-05">September 05, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+              Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-09-05" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l3d5c3">
+        <head xml:id="pl-l3d5c3-Hd1e109" type="question-title">Cap. III.</head>
+        <p xml:id="pl-l3d5c3-d1e112"> Quare non accepit personam hominis, cum assumsit hominem, quod quidam probare nituntur. </p>
+        <p xml:id="pl-l3d5c3-d1e115"> Ideo vero non personam hominis assumsit, quia caro illa et anima illa non erant unita in
+          unam personam, quam assumserit, quia non ex illis constabat persona, quando illis unitum
+          Verbum est: nam sibi invicem sunt unita simul, cum Verbo unita sunt. Altera tamen unione
+          invicem unita sunt illa duo, scilicet anima et caro, alia unione Verbo unita sunt; quia
+          alia est unio animae illius ad carnem, et alia est unio Verbi ad animam illam et carnem.
+          Non ergo accepit Verbum Dei personam hominis, sed naturam, quia non erat ex carne illa et
+          anima illa, una composita persona quam Verbum acceperit, sed accipiendo univit, et uniendo
+          accepit. </p>
+        <p xml:id="pl-l3d5c3-d1e118"> Hic a quibusdam opponitur, quod personam assumserit persona. Persona enim est <quote xml:id="pl-l3d5c3-Qd1e120">
+            substantia rationalis individuae naturae </quote>; hoc autem est anima; igitur si animam
+          assumsit, et personam. </p>
+        <p xml:id="pl-l3d5c3-d1e124"> Quod ideo non sequitur, quia anima non est persona, quando alii rei est unita
+          personaliter, sed quando per se est: absoluta enim a corpore persona est, sicuti Angelus.
+          Illa autem anima nunquam fuit, quin esset alii rei coniuncta; ideoque non, ea assumta,
+          persona est assumta. </p>
+        <p xml:id="pl-l3d5c3-d1e128"> Aliter quoque nituntur probare, Verbum Dei assumsisse personam, quia assumsit aliquem
+          hominem: assumsit enim hominem Iesum Christum ; ergo aliquem hominem. </p>
+        <p xml:id="pl-l3d5c3-d1e131"> Quod autem hominem Iesum Christum assumserit, <name ref="#Augustine">Augustinus</name>
+          in <title>Expositione Symboli</title> sub anathemate tradit dicens: <quote xml:id="pl-l3d5c3-Qd1e139">Si quis dixerit
+            atque crediderit, hominem Iesum Christum a Filio Dei assumtum non fuisse, anathema sit
+          </quote>. </p>
+        <p xml:id="pl-l3d5c3-d1e143"> Qui etiam in pluribus scripturae locis huiusmodi utitur locutionibus: <quote xml:id="pl-l3d5c3-Qd1e145"> ille homo
+            a Verbo est assumtus </quote>; <quote xml:id="pl-l3d5c3-Qd1e148"> ille homo factus est Christus</quote>. </p>
+        <p xml:id="pl-l3d5c3-d1e152"> Et Propheta, de homine Christo loquens, Deo ait: <quote xml:id="pl-l3d5c3-Qd1e154" ana="#ps64_5">Beatus, quem
+            elegisti et assumsisti.</quote>
+        </p>
+        <p xml:id="pl-l3d5c3-d1e158"> Ex quibus consequi videtur, quod aliquis homo assumtus sil a Verbo, et ita persona a
+          persona sit assumta. </p>
+        <p xml:id="pl-l3d5c3-d1e161"> Sed quia hoc nefas est dicere aut sentire, praemissae locutiones eisque similes secundum
+          hanc intelligentiam sane accipi debent, ut homo Christus, sive ille homo, sive quidam homo
+          dicatur assumtus a Verbo, sive unitus Verbo, non quia hominis persona sit assumta vel
+          unita Verbo , sed quia anima illa et caro illa assumta sunt et unita Verbo, in quibus
+          subsistit persona Dei et hominis, ut ad hominis nataram, non ad personam respicias, cum
+          assumtum, vel unitum, vel quemdam, vel aliquem in huiusmodi locutionibus scriptura
+          memorat. </p>
+        <p xml:id="pl-l3d5c3-d1e165"> Quocirca, cum quaeritur sine proposita auctoritate, an aliquis, vel quidam homo sit
+          assum tus a Verbo, vel unitus Verbo, sine distinctione intelligentiae non est hic reddenda
+          responsio, quoniam multiplex praemissa est quaestio; sed instantiae quaerentis ita
+          determinato, si de hominis persona quaeris, respondeo: non; si de hominis natura, dico:
+          est. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

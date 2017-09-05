@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cap. II.</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Cap. II.</title>
+          <date when="2017-09-05">September 05, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+              Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-09-05" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l3d15c2">
+        <head xml:id="pl-l3d15c2-Hd1e111">Cap. II.</head>
+        <head xml:id="pl-l3d15c2-Hd1e114" type="question-title"> De propassione et passione timoris, vel tristitiae. </head>
+        <p xml:id="pl-l3d15c2-d1e117"> Ne autem in sacris litteris aliqua adversa diversitas esse putetur, harum auctoritatum
+          verba in hunc modum accipienda dicimus, ut non veritatem timoris et tristitiae vel
+          propassionem , sed timoris et tristitiae necessitatem et passionem a Christo removisse
+          intelligantur. </p>
+        <p xml:id="pl-l3d15c2-d1e120"> Habuit enim Christus verum timorem et tristitiam in natura hominis, sed non sicut nos,
+          qui sumus membra eius. Nos enim, causa peccati nostri, his defectibus necessario
+          subiacemus, et in nobis sunt isti defectus secundum propassionem et passionem, sed in
+          Christo nonnisi secundum propassionem. Sicut enim in peccatis gradus quidam notantur
+          propassio et passio, ita et in his poenalibus affectibus. Afficitur enim quis interdum
+          timore vel tristitia, ita ut mentis intellectus non inde moveatur a rectitudine vel Dei
+          contemplatione, et tunc propassio est; aliquando vero movetur et turbatur, et tunc passio
+          est. Christus vero non fuit ita turbatus in anima timore vel tristitia, ut a rectitudine
+          vel Dei contemplatione aliquatenus declinaret; secundum quem modum intelligitur, cum
+          dicitur non timuisse vel tristis fuisse. </p>
+        <p xml:id="pl-l3d15c2-d1e123"> Unde <name>Hieronymus</name>
+          <title>Super Matthaeum,</title> ubi legitur: <quote xml:id="pl-l3d15c2-Qd1e131">Coepit contristari et moestus
+            esse,</quote>
+          <quote xml:id="pl-l3d15c2-Qd1e134"> ut veritatem, inquit, probaret as- sumti hominis, vere contristatus est, sed non
+            passio eius dominatur animo, verum propassio est. Unde ait: <quote xml:id="pl-l3d15c2-Qd1e136">Coepit
+              contristari.</quote> Aliud est enim contristari, aliud incipere contristari </quote>,
+          quod est, aliter contristatur quis per propassionem, aliter per passionem. Ideoque
+          secundum hanc distinctionem aliquando dicitur Christus non vere timuisse, aliquando vere
+          timuisse, quia verum timorem habuit et tristitiam, sed non secundum passionem, neque ex
+          necessitate conditionis. </p>
+        <p xml:id="pl-l3d15c2-d1e142"> Unde Augustinus, ex his causis volens assumi dictorum intelligentiam, dicit, Christum
+          non vere timuisse vel tristatum esse, et in continenti, veram tristitiam habuisse, his
+          verbis: <quote xml:id="pl-l3d15c2-Qd1e144">Infirmos in se praesignans Dominas, ait: <quote xml:id="pl-l3d15c2-Qd1e146">Pater, si fieri potest,
+              transeat a me calix iste.</quote> Non enim vere timebat Dominus pati, tertia die
+            resurrecturus, cum arderet Paulus <quote xml:id="pl-l3d15c2-Qd1e149">dissolvi et esse cum Christo. </quote>Iste
+            gaudet coronandus, et tristis est Dominus coronaturus </quote>? Ecce hic videtur
+          tristitiam et timorem a Christo removere. </p>
+        <p xml:id="pl-l3d15c2-d1e154"> Continuo autem subiunxit: <quote xml:id="pl-l3d15c2-Qd1e156">Sed tristitiam sic assumsit, quo modo carnem. Fuit enim
+            tristis, ut Evangelium dicit. Si enim non tristis fuit, cum Evangelium dicat:
+              <quote xml:id="pl-l3d15c2-Qd1e158">Tristis est anima mea</quote> etc., ergo et quando dicit: Dormivit lesus, non
+            dormivit; vel quando dicit manducasse, non manducavit; et ita nihil sanum relinquetur,
+            ut dicatur etiam, quia corpus non erat verum. Quidquid ergo de illo scriptum est, verum
+            est, et factum est. Ergo et tristis fuit, sed voluntate tristitiam suscepit veram, quo
+            modo voluntate carnem veram </quote>. </p>
+        <p xml:id="pl-l3d15c2-d1e163"> Aperte noscis, eundem sibi in his verbis contradicere, nisi varias dictorum discerneret
+          causas, ex quibus intelligentia verborum assumenda est: si enim discernatur intelligentiae
+          causa praedictorum verborum, nihil occurrit contradictionis. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

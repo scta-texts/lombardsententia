@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cap. III.</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Cap. III.</title>
+          <date when="2017-09-05">September 05, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+              Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-09-05" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l3d1c3">
+        <head xml:id="pl-l3d1c3-Hd1e111">Cap. III.</head>
+        <head xml:id="pl-l3d1c3-Hd1e114" type="question-title">An Filius, qui tantum carnem accepit, aliquid fecerit, quod non
+          Pater vel Spiritus sanctus.</head>
+        <p xml:id="pl-l3d1c3-d1e117"> Sed forte aliqui dicent: Cum indivisa sint opera Trinitatis, si Filius carnem assumsit,
+          tunc Paler et Spiritus sanctus; quia si Filius carnem assumsit, nec Pater hoc fecit vel
+          Spiritus sanctus, non omne quod facit Filius, facit Pater et Spiritus sanctus; at omnia
+          simul Pater et Filius et amborum Spiritus pariter et concorditer operantur. </p>
+        <p xml:id="pl-l3d1c3-d1e120"> Ad quod dicimus, quia nihil operatur Filius sine Patre et Spiritu sancto, sed una est
+          horum trium operatio indivisa et indissimilis, et tamen Filius, non Pater vel Spiritus
+          sanctus, carnem assumsit. </p>
+        <p xml:id="pl-l3d1c3-d1e123"> Ipsam tamen carnis assumtionem Trinitas operata est, sicut <name ref="#Augustine">Augustinus</name> dicit in libro <title>De fide ad Petrum</title> : <quote xml:id="pl-l3d1c3-Qd1e131">Reconciliati
+            sumus per solum Filium secundum carnem, sed non soli Filio secundum deitatem. Trinitas
+            enim nos sibi reconciliavit, per hoc quod solum Verbuin-carnem ipsa Trinitas
+            fecit</quote>. </p>
+        <p xml:id="pl-l3d1c3-d1e136"> Trinitas igitur carnis assumtionem fecit, sed Verbo, non Patri vel Spiritui sancto. Si
+          enim Pater sibi, et Filius sibi, vel Pater Filio, et Filius Patri carnis assumtionem
+          operatus esset, iam non eadem esset operatio utriusque, sed divisa. Sed sicut
+          inseparabilis et indivisa est unitas substantiae trium, ut ait <name ref="#Augustine">Augustinus</name> in libro <title>De Trinitate</title>, ita et operatio; <quote xml:id="pl-l3d1c3-Qd1e144">non
+            tamen eandem Trinitatem natam de Virgine, crucifixam et sepultam catholici tractatores
+            docuerunt, sed tantummodo Filium; nec eandem Trinitatem in specie columbae descendisse
+            super Iesum, sed tantum Spiritum sanctum; nec eandem dixisse de caelo: <quote xml:id="pl-l3d1c3-Qd1e146">Tu es
+              Filius meus</quote>, sed tantum Patris vocem fuisse ad Filium factam, quamvis Pater et
+            Filius et Spiritus sanctus, sicut inseparabiles sunt, ita et inseparabiliter operentur.
+            Haec et mea fides est, quoniam haec est catholica fides </quote>. </p>
+        <p xml:id="pl-l3d1c3-d1e151"> Licet igitur solus Filius carnem assumserit, ipsam tamen incarnationem cum Patre et
+          Spiritu sancto operatus est. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

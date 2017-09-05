@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cap. I.</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Cap. I.</title>
+          <date when="2017-09-05">September 05, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+              Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-09-05" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l3d18c1">
+        <head xml:id="pl-l3d18c1-Hd1e111">Cap. I.</head>
+        <head xml:id="pl-l3d18c1-Hd1e114" type="question-title"> Si Christus meruit sibi et nobis, et quid sibi, et quid nobis. </head>
+        <p xml:id="pl-l3d18c1-d1e117"> De merito etiam Christi praetereundum non est; de quo quidam dicere solent, quod non
+          sibi, sed membris tantum meruerit . </p>
+        <p xml:id="pl-l3d18c1-d1e120"> Meruit quidem membris redemptionem a diabolo, a peccato, a poena, et regni reserationem,
+          ut, amota ignea romphea , libere pateret introitus. Sed et sibi meruit impassibilitatis et
+          immortalitatis gloriam, sicut ait Apostolus: <quote xml:id="pl-l3d18c1-Qd1e122">Christus factus est pro nobis obediens
+            usque ad mortem, mortem autem crucis; propter quod et Deus exaltavit illum, et dedit
+            illi nomen, quod est super omne nomen.</quote> Aperte dicit Apostolus, Christum
+          propterea exaltatum per impassibilitatis gloriam, quia est humiliatus per passionis
+          obedientiam; humilitas ergo passionis meritum fuit exaltationis, el exaltatio praemium
+          humilitatis. </p>
+        <p xml:id="pl-l3d18c1-d1e126"> Unde <name ref="#Augustine">Augustinus</name> , exponens praemissum capitulum, ait:
+            <quote xml:id="pl-l3d18c1-Qd1e131"> Ut Christus resurrectione clarificaretur, prius humiliatus est passione;
+            humilitas claritatis est meritum, claritas humilitatis est praemium. Sed hoc totum
+            factum est in forma servi: in forma enim Dei semper fuit et erit claritas.</quote>
+        </p>
+        <p xml:id="pl-l3d18c1-d1e136"> Item <name>Ambrosius</name>, idem capitulum tractans, ait: <quote xml:id="pl-l3d18c1-Qd1e141">Quid et quantum
+            humilitas mereatur, hic ostenditur </quote>. </p>
+        <p xml:id="pl-l3d18c1-d1e145"> His testimoniis evidens Iit, quod Christus, per humilitatem et obedientiam passionis,
+          meruit clarificationem corporis, nec id solum, sed etiam impassibilitalem animae. Anima
+          enim ipsius ante mortem erat passibilis, sicut caro mortalis; sed post mortem, merito
+          humi¬ litatis et anima impassibilis facta est, et caro immortalis. </p>
+        <p xml:id="pl-l3d18c1-d1e148"> Utrum autem anima sil facta impassibilis, quando caro facta est immortalis, scilicet
+          ipso resurrectionis momento, de auctoritate nobis certum non est; sed vel mox post carnis
+          separationem anima impassibililate donata est, aut in resurrectione, quando <quote xml:id="pl-l3d18c1-Qd1e150">caro
+            refloruit .</quote>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cap. III.</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Cap. III.</title>
+          <date when="2017-09-05">September 05, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+              Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-09-05" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l3d17c3">
+        <head xml:id="pl-l3d17c3-Hd1e111">Cap. III.</head>
+        <head xml:id="pl-l3d17c3-Hd1e114" type="question-title"> De capitulis quibusdam Ambrosii et. Hilarii, ubi de dubitatione
+          et timore Christi agitur. </head>
+        <p xml:id="pl-l3d17c3-d1e117"> Ceterum non parum nos movent verba Ambrosii, quibus significare videtur, Christum,
+          secundum humanum affectum, de potentia Patris dubitasse, sic dicens in libro II <title>De
+            Trinitate </title>: <quote xml:id="pl-l3d17c3-Qd1e122">De quo dubitat? De se, an de Patre? De eo utique, cui dicit:
+              <quote xml:id="pl-l3d17c3-Qd1e124">Transfer</quote> , dubitat hominis affectu. Nam Deus de Patre non dubitat, nec
+            de morte formidat. Propheta etiam non dubitat, qui nihil <quote xml:id="pl-l3d17c3-Qd1e127">Deo esse
+              impossibile</quote> asserit. Num intra homines constitues Deum ? Propheta non dubitat,
+            et Filium dubitare tu credis? Ut homo ergo dubitat, ut homo loculus est</quote>. </p>
+        <p xml:id="pl-l3d17c3-d1e132"> His verbis innui videtur, quod Christus, non in quantum Deus est vel Dei Filius, sed in
+          quantum homo, dubitaverit affectu humano. Quod ea ratione dictum accipi potest, non quia
+          ipse dubitaverit, sed quia modum gessit dubitantis et hominibus dubitare videbatur. </p>
+        <p xml:id="pl-l3d17c3-d1e135"> Illud etiam ignorandum non est, quod <name>Hilarius</name> asserere videtur, Christum
+          non sibi, sed suis orasse, cum dixit: <quote xml:id="pl-l3d17c3-Qd1e140">Transeat a me</quote> etc. <quote xml:id="pl-l3d17c3-Qd1e143">,</quote>
+          sicut nec sibi, sed suis timuit; nec eum voluisse , ut sibi non esset passio, sed ut a
+          suis transiret calix passionis, ita inquiens: <quote xml:id="pl-l3d17c3-Qd1e146">Si passio honorificatura eum erat,
+            sicut, Iuda exeunte, ait: <quote xml:id="pl-l3d17c3-Qd1e148">Nunc honorificatus est Filius hominis,</quote> quomodo
+            tristem eum metus passionis effecerat? Nisi forte tam irrationabilis fuerit, ut pati
+            mortem timuerit , quae patientem se glorificatura esset? Sed forte timuisse usque eo
+            aestimabitur, ut transferri a se calicem deprecatus sit dicens : <quote xml:id="pl-l3d17c3-Qd1e151">Pater, transfer
+              calicem hunc a me.</quote> Quomodo enim per patiendi metum transferri deprecaretur a
+            se, quod per dispensationis studium festinaret implere? Non enim convenit, ut pali nolit
+            quod pati velit; et cum pati eum velle cognosceres, religiosius fuerat hoc confiteri,
+            quam ad id impiae stultitiae prorumpere, ut eum assereres, ne pateretur orasse, quem
+            pati velle cognosceres </quote>. <quote xml:id="pl-l3d17c3-Qd1e155"> Non ergo sibi tristis, neque sibi orat transire
+            calicem, sed discipulis, ne in eos calix passionis incumbat, quem a se transire orat, ne
+            in his scilicet maneat </quote>. <quote xml:id="pl-l3d17c3-Qd1e159"> Non enim rogat, ne secum sit, sed ut a se
+            transeat. Deinde ait: <quote xml:id="pl-l3d17c3-Qd1e161">Non sicut ego volo, sed sicut tu vis .</quote> Humanae in
+            se sollicitudinis significans consortium, sed non discernens sententiam sibi communis
+            cum Pa¬ tre voluntatis </quote>. <quote xml:id="pl-l3d17c3-Qd1e165"> Pro hominibus ergo vult transire calicem, per
+            quem omnes lentandi erant discipuli; et ideo pro Petro rogatur, ne deficiat fides
+            eius</quote>. <quote xml:id="pl-l3d17c3-Qd1e168">Sciens igitur, haec omnia post mortem suam desitura, usque ad
+            mortem tristis est, et scit, hunc calicem non posse transire, nisi biberit; ideo ait:
+              <quote xml:id="pl-l3d17c3-Qd1e170">Pater mi, si non potest, transire calix iste, nisi bibam illum, fiat voluntas
+              tua,</quote> sciens, consummata in se passione, metum calicis transiturum, qui, nisi
+            eum bibisset , transire non posset, nec finis terroris, nisi consummata passione terrori
+            succederet, quia post mortem eius, per virtutum gloriam, apostolicae infirmitatis
+            scandalum pelleretur </quote>. </p>
+        <p xml:id="pl-l3d17c3-d1e176"> Intende, lector, his verbis pia diligentia, ne sint tibi vasa mortis. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

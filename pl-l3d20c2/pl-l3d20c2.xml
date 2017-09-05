@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Cap. II]</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>[Cap. II]</title>
+          <date when="2017-09-05">September 05, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+              Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-09-05" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l3d20c2">
+        <head xml:id="pl-l3d20c2-Hd1e111">[Cap. II]</head>
+        <p xml:id="pl-l3d20c2-d1e114"> Est et alia ratio, quare isto potius modo quam alio liberare voluit: <quote xml:id="pl-l3d20c2-Qd1e116"> quia sic
+            iustitia superatur diabolus, non potentia </quote>. <quote xml:id="pl-l3d20c2-Qd1e119"> Et quomodo id factum sit,
+            explicabo, ut potero </quote>. <quote xml:id="pl-l3d20c2-Qd1e122"> Quadam iustitia Dei in potestatem diaboli
+            traditum est genus humanum, peccato primi hominis in omnes originaliter transeunte et
+            illius debito omnes obligante; unde omnes homines ab origine sunt sub principe diabolo.
+            Unde Apostolus: <quote xml:id="pl-l3d20c2-Qd1e124">Eramus natura filii irae; </quote>natura, scilicet ut est
+            depravata peccato, non ut est recta creata ab initio. Modus autem ille, quo traditus est
+            homo in diaboli potestatem, rion ita debet intelligi, tanquam Deus hoc fecerit aut fieri
+            iusserit, sed quod tantum permiserit, iuste tamen. Illo dese- rente peccantem, peccati
+            auctor illico invasit. Non tamen Deus <quote xml:id="pl-l3d20c2-Qd1e127">continuit in ira sua miserationes
+              suas</quote> , nec hominem a lege suae potestatis amisit, cum in diaboli potestate
+            esse permisit, quia nec diabolus a potestate Dei est alienus, sicut nec a bonitate. Nam
+            qualicumque vita diabolus vel homo non subsisteret, nisi per eum qui vivificat omnia
+          </quote>. Non ergo Deus hominem deseruit, ut non se illi exhiberet Deum, sed inter mala
+          poenalia, etiam malis multa praestitit bona; et tandem hominem, quem commissio peccatorum
+          diabolo subdidit, remissio peccatorum, per sanguinem Christi data, a diabolo eruit, ut sic
+          iustitia vinceretur diabolus, non potentia. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

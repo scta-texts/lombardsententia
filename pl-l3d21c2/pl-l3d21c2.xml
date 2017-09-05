@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cap. II.</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Cap. II.</title>
+          <date when="2017-09-05">September 05, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+              Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-09-05" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l3d21c2">
+        <head xml:id="pl-l3d21c2-Hd1e111">Cap. II.</head>
+        <head xml:id="pl-l3d21c2-Hd1e114" type="question-title"> Qua ratione dicitur Christus mortuus vel passus. </head>
+        <p xml:id="pl-l3d21c2-d1e117">
+          <quote xml:id="pl-l3d21c2-Qd1e119"> Recedente vero anima, mortua est caro Christi; et quia caro mortua est, mortuus
+            est Christus. Sicut enim mortuus dicitur Deus, quando mortuus est homo, ita mortuus
+            dicitur homo, quando mortua est caro. Separatio animae mors carnis fuit </quote>.
+          Propter carnem ergo unitam Verbo, quae mortua est, dicitur Deus mortuus, et propter carnem
+          et animam, quae utraque dolorem sensit, dicitur Deus passus, cum divinitas omnis doloris
+          exors existeret. </p>
+        <p xml:id="pl-l3d21c2-d1e123"> Unde <name>Augustinus</name>: <quote xml:id="pl-l3d21c2-Qd1e128">Verbum caro factum est, ut per carnem panis
+            caelestis ad infantes transiret; et secundum hoc, ipsum Verbum crucifixum est, sed non
+            est mutatum in hominem; homo in illo mutatus est, ut melior fieret, quam erat. Per id
+            ergo quod homo erat, mortuus est Deus; et per id quod Deus erat, homo excitatus est et
+            resurrexit. Quidquid passus est homo, non potest dici non passus Deus, quia Deus erat
+            homo: quomodo non potes dicere, non te passum iniuriam, si vestis tua conscindatur,
+            quamvis vestis tua non sis tu. Multo magis ergo, quidquid patitur caro unita Verbo,
+            debet dici pati Deus, licet Verbum nec mori nec corrumpi nec mutari potuerit. Sed
+            quidquid horum pas- sus est, in carne passus est </quote>. </p>
+        <p xml:id="pl-l3d21c2-d1e132"> De hoc etiam <name>Ambrosius</name> in III libro <title>De Spiritu sancto</title> ait:
+            <quote xml:id="pl-l3d21c2-Qd1e140"> Quod Verbi caro patiebatur, manens in carne Verbum in se, pro corporis
+            assumtione referebat, ut pati diceretur, quia caro patiebatur, sicut scriptum est:
+              <quote xml:id="pl-l3d21c2-Qd1e142">Christo in carne passo</quote>
+          </quote>. Hic docetur, qua ratione Deus vel Dei Filius passus vel mortuus dicitur, non
+          quia mortem senserit, in quantum Deus est, sed quia caro ei unita, mortua est. </p>
+        <p xml:id="pl-l3d21c2-d1e148"> Secundum quam rationem dicit <name>Augustinus</name>: <quote xml:id="pl-l3d21c2-Qd1e153">Si quis dixerit atque
+            crediderit, Filium Dei Deum passum, anathema sit</quote>. </p>
+        <p xml:id="pl-l3d21c2-d1e157"> Cuius dicti causam, ex qua intelligentia sumenda est aperiens in eodem subdit: <quote xml:id="pl-l3d21c2-Qd1e159">Si
+            quis dixerit, quod in passione dolorem sentiebat Filius Dei Deus, et non caro tantum cum
+            anima, quam sibi acceperat, anathema sit</quote>. </p>
+        <p xml:id="pl-l3d21c2-d1e163"> Sane igitur dici potest, quod mortuus est Deus et non mortuus, passus est Dei Filius et
+          non passus passa est tertia persona et non passa, crucifixum est Verbum et non crucifixum:
+          secundum alteram naturam passus est, secundum alteram impassibilis. </p>
+        <p xml:id="pl-l3d21c2-d1e166"> Unde <name>Ambrosius</name>: <quote xml:id="pl-l3d21c2-Qd1e171">Generalis ista fides est, quia Christus est Dei
+            Filias et natus ex Virgine, quem quasi gigantem Propheta describit, eo quod biformis
+            geminaeque naturae unus sit, consors divinitatis et corporis </quote>. <quote xml:id="pl-l3d21c2-Qd1e174"> Idem ergo
+            patiebatur et non patiebatur; moriebatur et non moriebatur; sepeliebatur et non
+            sepeliebatur; resurgebat et non resurgebat: resurgebat secundam carnem, quae mortua
+            fuerat, non secundum Verbum, quod apud Deum semper manebat</quote>. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cap. III.</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Cap. III.</title>
+          <date when="2017-09-05">September 05, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+              Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-09-05" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l3d6c3">
+        <head xml:id="pl-l3d6c3-Hd1e111">Cap. III.</head>
+        <head xml:id="pl-l3d6c3-Hd1e114" type="question-title"> Secunda est eorum qui dicunt, hominem illum ex tribus
+          substantiis, vel ex duabus naturis constare; et hunc fatentur unam esse personam, ante
+          incarnationem simplicem tantum, sed in incarnatione compositam: et auctoritates, quibus se
+          muniunt, proponit. </head>
+        <p xml:id="pl-l3d6c3-d1e117"> Sunt autem et alii, qui istis in parte consentiunt, sed dicunt, hominem illum non ex
+          anima rationali et carne tantum , sed ex humana et divina natura, id est ex tribus
+          substantiis , divinitate, carne et anima constare, et hunc Christum fatentur. Et unam
+          personam tantum esse, ante incarnationem solummodo simplicem, sed in incarnatione factam
+          compositam ex divinitate et humanitate. Nec est ideo alia persona quam prius, sed cum
+          prius esset Dei tantum persona, in incarnatione facta est etiam hominis persona; non ut
+          duae essent personae, sed ut una et eadem esset persona Dei et hominis. Persona ergo, quae
+          prius erat simplex et in una tantum natura existens, in duabus et ex duabus subsistit
+          naturis; et persona, quae tantum Deus erat, facta est etiam verus homo, subsistens non
+          tantum ex anima et carne, sed etiam ex divinitate; nec tamen persona illa debet dici facta
+          persona, quamvis dicatur facta persona hominis. Facta est igitur illa persona, ut
+          quibusdam placet, quoddam subsistens ex anima et carne, sed non est facta persona, vel
+          substantia, vel natura. Et in quantum est illud sub¬ sistens, composita est; in quantum
+          autem Verbum est, simplex est </p>
+        <p xml:id="pl-l3d6c3-d1e120"> De hoc <name ref="#Augustine">Augustinus</name> in libro <title>Sententiarum
+            Prosperi</title> ait: <quote xml:id="pl-l3d6c3-Qd1e128">Modis omnibus approbare contendimus, Sacrificium Ecclesiae
+            duobus constare, duobus confici: elementorum visibili specie et invisibili Domini nostri
+            Iesu Christi carne et sanguine , Sacramento et re Sacramenti, id est corpore Christi;
+            sicut Christi persona constat et conficitur ex Deo et homine, cum ipse Christus verus
+            sit Deus et verus homo; quia omnis res illarum rerum naturam et veritatem in se
+            continet, ex quibus conficitur</quote>. </p>
+        <p xml:id="pl-l3d6c3-d1e132"> De hoc eodem <name>Ioannes Damascenus</name>: <quote xml:id="pl-l3d6c3-Qd1e137">In Domino nostro Iesu Christo duas
+            quidem naturas cognoscimus , unam autem hypostasim ex utrisque compositam</quote>.
+            <quote xml:id="pl-l3d6c3-Qd1e140">Incarnatus est igitur Christus, ex Virgine assumens primitiam nostrae massae, ut
+            ipsa exstiterit in carne hypostasis, quae Dei-Verbi hypostasis et composita facta
+            fuerit, quae prius simplex erat Verbi hypostasis; composita vero ex duabus perfectis
+            naturis: deitate et humanitate; et ferat ipsa divinae Dei-Verbi filiationis
+            characteristicum et de- terminativum idioma, secundum quod divisa est a Patre et Spiritu
+            sancto, et carnis characteristica et determinativa idiomata, secundum quae differat a
+            Matre et reliquis hominibus </quote>. </p>
+        <p xml:id="pl-l3d6c3-d1e145"> Item: <quote xml:id="pl-l3d6c3-Qd1e147">Unam hypostasim Filii Dei confitemur in duabus naturis perfecte se
+            habentibus, deitatis et humanitatis, et in- carnatam eandem hypostasim; et has duas
+            naturas custodiri et manere in ipso post unionem, non seorsum et secundum partem
+            ponentes singulam, sed unitas invicem in unam compositam hypostasim. Substantialem enim
+            inquimus unionem, scilicet veram et non secundum phantasiam; substantialem autem, non
+            duabus naturis perficientibus alteram, scilicet unam compositam naturam, sed unitas
+            invicem in unam hypostasim compositam Filii Dei, et manere eandem substantialem
+            differentiam determinamus: quod creabile mansit creabile, et quod increabile increabile
+            , et mortale mortale, et immortale immortale, et circumscriptibile circum- scriptibile,
+            et incircumscriptibile incircumscriptibile; et hoc quidem refulget miraculis</quote>. </p>
+        <p xml:id="pl-l3d6c3-d1e151"> De hoc etiam <name ref="#Augustine">Augustinus</name> in libro <title ref="#deTrinitate">De Trinitate</title> ait: <quote xml:id="pl-l3d6c3-Qd1e159"> Quemadmodum secundum deitatem una est Patris Filiique
+            natura, ita etiam, iuxta humanitatem, eadem est Matris et Filii natura. Ex utraque autem
+            substantia, et divinitatis et humanitatis , unus atque idem est Deus, Dei et hominis
+            Filius, lesus Christus, ut Deus verus, ita etiam homo verus </quote>. </p>
+        <p xml:id="pl-l3d6c3-d1e163"> Idem in libro XIII <title ref="#deTrinitate">De Trinitate</title>: <quote xml:id="pl-l3d6c3-Qd1e168">Sic Deo
+            coniungi potuit humana natura, ut ex duabus substantiis fieret una persona; ac per hoc
+            iam ex tribus: Deo, anima et carne </quote>. </p>
+        <p xml:id="pl-l3d6c3-d1e172"> His aliisque pluribus se muniunt auctoritatibus, qui dicunt, personam Christi compositam
+          esse, vel factam sive constantem ex duabus naturis, sive ex tribus substantiis. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

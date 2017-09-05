@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Cap. II]</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>[Cap. II]</title>
+          <date when="2017-09-05">September 05, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+              Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-09-05" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l3d11c2">
+        <head xml:id="pl-l3d11c2-Hd1e111">[Cap. II]</head>
+        <p xml:id="pl-l3d11c2-d1e114">
+          <name>Arii</name> haec fuisse perfidia legitur, ut Christum creaturam fateretur. <quote xml:id="pl-l3d11c2-Qd1e119">
+            Ideo effusa sunt viscera Arii , atque crepuit me¬ dius, prostratus in faciem, ea quibus
+            Christum negaverat foeda ora pollutus </quote>. </p>
+        <p xml:id="pl-l3d11c2-d1e123"> His aliisque pluribus testimoniis instruimur, non debere fateri simpliciter, Christum
+          esse factum, ve! creaturam; sed addita determinatione, recte dici potest, ut si dicatur
+          factus secundum carnem, vel secundum hominem, ut factura humanitati, non Deo attribuatur. </p>
+        <p xml:id="pl-l3d11c2-d1e126"> Ut enim ait <name>Ambrosius</name> in I libro <title>De Trinitate</title>: <quote xml:id="pl-l3d11c2-Qd1e134"> Non
+            Deus factus est, sed Dens Dei Filius natus est; postea vero secundum carnem homo factus
+            ex Maria est. <quote xml:id="pl-l3d11c2-Qd1e136" ana="#gal4_4">Misit enim Deus Filium suum, facium ex muliere,
+              factum sub Lege</quote>. <mentioned>Filium, inquit, suum</mentioned> scilicet non unum
+            de multis. Cum <mentioned>suum</mentioned> dicit, generationis aeternae proprietatem
+            significavit. Postea <mentioned>factum ex muliere</mentioned> asseruit, ut factura non
+            divinitati, sed assumtioni corporis ascriberetur. <mentioned>Facium igitur ex
+              muliere</mentioned> dicit, propter carnis susceptionem; <mentioned>sub
+              Lege</mentioned> propter observantiam Legis</quote>. <quote xml:id="pl-l3d11c2-Qd1e156">Generatio generationi non
+            praeiudicat, nec caro divinitati </quote>. <quote xml:id="pl-l3d11c2-Qd1e159"> Deus enim aeternus incarnationis
+            Sacramentum suscepit, non dividuus , sed unus et in utroque unus, scilicet divinitate et
+            corpore. Non enim alter ex Patre, alter ex Virgine; sed idem, aliter ex Patre, aliter ex
+            Virgine</quote>, <quote xml:id="pl-l3d11c2-Qd1e163">qui factus est secundum nostrae susceptionem naturae, non
+            secundum aeternae substantiam vitae </quote>; <quote xml:id="pl-l3d11c2-Qd1e166"> quem legimus
+              <quote xml:id="pl-l3d11c2-Qd1e168">primogenitum</quote> et <quote xml:id="pl-l3d11c2-Qd1e171">unigenitum: primogenitum,</quote> quia nemo ante
+            ipsum; <quote xml:id="pl-l3d11c2-Qd1e174">unigenitum,</quote> quia nemo post ipsum</quote>. </p>
+        <p xml:id="pl-l3d11c2-d1e179"> Ex his evidenter traditur qua intelligentia accipiendum sit, cum dicitur Christus factus
+          , vel simpliciter, vel cum additamento, ut factura scilicet vel creatura non ad assumentem
+          Deum, sed ad assumtum hominem referatur. </p>
+        <p xml:id="pl-l3d11c2-d1e183"> In Deo enim creatura esse non potest, ut ait <name>Ambrosius</name> in I libro <title>De
+            Trinitate</title> : <quote xml:id="pl-l3d11c2-Qd1e191"> Nuriquid dicto factus est Christus? Nunquid mandato creatus
+            est Christus? Quomodo autem in Deo creatura esse potest ? Etenim Deus naturae simplicis
+            est, non coniunctae atque compositae, cui nihil accidat, sed solum quod divinum est in
+            natura habeat sua </quote>. </p>
+        <p xml:id="pl-l3d11c2-d1e195"> Etsi ergo Christus secundum hominem dicitur creatura, non tamen Christus simpliciter
+          praedicandus est creatura. Nec ex eo, quod Christus secundum hominem dicitur esse
+          creatura, potest quis progredi, sic argumentando: Si secundum quod homo, Christus est
+          creatura: vel rationalis, vel non, vel quae est Deus, vel non; nitens per hoc probare,
+          Christum esse aliquid non divinum; quia quod ipse est secundum hominem, ipse est. Et ideo,
+          si secundum hominem est aliqua substantia non divina, est utique aliquid non divinum. </p>
+        <p xml:id="pl-l3d11c2-d1e198"> Sed ex tropicis locutionibus non est recta argumentationis processio; illa autem locutio
+          tropica est, qua Christus dicitur creatura, vel simpliciter, vel cum adiunctione. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

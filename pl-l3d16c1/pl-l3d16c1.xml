@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cap. I.</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Cap. I.</title>
+          <date when="2017-09-05">September 05, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+              Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-09-05" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l3d16c1">
+        <head xml:id="pl-l3d16c1-Hd1e111">Cap. I.</head>
+        <head xml:id="pl-l3d16c1-Hd1e114" type="question-title"> An in Christo fuerit necessitas patiendi et moriendi, quae est
+          generalis defectus. </head>
+        <p xml:id="pl-l3d16c1-d1e117"> Hic oritur quaestio ex praedictis ducens originem. Dictum est enim supra , quod Christus
+          in se nostros defectus suscepit, praeter peccatum; est autem hominis generalis quidam
+          defectus, qui peccatum non est, scilicet necessitas patiendi, vel moriendi. Unde corpus
+          nostrum non tantum mortale, sed etiam mortuum dicitur, quia non tantum aptitudinem
+          moriendi, sed etiam necessitatem habet. Ideo quaeritur, utrum necessitas talis in Christi
+          corpore fuerit. </p>
+        <p xml:id="pl-l3d16c1-d1e120"> De aptitudine enim moriendi, quod in eo fuerit, ambiguum non est; quae etiam ante
+          peccatum in homine fuit, quando aliquis in eo non fuit defectus; nec igitur mortalitas
+          illa tunc in eo fuit defectus, quia naturae ei erat. Unde etiam quidam talem mortalitatem
+          in nobis non esse defectum non improbe tradunt, sed necessitatem moriendi, vel patiendi,
+          quae etiam mortalitas dicitur vel passibilitas. Dicitur enim homo nunc passibilis, vel
+          mortalis, non modo propter aptitudinem, sed etiam propter necessitatem. </p>
+        <p xml:id="pl-l3d16c1-d1e123"> Sed nunquid hic defectus fuit in Christi carne? Anima quoque eius, cum passibilis
+          exstiterit ante mortem, nunquid necessitatem patiendi habuit? Si enim necessitas patiendi
+          vel moriendi fuit in Christo, non videtur sola volunlate miserationis defectus nostros
+          accepisse. </p>
+        <p xml:id="pl-l3d16c1-d1e127"> Ad quod dici potest, Christum voluntate non necessitate suae naturae hos defectus, sicut
+          alios , suscepisse , scilicet necessitatem patiendi in anima, simul autem patiendi et
+          moriendi in carne. </p>
+        <p xml:id="pl-l3d16c1-d1e130"> Verum hanc necessitatem non habuit ex necessitate suae conditionis, quia a peccato
+          immunis, sed ex sola voluntate accepit de nostra infirmitate, ponens <quote xml:id="pl-l3d16c1-Qd1e132">tabernaculum
+            suum in sole</quote> , scilicet sub temporali mutabilitate et labore. </p>
+        <p xml:id="pl-l3d16c1-d1e136"> Unde <title>Super Epistolam ad Hebraeos</title> auctoritas dicit, quod <quote xml:id="pl-l3d16c1-Qd1e141"> sicut
+            hominibus aliis i ure et lege naturae statutum est semel mori, ita et Christus eadem
+            necessitate et iure naturae semel oblatus est, et non saepe </quote>. Nec ideo dicit
+          iure naturae, quod ex natura suae conditionis hunc defectum traxerit, qui etiam non
+          provenit nobis ex natura, secundum quod prius est instituta, sed ex ea peccato vitiata. Et
+          ideo dicitur hic defectus naturalis, quia quasi pro natura inolevit, in omnibus diffusus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

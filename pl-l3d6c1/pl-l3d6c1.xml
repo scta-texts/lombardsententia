@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cap. I.</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Cap. I.</title>
+          <date when="2017-09-05">September 05, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+              Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-09-05" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l3d6c1">
+        <head xml:id="pl-l3d6c1-Hd1e111">Cap. I.</head>
+        <head xml:id="pl-l3d6c1-Hd1e114" type="question-title">De intelligentia harum locutionum: Deus est homo, Deus factus
+          est homo, tres sententias ponit.</head>
+        <p xml:id="pl-l3d6c1-d1e117"> Ex praemissis autem emergit quaestio, plurimum continens utilitatis, sed nimium
+          difficultatis atque perplexitatis. Cum enim constet ex praedictis et ex aliis pluribus
+          testimoniis, omnesque catholici unanimiter fateantur, Deum esse factum hominem, et
+          Christum verum Deum esse et verum hominem, quaeritur, an his locutionibus: Deus factus est
+          homo, Filius Dei factus est filius hominis, Deus est homo, et homo est Deus, dicatur Deus
+          factus esse aliquid, vel esse aliquid, vel aliquid dicatur esse Deus; et an ita conveniat
+          dici: Homo factus est Deus, et filius hominis factus est Filius Dei, sicut e converso
+          dicitur; et si his locutionibus non dicitur Deus factus esse aliquid, vel esse aliquid ,
+          quae sit intelligentia harum locutionum et similium . </p>
+        <p xml:id="pl-l3d6c1-d1e120"> In huius profunditatis reseratione et scrupulosae quaestionis expositione, plurimum
+          differre inveniuntur sapientes . </p>
+      </div>
+    </body>
+  </text>
+</TEI>

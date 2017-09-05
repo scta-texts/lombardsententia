@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cap. V.</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Cap. V.</title>
+          <date when="2017-09-05">September 05, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+              Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-09-05" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l3d18c5">
+        <head xml:id="pl-l3d18c5-Hd1e111">Cap. V.</head>
+        <head xml:id="pl-l3d18c5-Hd1e114" type="question-title"> De causa passionis et mortis Christi. </head>
+        <p xml:id="pl-l3d18c5-d1e117"> Ad quid ergo voluit pati el mori, si ei virtutes ad merendum illa sufficiebant? Pro te,
+          non pro se. Quomodo pro me? Ut ipsius passio et mors tibi esset forma et causa: forma
+          virtutis et humilitatis, causa gloriae et libertatis; forma Deo usque ad mortem obediendi,
+          et causa tuae liberationis ac beatitudinis. Meruit enim nobis per mortis et passionis
+          tolerantiam, quod per praecedentia non meruerat, scilicet aditum paradisi et redemptionem
+          a peccato, a poena, a diabolo; et per mortem eins haec nos adepti sumus, scilicet
+          redemptionem et filiorum gloriae adoptionem. Ipse enim moriendo factus est hostia nostrae
+          liberationis. </p>
+        <p xml:id="pl-l3d18c5-d1e120"> Sed quomodo per mortem nos a diabolo et a peccato redemit et aditum gloriae aperuit? </p>
+        <p xml:id="pl-l3d18c5-d1e123"> Decreverat Deus in mysterio, ut ait <name>Ambrosius</name>, propter primum peccatum non
+          intromitti hominem in paradisum, id est ad Dei contemplationem non admitti, nisi in uno
+          hominum tanta exi- steret humilitas, quae omnibus suis sufficere posset, sicut in primo
+          homine tanta fuit superbia, quae omnibus suis nocuit. Non est autem inventus inter homines
+          aliquis, quo id posset impleri <quote xml:id="pl-l3d18c5-Qd1e128">, </quote>nisi <quote xml:id="pl-l3d18c5-Qd1e131">leo de tribu Iuda, qui aperuit
+            librum et solvit signacula </quote>, implendo in se <quote xml:id="pl-l3d18c5-Qd1e134">omnem iustitiam</quote> , id
+          est consummalissimam humilitatem, qua maior esse non potest. Nam alii omnes debitores
+          erant, et vix unicuique sua virtus sufficiebat et humilitas. Nullus ergo eorum hostiam
+          poterat offerre sufficientem nostrae re¬ conciliationi <quote xml:id="pl-l3d18c5-Qd1e137">.</quote> Sed Christus homo
+          sufficiens et perfecta fuit hostia, qui mullo amplius est humiliatus, amaritudinem mortis
+          gustando, quam ille Adam superbiit, per esum ligni vetiti noxia delectatione perfruendo .
+          Si igitur illius superbia omnium exstitit ruina, ipsum de paradiso mittens foras aliisque
+          accludens ianuam; multo magis Christi humilitas, qua mortem gustavit, ingressum regni
+          caelestis omnibus suis, impleto Dei decreto, aperire valuit atque <quote xml:id="pl-l3d18c5-Qd1e141">decreti delere
+            chirographum</quote> . </p>
+        <p xml:id="pl-l3d18c5-d1e146"> Ut enim ait <name>Ambrosius</name>: <quote xml:id="pl-l3d18c5-Qd1e151"> Tantum fuit peccatum nostrum, ut salvari non
+            possemus, nisi unigenitus Dei Filius pro nobis moreretur, debitoribus mortis, sed sic
+            dignos nos fecit testamenti et promissae haereditatis </quote>. Quod non ita est
+          intelligendum, quasi non alio modo salvare nos potuerit quam per mortem suam , sed quod
+          per aliam hostiam non potuit nobis aperiri regni aditus et fieri salus nisi per mortem
+          Unigeniti, cuius tanta fuit, ut dictum est, humilitas et patientia, ut eius merito pateret
+          credentibus in eum aditus regni. Magna ergo in morte Unigeniti praestita sunt nobis, ut
+          liceat nobis redire in patriam, sicut olim in morte summi Pontificis his qui ad civitatem
+          refugii confugerant, secure ad propria remanere. </p>
+        <p xml:id="pl-l3d18c5-d1e155"> Ecce, aliquatenus ostensum est, qualiter per Christi mortem aditus regni sit nobis
+          paratus. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

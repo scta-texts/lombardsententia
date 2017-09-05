@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Cap. VI].</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>[Cap. VI].</title>
+          <date when="2017-09-05">September 05, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+              Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-09-05" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l3d6c6">
+        <head xml:id="pl-l3d6c6-Hd1e111">[Cap. VI].</head>
+        <p xml:id="pl-l3d6c6-d1e114">
+          <quote xml:id="pl-l3d6c6-Qd1e116"> Verumtamen hoc interest, quia quaedam eorum quae accedunt , ut habitum faciant,
+            non mutantur, sed ipsa mutant, in se integra et inconcussa manentia; sicut sapientia,
+            accedens homini, non ipsa mutatur, sed hominem mutat, quem de stulto sapientem
+            facit.</quote>
+        </p>
+        <p xml:id="pl-l3d6c6-d1e120">
+          <quote xml:id="pl-l3d6c6-Qd1e122"> Quaedam vero accedunt sic ut mutent et mutentur, ut cibus, qui amittens speciem
+            suam, in corpus vertitur , et nos cibo refecti, ab exilitate atque languore in robur
+            atque valentiam mutamur.</quote>
+        </p>
+        <p xml:id="pl-l3d6c6-d1e126">
+          <quote xml:id="pl-l3d6c6-Qd1e128"> Tertium genus est, cum ea quae accedunt, nec mutant ea quibus accedunt, nec ab eis
+            ipsa mutantur, sicut anulus positus in digito; quod genus rarissime reperitur .</quote>
+        </p>
+        <p xml:id="pl-l3d6c6-d1e132">
+          <quote xml:id="pl-l3d6c6-Qd1e134"> Quartum genus est, cum ea quae accedunt, mutantur, non a sua natura, sed aliam
+            speciem et formam accipiunt, ut est vestis, quae deiecta atque deposita non habet eam
+            formam, quam sumit induta: induta enim membris accipit formam, quam non habebat exuta.
+            Quod genus congruit huic comparationi. Dei enim <quote xml:id="pl-l3d6c6-Qd1e136" ana="#phil2_7">Filius semetipsum
+              exinanivit</quote> , non formam suam mutans, sed <quote xml:id="pl-l3d6c6-Qd1e139">formam servi
+              accipiens,</quote> neque conversus aut transmutatus in hominem, amissa incommutabili
+            stabilitate, sed in <quote xml:id="pl-l3d6c6-Qd1e142">similitudinem hominum </quote>factus est ipse susceptor,
+            verum hominem suscipiendo, e<quote xml:id="pl-l3d6c6-Qd1e145">t habitu inventus est ut homo,</quote> id est,
+            habendo hominem inventus est ut homo, non sibi, sed eis quibus in homine apparuit
+          </quote>. Quod autem dicit <quote xml:id="pl-l3d6c6-Qd1e149">ut homo</quote> veritatem exprimit. </p>
+        <p xml:id="pl-l3d6c6-d1e154">
+          <quote xml:id="pl-l3d6c6-Qd1e156">Nomine ergo habitus satis significavit Apostolus, qualiter dixerit <quote xml:id="pl-l3d6c6-Qd1e158">in
+              similitudinem hominum factus,</quote> quia non transfi¬ guratione in hominem, sed
+            habitu factus est, cum indutus est hominem, quem sibi uniens quodam modo atque
+            conformans, immortalitati aeternilatique sociaret. Non ergo oportet intelligi mutatum
+            esse Verbum susceptione hominis, sicut nec membra veste induta mutantur, quamvis illa
+            susceptio ineffabiliter susceptum suscipienti copularet </quote>. </p>
+        <p xml:id="pl-l3d6c6-d1e163"> His verbis aperte innuere videtur <name>Augustinus</name>, Deum dici factum hominem
+          secundum habitum. </p>
+        <p xml:id="pl-l3d6c6-d1e169"> Qui etiam ipsius incarnationis modum volens exprimere, quaerentibus in IV libro <title ref="#deTrinitate">De Trinitate</title> ait: <quote xml:id="pl-l3d6c6-Qd1e174">Si quaeritur, ipsa incarnatio quo
+            modo facta sit, ipsum Verbum Dei dico carnem factum, id est hominem factum, non tamen in
+            hoc, quod factum est, conversam atque mutatum </quote>, sed carne, ut carnalibus
+          congruenter appareret, indutum. <quote xml:id="pl-l3d6c6-Qd1e177">Ita sane facium, ut ibi sit non tantum Verbum Dei
+            et hominis caro, sed etiam rationalis hominis <quote xml:id="pl-l3d6c6-Qd1e179"> </quote>anima; atque hoc totum et
+            Deus dicatur propter Deum, et homo propter hominem. Quod si difficile intelligitur, mens
+            fide purgetur, a peccatis abstinendo et bona operando; difficilia enim sunt haec
+          </quote>. </p>
+        <p xml:id="pl-l3d6c6-d1e184"> Idem in libro <title>De fide ad Petrum</title> : <quote xml:id="pl-l3d6c6-Qd1e189">Dei Filius, cum sit Deus
+            aeternus et verus, pro nobis factus est homo verus et plenus: in eo verus, quia veram
+            habet ille Deus humanam naturam ; in eo vero plenus, quia et carnem humanam suscepit et
+            animam rationalem </quote>. </p>
+        <p xml:id="pl-l3d6c6-d1e193"> Item : <quote xml:id="pl-l3d6c6-Qd1e195"> Non aliud fuit illa Dei summi exinanitio, nisi formae servilis, id est
+            naturae humanae susceptio. Utraque igitur est in Christo forma, quia utraque vera et
+            plena est in Christo substantia </quote>, divina scilicet et humana. </p>
+        <p xml:id="pl-l3d6c6-d1e199"> Idem in libro <title>Contra Maximinum</title>: <quote xml:id="pl-l3d6c6-Qd1e204">Cum esset per se ipsum
+            invisibilis, visibilis in homine apparuit, quem de femina suscipere dignatus
+          est</quote>. </p>
+        <p xml:id="pl-l3d6c6-d1e209"> Item in eodem: <quote xml:id="pl-l3d6c6-Qd1e211">Nos Christum Dominum verum hominem suscepisse credimus, et in ipso
+            visibiliter invisibilem hominibus apparuisse, in ipso inter <quote xml:id="pl-l3d6c6-Qd1e213">homines conversatum
+              fuisse</quote> , in ipso ab hominibus humana pertulisse, in ipso homines
+            docuisse</quote>. </p>
+        <p xml:id="pl-l3d6c6-d1e218">
+          <name>Hilarius</name> quoque in libro X <title>De Trinitate</title> ait: <quote xml:id="pl-l3d6c6-Qd1e226">Quomodo
+            Dei Filius natus ex Maria est, nisi quod <quote xml:id="pl-l3d6c6-Qd1e228">Verbum caro factum est,</quote> scilicet
+            quod Filius Dei, cum <quote xml:id="pl-l3d6c6-Qd1e231">in forma Dei esset, formam servi accepit</quote> ? Unum
+            tamen eundemque non Dei defectione, sed hominis assumtione profitemur, et in
+              <quote xml:id="pl-l3d6c6-Qd1e234">forma Dei</quote> per naturam divinam, et in <quote xml:id="pl-l3d6c6-Qd1e237">forma servi</quote> ex
+            conceptione Spiritus sancti secundum hominis habitum repertum fuisse</quote>. <quote xml:id="pl-l3d6c6-Qd1e241">Non
+            fuit habitus ille tamen hominis, sed ut hominis; neque caro illa caro peccati, sed in
+              <quote xml:id="pl-l3d6c6-Qd1e243">si¬ militudine carnis peccati </quote>
+          </quote>. </p>
+        <p xml:id="pl-l3d6c6-d1e248"> Audistis tres secundum diversos positas sententias, et pro singulis inducta testimonia.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
