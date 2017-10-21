@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CAP. II</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>CAP. II</title>
+          <date when="2017-10-21">October 21, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l4d45c2">
+        <head xml:id="pl-l4d45c2-Hd1e109">CAP. II</head>
+        <head xml:id="pl-l4d45c2-Hd1e112" type="question-title">De suffragiis defunctorum.</head>
+        <p xml:id="pl-l4d45c2-d1e115">
+          <quote xml:id="pl-l4d45c2-Qd1e117"> Neque negandum est, ut ait <name ref="#Augustine">Augustinus</name>, defunctorum animas pietate suorum viventium relevari, cum pro illis sacrificium Mediatori offertur, vel eleemosynae fiunt in Ecclesia. Sed eis haec prosunt, qui, cum viverent, haec sibi ut postea possent prodesse, meruerunt. Est enim quidam vivendi modus, nec tam bonus ut non requirat ista post mortem, nec tam malus, ut ei non prosint ista post mortem; est vero talis in bono, ut ista non requirat; et est rursus talis in malo, ut nec his valeat, cum haec vita transierit, adiuvari. Quocirca hic omne meritum comparatur, quo possit post hanc vitam quispiam gravari, vel relevari. Nemo autem speret, quod hic neglexit, cum obierit, apud Deum promereri. Non igitur ista quae pro defunctis commendandis frequentat Ecclesia, illi apostolicae sunt adversa sententiae, qua dictum est: <quote xml:id="pl-l4d45c2-Qd1e122">Omnes astabimus ante tribunal Christi, ut referat unusquisque secundum ea quae per corpus gessit,</quote> scilicet <quote xml:id="pl-l4d45c2-Qd1e125">bona vel mala;</quote> quia etiam hoc meritum sibi quisque, cum in corpore viveret, comparavit, ut possent ei ista prodesse: non enim omnibus prosunt. Et quare non? Nisi propter differentiam vitae, quam quisque gessit in corpore. Cum ergo sacrificia, sive altaris, sive quarumcumque eleemosynarum, pro baptizatis omnibus offeruntur, pro valde bonis gratiarum actiones sunt; pro non valde malis propitiationes; sed pro valde malis, etiamsi nulla sunt adiumenta mortuorum, tamen qualescumque vivorum consolationes sunt. Quibus vero prosunt, vel ad hoc prosunt, ut sit plena remissio, vel certe ut tolerabilior sit ipsa damnatio </quote>.</p>
+        <p xml:id="pl-l4d45c2-d1e130">
+          <quote xml:id="pl-l4d45c2-Qd1e132"> Orationibus ergo sanctae Ecclesiae et sacrificio salutari eteleemosynis, quae pro eorum spiritibus offeruntur, non est dubium mortuos adiuvari, ut cum eis misericordius agatur a Domino, quam eorum peccata meruerint. Hoc enim a Patribus traditum tota observat Ecclesia, ut pro eis qui in communione Corporis et Sanguinis defuncti sunt, cum ad ipsum sacrificium loco suo commemorentur, oretur, ac pro illis quoque id offerri commemoretur. Non est igitur ambigendum, ista prodesse defunctis, sed talibus, qui ita vixerunt ante mortem, ut possint eis haec utilia esse post mortem. Nam qui sine <quote xml:id="pl-l4d45c2-Qd1e134">fide operante per dilectionem</quote> eiusque Sacramentis de corpore exierunt, frustra illis a suis huiusmodi pietatis officia impenduntur, cuius, dum hic essent, pignore caruerunt, non misericordiam sibi thesaurizantes, sed iram. Non ergo mortuis nova merita comparantur, cum pro eis aliquid boni operantur sui, sed eorum praecedentibus consequentia ista redduntur. Nam istam quisque finiens vitam, nisi quod in ea meruerit, non poterit habere post eam</quote>.</p>
+        <p xml:id="pl-l4d45c2-d1e139">Ecce, quibus et qualiter prosint illa quae pro defunctis celebrat Ecclesia: mediocriter malis suffragantur ad poenae mitigationem ; mediocriter bonis ad plenam absolutionem, qui non habent tantae perfectionis merita, ut non indigeant invari per <quote xml:id="pl-l4d45c2-Qd1e141">pauperes, quorum est regum caelorum</quote> , quos sibi fecerunt <quote xml:id="pl-l4d45c2-Qd1e144">amicos de mammona iniquitatis;</quote> quorum tanta est perfectio, ut his adiutoriis non indigeant, quales sunt Apostoli et Martyres.</p>
+        <p xml:id="pl-l4d45c2-d1e149">Ut enim ait <name ref="#Augustine">Augustinus</name>: <quote xml:id="pl-l4d45c2-Qd1e154"> Iniuria est pro Martyre in Ecclesia orare, cuius debemus orationibus commendari; pro aliis autem defunctis oratur</quote>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

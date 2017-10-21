@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cap. IIII</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Cap. IIII</title>
+          <date when="2017-10-21">October 21, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l3d33c3">
+        <head xml:id="pl-l3d33c3-Hd1e109">Cap. IIII</head>
+        <head xml:id="pl-l3d33c3-Hd1e112" type="question-title">De usibus eorum.</head>
+        <p xml:id="pl-l3d33c3-d1e115">Verumtamen, an <!--<quote>--> hae virtutes (cum et ipsae in animo esse incipiant, qui, cum sine illis prius esset, tamen animus erat) desinant esse, cum ad aeterna perduxerint, nonnulla quaestio est.</p>
+        <p xml:id="pl-l3d33c3-d1e120"><!--<quote>--> Quibusdam visum est, esse desituras, et de tribus quidem, prudentia scilicet, fortitudine, temperantia, cum hoc dicitur, non nihil dici videtur.</p>
+        <p xml:id="pl-l3d33c3-d1e124"><!--<quote>--> lustitia enim immortalis est et magis tunc perficietur in nobis, quam esse cessabit, cum beate vivemus contemplatione naturae divinae, quae creavit omnes, ceterasque instituit naturas, qua nihil melius et amabilius est; cui regenti esse subditum iustitiae est. Et ideo immortalis est omnino iustitia, nec in illa beatitudine esse desinet, sed talis ac tanta erit, ut perfectior et maior esse non possit.</p>
+        <p xml:id="pl-l3d33c3-d1e129"><!--<quote>--> Fortassis et aliae tres virtutes: prudentia sine ullo iam  periculo erroris, fortitudo sine molestia tolerandorum malorum, temperantia sine repugnatione libidinum, erunt in illa felicitate, ut prudentiae ibi sit nullum bonum Deo praeponere vel aequare; fortitudinis, ei firmissime cohaerere; temperantiae, nullo defectu noxio delectari.</p>
+        <p xml:id="pl-l3d33c3-d1e133">
+          <quote xml:id="pl-l3d33c3-Qd1e135"> Quod vero nunc agit iustitia in subveniendo miseris, quod prudentia in praecavendis insidiis, quod fortitudo in perferendis molestiis, quod temperantia in coercendis delectationibus pravis, non erit omnino ibi , ubi nihil mali erit. Ista igitur virtutum opera huic mortali vitae necessaria, sicut fides, ad quam referenda sunt, in praeteritis habebuntur</quote>.</p>
+        <p xml:id="pl-l3d33c3-d1e139">Ecce aperte hic dicit <name ref="#Augustine">Augustinus</name>, quod praedictae virtutes in futuro erunt, sed alios usus tunc habebunt quam modo.</p>
+        <p xml:id="pl-l3d33c3-d1e145">Cui <name ref="#Bede">Beda</name> consentit, <title>Super Exodum</title> ita dicens: <quote xml:id="pl-l3d33c3-Qd1e153">Columnae, ante quas appensum est velum, potestates caeli sunt quatuor eximiis virtutibus praeclarae, id est fortitudine, prudentia, temperantia, iustitia, quae aliter in caelis servantur ab Angelis et animabus sanctis, quam hic a fidelibus</quote>. Et consequenter assignat <name ref="#Bede">Beda</name> usus illarum virtutum secundum praesentem et futurum statum, imitans <name ref="Augustine">Augustinum</name> in praemissis assignationibus.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

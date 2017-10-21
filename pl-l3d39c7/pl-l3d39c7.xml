@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cap. VII</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Cap. VII</title>
+          <date when="2017-10-21">October 21, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l3d39c7">
+          <head xml:id="pl-l3d39c7-Hd1e109">Cap. VII</head>
+          <head xml:id="pl-l3d39c7-Hd1e112" type="question-title">Quid est dicere: Per Deum.</head>
+        <p xml:id="pl-l3d39c7-d1e115">Hic quaeritur, quid sit dicere: <quote xml:id="pl-l3d39c7-Qd1e117"> per Deum iuro</quote>.</p>
+        <p xml:id="pl-l3d39c7-d1e121">Hoc est testem Deum adhibere: iuravit enim <name ref="Paul">Apostolus</name> dicens: <quote xml:id="pl-l3d39c7-Qd1e126">Testis est mihi Deus;</quote> ac si dixisset: per Deum, ita est.</p>
+        <p xml:id="pl-l3d39c7-d1e130">Unde <name ref="#Augustine">Augustinus</name>: <quote xml:id="pl-l3d39c7-Qd1e135">Ridiculum est putare hoc si dicas, <quote xml:id="pl-l3d39c7-Qd1e137"> per Deum </quote>, iuras; si dicas, <quote xml:id="pl-l3d39c7-Qd1e140">testis est Deus</quote>, non iuras. Quid est enim <quote xml:id="pl-l3d39c7-Qd1e143"> per Deum </quote>, nisi <quote xml:id="pl-l3d39c7-Qd1e146"> testis est Deus </quote>; aut quid est <quote xml:id="pl-l3d39c7-Qd1e149"> testis est Deus</quote>, nisi <quote xml:id="pl-l3d39c7-Qd1e153"> per Deum </quote>? Quid est autem iurare, nisi ius Deo reddere, quando per Deum iuras</quote>? ius scilicet veritatis et non falsitatis.</p>
+        <p xml:id="pl-l3d39c7-d1e159">Item: <quote xml:id="pl-l3d39c7-Qd1e161"> Ecce dico caritati vestrae: et qui per lapidem iurat falsum, periurus est </quote>; quia non lapidem, qui non audit, sed eius Creatorem adhibet testem. Hoc est ergo iurare per quamlibet creaturam, scilicet Creatorem eius testem adhibere.</p>
+        <p xml:id="pl-l3d39c7-d1e165">
+          <quote xml:id="pl-l3d39c7-Qd1e167"> Est etiam quoddam genus iuramenti gravissimum, quod fit per exsecrationem, ut cum homo dicit: si illud feci, illud patiar, vel illud contingat filiis meis</quote>. Secundum quem modum accipitur etiam interdum, cum aliquis iurando dicit: <quote xml:id="pl-l3d39c7-Qd1e170">per salutem meam</quote>, vel <quote xml:id="pl-l3d39c7-Qd1e173"> per filios meos </quote>, et huiusmodi. Obligat enim haec Deo.</p>
+        <p xml:id="pl-l3d39c7-d1e177">Unde <name ref="#Augustine">Augustinus</name>: <quote xml:id="pl-l3d39c7-Qd1e182"> Cum quis ait: <quote xml:id="pl-l3d39c7-Qd1e184"> per salutem meam </quote>, salutem suam Deo obligat. Cum dicit: <quote xml:id="pl-l3d39c7-Qd1e187"> per filios meos </quote>, oppignerat eos Deo, ut hoc eveniat in caput eorum, quod exit de ore ipsius: si verum, verum; si falsum, falsum. Et sicut per hoc iurans aliquando hoc Deo obligat, ita per Deum iurans, ipsum adhibet testem </quote>. In omni ergo iuratione aut Deus testis adhibetur, aut creatura Deo obligatur et oppigneratur, ut hoc sit iurare, scilicet Deum testem adhibere, vel Deo aliquid oppignerare.</p>
+        </div>
+    </body>
+  </text>
+</TEI>

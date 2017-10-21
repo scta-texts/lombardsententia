@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cap. III</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Cap. III</title>
+          <date when="2017-10-21">October 21, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l3d39c3">
+        <head xml:id="pl-l3d39c3-Hd1e109">Cap. III</head>
+      
+        <p xml:id="pl-l3d39c3-d1e112">Sed melius creditur et ille peierare, qui falsum voluntate fallendi iurat; et qui falsum, putans quod verum est, iurat; et qui verum, putans quod falsum est, iurat.</p>
+        <p xml:id="pl-l3d39c3-d1e115">Unde <name ref="#Augustine">Augustinus</name>: <quote xml:id="pl-l3d39c3-Qd1e120">Homines falsum iurant, vel cum fallunt, vel cum falluntur: aut putat homo verum esse quod falsum est, et temere iurat; aut scit vel putat esse falsum, et tamen pro vero iurat, et nihilominus cum scelere iurat. Distant autem ista periuria duo, quae commemoravi. Fac illum iurare, qui verum esse putat pro quo iurat; verum putat esse, et tamen falsum est: non ex animo iste periurat, sed fallitur; hoc pro vero habet, quod falsum est, non pro falsa re, sciens, iurationem interponit. Da alium qui scit falsum esse, et dicit verum esse; et iurat, tanquam verum sit, quod scit falsum esse. Videtis quam detestanda sit ista bellua. Fac alium qui putat falsum esse, et iurat, tanquam verum sit, et forte verum est. Verbi gratia, ut intelligatis, pluit in illo loco; interrogas hominem, et dicit pluisse; et tunc cum pluit ibi, sed putat non pluisse, periurus est. Interest, quemadmodum verbum procedat ex animo: ream linguam non facit nisi rea mens </quote>.</p>
+        <p xml:id="pl-l3d39c3-d1e124">His evidenter traditur, quod tripliciter peierat homo, ut supra diximus, dum vel sciens falsum iurat, vel putans falsum quod verum est, iurat, vel existimans verum quod falsum est, iurat.</p>
+        <p xml:id="pl-l3d39c3-d1e127">Sed hoc extremum non videtur esse periurium, vel si periurium nominetur, eo quod falsum iuratur, non videtur esse reus peri urii qui sic iurat, quia non est eius mens rea, et ideo nec lingua.</p>
+        <p xml:id="pl-l3d39c3-d1e131">Immo eius mens rea est, dum iurare praesumit quod perspicue verum non deprehendit. Non igitur omne periurium mendacium est, nec omnis qui peierat, mentitur; sed omnis mentiendo iurans peierat, et omnis qui falsum iurat, sive meritiens, sive non, peierat.</p>
+        <p xml:id="pl-l3d39c3-d1e134">Cum vero quis iurat quod verum est, aestimans esse falsum, quaeritur, quid ibi sit periurium. Ipsa enim significatio vocis vera est, quia verum nescienter loquitur; non igitur ipsa significatio vel falsum vel mendacium est, quia vera est; et quod verum est, periurium non videtur esse.</p>
+        <p xml:id="pl-l3d39c3-d1e137">Ad quod dicimus, loqui sic, scilicet contra mentem sub attestatione iuramenti, esse periurium; mentiri ergo, adhibita iuratione, periurium est. Periurium ergo est vel iurando loqui falsum cum intentione fallendi, vel iurando loqui falsum sine intentione fallendi, vel iurando loqui verum cum intentione fallendi.</p>
+        <p xml:id="pl-l3d39c3-d1e140">Hic opponitur: Si omnis qui falsum iurat, peierat, tunc qui alicui promittit dare sub certo termino aliquid, quod tamen non faciet, ex quo iuravit, peieravit, quia falsum iuravit: non enim ita futurum erat, ut iuravit.</p>
+        <p xml:id="pl-l3d39c3-d1e143">Ad hoc dici potest, quia non omnis qui iurat quod falsum est, ex quo iurat, peri urus est, sicut iste, de quo agimus; sed ex quo propositum mutat, vel terminum transgreditur, iuratio talis fit periurium reatu.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

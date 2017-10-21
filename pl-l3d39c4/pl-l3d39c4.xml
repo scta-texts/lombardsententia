@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cap. IV</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Cap. IV</title>
+          <date when="2017-10-21">October 21, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l3d39c4">
+        <head xml:id="pl-l3d39c4-Hd1e109">Cap. IV</head>
+        <head xml:id="pl-l3d39c4-Hd1e112" type="question-title">An iuratio sit malum.</head>
+        <p xml:id="pl-l3d39c4-d1e115">Si autem quaeritur, utrum iurare sit malum, dicimus, aliquando malum esse, aliquando non.</p>
+        <p xml:id="pl-l3d39c4-d1e118">Sponte enim et sine necessitate iurare, vel falsum iurare<quote xml:id="pl-l3d39c4-Qd1e120">, 
+</quote>peccatum grande est. Ex necessitate autem iurare, scilicet vel ad foedera pacis confirmanda, vel ad persuadendum auditoribus quod est eis utile, malum non est, quia necessarium.</p>
+        <p xml:id="pl-l3d39c4-d1e124">Unde <name ref="#Augustine">Augustinus</name>: <quote xml:id="pl-l3d39c4-Qd1e129"> Juramentum faciendum est in necessariis, cum pigri sunt homines credere quod eis est utile. Iuratio non est bona, non tamen mala, cum est necessaria </quote>, id est, non est appetenda sicut bona, non tamen fugienda tanquam mala, cum est necessaria. <quote xml:id="pl-l3d39c4-Qd1e132"> Non est enim contra praeceptum Dei iuratio, sed ita intelligitur Dominus prohibuisse a iuramento, ut, quantum in ipso est, quisque non iuret — quod multi faciunt, in ore habentes iurationem tanquam magnum atque suave aliquid — <name ref="Paul">Apostolus</name> enim novit praeceptum Domini, et tamen iuravit</quote>. Prohibemur ergo iurare cupiditate, vel delectatione iurandi.</p>
+        <p xml:id="pl-l3d39c4-d1e140">
+          <quote xml:id="pl-l3d39c4-Qd1e142"> Quod ergo Christus ait in Evangelio: <quote xml:id="pl-l3d39c4-Qd1e144">Ego dico vobis, non iurare omnino,</quote> ita intelligitur praecepisse, ne quisquam sicut bonum appetat iuramentum, et assiduitate iurandi labatur in periurium</quote>.</p>
+        <p xml:id="pl-l3d39c4-d1e149">Quod vero addit: <quote xml:id="pl-l3d39c4-Qd1e151"> 
+            <quote xml:id="pl-l3d39c4-Qd1e153">Sil sermo vester: est, est, non, non, 
+</quote>bonum est et appetendum. <quote xml:id="pl-l3d39c4-Qd1e156">Quod autem amplius est, a malo est, 
+</quote>id est, si iurare cogeris, scias de necessitate venire infirmitatis eorum quibus aliquid suades; quae infirmitas utique malum est, unde nos quotidie liberari precamur dicentes: <quote xml:id="pl-l3d39c4-Qd1e159">Libera nos a malo</quote>. Ideoque non dixit: <quote xml:id="pl-l3d39c4-Qd1e162">quod amplius est</quote> malum est: tu enim non 
+facis malum, qui bene uteris iuralione; sed <quote xml:id="pl-l3d39c4-Qd1e165">a malo est</quote> illius qui aliter non credit</quote>, id est ab infirmitate, quae aliquando poena est, aliquando poena et culpa. Ibi ergo Dominus prohibuit malum, suasit bonum, indulsit necessarium.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CAP. IV</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>CAP. IV</title>
+          <date when="2017-10-21">October 21, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l4d39c4">
+        <head xml:id="pl-l4d39c4-Hd1e109">CAP. IV</head>
+        <head xml:id="pl-l4d39c4-Hd1e112" type="question-title">Pro quibus peccatis possit fieri separatio, vel non.</head>
+        <p xml:id="pl-l4d39c4-d1e115">Si autem quaeris, an propter aliud vitium nisi propter infidelitatem vel idololatriam possit dimitti, attende quod <name ref="#Augustine">Augustinus</name> ait: <quote xml:id="pl-l4d39c4-Qd1e120">Si infidelitas fornicatio est, et idololatria infidelitas, et avaritia idololatria ; non est dubitandum, et avaritiam fornicationem esse. Quis ergo quamlibet illicitam concupiscentiam potest a fornicationis genere separare, si avaritia fornicatio est? Ex quo intelligitur, quod propter illicitas concupiscentias non tantum quae in stupris cum alienis viris vel feminis committuntur, sed ob quaslibet, quae animam a lege Dei aberrare faciunt et perniciose corrumpi, possit sine crimine et vir uxorem suam dimittere, et uxor virum </quote>.</p>
+        <p xml:id="pl-l4d39c4-d1e124">Item: <quote xml:id="pl-l4d39c4-Qd1e126">Rectissime dimittitur, si viro suo dicat: non ero uxor tua nisi milii de latrocinio divitias congeras, vel nisi solita lenocinia exerceas, aut si quid aliud facinorosum vel flagitiosum a viro suo expetat. Tunc ille, si veraciter poenitens est, habetque 
+<quote xml:id="pl-l4d39c4-Qd1e128">fidem per dilectionem operantem</quote>, membrum, quod eum scandalizat, amputabit</quote>.</p>
+        <p xml:id="pl-l4d39c4-d1e133">Ex his apparet, quod non solum infidelitas, sed et quaelibet concupiscentia, quae perniciose turpiterque corrumpit, fornicatio spiritualis est, per quam vir uxorem, vel uxor virum dimittere potest. Consulit tamen <name ref="Paul">Apostolus</name>, ne fidelis dimittat infidelem volentem cohabitare nec a Deo revocare.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

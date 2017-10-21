@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CAP. X</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>CAP. X</title>
+          <date when="2017-10-21">October 21, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l4d27c10">
+        <head xml:id="pl-l4d27c10-Hd1e109">CAP. X</head>
+        <p xml:id="pl-l4d27c10-d1e112">[Cap. X]. Et est sciendum, quod illa sponsa, quae tantum in futuro est pacta, mortuo sponso, non remanet vidua, quia non fuerat vir eius. Unde si quis eam duxerit, ad sacros ordines conscendere non prohibetur, quia non duxit viduam: viduae enim maritus aeque sicut bigamus sacerdos fleri prohibetur; ex tali autem copula nullus arcetur a sacris ordinibus.</p>
+        <p xml:id="pl-l4d27c10-d1e115">Secundum hoc intelligendum est quod ait Pelagius Papa  de illo qui, mortuo sponso eius, sponsam ducit in uxorem: <quote xml:id="pl-l4d27c10-Qd1e117">Nihil est, inquit, quantum ad hunc articulum attinet, quod ei obviet de canonicis institutis, quin ad sacros ordines promoveri valeat </quote>.</p>
+        <p xml:id="pl-l4d27c10-d1e121">Si vero talis sponsa fuisset, inter quam et sponsum eius consensus de praesenti intercessisset, eo mortuo, vidua remansisset; cui copulatus in coniugio ulterius ad sacros ordines non accederet, cum viduam duxerit.</p>
+        <p xml:id="pl-l4d27c10-d1e124">Non est igitur ambigendum, quin solus de praesenti consensus coniugium efficiat, et exinde veri coniuges appellentur. Ideo post talem consensum si quis alii se copulaverit, etiam si carnis commixtio illic sequatur, ad priorem copulam revocandus est.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

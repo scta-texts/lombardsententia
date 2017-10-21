@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cap. IV.</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Cap. IV.</title>
+          <date when="2017-10-21">October 21, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l3d22c4">
+        <head xml:id="pl-l3d22c4-Hd1e109">Cap. IV.</head>
+        <head xml:id="pl-l3d22c4-Hd1e112" type="question-title">Si ea quae dicuntur de Deo vel de Filio Dei, possint dici de homine illo vel de filio hominis.</head>
+        <p xml:id="pl-l3d22c4-d1e115">Solet etiam quaeri, si congruenter dici possit filius hominis,</p>
+        <p xml:id="pl-l3d22c4-d1e118">vel ille homo descendisse de caelo, vel ubique esse, sicut dicitur Filius Dei vel Deus de caelo venisse, vel ubique esse.</p>
+        <p xml:id="pl-l3d22c4-d1e121">Ad quod dicimus: Si ad unitatem personae referatur dicti intelligentia, sane dici potest; si vero ad distinctionem naturarum, nullatenus concedendum est.</p>
+        <p xml:id="pl-l3d22c4-d1e125">Unde <name ref="#Augustine">Augustinus</name>: <quote xml:id="pl-l3d22c4-Qd1e130">Una persona est Christus, Deus et horno. Ideo dicitur: <quote xml:id="pl-l3d22c4-Qd1e132">Nemo ascendit in caelum, nisi qui descendit de caelo,</quote> etc. Si ergo attendas distinctionem substantiarum, Filius Dei descendit, et filius hominis crucifixus est; si vero unitatem personae, et filius hominis descendit, et Filius Dei est crucifixus. Propter hanc unitatem personae, non solum filium hominis descendisse de caelo, sed etiam dixit esse in caelo, cum loqueretur in terra</quote>. <quote xml:id="pl-l3d22c4-Qd1e136"> Propter hanc eandem dicitur <quote xml:id="pl-l3d22c4-Qd1e138">Deus gloriae crucifixus,</quote> qui tamen ex forma servi tantum crucifixus est, non secundum hoc quod Deus gloriae est, et secundum quod glorificat suos; et tamen dicitur <quote xml:id="pl-l3d22c4-Qd1e141">Deus gloriae crucifixus,</quote> recte quidem, non ex virtute divinitatis, sed ex infirmitate carnis. Quid ergo propter quid, et quid secundum quid dicatur, prudens et diligens et pius lector intelligat </quote>.</p>
+        <p xml:id="pl-l3d22c4-d1e146">Haec de corrigia calceamenti dominici sufficiant, ne ossa regis Idumaeae consumantur usque in cinerem .</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CAP. II</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>CAP. II</title>
+          <date when="2017-10-21">October 21, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l4d31c2">
+        <head xml:id="pl-l4d31c2-Hd1e109">CAP. II</head>
+        <p xml:id="pl-l4d31c2-d1e112">[Cap. II]. Separatio autem gemina est, corporalis scilicet et sacramentalis.</p>
+        <p xml:id="pl-l4d31c2-d1e115">Corporaliter possunt separari causa fornicationis, vel ex comnuni consensu causa religionis, sive ad tempus, sive usque infinem.</p>
+        <p xml:id="pl-l4d31c2-d1e118">Sacramentaliter vero separari nequeunt, dum vivunt, si legitimae personae sint: manet enim vinculum coniugale inter eos, etiam si aliis a se discedentes adhaeserint.</p>
+        <p xml:id="pl-l4d31c2-d1e121">Unde <name ref="#Augustine">Augustinus</name>: <quote xml:id="pl-l4d31c2-Qd1e126">Usque adeo manent inter viventes semel inita iura nuptiarum, ut potius sint inter se coniuges etiam separati , quam cum aliis, quibus adhaeserunt</quote>.</p>
+        <p xml:id="pl-l4d31c2-d1e131">Item: <quote xml:id="pl-l4d31c2-Qd1e133">Manet inter viventes quoddam coniugale vinculum, quod nec separatio nec cum altero copulatio possit auferre, sicut apostata anima, velut de coniugio Christi recedens, etiam fide perdita, Sacramentum fidei non amittit, quod lavacro regenerationis accepit: redderetur enim redeunti, si amisisset abscedens. Habet autem hoc qui recesserit ad cumulum supplicii, non ad meritum praemii </quote>.</p>
+        <p xml:id="pl-l4d31c2-d1e137">Item: <quote xml:id="pl-l4d31c2-Qd1e139">Quibus placuit ex consensu ab usu carnalis concupiscentiae in perpetuum continere, absit, ut vinculum inter eos coniugale rumpatur, immo firmius erit, quo magis ea pacta secum gerunt, quae carius concordiusque servanda sunt, non voluptariis corporum nexibus, sed voluntariis animorum affectibus </quote>.</p>
+        <p xml:id="pl-l4d31c2-d1e143">
+          <quote xml:id="pl-l4d31c2-Qd1e145"> Et attende, quod tertium bonum coniugii dicitur Sacramentum, non quia sit ipsum coniugium, sed quia eiusdem rei sacrae signum est, id est spiritualis et inseparabilis conjunctionis Christi et Ecclesiae </quote>.</p>
+        <p xml:id="pl-l4d31c2-d1e149">Et est sciendum, ab aliquibus contrahi coniugium, quod haec tria bona non comitantur.</p>
+        <p xml:id="pl-l4d31c2-d1e152">Deest enim fides, ubi vir cum alia, vel mulier cum alio coit. <!--<quote>--> Hoc igitur bonum ita coniugio adhaeret, ut ex eo, si adsit, amplius commendetur coniugium; si non adsit, non inde annihiletur. Quae enim adultera est, non ideo coniux non est; immo, si coniux non esset, adultera non foret; quod cum fit, culpa committitur, Sacramentum non cassatur.</p>
+        <p xml:id="pl-l4d31c2-d1e157">
+          <quote xml:id="pl-l4d31c2-Qd1e159"> Bonum quoque prolis non omnibus adest coniugibus. Quidam enim pari voto continentiam servant, alii pro aetatis defectu, vel alterius rei causa generare non valent. Nec omnes illi etiam qui prolem recipiunt, bonum prolis habent</quote>. Nam bonum prolis dicitur non ipsa proles vel prolis spes, quae ad religionem non refertur, immo ad haereditariam successionem — ut cum quis terrenae possessionis haeredes habere desiderat — sed spes ac desiderium, quo proles ad hoc quaeritur, ut in religione informetur.</p>
+        <p xml:id="pl-l4d31c2-d1e164">Multi ergo prolem habent, qui tamen bono prolis carent; nec ideo tamen coniugium esse desinit.</p>
+        <p xml:id="pl-l4d31c2-d1e167">Sacramentum vero ita inseparabiliter coniugio adhaeret legitimarum personarum, ut sine illo coniugium non esse videatur, quia semper manet inter viventes vinculum coniugale, ut, etiam interveniente divortio, fornicationis causa, coniugalis vinculi firmitas non solvatur. Ubi vero non inter legitimas personas contrahitur coniugium, non adest illud bonum, quod dicitur Sacramentum, quia potest solvi talium copula, de quibus post dicetur.</p>
+        <p xml:id="pl-l4d31c2-d1e170">Quod vero coniugium sit inter eos qui coniugali affectu non tamen gratia prolis, sed explendae libidinis conveniunt, nec fornicarii, sed coniuges appellentur, ostendit <name ref="#Augustine">Augustinus</name> inquiens: <quote xml:id="pl-l4d31c2-Qd1e175">Solet quaeri, cum masculus et femina, nec ille maritus, nec illa uxor alterius, sibimet non filiorum procreandorum, sed pro incontinentia solius concubitus causa copulantur, ea fide media, ut nec illa cum allero, nec ille cum altera faciat id, utrum nuptiae sint vocandae. Et potest fortasse non absurde hoc appellari connubium, si usque ad mortem alicuius eorum id inter eos placuerit, et prolis generationem, quamvis non ea causa coniuncti sunt, non tamen vitaverint, ut vel nolint sibi nasci filios, vel etiam opere aliquo malo agant, ne nascantur. Celerum, si vel utrumque, vel unum horum desit, non invenio, quomodo has nuptias appellare possimus. Etenim si aliquam sibi ad tempus adhibuerit, donec aliquam dignam honoribus aut suis facultatibus inveniat, quam in coniugio ducat, animo ipso adulter est, nec cum illa, quam cupit invenire, sed cum ista, cum qua sic cubat, ut cum ea non habeat maritale consortium </quote>.</p>
+        <p xml:id="pl-l4d31c2-d1e179">Ecce coniuges dicuntur qui solius concubitus causa conveniunt, si tamen prolis generationem aliquo malo dolo non vitent.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

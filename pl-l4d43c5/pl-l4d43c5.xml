@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CAP. V</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>CAP. V</title>
+          <date when="2017-10-21">October 21, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l4d43c5">
+        <head xml:id="pl-l4d43c5-Hd1e109">CAP. V</head>
+        <head xml:id="pl-l4d43c5-Hd1e112" type="question-title">De memoria electorum, si tunc praeterita mala teneat.</head>
+        <p xml:id="pl-l4d43c5-d1e115">Hic quaeritur, utrum electis tunc adsit memoria praecedentium malorum, sicut bonorum.</p>
+        <p xml:id="pl-l4d43c5-d1e118">Quaedam auctoritates videntur tradere, bonos non habituros tunc memoriam praecedentium malorum, id est peccatorum vel tormentorum.</p>
+        <p xml:id="pl-l4d43c5-d1e121">Ait enim Isaias: <quote xml:id="pl-l4d43c5-Qd1e123">Ego creo caelos novos et terram novam, et non erunt in memoria priora et non ascendent super cor, sed gaudebitis in aeternum.</quote>
+        </p>
+        <p xml:id="pl-l4d43c5-d1e128">Item: <quote xml:id="pl-l4d43c5-Qd1e130">Oblivioni traditae sunt angustiae priores et absconditae ab oculis nostris.</quote> Quae de futuro exponens <name ref="#Jerome">Hieronymus</name>, ait: <quote xml:id="pl-l4d43c5-Qd1e136">Oblivioni tradentur priora mala, quia forsitan in futuro pristinae conversationis memoria omnino delebitur, succedentibus bonis aeternis, ne sit pars malorum prioris angustiae memorari </quote>.</p>
+        <p xml:id="pl-l4d43c5-d1e140">Sed haec et his similia possunt accipi sic, ut non excludant memoriam praecedentium malorum, sed ex ea molestiam et laesionem amoveant. Non enim eorum memoria Sanctos contristabit vel eorum beatitudinem obfuscabit, sed gratiores Deo reddet.</p>
+        <p xml:id="pl-l4d43c5-d1e143">Unde <title>Super Psalmum 88</title> ait <name ref="#GregoryGreat">Gregorius</name>: <quote xml:id="pl-l4d43c5-Qd1e151">Quomodo misericordias in aeternum canit qui miseriae non meminit? Quomodo autem plena beatitudo, si memoria reatus mentem tangit? Sed saepe laeti tristium meminimus sine dolore, et inde amplius laeti et grati sumus </quote>.</p>
+        <p xml:id="pl-l4d43c5-d1e155">Ex his apparet, quod si priorum malorum memoriam Sancti habebunt in futuro, non erit tamen eis ad poenam vel gloriae derogationem, sed ad gratiarum actionem.</p>
+        <p xml:id="pl-l4d43c5-d1e158">Si vero quaeritur, utrum peccata, quae fecerunt electi, tunc prodeant in notitiam omnium, sicut mala damnandorum omnibus erunt nota, non legimus hoc expressum in Scriptura. Unde non irrationabiliter putari potest, peccata, hic per poenitentiam tecta et deleta, illic etiam tegi aliis, alia vero cunctis propalari.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cap. I</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Cap. I</title>
+          <date when="2017-10-21">October 21, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l3d25c1">
+        <head xml:id="pl-l3d25c1-Hd1e109">Cap. I</head>
+        <head xml:id="pl-l3d25c1-Hd1e112" type="question-title">De antiquorum fide.</head>
+        <p xml:id="pl-l3d25c1-d1e115">Praedictis adiiciendum est de sufficientia fidei ad salutem .</p>
+        <p xml:id="pl-l3d25c1-d1e118">Illis qui praecesserunt adventum Christi et qui sequuntur, videtur profecisse fides secundum temporis processum, sicut profecit cognitio. Fides quippe magna dicitur cognitione et articulorum quantitate, vel constantia et devotione. Est autem quaedam fidei mensura, sine qua nunquam potuit esse salus. Unde Apostolus: <quote xml:id="pl-l3d25c1-Qd1e120">Oportet accedentem credere quia est, et quod remunerator est sperantium in se.</quote>
+        </p>
+        <p xml:id="pl-l3d25c1-d1e124">Sed quaeritur, utrum hoc credere ante adventum vel ante Legem, ad salutem suffecerit. Nam tempore gratiae constat certissime hoc non sufficere: oportet enim universa credi, quae in Symbolis continentur.</p>
+        <p xml:id="pl-l3d25c1-d1e128">Sed nec ante adventum nec ante Legem videtur hoc suffecisse, quia sine fide Mediatoris nullum hominem, vel ante, vel post fuisse salvum, Sanctorum auctoritates contestantur.</p>
+        <p xml:id="pl-l3d25c1-d1e131">Unde <name ref="#Augustine">Augustinus</name> 
+          <quote xml:id="pl-l3d25c1-Qd1e136">Ad Optatum</quote>: <quote xml:id="pl-l3d25c1-Qd1e139">Illa fides sana est, qua credimus, nullum hominem, sive maioris sive parvulae aetatis<quote xml:id="pl-l3d25c1-Qd1e141">, 
+</quote> liberari a contagio mortis et obligatione peccati, quod prima nativitate contraxit, nisi per <quote xml:id="pl-l3d25c1-Qd1e144">unum, mediatorem Dei. et hominum , Christum lesum</quote> ; cuius hominis eiusdemque Dei saluberrima fide etiam illi iusti salvi facti sunt, qui, priusquam veniret in carnem, crediderunt in carnem venturum. Eadem enim fides est et nostra et illorum </quote>. <quote xml:id="pl-l3d25c1-Qd1e148"> Proinde cum omnes iusti, sive ante incarnationem sive post, nec vixerint nec vivant nisi ex fide incarnationis Christi, profecto quod scriptum est, <quote xml:id="pl-l3d25c1-Qd1e150">non esse aliud nomen sub caelo, in quo oporteat salvari nos</quote> , ex illo tempore valet ad salvandum genus humanum, ex quo in Adam vitiatum est</quote>.</p>
+        <p xml:id="pl-l3d25c1-d1e155">Idem: <quote xml:id="pl-l3d25c1-Qd1e157">Nemo liberatur a damnatione, quae facta est per Adam, nisi per fidem lesu Christi</quote>.</p>
+        <p xml:id="pl-l3d25c1-d1e161">Idem: <quote xml:id="pl-l3d25c1-Qd1e163">Eadem fides Mediatoris, quae nos salvat , salvos iustos faciebat antiquos, pusillos cum magnis, quia, sicut credimus, Christum in carne venisse, ita illi venturum; et sicut nos mortuum, ita illi moriturum; et sicut nos resurrexisse, ita illi resurrecturum; et uos et illi, ad indicium vivorum et mortuorum venturum </quote>.</p>
+        <p xml:id="pl-l3d25c1-d1e167">
+          <name ref="#GregoryGreat">Gregorius</name> 
+          <title>Super Ezechielem</title> : <quote xml:id="pl-l3d25c1-Qd1e175">Et qui praeibant et qui sequebantur clamabant dicentes: Hosanna filio David</quote>, etc., 
+  quia omnes electi, qui in ludaea esse potuerunt, sive qui nunc in Ecclesia sunt, in Mediatorem Dei et hominum crediderunt et credunt.</p>
+        <p xml:id="pl-l3d25c1-d1e179">His aliisque pluribus testimoniis perspicue docetur, nulli unquam salutem esse faciam, nisi per fidem Mediatoris. <quote xml:id="pl-l3d25c1-Qd1e181">Oportet ergo, accedentem</quote> 
+          <quote xml:id="pl-l3d25c1-Qd1e184">credere</quote> quae supra dixit <name ref="Paul">Apostolus</name>, sed non sufficit.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

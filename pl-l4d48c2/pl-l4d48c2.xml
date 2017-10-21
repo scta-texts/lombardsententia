@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CAP. II</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>CAP. II</title>
+          <date when="2017-10-21">October 21, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l4d48c2">
+        <head xml:id="pl-l4d48c2-Hd1e109">CAP. II</head>
+        <head xml:id="pl-l4d48c2-Hd1e112" type="question-title">Qualis apparebit forma servi.</head>
+        <p xml:id="pl-l4d48c2-d1e115">Sed cum in forma humana constet eum appariturum, quaeritur, an forma illa gloriosa appareat, sicut vere est, an infirma, qualis in passione exstitit.</p>
+        <p xml:id="pl-l4d48c2-d1e118">Quidam putant, a malis talem videri, qualem crucifixerunt, id est infirmam, quia dicit Scriptura, ut videant, <quote xml:id="pl-l4d48c2-Qd1e120">in quem pupugerunt .</quote>
+        </p>
+        <p xml:id="pl-l4d48c2-d1e124">Sed aperte <name ref="#Augustine">Augustinus</name> dicit, formam servi glorificatam a bonis et a malis tunc videri, sic: <quote xml:id="pl-l4d48c2-Qd1e129">Cum in forma servi clarificata iudicantem viderint boni et mali, tolletur impius, ut non videat claritatem Dei, qua Deus est, quam soli <quote xml:id="pl-l4d48c2-Qd1e131">mundi corde videbunt</quote>; quod erit eis vita aeterna</quote>.</p>
+        <p xml:id="pl-l4d48c2-d1e137">Forma igitur humana in Christo glorificata videbitur a cunctis; unde et Christus dicitur iudicaturus, quia filius hominis est. Ita enim legitur in Evangelio loannis: <quote xml:id="pl-l4d48c2-Qd1e139">Et potestatem dedit ei iudicium facere, quia filius hominis est;</quote> non quod ipse ex virtute hominis sit iudicaturus, vel quod ipse solus sine Patre et Spiritu sancto sit iudicium facturus, sed quia ipse solus in forma servi iudicans bonis et malis videbitur. Cum ergo dicitur : <quote xml:id="pl-l4d48c2-Qd1e142">Pater non iudicat quemquam, sed omne iudicium dedit Filio,</quote> non ita est intelligendum, quasi Filius solus iudicet et non Pater, sed quia forma Filii humana cunctis in iudicio apparebit, non infirma, sed gloriosa. Indicabit autem ex virtute Divinitatis, non sine Patre et Spiritu sancto, et apparebit terribilis impiis et mitis iustis: erit enim terror malis et lumen iustis.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

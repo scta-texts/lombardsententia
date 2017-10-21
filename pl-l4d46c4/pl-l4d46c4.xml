@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CAP. IV</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>CAP. IV</title>
+          <date when="2017-10-21">October 21, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l4d46c4">
+        <head xml:id="pl-l4d46c4-Hd1e109">CAP. IV</head>
+        <head xml:id="pl-l4d46c4-Hd1e112" type="question-title">Quare quaedam opera dicuntur iustitiae, quaedam misericordiae vel bonitatis Dei.</head>
+        <p xml:id="pl-l4d46c4-d1e115">Quod autem quaedam opera misericordiae, quaedam iustitiae, quaedam bonitati attribuantur, in Scripturis facile est reperire.</p>
+        <p xml:id="pl-l4d46c4-d1e118">Et de misericordia quidem et iustitia manifestum est, de bonitate vero et misericordia amplius latet.</p>
+        <p xml:id="pl-l4d46c4-d1e121">Sed <name ref="#Augustine">Augustinus</name> docet illa opera proprie ad misericordiam pertinere, quibus aliqui a miseria liberantur; ad bonitatem vero non solum illa, sed facturam et gubernationem naturalium, ita dicens: <quote xml:id="pl-l4d46c4-Qd1e126"> Ad misericordiam pertinet, quod a peccatis mundat et de miseria liberat; ad bonitatem vero, quod caelum et terram et omnia valde bona creavit, ut essent</quote>.</p>
+        <p xml:id="pl-l4d46c4-d1e131">Idem: <quote xml:id="pl-l4d46c4-Qd1e133">Caeli non indigent misericordia, ubi nulla est miseria; in terra hominis abundat miseria, et superabundat Domini misericordia. Miseria igitur hominis et <quote xml:id="pl-l4d46c4-Qd1e135">misericordia Domini plena est terra</quote>, non caeli, qui non indigent misericordia, indigent tamen regente Domino. Omnia enim indigent Domino, et felicia et misera, quia sine illo miser non sublevatur, felix non regitur </quote>.</p>
+        <p xml:id="pl-l4d46c4-d1e140">Item alibi: <quote xml:id="pl-l4d46c4-Qd1e142">Misericordia est erga miseros, bonitas erga quoslibet </quote>.</p>
+        <p xml:id="pl-l4d46c4-d1e146">Interdum tamen misericordia large accipitur ut bonitas.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

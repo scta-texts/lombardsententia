@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CAP. II</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>CAP. II</title>
+          <date when="2017-10-21">October 21, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l3d22c2">
+        <head xml:id="pl-l3d22c2-Hd1e109">CAP. II</head>
+        <head xml:id="pl-l3d22c2-Hd1e112" type="question-title">Si Christus, ubicumque est, sil homo.</head>
+        <p xml:id="pl-l3d22c2-d1e115">Hic quaeritur, si Christus in morte alicubi erat homo; et si, ubicumque est, homo sit.</p>
+        <p xml:id="pl-l3d22c2-d1e118">Ad quod dicimus, quia non ubicumque erat, homo erat, uec modo ubicumque est, homo est; quia ubique est secundum deitatem, nec ubique homo, quia non ubique homini unitus; sed ubicumque est secundum hominem, ibi homo est. Tempore autem mortis, et ubique erat secundum Deum, et in sepulcro secundum hominem, et in inferno secundum hominem: sed in inferno secundum animam, et in sepulcro secundum carnem . In sepulcro ergo erat homo, quia humanitati unitus, etsi non loti, quia carni tantum; et in inferno erat homo, quia humanitati unitus, sed non toti, quia animae tantum.</p>
+        <p xml:id="pl-l3d22c2-d1e121">Sed si in inferno animae tantum, et in sepulcro carni tantum unitus erat, ergo nec in inferno unitus erat animae et carni, nec in sepulcro. Quomodo ergo hic vel ibi homo esse dicitur? Quae est ratio dicti ?</p>
+        <p xml:id="pl-l3d22c2-d1e125">Quia una eademque unione unitus erat animae in inferno, et carni in sepulcro; et sic erat illis duobus, tunc separatis, unitus, sicut ante separationem, id est ante mortem.</p>
+        <p xml:id="pl-l3d22c2-d1e128">Ad hoc autem opponitur: Si Christus animam tantum vel carnem tantum assumsisset, non fuisset verus homo; sed propter utriusque assumtionem verus homo fuit; sic ergo, ubi carnem et animam sibi unitam non habebat, verus homo ibi non erat. Sed tempore mortis nusquam illa duo unita habebat, quia nec in sepulcro, nec in inferno, nec alibi; nusquam ergo erat homo.</p>
+        <p xml:id="pl-l3d22c2-d1e131">Ad quod dicimus, quia Christus utique verus homo non fuisset, si carnem et animam non assumsisset; sed tamen, quia ex quo assumsit, neutrum deposuit, sed cum utroque eandem unionem indesinenter tenuit, quam assumendo contraxit, ideo non incongrue, ubicumque animae vel carni vel utrique unitus est, ibi homo esse dicitur, quia ibi humanatus est. Ergo et in sepulcro erat homo, et in inferno erat homo, quia utrobique humanatus erat Christus, el unam eandemque cum anima et carne, licet separatis, habebat unionem, et uno eodemque tempore in sepulcro iacuit Christus, et ad infernum descendit; sed in sepulcro iacuit secundum solam carnem, et in infernum descendit secundum solam animam.</p>
+        <p xml:id="pl-l3d22c2-d1e134">Unde <name ref="#Augustine">Augustinus</name>: <quote xml:id="pl-l3d22c2-Qd1e139">Quis non est derelictus in inferno? Christus, sed in anima sola. Quis iacuit in sepulcro? Christus, sed in carne sola; quia in his singulis Christus est, Christum in bis omnibus et singulis confitemur </quote>.</p>
+        <p xml:id="pl-l3d22c2-d1e143">Ex his evidenter ostenditur, quod carni iacenti in sepulcro unitus erat Christus, sicut animae in inferno; alioquin, si carni mortuae non esset unitus, non in ea diceretur iacuisse in sepulcro. Anima igitur ad infernum descendit, caro in sepulcro iacuit, Sapientia cum utroque permansit, quae <quote xml:id="pl-l3d22c2-Qd1e145"> in inferno positis, ut ait <name ref="#Ambrose">Ambrosius</name>, lumen vitae fundebat aeternae. Radiabat illic lux vera Sapientiae, illuminabat infernum, sed in inferno non claudebatur. Quis enim locus est Sapientiae ? de qua scriptum est: <quote xml:id="pl-l3d22c2-Qd1e150">Nescit homo vias eius, nec inventa est inter homines;</quote> de qua <quote xml:id="pl-l3d22c2-Qd1e153">abyssus dicit: Non est in me; mare dicit: Non est mecum; 
+</quote>ergo nec in tempore, nec in loco Sapientia est, cui nec mors tribuenda est</quote>. <quote xml:id="pl-l3d22c2-Qd1e157"> In ligno enim caro, non illa operatrix omnium substantia divina, pendebat </quote>.</p>
+        <p xml:id="pl-l3d22c2-d1e161">Confitemur tamen, Christum pependisse in ligno et iacuisse in sepulcro, sed in carne; et fuisse in inferno, sed in anima sola.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

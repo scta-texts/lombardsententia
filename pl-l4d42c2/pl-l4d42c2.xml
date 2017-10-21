@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CAP. II</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>CAP. II</title>
+          <date when="2017-10-21">October 21, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l4d42c2">
+        <head xml:id="pl-l4d42c2-Hd1e109">CAP. II</head>
+        <head xml:id="pl-l4d42c2-Hd1e112" type="question-title">Qui sint filii spirituales.</head>
+        <p xml:id="pl-l4d42c2-d1e115">
+          <quote xml:id="pl-l4d42c2-Qd1e117"> Spirituales filii sunt quos de sacro fonte levamus, vel in catechizatione seu confirmatione tenemus. Filii etiam et filiae spirituales eorum sunt, qui trinae mersionis vocabulo eos sacro baptismate lingunt. Dicitur et spiritualis filia sacerdotis quae ei peccata sua confitetur </quote>.</p>
+        <p xml:id="pl-l4d42c2-d1e121">Unde Symmachus Papa: <quote xml:id="pl-l4d42c2-Qd1e123"> Omnes quos in poenitentia suscipimus, ita nostri spirituales sunt filii, ut et ipsi quos, vel nobis suscipientibus, vel sub trinae mersionis vocabulo mergentibus, unda baptismi regeneravit. Silvester etiam admonet, ut ad suam poenitentialem nullus sacerdos accedat, quia scriptum est: Omnes quos in poenitentia accipimus, ita nostri filii sunt, ut in baptismo suscepti </quote>; <quote xml:id="pl-l4d42c2-Qd1e126"> quorum omnium flagitiosa est commixtio </quote>.</p>
+        <p xml:id="pl-l4d42c2-d1e130">
+          <quote xml:id="pl-l4d42c2-Qd1e132"> Quod autem compater et commater sibi iungi nequeant, nec pater nec mater spiritualis filiae vel filio spirituali<quote xml:id="pl-l4d42c2-Qd1e134">, ex Concilio Maguntinensi</quote> docetur </quote>: <quote xml:id="pl-l4d42c2-Qd1e138"> De eo quod interrogastis si aliquis filiolam suam duxerit uxorem, et de eo qui concubuit cum matre spirituali, et de eo qui filium suum baptizavit, et uxor eius eum de fonte suscepit, hac causa ut dissidium fieret coniugii, si post in tali copula possunt permanere, sic respondendum est: Si filiolam aut commatrem suam aliquis in coniugioduxerit, separandos esse iudicamus et gravi poenitentia plectendos. Si vero coniuges legitimi, unus vel ambo, ex industria hoc fecerint, ut filium suum de fonte susciperent, si innupti manere voluerint, bonum est; sin autem, gravis poenitentia insidiatori iniungatur, et simul maneant; et si praevaricator coniugii supervixerit, acerrima poenitentia mulctetur, et sine spe coniugii maneat</quote>.</p>
+        <p xml:id="pl-l4d42c2-d1e143">Ex his apparet, quod aliquis filiolam suam vel commatrem non potest sibi copulare nuptialiter; et si praesumtum fuerit, separandi sunt. Qui autem legitime coniuncti sunt, non ideo separandi sunt, quia alter eorum insidiose filium de fonte levavit.</p>
+        <p xml:id="pl-l4d42c2-d1e146">Quod etiam Nicolaus confirmat dicens: <quote xml:id="pl-l4d42c2-Qd1e148"> Nosse desideras, utrum mulier, quae viri filium, ex alia femina genitum, de sacro fonte levaverit, postmodum possit cum eodem viro copulari. Quos ideo coniungi posse decrevimus, quia secundum canones sacros, nisi amborum consensu, nullius religionis obtentu debet coniux dimittere coniugem, cum <name ref="Paul">Apostolus</name> praecipiat: <quote xml:id="pl-l4d42c2-Qd1e153">Nolite fraudare invicem, nisi forte ex consensu ad tempus</quote> 
+          </quote>, etc.</p>
+        <p xml:id="pl-l4d42c2-d1e158">Item: <quote xml:id="pl-l4d42c2-Qd1e160">Dictum est nobis, quasdam feminas desidiose, quasdam vero fraudulenter, ut a viris suis separentur, proprios filios coram episcopis ad confirmandum tenuisse. Unde nos dignum duximus, ut, si qua mulier filium suum desidia aut fraude aliqua coram episcopo tenuit ad confirmandum, propter fallaciam vel fraudem, quamdiu vivat, poenitentiam agat; a viro tamen suo non separetur </quote>.</p>
+        <p xml:id="pl-l4d42c2-d1e164">Item Ioannes Papa: <quote xml:id="pl-l4d42c2-Qd1e166">Ad limina beati Petri homo, nomine Stephanus, veniens, nostro praesulatui innotuit, quod filium suum in extremo vitae positum, necdum baptismi unda lotum, absentia sacerdotum cogente, baptizavit, eumque propriis manibus suscepit. Atque pro huiusmodi negotio Reverentia tua praefatum hominem a sua coniuge iudicavit esse separandum. Quod fieri nullatenus debet, dicente Scriptura: <quote xml:id="pl-l4d42c2-Qd1e168">Quod Deus coniunxit, homo non separet;</quote> et Dominus non dimittere uxorem nisi causa fornicationis iubet. Et nos tanta auctoritate freti, dicimus dimittendum esse, et inculpabile iudicandum, quod necessitas intulit: nam baptizandi opus laicis fidelibus, si tamen necesse fuerit, libere conceditur. Unde si supradictus homo filium morientem aspiciens, ne animam perpetuo perire dimitteret, unda baptismi lavit, ut eum de potestate mortis eriperet, bene fecisse laudatur. Ideoque suae uxori, sibi iam olim legitime sociatae, impune, dum vixerit, iudicamus manere coniunctum, nec ob hoc separari debere</quote>.</p>
+        <p xml:id="pl-l4d42c2-d1e173">His aliisque pluribus auctoritatibus edocetur, coniuges non esse separandos, si post legitimam copulam alter alterius filium de fonte levat, vel in confirmatione tenet.</p>
+        <p xml:id="pl-l4d42c2-d1e176">His autem obviare videtur, quod Deusdedit Papa ait: <quote xml:id="pl-l4d42c2-Qd1e178"> Pervenit ad nos diaconus, Sanctitatis vestrae epistolam deferens, quod quidam viri et mulieres praeterito sabbato paschali pro magno populi incursu nescientes filios suos suscepissent de lavacro. Cupis ergo scire, an propter hoc debeant viri ac mulieres ad proprium usum redire, vel non. Nos ergo de hac re moesti inquisivimus priorum dicta, et invenimus in archivis, id est in armariis, apostolicae Sedis, iam talia contigisse in pluribus ecclesiis, quarum episcopi ab hac apostolica Sede volentibus scire, utrum viri ac mulieres redirent ad proprium torum, beatae memoriae sancti Patres lulius, Innocentius et Caelestinus cum episcoporum plurimorum consensu in Apostolorum principis ecclesia, prohibentes talia, rescripserunt et confirmaverunt, ut nullo modo se in coniugio reciperent mulieres ac viri, quicumque aliqua ratione susceperunt natos, sed separent se, ne, suadente diabolo, tale vitium inolescat </quote>,</p>
+        <p xml:id="pl-l4d42c2-d1e183">Item: <quote xml:id="pl-l4d42c2-Qd1e185">Si quis filiastrum vel filiastram suam ante episcopum tenuerit ad confirmationem, separetur ab uxore sua, et aliam nunquam accipiat </quote>.</p>
+        <p xml:id="pl-l4d42c2-d1e189">Haec autem vel ad terrorem dicta sunt, non quod ita faciendum esset, sed ne illud fieret, summopere cavendum est; vel de illis est intelligendum, qui prius filios suos vicissim de fonte susceperunt, quam fierent coniuges.</p>
+        <p xml:id="pl-l4d42c2-d1e192">Praemissis autem auctoritatibus omnino consentiendum est, ut <quote xml:id="pl-l4d42c2-Qd1e194"> sive proprium, seu tantum viri filium mulier de fonte susceperit, non ideo a viro separetur; quod etiam de viro similiter oportet intelligi </quote>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

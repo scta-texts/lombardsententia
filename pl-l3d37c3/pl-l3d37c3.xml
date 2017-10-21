@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cap. III</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Cap. III</title>
+          <date when="2017-10-21">October 21, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l3d37c3">
+        <head xml:id="pl-l3d37c3-Hd1e109">Cap. III</head>
+        <p xml:id="pl-l3d37c3-d1e112"> 
+          <quote xml:id="pl-l3d37c3-Qd1e114"> Accepit utique Ecclesia hoc donum, ut in Spiritu sancio fiat remissio peccatorum; quam remissionem cum Trinitas faciat, proprie tamen ad Spiritum sanctum dicitur pertinere, quia ipse est<quote xml:id="pl-l3d37c3-Qd1e116"> Spiritus adoptionis filiorum</quote>, ipse est Patris et Filii Amor et Connexio vel Communitas</quote>; ideoque iustificatio nostra et requies ei attribuitur saepius.</p>
+        <p xml:id="pl-l3d37c3-d1e121">Haec sunt tria mandata primae tabulae ad Deum pertinentia; et primum quidem, quod est de uno Deo colendo, pertinet ad Patrem, in quo est unitas vel auctoritas; secundum ad Filium, in quo est aequalitas; tertium ad Spiritum sanctum, in quo est utriusque communitas.</p>
+        <p xml:id="pl-l3d37c3-d1e124">
+          <quote xml:id="pl-l3d37c3-Qd1e126">De mandatis secundae tabulae</quote> .</p>
+        <p xml:id="pl-l3d37c3-d1e130"><!--<quote>--> In secunda vero tabula septem erant mandata ad dilectionem proximi pertinentia.</p>
+        <p xml:id="pl-l3d37c3-d1e135">
+          <quote xml:id="pl-l3d37c3-Qd1e137"> Quorum primum ad patrem carnalem refertur, sicut primum primae tabulae ad Patrem caelestem, quod est: <quote xml:id="pl-l3d37c3-Qd1e139">Honora patrem tuum et matrem tuam, ut sis longaevus super terram</quote> 
+          </quote>, scilicet viventium. Parentes vero sic sunt honorandi, ut eis debita reverentia exhibeatur, et necessaria ministrentur.</p>
+        <p xml:id="pl-l3d37c3-d1e144">Secundum est: <quote xml:id="pl-l3d37c3-Qd1e146">Non occides;</quote> ubi secundum litteram actus homicidii prohibetur, secundum spiritum vero etiam voluntas occidendi. Unde huic mandato secundum litteram fit superadditio in Evangelio, quia littera Evangelii exprimitur, quod Legis littera non exprimebatur.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

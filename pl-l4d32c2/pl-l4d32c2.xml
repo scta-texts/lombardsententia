@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CAP. II</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>CAP. II</title>
+          <date when="2017-10-21">October 21, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l4d32c2">
+        <head xml:id="pl-l4d32c2-Hd1e109">CAP. II</head>
+        <head xml:id="pl-l4d32c2-Hd1e112" type="question-title">De continentia ex communi consensu servanda.</head>
+        <p xml:id="pl-l4d32c2-d1e115">Quod vero sine consensu uxoris vir continere non valeat, subditis probatur testimoniis.</p>
+        <p xml:id="pl-l4d32c2-d1e118">Ait enim <name ref="#Augustine">Augustinus</name>: <quote xml:id="pl-l4d32c2-Qd1e123">Si dicat vir: continere iam volo; nolo, autem uxor; non potest: quod enim tu vis, illa non vult. Nunquid per continentiam tuam illa debet fieri fornicaria? Si alii nupserit, te vivo, adultera erit. Non vult tali lucro Deus tale damnum compensari. Redde debitum; et si non exigis, redde. Pro sanctificatione perfecta Deus tibi computabit, si non quod tibi debetur exigis, sed reddis quod debes uxori </quote>.</p>
+        <p xml:id="pl-l4d32c2-d1e127">Idem: <quote xml:id="pl-l4d32c2-Qd1e129">Secundum verba apostolica, etiam si vir continere voluisset, et tu noluisses, debitum reddere tibi cogeretur; et illi Deus imputaret continentiam, si non suae, sed tuae concederet infirmitati, ne in adulterium caderes </quote>. <quote xml:id="pl-l4d32c2-Qd1e132"> Quisquis igitur, compatiens infirmitati uxoris, reddit, non exigit debitum; aut si propter propriam infirmitatem ducit uxorem, plangens potius, quia sine uxore esse non potuit, gaudens, quia duxit, securus exspectat diem novissimum</quote>.</p>
+        <p xml:id="pl-l4d32c2-d1e137">Idem : <quote xml:id="pl-l4d32c2-Qd1e139"> Una causa sola esse potest, qua te ad id quod vovisti, non modo non hortaremur, sed etiam ° prohiberemus implere: si forte tua coniux hoc tecum suscipere animi vel carnis infirmitate recusaret. Nam vovenda talia non sunt a coniugatis, nisi ex consensu et voluntate communi; et si praepropere factum fuerit, magis est corrigenda temeritas, quam persolvenda promissio: non enim Deus exigit, si quis ex alieno aliquid voverit, sed potius usurpare vetat alienum</quote>.</p>
+        <p xml:id="pl-l4d32c2-d1e143">Idem: <quote xml:id="pl-l4d32c2-Qd1e145">
+            <name ref="Paul">Apostolus</name> nec ad tempus, ut vacent orationi, nisi ex consensu voluit coniuges carnali invicem fraudari debito</quote>.</p>
+        <p xml:id="pl-l4d32c2-d1e152">Idem: <quote xml:id="pl-l4d32c2-Qd1e154">Manifestum est, ita voluisse Legem feminam sub viro esse, ut nulla eius vota, quae abstinentiae causa voverit, reddantur ab ea, nisi auctor fuerit vir permittendo. Nam cum ad peccatum eiusdem viri perlinere voluerit Lex, si prius permiserit et postea prohibuerit, non tamen dixit, ut faciat mulier quod voverat, quia permissa iam prius a viro fuerat. Viri dixit esse peccatum, quia abnuit quod prius concesserat; nec tamen mulieri ex hoc iussum dedit, ut, cum prius vir ei concesserit, postea, si prohibuerit, contemnatur </quote>.</p>
+        <p xml:id="pl-l4d32c2-d1e158">Ex his apparet quod vir vel mulier continentiam Deo offerre non potest sine communi assensu, nec alter alteri debitum negare debet.</p>
+        <p xml:id="pl-l4d32c2-d1e161">Si vero quilibet eorum alterum a iure suo absolverit, ad praeteritam servitutem nunquid revocare poterit? Hoc enim videtur <name ref="#Augustine">Augustinus</name> supra voluisse.</p>
+        <p xml:id="pl-l4d32c2-d1e167">Quibusdam videtur, quod mulier non discedens a domo viri, quae, viro permittente, continentiam promiserit , eodem prohibente, solvere non valeat; et hoc propter dignitatem viri, qui <quote xml:id="pl-l4d32c2-Qd1e169">est caput mulieris.</quote> Sed melius hoc intelligitur in tali casu, ubi concedit vir mulieri vovere continentiam et ante votum prohibet implere. Si vero habitum mutaverit, non potest revocari, secundum illud: <quote xml:id="pl-l4d32c2-Qd1e172"> Qui uxorem suam velare permiserit, aliam non accipiat, sed similiter convertatur</quote>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

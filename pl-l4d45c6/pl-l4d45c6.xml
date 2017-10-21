@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CAP. IV</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>CAP. IV</title>
+          <date when="2017-10-21">October 21, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l4d45c6">
+        <head xml:id="pl-l4d45c6-Hd1e109">CAP. IV</head>
+        <head xml:id="pl-l4d45c6-Hd1e112" type="question-title">Quomodo Sancti et glorificati et Angeli audiunt preces supplicantium et intercedunt pro eis.</head>
+        <p xml:id="pl-l4d45c6-d1e115">Sed forte quaeris: Nunquid preces supplicantium audiunt, et vota postulantium in eorum notitiam perveniunt ?</p>
+        <p xml:id="pl-l4d45c6-d1e118">Non est incredibile, animas Sanctorum, quae in <quote xml:id="pl-l4d45c6-Qd1e120">abscondito faciei Dei</quote> veri luminis illustratione laetantur, in ipsius contemplatione ea quae foris aguntur, intelligere, quantum illis vel ad gaudium, vel nobis ad auxilium pertinet. Sicut enim Angelis, ita et Sanctis, qui Deo assistunt, <quote xml:id="pl-l4d45c6-Qd1e123">petitiones nostrae innotescunt</quote> in Verbo Dei, quod contemplantur. Unde et dicuntur Angeli orationes et vota nostra offerre Deo, non quia eum doceant, sed quia eius voluntatem super eis consulunt.</p>
+        <p xml:id="pl-l4d45c6-d1e127">Unde <name ref="#Augustine">Augustinus</name>: <quote xml:id="pl-l4d45c6-Qd1e132">Angelis, qui sunt apud Deum, innotescunt petitiones nostrae, ut quodam modo eas offerant Deo et de his consulant, et quod, Deo iubente, implendum esse cognoverint, hoc nobis vel evidenter vel latenter reportent. Unde et Angelus hominibus ait: <quote xml:id="pl-l4d45c6-Qd1e134">Cum oraretis, orationem vestram obtuli Deo</quote>.</quote>
+        </p>
+        <p xml:id="pl-l4d45c6-d1e140">
+          <quote xml:id="pl-l4d45c6-Qd1e142">Ad omnia quidem scienda sufficit Deo sua perfectio; habet tamen nuntios, id est Angelos, non qui ei quae nescit, annuntient — non enim sunt ulla, quae nesciat — sed bonum eorum est de operibus suis eius consulere veritatem, et hoc est, quod ei dicuntur nonnulla nuntiare, non ut ipse ab eis discat, sed ut ab eo ipsi per Verbum eius sine corporali sono. Nuntiant etiam quod voluerit, ab eo missi ad quos voluerit, totum ab illo per illud Verbum eius audientes, id est in eius veritate invenientes, quid sibi faciendum, quid, quibus et quando nuntiandum sit. Nam et nos, orantes eum, non eum docemus, quia <quote xml:id="pl-l4d45c6-Qd1e144">novit,</quote> ait Verbum eius<quote xml:id="pl-l4d45c6-Qd1e147">, Pater vester, quid vobis necessarium sit, priusquam petatis ab eo</quote>. Nec ista ex tempore cognovit, sed futura omnia temporalia atque in eis etiam quid et quando ab illo petituri fueramus, et quos et de quibus rebus vel exauditurus, vel non exauditurus esset, sine initio ante praescivit</quote>.</p>
+        <p xml:id="pl-l4d45c6-d1e152">
+          <quote xml:id="pl-l4d45c6-Qd1e154"> Non ergo dicitur Angelus orationes nostras offerre Deo, quasi Deus tunc non noverit, quid velimus et quo indigeamus, quiomnia, antequam fiant, sicut et postquam facta sunt, novit; sed quia necesse habet rationalis creatura temporales causas ad aeternam veritatem referre, sive petendo quid erga se fiat, sive consulendo quid faciat</quote>.</p>
+        <p xml:id="pl-l4d45c6-d1e158">Si autem Angeli a Deo per Verbum eius discunt petitiones nostras, et quid de eis implendum sit vel non, cur non credamus, et animas Sanctorum Dei faciem contemplantium in eius veritate intelligere preces hominum, et quae implendae sint, vel non ?</p>
+        <p xml:id="pl-l4d45c6-d1e161">Inde est, quod Deus dicitur exaudire preces quorundam, non solum, quando effectui mancipat, sed etiam, quando innotescit curiae Angelorum et sanctarum animarum, quid inde futurum sit, vel non; et quod cognoscunt in Dei voluntate esse, volunt et ipsi. Adeo enim supernae Veritati addicti sunt, ut nihil praeter eius voluntatem queant velle. Intercedunt igitur ad Deum pro nobis Sancti et merito, dum eorum merita suffragantur nobis, et affectu, dum vota nostra cupiunt impleri; quod tamen non faciunt, nisi</p>
+        <p xml:id="pl-l4d45c6-d1e164">in voluntate Dei implenda didicerint. Oramus ergo, ut intercedant pro nobis, id est, ut merita eorum nobis suffragentur, et ut ipsi velint bonum nostrum, quia, eis volentibus, Deus vult, et ita fiet.</p>
+        <p xml:id="pl-l4d45c6-d1e167">Ex praemissis constat, quod cum quibusdam misericordius agit Deus, quam aliqua eorum peccata meruerint, scilicet cum</p>
+        <p xml:id="pl-l4d45c6-d1e171">mediocriter malis, qui suffragiis Ecclesiae iuvantur.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

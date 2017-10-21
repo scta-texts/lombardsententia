@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CAP. II</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>CAP. II</title>
+          <date when="2017-10-21">October 21, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l4d47c2">
+        <head xml:id="pl-l4d47c2-Hd1e109">CAP. II</head>
+        <head xml:id="pl-l4d47c2-Hd1e112" type="question-title">Quod Sancti iudicabunt, et quomodo.</head>
+        <p xml:id="pl-l4d47c2-d1e115">Non autem solus Christus indicabit, sed et Sancti cum eo <quote xml:id="pl-l4d47c2-Qd1e117">iudicabunt nationes.</quote> Ipse enim Apostolis ait: <quote xml:id="pl-l4d47c2-Qd1e120">Sedebitis et vos super sedes duodecim, iudicantes duodecim tribus Israel.</quote>
+        </p>
+        <p xml:id="pl-l4d47c2-d1e124">Nec est putandum, quod duodecim Apostolis tantum hoc promiserit Christus. Ubi enim sedebit Paulus, qui plus omnibus laboravit, si non ibi sedebunt nisi duodecim?</p>
+        <p xml:id="pl-l4d47c2-d1e127">
+          <quote xml:id="pl-l4d47c2-Qd1e129">Per duodecim igitur sedes</quote> perfectio tribunalis, id est <quote xml:id="pl-l4d47c2-Qd1e132"> universitas iudicantium intelligitur </quote>, scilicet omnes perfecti, qui 
+<quote xml:id="pl-l4d47c2-Qd1e135">relictis omnibus, secuti sunt Christum</quote>; <quote xml:id="pl-l4d47c2-Qd1e138"> per duodecim tribus universitas iudicandorum </quote>.</p>
+        <p xml:id="pl-l4d47c2-d1e143">Indicabunt vero eos Sancti, non modo comparatione, sed etiam auctoritate et potestate; unde <quote xml:id="pl-l4d47c2-Qd1e145">gladii ancipites in manibus eorum</quote> , id est sententia de bonis et malis in potestate eorum.</p>
+        <p xml:id="pl-l4d47c2-d1e149">Si vero quaeritur: quae sit eorum potestas vel auctoritas in iudicando? puto, non posse ante sciri, quam videatur, nisi divina revelatione quis didicerit.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

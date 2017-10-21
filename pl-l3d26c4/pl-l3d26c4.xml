@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cap. IV</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Cap. IV</title>
+          <date when="2017-10-21">October 21, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l3d26c4">
+        <head xml:id="pl-l3d26c4-Hd1e109">Cap. IV</head>
+        <head xml:id="pl-l3d26c4-Hd1e112" type="question-title">Si in Christo fuerit fides vel spes.</head>
+        <p xml:id="pl-l3d26c4-d1e115">Post haec superest investigare, utrum fides et spes in Christo fuerint, unde tractatus iste sumsit exordium .</p>
+        <p xml:id="pl-l3d26c4-d1e118">Quibusdam non indocte videtur, fidem-virtutem et spem in eo non fuisse, sicut in Sanctis iam beatificatis vel in Angelis non sunt; et tamen Sancti credunt et sperant resurrectionem futuram, et Angeli eandem credunt; nec tamen in eis fides vel spes-virtus est, quia et Deo per speciem contemplando fruuntur, et in Dei Verbo resurrectionem futuram sive iudicium non <quote xml:id="pl-l3d26c4-Qd1e120">per speculum in aenigmate</quote> , sed praeclarissime inspiciunt. Si enim, quia credunt resurrectionem futuram, ideo verum est eos fidem habere, ergo ea consummata, post iudicium similiter et fidem habere dicentur, quia credent eam praeteritam. Sed sicut tunc credent, nec tamen fidem, quae fideles facit, habebunt — quia non credent absque scientia, quae non erit aenigmatica, sed per speciem — ita et modo credunt et sperant resurrectionem; nec tamen fidem habent, quia credendo cognoscunt. Venit enim eis quod <quote xml:id="pl-l3d26c4-Qd1e123">perfectum est, et evacuatum est quod ex parte est;</quote> venit enim cognitio, et evacuata est fides; venit species, et desiit spes. Ita et Christus, in quo fuerunt bona patriae, credidit quidem et speravit resurrectionem tertia die futuram, pro qua et Patrem oravit; nec tamen fidem-virtutem vel spem habuit, quia non aenigmaticam et specularem, sed clarissimam de ea habuit cognitionem, quia non perfectius eam cognovit praeteritam, quam intellexit futuram. Speravit tamen Christus, sicut in Psalmo ait: <quote xml:id="pl-l3d26c4-Qd1e126">In te, Domine, speravi;</quote> nec tamen fidem vel spem-virtutem habuit, quia per speciem videbat ea quae credebat.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

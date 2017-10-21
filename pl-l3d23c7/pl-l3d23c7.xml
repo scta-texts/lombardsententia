@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cap. VII</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Cap. VII</title>
+          <date when="2017-10-21">October 21, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l3d23c7">
+        <head xml:id="pl-l3d23c7-Hd1e109">Cap. VII</head>
+        <head xml:id="pl-l3d23c7-Hd1e112" type="question-title">Quod fides est de his quae non videntur, proprie, ipsa tamen videtur ah eo, in quo est.</head>
+        <p xml:id="pl-l3d23c7-d1e115">Notandum quoque est, quod fides proprie de non apparentibus tantum est.</p>
+        <p xml:id="pl-l3d23c7-d1e118">Unde <name ref="#GregoryGreat">Gregorius</name>: <quote xml:id="pl-l3d23c7-Qd1e123"> Apparentia non habent fidem, sed agnitionem </quote>.</p>
+        <p xml:id="pl-l3d23c7-d1e127">Idem: <quote xml:id="pl-l3d23c7-Qd1e129">Cum Paulus dicat: <quote xml:id="pl-l3d23c7-Qd1e131">Fides est substantia rerum sperandarum , argumentum non apparentium,</quote> hoc veraciter dicitur credi, quod non valet videri. Nam credi iam non potest, quod videri potest</quote>. <quote xml:id="pl-l3d23c7-Qd1e135"> Thomas aliud vidit, et aliud credidit: hominem vidit, et Deum confessus est, dicens: <quote xml:id="pl-l3d23c7-Qd1e137">Deus meus et Dominus meus</quote> 
+          </quote>.</p>
+        <p xml:id="pl-l3d23c7-d1e143">De hoc eliam <name ref="#Augustine">Augustinus</name> ait: <quote xml:id="pl-l3d23c7-Qd1e148"> Fidem ipsam videt quisque in corde suo esse, si credit; vel non esse, si non credit; non sicut corpora, quae videmus oculis corporis, et per imagines ipsorum, quas memoria tenemus, eliam absentia cogitamus; nec sicut ea quae non vidimus, et ex his quae vidimus, cogitatione utcumque formamus et memoriae commendamus; nec sicut hominem , cuius animam, etsi non videmus, ex nostra conficimus ; et ex motibus corporis hominem, sicut videndo didicimus, intuemur etiam cogitando: non sic videtur fides in corde, in quo est, ab eo cuius est, sed eam tenet certissima scientia. Cum igitur ideo credere iubeamur, quia id quod credere iubemur, videre non possumus, ipsam tamen fidem, quando est in nobis, videmus in nobis, quia et rerum absentium praesens est fides, et rerum quae foris sunt, intus est fides, et rerum quae non videntur, videtur fides; et ipsa temporaliter fit in cordibus hominum; et si ex fidelibus infideles fiunt, perit ab eis </quote>.</p>
+        <p xml:id="pl-l3d23c7-d1e152">His evidenter traditur <quote xml:id="pl-l3d23c7-Qd1e154">°,</quote> fidem ipsam in corde hominis ab ipso homine videri, non corporaliter, non imaginarie, sed intellectualiter; et ipsam tamen absentium et eorum quae non videntur, esse.</p>
+        <p xml:id="pl-l3d23c7-d1e158">Ut enim <name ref="#Augustine">Augustinus</name> alibi ait: <quote xml:id="pl-l3d23c7-Qd1e163">Credimus, ut cognoscamus; non cognoscimus, ut credamus. Quid est enim fides, nisi credere quod non vides? Fides ergo est quod non vides credere; veritas, quod credidisti videre </quote>.</p>
+        <p xml:id="pl-l3d23c7-d1e167">Unde recte fides dicitur argumentum (vel convictio ) rerum non apparentium, quia si fides est, ex eo convincitur et probatur , aliqua esse non apparentia, cum fides non sit nisi de non apparentibus.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

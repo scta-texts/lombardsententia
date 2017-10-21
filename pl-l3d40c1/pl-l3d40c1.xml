@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cap. I</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Cap. I</title>
+          <date when="2017-10-21">October 21, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l3d40c1">
+        <head xml:id="pl-l3d40c1-Hd1e109">Cap. I</head>
+        <head xml:id="pl-l3d40c1-Hd1e112" type="question-title">Quare Lex dicitur comprimere manum, non animum.</head>
+        <p xml:id="pl-l3d40c1-d1e115">Sextum praeceptum est: <quote xml:id="pl-l3d40c1-Qd1e117">Non desiderabis uxorem proximi tui.</quote>
+        </p>
+        <p xml:id="pl-l3d40c1-d1e121">Septimum:<quote xml:id="pl-l3d40c1-Qd1e123"> Non concupisces domum proximi tui, non servum, non ancillam,</quote> etc.</p>
+        <p xml:id="pl-l3d40c1-d1e127">Sed videtur praeceptum de non concupiscendis rebus proximi unum esse cum eo quo dicitur: <quote xml:id="pl-l3d40c1-Qd1e129">Non furaberis;</quote> et praeceptum de non concupiscenda uxore unum esse cum eo quo dicitur: 
+<quote xml:id="pl-l3d40c1-Qd1e132">Non moechaberis.</quote> 
+          <quote xml:id="pl-l3d40c1-Qd1e135"> Poterat enim praeceptum non furandi in illa generalitate intelligi, ubi de non concupiscenda re proximi praecipitur; et in eo quod dictum est: <quote xml:id="pl-l3d40c1-Qd1e137">Non moechaberis,</quote> poterat illud intelligi: <quote xml:id="pl-l3d40c1-Qd1e140">Non concupisces uxorem proximi tui.</quote> Sed in illis duobus praeceptis non moechandi et non furandi, ipsa opera notata sunt et prohibita, in his vero extremis ipsa concupiscentia </quote>. Multum ergo differunt illa ab istis. Unde illi praecepto non moechandi fit superadditio in Evangelio, ubi omnis concupiscentia moechandi prohibetur.</p>
+        <p xml:id="pl-l3d40c1-d1e146">Sed cum hic prohibetur concupiscentia alienae uxoris et alienae rei, quare dicitur Lex comprimere manum et non animum, Evangelium vero et manum et animum?</p>
+        <p xml:id="pl-l3d40c1-d1e149">Illud de Lege dicitur secundum caerimonialia, non secundum moralia; vel quia in Lege non est generalis prohibitio omnis mortiferae concupiscentiae, ut in Evangelio.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

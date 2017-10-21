@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cap. I</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Cap. I</title>
+          <date when="2017-10-21">October 21, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l3d24c1">
+        <head xml:id="pl-l3d24c1-Hd1e109">Cap. I</head>
+        <head xml:id="pl-l3d24c1-Hd1e112" type="question-title">Quomodo intelligitur quod scriptum est: Ut, cum facium fuerit, credatis.</head>
+        <p xml:id="pl-l3d24c1-d1e115">Hic quaeritur, si fides tantum de non visis est, quomodo Veritas Apostolis ait : <quote xml:id="pl-l3d24c1-Qd1e117">Nunc dico vobis, priusquam fiat, ut, cum facium fuerit, credatis?</quote> uhi innui videtur, quod fides illis fuerit de factis et visis.</p>
+        <p xml:id="pl-l3d24c1-d1e121">Super quo <name ref="#Augustine">Augustinus</name> movet quaestionem et absolvit, ita inquiens: <quote xml:id="pl-l3d24c1-Qd1e126"> Quid sibi vult: <quote xml:id="pl-l3d24c1-Qd1e128">Ut, cum factum fuerit, credatis</quote>? Haec est laus fidei, si quod creditur non videtur. Nam et Thomas, cui dictum est: <quote xml:id="pl-l3d24c1-Qd1e131">Quia vidisti me, credidisti,</quote> non hoc credidit, quod vidit. Cernebat enim et tangebat carnem viventem, quam viderat morientem, et credebat Deum in carne ipsa latentem. Credebat ergo mente, quod non videbat per hoc quod sensibus corporis apparebat. Si vero dicuntur credi quae videntur, sicut dicit unusquisque oculis suis credidisse, non ipsa est quae in nobis aedificatur fides, sed ex rebus quae videntur, agitur in nobis, ut ea credantur quae non videntur </quote>.</p>
+        <p xml:id="pl-l3d24c1-d1e136">Ex his aperte intelligitur, quod proprie fides <quote xml:id="pl-l3d24c1-Qd1e138">non apparentium</quote> est; nec illa fides est, qua in Christo aedificamur, qua dicimus usitata locutione, nos ea credere quae videmus.</p>
+        <p xml:id="pl-l3d24c1-d1e143">Alibi tamen dicit <name ref="#Augustine">Augustinus</name>, fidem esse de rebus praesentibus; quod erit in futuro, cum per speciem Deum praesentem contemplabimur; quae tamen non proprie dicitur fides, sed veritas. <quote xml:id="pl-l3d24c1-Qd1e148"> Est, inquit, fides, qua creduntur ea quae non videntur; sed tamen est etiam fides rerum, quando non verbis, sed rebus ipsis  praesentibus creditur; quod erit, cum per speciem manifestam se contemplandam Sanctis praebebit Dei sapientia</quote>. Sed non proprie haec dicitur fides, immo fidei merces, ad quam credendo pervenietur, ut ex fide verborum transeat iustus in fidem rerum.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CAP. I</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>CAP. I</title>
+          <date when="2017-10-21">October 21, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l4d44c1">
+        <head xml:id="pl-l4d44c1-Hd1e109">CAP. I</head>
+        <head xml:id="pl-l4d44c1-Hd1e112" type="question-title">De aetate et statura resurgentium.</head>
+        <p xml:id="pl-l4d44c1-d1e115">Solent autem nonnulli percontari et quaerere, an in eadem aetate et statura corporis omnes resurrecturi sint.</p>
+        <p xml:id="pl-l4d44c1-d1e118">Quidam putaverunt, omnes resurrecturos secundum mensuram aetatis et staturae Christi, ideo quia <name ref="Paul">Apostolus</name> ait: <quote xml:id="pl-l4d44c1-Qd1e123">Donec occurramus omnes in virum perfectum, in mensuram aetatis plenitudis Christi.</quote>
+        </p>
+        <p xml:id="pl-l4d44c1-d1e127">Sed his verbis non eadem resurgentibus assignatur statura, sed aetas. <quote xml:id="pl-l4d44c1-Qd1e129"> Omnes enim in eadem aetate resurgent, in qua Christus mortuus est et resurrexit, cuiuscumque aetatis mortui fuerint</quote>; <quote xml:id="pl-l4d44c1-Qd1e132">virum</quote> autem posuit, non ut distingueret sexum, sed ut significaret perfectionem virium, quam tunc habebunt. Sed non omnes eandem staturam corporis obtinebunt.</p>
+        <p xml:id="pl-l4d44c1-d1e137">Unde <name ref="#Augustine">Augustinus</name>: <quote xml:id="pl-l4d44c1-Qd1e142">Non ait, in mensuram corporis vel staturae, sed <quote xml:id="pl-l4d44c1-Qd1e144">aetatis,</quote> quia unusquisque suam recipiet mensuram corporis, quam vel habuit in iuventute, etiam si senex obiit, vel fuerat habiturus, si ante est defunctus. Aetas vero erit illa, ad quam pervenit Christus, scilicet iuvenilis, ut circa triginta annos</quote>: triginta enim duorum annorum et trium mensium aetas erat Christi, in qua mortuus est et resurrexit. <quote xml:id="pl-l4d44c1-Qd1e148"> Non est autem fas dicere, quod in resurrectione accedat corpori magnitudo, quam nec habuit hic, nec erat habiturum diu vivendo, nec maiora corpora redigenda sunt ad modum dominici corporis. Periret enim multum de illis corporibus, cum nec periturus sit capillus, ut ait Dominus: <quote xml:id="pl-l4d44c1-Qd1e150">Capillus de capite vestro non peribit</quote>
+          </quote>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

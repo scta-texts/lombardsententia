@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CAP. VII</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>CAP. VII</title>
+          <date when="2017-10-21">October 21, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l4d43c7">
+        <head xml:id="pl-l4d43c7-Hd1e109">CAP. VII</head>
+        <head xml:id="pl-l4d43c7-Hd1e112" type="question-title">Quomodo intelligitur Christus iudex vivorum et mortuorum.</head>
+        <p xml:id="pl-l4d43c7-d1e115">His autem adiiciendum est, dupliciter intelligi, quod dicitur Christus iudicaturus <quote xml:id="pl-l4d43c7-Qd1e117">vivos et mortuos.</quote> Aut enim <quote xml:id="pl-l4d43c7-Qd1e120">vivi</quote> accipiuntur qui in adventu eius vivi reperientur, licet in raptu moriantur; et 
+<quote xml:id="pl-l4d43c7-Qd1e123">mortui,</quote> qui ante decesserant; vel <quote xml:id="pl-l4d43c7-Qd1e126">vivi</quote> et <quote xml:id="pl-l4d43c7-Qd1e129">mortui</quote> accipiuntur iusti et iniusti.</p>
+        <p xml:id="pl-l4d43c7-d1e133">Cumque ex praedictis credi sane valeat, omnes resurrecturos, credendum est etiam, quod omnes resurgent incorrupti, non utique impassibiles, quia [iniqui] mortem patientur aeternam, sed sine diminutione membrorum, omnia humani corporis habituri membra, nec tamen gloria ac specie impassibilitatis induentur.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

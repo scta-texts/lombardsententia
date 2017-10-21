@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cap. I</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Cap. I</title>
+          <date when="2017-10-21">October 21, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l3d35c1">
+        <head xml:id="pl-l3d35c1-Hd1e109">Cap. I</head>
+        <head xml:id="pl-l3d35c1-Hd1e112" type="question-title">De sapientia et scientia, quo differant.</head>
+        <p xml:id="pl-l3d35c1-d1e115">Post praemissa diligenter considerandum est, in quo differat sapientia a scientia.</p>
+        <p xml:id="pl-l3d35c1-d1e118">De hoc <name ref="#Augustine">Augustinus</name> ita ait: <quote xml:id="pl-l3d35c1-Qd1e123"> Philosophi disputantes de sapientia definierunt eam dicentes: Sapientia est rerum humanarum divinarumque scientia. Ego quoque utrarumque rerum cognitionem, id est divinarum et humanarum, et sapientiam et scientiam dici posse, non nego. Verum iuxta distinctionem Apostoli, qua dixit<sup>3</sup>: <quote xml:id="pl-l3d35c1-Qd1e128">Alii datur sermo sapientiae, alii sermo scientiae,</quote> illa definitio dividenda est, ut rerum divinarum cognitio sapientia proprie nuncupetur, humanarum vero cognitio proprie scientiae nomen obtineat. Neque vero quidquid sciri ab homine potest in rebus humanis, ubi plurimum supervacuae vanitatis et noxiae curiositatis est, huic scientiae tribuo, sed illud tantum, quo lides saluberrima, quae ad veram beatitudinem ducit, gignitur, nutritur, defenditur, roboratur; qua scientia non pollent fideles plurimi, quamvis polleant ipsa fide plurimum . Aliud est enim scire tantummodo quid homo credere debeat propter adipiscendam vitam beatam ; aliud est scire, quomodo hoc ipsum et piis opituletur el contra impios defendatur, quae proprio vocabulo appellatur scientia </quote>.</p>
+        <p xml:id="pl-l3d35c1-d1e133">De his quoque duabus virtutibus idem <name ref="#Augustine">Augustinus</name>, differentiam inter eas assignans, super Psalmum ait: <quote xml:id="pl-l3d35c1-Qd1e138"> Distat sapientia a scientia, testante sancto lob, qui quodam modo singula definiens ait: <quote xml:id="pl-l3d35c1-Qd1e140">Sapientia est pietas, scientia vero est abstinere a malis .</quote> Pietatem vero hoc loco posuit Dei cultum, quae Graece dicitur theosebia, quae est in cognitione et dilectione eius quod  semper est et incommutabiliter manet, quod est Deus. Abstinere vero a malis est in <quote xml:id="pl-l3d35c1-Qd1e143">medio pravae nationis</quote> prudenter versari </quote>.</p>
+        <p xml:id="pl-l3d35c1-d1e149">Idem quoque, inter haec duo aperte distinguens, ait: <quote xml:id="pl-l3d35c1-Qd1e151"> Distat ab aeternorum contemplatione actio, qua bene utimur temporalibus rebus; et illa sapientiae, haec scientiae deputatur; quamvis et illa quae sapientia est, possit nuncupari scientia, ut <name ref="Paul">Apostolus</name> loquitur, ubi dicit: <quote xml:id="pl-l3d35c1-Qd1e156">Nunc scio ex parte;</quote> quam scientiam profecto contemplationis Dei vult intelligi. In hoc ergo differentia est, quia ad contemplationem sapientia, ad actionem vero scientia pertinet</quote>.</p>
+        <p xml:id="pl-l3d35c1-d1e161">Ecce aperte demonstratum est, in quo differat spiritus sapientiae et spiritus scientiae, scilicet ut sapientia divinis, scientia humanis attributa sit rebus.</p>
+        <p xml:id="pl-l3d35c1-d1e164">Et ut docet <name ref="#Augustine">Augustinus</name> utrumque agnoscimus in Christo, scilicet et rem divinam et rem humanam, et ideo de ipso  habemus sapientiam et scientiam. <quote xml:id="pl-l3d35c1-Qd1e169">Cum enim legitur: <quote xml:id="pl-l3d35c1-Qd1e171">Verbum caro facium est,</quote> in Verbo intelligitur verus Dei Filius, in carne agnoscitur verus hominis filius</quote>.</p>
+        <p xml:id="pl-l3d35c1-d1e176">Item , cum dicitur: <quote xml:id="pl-l3d35c1-Qd1e178">Vidimus plenum gratiae et veritatis, 
+</quote>gratiam referamus ad scientiam, et veritatem ad sapientiam, quia  in Christo scientia et sapientia fuit plenarie, et nos scientiam et sapientiam de eo habemus, qui Deus est et homo.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

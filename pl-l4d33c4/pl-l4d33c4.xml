@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CAP. IV</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>CAP. IV</title>
+          <date when="2017-10-21">October 21, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l4d33c4">
+        <head xml:id="pl-l4d33c4-Hd1e109">CAP. IV</head>
+        <head xml:id="pl-l4d33c4-Hd1e112" type="question-title">Cui licebat tunc plures habere, vel non.</head>
+        <p xml:id="pl-l4d33c4-d1e115">Sed nunquid licebat sub Lege habere plures uxores?</p>
+        <p xml:id="pl-l4d33c4-d1e118">Audi, quid scriptum est in Deuteronomio: <quote xml:id="pl-l4d33c4-Qd1e120">Non habebis uxores plurimas, quae alliciant animam tuam .</quote>
+        </p>
+        <p xml:id="pl-l4d33c4-d1e124">Super quem locum <name ref="#Augustine">Augustinus</name> ait: Manifestum est, Salomonem hoc praeceptum transisse; David autem plures habuit, nec praeteriit. Permissum est enim plures habere, non plurimas, quae alliciant animam, multiplicare; cum tamen additur: <quote xml:id="pl-l4d33c4-Qd1e129">ut non elevetur cor eius</quote>, alienigenas esse prohibitum videtur. Verumtamen multiplicatio uxorum generaliter prohibita est; permissum est autem regi plures habere, sed non multiplicare.</p>
+        <p xml:id="pl-l4d33c4-d1e134">
+          <quote xml:id="pl-l4d33c4-Qd1e136"> 
+            <quote xml:id="pl-l4d33c4-Qd1e138">Veniente</quote> autem <quote xml:id="pl-l4d33c4-Qd1e141">plenitudinis tempore,</quote> quo Christi gratia ubique est dilatata, reducta est lex nuptiarum ad priorem honestioremque institutionem, ut unus uni in figura Christi et Ecclesiae i ungatur </quote>.</p>
+        <p xml:id="pl-l4d33c4-d1e146">
+          <quote xml:id="pl-l4d33c4-Qd1e148"> Nec quaeritur electio muneris in successione generis, sed in perfectione vitae et sinceritate scientiae; et virginitas fecunditati praefertur, et sacerdotibus continentia indicitur </quote>.</p>
+        <p xml:id="pl-l4d33c4-d1e152">Melior est autem virginitas mentis quam carnis.</p>
+        <p xml:id="pl-l4d33c4-d1e155">Unde <name ref="#Ambrose">Ambrosius</name>: <quote xml:id="pl-l4d33c4-Qd1e160">Tolerabilius est mentem virginem quam carnem habere; utrumque bonum est, si liceat; si non liceat, saltem non homini casti sed Deo simus </quote>. <quote xml:id="pl-l4d33c4-Qd1e163"> Virgo prostitui potest, adulterari non potest; nec lupanaria infamant castitatem, sed castitas etiam loci abolet infamiam</quote>.</p>
+        <p xml:id="pl-l4d33c4-d1e167">Idem: <quote xml:id="pl-l4d33c4-Qd1e169">Non potest caro ante corrumpi, nisi mens fuerit ante corrupta</quote>.</p>
+        <p xml:id="pl-l4d33c4-d1e173">Idem Isidorus: <quote xml:id="pl-l4d33c4-Qd1e175">Non potest corpus corrumpi, nisi prius animus corruptus fuerit: munda enim a contagione anima, caro non peccat </quote>.</p>
+        <p xml:id="pl-l4d33c4-d1e180">In fine huius capituli aperitur, quomodo verum sit, nisi anima prius fuerit corrupta, corpus non posse corrumpi, scilicet peccato.</p>
+        <p xml:id="pl-l4d33c4-d1e183">Illud etiam Augustini advertendum est: <quote xml:id="pl-l4d33c4-Qd1e185">Sicut, inquit, sanctius est mori fame quam idolothytis vesci, ita sanctius est defungi sine liberis, quam ex illicito coitu stirpem quaerere. Undecumque vero nascantur homines, si parentum vilia non sectentur  et Deum recte colant, honesti et salvi erunt: semen enim ex qualicumque homine Dei creatura est; et eo male utenti male erit, non ipsum aliquando malum erit</quote>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cap. I</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Cap. I</title>
+          <date when="2017-10-21">October 21, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l3d31c1">
+        <head xml:id="pl-l3d31c1-Hd1e109">Cap. I</head>
+        <head xml:id="pl-l3d31c1-Hd1e112" type="question-title">Si caritas semel habita amittatur.</head>
+        <p xml:id="pl-l3d31c1-d1e115">Illud quoque non est praetereundum , quod quidam asserunt, caritatem semel habitam ab aliquo non posse excidere, nullumque damnandum hanc aliquando habere; qui hanc traditionem subditis muniunt testimoniis .</p>
+        <p xml:id="pl-l3d31c1-d1e118">
+          <name ref="Paul">Apostolus</name> ait: <quote xml:id="pl-l3d31c1-Qd1e123">Caritas nunquam excidet</quote>.</p>
+        <p xml:id="pl-l3d31c1-d1e127">
+          <name ref="#Augustine">Augustinus</name> etiam inquit: <quote xml:id="pl-l3d31c1-Qd1e132">Caritas quae deseri potest, nunquam vera fuit</quote>.</p>
+        <p xml:id="pl-l3d31c1-d1e137">Item: <quote xml:id="pl-l3d31c1-Qd1e139">Caritas est fons proprius et singularis bonorum, cui non communicat alienus. Alieni sunt omnes qui audituri sunt: 
+<quote xml:id="pl-l3d31c1-Qd1e141">Non novi vos.</quote> De hoc fonte Scriptura ait: <quote xml:id="pl-l3d31c1-Qd1e144">Fons aquae vivae sil tibi proprius, et nemo alienus communicet tibi</quote> 
+          </quote>. Si autem alieni sunt qui audituri sunt illam vocem, non ergo huic fonti communicant damnandi.</p>
+        <p xml:id="pl-l3d31c1-d1e149">Item, <name ref="#Augustine">Augustinus</name> 
+          <title>Super Epistolam loannis</title> : <quote xml:id="pl-l3d31c1-Qd1e157"> Radicata est caritas, securus esto; nihil mali procedere potest </quote>.</p>
+        <p xml:id="pl-l3d31c1-d1e161">Item, <name ref="#GregoryGreat">Gregorius</name> in <quote xml:id="pl-l3d31c1-Qd1e166">Moralibus</quote> 
+          <sup/>: <quote xml:id="pl-l3d31c1-Qd1e171"> 
+            <quote xml:id="pl-l3d31c1-Qd1e173">Valida est ut mors dilectio</quote> . Virtuti enim mortis dilectio comparatur, quia nimirum mentem quam semel ceperit, a dilectione mundi funditus occidit</quote>.</p>
+        <p xml:id="pl-l3d31c1-d1e178">Item, <name ref="#Augustine">Augustinus</name> 
+          <title>Super Epistolam loannis</title> : <quote xml:id="pl-l3d31c1-Qd1e186"> Unctio invisibilis caritas est, quae in quocumque fuerit, radix illi erit, quae ardente sole arescere non potest: nutritur calore solis, non arescit</quote>.</p>
+        <p xml:id="pl-l3d31c1-d1e190">Item, <name ref="#Bede">Beda</name> 
+          <title>Super Ioannem</title>: <quote xml:id="pl-l3d31c1-Qd1e198">Quaerendum est, quomodo speciale Filii Dei agnoscendi signum fuerit, quod super eum descenderit et manserit Spiritus. Quid magni est Filio Dei, quod in ipso manere Spiritus astruitur? Notandumque quod semper in Domino manserit Spiritus, in Sanctis vero, quamdiu mortale corpus gestaverint, partim semper maneat, partim rediturus secedat: manet enim apud eos, ut bonis insistant actibus; recedit vero ad tempus, ne semper infirmos curandi, mortuos suscitandi, daemones eiiciendi, vel etiam prophetandi habeant facultatem. Manet ergo semper, ut possint habere virtutes, ut mirabiliter ipsi vivant; venit ad tempus, ut etiam aliis per miraculorum signa, quales sint intus, effulgeant </quote>.</p>
+        <p xml:id="pl-l3d31c1-d1e202">Item, <name ref="#GregoryGreat">Gregorius</name>: <quote xml:id="pl-l3d31c1-Qd1e207"> In Sanctorum cordibus secundum quasdam virtutes semper manet Spiritus, secundum quasdam recessurus venit et venturus recedit. In his virtutibus, sine quibus ad vitam non pervenitur, in electorum suorum cordibus permanet; in his vero, per quas sanctitatis virtus ostenditur, ut in exhibitione miraculorum, aliquando adest, aliquando se subtrahit</quote>.</p>
+        <p xml:id="pl-l3d31c1-d1e212">Item, <name ref="#Ambrose">Ambrosius</name>: <quote xml:id="pl-l3d31c1-Qd1e217"> Ficta caritas est, quae in adversitate deserit</quote>.</p>
+        <p xml:id="pl-l3d31c1-d1e221">Haec innuere videntur, quod caritas semel habita non amittatur. Ideo quidam in praelaxatam prosilierunt audaciam, dicentes, caritatem a damnandis non haberi, nec a quoquam habitam posse amitti; quos ratio vincit et auctoritas. Quidam enim ad tempus sunt boni, qui postea fiunt mali, et e converso. Unde quorumdam nomina Christus dicit <quote xml:id="pl-l3d31c1-Qd1e223">scripta in libro vitae,</quote> qui tamen postea 
+<quote xml:id="pl-l3d31c1-Qd1e226">abierunt retro</quote> . Sed <quote xml:id="pl-l3d31c1-Qd1e229">scripta</quote> dicit non secundum praescientiam, sed secundum praesentem iustitiam, cui deserviebant, quia digni erant tunc illo bono, quod habituri sunt scripti secundum praescientiam.</p>
+        <p xml:id="pl-l3d31c1-d1e233">Unde <name ref="#Ambrose">Ambrosius</name>: <quote xml:id="pl-l3d31c1-Qd1e238">Quibusdam gratia data est in usum, 
+  ut Sauli , ludae , et illis discipulis quibus Dominus dixit: <quote xml:id="pl-l3d31c1-Qd1e240">Ecce</quote> nomina vestra scripta sunt in caelis ,</quote> et post <quote xml:id="pl-l3d31c1-Qd1e244">abierunt retro. 
+</quote> Sed hoc dixit propter iustitiam, cui deserviebant, quia boni erant. Frequenter enim ante sunt mali, qui futuri sunt boni, et aliquoties prius sunt boni, qui futuri sunt et permansuri mali; secundum quod dicuntur, scribi in libro vitae et deleri.</p>
+        <p xml:id="pl-l3d31c1-d1e248">Quod vero <name ref="Paul">Apostolus</name> ait: <quote xml:id="pl-l3d31c1-Qd1e253">Caritas nunquam excidit,</quote> nul¬</p>
+        <p xml:id="pl-l3d31c1-d1e257">latenus pro illis facit. Dignitatem enim caritatis ostendens, dicit eam non excidere, quia hic et in futuro erit; sed fides et spes evacuabuntur et scientia .</p>
+        <p xml:id="pl-l3d31c1-d1e260">Item, quod dicitur <quote xml:id="pl-l3d31c1-Qd1e262"> caritas nunquam fuisse vera, quae deseri potest</quote>, non ad essentiam caritatis refertur, sed ad efficientiam, quia non efficit caritas, quae deseritur, hominem vere beatum, nec perducit ad verum bonum.</p>
+        <p xml:id="pl-l3d31c1-d1e267">Huic eliam fonti alieni, id est damnandi, non communicant, scilicet in fine, quia non perseverant.</p>
+        <p xml:id="pl-l3d31c1-d1e270">Potest tamen hoc et cetera, quae de caritate dicta sunt, de perfecta intelligi, quam soli perfecti habent, quae semel habita non amittitur; exordia vero caritatis aliquando crescunt, aliquando deficiunt . Sunt enim virtutis exordia et profectus et perfectio, quos gradus ille discernit, qui parabolam illam intelligit: <quote xml:id="pl-l3d31c1-Qd1e272">Sic est regnum Dei, quemadmodum si iactet homo semen in terra et dormiat, et exurgat semen et germinet et crescat,</quote> ete. Etsi ergo perfecta caritas sic radicata est, ut amitti nequeat <quote xml:id="pl-l3d31c1-Qd1e275">°,</quote> incipiens tamen et provecta amitti potest, et saepe amittitur; sed dum habetur, non sinit habentem criminaliter peccare.</p>
+        <p xml:id="pl-l3d31c1-d1e279">Quod <name ref="#Augustine">Augustinus</name> ostendit inquiens <quote xml:id="pl-l3d31c1-Qd1e284">:</quote> 
+          <quote xml:id="pl-l3d31c1-Qd1e287">Quia <quote xml:id="pl-l3d31c1-Qd1e289">radix omnium malorum est cupiditas</quote> , et radix omnium bonorum est caritas; simul ambae esse non possunt: nisi una radicitus evulsa fuerit, alia plantari non potest. Sine causa conatur aliquis ramos incidere , si radicem non contendit evellere </quote>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

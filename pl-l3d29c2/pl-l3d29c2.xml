@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cap. II</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Cap. II</title>
+          <date when="2017-10-21">October 21, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l3d29c2">
+        <head xml:id="pl-l3d29c2-Hd1e109">Cap. II</head>
+        <head xml:id="pl-l3d29c2-Hd1e112" type="question-title">An omnes homines pariter diligendi sunt.</head>
+        <p xml:id="pl-l3d29c2-d1e115">Unde et super hoc saepe movetur quaestio, quam perplexam faciunt Sanctorum verba varie prolata.</p>
+        <p xml:id="pl-l3d29c2-d1e118">Quidam enim tradere videntur, quod pari affectu omnes diligendi sint; sed in effectu, id est in exhibitione obsequii, distinctio observanda sit.</p>
+        <p xml:id="pl-l3d29c2-d1e121">Unde <name ref="#Augustine">Augustinus</name> : <quote xml:id="pl-l3d29c2-Qd1e126"> Omnes homines aeque diligendi sunt. Sed cum omnibus prodesse non possis, his potissimum consulendum est, qui pro locorum et temporum vel quarumlibet rerum opportunitatibus constrictius tibi quasi quadam sorte iunguntur. Pro sorte enim habendum est, quo quisque libi temporaliter colligatius adhaeret, ex quo legis potius illi dandum esse</quote>.</p>
+        <p xml:id="pl-l3d29c2-d1e131">Idem <title>Super Epistolam ad Galatas</title> : <quote xml:id="pl-l3d29c2-Qd1e136">Operemur bonum ad omnes, maxime autem ad domesticos fidei,</quote> id est ad Christianos: <quote xml:id="pl-l3d29c2-Qd1e139"> Omnibus enim pari dilectione vita aeterna optanda est, etsi non omnibus eadem possunt exhiberi dilectionis officia, quae fratribus maxime sunt exhibenda, quia sunt invicem membra, qui habent eundem Patrem </quote>.</p>
+        <p xml:id="pl-l3d29c2-d1e143">His aliisque testimoniis innituntur qui dicunt, omnes homines pariter diligendos esse caritatis affectu, sed in operis exhibitione differentiam .</p>
+        <p xml:id="pl-l3d29c2-d1e146">Quibus obviat illud praeceptum Legis de diligendis parentibus : <quote xml:id="pl-l3d29c2-Qd1e148">Honora patrem</quote> 
+          <quote xml:id="pl-l3d29c2-Qd1e151">et matrem tuam , ut sis longaevus super terram.</quote> Ut quid enim specialiter illud praeciperetur de parentibus, nisi maiori dilectione forent diligendi?</p>
+        <p xml:id="pl-l3d29c2-d1e155">Sed hoc illi referendum dicunt ad exteriorum exhibitionem, in qua praeponendi sunt parentes. Unde <quote xml:id="pl-l3d29c2-Qd1e157">honora</quote> dixit, non dilige.</p>
+        <p xml:id="pl-l3d29c2-d1e161">Obviat etiam illis quod <name ref="#Jerome">Hieronymus</name> 
+          <title>Super Ezechielem</title>  ait, scilicet <quote xml:id="pl-l3d29c2-Qd1e169"> ut ordine caritatis, sicut scriptum est: <quote xml:id="pl-l3d29c2-Qd1e171">Ordinavit in me caritatem,</quote> post omnium patrem, Deum, carnis quoque pater diligatur et mater et filius et filia, frater et soror</quote>.</p>
+        <p xml:id="pl-l3d29c2-d1e176">
+          <name ref="#Ambrose">Ambrosius</name> quoque diligendi exprimens ordinem, super illud Canticorum: <quote xml:id="pl-l3d29c2-Qd1e181">Ordinavit in me caritatem,</quote> secundo capitulo <quote xml:id="pl-l3d29c2-Qd1e184"> 
+</quote>ait: <quote xml:id="pl-l3d29c2-Qd1e187">Mullorum caritas inordinata est: quod in primo est, ponunt tertium vel quartum. Primo Deus diligendus est, secundo parentes, inde filii, post domestici; qui, si boni sunt, malis tiliis praeponendi sunt. Secundum hoc in Evangelio ad cuiusque dilectionem proprium ponit: <quote xml:id="pl-l3d29c2-Qd1e189">Diliges Dominum Deum tuum ex toto corde tuo , et ex omnibus viribus tuis et proximum tuum  sicut te ipsum,</quote> et inimicos non ex tota virtute, non sicut te ipsum, sed simpliciter. Sufficit enim, quod diligimus et non odio habemus </quote>.</p>
+        <p xml:id="pl-l3d29c2-d1e195">Ecce ex praemissis aperte insinuatur, quae in affectu caritatis distinctio sit habenda, ut differenti affectu, non pari, homines diligamus, et ante omnia Deum, secundo nos ipsos, tertio parentes, inde filios et fratres, post domesticos, demum inimicos diligamus.</p>
+        <p xml:id="pl-l3d29c2-d1e198">Sed inquiunt illi, quae de ordine dilectionis supra dicuntur, esse referenda ad operum exhibitionem, quae differenter proximis exhibenda sunt: primo parentibus, inde filiis, post domesticis, demum inimicis; Deum vero tam affectu quam obsequii exhibitione ante omnia diligendum.</p>
+        <p xml:id="pl-l3d29c2-d1e201">Quorum etiam nonnulli tradunt, affectu caritatis lanium proximos esse diligendos, quantum nos ipsos diligimus.</p>
+        <p xml:id="pl-l3d29c2-d1e204">Quod confirmant auctoritate Augustini, qui ait: <quote xml:id="pl-l3d29c2-Qd1e206">Nec illa iam quaestio moveat, quantum caritatis fratri debeamus impendere, quantum Deo. Incomparabiliter plus Deo quam nobis; fratri vero, quantum nobis; nos autem tanto magis diligimus, quanto magis diligimus Deum </quote>.</p>
+        <p xml:id="pl-l3d29c2-d1e210">Ex hoc et praemissis testimoniis Augustini asserunt, omnes homines pariter diligendos a nobis, et tantum, quantum nos; Deum autem plus quam nos, corpus vero nostrum minus quam nos, vel proximos. Nec in enumeratione praemissa quatuor diligendorum ordinem diligendi assignari dicunt, sed tantum quae sunt diligenda.</p>
+        <p xml:id="pl-l3d29c2-d1e213">Verum quia praemissa verba Ambrosii ordinem diligendi secundum affectum magis quam secundum effectum diligenter intuentibus explicare videntur, non indocte alii dicunt, non modo in exhibitione operis, sed etiam in affectu caritatis ordinem differentem esse statutum, ut ante omnia diligamus Deum, secundo nos, tertio parentes, quarto filios vel fratres et huiusmodi, postea domesticos, demum inimicos.</p>
+        <p xml:id="pl-l3d29c2-d1e217">Quod vero <name ref="#Augustine">Augustinus</name> dicit, pariter omnes esse diligendos, et pari dilectione omnibus vitam optandam, ita accipi potest, ut paritas non ad affectum referatur, sed ad bonum, quod eis optatur, quia caritate omnibus optare debemus ut paria bona mereantur, sicut <name ref="Paul">Apostolus</name>, dicit: <quote xml:id="pl-l3d29c2-Qd1e225">Volo, omnes homines esse sicut me.</quote> Optanda est enim minoribus perfectio maiorum, ut ipsi fiant perfecti et sic mereantur parem beatiludinem; vel pari dilectione, id est, eadem dilectione omnes diligendi sunt.</p>
+        <p xml:id="pl-l3d29c2-d1e229">Item, quod ait: <quote xml:id="pl-l3d29c2-Qd1e231"> Ut tantum diligamus fratres, quantum nos </quote>,</p>
+        <p xml:id="pl-l3d29c2-d1e235">ita intelligi potest, id est ad tantum bonum diligamus fratres, ad</p>
+        <p xml:id="pl-l3d29c2-d1e238">quantum nos, ut tantum bonum eis optemus in aeternitate, quantum nobis, etsi non tanto affectu; vel ibi <quote xml:id="pl-l3d29c2-Qd1e240">quantum</quote> similitudinis est, non quantitatis.</p>
+        <p xml:id="pl-l3d29c2-d1e244">Solet etiam quaeri: Si parentes nostri mali sunt, vel filii, vel fratres, an magis vel minus diligendi sint aliis bonis, hac ratione nobis non copulatis.</p>
+        <p xml:id="pl-l3d29c2-d1e247">Videtur, quod magis sint diligendi boni, qui nobis carne</p>
+        <p xml:id="pl-l3d29c2-d1e251">non sunt coniuncti, quam mali carne coniuncti; quia nobis sunt</p>
+        <p xml:id="pl-l3d29c2-d1e254">coniuncti corde, glutino caritatis: sanctior est enim copula cordium quam corporum.</p>
+        <p xml:id="pl-l3d29c2-d1e257">Unde <name ref="#Bede">Beda</name> de illis Domini verbis: <quote xml:id="pl-l3d29c2-Qd1e262">Mater mea et fratres mei hi sunt, qui verbum Dei faciunt,</quote> ait: <quote xml:id="pl-l3d29c2-Qd1e265"> Non iniuriose negligit matrem, nec mater negatur, quae etiam de cruce agnoscitur, sed religiosiores monstrantur copulae mentium quam corporum </quote>.</p>
+        <p xml:id="pl-l3d29c2-d1e269">Verumtamen quaestio latebrosa est haec , nec a nobis plene absolvenda properantibus ad alia.</p>
+        <p xml:id="pl-l3d29c2-d1e272">Movemur enim super illis verbis: <quote xml:id="pl-l3d29c2-Qd1e274">Inimicos non ex tota virtute, non sicut te ipsum iubet diligere, sed simpliciter: sufficit enim, quod diligimus et non odio habeamus </quote>.</p>
+        <p xml:id="pl-l3d29c2-d1e278">Quod non ita accipiendum esi, quasi sufficiat tibi diligere inimicum et non sicut te ipsum, quia omnes , et amicos et inimicos, sicut te ipsum diligere debes. Sed ad ostendendum gradus diligendi Deum et proximum et inimicum, qui tamen proximus est, propria Dominus ponit, cum ait: <quote xml:id="pl-l3d29c2-Qd1e280">Diliges Deum ex tota virtute, et proximum sicut te,</quote> non ait, ex <quote xml:id="pl-l3d29c2-Qd1e283">tota virtute,</quote> ut ostendat, proximum diligendum minus quam Deum. Dicit etiam :<quote xml:id="pl-l3d29c2-Qd1e286"> Diligite inimicos,</quote> nec addit <quote xml:id="pl-l3d29c2-Qd1e289">ex tota virtute,</quote> nec <quote xml:id="pl-l3d29c2-Qd1e292">sicut te ipsum,</quote> sed simpliciter. Sufficit enim, quod diligimus et non odio habemus, id est, sufficit dicere, ut diligamus et non odio habeamus, non quin eos diligere debeamus sicut nos, quia proximi sunt; sed sufficit, si eos minus diligimus quam alios proximos; quod dictionis genus innuit.</p>
+        <p xml:id="pl-l3d29c2-d1e297">Quaeri etiam solet, <quote xml:id="pl-l3d29c2-Qd1e299"> cur Dominus praeceperit diligere inimicos, cum alibi praecipiat odio habere parentes et filios </quote>.</p>
+        <p xml:id="pl-l3d29c2-d1e303">Ad quod dicendum est, duo esse diligenda in homine: naturam et virtutem, vitium vero et peccatum odiendum. Et parentes ergo, in quantum mali sunt, odiendi sunt, et inimici diligendi, in quantum homines . Diligamus ergo inimicos lucrandos regno Dei, et odiamus in propinquis, si impediunt a regno Dei, et in omnibus communiter naturam diligamus quam Deus fecit .</p>
+      </div>
+    </body>
+  </text>
+</TEI>

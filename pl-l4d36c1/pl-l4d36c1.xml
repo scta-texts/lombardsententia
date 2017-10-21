@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CAP. I</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>CAP. I</title>
+          <date when="2017-10-21">October 21, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l4d36c1">
+        <head xml:id="pl-l4d36c1-Hd1e109">CAP. I</head>
+        <head xml:id="pl-l4d36c1-Hd1e112" type="question-title">De servis. Utrum propter extremam conditionem possit fieri separatio.</head>
+        <p xml:id="pl-l4d36c1-d1e115">Nunc de conditione videamus, an valeat coniugium dividere. </p>
+        <p xml:id="pl-l4d36c1-d1e118">Ad quod dicimus, quia <quote xml:id="pl-l4d36c1-Qd1e120"> non negatur ingenua posse nubere servo; sed si nescitur esse servilis conditionis, libere potest dimitti, cum servitus eius fuerit deprehensa </quote>, secundum illud: <quote xml:id="pl-l4d36c1-Qd1e123">Si ingenuus homo ancillam alterius uxorem acceperit, et aestimat quod ingenua sit, si ipsa femina fuerit postea in servitute detecta, si eam a servitute redimere potest, faciat; si non potest, si voluerit, aliam accipiat. Si vero ancillam eam scierat et collaudaverat, post eam ut legitimam habeat</quote>.</p>
+        <p xml:id="pl-l4d36c1-d1e127">Item ex eodem: <quote xml:id="pl-l4d36c1-Qd1e129">Si femina ingenua acceperit servum, sciens, quod servus esset, habeat eum, quia omnes unum patrem habemus in caelis, una lex erit viro et feminae</quote>. <quote xml:id="pl-l4d36c1-Qd1e132">Cum dicitur: sciens illum servum, datur intelligi, quod si nescierit illum servum esse, non cogitur manere cum ipso. Si enim conditionis dolum patitur, non cogitur adhaerere ei cuius fraude decepta est. Si autem scierit vir conditionem mulieris, vel e converso, non valet eam dimittere</quote>.</p>
+        <p xml:id="pl-l4d36c1-d1e137">Unde Zacharias Papa: <quote xml:id="pl-l4d36c1-Qd1e139">Si quis liber ancillam in matrimonio acceperit, non habeat licentiam dimittere eam, si consensu amborum coniuncti sunt, nisi ob fornicationem</quote>; de illis agit, quibus alterutrius conditio est nota, quando coniunguntur.</p>
+       </div>
+    </body>
+  </text>
+</TEI>

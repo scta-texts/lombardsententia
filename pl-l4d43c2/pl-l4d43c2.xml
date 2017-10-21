@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CAP. II</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>CAP. II</title>
+          <date when="2017-10-21">October 21, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l4d43c2">
+        <head xml:id="pl-l4d43c2-Hd1e109">CAP. II</head>
+        <head xml:id="pl-l4d43c2-Hd1e112" type="question-title">De voce tubae.</head>
+        <p xml:id="pl-l4d43c2-d1e115">Causa enim resurrectionis mortuorum erit vox tubae, quae in adventu Iudicis ab omnibus audietur, et cuius virtute excitabuntur mortui et de monumentis resurgent.</p>
+        <p xml:id="pl-l4d43c2-d1e118">Unde Propheta: <quote xml:id="pl-l4d43c2-Qd1e120">Dabit voci suae vocem virtutis,</quote> id est effectum resuscitandi mortuos.</p>
+        <p xml:id="pl-l4d43c2-d1e124">Et Ioannes Evangelista ait: <quote xml:id="pl-l4d43c2-Qd1e126">Venit hora, in qua omnes qui in monumentis sunt, audient vocem Filii Dei, et procedent boni in resurrectionem vitae, mali vero in resurrectionem iudicii.</quote>
+        </p>
+        <p xml:id="pl-l4d43c2-d1e131">Si vero quaeritur: cuius vel qualis erit vox illa? <name ref="Paul">Apostolus</name> dicit, quia erit Archangeli, id est ipsius Christi, qui est princeps Archangelorum. vel vox erit alicuius vel plurium Angelorum; eademque dicitur tuba, quia <quote xml:id="pl-l4d43c2-Qd1e136">erit manifesta; et novissima, quia post eam non erit alia </quote>.</p>
+        <p xml:id="pl-l4d43c2-d1e140">
+          <quote xml:id="pl-l4d43c2-Qd1e142"> Haec tuba, ut ait <name ref="#Augustine">Augustinus</name>, est clamor, de quo dicitur in Evangelio: <quote xml:id="pl-l4d43c2-Qd1e147">Media nocte clamor factus est; ecce sponsus venit; exite obviam ei.</quote> Tubae nomine aliquod evidens et praeclarum signum intelligitur, quod vox Archangeli et tuba Dei ab Apostolo dicitur, et in Evangelio vox Filii Dei et clamor appellatur; quod mortui audient et resurgent</quote>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

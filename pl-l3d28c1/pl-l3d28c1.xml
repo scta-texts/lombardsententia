@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cap. I</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Cap. I</title>
+          <date when="2017-10-21">October 21, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l3d28c1">
+        <head xml:id="pl-l3d28c1-Hd1e109">Cap. I</head>
+        <head xml:id="pl-l3d28c1-Hd1e112" type="question-title">Si iubemur lotum proximum diligere et nos totos.</head>
+        <p xml:id="pl-l3d28c1-d1e115">Hic potest quaeri, utrum illo mandato dilectionis proximi lotum proximum, id est animam et corpus, nosque ipsos lotos diligere praecipiamur .</p>
+        <p xml:id="pl-l3d28c1-d1e118">Ad quod dicimus, omne genus diligendarum rerum illis duobus mandatis contineri.</p>
+        <p xml:id="pl-l3d28c1-d1e121">
+          <quote xml:id="pl-l3d28c1-Qd1e123"> Quatuor enim diligenda sunt, ut ait <name ref="#Augustine">Augustinus</name>: unum, quod supra nos est, scilicet Deus; alterum, quod nos sumus; tertium, quod iuxta nos est, scilicet proximus; quartum, quod infra nos est, scilicet corpus. De secundo et quarto nulla praecepta danda erant</quote>, scilicet ut diligeremus nos vel corpus nostrum; praecipitur autem Deus diligi et proximus. <quote xml:id="pl-l3d28c1-Qd1e129"> Ut autem quisque se diligat, praecepto non est opus </quote>: <quote xml:id="pl-l3d28c1-Qd1e132"> quantumlibet enim homo excidat a veritate, remanet illi dilectio sui et dilectio corporis sui, quia <quote xml:id="pl-l3d28c1-Qd1e134">nemo unquam carnem suam odio habuit:</quote> nam viri iusti, qui corpus suum cruciant, non corpus, sed corruptiones eius et pondus oderunt </quote>.</p>
+        <p xml:id="pl-l3d28c1-d1e140">Hic videtur <name ref="#Augustine">Augustinus</name> tradere, quod ex praecepto non teneamur diligere nos ipsos vel corpus nostrum. Quod si est, non omne genus diligendarum rerum illis duobus praeceptis continetur, cum et nos ipsos et corpus nostrum diligere debeamus, ad quod <quote xml:id="pl-l3d28c1-Qd1e145"> 
+</quote>necessarium praeceptum est, cum scriptum sit: <quote xml:id="pl-l3d28c1-Qd1e148">Qui diligit iniquitatem. odit animam suam.</quote>
+        </p>
+        <p xml:id="pl-l3d28c1-d1e152">Sed speciale de hoc praeceptum non erat dandum, nec speciali praecepto opus erat id tradi, ut quisque se vel corpus suum diligeret, quia hoc in illo praecepto continetur: <quote xml:id="pl-l3d28c1-Qd1e154">Diliges proximum tuum sicut te ipsum:</quote> ibi enim et proximum totum et te totum intelligere debes.</p>
+        <p xml:id="pl-l3d28c1-d1e158">Unde <name ref="#Augustine">Augustinus</name> in eodem: <quote xml:id="pl-l3d28c1-Qd1e163">Si te totum intelligas, id est animam et corpus, et proximum lotum, id est animam et corpus, — homo enim ex anima constat et corpore — nullum rerum diligendarum genus in his duobus praeceptis praetermissum est. Cum enim praecurrat dilectio Dei, eiusque dilectionis modus praescriptus appareat, et sequatur dilectio proximi, de tua dilectione nihil dictum videtur. Sed cum dictum est: <quote xml:id="pl-l3d28c1-Qd1e165">Diliges proximum tuum sicut te ipsum,</quote> simul et tui abs te dilectio praetermissa non est</quote>. Ecce hic aperte dicit, in illo praecepto non modo proximi sed et mei dilectionem contineri, et totius proximi totiusque mei.</p>
+        <p xml:id="pl-l3d28c1-d1e170">Ex quo apparet, quod dictum est de secundo et quarto — id est de dilectione nostri et corporis nostri — nulla praecepta danda esse, ita esse intelligendum, scilicet specialia et divisa, quia in illo uno totum continetur, <quote xml:id="pl-l3d28c1-Qd1e172"> et quia id quod sumus, et quod infra nos est, ad nos tamen pertinens, naturae lege diligimus, quae in bestiis etiam est. Ideoque et de illo quod supra nos , et de illo quod iuxta nos est, divisa praecepta sumsimus </quote>; in quorum allero eius quod sumus, et illius quod infra nos est, dilectio continetur .</p>
+      </div>
+    </body>
+  </text>
+</TEI>

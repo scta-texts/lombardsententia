@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CAP. V</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>CAP. V</title>
+          <date when="2017-10-21">October 21, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l4d42c5">
+        <head xml:id="pl-l4d42c5-Hd1e109">CAP. V</head>
+        <head xml:id="pl-l4d42c5-Hd1e112" type="question-title">Si cui liceat duas commatres ducere, unam post alteram.</head>
+        <p xml:id="pl-l4d42c5-d1e115">Solet etiam quaeri, si commatrem uxoris post eius obitum quis ducere valeat.</p>
+        <p xml:id="pl-l4d42c5-d1e118">De hoc Nicolaus Papa sic scribit. <quote xml:id="pl-l4d42c5-Qd1e120">Sciscitatur a nobis Sanctitas vestra, si quis duas commatres habere valeat, unam post alteram. In quo meminisse debet, scriptum esse: <quote xml:id="pl-l4d42c5-Qd1e122">Erunt duo in carne una.</quote> Cum igitur constet, quod viret mulier una caro efficiuntur, restat, virum compatrem constitui mulieri, cuius assumta uxor commater erat; et ideo virum illi feminae non posse coniungi, quae commater erat eius, cum qua idem fuerat una caro effectus </quote>.</p>
+        <p xml:id="pl-l4d42c5-d1e127">Huic autem illud contrarium videtur: <quote xml:id="pl-l4d42c5-Qd1e129">Qui spiritualem habet compatrem, cuius filium de lavacro acceperit, et eius uxor commater non est, licet ei, defuncto compatre suo, eius viduam ducere in uxorem; quos nulla generatio spiritualis secernit</quote>.</p>
+        <p xml:id="pl-l4d42c5-d1e134">Item, ex <quote xml:id="pl-l4d42c5-Qd1e136">Epistola</quote> Paschalis Papae: <quote xml:id="pl-l4d42c5-Qd1e139">Post uxoris obitum cum commatre uxoris coniugio copulari, nulla videtur ratio vel auctoritas prohibere: non enim per carnis unionem ad unionem spiritus pertransitur<quote xml:id="pl-l4d42c5-Qd1e141"> </quote>.</quote>
+        </p>
+        <p xml:id="pl-l4d42c5-d1e146">Sed sciendum est, quod <quote xml:id="pl-l4d42c5-Qd1e148">auctoritas Nicolai de illo agit, qui uxori suae debitum reddidit, postquam illius commater exstitit. Aliae vero auctoritates de illo agunt, cuius uxor, postquam a viro suo derelinquitur, illius commater efficitur, nec post compaternitatem a viro suo cognoscitur</quote>; vel de illo potius agunt, cuius uxor ante defungitur, quam ab eo cognoscatur.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

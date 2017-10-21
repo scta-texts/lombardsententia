@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CAP. II</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>CAP. II</title>
+          <date when="2017-10-21">October 21, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l4d39c2">
+        <head xml:id="pl-l4d39c2-Hd1e109">CAP. II</head>
+        <head xml:id="pl-l4d39c2-Hd1e112" type="question-title">De coniugio fidelis et infidelis et duorum infidelium.</head>
+        <p xml:id="pl-l4d39c2-d1e115">Huic autem videtur obviare quod <name ref="Paul">Apostolus</name> ait de imparibus coniugiis: <quote xml:id="pl-l4d39c2-Qd1e120">Ego dico, non Dominus: Si quis frater habet uxorem, infidelem, et haec consentit habitare cum illo, non dimittat illam; et si qua mulier,</quote> etc.</p>
+        <p xml:id="pl-l4d39c2-d1e124">Sed <!--<quote>-->aliud hoc esse, aliud illud, evidenter ostendit <name ref="#Augustine">Augustinus</name>. Ibi enim agitur de illis coniugiis fidelium et infidelium, quae contrahuntur ab eis in dispari religione et fide manentibus. <name ref="Paul">Apostolus</name> vero agit de illis qui unius eiusdemque infidelitatis fuerunt, quando coniuncti sunt; sed cum venisset Evangelium, alter sine altera credidit. Intelligisne quid dicam ?</p>
+        <p xml:id="pl-l4d39c2-d1e135">
+          <quote xml:id="pl-l4d39c2-Qd1e137"> Attende, ut rem ipsam diligentius explanem. Ecee coniuges duo unius infidelitatis fuerunt, quando coniuncti sunt; nulla de his quaestio est, quae pertineat ad illud praeceptum veteris et novi Testamenti, quo prohibetur fidelis cum infideli copulare coniugium. lam sunt coniuges, et ambo adhuc sunt infideles; tales sunt adhuc, quales coniuncti sunt. Venitque Evangelii praedicator, credidit eorum unus vel una, sed ita ut infidelis cum fideli habitare consentiat; non iubet Dominus, ut fidelis infidelem dimittat taliter coniunctum </quote>. <quote xml:id="pl-l4d39c2-Qd1e140">Nec <name ref="Paul">Apostolus</name> iubet, ut non dimittat, sed consulit, ut, si quis aliter agat, non sit transgressor, sicut et de virginibus consulit</quote>. <quote xml:id="pl-l4d39c2-Qd1e146">Monet ergo, quod est lucrandi occasio, cum possit licite relinquere, sed non expedit </quote>. <quote xml:id="pl-l4d39c2-Qd1e149"> Tunc enim non expedit id quod licitum est, quando permittitur quidem, sed usus ipsius aliis affert impedimentum salutis, sicut discessio fidelis ab infideli, quam non prohibet Dominus, quia coram illo non est iniusta; sed <name ref="Paul">Apostolus</name>, ne fiat, consilio caritatis suadet, ut nemo in ea re iussionis necessitate teneatur, sed consilii voluntate libere faciat</quote>.</p>
+        <p xml:id="pl-l4d39c2-d1e157">Ex his monstratur, etiam inter infideles coniugium esse, et consilium Apostoli non obviare praecepto Domini, quo iubet, fidelem non iungi infideli, et si coniuncti fuerint, separari. Legitur enim, quod <quote xml:id="pl-l4d39c2-Qd1e159"> Esdras propheta, immo Dominus per eum, iussit Israelitis uxores dimittere alienigenas, per quas ibant ad deos alienos, non illae per maritos acquirebantur Deo. Recte hoc praecepit, quia per Moysen iusserat Dominus, ne quis uxorem alienigenam duceret. Merito ergo quas duxerant Domino prohibente, Domino iubente dimiserunt</quote>; quia, ut ait <name ref="#Ambrose">Ambrosius</name>, <quote xml:id="pl-l4d39c2-Qd1e165">non est imputandum  matrimonium quod extra Dei decretum facium est; sed cum cognoscitur, emendandum, ut quando fidelis infideli copulatur </quote>.</p>
+        <p xml:id="pl-l4d39c2-d1e169">Sed ut ait <name ref="#Augustine">Augustinus</name>: <quote xml:id="pl-l4d39c2-Qd1e174"> Cum coepisset gentibus Evangelium praedicari, iam coniunctos gentiles gentilibus comperit coniugibus, ex quibus si non ambo crederent, sed unus vel una, et infidelis cum fideli consentiret habitare; nec prohiberi a Domino debuit fidelis infidelem dimittere, nec iuberi: ideo non prohiberi, quia iustitia permittit a fornicante discedere; et infidelis hominis fornicatio est maior in corde, nec vera eius pudicitia cum coniuge dici potest, quia <quote xml:id="pl-l4d39c2-Qd1e176">omne quod non est ex fide, peccatum est</quote>, quamvis fidelis veram habeat pudicitiam, etiam cum infideli coniuge, quae non habet veram; ideo autem nec iuberi, quia nec contra iussionem Domini gentiles fuerunt ambo coniuncti </quote>. <quote xml:id="pl-l4d39c2-Qd1e180"> Licitum ergo erat per iustitiam fideli infidelem dimittere; sed licitum non erat faciendum propter liberam benevolentiam </quote>.</p>
+        <p xml:id="pl-l4d39c2-d1e184">Evidenter apparet, et inter infideles coniugium esse, et Apostolum de illis agere, qui in infidelitate coniuncti fuerunt, et post alter ad fidem conversus est, cum quo infidelis habitare consentit; hunc non dimittere fideli consulit <name ref="Paul">Apostolus</name>, quia forte per fidelem salvabitur infidelis.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

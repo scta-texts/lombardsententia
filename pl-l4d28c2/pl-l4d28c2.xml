@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CAP. II</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>CAP. II</title>
+          <date when="2017-10-21">October 21, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l4d28c2">
+        <head xml:id="pl-l4d28c2-Hd1e109">CAP. II</head>
+        <p xml:id="pl-l4d28c2-d1e112">[Cat. II]. In huius enim Sacramenti celebratione, sicut in aliis, quaedam sunt perlinentia ad substantiam Sacramenti, ut consensus de praesenti, qui solus sufficit ad contrahendum matrimonium; quaedam vero pertinentia ad decorem et solemnitatem Sacramenti, ut parentum traditio, sacerdotum benedictio et huiusmodi; sine quibus legitime fit coniugium, quantum ad virtutem, non quantum ad honestatem Sacramenti.</p>
+        <p xml:id="pl-l4d28c2-d1e115">Sine his ergo non quasi legitimi coniuges, sed quasi adulteri vel fornicatores conveniunt, ut illi qui clanculo nubunt; et utique fornicatores essent, nisi eis suffragaretur voluntas verbis expressa de praesenti quae legitimum inter eos facit matrimonium.</p>
+        <p xml:id="pl-l4d28c2-d1e118">Nam et consensus occultus de praesenti, per verba expressus coniugium facit; licet non sit ibi honestus contractus, sed matrimonium non sanxit consensus, qui in occulto fuit. Si enim alter alterum dimiserit, non cogitur iudicio Ecclesiae redire et commanere cum coniuge, quia non potest probari testibus contractus, qui in occulto est factus. Quodsi ipsi qui in occulto sibi consenserunt, eundem consensum voluntarie in manifesto profiteantur, tunc utique voluntas propria suffragatur, et legitima vota succurrunt ad sanciendum coniugium, quod prius occulte fuerat contractum. Voluntas igitur verbis expressa in occulto ad hoc suffragatur, ut fiat coniugium; manifeste vero expressa suffragatur, ut sanciat et roboret, ac liberum fiat Ecclesiae de hoc iudicare si expedierit.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CAP. IV</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>CAP. IV</title>
+          <date when="2017-10-21">October 21, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l4d1c4">
+        <head xml:id="pl-l4d1c4-Hd1e109">CAP. IV</head>
+        <p xml:id="pl-l4d1c4-d1e112">[Cap. IV]. <quote xml:id="pl-l4d1c4-Qd1e114"> Signorum vero alia sunt naturalia, ut fumus significans ignem; alia data </quote>; et eorum quae data sunt, quaedam sunt Sacramenta, quaedam non: omne enim Sacramentum est signum, sed non e converso.</p>
+        <p xml:id="pl-l4d1c4-d1e118">Sacramentum eius rei similitudinem gerit, cuius signum est. <quote xml:id="pl-l4d1c4-Qd1e120"> Si enim Sacramenta non haberent similitudinem rerum quarum Sacramenta sunt, proprie Sacramenta non dicerentur</quote>. Sacramentum enim proprie dicitur quod ita signum est gratiae Dei et invisibilis gratiae forma, ut ipsius imaginem gerat et causa existat. Non igitur significandi tantum gratia Sacramenta instituta sunt, sed etiam sanctificandi.</p>
+        <p xml:id="pl-l4d1c4-d1e124">Quae enim significandi gratia tantum instituta sunt, solum signa sunt, et non Sacramenta; sicut fuerunt sacrificia carnalia et observantiae caerimoniales Veteris legis, quae nunquam poterant iustos facere offerentes; quia, ut ait A postolus, sanguis hircorum et taurorum et cinis vitulae aspersus inquinatos sanctificabat ad emundationem carnis, non animae: nam inquinatio illa erat contactus mortui.</p>
+        <p xml:id="pl-l4d1c4-d1e127">Unde <name ref="#Augustine">Augustinus</name>: <quote xml:id="pl-l4d1c4-Qd1e132">Nihil aliud intelligo inquinationem, quam Lex mundat, nisi contactum mortui hominis, quem qui tetigerat. immundus erat septem diebus; sed purificabatur secundum Legem die tertio et septimo, et mundus erat</quote>, ut iam intraret templum.</p>
+        <p xml:id="pl-l4d1c4-d1e137">Mundabant etiam interdum a corporali lepra illa legalia; sed</p>
+        <p xml:id="pl-l4d1c4-d1e140">nunquam ex operibus Legis aliquis iustificatus est, ut ait <name ref="Paul">Apostolus</name>, etiam si in fide et caritate fierent. Quare? quia imposuit ea Deus in servitutem, non in justificationem, et ut figura futuri essent, volens ea sibi potius offerri quam idolis. Illa ergo signa erant, sed tamen el Sacramenta, licet minus proprie in Scripturis saepe vocantur, quia signa erant rei sacrae, quam utique non praestabant. Illa autem <name ref="Paul">Apostolus</name> opera Legis dicit quae tantum significandi gratia vel in onus instituta sunt,</p>
+      </div>
+    </body>
+  </text>
+</TEI>

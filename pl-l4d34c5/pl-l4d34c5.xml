@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CAP. V</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>CAP. V</title>
+          <date when="2017-10-21">October 21, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l4d34c5">
+        <head xml:id="pl-l4d34c5-Hd1e109">CAP. V</head>
+        <head xml:id="pl-l4d34c5-Hd1e112" type="question-title">De his qui dormiunt cum duabus sororibus.</head>
+        <p xml:id="pl-l4d34c5-d1e115">De his etiam, qui cum duabus sororibus, vel quae cum duobus fratribus dormierint, videndum est, quid censeant canones.</p>
+        <p xml:id="pl-l4d34c5-d1e118">
+          <quote xml:id="pl-l4d34c5-Qd1e120"> Qui dormierit cum duabus sororibus, et una ex illis ante fuerit uxor, neutram ex ipsis habeat; nec ipsi adulteri unquam in coniugio copulentur</quote>.</p>
+        <p xml:id="pl-l4d34c5-d1e124">Item: <quote xml:id="pl-l4d34c5-Qd1e126"> Nec propriae uxori licet sibi reddere debitum, quam sibi reddidit illicitam, sororem eius cognoscendo. Nec etiam post mortem uxoris licet ei vel adulterae copulari in coniugium</quote>.</p>
+        <p xml:id="pl-l4d34c5-d1e131">Item Zacharias Papa: <quote xml:id="pl-l4d34c5-Qd1e133">Concubuisti cum sorore uxoris tuae; si fecisti, neutram habeas, et uxor tua, si non fuerit conscia sceleris et continere non vult, nubat in Domino, cui vult. Tu vero et adultera sine spe coniugii maneatis, et dum vivitis, poenitentiam agite</quote>. Quod ait: <quote xml:id="pl-l4d34c5-Qd1e136">cui vult nubat,</quote> intelligendum est post mortem viri.</p>
+        <p xml:id="pl-l4d34c5-d1e140">Unde <name ref="#GregoryGreat">Gregorius</name>: <quote xml:id="pl-l4d34c5-Qd1e145">Qui uxores suas in adulterio deprehendunt, nec ille nec illa aliam uxorem accipiat, vel alium virum, quamdiu ambo vivunt. Si vero adultera mortua fuerit, vir eius, si vult, nubat; adultera vero nunquam, etsi mortuus luerit vir eius, sed omnibus diebus poenitentiae lamenta persolvat</quote>.</p>
+        <p xml:id="pl-l4d34c5-d1e149">Hic de illo adulterio agitur, quod cum cognato viri, vel cum  cognata uxoris committitur.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

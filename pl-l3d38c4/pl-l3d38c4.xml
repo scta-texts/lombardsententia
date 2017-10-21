@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cap. IV</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Cap. IV</title>
+          <date when="2017-10-21">October 21, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l3d38c4">
+        <head xml:id="pl-l3d38c4-Hd1e109">Cap. IV</head>
+        <p xml:id="pl-l3d38c4-d1e112">[Cap. IV]. <quote xml:id="pl-l3d38c4-Qd1e114"> Porro omne mendacium ideo dicendum esse peccatum, quia hoc debet loqui homo, quod animo gerit, sive illud verum sit, sive putetur, et non sit: verba enim ideo sunt instituta, non ut per ea homines invicem fallant, sed per ea in alterius notitiam suas cogitationes ferant; verbis ergo uti ad fallaciam, non ad quod sunt instituta, peccatum est. Nec ideo etiam ullum mendacium putandum est non esse peccatum, quia possumus alicui aliquando prodesse mentiendo: possumus enim, ut praedictum est, et furando et adulterando prodesse </quote>. <quote xml:id="pl-l3d38c4-Qd1e117"> Mendacium quoque non tunc tantum esse, possumus dicere, quando aliquis laeditur: cum enim a sciente dicitur falsum, mendacium est, sive quis, sive nemo  laedatur </quote>.</p>
+        <p xml:id="pl-l3d38c4-d1e121">Ecce ex his constat, omne mendacium esse peccatum. Non tamen de omni mendacio accipiendum est illud: <quote xml:id="pl-l3d38c4-Qd1e123">Perdes omnes qui loquuntur mendacium;</quote> nec illud: <quote xml:id="pl-l3d38c4-Qd1e126">Os, quod mentitur, occidit animam;</quote> nec omne mendacium isto praecepto prohiberi videtur, nec praemissa descriptione mendacium ioci includi .</p>
+      </div>
+    </body>
+  </text>
+</TEI>

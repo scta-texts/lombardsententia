@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cap. III</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Cap. III</title>
+          <date when="2017-10-21">October 21, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l3d34c3">
+        <head xml:id="pl-l3d34c3-Hd1e109">Cap. III</head>
+        <head xml:id="pl-l3d34c3-Hd1e112" type="question-title">Utrum in Christo fuerint.</head>
+        <p xml:id="pl-l3d34c3-d1e115">In Christo etiam haec eadem fuisse, Isaias ostendit dicens: 
+<quote xml:id="pl-l3d34c3-Qd1e117">Egredietur virga de radice Iesse, et flos de radice eius ascendet, et requiescet super eum spiritus Domini, spiritus sapientiae et intellectus, spiritus consilii et fortitudinis, spiritus scientiae et pietatis, et replebit eum spiritus timoris Domini.</quote>
+        </p>
+        <p xml:id="pl-l3d34c3-d1e121">His autem videtur obviare quod <name ref="#Bede">Beda</name> de timore Domini dicit super parabolas, scilicet quod omnis timor in futuro cessabit. Ait enim sic super illum locum: <!--<quote>-->Timor Domini principium sapientiae : <quote xml:id="pl-l3d34c3-Qd1e128">Duo sunt timores Domini; servilis, qui principium est sapientiae; et amicalis, qui perfectionem sapientiae comitatur. Servilis principium sapientiae est, quia qui post errata sapere incipit, primo timore corripitur divino, ne puniatur; sed hunc <quote xml:id="pl-l3d34c3-Qd1e130">perfecta caritas foras mittit</quote>. Succedit huic <quote xml:id="pl-l3d34c3-Qd1e133">limor Domini sanctus, permanens in saeculum saeculi</quote> , quem non excludit caritas, sed auget; quo timet filius, ne vel in modico oculos amantissimi patris offendat. Uterque in futuro cessabit. <quote xml:id="pl-l3d34c3-Qd1e136">Caritas</quote> vero <quote xml:id="pl-l3d34c3-Qd1e139">nunquam excidet</quote>.</quote>
+        </p>
+        <p xml:id="pl-l3d34c3-d1e144">
+          <name ref="#Augustine">Augustinus</name> quoque super illum locum Psalmi : <quote xml:id="pl-l3d34c3-Qd1e149">Adorabo ad templum sanctum tuum in timore tuo,</quote> timorem desiturum dicit sic: <quote xml:id="pl-l3d34c3-Qd1e152"> Timor Domini est magnum praesidium proficientibus ad salutem, sed pervenientibus foras mittitur: non enim timent iam amicum, cum scilicet ad id quod repromissum est, perducti fuerint </quote>.</p>
+        <p xml:id="pl-l3d34c3-d1e157">Ex his auctoritatibus significatur, quod timor non erit in futuro.</p>
+        <p xml:id="pl-l3d34c3-d1e160">Si autem timor non fuerit in futuro, ergo nec septem dona erunt, nec modo sunt in Angelis sive in animabus sanctis.</p>
+        <p xml:id="pl-l3d34c3-d1e163">Ad quod dicimus, auctoritatum praemissarum quae videtur repugnantiam dirimentes, quod septem illa dona et in Angelis modo sunt et in animabus sanctis feliciter viventibus et in nobis erunt in futuro, sed non habebunt omnia hos usus sive haec officia, quae nunc habent; ut verbi gratia, timor filialis modo facit timere ne offendamus quem diligimus, et ne separemur ab eo, facit etiam nos revereri eundem; in futuro vero faciet nos revereri, quando non timebimus separari, vel offendere. Non ergo metus separationis vel offensionis nunc est in Angelis vel animabus sanctis, nec in nobis erit in futuro, sed reverentia, quae est mixta cum subiectione dilectio; quae etiam in Christo fuit, sicut <name ref="Paul">Apostolus</name> dicit in Epistola ad Hebraeos loquens de Christo: <quote xml:id="pl-l3d34c3-Qd1e168">Qui exauditus est pro sua reverentia.</quote>
+        </p>
+        <p xml:id="pl-l3d34c3-d1e172">Quidam tamen secundum effectum timorem in Christo et in Angelis tantum esse contendunt.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

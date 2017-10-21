@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cap. III</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Cap. III</title>
+          <date when="2017-10-21">October 21, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l3d38c3">
+        <head xml:id="pl-l3d38c3-Hd1e109">Cap. III</head>
+        <head xml:id="pl-l3d38c3-Hd1e112" type="question-title">Quid sit mendacium, quid mentiri.</head>
+        <p xml:id="pl-l3d38c3-d1e115">Hic videndum est, quid sit mendacium, et quid sit mentiri; deinde, utrum omne mendacium sit peccatum, et quare.</p>
+        <p xml:id="pl-l3d38c3-d1e118">
+          <quote xml:id="pl-l3d38c3-Qd1e120">Mendacium est, ut ait <name ref="#Augustine">Augustinus</name>, falsa significatio vocis cum intentione fallendi </quote>. Ut ergo mendacium sit, necesse est ut falsum proferatur et cum intentione fallendi: <quote xml:id="pl-l3d38c3-Qd1e126"> hoc enim malum est proprium mentientis, aliud habere clausum in pectore, aliud promptum in lingua </quote>.</p>
+        <p xml:id="pl-l3d38c3-d1e130">Mentiri vero est loqui contra hoc quod animo sentit quis, sive illud verum sit, sive non. Omnis ergo, qui loquitur mendacium, mentitur, quia loquitur contra hoc quod animo sentit, id est voluntate fallendi; sed non omnis qui mentitur, mendacium dicit, quia quod verum est loquitur aliquando mentiendo, sicut e converso falsum dicendo, aliquando verax est.</p>
+        <p xml:id="pl-l3d38c3-d1e134">Unde <name ref="#Augustine">Augustinus</name>: <quote xml:id="pl-l3d38c3-Qd1e139">Nemo sane mentiens iudicandus est, qui dicit falsum, quod putat verum, quia, quantum in ipso est, non fallit ipse, sed fallitur. Non igitur mendacii arguendus est qui falsa incautius credit ac pro veris habet; potiusque e contrario ille mentitur, qui dicit verum, quod putat falsum. Quantum enim ad animum eius attinet, non verum dicit, quia non quod sentit dicit, quamvis verum inveniatur esse quod dicit. Nec ille liber est a mendacio, qui ore nesciens loquitur verum, sciens autem voluntate mentitur </quote>.</p>
+        <p xml:id="pl-l3d38c3-d1e143">Hic quaeri solet, si Iudaeus dicat Christum esse Deum, cum non ita sentiat animo, utrum loquatur mendacium.</p>
+        <p xml:id="pl-l3d38c3-d1e146">Non est mendacium quod dicit, quia, licet aliter teneat animo, verum tamen est quod dicit; et ideo non est mendacium; mentitur</p>
+        <p xml:id="pl-l3d38c3-d1e149">tamen, illud quod verum est dicens.</p>
+        <p xml:id="pl-l3d38c3-d1e152">Quod vero omne mendacium sit peccatum, <name ref="#Augustine">Augustinus</name> insinuat: <quote xml:id="pl-l3d38c3-Qd1e157"> Mihi, inquit, videtur omne mendacium esse peccatum; sed mullum interesse quo animo, et de quibus rebus quisque mentiatur. Non enim sic peccat qui consulendi, ut qui nocendi voluntate mentitur; nec tantum nocet qui viatorem mentiendo in diverso itinere mittit, quantum qui viam vitae mendacio depravat </quote>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>
