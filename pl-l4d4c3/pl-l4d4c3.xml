@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -55,15 +53,14 @@
         <head xml:id="pl-l4d4c3-Hd1e109">CAP. III</head>
         <head xml:id="pl-l4d4c3-Hd1e112" type="question-title">Quomodo intelligatur illud: Quotquot
           in Christo baptizati estis, Christum induistis.</head>
-        <p xml:id="pl-l4d4c3-d1e115">Quaeritur ergo, quomodo accipiendum sit illud: Quotquot in
-          Christo baptizati, estis, Christum induistis .</p>
+        <p xml:id="pl-l4d4c3-d1e115">Quaeritur ergo, quomodo accipiendum sit illud: <quote xml:id="pl-l4d4c3-Qd1e119" ana="#gal3_27">Quotquot in
+          Christo baptizati, estis, Christum induistis</quote>.</p>
         <p xml:id="pl-l4d4c3-d1e118">Potest dici, quod qui in Christo, id est in Christi
           conformitate baptizantur, (ut scilicet moriantur vetustati peccati, sicut Christus
           vetustati poenae) induunt Christum, quem per gratiam inhabitantem habent. Potest et aliter
           solvi: Duobus enim modis induere Christum dicimur: vel assumtione Sacramenti, vel rei
           perceptione.</p>
-        <p xml:id="pl-l4d4c3-d1e121">Unde <name ref="#Augustine">Augustinus</name>: <quote
-          xml:id="pl-l4d4c3-Qd1e126"> Induunt homines Christum aliquando usque ad Sacramenti
+        <p xml:id="pl-l4d4c3-d1e121">Unde <name ref="#Augustine">Augustinus</name>: <quote xml:id="pl-l4d4c3-Qd1e126"> Induunt homines Christum aliquando usque ad Sacramenti
           perceptionem, aliquando usque ad vitae sanctificationem; atque illud primum bonis et malis
           esse potest commune, hoc autem proprium est bonorum et piorum </quote>. Omnes ergo, qui in
           Christi nomine baptizantur, Christum induunt vel secundum Sacramenti perceptionem, vel

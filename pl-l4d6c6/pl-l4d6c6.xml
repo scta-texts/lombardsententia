@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -64,15 +62,14 @@
           profitente, baptizantur, qui adhuc loqui vel credere nesciunt, sicut etiam pro aegris,
           mutis vel surdis alius profitetur, dum baptizantur </quote>. Sic et de poeuitentibus
           agendum est. <quote xml:id="pl-l4d6c6-Qd1e123"> Si autem pro eo qui respondere potest,
-          alius respondeat, non itidem valet; sicut dictum esi: Aetatem habet, pro se loquatur
+          alius respondeat, non itidem valet; sicut dictum esi: <quote xml:id="pl-l4d6c6-Qd1e127" ana="#io9_21">Aetatem habet, pro se loquatur</quote>
           </quote>.</p>
         <p xml:id="pl-l4d6c6-d1e127">Si vero quaeritur, ex quo sensu pro parvulo dicatur: Credo, vel
           fidem peto, dicimus, de Sacramento fidei id esse intelligendum, quod respondetur petere,
           cum defertur ad Ecclesiam, et habere, cum baptizatur; ut sit sensus, cum dicitur: Fidem
           peto, id est, Sacramentum fidei praesto sum recipere; credo, id est, Sacramentum fidei
           suscipio; quod est: hic parvulus praesto est Sacramentum fidei accipere.</p>
-        <p xml:id="pl-l4d6c6-d1e131">Unde <name ref="#Augustine">Augustinus</name>: <quote
-          xml:id="pl-l4d6c6-Qd1e136">Nihil aliud est credere quam fidem habere; et ideo, cum
+        <p xml:id="pl-l4d6c6-d1e131">Unde <name ref="#Augustine">Augustinus</name>: <quote xml:id="pl-l4d6c6-Qd1e136">Nihil aliud est credere quam fidem habere; et ideo, cum
           respondetur credere parvulus, qui fidei nondum habet affectum, respondetur, fidem habere
           propter fidei Sacramentum, et convertere se ad Deum propter conversionis Sacramentum
           </quote>.</p>
@@ -87,8 +84,7 @@
           Sacramentum recipit. Hac autem sponsione parvulus, pro quo fit, tenebitur, non sponsor; si
           tamen, ut cautio impleatur, quantum in se est, operam dederit; quia exigitur a patrino,
           diligens circa eum, pro quo respondit , sollicitudo.</p>
-        <p xml:id="pl-l4d6c6-d1e146">De hoc <name ref="#Augustine">Augustinus</name>: <quote
-          xml:id="pl-l4d6c6-Qd1e151">Certissimam emisistis cautionem, qua renuntiare pompis diaboli
+        <p xml:id="pl-l4d6c6-d1e146">De hoc <name ref="#Augustine">Augustinus</name>: <quote xml:id="pl-l4d6c6-Qd1e151">Certissimam emisistis cautionem, qua renuntiare pompis diaboli
           spopondistis </quote>.</p>
       </div>
     </body>
