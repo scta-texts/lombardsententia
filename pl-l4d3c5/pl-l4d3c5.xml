@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CAP. V</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev"> <title>CAP. V</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority> <ref>SCTA</ref> </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l4d3c5">
+        <head xml:id="pl-l4d3c5-Hd1e109">CAP. V</head>
+        <head xml:id="pl-l4d3c5-Hd1e112" type="question-title">De institutione baptismi.</head>
+        <p xml:id="pl-l4d3c5-d1e115">De institutione baptismi, quando coeperit, variae sunt
+          aestimationes.</p>
+        <p xml:id="pl-l4d3c5-d1e118">Alii dicunt baptismum tunc institutum, cum Nicodemo Christus
+          ait : Nisi quis renatus fuerit, ex aqua et Spiritu sancto.</p>
+        <p xml:id="pl-l4d3c5-d1e121">Alii dicunt institutionem baptismi factam, cum Apostolis dixit:
+          Ite, docete omnes gentes, baptizantes eos in nomine Patris et Filii et Spiritus sancti.
+          Sed hoc dixit eis post resurrectionem, praecipiens eis de vocatione gentium, quos ante
+          passionem binos et binos miserat ad praedicandum in ludaea et ad baptizandum, dicens: In
+          viam gentium ne abieritis. Iam ergo institutus erat baptismus, quia baptizabant simul et
+          praedicabant.</p>
+        <p xml:id="pl-l4d3c5-d1e125">Si vero quaeritur, in qua forma tunc baptizaverunt, sane dici
+          potest: in nomine Trinitatis, scilicet in ea forma, in qua postea baptizaverunt gentes;
+          quae ante passionem potest intelligi fuisse tradita, licet non sit scriptum. Non ergo tunc
+          illam formam Christus prius tradidit, cum ad evangelizandum gentibus misit; sed quam ante
+          tradiderat, mittens in ludaeam, post iteravit, cum ad gentes misit.</p>
+        <p xml:id="pl-l4d3c5-d1e128">Commodius ergo dicitur institutio facta, quando Christus a
+          Ioanne baptizatus est in Iordane; quod dispensavit, non quia mundari voluerit, cum sine
+          peccato fuerit, sed quia <quote xml:id="pl-l4d3c5-Qd1e130">contactu mundae carnis suae vim
+          regenerativam contulit aquis</quote>, ut qui postea immergeretur, invocato nomine
+          Trinitatis, a peccatis purgaretur. Tunc igitur institutus est baptismus Christi, in quo
+          Trinitas, cuius mysterium ibi innotuit, interius hominem baptizat.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

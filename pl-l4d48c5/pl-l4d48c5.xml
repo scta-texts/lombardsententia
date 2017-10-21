@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -14,18 +15,14 @@
         </respStmt>
       </titleStmt>
       <editionStmt>
-        <edition n="0.0.0-dev">
-          <title>CAP. 5</title>
-          <date when="2017-10-21">October 21, 2017</date>
-        </edition>
+        <edition n="0.0.0-dev"> <title>CAP. 5</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
       </editionStmt>
       <publicationStmt>
-        <authority>
-          <ref>SCTA</ref>
-        </authority>
+        <authority> <ref>SCTA</ref> </authority>
         <availability status="free">
-          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
-          </p>
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -35,7 +32,8 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -43,8 +41,7 @@
     </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2017-10-21" status="draft" n="0.0.0">
-          <p>Created file for the first time.</p>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
         </change>
       </listChange>
     </revisionDesc>
@@ -56,26 +53,53 @@
     <body>
       <div xml:id="pl-l4d48c5">
         <head xml:id="pl-l4d48c5-Hd1e109">CAP. 5</head>
-        <head xml:id="pl-l4d48c5-Hd1e112" type="question-title">De qualitate luminarium et temporis post iudicium.</head>
-        <p xml:id="pl-l4d48c5-d1e115">Veniente autem ad iudicium Domino in fortitudine et <quote xml:id="pl-l4d48c5-Qd1e117">potestate magna</quote>, sol et luna dicuntur obscurari, non sui luminis privatione, sed superveniente maioris luminis claritate. Virtutes quoque caelorum, id est Angeli, dicuntur moveri, non metu damnationis vel aliqua perturbatione pavoris, sed quadam admiratione eorum quae viderint.</p>
-        <p xml:id="pl-l4d48c5-d1e121"> Unde Iob: <quote xml:id="pl-l4d48c5-Qd1e123">Columnae caeli pavent adventum eius.</quote>
-        </p>
-        <p xml:id="pl-l4d48c5-d1e127">Ante diem vero iudicii sol et luna patientur eclipsim, sicut loel testatur dicens: <quote xml:id="pl-l4d48c5-Qd1e129">Sol convertetur in tenebras, et luna in sanguinem, antequam veniat dies Domini magnus et horribilis; magnus</quote> vero dicitur propter magna, quae ibi fient.</p>
-        <p xml:id="pl-l4d48c5-d1e134">Cum autem fuerit factura <quote xml:id="pl-l4d48c5-Qd1e136">caelum novum, et terra nova</quote>, 
-<quote xml:id="pl-l4d48c5-Qd1e139">tunc erit lux lunae sicut lux solis,</quote> testante Isaia, <quote xml:id="pl-l4d48c5-Qd1e142">et lux solis septempliciter, id est sicut lux septem dierum,</quote> quia, quantum luxit sol in prima conditione septem dierum ante peccatum primi hominis, tantum lucebit post iudicium. Minorata enim fuit lux solis et lunae aliorumque siderum per peccatum primi hominis; sed tunc recipiet sol mercedem sui laboris, quia septempliciter lucebit; et tunc non erit vicissitudo diei et noctis, sed tantum dies.</p>
-        <p xml:id="pl-l4d48c5-d1e146">Unde Zacharias: <quote xml:id="pl-l4d48c5-Qd1e148">Et erit dies una, quae nota est Domino, non dies neque nox, et in tempore vesperi</quote> 
-          <quote xml:id="pl-l4d48c5-Qd1e151">erit lux;</quote> quia non erit tunc varietas diei et noctis, quae modo est, sed continua dies et lux.</p>
-        <p xml:id="pl-l4d48c5-d1e155">Isaias tamen videtur dicere, quod tunc non luceat sol vel luna, loquens congregationi Beatorum: <quote xml:id="pl-l4d48c5-Qd1e157">Non erit tibi,</quote> inquit, 
-<quote xml:id="pl-l4d48c5-Qd1e160">amplius sol ad lucendum per diem, nec splendor lunae illuminabit te; sed erit tibi Dominus in lucem sempiternam.</quote>
-        </p>
-        <p xml:id="pl-l4d48c5-d1e164">Sed his verbis non negat, solem et lunam tunc lucere, sed significat, his qui erunt in aeterna beatitudine, nullum lucis usum praestare; quia, ut ait <name ref="#Jerome">Hieronymus</name> super eundem locum, <quote xml:id="pl-l4d48c5-Qd1e169">caeli terraeque, solis atque lunae nobis cessabit officium, et erit ipse Dominus lumen suis in perpetuum </quote>.</p>
-        <p xml:id="pl-l4d48c5-d1e173">Potest etiam illud Isaiae intelligi ea ratione dictum, quia sol et luna non tunc habebunt ortum et occasum, sicut nunc.</p>
-        <p xml:id="pl-l4d48c5-d1e176">Unde Isidorus illud Isaiae quasi exponens, ait: <quote xml:id="pl-l4d48c5-Qd1e178">Post iudicium sol mercedem laboris sui suscipiet</quote>; unde Propheta: 
-<quote xml:id="pl-l4d48c5-Qd1e181">Lucebit septempliciter;</quote> et non veniet ad occasum nec sol nec luna, sed in ordine, quo creati sunt, stabunt, ne impii, in tormentis sub terra positi, (ruantur luce eorum.</p>
-        <p xml:id="pl-l4d48c5-d1e186">Unde Habacuc: <quote xml:id="pl-l4d48c5-Qd1e188">Sol et luna steterunt in ordine suo.</quote>
-        </p>
-        <p xml:id="pl-l4d48c5-d1e192">Ecce aperte dicit, solem et lunam tunc lucere, sed stabiliter permanere; ubi etiam significat, infernum esse sub terra.</p>
-        <p xml:id="pl-l4d48c5-d1e195">Si vero quaeritur, quis sil usus lucis solis et lunae tunc, fateor me ignorare, quia in Scripturis non memini me legisse.</p>
+        <head xml:id="pl-l4d48c5-Hd1e112" type="question-title">De qualitate luminarium et temporis
+          post iudicium.</head>
+        <p xml:id="pl-l4d48c5-d1e115">Veniente autem ad iudicium Domino in fortitudine et <quote
+          xml:id="pl-l4d48c5-Qd1e117">potestate magna</quote>, sol et luna dicuntur obscurari, non
+          sui luminis privatione, sed superveniente maioris luminis claritate. Virtutes quoque
+          caelorum, id est Angeli, dicuntur moveri, non metu damnationis vel aliqua perturbatione
+          pavoris, sed quadam admiratione eorum quae viderint.</p>
+        <p xml:id="pl-l4d48c5-d1e121"> Unde Iob: <quote xml:id="pl-l4d48c5-Qd1e123">Columnae caeli
+          pavent adventum eius.</quote> </p>
+        <p xml:id="pl-l4d48c5-d1e127">Ante diem vero iudicii sol et luna patientur eclipsim, sicut
+          loel testatur dicens: <quote xml:id="pl-l4d48c5-Qd1e129">Sol convertetur in tenebras, et
+          luna in sanguinem, antequam veniat dies Domini magnus et horribilis; magnus</quote> vero
+          dicitur propter magna, quae ibi fient.</p>
+        <p xml:id="pl-l4d48c5-d1e134">Cum autem fuerit factura <quote xml:id="pl-l4d48c5-Qd1e136"
+          >caelum novum, et terra nova</quote>, <quote xml:id="pl-l4d48c5-Qd1e139">tunc erit lux
+          lunae sicut lux solis,</quote> testante Isaia, <quote xml:id="pl-l4d48c5-Qd1e142">et lux
+          solis septempliciter, id est sicut lux septem dierum,</quote> quia, quantum luxit sol in
+          prima conditione septem dierum ante peccatum primi hominis, tantum lucebit post iudicium.
+          Minorata enim fuit lux solis et lunae aliorumque siderum per peccatum primi hominis; sed
+          tunc recipiet sol mercedem sui laboris, quia septempliciter lucebit; et tunc non erit
+          vicissitudo diei et noctis, sed tantum dies.</p>
+        <p xml:id="pl-l4d48c5-d1e146">Unde Zacharias: <quote xml:id="pl-l4d48c5-Qd1e148">Et erit
+          dies una, quae nota est Domino, non dies neque nox, et in tempore vesperi</quote> <quote
+          xml:id="pl-l4d48c5-Qd1e151">erit lux;</quote> quia non erit tunc varietas diei et noctis,
+          quae modo est, sed continua dies et lux.</p>
+        <p xml:id="pl-l4d48c5-d1e155">Isaias tamen videtur dicere, quod tunc non luceat sol vel
+          luna, loquens congregationi Beatorum: <quote xml:id="pl-l4d48c5-Qd1e157">Non erit
+          tibi,</quote> inquit, <quote xml:id="pl-l4d48c5-Qd1e160">amplius sol ad lucendum per diem,
+          nec splendor lunae illuminabit te; sed erit tibi Dominus in lucem sempiternam.</quote> </p>
+        <p xml:id="pl-l4d48c5-d1e164">Sed his verbis non negat, solem et lunam tunc lucere, sed
+          significat, his qui erunt in aeterna beatitudine, nullum lucis usum praestare; quia, ut
+          ait <name ref="#Jerome">Hieronymus</name> super eundem locum, <quote
+          xml:id="pl-l4d48c5-Qd1e169">caeli terraeque, solis atque lunae nobis cessabit officium, et
+          erit ipse Dominus lumen suis in perpetuum </quote>.</p>
+        <p xml:id="pl-l4d48c5-d1e173">Potest etiam illud Isaiae intelligi ea ratione dictum, quia
+          sol et luna non tunc habebunt ortum et occasum, sicut nunc.</p>
+        <p xml:id="pl-l4d48c5-d1e176">Unde Isidorus illud Isaiae quasi exponens, ait: <quote
+          xml:id="pl-l4d48c5-Qd1e178">Post iudicium sol mercedem laboris sui suscipiet</quote>; unde
+          Propheta: <quote xml:id="pl-l4d48c5-Qd1e181">Lucebit septempliciter;</quote> et non veniet
+          ad occasum nec sol nec luna, sed in ordine, quo creati sunt, stabunt, ne impii, in
+          tormentis sub terra positi, (ruantur luce eorum.</p>
+        <p xml:id="pl-l4d48c5-d1e186">Unde Habacuc: <quote xml:id="pl-l4d48c5-Qd1e188">Sol et luna
+          steterunt in ordine suo.</quote> </p>
+        <p xml:id="pl-l4d48c5-d1e192">Ecce aperte dicit, solem et lunam tunc lucere, sed stabiliter
+          permanere; ubi etiam significat, infernum esse sub terra.</p>
+        <p xml:id="pl-l4d48c5-d1e195">Si vero quaeritur, quis sil usus lucis solis et lunae tunc,
+          fateor me ignorare, quia in Scripturis non memini me legisse.</p>
       </div>
     </body>
   </text>

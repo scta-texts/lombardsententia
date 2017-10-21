@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -14,18 +15,14 @@
         </respStmt>
       </titleStmt>
       <editionStmt>
-        <edition n="0.0.0-dev">
-          <title>Cap. I</title>
-          <date when="2017-10-21">October 21, 2017</date>
-        </edition>
+        <edition n="0.0.0-dev"> <title>Cap. I</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
       </editionStmt>
       <publicationStmt>
-        <authority>
-          <ref>SCTA</ref>
-        </authority>
+        <authority> <ref>SCTA</ref> </authority>
         <availability status="free">
-          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
-          </p>
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -35,7 +32,8 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -43,8 +41,7 @@
     </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2017-10-21" status="draft" n="0.0.0">
-          <p>Created file for the first time.</p>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
         </change>
       </listChange>
     </revisionDesc>
@@ -56,11 +53,22 @@
     <body>
       <div xml:id="pl-l3d33c1">
         <head xml:id="pl-l3d33c1-Hd1e109">Cap. I</head>
-        <head xml:id="pl-l3d33c1-Hd1e112" type="question-title">De quatuor principalibus virtutibus.</head>
-        <p xml:id="pl-l3d33c1-d1e115">Post praedicta de quatuor virtutibus, quae principales vel cardinales vocantur, disserendum est; quae sunt iustitia, fortitudo, prudentia, temperantia.</p>
-        <p xml:id="pl-l3d33c1-d1e118">De quibus <name ref="#Augustine">Augustinus</name> ait: <quote xml:id="pl-l3d33c1-Qd1e123">Iustitia est in subveniendo miseris; prudentia in praecavendis insidiis; fortitudo in perferendis molestiis; temperantia in coercendis delectationibus pravis </quote>.</p>
-        <p xml:id="pl-l3d33c1-d1e127">De his dicitur in libro Sapientiae: <quote xml:id="pl-l3d33c1-Qd1e129">Sobrietatem et prudentiam docet, iustitiam et virtutem . Sobrietatem</quote> vocat temperantiam, et <quote xml:id="pl-l3d33c1-Qd1e132">virtutem</quote> vocat fortitudinem.</p>
-        <p xml:id="pl-l3d33c1-d1e137">Hae virtutes cardinales dicuntur, ut ait <name ref="#Jerome">Hieronymus</name>, <quote xml:id="pl-l3d33c1-Qd1e142">quibus in hac mortalitate bene vivitur, et post ad aeternam vitam pervenitur </quote>.</p>
+        <head xml:id="pl-l3d33c1-Hd1e112" type="question-title">De quatuor principalibus
+          virtutibus.</head>
+        <p xml:id="pl-l3d33c1-d1e115">Post praedicta de quatuor virtutibus, quae principales vel
+          cardinales vocantur, disserendum est; quae sunt iustitia, fortitudo, prudentia,
+          temperantia.</p>
+        <p xml:id="pl-l3d33c1-d1e118">De quibus <name ref="#Augustine">Augustinus</name> ait: <quote
+          xml:id="pl-l3d33c1-Qd1e123">Iustitia est in subveniendo miseris; prudentia in praecavendis
+          insidiis; fortitudo in perferendis molestiis; temperantia in coercendis delectationibus
+          pravis </quote>.</p>
+        <p xml:id="pl-l3d33c1-d1e127">De his dicitur in libro Sapientiae: <quote
+          xml:id="pl-l3d33c1-Qd1e129">Sobrietatem et prudentiam docet, iustitiam et virtutem .
+          Sobrietatem</quote> vocat temperantiam, et <quote xml:id="pl-l3d33c1-Qd1e132"
+          >virtutem</quote> vocat fortitudinem.</p>
+        <p xml:id="pl-l3d33c1-d1e137">Hae virtutes cardinales dicuntur, ut ait <name ref="#Jerome"
+          >Hieronymus</name>, <quote xml:id="pl-l3d33c1-Qd1e142">quibus in hac mortalitate bene
+          vivitur, et post ad aeternam vitam pervenitur </quote>.</p>
       </div>
     </body>
   </text>

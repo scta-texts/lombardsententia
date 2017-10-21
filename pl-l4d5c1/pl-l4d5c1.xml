@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CAP. I</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev"> <title>CAP. I</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority> <ref>SCTA</ref> </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l4d5c1">
+        <head xml:id="pl-l4d5c1-Hd1e109">CAP. I</head>
+        <head xml:id="pl-l4d5c1-Hd1e112" type="question-title">Quod baptismus aeque bonus est, a
+          bono vel a malo datus.</head>
+        <p xml:id="pl-l4d5c1-d1e115">Post haec sciendum est, Sacramentum baptismi a bonis et a malis
+          ministris dari, sicut a bonis et a malis sumitur. Nec melior est baptismus, qui per
+          meliorem datur; nec minus bonus qui per minus bonum datur; nec malus qui per malum datur;
+          nec maius munus datur in baptismo a bono dato, nec minus in baptismo dato a malo, sed
+          aequale; quia non est hominis, sed Dei munus.</p>
+        <p xml:id="pl-l4d5c1-d1e118">Quod totum subditis declaratur testimoniis.</p>
+        <p xml:id="pl-l4d5c1-d1e121"> <name ref="#Augustine">Augustinus</name> ait: <quote
+          xml:id="pl-l4d5c1-Qd1e126">Baptismus talis est, qualis est ille, in cuius potestate datur,
+          non qualis est ille, per cuius ministerium datur </quote>.</p>
+        <p xml:id="pl-l4d5c1-d1e131">Item: <quote xml:id="pl-l4d5c1-Qd1e133"> Prorsus fieri potest,
+          ut aliqui verum habeant baptismum, et non habeant veram fidem </quote>.</p>
+        <p xml:id="pl-l4d5c1-d1e137">Item: <quote xml:id="pl-l4d5c1-Qd1e139">Si inter bonos
+          ministros, cum sit alius alio melior, non est melior baptismus, qui per meliorem datur,
+          nullo modo malus est qui etiam per malum datur, quia idem baptismus datur. Et ideo per
+          ministros dispares, Dei munus aequale est, quia non illorum sed eius est </quote>.</p>
+        <p xml:id="pl-l4d5c1-d1e143">Idem : <quote xml:id="pl-l4d5c1-Qd1e145"> Cum baptizat malus,
+          illud quod datum est, unum est, nec impar propter impares ministros, sed par et aequale
+          propter hoc: Hic est qui baptizat </quote>.</p>
+        <p xml:id="pl-l4d5c1-d1e149">Item: <quote xml:id="pl-l4d5c1-Qd1e151"> Ego dico, et nos
+          dicimus omnes, quia iustos oportet esse per quos baptizatur, iustos oportet esse tanti
+          iudicis ministros. Sint ministri iusti, si volunt; si autem noluerint esse iusti, qui in
+          cathedra Moysi sedent, securum me fecit magister meus, de quo Spiritus sanctus dicit: Hic
+          est qui baptizat</quote>.</p>
+        <p xml:id="pl-l4d5c1-d1e155">Item: <quote xml:id="pl-l4d5c1-Qd1e157">Quos baptizavit ludas,
+          Christus baptizavit. Si quos ergo baptizavit ebriosus, homicida, adulter: si baptismus
+          Christi erat, Christus baplizavit. Non limeo adulterum, ebriosum, non homicidam, quia
+          columbam attendo, per quam mihi dicitur: Hic est qui baptizat </quote>.</p>
+        <p xml:id="pl-l4d5c1-d1e161">ltem: <quote xml:id="pl-l4d5c1-Qd1e163"> Homicida dedit
+          baptismum Christi; quod Sacramentum tam sanctum est, ut nec homicida ministrante polluatur
+          </quote>.</p>
+        <p xml:id="pl-l4d5c1-d1e168">Item: <quote xml:id="pl-l4d5c1-Qd1e170">Si in haeresi quacumque
+          vel schismate quisquam in nomine Patris el Filii el Spiritus sancti baptismi Sacramentum
+          acceperit, integrum Sacramentum accepit; sed salutem, quae virtus est Sacramenti, non
+          habebit, si extra catholicam Ecclesiam ipsum Sacramentum habuerit. Debet igitur ad
+          Ecclesiam redire, non ut Sacramentum baptismi iterum accipiat, quod nemo debet in aliquo
+          repetere, sed ut in societate catholica vitam accipiat: baptismus enim extra Ecclesiam
+          nequit prodesse; ibi enim cuique potest prodesse baptismus cui potest prodesse eleemosyna,
+          scilicet in Ecclesia</quote>.</p>
+        <p xml:id="pl-l4d5c1-d1e174">Item Isidorus: <quote xml:id="pl-l4d5c1-Qd1e176">Romanus
+          Pontifex non hominem iudicat, qui baptizat, sed Spiritum Dei subministrare gratiam
+          baptismi, licet paganus sit qui baptizat </quote>.</p>
+        <p xml:id="pl-l4d5c1-d1e180">In his perspicue cernis, baptismum verum bonis et malis dari a
+          bonis et a malis; et ipsum tamen aeque sanctum esse et munus eius aequale in bonis, sive a
+          bonis sive a malis baptizentur:</p>
+      </div>
+    </body>
+  </text>
+</TEI>

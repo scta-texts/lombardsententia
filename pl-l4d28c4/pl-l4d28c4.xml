@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -14,18 +15,14 @@
         </respStmt>
       </titleStmt>
       <editionStmt>
-        <edition n="0.0.0-dev">
-          <title>CAP. IV</title>
-          <date when="2017-10-21">October 21, 2017</date>
-        </edition>
+        <edition n="0.0.0-dev"> <title>CAP. IV</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
       </editionStmt>
       <publicationStmt>
-        <authority>
-          <ref>SCTA</ref>
-        </authority>
+        <authority> <ref>SCTA</ref> </authority>
         <availability status="free">
-          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
-          </p>
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -35,7 +32,8 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -43,8 +41,7 @@
     </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2017-10-21" status="draft" n="0.0.0">
-          <p>Created file for the first time.</p>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
         </change>
       </listChange>
     </revisionDesc>
@@ -56,9 +53,20 @@
     <body>
       <div xml:id="pl-l4d28c4">
         <head xml:id="pl-l4d28c4-Hd1e109">CAP. IV</head>
-        <p xml:id="pl-l4d28c4-d1e112">[Cap. IV]. Dicamus igitur, quod consensus cohabitationis, vel carnalis copulae non facit coniugium, sed consensus coniugalis societatis, verbis secundum praesens tempus expressus, ut cum vir dicit: Ego accipio te in meam, non dominam, non ancillam, sed coniugem.</p>
-        <p xml:id="pl-l4d28c4-d1e115">Quia enim non domina vel ancilla datur, ideo nec de summo nec de imo a principio formata est, sed de latere viri ob coniugalem societatem. Si de summo fieret, ut de capite, videretur ad dominationem creata; si vero de imo, ut de pedibus, videretur ad servitutem subiicienda; sed quia nec in dominam nec in ancillam assumitur, facta est de medio, id est de latere, quia ad coniugalem societatem assumitur.</p>
-        <p xml:id="pl-l4d28c4-d1e118">Cum igitur sic conveniunt, ut dicat vir: Accipio te in meam coniugem, et dicat mulier: Accipio te in meum virum; his verbis vel aliis idem significantibus exprimitur consensus non carnalis copulae, vel cohabitationis corporalis, sed coniugalis societatis; ex qua oportet eos cohabitare, nisi forte causa religionis pari voto corporaliter separentur, vel ad tempus, vel usque in finem.</p>
+        <p xml:id="pl-l4d28c4-d1e112">[Cap. IV]. Dicamus igitur, quod consensus cohabitationis, vel
+          carnalis copulae non facit coniugium, sed consensus coniugalis societatis, verbis secundum
+          praesens tempus expressus, ut cum vir dicit: Ego accipio te in meam, non dominam, non
+          ancillam, sed coniugem.</p>
+        <p xml:id="pl-l4d28c4-d1e115">Quia enim non domina vel ancilla datur, ideo nec de summo nec
+          de imo a principio formata est, sed de latere viri ob coniugalem societatem. Si de summo
+          fieret, ut de capite, videretur ad dominationem creata; si vero de imo, ut de pedibus,
+          videretur ad servitutem subiicienda; sed quia nec in dominam nec in ancillam assumitur,
+          facta est de medio, id est de latere, quia ad coniugalem societatem assumitur.</p>
+        <p xml:id="pl-l4d28c4-d1e118">Cum igitur sic conveniunt, ut dicat vir: Accipio te in meam
+          coniugem, et dicat mulier: Accipio te in meum virum; his verbis vel aliis idem
+          significantibus exprimitur consensus non carnalis copulae, vel cohabitationis corporalis,
+          sed coniugalis societatis; ex qua oportet eos cohabitare, nisi forte causa religionis pari
+          voto corporaliter separentur, vel ad tempus, vel usque in finem.</p>
       </div>
     </body>
   </text>

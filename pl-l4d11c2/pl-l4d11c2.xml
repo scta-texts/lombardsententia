@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CAP. II</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev"> <title>CAP. II</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority> <ref>SCTA</ref> </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l4d11c2">
+        <head xml:id="pl-l4d11c2-Hd1e109">CAP. II</head>
+        <head xml:id="pl-l4d11c2-Hd1e112" type="question-title">Quomodo dicitur corpus Christi
+          confici de substantia panis.</head>
+        <p xml:id="pl-l4d11c2-d1e115"> <quote xml:id="pl-l4d11c2-Qd1e117"> Si vero quaeris modum quo
+          id fieri possit, breviter respondeo: Mysterium fidei credi salubriter potest, investigari
+          salubriter non potest </quote>.</p>
+        <p xml:id="pl-l4d11c2-d1e121">Quod ergo corpus Christi panis in id mutatione non
+          augmentatur, nec sanguis ex vini conversione, eius voluntati et potentiae adscribatur, qui
+          idem corpus eduxit de Virgine; fit igitur substantia illa ista, sine huius augmento </p>
+        <p xml:id="pl-l4d11c2-d1e124">Nec tamen quidam concedunt, quod substantia panis aliquando
+          sit caro Christi, etsi fiat caro Christi; sicut farina facta est panis, et aqua facta est
+          vinum, nec tamen dicitur: farina est panis, et aqua est vinum.</p>
+        <p xml:id="pl-l4d11c2-d1e128">Alii vero concedunt, illud quod erat panis vel vinum, post
+          consecrationem esse corpus et sanguinem; nec tamen sequitur: panis est caro Christi, vel
+          vinum est sanguis, quia substantia panis vel .vini, postquam facta est Christi caro vel
+          sanguis, non est substantia panis vel vini, sed caro et sanguis.</p>
+        <p xml:id="pl-l4d11c2-d1e131">Ideo distinguendum videtur, cum dicitur: substantia panis, vel
+          id quod erat panis, modo est corpus Christi (manens enim panis non est corpus Christi) sed
+          mutata, id est, id quod facta est, est corpus Christi. Nec dicimus, substantiam panis vel
+          vini materiam esse corporis vel sanguinis quia non de ea ut de materia formatur corpus;
+          sed ipsa formatur in illud et efficitur illud.</p>
+        <p xml:id="pl-l4d11c2-d1e134">Unde <name ref="#Augustine">Augustinus</name> in libro De
+          Trinitate : <quote xml:id="pl-l4d11c2-Qd1e139"> Corpus Christi dicimus illud quod ex
+          fructibus terrae acceptum et prece mystica consecratum sumimus in memoriam dominicae
+          passionis. Quod cum per manus hominis ad illam visibilem speciem perducatur, non
+          sanctificatur, ut sil tam dignum Sacramentum, nisi operante invisibiliter Spiritu Dei
+          </quote>.</p>
+        <p xml:id="pl-l4d11c2-d1e143">Quidam vero sic dicunt conversionem illam esse intelligendam,
+          ut sub illis accidentibus, sub quibus erat prius substantia panis et vini, post
+          consecrationem sit substantia corporis et sanguinis, sic tamen, ut non eis afficiatur . Et
+          sic asserunt dictum , panem transire in corpus Christi, quia, ubi erat panis, nunc est
+          corpus Christi .</p>
+        <p xml:id="pl-l4d11c2-d1e146">Quod si est, quid ergo fit de substantia panis et vini ? Illi
+          dicunt, vel in praeiacentem materiam resolvi, vel in nihilum redigi.</p>
+        <p xml:id="pl-l4d11c2-d1e149">Alii vero putaverunt, ibi substantiam panis et vini remanere,
+          et ibidem corpus Christi esse et sanguinem; et hac ratione dici, illam substantiam fieri
+          istam, quia, ubi est haec, est et illa (quod mirum est) et ipsam substantiam panis et vini
+          dicunt esse Sacramentum .</p>
+        <p xml:id="pl-l4d11c2-d1e153">Sed quod non sit ibi substantia nisi corpus Christi et
+          sanguis, ex praedictis aperte ostenditur et ex subditis.</p>
+        <p xml:id="pl-l4d11c2-d1e156">Ait <name ref="#Ambrose">Ambrosius</name>: <quote
+          xml:id="pl-l4d11c2-Qd1e161"> Panem istum, quem sumimus in mysterio, illum utique
+          intelligo, qui manu Spiritus sancti formatus est in Virginis utero, et igne passionis
+          decoctus in ara crucis. Panis enim Angelorum factus est cibus hominum; unde ait: Ego sum
+          panis vivus, qui de caelo descendi; et iterum : Panis, quem, ego dabo, caro mea. est pro
+          mundi vita. Ex his namque duabus sententiis aperte datur intelligi, quia panis iste et
+          ille non duo, sed unus panis et una caro procul dubio unum efficitur corpus, illud vere,
+          illud sane, quod sumtum est de Virgine, quod resurrexit et in caelum ascendit</quote>.</p>
+        <p xml:id="pl-l4d11c2-d1e165">Item <name ref="GregoryGreat">Gregorius</name>: <quote
+          xml:id="pl-l4d11c2-Qd1e170">Quis fidelium habere dubium possit, in ipsa immolationis hora
+          ad sacerdotis vocem caelos aperiri, in illo Christi mysterio Angelorum choros adesse,
+          summa et ima sociari, unum quid ex invisibilibus atque visibilibus fieri </quote>.</p>
+        <p xml:id="pl-l4d11c2-d1e174">Idem: <quote xml:id="pl-l4d11c2-Qd1e176">Eodem momento et in
+          caelum rapitur, ministerio Angelorum consociandum corpori Christi, et ante oculos
+          sacerdotis in altari videtur. Sicut Divinitas Verbi totum implet mundum, ita multis locis
+          illud corpus consecratur; nec sunt tamen multa corpora Christi, sed unum corpus et unus
+          sanguis. Ideoque sive plus sive minus quis inde percipiat, omnes aequaliter corpus Christi
+          integerrime sumunt </quote>.</p>
+        <p xml:id="pl-l4d11c2-d1e180">Post consecrationem igitur non est ibi substantia panis vel
+          vini, licet species remaneant: est enim ibi species panis et vini, sicut et sapor; unde
+          aliud videtur, aliud intelligitur <!--</quote>-->.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -14,19 +15,14 @@
         </respStmt>
       </titleStmt>
       <editionStmt>
-        <edition n="0.0.0-dev">
-          <title>Cap. III.</title>
-          <date when="2017-09-05">September 05, 2017</date>
-        </edition>
+        <edition n="0.0.0-dev"> <title>Cap. III.</title> <date when="2017-09-05">September 05,
+          2017</date> </edition>
       </editionStmt>
       <publicationStmt>
-        <authority>
-          <ref>SCTA</ref>
-        </authority>
+        <authority> <ref>SCTA</ref> </authority>
         <availability status="free">
           <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
-              Commons Attribution 4.0 International</ref>
-          </p>
+            Commons Attribution 4.0 International</ref> </p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -36,7 +32,8 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -44,8 +41,7 @@
     </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2017-09-05" status="draft" n="0.0.0">
-          <p>Created file for the first time.</p>
+        <change when="2017-09-05" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
         </change>
       </listChange>
     </revisionDesc>
@@ -57,32 +53,35 @@
     <body>
       <div xml:id="pl-l3d3c3">
         <head xml:id="pl-l3d3c3-Hd1e111">Cap. III.</head>
-        <head xml:id="pl-l3d3c3-Hd1e114" type="question-title"> Quare Christus non fuit decimatus in Abraham, sicut Levi. </head>
-        <p xml:id="pl-l3d3c3-d1e117"> Cum autem illa caro, cuius excellentia singularis verbis explicari non valet, antequam
-          esset Verbo unita, obnoxia fuerit pec- calo in Maria et in aliis, a quibus propagatione
-          traducta est, non immerito videri potest in Abraham peccato subiacuisse, cuius universa
-          caro peccato subiacebat. Unde quaeri solet, quare Levi dicatur decimatus in Abraham, et
-          non Christus, cum in lumbis Abrahae uterque fuerit secundum materialem rationem, quando
-          Abraham decimatus est, id est decimas dedit Melchisedech. </p>
-        <p xml:id="pl-l3d3c3-d1e120"> Tunc enim Apostolus Levi decimatum dicit in Abraham tanquam in materiali causa, quia ea
-          decimatione, sicut Abraham minor Melchisedech ostenditur, cui personaliter decimas solvit,
-          ita et Leviticus ordo, qui in Abraham secundum rationem seminalem erat, et ex eo per
-          concupiscentiam carnis descendit. Christus autem non est decimatus, quia licet ibi fuerit
-          secundum carnem, non tamen inde descendit secundum legem communem, scilicet per carnis
-          libidinem; sicut etiam in Adam omnes peccaverunt, sed non Christus. </p>
-        <p xml:id="pl-l3d3c3-d1e123"> Unde <name ref="#Augustine">Augustinus</name>
-          <title>Super Genesim</title>: <quote xml:id="pl-l3d3c3-Qd1e131">Sicut, Adam pec- cante, qui in lumbis eius erant,
-            peccaverunt, sic Abraham decimas dante, qui in lumbis eius erant, decimati sunt. Sed hoc
-            non sequitur in Christo, licet in lumbis Adae et Abrahae fuerit, quia non secundum
-            concupiscentiam carnis inde descendit. Cum ergo Levi et Christus secundum carnem essent
-            in iambis Abrahae, quando decimatus est, ideo pariter decimati non sunt, quia secundum
-            aliquem modum non erat ibi Christus, quo erat ibi Levi</quote>. <quote xml:id="pl-l3d3c3-Qd1e134">Secundum rationem
-            quippe illam seminalem ibi fuit Levi, qua ratione per concubitum venturus erat in
-            matrem, secundum quam rationem non ibi erat Christi caro, quamvis secundum ipsam ibi
-            fuerat Mariae caro</quote>. <quote xml:id="pl-l3d3c3-Qd1e137"> Ille ergo decimatus est in Abraham, qui sic fuit in
-            lumbis Abrahae, sicut ille fuit in lumbis patris sui, id est, qui sic est natus de patre
-            Abraham, sicut ille de suo patre natus est, scilicet per legem carnis et invisibilem
-            concupiscentiam </quote>. </p>
+        <head xml:id="pl-l3d3c3-Hd1e114" type="question-title"> Quare Christus non fuit decimatus in
+          Abraham, sicut Levi. </head>
+        <p xml:id="pl-l3d3c3-d1e117"> Cum autem illa caro, cuius excellentia singularis verbis
+          explicari non valet, antequam esset Verbo unita, obnoxia fuerit pec- calo in Maria et in
+          aliis, a quibus propagatione traducta est, non immerito videri potest in Abraham peccato
+          subiacuisse, cuius universa caro peccato subiacebat. Unde quaeri solet, quare Levi dicatur
+          decimatus in Abraham, et non Christus, cum in lumbis Abrahae uterque fuerit secundum
+          materialem rationem, quando Abraham decimatus est, id est decimas dedit Melchisedech. </p>
+        <p xml:id="pl-l3d3c3-d1e120"> Tunc enim Apostolus Levi decimatum dicit in Abraham tanquam in
+          materiali causa, quia ea decimatione, sicut Abraham minor Melchisedech ostenditur, cui
+          personaliter decimas solvit, ita et Leviticus ordo, qui in Abraham secundum rationem
+          seminalem erat, et ex eo per concupiscentiam carnis descendit. Christus autem non est
+          decimatus, quia licet ibi fuerit secundum carnem, non tamen inde descendit secundum legem
+          communem, scilicet per carnis libidinem; sicut etiam in Adam omnes peccaverunt, sed non
+          Christus. </p>
+        <p xml:id="pl-l3d3c3-d1e123"> Unde <name ref="#Augustine">Augustinus</name> <title>Super
+          Genesim</title>: <quote xml:id="pl-l3d3c3-Qd1e131">Sicut, Adam pec- cante, qui in lumbis
+          eius erant, peccaverunt, sic Abraham decimas dante, qui in lumbis eius erant, decimati
+          sunt. Sed hoc non sequitur in Christo, licet in lumbis Adae et Abrahae fuerit, quia non
+          secundum concupiscentiam carnis inde descendit. Cum ergo Levi et Christus secundum carnem
+          essent in iambis Abrahae, quando decimatus est, ideo pariter decimati non sunt, quia
+          secundum aliquem modum non erat ibi Christus, quo erat ibi Levi</quote>. <quote
+          xml:id="pl-l3d3c3-Qd1e134">Secundum rationem quippe illam seminalem ibi fuit Levi, qua
+          ratione per concubitum venturus erat in matrem, secundum quam rationem non ibi erat
+          Christi caro, quamvis secundum ipsam ibi fuerat Mariae caro</quote>. <quote
+          xml:id="pl-l3d3c3-Qd1e137"> Ille ergo decimatus est in Abraham, qui sic fuit in lumbis
+          Abrahae, sicut ille fuit in lumbis patris sui, id est, qui sic est natus de patre Abraham,
+          sicut ille de suo patre natus est, scilicet per legem carnis et invisibilem
+          concupiscentiam </quote>. </p>
       </div>
     </body>
   </text>

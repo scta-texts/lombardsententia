@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CAP. VIII</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev"> <title>CAP. VIII</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority> <ref>SCTA</ref> </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l4d18c8">
+        <head xml:id="pl-l4d18c8-Hd1e109">CAP. VIII</head>
+        <head xml:id="pl-l4d18c8-Hd1e112" type="question-title">Quae sini interiores tenebrae et
+          interior macula.</head>
+        <p xml:id="pl-l4d18c8-d1e115">Hic quaeritur, quae sit illa macula, et quae sint illae
+          tenebrae interiores, a quibus Deus interius animam purgat, cum ve¬</p>
+        <p xml:id="pl-l4d18c8-d1e118">ram poenitentiam immittit.</p>
+        <p xml:id="pl-l4d18c8-d1e121">De tenebris et interiori caligine salis facile est intelligere
+          et respondere. Cum enim quis mortaliter delinquit, et gratia virtutis privatur, si qua
+          praecessit, et naturalium bonorum elisionem patitur, unde intellectus obtunditur, et totus
+          homo interior obtenebratur, et ita quasi caligine quadam mens obvolvitur: quae caligo
+          peccati poena est. Hanc ergo Deus pellit, cum poenitentiam immittit, per quam bona perdita
+          restituit et vitiata reparat. Unde Propheta: <quote xml:id="pl-l4d18c8-Qd1e123">Nebulam
+          sicut cinerem spargit.</quote> </p>
+        <p xml:id="pl-l4d18c8-d1e128">Sed quae est macula peccati, a qua animam lavat ? Ecce enim
+          quis voluit facere homicidium et patravit; quo patrato, desinit tam velle quam facere;
+          nondum tamen vere et humiliter poenitet, nec confiteri proponit. Quae igitur remansit in
+          anima illius macula? Mala voluntas quidem macula fuit illius animae, sed illa transit;
+          macula est etiam, si poenitere contemnit, sed hoc est peccatum aliud a praecedenti. Quae
+          igitur macula remansit, a qua in poenitentia purgatur ?</p>
+        <p xml:id="pl-l4d18c8-d1e131">Polluta quidem est anima, quousque poenitet, sicut erat, dum
+          in ea prava erat voluntas. Sicut enim qui tangit morticinum vel aliud immundum ita
+          pollutus est post actum quousque lavatur, sicut fuerat, dum tangeret; ita post actum
+          peccati ita polluta remanet anima, sicut fuit in ipso actu peccati, quia ita longe est a
+          Deo per dissimilitudinem, qui est vita et munditia mentis, sicut fuit, dum peccatum
+          ageret. Ipsa ergo dissimilitudo, quae inest animae ex peccato, et est a Deo elongatio,
+          animae macula intelligitur, a qua purgatur in poenitentia. Hoc autem solus Deus facit, qui
+          solus suscitat animam et illuminat; quod sacerdotes nequeunt, qui tamen sunt medici
+          animarum.</p>
+        <p xml:id="pl-l4d18c8-d1e134">Unde Propheta: <quote xml:id="pl-l4d18c8-Qd1e136">Nunquid
+          medici suscitabunt et confitebuntur tibi?</quote> Quod exponens <name ref="#Augustine"
+          >Augustinus</name> ait: <quote xml:id="pl-l4d18c8-Qd1e142">Boni doctores recte dicuntur
+          medici, qui viventes curare ministerio possunt, sed non mortuos suscitare; sola enim
+          gratia Dei reviviscunt</quote>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

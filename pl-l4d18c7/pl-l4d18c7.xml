@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CAP. VII</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev"> <title>CAP. VII</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority> <ref>SCTA</ref> </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l4d18c7">
+        <head xml:id="pl-l4d18c7-Hd1e109">CAP. VII</head>
+        <head xml:id="pl-l4d18c7-Hd1e112" type="question-title">Quomodo intelligendum sil illud:
+          Quodcumque solveris, etc.</head>
+        <p xml:id="pl-l4d18c7-d1e115">Secundum hos ligandi et solvendi modos quomodo verum est quod
+          dicitur: <quote xml:id="pl-l4d18c7-Qd1e117">Quodcumque solveritis super terram, erit
+          solutum et in caelis, et quodcumque ligaveritis super terram, erit ligatum et in
+          caelis</quote> ? Aliquando enim ostendunt solutos vel ligatos, qui non sunt apud Deum; et
+          poena satisfactionis vel excommunicationis interdum indignos ligant vel solvunt, et
+          indignos Sacramentis admittunt, et dignos admitti arcent.</p>
+        <p xml:id="pl-l4d18c7-d1e121">Sed intelligendum est hoc in illis quorum merita solvi vel
+          ligari postulant. Tunc enim sententia sacerdotis iudicio Dei et totius caelestis curiae
+          approbatur et confirmatur, cum ita ex discretione prodit ut reorum merita non
+          contradicant. Quoscumque ergo solvunt vel ligant, adhibentes clavem discretionis reorum
+          meritis, solvuntur vel ligantur in caelis, id est apud Deum; quia divino iudicio sententia
+          sacerdotis sic progressa approbatur et confirmatur. Quos ergo secundum merita sententia
+          Ecclesiae percellit, laedit, et illi foris sunt apud Deum.</p>
+        <p xml:id="pl-l4d18c7-d1e124">Qui autem non meruit, sententia Ecclesiae non laeditur, nisi
+          contemnat.</p>
+        <p xml:id="pl-l4d18c7-d1e128">Unde <name ref="Origen">Origenes</name>: <quote
+          xml:id="pl-l4d18c7-Qd1e133">Exiit quis a veritate, a fide, a caritate , per hoc exit de
+          castris Ecclesiae, etiam si episcopi voce non abiiciatur; sicut e contra aliquis non recto
+          iudicio foras mittitur, sed si non egit ut mereretur exire, nihil laeditur. Interdum enim
+          qui foras mittitur intus est; et qui foris est, intus videtur retineri </quote>.</p>
+        <p xml:id="pl-l4d18c7-d1e137">Ecce qualis et quantus est usus apostolicarum clavium. Iam
+          ostensum est ex parte, qualiter sacerdotes dimittunt peccata vel tenent , et tamen
+          retinuit sibi Dens quandam singularem potestatem dimittendi vel retinendi, quia ipse solus
+          per se debitum aeternae mortis solvit et animam interius purgat.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

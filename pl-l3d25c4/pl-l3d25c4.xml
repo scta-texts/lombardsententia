@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -14,18 +15,14 @@
         </respStmt>
       </titleStmt>
       <editionStmt>
-        <edition n="0.0.0-dev">
-          <title>Cap. IV</title>
-          <date when="2017-10-21">October 21, 2017</date>
-        </edition>
+        <edition n="0.0.0-dev"> <title>Cap. IV</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
       </editionStmt>
       <publicationStmt>
-        <authority>
-          <ref>SCTA</ref>
-        </authority>
+        <authority> <ref>SCTA</ref> </authority>
         <availability status="free">
-          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
-          </p>
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -35,7 +32,8 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -43,8 +41,7 @@
     </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2017-10-21" status="draft" n="0.0.0">
-          <p>Created file for the first time.</p>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
         </change>
       </listChange>
     </revisionDesc>
@@ -57,12 +54,32 @@
       <div xml:id="pl-l3d25c4">
         <head xml:id="pl-l3d25c4-Hd1e109">Cap. IV</head>
         <head xml:id="pl-l3d25c4-Hd1e112" type="question-title">De fide Cornelii.</head>
-        <p xml:id="pl-l3d25c4-d1e115">Solet etiam quaeri de Cornelio, utrum fidem incarnationis habuerit, cum dictum est ei per Angelum: <quote xml:id="pl-l3d25c4-Qd1e117">Acceptae sunt eleemosynae tuae, et exauditae sunt orationes tuae.</quote> Si enim fidem incarnationis non habebat, tunc ergo sine fide incarnationis erat ei iustitia, quia de illo scriptum est, quod <quote xml:id="pl-l3d25c4-Qd1e120">iustus</quote> erat <quote xml:id="pl-l3d25c4-Qd1e123">et timens Deum.</quote> Si vero incarnationis fidem habebat; ad quid ergo missus est ad eum Petrus ?</p>
-        <p xml:id="pl-l3d25c4-d1e127">Sane dici potest, eum, sicut fidem Unitatis , ita et incarnationis habuisse Dei revelatione, sed incarnatum iam esse Dei Filium ignorasse; et ideo missus est ad eum Petrus, ut iam natum Dei Filium ei annuntiaret, et Sacramentum regenerationis ei conferret. Habebat igitur fidem incarnationis, sed an facta, an futura esset non noverat; et ita per fidem venit ad opera, et per opera amplius solidatus est in fide. <quote xml:id="pl-l3d25c4-Qd1e129">Per fidem enim, ut ait <name ref="#GregoryGreat">Gregorius</name> , venitur ad opera</quote>. Cornelius etiam per fidem venit ad opera; Deum enim unum credebat, sed Filium eius nesciebat incarnatum; per fidem placuerunt Deo eius opera: <quote xml:id="pl-l3d25c4-Qd1e135">Sine fide enim impossibile est placere</quote> 
-          <quote xml:id="pl-l3d25c4-Qd1e138">Deo</quote> .</p>
-        <p xml:id="pl-l3d25c4-d1e142">
-          <name ref="#Augustine">Augustinus</name> vero dicit, <quote xml:id="pl-l3d25c4-Qd1e147">Cornelio dictum esse per Angelum: <quote xml:id="pl-l3d25c4-Qd1e149">Acceptae sunt eleemosynae tuae et orationes tuae,</quote> antequam in Christum crederet; nec tamen sine aliqua fide donabat et orabat. Nam quomodo invocabat in quem non credebat? Sed si posset sine fide Christi esse salus, non ad eum mitteretur architectus Ecclesiae, Petrus </quote>.</p>
-        <p xml:id="pl-l3d25c4-d1e155">Attende, quod ait, sine fide Christi non posse esse salutem, et tamen Cornelium exauditum, antequam crederet in Christum; quod ita potest intelligi, scilicet antequam sciret Christum incarnatum, in quem credebat in mysterio.</p>
+        <p xml:id="pl-l3d25c4-d1e115">Solet etiam quaeri de Cornelio, utrum fidem incarnationis
+          habuerit, cum dictum est ei per Angelum: <quote xml:id="pl-l3d25c4-Qd1e117">Acceptae sunt
+          eleemosynae tuae, et exauditae sunt orationes tuae.</quote> Si enim fidem incarnationis
+          non habebat, tunc ergo sine fide incarnationis erat ei iustitia, quia de illo scriptum
+          est, quod <quote xml:id="pl-l3d25c4-Qd1e120">iustus</quote> erat <quote
+          xml:id="pl-l3d25c4-Qd1e123">et timens Deum.</quote> Si vero incarnationis fidem habebat;
+          ad quid ergo missus est ad eum Petrus ?</p>
+        <p xml:id="pl-l3d25c4-d1e127">Sane dici potest, eum, sicut fidem Unitatis , ita et
+          incarnationis habuisse Dei revelatione, sed incarnatum iam esse Dei Filium ignorasse; et
+          ideo missus est ad eum Petrus, ut iam natum Dei Filium ei annuntiaret, et Sacramentum
+          regenerationis ei conferret. Habebat igitur fidem incarnationis, sed an facta, an futura
+          esset non noverat; et ita per fidem venit ad opera, et per opera amplius solidatus est in
+          fide. <quote xml:id="pl-l3d25c4-Qd1e129">Per fidem enim, ut ait <name ref="#GregoryGreat"
+          >Gregorius</name> , venitur ad opera</quote>. Cornelius etiam per fidem venit ad opera;
+          Deum enim unum credebat, sed Filium eius nesciebat incarnatum; per fidem placuerunt Deo
+          eius opera: <quote xml:id="pl-l3d25c4-Qd1e135">Sine fide enim impossibile est
+          placere</quote> <quote xml:id="pl-l3d25c4-Qd1e138">Deo</quote> .</p>
+        <p xml:id="pl-l3d25c4-d1e142"> <name ref="#Augustine">Augustinus</name> vero dicit, <quote
+          xml:id="pl-l3d25c4-Qd1e147">Cornelio dictum esse per Angelum: <quote
+          xml:id="pl-l3d25c4-Qd1e149">Acceptae sunt eleemosynae tuae et orationes tuae,</quote>
+          antequam in Christum crederet; nec tamen sine aliqua fide donabat et orabat. Nam quomodo
+          invocabat in quem non credebat? Sed si posset sine fide Christi esse salus, non ad eum
+          mitteretur architectus Ecclesiae, Petrus </quote>.</p>
+        <p xml:id="pl-l3d25c4-d1e155">Attende, quod ait, sine fide Christi non posse esse salutem,
+          et tamen Cornelium exauditum, antequam crederet in Christum; quod ita potest intelligi,
+          scilicet antequam sciret Christum incarnatum, in quem credebat in mysterio.</p>
       </div>
     </body>
   </text>

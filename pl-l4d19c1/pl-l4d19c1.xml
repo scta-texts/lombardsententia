@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CAP. I</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev"> <title>CAP. I</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority> <ref>SCTA</ref> </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l4d19c1">
+        <head xml:id="pl-l4d19c1-Hd1e109">CAP. I</head>
+        <head xml:id="pl-l4d19c1-Hd1e112" type="question-title">Quando hac claves dantur et
+          quibus.</head>
+        <p xml:id="pl-l4d19c1-d1e115">Postquam ostensum est, quae sint claves apostolicae, et quis
+          earum usus, superest investigare, quando istae claves dentur et quibus .</p>
+        <p xml:id="pl-l4d19c1-d1e118">Dantur hae claves per ministerium episcopi alicui in
+          promotione sacerdotii; cum enim recipit ordinem sacerdotalem, simul etiam has claves
+          recipit.</p>
+        <p xml:id="pl-l4d19c1-d1e121">Sed non videtur, quod omnes, vel soli sacerdotes has claves
+          habeant, quia plerique ante sacram ordinationem scientiam discernendi habent, plures post
+          consecrationem ea carent.</p>
+        <p xml:id="pl-l4d19c1-d1e125">Sane dici potest, quod alteram harum clavium, id est scientiam
+          discernendi, non omnes habent sacerdotes; unde dolendum est atque lugendum. Multi enim,
+          licet indiscreti, atque scientiae, qua eminere debet sacerdos, exsortes, sacerdotii gradum
+          recipere praesumunt, vita et scientia eo indigni, qui nec ante sacerdotium nec post,
+          scientiam habent discernendi qui ligandi sint vel solvendi. Ideoque illam clavem in
+          consecratione non recipiunt, quia semper scientia carent. Qui vero ante sacerdotium
+          scientia discernendi -praediti sunt, licet habeant discretionem, non tamen in eis clavis
+          est, quia non valent ea claudere vel aperire; ideoque, cum promovetur in sacerdotem,
+          clavem discretionis recte dicitur accipere, quia et ante habita discretio augetur et fit
+          in eo clavis, ut ea iam valeat uti ad claudendum vel aperiendum.</p>
+        <p xml:id="pl-l4d19c1-d1e128">Cumque iam constet, non omnes sacerdotes illas duas habere,
+          quia scientia discernendi plerique carent, de altera, id est potentia ligandi et solvendi,
+          quaeritur, utrum omnes sacerdotes eam habeant.</p>
+        <p xml:id="pl-l4d19c1-d1e131">Quidam enim putant hanc potestatem illis solis esse concessam,
+          qui doctrinam simul ac vitam Apostolorum servant. Illas enim claves promisit Dominus Petro
+          et imitatoribus eius tantum, ut aiunt; qui etiam auctoritatibus utuntur in munimentum suae
+          opinionis.</p>
+        <p xml:id="pl-l4d19c1-d1e134">Hoc enim dicunt <name ref="Augustine">Augustinum</name>
+          sensisse superius, ubi ait: <quote xml:id="pl-l4d19c1-Qd1e139"> Remissionem peccatorum vel
+          per se ipsum facit Deus, vel per columbae membra</quote>. Dicit etiam idem, peccata
+          dimitti vel teneri a Sanctis.</p>
+        <p xml:id="pl-l4d19c1-d1e143">Idem <title>Super Exodum</title> , ubi de lamina aurea legitur
+          : <quote xml:id="pl-l4d19c1-Qd1e148">Erat autem lamina aurea semper in fronte sacerdotis:
+          <quote xml:id="pl-l4d19c1-Qd1e150"/> Haec, inquit, significat fiduciam bonae vitae, quam
+          qui vere perfecteque, non significatione, sed veritate, sacerdos habet, solus potest
+          peccata auferre </quote>.</p>
+        <p xml:id="pl-l4d19c1-d1e154">Item <name ref="GregoryGreat">Gregorius</name>: <quote
+          xml:id="pl-l4d19c1-Qd1e159"> Illi soli habent in hac carne positi ligandi et solvendi
+          potestatem, sicut sancti Apostoli, qui illorum exempla simul cum doctrina tenent
+          </quote>.</p>
+        <p xml:id="pl-l4d19c1-d1e164">Item ex dictis Origenis: <quote xml:id="pl-l4d19c1-Qd1e166"
+          >Haec potestas soli Petro concessa est et imitatoribus Petri . Nam quicumque vestigia
+          Petri imitantur, habent recte ligandi el solvendi potestatem </quote>.</p>
+        <p xml:id="pl-l4d19c1-d1e170">His aliisque testimoniis innituntur qui asserunt, potestatem
+          ligandi et solvendi illis solis concessam sacerdotibus, qui vita et doctrina pollent sicut
+          Apostoli.</p>
+        <p xml:id="pl-l4d19c1-d1e173">Aliis autem videtur, quod et mihi placere fateor, cunctis
+          sacerdotibus hanc clavem dari, scilicet ligandi et solvendi; sed non eam recte ac digne
+          habent, nisi qui vitam et doctrinam apostohcam servant. Nec praemissae auctoritates malos
+          sacerdotes hanc potestatem habere negant, sed illos solos digne ac recte hac potestate uti
+          significant, qui praediti sunt vita et doctrina apostolica, quia soli Apostolorum
+          imitatores digne recteque possunt ligare et solvere; et per Deum lanium, vel per Sanctos,
+          in quibus habitat Spiritus sanctus, digne et recte fit remissio vel retentio peccatorum.
+          Fit tamen et per illos qui sancti non sunt, sed non digne vel recte: dat enim Deus
+          benedictionem digne poscenti, etiam per indignum ministrum.</p>
+        <p xml:id="pl-l4d19c1-d1e176">Quod vero hanc potestatem habeant omnes sacerdotes, <name
+          ref="#Jerome">Hieronymus</name> testatur super illum Evangelii locum, ubi dixit Dominus
+          Petro: <quote xml:id="pl-l4d19c1-Qd1e181">Tibi dabo claves regni caelorum, </quote>etc. :
+          <quote xml:id="pl-l4d19c1-Qd1e184">Habent, inquit, eandem iudiciariam potestatem alii
+          Apostoli, habet et omnis Ecclesia in episcopis et presbyteris; sed ideo Petrus eam
+          specialiter accepit, ut omnes intelligant, quod quicumque ab unitate fidei et societate
+          Ecclesiae se separavit nec peccatis solvi, nec caelum potest ingredi </quote>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

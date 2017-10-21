@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CAP. VI</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev"> <title>CAP. VI</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority> <ref>SCTA</ref> </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l4d6c6">
+        <head xml:id="pl-l4d6c6-Hd1e109">CAP. VI</head>
+        <head xml:id="pl-l4d6c6-Hd1e112" type="question-title">De responsione patrinorum.</head>
+        <p xml:id="pl-l4d6c6-d1e115">Porro cuncti ad baptismum venientes fidem suam profiteri debent
+          et exponere, quid petere venerint ad Ecclesiam. Unde et a baptizando quaeritor: Quid
+          venisti ad Ecclesiam petere? Qui si adultus est, pro se respondet: Fidem, id est
+          Sacramentum fidei, et doctrinam. Ita etiam per singula interrogatus, respondet, se credere
+          in Patrem et Filium, etc. Si autem parvulus est, non valens credere vel loqui, alius pro
+          eo respondet.</p>
+        <p xml:id="pl-l4d6c6-d1e118">Unde Isidorus: <quote xml:id="pl-l4d6c6-Qd1e120">Parvuli, alio
+          profitente, baptizantur, qui adhuc loqui vel credere nesciunt, sicut etiam pro aegris,
+          mutis vel surdis alius profitetur, dum baptizantur </quote>. Sic et de poeuitentibus
+          agendum est. <quote xml:id="pl-l4d6c6-Qd1e123"> Si autem pro eo qui respondere potest,
+          alius respondeat, non itidem valet; sicut dictum esi: Aetatem habet, pro se loquatur
+          </quote>.</p>
+        <p xml:id="pl-l4d6c6-d1e127">Si vero quaeritur, ex quo sensu pro parvulo dicatur: Credo, vel
+          fidem peto, dicimus, de Sacramento fidei id esse intelligendum, quod respondetur petere,
+          cum defertur ad Ecclesiam, et habere, cum baptizatur; ut sit sensus, cum dicitur: Fidem
+          peto, id est, Sacramentum fidei praesto sum recipere; credo, id est, Sacramentum fidei
+          suscipio; quod est: hic parvulus praesto est Sacramentum fidei accipere.</p>
+        <p xml:id="pl-l4d6c6-d1e131">Unde <name ref="#Augustine">Augustinus</name>: <quote
+          xml:id="pl-l4d6c6-Qd1e136">Nihil aliud est credere quam fidem habere; et ideo, cum
+          respondetur credere parvulus, qui fidei nondum habet affectum, respondetur, fidem habere
+          propter fidei Sacramentum, et convertere se ad Deum propter conversionis Sacramentum
+          </quote>.</p>
+        <p xml:id="pl-l4d6c6-d1e140">Sed adhuc quaeritur, ex quo sensu pro parvulo respondeatur :
+          Credo in Deum Patrem et in Iesum Christum et in Spiritum sanctum. Nunquid de Sacramento
+          fidei, an de fide mentis ibi agitur? Si de Sacramento, cur nominatim distinguuntur
+          personae? Si vero de fidei affectu, quomodo verum est, cum eo careat parvulus? An illud
+          facturus parvulus spondetur, cum creverit? sicut et omnibus pompis diaboli spondetur
+          abrenuntiare; quod si non servaverit factus adultus, tenebitur ipse, vel sponsor ?</p>
+        <p xml:id="pl-l4d6c6-d1e143">Sane dici potest, ibi sponderi pro parvulo, quod, ad maiorem
+          aetatem si venerit, et pompis diaboli renuntiabit et sanam fidem tenebit, cuius tunc
+          Sacramentum recipit. Hac autem sponsione parvulus, pro quo fit, tenebitur, non sponsor; si
+          tamen, ut cautio impleatur, quantum in se est, operam dederit; quia exigitur a patrino,
+          diligens circa eum, pro quo respondit , sollicitudo.</p>
+        <p xml:id="pl-l4d6c6-d1e146">De hoc <name ref="#Augustine">Augustinus</name>: <quote
+          xml:id="pl-l4d6c6-Qd1e151">Certissimam emisistis cautionem, qua renuntiare pompis diaboli
+          spopondistis </quote>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

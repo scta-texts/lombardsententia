@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CAP. II</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev"> <title>CAP. II</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority> <ref>SCTA</ref> </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l4d23c2">
+        <head xml:id="pl-l4d23c2-Hd1e109">CAP. II</head>
+        <p xml:id="pl-l4d23c2-d1e112">[Cap. II]. <quote xml:id="pl-l4d23c2-Qd1e114">Est enim unctio,
+          quae fit chrismate; quae dicitur principalis unctio, quia in ea principaliter Paraclitus
+          datur. Unde et propter abundantiam gratiae duos liquores mixtos habet, oleum scilicet et
+          balsamum famae. Chrisma vero Graece, unctio dicitur Latine. Nec tamen omne oleum ad
+          unctionem sanctificatum chrisma vocatur, sed illud solum, quod miscetur cum balsamo, quo
+          capita regum et pontificum unguntur , quo etiam baptizatos sacerdos ungit in vertice, et
+          pontifex per impositionem manus confirmandos ungit in fronte.</quote> </p>
+        <p xml:id="pl-l4d23c2-d1e118"> <quote xml:id="pl-l4d23c2-Qd1e120"> Est et alia unctio, qua
+          catechumeni et neophyti unguntur in pectore et inter scapulas in perceptione
+          baptismi.</quote> </p>
+        <p xml:id="pl-l4d23c2-d1e124"> <quote xml:id="pl-l4d23c2-Qd1e126"> Tertia vero unctio est,
+          quae dicitur oleum infirmorum, de qua nunc agitur </quote>.</p>
+        <p xml:id="pl-l4d23c2-d1e130">A quibus fuerit hoc Sacramentum institutum.</p>
+        <p xml:id="pl-l4d23c2-d1e134"> <quote xml:id="pl-l4d23c2-Qd1e136"> Hoc Sacramentum unctionis
+          infirmorum ab Apostolis institutum legitur.</quote> </p>
+        <p xml:id="pl-l4d23c2-d1e140"> <quote xml:id="pl-l4d23c2-Qd1e142">Ait enim lacobus: <quote
+          xml:id="pl-l4d23c2-Qd1e144">Infirmatur aliquis</quote> <quote xml:id="pl-l4d23c2-Qd1e147"
+          >in vobis? inducat presbyteros Ecclesiae, et orent super eum, ungentes eum oleo in nomine
+          Domini, et alleviabit</quote> <quote xml:id="pl-l4d23c2-Qd1e150">eum Dominus; et si in
+          peccatis sit, dimittentur ei.</quote> In quo ostenditur duplici ex causa Sacramentum hoc
+          institutum, scilicet ad peccatorum remissionem et ad corporalis infirmitatis
+          alleviationem. Unde constat, eum qui hanc unctionem fideliter devoteque percipit, et in
+          eorpore et in anima alleviari, si tamen expedit ut in utroque allevietur. Quodsi forte
+          corporis valetudinem illi habere non expedii, illam quae est animae sanitatem in hoc
+          Sacramento acquirit</quote>.</p>
+        <p xml:id="pl-l4d23c2-d1e155"> <quote xml:id="pl-l4d23c2-Qd1e157"> Et sicut in aliis
+          Sacramentis, ita et in isto aliud est Sacramentum, aliud res Sacramenti. Sacramentum est
+          ipsa unctio exterior; res Sacramenti unctio interior, quae peccatorum remissione et
+          virtutum ampliatione perficitur . Et si ex contemptu, vel negligentia hoc Sacramentum
+          praetermittitur, periculosam est et damnabile </quote>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

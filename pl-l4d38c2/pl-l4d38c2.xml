@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -14,18 +15,14 @@
         </respStmt>
       </titleStmt>
       <editionStmt>
-        <edition n="0.0.0-dev">
-          <title>CAP. II</title>
-          <date when="2017-10-21">October 21, 2017</date>
-        </edition>
+        <edition n="0.0.0-dev"> <title>CAP. II</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
       </editionStmt>
       <publicationStmt>
-        <authority>
-          <ref>SCTA</ref>
-        </authority>
+        <authority> <ref>SCTA</ref> </authority>
         <availability status="free">
-          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
-          </p>
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -35,7 +32,8 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -43,8 +41,7 @@
     </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2017-10-21" status="draft" n="0.0.0">
-          <p>Created file for the first time.</p>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
         </change>
       </listChange>
     </revisionDesc>
@@ -57,22 +54,92 @@
       <div xml:id="pl-l4d38c2">
         <head xml:id="pl-l4d38c2-Hd1e109">CAP. II</head>
         <head xml:id="pl-l4d38c2-Hd1e112" type="question-title">De votorum differentia.</head>
-        <p xml:id="pl-l4d38c2-d1e115">Sciendum vero, quod votum aliud commune est, aliud singulare: commune, ut illud quod in baptismo omnes faciunt, cum spondent renuntiare diabolo et pompis eius; singulare, ut cum aliquis sponte promittit servare virginitatem Vel continentiam, vel aliquid huiusmodi.</p>
-        <p xml:id="pl-l4d38c2-d1e118">Item singulare votum aliud est privatum, aliud solemne; privatum est in abscondito factum; solemne in conspectu Ecclesiae factum. Item privatum votum si violatur, peccatum est mortale; solemne vero violare, peccatum et scandalum est.</p>
-        <p xml:id="pl-l4d38c2-d1e121">Qui privatum faciunt votum continentiae, matrimonium contrahere non debent, quia contrahendo mortaliter peccant; si tamen contraxerint, non separentur, quia probari non potest quod occulte actum est. Qui enim solemniter vovent, nullatenus coniugium inirequeunt; quibus non solum nubere, sed et velle damnabile est.</p>
-        <p xml:id="pl-l4d38c2-d1e125">Unde <name ref="#Augustine">Augustinus</name>: <quote xml:id="pl-l4d38c2-Qd1e130">In coniugali vinculo, si pudicitia servatur, damnatio non limetur; sed in viduali continentia et virginali excellentia virtus muneris amplioris expetitur; qua expetita et electa et voto oblata, iam non solum capessere nuptias, sed etiam, si non nubant, nubere velle damnabile est</quote>. <quote xml:id="pl-l4d38c2-Qd1e133">Voventibus enim virginitatem vel viduitatem non solum nubere, sed et velle damnabile est</quote>.</p>
-        <p xml:id="pl-l4d38c2-d1e137">Quod <name ref="Paul">Apostolus</name> ostendit, Timotheo scribens: <quote xml:id="pl-l4d38c2-Qd1e142">Adolescentiores viduas devita; cum enim luxuriatae fuerint, in Christo nubere volunt,</quote> id est, cum post votum continentiae in deliciis egerint vitam, non dico nubunt, sed nubere volunt in Christo, quasi tunc non sit peccatum. Sed quod sit, ostendit subdens: <quote xml:id="pl-l4d38c2-Qd1e145">Habentes damnationem;</quote> et quare, subdit: <quote xml:id="pl-l4d38c2-Qd1e148">quia primam fidem irritam fecerunt,</quote> etsi non nubendo, tamen volendo; ut voluntatem, quae a proposito cecidit, apparet esse damnatam, sive sequantur nuptiae, sive non. Damnatur enim propositi fraus; damnantur tales, quia continentiae fidem primam irritam fecerunt, id est votum, vel in voto violato fidem, quam in baptismo professae sunt<quote xml:id="pl-l4d38c2-Qd1e151">. 
-</quote>Si autem pro voluntate nubendi damnantur, constat, si eam effectui mancipaverint, revocandum id esse in irritum, easque arcendas redire ad propositum.</p>
-        <p xml:id="pl-l4d38c2-d1e155">Unde <name ref="#GregoryGreat">Gregorius</name>: <quote xml:id="pl-l4d38c2-Qd1e160"> Viduas a proposito recedentes viduitatis, super quibus nos consuluisti, credo te nosse a sancto Paulo, nisi convertantur, olim esse damnatas; quas et nos apostolica auctoritate damnandas et a communione fidelium atque a liminibus ecclesiae arcendas fore censemus, usquequo obediant suis episcopis, et ad bonum, quod coeperunt, invite aut voluntarie revertantur </quote>.</p>
-        <p xml:id="pl-l4d38c2-d1e164"><!--<quote>--> De virginibus autem non velatis, si deviaverint, a praedecessore nostro Innocentio taliter decretum habemus: <quote xml:id="pl-l4d38c2-Qd1e167"> Hae quae, necdum sacro velamine tectae, tamen in virginali proposito semper se simulaverunt permanere, licet velatae non fuerint, tamen, si nupserint, aliquo tempore his agenda poenitentia est, quia sponsio earum a Domino tenebatur. Si enim inter homines solet bonae fidei contractus nulla ratione dissolvi, quanto magis ista pollicitatio, quam cum Deo pepigit, solvi sine vindicta non poterit</quote>?</p>
-        <p xml:id="pl-l4d38c2-d1e171">Item: <quote xml:id="pl-l4d38c2-Qd1e173">Si virgines nondum velatae taliter publica poenitentia puniuntur, et a coetu fidelium usque ad satisfactionem excluduntur, quanto magis viduae, quae perfectioris aetatis et maturioris consilii existunt, et habitum religionis assumserunt, et deinde apostataverunt atque ad priorem vomitum sunt reversae, a nobis et ab omnibus fidelibus a liminibus ecclesiae et a coetu fidelium usque ad satisfactionem sunt eliminandae et carceribus tradendae</quote>.</p>
-        <p xml:id="pl-l4d38c2-d1e177">Ex his apparet, virgines vel viduas voto continentiae astrictas, sive fuerint velatae, sive non, nullatenus coniugium sortiri posse. Quod itidem de omnibus intelligendum est, qui continentiam voverunt: quod enim ante erat licitum, post votum fit illicitum.</p>
-        <p xml:id="pl-l4d38c2-d1e181">Non est hic praetermittendum, quod Innocentius de viduis et puellis decrevit: <quote xml:id="pl-l4d38c2-Qd1e183">Quae Christo spiritualiter nubunt, si postea publice nupserint, non eas admittendas esse ad poenitentiam, nisi hi quibus se iunxerant, de mundo recesserint. Si enim de hominibus haec ratio custoditur, ut quaecumque, vivente viro, alteri nupserit, adultera habeatur, nec ei agendae poenitentiae licentia concedatur, nisi unus de his fuerit defunctus, quanto magis de illa tenenda est, quae ante se immortali Sponso coniunxerat, et post ad humanas nuptias transmigravit</quote>.</p>
-        <p xml:id="pl-l4d38c2-d1e187">Attende, quod non solum coniugium talibus negare videtur, sed etiam locum poenitentiae. Sed non ita intelligendum est, ut aliquando excludantur a poenitentia, quae digne poenitentiam agere volunt; sed illae non sunt admittendae ad poenitentiam, quae ab incesti copula discedere noluerint; quia post religionis propositum non potest Deo per poenitentiam reconciliari quae ad habitum suae professionis redire neglexerit. Tunc ille cui se iunxerat<quote xml:id="pl-l4d38c2-Qd1e189">, 
-</quote> ei defunctus erit, cum ab eius illicitis amplexibus haec penitus recesserit. Cum igitur dicitur, eas non esse admittendas ad poenitentiam, nisi hi quibus se iunxerant, recesserint de mundo, subaudiendum est eis: tunc enim eis viri de mundo recedunt et defunguntur, cum ab eorum concupiscentia istae se alienant.</p>
+        <p xml:id="pl-l4d38c2-d1e115">Sciendum vero, quod votum aliud commune est, aliud singulare:
+          commune, ut illud quod in baptismo omnes faciunt, cum spondent renuntiare diabolo et
+          pompis eius; singulare, ut cum aliquis sponte promittit servare virginitatem Vel
+          continentiam, vel aliquid huiusmodi.</p>
+        <p xml:id="pl-l4d38c2-d1e118">Item singulare votum aliud est privatum, aliud solemne;
+          privatum est in abscondito factum; solemne in conspectu Ecclesiae factum. Item privatum
+          votum si violatur, peccatum est mortale; solemne vero violare, peccatum et scandalum
+          est.</p>
+        <p xml:id="pl-l4d38c2-d1e121">Qui privatum faciunt votum continentiae, matrimonium
+          contrahere non debent, quia contrahendo mortaliter peccant; si tamen contraxerint, non
+          separentur, quia probari non potest quod occulte actum est. Qui enim solemniter vovent,
+          nullatenus coniugium inirequeunt; quibus non solum nubere, sed et velle damnabile est.</p>
+        <p xml:id="pl-l4d38c2-d1e125">Unde <name ref="#Augustine">Augustinus</name>: <quote
+          xml:id="pl-l4d38c2-Qd1e130">In coniugali vinculo, si pudicitia servatur, damnatio non
+          limetur; sed in viduali continentia et virginali excellentia virtus muneris amplioris
+          expetitur; qua expetita et electa et voto oblata, iam non solum capessere nuptias, sed
+          etiam, si non nubant, nubere velle damnabile est</quote>. <quote
+          xml:id="pl-l4d38c2-Qd1e133">Voventibus enim virginitatem vel viduitatem non solum nubere,
+          sed et velle damnabile est</quote>.</p>
+        <p xml:id="pl-l4d38c2-d1e137">Quod <name ref="Paul">Apostolus</name> ostendit, Timotheo
+          scribens: <quote xml:id="pl-l4d38c2-Qd1e142">Adolescentiores viduas devita; cum enim
+          luxuriatae fuerint, in Christo nubere volunt,</quote> id est, cum post votum continentiae
+          in deliciis egerint vitam, non dico nubunt, sed nubere volunt in Christo, quasi tunc non
+          sit peccatum. Sed quod sit, ostendit subdens: <quote xml:id="pl-l4d38c2-Qd1e145">Habentes
+          damnationem;</quote> et quare, subdit: <quote xml:id="pl-l4d38c2-Qd1e148">quia primam
+          fidem irritam fecerunt,</quote> etsi non nubendo, tamen volendo; ut voluntatem, quae a
+          proposito cecidit, apparet esse damnatam, sive sequantur nuptiae, sive non. Damnatur enim
+          propositi fraus; damnantur tales, quia continentiae fidem primam irritam fecerunt, id est
+          votum, vel in voto violato fidem, quam in baptismo professae sunt<quote
+          xml:id="pl-l4d38c2-Qd1e151">. </quote>Si autem pro voluntate nubendi damnantur, constat,
+          si eam effectui mancipaverint, revocandum id esse in irritum, easque arcendas redire ad
+          propositum.</p>
+        <p xml:id="pl-l4d38c2-d1e155">Unde <name ref="#GregoryGreat">Gregorius</name>: <quote
+          xml:id="pl-l4d38c2-Qd1e160"> Viduas a proposito recedentes viduitatis, super quibus nos
+          consuluisti, credo te nosse a sancto Paulo, nisi convertantur, olim esse damnatas; quas et
+          nos apostolica auctoritate damnandas et a communione fidelium atque a liminibus ecclesiae
+          arcendas fore censemus, usquequo obediant suis episcopis, et ad bonum, quod coeperunt,
+          invite aut voluntarie revertantur </quote>.</p>
+        <p xml:id="pl-l4d38c2-d1e164"><!--<quote>--> De virginibus autem non velatis, si
+          deviaverint, a praedecessore nostro Innocentio taliter decretum habemus: <quote
+          xml:id="pl-l4d38c2-Qd1e167"> Hae quae, necdum sacro velamine tectae, tamen in virginali
+          proposito semper se simulaverunt permanere, licet velatae non fuerint, tamen, si
+          nupserint, aliquo tempore his agenda poenitentia est, quia sponsio earum a Domino
+          tenebatur. Si enim inter homines solet bonae fidei contractus nulla ratione dissolvi,
+          quanto magis ista pollicitatio, quam cum Deo pepigit, solvi sine vindicta non
+          poterit</quote>?</p>
+        <p xml:id="pl-l4d38c2-d1e171">Item: <quote xml:id="pl-l4d38c2-Qd1e173">Si virgines nondum
+          velatae taliter publica poenitentia puniuntur, et a coetu fidelium usque ad satisfactionem
+          excluduntur, quanto magis viduae, quae perfectioris aetatis et maturioris consilii
+          existunt, et habitum religionis assumserunt, et deinde apostataverunt atque ad priorem
+          vomitum sunt reversae, a nobis et ab omnibus fidelibus a liminibus ecclesiae et a coetu
+          fidelium usque ad satisfactionem sunt eliminandae et carceribus tradendae</quote>.</p>
+        <p xml:id="pl-l4d38c2-d1e177">Ex his apparet, virgines vel viduas voto continentiae
+          astrictas, sive fuerint velatae, sive non, nullatenus coniugium sortiri posse. Quod itidem
+          de omnibus intelligendum est, qui continentiam voverunt: quod enim ante erat licitum, post
+          votum fit illicitum.</p>
+        <p xml:id="pl-l4d38c2-d1e181">Non est hic praetermittendum, quod Innocentius de viduis et
+          puellis decrevit: <quote xml:id="pl-l4d38c2-Qd1e183">Quae Christo spiritualiter nubunt, si
+          postea publice nupserint, non eas admittendas esse ad poenitentiam, nisi hi quibus se
+          iunxerant, de mundo recesserint. Si enim de hominibus haec ratio custoditur, ut
+          quaecumque, vivente viro, alteri nupserit, adultera habeatur, nec ei agendae poenitentiae
+          licentia concedatur, nisi unus de his fuerit defunctus, quanto magis de illa tenenda est,
+          quae ante se immortali Sponso coniunxerat, et post ad humanas nuptias
+          transmigravit</quote>.</p>
+        <p xml:id="pl-l4d38c2-d1e187">Attende, quod non solum coniugium talibus negare videtur, sed
+          etiam locum poenitentiae. Sed non ita intelligendum est, ut aliquando excludantur a
+          poenitentia, quae digne poenitentiam agere volunt; sed illae non sunt admittendae ad
+          poenitentiam, quae ab incesti copula discedere noluerint; quia post religionis propositum
+          non potest Deo per poenitentiam reconciliari quae ad habitum suae professionis redire
+          neglexerit. Tunc ille cui se iunxerat<quote xml:id="pl-l4d38c2-Qd1e189">, </quote> ei
+          defunctus erit, cum ab eius illicitis amplexibus haec penitus recesserit. Cum igitur
+          dicitur, eas non esse admittendas ad poenitentiam, nisi hi quibus se iunxerant,
+          recesserint de mundo, subaudiendum est eis: tunc enim eis viri de mundo recedunt et
+          defunguntur, cum ab eorum concupiscentia istae se alienant.</p>
         <p xml:id="pl-l4d38c2-d1e193">Quem sensum subdita similitudo declarat et confirmat.</p>
-        <p xml:id="pl-l4d38c2-d1e196">Cum vir et mulier legitime coniuncti sunt, constat, alterum, allero vivente, ad aliam non posse transire copulam, alioquin adulterium committit; de quo Clemens Papa ait: <quote xml:id="pl-l4d38c2-Qd1e198">Quid in omnibus peccatis est adulterio gravius? Secundum namque in poenis tenet locum, quem primum illi habent qui aberrant a Deo </quote>.Gravissime igitur peccant adulteri, graviter fornicarii, sed cunctis bis gravius incestuosi, quos omnes transcendunt contra naturam delinquentes.</p>
-        <p xml:id="pl-l4d38c2-d1e202">Unde <name ref="#Augustine">Augustinus</name>: <quote xml:id="pl-l4d38c2-Qd1e207"> Adulterii malum vincit fornicationem, vincitur autem ab incestu: peius enim est cum matre quam cum aliena uxore dormire. Sed horum omnium pessimum est quod contra naturam fit, ut si vir membro mulieris, non ad hoc concesso, utatur; hoc exsecrabiliter fit in meretrice, sed exsecrabilius fit in uxore</quote>.</p>
+        <p xml:id="pl-l4d38c2-d1e196">Cum vir et mulier legitime coniuncti sunt, constat, alterum,
+          allero vivente, ad aliam non posse transire copulam, alioquin adulterium committit; de quo
+          Clemens Papa ait: <quote xml:id="pl-l4d38c2-Qd1e198">Quid in omnibus peccatis est
+          adulterio gravius? Secundum namque in poenis tenet locum, quem primum illi habent qui
+          aberrant a Deo </quote>.Gravissime igitur peccant adulteri, graviter fornicarii, sed
+          cunctis bis gravius incestuosi, quos omnes transcendunt contra naturam delinquentes.</p>
+        <p xml:id="pl-l4d38c2-d1e202">Unde <name ref="#Augustine">Augustinus</name>: <quote
+          xml:id="pl-l4d38c2-Qd1e207"> Adulterii malum vincit fornicationem, vincitur autem ab
+          incestu: peius enim est cum matre quam cum aliena uxore dormire. Sed horum omnium pessimum
+          est quod contra naturam fit, ut si vir membro mulieris, non ad hoc concesso, utatur; hoc
+          exsecrabiliter fit in meretrice, sed exsecrabilius fit in uxore</quote>.</p>
       </div>
     </body>
   </text>

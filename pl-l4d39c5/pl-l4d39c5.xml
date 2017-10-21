@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -14,18 +15,14 @@
         </respStmt>
       </titleStmt>
       <editionStmt>
-        <edition n="0.0.0-dev">
-          <title>CAP. V</title>
-          <date when="2017-10-21">October 21, 2017</date>
-        </edition>
+        <edition n="0.0.0-dev"> <title>CAP. V</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
       </editionStmt>
       <publicationStmt>
-        <authority>
-          <ref>SCTA</ref>
-        </authority>
+        <authority> <ref>SCTA</ref> </authority>
         <availability status="free">
-          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
-          </p>
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -35,7 +32,8 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -43,8 +41,7 @@
     </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2017-10-21" status="draft" n="0.0.0">
-          <p>Created file for the first time.</p>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
         </change>
       </listChange>
     </revisionDesc>
@@ -56,16 +53,42 @@
     <body>
       <div xml:id="pl-l4d39c5">
         <head xml:id="pl-l4d39c5-Hd1e109">CAP. V</head>
-        <head xml:id="pl-l4d39c5-Hd1e112" type="question-title">Quando licet fideli aliam ducere, vel non.</head>
-        <p xml:id="pl-l4d39c5-d1e115">Hic quaeritur, si fidelis infidelem dimittat, vel infidelis a fideli discedat, an liceat fideli aliam ducere.</p>
-        <p xml:id="pl-l4d39c5-d1e118">Videtur auctoritas testari, quod vivente illa, alteram ducere non valeat.</p>
-        <p xml:id="pl-l4d39c5-d1e121">
-          <name ref="#Ambrose">Ambrosius</name> enim verba Apostoli exponens ait: <quote xml:id="pl-l4d39c5-Qd1e126"> Alioquin, si disceditis ab invicem et volentes cohabitare dimittitis, et aliis vos copulatis, adulteri estis, et filii vestri, qui de hac copula nascuntur, immundi, id est spurii sunt</quote>.</p>
-        <p xml:id="pl-l4d39c5-d1e131">Item: <quote xml:id="pl-l4d39c5-Qd1e133">Si quis habuerit uxorem virginem ante baptismum, vivente illa, post baptismum alleram habere non potest: crimina enim in baptismo solvuntur, non coniugia </quote>.</p>
-        <p xml:id="pl-l4d39c5-d1e137">Sed econtra <name ref="#Ambrose">Ambrosius</name> testatur: <quote xml:id="pl-l4d39c5-Qd1e142">Si infidelis,</quote> dicit <name ref="Paul">Apostolus</name> 
-          <quote xml:id="pl-l4d39c5-Qd1e148">discedit, discedat. Non enim est servituti subiectus fraper aut soror in huiusmodi;</quote> quia <quote xml:id="pl-l4d39c5-Qd1e151"> non debetur reverentia conjugii ei qui horret auctorem coniugii. Non est enim ratum matrimonium, quod sine Dei devotione est; et ideo non est peccatum ei qui dimittitur propter Deum, si alii se copulaverit. Contumelia enim Creatoris solvit ius matrimonii circa eum qui relinquitur, ne accusetur alii copulatus. Infidelis autem discedens et in Deum peccat et in matrimonium, nec est ei servanda fides coniugii qui ideo recessit, ne audiret Christum esse Deum Christianorum coniugiorum. Si vero ambo crediderint, per cognitionem Dei confirmatur coniugium </quote>.</p>
-        <p xml:id="pl-l4d39c5-d1e155">Attende, haec praedictis contraria posse videri, ut sibi etiam <name ref="#Ambrose">Ambrosius</name> contradicere videatur. <quote xml:id="pl-l4d39c5-Qd1e160">Sed distinguendun est hic: aliud esse dimittere volentem cohabitare, aliud dimitti propter Deum ab illo qui horret nomen Christi. Ibi lex benevolentiae non servatur, hic veritas custoditur. Et ideo, cum liceat dimittere volen tem cohabitare, non tamen, ea vi vente, aliam ducere; discedentem vero sequi non oportet, et ea vivente, aliam ducere licet<quote xml:id="pl-l4d39c5-Qd1e162">. 
-</quote>Sed hoc non est intelligendum, nisi de his qui in infidelitate sibi copulati sunt. Sed si ad fidem uterque conversus est, vel si uterque fidelis matrimonio coniunctus est, et post alter eorum a fide discesserit et odio fidei coniugem reliquerit, dimissus discedentem non comitabitur; nec tamen, illa vivente, alteram ducere poterit, quia inter eos fuerat ratium coniugium, quod non potest dissolvi </quote>.</p>
+        <head xml:id="pl-l4d39c5-Hd1e112" type="question-title">Quando licet fideli aliam ducere,
+          vel non.</head>
+        <p xml:id="pl-l4d39c5-d1e115">Hic quaeritur, si fidelis infidelem dimittat, vel infidelis a
+          fideli discedat, an liceat fideli aliam ducere.</p>
+        <p xml:id="pl-l4d39c5-d1e118">Videtur auctoritas testari, quod vivente illa, alteram ducere
+          non valeat.</p>
+        <p xml:id="pl-l4d39c5-d1e121"> <name ref="#Ambrose">Ambrosius</name> enim verba Apostoli
+          exponens ait: <quote xml:id="pl-l4d39c5-Qd1e126"> Alioquin, si disceditis ab invicem et
+          volentes cohabitare dimittitis, et aliis vos copulatis, adulteri estis, et filii vestri,
+          qui de hac copula nascuntur, immundi, id est spurii sunt</quote>.</p>
+        <p xml:id="pl-l4d39c5-d1e131">Item: <quote xml:id="pl-l4d39c5-Qd1e133">Si quis habuerit
+          uxorem virginem ante baptismum, vivente illa, post baptismum alleram habere non potest:
+          crimina enim in baptismo solvuntur, non coniugia </quote>.</p>
+        <p xml:id="pl-l4d39c5-d1e137">Sed econtra <name ref="#Ambrose">Ambrosius</name> testatur:
+          <quote xml:id="pl-l4d39c5-Qd1e142">Si infidelis,</quote> dicit <name ref="Paul"
+          >Apostolus</name> <quote xml:id="pl-l4d39c5-Qd1e148">discedit, discedat. Non enim est
+          servituti subiectus fraper aut soror in huiusmodi;</quote> quia <quote
+          xml:id="pl-l4d39c5-Qd1e151"> non debetur reverentia conjugii ei qui horret auctorem
+          coniugii. Non est enim ratum matrimonium, quod sine Dei devotione est; et ideo non est
+          peccatum ei qui dimittitur propter Deum, si alii se copulaverit. Contumelia enim Creatoris
+          solvit ius matrimonii circa eum qui relinquitur, ne accusetur alii copulatus. Infidelis
+          autem discedens et in Deum peccat et in matrimonium, nec est ei servanda fides coniugii
+          qui ideo recessit, ne audiret Christum esse Deum Christianorum coniugiorum. Si vero ambo
+          crediderint, per cognitionem Dei confirmatur coniugium </quote>.</p>
+        <p xml:id="pl-l4d39c5-d1e155">Attende, haec praedictis contraria posse videri, ut sibi etiam
+          <name ref="#Ambrose">Ambrosius</name> contradicere videatur. <quote
+          xml:id="pl-l4d39c5-Qd1e160">Sed distinguendun est hic: aliud esse dimittere volentem
+          cohabitare, aliud dimitti propter Deum ab illo qui horret nomen Christi. Ibi lex
+          benevolentiae non servatur, hic veritas custoditur. Et ideo, cum liceat dimittere volen
+          tem cohabitare, non tamen, ea vi vente, aliam ducere; discedentem vero sequi non oportet,
+          et ea vivente, aliam ducere licet<quote xml:id="pl-l4d39c5-Qd1e162">. </quote>Sed hoc non
+          est intelligendum, nisi de his qui in infidelitate sibi copulati sunt. Sed si ad fidem
+          uterque conversus est, vel si uterque fidelis matrimonio coniunctus est, et post alter
+          eorum a fide discesserit et odio fidei coniugem reliquerit, dimissus discedentem non
+          comitabitur; nec tamen, illa vivente, alteram ducere poterit, quia inter eos fuerat ratium
+          coniugium, quod non potest dissolvi </quote>.</p>
       </div>
     </body>
   </text>

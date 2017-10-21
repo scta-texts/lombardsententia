@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -14,18 +15,14 @@
         </respStmt>
       </titleStmt>
       <editionStmt>
-        <edition n="0.0.0-dev">
-          <title>CAP. I</title>
-          <date when="2017-10-21">October 21, 2017</date>
-        </edition>
+        <edition n="0.0.0-dev"> <title>CAP. I</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
       </editionStmt>
       <publicationStmt>
-        <authority>
-          <ref>SCTA</ref>
-        </authority>
+        <authority> <ref>SCTA</ref> </authority>
         <availability status="free">
-          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
-          </p>
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -35,7 +32,8 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -43,8 +41,7 @@
     </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2017-10-21" status="draft" n="0.0.0">
-          <p>Created file for the first time.</p>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
         </change>
       </listChange>
     </revisionDesc>
@@ -56,21 +53,73 @@
     <body>
       <div xml:id="pl-l4d46c1">
         <head xml:id="pl-l4d46c1-Hd1e109">CAP. I</head>
-        <head xml:id="pl-l4d46c1-Hd1e112" type="question-title">Si valde malis praestatur mitigatio poenae.</head>
-        <p xml:id="pl-l4d46c1-d1e115">Sed quaeritur hic de valde malis, utrum et ipsi in aliqua poenarum mitigatione Dei misericordiam sentiant, ut minus quam meruerint, puniantur.</p>
-        <p xml:id="pl-l4d46c1-d1e118">Quidam autumant, eos nullam relevationem poenae habituros; quod confirmant lacobi auctoritate dicentis: <quote xml:id="pl-l4d46c1-Qd1e120">ludicium sine misericordia fiet illi, qui non fecit misericordiam.</quote>
-        </p>
-        <p xml:id="pl-l4d46c1-d1e124">
-          <name ref="#Augustine">Augustinus</name> etiam ait: <quote xml:id="pl-l4d46c1-Qd1e129">Misericordia hic, iudicium in futuro </quote>.</p>
-        <p xml:id="pl-l4d46c1-d1e134">Idem distinguens, quomodo omnes viae Domini sint <quote xml:id="pl-l4d46c1-Qd1e136">misericordia et veritas,</quote> ait: <quote xml:id="pl-l4d46c1-Qd1e139"> Erga Sanctos omnes viae Dei misericordia, omnes veritas; quia et in iudicando subvenit, et ita non deest misericordia, et in miserando id exhibet, quod promisit, ne desit veritas. Erga omnes autem, quos liberat et damnat, omnes viae sunt misericordia et veritas, quia, ubi non miseretur, vindictae veritas datur </quote>. Dicens: <quote xml:id="pl-l4d46c1-Qd1e142">ubi non miseretur</quote>, dat intelligi, aliquid a Deo fieri, ubi ipse non miseretur.</p>
-        <p xml:id="pl-l4d46c1-d1e146">Sed his occurrit quod ait <name ref="Cassiodorus">Cassiodorus</name> 
-          <title>Super Psalmum 50</title>, loquens de misericordia et pietate Dei: <quote xml:id="pl-l4d46c1-Qd1e154"> Hae duae, inquit, res iudicio Dei semper adiunctae sunt</quote>. Ergo et in punitione malorum non est iustitia sine misericordia.</p>
-        <p xml:id="pl-l4d46c1-d1e158">Idem de iudicio et misericordia ait: <quote xml:id="pl-l4d46c1-Qd1e160">Haec duo mutua societate sibi iunguntur </quote>. In his breviter onmia opera Dei includit.</p>
-        <p xml:id="pl-l4d46c1-d1e164">
-          <name ref="#Augustine">Augustinus</name> quoque respondens illis qui reproborum supplicia finem habitura contendunt, ita illorum repellit opinionem, asserens reprobos perpetuo puniendos, ut eorum supplicia aliquatenus mitigari non neget. <quote xml:id="pl-l4d46c1-Qd1e169"> Frustra, inquit, nonnulli aeternam damnandorum poenam et cruciatus sine intermissione perpetuos humano miserantur affectu, atque ita futurum esse non credunt, non quidem Scripturis adversando divinis, sed pro suo motu dura quaeque molliendo et in leniorem flectendo sententiam, quae putant in eis terribilius esse dicta quam verius. <quote xml:id="pl-l4d46c1-Qd1e171">Non enim,</quote> inquiunt, 
-<quote xml:id="pl-l4d46c1-Qd1e174">obliviscetur misereri Deus, aut continebit in ira sua misericordias suas</quote>. Hoc quidem in Psalmo legitur, sed de his intelligitur, qui sunt <quote xml:id="pl-l4d46c1-Qd1e177">vasa misericordiae</quote>, quia et ipsi non pro meritis suis, sed Deo miserante, de miseria liberantur. Aut si hoc ad omnes aestimant pertinere, non ideo necesse est, ut damnationem opinentur finiri posse eorum, de quibus dictum est: <quote xml:id="pl-l4d46c1-Qd1e180">Ibunt hi in supplicium aeternum;</quote> ne hoc modo putetur habitura finem felicitas illorum, de quibus e contrario dictum est: <quote xml:id="pl-l4d46c1-Qd1e183">Iusti autem in vitam aeternam.</quote> Sed poenas damnatorum certis temporibus aestiment, si eis hoc placet, aliquatenus mitigari. Etiam sic quippe intelligi potest <quote xml:id="pl-l4d46c1-Qd1e187">manere ira Dei</quote> in illis, id est ipsa damnatio. Haec enim vocatur ira Dei, non divini animi perturbatio, ut in ira sua, id est manente ira sua, non contineat miserationes suas, non aeterno supplicio finem dando, sed levamen adhibendo vel interponendo cruciatibus; quia nec Psalmus ait ad finiendam iram suam, vel post iram suam, sed <quote xml:id="pl-l4d46c1-Qd1e190">in ira sua.</quote> Quae si sola esset alienari a regno Dei, carere magna multitudine dulcedinis Dei, tam grandis tamen est poena, ut ei possint nulla tormenta, quae novimus, comparari, si illa sit aeterna, ista autem sit quamlibet multis saeculis longa</quote>. <quote xml:id="pl-l4d46c1-Qd1e194">Manebit ergo sine fine mors perpetua damnatorum, et omnibus erit ipsa communis, sicut manebit communiter omnium vita aeterna Sanctorum</quote>.</p>
-        <p xml:id="pl-l4d46c1-d1e198">Ecce, ita asserit hic, poenas reproborum non esse finiendas, quod non improbat, si dicatur eorum supplicio aliquod levamen adhiberi. Unde non incongrue dici potest, Deum, etsi iuste id possit, non omnino tantum punire malos in futuro, quantum meruerunt, sed aliquid eis, quantumcumque mali sint, de poena relaxare.</p>
-        <p xml:id="pl-l4d46c1-d1e201">Quod ergo dictum est: <quote xml:id="pl-l4d46c1-Qd1e203">iudicium sine misericordia illi fiet qui non fecit misericordiam,</quote> ita intelligi potest, quod iudicium damnationis fiet illi qui non fecit misericordiam, pro eo quod fuit sine misericordia; vel fiet ei iudicium sine mirericordia liberante et salvante, qui tamen in aliqua poenae alleviatione misericordiam Dei sentiet. Ita cum dicitur: misericordia hic, iudicium in futuro, non negatur quin in futuro sit misericordiae effectus, et in electis, qui per misericordiam ab omni miseria liberabuntur, et in reprobis, qui minus quam meruerint, cruciabuntur. Sed hic non sine causa dicitur fieri misericordia, et iudicium in futuro, quia et hic multis modis miseretur Deus, quibus non miserebitur tunc: vocat enim nunc peccatores et iustificat, quod tunc non faciet; et tunc, reddens singulis secundum merita, manifeste indicabit qui nunc occulte iudicat.</p>
+        <head xml:id="pl-l4d46c1-Hd1e112" type="question-title">Si valde malis praestatur mitigatio
+          poenae.</head>
+        <p xml:id="pl-l4d46c1-d1e115">Sed quaeritur hic de valde malis, utrum et ipsi in aliqua
+          poenarum mitigatione Dei misericordiam sentiant, ut minus quam meruerint, puniantur.</p>
+        <p xml:id="pl-l4d46c1-d1e118">Quidam autumant, eos nullam relevationem poenae habituros;
+          quod confirmant lacobi auctoritate dicentis: <quote xml:id="pl-l4d46c1-Qd1e120">ludicium
+          sine misericordia fiet illi, qui non fecit misericordiam.</quote> </p>
+        <p xml:id="pl-l4d46c1-d1e124"> <name ref="#Augustine">Augustinus</name> etiam ait: <quote
+          xml:id="pl-l4d46c1-Qd1e129">Misericordia hic, iudicium in futuro </quote>.</p>
+        <p xml:id="pl-l4d46c1-d1e134">Idem distinguens, quomodo omnes viae Domini sint <quote
+          xml:id="pl-l4d46c1-Qd1e136">misericordia et veritas,</quote> ait: <quote
+          xml:id="pl-l4d46c1-Qd1e139"> Erga Sanctos omnes viae Dei misericordia, omnes veritas; quia
+          et in iudicando subvenit, et ita non deest misericordia, et in miserando id exhibet, quod
+          promisit, ne desit veritas. Erga omnes autem, quos liberat et damnat, omnes viae sunt
+          misericordia et veritas, quia, ubi non miseretur, vindictae veritas datur </quote>.
+          Dicens: <quote xml:id="pl-l4d46c1-Qd1e142">ubi non miseretur</quote>, dat intelligi,
+          aliquid a Deo fieri, ubi ipse non miseretur.</p>
+        <p xml:id="pl-l4d46c1-d1e146">Sed his occurrit quod ait <name ref="Cassiodorus"
+          >Cassiodorus</name> <title>Super Psalmum 50</title>, loquens de misericordia et pietate
+          Dei: <quote xml:id="pl-l4d46c1-Qd1e154"> Hae duae, inquit, res iudicio Dei semper
+          adiunctae sunt</quote>. Ergo et in punitione malorum non est iustitia sine
+          misericordia.</p>
+        <p xml:id="pl-l4d46c1-d1e158">Idem de iudicio et misericordia ait: <quote
+          xml:id="pl-l4d46c1-Qd1e160">Haec duo mutua societate sibi iunguntur </quote>. In his
+          breviter onmia opera Dei includit.</p>
+        <p xml:id="pl-l4d46c1-d1e164"> <name ref="#Augustine">Augustinus</name> quoque respondens
+          illis qui reproborum supplicia finem habitura contendunt, ita illorum repellit opinionem,
+          asserens reprobos perpetuo puniendos, ut eorum supplicia aliquatenus mitigari non neget.
+          <quote xml:id="pl-l4d46c1-Qd1e169"> Frustra, inquit, nonnulli aeternam damnandorum poenam
+          et cruciatus sine intermissione perpetuos humano miserantur affectu, atque ita futurum
+          esse non credunt, non quidem Scripturis adversando divinis, sed pro suo motu dura quaeque
+          molliendo et in leniorem flectendo sententiam, quae putant in eis terribilius esse dicta
+          quam verius. <quote xml:id="pl-l4d46c1-Qd1e171">Non enim,</quote> inquiunt, <quote
+          xml:id="pl-l4d46c1-Qd1e174">obliviscetur misereri Deus, aut continebit in ira sua
+          misericordias suas</quote>. Hoc quidem in Psalmo legitur, sed de his intelligitur, qui
+          sunt <quote xml:id="pl-l4d46c1-Qd1e177">vasa misericordiae</quote>, quia et ipsi non pro
+          meritis suis, sed Deo miserante, de miseria liberantur. Aut si hoc ad omnes aestimant
+          pertinere, non ideo necesse est, ut damnationem opinentur finiri posse eorum, de quibus
+          dictum est: <quote xml:id="pl-l4d46c1-Qd1e180">Ibunt hi in supplicium aeternum;</quote> ne
+          hoc modo putetur habitura finem felicitas illorum, de quibus e contrario dictum est:
+          <quote xml:id="pl-l4d46c1-Qd1e183">Iusti autem in vitam aeternam.</quote> Sed poenas
+          damnatorum certis temporibus aestiment, si eis hoc placet, aliquatenus mitigari. Etiam sic
+          quippe intelligi potest <quote xml:id="pl-l4d46c1-Qd1e187">manere ira Dei</quote> in
+          illis, id est ipsa damnatio. Haec enim vocatur ira Dei, non divini animi perturbatio, ut
+          in ira sua, id est manente ira sua, non contineat miserationes suas, non aeterno supplicio
+          finem dando, sed levamen adhibendo vel interponendo cruciatibus; quia nec Psalmus ait ad
+          finiendam iram suam, vel post iram suam, sed <quote xml:id="pl-l4d46c1-Qd1e190">in ira
+          sua.</quote> Quae si sola esset alienari a regno Dei, carere magna multitudine dulcedinis
+          Dei, tam grandis tamen est poena, ut ei possint nulla tormenta, quae novimus, comparari,
+          si illa sit aeterna, ista autem sit quamlibet multis saeculis longa</quote>. <quote
+          xml:id="pl-l4d46c1-Qd1e194">Manebit ergo sine fine mors perpetua damnatorum, et omnibus
+          erit ipsa communis, sicut manebit communiter omnium vita aeterna Sanctorum</quote>.</p>
+        <p xml:id="pl-l4d46c1-d1e198">Ecce, ita asserit hic, poenas reproborum non esse finiendas,
+          quod non improbat, si dicatur eorum supplicio aliquod levamen adhiberi. Unde non incongrue
+          dici potest, Deum, etsi iuste id possit, non omnino tantum punire malos in futuro, quantum
+          meruerunt, sed aliquid eis, quantumcumque mali sint, de poena relaxare.</p>
+        <p xml:id="pl-l4d46c1-d1e201">Quod ergo dictum est: <quote xml:id="pl-l4d46c1-Qd1e203"
+          >iudicium sine misericordia illi fiet qui non fecit misericordiam,</quote> ita intelligi
+          potest, quod iudicium damnationis fiet illi qui non fecit misericordiam, pro eo quod fuit
+          sine misericordia; vel fiet ei iudicium sine mirericordia liberante et salvante, qui tamen
+          in aliqua poenae alleviatione misericordiam Dei sentiet. Ita cum dicitur: misericordia
+          hic, iudicium in futuro, non negatur quin in futuro sit misericordiae effectus, et in
+          electis, qui per misericordiam ab omni miseria liberabuntur, et in reprobis, qui minus
+          quam meruerint, cruciabuntur. Sed hic non sine causa dicitur fieri misericordia, et
+          iudicium in futuro, quia et hic multis modis miseretur Deus, quibus non miserebitur tunc:
+          vocat enim nunc peccatores et iustificat, quod tunc non faciet; et tunc, reddens singulis
+          secundum merita, manifeste indicabit qui nunc occulte iudicat.</p>
       </div>
     </body>
   </text>

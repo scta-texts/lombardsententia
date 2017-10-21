@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -14,18 +15,14 @@
         </respStmt>
       </titleStmt>
       <editionStmt>
-        <edition n="0.0.0-dev">
-          <title>CAP. III</title>
-          <date when="2017-10-21">October 21, 2017</date>
-        </edition>
+        <edition n="0.0.0-dev"> <title>CAP. III</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
       </editionStmt>
       <publicationStmt>
-        <authority>
-          <ref>SCTA</ref>
-        </authority>
+        <authority> <ref>SCTA</ref> </authority>
         <availability status="free">
-          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
-          </p>
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -35,7 +32,8 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -43,8 +41,7 @@
     </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2017-10-21" status="draft" n="0.0.0">
-          <p>Created file for the first time.</p>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
         </change>
       </listChange>
     </revisionDesc>
@@ -56,12 +53,50 @@
     <body>
       <div xml:id="pl-l4d46c3">
         <head xml:id="pl-l4d46c3-Hd1e109">CAP. III</head>
-        <head xml:id="pl-l4d46c3-Hd1e112" type="question-title">De iustitia et misericordia Dei.</head>
-        <p xml:id="pl-l4d46c3-d1e115">Sed quomodo iustitiam Dei et pietatem, id est misericordiam, supra <name ref="Cassiodorus">Cassiodorus</name> duas res esse dixit, quae semper adiunctae sunt Dei iudicio? Iustitia enim Dei et misericordia non duae res, sed una res, id est divina essentia, est, sicut supra  pluribus auctoritatibus ostensum est: quia non est Deo aliud esse misericordem quam misericordiam, nec iustum quam iustitiam, sed idem prorsus; nec aliud est esse misericordem quam iustum, vel misericordiam quam iustitiam, sed omnino idem; quia non denominative, sed essentialiter haec de Deo dicuntur. Cur igitur dicit Scriptura de operibus Dei, quaedam esse misericordiae, quaedam iustitiae? Si enim iustitia Dei misericordia est, quaecumque sunt opera misericordiae, esse videntur iustitiae, et e converso.</p>
-        <p xml:id="pl-l4d46c3-d1e121">His responderi potest sic: Illis locutionibus, quibus huiusmodi operum fiunt distinctiones, ut alia misericordiae, alia iustitiae, alia bonitati tribuantur, non diversitas subiacentis, id est rei his vocabulis significatae, exprimitur, sed varietas sensuum et effectuum in creaturis monstratur. Cum enim dicitur Deus iustus vel iustitia, essentia divina praedicatur; et etiam, quod ipse sit distributor et iudex meritorum, intelligi datur. Ita et cum dicitur misericors, essentia divina praedicatur, et insuper, quod ipse sit miserorum liberator intelligi datur. Similiter, cum dicitur bonus, essentia divina praedicatur, ut cum dicitur Deus, et insuper auctor omnium bonorum ostenditur. Ita et cum dicitur Deus, essentia divina praedicatur, et ipse timendus ostenditur. Inde ergo quaedam opera misericordiae, quaedam iustitiae dicuntur, non quin essentia divina haec et illa operetur, et quin haec et illa sint opera divinae essentiae, quae dicitur misericordia et iustitia, sed quia quaedam sunt, quibus ostenditur iudex et aequus distributor, quaedam, quibus ostenditur miserator — misericors enim dicitur in natura, miserator in exhibitione — et in quibusdam operibus dicitur effectus esse misericordiae, in quibusdam effectus iustitiae, non quod aliud efficiat iustitia, aliud misericordia Dei, si ad essentiam referas, sed quia ex quibusdam effectibus intelligitur iudex, ex quibusdam miserator, vol ut quibusdam placet, iustus et misericors.</p>
-        <p xml:id="pl-l4d46c3-d1e124">Sed secundum hoc occurrit quaestio, quomodo ex aliis ostendatur iustus et ex aliis misericors, cum sit ei idem esse iustum et misericordem esse. Si enim secundum eandem rationem dicitur iustus et misericors, ex eo opere, quo intelligitur iustus, intelligitur misericors, et e converso.</p>
-        <p xml:id="pl-l4d46c3-d1e128">Sed dixi supra, quia, cum dicitur Deus iustus et misericors, ita eadem divina essentia significatur, et secundum eam idem praedicatur, ut etiam quaedam diversa intelligantur. Intelligimus enim per hoc eum miseratorem et iustum iudicem.</p>
-        <p xml:id="pl-l4d46c3-d1e131">Quod evidenter <name ref="Origen">Origenes</name> ostendit dicens: <quote xml:id="pl-l4d46c3-Qd1e136">Omnia quae Dei sunt, Christus est: ipse sapientia eius, ipse fortitudo, iustitia, sanctitas, ipse prudentia. Sed cum unum sit in subiacenti, pro varietate sensuum diversis nuncupatur vocabulis: aliud enim significat sapientia, aliud iustitia. Quando enim sapientia dicitur disciplinis te divinarum humanarumque rerum instruere intelligitur; quando iustitia, distributor vel iudex meritorum insinuatur. Ita et prudentia cum dicitur, doctor et demonstrator bonarum et malarum rerum vel neutrarum intelligitur </quote>.</p>
+        <head xml:id="pl-l4d46c3-Hd1e112" type="question-title">De iustitia et misericordia
+          Dei.</head>
+        <p xml:id="pl-l4d46c3-d1e115">Sed quomodo iustitiam Dei et pietatem, id est misericordiam,
+          supra <name ref="Cassiodorus">Cassiodorus</name> duas res esse dixit, quae semper
+          adiunctae sunt Dei iudicio? Iustitia enim Dei et misericordia non duae res, sed una res,
+          id est divina essentia, est, sicut supra pluribus auctoritatibus ostensum est: quia non
+          est Deo aliud esse misericordem quam misericordiam, nec iustum quam iustitiam, sed idem
+          prorsus; nec aliud est esse misericordem quam iustum, vel misericordiam quam iustitiam,
+          sed omnino idem; quia non denominative, sed essentialiter haec de Deo dicuntur. Cur igitur
+          dicit Scriptura de operibus Dei, quaedam esse misericordiae, quaedam iustitiae? Si enim
+          iustitia Dei misericordia est, quaecumque sunt opera misericordiae, esse videntur
+          iustitiae, et e converso.</p>
+        <p xml:id="pl-l4d46c3-d1e121">His responderi potest sic: Illis locutionibus, quibus
+          huiusmodi operum fiunt distinctiones, ut alia misericordiae, alia iustitiae, alia bonitati
+          tribuantur, non diversitas subiacentis, id est rei his vocabulis significatae, exprimitur,
+          sed varietas sensuum et effectuum in creaturis monstratur. Cum enim dicitur Deus iustus
+          vel iustitia, essentia divina praedicatur; et etiam, quod ipse sit distributor et iudex
+          meritorum, intelligi datur. Ita et cum dicitur misericors, essentia divina praedicatur, et
+          insuper, quod ipse sit miserorum liberator intelligi datur. Similiter, cum dicitur bonus,
+          essentia divina praedicatur, ut cum dicitur Deus, et insuper auctor omnium bonorum
+          ostenditur. Ita et cum dicitur Deus, essentia divina praedicatur, et ipse timendus
+          ostenditur. Inde ergo quaedam opera misericordiae, quaedam iustitiae dicuntur, non quin
+          essentia divina haec et illa operetur, et quin haec et illa sint opera divinae essentiae,
+          quae dicitur misericordia et iustitia, sed quia quaedam sunt, quibus ostenditur iudex et
+          aequus distributor, quaedam, quibus ostenditur miserator — misericors enim dicitur in
+          natura, miserator in exhibitione — et in quibusdam operibus dicitur effectus esse
+          misericordiae, in quibusdam effectus iustitiae, non quod aliud efficiat iustitia, aliud
+          misericordia Dei, si ad essentiam referas, sed quia ex quibusdam effectibus intelligitur
+          iudex, ex quibusdam miserator, vol ut quibusdam placet, iustus et misericors.</p>
+        <p xml:id="pl-l4d46c3-d1e124">Sed secundum hoc occurrit quaestio, quomodo ex aliis
+          ostendatur iustus et ex aliis misericors, cum sit ei idem esse iustum et misericordem
+          esse. Si enim secundum eandem rationem dicitur iustus et misericors, ex eo opere, quo
+          intelligitur iustus, intelligitur misericors, et e converso.</p>
+        <p xml:id="pl-l4d46c3-d1e128">Sed dixi supra, quia, cum dicitur Deus iustus et misericors,
+          ita eadem divina essentia significatur, et secundum eam idem praedicatur, ut etiam quaedam
+          diversa intelligantur. Intelligimus enim per hoc eum miseratorem et iustum iudicem.</p>
+        <p xml:id="pl-l4d46c3-d1e131">Quod evidenter <name ref="Origen">Origenes</name> ostendit
+          dicens: <quote xml:id="pl-l4d46c3-Qd1e136">Omnia quae Dei sunt, Christus est: ipse
+          sapientia eius, ipse fortitudo, iustitia, sanctitas, ipse prudentia. Sed cum unum sit in
+          subiacenti, pro varietate sensuum diversis nuncupatur vocabulis: aliud enim significat
+          sapientia, aliud iustitia. Quando enim sapientia dicitur disciplinis te divinarum
+          humanarumque rerum instruere intelligitur; quando iustitia, distributor vel iudex
+          meritorum insinuatur. Ita et prudentia cum dicitur, doctor et demonstrator bonarum et
+          malarum rerum vel neutrarum intelligitur </quote>.</p>
       </div>
     </body>
   </text>

@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -14,19 +15,14 @@
         </respStmt>
       </titleStmt>
       <editionStmt>
-        <edition n="0.0.0-dev">
-          <title>Cap. I.</title>
-          <date when="2017-09-05">September 05, 2017</date>
-        </edition>
+        <edition n="0.0.0-dev"> <title>Cap. I.</title> <date when="2017-09-05">September 05,
+          2017</date> </edition>
       </editionStmt>
       <publicationStmt>
-        <authority>
-          <ref>SCTA</ref>
-        </authority>
+        <authority> <ref>SCTA</ref> </authority>
         <availability status="free">
           <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
-              Commons Attribution 4.0 International</ref>
-          </p>
+            Commons Attribution 4.0 International</ref> </p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -36,7 +32,8 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -44,8 +41,7 @@
     </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2017-09-05" status="draft" n="0.0.0">
-          <p>Created file for the first time.</p>
+        <change when="2017-09-05" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
         </change>
       </listChange>
     </revisionDesc>
@@ -57,41 +53,44 @@
     <body>
       <div xml:id="pl-l3d3c1">
         <head xml:id="pl-l3d3c1-Hd1e111">Cap. I.</head>
-        <head xml:id="pl-l3d3c1-Hd1e114" type="question-title"> De carne assumta, qualis ante fuerit. </head>
-        <p xml:id="pl-l3d3c1-d1e117"> Quaeritur etiam de carne Verbi, an, priusquam conciperetur, obligata fuerit peccato, et
-          an talis assumta fuerit a Verbo . </p>
-        <p xml:id="pl-l3d3c1-d1e120"> Sane dici potest et credi oportet, iuxla Sanctorum attestationis convenientiam, ipsam
-          prius peccato fuisse obnoxiam, sicut </p>
-        <p xml:id="pl-l3d3c1-d1e123"> reliqua Virginis caro, sed Spiritus sancti operatione ita mundatam, ut ab omni peccati
-          contagione immunis uniretur Verbo, poena tantum, non necessitate sed voluntate assumentis,
-          remanente. </p>
-        <p xml:id="pl-l3d3c1-d1e127"> Mariam quoque lotam Spiritus sanctus, in eam praeveniens, a peccato prorsus purgavit et
-          a fomite peccati etiam liberavit, vel fomitem ipsum penitus evacuando, ut quibusdam
-          placet, vel sic debilitando et extenuando, ut ei postmodum peccandi occasio nullatenus
-          exstiterit ; potentiam quoque generandi absque viri semine Virgini praeparavit. Ita enim
-          verba Evangelii docent, ubi Angelus Virginem alloquens ait: <quote xml:id="pl-l3d3c1-Qd1e129">Spiritus sanctus
-            superveniet in te, et virtus Altissimi obumbrabit tibi, et quod nascetur ex te sanctum,
-            vocabitur Filius Dei.</quote> Cui sacra Virgo respondit: <quote xml:id="pl-l3d3c1-Qd1e132">Ecce ancilla Domini;
-            fiat mihi secundum verbum tuum.</quote>
-        </p>
-        <p xml:id="pl-l3d3c1-d1e136"> Quod exponens Ioannes ait: <quote xml:id="pl-l3d3c1-Qd1e138">Post concessum autem sanctae Virginis, Spiritus
-            sanctus praevenit in ipsam, secundum verbum Domini quod dixit Angelus, purgans ipsam et
-            potentiam deitatis Verbi receptivam praeparans, simul autem et generati- vam. Et tunc
-            obumbravit ipsam Dei altissimi per se Sapientia et Virtus existens, id est Filius Dei,
-            Patri homousios , id est consubstantialis, sicut divinum semen; et copulavit sibi ipsi
-            ex sanctissimis et purissimis ipsius Virginis sanguinibus nostrae antiquae con-
-            spersionis carnem, animatam anima rationali et intellectiva, non seminans, sed per
-            Spiritum sanctum creans. Quare simul caro, simul Dei caro, simul caro animata rationali
-            et intellectiva <quote xml:id="pl-l3d3c1-Qd1e140">,</quote> simul Dei Verbi caro animata rationali et intellectiva
-          </quote>. </p>
-        <p xml:id="pl-l3d3c1-d1e145"> Ex his perspicuum fit quod ante diximus, carnem scilicet Verbi simul conceptam et
-          assumtam, eandemque, immo totam Virginem, Spiritu sancto praeveniente, ab omni labe
-          peccati castificatam. Cui collata est potentia <quote xml:id="pl-l3d3c1-Qd1e147"> novo more generandi, ut sine coitu
-            viri, sine libidine concipientis, in utero Virginis celebraretur conceptus Dei et
-            hominis </quote>. <quote xml:id="pl-l3d3c1-Qd1e150"> Illa enim caro, quam Deus ex Virgine sibi unire dignatus est,
-            sine vitio concepta, sine peccato nata est</quote>. <quote xml:id="pl-l3d3c1-Qd1e153">Hanc carnem tamen non
-            caelestis, non aereae, non alterius cuiusquam putes esse naturae, sed eius, cuius est
-            omnium hominum caro</quote>. </p>
+        <head xml:id="pl-l3d3c1-Hd1e114" type="question-title"> De carne assumta, qualis ante
+          fuerit. </head>
+        <p xml:id="pl-l3d3c1-d1e117"> Quaeritur etiam de carne Verbi, an, priusquam conciperetur,
+          obligata fuerit peccato, et an talis assumta fuerit a Verbo . </p>
+        <p xml:id="pl-l3d3c1-d1e120"> Sane dici potest et credi oportet, iuxla Sanctorum
+          attestationis convenientiam, ipsam prius peccato fuisse obnoxiam, sicut </p>
+        <p xml:id="pl-l3d3c1-d1e123"> reliqua Virginis caro, sed Spiritus sancti operatione ita
+          mundatam, ut ab omni peccati contagione immunis uniretur Verbo, poena tantum, non
+          necessitate sed voluntate assumentis, remanente. </p>
+        <p xml:id="pl-l3d3c1-d1e127"> Mariam quoque lotam Spiritus sanctus, in eam praeveniens, a
+          peccato prorsus purgavit et a fomite peccati etiam liberavit, vel fomitem ipsum penitus
+          evacuando, ut quibusdam placet, vel sic debilitando et extenuando, ut ei postmodum
+          peccandi occasio nullatenus exstiterit ; potentiam quoque generandi absque viri semine
+          Virgini praeparavit. Ita enim verba Evangelii docent, ubi Angelus Virginem alloquens ait:
+          <quote xml:id="pl-l3d3c1-Qd1e129">Spiritus sanctus superveniet in te, et virtus Altissimi
+          obumbrabit tibi, et quod nascetur ex te sanctum, vocabitur Filius Dei.</quote> Cui sacra
+          Virgo respondit: <quote xml:id="pl-l3d3c1-Qd1e132">Ecce ancilla Domini; fiat mihi secundum
+          verbum tuum.</quote> </p>
+        <p xml:id="pl-l3d3c1-d1e136"> Quod exponens Ioannes ait: <quote xml:id="pl-l3d3c1-Qd1e138"
+          >Post concessum autem sanctae Virginis, Spiritus sanctus praevenit in ipsam, secundum
+          verbum Domini quod dixit Angelus, purgans ipsam et potentiam deitatis Verbi receptivam
+          praeparans, simul autem et generati- vam. Et tunc obumbravit ipsam Dei altissimi per se
+          Sapientia et Virtus existens, id est Filius Dei, Patri homousios , id est
+          consubstantialis, sicut divinum semen; et copulavit sibi ipsi ex sanctissimis et
+          purissimis ipsius Virginis sanguinibus nostrae antiquae con- spersionis carnem, animatam
+          anima rationali et intellectiva, non seminans, sed per Spiritum sanctum creans. Quare
+          simul caro, simul Dei caro, simul caro animata rationali et intellectiva <quote
+          xml:id="pl-l3d3c1-Qd1e140">,</quote> simul Dei Verbi caro animata rationali et
+          intellectiva </quote>. </p>
+        <p xml:id="pl-l3d3c1-d1e145"> Ex his perspicuum fit quod ante diximus, carnem scilicet Verbi
+          simul conceptam et assumtam, eandemque, immo totam Virginem, Spiritu sancto praeveniente,
+          ab omni labe peccati castificatam. Cui collata est potentia <quote
+          xml:id="pl-l3d3c1-Qd1e147"> novo more generandi, ut sine coitu viri, sine libidine
+          concipientis, in utero Virginis celebraretur conceptus Dei et hominis </quote>. <quote
+          xml:id="pl-l3d3c1-Qd1e150"> Illa enim caro, quam Deus ex Virgine sibi unire dignatus est,
+          sine vitio concepta, sine peccato nata est</quote>. <quote xml:id="pl-l3d3c1-Qd1e153">Hanc
+          carnem tamen non caelestis, non aereae, non alterius cuiusquam putes esse naturae, sed
+          eius, cuius est omnium hominum caro</quote>. </p>
       </div>
     </body>
   </text>

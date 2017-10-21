@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CAP. II</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev"> <title>CAP. II</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority> <ref>SCTA</ref> </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l4d4c2">
+        <head xml:id="pl-l4d4c2-Hd1e109">CAP. II</head>
+        <head xml:id="pl-l4d4c2-Hd1e112" type="question-title">De ficte accedentibus.</head>
+        <p xml:id="pl-l4d4c2-d1e115">Qui vero sine fide accedunt vel ficte, Sacramentum, non rem,
+          suscipiunt.</p>
+        <p xml:id="pl-l4d4c2-d1e118">Unde <name ref="#Jerome">Hieronymus</name>: <quote
+          xml:id="pl-l4d4c2-Qd1e123">Sunt lavacra gentilium, haereticorum, sed non lavant in
+          salutem. In Ecclesia etiam, qui non plena fide baptismum accipiunt, non Spiritum sed aquam
+          accipiunt</quote>.</p>
+        <p xml:id="pl-l4d4c2-d1e127"> <name ref="#Augustine">Augustinus</name> etiam ait: <quote
+          xml:id="pl-l4d4c2-Qd1e132"> ludaeis omnibus communia erant Sacramenta, sed non communis
+          omnibus erat gratia, quae est virtus Sacramentorum; ita et nunc baptismus communis est
+          omnibus baptizatis, sed non virtus baptismi, id est ipsa gratia </quote>.</p>
+        <p xml:id="pl-l4d4c2-d1e137">Idem: <quote xml:id="pl-l4d4c2-Qd1e139">Omnis qui iam suae
+          voluntatis arbiter constitutus est, cum accedit ad Sacramentum fidelium, nisi poeniteat
+          eum veteris vitae, novam non potest inchoare. Ab hac poenitentia, cum baptizantur, soli
+          parvuli immunes sunt </quote>.</p>
+        <p xml:id="pl-l4d4c2-d1e143">His aliisque testimoniis aperte ostenditur, adultis, sine fide
+          et poenitudine vera, in baptismo non conferri gratiam remissionis, quia nec parvulis sine
+          fide aliena, qui propriam habere nequeunt, datur in baptismo remissio. Si quis ergo ficte
+          accedat, non habens contritionem cordis veram, Sacramentum sine re accipit.</p>
+        <p xml:id="pl-l4d4c2-d1e146">Videtur tamen <name ref="#Augustine">Augustinus</name> dicere,
+          quod ficte accedenti, qui etiam habet odium fraternum, in ipso momento, quo baptizatur,
+          omnia condonentur et post baptismum mox redeant; sed non hoc asserendo dicit, immo hanc
+          opinionem et praemissam sententiam conferendo. Ait enim sic: <quote
+          xml:id="pl-l4d4c2-Qd1e151">His qui ficto corde baptizantur, aut peccata nullatenus
+          dimittuntur (quia Spiritus sanctus disciplinae effugiet fictum) aut in ipso temporis
+          puncto per vim Sacramenti dimissa, iterum per fictionem replicantur; ut etiam illud verum
+          sit: Quotquot in Christo baptizati estis, etc., et illud: Spiritus sanctus disciplinae
+          effugiet fictum; ut induat eum Christum sanctitas baptismi, exuat eum Christum pernicies
+          fictionis</quote>. <quote xml:id="pl-l4d4c2-Qd1e154">Nam redire dimissa peccata, ubi
+          fraterna caritas non est, aperte Dominus docet in illo servo, a quo Dominus dimissum
+          debitum petiit, quia ille conservo dimittere noluit</quote>. <quote
+          xml:id="pl-l4d4c2-Qd1e157"> Sic non impeditur baptismi gratia, quominus omnia peccata
+          dimittantur etiam si fraternum odium in eius cui dimittuntur animo perseverat. Solvitur
+          enim hesternus dies, et quidquid superesl; solvitur etiam ipsa hora momentumque ante
+          baptismum et in baptismo. Deinceps autem continuo reus esse incipit, non solum
+          consequentium, sed et praeteritorum dierum, horarum, momentorum, redeuntibus omnibus quae
+          dimissasunt </quote>.</p>
+        <p xml:id="pl-l4d4c2-d1e161">Hoc autem, ut praediximus, non sub assertione dixit; quod
+          ostenditur ex eo quod ait in eodem libro sic : <quote xml:id="pl-l4d4c2-Qd1e163"> Si ad
+          baptismum fictus accedit, dimissa sunt ei peccata, aut non sunt dimissa; eligant quod
+          volunt</quote>. Ecce aperte cernis, si tamen intendis, id dixisse <name ref="Augustine"
+          >Augustinum</name> non asserendo, sed quaerendo, et aliorum opinionem referendo.</p>
+        <p xml:id="pl-l4d4c2-d1e170">Idem enim ait: <quote xml:id="pl-l4d4c2-Qd1e172"> Tunc valere
+          incipit ad salutem baptismus, cum illa fictio veraci confessione recesserit, quae, corde
+          in malilitia perseverante, peccatorum ablutionem non sinebat fieri </quote>. Non igitur
+          ficte accedenti peccata dimittuntur.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

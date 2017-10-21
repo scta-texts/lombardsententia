@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -14,18 +15,14 @@
         </respStmt>
       </titleStmt>
       <editionStmt>
-        <edition n="0.0.0-dev">
-          <title>CAP. II</title>
-          <date when="2017-10-21">October 21, 2017</date>
-        </edition>
+        <edition n="0.0.0-dev"> <title>CAP. II</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
       </editionStmt>
       <publicationStmt>
-        <authority>
-          <ref>SCTA</ref>
-        </authority>
+        <authority> <ref>SCTA</ref> </authority>
         <availability status="free">
-          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
-          </p>
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -35,7 +32,8 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -43,8 +41,7 @@
     </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2017-10-21" status="draft" n="0.0.0">
-          <p>Created file for the first time.</p>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
         </change>
       </listChange>
     </revisionDesc>
@@ -56,9 +53,29 @@
     <body>
       <div xml:id="pl-l4d44c2">
         <head xml:id="pl-l4d44c2-Hd1e109">CAP. II</head>
-        <p xml:id="pl-l4d44c2-d1e112">[Cap. II]. <quote xml:id="pl-l4d44c2-Qd1e114"> Non enim perit Deo terrena materies, de qua mortalium creatur caro; sed in quemlibet pulverem cineremve solvatur, et in quoslibet halitus aurasque diffugiat, in quamcumque aliorum corporum substantiam, vel in ipsa elementa vertatur, in quorumcumque animalium etiam hominum cibum carnemque mutetur, illi animae puncto temporis redibit, quae illam primitus, ut homo fieret, cresceret, viveret, animavit</quote>.</p>
-        <p xml:id="pl-l4d44c2-d1e118">
-          <quote xml:id="pl-l4d44c2-Qd1e120">Ipsa igitur terrena materies, quae, discedente anima, fit cadaver, non ita resurrectione reparabitur, ut ea quae ditabuntur et in alias atque alias rerum species vertuntur, quamvis ad corpus redeant, unde dilapsa sunt, ad easdem quoque corporis partes, ubi fuerunt, redire necesse sit. Alioquin, si capillus redit quod tam crebra tonsura detraxit, si unguibus quod toties depressit exsectio, immoderata et indecens cogitantibus resurrectionem carnis, et ideo non credentibus, occurrit informitas. Sed quemadmodum, si statua cuiuslibet solubilis metalli igne liquesceret, vel contereretur in pulverem, vel confunderetur in massam, et eam vellet artifex rursum ex illius materia et quantitate reparare, nihil interesset ad eius integritatem, quae particula materiae cui membro statuae redderetur, dum tamen totum, ex quo constituta fuerat, restituta resumeret. Ita Deus, mirabiliter atque ineffabiliter artifex, de toto quo caro nostra extiterat, eam mirabili celeritate restituet; nec aliquid attinebit ad eius redintegrationem, utrum capilli ad capillos redeant, et ungues ad ungues; an quidquid eorum perierat, mutetur in carnem et in paries alias corporis revocetur, curante artificis providentia, ne quid indecens fiat</quote>. <quote xml:id="pl-l4d44c2-Qd1e123"> Indecorum quippe ibi aliquid non erit, sed quidquid futurum est, hoc decebit, quia nec futurum est, si non decebit</quote>.</p>
+        <p xml:id="pl-l4d44c2-d1e112">[Cap. II]. <quote xml:id="pl-l4d44c2-Qd1e114"> Non enim perit
+          Deo terrena materies, de qua mortalium creatur caro; sed in quemlibet pulverem cineremve
+          solvatur, et in quoslibet halitus aurasque diffugiat, in quamcumque aliorum corporum
+          substantiam, vel in ipsa elementa vertatur, in quorumcumque animalium etiam hominum cibum
+          carnemque mutetur, illi animae puncto temporis redibit, quae illam primitus, ut homo
+          fieret, cresceret, viveret, animavit</quote>.</p>
+        <p xml:id="pl-l4d44c2-d1e118"> <quote xml:id="pl-l4d44c2-Qd1e120">Ipsa igitur terrena
+          materies, quae, discedente anima, fit cadaver, non ita resurrectione reparabitur, ut ea
+          quae ditabuntur et in alias atque alias rerum species vertuntur, quamvis ad corpus
+          redeant, unde dilapsa sunt, ad easdem quoque corporis partes, ubi fuerunt, redire necesse
+          sit. Alioquin, si capillus redit quod tam crebra tonsura detraxit, si unguibus quod toties
+          depressit exsectio, immoderata et indecens cogitantibus resurrectionem carnis, et ideo non
+          credentibus, occurrit informitas. Sed quemadmodum, si statua cuiuslibet solubilis metalli
+          igne liquesceret, vel contereretur in pulverem, vel confunderetur in massam, et eam vellet
+          artifex rursum ex illius materia et quantitate reparare, nihil interesset ad eius
+          integritatem, quae particula materiae cui membro statuae redderetur, dum tamen totum, ex
+          quo constituta fuerat, restituta resumeret. Ita Deus, mirabiliter atque ineffabiliter
+          artifex, de toto quo caro nostra extiterat, eam mirabili celeritate restituet; nec aliquid
+          attinebit ad eius redintegrationem, utrum capilli ad capillos redeant, et ungues ad
+          ungues; an quidquid eorum perierat, mutetur in carnem et in paries alias corporis
+          revocetur, curante artificis providentia, ne quid indecens fiat</quote>. <quote
+          xml:id="pl-l4d44c2-Qd1e123"> Indecorum quippe ibi aliquid non erit, sed quidquid futurum
+          est, hoc decebit, quia nec futurum est, si non decebit</quote>.</p>
       </div>
     </body>
   </text>

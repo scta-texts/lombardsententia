@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CAP. VII</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev"> <title>CAP. VII</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority> <ref>SCTA</ref> </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l4d3c7">
+        <head xml:id="pl-l4d3c7-Hd1e109">CAP. VII</head>
+        <head xml:id="pl-l4d3c7-Hd1e112" type="question-title">De immersione, quoties fieri
+          debeat.</head>
+        <p xml:id="pl-l4d3c7-d1e115">De immersione vero si quaeritur quomodo fieri debeat praecise,
+          respondemus: vel semel, vel tertio, pro vario more Ecclesiae.</p>
+        <p xml:id="pl-l4d3c7-d1e118">Unde <name ref="GregoryGreat">Gregorius</name>: <quote
+          xml:id="pl-l4d3c7-Qd1e123">De trina immersione baptismi nil verius responderi potest, quam
+          quod ipsi sensistis; quia in una fide nihil officit Ecclesiae sanctae consuetudo diversa.
+          Quia enim in tribus subsistentiis una substantia est, reprehensibile esse nullatenus
+          potest, infantem in baptismo vel ter vel semel mergere, quia et in tribus mersionibus
+          personarum Trinitas, et in una potest Divinitatis singularitas designari. Nos vero, qui
+          tertio mergimus, etiam triduanae sepulturae sacramentum signamus</quote>.</p>
+        <p xml:id="pl-l4d3c7-d1e127">Secundum hoc enim licet non modo ter, sed etiam semel tantum
+          mergere.</p>
+        <p xml:id="pl-l4d3c7-d1e131">Ibi tamen dumtaxat semel mergere licet, ubi consuetudo
+          Ecclesiae talis exislit. Si quis vero id facere incipiat, ubi consuetudo talis non est,
+          vel semel tantum mergendum esse asserat, reprehensibilem se constituit.</p>
+        <p xml:id="pl-l4d3c7-d1e134">Unde Haymo: <quote xml:id="pl-l4d3c7-Qd1e136">In suo sensu
+          abundabat Cyprianus, cum semel mergebat in baptismo parvulos; qui quod intelligebat,
+          studiose implebat, bonis operibus abundando, licet in hoc nescius delinqueret. Sed quia
+          bonis operibus abundabat, postea, correctus a Deo, abundavit altiori sensu, ter illos
+          mergendo</quote>.</p>
+        <p xml:id="pl-l4d3c7-d1e140">Ecce habes, quia deliquit qui semel mersit; sed hoc ideo, quia
+          aliter se habebat illius Ecclesiae consuetudo, vel quia unam tantum faciendam mersionem
+          asserebat.</p>
+        <p xml:id="pl-l4d3c7-d1e143">De trina mersione <name ref="#Augustine">Augustinus</name> ait:
+          <quote xml:id="pl-l4d3c7-Qd1e148">Postquam nos credere promisimus, tertio capita nostra in
+          sacro fonte dimersimus, qui ordo baptismi duplici mysterii significatione celebratur.
+          Recte enim tertio mersi estis, qui accepistis baptismum in nomine Trinitatis. Recte tertio
+          mersi qui accepistis baptismum in nomine Christi, qui die tertia resurrexit a mortuis.
+          Illa enim tertio repetita mersio typum dominicae exprimit sepulturae</quote>.</p>
+        <p xml:id="pl-l4d3c7-d1e152">Constat ergo, baptizandos tertio debere immergi; et tamen si
+          semel tantum immergantur, verum baptisma accipiunt. Et qui</p>
+        <p xml:id="pl-l4d3c7-d1e155">semel immergit tantum, non peccat, nisi Ecclesiae consuetudo
+          obsistat, vel hoc modo tantum debere fieri asserat.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

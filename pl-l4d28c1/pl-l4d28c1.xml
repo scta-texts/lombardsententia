@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -14,18 +15,14 @@
         </respStmt>
       </titleStmt>
       <editionStmt>
-        <edition n="0.0.0-dev">
-          <title>CAP. I</title>
-          <date when="2017-10-21">October 21, 2017</date>
-        </edition>
+        <edition n="0.0.0-dev"> <title>CAP. I</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
       </editionStmt>
       <publicationStmt>
-        <authority>
-          <ref>SCTA</ref>
-        </authority>
+        <authority> <ref>SCTA</ref> </authority>
         <availability status="free">
-          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
-          </p>
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -35,7 +32,8 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -43,8 +41,7 @@
     </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2017-10-21" status="draft" n="0.0.0">
-          <p>Created file for the first time.</p>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
         </change>
       </listChange>
     </revisionDesc>
@@ -56,15 +53,49 @@
     <body>
       <div xml:id="pl-l4d28c1">
         <head xml:id="pl-l4d28c1-Hd1e109">CAP. I</head>
-        <head xml:id="pl-l4d28c1-Hd1e112" type="question-title">Si consensus de futuro, eltam iuramento firmatus, faciat coniugium.</head>
-        <p xml:id="pl-l4d28c1-d1e115">Hic quaeri debet, utrum consensus de futuro, addito etiam iuramento, coniugium efficiat, ut <!--<quote>--> si quis promittat, vel etiam iuret alicui, se usque ad tempus placitum illam ducturum, et illa promittat vel iuret, se illi nupturam, nunquid talis sponsio eos coniuges fecit? Si mutato proposito, alter vel uterque ad alienam copulam transit, nunquid ob priorem sponsionem, iuramento subnixam, secundae foederationis pactum scindetur?</p>
-        <p xml:id="pl-l4d28c1-d1e120">
-          <quote xml:id="pl-l4d28c1-Qd1e122"> Considera, quia longe est aliud promittere, et aliud facere. Qui promittit, nondum facit; qui ergo promisit, se in uxorem ducturum aliquam, nondum eam duxit uxorem; et quae spopondit, se nupturam, nondum nupsit. Quomodo ergo coniuges appellari possunt qui nondum contrahunt, sed in futuro se contracturos iurando promittunt? Item, si ex vi iuramenti ad futurum pertinentis mox efficiuntur coniuges, cur iurant, in futuro se facturos quod in praesenti efficiunt? Item, si ex quo iurant, mox efficiuntur coniuges, tunc hanc rem efficiunt, quando iurant se facturos. Ideo dico, quia coniugium tunc non fuit, sed futurum promittitur. Si vero ille post uxorem duxit, et illa marito nupsit, coniugium utrinque fuit, et non potest dissolvi. Praecedens igitur mendacium vel periurium poenitentia est corrigendum, sed coniugium sequens non est dissolvendum. Non autem sic est, quando iuramentum coniugii praesentis consensus attestatione firmatur, quia post talem consensum, si quis alii se copulaverit, etiam si prolem procreaverit, irritum debet fieri, et ipse ad priorem copulam revocari</quote>.</p>
-        <p xml:id="pl-l4d28c1-d1e126">Praemissae autem sententiae videtur obviare illud quod leges tradunt: <quote xml:id="pl-l4d28c1-Qd1e128"> Si quis, tactis divinis Scripturis, juraverit mulieri, se eam legitimam uxorem habiturum, vel etiam, si tale sacramentum in oratorio dederit, sit illi legitima uxor, quamvis nulla dos, nulla alia scriptura interposita sit </quote>.</p>
-        <p xml:id="pl-l4d28c1-d1e133">Sed hic ostenditur, quid fieri vel esse debeat, non quid  tunc fiat: non enim per illud iuramentum tunc fit uxor, sed fieri debet, quia iuratum est. Potest etiam de illo iuramento hoc dictum intelligi, ubi de praesenti consentiunt ac se invicem suscipiunt.</p>
-        <p xml:id="pl-l4d28c1-d1e136">Illi etiam sententiae, qua dictum est, solum consensum facere coniugium, videtur contradicere quod Evaristus Papa ait: <quote xml:id="pl-l4d28c1-Qd1e138"> Aliter coniugium legitimum non fit, nisi ab eis qui super feminam dominationem habere videntur, et a quibus custoditur, uxor petatur et a parentibus sponsetur, et legibus dotetur, et a sacerdote, ut mos est, benedicatur, et a paranymphis custodiatur, ac solemniter accipiatur </quote>.</p>
-        <p xml:id="pl-l4d28c1-d1e142">Item: <quote xml:id="pl-l4d28c1-Qd1e144"> Ita legitima scitote esse connubia, aliter vero praesumta; non coniugia, sed adulteria, vel fornicationes sunt, nisi voluntas propria suffragata fuerit, et vota succurrerint legitima </quote>.</p>
-        <p xml:id="pl-l4d28c1-d1e148">Hoc autem non ita intelligendum est, tanquam sine enumeratis non possit esse legitimum coniugium, sed quia sine iliis non habet decorem et honestatem debitam.</p>
+        <head xml:id="pl-l4d28c1-Hd1e112" type="question-title">Si consensus de futuro, eltam
+          iuramento firmatus, faciat coniugium.</head>
+        <p xml:id="pl-l4d28c1-d1e115">Hic quaeri debet, utrum consensus de futuro, addito etiam
+          iuramento, coniugium efficiat, ut <!--<quote>--> si quis promittat, vel etiam iuret
+          alicui, se usque ad tempus placitum illam ducturum, et illa promittat vel iuret, se illi
+          nupturam, nunquid talis sponsio eos coniuges fecit? Si mutato proposito, alter vel uterque
+          ad alienam copulam transit, nunquid ob priorem sponsionem, iuramento subnixam, secundae
+          foederationis pactum scindetur?</p>
+        <p xml:id="pl-l4d28c1-d1e120"> <quote xml:id="pl-l4d28c1-Qd1e122"> Considera, quia longe est
+          aliud promittere, et aliud facere. Qui promittit, nondum facit; qui ergo promisit, se in
+          uxorem ducturum aliquam, nondum eam duxit uxorem; et quae spopondit, se nupturam, nondum
+          nupsit. Quomodo ergo coniuges appellari possunt qui nondum contrahunt, sed in futuro se
+          contracturos iurando promittunt? Item, si ex vi iuramenti ad futurum pertinentis mox
+          efficiuntur coniuges, cur iurant, in futuro se facturos quod in praesenti efficiunt? Item,
+          si ex quo iurant, mox efficiuntur coniuges, tunc hanc rem efficiunt, quando iurant se
+          facturos. Ideo dico, quia coniugium tunc non fuit, sed futurum promittitur. Si vero ille
+          post uxorem duxit, et illa marito nupsit, coniugium utrinque fuit, et non potest dissolvi.
+          Praecedens igitur mendacium vel periurium poenitentia est corrigendum, sed coniugium
+          sequens non est dissolvendum. Non autem sic est, quando iuramentum coniugii praesentis
+          consensus attestatione firmatur, quia post talem consensum, si quis alii se copulaverit,
+          etiam si prolem procreaverit, irritum debet fieri, et ipse ad priorem copulam
+          revocari</quote>.</p>
+        <p xml:id="pl-l4d28c1-d1e126">Praemissae autem sententiae videtur obviare illud quod leges
+          tradunt: <quote xml:id="pl-l4d28c1-Qd1e128"> Si quis, tactis divinis Scripturis, juraverit
+          mulieri, se eam legitimam uxorem habiturum, vel etiam, si tale sacramentum in oratorio
+          dederit, sit illi legitima uxor, quamvis nulla dos, nulla alia scriptura interposita sit
+          </quote>.</p>
+        <p xml:id="pl-l4d28c1-d1e133">Sed hic ostenditur, quid fieri vel esse debeat, non quid tunc
+          fiat: non enim per illud iuramentum tunc fit uxor, sed fieri debet, quia iuratum est.
+          Potest etiam de illo iuramento hoc dictum intelligi, ubi de praesenti consentiunt ac se
+          invicem suscipiunt.</p>
+        <p xml:id="pl-l4d28c1-d1e136">Illi etiam sententiae, qua dictum est, solum consensum facere
+          coniugium, videtur contradicere quod Evaristus Papa ait: <quote
+          xml:id="pl-l4d28c1-Qd1e138"> Aliter coniugium legitimum non fit, nisi ab eis qui super
+          feminam dominationem habere videntur, et a quibus custoditur, uxor petatur et a parentibus
+          sponsetur, et legibus dotetur, et a sacerdote, ut mos est, benedicatur, et a paranymphis
+          custodiatur, ac solemniter accipiatur </quote>.</p>
+        <p xml:id="pl-l4d28c1-d1e142">Item: <quote xml:id="pl-l4d28c1-Qd1e144"> Ita legitima scitote
+          esse connubia, aliter vero praesumta; non coniugia, sed adulteria, vel fornicationes sunt,
+          nisi voluntas propria suffragata fuerit, et vota succurrerint legitima </quote>.</p>
+        <p xml:id="pl-l4d28c1-d1e148">Hoc autem non ita intelligendum est, tanquam sine enumeratis
+          non possit esse legitimum coniugium, sed quia sine iliis non habet decorem et honestatem
+          debitam.</p>
       </div>
     </body>
   </text>

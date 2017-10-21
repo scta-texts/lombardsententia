@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CAP. III</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev"> <title>CAP. III</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority> <ref>SCTA</ref> </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l4d27c3">
+        <head xml:id="pl-l4d27c3-Hd1e109">CAP. III</head>
+        <head xml:id="pl-l4d27c3-Hd1e112" type="question-title">De consensu, qui efficit
+          coniugium.</head>
+        <p xml:id="pl-l4d27c3-d1e115">Efficieris autem causa matrimonii est consensus, non quilibet,
+          sed per verba expressus, nec de futuro sed de praesenti.</p>
+        <p xml:id="pl-l4d27c3-d1e118">Si enim consentiunt in futurum, dicentes: Accipiam te in
+          virum, et ego te in uxorem; non iste consensus est efficax ma¬</p>
+        <p xml:id="pl-l4d27c3-d1e121">trimonii. Item, si consentiant mente et non exprimant verbis
+          vel aliis certis signis, nec talis consensus efficit matrimonium. Si autem verbis
+          explicatur quod tamen cord non volunt; si non</p>
+        <p xml:id="pl-l4d27c3-d1e125">sit ibi coactio vel dolus, obligatio illa verborum, quibus
+          consentiunt dicentes: Accipio te in virum, et ego te in uxorem, matrimonium facit.</p>
+        <p xml:id="pl-l4d27c3-d1e128">Quod autem consensus matrimonium faciat, subditis probatur
+          testimoniis.</p>
+        <p xml:id="pl-l4d27c3-d1e131">Ait enim Isidorus: <quote xml:id="pl-l4d27c3-Qd1e133"
+          >Consensus facit matrimonium</quote>.</p>
+        <p xml:id="pl-l4d27c3-d1e137">Item Nicolaus Papa: <quote xml:id="pl-l4d27c3-Qd1e139"
+          >Sufficiat solus secundum leges eorum consensus, de quorum coniunctionibus agitur; qui
+          solus, si forte in nuptiis defuerit, cetera etiam cum coitu ipso celebrata
+          frustrantur</quote>.</p>
+        <p xml:id="pl-l4d27c3-d1e143">Item loannes Chrysostomus: <quote xml:id="pl-l4d27c3-Qd1e145">
+          Matrimonium quidem non facit coitus, sed voluntas; et ideo non solvit illud separatio
+          corporis </quote>.</p>
+        <p xml:id="pl-l4d27c3-d1e149">Item <name ref="#Ambrose">Ambrosius</name>: <quote
+          xml:id="pl-l4d27c3-Qd1e154">Non defloratio virginitatis facit coniugium, sed pactio
+          coniugalis </quote>.</p>
+        <p xml:id="pl-l4d27c3-d1e159">Ex his apparet, quod consensus, id est pactio coniugalis,
+          matrimonium facit; et ex tunc coniugium est, etiam si non praecessit vel secuta sit copula
+          carnalis.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

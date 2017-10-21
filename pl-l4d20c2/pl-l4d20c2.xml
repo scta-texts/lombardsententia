@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CAP. II</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev"> <title>CAP. II</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority> <ref>SCTA</ref> </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l4d20c2">
+        <head xml:id="pl-l4d20c2-Hd1e109">CAP. II</head>
+        <head xml:id="pl-l4d20c2-Hd1e112" type="question-title">De his qui poenitentiam non
+          complent.</head>
+        <p xml:id="pl-l4d20c2-d1e115">Si vero quaeritur de illis qui in hac vita poenitentiam non
+          complent, utrum transituri sint per ignem, ut ibi quasi compleant quod hic minus fecerunt,
+          dicimus idem de istis esse sentiendum, et de his qui in extremis poenitent.</p>
+        <p xml:id="pl-l4d20c2-d1e118">Si enim tanta fuerit cordis contritio et delicti exprobratio,
+          ut sufficiat ad puniendum peccatum, liberi ab aliis poenis transeunt ad vitam, etsi
+          inexpleta fuerit poenitentia, quia perfecte poenituerunt et ingemuerunt corde.</p>
+        <p xml:id="pl-l4d20c2-d1e121">Qui vero non adeo conteruntur corde et ingemiscunt pro
+          peccato, si ante expletionem poenitentiae decesserint, ignem purgatorium sentiunt et
+          gravius puniuntur, quam si hic implessent poenitentiam : <quote
+          xml:id="pl-l4d20c2-Qd1e123">horrendum est enim incidere in marius Dei viventis</quote> .
+          Deus enim, cum sit misericors et iustus, ex misericordia poenitenti ignoscit, non
+          reservans peccatam ad poenam aeternam; ex iustitia vero impunitum non dimittit delictum .
+          Aut enim homo punit, aut Deus: homo autem punit poenitendo.</p>
+        <p xml:id="pl-l4d20c2-d1e128">Et est poenitentia interior et exterior. Si ergo interior
+          poenitentia tanta fuerit, ut sit sufficiens ultio peccati, Deus, qui hoc novit, ab illo
+          qui taliter poenitet, ulterius poenam non exigit. Si vero interior poenitudo non sufficit
+          in vindictam peccati, nec exterior poenitentia impletur, Deus, qui modos et mensuras
+          peccatorum et poenarum novit, addit poenam sufficientem.</p>
+        <p xml:id="pl-l4d20c2-d1e131"> <quote xml:id="pl-l4d20c2-Qd1e133"> Studeat ergo quisque sic
+          delicia corrigere, ut post mortem non oporteat poenam tolerare: quaedam enim peccata
+          mortalia in poenitentia fiunt venialia, non mox tamen sanantur. Saepe infirmus moreretur,
+          si non medicaretur; nec tamen statim medicatus sanatur: languet victurus, qui prius erat
+          moriturus. Qui autem impoenitens moritur, omnino moritur, et aeternaliter cruciatur: si
+          enim semper viveret, semper peccaret </quote>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CAP. II</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev"> <title>CAP. II</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority> <ref>SCTA</ref> </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l4d26c2">
+        <head xml:id="pl-l4d26c2-Hd1e109">CAP. II</head>
+        <p xml:id="pl-l4d26c2-d1e112">[Cap. II]. Coniugii autem institutio duplex est: una ante
+          peccatum ad officium facta est in paradiso, ubi esset <quote xml:id="pl-l4d26c2-Qd1e114"
+          >torus immaculatus et nuptiae honorabiles</quote>, ex quibus sine ardore conciperent, sine
+          dolore parerent; altera post peccatum ad remedium facta extra paradisum, propter illicitum
+          motum devitandum. Prima, ut natura multiplicaretur; secunda, ut natura exciperetur, et
+          vitium cohiberetur. Nam et ante peccatum dixit Deus: <quote xml:id="pl-l4d26c2-Qd1e117"
+          >Crescite et multiplicamini;</quote> et post peccatum, omnibus pene hominibus per diluvium
+          consumtis.</p>
+        <p xml:id="pl-l4d26c2-d1e121">Quod vero ante peccatum institutum fuit coniugium ad officium,
+          post peccatum vero ad remedium concessum, <name ref="#Augustine">Augustinus</name>
+          testatur dicens: <quote xml:id="pl-l4d26c2-Qd1e126"> Quod sanis esset officium, aegrotis
+          est ad remedium </quote>.</p>
+        <p xml:id="pl-l4d26c2-d1e130">Infirmitas enim incontinentiae, quae est in carne per peccatum
+          mortua, ne cadat in ruinam flagitiorum, excipitur honestate nuptiarum. Si non peccassent
+          primi homines, sine carnis incentivo ac fervore libidinis ipsi ac successores eorum
+          convenirent; et sicut remunerabile est aliquod bonum opus, sic coitus eorum bonus esset et
+          remunerabilis. Quia vero propter peccatum letalis concupiscentiae lex membris nostris
+          inhaesit, sine qua carnalis non fit commixtio, reprehensibilis est et malus coitus, nisi
+          excusetur per bona coniugii.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

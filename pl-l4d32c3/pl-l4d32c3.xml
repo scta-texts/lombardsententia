@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -14,18 +15,14 @@
         </respStmt>
       </titleStmt>
       <editionStmt>
-        <edition n="0.0.0-dev">
-          <title>CAP. III</title>
-          <date when="2017-10-21">October 21, 2017</date>
-        </edition>
+        <edition n="0.0.0-dev"> <title>CAP. III</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
       </editionStmt>
       <publicationStmt>
-        <authority>
-          <ref>SCTA</ref>
-        </authority>
+        <authority> <ref>SCTA</ref> </authority>
         <availability status="free">
-          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
-          </p>
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -35,7 +32,8 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -43,8 +41,7 @@
     </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2017-10-21" status="draft" n="0.0.0">
-          <p>Created file for the first time.</p>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
         </change>
       </listChange>
     </revisionDesc>
@@ -57,14 +54,37 @@
       <div xml:id="pl-l4d32c3">
         <head xml:id="pl-l4d32c3-Hd1e109">CAP. III</head>
         <head xml:id="pl-l4d32c3-Hd1e112" type="question-title">Quando cessandum sit a coitu.</head>
-        <p xml:id="pl-l4d32c3-d1e115">Et licet debitum poscenti sit semper solvendum, non licet tamen qualibet die poscere.</p>
-        <p xml:id="pl-l4d32c3-d1e118">Unde <name ref="#Augustine">Augustinus</name>: <quote xml:id="pl-l4d32c3-Qd1e123"> Christiano cum uxore sua aliquando licet convenire, aliquando non; propter processionis enim dies et ieiuniorum aliquando non licet convenire, quia etiam a licitis abstinendum est, ut facilius impetrari possit quod postulatur</quote>.</p>
-        <p xml:id="pl-l4d32c3-d1e127">Idem: <quote xml:id="pl-l4d32c3-Qd1e129">Quoties enim vel dies Nativitatis, vel reliquae festivitates advenerint, non solum a concubinarum consortio, sed etiam a propriis uxoribus abstinete</quote>.</p>
-        <p xml:id="pl-l4d32c3-d1e134">Item <name ref="#Ambrose">Ambrosius</name>: <quote xml:id="pl-l4d32c3-Qd1e139">Si causa procreandorum filiorum ducitur uxor, non multum tempus concessum videtur ad ipsum usum; quia et dies festi et dies processionis et ipsa ratio conceptus et partus iuxta legem cessare usum carnis his debere temporibus demonstrant </quote>.</p>
-        <p xml:id="pl-l4d32c3-d1e143">Illi autem, quod dictum est, reddere debitum non esse peccatum, videtur obviare quod ait <name ref="#Jerome">Hieronymus</name>: <quote xml:id="pl-l4d32c3-Qd1e148">Quicumque uxori debitum reddit, vacare non potest orationi nec carnes Agni edere </quote>.</p>
-        <p xml:id="pl-l4d32c3-d1e152">Item: <quote xml:id="pl-l4d32c3-Qd1e154"> Si panes propositionis ab his qui uxores suas tetigerant, comedi non poterant, quanto magis <quote xml:id="pl-l4d32c3-Qd1e156">panis, qui de caelo descendit</quote>, non potest ab his qui coniugalibus paulo ante haesere complexibus, violari atque contingi. Non quod nuptias condemnemus, sed quod eo tempore, quo carnes Agni manducaturi sumus, vacare a carnalibus operibus debeamus</quote>.</p>
-        <p xml:id="pl-l4d32c3-d1e161">Hoc capitulum proprie ad ministros Ecclesiae pertinere videtur, quibus non licebat sacra officia celebrare atque mysteria tempore coniugalis amplexus, quo etiam praesentia Spiritus sancti non datur.</p>
-        <p xml:id="pl-l4d32c3-d1e164">Unde idem ait: <quote xml:id="pl-l4d32c3-Qd1e166"> Connubia legitima carent quidem peccato, non tamen tempore illo', quo coniugales actus geruntur, praesentia Spiritus sancti dabitur, etiam si propheta esse videatur qui officio generationis obsequitur </quote>.</p>
+        <p xml:id="pl-l4d32c3-d1e115">Et licet debitum poscenti sit semper solvendum, non licet
+          tamen qualibet die poscere.</p>
+        <p xml:id="pl-l4d32c3-d1e118">Unde <name ref="#Augustine">Augustinus</name>: <quote
+          xml:id="pl-l4d32c3-Qd1e123"> Christiano cum uxore sua aliquando licet convenire, aliquando
+          non; propter processionis enim dies et ieiuniorum aliquando non licet convenire, quia
+          etiam a licitis abstinendum est, ut facilius impetrari possit quod postulatur</quote>.</p>
+        <p xml:id="pl-l4d32c3-d1e127">Idem: <quote xml:id="pl-l4d32c3-Qd1e129">Quoties enim vel dies
+          Nativitatis, vel reliquae festivitates advenerint, non solum a concubinarum consortio, sed
+          etiam a propriis uxoribus abstinete</quote>.</p>
+        <p xml:id="pl-l4d32c3-d1e134">Item <name ref="#Ambrose">Ambrosius</name>: <quote
+          xml:id="pl-l4d32c3-Qd1e139">Si causa procreandorum filiorum ducitur uxor, non multum
+          tempus concessum videtur ad ipsum usum; quia et dies festi et dies processionis et ipsa
+          ratio conceptus et partus iuxta legem cessare usum carnis his debere temporibus
+          demonstrant </quote>.</p>
+        <p xml:id="pl-l4d32c3-d1e143">Illi autem, quod dictum est, reddere debitum non esse
+          peccatum, videtur obviare quod ait <name ref="#Jerome">Hieronymus</name>: <quote
+          xml:id="pl-l4d32c3-Qd1e148">Quicumque uxori debitum reddit, vacare non potest orationi nec
+          carnes Agni edere </quote>.</p>
+        <p xml:id="pl-l4d32c3-d1e152">Item: <quote xml:id="pl-l4d32c3-Qd1e154"> Si panes
+          propositionis ab his qui uxores suas tetigerant, comedi non poterant, quanto magis <quote
+          xml:id="pl-l4d32c3-Qd1e156">panis, qui de caelo descendit</quote>, non potest ab his qui
+          coniugalibus paulo ante haesere complexibus, violari atque contingi. Non quod nuptias
+          condemnemus, sed quod eo tempore, quo carnes Agni manducaturi sumus, vacare a carnalibus
+          operibus debeamus</quote>.</p>
+        <p xml:id="pl-l4d32c3-d1e161">Hoc capitulum proprie ad ministros Ecclesiae pertinere
+          videtur, quibus non licebat sacra officia celebrare atque mysteria tempore coniugalis
+          amplexus, quo etiam praesentia Spiritus sancti non datur.</p>
+        <p xml:id="pl-l4d32c3-d1e164">Unde idem ait: <quote xml:id="pl-l4d32c3-Qd1e166"> Connubia
+          legitima carent quidem peccato, non tamen tempore illo', quo coniugales actus geruntur,
+          praesentia Spiritus sancti dabitur, etiam si propheta esse videatur qui officio
+          generationis obsequitur </quote>.</p>
       </div>
     </body>
   </text>

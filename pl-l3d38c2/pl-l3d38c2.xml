@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -14,18 +15,14 @@
         </respStmt>
       </titleStmt>
       <editionStmt>
-        <edition n="0.0.0-dev">
-          <title>Cap. II</title>
-          <date when="2017-10-21">October 21, 2017</date>
-        </edition>
+        <edition n="0.0.0-dev"> <title>Cap. II</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
       </editionStmt>
       <publicationStmt>
-        <authority>
-          <ref>SCTA</ref>
-        </authority>
+        <authority> <ref>SCTA</ref> </authority>
         <availability status="free">
-          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
-          </p>
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -35,7 +32,8 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -43,8 +41,7 @@
     </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2017-10-21" status="draft" n="0.0.0">
-          <p>Created file for the first time.</p>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
         </change>
       </listChange>
     </revisionDesc>
@@ -57,13 +54,26 @@
       <div xml:id="pl-l3d38c2">
         <head xml:id="pl-l3d38c2-Hd1e109">Cap. II</head>
         <head xml:id="pl-l3d38c2-Hd1e112" type="question-title">De octo speciebus mendacii.</head>
-        <p xml:id="pl-l3d38c2-d1e115">Sciendum est etiam, octo esse genera mendacii, ut <name ref="#Augustine">Augustinus</name> in libro <quote xml:id="pl-l3d38c2-Qd1e120">De mendacio</quote> tradit, quae diligenter notanda sunt, ut appareat, quod mendacium sit veniale, et quod damnabile.</p>
-        <p xml:id="pl-l3d38c2-d1e124">
-          <quote xml:id="pl-l3d38c2-Qd1e126"> Primum capitale est mendacium longeque fugiendum, quod fit in doctrina religionis, ad quod nulla causa quisquam debet adduci. Secundum, quod tale est, ut nulli prosit sed obsit alicui. Tertium, quod ita prodest alii ut obsit alteri. Quartum, sola mentiendi fallendique libidine, quod mirum mendacium est. Quintum, quod fit placendi cupiditate de suaviloquio. His omnibus evitatis, sequitur sextum genus, quod et nulli obest et prodest alicui, ut si quis pecuniam alicuius iniuste tollendam sciens, ubi sit nescire se mentiatur. Septimum, quod nulli obest et prodest alicui, ut si quis, nolens hominem ad mortem quaesitum prodere, mentiatur. Octavum, quod nulli obest et ad hoc prodest ut ab immunditia corporali aliquem tueatur </quote>.</p>
-        <p xml:id="pl-l3d38c2-d1e130">
-          <quote xml:id="pl-l3d38c2-Qd1e132"> In his autem tanto minus quisque peccat, cum mentitur, quanto magis a primo recedit. Quisquis vero aliquod genus esse mendacii, quod peccatum non sit, putaverit, decipit se ipsum turpiter, cum honestum esse deceptorem aliorum arbitretur </quote>.</p>
-        <p xml:id="pl-l3d38c2-d1e137">
-          <quote xml:id="pl-l3d38c2-Qd1e139"> Omne ergo genus mendacii summopere fuge, quia omne mendacium non est a Deo </quote>.</p>
+        <p xml:id="pl-l3d38c2-d1e115">Sciendum est etiam, octo esse genera mendacii, ut <name
+          ref="#Augustine">Augustinus</name> in libro <quote xml:id="pl-l3d38c2-Qd1e120">De
+          mendacio</quote> tradit, quae diligenter notanda sunt, ut appareat, quod mendacium sit
+          veniale, et quod damnabile.</p>
+        <p xml:id="pl-l3d38c2-d1e124"> <quote xml:id="pl-l3d38c2-Qd1e126"> Primum capitale est
+          mendacium longeque fugiendum, quod fit in doctrina religionis, ad quod nulla causa
+          quisquam debet adduci. Secundum, quod tale est, ut nulli prosit sed obsit alicui. Tertium,
+          quod ita prodest alii ut obsit alteri. Quartum, sola mentiendi fallendique libidine, quod
+          mirum mendacium est. Quintum, quod fit placendi cupiditate de suaviloquio. His omnibus
+          evitatis, sequitur sextum genus, quod et nulli obest et prodest alicui, ut si quis
+          pecuniam alicuius iniuste tollendam sciens, ubi sit nescire se mentiatur. Septimum, quod
+          nulli obest et prodest alicui, ut si quis, nolens hominem ad mortem quaesitum prodere,
+          mentiatur. Octavum, quod nulli obest et ad hoc prodest ut ab immunditia corporali aliquem
+          tueatur </quote>.</p>
+        <p xml:id="pl-l3d38c2-d1e130"> <quote xml:id="pl-l3d38c2-Qd1e132"> In his autem tanto minus
+          quisque peccat, cum mentitur, quanto magis a primo recedit. Quisquis vero aliquod genus
+          esse mendacii, quod peccatum non sit, putaverit, decipit se ipsum turpiter, cum honestum
+          esse deceptorem aliorum arbitretur </quote>.</p>
+        <p xml:id="pl-l3d38c2-d1e137"> <quote xml:id="pl-l3d38c2-Qd1e139"> Omne ergo genus mendacii
+          summopere fuge, quia omne mendacium non est a Deo </quote>.</p>
       </div>
     </body>
   </text>

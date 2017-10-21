@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -14,18 +15,14 @@
         </respStmt>
       </titleStmt>
       <editionStmt>
-        <edition n="0.0.0-dev">
-          <title>CAP. I</title>
-          <date when="2017-10-21">October 21, 2017</date>
-        </edition>
+        <edition n="0.0.0-dev"> <title>CAP. I</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
       </editionStmt>
       <publicationStmt>
-        <authority>
-          <ref>SCTA</ref>
-        </authority>
+        <authority> <ref>SCTA</ref> </authority>
         <availability status="free">
-          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
-          </p>
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -35,7 +32,8 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -43,8 +41,7 @@
     </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2017-10-21" status="draft" n="0.0.0">
-          <p>Created file for the first time.</p>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
         </change>
       </listChange>
     </revisionDesc>
@@ -58,15 +55,40 @@
         <head xml:id="pl-l4d50c1-Hd1e109">CAP. I</head>
         <head xml:id="pl-l4d50c1-Hd1e112" type="question-title">Si mali in inferno peccabunt.</head>
         <p xml:id="pl-l4d50c1-d1e115">Hic oritur quaestio ex praemissis ducens originem. Supra</p>
-        <p xml:id="pl-l4d50c1-d1e118">enim <name ref="#Augustine">Augustinus</name>, loquens de malis in inferno damnatis et bonis in caelo glorificatis dixit, quod nec bonis voluntas, nec malis facultas peccandi esse poterit. Et de bonis quidem constat; sed de malis, a quibus voluntatem malam non removet, quaeritur, quomodo verum sit, eos non posse peccare, immo quomodo verum sit, eos non peccare, cum malam habeant voluntatem.</p>
-        <p xml:id="pl-l4d50c1-d1e124">Quidam autumant, illam malam voluntatem non esse peccatum, sed supplicium tantum; alii vero peccatum esse fatentur, sed per</p>
-        <p xml:id="pl-l4d50c1-d1e128">illud eos non mereri aliquam poenam, quia non est ibi locus me¬</p>
-        <p xml:id="pl-l4d50c1-d1e131">rendi. Illud ergo peccatum dicunt non esse meritum supplicii, sed supplicium mali meriti, quod in hac vita praecessit.</p>
-        <p xml:id="pl-l4d50c1-d1e134">De hoc autem <name ref="#Augustine">Augustinus</name> ita dicit: <quote xml:id="pl-l4d50c1-Qd1e139">Tempus acquirendi vitam aeternam in hac tantum vita Deus hominibus dedit, ubi voluit etiam esse poenitentiam fructuosam. Ideo hic poenitentia fructuosa est, quia potest hic homo, deposita malitia<quote xml:id="pl-l4d50c1-Qd1e141">, 
-</quote>bene vivere, et mutata voluntate, merita simul operaque mutare, et ea gerere, quae Deo placeant. Quod qui in hac vita non fecerit, habebit quidem poenitentiam in futuro saeculo de malis suis, sed indulgentiam in conspectu Domini non inveniet; quia, etsi erit ibi stimulus poenitudinis, nulla ibi erit correctio voluntatis. A talibus enim ita culpabitur iniquitas sua, ut nullatenus ab eis possit vel diligi vel desiderari iustitia. Voluntas enim eorum talis erit, ut habeat in se semper malignitatis suae supplicium, nunquam tamen recipere possit bonitatis affectum: quia, sicut illi qui cum Christo regnabunt, nullas in se malae voluntatis reliquias habebunt, ita illi qui erunt supplicio ignis aeterni cum diabolo et angelis eius deputati, sicut nullam habebunt ulterius requiem, sic bonam habere nullatenus poterunt voluntatem; et sicut cohaeredibus Christi dabitur perfectio gratiae ad aeternam gloriam, ita consortibus diaboli cumulabit ipsa malignitas poenam, quando, exterioribus deputati tenebris, nullo illustrabuntur interiori lumine veritatis </quote>.</p>
-        <p xml:id="pl-l4d50c1-d1e146">Ex his apparet, reprobos in inferno sic poenitentiam gesturos,</p>
-        <p xml:id="pl-l4d50c1-d1e149">ut per eam pravam voluntatem non deserant; et illa maligna vo¬</p>
-        <p xml:id="pl-l4d50c1-d1e152">luntas erit eis ad cumulum poenae, per quam tamen non merebuntur, quia nullus meretur nisi in hac vita.</p>
+        <p xml:id="pl-l4d50c1-d1e118">enim <name ref="#Augustine">Augustinus</name>, loquens de
+          malis in inferno damnatis et bonis in caelo glorificatis dixit, quod nec bonis voluntas,
+          nec malis facultas peccandi esse poterit. Et de bonis quidem constat; sed de malis, a
+          quibus voluntatem malam non removet, quaeritur, quomodo verum sit, eos non posse peccare,
+          immo quomodo verum sit, eos non peccare, cum malam habeant voluntatem.</p>
+        <p xml:id="pl-l4d50c1-d1e124">Quidam autumant, illam malam voluntatem non esse peccatum, sed
+          supplicium tantum; alii vero peccatum esse fatentur, sed per</p>
+        <p xml:id="pl-l4d50c1-d1e128">illud eos non mereri aliquam poenam, quia non est ibi locus
+          me¬</p>
+        <p xml:id="pl-l4d50c1-d1e131">rendi. Illud ergo peccatum dicunt non esse meritum supplicii,
+          sed supplicium mali meriti, quod in hac vita praecessit.</p>
+        <p xml:id="pl-l4d50c1-d1e134">De hoc autem <name ref="#Augustine">Augustinus</name> ita
+          dicit: <quote xml:id="pl-l4d50c1-Qd1e139">Tempus acquirendi vitam aeternam in hac tantum
+          vita Deus hominibus dedit, ubi voluit etiam esse poenitentiam fructuosam. Ideo hic
+          poenitentia fructuosa est, quia potest hic homo, deposita malitia<quote
+          xml:id="pl-l4d50c1-Qd1e141">, </quote>bene vivere, et mutata voluntate, merita simul
+          operaque mutare, et ea gerere, quae Deo placeant. Quod qui in hac vita non fecerit,
+          habebit quidem poenitentiam in futuro saeculo de malis suis, sed indulgentiam in conspectu
+          Domini non inveniet; quia, etsi erit ibi stimulus poenitudinis, nulla ibi erit correctio
+          voluntatis. A talibus enim ita culpabitur iniquitas sua, ut nullatenus ab eis possit vel
+          diligi vel desiderari iustitia. Voluntas enim eorum talis erit, ut habeat in se semper
+          malignitatis suae supplicium, nunquam tamen recipere possit bonitatis affectum: quia,
+          sicut illi qui cum Christo regnabunt, nullas in se malae voluntatis reliquias habebunt,
+          ita illi qui erunt supplicio ignis aeterni cum diabolo et angelis eius deputati, sicut
+          nullam habebunt ulterius requiem, sic bonam habere nullatenus poterunt voluntatem; et
+          sicut cohaeredibus Christi dabitur perfectio gratiae ad aeternam gloriam, ita consortibus
+          diaboli cumulabit ipsa malignitas poenam, quando, exterioribus deputati tenebris, nullo
+          illustrabuntur interiori lumine veritatis </quote>.</p>
+        <p xml:id="pl-l4d50c1-d1e146">Ex his apparet, reprobos in inferno sic poenitentiam
+          gesturos,</p>
+        <p xml:id="pl-l4d50c1-d1e149">ut per eam pravam voluntatem non deserant; et illa maligna
+          vo¬</p>
+        <p xml:id="pl-l4d50c1-d1e152">luntas erit eis ad cumulum poenae, per quam tamen non
+          merebuntur, quia nullus meretur nisi in hac vita.</p>
       </div>
     </body>
   </text>

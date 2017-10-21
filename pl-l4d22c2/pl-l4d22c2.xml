@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CAP. II</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev"> <title>CAP. II</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority> <ref>SCTA</ref> </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l4d22c2">
+        <head xml:id="pl-l4d22c2-Hd1e109">CAP. II</head>
+        <head xml:id="pl-l4d22c2-Hd1e112" type="question-title">Quid sil Sacramentum et res.</head>
+        <p xml:id="pl-l4d22c2-d1e115">Post praedicta restat investigare, quid in actione
+          poenitentiae sil Sacramentum et res. Sacramentum enim signum est sacrae rei; quid igitur
+          hic signum est, et quae est res sacra huius signi ?</p>
+        <p xml:id="pl-l4d22c2-d1e118">Quidam dicunt, Sacramentum hic esse quod exterius tantum
+          geritur, scilicet exterior poenitentia, quae est signum interioris poenitentiae, scilicet
+          contritionis cordis et humiliationis.</p>
+        <p xml:id="pl-l4d22c2-d1e121">Quod si est, non omne Sacramentum evangelicum id efficit, quod
+          figurat; exterior enim poenitentia non efficit interiorem<quote
+          xml:id="pl-l4d22c2-Qd1e123">, </quote>potius interior causa est exterioris.</p>
+        <p xml:id="pl-l4d22c2-d1e128">Sed ad hoc inquiunt illi, hoc esse intelligendum de illis
+          Sacramentis, quae in novo Testamento instituta sunt, ut est Sacramentum baptismi,
+          confirmationis et corporis Christi. Sacramentum vero poenitentiae , sicut et coniugii ,
+          ante tempus gratiae, etiam a primordio humani generis fuit. Utrumque enim institutum fuit
+          in primis parentibus.</p>
+        <p xml:id="pl-l4d22c2-d1e131">Item, si exterior poenitentia Sacramentum est, et interior res
+          Sacramenti, saepius praecedit res Sacramentum, quam Sacramentum rem.</p>
+        <p xml:id="pl-l4d22c2-d1e134">Sed nec hoc inconveniens est: nam et in aliis Sacramentis,
+          quae efficiunt quod figurant, hoc saepe contingit.</p>
+        <p xml:id="pl-l4d22c2-d1e137">Quidam autem dicunt, exteriorem poenitentiam et interiorem
+          esse Sacramentum, nec duo Sacramenta, sed unum, ut species panis et vini non duo sunt
+          Sacramenta, sed unum. Et sicut in Sacramento corporis, ita etiam in hoc Sacramento dicunt
+          aliud esse tantum Sacramentum, scilicet exteriorem poenitentiam, aliud Sacramentum et rem,
+          scilicet interiorem poenitentiam, aliud rem et non Sacramentum, scilicet remissionem
+          peccatorum. Interior enim poenitentia et res est Sacramenti, id est exterioris
+          poenitentiae, et Sacramentum remissionis peccati, quam et signat et facit. Exterior quoque
+          poenitentia et interioris signum est et remissionis peccati .</p>
+      </div>
+    </body>
+  </text>
+</TEI>

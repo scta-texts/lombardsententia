@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -14,18 +15,14 @@
         </respStmt>
       </titleStmt>
       <editionStmt>
-        <edition n="0.0.0-dev">
-          <title>Cap. V</title>
-          <date when="2017-10-21">October 21, 2017</date>
-        </edition>
+        <edition n="0.0.0-dev"> <title>Cap. V</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
       </editionStmt>
       <publicationStmt>
-        <authority>
-          <ref>SCTA</ref>
-        </authority>
+        <authority> <ref>SCTA</ref> </authority>
         <availability status="free">
-          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
-          </p>
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -35,7 +32,8 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -43,8 +41,7 @@
     </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2017-10-21" status="draft" n="0.0.0">
-          <p>Created file for the first time.</p>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
         </change>
       </listChange>
     </revisionDesc>
@@ -58,21 +55,49 @@
         <head xml:id="pl-l3d27c5-Hd1e109">Cap. V</head>
         <head xml:id="pl-l3d27c5-Hd1e112" type="question-title">De modo diligendi.</head>
         <p xml:id="pl-l3d27c5-d1e115">Consequenter modum utriusque dilectionis advertamus.</p>
-        <p xml:id="pl-l3d27c5-d1e118">
-          <quote xml:id="pl-l3d27c5-Qd1e120">Haec regula, ut ait <name ref="#Augustine">Augustinus</name>, dilectionis divinitus constituta est</quote>, ut Deum propter se toto corde, et proximum diligas sicut te ipsum, id est, ad quod et propter quod te ipsum diligere debes: in bono enim et propter Deum te ipsum diligere</p>
-        <p xml:id="pl-l3d27c5-d1e127">debes, in bono ergo diligendus est proximus, non in malo, et propter Deum.</p>
-        <p xml:id="pl-l3d27c5-d1e131">Proximum vero omnem hominem oportet intelligi, quia nemo est, cum quo sit operandum male. Qui ergo amat homines,  vel quia iusti sunt, vel ut iusti sint amare debet, hoc est in Deo vel propter Deum; sic enim et se ipsum amare debet, scilicet in Deo vel propter Deum, id est, quia iustus est, vel ut iustus sit. Qui enim aliter se diligit, ini uste se diligit, quia ad hoc se diligit ut sil iniustus, ad hoc ergo ut sit malus: non ergo iam se diligit. <quote xml:id="pl-l3d27c5-Qd1e133">Qui enim</quote>
-        </p>
-        <p xml:id="pl-l3d27c5-d1e137">
-          <quote xml:id="pl-l3d27c5-Qd1e139">diligit, iniquitatem odit animam suam</quote>.</p>
-        <p xml:id="pl-l3d27c5-d1e143">
-          <quote xml:id="pl-l3d27c5-Qd1e145"> Sic condita est mens humana, ut nunquam sui non meminerit, nunquam se non intelligat, nunquam se non diligat. Sed quoniam qui odit aliquem, nocere illi studet, non immerito et mens hominis, quando sibi nocet, se odisse dicitur. Nesciens enim sibi vult male</quote>, dum non putat sibi obesse quod vult; sed tamen male sibi vult, quando id vult, quod obsit sibi; secundum illud: <quote xml:id="pl-l3d27c5-Qd1e148">Qui diligit iniquitatem odit animam suam.</quote> Qui ergo diligere se novit, Deum diligit; qui vero non diligit Deum, etiam si se diligit, quod ei naturaliter inditum est, tamen non incongrue se odisse dicitur, cum id agit, quod sibi adversatur et se ipsum tanquam suus' inimicus insequitur.</p>
-        <p xml:id="pl-l3d27c5-d1e152">
-          <quote xml:id="pl-l3d27c5-Qd1e154"> Modus ergo diligendi praecipiendus est homini, id est, quomodo se diligat, ut prosit sibi. Quin autem se diligat et prodesse sibi velit dubitare, dementis est</quote>. Modus autem praecipitur, cum ait: <quote xml:id="pl-l3d27c5-Qd1e157">sicut te ipsum,</quote> ut proximum diligas, ad quod te ipsum. Si ergo te non propter te diligere debes, sed propter illum, ubi dilectionis tuae rectissimus finis est, non succenseat alius aliquis homo, si et ipsum propter Deum diligis. Huius dilectionis modum Veritas insinuat dicens : <quote xml:id="pl-l3d27c5-Qd1e160">Mandatum novum do vobis, ut diligatis invicem, sicut dilexi vos,</quote> id est, ad quod dilexi vos, scilicet ut 
-<quote xml:id="pl-l3d27c5-Qd1e163">filii sitis, ut vitam habeatis.</quote>
-        </p>
-        <p xml:id="pl-l3d27c5-d1e167">Dilectionis autem Dei modus insinuatur, cum dicitur: <quote xml:id="pl-l3d27c5-Qd1e169"> 
-            <quote xml:id="pl-l3d27c5-Qd1e171">Ex toto corde,</quote> id est ex toto intelleclu; <quote xml:id="pl-l3d27c5-Qd1e174">ex tota anima,</quote> id est voluntate; <quote xml:id="pl-l3d27c5-Qd1e177">ex tota mente,</quote> id est memoria</quote>, <quote xml:id="pl-l3d27c5-Qd1e181">ut omnes cogitationes et omnem vitam et omnem intellectum in illum conferas, a quo habes ea quae confers </quote>. Haec dicens, <quote xml:id="pl-l3d27c5-Qd1e184"> nullam pariem vitae nostrae reliquit, quae vacare debeat, sed quidquid venerit in animum, illuc rapiatur, quo dilectionis impetus currit </quote>. Et diligere Deum propter se modus est diligendi Deum. Et sunt isti duo modi diligendi Deum, ut quibusdam placet.</p>
+        <p xml:id="pl-l3d27c5-d1e118"> <quote xml:id="pl-l3d27c5-Qd1e120">Haec regula, ut ait <name
+          ref="#Augustine">Augustinus</name>, dilectionis divinitus constituta est</quote>, ut Deum
+          propter se toto corde, et proximum diligas sicut te ipsum, id est, ad quod et propter quod
+          te ipsum diligere debes: in bono enim et propter Deum te ipsum diligere</p>
+        <p xml:id="pl-l3d27c5-d1e127">debes, in bono ergo diligendus est proximus, non in malo, et
+          propter Deum.</p>
+        <p xml:id="pl-l3d27c5-d1e131">Proximum vero omnem hominem oportet intelligi, quia nemo est,
+          cum quo sit operandum male. Qui ergo amat homines, vel quia iusti sunt, vel ut iusti sint
+          amare debet, hoc est in Deo vel propter Deum; sic enim et se ipsum amare debet, scilicet
+          in Deo vel propter Deum, id est, quia iustus est, vel ut iustus sit. Qui enim aliter se
+          diligit, ini uste se diligit, quia ad hoc se diligit ut sil iniustus, ad hoc ergo ut sit
+          malus: non ergo iam se diligit. <quote xml:id="pl-l3d27c5-Qd1e133">Qui enim</quote> </p>
+        <p xml:id="pl-l3d27c5-d1e137"> <quote xml:id="pl-l3d27c5-Qd1e139">diligit, iniquitatem odit
+          animam suam</quote>.</p>
+        <p xml:id="pl-l3d27c5-d1e143"> <quote xml:id="pl-l3d27c5-Qd1e145"> Sic condita est mens
+          humana, ut nunquam sui non meminerit, nunquam se non intelligat, nunquam se non diligat.
+          Sed quoniam qui odit aliquem, nocere illi studet, non immerito et mens hominis, quando
+          sibi nocet, se odisse dicitur. Nesciens enim sibi vult male</quote>, dum non putat sibi
+          obesse quod vult; sed tamen male sibi vult, quando id vult, quod obsit sibi; secundum
+          illud: <quote xml:id="pl-l3d27c5-Qd1e148">Qui diligit iniquitatem odit animam
+          suam.</quote> Qui ergo diligere se novit, Deum diligit; qui vero non diligit Deum, etiam
+          si se diligit, quod ei naturaliter inditum est, tamen non incongrue se odisse dicitur, cum
+          id agit, quod sibi adversatur et se ipsum tanquam suus' inimicus insequitur.</p>
+        <p xml:id="pl-l3d27c5-d1e152"> <quote xml:id="pl-l3d27c5-Qd1e154"> Modus ergo diligendi
+          praecipiendus est homini, id est, quomodo se diligat, ut prosit sibi. Quin autem se
+          diligat et prodesse sibi velit dubitare, dementis est</quote>. Modus autem praecipitur,
+          cum ait: <quote xml:id="pl-l3d27c5-Qd1e157">sicut te ipsum,</quote> ut proximum diligas,
+          ad quod te ipsum. Si ergo te non propter te diligere debes, sed propter illum, ubi
+          dilectionis tuae rectissimus finis est, non succenseat alius aliquis homo, si et ipsum
+          propter Deum diligis. Huius dilectionis modum Veritas insinuat dicens : <quote
+          xml:id="pl-l3d27c5-Qd1e160">Mandatum novum do vobis, ut diligatis invicem, sicut dilexi
+          vos,</quote> id est, ad quod dilexi vos, scilicet ut <quote xml:id="pl-l3d27c5-Qd1e163"
+          >filii sitis, ut vitam habeatis.</quote> </p>
+        <p xml:id="pl-l3d27c5-d1e167">Dilectionis autem Dei modus insinuatur, cum dicitur: <quote
+          xml:id="pl-l3d27c5-Qd1e169"> <quote xml:id="pl-l3d27c5-Qd1e171">Ex toto corde,</quote> id
+          est ex toto intelleclu; <quote xml:id="pl-l3d27c5-Qd1e174">ex tota anima,</quote> id est
+          voluntate; <quote xml:id="pl-l3d27c5-Qd1e177">ex tota mente,</quote> id est
+          memoria</quote>, <quote xml:id="pl-l3d27c5-Qd1e181">ut omnes cogitationes et omnem vitam
+          et omnem intellectum in illum conferas, a quo habes ea quae confers </quote>. Haec dicens,
+          <quote xml:id="pl-l3d27c5-Qd1e184"> nullam pariem vitae nostrae reliquit, quae vacare
+          debeat, sed quidquid venerit in animum, illuc rapiatur, quo dilectionis impetus currit
+          </quote>. Et diligere Deum propter se modus est diligendi Deum. Et sunt isti duo modi
+          diligendi Deum, ut quibusdam placet.</p>
       </div>
     </body>
   </text>

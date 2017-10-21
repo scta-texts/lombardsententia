@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CAP. III</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev"> <title>CAP. III</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority> <ref>SCTA</ref> </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l4d12c3">
+        <head xml:id="pl-l4d12c3-Hd1e109">CAP. III</head>
+        <p xml:id="pl-l4d12c3-d1e112">[Cap. III]. Alii tradunt, corpus Christi essentialiter frangi
+          et dividi, et tamen integrum et incorruptibile existere.</p>
+        <p xml:id="pl-l4d12c3-d1e115">Quod se colligere asserunt ex confessione Berengarii, qui
+          confessus est coram Nicolao Papa et pluribus episcopis, <quote xml:id="pl-l4d12c3-Qd1e117"
+          > panem et vinum, quae in altari ponuntur, post consecrationem non solum Sacramentum, sed
+          etiam verum corpus et sanguinem Christi esse; et sensualiter, non solum Sacramento sed in
+          veritate, manibus sacerdotum tractari et frangi, et fidelium dentibus atteri </quote>.</p>
+        <p xml:id="pl-l4d12c3-d1e121">Sed quia corpus Christi incorruptibile est, sane dici potest
+          fractio illa, et partitio non in substantia corporis, sed in ipsa forma panis sacramentali
+          fieri, ut vera fractio et partitio sit ibi, quae fit non in substantia, sed in Sacramento,
+          id est, in specie. Ne autem mireris vel insultes, si accidentia videantur frangi, cum ibi
+          sint sine subiecto, licet quidam asserant, ea fundari in aere.</p>
+        <p xml:id="pl-l4d12c3-d1e124">Est ibi vera fractio et partitio, quae fit in pane, id est in
+          forma panis — unde <name ref="Paul">Apostolus</name> ait: Panis, quem frangimus — quia
+          forma panis ibi frangitur et in partes dividitur, Christus vero integer manet et totus est
+          in singulis.</p>
+        <p xml:id="pl-l4d12c3-d1e131">Unde <name ref="#Augustine">Augustinus</name>: <quote
+          xml:id="pl-l4d12c3-Qd1e136">Quando Christus manducatur, vita manducatur. Sed quis audeat
+          manducare Dominum suum ? Et tamen invitans nos ad manducandum ait: Qui manducat me, vivit,
+          propter me. Nec occiditur Christus, ut manducetur, sed mortuos vivificat; quando
+          manducatur, reficit, non deficit; vivit manducatus, quia resurrexit occisus; nec, quando
+          manducamus, partes de illo facimus, et quidem in Sacramento sic fit </quote>.</p>
+        <p xml:id="pl-l4d12c3-d1e140">Item : <quote xml:id="pl-l4d12c3-Qd1e142"> Norunt fideles,
+          quomodo manducent carnem Christi; unusquisque accipit pariem suam, unde et ipsa gratia
+          partes vocantur. Per paries manducatur, et manet, integer totus: per partes manducatur in
+          Sacramento, et manet integer totus in caelo, manet integer totus in corde tuo</quote>.</p>
+        <p xml:id="pl-l4d12c3-d1e146"> <quote xml:id="pl-l4d12c3-Qd1e148"> Ideo ista dicuntur
+          Sacramenta, quia in eis aliud videtur, et aliud intelligitur </quote>; videtur panis et
+          calix , quod et oculi renuntiant, quod autem fides postulat instruenda, panis est corpus
+          Christi, calix est sanguis.</p>
+        <p xml:id="pl-l4d12c3-d1e152">Ex his satis datur intelligi, quod fractio et partes, quae ibi
+          videntur fieri, in Sacramento fiunt, id est in specie visibili. Ideo-que illa Berengarii
+          verba ita distinguenda sunt, ut <quote xml:id="pl-l4d12c3-Qd1e154"> sensualiter, non modo
+          Sacramento, sed in veritate, dicatur corpus Christi tractari manibus sacerdotum, frangi
+          vero et atteri dentibus</quote>, vere quidem, sed in Sacramento tantum. Vera igitur est
+          ibi attritio et partitio, sed in singulis partibus totus Christus est.</p>
+        <p xml:id="pl-l4d12c3-d1e158">Unde <name ref="#Jerome">Hieronymus</name> : <quote
+          xml:id="pl-l4d12c3-Qd1e163">Singuli accipiunt Christum Dominum, et in singulis portionibus
+          totus est, nec per singulos minuitur, sed integrum se praebet in singulis </quote>.</p>
+        <p xml:id="pl-l4d12c3-d1e167">Item <name ref="HilaryOfPoitiers">Hilarius</name>: <quote
+          xml:id="pl-l4d12c3-Qd1e172"> Ubi est pars corporis, est et totum </quote>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

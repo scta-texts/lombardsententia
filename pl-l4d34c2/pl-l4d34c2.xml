@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -14,18 +15,14 @@
         </respStmt>
       </titleStmt>
       <editionStmt>
-        <edition n="0.0.0-dev">
-          <title>CAP. II</title>
-          <date when="2017-10-21">October 21, 2017</date>
-        </edition>
+        <edition n="0.0.0-dev"> <title>CAP. II</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
       </editionStmt>
       <publicationStmt>
-        <authority>
-          <ref>SCTA</ref>
-        </authority>
+        <authority> <ref>SCTA</ref> </authority>
         <availability status="free">
-          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
-          </p>
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -35,7 +32,8 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -43,8 +41,7 @@
     </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2017-10-21" status="draft" n="0.0.0">
-          <p>Created file for the first time.</p>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
         </change>
       </listChange>
     </revisionDesc>
@@ -56,14 +53,41 @@
     <body>
       <div xml:id="pl-l4d34c2">
         <head xml:id="pl-l4d34c2-Hd1e109">CAP. II</head>
-        <head xml:id="pl-l4d34c2-Hd1e112" type="question-title">De frigidis separandis, vel non.</head>
-        <p xml:id="pl-l4d34c2-d1e115">De his enim, qui causa frigiditatis debitum reddere non possunt, consulit beatus <name ref="#GregoryGreat">Gregorius</name>, ut permaneant. Sed si mulier causatur dicens: Volo esse mater et filios procreare, decernit ut uterque eorum septima manu propinquorum iuret, quod nunquam carnaliter convenerint; et tunc mulier secundas nuptias contrahat; vir autem, qui frigidae naturae est, absque spe coniugii permaneat.</p>
-        <p xml:id="pl-l4d34c2-d1e121">Ait enim sic: <quote xml:id="pl-l4d34c2-Qd1e123">Interrogasti de his qui matrimonio iuncti  sunt et nubere non possunt, si ille aliam, vel illa alium ducere possit; de quibus scriptum est: Vir et mulier, si se coniunxerint, et post dixerit mulier de viro, quod coire non possit cum ea, si potest probare quod dicit per iustum iudicium, accipiat alium; si vero ille acceperit aliam, separentur</quote>.</p>
-        <p xml:id="pl-l4d34c2-d1e127">Item: <quote xml:id="pl-l4d34c2-Qd1e129">De his requisisti, qui ob causam frigidae naturae dicunt se non posse invicem operam carni dantes commisceri. Iste vero, si non potest ea uti pro uxore, habeat eam quasi sororem. Quodsi retinaculum coniugale voluerint rescindere, maneant innupti utrique; nam si huic non potuit naturaliter concordare, quomodo alteri conveniet? Igitur si vir aliam uxorem vult accipere, manifesta patet ratio, quia, suggerente diabolo odii fomitem, exosam habuerit eam, et eam ideo dimittere mendacii falsitate molitur. Quodsi mulier causatur et dicit: Volo esse mater et filios procreare, uterque eorum septima manu propinquorum, tactis sacrosanctis reliquiis, iureiurando dicat, ut nunquam per commixtionem carnis coniuncti una caro effecti fuissent. Tunc videtur mulier secundas posse contrahere nuptias: <quote xml:id="pl-l4d34c2-Qd1e131">humanum dico propter infirmitatem carnis eorum.</quote> Vir autem, qui frigidae est naturae, maneat sine coniuge. Quodsi et ille aliam copulam acceperit, tunc hi qui iuraverant, periurii crimine rei teneantur, et poenitentia peracta, priora cogantur recipere connubia </quote>.</p>
-        <p xml:id="pl-l4d34c2-d1e137">
-          <quote xml:id="pl-l4d34c2-Qd1e139"> Hoc servandum est, cum uterque idem fatetur. Sed vir si asserit se debitum reddidisse uxori, et illa diffitetur, cui potius fides habenda sit, merito quaeritur </quote>.</p>
-        <p xml:id="pl-l4d34c2-d1e143">De hoc ita statutum est: <quote xml:id="pl-l4d34c2-Qd1e145">Si quis accepit uxorem, et habuit eam aliquo tempore, et ipsa femina dicit, quod nunquam coisset cum ea, et ille vir dicit, quod sic fecit, in veritate viri consistat, quia <quote xml:id="pl-l4d34c2-Qd1e147">vir est caput mulieris</quote> 
-          </quote>. <quote xml:id="pl-l4d34c2-Qd1e151"> Hoc de naturali impossibilitate statutum est</quote>.</p>
+        <head xml:id="pl-l4d34c2-Hd1e112" type="question-title">De frigidis separandis, vel
+          non.</head>
+        <p xml:id="pl-l4d34c2-d1e115">De his enim, qui causa frigiditatis debitum reddere non
+          possunt, consulit beatus <name ref="#GregoryGreat">Gregorius</name>, ut permaneant. Sed si
+          mulier causatur dicens: Volo esse mater et filios procreare, decernit ut uterque eorum
+          septima manu propinquorum iuret, quod nunquam carnaliter convenerint; et tunc mulier
+          secundas nuptias contrahat; vir autem, qui frigidae naturae est, absque spe coniugii
+          permaneat.</p>
+        <p xml:id="pl-l4d34c2-d1e121">Ait enim sic: <quote xml:id="pl-l4d34c2-Qd1e123">Interrogasti
+          de his qui matrimonio iuncti sunt et nubere non possunt, si ille aliam, vel illa alium
+          ducere possit; de quibus scriptum est: Vir et mulier, si se coniunxerint, et post dixerit
+          mulier de viro, quod coire non possit cum ea, si potest probare quod dicit per iustum
+          iudicium, accipiat alium; si vero ille acceperit aliam, separentur</quote>.</p>
+        <p xml:id="pl-l4d34c2-d1e127">Item: <quote xml:id="pl-l4d34c2-Qd1e129">De his requisisti,
+          qui ob causam frigidae naturae dicunt se non posse invicem operam carni dantes commisceri.
+          Iste vero, si non potest ea uti pro uxore, habeat eam quasi sororem. Quodsi retinaculum
+          coniugale voluerint rescindere, maneant innupti utrique; nam si huic non potuit
+          naturaliter concordare, quomodo alteri conveniet? Igitur si vir aliam uxorem vult
+          accipere, manifesta patet ratio, quia, suggerente diabolo odii fomitem, exosam habuerit
+          eam, et eam ideo dimittere mendacii falsitate molitur. Quodsi mulier causatur et dicit:
+          Volo esse mater et filios procreare, uterque eorum septima manu propinquorum, tactis
+          sacrosanctis reliquiis, iureiurando dicat, ut nunquam per commixtionem carnis coniuncti
+          una caro effecti fuissent. Tunc videtur mulier secundas posse contrahere nuptias: <quote
+          xml:id="pl-l4d34c2-Qd1e131">humanum dico propter infirmitatem carnis eorum.</quote> Vir
+          autem, qui frigidae est naturae, maneat sine coniuge. Quodsi et ille aliam copulam
+          acceperit, tunc hi qui iuraverant, periurii crimine rei teneantur, et poenitentia peracta,
+          priora cogantur recipere connubia </quote>.</p>
+        <p xml:id="pl-l4d34c2-d1e137"> <quote xml:id="pl-l4d34c2-Qd1e139"> Hoc servandum est, cum
+          uterque idem fatetur. Sed vir si asserit se debitum reddidisse uxori, et illa diffitetur,
+          cui potius fides habenda sit, merito quaeritur </quote>.</p>
+        <p xml:id="pl-l4d34c2-d1e143">De hoc ita statutum est: <quote xml:id="pl-l4d34c2-Qd1e145">Si
+          quis accepit uxorem, et habuit eam aliquo tempore, et ipsa femina dicit, quod nunquam
+          coisset cum ea, et ille vir dicit, quod sic fecit, in veritate viri consistat, quia <quote
+          xml:id="pl-l4d34c2-Qd1e147">vir est caput mulieris</quote> </quote>. <quote
+          xml:id="pl-l4d34c2-Qd1e151"> Hoc de naturali impossibilitate statutum est</quote>.</p>
       </div>
     </body>
   </text>

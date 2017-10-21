@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CAP. III</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev"> <title>CAP. III</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority> <ref>SCTA</ref> </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l4d20c3">
+        <head xml:id="pl-l4d20c3-Hd1e109">CAP. III</head>
+        <head xml:id="pl-l4d20c3-Hd1e112" type="question-title">De illo cui sacerdos indiscretus
+          iniungit poenitentiam.</head>
+        <p xml:id="pl-l4d20c3-d1e115">Si vero de illo quaeritur, qui satifactionem iniunctam
+          impleverit, quae ignorantia vel negligentia sacerdotis peccato condigna non fuit, utrum de
+          vita migrans ab omni poena liber sit, idem respondeo, quod supra de illo qui poenitentiam
+          non complevit; dixi, quod si lanium est lamentum doloris interioris, ut sufficiat in
+          vindictam peccati, omnino liberatus est; si vero non sufficit dolor interior simul cum
+          poena iniuncta, addet Deus poenam.</p>
+        <p xml:id="pl-l4d20c3-d1e118">Quod autem interdum sufficiat dolor interior ad vindictam
+          peccati, certum documentum habemus in illo latrone, qui sola mentis contritione et
+          confessione, statim ut conversus fuit, paradisum ingredi meruit.</p>
+        <p xml:id="pl-l4d20c3-d1e121">Sed quia dispensatores Ecclesiae contritionis quantitatem non
+          perpendunt, quibus non est datum intelligere occulta cordium, omnibus leges poenitentiae
+          constituunt, tam magis quam minus de peccato dolentibus. Quorum studium ad hoc praecipue
+          tendere de bet, ut cordis dolorem, quantum fas est, cognoscant, et secundum ipsius modum,
+          satisfactionem iniungant.</p>
+        <p xml:id="pl-l4d20c3-d1e125">Unde <name ref="#Augustine">Augustinus</name>: <quote
+          xml:id="pl-l4d20c3-Qd1e130">In actione poenitentiae, ubi tale commissum est, ut is qui
+          commisit, a Christi etiam corpore separetur, non tam consideranda est mensura temporis
+          quam dolo ris: <quote xml:id="pl-l4d20c3-Qd1e132">Cor enim contritum et humiliatum Deus
+          non despicit</quote>. Verum quia plerumque et dolor alterius cordis occultus est alteri,
+          ne in aliorum notitiam nisi per verba vel alia quaecunque signa procedit, cum sit coram
+          illo cui dicitur : <quote xml:id="pl-l4d20c3-Qd1e135">Gemitus meus a te non est
+          absconditus,</quote> recte constituuntur ab bis qui Ecclesiis praesunt, tempora
+          poenitentiae, ut satisfiat etiam Ecclesiae, in qua remittuntur peccata ipsa; extra eam
+          quippe non remittuntur: ipsa enim Spiritum sanctum pignus accepit, sine quo non
+          remittuntur ulla peccata </quote>.</p>
+        <p xml:id="pl-l4d20c3-d1e140">Item <name ref="#Jerome">Hieronymus</name>: <quote
+          xml:id="pl-l4d20c3-Qd1e145">Mensuram temporis in agenda poenitentia ideo non satis aperte
+          praefigunt canones pro unoquoque crimine, ut de singulis dicant, qualiter unumquodque
+          emendandum sit, sed magis in arbitrio sacerdotis intelligentis relinquendum statuunt, quia
+          apud Deum non tam valet mensura temporis quam doloris, nec abstinentia tantum ciborum,
+          quantum mortificatio vitiorum. Ideoque tempora poenitentiae pro fide et conversatione
+          poenitentium abbrevianda praecipiunt, et pro negligentia protelanda; pro quibusdam tamen
+          culpis modi poenitentiae sunt impositi</quote>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

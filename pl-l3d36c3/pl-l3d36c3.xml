@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -14,18 +15,14 @@
         </respStmt>
       </titleStmt>
       <editionStmt>
-        <edition n="0.0.0-dev">
-          <title>Cap. IIII</title>
-          <date when="2017-10-21">October 21, 2017</date>
-        </edition>
+        <edition n="0.0.0-dev"> <title>Cap. IIII</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
       </editionStmt>
       <publicationStmt>
-        <authority>
-          <ref>SCTA</ref>
-        </authority>
+        <authority> <ref>SCTA</ref> </authority>
         <availability status="free">
-          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
-          </p>
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -35,7 +32,8 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -43,8 +41,7 @@
     </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2017-10-21" status="draft" n="0.0.0">
-          <p>Created file for the first time.</p>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
         </change>
       </listChange>
     </revisionDesc>
@@ -56,11 +53,36 @@
     <body>
       <div xml:id="pl-l3d36c3">
         <head xml:id="pl-l3d36c3-Hd1e109">Cap. IIII</head>
-        <head xml:id="pl-l3d36c3-Hd1e112" type="question-title">Quomodo in caritate tota Lex pendet.</head>
-        <p xml:id="pl-l3d36c3-d1e115">Cum duo sint praecepta caritatis, in quibus, ut praetaxatum est, <quote xml:id="pl-l3d36c3-Qd1e117">tota Lex pendet et Prophetae</quote>. advertendum est, quomodo hoc sit, cum in Lege et Prophetis multa fuerint caeremonialia mandata, quae, si ad caritatis sanctificationem pertinuissent, viderentur nondum debere cessare. Quia vero non iustificationis gratia, quam facit caritas, instituta sunt, sed in figura futuri et in onus imposita; ideo clarescente veritate, cessaverunt velut umbra. Verumtamen et ipsa caeremonialia secundum spiritualem intellectum, quem continent, et omnia moralia ad caritatem referuntur. Pertinent enim omnia ad decem mandata in tabulis scripta, ubi omnium summa perstringitur, ex quibus cetera emanant, sicut in sermone Domini octo virtutes praemittuntur, ad quas celera referuntur; et sicut ad decem mandata decalogi celera referuntur, ita et ipsa decem ad duo mandata caritatis. Omnia ergo ad duo mandata caritatis pertinent, quia per caritatem implentur, et ad caritatem tanquam finem referri debent.</p>
-        <p xml:id="pl-l3d36c3-d1e121">Unde <name ref="#Augustine">Augustinus</name>: <!--<quote>-->Totam magnitudinem et amplitudinem divinorum Eloquiorum possidet caritas, qua Deum proximumque diligimus, quae radix est omnium bonorum. Unde Veritas ait: <quote xml:id="pl-l3d36c3-Qd1e128">In his duobus mandatis universa Lex pendet et Prophetae.</quote> Si ergo non vacat omnes Paginas sanctas perscrutari, omnia involucra sermonum evolvere, lene caritatem, ubi pendent omnia<!--</quote>-->, quia perfectio est et finis omnium. Tunc enim et praecepta et consilia recte fiunt, cum referuntur ad diligendum Deum et proximum propter Deum. <quote xml:id="pl-l3d36c3-Qd1e133"> Quod vero timore poenae, vel aliqua intentione carnali fit, ut non referatur ad caritatem, nondum fit sicut fieri oportet, quamvis fieri videatur</quote>. <quote xml:id="pl-l3d36c3-Qd1e137">Inimicus enim iustitiae est qui poenae timore non peccat; amicus vero, qui eius amore non peccat</quote>.</p>
-        <p xml:id="pl-l3d36c3-d1e141">
-          <quote xml:id="pl-l3d36c3-Qd1e143"> Omnium igitur haec summa est, ut intelligatur Legis et omnium divinarum Scripturarum plenitudo esse dilectio Dei et proximi </quote>.</p>
+        <head xml:id="pl-l3d36c3-Hd1e112" type="question-title">Quomodo in caritate tota Lex
+          pendet.</head>
+        <p xml:id="pl-l3d36c3-d1e115">Cum duo sint praecepta caritatis, in quibus, ut praetaxatum
+          est, <quote xml:id="pl-l3d36c3-Qd1e117">tota Lex pendet et Prophetae</quote>. advertendum
+          est, quomodo hoc sit, cum in Lege et Prophetis multa fuerint caeremonialia mandata, quae,
+          si ad caritatis sanctificationem pertinuissent, viderentur nondum debere cessare. Quia
+          vero non iustificationis gratia, quam facit caritas, instituta sunt, sed in figura futuri
+          et in onus imposita; ideo clarescente veritate, cessaverunt velut umbra. Verumtamen et
+          ipsa caeremonialia secundum spiritualem intellectum, quem continent, et omnia moralia ad
+          caritatem referuntur. Pertinent enim omnia ad decem mandata in tabulis scripta, ubi omnium
+          summa perstringitur, ex quibus cetera emanant, sicut in sermone Domini octo virtutes
+          praemittuntur, ad quas celera referuntur; et sicut ad decem mandata decalogi celera
+          referuntur, ita et ipsa decem ad duo mandata caritatis. Omnia ergo ad duo mandata
+          caritatis pertinent, quia per caritatem implentur, et ad caritatem tanquam finem referri
+          debent.</p>
+        <p xml:id="pl-l3d36c3-d1e121">Unde <name ref="#Augustine">Augustinus</name>:
+          <!--<quote>-->Totam magnitudinem et amplitudinem divinorum Eloquiorum possidet caritas,
+          qua Deum proximumque diligimus, quae radix est omnium bonorum. Unde Veritas ait: <quote
+          xml:id="pl-l3d36c3-Qd1e128">In his duobus mandatis universa Lex pendet et
+          Prophetae.</quote> Si ergo non vacat omnes Paginas sanctas perscrutari, omnia involucra
+          sermonum evolvere, lene caritatem, ubi pendent omnia<!--</quote>-->, quia perfectio est et
+          finis omnium. Tunc enim et praecepta et consilia recte fiunt, cum referuntur ad diligendum
+          Deum et proximum propter Deum. <quote xml:id="pl-l3d36c3-Qd1e133"> Quod vero timore
+          poenae, vel aliqua intentione carnali fit, ut non referatur ad caritatem, nondum fit sicut
+          fieri oportet, quamvis fieri videatur</quote>. <quote xml:id="pl-l3d36c3-Qd1e137">Inimicus
+          enim iustitiae est qui poenae timore non peccat; amicus vero, qui eius amore non
+          peccat</quote>.</p>
+        <p xml:id="pl-l3d36c3-d1e141"> <quote xml:id="pl-l3d36c3-Qd1e143"> Omnium igitur haec summa
+          est, ut intelligatur Legis et omnium divinarum Scripturarum plenitudo esse dilectio Dei et
+          proximi </quote>.</p>
       </div>
     </body>
   </text>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CAP. IV</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev"> <title>CAP. IV</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority> <ref>SCTA</ref> </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l4d11c4">
+        <head xml:id="pl-l4d11c4-Hd1e109">CAP. IV</head>
+        <head xml:id="pl-l4d11c4-Hd1e112" type="question-title">Quare sub duplici specie.</head>
+        <p xml:id="pl-l4d11c4-d1e115">Sed quare sub duplici sumitur specie, cum sub alterutra totus
+          sit Christus?</p>
+        <p xml:id="pl-l4d11c4-d1e118"> <quote xml:id="pl-l4d11c4-Qd1e120"> Ut ostenderetur, totam
+          humanam naturam assumsisse, ut totam redimeret: panis enim ad carnem refertur, vinum ad
+          animam, quia vinum operatur sanguinem, in quo sedes animae a physicis esse dicitur . Ideo
+          ergo iri duabus speciebus celebratur, ut animae et carnis susceptio in Christo, et
+          utriusque liberatio in nobis significetur </quote>.</p>
+        <p xml:id="pl-l4d11c4-d1e124">Valet enim, ut ait <name ref="#Ambrose">Ambrosius</name>,
+          <quote xml:id="pl-l4d11c4-Qd1e129">ad tuitionem corporis et animae quod percipimus; quia
+          caro Christi pro salute corporis, sanguis vero pro anima nostra offertur, sicut
+          praefiguravit Moyses: Caro, inquit, pro corpore nostro offertur, sanguis vero pro anima
+          </quote>; sed tamen <quote xml:id="pl-l4d11c4-Qd1e132"> sub utraque specie sumitur, quod
+          ad utrumque valet, quia sub utraque sumitur totus Christus. Sed si in altera tantum
+          sumeretur, ad alterius tantum, id est corporis vel animae, non utriusque pariter tuitionem
+          valere significaretur. Sub utraque tamen specie totus sumitur Christus; nec plus sub
+          utraque, nec minus sub altera tantum sumitur</quote>.</p>
+        <p xml:id="pl-l4d11c4-d1e137">Eadem enim ratio est, ut ait <name ref="HilaryOfPoitiers"
+          >Hilarius</name>, in corpore Christi, quae in manna praecessit; de quo dicitur: <quote
+          xml:id="pl-l4d11c4-Qd1e142"> Qui plus collegerat non habuit amplius, nec qui minus
+          paraverat habuit minus</quote>.</p>
+        <p xml:id="pl-l4d11c4-d1e146">Et licet sub utraque specie totus Christus sumatur, tamen non
+          fit conversio panis nisi in carnem, nec vini nisi in sanguinem; nec debent dici duo
+          Sacramenta, sed unum, quia sub utraque specie idem sumitur; neque Sacramentum iterari,
+          quia benedictio non repetitur super eandem speciem; neque aliae substantiae in sacrificium
+          veritatis offerri debent, quia de aliis non potest consecrari corpus Christi vel
+          sanguis.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -14,18 +15,14 @@
         </respStmt>
       </titleStmt>
       <editionStmt>
-        <edition n="0.0.0-dev">
-          <title>Cap. II</title>
-          <date when="2017-10-21">October 21, 2017</date>
-        </edition>
+        <edition n="0.0.0-dev"> <title>Cap. II</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
       </editionStmt>
       <publicationStmt>
-        <authority>
-          <ref>SCTA</ref>
-        </authority>
+        <authority> <ref>SCTA</ref> </authority>
         <availability status="free">
-          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
-          </p>
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -35,7 +32,8 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -43,8 +41,7 @@
     </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2017-10-21" status="draft" n="0.0.0">
-          <p>Created file for the first time.</p>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
         </change>
       </listChange>
     </revisionDesc>
@@ -56,16 +53,69 @@
     <body>
       <div xml:id="pl-l3d36c2">
         <head xml:id="pl-l3d36c2-Hd1e109">Cap. II</head>
-        <head xml:id="pl-l3d36c2-Hd1e112" type="question-title">An cunctae virtutes pares sint, in quocumque sint.</head>
-        <p xml:id="pl-l3d36c2-d1e115">Utrum vero pariter quis omnes possideat virtutes, an aliae magis, aliae minus in aliquo ferveant, quaestio est.</p>
-        <p xml:id="pl-l3d36c2-d1e118">Quibusdam enim videtur, quod aliae magis, aliae minus habeantur ab aliquo, sicut in Iob patientia eminuit, in David humilitas, in Moyse mansuetudo. Qui etiam concedunt, magis aliquem mereri per aliquam unam virtutem quam per aliam, sicut eam plenius habet quam aliam. Non tamen magis per aliquam mereri dicunt quam per caritatem, nec aliquam plenius a quoquam haberi quam caritatem. Alias igitur magis, et alias minus in aliquo esse dicunt, sed nullam plenius caritate, quae celeras gignit; hasque dicunt esse multas facies, quas memorat <name ref="Paul">Apostolus</name> dicens: <quote xml:id="pl-l3d36c2-Qd1e123">Ex personis multarum facierum</quote> etc.</p>
-        <p xml:id="pl-l3d36c2-d1e127">Alii verius dicunt, omnes virtutes et simul et pares esse in quocumque sunt, ut qui in una alteri par extiterit, in omnibus eidem aequalis sit.</p>
-        <p xml:id="pl-l3d36c2-d1e131">Unde <name ref="#Augustine">Augustinus</name>: <quote xml:id="pl-l3d36c2-Qd1e136"> Virtutes, quae sunt in animo humano, quamvis alio et alio modo singulae intelligantur, nullo modo tamen separantur ab invicem, ut quicumque fuerint aequales, verbi gratia in fortitudine, aequales sint et prudentia et iustitia et temperantia. Si enim dixeris, aequales esse istos in fortitudine, sed illum praestare prudentia, sequitur ut huius fortitudo minus prudens sit; ac per hoc nec fortitudine aequales sunt, quia est illius fortitudo prudentior. Atque ita de ceteris virtutibus invenies, si omnes eadem consideratione percurras </quote>.</p>
-        <p xml:id="pl-l3d36c2-d1e140">Ex his clarescit, omnes virtutes non modo esse connexas, sed etiam pares in animo hominis. Cum ergo dicitur aliquis aliqua praeeminere virtute, ut <name ref="#Abraham">Abraham</name> fide, Iob patientia, secundum usus exteriores accipiendum est, vel in comparatione aliorum hominum, quia vel humilitatis habitum maxime praefert, vel opus fidei, vel alicuius ceterarum virtutum praecipue exsequitur. Unde et ea prae aliis pollere, vel inter alios homines singulariter excellere dicitur secundum hunc modum, scilicet secundum rationem actuum exteriorum.</p>
-        <p xml:id="pl-l3d36c2-d1e146">Alibi <name ref="#Augustine">Augustinus</name> dicit, in aliquo aliam magis esse virtutem, aliam minus, et unam esse, et non alteram. Ait enim sic: <quote xml:id="pl-l3d36c2-Qd1e151"> Clarissima disputatione tua satis apparuit, non placuisse auctoribus nostris, immo ipsi Veritati, omnia paria esse peccata, etiam si hoc de virtutibus verum sit </quote>; <quote xml:id="pl-l3d36c2-Qd1e154"> quia, etsi verum est, eum qui habet unam, omnes habere virtutes, et eum qui unam non habet, nullam habere, nec sic peccata sunt paria, quia ubi virtus nulla est, nihil rectum est; nec tamen ideo non est pravo pravius distortoque distortius. Si autem, quod puto esse verius sacrisque Litteris congruentius, ita sunt animae intentiones, ut corporis membra (non quod videantur locis sed quod sentiantur affectibus) et alius illuminatur amplius, alius minus, alius omnino caret lumine; profecto ut quisque illustratione piae caritatis affectus est, in alio actu magis, in alio minus, in aliquo nihil, sic dici potest habere aliam, et aliam non habere, et aliam magis, aliam minus habere virtutem. Nam et maior est in isto caritas, quam in illo recte possumus dicere; et aliqua in isto, nulla, in illo, quantum perlinet ad caritatem, quae pietas est; et in uno homine, quod maiorem habeat pudicitiam quam patientiam, et maiorem hodie quam heri, si proficit; et adhuc non habeat continentiam, et habeat non parvam misericordiam. Et ut generaliter breviterque complectar quam de virtute habeo notionem: virtus est caritas, qua id quod diligendum est, diligitur; haec in aliis minor, in aliis maior, in aliis nulla est; plenissima vero, quae iam non possit augeri, quamdiu hic homo vivit, in nemine </quote>.</p>
-        <p xml:id="pl-l3d36c2-d1e158">Hic insinuari videtur, quod aliquis ea ratione possit dici habere unam virtutem magis quam aliam, quia per caritatem magis afficitur in actu unius virtutis quam alterius, et propter differentiam actuum ipsas virtutes magis vel minus habere dici potest, et aliquam non habere; cum tamen omnes simul et pariter habeat quantum ad mentis habitum vel essentiam cuiusque. In actu vero aliam magis, aliam minus habet, aliam etiam non habet, ut vir iustus, utens coniugio, non habet continentiam in actu, quam tamen habet in habitu.</p>
-        <p xml:id="pl-l3d36c2-d1e161">Cur ergo non dicantur paria peccata? Forte quia magis facit contra caritatem qui gravius peccat, minus qui levius. Nemo enim</p>
-        <p xml:id="pl-l3d36c2-d1e164">peccat, nisi adversus illam faciendo, quae est <quote xml:id="pl-l3d36c2-Qd1e166">plenitudo Legis;</quote> ideo recte dicitur: <quote xml:id="pl-l3d36c2-Qd1e169">Qui offenderit in uno</quote>, <quote xml:id="pl-l3d36c2-Qd1e172">factus est omnium reus</quote>, id est, contra caritatem facit, in qua pendent omnia <!--</quote>-->.</p>
+        <head xml:id="pl-l3d36c2-Hd1e112" type="question-title">An cunctae virtutes pares sint, in
+          quocumque sint.</head>
+        <p xml:id="pl-l3d36c2-d1e115">Utrum vero pariter quis omnes possideat virtutes, an aliae
+          magis, aliae minus in aliquo ferveant, quaestio est.</p>
+        <p xml:id="pl-l3d36c2-d1e118">Quibusdam enim videtur, quod aliae magis, aliae minus
+          habeantur ab aliquo, sicut in Iob patientia eminuit, in David humilitas, in Moyse
+          mansuetudo. Qui etiam concedunt, magis aliquem mereri per aliquam unam virtutem quam per
+          aliam, sicut eam plenius habet quam aliam. Non tamen magis per aliquam mereri dicunt quam
+          per caritatem, nec aliquam plenius a quoquam haberi quam caritatem. Alias igitur magis, et
+          alias minus in aliquo esse dicunt, sed nullam plenius caritate, quae celeras gignit;
+          hasque dicunt esse multas facies, quas memorat <name ref="Paul">Apostolus</name> dicens:
+          <quote xml:id="pl-l3d36c2-Qd1e123">Ex personis multarum facierum</quote> etc.</p>
+        <p xml:id="pl-l3d36c2-d1e127">Alii verius dicunt, omnes virtutes et simul et pares esse in
+          quocumque sunt, ut qui in una alteri par extiterit, in omnibus eidem aequalis sit.</p>
+        <p xml:id="pl-l3d36c2-d1e131">Unde <name ref="#Augustine">Augustinus</name>: <quote
+          xml:id="pl-l3d36c2-Qd1e136"> Virtutes, quae sunt in animo humano, quamvis alio et alio
+          modo singulae intelligantur, nullo modo tamen separantur ab invicem, ut quicumque fuerint
+          aequales, verbi gratia in fortitudine, aequales sint et prudentia et iustitia et
+          temperantia. Si enim dixeris, aequales esse istos in fortitudine, sed illum praestare
+          prudentia, sequitur ut huius fortitudo minus prudens sit; ac per hoc nec fortitudine
+          aequales sunt, quia est illius fortitudo prudentior. Atque ita de ceteris virtutibus
+          invenies, si omnes eadem consideratione percurras </quote>.</p>
+        <p xml:id="pl-l3d36c2-d1e140">Ex his clarescit, omnes virtutes non modo esse connexas, sed
+          etiam pares in animo hominis. Cum ergo dicitur aliquis aliqua praeeminere virtute, ut
+          <name ref="#Abraham">Abraham</name> fide, Iob patientia, secundum usus exteriores
+          accipiendum est, vel in comparatione aliorum hominum, quia vel humilitatis habitum maxime
+          praefert, vel opus fidei, vel alicuius ceterarum virtutum praecipue exsequitur. Unde et ea
+          prae aliis pollere, vel inter alios homines singulariter excellere dicitur secundum hunc
+          modum, scilicet secundum rationem actuum exteriorum.</p>
+        <p xml:id="pl-l3d36c2-d1e146">Alibi <name ref="#Augustine">Augustinus</name> dicit, in
+          aliquo aliam magis esse virtutem, aliam minus, et unam esse, et non alteram. Ait enim sic:
+          <quote xml:id="pl-l3d36c2-Qd1e151"> Clarissima disputatione tua satis apparuit, non
+          placuisse auctoribus nostris, immo ipsi Veritati, omnia paria esse peccata, etiam si hoc
+          de virtutibus verum sit </quote>; <quote xml:id="pl-l3d36c2-Qd1e154"> quia, etsi verum
+          est, eum qui habet unam, omnes habere virtutes, et eum qui unam non habet, nullam habere,
+          nec sic peccata sunt paria, quia ubi virtus nulla est, nihil rectum est; nec tamen ideo
+          non est pravo pravius distortoque distortius. Si autem, quod puto esse verius sacrisque
+          Litteris congruentius, ita sunt animae intentiones, ut corporis membra (non quod videantur
+          locis sed quod sentiantur affectibus) et alius illuminatur amplius, alius minus, alius
+          omnino caret lumine; profecto ut quisque illustratione piae caritatis affectus est, in
+          alio actu magis, in alio minus, in aliquo nihil, sic dici potest habere aliam, et aliam
+          non habere, et aliam magis, aliam minus habere virtutem. Nam et maior est in isto caritas,
+          quam in illo recte possumus dicere; et aliqua in isto, nulla, in illo, quantum perlinet ad
+          caritatem, quae pietas est; et in uno homine, quod maiorem habeat pudicitiam quam
+          patientiam, et maiorem hodie quam heri, si proficit; et adhuc non habeat continentiam, et
+          habeat non parvam misericordiam. Et ut generaliter breviterque complectar quam de virtute
+          habeo notionem: virtus est caritas, qua id quod diligendum est, diligitur; haec in aliis
+          minor, in aliis maior, in aliis nulla est; plenissima vero, quae iam non possit augeri,
+          quamdiu hic homo vivit, in nemine </quote>.</p>
+        <p xml:id="pl-l3d36c2-d1e158">Hic insinuari videtur, quod aliquis ea ratione possit dici
+          habere unam virtutem magis quam aliam, quia per caritatem magis afficitur in actu unius
+          virtutis quam alterius, et propter differentiam actuum ipsas virtutes magis vel minus
+          habere dici potest, et aliquam non habere; cum tamen omnes simul et pariter habeat quantum
+          ad mentis habitum vel essentiam cuiusque. In actu vero aliam magis, aliam minus habet,
+          aliam etiam non habet, ut vir iustus, utens coniugio, non habet continentiam in actu, quam
+          tamen habet in habitu.</p>
+        <p xml:id="pl-l3d36c2-d1e161">Cur ergo non dicantur paria peccata? Forte quia magis facit
+          contra caritatem qui gravius peccat, minus qui levius. Nemo enim</p>
+        <p xml:id="pl-l3d36c2-d1e164">peccat, nisi adversus illam faciendo, quae est <quote
+          xml:id="pl-l3d36c2-Qd1e166">plenitudo Legis;</quote> ideo recte dicitur: <quote
+          xml:id="pl-l3d36c2-Qd1e169">Qui offenderit in uno</quote>, <quote
+          xml:id="pl-l3d36c2-Qd1e172">factus est omnium reus</quote>, id est, contra caritatem
+          facit, in qua pendent omnia <!--</quote>-->.</p>
       </div>
     </body>
   </text>

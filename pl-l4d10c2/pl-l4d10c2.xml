@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CAP. II</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev"> <title>CAP. II</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority> <ref>SCTA</ref> </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l4d10c2">
+        <head xml:id="pl-l4d10c2-Hd1e109">CAP. II</head>
+        <head xml:id="pl-l4d10c2-Hd1e112" type="question-title">De Sanctorum testimoniis, quibus
+          probatur, verum corpus Christi esse in altari.</head>
+        <p xml:id="pl-l4d10c2-d1e115">Haec et his similia obiiciunt illi, in divino mysterio legem
+          naturae sectantes; quorum perfidiam subdita convincunt testimonia.</p>
+        <p xml:id="pl-l4d10c2-d1e118">Ait enim Veritas: Accipite , hoc est corpus meum.</p>
+        <p xml:id="pl-l4d10c2-d1e121">Item, <name ref="#Ambrose">Ambrosius</name>: <quote
+          xml:id="pl-l4d10c2-Qd1e126">Si tantum valuit sermo Eliae, ut ignem de caelo deponeret; non
+          valebit tantum Christi sermo, ut substantias mutet? De totius mundi operibus legitur: Quia
+          ipse dixit, et facta sunt, etc. Sermo igitur, qui potuit ex nihilo facere quod non erat,
+          non potest ea quae sunt, in id mutare, quod non erant? Non enim minus est dare quam mutare
+          novas naturas rebus </quote>.</p>
+        <p xml:id="pl-l4d10c2-d1e131">Item: <quote xml:id="pl-l4d10c2-Qd1e133">Si ordinem quaerimus,
+          viro mixta femina generare consueverat. Liquet igitur, quod praeter naturae ordinem Virgo
+          generavit; et hoc quod conficimus corpus, ex Virgine est. Quid hic quaeris naturae ordinem
+          in Christi corpore, cum praeter naturam sit ipse partus ex Virgine? </quote> </p>
+        <p xml:id="pl-l4d10c2-d1e137">Item: <quote xml:id="pl-l4d10c2-Qd1e139">Aule benedictionem
+          alia species nominatur; post consecrationem corpus significatur. Ante consecrationem aliud
+          dicitur; post consecrationem sanguis nuncupatur. Tu dicis: Amen, hoc est, verum est. Quod
+          sermo sonat, affectus sentiat </quote>.</p>
+        <p xml:id="pl-l4d10c2-d1e143">Item <name ref="#Augustine">Augustinus</name>: <quote
+          xml:id="pl-l4d10c2-Qd1e148">In specie panis et vini, quam videmus, res invisibiles, id est
+          carnem et sanguinem, honoramus; nec similiter pendimus has duas species, sicut ante
+          consecrationem pendebamus, cum fideliter fateamur, ante consecrationem panem esse et
+          vinum, quod natura formavit; post consecrationem vero carnem Christi et sanguinem, quod
+          benedictio consecravit </quote>.</p>
+        <p xml:id="pl-l4d10c2-d1e152">Item, <name ref="#Ambrose">Ambrosius</name> : <quote
+          xml:id="pl-l4d10c2-Qd1e157"> Panis est in altari usitatus ante verba sacra; ubi accessit
+          consecratio, de pane fit Christi caro. Quomodo autem potest, quod panis est, esse corpus
+          Christi? Consecratione, quae fit Christi sermone</quote>.</p>
+        <p xml:id="pl-l4d10c2-d1e161">Item: <quote xml:id="pl-l4d10c2-Qd1e163">Si tanta vis est in
+          sermone Domini, ut inciperent esse quae non erant, quanto magis operatorius est, ut sint
+          quae erant, et in aliud commutentur? Et sic quod erat panis ante consecrationem iam corpus
+          Christi est post consecrationem, quia sermo Christi creaturam mutat; et sic ex pane fit
+          corpus Christi, et vinum cum aqua in calicem missum fit sanguis, consecratione verbi
+          caelestis </quote>.</p>
+        <p xml:id="pl-l4d10c2-d1e167">Item, <name ref="#Augustine">Augustinus</name> : <quote
+          xml:id="pl-l4d10c2-Qd1e172"> Sicut per Spiritum vera caro sine coitu creatur, ita per
+          eundem ex substantia panis et vini idem corpus Christi et veritas est et figura: veritas,
+          dum corpus Christi et sanguis virtute Spiritus ex panis vinique substantia efficitur;
+          figura vero est id quod exterius sentitur </quote>.</p>
+        <p xml:id="pl-l4d10c2-d1e177">Item, Eusebius Emissenus: <quote xml:id="pl-l4d10c2-Qd1e179">
+          Invisibilis sacerdos visibiles creaturas in substantiam corporis et sanguinis sui verbo
+          suo secreta potestate commutat</quote>.</p>
+        <p xml:id="pl-l4d10c2-d1e183">Ex his aliisque pluribus constat, verum corpus Christi et
+          sanguinem in altari esse, immo integrum Christum sub utraque specie, et substantiam panis
+          in corpus, vinique substantiam in sanguinem converti.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

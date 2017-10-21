@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CAP. I</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev"> <title>CAP. I</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority> <ref>SCTA</ref> </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l4d20c1">
+        <head xml:id="pl-l4d20c1-Hd1e109">CAP. I</head>
+        <head xml:id="pl-l4d20c1-Hd1e112" type="question-title">De his qui in fine poenitent.</head>
+        <p xml:id="pl-l4d20c1-d1e115">Sciendum est etiam, quod tempus poenitentiae est usque in
+          extremum articulum vitae.</p>
+        <p xml:id="pl-l4d20c1-d1e118">Unde Leo Papa: <quote xml:id="pl-l4d20c1-Qd1e120">Nemo est
+          desperandus, dum in hoc corpore constitutus est, quia nonnunquam quod diffidentia aetatis
+          differtur, consilio maturiore perficitur </quote>.</p>
+        <p xml:id="pl-l4d20c1-d1e124"> <name ref="#Augustine">Augustinus</name> tamen de
+          differentibus poenitentiam ita scribit: <quote xml:id="pl-l4d20c1-Qd1e129">Si quis positus
+          in ultima necessitate voluerit accipere poenitentiam, et accipit, et mox reconciliatur, et
+          hinc vadit; fateor vobis, non illi negamus quod petit, sed non praesumimus quia bene hinc
+          exit; si securus hinc exierit, ego nescio. Poenitentiam dare possumus, securitatem vero
+          non. Nunquid dico: damnabitur? Sed nec dico: liberabitur. Vis ergo a dubio liberari? Age
+          poenitentiam, dum sanus es. Si sic agis, dico tibi, quia securus es, quia poenitentiam
+          egisti eo tempore, quo peccare potuisti. Si vis agere poenitentiam, quando iam peccare non
+          potes, peccata te dimiserunt, non tu illa </quote>.</p>
+        <p xml:id="pl-l4d20c1-d1e134">Item : <quote xml:id="pl-l4d20c1-Qd1e136"> Duae res sunt: aut
+          ignoscitur libi, aut non ignoscitur; quid horum tibi futurum sit, nescio; ergo tene certum
+          <quote xml:id="pl-l4d20c1-Qd1e138">, </quote>dimitte incertum </quote>.</p>
+        <p xml:id="pl-l4d20c1-d1e143">Sed quare hoc dixit <name ref="#Augustine">Augustinus</name>,
+          cum poenitentia quae in fine agitur, in Psalmo appelletur <quote
+          xml:id="pl-l4d20c1-Qd1e148">sacrificium vespertinum</quote> , <quote
+          xml:id="pl-l4d20c1-Qd1e151"> quod erat acceptabilius in Lege </quote>, et cum in <quote
+          xml:id="pl-l4d20c1-Qd1e154">quacumque die invocetur</quote> Deus, adsit, et quacumque hora
+          ingemuerit et conversus fuerit peccator, <quote xml:id="pl-l4d20c1-Qd1e157">vita
+          vivat</quote> ?</p>
+        <p xml:id="pl-l4d20c1-d1e161">Sed illa dixit <name ref="#Augustine">Augustinus</name>
+          propter illos qui poenitentiam usque in finem vitae protrahunt, et tunc non ex Dei amore
+          videntur poenitere, sed timore mortis, quasi ex necessitate.</p>
+        <p xml:id="pl-l4d20c1-d1e167"> Unde idem, quasi aperiens quare superiora dixerit, ait:
+          <quote xml:id="pl-l4d20c1-Qd1e169">Nullus exspectet quando peccare non potest. Arbitrii
+          enim libertatem quaerat, ut delere possit commissa, non necessitatem; caritatem, non
+          tantum timorem, quia non in solo timore vivit homo. Quem ergo sero poenitet, oportet non
+          solum timere iudicem, sed et diligere, quia sine caritate nemo potest salvus esse. Non
+          ergo tantum timeat poenam, qui poenitet, sed anxietur pro gloria. Quae conversio si
+          contigerit alicui etiam in fine, desperandum non est de eius remissione. Sed quoniam vix
+          vel raro est tam i usta conversio, timendum est de poenitente sero, maxime cum filii, quos
+          illicite dilexit, sint praesentes, uxor et mundus ad se vocet. Mullos solet serotina
+          poenitentia decipere. Sed quoniam Deus semper potens est, semper, etiam in morte, iuvare
+          valet quibus placet. Cum igitur opus sil non hominis sed Dei fructifera poenitentia,
+          inspirare eam potest, quandocumque vult sua misericordia , et remunerare ex misericordia,
+          quos damnare potest ex iustitia. Sed quoniam multa sunt, quae impediunt et languentem
+          retrahunt, periculosissimum est et interitui vicinum, ad mortem protrahere poenitentiae
+          remedium. Sed magnum est, cui tunc Deus inspirat, si quis est, veram poenitentiam
+          </quote>.</p>
+        <p xml:id="pl-l4d20c1-d1e173"> <quote xml:id="pl-l4d20c1-Qd1e175"> Sed si etiam sic
+          conversus <quote xml:id="pl-l4d20c1-Qd1e177">vita vivat et non moriatur,</quote> non
+          promittimus, quod evadat omnem poenam: nam prius purgandus est igne purgationis, qui in
+          aliud saeculum distulit fructum conversionis. Hic autem ignis, etsi aeternus non sil, miro
+          modo est gravis; excellit enim omnem poenam, quam unquam passus est aliquis in hac vita.
+          Nunquam in carne tanta intenta est poena, licet mirabilia Martyres passi sint tormenta; et
+          multi nequiter quanta saepe sustinuerunt supplicia </quote>!</p>
+        <p xml:id="pl-l4d20c1-d1e182">Ex his satis ostenditur, quam periculosum sit differre
+          poenitentiam usque in finem vitae. Si tamen etiam tunc vera habeatur poenitentia, hominem
+          liberat et vitam mortuo impetrat, non sic tamen, ut nullam sentiat poenam, nisi forte
+          tanta sil vehementia gemitus et contritionis, quae sufficiat ad delicii punitionem. <quote
+          xml:id="pl-l4d20c1-Qd1e184"> Licet ergo sit difficile, ut tunc sit vera poenitentia,
+          quando tam sera venit, quando cruciatus membra ligat, et dolor sensum opprimit, ut vix
+          homo aliquid cogitare valeat, melior est tamen sera quam nulla</quote>. <quote
+          xml:id="pl-l4d20c1-Qd1e187"> Poenitentia enim, si in extremo vitae hiatu advenit, sanat et
+          liberat</quote>. <quote xml:id="pl-l4d20c1-Qd1e190">Multum sera fuit latronis poenitentia,
+          sed non fuit sera indulgentia</quote>. Sed <quote xml:id="pl-l4d20c1-Qd1e193">licet latro
+          veniam meruisset in fine de crimine, non tamen dedit baptizatis peccandi et perseverandi
+          auctoritatem </quote>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

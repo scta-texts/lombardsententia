@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CAP. II</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev"> <title>CAP. II</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority> <ref>SCTA</ref> </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l4d17c2">
+        <head xml:id="pl-l4d17c2-Hd1e109">CAP. II</head>
+        <head xml:id="pl-l4d17c2-Hd1e112" type="question-title">An sufficiat soli Deo
+          confiteri.</head>
+        <p xml:id="pl-l4d17c2-d1e115">Iam secundum quaestionis articulum inspiciamus, scilicet utrum
+          sufficiat peccata confiteri soli Deo, an oporteat confiteri sacerdoti.</p>
+        <p xml:id="pl-l4d17c2-d1e118">Quibusdam visum est sufficere, si soli Deo fiat confessio sine
+          indicio sacerdotali et confessione Ecclesiae, quia David dicit: <quote
+          xml:id="pl-l4d17c2-Qd1e120">Dixi, confitebor Domino, et tu remisisti,</quote> etc.; non
+          ait sacerdoti, et tamen remissum sibi dicit peccatum.</p>
+        <p xml:id="pl-l4d17c2-d1e124">Item <name ref="#Ambrose">Ambrosius</name>: <quote
+          xml:id="pl-l4d17c2-Qd1e129">Ideo flevit Petrus, quia culpa obrepsit ei; non invenio quid
+          dixerit; invenio quod fleverit. Lacrymas eius lego, satisfactionem non lego. Sed quod
+          defendi non potest, ablui potest: lavant lacrymae delicium, quod voce pudor est confiteri;
+          et veniae fletus consulunt et verecundiae <quote xml:id="pl-l4d17c2-Qd1e131"/>.</quote>
+          Hoc idem etiam Maximus dicit episcopus.</p>
+        <p xml:id="pl-l4d17c2-d1e136">Item loannes Chrysostomus: <quote xml:id="pl-l4d17c2-Qd1e138"
+          >Non tibi dico, ut te prodas in publicum, neque apud alios accuses, sed obedire te volo
+          Prophetae dicenti: <quote xml:id="pl-l4d17c2-Qd1e140">Revela</quote> <quote
+          xml:id="pl-l4d17c2-Qd1e143">viam luam ante Deum.</quote> Ergo tua confitere peccata apud
+          verum indicem, cum oratione delicta tua pronuntia, non lingua, sed conscientiae tuae
+          memoria; et tunc demum spera te misericordiam posse consequi. Si habueris peccata tua in
+          mente continue, nunquam malum adversus proximum in corde tenebis </quote>.</p>
+        <p xml:id="pl-l4d17c2-d1e148">Idem: <quote xml:id="pl-l4d17c2-Qd1e150"> Peccata tua dicito,
+          ut deleas illa. Sed si confunderis alicui dicere, dicito et quotidie in anima tua; non
+          dico, ut confitearis ea conservo tuo, ut libi exprobret; dicito Deo, qui curat ea. Nec
+          enim, si non dixeris, ignorat ea: cum faciebas ea, praesto erat; cum admitteres ea,
+          cognoverat. Nunquid ea vult a te cognoscere? Peccare non erubuisti, et confiteri
+          erubescis? Dicito in hac vita, ut in alia requiem habeas; dicito ingemiscens et lacrymans.
+          In codice scripta sunt peccata tua; spongia peccatorum tuorum lacrymae tuae sint
+          </quote>.</p>
+        <p xml:id="pl-l4d17c2-d1e154">Item Prosper: <quote xml:id="pl-l4d17c2-Qd1e156"> Illi quorum
+          peccata humanam notitiam latent, non ab ipsis confessa nec ab aliis publicata, si ea
+          confiteri vel emendare noluerint, Deum, quem habent testem, ipsum et habituri sunt
+          ultorem. Quodsi sui ipsi indices fiant, et veluli suae iniquitatis ultores, hic in se
+          voluntariam poenam severissimae animadversionis exerceant, temporalibus poenis mutabunt
+          aeterna supplicia, et lacrymis, ex vera cordis contritione fluentibus, restringent aeterni
+          ignis incendia </quote>.</p>
+        <p xml:id="pl-l4d17c2-d1e160">El infra: <quote xml:id="pl-l4d17c2-Qd1e162">Facilius sibi
+          Deum placabunt illi qui aut propriis confessionibus crimen produnt, aut nescientibus
+          aliis, ipsi in se voluntariae excommunicationis sententiam ferunt, et ab altari, cui
+          ministrabant, non animo, sed officio separati, vitam suam quasi mortuam plangunt, certi
+          quod reconciliati sibi efficacis poenitentiae fructibus, a Deo non solum amissa recipiant,
+          sed etiam supernae civitatis gaudia recipiant</quote>.</p>
+        <p xml:id="pl-l4d17c2-d1e166">His auctoritatibus innituntur qui sufficere contendunt Deo
+          confiteri peccata sine sacerdote. Dicunt enim, quod si quis timens, detegi culpam suam
+          apud homines, ne inde opprobrio habeatur, vel alii suo exemplo ad peccandum accingantur,
+          et ideo taceat homini et revelet Deo, consequitur veniam.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

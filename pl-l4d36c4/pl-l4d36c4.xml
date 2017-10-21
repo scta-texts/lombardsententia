@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -14,18 +15,14 @@
         </respStmt>
       </titleStmt>
       <editionStmt>
-        <edition n="0.0.0-dev">
-          <title>CAP. IV</title>
-          <date when="2017-10-21">October 21, 2017</date>
-        </edition>
+        <edition n="0.0.0-dev"> <title>CAP. IV</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
       </editionStmt>
       <publicationStmt>
-        <authority>
-          <ref>SCTA</ref>
-        </authority>
+        <authority> <ref>SCTA</ref> </authority>
         <availability status="free">
-          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
-          </p>
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -35,7 +32,8 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -43,8 +41,7 @@
     </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2017-10-21" status="draft" n="0.0.0">
-          <p>Created file for the first time.</p>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
         </change>
       </listChange>
     </revisionDesc>
@@ -57,10 +54,18 @@
       <div xml:id="pl-l4d36c4">
         <head xml:id="pl-l4d36c4-Hd1e109">CAP. IV</head>
         <head xml:id="pl-l4d36c4-Hd1e112" type="question-title">De aetate contrahentium.</head>
-        <p xml:id="pl-l4d36c4-d1e115">Hoc etiam sciendum est, quod <quote xml:id="pl-l4d36c4-Qd1e117"> pueri ante quatuordecim annos et puellae ante duodecim secundum leges matrimonium inire nequeunt. Quodsi ante praedicta tempora copulam inierint, separari possunt, quamvis voluntate et assensu parentum iuncti sint<quote xml:id="pl-l4d36c4-Qd1e119">. 
-</quote>Qui vero in pueritia copulati, post annos pubertatis nolunt se relinquere, sed in coniunctione permanere, iam ex hoc efficiuntur coniuges, et deinceps nequeunt separari </quote>.</p>
-        <p xml:id="pl-l4d36c4-d1e124">Item: <quote xml:id="pl-l4d36c4-Qd1e126">Sponsalia ante septennium contrahi non possunt: solo enim consensu contrahuntur, qui intervenire non potest, nisi ab alterutra parte intelligatur quod inter eos agitur </quote>.</p>
-        <p xml:id="pl-l4d36c4-d1e130">Duo illa exsecuti sumus cum aliorum quorundam adiectione, quibus coniugium solvi potest, nec tamen solvi semper necesse est.</p>
+        <p xml:id="pl-l4d36c4-d1e115">Hoc etiam sciendum est, quod <quote
+          xml:id="pl-l4d36c4-Qd1e117"> pueri ante quatuordecim annos et puellae ante duodecim
+          secundum leges matrimonium inire nequeunt. Quodsi ante praedicta tempora copulam inierint,
+          separari possunt, quamvis voluntate et assensu parentum iuncti sint<quote
+          xml:id="pl-l4d36c4-Qd1e119">. </quote>Qui vero in pueritia copulati, post annos pubertatis
+          nolunt se relinquere, sed in coniunctione permanere, iam ex hoc efficiuntur coniuges, et
+          deinceps nequeunt separari </quote>.</p>
+        <p xml:id="pl-l4d36c4-d1e124">Item: <quote xml:id="pl-l4d36c4-Qd1e126">Sponsalia ante
+          septennium contrahi non possunt: solo enim consensu contrahuntur, qui intervenire non
+          potest, nisi ab alterutra parte intelligatur quod inter eos agitur </quote>.</p>
+        <p xml:id="pl-l4d36c4-d1e130">Duo illa exsecuti sumus cum aliorum quorundam adiectione,
+          quibus coniugium solvi potest, nec tamen solvi semper necesse est.</p>
       </div>
     </body>
   </text>

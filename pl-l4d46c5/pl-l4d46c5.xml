@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -14,18 +15,14 @@
         </respStmt>
       </titleStmt>
       <editionStmt>
-        <edition n="0.0.0-dev">
-          <title>CAP. V</title>
-          <date when="2017-10-21">October 21, 2017</date>
-        </edition>
+        <edition n="0.0.0-dev"> <title>CAP. V</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
       </editionStmt>
       <publicationStmt>
-        <authority>
-          <ref>SCTA</ref>
-        </authority>
+        <authority> <ref>SCTA</ref> </authority>
         <availability status="free">
-          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
-          </p>
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -35,7 +32,8 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -43,8 +41,7 @@
     </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2017-10-21" status="draft" n="0.0.0">
-          <p>Created file for the first time.</p>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
         </change>
       </listChange>
     </revisionDesc>
@@ -56,14 +53,34 @@
     <body>
       <div xml:id="pl-l4d46c5">
         <head xml:id="pl-l4d46c5-Hd1e109">CAP. V</head>
-        <head xml:id="pl-l4d46c5-Hd1e112" type="question-title">Quomodo universae viae Domini dicuntur misericordia et veritas.</head>
-        <p xml:id="pl-l4d46c5-d1e115">Post haec considerari oportet, ex quo sensu <quote xml:id="pl-l4d46c5-Qd1e117">universae viae Domini</quote> dicantur <quote xml:id="pl-l4d46c5-Qd1e120">misericordia et veritas.</quote>
-        </p>
-        <p xml:id="pl-l4d46c5-d1e124">Hoc multiplicem recipit expositionem. Universae enim viae Domini, quibus ad nos venit, ut ait <name ref="#Augustine">Augustinus</name> 
-          <title>Super Psalmum,</title> intelliguntur duo adventus: primus, in qua manifestam et multiplicem misericordiam nobis exhibuit; et secundus, in quo requirendo merita iustitiam exhibebit. Universae etiam viae Domini, id est, quibus ad Deum ascendimus, sunt iustitia, qua a malo declinamus, et misericordia, qua bonum facimus: in his enim duabus omne bonum meritum includitur.</p>
-        <p xml:id="pl-l4d46c5-d1e133">Sed cum superius <name ref="Cassiodorus">Cassiodorus</name> dixerit, in his duabus omnia opera Dei includi, merito quaeri potest, an in omni opere Domini haec duo mutuo sibi iungantur.</p>
-        <p xml:id="pl-l4d46c5-d1e140">Quibusdam placuit, non in omni opere Domini haec duo concurrere, secundum effectum dico; nam secundum essentiam non dividitur misericordia a iustitia, sed unum est; verum secundum effectum non in omni opere dicunt esse misericordiam et iustitiam, sed in quibusdam tantum misericordiam, in aliis iustitiam, atque in aliis misericordiam et iustitiam. Fatemur tamen, Deum omnia quae facit, misericorditer agere et iuste, referentes rationem dicti ad Dei voluntatem, quae iustitia est et misericordia, non ad effectus misericordiae et iustitiae, qui sunt in rebus.</p>
-        <p xml:id="pl-l4d46c5-d1e143">Aliis autem videtur quod sicut dicitur Deus omnia opera sua facere iuste et misericorditer, ita concedendum sit in omni opere Domini iustitiam esse et misericordiam, id est clementiam, secundum effectum vel signum, quia nullum opus Dei est, in quo non sit effectus vel signum aequitatis et clementiae, sive occulte, sive aperte: aliquando enim manifesta est clementia sive benignitas, et occulta aequitas, aliquando e converso.</p>
+        <head xml:id="pl-l4d46c5-Hd1e112" type="question-title">Quomodo universae viae Domini
+          dicuntur misericordia et veritas.</head>
+        <p xml:id="pl-l4d46c5-d1e115">Post haec considerari oportet, ex quo sensu <quote
+          xml:id="pl-l4d46c5-Qd1e117">universae viae Domini</quote> dicantur <quote
+          xml:id="pl-l4d46c5-Qd1e120">misericordia et veritas.</quote> </p>
+        <p xml:id="pl-l4d46c5-d1e124">Hoc multiplicem recipit expositionem. Universae enim viae
+          Domini, quibus ad nos venit, ut ait <name ref="#Augustine">Augustinus</name> <title>Super
+          Psalmum,</title> intelliguntur duo adventus: primus, in qua manifestam et multiplicem
+          misericordiam nobis exhibuit; et secundus, in quo requirendo merita iustitiam exhibebit.
+          Universae etiam viae Domini, id est, quibus ad Deum ascendimus, sunt iustitia, qua a malo
+          declinamus, et misericordia, qua bonum facimus: in his enim duabus omne bonum meritum
+          includitur.</p>
+        <p xml:id="pl-l4d46c5-d1e133">Sed cum superius <name ref="Cassiodorus">Cassiodorus</name>
+          dixerit, in his duabus omnia opera Dei includi, merito quaeri potest, an in omni opere
+          Domini haec duo mutuo sibi iungantur.</p>
+        <p xml:id="pl-l4d46c5-d1e140">Quibusdam placuit, non in omni opere Domini haec duo
+          concurrere, secundum effectum dico; nam secundum essentiam non dividitur misericordia a
+          iustitia, sed unum est; verum secundum effectum non in omni opere dicunt esse
+          misericordiam et iustitiam, sed in quibusdam tantum misericordiam, in aliis iustitiam,
+          atque in aliis misericordiam et iustitiam. Fatemur tamen, Deum omnia quae facit,
+          misericorditer agere et iuste, referentes rationem dicti ad Dei voluntatem, quae iustitia
+          est et misericordia, non ad effectus misericordiae et iustitiae, qui sunt in rebus.</p>
+        <p xml:id="pl-l4d46c5-d1e143">Aliis autem videtur quod sicut dicitur Deus omnia opera sua
+          facere iuste et misericorditer, ita concedendum sit in omni opere Domini iustitiam esse et
+          misericordiam, id est clementiam, secundum effectum vel signum, quia nullum opus Dei est,
+          in quo non sit effectus vel signum aequitatis et clementiae, sive occulte, sive aperte:
+          aliquando enim manifesta est clementia sive benignitas, et occulta aequitas, aliquando e
+          converso.</p>
       </div>
     </body>
   </text>

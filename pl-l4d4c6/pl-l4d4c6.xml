@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CAP. 6</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev"> <title>CAP. 6</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority> <ref>SCTA</ref> </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l4d4c6">
+        <head xml:id="pl-l4d4c6-Hd1e109">CAP. 6</head>
+        <p xml:id="pl-l4d4c6-d1e112">[Cap. VI]. Qui ergo mundus accedit ibi fit mundior, omni etiam
+          habenti ibi amplius datur.</p>
+        <p xml:id="pl-l4d4c6-d1e115">Quod vero omnis exterior satisfactio ibi relaxetur, <name
+          ref="#Ambrose">Ambrosius</name> ostendit, super illum locum: Sine poenitentia sunt dona
+          Dei et vocatio, dicens: <quote xml:id="pl-l4d4c6-Qd1e120"> Gratia Dei in baptismo non
+          requirit gemitum vel planctum vel aliquod opus, et omnia gratia condonat</quote>. Quod
+          quidem de exteriori gemitu vel planctu accipiendum est; nam sine interiori nemo adultus
+          renovatur; sed exteriores satisfactiones et afflictiones, scilicet sordes poenitendum, ibi
+          dimittuntur. Multum ergo confert baptismus etiam iam per fidem justificato, qui accedens
+          ad baptismum, quasi ramus a columba portatur in arcam; ante intus erat iudicio Dei, sed
+          nunc etiam indicio Ecclesiae intus est.</p>
+        <p xml:id="pl-l4d4c6-d1e124">Cum vero in baptismo peccatum deleatur, et satisfactio exterior
+          non imputetur, quaeritur, cur poenalitas, cui pro peccato addicti sumus, non tollatur.</p>
+        <p xml:id="pl-l4d4c6-d1e127">Hoc ideo fieri tradunt Sancti, <quote
+          xml:id="pl-l4d4c6-Qd1e129"> quia, si a poena homines per baptismum liberarentur, ipsam
+          putarent baptismi pretium, non aeternum regnum. Ideo, soluto reatu peccati, temporalis
+          poena tamen manet, ut illa vita studiosius quaeratur, quae erit a poenis omnibus aliena
+          </quote>. Ideo etiam manet, ut sit fideli certandi materia et vincendi occasio, qui non
+          vinceret, si non pugnaret; nec pugnaret, si in baptismo immortalis fieret.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

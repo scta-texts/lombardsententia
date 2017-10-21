@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -14,19 +15,14 @@
         </respStmt>
       </titleStmt>
       <editionStmt>
-        <edition n="0.0.0-dev">
-          <title>Cap. Unicum.</title>
-          <date when="2017-09-05">September 05, 2017</date>
-        </edition>
+        <edition n="0.0.0-dev"> <title>Cap. Unicum.</title> <date when="2017-09-05">September 05,
+          2017</date> </edition>
       </editionStmt>
       <publicationStmt>
-        <authority>
-          <ref>SCTA</ref>
-        </authority>
+        <authority> <ref>SCTA</ref> </authority>
         <availability status="free">
           <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
-              Commons Attribution 4.0 International</ref>
-          </p>
+            Commons Attribution 4.0 International</ref> </p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -36,7 +32,8 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -44,8 +41,7 @@
     </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2017-09-05" status="draft" n="0.0.0">
-          <p>Created file for the first time.</p>
+        <change when="2017-09-05" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
         </change>
       </listChange>
     </revisionDesc>
@@ -57,65 +53,67 @@
     <body>
       <div xml:id="pl-l3d9c1">
         <head xml:id="pl-l3d9c1-Hd1e111">Cap. Unicum.</head>
-        <head xml:id="pl-l3d9c1-Hd1e114" type="question-title"> De adoratione exhibenda humanitati Christi. </head>
-        <p xml:id="pl-l3d9c1-d1e117"> Praeterea investigari oportet, utrum caro Christi et anima una eademque cum Verbo
-          debeant adoratione adorari, illa scilicet, quae latria dicitur. Si enim animae vel carni
-          Christi exhibetur latria, (quae intelligitur servitus sive cultus soli Creatori debitus)
-          cum anima Christi vel caro creatura tantum sit, creaturae exhibetur quod soli Creatori
-          debetur; quod facienti in idololatriam deputatur. </p>
-        <p xml:id="pl-l3d9c1-d1e120"> Ideo quibusdam videtur, non illa adoratione, quae latria est, carnem Christi vel animam
-          esse adorandam, sed illa quae dulia est, cuius duas species vel modos esse dicunt. Est
-          enim cuiusdam modi dulia, quae creaturae cuilibet exhiberi potest; et est quaedam soli
-          humanitati Christi exhibenda, non alii creaturae; quia Christi humanitas super omnem
-          creaturam est veneranda et diligenda; non tamen adeo, ut cultus divinitati debitus ei
-          exhibeatur, qui cultus in dilectione et sacrificii exhibitione atque reverentia consistit,
-          qui Latine dicitur pietas, Graece autem theosebia, id est Dei cultus, vel eusebia, id est
-          bonus cultus. </p>
-        <p xml:id="pl-l3d9c1-d1e123"> Aliis autem placet, Christi humanitatem una adoratione cum Verbo esse adorandam, non
-          propter se, sed propter illud cuius est scabellum, cui est unita; nec ipsa humanitas sola
-          vel nuda, sed cum Verbo, cui est unita; nec propter se, sed propter illud est adoranda.
-          Nec qui hoc facit idololatriae reus iudicari potest, quia nec soli creaturae, nec propter
-          ipsam, sed Creatori cum humanitate et in humanitate sua servit. </p>
-        <p xml:id="pl-l3d9c1-d1e127"> De hoc loannes ita ait: <quote xml:id="pl-l3d9c1-Qd1e129">Duae sunt naturae Christi, ratione et modo differentiae,
-            unitae vero secundum hypostasim. Unus igitur Christus est Deus perfectus et homo
-            perfectus, quem adoramus cum Patre et Spiritu , una adoratione cum incontaminata carne
-            eius, non inadorabilem carnem dicentes — adoratur enim in una Verbi hypostasi, quae
-            hypostasis generata est — non creaturae venerationem praebentes. Non enim ut nudam
-            carnem adoramus sed ut unitam deitati, in unam hypostasim Dei-Verbi duabus reductis
-            naturis. Timeo carbonem tangere propter ligno copulatum ignem. Adoro Christi mei, simul
-            utraque propter carni unitam deitatem : non enim quartam appono personam in Trinitate,
-            sed unam personam confiteor Verbi et carnis eius</quote>. </p>
-        <p xml:id="pl-l3d9c1-d1e133"> His verbis insinuari videtur, Christi humanitatem una adoratione cum Verbo esse
-          adorandam. </p>
-        <p xml:id="pl-l3d9c1-d1e136"> De hoc etiam <name ref="#Augustine">Augustinus</name> ex sermone Domini, ubi dicit:
-            <quote xml:id="pl-l3d9c1-Qd1e141">Non turbetur cor vestrum,</quote> ita dicit: <quote xml:id="pl-l3d9c1-Qd1e144">Dicunt haeretici, Filium non
-            natura esse Deum, sed creatum. Quibus respondendum est, quia, si Filius non est Deus
-            natura, sed creatura, nec colendus est omnino, nec ut Deus adorandus, dicente Apostolo:
-              <quote xml:id="pl-l3d9c1-Qd1e146" ana="#rom1_25">Coluerunt et servierunt potius creaturae quam Creatori.</quote>
-          </quote>
-        </p>
-        <p xml:id="pl-l3d9c1-d1e151">
-          <quote xml:id="pl-l3d9c1-Qd1e153"> Sed illi ad hoc replicabunt et dicent: Quid est, quod carnem eius, quam creaturam
-            esse non negas, simul cum divinitate adoras, et ei non minus quam divinitati
-            deservis?</quote>
-        </p>
-        <p xml:id="pl-l3d9c1-d1e157">
-          <quote xml:id="pl-l3d9c1-Qd1e159"> Ego dominicam carnem, immo perfectam in Christo humanitatem, ideo adoro, quod a
-            divinitate suscepta et deitati unita est: ut non alium et alium, sed unum eundemque Deum
-            et hominem, Dei Filium esse confitear. Denique si hominem separaveris a Deo, illi
-            nunquam credo nec servio; velut si quis, purpuram vel diadema regale iacens inveniat,
-            nunquid ea conabitur adorare ? Cum vero ea rex fuerit indutus, periculum mortis
-            incurrit, si ea cum rege adorare quis contempserit. Ita etiam in Christo Domino
-            humanitatem non solam vel nudam, sed divinitati unitam, scilicet unum Filium, Deum verum
-            et hominem verum, si quis adorare contempserit, aeternaliter morietur </quote>. </p>
-        <p xml:id="pl-l3d9c1-d1e163"> Idem <title>Super Psalmum 98</title>, ubi dicitur: <quote xml:id="pl-l3d9c1-Qd1e168" ana="#ps98_5">Adorate
-            scabellum pedum eius, quoniam sanctum est: </quote>
-          <quote xml:id="pl-l3d9c1-Qd1e171">Sciendum quia in Christo terra est, id est caro, quae sine impietate adoratur:
-            suscepit enim de terra terram, quia caro de terra est, et de carne Mariae carnem
-              accepit<quote xml:id="pl-l3d9c1-Qd1e173">.</quote> Haec sine impietate, a Verbo Dei assumta, adoratur a nobis,
-            quia nemo carnem eius manducat, nisi prius adoret; sed qui adorat, non terram intuetur,
-            sed illum potius, cuius scabellum est, propter quem adorat</quote>. </p>
-        <p xml:id="pl-l3d9c1-d1e179"> His auctoritatibus praemissae investigationis absolutio explicatur. </p>
+        <head xml:id="pl-l3d9c1-Hd1e114" type="question-title"> De adoratione exhibenda humanitati
+          Christi. </head>
+        <p xml:id="pl-l3d9c1-d1e117"> Praeterea investigari oportet, utrum caro Christi et anima una
+          eademque cum Verbo debeant adoratione adorari, illa scilicet, quae latria dicitur. Si enim
+          animae vel carni Christi exhibetur latria, (quae intelligitur servitus sive cultus soli
+          Creatori debitus) cum anima Christi vel caro creatura tantum sit, creaturae exhibetur quod
+          soli Creatori debetur; quod facienti in idololatriam deputatur. </p>
+        <p xml:id="pl-l3d9c1-d1e120"> Ideo quibusdam videtur, non illa adoratione, quae latria est,
+          carnem Christi vel animam esse adorandam, sed illa quae dulia est, cuius duas species vel
+          modos esse dicunt. Est enim cuiusdam modi dulia, quae creaturae cuilibet exhiberi potest;
+          et est quaedam soli humanitati Christi exhibenda, non alii creaturae; quia Christi
+          humanitas super omnem creaturam est veneranda et diligenda; non tamen adeo, ut cultus
+          divinitati debitus ei exhibeatur, qui cultus in dilectione et sacrificii exhibitione atque
+          reverentia consistit, qui Latine dicitur pietas, Graece autem theosebia, id est Dei
+          cultus, vel eusebia, id est bonus cultus. </p>
+        <p xml:id="pl-l3d9c1-d1e123"> Aliis autem placet, Christi humanitatem una adoratione cum
+          Verbo esse adorandam, non propter se, sed propter illud cuius est scabellum, cui est
+          unita; nec ipsa humanitas sola vel nuda, sed cum Verbo, cui est unita; nec propter se, sed
+          propter illud est adoranda. Nec qui hoc facit idololatriae reus iudicari potest, quia nec
+          soli creaturae, nec propter ipsam, sed Creatori cum humanitate et in humanitate sua
+          servit. </p>
+        <p xml:id="pl-l3d9c1-d1e127"> De hoc loannes ita ait: <quote xml:id="pl-l3d9c1-Qd1e129">Duae
+          sunt naturae Christi, ratione et modo differentiae, unitae vero secundum hypostasim. Unus
+          igitur Christus est Deus perfectus et homo perfectus, quem adoramus cum Patre et Spiritu ,
+          una adoratione cum incontaminata carne eius, non inadorabilem carnem dicentes — adoratur
+          enim in una Verbi hypostasi, quae hypostasis generata est — non creaturae venerationem
+          praebentes. Non enim ut nudam carnem adoramus sed ut unitam deitati, in unam hypostasim
+          Dei-Verbi duabus reductis naturis. Timeo carbonem tangere propter ligno copulatum ignem.
+          Adoro Christi mei, simul utraque propter carni unitam deitatem : non enim quartam appono
+          personam in Trinitate, sed unam personam confiteor Verbi et carnis eius</quote>. </p>
+        <p xml:id="pl-l3d9c1-d1e133"> His verbis insinuari videtur, Christi humanitatem una
+          adoratione cum Verbo esse adorandam. </p>
+        <p xml:id="pl-l3d9c1-d1e136"> De hoc etiam <name ref="#Augustine">Augustinus</name> ex
+          sermone Domini, ubi dicit: <quote xml:id="pl-l3d9c1-Qd1e141">Non turbetur cor
+          vestrum,</quote> ita dicit: <quote xml:id="pl-l3d9c1-Qd1e144">Dicunt haeretici, Filium non
+          natura esse Deum, sed creatum. Quibus respondendum est, quia, si Filius non est Deus
+          natura, sed creatura, nec colendus est omnino, nec ut Deus adorandus, dicente Apostolo:
+          <quote xml:id="pl-l3d9c1-Qd1e146" ana="#rom1_25">Coluerunt et servierunt potius creaturae
+          quam Creatori.</quote> </quote> </p>
+        <p xml:id="pl-l3d9c1-d1e151"> <quote xml:id="pl-l3d9c1-Qd1e153"> Sed illi ad hoc replicabunt
+          et dicent: Quid est, quod carnem eius, quam creaturam esse non negas, simul cum divinitate
+          adoras, et ei non minus quam divinitati deservis?</quote> </p>
+        <p xml:id="pl-l3d9c1-d1e157"> <quote xml:id="pl-l3d9c1-Qd1e159"> Ego dominicam carnem, immo
+          perfectam in Christo humanitatem, ideo adoro, quod a divinitate suscepta et deitati unita
+          est: ut non alium et alium, sed unum eundemque Deum et hominem, Dei Filium esse confitear.
+          Denique si hominem separaveris a Deo, illi nunquam credo nec servio; velut si quis,
+          purpuram vel diadema regale iacens inveniat, nunquid ea conabitur adorare ? Cum vero ea
+          rex fuerit indutus, periculum mortis incurrit, si ea cum rege adorare quis contempserit.
+          Ita etiam in Christo Domino humanitatem non solam vel nudam, sed divinitati unitam,
+          scilicet unum Filium, Deum verum et hominem verum, si quis adorare contempserit,
+          aeternaliter morietur </quote>. </p>
+        <p xml:id="pl-l3d9c1-d1e163"> Idem <title>Super Psalmum 98</title>, ubi dicitur: <quote
+          xml:id="pl-l3d9c1-Qd1e168" ana="#ps98_5">Adorate scabellum pedum eius, quoniam sanctum
+          est: </quote> <quote xml:id="pl-l3d9c1-Qd1e171">Sciendum quia in Christo terra est, id est
+          caro, quae sine impietate adoratur: suscepit enim de terra terram, quia caro de terra est,
+          et de carne Mariae carnem accepit<quote xml:id="pl-l3d9c1-Qd1e173">.</quote> Haec sine
+          impietate, a Verbo Dei assumta, adoratur a nobis, quia nemo carnem eius manducat, nisi
+          prius adoret; sed qui adorat, non terram intuetur, sed illum potius, cuius scabellum est,
+          propter quem adorat</quote>. </p>
+        <p xml:id="pl-l3d9c1-d1e179"> His auctoritatibus praemissae investigationis absolutio
+          explicatur. </p>
       </div>
     </body>
   </text>

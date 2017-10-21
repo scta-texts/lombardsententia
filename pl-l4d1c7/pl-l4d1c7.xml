@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -14,18 +15,14 @@
         </respStmt>
       </titleStmt>
       <editionStmt>
-        <edition n="0.0.0-dev">
-          <title>CAP. VII</title>
-          <date when="2017-10-21">October 21, 2017</date>
-        </edition>
+        <edition n="0.0.0-dev"> <title>CAP. VII</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
       </editionStmt>
       <publicationStmt>
-        <authority>
-          <ref>SCTA</ref>
-        </authority>
+        <authority> <ref>SCTA</ref> </authority>
         <availability status="free">
-          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
-          </p>
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -35,7 +32,8 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -43,8 +41,7 @@
     </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2017-10-21" status="draft" n="0.0.0">
-          <p>Created file for the first time.</p>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
         </change>
       </listChange>
     </revisionDesc>
@@ -57,10 +54,22 @@
       <div xml:id="pl-l4d1c7">
         <head xml:id="pl-l4d1c7-Hd1e109">CAP. VII</head>
         <head xml:id="pl-l4d1c7-Hd1e112" type="question-title">De circumcisione.</head>
-        <p xml:id="pl-l4d1c7-d1e115">Fuit tamen et inter illa Sacramentum quoddam, scilicet circumcisionis, idem conferens remedium contra peccatum, quod nunc baptismus.</p>
-        <p xml:id="pl-l4d1c7-d1e118">Unde <name ref="#Augustine">Augustinus</name>: <quote xml:id="pl-l4d1c7-Qd1e123">Ex quo instituta est circumcisio in populo Dei, quae erat tunc signaculum iustitiae fidei, ad purgationem valebat magnis et parvulis originalis veterisque peccati; sicut baptismus ex illo valere coepit ad innovationem hominis, ex quo institutus est </quote>.</p>
-        <p xml:id="pl-l4d1c7-d1e127">Item <name ref="#Bede">Beda</name>: <quote xml:id="pl-l4d1c7-Qd1e132">Idem salutiferae curationis auxilium circumcisio in Lege contra originalis peccati vulnus agebat, quod baptismus agere revelatae gratiae tempore consuevit, excepto quod regni caelestis ianuam necdum intrare poterant; tamen in sinu Abrahae post mortem beata requie consolati, supernae pacis ingressum spe felici exspectabant </quote>.</p>
-        <p xml:id="pl-l4d1c7-d1e137">His aperte traditur, per circumcisionem, ex quo instituta fuit, remissionem peccati originalis et actualis parvulis et maioribus a Deo praestitam, sicut nunc per baptismum datur.</p>
+        <p xml:id="pl-l4d1c7-d1e115"> Fuit tamen et inter illa Sacramentum quoddam, scilicet
+          circumcisionis, idem conferens remedium contra peccatum, quod nunc baptismus. </p>
+        <p xml:id="pl-l4d1c7-d1e118"> Unde <name ref="#Augustine">Augustinus</name>: <quote
+          xml:id="pl-l4d1c7-Qd1e123"> Ex quo instituta est circumcisio in populo Dei, quae erat tunc
+          <quote xml:id="pl-l4d1c7-Qd1e127" ana="#rom4_25">signaculum iustitiae fidei</quote>, ad
+          purgationem valebat magnis et parvulis originalis veterisque peccati; sicut baptismus ex
+          illo valere coepit ad innovationem hominis, ex quo institutus est </quote>. </p>
+        <p xml:id="pl-l4d1c7-d1e127"> Item <name ref="#Bede">Beda</name>: <quote
+          xml:id="pl-l4d1c7-Qd1e132">Idem salutiferae curationis auxilium circumcisio in Lege contra
+          originalis peccati vulnus agebat, quod baptismus agere revelatae gratiae tempore
+          consuevit, excepto quod regni caelestis ianuam necdum intrare poterant; tamen in sinu
+          Abrahae post mortem beata requie consolati, supernae pacis ingressum spe felici
+          exspectabant </quote>. </p>
+        <p xml:id="pl-l4d1c7-d1e137">His aperte traditur, per circumcisionem, ex quo instituta fuit,
+          remissionem peccati originalis et actualis parvulis et maioribus a Deo praestitam, sicut
+          nunc per baptismum datur. </p>
       </div>
     </body>
   </text>

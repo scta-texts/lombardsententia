@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CAP. VII</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev"> <title>CAP. VII</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority> <ref>SCTA</ref> </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l4d4c7">
+        <head xml:id="pl-l4d4c7-Hd1e109">CAP. VII</head>
+        <head xml:id="pl-l4d4c7-Hd1e112" type="question-title">Cuius rei sit Sacramentum baptismus,
+          quem recipit iustus.</head>
+        <p xml:id="pl-l4d4c7-d1e115">Si quaeritur, cuius rei baptismus ille sit Sacramentum, qui
+          datur iam iusto, dicimus, Sacramentum esse et rei quae praecessit, id est remissionis ante
+          per fidem datae, et remissionis temporalis poenae, sive peccati, si, quod inierim
+          committitur, habetur; et novitatis ac munditiae ibi praestitae. Omnis etenim rei signum
+          est, cuius causa est.</p>
+        <p xml:id="pl-l4d4c7-d1e118">Nec mireris, rem aliquando praecedere Sacramentum, cum
+          aliquando etiam longe post sequatur, ut in illis qui ficte accedunt, quibus, cum post
+          poenituerint, incipiet baptismus prodesse, in quibus fuit baptismus Sacramentum huius
+          sanctificationis, quam poenitendo habent.</p>
+        <p xml:id="pl-l4d4c7-d1e121">Sed si nunquam poeniterent nec a figmento recederent, cuius rei
+          Sacramentum esset baptismus ab illis susceptus? Potest dici: rei, quae ibi fieret, si non
+          illorum enormitas impediret.</p>
+        <p xml:id="pl-l4d4c7-d1e125">Solet etiam quaeri, si parvulis in baptismo datur gratia, qua,
+          cum tempus habuerint utendi libero arbitrio, possint velle et currere. De adultis enim,
+          qui digne recipiunt Sacramentum, non ambigitur, quin gratiam operantem et cooperantem
+          perceperint, quae in vacuum eis cedit, si per liberum arbitrium post mortaliter
+          deliquerint; qui merito peccati gratiam appositam perdunt. Unde et dicuntur contumeliam
+          facere Spiritui sancio et ipsum a se fugare.</p>
+        <p xml:id="pl-l4d4c7-d1e128">De parvulis vero, qui nondum ratione utuntur, quaestio est, an
+          in baptismo receperint gratiam, qua ad maiorem venientes aetatem possint velle et operari
+          bonum.</p>
+        <p xml:id="pl-l4d4c7-d1e131">Videtur, quod non receperint, quia gratia illa caritas est et
+          fides quae voluntatem praeparat et adiuvat. Sed quis dixerit, eos accepisse fidem et
+          caritatem ? Si vero gratiam non receperunt,</p>
+        <p xml:id="pl-l4d4c7-d1e134">qua bene operari possint, cum fuerint adulti, non ergo sufficit
+          eis in hoc statu gratia in baptismo data, nec per illam possunt</p>
+        <p xml:id="pl-l4d4c7-d1e137">modo boni esse, nisi alia addatur; quae si non additur, non
+          est</p>
+        <p xml:id="pl-l4d4c7-d1e140">ex eorum culpa, quia iustificati sunt a peccato.</p>
+        <p xml:id="pl-l4d4c7-d1e144">Quidam putant, gratiam operantem et cooperantem cunctis
+          parvulis in baptismo dari in munere, non in usu, ut, cum ad maiorem</p>
+        <p xml:id="pl-l4d4c7-d1e147">venerint aetatem, ex munere sortiantur usum, nisi per
+          liberum</p>
+        <p xml:id="pl-l4d4c7-d1e150">arbitrium usum muneris exstinguant peccando; et ita ex culpa
+          eorum est, non ex defectu gratiae, quod mali fiunt; qui ex Dei munere valentes habere usum
+          bonum, per liberum arbitrium renuerunt, et usum pravum elegerunt.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

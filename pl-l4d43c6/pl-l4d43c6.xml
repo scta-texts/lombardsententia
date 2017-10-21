@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -14,18 +15,14 @@
         </respStmt>
       </titleStmt>
       <editionStmt>
-        <edition n="0.0.0-dev">
-          <title>CAP. VI</title>
-          <date when="2017-10-21">October 21, 2017</date>
-        </edition>
+        <edition n="0.0.0-dev"> <title>CAP. VI</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
       </editionStmt>
       <publicationStmt>
-        <authority>
-          <ref>SCTA</ref>
-        </authority>
+        <authority> <ref>SCTA</ref> </authority>
         <availability status="free">
-          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
-          </p>
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -35,7 +32,8 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -43,8 +41,7 @@
     </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2017-10-21" status="draft" n="0.0.0">
-          <p>Created file for the first time.</p>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
         </change>
       </listChange>
     </revisionDesc>
@@ -57,16 +54,41 @@
       <div xml:id="pl-l4d43c6">
         <head xml:id="pl-l4d43c6-Hd1e109">CAP. VI</head>
         <head xml:id="pl-l4d43c6-Hd1e112" type="question-title">De his qui vivi reperiuntur.</head>
-        <p xml:id="pl-l4d43c6-d1e115">Quaeri solet etiam <quote xml:id="pl-l4d43c6-Qd1e117">utrum illi quos vivos inveniet Christus, nunquam omnino morituri sint, an ipso temporis puncto, quo rapientur obviam Christo, ad immortalitatem mira sint celeritate transituri. Non enim dicendum est, fieri non posse, utper aera in sublime portentur, in illo spatio et moriantur et reviviscant </quote>.</p>
-        <p xml:id="pl-l4d43c6-d1e121">
-          <quote xml:id="pl-l4d43c6-Qd1e123">Ad hunc autem sensum, quo aestimemus, illos in parvo spatio et passuros mortem et accepturos immortalitatem, <name ref="Paul">Apostolus</name> nos urgere videtur, ubi dicit: <quote xml:id="pl-l4d43c6-Qd1e128">Omnes in Christo vivificabimur;</quote> et alibi: <quote xml:id="pl-l4d43c6-Qd1e131">Quod seminas non vivificatur, nisi prius moriatur</quote> 
+        <p xml:id="pl-l4d43c6-d1e115">Quaeri solet etiam <quote xml:id="pl-l4d43c6-Qd1e117">utrum
+          illi quos vivos inveniet Christus, nunquam omnino morituri sint, an ipso temporis puncto,
+          quo rapientur obviam Christo, ad immortalitatem mira sint celeritate transituri. Non enim
+          dicendum est, fieri non posse, utper aera in sublime portentur, in illo spatio et
+          moriantur et reviviscant </quote>.</p>
+        <p xml:id="pl-l4d43c6-d1e121"> <quote xml:id="pl-l4d43c6-Qd1e123">Ad hunc autem sensum, quo
+          aestimemus, illos in parvo spatio et passuros mortem et accepturos immortalitatem, <name
+          ref="Paul">Apostolus</name> nos urgere videtur, ubi dicit: <quote
+          xml:id="pl-l4d43c6-Qd1e128">Omnes in Christo vivificabimur;</quote> et alibi: <quote
+          xml:id="pl-l4d43c6-Qd1e131">Quod seminas non vivificatur, nisi prius moriatur</quote>
           </quote>.</p>
-        <p xml:id="pl-l4d43c6-d1e136">
-          <quote xml:id="pl-l4d43c6-Qd1e138"> Cur autem nobis incredibile videatur, illam multitudinem corporum in aere quodam modo seminari atque ibi protinus immortaliter et incorruptibiliter reviviscere, cum credamus, <quote xml:id="pl-l4d43c6-Qd1e140">in ictu oculi</quote> futuram resurrectionem, et in membra sine fine victura tanta velocitate rediturum antiquissimorum cadaverum pulverem </quote>. <quote xml:id="pl-l4d43c6-Qd1e144"> Sed vellem de his potius audire doctiores </quote>. <quote xml:id="pl-l4d43c6-Qd1e147">Si igitur Sanctos, qui reperientur, Christo veniente, viventes, eique obviam rapientur, crediderimus in eodem raptu de mortalibus corporibus exituros et ad eadem mox immortalia redituros, nullas in verbis Apostoli patiemur angustias</quote>, generaliter illud accipientes quod dictum est: <quote xml:id="pl-l4d43c6-Qd1e150">Omnes quidem resurgemus,</quote> scilicet <quote xml:id="pl-l4d43c6-Qd1e153"> tam boni quam mali </quote>; <quote xml:id="pl-l4d43c6-Qd1e157">sed non omnes immutabimur,</quote> scilicet in solemnitatem resurrectionis.</p>
-        <p xml:id="pl-l4d43c6-d1e162">De hoc etiam <name ref="#Ambrose">Ambrosius</name> ait: <quote xml:id="pl-l4d43c6-Qd1e167"> In ipso raptu eorum qui vivi reperientur, mors erit et resurrectio, ut anima, quasi per soporem egressa de corpore, eidem in momento reddatur </quote>.</p>
-        <p xml:id="pl-l4d43c6-d1e171">Econtra vero, scribens <quote xml:id="pl-l4d43c6-Qd1e173">Ad Marcellum,</quote> 
-          <name ref="#Jerome">Hieronymus</name> testari videtur dicens, quosdam in fine saeculi, adveniente Christo, non esse morituros, sed vivos repertos in immortalitatem repente mutandos.</p>
-        <p xml:id="pl-l4d43c6-d1e180">Horum autem quid verius sit, non est humani iudicii definire.</p>
+        <p xml:id="pl-l4d43c6-d1e136"> <quote xml:id="pl-l4d43c6-Qd1e138"> Cur autem nobis
+          incredibile videatur, illam multitudinem corporum in aere quodam modo seminari atque ibi
+          protinus immortaliter et incorruptibiliter reviviscere, cum credamus, <quote
+          xml:id="pl-l4d43c6-Qd1e140">in ictu oculi</quote> futuram resurrectionem, et in membra
+          sine fine victura tanta velocitate rediturum antiquissimorum cadaverum pulverem </quote>.
+          <quote xml:id="pl-l4d43c6-Qd1e144"> Sed vellem de his potius audire doctiores </quote>.
+          <quote xml:id="pl-l4d43c6-Qd1e147">Si igitur Sanctos, qui reperientur, Christo veniente,
+          viventes, eique obviam rapientur, crediderimus in eodem raptu de mortalibus corporibus
+          exituros et ad eadem mox immortalia redituros, nullas in verbis Apostoli patiemur
+          angustias</quote>, generaliter illud accipientes quod dictum est: <quote
+          xml:id="pl-l4d43c6-Qd1e150">Omnes quidem resurgemus,</quote> scilicet <quote
+          xml:id="pl-l4d43c6-Qd1e153"> tam boni quam mali </quote>; <quote
+          xml:id="pl-l4d43c6-Qd1e157">sed non omnes immutabimur,</quote> scilicet in solemnitatem
+          resurrectionis.</p>
+        <p xml:id="pl-l4d43c6-d1e162">De hoc etiam <name ref="#Ambrose">Ambrosius</name> ait: <quote
+          xml:id="pl-l4d43c6-Qd1e167"> In ipso raptu eorum qui vivi reperientur, mors erit et
+          resurrectio, ut anima, quasi per soporem egressa de corpore, eidem in momento reddatur
+          </quote>.</p>
+        <p xml:id="pl-l4d43c6-d1e171">Econtra vero, scribens <quote xml:id="pl-l4d43c6-Qd1e173">Ad
+          Marcellum,</quote> <name ref="#Jerome">Hieronymus</name> testari videtur dicens, quosdam
+          in fine saeculi, adveniente Christo, non esse morituros, sed vivos repertos in
+          immortalitatem repente mutandos.</p>
+        <p xml:id="pl-l4d43c6-d1e180">Horum autem quid verius sit, non est humani iudicii
+          definire.</p>
       </div>
     </body>
   </text>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CAP. 2</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev"> <title>CAP. 2</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority> <ref>SCTA</ref> </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l4d6c2">
+        <head xml:id="pl-l4d6c2-Hd1e109">CAP. 2</head>
+        <head xml:id="pl-l4d6c2-Hd1e112" type="question-title">Si rebaptizandi sunt ab haereticis
+          baptizati.</head>
+        <p xml:id="pl-l4d6c2-d1e115">De illis vero, qui ab haereticis baptizantur, utrum
+          rebaptizandi sint, quaeri solet.</p>
+        <p xml:id="pl-l4d6c2-d1e118">Ad quod breviter dicimus, quia quicumque sit qui baptizet, si
+          servatur forma a Christo tradita, verum baptismum dat; et ideo qui illum sumit, non debet
+          rebaptizari.</p>
+        <p xml:id="pl-l4d6c2-d1e121">Unde <name ref="#Bede">Beda</name>: <quote
+          xml:id="pl-l4d6c2-Qd1e126">Sive haereticus sive schismaticus sive facinorosus quisque in
+          confessione sanctae Trinitatis baptizet, non valet ille qui baptizatus est, a bonis
+          Catholicis rebaptizari, ne confessio et Trinitatis invocatio videatur annullari
+          </quote>.</p>
+        <p xml:id="pl-l4d6c2-d1e131">Item <name ref="#Augustine">Augustinus</name>: <quote
+          xml:id="pl-l4d6c2-Qd1e136"> Quamvis unum baptisma sit et haereticorum, scilicet eorum qui
+          in nomine Patris et Filii et Spiritus sancti baptizant, et Ecclesiae Catholicae, tamen qui
+          foris Ecclesiam baptizantur non sumunt baptismum ad salutem, sed ad perniciem, habentes
+          formam Sacramenti, virtutem autem eius abnegantes; et ideo Ecclesia non eos rebaptizat,
+          quia in nomine Trininitalis baptizati sunt, et ipsa est forma Sacramenti</quote>.</p>
+        <p xml:id="pl-l4d6c2-d1e140">Item : <quote xml:id="pl-l4d6c2-Qd1e142"> Rebaptizare
+          haereticum, qui haec sanctitatis signa perceperit, omnino peccatum est; Catholicum vero,
+          immanissimum scelus est </quote>.</p>
+        <p xml:id="pl-l4d6c2-d1e146">Ex bis aperte colligitur, quod qui etiam ab haereticis
+          baplizati sunt, servato charactere Christi, rebaptizandi non sunt, sed tantum manus
+          impositione reconciliandi, ut Spiritum sanctum accipiant , et in signum detestationis
+          haereticorum.</p>
+        <p xml:id="pl-l4d6c2-d1e149">Sunt tamen nonnulli doctorum , ut Cyprianus et alii quidam ,
+          qui dicere videntur, ab haereticis non posse tradi baptismum, et eos esse rebaptizandos,
+          cum veniunt ad Ecclesiam, qui</p>
+        <p xml:id="pl-l4d6c2-d1e152">ab illis dicuntur baptizati.</p>
+        <p xml:id="pl-l4d6c2-d1e155">Sed hoc de illis verum est, qui extra formam Ecclesiae
+          baptizare praesumunt.</p>
+        <p xml:id="pl-l4d6c2-d1e159">Cyprianus tamen ibi a veritate deviasse videtur, qui de
+          haeretico ait: <quote xml:id="pl-l4d6c2-Qd1e161">Quomodo sanctificare aquam potest, cum
+          ipse immundus est, et apud quem Spiritus sanctus non est; cum Dominus dicat in Lege:
+          Quaecumque tetigerit immundus, immunda erunt? Quis potest dare, quod ipse non habet
+          </quote>?</p>
+        <p xml:id="pl-l4d6c2-d1e165">Hoc vero ex ignorantia eum dixisse <name ref="#Augustine"
+          >Augustinus</name> innuit</p>
+        <p xml:id="pl-l4d6c2-d1e171">dicens: <quote xml:id="pl-l4d6c2-Qd1e173">Martyrem gloriosum
+          Cyprianum, qui apud haereticos vel schismaticos datum baptismum nolebat cognoscere, dum
+          eos nimis detestaretur, tanta eius merita usque ad triumphum martyrii secuta sunt, ut et
+          caritatis qua excellebat luce, obumbratio illa fugaretur, et si quid purgandum erat,
+          passionis falce tolleretur. Nec nos, qui baptismi veritatem et haereticorum iniquitatem
+          agnoscimus, ideo Cypriano meliores sumus; sicut nec Petro, quia gentes iudaizare non
+          cogimus</quote>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

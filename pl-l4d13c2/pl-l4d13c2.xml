@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CAP. II</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev"> <title>CAP. II</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority> <ref>SCTA</ref> </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l4d13c2">
+        <head xml:id="pl-l4d13c2-Hd1e109">CAP. II</head>
+        <head xml:id="pl-l4d13c2-Hd1e112" type="question-title">Quid faciat haereticum, et quid sit
+          haereticus.</head>
+        <p xml:id="pl-l4d13c2-d1e115">Ne autem ignores, quid haereticum faciat vel quid sit
+          haereticus, audi breviter, quid inde sancti Doctores tradant.</p>
+        <p xml:id="pl-l4d13c2-d1e118"> <name ref="HilaryOfPoitiers">Hilarius</name> ait: <quote
+          xml:id="pl-l4d13c2-Qd1e123">Exstiterunt plures, qui caelestium verborum simplicitatem, non
+          veritatis ipsius absolutionem, susciperent, aliter interpretantes, quam dictorum virtus
+          postularet. De intelligentia enim haeresis, non de Scriptura est; et sensus, non sermo,
+          fit crimen </quote>.</p>
+        <p xml:id="pl-l4d13c2-d1e127">Idem in VII: <quote xml:id="pl-l4d13c2-Qd1e129">
+          Intelligentiae sensus in crimine est</quote>.</p>
+        <p xml:id="pl-l4d13c2-d1e134"> <name ref="#Jerome">Hieronymus</name> dicit, quod <quote
+          xml:id="pl-l4d13c2-Qd1e139">ex verbis inordinate prolatis incurritur haeresis
+          </quote>.</p>
+        <p xml:id="pl-l4d13c2-d1e143"> <name ref="#Augustine">Augustinus</name> definiens, quid sit
+          haereticus, ait.: <quote xml:id="pl-l4d13c2-Qd1e148">Haereticus est qui alicuius
+          temporalis commodi, et maxime gloriae principatusque sui gratia, falsas ac novas opiniones
+          vel gignit, vel sequitur </quote>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

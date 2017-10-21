@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CAP. IV</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev"> <title>CAP. IV</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority> <ref>SCTA</ref> </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l4d7c4">
+        <head xml:id="pl-l4d7c4-Hd1e109">CAP. IV</head>
+        <head xml:id="pl-l4d7c4-Hd1e112" type="question-title">Utrum hoc Sacramentum sit dignius
+          baptismo.</head>
+        <p xml:id="pl-l4d7c4-d1e115"> <quote xml:id="pl-l4d7c4-Qd1e117">Scitote, utrumque magnum
+          esse Sacramentum, sed unum maiori veneratione tenendum, sicut a maioribus
+          datur</quote>.</p>
+        <p xml:id="pl-l4d7c4-d1e121">Ecce maius dicit Sacramentum confirmationis; forte non ob
+          maiorem virtutem vel utilitatem, quam conferat, sed quia a dignioribus datur, et in
+          digniori parte corporis fit, id est in fronte; vel forte, quia maius virtutum augmentum
+          praestat, licet baptismus ad remissionem plus valeat.</p>
+        <p xml:id="pl-l4d7c4-d1e124">Quod videtur innuere Rabanus dicens, <quote
+          xml:id="pl-l4d7c4-Qd1e126">in unctione baptismi Spiritum sanctum descendere ad
+          habitationem Deo consecrandam; in hac vero eiusdem septiformem gratiam cum omni
+          plenitudine sanctitatis et virtutis venire in hominem </quote>.</p>
+        <p xml:id="pl-l4d7c4-d1e131">Hoc Sacramentum tantum a ieiunis et ieiunis tradi debet, sicut
+          et baptismus, nisi aliter cogat necessilas .</p>
+      </div>
+    </body>
+  </text>
+</TEI>

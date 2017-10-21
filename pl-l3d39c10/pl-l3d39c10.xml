@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -14,18 +15,14 @@
         </respStmt>
       </titleStmt>
       <editionStmt>
-        <edition n="0.0.0-dev">
-          <title>Cap. X</title>
-          <date when="2017-10-21">October 21, 2017</date>
-        </edition>
+        <edition n="0.0.0-dev"> <title>Cap. X</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
       </editionStmt>
       <publicationStmt>
-        <authority>
-          <ref>SCTA</ref>
-        </authority>
+        <authority> <ref>SCTA</ref> </authority>
         <availability status="free">
-          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
-          </p>
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -35,7 +32,8 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -43,8 +41,7 @@
     </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2017-10-21" status="draft" n="0.0.0">
-          <p>Created file for the first time.</p>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
         </change>
       </listChange>
     </revisionDesc>
@@ -55,15 +52,18 @@
     </front>
     <body>
       <div xml:id="pl-l3d39c10">
-              <head xml:id="pl-l3d39c10-Hd1e109">Cap. X</head>
-              <head xml:id="pl-l3d39c10-Hd1e112" type="question-title">Qui vero mutat, utrum periurus debeat dici, solet quaeri.</head>
-        <p xml:id="pl-l3d39c10-d1e115">
-          <name ref="#Bede">Beda</name> supra tale iuramentum vocavit periurium.</p>
-        <p xml:id="pl-l3d39c10-d1e121">Ioannes etiam Apocrisarius orientalium sedium dixit: <quote xml:id="pl-l3d39c10-Qd1e123"> Sermo patris nostri Sopbronii significat, quod melius est, iurantem periurare, quam servare sacramentum in fractione sanctarum imaginum </quote>.</p>
-        <p xml:id="pl-l3d39c10-d1e127">Sed periurium dicitur tale iuramentum non observatum, et 
-  peierare qui non implet, quia falsum iuravit, non quia inde reus 
-sit quod non observat, sed quia iuravit iniustum ex quo reus est, sicut ille qui peierat.</p>
-            </div>
+        <head xml:id="pl-l3d39c10-Hd1e109">Cap. X</head>
+        <head xml:id="pl-l3d39c10-Hd1e112" type="question-title">Qui vero mutat, utrum periurus
+          debeat dici, solet quaeri.</head>
+        <p xml:id="pl-l3d39c10-d1e115"> <name ref="#Bede">Beda</name> supra tale iuramentum vocavit
+          periurium.</p>
+        <p xml:id="pl-l3d39c10-d1e121">Ioannes etiam Apocrisarius orientalium sedium dixit: <quote
+          xml:id="pl-l3d39c10-Qd1e123"> Sermo patris nostri Sopbronii significat, quod melius est,
+          iurantem periurare, quam servare sacramentum in fractione sanctarum imaginum </quote>.</p>
+        <p xml:id="pl-l3d39c10-d1e127">Sed periurium dicitur tale iuramentum non observatum, et
+          peierare qui non implet, quia falsum iuravit, non quia inde reus sit quod non observat,
+          sed quia iuravit iniustum ex quo reus est, sicut ille qui peierat.</p>
+      </div>
     </body>
   </text>
 </TEI>

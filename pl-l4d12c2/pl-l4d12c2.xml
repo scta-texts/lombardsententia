@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CAP. II</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev"> <title>CAP. II</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority> <ref>SCTA</ref> </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l4d12c2">
+        <head xml:id="pl-l4d12c2-Hd1e109">CAP. II</head>
+        <head xml:id="pl-l4d12c2-Hd1e112" type="question-title">De fractione et partibus.</head>
+        <p xml:id="pl-l4d12c2-d1e115">Solet etiam quaeri de fractione et partitione quae ibi videtur
+          fieri, utrum vera sit; et si vera fractio est, cuius rei sit, vel in qua re fiat, cumque
+          non sit ibi alia substantia quam Christi, si in aliqua substantia est illa fractio, in
+          corpore Christi esse videtur. </p>
+        <p xml:id="pl-l4d12c2-d1e118">Sed econtra, cum ipsum corpus incorruptibile sit, quia
+          immortale et impassibile, in ipso non posse esse videtur. Nam et Christus redarguit
+          carnalem sensum discipulorum, qui putabant, Christi carnem sicut aliam in partes
+          dividendam et morsibus lacerandam .</p>
+        <p xml:id="pl-l4d12c2-d1e121">Ideo quibusdam placet, quod non sit ibi fractio, sicut
+          videtur; sed dicitur frangi, quia videtur frangi.</p>
+        <p xml:id="pl-l4d12c2-d1e125">Quibus obiicitur quod ait <name ref="#Ambrose"
+          >Ambrosius</name>: <quote xml:id="pl-l4d12c2-Qd1e130">Nihil falsi putandum est in
+          sacrificio veritatis, vel sicut Iit in magorum praestigiis, ubi delusione quadam falluntur
+          oculi, ut videant esse quod non est </quote>.</p>
+        <p xml:id="pl-l4d12c2-d1e134">Ad quod illi dicunt: Non fallit nos visus, nec fallitur; quod
+          esset, si crederetur ita frangi, ut videtur; neo illusio est, quia ad utilitatem fidei,
+          non ad deceptionem ita fit; sicut et Christus se ostendit duobus discipulis in via in
+          specie peregrini, nec in eo tamen talis forma erat, sed oculi eorum tenebantur, ne eum
+          agnoscerent. </p>
+        <p xml:id="pl-l4d12c2-d1e137">Alii vero dicunt, quod sicut ibi species panis est, et non est
+          ibi res, cuius vel in qua sit illa species, ita est ibi fractio, quae non fit in aliqua
+          re, quia nihil ibi frangitur; quod mirabiliter Dei potentia fieri dicunt, ut ibi sit
+          fractio, ubi nihil frangitur.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CAP. IV</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev"> <title>CAP. IV</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority> <ref>SCTA</ref> </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l4d23c4">
+        <head xml:id="pl-l4d23c4-Hd1e109">CAP. IV</head>
+        <head xml:id="pl-l4d23c4-Hd1e112" type="question-title">De iteratione huius
+          Sacramenti.</head>
+        <p xml:id="pl-l4d23c4-d1e115">Quaerunt aliqui, si hoc Sacramentum iterari possit, cum
+          baptismus et alia quaedam Sacramenta semel suscepta non iterentur .</p>
+        <p xml:id="pl-l4d23c4-d1e118"> <name ref="#Augustine">Augustinus</name> dicit, <quote
+          xml:id="pl-l4d23c4-Qd1e123">Sacramentum non iterandum, et Sacramento faciendam non esse
+          iniuriam </quote>; sed hoc dicit <name ref="#Augustine">Augustinus</name>, ubi agit de
+          Sacramento baptismi et ordinationis.</p>
+        <p xml:id="pl-l4d23c4-d1e130">Unde non videtur illud generaliter accipiendum, sed de
+          Sacramento baptismi, confirmationis et ordinationis, quae nullatenus repetenda sunt, quia
+          semel tantum non saepius datur baptismus, confirmatio et ordinatio. Sacramentum vero
+          altaris et poenitentiae et coniugii saepe iterari videtur; quia saepe Sacramentum corporis
+          percipitur, frequenter poenitentia agitur, conjugium saepe contrahitur.</p>
+        <p xml:id="pl-l4d23c4-d1e134">Quare ergo unctio similiter non potest iterari? Si morbus non
+          revertitur, medicina non iteretur; si vero morbus non potest cohiberi, quare debet
+          medicina prohiberi? Sicut oratio iterari potest, ita et unctio iterari posse videtur;
+          utraque enim illic commemorat lacobus, et utrumque alteri cooperatur ad conferendam
+          alleviationem corporis et animae. Cur ergo negetur, unctionem super infirmum posse iterari
+          ad impetrandam saepius sanitatem mentis et corporis, cum propter idem saepe iteranda sit
+          oratio?</p>
+        <p xml:id="pl-l4d23c4-d1e137">Quidam autem de omni Sacramento intelligi volunt, quod non sit
+          iterandum, scilicet secundum totum illud, quod pertinet ad Sacramentum, dicentes, quaedam
+          Sacramenta saepius posse suscipi, quaedam vero non; nec tamen quae saepius sumuntur
+          totaliter iterantur, ut Sacramentum altaris et unctionis, quae licet saepius sumantur,
+          tamen, quia non iterum benedicitur eadem hostia vel idem oleum, non iteratur Sacramentum
+          cum iniuria.</p>
+        <p xml:id="pl-l4d23c4-d1e140">Sed dicet quis: Sic et baptismus non iteratur, etsi aliquis
+          frequenter baptizetur, dum eadem aqua non iterum benedicatur.</p>
+        <p xml:id="pl-l4d23c4-d1e143">Sed aliud est, inquiunt illi, de benedictione aquae qua fit
+          baptismus, aliud de benedictione panis et olei. Potest enim baptismus celebrari in aqua
+          etiam non benedicta, quia illa benedictio pro reverentia lanium fit et decore, non virtute
+          Sacramenti. Sed corpus Christi non potest confici nisi de pane consecrato, nec unctio illa
+          fieri potest nisi de oleo ab episcopo sanctificato ; ideoque illa sanctificatio ad
+          virtutem Sacramenti pertinere videtur. In coniugio quoque semel tantum benedicitur
+          quisque, non saepius. Benedicitur enim, ut ait <name ref="#Ambrose">Ambrosius</name>, cum
+          prima et non cum secunda uxore.</p>
+        <p xml:id="pl-l4d23c4-d1e149">Si igitur cum dicitur, Sacramentum non esse iterandum, nec
+          iniuria ei facienda, rationem dicti referas ad sanctificationem rei, qua Sacramentum
+          expletur, de omni Sacramento generaliter id verum est. Si vero ad susceptionem Sacramenti,
+          de quibusdam verum est, quod non iterantur crebra susceptione; de aliis vero quibusdam
+          non, quia frequenter sumuntur, ut hoc unctionis Sacramentum, quod in omni pene Ecclesia
+          saepe repetitur.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

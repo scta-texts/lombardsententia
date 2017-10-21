@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CAP. III</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev"> <title>CAP. III</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority> <ref>SCTA</ref> </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l4d5c3">
+        <head xml:id="pl-l4d5c3-Hd1e109">CAP. III</head>
+        <head xml:id="pl-l4d5c3-Hd1e112" type="question-title">Quae fuit potestas baptismi, quam
+          Christus potuit dare servis et non dedit.</head>
+        <p xml:id="pl-l4d5c3-d1e115">Hic quaeritur, quae sit illa potestas baptismi, quam sibi
+          Christus tenuit et potuit dare servis.</p>
+        <p xml:id="pl-l4d5c3-d1e118">Haec est, ut plurimi volunt, potestas dimittendi peccata in
+          baptismo.</p>
+        <p xml:id="pl-l4d5c3-d1e121">Sed potestas dimittendi peccata, quae est in Deo, est Deus.
+          Ideo alii dicunt, hanc potestatem non potuisse dare alicui servorum, quia nulli potuit
+          dare, ut esset quod ipse est, vel ut haberet essentiam, quam ipse habet, cui hoc est esse
+          quod posse. Dicunt etiam: Si hanc potentiam alicui dare potuit, potuit ei dare creare
+          creaturas, quia non est hoc maioris potentiae quam illud .</p>
+        <p xml:id="pl-l4d5c3-d1e125">Ad quod dici potest, quia potuit eis dare potentiam dimittendi
+          peccata, non ipsam eandem, qua ipse potens est, sed potentiam creatam, qua servus posset
+          dimittere peccata, non ut auctor remissionis, sed ut minister, nec tamen sine Deo auctore;
+          ut, sicut in ministerio habet exterius sanctificare, ita in ministerio haberet intus
+          mundare; et sicut illud facit, Deo auctore, qui cum eo et in eo operatur illud exterius,
+          ita mundaret interius, Deo auctore, qui eius verbo velut quodam ministerio uteretur. Ita
+          etiam posset Deus per aliquem creare aliqua, non per eum tanquam auctorem, sed ministrum,
+          cum quo et in quo operaretur; sicut in bonis operibus nostris ipse operatur, et nos: nec
+          ipse tantum, nec nos tantum, sed ipse nobiscum et in nobis, et tamen in illis agendis
+          ministri eius sumus, non sumus auctores. Ita ergo potuit dare servo potestatem dimittendi
+          peccata in baptismo, id est, ut in mundatione interiori servus cum Domino operaretur; non
+          servus sine Domino, nec Dominus sine servo; sed Dominus cum servo et in servo . Unde et
+          Dominus dicitur sanctificare et servus; sed Dominus invisibili gratia, servus visibili
+          Sacramento.</p>
+        <p xml:id="pl-l4d5c3-d1e128">Unde <name ref="#Augustine">Augustinus</name> Super Leviticum :
+          <quote xml:id="pl-l4d5c3-Qd1e133">Dominus ait: Ego Dominus, qui sanctifico. De Moyse etiam
+          dictum est: Et sanctificabis eum. Sed Moyses sanctificat visibilibus Sacramentis per
+          ministerium; Dominus autem invisibili gratia per Spiritum, ubi est totus fructus
+          visibilium Sacramentorum. Sine hac sanctificatione visibilia Sacramenta nihil prosunt
+          </quote>.</p>
+        <p xml:id="pl-l4d5c3-d1e137">Si quis hoc melius aperire poterit, non invideo .</p>
+      </div>
+    </body>
+  </text>
+</TEI>

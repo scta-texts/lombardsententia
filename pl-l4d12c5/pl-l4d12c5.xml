@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CAP. V</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev"> <title>CAP. V</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority> <ref>SCTA</ref> </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l4d12c5">
+        <head xml:id="pl-l4d12c5-Hd1e109">CAP. V</head>
+        <head xml:id="pl-l4d12c5-Hd1e112" type="question-title">Si Christus immolatur in altari
+          quotidie, et an sit sacrificium, quod a sacerdote geritur.</head>
+        <p xml:id="pl-l4d12c5-d1e115">Post haec quaeritur, si quod gerit sacerdos, proprie dicatur
+          sacrificium vel immolatio; et si Christus quotidie immoletur, vel semel tantum immolatus
+          sit.</p>
+        <p xml:id="pl-l4d12c5-d1e118">Ad hoc breviter dici potest, illud quod offertur et
+          consecratur a sacerdote, vocari sacrificium et oblationem, quia memoria est et
+          repraesentatio sacrificii veri et sanctae immolationis, factae in ara crucis. Et semel
+          Christus mortuus est, in cruce scilicet ibique immolatus est in semetipso; quotidie autem
+          immolatur in Sacramento, quia in Sacramento recordatio fit Ilius quod factum est
+          semel.</p>
+        <p xml:id="pl-l4d12c5-d1e121">Unde <name ref="#Augustine">Augustinus</name>: <quote
+          xml:id="pl-l4d12c5-Qd1e126">Certum habemus, quia Christus resurgens ex mortuis iam non
+          moritur , etc.; tamen, ne obliviscamur quod semel factum est, in memoria nostri omni anno
+          fit, scilicet quoties Pascha celebratur. Nunquid toties Christus occiditur? Sed tantum
+          anniversaria recordatio repraesentat quod olim factum est; et sic nos facit moveri,
+          tanquam videamus Dominum in cruce </quote>.</p>
+        <p xml:id="pl-l4d12c5-d1e131">Item: <quote xml:id="pl-l4d12c5-Qd1e133">Semel immolatus est
+          Christus in semetipso, et tamen quotidie immolatur in Sacramento. Quod sic intelligendum
+          est: quia in manifestatione corporis et distinctione membrorum semel tantum in cruce
+          pependit, offerens se Patri hostiam redemptionis efficacem eorum quos praedestinavit
+          </quote>.</p>
+        <p xml:id="pl-l4d12c5-d1e139">Item <name ref="#Ambrose">Ambrosius</name>: <quote
+          xml:id="pl-l4d12c5-Qd1e144"> In Christo semel oblata est hostia ad salutem potens. Quid
+          ergo nos? Nonne per singulos dies offerimus? Etsi quotidie offeramus, ad recordationem
+          mortis eius Iit; et una est hostia, non multae. Quomodo una et non multae ? Quia semel
+          immolatus est Christus. Hoc autem sacrificium exemplum est illius; idipsum semper idipsum
+          offertur, proinde hoc est sacrificium. Alioquin, quoniam in multis locis offertur, mulli
+          sunt Christi ? Non, sed unus ubique est Christus, et hic plenus exislens et illic plenus;
+          sicut quod ubique offertur unum est corpus, ita et unum est sacrificium. Christus hostiam
+          obtulit, ipsam offerimus et nunc; sed quod nos agimus, recordatio est sacrificii </quote>.
+          <quote xml:id="pl-l4d12c5-Qd1e147"> Nec causa suae infirmitatis repetitur, quia perficit
+          hominem, sed nostrae, quia quotidie peccamus</quote>.</p>
+        <p xml:id="pl-l4d12c5-d1e151">Ex his colligitur, sacrificium esse et dici quod agitur in
+          altari, et Christum semel oblatum et quotidie offerri, sed aliter tunc, aliter nunc; et
+          etiam, quae sit virtus huius Sacramenti ostenditur, remissio scilicet venialium peccatorum
+          et perfectio virtutis.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

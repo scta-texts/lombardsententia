@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CAP. III</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev"> <title>CAP. III</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority> <ref>SCTA</ref> </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l4d17c3">
+        <head xml:id="pl-l4d17c3-Hd1e109">CAP. III</head>
+        <p xml:id="pl-l4d17c3-d1e112">[Cap. III]. Sed quod sacerdotibus confiteri oporteat, non
+          solum illa auctoritate lacobi: <quote xml:id="pl-l4d17c3-Qd1e114">Confitemini alterutrum
+          peccata vestra,</quote> etc., sed etiam aliorum pluribus, testimoniis comprobatur.</p>
+        <p xml:id="pl-l4d17c3-d1e118">Ait enim <name ref="#Augustine">Augustinus</name>: <quote
+          xml:id="pl-l4d17c3-Qd1e123"> Iudicet se ipsum homo voluntate, dum potest, et mores
+          convertat in melius, ne, cum iam non poterit, praeter voluntatem a Domino indicetur; et
+          cum in se protulerit severissimae medicinae sed tamen utilissimae sententiam, veniat ad
+          antistites, per quos illi claves in Ecclesia ministrantur. Tanquam bonus iam incipiens
+          esse filius, maternorum membrorum ordine custodito, a praepositis Sacramentorum accipiat
+          satisfactionis suae modum in offerendo sacrificio contribulati cordis devotus et supplex.
+          Id tamen agat, quod non solum sibi prosit ad salutem, sed etiam ceteris ad exemplum; ut,
+          si peccatum eius non modo in gravi eius malo, sed etiam in tanto scandalo aliorum est,
+          atque hoc expediri utilitati Ecclesiae videtur antistiti, in notitiam multorum vel lotius
+          plebis agere poenitentiam non recuset, ne letali plagae per pudorem addat tumorem</quote>.
+          <quote xml:id="pl-l4d17c3-Qd1e126">Cum tanta est plaga peccati et impetus morbi, ut
+          medicamenta corporis et sanguinis Domini differenda sint, auctoritate antistitis debet se
+          quis removere ab altari ad agendam poenitentiam et eadem reconciliari </quote>.</p>
+        <p xml:id="pl-l4d17c3-d1e130">Item Leo: <quote xml:id="pl-l4d17c3-Qd1e132">Multiplex
+          misericordia Dei ita lapsibus humanis subvenit, ut non modo per baptismum, sed etiam per
+          poenitentiam spes vitae reparetur, sic divinae voluntatis praesidiis ordinalis, ut
+          indulgentiam Dei nisi supplicationibus sacerdotum nequeant oblinere. Christus enim hanc
+          praepositis Ecclesiae tradidit potestatem, ut confitentibus poenitentiae satisfactionem
+          darent, et eosdem, salubri satisfactione purgatos, ad communionem Sacramentorum per ianuam
+          reconciliationis admitterent</quote>.</p>
+        <p xml:id="pl-l4d17c3-d1e136">Item <name ref="#Augustine">Augustinus</name>: <quote
+          xml:id="pl-l4d17c3-Qd1e141">Quem poenitet, omnino poeniteat, et dolorem lacrymis ostendat;
+          repraesentet vitam suam Deo per sacerdotem, praeveniat iudicium Dei per confessionem.
+          Praecepit enim Dominus mundandis, ut ostenderent ora sacerdotibus, docens corporali
+          praesentia confitenda peccata, non per scriptum manifestanda. Dixit enim: Ora monstrate;
+          et omnes, non unus pro omnibus; non alium statuatis nuntium, qui pro vobis offerat munus a
+          Moyse statutum; sed qui per vos peccastis, per vos erubescatis: erubescentia enim ipsa
+          partem habet remissionis. Ex misericordia enim hoc praecepit Dominus, ut nemo poeniteret
+          in occulto: in hoc enim, quod per se ipsum dicit sacerdoti et erubescentiam vincit timore
+          offensi, fit venia criminis. Fit enim veniale per confessionem, quod criminale erat in
+          operatione; etsi non statim purgatur, fit veniale tamen quod commiserat mortale. Multum
+          enim satisfactionis obtulit qui, erubescentiae dominans, nihil eorum quae commisit, nuntio
+          Dei negavit. Deus enim, qui misericors et iustus est, sicut servat misericordiam in
+          iustitia, ita et iustitiam in misericordia: opus enim misericordiae est peccanti peccata
+          dimittere; sed oportet, ut iustus misereatur iuste. Considerat enim, si dignus est, non
+          dico, iustitia, sed et misericordia; iustitia enim sola damnat, sed dignus est
+          misericordia qui spirituali labore quaerit gratiam: laborat enim mens patiendo
+          erubescentiam; et quoniam verecundia magna est poena, qui erubescit pro Christo, fit
+          dignus misericordia. Unde patet, quia, quanto pluribus confitebitur in spe veniae
+          turpitudinem criminis, tanto facilius consequitur gratiam remissionis. Ipsi enim
+          sacerdotes plus possunt iam proficere, plus confitentibus parcere </quote>.</p>
+        <p xml:id="pl-l4d17c3-d1e146">Item Leo Papa: <quote xml:id="pl-l4d17c3-Qd1e148">Quamvis
+          plenitudo fidei videatur esse laudabilis, quae propter Dei timorem apud homines erubescere
+          non veretur; tamen (quia non omnium huiuscemodi sunt peccata, ut ea qui poenitentiam
+          poscunt non timeant publicare) removeatur improbabilis consuetudo, ne multi a poenitentiae
+          remediis arceantur, dum aut erubescunt, aut liment inimicis sua facta reserare, quibus
+          possunt legum percelli constitutione. Sufficit enim confessio, quae primum Deo offertur,
+          tunc etiam sacerdoti, qui pro delictis poenitentium precator accedit: tunc enim piares ad
+          poenitentiam poterunt provocari, si populi auribus non publicetur conscientia confitentis
+          </quote>.</p>
+        <p xml:id="pl-l4d17c3-d1e152">Ex his aliisque pluribus indubitanter ostenditur, oportere Deo
+          [primum et deinde sacerdoti offerri confessionem, nec aliter posse perveniri ad ingressum
+          paradisi, si adsit facultas.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

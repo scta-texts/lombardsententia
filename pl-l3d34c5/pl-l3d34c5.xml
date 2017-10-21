@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -14,18 +15,14 @@
         </respStmt>
       </titleStmt>
       <editionStmt>
-        <edition n="0.0.0-dev">
-          <title>Cap. V</title>
-          <date when="2017-10-21">October 21, 2017</date>
-        </edition>
+        <edition n="0.0.0-dev"> <title>Cap. V</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
       </editionStmt>
       <publicationStmt>
-        <authority>
-          <ref>SCTA</ref>
-        </authority>
+        <authority> <ref>SCTA</ref> </authority>
         <availability status="free">
-          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
-          </p>
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -35,7 +32,8 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -43,8 +41,7 @@
     </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2017-10-21" status="draft" n="0.0.0">
-          <p>Created file for the first time.</p>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
         </change>
       </listChange>
     </revisionDesc>
@@ -56,12 +53,51 @@
     <body>
       <div xml:id="pl-l3d34c5">
         <head xml:id="pl-l3d34c5-Hd1e109">Cap. V</head>
-        <head xml:id="pl-l3d34c5-Hd1e112" type="question-title">De casto et servili et initiali.</head>
-        <p xml:id="pl-l3d34c5-d1e115">De his eisdem timoribus latius disputat dicens: <quote xml:id="pl-l3d34c5-Qd1e117">Coepit aliquis credere diem indicii; si coepit credere, coepit et timere. Sed qui adhuc timet, nondum habet fiduciam in die iudicii, nondum est in illo perfecta caritas</quote>; <quote xml:id="pl-l3d34c5-Qd1e120">si perfecta in illo esset caritas, non timeret. Perfecta enim caritas faceret perfectam iustitiam, et non haberet, quare timeret, immo haberet, quare desideraret, ut transeat iniquitas, et veniat regnum Dei. Ergo timor non est in caritate. Sed in qua caritate ? Non in inchoata. In qua ergo? In perfecta. <quote xml:id="pl-l3d34c5-Qd1e122">Perfecta,</quote> inquit, <quote xml:id="pl-l3d34c5-Qd1e125">caritas foras mittit timorem .</quote> Ergo incipiat timor, quia <quote xml:id="pl-l3d34c5-Qd1e128">initium sapientiae timor Domini</quote>. Timor quasi locum praeparat caritati; cum autem coeperit caritas habitare, pellitur timor, qui ei praeparavit locum. Quantum enim illa crescit, ille decrescit; et quantum illa fit interior, timor pellitur foras. Maior caritas, minor timor; minor caritas, maior timor. Si autem nullus est timor, non est qua  iniret caritas; sicut videmus, per setam introduci linum<sup>8</sup>, quando aliquid suitur; seta prius intrat, nisi exeat, non succedit linum; sic timor primo occupat mentem, non autem ibi remanet timor, quia ideo intravit, ut introduceret caritatem </quote>.</p>
-        <p xml:id="pl-l3d34c5-d1e136">
-          <quote xml:id="pl-l3d34c5-Qd1e138"> Est autem alia sententia, quae videtur huic esse contraria, si non habet pium intellectorem. Dicitur enim in Psalmo: <quote xml:id="pl-l3d34c5-Qd1e140">Timor Domini castus permanet in saeculum saeculi.</quote> Aeternum quendam timorem nobis ostendit, sed castum. Quod si ostendit ille nobis aeternum timorem, nunquid contradicit illi ista Epistola, quae dicit: <quote xml:id="pl-l3d34c5-Qd1e143">Timor non est in caritate, sed perfecta caritas foras mittit timorem?</quote> Hoc enim dictum est per loannem, illud dictum est per David. Sed nolite putare, alium esse Spiritum. Si<quote xml:id="pl-l3d34c5-Qd1e146"> 
-</quote>unus flatus inflat duas tibias, non potest unus Spiritus implere duo corda et agitare duas linguas? Si spiritu uno, id est uno flatu, impletae duae tibiae consonant, impletae duae linguae Spiritu Dei  dissonare possunt ? Immo quaedam est ibi consonantia, est quaedam concordia; sed auditorem desiderat studiosum, non otiosum. Ecce movit duas linguas Spiritus Dei, et audivimus ex una: <quote xml:id="pl-l3d34c5-Qd1e149">Timor non est in caritate;</quote> audivimus ex alia: <quote xml:id="pl-l3d34c5-Qd1e152">Timor Domini castus permanet in saeculum saeculi.</quote> Quid est hoc? Dissonant? Non. Excute aures, intende melodiam . Non sine causa hic addidit 
-<quote xml:id="pl-l3d34c5-Qd1e156">castus;</quote> illic non addidit, quia est timor aliquis, qui dicitur castus; est autem alius timor qui non dicitur castus. Discernamus istos duos timores, et intelligamus consonantiam tibiarum. Quomodo discernimus? Attendat caritas vestra. Sunt homines, qui propterea timent Deum, ne mittantur in gehennam, ne forte ardeant cum diabolo in igne aeterno. Ipse est timor, qui introducit caritatem; sed sic venit, ut exeat: si enim propter poenas limes Deum, nondum amas quem sic times; non bona desideras, sed mala caves. Sed ex eo, quia mala caves, corrigis te, et incipis bona desiderare; cum bona desiderare coeperis, erit in te timor castus. Quid est timor castus? Timere ne amittas ipsa bona, timere Deum, ne recedat a te. Cum autem times Deum, ne te deserat praesentia eius, amplecteris eum, ipso frui desideras</quote>.</p>
+        <head xml:id="pl-l3d34c5-Hd1e112" type="question-title">De casto et servili et
+          initiali.</head>
+        <p xml:id="pl-l3d34c5-d1e115">De his eisdem timoribus latius disputat dicens: <quote
+          xml:id="pl-l3d34c5-Qd1e117">Coepit aliquis credere diem indicii; si coepit credere, coepit
+          et timere. Sed qui adhuc timet, nondum habet fiduciam in die iudicii, nondum est in illo
+          perfecta caritas</quote>; <quote xml:id="pl-l3d34c5-Qd1e120">si perfecta in illo esset
+          caritas, non timeret. Perfecta enim caritas faceret perfectam iustitiam, et non haberet,
+          quare timeret, immo haberet, quare desideraret, ut transeat iniquitas, et veniat regnum
+          Dei. Ergo timor non est in caritate. Sed in qua caritate ? Non in inchoata. In qua ergo?
+          In perfecta. <quote xml:id="pl-l3d34c5-Qd1e122">Perfecta,</quote> inquit, <quote
+          xml:id="pl-l3d34c5-Qd1e125">caritas foras mittit timorem .</quote> Ergo incipiat timor,
+          quia <quote xml:id="pl-l3d34c5-Qd1e128">initium sapientiae timor Domini</quote>. Timor
+          quasi locum praeparat caritati; cum autem coeperit caritas habitare, pellitur timor, qui
+          ei praeparavit locum. Quantum enim illa crescit, ille decrescit; et quantum illa fit
+          interior, timor pellitur foras. Maior caritas, minor timor; minor caritas, maior timor. Si
+          autem nullus est timor, non est qua iniret caritas; sicut videmus, per setam introduci
+          linum<sup>8</sup>, quando aliquid suitur; seta prius intrat, nisi exeat, non succedit
+          linum; sic timor primo occupat mentem, non autem ibi remanet timor, quia ideo intravit, ut
+          introduceret caritatem </quote>.</p>
+        <p xml:id="pl-l3d34c5-d1e136"> <quote xml:id="pl-l3d34c5-Qd1e138"> Est autem alia sententia,
+          quae videtur huic esse contraria, si non habet pium intellectorem. Dicitur enim in Psalmo:
+          <quote xml:id="pl-l3d34c5-Qd1e140">Timor Domini castus permanet in saeculum
+          saeculi.</quote> Aeternum quendam timorem nobis ostendit, sed castum. Quod si ostendit
+          ille nobis aeternum timorem, nunquid contradicit illi ista Epistola, quae dicit: <quote
+          xml:id="pl-l3d34c5-Qd1e143">Timor non est in caritate, sed perfecta caritas foras mittit
+          timorem?</quote> Hoc enim dictum est per loannem, illud dictum est per David. Sed nolite
+          putare, alium esse Spiritum. Si<quote xml:id="pl-l3d34c5-Qd1e146"> </quote>unus flatus
+          inflat duas tibias, non potest unus Spiritus implere duo corda et agitare duas linguas? Si
+          spiritu uno, id est uno flatu, impletae duae tibiae consonant, impletae duae linguae
+          Spiritu Dei dissonare possunt ? Immo quaedam est ibi consonantia, est quaedam concordia;
+          sed auditorem desiderat studiosum, non otiosum. Ecce movit duas linguas Spiritus Dei, et
+          audivimus ex una: <quote xml:id="pl-l3d34c5-Qd1e149">Timor non est in caritate;</quote>
+          audivimus ex alia: <quote xml:id="pl-l3d34c5-Qd1e152">Timor Domini castus permanet in
+          saeculum saeculi.</quote> Quid est hoc? Dissonant? Non. Excute aures, intende melodiam .
+          Non sine causa hic addidit <quote xml:id="pl-l3d34c5-Qd1e156">castus;</quote> illic non
+          addidit, quia est timor aliquis, qui dicitur castus; est autem alius timor qui non dicitur
+          castus. Discernamus istos duos timores, et intelligamus consonantiam tibiarum. Quomodo
+          discernimus? Attendat caritas vestra. Sunt homines, qui propterea timent Deum, ne
+          mittantur in gehennam, ne forte ardeant cum diabolo in igne aeterno. Ipse est timor, qui
+          introducit caritatem; sed sic venit, ut exeat: si enim propter poenas limes Deum, nondum
+          amas quem sic times; non bona desideras, sed mala caves. Sed ex eo, quia mala caves,
+          corrigis te, et incipis bona desiderare; cum bona desiderare coeperis, erit in te timor
+          castus. Quid est timor castus? Timere ne amittas ipsa bona, timere Deum, ne recedat a te.
+          Cum autem times Deum, ne te deserat praesentia eius, amplecteris eum, ipso frui
+          desideras</quote>.</p>
       </div>
     </body>
   </text>

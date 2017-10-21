@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CAP. II</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev"> <title>CAP. II</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority> <ref>SCTA</ref> </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l4d21c2">
+        <head xml:id="pl-l4d21c2-Hd1e109">CAP. II</head>
+        <p xml:id="pl-l4d21c2-d1e112">[Cap. II]. De illis etiam, qui <quote
+          xml:id="pl-l4d21c2-Qd1e114">aedificant, lignum, foenum, stipulam dicti</quote> <name
+          ref="#Augustine">Augustinus</name>, quod ignem tribulationis transitoriae invenient,
+          cremabilia aedificia, quae secum portaverunt, cremantem. Ait enim sic: <quote
+          xml:id="pl-l4d21c2-Qd1e120"> Post istius sane corporis mortem, donec de igne purgatorio
+          veniatur ad diem damnationis et renumerationis, si hoc temporis intervallo spiritus
+          defunctorum, qui aedificaverunt <quote xml:id="pl-l4d21c2-Qd1e122">lignum, foenum,
+          stipulam</quote> , huiusmodi ignem dicantur perpeti, quem alii non sentiunt, qui huiusmodi
+          aedificia non portaverunt, ut inveniant ignem transitoriae tribulationis, venialia
+          concremantem; non redarguo, quia forsitan verum est</quote>. <quote
+          xml:id="pl-l4d21c2-Qd1e126">Sed quia dicitur: <quote xml:id="pl-l4d21c2-Qd1e128">Salvus
+          erit quasi per ignem,</quote> contemnitur ille ignis. Gravior tamen erit ignis ille, quam
+          quidquid potest homo pati in hac vita </quote>.</p>
+        <p xml:id="pl-l4d21c2-d1e133">Hic aperte insinuatur, quod illi qui <quote
+          xml:id="pl-l4d21c2-Qd1e135">aedificant lignum, foenum, stipulam,</quote> quaedam
+          cremabilia aedificia, id est venialia peccata, secum portant, quae in igne emendatorio
+          cremantur. Unde constat, quaedam peccata venialia post hanc vitam deleri.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

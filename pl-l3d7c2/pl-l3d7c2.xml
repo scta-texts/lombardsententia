@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -14,19 +15,14 @@
         </respStmt>
       </titleStmt>
       <editionStmt>
-        <edition n="0.0.0-dev">
-          <title>[Cap. II].</title>
-          <date when="2017-09-05">September 05, 2017</date>
-        </edition>
+        <edition n="0.0.0-dev"> <title>[Cap. II].</title> <date when="2017-09-05">September 05,
+          2017</date> </edition>
       </editionStmt>
       <publicationStmt>
-        <authority>
-          <ref>SCTA</ref>
-        </authority>
+        <authority> <ref>SCTA</ref> </authority>
         <availability status="free">
           <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
-              Commons Attribution 4.0 International</ref>
-          </p>
+            Commons Attribution 4.0 International</ref> </p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -36,7 +32,8 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -44,8 +41,7 @@
     </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2017-09-05" status="draft" n="0.0.0">
-          <p>Created file for the first time.</p>
+        <change when="2017-09-05" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
         </change>
       </listChange>
     </revisionDesc>
@@ -57,123 +53,142 @@
     <body>
       <div xml:id="pl-l3d7c2">
         <head xml:id="pl-l3d7c2-Hd1e111">[Cap. II].</head>
-        <p xml:id="pl-l3d7c2-d1e114"> Isti dicunt, Christum esse praedestinatum, in quantum est homo, id est, in quantum est
-          subsistens ex duabus sub¬ stantiis, scilicet anima et carne. Nam quantum ad naturam
-          divinitatis, non est ipse praedestinatus; non ergo, in quantum in ea vel ea subsistit,
-          praedestinatus est, sed in quantum subsistit in aliis duabus substantiis, id est in anima
-          et carne, hoc est, in quantum est homo. </p>
-        <p xml:id="pl-l3d7c2-d1e117"> Determinant etiam auctoritates, quae primae conveniunt sententiae et huic contradicere
-          videntur, ut cum legitur : Homo ille assumtus a Verbo in singularitate personae, vel
-          factus una persona cum Verbo, de natura humana intelligitur, quae Verbo unita est in
-          singularitate personae, id est, ita quod eadem persona, quae prius erat, et simplex erat,
-          sine incremento numeri et immutata permansit, licet composita. Compositionis vero huius
-          aliam dicunt esse rationem, quam sit in aliis hominibus, quia huius ex tribus, aliorum ex
-          duabus substantiis est compositio. </p>
-        <p xml:id="pl-l3d7c2-d1e120"> Negant quoque, naturam humanam esse personam, vel Dei Filium; et sicut unum eundemque
-          dicunt esse hominem et Deum, et filium hominis et Filium Dei, ita unum et idem, non aliud
-          et aliud, sicut nec alium et alium. </p>
-        <p xml:id="pl-l3d7c2-d1e123"> Sed his videntur adversari quae subditis continentur capitulis. </p>
-        <p xml:id="pl-l3d7c2-d1e127"> Ait enim <name ref="#Augustine">Augustinus</name>
-          <title>Super Ioannem</title> : <quote xml:id="pl-l3d7c2-Qd1e135">Aliud est Verbum Dei, aliud homo; sed Verbum caro
-            factum est, id est homo; non itaque alia Verbi, alia est hominis persona, quoniam
-            utrumque Christus et una persona </quote>. </p>
-        <p xml:id="pl-l3d7c2-d1e139"> Idem <title>Ad Felicianum</title>: <quote xml:id="pl-l3d7c2-Qd1e144">Aliud Dei Filius, aliud' hominis filius; sed
-            non alius</quote>. </p>
-        <p xml:id="pl-l3d7c2-d1e148"> Item : <quote xml:id="pl-l3d7c2-Qd1e150">Dei Filius aliud de Patre, aliud de Matre </quote>. </p>
-        <p xml:id="pl-l3d7c2-d1e154"> Idem in libro I <title ref="#deTrinitate">De Trinitate</title>: <quote xml:id="pl-l3d7c2-Qd1e159" source="http://scta.info/resource/adt-l1">Cum Filius sit et
-            Deus et homo, alia substantia Deus, alia homo </quote>. </p>
-        <p xml:id="pl-l3d7c2-d1e163"> Haec autem in hunc modum determinant, quia, cum dicitur Aliud Verbum Dei, aliud homo,
-          sive alia substantia Deus, alia homo, alterius naturae significatur Christus esse, in
-          quantum est homo, et alterius, in quantum est Deus; et aliud natura, qua est homo, aliud
-          natura, qua est Deus. </p>
-        <p xml:id="pl-l3d7c2-d1e166"> Ut enim ait <name>Ioannes Damascenus</name>: <quote xml:id="pl-l3d7c2-Qd1e171"> Inconverse et inalterabiliter
-            unitae sunt ad invicem naturae, neque divina distante a propria simplicitate, neque
-            humana aut conversa in deitatis naturam, aut in non-existentiam divisa , neque ex duabus
-            una facta composita natura. Composita enim natura, neutri earum, ex quibus componitur
-            naturis, homousia, id est consubstantialis, esse potest, ex alteris perficiens alterum,
-            ut corpus ex quatuor ele¬ mentis compositum, nec ignis nominatur, nec aer, nec terra,
-            nec aqua, nec horum alicui homousion dicitur. Si igitur secundum haereticos Christus
-            unius compositae naturae post unionem exstitit, ex simplici natura conversus est in
-            compositam, et neque Patri simplicis naturae existenti, neque Matri est homousios; et
-            neque Deus neque homo denominabitur, sed Christus solum; et erit hoc nomen, scilicet
-            Christus, non personae ipsius nomen, sed unius, secundum ipsos, compositae naturae. Nos
-            autem Christum non <quote xml:id="pl-l3d7c2-Qd1e173"> </quote>unius compositae naturae dogmatizamus, et hoc nomen,
-            scilicet Christus, personae dicimus non monotropos, id est uno modo dictum, sed duarum
-            naturarum esse significativum, scilicet deitatis et humanitatis. Ex deitate autem et
-            humanitate Deum perfectum et hominem perfectum eundem 'et esse et dici ex duabus et in
-            duabus naturis confitemur </quote>. </p>
-        <p xml:id="pl-l3d7c2-d1e179"> Sic ergo dicitur aliud esse Filius Dei, aliud filius hominis, quia. alterius est
-          substantiae vel naturae, in quantum Filius Dei ; alterius, in quantum est filius hominis;
-          non quod ipse Filius Dei et hominis sit duo illa diversa, id est duae diversae naturae. </p>
-        <p xml:id="pl-l3d7c2-d1e182"> Aperte enim <name>Hilarius</name> in IX libro <title>De Trinitate</title> ait:
-            <quote xml:id="pl-l3d7c2-Qd1e190">Cum non aliud sil filius hominis, neque aliud Filius Dei — <quote xml:id="pl-l3d7c2-Qd1e192">Verbum enim
-              caro factum est</quote> — et cum qui Filius Dei est, ipse et hominis sit filius,
-            requiro, quis in hoc filio hominis glorificatus sit</quote>. Evidenter dicit, non aliud
-          esse Filium Dei et aliud filium hominis. Ex quo praemissa roboratur et approbatur
-          determinatio. </p>
-        <p xml:id="pl-l3d7c2-d1e197"> Quod etiam dictum est: Utrumque est Christus et una persona, movere potest lectorem;
-          sicut et illud quod <name ref="#Augustine">Augustinus</name> dicit in libro 1 <title ref="#deTrinitate">De Trinitate</title> : <quote xml:id="pl-l3d7c2-Qd1e205" source="http://scta.info/resource/adt-l1"> Quia forma Dei formam servi accepit,
-            utrumque Deus, utrumque homo. Sed utrumque Deus propter accipientem Deum, et utrumque
-            homo propter acceptum hominem </quote>. </p>
-        <p xml:id="pl-l3d7c2-d1e209"> Et illud quod idem ait in libro <title>De bono perseverantiae</title> : <quote xml:id="pl-l3d7c2-Qd1e214"> Qui
-            fidelis est, in eo veram naturam humanam credit , susci- piente Deo Verbo, ita
-            sublimatam, ut qui suscepit et quod suscepit una esset in Trinitate persona, assumtione
-            illa ineffabiliter faciente personae unius in Deo et homine veritatem </quote>. Si autem
-          qui suscepit et quod suscepit una est persona, ergo natura humana cum Verbo una est
-          persona. </p>
-        <p xml:id="pl-l3d7c2-d1e218"> Sed haec omnia ex tali sensu dicta fore tradunt, ut ulrumque dicatur esse Christus et
-          una persona, quia in utroque unus Christus , una persona subsistit. Ita etiam susceptum
-          cum suscipiente dicitur una persona, quia susceptum suscipienti est sociatum in unitate
-          personae, id est ita, quod unitas personae permansit, non ita, ut caro et anima sint Deus,
-          quia, ut ait <name>Hieronymus</name>, Verbum est Deus, non caro assumta. </p>
-        <p xml:id="pl-l3d7c2-d1e224"> Et <name>Ambrosius</name> in libro III <title>De Spiritu sancto </title>ait:
-            <quote xml:id="pl-l3d7c2-Qd1e232">Aliud est quod assumsit, et aliud quod assumtum est</quote>. </p>
-        <p xml:id="pl-l3d7c2-d1e237"> Est autem et aliud, quod huic sententiae plurimum videtur obviare. </p>
-        <p xml:id="pl-l3d7c2-d1e240"> Ait enim <name ref="#Augustine">Augustinus</name> in libro <title>Contra
-            Maximinum</title> : <quote xml:id="pl-l3d7c2-Qd1e248">Christus una persona est geminae substantiae, quia et Deus et
-            homo est. Nec tamen Deus, vel homo pars huius personae dici potest; alioquin Filius Dei
-            Deus, antequam susciperet formam servi, non erat totus, et crevit, cum homo divinitati
-            eius accessit </quote>. Ecce, Deum dicit non esse pariem illius personae; unde videtur
-          illa persona non constare ex Deo et homine. </p>
-        <p xml:id="pl-l3d7c2-d1e252"> Ad quod etiam illi dicunt, illam personam non ita constare ex Deo et homine, quasi totum
-          ex partibus. Ita enim partes alienius lotius conveniunt, ut ex illis quod non erat
-          constituatur. Non autem sic humana et divina natura in Christo uniuntur: inexplicabilis
-          enim est istius unionis, quae non est partium, ratio. </p>
-        <p xml:id="pl-l3d7c2-d1e255"> Quidam tamen nomine Dei ibi personam significari putant, quia de tribus agebat personis,
-          quarum nullam Trinitatis esse partem dicebat, sicut pars istius personae non est Deus.
-          Quod si de persona intelligitur, manifestum est, quia persona non est pars personae. </p>
-        <p xml:id="pl-l3d7c2-d1e258"> Posita est diligenter sententia secunda et eius explanatio, cui in nullo vel in modico
-          obviant auctoritates in tertia sententia inductae, quae iam consideranda est. </p>
-        <p xml:id="pl-l3d7c2-d1e261"> In hac igitur sententia sic dicitur: Deus factus homo, quia hominem accepit; et sic
-          dicitur esse homo, quia hominem habet, vel quia est habens hominem; et homo factus Deus,
-          quia as- sumtus est a Deo; et homo esse Deus, quia habena hominem est Deus. Cum ergo
-          dicitur: Deus est homo, vel habitus praedicatur, vel persona, sed humanata. </p>
-        <p xml:id="pl-l3d7c2-d1e265"> Et quod persona humanata praedicetur, <name>Cassiodorus</name> ostendere videtur,
-          dicens: <quote xml:id="pl-l3d7c2-Qd1e270"> Factus est, ut ita dixerim , humanatus Deus, qui etiam in assumtione
-            carnis Deus esse non desti¬ tit</quote>. Quod tamen varie accipi potest, ut dicatur:
-          Deus factas humanatus, vel Christus factus Deus humanatus; utrumque enim sane dici potest.
-          Cum ergo dicitur: Factus est Deus homo, multiplex secundum istos fit intelligentia, ut
-          naturam humanam accepisse, vel humanatum Verbum esse incepisse intelligatur. Nec tamen, si
-          incepit esse humanatum Verbum, ideo sequitur, quod inceperit esse Verbum; nec si Deus
-          factus est humanatum Verbum, sequitur, quod factus sit Verbum; sicut de aliquo dicitur:
-          hodie iste coepit esse bonus homo, vel factus est bonus homo; nec tamen hodie coepit esse
-          homo, vel factus est homo. </p>
-        <p xml:id="pl-l3d7c2-d1e274"> Secundum istos dicitur Christus, secundum quod homo, praedestinatus esse Filius Dei,
-          quia est praedestinatum a Deo ab aeterno, et in tempore collatum ei per gratiam, ut ipse,
-          ens homo, sit Filius Dei. Hoc enim non semper habuit, sed in tempore per gratiam accepit. </p>
-        <p xml:id="pl-l3d7c2-d1e277"> Quod videtur <name ref="#Augustine">Augustinus</name> notasse in libro <title>Ad
-            Prosperum et Hilarium</title>
-           dicens: <quote xml:id="pl-l3d7c2-Qd1e288"> Praedestinatus est Iesus, ut, qui futurus erat secundum
-            carnem filius David, esset in virtute Filius Dei </quote>. </p>
-        <p xml:id="pl-l3d7c2-d1e292"> Hi etiam, cum dicitur: Christus minor Patre, secundum quod homo, secundum habitum hoc
-          intelligunt dictum, id est, in quantum habet hominem sibi unitum. </p>
-        <p xml:id="pl-l3d7c2-d1e295"> Unde <name ref="#Augustine">Augustinus</name> in libro I <title ref="#deTrinitate">De
-          Trinitate</title>: <quote xml:id="pl-l3d7c2-Qd1e303" source="http://scta.info/resource/adt-l1">Deus Filius Deo Patri natura est aequalis, habitu minor. In
-            forma enim servi minor est Patre, in forma Dei aequalis est Patri </quote>. </p>
-        <p xml:id="pl-l3d7c2-d1e307"> Et quia secundum habitum accipienda est incarnationis ratio, ideo Deum humanatum, non
-          hominem deificatum dici tradunt. </p>
-        <p xml:id="pl-l3d7c2-d1e311"> Unde <name>Ioannes Damascenus</name>: <quote xml:id="pl-l3d7c2-Qd1e316">Non hominem deificatum dicimus, sed Deum
-            hominem factum</quote>. </p>
+        <p xml:id="pl-l3d7c2-d1e114"> Isti dicunt, Christum esse praedestinatum, in quantum est
+          homo, id est, in quantum est subsistens ex duabus sub¬ stantiis, scilicet anima et carne.
+          Nam quantum ad naturam divinitatis, non est ipse praedestinatus; non ergo, in quantum in
+          ea vel ea subsistit, praedestinatus est, sed in quantum subsistit in aliis duabus
+          substantiis, id est in anima et carne, hoc est, in quantum est homo. </p>
+        <p xml:id="pl-l3d7c2-d1e117"> Determinant etiam auctoritates, quae primae conveniunt
+          sententiae et huic contradicere videntur, ut cum legitur : Homo ille assumtus a Verbo in
+          singularitate personae, vel factus una persona cum Verbo, de natura humana intelligitur,
+          quae Verbo unita est in singularitate personae, id est, ita quod eadem persona, quae prius
+          erat, et simplex erat, sine incremento numeri et immutata permansit, licet composita.
+          Compositionis vero huius aliam dicunt esse rationem, quam sit in aliis hominibus, quia
+          huius ex tribus, aliorum ex duabus substantiis est compositio. </p>
+        <p xml:id="pl-l3d7c2-d1e120"> Negant quoque, naturam humanam esse personam, vel Dei Filium;
+          et sicut unum eundemque dicunt esse hominem et Deum, et filium hominis et Filium Dei, ita
+          unum et idem, non aliud et aliud, sicut nec alium et alium. </p>
+        <p xml:id="pl-l3d7c2-d1e123"> Sed his videntur adversari quae subditis continentur
+          capitulis. </p>
+        <p xml:id="pl-l3d7c2-d1e127"> Ait enim <name ref="#Augustine">Augustinus</name> <title>Super
+          Ioannem</title> : <quote xml:id="pl-l3d7c2-Qd1e135">Aliud est Verbum Dei, aliud homo; sed
+          Verbum caro factum est, id est homo; non itaque alia Verbi, alia est hominis persona,
+          quoniam utrumque Christus et una persona </quote>. </p>
+        <p xml:id="pl-l3d7c2-d1e139"> Idem <title>Ad Felicianum</title>: <quote
+          xml:id="pl-l3d7c2-Qd1e144">Aliud Dei Filius, aliud' hominis filius; sed non alius</quote>. </p>
+        <p xml:id="pl-l3d7c2-d1e148"> Item : <quote xml:id="pl-l3d7c2-Qd1e150">Dei Filius aliud de
+          Patre, aliud de Matre </quote>. </p>
+        <p xml:id="pl-l3d7c2-d1e154"> Idem in libro I <title ref="#deTrinitate">De
+          Trinitate</title>: <quote xml:id="pl-l3d7c2-Qd1e159"
+          source="http://scta.info/resource/adt-l1">Cum Filius sit et Deus et homo, alia substantia
+          Deus, alia homo </quote>. </p>
+        <p xml:id="pl-l3d7c2-d1e163"> Haec autem in hunc modum determinant, quia, cum dicitur Aliud
+          Verbum Dei, aliud homo, sive alia substantia Deus, alia homo, alterius naturae
+          significatur Christus esse, in quantum est homo, et alterius, in quantum est Deus; et
+          aliud natura, qua est homo, aliud natura, qua est Deus. </p>
+        <p xml:id="pl-l3d7c2-d1e166"> Ut enim ait <name>Ioannes Damascenus</name>: <quote
+          xml:id="pl-l3d7c2-Qd1e171"> Inconverse et inalterabiliter unitae sunt ad invicem naturae,
+          neque divina distante a propria simplicitate, neque humana aut conversa in deitatis
+          naturam, aut in non-existentiam divisa , neque ex duabus una facta composita natura.
+          Composita enim natura, neutri earum, ex quibus componitur naturis, homousia, id est
+          consubstantialis, esse potest, ex alteris perficiens alterum, ut corpus ex quatuor ele¬
+          mentis compositum, nec ignis nominatur, nec aer, nec terra, nec aqua, nec horum alicui
+          homousion dicitur. Si igitur secundum haereticos Christus unius compositae naturae post
+          unionem exstitit, ex simplici natura conversus est in compositam, et neque Patri simplicis
+          naturae existenti, neque Matri est homousios; et neque Deus neque homo denominabitur, sed
+          Christus solum; et erit hoc nomen, scilicet Christus, non personae ipsius nomen, sed
+          unius, secundum ipsos, compositae naturae. Nos autem Christum non <quote
+          xml:id="pl-l3d7c2-Qd1e173"> </quote>unius compositae naturae dogmatizamus, et hoc nomen,
+          scilicet Christus, personae dicimus non monotropos, id est uno modo dictum, sed duarum
+          naturarum esse significativum, scilicet deitatis et humanitatis. Ex deitate autem et
+          humanitate Deum perfectum et hominem perfectum eundem 'et esse et dici ex duabus et in
+          duabus naturis confitemur </quote>. </p>
+        <p xml:id="pl-l3d7c2-d1e179"> Sic ergo dicitur aliud esse Filius Dei, aliud filius hominis,
+          quia. alterius est substantiae vel naturae, in quantum Filius Dei ; alterius, in quantum
+          est filius hominis; non quod ipse Filius Dei et hominis sit duo illa diversa, id est duae
+          diversae naturae. </p>
+        <p xml:id="pl-l3d7c2-d1e182"> Aperte enim <name>Hilarius</name> in IX libro <title>De
+          Trinitate</title> ait: <quote xml:id="pl-l3d7c2-Qd1e190">Cum non aliud sil filius hominis,
+          neque aliud Filius Dei — <quote xml:id="pl-l3d7c2-Qd1e192">Verbum enim caro factum
+          est</quote> — et cum qui Filius Dei est, ipse et hominis sit filius, requiro, quis in hoc
+          filio hominis glorificatus sit</quote>. Evidenter dicit, non aliud esse Filium Dei et
+          aliud filium hominis. Ex quo praemissa roboratur et approbatur determinatio. </p>
+        <p xml:id="pl-l3d7c2-d1e197"> Quod etiam dictum est: Utrumque est Christus et una persona,
+          movere potest lectorem; sicut et illud quod <name ref="#Augustine">Augustinus</name> dicit
+          in libro 1 <title ref="#deTrinitate">De Trinitate</title> : <quote
+          xml:id="pl-l3d7c2-Qd1e205" source="http://scta.info/resource/adt-l1"> Quia forma Dei
+          formam servi accepit, utrumque Deus, utrumque homo. Sed utrumque Deus propter accipientem
+          Deum, et utrumque homo propter acceptum hominem </quote>. </p>
+        <p xml:id="pl-l3d7c2-d1e209"> Et illud quod idem ait in libro <title>De bono
+          perseverantiae</title> : <quote xml:id="pl-l3d7c2-Qd1e214"> Qui fidelis est, in eo veram
+          naturam humanam credit , susci- piente Deo Verbo, ita sublimatam, ut qui suscepit et quod
+          suscepit una esset in Trinitate persona, assumtione illa ineffabiliter faciente personae
+          unius in Deo et homine veritatem </quote>. Si autem qui suscepit et quod suscepit una est
+          persona, ergo natura humana cum Verbo una est persona. </p>
+        <p xml:id="pl-l3d7c2-d1e218"> Sed haec omnia ex tali sensu dicta fore tradunt, ut ulrumque
+          dicatur esse Christus et una persona, quia in utroque unus Christus , una persona
+          subsistit. Ita etiam susceptum cum suscipiente dicitur una persona, quia susceptum
+          suscipienti est sociatum in unitate personae, id est ita, quod unitas personae permansit,
+          non ita, ut caro et anima sint Deus, quia, ut ait <name>Hieronymus</name>, Verbum est
+          Deus, non caro assumta. </p>
+        <p xml:id="pl-l3d7c2-d1e224"> Et <name>Ambrosius</name> in libro III <title>De Spiritu
+          sancto </title>ait: <quote xml:id="pl-l3d7c2-Qd1e232">Aliud est quod assumsit, et aliud
+          quod assumtum est</quote>. </p>
+        <p xml:id="pl-l3d7c2-d1e237"> Est autem et aliud, quod huic sententiae plurimum videtur
+          obviare. </p>
+        <p xml:id="pl-l3d7c2-d1e240"> Ait enim <name ref="#Augustine">Augustinus</name> in libro
+          <title>Contra Maximinum</title> : <quote xml:id="pl-l3d7c2-Qd1e248">Christus una persona
+          est geminae substantiae, quia et Deus et homo est. Nec tamen Deus, vel homo pars huius
+          personae dici potest; alioquin Filius Dei Deus, antequam susciperet formam servi, non erat
+          totus, et crevit, cum homo divinitati eius accessit </quote>. Ecce, Deum dicit non esse
+          pariem illius personae; unde videtur illa persona non constare ex Deo et homine. </p>
+        <p xml:id="pl-l3d7c2-d1e252"> Ad quod etiam illi dicunt, illam personam non ita constare ex
+          Deo et homine, quasi totum ex partibus. Ita enim partes alienius lotius conveniunt, ut ex
+          illis quod non erat constituatur. Non autem sic humana et divina natura in Christo
+          uniuntur: inexplicabilis enim est istius unionis, quae non est partium, ratio. </p>
+        <p xml:id="pl-l3d7c2-d1e255"> Quidam tamen nomine Dei ibi personam significari putant, quia
+          de tribus agebat personis, quarum nullam Trinitatis esse partem dicebat, sicut pars istius
+          personae non est Deus. Quod si de persona intelligitur, manifestum est, quia persona non
+          est pars personae. </p>
+        <p xml:id="pl-l3d7c2-d1e258"> Posita est diligenter sententia secunda et eius explanatio,
+          cui in nullo vel in modico obviant auctoritates in tertia sententia inductae, quae iam
+          consideranda est. </p>
+        <p xml:id="pl-l3d7c2-d1e261"> In hac igitur sententia sic dicitur: Deus factus homo, quia
+          hominem accepit; et sic dicitur esse homo, quia hominem habet, vel quia est habens
+          hominem; et homo factus Deus, quia as- sumtus est a Deo; et homo esse Deus, quia habena
+          hominem est Deus. Cum ergo dicitur: Deus est homo, vel habitus praedicatur, vel persona,
+          sed humanata. </p>
+        <p xml:id="pl-l3d7c2-d1e265"> Et quod persona humanata praedicetur, <name>Cassiodorus</name>
+          ostendere videtur, dicens: <quote xml:id="pl-l3d7c2-Qd1e270"> Factus est, ut ita dixerim ,
+          humanatus Deus, qui etiam in assumtione carnis Deus esse non desti¬ tit</quote>. Quod
+          tamen varie accipi potest, ut dicatur: Deus factas humanatus, vel Christus factus Deus
+          humanatus; utrumque enim sane dici potest. Cum ergo dicitur: Factus est Deus homo,
+          multiplex secundum istos fit intelligentia, ut naturam humanam accepisse, vel humanatum
+          Verbum esse incepisse intelligatur. Nec tamen, si incepit esse humanatum Verbum, ideo
+          sequitur, quod inceperit esse Verbum; nec si Deus factus est humanatum Verbum, sequitur,
+          quod factus sit Verbum; sicut de aliquo dicitur: hodie iste coepit esse bonus homo, vel
+          factus est bonus homo; nec tamen hodie coepit esse homo, vel factus est homo. </p>
+        <p xml:id="pl-l3d7c2-d1e274"> Secundum istos dicitur Christus, secundum quod homo,
+          praedestinatus esse Filius Dei, quia est praedestinatum a Deo ab aeterno, et in tempore
+          collatum ei per gratiam, ut ipse, ens homo, sit Filius Dei. Hoc enim non semper habuit,
+          sed in tempore per gratiam accepit. </p>
+        <p xml:id="pl-l3d7c2-d1e277"> Quod videtur <name ref="#Augustine">Augustinus</name> notasse
+          in libro <title>Ad Prosperum et Hilarium</title> dicens: <quote xml:id="pl-l3d7c2-Qd1e288"
+          > Praedestinatus est Iesus, ut, qui futurus erat secundum carnem filius David, esset in
+          virtute Filius Dei </quote>. </p>
+        <p xml:id="pl-l3d7c2-d1e292"> Hi etiam, cum dicitur: Christus minor Patre, secundum quod
+          homo, secundum habitum hoc intelligunt dictum, id est, in quantum habet hominem sibi
+          unitum. </p>
+        <p xml:id="pl-l3d7c2-d1e295"> Unde <name ref="#Augustine">Augustinus</name> in libro I
+          <title ref="#deTrinitate">De Trinitate</title>: <quote xml:id="pl-l3d7c2-Qd1e303"
+          source="http://scta.info/resource/adt-l1">Deus Filius Deo Patri natura est aequalis,
+          habitu minor. In forma enim servi minor est Patre, in forma Dei aequalis est Patri
+          </quote>. </p>
+        <p xml:id="pl-l3d7c2-d1e307"> Et quia secundum habitum accipienda est incarnationis ratio,
+          ideo Deum humanatum, non hominem deificatum dici tradunt. </p>
+        <p xml:id="pl-l3d7c2-d1e311"> Unde <name>Ioannes Damascenus</name>: <quote
+          xml:id="pl-l3d7c2-Qd1e316">Non hominem deificatum dicimus, sed Deum hominem
+          factum</quote>. </p>
       </div>
     </body>
   </text>

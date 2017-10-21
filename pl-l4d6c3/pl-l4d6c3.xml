@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CAP. III</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev"> <title>CAP. III</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority> <ref>SCTA</ref> </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l4d6c3">
+        <head xml:id="pl-l4d6c3-Hd1e109">CAP. III</head>
+        <head xml:id="pl-l4d6c3-Hd1e112" type="question-title">Quod nullus in materno utero
+          baptizatur.</head>
+        <p xml:id="pl-l4d6c3-d1e115">Hoc etiam sciendum est, <quote xml:id="pl-l4d6c3-Qd1e117"> quod
+          licet ter immergatur propter mysterium Trinitatis, tamen unus baptismus
+          reputatur</quote>.</p>
+        <p xml:id="pl-l4d6c3-d1e121">Illud etiam ignorandum non est, quod in materno utero nullus
+          baptizari potest, etiam si mater baptizetur.</p>
+        <p xml:id="pl-l4d6c3-d1e124">Unde Isidorus: <quote xml:id="pl-l4d6c3-Qd1e126">Qui in
+          maternis uteris sunt, ideo baptizari non possunt, quia qui natus adhuc secundum Adam non
+          est, secundum Christum non potest renasci, neque regeneratio in eum dici potest, in quem
+          generatio non praecessit </quote>.</p>
+        <p xml:id="pl-l4d6c3-d1e131">Item, <name ref="#Augustine">Augustinus</name>: <quote
+          xml:id="pl-l4d6c3-Qd1e136">Non potest quisquam renasci, antequam natus sit </quote>.</p>
+        <p xml:id="pl-l4d6c3-d1e140">Si vero opponitur de leremia et de Ioanne Baptista , qui ab
+          utero sanctificati leguntur, quod etiam de Iacob quidam putant, dicimus: Si sanctificatio
+          ibi accipitur interior emundatio, in miraculis divinae potentiae esse habendum, ut <name
+          ref="#Augustine">Augustinus</name> ait, ambigue super hoc loquens: <quote
+          xml:id="pl-l4d6c3-Qd1e145">Si usque adeo, inquit, in illo puero acceleratus est usus
+          rationis et voluntatis, ut intra materna viscera iam posset agnoscere , credere, quod in
+          aliis parvulis exspectatur aetas ut possint, in miraculis est habendum divinae potentiae,
+          non ad humanae trahendum exemplum naturae. Nam quando voluit Deus, etiam iumentum locutum
+          est </quote>.</p>
+        <p xml:id="pl-l4d6c3-d1e149">Idem : <quote xml:id="pl-l4d6c3-Qd1e151">De Ieremia legitur:
+          Priusquam exires de ventre , sanctificavi te; illa tamen sanctificatio, qua efficimur
+          templum Dei, nec nisi renatorum est </quote>. <quote xml:id="pl-l4d6c3-Qd1e154"> Nisi enim
+          quis renatus fuerit ex aqua et Spiritu sancio, non intrabit in regnum caelorum . Nemo
+          autem renascitur, nisi prius nascatur</quote>. <quote xml:id="pl-l4d6c3-Qd1e157"> Unde
+          illa sanctificatio potest secundum praedestinationem accipi</quote>.</p>
+        <p xml:id="pl-l4d6c3-d1e161">Ecce dubitanter videtur loqui, qui etiam in eodem dicit: <quote
+          xml:id="pl-l4d6c3-Qd1e163"> Non dictum est, quia credidit infans in utero, sed exsultavit;
+          non Elisabeth dicit: exsultavit in fide, sed exsultavit in utero meo. Et potuit esse haec
+          sanctificatio tantae rei a maiori cognoscendae indicium, non a parvulo cognitae
+          </quote>.</p>
+        <p xml:id="pl-l4d6c3-d1e167">Absque assertione de hac sanctificatione loquitur, non
+          definiens, qualiter intelligenda sit illa sanctificatio, an signum futurae rei, an veritas
+          -iustificationis per Spiritum factae. Sed melius est, ut dicamus, illos praeter communem
+          legem in uteris iustificatos et gratia praeventos, dimissis omnibus peccatis; quod et
+          multis Sanctorum testimoniis edocetur.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

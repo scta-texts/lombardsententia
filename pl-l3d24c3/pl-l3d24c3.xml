@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -14,18 +15,14 @@
         </respStmt>
       </titleStmt>
       <editionStmt>
-        <edition n="0.0.0-dev">
-          <title>Cap. III</title>
-          <date when="2017-10-21">October 21, 2017</date>
-        </edition>
+        <edition n="0.0.0-dev"> <title>Cap. III</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
       </editionStmt>
       <publicationStmt>
-        <authority>
-          <ref>SCTA</ref>
-        </authority>
+        <authority> <ref>SCTA</ref> </authority>
         <availability status="free">
-          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
-          </p>
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -35,7 +32,8 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -43,8 +41,7 @@
     </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2017-10-21" status="draft" n="0.0.0">
-          <p>Created file for the first time.</p>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
         </change>
       </listChange>
     </revisionDesc>
@@ -56,20 +53,56 @@
     <body>
       <div xml:id="pl-l3d24c3">
         <head xml:id="pl-l3d24c3-Hd1e109">Cap. III</head>
-        <head xml:id="pl-l3d24c3-Hd1e112" type="question-title">Si aliqua sciuntur, quae creduntur.</head>
-        <p xml:id="pl-l3d24c3-d1e115">Post haec quaeri solet, cum fides sit de non apparentibus et non visis, utrum sil etiam de incognitis tantum: si enim de incognitis tantum est, de his videtur esse tantum quae ignorantur.</p>
-        <p xml:id="pl-l3d24c3-d1e118">Sed sciendum est, quod cum visio alia sit interior, alia exterior, non est fides de subiectis exteriori visioni; est tamen de his quae visu interiori utcumque capiuntur. Et quaedam utique sic capiuntur, ut intelligantur, etsi non ut in futuro; quaedam autem non, quia, cum fides sit <quote xml:id="pl-l3d24c3-Qd1e120">ex auditu,</quote> non modo exteriori sed interiori, non potest esse de eo quod omnino ignoratur; quae ipsa ad sensum corporis non perlinet, ut <name ref="#Augustine">Augustinus</name> tradit dicens: <quote xml:id="pl-l3d24c3-Qd1e126">Quamvis <quote xml:id="pl-l3d24c3-Qd1e128">ex auditu</quote> fides in nobis sit, non tamen ad eum sensum corporis perlinet, qui dicitur auditus, quia non est sonus; nec ad ullum sensum corporis, quoniam cordis est res ista, non corporis </quote>. Quaedam ergo fide creduntur, quae intelliguntur naturali ratione; quaedam vero, quae non intelliguntur.</p>
-        <p xml:id="pl-l3d24c3-d1e133">Unde Propheta: <quote xml:id="pl-l3d24c3-Qd1e135">Nisi credideris, non intelliges.</quote> Quod <name ref="#Augustine">Augustinus</name> aperte distinguit: <quote xml:id="pl-l3d24c3-Qd1e141">Alia sunt, inquit, quae nisi intelligamus, non credimus; alia, quae nisi credamus, non intelligemus </quote>. Nemo tamen potest credere in Deum, nisi aliquid intelligat, cum fides sit ex auditu praedicationis.</p>
-        <p xml:id="pl-l3d24c3-d1e146">Idem in libro <quote xml:id="pl-l3d24c3-Qd1e148">De Trinitate :</quote> 
-          <quote xml:id="pl-l3d24c3-Qd1e151">Certa fides utcumque inchoat cognitionem; cognitio vero certa non perficitur nisi post hanc vitam</quote>.</p>
-        <p xml:id="pl-l3d24c3-d1e155">
-          <name ref="#Ambrose">Ambrosius</name> quoque ait: <quote xml:id="pl-l3d24c3-Qd1e160">Ubi fides, non statim cognitio; ubi cognitio , fides praecedit </quote>.</p>
-        <p xml:id="pl-l3d24c3-d1e164">Ex his apparet, aliqua credi, quae non intelliguntur vel sciuntur, nisi prius credantur; quaedam vero intelligi aliquando, etiam antequam credantur.</p>
-        <p xml:id="pl-l3d24c3-d1e167">Nec tamen sic intelliguntur modo, ut in futuro scientur; et nunc etiam per fidem, qua mundantur corda, amplius intelliguntur, quia, nisi per fidem diligatur Deus, non mundatur cor ad eum sciendum.</p>
-        <p xml:id="pl-l3d24c3-d1e170">Unde <name ref="#Augustine">Augustinus</name>: <quote xml:id="pl-l3d24c3-Qd1e175">Quid est Deum scire, nisi eum mente conspicere, firmeque percipere? Sed et priusquam valeamus perspicere et percipere Deum, sicut percipitur a mundis cordibus, nisi per fidem diligatur, non poterit cor mundari , quo ad eum 
-videndum sit aptum </quote>. Ecce hic aperte habes, quia non potest sciri Deus, nisi prius diligendo credatur .</p>
-        <p xml:id="pl-l3d24c3-d1e179">Supra autem dictum est, quod nemo potest credere in Deum, nisi aliquid intelligatur. Unde colligitur, non posse sciri et intelIigi credenda quaedam, nisi prius credantur; et quaedam non credi, nisi prius intelligantur; et ipsa per fidem amplius intelligi; nec ea quae prius creduntur quam intelligantur, penitus ignorantur , cum fides sit ex auditu; ignorantur tamen ex parte, quia  non sciuntur. Creditur ergo quod ignoratur, sed non penitus, sicut etiam amatur quod ignoratur.</p>
-        <p xml:id="pl-l3d24c3-d1e183">Unde <name ref="#Augustine">Augustinus</name>: <quote xml:id="pl-l3d24c3-Qd1e188">Sciri aliquid et non diligi potest, diligi vero quod nescitur, quaero, utrum possit. Si non potest, nemo diligit Deum, antequam sciat </quote>. Ubi autem sunt illa tria: fides, spes, caritas, nisi in animo credente quod nondum scit, et sperante et amante quod credit? Amatur ergo et quod ignoratur, sed tamen creditur.</p>
+        <head xml:id="pl-l3d24c3-Hd1e112" type="question-title">Si aliqua sciuntur, quae
+          creduntur.</head>
+        <p xml:id="pl-l3d24c3-d1e115">Post haec quaeri solet, cum fides sit de non apparentibus et
+          non visis, utrum sil etiam de incognitis tantum: si enim de incognitis tantum est, de his
+          videtur esse tantum quae ignorantur.</p>
+        <p xml:id="pl-l3d24c3-d1e118">Sed sciendum est, quod cum visio alia sit interior, alia
+          exterior, non est fides de subiectis exteriori visioni; est tamen de his quae visu
+          interiori utcumque capiuntur. Et quaedam utique sic capiuntur, ut intelligantur, etsi non
+          ut in futuro; quaedam autem non, quia, cum fides sit <quote xml:id="pl-l3d24c3-Qd1e120">ex
+          auditu,</quote> non modo exteriori sed interiori, non potest esse de eo quod omnino
+          ignoratur; quae ipsa ad sensum corporis non perlinet, ut <name ref="#Augustine"
+          >Augustinus</name> tradit dicens: <quote xml:id="pl-l3d24c3-Qd1e126">Quamvis <quote
+          xml:id="pl-l3d24c3-Qd1e128">ex auditu</quote> fides in nobis sit, non tamen ad eum sensum
+          corporis perlinet, qui dicitur auditus, quia non est sonus; nec ad ullum sensum corporis,
+          quoniam cordis est res ista, non corporis </quote>. Quaedam ergo fide creduntur, quae
+          intelliguntur naturali ratione; quaedam vero, quae non intelliguntur.</p>
+        <p xml:id="pl-l3d24c3-d1e133">Unde Propheta: <quote xml:id="pl-l3d24c3-Qd1e135">Nisi
+          credideris, non intelliges.</quote> Quod <name ref="#Augustine">Augustinus</name> aperte
+          distinguit: <quote xml:id="pl-l3d24c3-Qd1e141">Alia sunt, inquit, quae nisi intelligamus,
+          non credimus; alia, quae nisi credamus, non intelligemus </quote>. Nemo tamen potest
+          credere in Deum, nisi aliquid intelligat, cum fides sit ex auditu praedicationis.</p>
+        <p xml:id="pl-l3d24c3-d1e146">Idem in libro <quote xml:id="pl-l3d24c3-Qd1e148">De Trinitate
+          :</quote> <quote xml:id="pl-l3d24c3-Qd1e151">Certa fides utcumque inchoat cognitionem;
+          cognitio vero certa non perficitur nisi post hanc vitam</quote>.</p>
+        <p xml:id="pl-l3d24c3-d1e155"> <name ref="#Ambrose">Ambrosius</name> quoque ait: <quote
+          xml:id="pl-l3d24c3-Qd1e160">Ubi fides, non statim cognitio; ubi cognitio , fides praecedit
+          </quote>.</p>
+        <p xml:id="pl-l3d24c3-d1e164">Ex his apparet, aliqua credi, quae non intelliguntur vel
+          sciuntur, nisi prius credantur; quaedam vero intelligi aliquando, etiam antequam
+          credantur.</p>
+        <p xml:id="pl-l3d24c3-d1e167">Nec tamen sic intelliguntur modo, ut in futuro scientur; et
+          nunc etiam per fidem, qua mundantur corda, amplius intelliguntur, quia, nisi per fidem
+          diligatur Deus, non mundatur cor ad eum sciendum.</p>
+        <p xml:id="pl-l3d24c3-d1e170">Unde <name ref="#Augustine">Augustinus</name>: <quote
+          xml:id="pl-l3d24c3-Qd1e175">Quid est Deum scire, nisi eum mente conspicere, firmeque
+          percipere? Sed et priusquam valeamus perspicere et percipere Deum, sicut percipitur a
+          mundis cordibus, nisi per fidem diligatur, non poterit cor mundari , quo ad eum videndum
+          sit aptum </quote>. Ecce hic aperte habes, quia non potest sciri Deus, nisi prius
+          diligendo credatur .</p>
+        <p xml:id="pl-l3d24c3-d1e179">Supra autem dictum est, quod nemo potest credere in Deum, nisi
+          aliquid intelligatur. Unde colligitur, non posse sciri et intelIigi credenda quaedam, nisi
+          prius credantur; et quaedam non credi, nisi prius intelligantur; et ipsa per fidem amplius
+          intelligi; nec ea quae prius creduntur quam intelligantur, penitus ignorantur , cum fides
+          sit ex auditu; ignorantur tamen ex parte, quia non sciuntur. Creditur ergo quod ignoratur,
+          sed non penitus, sicut etiam amatur quod ignoratur.</p>
+        <p xml:id="pl-l3d24c3-d1e183">Unde <name ref="#Augustine">Augustinus</name>: <quote
+          xml:id="pl-l3d24c3-Qd1e188">Sciri aliquid et non diligi potest, diligi vero quod nescitur,
+          quaero, utrum possit. Si non potest, nemo diligit Deum, antequam sciat </quote>. Ubi autem
+          sunt illa tria: fides, spes, caritas, nisi in animo credente quod nondum scit, et sperante
+          et amante quod credit? Amatur ergo et quod ignoratur, sed tamen creditur.</p>
       </div>
     </body>
   </text>

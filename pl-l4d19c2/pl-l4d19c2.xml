@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CAP. II</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev"> <title>CAP. II</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority> <ref>SCTA</ref> </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l4d19c2">
+        <head xml:id="pl-l4d19c2-Hd1e109">CAP. II</head>
+        <head xml:id="pl-l4d19c2-Hd1e112" type="question-title">Utrum per indignos transfunditur
+          gratia dignis.</head>
+        <p xml:id="pl-l4d19c2-d1e115">Item quod sacerdos, etiam si malus sit, gratiam tamen
+          transfundat pro suae dignitatis officio, <name ref="#Augustine">Augustinus</name> ostendit
+          dicens <quote xml:id="pl-l4d19c2-Qd1e120">: </quote> <quote xml:id="pl-l4d19c2-Qd1e123">
+          Dictum est a Domino in Numeris ad Moysen et Aaron sacerdotes : <quote
+          xml:id="pl-l4d19c2-Qd1e125">Vos ponite nomen meum super filios Israel, ego Dominus
+          benedicam eos ,</quote> ut gratiam traditio per ministerium ordinati transfundat
+          hominibus, nec voluntas sacerdotis obesse vel prodesse possit, sed meritum benedictionem
+          poscentis. Quanta autem dignitas sit sacerdotalis officii et ordinis , hinc advertamus.
+          Dictum est de nequissimo Caipha inter cetera: <quote xml:id="pl-l4d19c2-Qd1e128">Hoc autem
+          </quote>a <quote xml:id="pl-l4d19c2-Qd1e131">semetipso non dixit, sed cum esset pontifex
+          anni illius, prophetavit;</quote> per quod ostenditur, Spiritum gratiarum non personam
+          sequi digni vel indigni, sed ordinem traditionis; ut, quamvis aliquis boni meriti sit, non
+          tamen possit benedicere, nisi fuerit ordinatus, ut officii ministerium exhibeat. Dei autem
+          est effectum [tribuere benedictionis </quote>.</p>
+        <p xml:id="pl-l4d19c2-d1e136">Hinc evidenter ostenditur ordo non privari potestate tribuendi
+          gratiam ob ministri indignitatem.</p>
+        <p xml:id="pl-l4d19c2-d1e139">Huic tamen Augustini sententiae videtur obviare quod [ait
+          Hesychius: <quote xml:id="pl-l4d19c2-Qd1e141">Sacerdotes, inquit, non propria virtute
+          benedicunt, sed quia figuram Christi gerunt, et propter eum, qui in [ipsis est,
+          benedictionis plenitudinem tribuunt; nec solum is qui [sacerdotium sortitus est, sed
+          quicumque Christum in se ipso habet [et eius figuram gerit per conversationem bonam ,
+          sicut Moyses, [idoneus est ut benedictionem praestet</quote>.</p>
+        <p xml:id="pl-l4d19c2-d1e146">Ecce hic habes, quod non solum sacerdos, sed omnis in quo.
+          Christus habitat, benedictionem praestat.</p>
+        <p xml:id="pl-l4d19c2-d1e149">Sed alia est benedictio, quae solis congruit sacerdotibus,
+          alia quae ab omnibus bonis communiter exhibetur. Denique illi sa cerdotes, in quibus
+          Christus habitat, benedictionis plenitudinem tribuere dicuntur, non quia soli illi
+          transfundant gratiam, sed quia illi soli licite et digne id agunt. Nec subditos sacerdotis
+          vita mala laedit, si bona faciunt quae ille dicit.</p>
+        <p xml:id="pl-l4d19c2-d1e152">Unde <name ref="GregoryGreat">Gregorius</name>: <quote
+          xml:id="pl-l4d19c2-Qd1e157">Multi, dum plus vitam sacerdotum quam suam discutiunt, in
+          erroris foveam dilabuntur, minus considerantes, quod non eos vita sacerdotum laederet, si
+          humiliter bonis sacerdotum admonitionibus aurem accommodarent </quote>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

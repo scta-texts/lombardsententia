@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -14,18 +15,14 @@
         </respStmt>
       </titleStmt>
       <editionStmt>
-        <edition n="0.0.0-dev">
-          <title>CAP. VI</title>
-          <date when="2017-10-21">October 21, 2017</date>
-        </edition>
+        <edition n="0.0.0-dev"> <title>CAP. VI</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
       </editionStmt>
       <publicationStmt>
-        <authority>
-          <ref>SCTA</ref>
-        </authority>
+        <authority> <ref>SCTA</ref> </authority>
         <availability status="free">
-          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
-          </p>
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -35,7 +32,8 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -43,8 +41,7 @@
     </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2017-10-21" status="draft" n="0.0.0">
-          <p>Created file for the first time.</p>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
         </change>
       </listChange>
     </revisionDesc>
@@ -56,12 +53,28 @@
     <body>
       <div xml:id="pl-l4d50c6">
         <head xml:id="pl-l4d50c6-Hd1e109">CAP. VI</head>
-        <head xml:id="pl-l4d50c6-Hd1e112" type="question-title">De chaos inter bonos et malos.</head>
-        <p xml:id="pl-l4d50c6-d1e115">Sed cum Sancti malos in tormentis videant, nonne aliqua compassione erga eos moventur? Nonne eos de tormentis liberari cupiunt ?</p>
-        <p xml:id="pl-l4d50c6-d1e118">Recole illud Evangelicum, quod <name ref="#Abraham">Abraham</name> diviti respondit: <quote xml:id="pl-l4d50c6-Qd1e123">Inter nos et vos chaos magnum firmatum est, ut hi qui volunt hinc ad vos transire, non possint, neque inde huc transmeare.</quote> Quid est illud chaos inter bonos et malos, nisi hinc iustitia, inde iniquitas, quae nullatenus sociari valent? Adeo enim Sancti Dei iustitiae addicti sunt, ut nulla compassione ad reprobos transire valeant, nulla pro eis inter Sanctos fiat intercessio.</p>
-        <p xml:id="pl-l4d50c6-d1e127">Quomodo ergo inde aliqui volunt transire ad illos, sed non possunt ?</p>
-        <p xml:id="pl-l4d50c6-d1e131">Quia, si iustitia Dei admitteret, non fieret eis molesta liberatio eorum. Vel ita dicuntur velle et non posse, non quia velint et non possint, sed quia, etsi vellent, non possent eos iuvare.</p>
-        <p xml:id="pl-l4d50c6-d1e134">De hoc ita <name ref="#GregoryGreat">Gregorius</name> ait: <quote xml:id="pl-l4d50c6-Qd1e139">Sicut reprobi a poenis ad gloriam Sanctorum transire volunt et non possunt, ita iusti per misericordiam mente ire volunt ad positos in tormentis, ut eos liberent; sed non possunt, quia i ustorum animae, etsi in naturae suae bonitate misericordiam habent, iam tunc auctoris sui iustitiae coniunctae, tanta rectitudine constringuntur, ut nulla ad reprobos compassione moveantur </quote>.</p>
+        <head xml:id="pl-l4d50c6-Hd1e112" type="question-title">De chaos inter bonos et
+          malos.</head>
+        <p xml:id="pl-l4d50c6-d1e115">Sed cum Sancti malos in tormentis videant, nonne aliqua
+          compassione erga eos moventur? Nonne eos de tormentis liberari cupiunt ?</p>
+        <p xml:id="pl-l4d50c6-d1e118">Recole illud Evangelicum, quod <name ref="#Abraham"
+          >Abraham</name> diviti respondit: <quote xml:id="pl-l4d50c6-Qd1e123">Inter nos et vos
+          chaos magnum firmatum est, ut hi qui volunt hinc ad vos transire, non possint, neque inde
+          huc transmeare.</quote> Quid est illud chaos inter bonos et malos, nisi hinc iustitia,
+          inde iniquitas, quae nullatenus sociari valent? Adeo enim Sancti Dei iustitiae addicti
+          sunt, ut nulla compassione ad reprobos transire valeant, nulla pro eis inter Sanctos fiat
+          intercessio.</p>
+        <p xml:id="pl-l4d50c6-d1e127">Quomodo ergo inde aliqui volunt transire ad illos, sed non
+          possunt ?</p>
+        <p xml:id="pl-l4d50c6-d1e131">Quia, si iustitia Dei admitteret, non fieret eis molesta
+          liberatio eorum. Vel ita dicuntur velle et non posse, non quia velint et non possint, sed
+          quia, etsi vellent, non possent eos iuvare.</p>
+        <p xml:id="pl-l4d50c6-d1e134">De hoc ita <name ref="#GregoryGreat">Gregorius</name> ait:
+          <quote xml:id="pl-l4d50c6-Qd1e139">Sicut reprobi a poenis ad gloriam Sanctorum transire
+          volunt et non possunt, ita iusti per misericordiam mente ire volunt ad positos in
+          tormentis, ut eos liberent; sed non possunt, quia i ustorum animae, etsi in naturae suae
+          bonitate misericordiam habent, iam tunc auctoris sui iustitiae coniunctae, tanta
+          rectitudine constringuntur, ut nulla ad reprobos compassione moveantur </quote>.</p>
       </div>
     </body>
   </text>

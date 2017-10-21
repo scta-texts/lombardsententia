@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -14,18 +15,14 @@
         </respStmt>
       </titleStmt>
       <editionStmt>
-        <edition n="0.0.0-dev">
-          <title>CAP. I.</title>
-          <date when="2017-10-21">October 21, 2017</date>
-        </edition>
+        <edition n="0.0.0-dev"> <title>CAP. I.</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
       </editionStmt>
       <publicationStmt>
-        <authority>
-          <ref>SCTA</ref>
-        </authority>
+        <authority> <ref>SCTA</ref> </authority>
         <availability status="free">
-          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
-          </p>
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -35,7 +32,8 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -43,8 +41,7 @@
     </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2017-10-21" status="draft" n="0.0.0">
-          <p>Created file for the first time.</p>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
         </change>
       </listChange>
     </revisionDesc>
@@ -56,17 +53,37 @@
     <body>
       <div xml:id="pl-l3d22c1">
         <head xml:id="pl-l3d22c1-Hd1e109">CAP. I.</head>
-        <head xml:id="pl-l3d22c1-Hd1e112" type="question-title">Si Christus in morte fuit homo.</head>
-        <p xml:id="pl-l3d22c1-d1e115">Hic quaeritur, utrum in illo triduo mortis, Christus fuerit homo.</p>
-        <p xml:id="pl-l3d22c1-d1e118">Quod non videtur quibusdam, quia mortuus erat, et homo mortuus non est homo.</p>
-        <p xml:id="pl-l3d22c1-d1e121">Addunt etiam: Si tunc erat homo: vel mortalis, vel immortalis; sed mortalis non, quia mortuus; nec immortalis, quia tantum post resurrectionem .</p>
-        <p xml:id="pl-l3d22c1-d1e125">Quibus respondemus, quia, licet homo mortuus fuerit, erat tamen in morte Deus-homo, nec mortalis quidem, nec immortalis, et tamen vere erat homo. Illae enim et huiusmodi argutiae in creaturis locum habent, sed fidei sacramentum a philosophicis argumentis est liberum.</p>
-        <p xml:id="pl-l3d22c1-d1e128">Unde <name ref="#Ambrose">Ambrosius</name> : <quote xml:id="pl-l3d22c1-Qd1e133">Aufer argumenta, ubi fides quaeritur. In ipsis gymnasiis suis iam dialectica taceat; piscatoribus creditur, non dialecticis</quote>.</p>
-        <p xml:id="pl-l3d22c1-d1e137">Dicimus ergo, in morte Christi Deum vere fuisse hominem, et tamen mortuum; et hominem quidem nec mortalem nec immortalem, quia unitus erat animae et carni seiunctis. Alia enim ratione dicitur Deus homo, vel homo Deus, quam Martinus vel Ioannes: homo enim dicitur Deus et e converso, propter susceptionem hominis, id est animae et carnis.</p>
-        <p xml:id="pl-l3d22c1-d1e140">Unde <name ref="#Augustine">Augustinus</name>: <quote xml:id="pl-l3d22c1-Qd1e145">Talis erat illa susceptio, quae Deum hominem faceret, et hominem Deum </quote>.</p>
-        <p xml:id="pl-l3d22c1-d1e149">Cum ergo illa susceptio per mortem non defecerit, sed Deus homini et homo Deo, sicut ante, unitus erat vere; et tunc Deus erat homo et e converso, quia unitus animae et carni; et homo mortuus erat, quia anima a carne divisa erat. Propter separationem 
-  animae a carne mortuus, sed propter utriusque secuin unionem, homo. Non autem sic erat homo, ut ex anima et carne simul iunclis subsisteret, ex qua ratione dicitur aliquis alius homo. Et ipse forte ante mortem hoc etiam modo erat homo, et post resurrectionem fuit; in morte vero homo erat lanium propter animae et carnis 
-secum unionem, et mortuus propter inter illa duo divisionem.</p>
+        <head xml:id="pl-l3d22c1-Hd1e112" type="question-title">Si Christus in morte fuit
+          homo.</head>
+        <p xml:id="pl-l3d22c1-d1e115">Hic quaeritur, utrum in illo triduo mortis, Christus fuerit
+          homo.</p>
+        <p xml:id="pl-l3d22c1-d1e118">Quod non videtur quibusdam, quia mortuus erat, et homo mortuus
+          non est homo.</p>
+        <p xml:id="pl-l3d22c1-d1e121">Addunt etiam: Si tunc erat homo: vel mortalis, vel immortalis;
+          sed mortalis non, quia mortuus; nec immortalis, quia tantum post resurrectionem .</p>
+        <p xml:id="pl-l3d22c1-d1e125">Quibus respondemus, quia, licet homo mortuus fuerit, erat
+          tamen in morte Deus-homo, nec mortalis quidem, nec immortalis, et tamen vere erat homo.
+          Illae enim et huiusmodi argutiae in creaturis locum habent, sed fidei sacramentum a
+          philosophicis argumentis est liberum.</p>
+        <p xml:id="pl-l3d22c1-d1e128">Unde <name ref="#Ambrose">Ambrosius</name> : <quote
+          xml:id="pl-l3d22c1-Qd1e133">Aufer argumenta, ubi fides quaeritur. In ipsis gymnasiis suis
+          iam dialectica taceat; piscatoribus creditur, non dialecticis</quote>.</p>
+        <p xml:id="pl-l3d22c1-d1e137">Dicimus ergo, in morte Christi Deum vere fuisse hominem, et
+          tamen mortuum; et hominem quidem nec mortalem nec immortalem, quia unitus erat animae et
+          carni seiunctis. Alia enim ratione dicitur Deus homo, vel homo Deus, quam Martinus vel
+          Ioannes: homo enim dicitur Deus et e converso, propter susceptionem hominis, id est animae
+          et carnis.</p>
+        <p xml:id="pl-l3d22c1-d1e140">Unde <name ref="#Augustine">Augustinus</name>: <quote
+          xml:id="pl-l3d22c1-Qd1e145">Talis erat illa susceptio, quae Deum hominem faceret, et
+          hominem Deum </quote>.</p>
+        <p xml:id="pl-l3d22c1-d1e149">Cum ergo illa susceptio per mortem non defecerit, sed Deus
+          homini et homo Deo, sicut ante, unitus erat vere; et tunc Deus erat homo et e converso,
+          quia unitus animae et carni; et homo mortuus erat, quia anima a carne divisa erat. Propter
+          separationem animae a carne mortuus, sed propter utriusque secuin unionem, homo. Non autem
+          sic erat homo, ut ex anima et carne simul iunclis subsisteret, ex qua ratione dicitur
+          aliquis alius homo. Et ipse forte ante mortem hoc etiam modo erat homo, et post
+          resurrectionem fuit; in morte vero homo erat lanium propter animae et carnis secum
+          unionem, et mortuus propter inter illa duo divisionem.</p>
       </div>
     </body>
   </text>

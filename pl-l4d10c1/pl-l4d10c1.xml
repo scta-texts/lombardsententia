@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CAP. I</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev"> <title>CAP. I</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority> <ref>SCTA</ref> </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l4d10c1">
+        <head xml:id="pl-l4d10c1-Hd1e109">CAP. I</head>
+        <head xml:id="pl-l4d10c1-Hd1e112" type="question-title">De haeresi illorum qui dicunt,
+          corpus Christi non esse in altari nisi in signo.</head>
+        <p xml:id="pl-l4d10c1-d1e115">Sunt item alii, praecedentium insaniam transcendentes, qui Dei
+          virtutem iuxta modum naturalium rerum metientes, audacius ac periculosius veritati
+          contradicunt, asserentes, in altari non esse corpus Christi vel sanguinem, nec substantiam
+          panis vel vini in substantiam carnis et sanguinis converti; sed ita Christum dixisse : Hoc
+          est corpus meum, sicut <name ref="Paul">Apostolus</name> dixit: Petra erat Christus.
+          Dicunt enim, ibi esse corpus Christi tantum in Sacramento, id est in signo, et tantum in
+          signo manducari a nobis.</p>
+        <p xml:id="pl-l4d10c1-d1e121">Qui errandi occasionem sumunt a verbis Veritatis, unde <quote
+          xml:id="pl-l4d10c1-Qd1e123"> prima haeresis facta est in discipulis Christi. Cum enim
+          diceret : Nisi quis manducaverit carnem meam et biberit sanguinem meum, non habebit vitam
+          aeternam, illi non intelligentes dixerunt: Durus est hic sermo; quis potest eum audire? et
+          abierunt retro. Iliis discedentibus, instruxit duodecim qui remanserant: Spiritus est,
+          inquit, qui vivificat; caro nihil prodest. Verba quae locutus sum vobis, spiritus et vita
+          sunt. Intellixisti spiritualiter? Spiritus et vita sunt. Intellixisti carnaliter? Etiam
+          sic spiritus et vita sunt, sed tibi non sunt. Spiritualiter intelligite quae locutus sum.
+          Non hoc corpus, quod videtis, manducaturi estis et bibituri illum sanguinem, quem fusuri
+          sunt qui me crucifigent. Sacramentum aliquod vobis commendavi; spiritualiter intellectum
+          vivificabit vos; caro autem non prodest quidquam </quote>.</p>
+        <p xml:id="pl-l4d10c1-d1e127">Sunt etiam et alia illorum insaniae fomitem ministrantia.</p>
+        <p xml:id="pl-l4d10c1-d1e131">Ait enim <name ref="#Augustine">Augustinus</name>: <quote
+          xml:id="pl-l4d10c1-Qd1e136">Donec saeculum finiatur, sursum est Dominus; sed tamen etiam
+          hic nobiscum est Veritas, Dominus. Corpus enim iri quo resurrexit, uno loco esse oportet;
+          veritas autem eius ubique diffusa est</quote>.</p>
+        <p xml:id="pl-l4d10c1-d1e140">Item: <quote xml:id="pl-l4d10c1-Qd1e142"> Una persona est Deus
+          et homo, ubique per id quod Deus est, in caelo per id quod homo est </quote>.</p>
+        <p xml:id="pl-l4d10c1-d1e146">Christus etiam dicit: Pauperes semper vobiscum habebitis, me
+          autem non semper habebitis .</p>
+        <p xml:id="pl-l4d10c1-d1e149">His aliisque utuntur praefati haeretici in assertionem sui
+          erroris.</p>
+        <p xml:id="pl-l4d10c1-d1e152">Quae ex eadem ratione omnia accipienda sunt. Non enim his
+          negatur, verum corpus Christi a fidelibus sumi vel in altari esse; sed his Veritas
+          Apostolos et in eis nos instruxit, quod ipsius corpus non per paries discerptum, ut
+          putaverunt illi discipuli, qui retro ierunt, sed integrum; nec visibiliter in forma
+          humana, sed invisibiliter, sub forma panis et vini, corpus et sanguinem nobis
+          traderet.</p>
+        <p xml:id="pl-l4d10c1-d1e155">Quem sensum <name ref="#Augustine">Augustinus</name> confirmat
+          dicens: <quote xml:id="pl-l4d10c1-Qd1e160">Ipsum quidem et non ipsum corpus, quod
+          videbatur, manducatur; ipsum invisibiliter; non ipsum visibiliter </quote>.</p>
+        <p xml:id="pl-l4d10c1-d1e165">Item: <quote xml:id="pl-l4d10c1-Qd1e167">Etsi necesse est,
+          illud visibiliter celebrari, necesse est tamen, invisibiliter intelligi </quote>.</p>
+        <p xml:id="pl-l4d10c1-d1e171">Ita etiam intelligendum est, corpus Christi esse in uno loco,
+          scilicet visibiliter in forma humana; veritas tamen eius, id est divinitas, ubique est,
+          veritas etiam eius, id est verum corpus, in omni altari est, ubicumque celebratur.</p>
+        <p xml:id="pl-l4d10c1-d1e174">Sic etiam illud intelligendum est: Pauperes semper habebitis
+          vobiscum me autem, non semper habebitis, secundum corporalem praesentiam scilicet, qua cum
+          eis conversabatur.</p>
+        <p xml:id="pl-l4d10c1-d1e177">Similiter per id quod homo est, in caelo est, visibiliter
+          scilicet; invisibiliter autem esi in altari, quia non in forma humana apparet, sed forma
+          panis et vini operitur: unde et invisibilis caro eius dicitur, quae vere est in altari;
+          sed quia non in sua specie apparet, invisibilis dicitur.</p>
+        <p xml:id="pl-l4d10c1-d1e180">Ait enim <name ref="#Augustine">Augustinus</name>: <quote
+          xml:id="pl-l4d10c1-Qd1e185">Hoc est quod dicimus, quod modis omnibus approbare
+          contendimus: sacrificium Ecclesiae duobus confici, duobus constare, visibili elementorum
+          specie et invisibili Domini nostri lesu Christi carne et sanguine, Sacramento et re
+          Sacramenti, id est corpore Christi, sicut Christi persona constat et conficitur ex Deo et
+          homine, cum Christus sit verus Deus et homo; quia omnis res illarum rerum naturam et
+          veritatem in se continet, ex quibus conficitur. Conficitur autem sacrificium Ecclesiae
+          duobus: Sacramento et re Sacramenti, id est corpore Christi. Est igitur Sacramentum et res
+          Sacramenti, idem corpus Christi</quote>.</p>
+        <p xml:id="pl-l4d10c1-d1e189">Ecce invisibilem dixit carnem Christi, quia forma panis operta
+          sumitur et tractatur; idemque corpus dixit esse Sacramentum et rem; ex quo confirmatur
+          quod supra diximus.</p>
+        <p xml:id="pl-l4d10c1-d1e193">Deinde addit quod magis lectorem movet: <quote
+          xml:id="pl-l4d10c1-Qd1e195">Caro, inquit, eius est, quam forma panis opertam in Sacramento
+          accipimus; et sanguis eius, quem sub vini specie ac sapore potamus. Caro videlicet carnis,
+          et sanguis Sacramentum est sanguinis; carne et sanguine, utroque invisibili,
+          intelligibili, spirituali, significatur corpus Christi visibile et palpabile, plenum
+          gratia et divina Maiestate </quote>.</p>
+        <p xml:id="pl-l4d10c1-d1e199">Attende his diligenter, quia tropo quodam utitur hic <name
+          ref="#Augustine">Augustinus</name>, quo solent res significantes rerum sortiri vocabula,
+          quas significant. Hic enim visibilis specie panis vocatur nomine carnis, et visibilis
+          species vini, nomine sanguinis. Invisibilis vero et inlelligibilis dicitur caro Christi,
+          quia secundum illam speciem non videtur caro, sed intelligitur; ita et sanguis. Caro ergo
+          invisibilis dicitur esse Sacramentum carnis visibilis, quia species panis, secundum quam
+          illa non videtur caro, est Sacramentum carnis visibilis, quia carne invisibili, id est
+          specie, secundum quam caro Christi non videtur caro, significatur corpus Christi, quod est
+          visibile et palpabile, ubi in forma sua apparet. Ita et de sanguine accipi debet.</p>
+        <p xml:id="pl-l4d10c1-d1e205">Quem sensum confirmat <name ref="#Augustine"
+          >Augustinus</name>, aperiens qualiter praedicta intelligenda sint (quia obscuro dixerat),
+          consequenter dicens, ita panem vocari corpus Christi, cum vere sil Sacramentum corporis
+          Christi, quod in cruce positum est; sicut ipsa immolatio,</p>
+        <p xml:id="pl-l4d10c1-d1e211">quae fit manibus sacerdotis, vocatur Christi passio, non rei
+          veritate, sed significanti mysterio, et sicut <quote xml:id="pl-l4d10c1-Qd1e213">
+          Sacramentum fidei dicitur fides</quote>.</p>
+        <p xml:id="pl-l4d10c1-d1e217">Satis responsum est haereticis obiectionibus eorum qui negant,
+          verum corpus Christi in altari esse, et panem in corpus, vel vinum in sanguinem mystica
+          consecratione converti, dicentes: Quis audeat manducare Dominum suum? Quis etiam audeat
+          dicere, quotidie formari corpus Christi de materia vel substantia, quae non fuit caro
+          Virginis?</p>
+      </div>
+    </body>
+  </text>
+</TEI>

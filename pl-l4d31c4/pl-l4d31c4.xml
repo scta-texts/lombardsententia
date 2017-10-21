@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -14,18 +15,14 @@
         </respStmt>
       </titleStmt>
       <editionStmt>
-        <edition n="0.0.0-dev">
-          <title>CAP. IV</title>
-          <date when="2017-10-21">October 21, 2017</date>
-        </edition>
+        <edition n="0.0.0-dev"> <title>CAP. IV</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
       </editionStmt>
       <publicationStmt>
-        <authority>
-          <ref>SCTA</ref>
-        </authority>
+        <authority> <ref>SCTA</ref> </authority>
         <availability status="free">
-          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
-          </p>
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -35,7 +32,8 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -43,8 +41,7 @@
     </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2017-10-21" status="draft" n="0.0.0">
-          <p>Created file for the first time.</p>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
         </change>
       </listChange>
     </revisionDesc>
@@ -56,13 +53,26 @@
     <body>
       <div xml:id="pl-l4d31c4">
         <head xml:id="pl-l4d31c4-Hd1e109">CAP. IV</head>
-        <head xml:id="pl-l4d31c4-Hd1e112" type="question-title">Quando sint homicidae qui procurant abortum.</head>
-        <p xml:id="pl-l4d31c4-d1e115">Hic quaeri solet de his qui abortum procurant, quando judicentur homicidae, vel non.</p>
-        <p xml:id="pl-l4d31c4-d1e118">Tunc puerperium ad homicidium perlinet, quando formatum est et animam habet, ut <name ref="#Augustine">Augustinus</name> 
-          <title>Super Exodum</title> asserit : <quote xml:id="pl-l4d31c4-Qd1e126"> Informe autem puerperium, ubi non est anima viva, lex ad homicidium pertinere noluit</quote>.</p>
-        <p xml:id="pl-l4d31c4-d1e130">Dici etiam <name ref="#Augustine">Augustinus</name>, quod <quote xml:id="pl-l4d31c4-Qd1e135"> informe puerperium animam non habet, ideoque multatur pecunia, non redditur anima pro anima; sed iam formato corpori anima datur, non in conceptu corporis nascitur cum semine derivata. Nam si cum semine et anima existit de anima, tunc et multae animae quotidie pereunt, cum semen fluxu non proficit nativitati. Primum oportet, domum compaginari et sic habitatorem induci; cum ergo lineamenta compacta non fuerint, ubi erit anima</quote>?</p>
-        <p xml:id="pl-l4d31c4-d1e140">Item <name ref="#Jerome">Hieronymus</name>: <quote xml:id="pl-l4d31c4-Qd1e145">Semina paulatim formantur in utero, et tamdiu non reputatur homicidium, donec elementa confecta suas imagines membraque suscipiant</quote>.</p>
-        <p xml:id="pl-l4d31c4-d1e149">Ex his apparet, tunc homicidas esse qui abortum procurant, cum formatum est et animatum puerperium.</p>
+        <head xml:id="pl-l4d31c4-Hd1e112" type="question-title">Quando sint homicidae qui procurant
+          abortum.</head>
+        <p xml:id="pl-l4d31c4-d1e115">Hic quaeri solet de his qui abortum procurant, quando
+          judicentur homicidae, vel non.</p>
+        <p xml:id="pl-l4d31c4-d1e118">Tunc puerperium ad homicidium perlinet, quando formatum est et
+          animam habet, ut <name ref="#Augustine">Augustinus</name> <title>Super Exodum</title>
+          asserit : <quote xml:id="pl-l4d31c4-Qd1e126"> Informe autem puerperium, ubi non est anima
+          viva, lex ad homicidium pertinere noluit</quote>.</p>
+        <p xml:id="pl-l4d31c4-d1e130">Dici etiam <name ref="#Augustine">Augustinus</name>, quod
+          <quote xml:id="pl-l4d31c4-Qd1e135"> informe puerperium animam non habet, ideoque multatur
+          pecunia, non redditur anima pro anima; sed iam formato corpori anima datur, non in
+          conceptu corporis nascitur cum semine derivata. Nam si cum semine et anima existit de
+          anima, tunc et multae animae quotidie pereunt, cum semen fluxu non proficit nativitati.
+          Primum oportet, domum compaginari et sic habitatorem induci; cum ergo lineamenta compacta
+          non fuerint, ubi erit anima</quote>?</p>
+        <p xml:id="pl-l4d31c4-d1e140">Item <name ref="#Jerome">Hieronymus</name>: <quote
+          xml:id="pl-l4d31c4-Qd1e145">Semina paulatim formantur in utero, et tamdiu non reputatur
+          homicidium, donec elementa confecta suas imagines membraque suscipiant</quote>.</p>
+        <p xml:id="pl-l4d31c4-d1e149">Ex his apparet, tunc homicidas esse qui abortum procurant, cum
+          formatum est et animatum puerperium.</p>
       </div>
     </body>
   </text>

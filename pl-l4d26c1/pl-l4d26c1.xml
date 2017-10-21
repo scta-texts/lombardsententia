@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CAP. I</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev"> <title>CAP. I</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority> <ref>SCTA</ref> </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l4d26c1">
+        <head xml:id="pl-l4d26c1-Hd1e109">CAP. I</head>
+        <head xml:id="pl-l4d26c1-Hd1e112" type="question-title">De Sacramento coniugii. De
+          institutione eius et causa.</head>
+        <p xml:id="pl-l4d26c1-d1e115"> <quote xml:id="pl-l4d26c1-Qd1e117"> Cum alia Sacramenta post
+          peccatum et propter peccatum exordium sumserint, matrimonii Sacramentum etiam ante
+          peccatum legitur institutum a Domino, non tamen ad remedium, sed ad officium </quote>.</p>
+        <p xml:id="pl-l4d26c1-d1e121">Refert enim Scriptura Genesis, in Adam misso sopore, atque una
+          de costis eius sumta, et exinde muliere formata, virum in spiritu intelligentem, ad quem
+          usum mulier facta esset, post ecstasim prophetice dixisse: <quote
+          xml:id="pl-l4d26c1-Qd1e123">Hoc nunc os ex ossibus meis et caro de carne mea; propter hoc
+          relinquet homo patrem et matrem et adhaerebit uxori suae, et erunt duo in carne
+          una.</quote> </p>
+      </div>
+    </body>
+  </text>
+</TEI>

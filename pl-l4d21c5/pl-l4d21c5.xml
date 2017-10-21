@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CAP. V</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev"> <title>CAP. V</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority> <ref>SCTA</ref> </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l4d21c5">
+        <head xml:id="pl-l4d21c5-Hd1e109">CAP. V</head>
+        <p xml:id="pl-l4d21c5-d1e112">[Cap. V]. Haec enim aedificat qui sic illa tria facit, ut
+          cogitet quae Dei sunt, quomodo placeat Deo. <quote xml:id="pl-l4d21c5-Qd1e114"> <quote
+          xml:id="pl-l4d21c5-Qd1e116">Lignum</quote> vero et <quote xml:id="pl-l4d21c5-Qd1e119"
+          >foenum </quote>et <quote xml:id="pl-l4d21c5-Qd1e122">stipula</quote> accipi possunt
+          saecularium rerum, quamvis licite concessarum, tales cupiditates, ut amitti sine animi
+          dolore non possint</quote>. Haec ergo aedificat is qui cogitat quae mundi sunt, quomodo
+          placeat mundo, <quote xml:id="pl-l4d21c5-Qd1e126">qui circa divitias suas quodam carnali
+          tenetur affectu, et tamen ex eis multas eleemosynas facit, nec pro eis aliquid fraudis vel
+          rapinae molitur </quote>.</p>
+        <p xml:id="pl-l4d21c5-d1e130">Ex his igitur patet, quod non idem homo simul haec et illa
+          aedificat. Illa enim aedificatio perfectorum tantum est, qui non cogitant placere mundo,
+          sed tantum Deo; qui etsi venialiter aliquando peccant, fervore caritatis ita absumitur in
+          eis peccatum , sicut gutta aquae in camino ignis; et ideo nunquam secum portant
+          cremabilia. Haec autem inferior aedificatio minorum est, qui non tantum Deo, sed et mundo
+          placere cogitant, Deum tamen praeponunt. Si vero mundum praeponerent, non
+          superaedificarent, sed destruerent fundamentum .</p>
+        <p xml:id="pl-l4d21c5-d1e133">Affectiones igitur carnales, quibus dediti sunt, domibus,
+          coniugibus, possessionibus, ita ut nihil praeponatur Christo, illis tribus significantur;
+          quae in mentes perfectorum non cadunt, etsi alia venialia admittant; in cordibus vero
+          minorum interdum durant usque in finem, qui cum talibus aedificiis transeunt, sed
+          dissolventur in igne; ipsi vero merito fundamenti salvi erunt, gravissimam tamen sentient
+          poenam. Ex quo apparet, quantam hic misericordiam exhibet Deus, et quantam ibi, exerceat
+          severitatem ,cum pro eodem peccato multo gravius ibi puniat quam hic.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

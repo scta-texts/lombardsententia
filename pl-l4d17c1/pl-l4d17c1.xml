@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CAP. I</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev"> <title>CAP. I</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority> <ref>SCTA</ref> </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l4d17c1">
+        <head xml:id="pl-l4d17c1-Hd1e109">CAP. I</head>
+        <head xml:id="pl-l4d17c1-Hd1e112" type="question-title">Utrum sine confessione dimittantur
+          peccata.</head>
+        <p xml:id="pl-l4d17c1-d1e115">Hic oritur quaestio multiplex. Primo enim quaeritur, utrum
+          absque satisfactione et oris confessione, per solam cordis contritionem, peccatum alicui
+          dimittatur. Secundo, an aliquando sufficiat confiteri Deo sine sacerdote. Tertio, an laico
+          fideli facta valeat confessio.</p>
+        <p xml:id="pl-l4d17c1-d1e118">In his enim etiam docti diversa sentire inveniuntur, quia
+          super his varia ac pene adversa tradidisse videntur doctores.</p>
+        <p xml:id="pl-l4d17c1-d1e121">Dicunt enim quidam, sine confessione oris et satisfactione
+          operis, neminem a peccato mundari, si tempus illa faciendi habuerit.</p>
+        <p xml:id="pl-l4d17c1-d1e125">Alii vero ante oris confessionem et satisfactionem, in cordis
+          contritione, peccatum dimitti a Deo, si tamen votum confitendi habeat.</p>
+        <p xml:id="pl-l4d17c1-d1e128">Unde Propheta: <quote xml:id="pl-l4d17c1-Qd1e130">Dixi,
+          confitebor adversum me iniustitiam meam Domino, et tu remisisti,</quote> etc. Quod
+          exponens <name ref="Cassiodorus">Cassiodorus</name> ait: <quote
+          xml:id="pl-l4d17c1-Qd1e136"> <quote xml:id="pl-l4d17c1-Qd1e138">Dixi,</quote> id est
+          deliberavi apud me, quod<quote xml:id="pl-l4d17c1-Qd1e141"> confitebor, et tu
+          remisisti.</quote> Magna pietas Dei, quod ad solam promissionem peccatum dimiserit: votum
+          enim pro operatione iudicatur </quote>.</p>
+        <p xml:id="pl-l4d17c1-d1e146">Item <name ref="#Augustine">Augustinus</name>: <quote
+          xml:id="pl-l4d17c1-Qd1e151">Nondum pronuntiat; promittit se pronuntiaturum, et Deus
+          dimittit, quia hoc ipsum dicere, quoddam pronuntiare est corde: nondum est vox in ore, ut
+          homo audiat confessionem, et Deus audit </quote>.</p>
+        <p xml:id="pl-l4d17c1-d1e155">Item: <quote xml:id="pl-l4d17c1-Qd1e157">Sacrificium Deo
+          spiritus contribulatus</quote>, etc. Alibi etiam legitur: <quote
+          xml:id="pl-l4d17c1-Qd1e160">Quacumque hora peccator conversus fuerit et ingemuerit, vita
+          vivet et non morietur;</quote> non dicitur: ore confessus fuerit, sed <quote
+          xml:id="pl-l4d17c1-Qd1e163">conversus ingemuerit.</quote> <quote
+          xml:id="pl-l4d17c1-Qd1e166"> Unde datur intelligi, quod etiam ore tacente, veniam interdum
+          consequimur. Hinc etiam leprosi illi, quibus Dominus praecepit ut ostenderent se
+          sacerdotibus, in itinere, antequam ad sacerdotes venirent, mundati sunt. Ex quo
+          insinuatur, quod antequam sacerdotibus ora nostra aperiamus, id est peccata confiteamur, a
+          lepra peccati mundamur. Lazarus etiam non prius de monumento est adductus et post a Domino
+          suscitatus, sed intus suscitatus, prodiit foras vivus; ut ostendatur suscitatio animae
+          praecedere confessionem: nemo enim potest confiteri nisi suscitatus, quia <quote
+          xml:id="pl-l4d17c1-Qd1e168">a mortuo,</quote> velut qui non est, <quote
+          xml:id="pl-l4d17c1-Qd1e171">perit confessio</quote>. Nullus ergo confitetur nisi
+          resuscitatus; nemo vero resuscitatur, nisi qui a peccato solvitur; quia peccatum mors
+          animae est, quae ut est vita corporis, ita eius vita Deus est </quote>.</p>
+        <p xml:id="pl-l4d17c1-d1e176">His aliisque pluribus probatur, ante confessionem vel
+          satisfactionem, sola compunctione peccatum dimitti.</p>
+        <p xml:id="pl-l4d17c1-d1e179">Quod qui negant eas determinare laborant, nec non in huius
+          sententiae depressionem et suae opinionis assertionem, auctorum testimonia inducunt.</p>
+        <p xml:id="pl-l4d17c1-d1e183">Ait enim Dominus per Isaiam: <quote
+          xml:id="pl-l4d17c1-Qd1e185">Dic tu iniquitates tuas, ut iustificeris.</quote> </p>
+        <p xml:id="pl-l4d17c1-d1e189">Item <name ref="#Ambrose">Ambrosius</name>: <quote
+          xml:id="pl-l4d17c1-Qd1e194">Non potest quisquam iustificari a peccato, nisi fuerit
+          peccatum ante confessus </quote>.</p>
+        <p xml:id="pl-l4d17c1-d1e198">Idem : <quote xml:id="pl-l4d17c1-Qd1e200"> Confessio a morte
+          animam liberat; confessio aperit paradisum; confessio spem salutis tribuit, quia non
+          meretur iustificari, qui in vita sua peccatum non vult confiteri. Illa confessio nos
+          liberat, quae fit cum poenitentia. Poenitentia vera est dolor cordis et amaritudo animae
+          pro malis, quae quisque commisit </quote>.</p>
+        <p xml:id="pl-l4d17c1-d1e204">Item loannes: <quote xml:id="pl-l4d17c1-Qd1e206">Non potest
+          quisquam gratiam Dei accipere, nisi purgatus fuerit ab omni peccato, per poenitentiae
+          confessionem, et per baptismum </quote>.</p>
+        <p xml:id="pl-l4d17c1-d1e210">Item <name ref="#Augustine">Augustinus</name>: <quote
+          xml:id="pl-l4d17c1-Qd1e215"> Agile poenitentiam, qualis agitur in Ecclesia. Nemo dicat
+          sibi: occulte ago, apud Deum ago; novit Deus, qui mihi ignoscit, quia in corde ago. Ergo
+          sine causa dictum est: <quote xml:id="pl-l4d17c1-Qd1e217">Quae solveritis in terra, soluta
+          erunt et in caelis</quote> ? Ergo sine causa claves datae sunt? Frustramus verbum Christi.
+          lob dicit: <quote xml:id="pl-l4d17c1-Qd1e220">Si erubui in conspectu populi peccata mea
+          confiteri</quote> </quote>!</p>
+        <p xml:id="pl-l4d17c1-d1e225">Item <name ref="#Ambrose">Ambrosius</name>: <quote
+          xml:id="pl-l4d17c1-Qd1e230">Venialis est culpa, quam sequitur confessio delictorum
+          </quote>.</p>
+        <p xml:id="pl-l4d17c1-d1e235">Item <name ref="#Augustine">Augustinus</name> super illum
+          locum: <quote xml:id="pl-l4d17c1-Qd1e240">Non absorbeat me profundum, neque urgeat super
+          me puteus os suum:</quote> <quote xml:id="pl-l4d17c1-Qd1e243"> Puteus est profunditas
+          inquitatis, in quam si cecideris, non claudet super te os suum, si tu non claudis os tuum.
+          Confitere ergo et dic: <quote xml:id="pl-l4d17c1-Qd1e245">De profundis clamavi,</quote>
+          etc.; et evades. Claudit super illum qui in <quote xml:id="pl-l4d17c1-Qd1e248">profundo
+          contemnit,</quote> a quo mortuo, velut qui non sit, <quote xml:id="pl-l4d17c1-Qd1e251"
+          >perit confessio</quote> </quote>.</p>
+        <p xml:id="pl-l4d17c1-d1e256">Idem: <quote xml:id="pl-l4d17c1-Qd1e258">Nullus debitae
+          gravioris poenae accipit veniam, nisi qualemcumque, etsi longe minorem, quam debeat,
+          solverit poenam. Ita enim impertitur a Deo largitas misericordiae, ut non relinquatur
+          iustitia disciplinae </quote>.</p>
+        <p xml:id="pl-l4d17c1-d1e262">Item <name ref="#Jerome">Hieronymus</name>: <quote
+          xml:id="pl-l4d17c1-Qd1e267">Qui peccator est, plangat delicia propria vel populi, et
+          ingrediatur Ecclesiam, de qua propter peccata fuerat egressus, et dormiat in sacco, ut
+          praeteritas delicias, per quas Deum offenderat, vitae austeritate compenset </quote>.</p>
+        <p xml:id="pl-l4d17c1-d1e271">His aliisque pluribus auctoritatibus nituntur assserere, sine
+          confessione vocis et aliqua solutione poenae, neminem a peccato mundari.</p>
+        <p xml:id="pl-l4d17c1-d1e274">Quid ergo super his sentiendum? quid tenendum?</p>
+        <p xml:id="pl-l4d17c1-d1e277">Sane ", quod sine confessione oris et solutione paenae
+          exterioris, peccata delentur per contritionem et humilitatem cordis. Ex quo enim proponit
+          mente compuncta, se confessurum, Deus dimittit; quia ibi est confessio cordis, etsi non
+          oris, per quam anima interius mundatur a macula et contagio peccati commisi, et debitum
+          aeternae mortis relaxatur.</p>
+        <p xml:id="pl-l4d17c1-d1e281">Illa ergo, quae superius dicta sunt de confessione et
+          poenitentia, vel ad confessionem cordis et ad interiorem poenam referenda sunt, sicut
+          illud Augustini, <quote xml:id="pl-l4d17c1-Qd1e283">quod nullus dicitur veniam consequi,
+          nisi piius quantulamcumque peccati solverit poenam </quote>; vel de exteriori poena
+          accipienda sunt, et ad contemnentes vel negligentes referenda, sicut illud: <quote
+          xml:id="pl-l4d17c1-Qd1e286">Nemo dicat, occulte ago</quote>, etc. Nonnulli enim in vita
+          peccata confiteri negligunt vel erubescunt, et ideo non merentur iustificari.</p>
+        <p xml:id="pl-l4d17c1-d1e290">Sicut enim praecepta est nobis interior poenitentia, ita et
+          oris confessio et exterior satisfactio, si adsit facultas: unde nec vere poenitens est qui
+          confessionis votum non habet. Et sicut peccati remissio munus Dei est, ita poenitentia et
+          confessio, per quam peccatum deletur, non potest esse nisi a Deo, ut <name
+          ref="#Augustine">Augustinus</name> ait: <quote xml:id="pl-l4d17c1-Qd1e295"> Iam, inquit,
+          donum sancti Spiritus habet qui confitetur et poenitet, quia non potest esse confessio
+          peccati et punitio in homine ex se ipso: cum enim irascitur sibi quisque et displicet,
+          sine dono Spiritus sancti non est </quote>. Oportet ergo, poenitentem confiteri, si tempus
+          habeat; et tamen, antequam sit confessio in ore, si votum sit in corde, praestatur ei
+          remissio.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

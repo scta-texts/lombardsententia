@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CAP. V</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev"> <title>CAP. V</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority> <ref>SCTA</ref> </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l4d25c5">
+        <head xml:id="pl-l4d25c5-Hd1e109">CAP. V</head>
+        <head xml:id="pl-l4d25c5-Hd1e112" type="question-title">De distinctione
+          sinioniacorum.</head>
+        <p xml:id="pl-l4d25c5-d1e115">Simoniacae autem baeresis tripartita est distinctio. Alii enim
+          simoniace a simoniacis ordinantur; alii simoniace a non simoniacis; alii non simoniace a
+          simoniacis.</p>
+        <p xml:id="pl-l4d25c5-d1e118">Unde Nicolaus Papa: <quote xml:id="pl-l4d25c5-Qd1e120"
+          >Statuimus decretum de simoniaca tripartita haeresi, id est de simoniacis simoniace
+          ordinatoribus vel ordinalis, et de simoniacis simoniace a non simoniacis, et simoniacis
+          non simoniace a simoniacis. Simoniaci simoniace ordinati vel ordinatores secundum canones
+          a proprio gradu decidant; simoniaci etiam simoniace a non simoniacis ordinati similiter ab
+          officio removeantur; simoniacos vero non simoniace a simoniacis ordinatos misericorditer
+          per manus impositionem pro temporis necessitate in officio permittimus permanere </quote>.
+          <quote xml:id="pl-l4d25c5-Qd1e123"> Quod intelligendum est de his qui ordinantur a
+          simoniacis, ignorantes eos esse simoniacos. Hos facit simoniacos non reatus criminis, sed
+          ordinatio simoniaci </quote>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

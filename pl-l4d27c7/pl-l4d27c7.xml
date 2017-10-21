@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -14,18 +15,14 @@
         </respStmt>
       </titleStmt>
       <editionStmt>
-        <edition n="0.0.0-dev">
-          <title>CAP. VII</title>
-          <date when="2017-10-21">October 21, 2017</date>
-        </edition>
+        <edition n="0.0.0-dev"> <title>CAP. VII</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
       </editionStmt>
       <publicationStmt>
-        <authority>
-          <ref>SCTA</ref>
-        </authority>
+        <authority> <ref>SCTA</ref> </authority>
         <availability status="free">
-          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
-          </p>
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -35,7 +32,8 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -43,8 +41,7 @@
     </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2017-10-21" status="draft" n="0.0.0">
-          <p>Created file for the first time.</p>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
         </change>
       </listChange>
     </revisionDesc>
@@ -56,13 +53,39 @@
     <body>
       <div xml:id="pl-l4d27c7">
         <head xml:id="pl-l4d27c7-Hd1e109">CAP. VII</head>
-        <p xml:id="pl-l4d27c7-d1e112">[Cap. VII]. Hoc autem coniugatis nullatenus licet: non enim potest vir melioris vitae propositum sumere sine uxoris consensu, et e converso.</p>
-        <p xml:id="pl-l4d27c7-d1e115">Unde <name ref="#GregoryGreat">Gregorius</name>, scribens Theotistae patritiae: <quote xml:id="pl-l4d27c7-Qd1e120">Sunt qui dicunt, religionis gratia coniugia debere solvi. Verum sciendum est, quia, etsi hoc lex humana concessit, tamen lex divina prohibuit. Si vero utrisque conveniat continentem vitam ducere, hoc quis audeat accusare? Sic enim multos Sanctorum novimus cum suis coniugibus et prius continentem vitam duxisse, et post ad sanctae Ecclesiae regimina migrasse. Si vero continentiam, quam vir appetit, mulier non sequitur, aut quam uxor appetit, vir recusat, coniugium dividi non potest, quia scriptum est: <quote xml:id="pl-l4d27c7-Qd1e122">Mulier sui corporis potestatem non habet, sed vir; similiter vir sin corporis potestatem non habet, sed mulier</quote> 
-          </quote>.</p>
-        <p xml:id="pl-l4d27c7-d1e127">Idem: <quote xml:id="pl-l4d27c7-Qd1e129"> Agathosa, latrix praesentium, questa est, virum suum contra voluntatem suam in monasterium esse conversum. Qua
-propter experientiae tuae praecipimus, ut diligenti inquisitione discutiat, ne forte eius voluntate conversus sit, vel ipsa mutare se promiserit. Et si hoc tua diligentia repererit: et illum in monasterio permanere provideat, et hanc, sicut promisit, mutare compellat. Si vero nihil horum est, nec quondam fornicationis crimen, propter quod licet uxorem dimittere, praedictam mulierem commisisse cognoveris; ne illius conversio uxoris relictae in saeculo fieri possit perditionis occasio, volumus, ut maritum suum illi, etiam si iam tonsuratus est, reddere debeas, omni excusatione cessante; quia, nisi fornicationis causa, virum uxorem dimittere nulla ratio concedit. Postquam enim copulatione coniugii viri et mulieris unum corpus efficitur, non potest ex parte converti et ex parte remanere in saeculo </quote>.</p>
-        <p xml:id="pl-l4d27c7-d1e133">Item ex <quote xml:id="pl-l4d27c7-Qd1e135">Octava synodo</quote>: <quote xml:id="pl-l4d27c7-Qd1e138">Si quis coniugatus converti ad monasterium velit, non est recipiendus, nisi prius a coniuge, castimoniam profitente, fuerit absolutus. Tales igitur tunc sine culpa sequuntur Christum, relicto saeculo, si habent ex pari voluntate castitatis consensum </quote>.</p>
-        <p xml:id="pl-l4d27c7-d1e143">Item: <quote xml:id="pl-l4d27c7-Qd1e145">Si vir et uxor divertere pro sola religione inter se consenserint in vita, nullatenus sine conscientia episcopi fiat, ut ab eo singulariter proviso constituantur loco. Nam uxore nolente, vel altero illorum, etiam pro tali re matrimonium non solvitur</quote>.</p>
+        <p xml:id="pl-l4d27c7-d1e112">[Cap. VII]. Hoc autem coniugatis nullatenus licet: non enim
+          potest vir melioris vitae propositum sumere sine uxoris consensu, et e converso.</p>
+        <p xml:id="pl-l4d27c7-d1e115">Unde <name ref="GregoryGreat">Gregorius</name>, scribens
+          Theotistae patritiae: <quote xml:id="pl-l4d27c7-Qd1e120">Sunt qui dicunt, religionis
+          gratia coniugia debere solvi. Verum sciendum est, quia, etsi hoc lex humana concessit,
+          tamen lex divina prohibuit. Si vero utrisque conveniat continentem vitam ducere, hoc quis
+          audeat accusare? Sic enim multos Sanctorum novimus cum suis coniugibus et prius
+          continentem vitam duxisse, et post ad sanctae Ecclesiae regimina migrasse. Si vero
+          continentiam, quam vir appetit, mulier non sequitur, aut quam uxor appetit, vir recusat,
+          coniugium dividi non potest, quia scriptum est: <quote xml:id="pl-l4d27c7-Qd1e122">Mulier
+          sui corporis potestatem non habet, sed vir; similiter vir sin corporis potestatem non
+          habet, sed mulier</quote> </quote>.</p>
+        <p xml:id="pl-l4d27c7-d1e127">Idem: <quote xml:id="pl-l4d27c7-Qd1e129"> Agathosa, latrix
+          praesentium, questa est, virum suum contra voluntatem suam in monasterium esse conversum.
+          Qua propter experientiae tuae praecipimus, ut diligenti inquisitione discutiat, ne forte
+          eius voluntate conversus sit, vel ipsa mutare se promiserit. Et si hoc tua diligentia
+          repererit: et illum in monasterio permanere provideat, et hanc, sicut promisit, mutare
+          compellat. Si vero nihil horum est, nec quondam fornicationis crimen, propter quod licet
+          uxorem dimittere, praedictam mulierem commisisse cognoveris; ne illius conversio uxoris
+          relictae in saeculo fieri possit perditionis occasio, volumus, ut maritum suum illi, etiam
+          si iam tonsuratus est, reddere debeas, omni excusatione cessante; quia, nisi fornicationis
+          causa, virum uxorem dimittere nulla ratio concedit. Postquam enim copulatione coniugii
+          viri et mulieris unum corpus efficitur, non potest ex parte converti et ex parte remanere
+          in saeculo </quote>.</p>
+        <p xml:id="pl-l4d27c7-d1e133">Item ex <quote xml:id="pl-l4d27c7-Qd1e135">Octava
+          synodo</quote>: <quote xml:id="pl-l4d27c7-Qd1e138">Si quis coniugatus converti ad
+          monasterium velit, non est recipiendus, nisi prius a coniuge, castimoniam profitente,
+          fuerit absolutus. Tales igitur tunc sine culpa sequuntur Christum, relicto saeculo, si
+          habent ex pari voluntate castitatis consensum </quote>.</p>
+        <p xml:id="pl-l4d27c7-d1e143">Item: <quote xml:id="pl-l4d27c7-Qd1e145">Si vir et uxor
+          divertere pro sola religione inter se consenserint in vita, nullatenus sine conscientia
+          episcopi fiat, ut ab eo singulariter proviso constituantur loco. Nam uxore nolente, vel
+          altero illorum, etiam pro tali re matrimonium non solvitur</quote>.</p>
       </div>
     </body>
   </text>

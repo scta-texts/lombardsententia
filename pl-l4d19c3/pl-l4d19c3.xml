@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CAP. III</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev"> <title>CAP. III</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority> <ref>SCTA</ref> </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l4d19c3">
+        <head xml:id="pl-l4d19c3-Hd1e109">CAP. III</head>
+        <head xml:id="pl-l4d19c3-Hd1e112" type="question-title">Quomodo intelligendum sit: Maledicam
+          benedictionibus vestris.</head>
+        <p xml:id="pl-l4d19c3-d1e115">Praemissae vero sententiae, qua dicitur etiam per mali
+          sacerdotis ministerium transfundi gratia benedictionis, videtur obviare quod Dominus per
+          Prophetam malis sacerdotibus comminatur: <quote xml:id="pl-l4d19c3-Qd1e117">Maledicam
+          benedictionibus vestris;</quote> et alibi: <quote xml:id="pl-l4d19c3-Qd1e120">Vae his qui
+          vivificant animas, quae non vivunt, et mortificant animas, quae non moriuntur.</quote> Si
+          enim maledicit Dominus benedictionibus eorum, et si animae, quas vivificant, non vivunt,
+          quomodo per eos gratia benedictionis transfunditur ?</p>
+        <p xml:id="pl-l4d19c3-d1e124">Sed illud capitulum: <quote xml:id="pl-l4d19c3-Qd1e126"
+          >Maledicam,</quote> etc., quidam referunt ad haereticos, qui ab Ecclesia praecisi sunt, et
+          ad excommunicatos, quorum benedictiones fiunt maledictiones his qui sequuntur eorum
+          errores.</p>
+        <p xml:id="pl-l4d19c3-d1e130">Illud alterum vero, scilicet: <quote
+          xml:id="pl-l4d19c3-Qd1e132">Vivificant,</quote> etc., super omnes illos sacerdotes
+          exponunt, qui absque clave scientiae et forma bonae vitae praesumunt ligare vel solvere.
+          Sed nullus officio sacerdotis uti debet, nisi immunis sit ab illis quae in aliis iudicat;
+          alioquin se ipsum condemnat.</p>
+        <p xml:id="pl-l4d19c3-d1e137">Qualis esse debeat iudex ecclesiasticus.</p>
+        <p xml:id="pl-l4d19c3-d1e140">Qualem autem esse oporteat qui aliorum iudex constituitur,
+          <name ref="#Augustine">Augustinus</name> describit ita dicens: <quote
+          xml:id="pl-l4d19c3-Qd1e145">Sacerdos, cui omnis offertur peccator, ante quem statuitur
+          omnis languor, in nullo eorum sit indicandus, quae in alio indicare est promptus. Iudicans
+          enim alium, qui est iudicandus, <quote xml:id="pl-l4d19c3-Qd1e147">condemnat se ipsum
+          .</quote> Cognoscat igitur se, et purget in se quod alios videt sibi offerre; caveat, ut a
+          se proiecerit quidquid in aliquo damnosum reperit. Animadvertat, quod <quote
+          xml:id="pl-l4d19c3-Qd1e150">qui sine peccato est primus in illam lapidem mittat:</quote>
+          ideo enim liberavit peccatricem, quia non erat qui iuste proiiceret lapidem. Quomodo
+          lapidaret, qui se lapidandum cognosceret? Nullus enim erat sine peccato; in quo
+          intelligitur, omnes fuisse reos. Nam venialia semper remittebantur per caerimonias; si
+          quod ergo in eis peccatum erat, criminale erat. In hoc igitur patentissimum est crimen
+          sacerdotum et detestabile, qui non prius se iudicant et alios alligant.</quote> </p>
+        <p xml:id="pl-l4d19c3-d1e155"> <quote xml:id="pl-l4d19c3-Qd1e157"> Caveat spiritualis iudex
+          , sicut non commisit crimen nequitiae, ita non careat munere scientiae; oportet, ut sciat
+          cognoscere, quidquid debet iudicare: iudiciaria enim potestas hoc postulat, ut quod debet
+          iudicare, discernat. Diligens igitur investigator sapienter interroget a peccatore, quod
+          forsitan ignoret, vel verecundia velit occultare. Cognito vero crimine, varietates eius
+          non dubitet investigare, et locum, et tempus, et celera quae supra diximus; quibus
+          cognitis, adsit benevolus, paratus erigere et secum onus portare; habeat dulcedinem in
+          affectione, discretionem in varietate; doceat perseverantiam; caveat, ne corruat, ne juste
+          perdat judiciariam potestatem. Etsi enim poenitentia possit ei acquirere gratiam, non
+          tamen mox restituit in potestatem primam. Etsi Petrus post lapsum restitutus fuerit, et
+          saepe lapsis sacerdotibus reddita sit dignitatis potestas, non tamen est necesse ut
+          omnibus concedatur quasi ex auctoritate. Invenitur auctoritas, quae concedit et quasi
+          imperat; invenitur alia, quae non concedit, sed vetat. Quae scripturae non repugnant, sed
+          concordant. Cum enim tot sunt qui labuntur, ut pristinam dignitatem ex auctoritate
+          defendant, et quasi usum peccandi sibi faciant, recidenda est spes ista. Si vero locus
+          est, ubi ista non concurrant, restitui possunt qui peccant </quote>.</p>
+        <p xml:id="pl-l4d19c3-d1e161">Ex his satis perpenditur, qualis debeat esse sacerdos, qui
+          alios ligat et solvit, discretus scilicet et iustus; alioquin mortificat saepe animas quae
+          non moriuntur, et vivificat quae non vivunt; et ita incidit in maledictionis indicium.</p>
+        <p xml:id="pl-l4d19c3-d1e164">Illud autem Malachiae, scilicet: <quote
+          xml:id="pl-l4d19c3-Qd1e166">Maledicam benedictionibus vestris,</quote> sive super
+          haereticos tantum et excommunicatos, sive super omnes sacerdotes, qui vita et scientia
+          carentes benedicere praesumunt, dictum accipiatur, sic intelligi potest: <quote
+          xml:id="pl-l4d19c3-Qd1e169">Maledicam benedictionibus vestris,</quote> id est <quote
+          xml:id="pl-l4d19c3-Qd1e172"> his quae meis benedictionibus possidetis </quote>, quia
+          faciam ea vobis cedere in maledictionem, non in benedictionem. quia, etsi benedicunt
+          Sanctis, non hoc faciunt ex vero corde, et ideo eorum benedictio eis vertitur in
+          maledictionem. Vel <quote xml:id="pl-l4d19c3-Qd1e175">maledicam benedictionibus
+          vestris,</quote> id est <quote xml:id="pl-l4d19c3-Qd1e178"> quod a vobis benedicitur a me
+          erit maledictum <quote xml:id="pl-l4d19c3-Qd1e180"/>,</quote> quia benedicunt inique
+          agentibus, adulanturque peccantibus, dummodo divites sint.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

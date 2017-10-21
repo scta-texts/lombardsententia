@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -14,18 +15,14 @@
         </respStmt>
       </titleStmt>
       <editionStmt>
-        <edition n="0.0.0-dev">
-          <title>CAP. I</title>
-          <date when="2017-10-21">October 21, 2017</date>
-        </edition>
+        <edition n="0.0.0-dev"> <title>CAP. I</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
       </editionStmt>
       <publicationStmt>
-        <authority>
-          <ref>SCTA</ref>
-        </authority>
+        <authority> <ref>SCTA</ref> </authority>
         <availability status="free">
-          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
-          </p>
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -35,7 +32,8 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -43,8 +41,7 @@
     </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2017-10-21" status="draft" n="0.0.0">
-          <p>Created file for the first time.</p>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
         </change>
       </listChange>
     </revisionDesc>
@@ -57,15 +54,76 @@
       <div xml:id="pl-l4d33c1">
         <head xml:id="pl-l4d33c1-Hd1e109">CAP. I</head>
         <head xml:id="pl-l4d33c1-Hd1e112" type="question-title">De diversis legibus coniugii.</head>
-        <p xml:id="pl-l4d33c1-d1e115">Quaeritur hic de antiquis Patribus, qui plures simul leguntur habuisse uxores vel concubinas, utrum peccaverint.</p>
-        <p xml:id="pl-l4d33c1-d1e118">Ad quod dicimus: <quote xml:id="pl-l4d33c1-Qd1e120"> pro varietate temporum varia invenitur dispensatio Conditoris</quote>. Ab exordio enim temporis inter duos tantum, Adam scilicet et Evam, inchoatum est coniugium, Deo per os Adae dicente: <quote xml:id="pl-l4d33c1-Qd1e123">Homo adhaerebit uxori suae, et erunt duo in carne una;</quote> et secundum inchoationis modum inter duos tantum per omnem successionem temporum contraheretur, si primi homines in obedientia perstitissent. Post eorum vero copulam filii et filiae eorum matrimonio coniuncti sunt, sed unus uni tantum. Ideo autem fratres sororibus sunt tunc copulati, quia non erant aliae mulieres vel viri, quibus Adae filii vel filiae jungerentur. Primus omnium Lamech duas legitur simul habuisse uxores; et hoc in eo arguitur, quia pro expletione carnalis voluptatis id fecisse perbibetur. Postea vero, cum iam pene homines omnes falsis diis servirent, paucis in cultu Dei permanentibus, consultum est a Deo, plures in matrimonium copulare sibi, ne illis paucis deficientibus, cultus et notitia Dei deficeret. Unde <name ref="#Abraham">Abraham</name>, uxore vivente, ad ancillam intravit, et ex ea genuit; Iacob etiam liberis et ancillis se copulavit, et filiae Lolli patre ebrio usae sunt.</p>
-        <p xml:id="pl-l4d33c1-d1e130">
-          <quote xml:id="pl-l4d33c1-Qd1e132">Cum enim ceteris in idololatria relictis, <name ref="#Abraham">Abraham</name> et filios eius in peculiarem sibi populum Dominus elegisset, rite multarum fecunditate mulierum populi Dei multiplicatio quaerebatur, quia in successione sanguinis erat successio religionis. Unde etiam in Lege maledicta erat sterilis, quae non relinquebat semen super terram. Hinc etiam sacerdotibus coniugia decreta sunt, quia in successione familiae successio est officii. Non igitur <name ref="#Abraham">Abraham</name> vel Iacob deliquit, quia praeter uxorem filios ex ancilla quaesivit; nec illorum exemplo praeter coniugale debitum fecunditatem in aliqua licet alicui quaerere, cum illorum coniugia nostrorum aequantur virginitati, et immoderatus usus coniugii nostri temporis turpitudinem fere imitetur fornicationis illius temporis</quote>.</p>
-        <p xml:id="pl-l4d33c1-d1e143">De hoc <name ref="#Augustine">Augustinus</name> sic ait: <quote xml:id="pl-l4d33c1-Qd1e148"> Antiquis iustis non fuit peccatum, quod pluribus feminis utebantur; neque contra naturam hoc faciebant, cum non lasciviendi causa sed gignendi hoc facerent; neque contra morem, quia eo tempore ea fiebant; nec contra praeceptum, quia nulla lege erat prohibitum</quote>.</p>
-        <p xml:id="pl-l4d33c1-d1e152">Idem: <quote xml:id="pl-l4d33c1-Qd1e154">Obiiciuntur Iacob quatuor uxores, quod, quando mos erat, crimen non erat </quote>. <quote xml:id="pl-l4d33c1-Qd1e157"> Sic Patriarchae coniugibus excipientibus semen suum miscebantur, non concupiscentia perficiendae voluptatis, sed providentia propagandae successionis; sicut Apostoli auditoribus suis admirantibus doctrinam suam condelectabantur, non aviditate consequendae laudis, sed caritate seminandae veritatis </quote>.</p>
-        <p xml:id="pl-l4d33c1-d1e161">Idem alibi: <quote xml:id="pl-l4d33c1-Qd1e163"> Antiquis temporibus, cum adhuc salutis nostrae mysterium velaretur, iusti officio propagandi nuptias contrahebant, non victi libidine, sed ducti pietate; qui multo facilius continere possent si vellent. Utebantur tamen coniugibus, et plures uni viro habere licebat, quas castius habebat, quam nunc unam quilibet istorum, in quibus videmus quod secundum veniam concedit <name ref="Paul">Apostolus</name>. Habebant enim eas in opere generandi, non in morbo desiderii</quote>.</p>
-        <p xml:id="pl-l4d33c1-d1e170">Item <name ref="#Ambrose">Ambrosius</name>: <quote xml:id="pl-l4d33c1-Qd1e175">Dixit Sara ad <name ref="#Abraham">Abraham</name>: <quote xml:id="pl-l4d33c1-Qd1e180">Ecce conclusit me Dominus, ut non pariam. Intra ergo ad ancillam meam, ut filium facias ex ea;</quote> et ita factum est. Considera primum, quod <name ref="#Abraham">Abraham</name> ante Legem Moysi et ante Evangelium fuit. Non ergo in Legem commisit <name ref="#Abraham">Abraham</name>, si Legem praevenit: nondum enim interdictum videbatur</quote>. <quote xml:id="pl-l4d33c1-Qd1e190">Secundo considera, quod non ardore aliquo vagae succensus libidinis, non petulantis formae captus decore, ancillae contubernio coniugalem posthabuit torum, sed studio quaerendae posteritatis et propagandae sobolis. Adhuc post diluvium raritas erat humani generis, erat etiam religionis. Denique et Loth sancti hanc filiae causam quaerendae posteritatis habuerunt, ne genus deficeret humanum; et ideo publici muneris gratia privatam culpam praetexit </quote>.</p>
-        <p xml:id="pl-l4d33c1-d1e194">Item <name ref="#Augustine">Augustinus</name>: <quote xml:id="pl-l4d33c1-Qd1e199"> lustus, quamvis <quote xml:id="pl-l4d33c1-Qd1e201">cupiat dissolvi et esse cum Christo</quote>, tamen sumit alimentum, non cupiditate vivendi, sed officio consulendi, ut maneat quod necessarium est propter alios. Sic misceri feminis iure nuptiarum officiosum fuit viris sanctis, non libidinosum </quote>. <quote xml:id="pl-l4d33c1-Qd1e205"> Quod enim est cibus ad salutem hominis, hoc est concubitus ad salutem humani generis; et utrumque non est sine delectatione carnali, quae tamen, modificata et refrenante temperantia in usum naturalem redacta, libido esse non potest. Quod autem in sustentando vitam illicitus est cibus, hoc est in quaerenda prole fornicarius vel illicitus concubitus; et quod est in licito cibo immoderatior appetitus, hoc est in coniugibtis venialis ille concubitus</quote>.</p>
+        <p xml:id="pl-l4d33c1-d1e115">Quaeritur hic de antiquis Patribus, qui plures simul leguntur
+          habuisse uxores vel concubinas, utrum peccaverint.</p>
+        <p xml:id="pl-l4d33c1-d1e118">Ad quod dicimus: <quote xml:id="pl-l4d33c1-Qd1e120"> pro
+          varietate temporum varia invenitur dispensatio Conditoris</quote>. Ab exordio enim
+          temporis inter duos tantum, Adam scilicet et Evam, inchoatum est coniugium, Deo per os
+          Adae dicente: <quote xml:id="pl-l4d33c1-Qd1e123">Homo adhaerebit uxori suae, et erunt duo
+          in carne una;</quote> et secundum inchoationis modum inter duos tantum per omnem
+          successionem temporum contraheretur, si primi homines in obedientia perstitissent. Post
+          eorum vero copulam filii et filiae eorum matrimonio coniuncti sunt, sed unus uni tantum.
+          Ideo autem fratres sororibus sunt tunc copulati, quia non erant aliae mulieres vel viri,
+          quibus Adae filii vel filiae jungerentur. Primus omnium Lamech duas legitur simul habuisse
+          uxores; et hoc in eo arguitur, quia pro expletione carnalis voluptatis id fecisse
+          perbibetur. Postea vero, cum iam pene homines omnes falsis diis servirent, paucis in cultu
+          Dei permanentibus, consultum est a Deo, plures in matrimonium copulare sibi, ne illis
+          paucis deficientibus, cultus et notitia Dei deficeret. Unde <name ref="#Abraham"
+          >Abraham</name>, uxore vivente, ad ancillam intravit, et ex ea genuit; Iacob etiam liberis
+          et ancillis se copulavit, et filiae Lolli patre ebrio usae sunt.</p>
+        <p xml:id="pl-l4d33c1-d1e130"> <quote xml:id="pl-l4d33c1-Qd1e132">Cum enim ceteris in
+          idololatria relictis, <name ref="#Abraham">Abraham</name> et filios eius in peculiarem
+          sibi populum Dominus elegisset, rite multarum fecunditate mulierum populi Dei
+          multiplicatio quaerebatur, quia in successione sanguinis erat successio religionis. Unde
+          etiam in Lege maledicta erat sterilis, quae non relinquebat semen super terram. Hinc etiam
+          sacerdotibus coniugia decreta sunt, quia in successione familiae successio est officii.
+          Non igitur <name ref="#Abraham">Abraham</name> vel Iacob deliquit, quia praeter uxorem
+          filios ex ancilla quaesivit; nec illorum exemplo praeter coniugale debitum fecunditatem in
+          aliqua licet alicui quaerere, cum illorum coniugia nostrorum aequantur virginitati, et
+          immoderatus usus coniugii nostri temporis turpitudinem fere imitetur fornicationis illius
+          temporis</quote>.</p>
+        <p xml:id="pl-l4d33c1-d1e143">De hoc <name ref="#Augustine">Augustinus</name> sic ait:
+          <quote xml:id="pl-l4d33c1-Qd1e148"> Antiquis iustis non fuit peccatum, quod pluribus
+          feminis utebantur; neque contra naturam hoc faciebant, cum non lasciviendi causa sed
+          gignendi hoc facerent; neque contra morem, quia eo tempore ea fiebant; nec contra
+          praeceptum, quia nulla lege erat prohibitum</quote>.</p>
+        <p xml:id="pl-l4d33c1-d1e152">Idem: <quote xml:id="pl-l4d33c1-Qd1e154">Obiiciuntur Iacob
+          quatuor uxores, quod, quando mos erat, crimen non erat </quote>. <quote
+          xml:id="pl-l4d33c1-Qd1e157"> Sic Patriarchae coniugibus excipientibus semen suum
+          miscebantur, non concupiscentia perficiendae voluptatis, sed providentia propagandae
+          successionis; sicut Apostoli auditoribus suis admirantibus doctrinam suam
+          condelectabantur, non aviditate consequendae laudis, sed caritate seminandae veritatis
+          </quote>.</p>
+        <p xml:id="pl-l4d33c1-d1e161">Idem alibi: <quote xml:id="pl-l4d33c1-Qd1e163"> Antiquis
+          temporibus, cum adhuc salutis nostrae mysterium velaretur, iusti officio propagandi
+          nuptias contrahebant, non victi libidine, sed ducti pietate; qui multo facilius continere
+          possent si vellent. Utebantur tamen coniugibus, et plures uni viro habere licebat, quas
+          castius habebat, quam nunc unam quilibet istorum, in quibus videmus quod secundum veniam
+          concedit <name ref="Paul">Apostolus</name>. Habebant enim eas in opere generandi, non in
+          morbo desiderii</quote>.</p>
+        <p xml:id="pl-l4d33c1-d1e170">Item <name ref="#Ambrose">Ambrosius</name>: <quote
+          xml:id="pl-l4d33c1-Qd1e175">Dixit Sara ad <name ref="#Abraham">Abraham</name>: <quote
+          xml:id="pl-l4d33c1-Qd1e180">Ecce conclusit me Dominus, ut non pariam. Intra ergo ad
+          ancillam meam, ut filium facias ex ea;</quote> et ita factum est. Considera primum, quod
+          <name ref="#Abraham">Abraham</name> ante Legem Moysi et ante Evangelium fuit. Non ergo in
+          Legem commisit <name ref="#Abraham">Abraham</name>, si Legem praevenit: nondum enim
+          interdictum videbatur</quote>. <quote xml:id="pl-l4d33c1-Qd1e190">Secundo considera, quod
+          non ardore aliquo vagae succensus libidinis, non petulantis formae captus decore, ancillae
+          contubernio coniugalem posthabuit torum, sed studio quaerendae posteritatis et propagandae
+          sobolis. Adhuc post diluvium raritas erat humani generis, erat etiam religionis. Denique
+          et Loth sancti hanc filiae causam quaerendae posteritatis habuerunt, ne genus deficeret
+          humanum; et ideo publici muneris gratia privatam culpam praetexit </quote>.</p>
+        <p xml:id="pl-l4d33c1-d1e194">Item <name ref="#Augustine">Augustinus</name>: <quote
+          xml:id="pl-l4d33c1-Qd1e199"> lustus, quamvis <quote xml:id="pl-l4d33c1-Qd1e201">cupiat
+          dissolvi et esse cum Christo</quote>, tamen sumit alimentum, non cupiditate vivendi, sed
+          officio consulendi, ut maneat quod necessarium est propter alios. Sic misceri feminis iure
+          nuptiarum officiosum fuit viris sanctis, non libidinosum </quote>. <quote
+          xml:id="pl-l4d33c1-Qd1e205"> Quod enim est cibus ad salutem hominis, hoc est concubitus ad
+          salutem humani generis; et utrumque non est sine delectatione carnali, quae tamen,
+          modificata et refrenante temperantia in usum naturalem redacta, libido esse non potest.
+          Quod autem in sustentando vitam illicitus est cibus, hoc est in quaerenda prole
+          fornicarius vel illicitus concubitus; et quod est in licito cibo immoderatior appetitus,
+          hoc est in coniugibtis venialis ille concubitus</quote>.</p>
       </div>
     </body>
   </text>

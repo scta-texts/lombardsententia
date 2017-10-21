@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -14,18 +15,14 @@
         </respStmt>
       </titleStmt>
       <editionStmt>
-        <edition n="0.0.0-dev">
-          <title>CAP. III</title>
-          <date when="2017-10-21">October 21, 2017</date>
-        </edition>
+        <edition n="0.0.0-dev"> <title>CAP. III</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
       </editionStmt>
       <publicationStmt>
-        <authority>
-          <ref>SCTA</ref>
-        </authority>
+        <authority> <ref>SCTA</ref> </authority>
         <availability status="free">
-          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
-          </p>
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -35,7 +32,8 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -43,8 +41,7 @@
     </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2017-10-21" status="draft" n="0.0.0">
-          <p>Created file for the first time.</p>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
         </change>
       </listChange>
     </revisionDesc>
@@ -56,10 +53,26 @@
     <body>
       <div xml:id="pl-l4d50c3">
         <head xml:id="pl-l4d50c3-Hd1e109">CAP. III</head>
-        <head xml:id="pl-l4d50c3-Hd1e112" type="question-title">Si damnatorum animae notitiam habent eorum quae hic fiunt.</head>
-        <p xml:id="pl-l4d50c3-d1e115">Praeterea quaeri solet, si reproborum animae, quae nunc in inferno cruciantur, notitiam habeant eorum quae circa suos in hac vita geruntur; et si aliquo modo doleant super infortuniis suorum carorum.</p>
-        <p xml:id="pl-l4d50c3-d1e118">Hanc quaestionem <name ref="#Augustine">Augustinus</name> commemorat, ex parte eam explicans, ex parte vero insolutam relinquens. Ait enim: <quote xml:id="pl-l4d50c3-Qd1e123"> Quaeret aliquis, an ullus dolor tangat mortuos de his quae in suis post mortem contingunt, vel quomodo ea quae circa nos aguntur, noverint spiritus defunctorum. Cui respondeo, magnam esse quaestionem, nec in praesenti disserendam. Verumtamen breviter dici potest, quod est cura mortuis de suis caris, ut de divite legitur, qui, dum tormenta apud inferos pateretur, <quote xml:id="pl-l4d50c3-Qd1e125">levavit oculos ad <name ref="#Abraham">Abraham</name>
-            </quote> et inter alia dixit: <quote xml:id="pl-l4d50c3-Qd1e131">Habeo enim quinque fratres</quote>; <quote xml:id="pl-l4d50c3-Qd1e134">ut testetur illis, ne et ipsi veniant in hunc locum tormentorum.</quote> Habent enim mortui curam de vivis, quos sciunt vivere, quia nec in locis poenarum vident eos, ubi dives sine fratribus erat; nec in requie beatorum, ubi Lazarum et <name ref="#Abraham">Abraham</name>, quamvis longe, agnoscebat. Non tamen ideo consequens est, eos scire quae circa caros suos aguntur hic, vel laeta, vel tristia </quote>.</p>
+        <head xml:id="pl-l4d50c3-Hd1e112" type="question-title">Si damnatorum animae notitiam habent
+          eorum quae hic fiunt.</head>
+        <p xml:id="pl-l4d50c3-d1e115">Praeterea quaeri solet, si reproborum animae, quae nunc in
+          inferno cruciantur, notitiam habeant eorum quae circa suos in hac vita geruntur; et si
+          aliquo modo doleant super infortuniis suorum carorum.</p>
+        <p xml:id="pl-l4d50c3-d1e118">Hanc quaestionem <name ref="#Augustine">Augustinus</name>
+          commemorat, ex parte eam explicans, ex parte vero insolutam relinquens. Ait enim: <quote
+          xml:id="pl-l4d50c3-Qd1e123"> Quaeret aliquis, an ullus dolor tangat mortuos de his quae in
+          suis post mortem contingunt, vel quomodo ea quae circa nos aguntur, noverint spiritus
+          defunctorum. Cui respondeo, magnam esse quaestionem, nec in praesenti disserendam.
+          Verumtamen breviter dici potest, quod est cura mortuis de suis caris, ut de divite
+          legitur, qui, dum tormenta apud inferos pateretur, <quote xml:id="pl-l4d50c3-Qd1e125"
+          >levavit oculos ad <name ref="#Abraham">Abraham</name> </quote> et inter alia dixit:
+          <quote xml:id="pl-l4d50c3-Qd1e131">Habeo enim quinque fratres</quote>; <quote
+          xml:id="pl-l4d50c3-Qd1e134">ut testetur illis, ne et ipsi veniant in hunc locum
+          tormentorum.</quote> Habent enim mortui curam de vivis, quos sciunt vivere, quia nec in
+          locis poenarum vident eos, ubi dives sine fratribus erat; nec in requie beatorum, ubi
+          Lazarum et <name ref="#Abraham">Abraham</name>, quamvis longe, agnoscebat. Non tamen ideo
+          consequens est, eos scire quae circa caros suos aguntur hic, vel laeta, vel tristia
+          </quote>.</p>
       </div>
     </body>
   </text>

@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -14,18 +15,14 @@
         </respStmt>
       </titleStmt>
       <editionStmt>
-        <edition n="0.0.0-dev">
-          <title>CAP. VIII</title>
-          <date when="2017-10-21">October 21, 2017</date>
-        </edition>
+        <edition n="0.0.0-dev"> <title>CAP. VIII</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
       </editionStmt>
       <publicationStmt>
-        <authority>
-          <ref>SCTA</ref>
-        </authority>
+        <authority> <ref>SCTA</ref> </authority>
         <availability status="free">
-          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
-          </p>
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -35,7 +32,8 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -43,8 +41,7 @@
     </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2017-10-21" status="draft" n="0.0.0">
-          <p>Created file for the first time.</p>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
         </change>
       </listChange>
     </revisionDesc>
@@ -56,12 +53,40 @@
     <body>
       <div xml:id="pl-l4d31c8">
         <head xml:id="pl-l4d31c8-Hd1e109">CAP. VIII</head>
-        <head xml:id="pl-l4d31c8-Hd1e112" type="question-title">De carnis delectatione, quae peccatum sit, vel non.</head>
-        <p xml:id="pl-l4d31c8-d1e115">Sed forte aliquis dicet, omnem carnis concupiscentiam et delectationem, quae est in coitu, malam esse et peccatum, quia ex peccato est et inordinata est.</p>
-        <p xml:id="pl-l4d31c8-d1e118">Et nos dicimus, illam concupiscentiam semper malam esse, quia foeda est et poena peccati; sed non semper peccatum esse: saepe enim delectatur vir sanctus secundum carnem in aliqua re, ut requiescendo post laborem, edendo post esuriem; nec tamen talis delectatio est peccatum, nisi sit immoderata. Sic et delectatio, quae est in coitu coniugali, cui adsunt illa tria bona, a peccato defenditur.</p>
-        <p xml:id="pl-l4d31c8-d1e121">Videtur tamen beatus <name ref="#GregoryGreat">Gregorius</name> aliter sentire, scilicet quod sine peccato non possit fieri carnalis commixtio, dicens: <quote xml:id="pl-l4d31c8-Qd1e126">Vir cum propria coniuge dormiens, nisi lotus aqua, ecclesiam intrare non debet. Quamvis diversae hominum nationes de hac re diversa sentiant, et alia videantur custodire, Romanorum tamen semper ab antiquioribus usus fuit, post admixtionem propriae coniugis, et lavacri purificationem quaerere, et ab ingressu ecclesiae paululum temperare. Nec hoc dicentes, culpam deputamus esse coniugium; sed quia ipsa licita admixtio coniugis sine voluptate carnis fieri non potest, a sacri loci ingressu est abstinendum, quia voluptas ipsa sine culpa esse nullatenus potest</quote>.</p>
-        <p xml:id="pl-l4d31c8-d1e131">Hoc autem, ne praedictis obviet, intelligendum est in illis qui non gratia prolis conveniunt, quorum voluptas non est sine peccato. Et vix aliqui reperiri possunt adhuc carnales amplexus experientes, qui non interdum conveniant praeter intentionem procreandae prolis. Hoc autem quoties fit, ab ingressu ecclesiae abstinendum est.</p>
-        <p xml:id="pl-l4d31c8-d1e134">Et quod ita intelligendum sit, <name ref="#GregoryGreat">Gregorius</name> consequenter ostendit: <quote xml:id="pl-l4d31c8-Qd1e139">Si quis vero sua coniuge, non cupidine voluptatis raptus, sed tantum creandorum liberorum gratia utitur, iste profecto sive de ingressu ecclesiae, seu de sumendo corporis dominici mysterio, suo est iudicio relinquendus, quia prohiberi a nobis non debet accipere, qui in igne positus nescit ardere. Cum vero non amor procreandae sobolis sed voluptas dominatur in opere commixtionis, habeant coniuges etiam de commixtione sua quod defleant. Tunc autem vir, qui post admixtionem coniugis lotus aqua fuerit, etiam sacram communionem valet accipere, cum ei secundum praefinitam sententiam ecclesiam licuerit intrare</quote>.</p>
+        <head xml:id="pl-l4d31c8-Hd1e112" type="question-title">De carnis delectatione, quae
+          peccatum sit, vel non.</head>
+        <p xml:id="pl-l4d31c8-d1e115">Sed forte aliquis dicet, omnem carnis concupiscentiam et
+          delectationem, quae est in coitu, malam esse et peccatum, quia ex peccato est et
+          inordinata est.</p>
+        <p xml:id="pl-l4d31c8-d1e118">Et nos dicimus, illam concupiscentiam semper malam esse, quia
+          foeda est et poena peccati; sed non semper peccatum esse: saepe enim delectatur vir
+          sanctus secundum carnem in aliqua re, ut requiescendo post laborem, edendo post esuriem;
+          nec tamen talis delectatio est peccatum, nisi sit immoderata. Sic et delectatio, quae est
+          in coitu coniugali, cui adsunt illa tria bona, a peccato defenditur.</p>
+        <p xml:id="pl-l4d31c8-d1e121">Videtur tamen beatus <name ref="#GregoryGreat"
+          >Gregorius</name> aliter sentire, scilicet quod sine peccato non possit fieri carnalis
+          commixtio, dicens: <quote xml:id="pl-l4d31c8-Qd1e126">Vir cum propria coniuge dormiens,
+          nisi lotus aqua, ecclesiam intrare non debet. Quamvis diversae hominum nationes de hac re
+          diversa sentiant, et alia videantur custodire, Romanorum tamen semper ab antiquioribus
+          usus fuit, post admixtionem propriae coniugis, et lavacri purificationem quaerere, et ab
+          ingressu ecclesiae paululum temperare. Nec hoc dicentes, culpam deputamus esse coniugium;
+          sed quia ipsa licita admixtio coniugis sine voluptate carnis fieri non potest, a sacri
+          loci ingressu est abstinendum, quia voluptas ipsa sine culpa esse nullatenus
+          potest</quote>.</p>
+        <p xml:id="pl-l4d31c8-d1e131">Hoc autem, ne praedictis obviet, intelligendum est in illis
+          qui non gratia prolis conveniunt, quorum voluptas non est sine peccato. Et vix aliqui
+          reperiri possunt adhuc carnales amplexus experientes, qui non interdum conveniant praeter
+          intentionem procreandae prolis. Hoc autem quoties fit, ab ingressu ecclesiae abstinendum
+          est.</p>
+        <p xml:id="pl-l4d31c8-d1e134">Et quod ita intelligendum sit, <name ref="#GregoryGreat"
+          >Gregorius</name> consequenter ostendit: <quote xml:id="pl-l4d31c8-Qd1e139">Si quis vero
+          sua coniuge, non cupidine voluptatis raptus, sed tantum creandorum liberorum gratia
+          utitur, iste profecto sive de ingressu ecclesiae, seu de sumendo corporis dominici
+          mysterio, suo est iudicio relinquendus, quia prohiberi a nobis non debet accipere, qui in
+          igne positus nescit ardere. Cum vero non amor procreandae sobolis sed voluptas dominatur
+          in opere commixtionis, habeant coniuges etiam de commixtione sua quod defleant. Tunc autem
+          vir, qui post admixtionem coniugis lotus aqua fuerit, etiam sacram communionem valet
+          accipere, cum ei secundum praefinitam sententiam ecclesiam licuerit intrare</quote>.</p>
       </div>
     </body>
   </text>

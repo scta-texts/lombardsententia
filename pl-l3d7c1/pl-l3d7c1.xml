@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -14,19 +15,14 @@
         </respStmt>
       </titleStmt>
       <editionStmt>
-        <edition n="0.0.0-dev">
-          <title>Cap. I.</title>
-          <date when="2017-09-05">September 05, 2017</date>
-        </edition>
+        <edition n="0.0.0-dev"> <title>Cap. I.</title> <date when="2017-09-05">September 05,
+          2017</date> </edition>
       </editionStmt>
       <publicationStmt>
-        <authority>
-          <ref>SCTA</ref>
-        </authority>
+        <authority> <ref>SCTA</ref> </authority>
         <availability status="free">
           <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
-              Commons Attribution 4.0 International</ref>
-          </p>
+            Commons Attribution 4.0 International</ref> </p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -36,7 +32,8 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -44,8 +41,7 @@
     </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2017-09-05" status="draft" n="0.0.0">
-          <p>Created file for the first time.</p>
+        <change when="2017-09-05" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
         </change>
       </listChange>
     </revisionDesc>
@@ -57,32 +53,35 @@
     <body>
       <div xml:id="pl-l3d7c1">
         <head xml:id="pl-l3d7c1-Hd1e111">Cap. I.</head>
-        <head xml:id="pl-l3d7c1-Hd1e114" type="question-title">Deinde quae singulis sententiis adversari videntur,
-          ponit.</head>
-        <p xml:id="pl-l3d7c1-d1e117"> Secundum primam vero dicitur: Deus factus homo, et homo factus Deus, quia Deus coepit
-          esse quaedam substantia rationalis, quae ante non fuerat; et illa substantia coepit esse
-          Deus, et hoc gratia non natura, vel meritis habuit. Unde recte dicitur Christus, in
-          quantum homo, praedestinatus esse Filius Dei. </p>
-        <p xml:id="pl-l3d7c1-d1e120"> Huic autem sententiae opponitur: Si illa substantia coepit esse Deus, et Deus illa;
-          quaedam igitur substantia est Deus, quae non semper fuit Deus; et quaedam substantia est
-          Deus, quae non est divina substantia; et Deus est aliquid, quod non semper fuit. </p>
-        <p xml:id="pl-l3d7c1-d1e123"> Quod et illi concedunt, Origenis testimonio innitentes, qui ait: <quote xml:id="pl-l3d7c1-Qd1e125">Factus esi sine
-            dubio id, quod prius non erat; sed addidit: secundum carnem; secundum Deum vero erat
-            prius, et non erat quando non erat </quote>. </p>
-        <p xml:id="pl-l3d7c1-d1e130"> Aliis quoque pluribus modis illi sententiae potest opponi; quibus supersedemus,
-          exercitationis studium lectori relinquentes, et ad alia properantes. </p>
-        <p xml:id="pl-l3d7c1-d1e133"> In secunda vero sententia, huius dictionis talis videtur ratio, ut cum dicitur: Deus
-          factus homo, intelligatur coepisse esse subsistens ex duabus naturis, vel tribus
-          substantiis; et e converso, homo factus est Deus, quia subsistens in duabus naturis coepit
-          esse Deus; vel potius homo factus Deus, et e converso dicitur, quia Dens assumsit hominem,
-          et homo assumtus est a Deo. </p>
-        <p xml:id="pl-l3d7c1-d1e136"> Unde <name ref="#Augustine">Augustinus</name> dicit in libro <title ref="#deTrinitate">De Trinitate</title>: <quote xml:id="pl-l3d7c1-Qd1e144">Talis fuit illa susceptio, quae hominem faceret Deum, et
-            Deum hominem </quote>. </p>
-        <p xml:id="pl-l3d7c1-d1e148"> Variatur autem intelligentia, cum dicitur: Deus est homo, et homo est Deus. Dicitur enim
-          Deus esse persona subsistens in duabus et ex duabus naturis; et persona subsistens ex
-          duabus na¬ turis dicitur esse Deus, id est Verbum, vel natura divina: potest enim
-          praedicari persona simplex, vel natura de persona composita. Non est autem, ut ait
-            <name>Ioannes Damascenus</name>, idem dicere naturam, vel personam. </p>
+        <head xml:id="pl-l3d7c1-Hd1e114" type="question-title">Deinde quae singulis sententiis
+          adversari videntur, ponit.</head>
+        <p xml:id="pl-l3d7c1-d1e117"> Secundum primam vero dicitur: Deus factus homo, et homo factus
+          Deus, quia Deus coepit esse quaedam substantia rationalis, quae ante non fuerat; et illa
+          substantia coepit esse Deus, et hoc gratia non natura, vel meritis habuit. Unde recte
+          dicitur Christus, in quantum homo, praedestinatus esse Filius Dei. </p>
+        <p xml:id="pl-l3d7c1-d1e120"> Huic autem sententiae opponitur: Si illa substantia coepit
+          esse Deus, et Deus illa; quaedam igitur substantia est Deus, quae non semper fuit Deus; et
+          quaedam substantia est Deus, quae non est divina substantia; et Deus est aliquid, quod non
+          semper fuit. </p>
+        <p xml:id="pl-l3d7c1-d1e123"> Quod et illi concedunt, Origenis testimonio innitentes, qui
+          ait: <quote xml:id="pl-l3d7c1-Qd1e125">Factus esi sine dubio id, quod prius non erat; sed
+          addidit: secundum carnem; secundum Deum vero erat prius, et non erat quando non erat
+          </quote>. </p>
+        <p xml:id="pl-l3d7c1-d1e130"> Aliis quoque pluribus modis illi sententiae potest opponi;
+          quibus supersedemus, exercitationis studium lectori relinquentes, et ad alia properantes. </p>
+        <p xml:id="pl-l3d7c1-d1e133"> In secunda vero sententia, huius dictionis talis videtur
+          ratio, ut cum dicitur: Deus factus homo, intelligatur coepisse esse subsistens ex duabus
+          naturis, vel tribus substantiis; et e converso, homo factus est Deus, quia subsistens in
+          duabus naturis coepit esse Deus; vel potius homo factus Deus, et e converso dicitur, quia
+          Dens assumsit hominem, et homo assumtus est a Deo. </p>
+        <p xml:id="pl-l3d7c1-d1e136"> Unde <name ref="#Augustine">Augustinus</name> dicit in libro
+          <title ref="#deTrinitate">De Trinitate</title>: <quote xml:id="pl-l3d7c1-Qd1e144">Talis
+          fuit illa susceptio, quae hominem faceret Deum, et Deum hominem </quote>. </p>
+        <p xml:id="pl-l3d7c1-d1e148"> Variatur autem intelligentia, cum dicitur: Deus est homo, et
+          homo est Deus. Dicitur enim Deus esse persona subsistens in duabus et ex duabus naturis;
+          et persona subsistens ex duabus na¬ turis dicitur esse Deus, id est Verbum, vel natura
+          divina: potest enim praedicari persona simplex, vel natura de persona composita. Non est
+          autem, ut ait <name>Ioannes Damascenus</name>, idem dicere naturam, vel personam. </p>
       </div>
     </body>
   </text>

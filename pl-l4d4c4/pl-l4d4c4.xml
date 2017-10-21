@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CAP. IV</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev"> <title>CAP. IV</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority> <ref>SCTA</ref> </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l4d4c4">
+        <head xml:id="pl-l4d4c4-Hd1e109">CAP. IV</head>
+        <head xml:id="pl-l4d4c4-Hd1e112" type="question-title">Quod passio supplet vicem baptismi et
+          fides et contritio.</head>
+        <p xml:id="pl-l4d4c4-d1e115">Sunt et alii, ut supra posuimus, qui suscipiunt rem et non
+          Sacramentum. Qui enim fundunt sanguinem pro nomine lesu, etsi non Sacramentum, rem tamen
+          percipiunt.</p>
+        <p xml:id="pl-l4d4c4-d1e118">Unde <name ref="#Augustine">Augustinus</name>: <quote
+          xml:id="pl-l4d4c4-Qd1e123">Quicumque, non percepto regenerationis lavacro, pro confessione
+          Christi moriuntur, tantum eis valet ad dimittenda peccata, quantum si abluerentur sacro
+          fonte baptismi </quote>.</p>
+        <p xml:id="pl-l4d4c4-d1e127">Audisti, quod passio, pro nomine lesu suscepta, supplet vicem
+          baptismi.</p>
+        <p xml:id="pl-l4d4c4-d1e131">Nec tantum passio vicem baptismi implet, sed etiam fides et
+          contritio, ubi necessitas excludit Sacramentum, sicut aperte docet <name ref="#Augustine"
+          >Augustinus</name> dicens: <!--<quote>-->Baptismi vicem aliquando implere passionem, de
+          latrone illo cui non baptizato dictum est: Hodie mecum eris in paradiso, beatus Cyprianus
+          in libro IV</p>
+        <p xml:id="pl-l4d4c4-d1e139">De baptismo non leve documentum assumit. Quod etiam atque etiam
+          considerans invenio, non tantum passionem pro nomine Christi id quod baptismo deerat,
+          posse supplere, sed etiam fidem conversionemque cordis si forte ad celebrandum mysterium
+          baptismi in angustiis temporum succurri non potest. Neque enim latro ille pro nomine
+          Christi crucifixus est, sed pro meritis facinorum suorum; nec quia credidit, passus est,
+          sed dum patitur, credit. Quantum igitur etiam valeat sine visibili baptismi Sacramento
+          (quod ait <name ref="Paul">Apostolus</name>: Corde creditur ad iustitam, ore autem
+          confessio fit ad salutem) in ilio latrone declaratum est; sed tunc impletur invisibiliter,
+          cum mysterium baptismi non contemptus religionis, sed articulus necessitatis excludit
+          <!--</quote>-->. <quote xml:id="pl-l4d4c4-Qd1e146"> El baptismus quidem potest etiam
+          inesse, ubi conversio cordis defuerit; conversio autem cordis potest quidem inesse, non
+          percepto baptismo, sed contempto baptismo, non potest; nec ullo modo dicenda est conversio
+          cordis ad Deum, cum Dei Sacramentum contemnitur </quote>.</p>
+        <p xml:id="pl-l4d4c4-d1e150">Ecce hic habes, non solum passionem, sed etiam fidem et
+          contritionem conferre remissionem, ubi non contemnitur Sacramentum, ut in latrone illo
+          ostenditur, qui non per passionem, sed per fidem salvatus est sine baptismo.</p>
+        <p xml:id="pl-l4d4c4-d1e153">Sed quidam dicunt, <name ref="Augustine">Augustinum</name> hoc
+          retractasse. Retractavit quidem exemplum, sed non sententiam. Ait enim sic: <quote
+          xml:id="pl-l4d4c4-Qd1e158"> In libro IV De baptismo cum dicerem, vicem baptismi posse
+          habere passionem, non satis idoneum posui illius latronis exemplum, quia, utrum non fuerit
+          baptizatus, incertum est </quote>. Constat igitur, sine baptismo aliquos iustificari et
+          salvari.</p>
+        <p xml:id="pl-l4d4c4-d1e162">Unde <name ref="#Ambrose">Ambrosius</name> De Valentiniano:
+          <quote xml:id="pl-l4d4c4-Qd1e167"> Ventrem meum doleo, ut prophetico utar eloquio, quia
+          quem regeneraturus eram, amisi; ille tamen gratiam quam poposcit, non amisit</quote>.</p>
+        <p xml:id="pl-l4d4c4-d1e171">His autem videtur obviare quod Dominus ait: Nisi quis renatus
+          fuerit ex aqua et Spiritu sancto, non intrabit in regnum caelorum. Quod si generaliter
+          verum est, non videntur esse vera superius posita.</p>
+        <p xml:id="pl-l4d4c4-d1e175">Sed illud intelligendum est de bis qui possunt et contemnunt
+          baptizari; vel ita intelligendum est: Nisi quis renatus fuerit ex aqua et Spiritu sancto,
+          id est ea regeneratione, quae fit per aquam et Spiritum sanctum, non salvabitur; illa
+          autem regeneratio fit non tantum per baptismum, sed et per poenitentiam et sanguinem.</p>
+        <p xml:id="pl-l4d4c4-d1e178">Unde auctoritas dicit, ideo Apostolum <quote
+          xml:id="pl-l4d4c4-Qd1e180">pluraliter dixisse fundamentum baptismatum, quia est baptismus
+          in aqua, in sanguine, in poenitentia </quote>. Hoc autem non ideo dicit, quod baptismi
+          Sacramentum fiat nisi in aqua, sed quia ipsius virtus, id est sanctificatio, datur non
+          modo per aquam, sed per sanguinem, vel poenitentiam.</p>
+        <p xml:id="pl-l4d4c4-d1e184">Ratio etiam id suadet. Si enim parvulis non valentibus credere
+          sufficit baptismus, multo magis sufficit fides adultis volentibus, sed non valentibus
+          baptizari.</p>
+        <p xml:id="pl-l4d4c4-d1e187">Unde <name ref="#Augustine">Augustinus</name>: <quote
+          xml:id="pl-l4d4c4-Qd1e192"> Quaeris, quid sit maius: fides, an aqua; non dubito, quin
+          respondeam: fides. Si ergo quod minus est, sanctificare potest, nonne quod maius est, id
+          est fides ? de qua Christus ait: Qui crediderit in me, etiam si mortuus fuerit,
+          vivet</quote>.</p>
+        <p xml:id="pl-l4d4c4-d1e196">Sed dicunt aliqui, nullum adultum in Christum credere vel
+          caritatem habere sine baptismo, nisi sanguinem fundat pro Domino, subdita inducentes
+          testimonia.</p>
+        <p xml:id="pl-l4d4c4-d1e199"> <name ref="#Augustine">Augustinus</name> ait: <quote
+          xml:id="pl-l4d4c4-Qd1e204">Ex illo tempore, quo Salvator dixit: Nisi quis renatus fuerit,
+          etc., absque Sacramento baptismi, praeter eos qui in Ecclesia sanguinem fundunt, aliquis
+          vitam aeternam accipere non potest </quote>.</p>
+        <p xml:id="pl-l4d4c4-d1e209">Item: <quote xml:id="pl-l4d4c4-Qd1e211">Nullum catechumenum,
+          quamvis in bonis operi bus defunctum, vitam aeternam habere credimus, excepto martyrio,
+          ubi baptismi tota Sacramenta complentur </quote>.</p>
+        <p xml:id="pl-l4d4c4-d1e215">Item : <quote xml:id="pl-l4d4c4-Qd1e217">Baptizatis lanium iter
+          esse salutis credimus</quote>.</p>
+        <p xml:id="pl-l4d4c4-d1e221">Sed quod in his minus dixit, in aliis capitulis supra positis
+          supplevit; et ideo haec sic intelligenda sunt, ut soli habentes tempus excipiantur. Si
+          enim aliquis habens fidem et caritatem voluerit baptizari et non potest, necessitate
+          praeventus, supplet Omnipotentis benignitas quod Sacramento defuerat. Dum enim solvere
+          potest, nisi solvat, tenetur; sed cum iam non potest, et tamen vult, non imputat ei Deus,
+          qui suam potentiam Sacramentis non alligavit.</p>
+        <p xml:id="pl-l4d4c4-d1e224">Quod vero invisibilis sanctificatio sine visibili Sacramento
+          quibusdam insit, aperte <name ref="#Augustine">Augustinus</name> Super Leviticum tradit
+          dicens, <quote xml:id="pl-l4d4c4-Qd1e229"> invisibilem sanctificationem quibusdam affuisse
+          et profuisse sine visibilibus Sacramentis; visibilem vero sanctificationem, quae fit
+          Sacramento visibili, sine invisibili posse adesse, non posse prodesse. Nec tamen visibile
+          Sacramentum ideo contemnendum, quia contemptor eius invisibiliter sanctificari non potest.
+          Hinc Cornelius et qui cum eo erant, iam Spiritu sanctificati, baptizati sunt; nec
+          superflua indicata est visibilis sanctificatio, quia invisibilis praecessit. Sine visibili
+          ergo invisibilis sanctificatio esse potest, et prodesse; visibilis autem, quae fit
+          Sacramento tenus, sine invisibili prodesse non potest, cum ista sit omnis illius utilitas.
+          Simoni Mago visibilis baptismus non profuit, quia invisibilis non affuit; sed quibus
+          invisibilis affuit, profuit</quote>.</p>
+        <p xml:id="pl-l4d4c4-d1e233">Nec tantum valet fides aliena parvulo, quantum propria adulto.
+          Parvulis enim non sufficit fides Ecclesiae sine Sacramento, qui si absque baptismo fuerint
+          defuncti, etiam cum deferuntur ad baptismum, damnabuntur, sicut multis Sanctorum
+          testimoniis comprobatur.</p>
+        <p xml:id="pl-l4d4c4-d1e236">Ad quod hoc unum sufficiat Augustini: <quote
+          xml:id="pl-l4d4c4-Qd1e238">Firmissime tene, parvulos, qui vel in uteris matrum vivere
+          incipiunt et ibi moriuntur, vel de matribus nati sine Sacramento baptismi de hoc saeculo
+          transeunt, aeterno supplicio puniendos, quia, etsi peccatum propriae actionis non
+          habuerunt, originale tamen peccatum carnali conceptione traxerunt </quote>.</p>
+        <p xml:id="pl-l4d4c4-d1e243">Et sicut parvuli, qui sine baptismo moriuntur, numero
+          infidelium adscribuntur, ita qui baptizantur fideles vocantur, qui a fidelium consortio
+          non separantur, cum orat Ecclesia pro fidelibus defunctis. Fideles igitur sunt non propter
+          virtutem, sed fidei Sacramentum.</p>
+        <p xml:id="pl-l4d4c4-d1e246">Unde <name ref="#Augustine">Augustinus</name>: <quote
+          xml:id="pl-l4d4c4-Qd1e251">Parvulum, etsi nondum fides illa, quae in credentium voluntate
+          consistit, iam tamen ipsius fidei Sacramentum, id est baptismus, fidelem facit; sicut
+          credere respondetur, ita etiam fidelis vocatur, non rem ipsam mente annuendo, sed ipsius
+          rei Sacramentum percipiendo </quote>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

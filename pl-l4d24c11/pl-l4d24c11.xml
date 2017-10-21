@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CAP. XI</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev"> <title>CAP. XI</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority> <ref>SCTA</ref> </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l4d24c11">
+        <head xml:id="pl-l4d24c11-Hd1e109">CAP. XI</head>
+        <head xml:id="pl-l4d24c11-Hd1e112" type="question-title">De presbyteris.</head>
+        <p xml:id="pl-l4d24c11-d1e115">Septimus est ordo presbyterorum.</p>
+        <p xml:id="pl-l4d24c11-d1e118"> <quote xml:id="pl-l4d24c11-Qd1e120"> Presbyter Graece,
+          senior interpetratur Latine. Non modo pro aetate vel decrepita senectute, sed propter
+          honorem et dignitatem, quam acceperunt, presbyteri nominantur </quote>; <quote
+          xml:id="pl-l4d24c11-Qd1e123"> qui morum prudentia et maturitate conversationis praecellere
+          debent in populo, sicut scriptum est: <quote xml:id="pl-l4d24c11-Qd1e125">Senectus
+          venerabilis est, non diuturna neque annorum numero computata. Cani enim sunt sensus
+          hominis, et aetas senectutis vita immaculata</quote> </quote>.</p>
+        <p xml:id="pl-l4d24c11-d1e130"> <quote xml:id="pl-l4d24c11-Qd1e132"> Ideo autem et
+          presbyteri sacerdotes vocantur, quia sacrum dant; qui, licet sint sacerdotes, tamen
+          pontificatus apicem non habent, sicut episcopi, quia nec chrismate frontem signant, nec
+          Paraclitum dant, quod solis deberi episcopis, lectio Actuum Apostolorum demonstrat
+          </quote>. Unde et apud veteres iidem episcopi et presbyteri fuerunt, quia illud nomen est
+          dignitatis, non aetatis. <quote xml:id="pl-l4d24c11-Qd1e135"> Sacerdos nomen habet
+          compositum ex Graeco et Latino, qui est sacrum dans, sive sacer dux. Sicut enim rex a
+          regendo, ita sacerdos a sanctificando vocatus est: consecrat enim et sanctificat. Antistes
+          sacerdos dictus est ab eo, quod ante stat: primus est enim in ordine Ecclesiae
+          </quote>.</p>
+        <p xml:id="pl-l4d24c11-d1e140"> <quote xml:id="pl-l4d24c11-Qd1e142"> Ad presbyterum autem
+          pertinet Sacramentum corporis et sanguinis Domini in altari Dei conficere, orationes
+          dicere, et dona Dei benedicere </quote>.</p>
+        <p xml:id="pl-l4d24c11-d1e146"> Qui cum ordinatur, inunguntur ei manus, ut intelligat se
+          accepisse gratiam consecrandi, et caritatis opera debere ad omnes extendere. Accipit et
+          stolam, quae tenet utrumque latus, quia debet esse munitus armis iustitiae contra adversa
+          et prospera. Accipit etiam calicem cum vino et patenam cum hostiis, ut per hoc sciat se
+          accepisse potestatem <quote xml:id="pl-l4d24c11-Qd1e148">placabiles Deo hostias</quote>
+          offerendi.</p>
+        <p xml:id="pl-l4d24c11-d1e152">Hic ordo a filiis Aaron sumsit initium. Summos enim
+          pontifices et minores sacerdotes instituit Deus per Moyseu, qui ex praecepto Dei Aaron in
+          summum sacerdotem filios vero eius unxit in minores sacerdotes .</p>
+        <p xml:id="pl-l4d24c11-d1e155">Christus quoque <quote xml:id="pl-l4d24c11-Qd1e157">elegii
+          duodecim discipulos</quote> prius, <quote xml:id="pl-l4d24c11-Qd1e160">quos et Apostolos
+          vocavit;</quote> quorum vicem gerunt in Ecclesia maiores pontifices. Deinde <quote
+          xml:id="pl-l4d24c11-Qd1e163">alios septuaginta duos discipulos designavit; </quote>quorum
+          vicem in Ecclesia tenent presbyteri. Unus autem inter Apostolos princeps exstitit Petrus,
+          cuius vicarius et successor est Pontifex Summus, unde dicitur Apostolicus, qui et Papa
+          vocatur, scilicet Paler patrum. Qualis autem eligi debeat presbyter, <name ref="Paul"
+          >Apostolus</name> scribens Timotheo ostendit, ubi nomine episcopi presbyterum
+          significat.</p>
+        <p xml:id="pl-l4d24c11-d1e170">Hoc autem officio usus est Christus, cum <quote
+          xml:id="pl-l4d24c11-Qd1e172">se ipsum in ara crucis obtulit</quote>, idem sacerdos et
+          hostia, et quando post coenam panem et vinum in corpus suum et sanguinem commutavit.</p>
+        <p xml:id="pl-l4d24c11-d1e176">Ecce de septem Ecclesiae gradibus breviter elocuti, quid ad
+          quemque pertineat, insinuavimus.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

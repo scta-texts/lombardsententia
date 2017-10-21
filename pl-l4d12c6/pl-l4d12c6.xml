@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CAP. VI</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev"> <title>CAP. VI</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority> <ref>SCTA</ref> </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l4d12c6">
+        <head xml:id="pl-l4d12c6-Hd1e109">CAP. VI</head>
+        <head xml:id="pl-l4d12c6-Hd1e112" type="question-title">De causa institutionis.</head>
+        <p xml:id="pl-l4d12c6-d1e115">Institutum est enim hoc Sacramentum duabus de causis: in
+          augmentum virtutis, scilicet caritatis, et in medicinam quotidianae infirmitatis.</p>
+        <p xml:id="pl-l4d12c6-d1e118">Unde <name ref="#Ambrose">Ambrosius</name>: <quote
+          xml:id="pl-l4d12c6-Qd1e123">Si quoties effunditur sanguis Christi , in remissionem
+          peccatorum effunditur, debeo semper accipere, qui semper pecco, debeo semper habere
+          medicinam </quote>.</p>
+        <p xml:id="pl-l4d12c6-d1e127">Item <name ref="#Augustine">Augustinus</name>: <quote
+          xml:id="pl-l4d12c6-Qd1e132"> Iteratur quotidie haec oblatio, licet Christus semel passus
+          sil, quia quotidie peccamus peccatis, sine quibus mortalis infirmitas vivere non potest.
+          Et quia quotidie labimur, quotidie Christus pro nobis mystice immolatur</quote>. <quote
+          xml:id="pl-l4d12c6-Qd1e135">Dedit enim nobis hoc Sacramentum salutis, ut quia nos quotidie
+          peccamus, et ille iam mori non potest, per hoc Sacramentum remissionem consequamur.
+          Quotidie comeditur ipse et bibitur in veritate, sed integer et vivus manet </quote>.</p>
+        <p xml:id="pl-l4d12c6-d1e140">Item: <quote xml:id="pl-l4d12c6-Qd1e142">Mysterium fidei
+          dicitur, quia credere debes quod ibi salus nostra consistat </quote>.</p>
+        <p xml:id="pl-l4d12c6-d1e146">Si autem quaeritur, utrum quotidie communicandum sit, audi,
+          quid inde tradit <name ref="#Augustine">Augustinus</name>: <quote
+          xml:id="pl-l4d12c6-Qd1e151">Quotidie, inquit, eucharistiam accipere nec laudo, nec
+          vitupero; omnibus tamen dominicis diebus communicandum hortor. Si tamen mens in affectu
+          peccandi est, gravari magis dico eucharistiae perceptione quam purificari. Et licet quis
+          peccato mordeatur, si peccandi tamen de cetero non habeat voluntatem et satisfaciat
+          lacrymis et orationibus, accedat securus; sed hoc de illo dico, quem mortalia peccata non
+          gravant</quote>.</p>
+        <p xml:id="pl-l4d12c6-d1e155"> <quote xml:id="pl-l4d12c6-Qd1e157"> Si non frequentius,
+          saltem ter in anno homines communicent, nisi quis forte criminalibus impediatur, in Pascha
+          scilicet et Pentecoste et Natali </quote>. <quote xml:id="pl-l4d12c6-Qd1e160"> Omnes
+          igitur communicent, qui noluerint ecclesiasticis carere liminibus</quote>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

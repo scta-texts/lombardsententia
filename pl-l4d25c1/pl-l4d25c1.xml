@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CAP. I</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev"> <title>CAP. I</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority> <ref>SCTA</ref> </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l4d25c1">
+        <head xml:id="pl-l4d25c1-Hd1e109">CAP. I</head>
+        <head xml:id="pl-l4d25c1-Hd1e112" type="question-title">De ordinatis ab haereticis.</head>
+        <p xml:id="pl-l4d25c1-d1e115">Solet quaeri, si haeretici ab Ecclesia praecisi et damnati
+          possint tradere sacros ordines, et si ab eis ordinati, redeuntes ad Ecclesiae unitatem,
+          debeant reordinari.</p>
+        <p xml:id="pl-l4d25c1-d1e118">Hanc quaestionem perplexam ac pene insolubilem faciunt
+          doctorum verba, qui plurimum dissentire videntur.</p>
+        <p xml:id="pl-l4d25c1-d1e121">Videntur enim quidam tradere, haereticos sacros ordines dare
+          non posse, nec illos qui ab eis ordinali videntur gratiam recipere.</p>
+        <p xml:id="pl-l4d25c1-d1e125">Dicit enim Innocentius: <quote xml:id="pl-l4d25c1-Qd1e127">
+          Arianornm clericos non videri suscipiendos cum sacerdotii vel ministerii alicuius
+          dignitate; quibus solum baptisma ratum esse permittit, quod <quote
+          xml:id="pl-l4d25c1-Qd1e129">in nomine Pa </quote>tris <quote xml:id="pl-l4d25c1-Qd1e132"
+          >et Filii et Spiritus sancti</quote> percipitur </quote>. Dicit etiam, eos <quote
+          xml:id="pl-l4d25c1-Qd1e136"> non posse dare Spiritum sanctum, quem amiserunt </quote> ; et
+          <quote xml:id="pl-l4d25c1-Qd1e139"> ordinatos ab haereticis caput habere vulneratum; et
+          eum qui honorem amisit, honorem dare non posse, nec illum aliquid accepisse, quoniam in
+          dante nihil erat, quod ille posset accipere </quote>. Tradit etiam, <quote
+          xml:id="pl-l4d25c1-Qd1e142"> venientibus ab haereticis per manus impositionem laicam
+          tantum [tribuendam communionem, nec ex his aliquem in clericatus honorem vel exiguum
+          subrogare</quote>.</p>
+        <p xml:id="pl-l4d25c1-d1e146"> <name ref="GregoryGreat">Gregorius</name> etiam dicit,
+          sacrilegam esse Arianorum consecrationem, cum ex eorum manu communio percipitur.</p>
+        <p xml:id="pl-l4d25c1-d1e152">Cyprianus etiam dicit, omnia quaecumque faciunt haeretici,
+          carnalia, inania et sacrilega esse, et eorum <quote xml:id="pl-l4d25c1-Qd1e154"> altaria
+          falsa et illicita, sacerdotia et sacrificia sacrilega </quote>, qui <quote
+          xml:id="pl-l4d25c1-Qd1e157"> more simiarum, quae cum homines non sint, formam imitantur
+          humanam, vultum Ecclesiae catholicae et auctoritatem sibi vindicant, cum ipsi in Ecclesia
+          [non sint </quote>; et cum sint sacrilegi, sacerdotium administrant et alitare ponunt ,
+          cum nec sacrificari oblatio illic possit ubi Spiritus sanctus non sit; nec cuiquam Dominus
+          per eius preces et orationes prosit, qui Deum ipse violavit.</p>
+        <p xml:id="pl-l4d25c1-d1e161"> <name ref="#Jerome">Hieronymus</name> quoque asserit, <quote
+          xml:id="pl-l4d25c1-Qd1e166">omnia quae offeruntur ab haereticis, contaminata esse in
+          conspectu Domini; quia, licet sancta videantur specie sui, tamen, qui contacta sunt ab
+          illo qui pollutus est, polluuntur omnia </quote>.</p>
+        <p xml:id="pl-l4d25c1-d1e170">Idem: <quote xml:id="pl-l4d25c1-Qd1e172"> Odit Deus sacrificia
+          haereticorum et a se proiicit; et quoties in nomine eius congregati fuerint, detestatur
+          foetorem eorum et claudit nares suas</quote>.</p>
+        <p xml:id="pl-l4d25c1-d1e176">Idem: <quote xml:id="pl-l4d25c1-Qd1e178">Illi offerunt panem
+          sacrilegum</quote>, etc.</p>
+        <p xml:id="pl-l4d25c1-d1e183">Leo etiam testatur, <quote xml:id="pl-l4d25c1-Qd1e185">extra
+          Ecclesiam nec rata esse sacerdotia, nec vera esse sacrificia </quote>.</p>
+        <p xml:id="pl-l4d25c1-d1e189">Idem etiam dicit: <quote xml:id="pl-l4d25c1-Qd1e191">Per
+          crudelissimam vesaniam in Alexandrina sede omnium Sacramentorum lumen exstinctum:
+          intercepta est sacrificii oblatio, defecit chrismatis sanctificatio et parricidalibus
+          manibus impiorum omnia se subtraxere mysteria</quote>.</p>
+        <p xml:id="pl-l4d25c1-d1e195">His aliisque testimoniis astrui videtur, Sacramenta
+          ecclesiastica, praecipue corporis et sanguinis, ordinationis et confirmationis, per
+          haereticos non posse ministrari.</p>
+        <p xml:id="pl-l4d25c1-d1e198">Econtra autem alii sentire videntur, quod ab haereticis etiam
+          praecisis sacri ordines, sicut et baptismus, tradi valeant; nec ab haereticis redeuntes,
+          qui illic ordinati sunt et baptizati, iterum ordinandi sunt, sicut nec baptizandi.</p>
+        <p xml:id="pl-l4d25c1-d1e201">Unde <name ref="#Augustine">Augustinus</name>: <quote
+          xml:id="pl-l4d25c1-Qd1e206">De haereticis etiam damnatis quod quidam dicunt: <quote
+          xml:id="pl-l4d25c1-Qd1e208"> baptisma quod accepit non amittit qui recedit ab Ecclesia;
+          ius dandi quod accepit amittit</quote>, multis modis apparet inaniter dici: primo quia
+          nulla ostenditur causa, cur ille qui illud baptisma amittere non potest, ius dandi possit
+          amittere. Utrumque enim Sacramentum est, et quadam consecratione utrumque homini datur,
+          illud, cum baptizatur, et illud, cum ordinatur. Ideo non licet in catholica Ecclesia
+          utrumque iterari. Nam si quando ex ipsa parte venientes, etiam praepositi, pro bono pacis,
+          correcto schismatis errore, suscepti sunt, et si visum est opus esse, ut eadem officia
+          gererent quae agebant, non sunt rursus ordinandi; sed sicut baptismus in eis, ita
+          ordinatio mansit integra, quia in praecisione fuerat vitium, quod unitate pacis est
+          correctum, non in Sacramentis, quae, ubicumque sunt, ipsa sunt. Et cum ipsi expedire
+          videtur Ecclesiae, ut praepositi eorum, venientes ad catholicam societatem, honores suos
+          ibi non administrent, non eis tamen ipsa ordinationis Sacramenta detrahuntur, sed super
+          eos manent; ideoque non eis manus imponitur, ne non homini, sed opsi Sacramento fiat
+          iniuria. Sicut autem in baptismo est, quod per eos dari possit, sic in ordinatione ius
+          dandi est: utrumque quidem ad perniciem suam. Sed aliud est non habere, aliud perniciose
+          habere, aliud salubriter habere</quote>.</p>
+        <p xml:id="pl-l4d25c1-d1e213">Idem: <quote xml:id="pl-l4d25c1-Qd1e215">De his qui ab unitate
+          Ecclesiae separati sunt, nulla iam quaestio est, quin habeant et dare possint; sed
+          perniciose habent pernicioseque dant, quia extra <quote xml:id="pl-l4d25c1-Qd1e217"
+          >vinculum pacis</quote> sunt. Neutri Sacramento facienda est iniuria. Sicut non recte
+          habet qui ab unilate recedit, sed tamen habet, et ideo redeunti non redditur; sic etiam
+          non recte dat qui ab unitate recedit, sed tamen dat; et ideo qui ab eo accipit, venienti
+          ad unitatem non iteratur</quote>.</p>
+        <p xml:id="pl-l4d25c1-d1e223">Idem : <quote xml:id="pl-l4d25c1-Qd1e225">Aliud est non habere
+          aliquid, aliud est non i ure habere vel illicite usurpare. Non igitur ideo non sunt
+          Sacramenta Christi et Ecclesiae, quia eis illicite utantur non modo haeretici, sed etiam
+          omnes impii; sed illi corrigendi sunt et puniendi, illa autem agnoscenda , et
+          veneranda</quote>.</p>
+        <p xml:id="pl-l4d25c1-d1e229">Item <name ref="GregoryGreat">Gregorius</name>: <quote
+          xml:id="pl-l4d25c1-Qd1e234">Quod dicitis, ut qui ordinati sunt iterum ordinentur, valde
+          ridiculosum est. Ut enim baptizatus semel, iterum baptizari non debet, ita qui consecratus
+          est semel, in eodem ordine non valet iterum consecrari </quote>.</p>
+        <p xml:id="pl-l4d25c1-d1e238">His aliisque auctoritatibus videtur asseri, in omnibus impiis,
+          etiam in haereticis praecisis et damnatis, Christi Sacramenta permanere cum iure dandi:
+          possunt enim dare, sed perniciose; et quibus dederint, non sunt iterum ordinandi. Quae
+          praemissis ex opposito obviare videntur.</p>
+        <p xml:id="pl-l4d25c1-d1e241">Haec autem quidam ita determinant. Dicant enim, haereticos,
+          accepta sacerdotali vel episcopali unctione, ab Ecclesia recedentes, baptismi quidem dandi
+          ius retinere, sed non habere facultatem tribuendi sacros ordines, vel consecrandi
+          dominicum corpus, postquam praecisi sunt et damnati ab Ecclesia; sicut degradatus
+          episcopus non habet potestatem largiendi sacros ordines, facultatem tamen baptizandi non
+          amisit.</p>
+        <p xml:id="pl-l4d25c1-d1e244">Quod vero <name ref="#Augustine">Augustinus</name> ait,
+          intelligunt dictum de haereticis, qui non sententia Ecclesiae, sed pravitate sensus sui a
+          fidei veritate ac doctrinae unitate divisi sunt; qui, licet tales sint, ius tamen
+          consecrandi et ordinandi habent. Et qui ab eis ordinantur ante manifestam praecisionem,
+          etiam si cum eis aperte exierint, et sententia Ecclesiae damnati fuerint, tamen si
+          redierint, iterum ordinandi non sunt. Et ubicumque legitur de ordinatis ab haereticis,
+          quod servatis eis ordinibus ministrare valeant, vel iterum ordinandi non sint, de
+          huiusmodi accipiendum dicunt. Nam postquam praecisi fuerint et damnati iudicio Ecclesiae,
+          ius ordinandi et consecrandi eis detractum asserunt, ut degradatis, vel
+          excommunicatis.</p>
+        <p xml:id="pl-l4d25c1-d1e250">Alii vero dicunt, Sacramenta ab haereticis et praecisis
+          secundum formam Ecclesiae celebrata vera esse et rata, quia recedentes ab Ecclesia ius
+          dandi et consecrandi non perdiderunt; ei qui sic ab haereticis ordinantur, cum redeunt,
+          iterum ordinandi non sunt. Quae vero ab haereticis aliter quam in Ecclesia fiunt, falsa
+          sunt et inania; et qui a talibus ordinari videntur non munus, sed vulnus accipiunt. Et
+          secundum hanc differentiam varie de his loquuntur doctores.</p>
+        <p xml:id="pl-l4d25c1-d1e254">Quidam vero dicunt, eadem Sacramenta ab haereticis praecisis
+          posse celebrari, quae a catholicis, si ah illis forma Ecclesiae servetur; et ab eis
+          celebrata vera esse et rata quantum ad se, quantum vero ad effectum falsa et inania et in
+          his qui male tractant, et in his qui male suscipiunt; ideo irrita et falsa, quia quod
+          promittunt et conferre creduntur, non tribuunt; damnanda etiam dicuntur, quia illicite
+          dantibus vel accipientibus sunt in iudicium; polluta etiam dicuntur, non quantum ad se,
+          sed propter indignam haereticorum tractationem. Ideo <name ref="GregoryGreat"
+          >Gregorius</name> communionem Arii vocat exsecrationem, et Innocentius, Bonosii
+          ordinationem damnationem, non quod ita in se sint, sed quia male dantes vel accipientes
+          tales facit; sicut etiam <name ref="#Jerome">Hieronymus</name> sacrificia eorum panem
+          luctus vocat, non quantum ad se, sed quantum ad effectum.</p>
+        <p xml:id="pl-l4d25c1-d1e263">Nonnulli vero tradunt, illos haereticos, qui in Ecclesia
+          ordinati sunt, ius ordinandi et consecrandi, etiam cum separati fuerint, habere; qui vero,
+          in schismate vel haeresi positi, ab eis ordinati et inuncti fuerint, illo iure carent,
+          ideoque, cum ordinare volunt, vulnus potius infigunt, quam gratiam conferant.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CAP. VIII</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev"> <title>CAP. VIII</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority> <ref>SCTA</ref> </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l4d21c8">
+        <head xml:id="pl-l4d21c8-Hd1e109">CAP. VIII</head>
+        <head xml:id="pl-l4d21c8-Hd1e112" type="question-title">Quod nemo debet confiteri peccatu,
+          quae non fecit.</head>
+        <p xml:id="pl-l4d21c8-d1e115">Sicut autem poenitens celare non debet peccatum, quia superbia
+          est, ita nec humilitatis causa fateri se reum illius quod se non commisisse noscit, quia
+          incauta est talis humilitas et peccatorem constituit.</p>
+        <p xml:id="pl-l4d21c8-d1e118">Unde <name ref="#Augustine">Augustinus</name>: <quote
+          xml:id="pl-l4d21c8-Qd1e123">Cum humilitatis causa mentiris, si non eras peccator antequam
+          mentireris, mentiendo efficeris quod vitaras . Veritas in te non est, nisi ita te dixeris
+          peccatorem, ut etiam esse cognoscas; veritas autem ipsa est, ut quod es, dicas. Nam
+          quomodo est veritas, ubi regnat falsitas </quote> ?</p>
+        <p xml:id="pl-l4d21c8-d1e127">De poena sacerdotis, qui peccata conflentis publicat.</p>
+        <p xml:id="pl-l4d21c8-d1e131">Caveat autem sacerdos, ne peccata poenitendum aliis prodat,
+          alioquin deponatur.</p>
+        <p xml:id="pl-l4d21c8-d1e134">Unde <name ref="GregoryGreat">Gregorius</name>: <quote
+          xml:id="pl-l4d21c8-Qd1e139">Sacerdos ante omnia caveat, ne de his qui ei confitentur
+          peccata sua, alicui recitet, non propinquis, non extraneis, nec, quod absit, pro aliquo
+          scandalo. Nam si hoc fecerit, deponatur et omnibus diebus vitae suae ignominiosus
+          peregrinando pergat</quote>.</p>
+        <p xml:id="pl-l4d21c8-d1e143"> <quote xml:id="pl-l4d21c8-Qd1e145"> Quod vero dictum est, ut
+          poenitens eligat sacerdotem scientem ligare et solvere, videtur contrarium ei quod in
+          canonibus reperitur, ut nemo scilicet alterius parochianum iudicare praesumat.</quote> </p>
+        <p xml:id="pl-l4d21c8-d1e149"> <quote xml:id="pl-l4d21c8-Qd1e151"> Sed aliud esi favore vel
+          odio proprium sacerdotem contemnere, quod canones prohibent, aliud caecum vitare, quod
+          Urbanus facere monet, ne, <quote xml:id="pl-l4d21c8-Qd1e153">si caecus caecum ducat, ambo
+          in foveam cadant</quote>. Ait enim: Placuit, ut nulli sacerdotum deinceps liceat quemlibet
+          commissum alteri sacerdoti ad poenitentiam suscipere, sine eius consensu cui se prius
+          commisit, nisi pro ignorantia illius cui prius confessus est. Qui vero contra hoc facere
+          lentaverit, gradus sui periculo subiacebit </quote>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

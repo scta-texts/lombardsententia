@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -14,18 +15,14 @@
         </respStmt>
       </titleStmt>
       <editionStmt>
-        <edition n="0.0.0-dev">
-          <title>Cap. I</title>
-          <date when="2017-10-21">October 21, 2017</date>
-        </edition>
+        <edition n="0.0.0-dev"> <title>Cap. I</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
       </editionStmt>
       <publicationStmt>
-        <authority>
-          <ref>SCTA</ref>
-        </authority>
+        <authority> <ref>SCTA</ref> </authority>
         <availability status="free">
-          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
-          </p>
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -35,7 +32,8 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -43,8 +41,7 @@
     </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2017-10-21" status="draft" n="0.0.0">
-          <p>Created file for the first time.</p>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
         </change>
       </listChange>
     </revisionDesc>
@@ -56,18 +53,76 @@
     <body>
       <div xml:id="pl-l3d30c1">
         <head xml:id="pl-l3d30c1-Hd1e109">Cap. I</head>
-        <head xml:id="pl-l3d30c1-Hd1e112" type="question-title">Si melius est diligere inimicos quam amicos.</head>
-        <p xml:id="pl-l3d30c1-d1e115">Hic solet quaeri, quid potius sil plurisque meriti, diligere amicos, an diligere inimicos.</p>
-        <p xml:id="pl-l3d30c1-d1e118">Sed haec comparatio implicita est. Si enim conferatur dilectio amicorum lanium, dilectioni amicorum et etiam inimicorum, perspicua est absolutio . Sed si in aliquo uno homine, qui diligit simul amicum et inimicum, quid horum potius sit, quaeratur, obscura est responsio, quia de motu mentis agitur, de quo non est nobis facile iudicium, an unus et idem motus sit erga amicum et inimicum, sed erga amicum intensior; an duo, unus erga inimicum, qui dicitur difficilior, alter erga amicum, qui videtur ferventior. Nec incongrue putatur melior qui est ferventior; vel si unus idemque est inde potior, ubi est ardentior, non improbe aestimatur.</p>
-        <p xml:id="pl-l3d30c1-d1e121">
-          <name ref="#Augustine">Augustinus</name> tamen sentire videtur, maius esse diligere inimicum quam amicum, qui perfectorum esse dicit diligere inimicos et benefacere eis; neque hoc a tanta multitudine impleri, quanta exauditur in oratione dominica, cum dicitur: <quote xml:id="pl-l3d30c1-Qd1e126">Dimitte nobis debita nostra , sicut et nos dimittimus debitoribus nostris.</quote> Illam enim sponsionem dicit a multis impleri, qui nondum diligunt inimicos. Ait enim sic: <!--<quote>-->Magnum est erga eum qui tibi nihil mali fecerit, esse benevolum et beneficum; illud mullo grandius et magnificentissimae bonitatis est, ut tuum quoque inimicum diligas, et ei qui libi malum vult, et si potest, facit, tu semper bonum velis faciasque quod possis, audiens dicentem lesum: <quote xml:id="pl-l3d30c1-Qd1e131">Diligite inimicos vestros, et benefacite his qui oderunt vos, et orate pro persequentibus et calumniantibus vos.</quote> Sed quoniam perfectorum filiorum Dei est istud, quo quidem se debet omnis fidelis extendere et humanum animum ad hunc effectum , orando Dominum  secumque agendo luctandoque, perducere; tamen, quia hoc tam magnum bonum tantae multitudinis non est, quantam credimus exaudiri, cum in oratione dicitur: <quote xml:id="pl-l3d30c1-Qd1e134">Dimitte nobis debita nostra, sicut et nos dimittimus debitoribus nostris,</quote> procul dubio verba sponsionis huius implentur, si homo, qui nondum ita profecit ut etiam diligat inimicum, tamen, quando rogatur ab homine qui peccavit in eum, ut ei dimittat, dimittit' ex corde; qui etiam sibi roganti vult dimitti, cum orat et dicit: <quote xml:id="pl-l3d30c1-Qd1e138">sicut et nos dimittimus debitoribus nostris</quote>.  Quicumque vero rogat hominem in quem peccavit, si peccato suo movetur ut roget, non est adhuc deputandus inimicus, ut eum diligere sit difficile, sicut erat quando inimicitias exercebat. Quisquis vero roganti et poenitenti non dimittit, non aestimet a Domino sua peccata dimitti; quia mentiri Veritas non potest, quae, cum docuisset orationem, hanc in ea sententiam positam commendavit dicens : <quote xml:id="pl-l3d30c1-Qd1e141">Si dimiseritis hominibus peccata eorum, dimittet et vobis Pater vester</quote> . <quote xml:id="pl-l3d30c1-Qd1e144">Si vero non dimiseritis, nec Pater vester dimittet vobis peccata vestra</quote>
-        </p>
-        <p xml:id="pl-l3d30c1-d1e149">Ecce hinc haberi videtur, quod praetaxavimus, scilicet maioris virtutis esse diligere inimicum et benefacere ei, quam illum qui nihil mali nobis fecit, vel amicum.</p>
-        <p xml:id="pl-l3d30c1-d1e152">Quod si quis concedere simpliciter noluerit dicens: diligitur intensius amicus quam inimicus, et ideo illud potius isto; determinet ista secundum praemissam intelligentiam dicens, ibi comparationem factam inter dilectionem, qua tantum diligitur amicus, et illam qua amicus et inimicus diligitur.</p>
-        <p xml:id="pl-l3d30c1-d1e155">Illud vero, quod sequitur, magis nos movet, quod scilicet dicit, <!--<quote>--> non esse tantae multitudinis diligere inimicos, quanta exauditur, cum dicitur: <quote xml:id="pl-l3d30c1-Qd1e159">Dimitte nobis</quote>, etc., ubi dat intelligi, quod alicui a Deo dimittantur peccata non diligenti inimicum, si tamen fratri roganti, qui in se peccavit, dimittit. Sed cum peccata non dimittantur alicui adulto, nisi caritatem habeat, sequitur ut caritatem habeat qui non diligit inimicum. Quomodo ergo nomine proximi omnis homo intelligitur in illo mandato: <quote xml:id="pl-l3d30c1-Qd1e162">Diliges proximum tuum sicut te ipsum?</quote> Si enim omnis homo proximus est, tunc inimicus; praecipimur ergo inimicos diligere. Et quia illud praeceptum generale est, omnibus praecipitur omnes homines diligere, etiam inimicos .</p>
-        <p xml:id="pl-l3d30c1-d1e166">Quidam quod hic dicitur simpliciter tenere volentes, illud praeceptum determinant dicentes, illic perfectis dari in praeceptum diligere omnem hominem, etiam inimicum; minoribus vero in consilium, in praeceptum vero eos diligere, qui nihil mali fecerunt eis, et inimicos non odire.</p>
-        <p xml:id="pl-l3d30c1-d1e169">Sed melius est, ut intelligatur, omnibus illo mandato praecipi cunctos diligere, etiam inimicos; cui sensui attestantur superius positae auctoritates, et aliae mullae.</p>
-        <p xml:id="pl-l3d30c1-d1e172">Illud vero Augustini novissime positum, de perfecta caritate dictum intelligitur, quae tantum perfectorum est, qui non solum amicos sed etiam inimicos perfecte diligunt eisque benefaciunt; quae perfectio dilectionis non est tantae multitudinis, quanta exauditur in oratione dominica. Et hoc re vera grande est et eximiae bonitatis, scilicet perfecte diligere inimicum; ita et cum dicit: <quote xml:id="pl-l3d30c1-Qd1e174">impleri verba illius sponsionis ab homine, qui non ita profecit ut diligat inimicum</quote>, de dilectione perfecta accipiendum est .</p>
+        <head xml:id="pl-l3d30c1-Hd1e112" type="question-title">Si melius est diligere inimicos quam
+          amicos.</head>
+        <p xml:id="pl-l3d30c1-d1e115">Hic solet quaeri, quid potius sil plurisque meriti, diligere
+          amicos, an diligere inimicos.</p>
+        <p xml:id="pl-l3d30c1-d1e118">Sed haec comparatio implicita est. Si enim conferatur dilectio
+          amicorum lanium, dilectioni amicorum et etiam inimicorum, perspicua est absolutio . Sed si
+          in aliquo uno homine, qui diligit simul amicum et inimicum, quid horum potius sit,
+          quaeratur, obscura est responsio, quia de motu mentis agitur, de quo non est nobis facile
+          iudicium, an unus et idem motus sit erga amicum et inimicum, sed erga amicum intensior; an
+          duo, unus erga inimicum, qui dicitur difficilior, alter erga amicum, qui videtur
+          ferventior. Nec incongrue putatur melior qui est ferventior; vel si unus idemque est inde
+          potior, ubi est ardentior, non improbe aestimatur.</p>
+        <p xml:id="pl-l3d30c1-d1e121"> <name ref="#Augustine">Augustinus</name> tamen sentire
+          videtur, maius esse diligere inimicum quam amicum, qui perfectorum esse dicit diligere
+          inimicos et benefacere eis; neque hoc a tanta multitudine impleri, quanta exauditur in
+          oratione dominica, cum dicitur: <quote xml:id="pl-l3d30c1-Qd1e126">Dimitte nobis debita
+          nostra , sicut et nos dimittimus debitoribus nostris.</quote> Illam enim sponsionem dicit
+          a multis impleri, qui nondum diligunt inimicos. Ait enim sic: <!--<quote>-->Magnum est
+          erga eum qui tibi nihil mali fecerit, esse benevolum et beneficum; illud mullo grandius et
+          magnificentissimae bonitatis est, ut tuum quoque inimicum diligas, et ei qui libi malum
+          vult, et si potest, facit, tu semper bonum velis faciasque quod possis, audiens dicentem
+          lesum: <quote xml:id="pl-l3d30c1-Qd1e131">Diligite inimicos vestros, et benefacite his qui
+          oderunt vos, et orate pro persequentibus et calumniantibus vos.</quote> Sed quoniam
+          perfectorum filiorum Dei est istud, quo quidem se debet omnis fidelis extendere et humanum
+          animum ad hunc effectum , orando Dominum secumque agendo luctandoque, perducere; tamen,
+          quia hoc tam magnum bonum tantae multitudinis non est, quantam credimus exaudiri, cum in
+          oratione dicitur: <quote xml:id="pl-l3d30c1-Qd1e134">Dimitte nobis debita nostra, sicut et
+          nos dimittimus debitoribus nostris,</quote> procul dubio verba sponsionis huius implentur,
+          si homo, qui nondum ita profecit ut etiam diligat inimicum, tamen, quando rogatur ab
+          homine qui peccavit in eum, ut ei dimittat, dimittit' ex corde; qui etiam sibi roganti
+          vult dimitti, cum orat et dicit: <quote xml:id="pl-l3d30c1-Qd1e138">sicut et nos
+          dimittimus debitoribus nostris</quote>. Quicumque vero rogat hominem in quem peccavit, si
+          peccato suo movetur ut roget, non est adhuc deputandus inimicus, ut eum diligere sit
+          difficile, sicut erat quando inimicitias exercebat. Quisquis vero roganti et poenitenti
+          non dimittit, non aestimet a Domino sua peccata dimitti; quia mentiri Veritas non potest,
+          quae, cum docuisset orationem, hanc in ea sententiam positam commendavit dicens : <quote
+          xml:id="pl-l3d30c1-Qd1e141">Si dimiseritis hominibus peccata eorum, dimittet et vobis
+          Pater vester</quote> . <quote xml:id="pl-l3d30c1-Qd1e144">Si vero non dimiseritis, nec
+          Pater vester dimittet vobis peccata vestra</quote> </p>
+        <p xml:id="pl-l3d30c1-d1e149">Ecce hinc haberi videtur, quod praetaxavimus, scilicet maioris
+          virtutis esse diligere inimicum et benefacere ei, quam illum qui nihil mali nobis fecit,
+          vel amicum.</p>
+        <p xml:id="pl-l3d30c1-d1e152">Quod si quis concedere simpliciter noluerit dicens: diligitur
+          intensius amicus quam inimicus, et ideo illud potius isto; determinet ista secundum
+          praemissam intelligentiam dicens, ibi comparationem factam inter dilectionem, qua tantum
+          diligitur amicus, et illam qua amicus et inimicus diligitur.</p>
+        <p xml:id="pl-l3d30c1-d1e155">Illud vero, quod sequitur, magis nos movet, quod scilicet
+          dicit, <!--<quote>--> non esse tantae multitudinis diligere inimicos, quanta exauditur,
+          cum dicitur: <quote xml:id="pl-l3d30c1-Qd1e159">Dimitte nobis</quote>, etc., ubi dat
+          intelligi, quod alicui a Deo dimittantur peccata non diligenti inimicum, si tamen fratri
+          roganti, qui in se peccavit, dimittit. Sed cum peccata non dimittantur alicui adulto, nisi
+          caritatem habeat, sequitur ut caritatem habeat qui non diligit inimicum. Quomodo ergo
+          nomine proximi omnis homo intelligitur in illo mandato: <quote xml:id="pl-l3d30c1-Qd1e162"
+          >Diliges proximum tuum sicut te ipsum?</quote> Si enim omnis homo proximus est, tunc
+          inimicus; praecipimur ergo inimicos diligere. Et quia illud praeceptum generale est,
+          omnibus praecipitur omnes homines diligere, etiam inimicos .</p>
+        <p xml:id="pl-l3d30c1-d1e166">Quidam quod hic dicitur simpliciter tenere volentes, illud
+          praeceptum determinant dicentes, illic perfectis dari in praeceptum diligere omnem
+          hominem, etiam inimicum; minoribus vero in consilium, in praeceptum vero eos diligere, qui
+          nihil mali fecerunt eis, et inimicos non odire.</p>
+        <p xml:id="pl-l3d30c1-d1e169">Sed melius est, ut intelligatur, omnibus illo mandato praecipi
+          cunctos diligere, etiam inimicos; cui sensui attestantur superius positae auctoritates, et
+          aliae mullae.</p>
+        <p xml:id="pl-l3d30c1-d1e172">Illud vero Augustini novissime positum, de perfecta caritate
+          dictum intelligitur, quae tantum perfectorum est, qui non solum amicos sed etiam inimicos
+          perfecte diligunt eisque benefaciunt; quae perfectio dilectionis non est tantae
+          multitudinis, quanta exauditur in oratione dominica. Et hoc re vera grande est et eximiae
+          bonitatis, scilicet perfecte diligere inimicum; ita et cum dicit: <quote
+          xml:id="pl-l3d30c1-Qd1e174">impleri verba illius sponsionis ab homine, qui non ita
+          profecit ut diligat inimicum</quote>, de dilectione perfecta accipiendum est .</p>
       </div>
     </body>
   </text>

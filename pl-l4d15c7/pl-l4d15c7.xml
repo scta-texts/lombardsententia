@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CAP. VII</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev"> <title>CAP. VII</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority> <ref>SCTA</ref> </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l4d15c7">
+        <head xml:id="pl-l4d15c7-Hd1e109">CAP. VII</head>
+        <p xml:id="pl-l4d15c7-d1e112">[Cap. VII]. Potest etiam accipi de operibus bonis, quae ab
+          aliquo fiunt, dum malus est, et in peccato mortali persistit vel ad tempus, vel usque in
+          finem; quae dicuntur remunerari a Deo et non dari oblivioni, non quia proficiant ad vitam
+          aeternam obtinendam, sed ad tolerabilius extremi indicii supplicium- sentiendum; sicut de
+          fide et ceteris, quae sine caritate habentur, <name ref="#Augustine">Augustinus</name>
+          ait: <quote xml:id="pl-l4d15c7-Qd1e117">Si quis non habens caritatem, quae pertinet ad
+          unitatem spiritus et vinculum pacis, quo Ecclesia connectitur, in aliquo schismate
+          constitutus, ne Christum neget, patitur tribulationes, famem, persecutionem, vel flammas,
+          vel bestias, vel ipsam crucem timore gehennae, nullo modo ista culpanda sunt, immo et hic
+          laudanda est patientia. Non enim dicere poterimus, melius ei fuisse, ut Christum negando
+          nihil eorum pateretur, quae passus est confitendo; sed aestimandum est , fortasse
+          tolerabilius ei futurum iudicium, quam si, Christum negando, nihil eorum pateretur, ut
+          illud quod ait <name ref="Paul">Apostolus</name>: Si tradidero corpus meum, ita ut ardeam,
+          caritatem autem non habuero, nihil mihi prodest, nihil prodesse intelligatur ad regnum
+          obtinendum, non ad extremi indicii tolerabilius supplicium subeundum </quote>.</p>
+        <p xml:id="pl-l4d15c7-d1e124">Et infra: <quote xml:id="pl-l4d15c7-Qd1e126"> Haec propter
+          caritatem dicta sunt, sine qua in nobis non potest esse vera poenitentia, quoniam in bonis
+          caritas Dei est, quae tolerat omnia </quote>.</p>
+        <p xml:id="pl-l4d15c7-d1e130">Ex bis ostenditur, bona, quae sine caritate fiunt, prodesse
+          quidem ad tolerabiliorem poenam sentiendam, sed non ad vitam obtinendam.</p>
+        <p xml:id="pl-l4d15c7-d1e133">Illa etiam, quae in caritate quis facit, si postea prolapsus
+          fuerit nec exsurrexerit, non esse in memoria Dei, Ezechiel dicit: Si averterit se iustus a
+          iustitia et fecerit iniquitatem, nunquid vivet? Omnes iustitiae eius, quas fecerat, non
+          recordabuntur; in peccato suo morietur, et non erunt in memoria iustitiae, quas fecit.</p>
+        <p xml:id="pl-l4d15c7-d1e137">In cuius loci expositione <name ref="GregoryGreat"
+          >Gregorius</name> ait: <quote xml:id="pl-l4d15c7-Qd1e142">Hoc nobis maxime considerandum
+          est, quia, cum mala committimus, sine causa ad memoriam transacta bona revocamus, quoniam
+          in perpetratione malorum nulla debet esse fiducia praeteritorum bonorum </quote>.</p>
+        <p xml:id="pl-l4d15c7-d1e146">lntelligendum est hic, ad vitam percipiendam bona praeterita
+          non dare fiduciam, etsi ad mitiorem poenam; alioquin praemissae auctoritati Augustini
+          obviaret. Et bona igitur sine caritate facta, quae comitatur mortalis culpa, quam non
+          delet sequens poenitentia, ad sensum mitioris poenae proficiunt, non ad vitae fructum.</p>
+        <p xml:id="pl-l4d15c7-d1e149">Salis arbitror illis esse responsum, qui asserunt, de uno
+          crimine poenitentiam agi et veniam praestari, alio in delectatione retento, vel per
+          confessionem non exposito.</p>
+        <p xml:id="pl-l4d15c7-d1e152">Qui non modo praemissis auctoritatibus confutantur, sed et
+          subditis.</p>
+        <p xml:id="pl-l4d15c7-d1e155">Ait enim <name ref="#Augustine">Augustinus</name>: <quote
+          xml:id="pl-l4d15c7-Qd1e160">Sunt plures, quos poenitet peccasse, sed tamen omnino
+          reservantes sibi quaedam, in quibus delectentur, non animadvertentes, Dominum simul mutum
+          et surdum a daemonio liberasse: per hoc docet nos nunquam nisi de omnibus sanari. Si enim
+          vellet peccata ex parte reservari, habentem daemonia septem, perficere potuit, sex
+          expulsis. Expulit autem septem, ut omnia crimina simul eiicieuda doceret. Legionem vero
+          daemonum ab alio eiiciens, nullum reliquit de omnibus, qui liberatum possideret,
+          ostendens, quod si etiam peccata sint mille, oportet de omnibus poenitere. Nunquam aliquem
+          sanavit Dominus, quem non omnino liberaverit. Totum enim hominem sanavit in Sabbato, quia
+          et corpus ab omni infirmitate, et animam ab omni contagione; indicans, poenitentem
+          oportere simul dolere de omni crimine: scio enim Dominum inimicum omni criminoso. Quomodo
+          ergo qui crimen reservat, de alio reciperet veniam? Sine amore Dei consequeretur veniam,
+          sine quo nemo unquam invenit gratiam: hostis enim Dei est, dum offendit perseveranter.
+          Quaedam enim impietas infidelitatis est ab illo qui iustus et iustitia est, dimidiam
+          sperare veniam: iam enim sine vera poenitentia inveniret gratiam. Poenitentia enim vera ad
+          baptismi puritatem conatur ducere. Recte enim poenitens, quidquid sordis post
+          purificationem contraxit, oportet ut abluat saltem lacrymis mentis; sed satis durus est
+          cuius mentis dolorem oculi non declarant. Sed sciat, se culpabiliter durum, qui deflet
+          damna temporis vel mortem amici, et dolorem peccati non ostendit in lacrymis. Quem ergo
+          poenitet, omnino poeniteat </quote>.</p>
+        <p xml:id="pl-l4d15c7-d1e164">Idem: <quote xml:id="pl-l4d15c7-Qd1e166"> Poenitentes, si vere
+          estis poenitentes, et non estis irridentes, mutate vitam, reconciliamini Deo! Poenitentiam
+          agis, genua figis, et rides, subsannans patientiam Dei. Si poenitentiam agis, poenitet; si
+          non poenitet, non poenitens es. Si ergo poenitet, cur facis quae male fecisti? Si fecisse
+          poenitet, noli facere; si adhuc facis, certe non es poenitens</quote>.</p>
+        <p xml:id="pl-l4d15c7-d1e171">Item Innocentius II: <quote xml:id="pl-l4d15c7-Qd1e173">
+          Admonemus fratres nostros, ne falsis poenitentiis laicorum animas decipi et in infernum
+          pertrahi patiantur. Falsam autem poenitentiam esse constat, cum, spretis pluribus, de uno
+          solo poenitentia agitur; vel cum sic agitur de uno, ut non discedatur ab alio
+          </quote>.</p>
+        <p xml:id="pl-l4d15c7-d1e177">Ex praemissis perspicua fit notitia verae poenitentiae et
+          satisfactionis.</p>
+        <p xml:id="pl-l4d15c7-d1e180">Illa enim vera est poenitentia quae peccatum abolet; quod illa
+          sola facit, quae scelus corrigit; illa vero scelus corrigit, quae odium commissi criminis
+          et committendi cum desiderio satisfaciendi affert.</p>
+        <p xml:id="pl-l4d15c7-d1e183">ludas enim poenituisse legitur sine assecutione veniae, quia
+          tali poenitentia non corrigit crimen.</p>
+        <p xml:id="pl-l4d15c7-d1e186">Unde <name ref="#Jerome">Hieronymus</name>: <quote
+          xml:id="pl-l4d15c7-Qd1e191">Nihil Indae profuit egisse poenitentiam, per quam scelus
+          corrigere non potuit. Si quando frater sic peccat in fratrem, ut emendare non valeat quod
+          peccavit, potest ei dimitti; sin autem permanent opera, frustra voce assumitur
+          poenitentia; hoc est quod de eo dicitur: Et oratio eius fiat in peccatum; ut non solum
+          emendare nequiverit proditionis nefas, sed proprii homicidii scelus addiderit</quote>.</p>
+        <p xml:id="pl-l4d15c7-d1e195">Cave, qualiter intelligas illud: <quote
+          xml:id="pl-l4d15c7-Qd1e197">Ut emendare non valeat quod peccavit </quote>, etc. Non enim
+          emendatio hic intelligenda est rei demptae recompensatio, sed delicti exprobratio et
+          abominatio cum satisfactionis desiderio. Demit enim iniuste quis alicui quod restituere
+          non valet, ut oculum vel vitam et huiusmodi; et tamen, si poenituerit peccati, cum amore
+          condignae satisfactionis, veniam habet. Nec ideo quisquam putet, qui rem alienam iniuste
+          abstulit, quam reddere potest, de illo peccato poenitere ac veniam consequi, nisi
+          restituat ablatum. <quote xml:id="pl-l4d15c7-Qd1e200"> Quamdiu enim res, propter quam
+          peccatum est, non redditur, si reddi potest, non agitur poenitentia, sed fingitur
+          </quote>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

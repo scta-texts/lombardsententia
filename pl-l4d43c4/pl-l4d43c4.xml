@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -14,18 +15,14 @@
         </respStmt>
       </titleStmt>
       <editionStmt>
-        <edition n="0.0.0-dev">
-          <title>CAP. IV</title>
-          <date when="2017-10-21">October 21, 2017</date>
-        </edition>
+        <edition n="0.0.0-dev"> <title>CAP. IV</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
       </editionStmt>
       <publicationStmt>
-        <authority>
-          <ref>SCTA</ref>
-        </authority>
+        <authority> <ref>SCTA</ref> </authority>
         <availability status="free">
-          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
-          </p>
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -35,7 +32,8 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -43,8 +41,7 @@
     </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2017-10-21" status="draft" n="0.0.0">
-          <p>Created file for the first time.</p>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
         </change>
       </listChange>
     </revisionDesc>
@@ -56,11 +53,21 @@
     <body>
       <div xml:id="pl-l4d43c4">
         <head xml:id="pl-l4d43c4-Hd1e109">CAP. IV</head>
-        <head xml:id="pl-l4d43c4-Hd1e112" type="question-title">De libris qui tunc aperientur.</head>
-        <p xml:id="pl-l4d43c4-d1e115">Pluribus etiam locis contestantur auctores, quod adventus Christi dicitur <quote xml:id="pl-l4d43c4-Qd1e117">dies Domini,</quote> non pro qualitate temporis, sed rerum, quia tunc cogitationes et consilia singulorum patebunt.</p>
-        <p xml:id="pl-l4d43c4-d1e121">Unde in Daniele: <quote xml:id="pl-l4d43c4-Qd1e123">Vetustus dierum sedit, et libri aperti sunt</quote> coram eo. Libri sunt conscientiae singulorum, quae tunc aperientur aliis. Et tunc implebitur: <quote xml:id="pl-l4d43c4-Qd1e126">Nihil occultum, quod non reveletur.</quote> Adveniente enim summo Iudice non solum tenebrae aeris illuminabuntur, sed etiam <quote xml:id="pl-l4d43c4-Qd1e129">abscondita cor dium manifestabuntur</quote>.</p>
-        <p xml:id="pl-l4d43c4-d1e133">
-          <quote xml:id="pl-l4d43c4-Qd1e135"> Virtute igitur divina fiet, ut cuique opera sua, bona vel mala, cuncta in memoriam revocentur et mentis intuitu mira celeritate cernantur; ut accuset vel excuset hominem conscientia, eaque teste salvetur vel damnetur</quote>.</p>
+        <head xml:id="pl-l4d43c4-Hd1e112" type="question-title">De libris qui tunc
+          aperientur.</head>
+        <p xml:id="pl-l4d43c4-d1e115">Pluribus etiam locis contestantur auctores, quod adventus
+          Christi dicitur <quote xml:id="pl-l4d43c4-Qd1e117">dies Domini,</quote> non pro qualitate
+          temporis, sed rerum, quia tunc cogitationes et consilia singulorum patebunt.</p>
+        <p xml:id="pl-l4d43c4-d1e121">Unde in Daniele: <quote xml:id="pl-l4d43c4-Qd1e123">Vetustus
+          dierum sedit, et libri aperti sunt</quote> coram eo. Libri sunt conscientiae singulorum,
+          quae tunc aperientur aliis. Et tunc implebitur: <quote xml:id="pl-l4d43c4-Qd1e126">Nihil
+          occultum, quod non reveletur.</quote> Adveniente enim summo Iudice non solum tenebrae
+          aeris illuminabuntur, sed etiam <quote xml:id="pl-l4d43c4-Qd1e129">abscondita cor dium
+          manifestabuntur</quote>.</p>
+        <p xml:id="pl-l4d43c4-d1e133"> <quote xml:id="pl-l4d43c4-Qd1e135"> Virtute igitur divina
+          fiet, ut cuique opera sua, bona vel mala, cuncta in memoriam revocentur et mentis intuitu
+          mira celeritate cernantur; ut accuset vel excuset hominem conscientia, eaque teste
+          salvetur vel damnetur</quote>.</p>
       </div>
     </body>
   </text>

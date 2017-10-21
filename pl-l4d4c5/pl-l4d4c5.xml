@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CAP. V</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev"> <title>CAP. V</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority> <ref>SCTA</ref> </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l4d4c5">
+        <head xml:id="pl-l4d4c5-Hd1e109">CAP. V</head>
+        <head xml:id="pl-l4d4c5-Hd1e112" type="question-title">Quid prosit baptismus cum fide
+          accedentibus.</head>
+        <p xml:id="pl-l4d4c5-d1e115">Solet quaeri de illis qui iam sanctificati Spiritu cum fide et
+          caritate ad baptismum accedunt, quid eis conferat baptismus. Nihil enim videtur eis
+          praestare, cum per fidem et contritionem iam remissis peccatis, iustificati sint.</p>
+        <p xml:id="pl-l4d4c5-d1e118">Ad quod sane dici potest, eos quidem per fidem et contritionem
+          iustificatos, id est a macula peccati purgatos et a debito aeternae poenae absolutos,
+          tamen adhuc teneri satisfactione temporali, qua poenitentes ligantur in Ecclesia. Cum
+          autem baptismum percipiunt, et a peccatis, si qua inierim post conversionem contraxerunt,
+          mundantur et ab exteriori satisfactione absolvuntur, et gratia adiutrix omnisque virtus
+          augetur, ut vere novus homo tunc dici possit. Fomes quoque peccati in eo amplius
+          debilitatur.</p>
+        <p xml:id="pl-l4d4c5-d1e121">Ideo <name ref="#Jerome">Hieronymus</name> dicit quod fides
+          quae fideles facit, in aquis baptismi datur vel nutritur; quia non habenti aliquando ibi
+          datur, et iam habenti, ut plenius habeatur. Sic et de aliis intelligendum est.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

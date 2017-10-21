@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -14,18 +15,14 @@
         </respStmt>
       </titleStmt>
       <editionStmt>
-        <edition n="0.0.0-dev">
-          <title>CAP. III</title>
-          <date when="2017-10-21">October 21, 2017</date>
-        </edition>
+        <edition n="0.0.0-dev"> <title>CAP. III</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
       </editionStmt>
       <publicationStmt>
-        <authority>
-          <ref>SCTA</ref>
-        </authority>
+        <authority> <ref>SCTA</ref> </authority>
         <availability status="free">
-          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
-          </p>
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -35,7 +32,8 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -43,8 +41,7 @@
     </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2017-10-21" status="draft" n="0.0.0">
-          <p>Created file for the first time.</p>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
         </change>
       </listChange>
     </revisionDesc>
@@ -56,13 +53,41 @@
     <body>
       <div xml:id="pl-l4d38c3">
         <head xml:id="pl-l4d38c3-Hd1e109">CAP. III</head>
-        <head xml:id="pl-l4d38c3-Hd1e112" type="question-title">De illis qui post longam captivitatem redeunt.</head>
-        <p xml:id="pl-l4d38c3-d1e115">Hic quaeritur de illis feminis, quae putantes viros suos interemptos, in captivitate, vel ab iniqua dominatione nunquam liberandos, in aliorum coniugia transierunt, si illi qui putabantur periisse, remeaverint, utrum eis reddi debeant, et an secundi fornicarii sint, et ipsae reae adulterii.</p>
-        <p xml:id="pl-l4d38c3-d1e118">De hoc beo Papa ait: <quote xml:id="pl-l4d38c3-Qd1e120"> Necesse est, ut legitimarum foedera nuptiarum redintegranda credamus, et remotis his quae hostilitas intulit, cuique id legitime reformetur, quod intulit; procurandumque est, ut recipiat quisque quod proprium est. Nec tamen culpabilis indicetur et quasi alieni iuris pervasor habeatur qui personam eius mariti, qui iam non esse aestimabatur, assumsit. Sic enim multa, quae ad eos, qui in captivitatem ducti sunt, pertinebant, in ius alienum transire potuerunt; et tamen plenae iustitiae est, ut, eisdem reversis, reformentur. Ideoque, si viri, post longam captivitatem reversi, ita in dilectione suarum coniugum perseverant, ut eas cupiant in suum redire consortium, dimittendumest et inculpabile indicandum quod necessitas intulit, et restituendum quod fides poscit. Sin autem aliquae mulieres ita posteriorum virorum amore sunt captae, ut malint his cohaerere quam ad legitimum transire consortium, merito sunt notandae, ita ut ecclesiastica communione priventur, quae de re excusabili contaminationem criminis elegerunt. Redeant ergo in suum statum coniugia, quia, sicut mulieres, quae ad viros suos reverti noluerint, impiae sunt habendae, ita illae quae redeunt, merito sunt laudandae</quote>.</p>
-        <p xml:id="pl-l4d38c3-d1e124">Ex his ostenditur, illos qui taliter iunguntur, ut credant virum interemptum, per ignorantiam aliquam excusationem habere de peccato; et tantum primam copulam esse legitimam, non secundam; veniam tamen habere, si careat opprobrio malae voluntatis.</p>
-        <p xml:id="pl-l4d38c3-d1e128">Sed si quis, relicta uxore in patria sua, in longinquam abiens regionem, aliam ducat, deinde poenitentia ductus eam dimittere velit, asserens, se aliam habuisse, quae vivit, nec Ecclesia permittat, quae quod ille asserit ignorat; quaeritur, an in hac secunda copula sit coniugium.</p>
-        <p xml:id="pl-l4d38c3-d1e131">Sane dici potest, non esse coniugium, et mulierem de crimine excusari per ignorantiam, virum autem adulterium admisisse.</p>
-        <p xml:id="pl-l4d38c3-d1e134">Sed ex quo, ad primam redire volens nec valens, cogitur Ecclesiae disciplina hanc tenere, incipit excusari per obedientiam et timorem de hoc, quod poscenti mulieri debitum reddit, a qua ipse nunquam poscere debet. Et sic de aliis huiusmodi sentiendum est.</p>
+        <head xml:id="pl-l4d38c3-Hd1e112" type="question-title">De illis qui post longam
+          captivitatem redeunt.</head>
+        <p xml:id="pl-l4d38c3-d1e115">Hic quaeritur de illis feminis, quae putantes viros suos
+          interemptos, in captivitate, vel ab iniqua dominatione nunquam liberandos, in aliorum
+          coniugia transierunt, si illi qui putabantur periisse, remeaverint, utrum eis reddi
+          debeant, et an secundi fornicarii sint, et ipsae reae adulterii.</p>
+        <p xml:id="pl-l4d38c3-d1e118">De hoc beo Papa ait: <quote xml:id="pl-l4d38c3-Qd1e120">
+          Necesse est, ut legitimarum foedera nuptiarum redintegranda credamus, et remotis his quae
+          hostilitas intulit, cuique id legitime reformetur, quod intulit; procurandumque est, ut
+          recipiat quisque quod proprium est. Nec tamen culpabilis indicetur et quasi alieni iuris
+          pervasor habeatur qui personam eius mariti, qui iam non esse aestimabatur, assumsit. Sic
+          enim multa, quae ad eos, qui in captivitatem ducti sunt, pertinebant, in ius alienum
+          transire potuerunt; et tamen plenae iustitiae est, ut, eisdem reversis, reformentur.
+          Ideoque, si viri, post longam captivitatem reversi, ita in dilectione suarum coniugum
+          perseverant, ut eas cupiant in suum redire consortium, dimittendumest et inculpabile
+          indicandum quod necessitas intulit, et restituendum quod fides poscit. Sin autem aliquae
+          mulieres ita posteriorum virorum amore sunt captae, ut malint his cohaerere quam ad
+          legitimum transire consortium, merito sunt notandae, ita ut ecclesiastica communione
+          priventur, quae de re excusabili contaminationem criminis elegerunt. Redeant ergo in suum
+          statum coniugia, quia, sicut mulieres, quae ad viros suos reverti noluerint, impiae sunt
+          habendae, ita illae quae redeunt, merito sunt laudandae</quote>.</p>
+        <p xml:id="pl-l4d38c3-d1e124">Ex his ostenditur, illos qui taliter iunguntur, ut credant
+          virum interemptum, per ignorantiam aliquam excusationem habere de peccato; et tantum
+          primam copulam esse legitimam, non secundam; veniam tamen habere, si careat opprobrio
+          malae voluntatis.</p>
+        <p xml:id="pl-l4d38c3-d1e128">Sed si quis, relicta uxore in patria sua, in longinquam abiens
+          regionem, aliam ducat, deinde poenitentia ductus eam dimittere velit, asserens, se aliam
+          habuisse, quae vivit, nec Ecclesia permittat, quae quod ille asserit ignorat; quaeritur,
+          an in hac secunda copula sit coniugium.</p>
+        <p xml:id="pl-l4d38c3-d1e131">Sane dici potest, non esse coniugium, et mulierem de crimine
+          excusari per ignorantiam, virum autem adulterium admisisse.</p>
+        <p xml:id="pl-l4d38c3-d1e134">Sed ex quo, ad primam redire volens nec valens, cogitur
+          Ecclesiae disciplina hanc tenere, incipit excusari per obedientiam et timorem de hoc, quod
+          poscenti mulieri debitum reddit, a qua ipse nunquam poscere debet. Et sic de aliis
+          huiusmodi sentiendum est.</p>
       </div>
     </body>
   </text>

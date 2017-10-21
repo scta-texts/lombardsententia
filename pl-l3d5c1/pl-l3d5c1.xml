@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -14,19 +15,14 @@
         </respStmt>
       </titleStmt>
       <editionStmt>
-        <edition n="0.0.0-dev">
-          <title>Cap. I.</title>
-          <date when="2017-09-05">September 05, 2017</date>
-        </edition>
+        <edition n="0.0.0-dev"> <title>Cap. I.</title> <date when="2017-09-05">September 05,
+          2017</date> </edition>
       </editionStmt>
       <publicationStmt>
-        <authority>
-          <ref>SCTA</ref>
-        </authority>
+        <authority> <ref>SCTA</ref> </authority>
         <availability status="free">
           <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
-              Commons Attribution 4.0 International</ref>
-          </p>
+            Commons Attribution 4.0 International</ref> </p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -36,7 +32,8 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -44,8 +41,7 @@
     </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2017-09-05" status="draft" n="0.0.0">
-          <p>Created file for the first time.</p>
+        <change when="2017-09-05" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
         </change>
       </listChange>
     </revisionDesc>
@@ -57,116 +53,134 @@
     <body>
       <div xml:id="pl-l3d5c1">
         <head xml:id="pl-l3d5c1-Hd1e111">Cap. I.</head>
-        <head xml:id="pl-l3d5c1-Hd1e114" type="question-title"> Si persona vel natura personam vel naturam assumsit, et si
-          natura Dei incarnata sit.</head>
-        <p xml:id="pl-l3d5c1-d1e117"> Praeterea inquiri oportet, cum ex praemissis constet, Verbum Dei carnem et animam simul
-          assumsisse in unitatem personae, quid horum potius concedendum sit, scilicet quod persona
-          personam, vel natura naturam, vel persona naturam, vel natura personam assumserit; et an
-          ita conveniat dici, divinam naturam esse incar- natam, sicut Deus incarnalus et Verbum
-          incarnatum sane dicitur. </p>
-        <p xml:id="pl-l3d5c1-d1e120"> Haec inquisitio sive quaerendi ratio iuxta sacrarum auctoritatum testimonia partim
-          implicita atque perplexa, partim vero ex- plicita est et aperta. </p>
-        <p xml:id="pl-l3d5c1-d1e123"> Certum enim est et sine ambiguitate verum, quod non natura personam, nec persona
-          personam, sed persona naturam assumsit. </p>
-        <p xml:id="pl-l3d5c1-d1e127"> Quod Sanctorum subditis comprobatur testimoniis et astruitur documentis. </p>
-        <p xml:id="pl-l3d5c1-d1e130"> Ait enim <name ref="#Augustine">Augustinus</name> in libro <title>De fide ad
-            Petrum</title> : <quote xml:id="pl-l3d5c1-Qd1e138"> Deus unigenitus, dum conciperetur, veritatem carnis accepit ex
-            Virgine; et cum nasceretur, integritatem virginitatis servavit in Matre</quote>. Et
-          paulo post: <quote xml:id="pl-l3d5c1-Qd1e141">Hic Deus humanam naturam in unitatem personae suscepit, qui se
-            humilians per misericordiam, incorruptae Virginis uterum ex ea nasciturus implevit.
-              <quote xml:id="pl-l3d5c1-Qd1e143">Formam</quote> ergo <quote xml:id="pl-l3d5c1-Qd1e146">servi</quote>, id est naturam servi in suam accepit
-            Deus ille personam </quote>. </p>
-        <p xml:id="pl-l3d5c1-d1e151"> Item: <quote xml:id="pl-l3d5c1-Qd1e153"> Deus enim Verbum non accepit personam hominis, sed naturam </quote>. </p>
-        <p xml:id="pl-l3d5c1-d1e157"> Item : <quote xml:id="pl-l3d5c1-Qd1e159"> Dei Filius unigenitus, ut carnem hominis animamque mundaret, susceptione
-            carnis animaeque rationalis incarnatus est </quote>. </p>
-        <p xml:id="pl-l3d5c1-d1e163"> His aliisque pluribus auctoritatibus evidenter ostenditur, non naturam personam, nec
-          personam personam, sed personam naturam accepisse . </p>
-        <p xml:id="pl-l3d5c1-d1e166"> De quarto vero quaestionis articulo, utrum scilicet natura naturam assumserit,
-          scrupulosa etiam inter doctos quaestio est, quia et in hoc plurimum dissentire videntur,
-          qui auctoritate praeclari, aliisque doctores in sacra Pagina exstiterunt. Nec tantum alii
-          ab aliis, verum etiam iidem a se ipsis dissonare videntur, sicut subiecta capitula docent. </p>
-        <p xml:id="pl-l3d5c1-d1e170"> Legitur enim in Concilio Toletano octavo traditum sic: <quote xml:id="pl-l3d5c1-Qd1e172"> Solum <quote xml:id="pl-l3d5c1-Qd1e174">Verbum caro
-              facium est et habitavit in nobis;</quote> et cum tota Trinitas operata sit formationem
-            suscepti hominis — quoniam inseparabilia sunt opera Trinitatis — solus tamen Filius
-            accepit hominem in singularitatem personae, non in unitatem divinae naturae, id est, id
-            quod est proprium Filii, non quod commune est Trinitati </quote>. </p>
-        <p xml:id="pl-l3d5c1-d1e179"> Item in Concilio undecimo Toletano: <quote xml:id="pl-l3d5c1-Qd1e181">Unius substantiae credimus Deum Patrem et
-            Filium et Spiritum sanctum, non tamen dicimus, ut huius Trinitatis unitatem Maria Virgo
-            genuerit, sed tantum Filium, qui solus naturam nostram in unitatem personae suae
-            assumsit. Incarnationem quoque huius Filii Dei tota Trinitas operata esse credenda est;
-            solus tamen Filius formam servi accepit in singularitatem personae </quote>. </p>
-        <p xml:id="pl-l3d5c1-d1e185"> His insinuari videtur, quod persona tantum naturam, non natura naturam assumserit: si
-          enim quod commune est Trinitati non accepit hominem, ergo non natura divina, quae communis
-          est tri¬ bus personis. </p>
-        <p xml:id="pl-l3d5c1-d1e188"> Cui videtur obviare quod <name ref="#Augustine">Augustinus</name> ait in libro <title>De
-            fide ad Petrum</title> : <quote xml:id="pl-l3d5c1-Qd1e196"> Nec divinitas Christi, inquit, aliena est a natura
-            Patris, secundum id quod <quote xml:id="pl-l3d5c1-Qd1e198">in principio erat Verbum;</quote> nec humanitas eius
-            aliena est a natura Matris, secundum id quod <quote xml:id="pl-l3d5c1-Qd1e201">Verbum caro factum, est.</quote>
-            Illa enim natura, quae semper genita manet ex Patre, naturam nostram sine peccato
-            suscepit, ut nasceretur ex Virgine </quote>. </p>
-        <p xml:id="pl-l3d5c1-d1e206"> Hac auctoritate videtur tradi, quod divina natura humanam suscepit; ubi vehementer
-          moveri possumus, quod eam genitam aeternaliter ex Patre dicit, nisi forte naturam pro
-          persona hic ac¬ cipiat; alioquin, si dixerimus, naturam tribus personis communem genitam
-          esse, occurrunt nobis ex adverso quae in tractatu <title ref="#deTrinitate">De
-            Trinitate</title> disseruimus, ubi diximus, non naturam naturam, sed personam personam
-          genuisse; quia, si natura genuisset naturam, cum una eademque sit natura Trinitatis, eadem
-          res se ipsam genuisset; quod Augustinus posse fieri negat. </p>
-        <p xml:id="pl-l3d5c1-d1e212"> Sed alibi certum reperimus documentum, quo natura naturam assumsisse monstratur. </p>
-        <p xml:id="pl-l3d5c1-d1e216"> Ait enim <name ref="#Augustine">Augustinus</name> in libro I <title ref="#deTrinitate">De Trinitate</title>: <quote xml:id="pl-l3d5c1-Qd1e224" source="http://scta.info/resource/adt-l1">Etiam se ipso Christus minor factus est, <quote xml:id="pl-l3d5c1-Qd1e226">formam
-              servi accipiens.</quote> Neque enim sic accepit formam servi, ut amitteret formam Dei,
-            in qua erat aequalis Patri, ut in forma servi et in forma Dei idem ipse sit unigenitus
-            Filius Patris, quia forma Dei accepit formam servi </quote>. Si autem forma Dei formam
-          servi accepit, sine dubio natura naturam accepit. </p>
-        <p xml:id="pl-l3d5c1-d1e231"> Formae enim nomine natura significatur, ut <name ref="#Augustine">Augustinus</name>
-          evidenter docet in libro <quote xml:id="pl-l3d5c1-Qd1e236">De fide ad Petrum</quote>: <quote xml:id="pl-l3d5c1-Qd1e239"> Cum, inquit, de Christo
-            audis, quia in forma Dei erat, oportet te agnoscere firmissimeque tenere, in illo formae
-            nomine naturalem plenitudinem debere intelligi. In forma igitur Dei , erat, quia in
-            natura Dei Patris semper erat, de quo natus erat </quote>. </p>
-        <p xml:id="pl-l3d5c1-d1e243">
-          <name>Hilarius</name> quoque in libro XII <title>De Trinitate</title> ait: <quote xml:id="pl-l3d5c1-Qd1e251">Esse in
-            forma Dei non alia intelligentia est, quam in Dei manere natura</quote>. </p>
-        <p xml:id="pl-l3d5c1-d1e255"> Didicisti, nomine formae intelligentiam fieri naturae, et audisti, quod forma Dei formam
-          servi suscepit; unde consequens est, quod natura divina naturam humanam susceperit. </p>
-        <p xml:id="pl-l3d5c1-d1e258"> Quod etiam <name>Hieronymus</name> in <title>Explanatione fidei</title> evidenter
-          insinuat inquiens: <quote xml:id="pl-l3d5c1-Qd1e266"> Passus est Filius Dei non putative, sed vere; secundum illud
-            passus est, quod pati poterat, id est non secundum illam substantiam, quae assumsit, sed
-            secundum illam, quae assumta est</quote>. Ex quo apparet, divinam substantiam assumsisse
-          hu¬ manam. </p>
-        <p xml:id="pl-l3d5c1-d1e270"> Ex verbis autem <name>Augustini</name> superius positis, adhibita diligentia, innui
-          videtur, solum Verbum carnem factum, et naturam solum suscepisse humanam, et divinam
-          naturam eandem accepisse. Ait enim: <quote xml:id="pl-l3d5c1-Qd1e275">Trinitas nos sibi reconciliavit per hoc, quod
-            solum Verbum carnem ipsa Trinitas fecit. In quo sic veritas incommutabilis manet divinae
-            humanaeque naturae, ut sicut vera semper est eius divinitas, quam de Patre habet, ita
-            vera semper atque incommuta¬ bilis eius sit humanitas, quam sibi unitam summa divinitas
-            gerit </quote>. Ecce, et solum Verbum dixit carnem factum, et humanitatem divinitati
-          unitam. </p>
-        <p xml:id="pl-l3d5c1-d1e280"> Idem quoque superius dixit, <quote xml:id="pl-l3d5c1-Qd1e282"> servilem formam a solo Filio susceptam, quam tota
-            Trinitas fecit</quote>. </p>
-        <p xml:id="pl-l3d5c1-d1e286"> Iam facile est agnoscere, quam diversa et multiplicia super quaestione proposita
-          auctores tradiderunt; ideoque posteriores ea legentes varias atque contrarias, ex
-          praedictis occasionem sumentes, promunt sententias. </p>
-        <p xml:id="pl-l3d5c1-d1e289"> Nos autem omnis mendacii et contradictionis notam a sacris Paginis secludere cupientes,
-          orthodoxis Patribus atque catholicis doc- toribus, nulla pravae intelligentiae suspicione
-          notatis, consentimus dicentes, et personam Filii assumsisse naturam humanam, et naturam
-          divinam humanae naturae in Filio unitam, eamque sibi unisse vel assumsisse, unde et vere
-          incarnata dicitur. Quod vero dicitur solus Filius formam servi accepisse, per hoc non
-          excluditur divina natura ab acceptione servilis formae, sed aliae duae personae, Pater
-          scilicet et Spiritus sanctus. Item et illud aliud, scilicet <quote xml:id="pl-l3d5c1-Qd1e291">id quod est proprium
-            Filii, non quod commune est Trinitati, hominem ac¬ cepit</quote>, sic oportet intelligi,
-          id est, proprie in hypostasi Filii, non in tribus communiter personis, divina natura
-          humanam naturam sibi univit. </p>
-        <p xml:id="pl-l3d5c1-d1e295"> Qui sensus ex verbis <name>Ioannis Damasceni</name> confirmatur, qui totam divinam
-          naturam in una hypostaseon incarnatam esse, evidenter asserit, dicens: <quote xml:id="pl-l3d5c1-Qd1e300">In
-            humanatione Dei Verbi, aimus omnem et perfectam naturam deitatis in una eius hypostaseon
-            incarnatam esse, id est unitam humanae naturae, et non partem parti. Omni enim humanae
-            naturae, aimus unitam esse omnem deitatis naturam vel substantiam </quote>. </p>
-        <p xml:id="pl-l3d5c1-d1e304"> Item: <quote xml:id="pl-l3d5c1-Qd1e306"> Eadem est natura in singula hypostaseon, id est personarum; et quando
-            dicimus, naturam Verbi incarnatam esse, secundum beatos et <name>Athanasium</name> et
-              <name>Cyrillum</name>, deitatem dicimus esse unitam carni, et unam naturam Dei Verbi
-            incarnatam confitemur. Verbum autem et quod- commune est substantiae possidet, et quod
-            proprietatis est habens hypostaseos</quote>, id est personae. </p>
-        <p xml:id="pl-l3d5c1-d1e316"> Ex his manifeste ostenditur, quod natura divina incarnata est. Unde et eadem vere
-          dicitur suscepisse humanam naturam. </p>
+        <head xml:id="pl-l3d5c1-Hd1e114" type="question-title"> Si persona vel natura personam vel
+          naturam assumsit, et si natura Dei incarnata sit.</head>
+        <p xml:id="pl-l3d5c1-d1e117"> Praeterea inquiri oportet, cum ex praemissis constet, Verbum
+          Dei carnem et animam simul assumsisse in unitatem personae, quid horum potius concedendum
+          sit, scilicet quod persona personam, vel natura naturam, vel persona naturam, vel natura
+          personam assumserit; et an ita conveniat dici, divinam naturam esse incar- natam, sicut
+          Deus incarnalus et Verbum incarnatum sane dicitur. </p>
+        <p xml:id="pl-l3d5c1-d1e120"> Haec inquisitio sive quaerendi ratio iuxta sacrarum
+          auctoritatum testimonia partim implicita atque perplexa, partim vero ex- plicita est et
+          aperta. </p>
+        <p xml:id="pl-l3d5c1-d1e123"> Certum enim est et sine ambiguitate verum, quod non natura
+          personam, nec persona personam, sed persona naturam assumsit. </p>
+        <p xml:id="pl-l3d5c1-d1e127"> Quod Sanctorum subditis comprobatur testimoniis et astruitur
+          documentis. </p>
+        <p xml:id="pl-l3d5c1-d1e130"> Ait enim <name ref="#Augustine">Augustinus</name> in libro
+          <title>De fide ad Petrum</title> : <quote xml:id="pl-l3d5c1-Qd1e138"> Deus unigenitus, dum
+          conciperetur, veritatem carnis accepit ex Virgine; et cum nasceretur, integritatem
+          virginitatis servavit in Matre</quote>. Et paulo post: <quote xml:id="pl-l3d5c1-Qd1e141"
+          >Hic Deus humanam naturam in unitatem personae suscepit, qui se humilians per
+          misericordiam, incorruptae Virginis uterum ex ea nasciturus implevit. <quote
+          xml:id="pl-l3d5c1-Qd1e143">Formam</quote> ergo <quote xml:id="pl-l3d5c1-Qd1e146"
+          >servi</quote>, id est naturam servi in suam accepit Deus ille personam </quote>. </p>
+        <p xml:id="pl-l3d5c1-d1e151"> Item: <quote xml:id="pl-l3d5c1-Qd1e153"> Deus enim Verbum non
+          accepit personam hominis, sed naturam </quote>. </p>
+        <p xml:id="pl-l3d5c1-d1e157"> Item : <quote xml:id="pl-l3d5c1-Qd1e159"> Dei Filius
+          unigenitus, ut carnem hominis animamque mundaret, susceptione carnis animaeque rationalis
+          incarnatus est </quote>. </p>
+        <p xml:id="pl-l3d5c1-d1e163"> His aliisque pluribus auctoritatibus evidenter ostenditur, non
+          naturam personam, nec personam personam, sed personam naturam accepisse . </p>
+        <p xml:id="pl-l3d5c1-d1e166"> De quarto vero quaestionis articulo, utrum scilicet natura
+          naturam assumserit, scrupulosa etiam inter doctos quaestio est, quia et in hoc plurimum
+          dissentire videntur, qui auctoritate praeclari, aliisque doctores in sacra Pagina
+          exstiterunt. Nec tantum alii ab aliis, verum etiam iidem a se ipsis dissonare videntur,
+          sicut subiecta capitula docent. </p>
+        <p xml:id="pl-l3d5c1-d1e170"> Legitur enim in Concilio Toletano octavo traditum sic: <quote
+          xml:id="pl-l3d5c1-Qd1e172"> Solum <quote xml:id="pl-l3d5c1-Qd1e174">Verbum caro facium est
+          et habitavit in nobis;</quote> et cum tota Trinitas operata sit formationem suscepti
+          hominis — quoniam inseparabilia sunt opera Trinitatis — solus tamen Filius accepit hominem
+          in singularitatem personae, non in unitatem divinae naturae, id est, id quod est proprium
+          Filii, non quod commune est Trinitati </quote>. </p>
+        <p xml:id="pl-l3d5c1-d1e179"> Item in Concilio undecimo Toletano: <quote
+          xml:id="pl-l3d5c1-Qd1e181">Unius substantiae credimus Deum Patrem et Filium et Spiritum
+          sanctum, non tamen dicimus, ut huius Trinitatis unitatem Maria Virgo genuerit, sed tantum
+          Filium, qui solus naturam nostram in unitatem personae suae assumsit. Incarnationem quoque
+          huius Filii Dei tota Trinitas operata esse credenda est; solus tamen Filius formam servi
+          accepit in singularitatem personae </quote>. </p>
+        <p xml:id="pl-l3d5c1-d1e185"> His insinuari videtur, quod persona tantum naturam, non natura
+          naturam assumserit: si enim quod commune est Trinitati non accepit hominem, ergo non
+          natura divina, quae communis est tri¬ bus personis. </p>
+        <p xml:id="pl-l3d5c1-d1e188"> Cui videtur obviare quod <name ref="#Augustine"
+          >Augustinus</name> ait in libro <title>De fide ad Petrum</title> : <quote
+          xml:id="pl-l3d5c1-Qd1e196"> Nec divinitas Christi, inquit, aliena est a natura Patris,
+          secundum id quod <quote xml:id="pl-l3d5c1-Qd1e198">in principio erat Verbum;</quote> nec
+          humanitas eius aliena est a natura Matris, secundum id quod <quote
+          xml:id="pl-l3d5c1-Qd1e201">Verbum caro factum, est.</quote> Illa enim natura, quae semper
+          genita manet ex Patre, naturam nostram sine peccato suscepit, ut nasceretur ex Virgine
+          </quote>. </p>
+        <p xml:id="pl-l3d5c1-d1e206"> Hac auctoritate videtur tradi, quod divina natura humanam
+          suscepit; ubi vehementer moveri possumus, quod eam genitam aeternaliter ex Patre dicit,
+          nisi forte naturam pro persona hic ac¬ cipiat; alioquin, si dixerimus, naturam tribus
+          personis communem genitam esse, occurrunt nobis ex adverso quae in tractatu <title
+          ref="#deTrinitate">De Trinitate</title> disseruimus, ubi diximus, non naturam naturam, sed
+          personam personam genuisse; quia, si natura genuisset naturam, cum una eademque sit natura
+          Trinitatis, eadem res se ipsam genuisset; quod Augustinus posse fieri negat. </p>
+        <p xml:id="pl-l3d5c1-d1e212"> Sed alibi certum reperimus documentum, quo natura naturam
+          assumsisse monstratur. </p>
+        <p xml:id="pl-l3d5c1-d1e216"> Ait enim <name ref="#Augustine">Augustinus</name> in libro I
+          <title ref="#deTrinitate">De Trinitate</title>: <quote xml:id="pl-l3d5c1-Qd1e224"
+          source="http://scta.info/resource/adt-l1">Etiam se ipso Christus minor factus est, <quote
+          xml:id="pl-l3d5c1-Qd1e226">formam servi accipiens.</quote> Neque enim sic accepit formam
+          servi, ut amitteret formam Dei, in qua erat aequalis Patri, ut in forma servi et in forma
+          Dei idem ipse sit unigenitus Filius Patris, quia forma Dei accepit formam servi </quote>.
+          Si autem forma Dei formam servi accepit, sine dubio natura naturam accepit. </p>
+        <p xml:id="pl-l3d5c1-d1e231"> Formae enim nomine natura significatur, ut <name
+          ref="#Augustine">Augustinus</name> evidenter docet in libro <quote
+          xml:id="pl-l3d5c1-Qd1e236">De fide ad Petrum</quote>: <quote xml:id="pl-l3d5c1-Qd1e239">
+          Cum, inquit, de Christo audis, quia in forma Dei erat, oportet te agnoscere firmissimeque
+          tenere, in illo formae nomine naturalem plenitudinem debere intelligi. In forma igitur Dei
+          , erat, quia in natura Dei Patris semper erat, de quo natus erat </quote>. </p>
+        <p xml:id="pl-l3d5c1-d1e243"> <name>Hilarius</name> quoque in libro XII <title>De
+          Trinitate</title> ait: <quote xml:id="pl-l3d5c1-Qd1e251">Esse in forma Dei non alia
+          intelligentia est, quam in Dei manere natura</quote>. </p>
+        <p xml:id="pl-l3d5c1-d1e255"> Didicisti, nomine formae intelligentiam fieri naturae, et
+          audisti, quod forma Dei formam servi suscepit; unde consequens est, quod natura divina
+          naturam humanam susceperit. </p>
+        <p xml:id="pl-l3d5c1-d1e258"> Quod etiam <name>Hieronymus</name> in <title>Explanatione
+          fidei</title> evidenter insinuat inquiens: <quote xml:id="pl-l3d5c1-Qd1e266"> Passus est
+          Filius Dei non putative, sed vere; secundum illud passus est, quod pati poterat, id est
+          non secundum illam substantiam, quae assumsit, sed secundum illam, quae assumta
+          est</quote>. Ex quo apparet, divinam substantiam assumsisse hu¬ manam. </p>
+        <p xml:id="pl-l3d5c1-d1e270"> Ex verbis autem <name>Augustini</name> superius positis,
+          adhibita diligentia, innui videtur, solum Verbum carnem factum, et naturam solum
+          suscepisse humanam, et divinam naturam eandem accepisse. Ait enim: <quote
+          xml:id="pl-l3d5c1-Qd1e275">Trinitas nos sibi reconciliavit per hoc, quod solum Verbum
+          carnem ipsa Trinitas fecit. In quo sic veritas incommutabilis manet divinae humanaeque
+          naturae, ut sicut vera semper est eius divinitas, quam de Patre habet, ita vera semper
+          atque incommuta¬ bilis eius sit humanitas, quam sibi unitam summa divinitas gerit
+          </quote>. Ecce, et solum Verbum dixit carnem factum, et humanitatem divinitati unitam. </p>
+        <p xml:id="pl-l3d5c1-d1e280"> Idem quoque superius dixit, <quote xml:id="pl-l3d5c1-Qd1e282">
+          servilem formam a solo Filio susceptam, quam tota Trinitas fecit</quote>. </p>
+        <p xml:id="pl-l3d5c1-d1e286"> Iam facile est agnoscere, quam diversa et multiplicia super
+          quaestione proposita auctores tradiderunt; ideoque posteriores ea legentes varias atque
+          contrarias, ex praedictis occasionem sumentes, promunt sententias. </p>
+        <p xml:id="pl-l3d5c1-d1e289"> Nos autem omnis mendacii et contradictionis notam a sacris
+          Paginis secludere cupientes, orthodoxis Patribus atque catholicis doc- toribus, nulla
+          pravae intelligentiae suspicione notatis, consentimus dicentes, et personam Filii
+          assumsisse naturam humanam, et naturam divinam humanae naturae in Filio unitam, eamque
+          sibi unisse vel assumsisse, unde et vere incarnata dicitur. Quod vero dicitur solus Filius
+          formam servi accepisse, per hoc non excluditur divina natura ab acceptione servilis
+          formae, sed aliae duae personae, Pater scilicet et Spiritus sanctus. Item et illud aliud,
+          scilicet <quote xml:id="pl-l3d5c1-Qd1e291">id quod est proprium Filii, non quod commune
+          est Trinitati, hominem ac¬ cepit</quote>, sic oportet intelligi, id est, proprie in
+          hypostasi Filii, non in tribus communiter personis, divina natura humanam naturam sibi
+          univit. </p>
+        <p xml:id="pl-l3d5c1-d1e295"> Qui sensus ex verbis <name>Ioannis Damasceni</name>
+          confirmatur, qui totam divinam naturam in una hypostaseon incarnatam esse, evidenter
+          asserit, dicens: <quote xml:id="pl-l3d5c1-Qd1e300">In humanatione Dei Verbi, aimus omnem
+          et perfectam naturam deitatis in una eius hypostaseon incarnatam esse, id est unitam
+          humanae naturae, et non partem parti. Omni enim humanae naturae, aimus unitam esse omnem
+          deitatis naturam vel substantiam </quote>. </p>
+        <p xml:id="pl-l3d5c1-d1e304"> Item: <quote xml:id="pl-l3d5c1-Qd1e306"> Eadem est natura in
+          singula hypostaseon, id est personarum; et quando dicimus, naturam Verbi incarnatam esse,
+          secundum beatos et <name>Athanasium</name> et <name>Cyrillum</name>, deitatem dicimus esse
+          unitam carni, et unam naturam Dei Verbi incarnatam confitemur. Verbum autem et quod-
+          commune est substantiae possidet, et quod proprietatis est habens hypostaseos</quote>, id
+          est personae. </p>
+        <p xml:id="pl-l3d5c1-d1e316"> Ex his manifeste ostenditur, quod natura divina incarnata est.
+          Unde et eadem vere dicitur suscepisse humanam naturam. </p>
       </div>
     </body>
   </text>

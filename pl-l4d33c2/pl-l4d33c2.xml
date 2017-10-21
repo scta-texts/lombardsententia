@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -14,18 +15,14 @@
         </respStmt>
       </titleStmt>
       <editionStmt>
-        <edition n="0.0.0-dev">
-          <title>CAP. II</title>
-          <date when="2017-10-21">October 21, 2017</date>
-        </edition>
+        <edition n="0.0.0-dev"> <title>CAP. II</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
       </editionStmt>
       <publicationStmt>
-        <authority>
-          <ref>SCTA</ref>
-        </authority>
+        <authority> <ref>SCTA</ref> </authority>
         <availability status="free">
-          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
-          </p>
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -35,7 +32,8 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -43,8 +41,7 @@
     </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2017-10-21" status="draft" n="0.0.0">
-          <p>Created file for the first time.</p>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
         </change>
       </listChange>
     </revisionDesc>
@@ -56,11 +53,30 @@
     <body>
       <div xml:id="pl-l4d33c2">
         <head xml:id="pl-l4d33c2-Hd1e109">CAP. II</head>
-        <p xml:id="pl-l4d33c2-d1e112">[Cap. II]. Quod vero castitas virginalis non praeferatur in merito coniugali castitati Abrahae, <name ref="#Augustine">Augustinus</name> ostendit inquiens: <quote xml:id="pl-l4d33c2-Qd1e117">Sicut non est impar meritum patientiae in Petro, qui passus est, et in Ioanne, qui passus non est, sic non est impar meritum continentiae in Ioanne, qui nullas expertus est nuptias, et in <name ref="#Abraham">Abraham</name>, qui filios genuit. Nam illius caelibatus et istius connubium pro temporum distributione Christo militaverunt; sed continentiam loannes in opere, <name ref="#Abraham">Abraham</name> in solo habebat habitu</quote>. <quote xml:id="pl-l4d33c2-Qd1e126">Melior est auitem castitas caelibum quam nuptiarum; quarum unam <name ref="#Abraham">Abraham</name> habebat in usu, ambas autem in habitu: caste enim coniugaliter vixit. Esse autem castus sine coniugio potuit, sed tunc non oportuit </quote>.</p>
-        <p xml:id="pl-l4d33c2-d1e133">Item <name ref="#Jerome">Hieronymus</name>: <quote xml:id="pl-l4d33c2-Qd1e138">Quis ignoret, sub alta dispensatione Dei omnes retro Sanctos eiusdem fuisse meriti, cuius nunc Christiani sunt? Quomodo <name ref="#Abraham">Abraham</name> ante placuit in coniugio, sic nunc virgines placent in castitate. Servivit ille legi et tempori suo; serviamus et nos legi et tempori nostro, <quote xml:id="pl-l4d33c2-Qd1e143">in quos fines saeculorum devenerunt</quote> 
+        <p xml:id="pl-l4d33c2-d1e112">[Cap. II]. Quod vero castitas virginalis non praeferatur in
+          merito coniugali castitati Abrahae, <name ref="#Augustine">Augustinus</name> ostendit
+          inquiens: <quote xml:id="pl-l4d33c2-Qd1e117">Sicut non est impar meritum patientiae in
+          Petro, qui passus est, et in Ioanne, qui passus non est, sic non est impar meritum
+          continentiae in Ioanne, qui nullas expertus est nuptias, et in <name ref="#Abraham"
+          >Abraham</name>, qui filios genuit. Nam illius caelibatus et istius connubium pro temporum
+          distributione Christo militaverunt; sed continentiam loannes in opere, <name
+          ref="#Abraham">Abraham</name> in solo habebat habitu</quote>. <quote
+          xml:id="pl-l4d33c2-Qd1e126">Melior est auitem castitas caelibum quam nuptiarum; quarum
+          unam <name ref="#Abraham">Abraham</name> habebat in usu, ambas autem in habitu: caste enim
+          coniugaliter vixit. Esse autem castus sine coniugio potuit, sed tunc non oportuit
           </quote>.</p>
-        <p xml:id="pl-l4d33c2-d1e148">Ex his apparet, quod sancti Patres ante Legem sine peccato  plures habuerunt uxores vel concubinas. Eas enim nunc uxores appellat Scriptura, nunc concubinas: Rachel et Lia ambae uxores  fuere, non concubinae.</p>
-        <p xml:id="pl-l4d33c2-d1e151">Si quis opponat, quod fidem tori non servabant illi Patres; dicimus, in hoc servasse fidem tori, quia non aliis, sed propriis  uxoribus, vel ancillis miscebantur.</p>
+        <p xml:id="pl-l4d33c2-d1e133">Item <name ref="#Jerome">Hieronymus</name>: <quote
+          xml:id="pl-l4d33c2-Qd1e138">Quis ignoret, sub alta dispensatione Dei omnes retro Sanctos
+          eiusdem fuisse meriti, cuius nunc Christiani sunt? Quomodo <name ref="#Abraham"
+          >Abraham</name> ante placuit in coniugio, sic nunc virgines placent in castitate. Servivit
+          ille legi et tempori suo; serviamus et nos legi et tempori nostro, <quote
+          xml:id="pl-l4d33c2-Qd1e143">in quos fines saeculorum devenerunt</quote> </quote>.</p>
+        <p xml:id="pl-l4d33c2-d1e148">Ex his apparet, quod sancti Patres ante Legem sine peccato
+          plures habuerunt uxores vel concubinas. Eas enim nunc uxores appellat Scriptura, nunc
+          concubinas: Rachel et Lia ambae uxores fuere, non concubinae.</p>
+        <p xml:id="pl-l4d33c2-d1e151">Si quis opponat, quod fidem tori non servabant illi Patres;
+          dicimus, in hoc servasse fidem tori, quia non aliis, sed propriis uxoribus, vel ancillis
+          miscebantur.</p>
         <p xml:id="pl-l4d33c2-d1e155">Ecce, quae fuerit consuetudo in hac re ante Legem.</p>
       </div>
     </body>

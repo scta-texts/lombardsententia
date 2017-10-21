@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -14,18 +15,14 @@
         </respStmt>
       </titleStmt>
       <editionStmt>
-        <edition n="0.0.0-dev">
-          <title>Cap. VIII</title>
-          <date when="2017-10-21">October 21, 2017</date>
-        </edition>
+        <edition n="0.0.0-dev"> <title>Cap. VIII</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
       </editionStmt>
       <publicationStmt>
-        <authority>
-          <ref>SCTA</ref>
-        </authority>
+        <authority> <ref>SCTA</ref> </authority>
         <availability status="free">
-          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
-          </p>
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -35,7 +32,8 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -43,8 +41,7 @@
     </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2017-10-21" status="draft" n="0.0.0">
-          <p>Created file for the first time.</p>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
         </change>
       </listChange>
     </revisionDesc>
@@ -56,16 +53,34 @@
     <body>
       <div xml:id="pl-l3d23c8">
         <head xml:id="pl-l3d23c8-Hd1e109">Cap. VIII</head>
-        <p xml:id="pl-l3d23c8-d1e112">Ait enim <name ref="Paul">Apostolus</name>: <quote xml:id="pl-l3d23c8-Qd1e117">Fides est substantia rerum sperandarum, argumentum </quote>(vel convictio) <quote xml:id="pl-l3d23c8-Qd1e120">non apparentium, 
-</quote>quia per (idem subsistunt in nobis, etiam modo speranda, et subsistent in futuro per experientiam. Et ipsa est probatio et convictio non apparentium, quia si quis de eis dubitet, per fidem probantur, ut adhuc probatur futura resurrectio, quia ita crediderunt Patriarchae et alii Sancti; vel probatio est et certitudo, quod sint aliqua non apparentia, ut supra dictum est. Proprie autem fides dicitur <quote xml:id="pl-l3d23c8-Qd1e123">substantia rerum sperandarum</quote> quia sperandis substat, et quia fundamentum est bonorum, quod nemo mutare potest.</p>
-        <p xml:id="pl-l3d23c8-d1e127">Si vero quaeritur, an haec descriptio spei conveniat, sane concedi potest utrumlibet. Si autem dicatur convenire, sunt et alia plura, quibus differunt fides et spes; sed non improbe dici potest, soli fidei convenire, non spei; quia fides sola fundamentum dicitur, non quia fides-virtus possit esse sine spe et caritate.</p>
-        <p xml:id="pl-l3d23c8-d1e130">Unde <name ref="#Augustine">Augustinus</name> 
-          <quote xml:id="pl-l3d23c8-Qd1e135">:</quote> 
-          <quote xml:id="pl-l3d23c8-Qd1e138"> 
-            <quote xml:id="pl-l3d23c8-Qd1e140">Fides operans per dilectionem</quote>  utique sine spe non potest esse, nec amor sine spe, nec sine amore spes, nec utrumque sine fide; et fides sine amore <quote xml:id="pl-l3d23c8-Qd1e143">nihil prodest</quote>
-          </quote>.</p>
-        <p xml:id="pl-l3d23c8-d1e148">Potest tamen credi aliquid, quod non speratur; nihil autem potest sperari, quod non creditur. Ideoque credere, quod est actus fidei, naturaliter praecedit sperare, quod est actus spei; quia nisi aliquid credatur, non potest sperari; creditur autem quod non speratur . Inde est, quod in Scriptura plerumque reperitur, quod fides praecedit spem, et spes sequitur fidem; non quod virtus fidei praecedat virtutem spei tempore vel causa, sed quia actus fidei naturaliter praecedit actum spei; quod etiam quidam concedunt de ipsa virtute fidei, ut naturaliter praecedat spem, non tempore.</p>
-       </div>
+        <p xml:id="pl-l3d23c8-d1e112">Ait enim <name ref="Paul">Apostolus</name>: <quote
+          xml:id="pl-l3d23c8-Qd1e117">Fides est substantia rerum sperandarum, argumentum
+          </quote>(vel convictio) <quote xml:id="pl-l3d23c8-Qd1e120">non apparentium, </quote>quia
+          per (idem subsistunt in nobis, etiam modo speranda, et subsistent in futuro per
+          experientiam. Et ipsa est probatio et convictio non apparentium, quia si quis de eis
+          dubitet, per fidem probantur, ut adhuc probatur futura resurrectio, quia ita crediderunt
+          Patriarchae et alii Sancti; vel probatio est et certitudo, quod sint aliqua non
+          apparentia, ut supra dictum est. Proprie autem fides dicitur <quote
+          xml:id="pl-l3d23c8-Qd1e123">substantia rerum sperandarum</quote> quia sperandis substat,
+          et quia fundamentum est bonorum, quod nemo mutare potest.</p>
+        <p xml:id="pl-l3d23c8-d1e127">Si vero quaeritur, an haec descriptio spei conveniat, sane
+          concedi potest utrumlibet. Si autem dicatur convenire, sunt et alia plura, quibus
+          differunt fides et spes; sed non improbe dici potest, soli fidei convenire, non spei; quia
+          fides sola fundamentum dicitur, non quia fides-virtus possit esse sine spe et
+          caritate.</p>
+        <p xml:id="pl-l3d23c8-d1e130">Unde <name ref="#Augustine">Augustinus</name> <quote
+          xml:id="pl-l3d23c8-Qd1e135">:</quote> <quote xml:id="pl-l3d23c8-Qd1e138"> <quote
+          xml:id="pl-l3d23c8-Qd1e140">Fides operans per dilectionem</quote> utique sine spe non
+          potest esse, nec amor sine spe, nec sine amore spes, nec utrumque sine fide; et fides sine
+          amore <quote xml:id="pl-l3d23c8-Qd1e143">nihil prodest</quote> </quote>.</p>
+        <p xml:id="pl-l3d23c8-d1e148">Potest tamen credi aliquid, quod non speratur; nihil autem
+          potest sperari, quod non creditur. Ideoque credere, quod est actus fidei, naturaliter
+          praecedit sperare, quod est actus spei; quia nisi aliquid credatur, non potest sperari;
+          creditur autem quod non speratur . Inde est, quod in Scriptura plerumque reperitur, quod
+          fides praecedit spem, et spes sequitur fidem; non quod virtus fidei praecedat virtutem
+          spei tempore vel causa, sed quia actus fidei naturaliter praecedit actum spei; quod etiam
+          quidam concedunt de ipsa virtute fidei, ut naturaliter praecedat spem, non tempore.</p>
+      </div>
     </body>
   </text>
 </TEI>

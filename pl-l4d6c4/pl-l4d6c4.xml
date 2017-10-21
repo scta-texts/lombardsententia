@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CAP. IV</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev"> <title>CAP. IV</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority> <ref>SCTA</ref> </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l4d6c4">
+        <head xml:id="pl-l4d6c4-Hd1e109">CAP. IV</head>
+        <head xml:id="pl-l4d6c4-Hd1e112" type="question-title">Utrum baptismus sit, cum verba
+          corrupte proferuntur.</head>
+        <p xml:id="pl-l4d6c4-d1e115">Quaeri etiam solet, si corrupte proferantur illa verba, an
+          baptismus sit.</p>
+        <p xml:id="pl-l4d6c4-d1e118">De hoc Zacharias Bonifacio scribit: <quote
+          xml:id="pl-l4d6c4-Qd1e120">Retulerunt nuntii tui mihi, quod fuerit sacerdos in eadem
+          provincia, qui Latinam linguam penitus ignorabat, et dum baptizaret, nescius Latini
+          eloquii, infringens linguam diceret: Baptizo te in nomine Patria et Filia et Spiritu
+          sancta; et propter hoc considerasti rebaptizare. Sed si ille qui baptizavit, non errorem
+          introducens vel haeresim, sed pro sola ignorantia Romanae locutionis infringendo linguam
+          baptizans dixisset, non possumus consentire, ut denuo baptizetur</quote>.</p>
+        <p xml:id="pl-l4d6c4-d1e124">Praeterea sciendum est, quod illi, <quote
+          xml:id="pl-l4d6c4-Qd1e126"> de quibus nulla exstant indicia inter propinquos vel clericos
+          vel vicinos, quibus baptizati fuisse doceantur, agendum est, ut renascantur, ne pereant,
+          in quibus quod non ostenditur gestum, ratio non sinit, ut videatur iteratum. Conferendum
+          eis videtur quod cullatum esse nescitur, quia non temeritas intervenit praesumtionis, ubi
+          est diligentia pietatis </quote>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

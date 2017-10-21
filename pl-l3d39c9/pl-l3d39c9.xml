@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -14,18 +15,14 @@
         </respStmt>
       </titleStmt>
       <editionStmt>
-        <edition n="0.0.0-dev">
-          <title>Cap. IX</title>
-          <date when="2017-10-21">October 21, 2017</date>
-        </edition>
+        <edition n="0.0.0-dev"> <title>Cap. IX</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
       </editionStmt>
       <publicationStmt>
-        <authority>
-          <ref>SCTA</ref>
-        </authority>
+        <authority> <ref>SCTA</ref> </authority>
         <availability status="free">
-          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
-          </p>
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -35,7 +32,8 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -43,8 +41,7 @@
     </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2017-10-21" status="draft" n="0.0.0">
-          <p>Created file for the first time.</p>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
         </change>
       </listChange>
     </revisionDesc>
@@ -55,18 +52,37 @@
     </front>
     <body>
       <div xml:id="pl-l3d39c9">
-            <head xml:id="pl-l3d39c9-Hd1e109">Cap. IX</head>
-            <head xml:id="pl-l3d39c9-Hd1e112" type="question-title">Nunc superest videre, utrum omne iuramentum implendum sit.</head>
-        <p xml:id="pl-l3d39c9-d1e115">Si enim quis aliquid iuraverit contra fidem et caritatem, quod observatum peiorem vergat in exitum, potius est mutandum quam adimplendum.</p>
-        <p xml:id="pl-l3d39c9-d1e118">Unde <name ref="#Ambrose">Ambrosius</name>: <quote xml:id="pl-l3d39c9-Qd1e123">Est contra officium nonnunquam promissum solvere sacramentum, ut Herodes fecit</quote>.</p>
-        <p xml:id="pl-l3d39c9-d1e127">Item lsidorus: <quote xml:id="pl-l3d39c9-Qd1e129">In malis promissis rescinde fidem; in turpi volo muta decretum. Quod incaute vovisti, non facias; impia est promissio, quae scelere adimpletur</quote>.</p>
-        <p xml:id="pl-l3d39c9-d1e134">Item: <quote xml:id="pl-l3d39c9-Qd1e136">Non est observandum sacramentum, quo malum incaute promittitur, ut si quis adulterae perpetuam fidem cum ea permanendi polliceatur. Tolerabilius est enim non implere sacramentum, quam permanere in stupro </quote>.</p>
-        <p xml:id="pl-l3d39c9-d1e140">Item <name ref="#Bede">Beda</name>
-          <sup>4</sup>: <quote xml:id="pl-l3d39c9-Qd1e148">Si quid nos incautius iurare contigerit, quod observatum peiorem vergat in exitum, libere illud salubriori consilio mutandum noverimus; ac magis, instante necessitate, peierandum esse nobis, quam pro vitando periurio in aliud crimen gravius esse divertendum. Denique iuravit David per Deum occidere Nabal, virum stultum; sed ad primam intercessionem Abigail, feminae prudentis, remisit minas, revocavit ensem in vaginam, nec aliquid culpae se tali periurio contraxisse doluit</quote>.</p>
-        <p xml:id="pl-l3d39c9-d1e152">Item <name ref="#Augustine">Augustinus</name>: <quote xml:id="pl-l3d39c9-Qd1e157">Quod David iuramentum per sanguinis effusionem non implevit, maior pietas fuit. Iuravit David temere, sed non implevit iurationem maiori pietate </quote>.</p>
-        <p xml:id="pl-l3d39c9-d1e161">Ex his aliisque pluribus ostenditur, quaedam iuramenta non 
-esse observanda; et qui sic iurat, vehementer peccat. Cum autem mutat, bene facit; qui autem non mutat dupliciter peccat: et quia iniuste iuravit, et quia facit quod non debet.</p>
-           </div>
+        <head xml:id="pl-l3d39c9-Hd1e109">Cap. IX</head>
+        <head xml:id="pl-l3d39c9-Hd1e112" type="question-title">Nunc superest videre, utrum omne
+          iuramentum implendum sit.</head>
+        <p xml:id="pl-l3d39c9-d1e115">Si enim quis aliquid iuraverit contra fidem et caritatem, quod
+          observatum peiorem vergat in exitum, potius est mutandum quam adimplendum.</p>
+        <p xml:id="pl-l3d39c9-d1e118">Unde <name ref="#Ambrose">Ambrosius</name>: <quote
+          xml:id="pl-l3d39c9-Qd1e123">Est contra officium nonnunquam promissum solvere sacramentum,
+          ut Herodes fecit</quote>.</p>
+        <p xml:id="pl-l3d39c9-d1e127">Item lsidorus: <quote xml:id="pl-l3d39c9-Qd1e129">In malis
+          promissis rescinde fidem; in turpi volo muta decretum. Quod incaute vovisti, non facias;
+          impia est promissio, quae scelere adimpletur</quote>.</p>
+        <p xml:id="pl-l3d39c9-d1e134">Item: <quote xml:id="pl-l3d39c9-Qd1e136">Non est observandum
+          sacramentum, quo malum incaute promittitur, ut si quis adulterae perpetuam fidem cum ea
+          permanendi polliceatur. Tolerabilius est enim non implere sacramentum, quam permanere in
+          stupro </quote>.</p>
+        <p xml:id="pl-l3d39c9-d1e140">Item <name ref="#Bede">Beda</name> <sup>4</sup>: <quote
+          xml:id="pl-l3d39c9-Qd1e148">Si quid nos incautius iurare contigerit, quod observatum
+          peiorem vergat in exitum, libere illud salubriori consilio mutandum noverimus; ac magis,
+          instante necessitate, peierandum esse nobis, quam pro vitando periurio in aliud crimen
+          gravius esse divertendum. Denique iuravit David per Deum occidere Nabal, virum stultum;
+          sed ad primam intercessionem Abigail, feminae prudentis, remisit minas, revocavit ensem in
+          vaginam, nec aliquid culpae se tali periurio contraxisse doluit</quote>.</p>
+        <p xml:id="pl-l3d39c9-d1e152">Item <name ref="#Augustine">Augustinus</name>: <quote
+          xml:id="pl-l3d39c9-Qd1e157">Quod David iuramentum per sanguinis effusionem non implevit,
+          maior pietas fuit. Iuravit David temere, sed non implevit iurationem maiori pietate
+          </quote>.</p>
+        <p xml:id="pl-l3d39c9-d1e161">Ex his aliisque pluribus ostenditur, quaedam iuramenta non
+          esse observanda; et qui sic iurat, vehementer peccat. Cum autem mutat, bene facit; qui
+          autem non mutat dupliciter peccat: et quia iniuste iuravit, et quia facit quod non
+          debet.</p>
+      </div>
     </body>
   </text>
 </TEI>

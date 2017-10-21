@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -14,18 +15,14 @@
         </respStmt>
       </titleStmt>
       <editionStmt>
-        <edition n="0.0.0-dev">
-          <title>CAP. II</title>
-          <date when="2017-10-21">October 21, 2017</date>
-        </edition>
+        <edition n="0.0.0-dev"> <title>CAP. II</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
       </editionStmt>
       <publicationStmt>
-        <authority>
-          <ref>SCTA</ref>
-        </authority>
+        <authority> <ref>SCTA</ref> </authority>
         <availability status="free">
-          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
-          </p>
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -35,7 +32,8 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -43,8 +41,7 @@
     </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2017-10-21" status="draft" n="0.0.0">
-          <p>Created file for the first time.</p>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
         </change>
       </listChange>
     </revisionDesc>
@@ -56,16 +53,52 @@
     <body>
       <div xml:id="pl-l4d41c2">
         <head xml:id="pl-l4d41c2-Hd1e109">CAP. II</head>
-        <head xml:id="pl-l4d41c2-Hd1e112" type="question-title">De variis traditionibus affinitatis.</head>
-        <p xml:id="pl-l4d41c2-d1e115">Sed alii videntur concedere, in quinta generatione inter affines contrahi coniugium, et in quarta etiam, si contractum fuerit, non separari.</p>
-        <p xml:id="pl-l4d41c2-d1e118">Ait enim Fabianus Papa: <quote xml:id="pl-l4d41c2-Qd1e120">De propinquis, qui ad affinitatem per virum et uxorem veniunt, defuncta uxore vel viro, in quinta generatione iungantur; in quarta si iuncti fuerint, non separentur; in tertia autem propinquitate non licet uxorem alterius accipere post obitum eius. Aequaliter vir iungatur in matrimonio eis quae sibi consanguineae sunt, et uxoris suae consanguineis, post mortem uxoris </quote>. Ecce, hic conceditur, in quinta vel quarta propinquitate affinium fieri coniugium.</p>
-        <p xml:id="pl-l4d41c2-d1e124">lulius etiam Papa ait: <quote xml:id="pl-l4d41c2-Qd1e126">Statutum est, ut relictam patris uxoris suae, relictam fratris uxoris suae, relictam filii uxoris suae nemo sibi in matrimonium sumat; relictam uxorem consanguineorum uxoris suae usque in tertiam progeniem nemo in uxorem sumat; in quarta vero et quinta si inventi fuerint, non separentur</quote>.</p>
-        <p xml:id="pl-l4d41c2-d1e131">Ecce, quam varie de affinitatis observatione loquuntur auctores. Alii enim usque ad septimum gradum eam observari sanciunt; alii vero in quinto vel quarto matrimonia contracta non dividunt. Sed illi veritatis rigorem, isti misericordiae dispensationem videntur proponere: potest enim Ecclesia dispensare in copula affinium usque ad tertium gradum, sicut <name ref="#GregoryGreat">Gregorius</name> dispensavit in quarto gradu consanguinitatis.</p>
-        <p xml:id="pl-l4d41c2-d1e137">Illud etiam non est praetereundum, quod <name ref="#GregoryGreat">Gregorius</name> 
-          <quote xml:id="pl-l4d41c2-Qd1e142">Venerio episcopo</quote> scribit: <quote xml:id="pl-l4d41c2-Qd1e145">Sedem apostolicam consulere decrevisti, si mulier copula nuptiali extraneo viro coniuncta, cognationi eius pertineat; si, eo defuncto, cognatio maneat, vel si sub alio viro cognationis vocabula dissolvantur; vel si susceptae soboles possint legitime ad prioris viri cognationis transire copulam. Si una caro fuerit, quomodo potest aliquis eorum propinquus uni perlinere, nisi pertineat alteri ? Hoc minime posse fieri, credendum est. Porro, uno defuncto, in superstite affinitas non deletur, nec alia copula coniugalis affinitatem prioris copulae solvere valet; sed nec alterius coniunctionis soboles placet ad affinitatis prioris viri consortium transire. Si quis ergo sacrilego et temerario ausu in defuncto quaerit propinquitatem extinguere, vel sub altero affinitatis vocabulo dissipare, vel susceptas soboles alterius copulae propinquitati prioris credit legitime sociari, hic negat Dei verbum validum esse, quod dixit: <quote xml:id="pl-l4d41c2-Qd1e147">Erunt duo in carne una</quote>.</quote>
-        </p>
-        <p xml:id="pl-l4d41c2-d1e152">Ecce, hic prohibet, si mortuo primo viro, uxor eius alii nupserit, <quote xml:id="pl-l4d41c2-Qd1e154"> filios de secundo viro genitos ducere uxores de cognatione prioris viri, quia filii mediante matre ad cognationem prioris viri perlinent, cum quo mater eorum una caro extiterat</quote>.</p>
-        <p xml:id="pl-l4d41c2-d1e158">Hoc idem etiam Innocentius Papa ait: <quote xml:id="pl-l4d41c2-Qd1e160">Si qua mulier ad secundas nuptias transierit et ex eis sobolem genuerit, nullatenus potest ad consortium cognationis prioris viri pertingere </quote>. Hoc autem observandum est usque ad septimum generis gradum, sed maxime usque ad tertium vel quartum, sicut supra positum est.</p>
+        <head xml:id="pl-l4d41c2-Hd1e112" type="question-title">De variis traditionibus
+          affinitatis.</head>
+        <p xml:id="pl-l4d41c2-d1e115">Sed alii videntur concedere, in quinta generatione inter
+          affines contrahi coniugium, et in quarta etiam, si contractum fuerit, non separari.</p>
+        <p xml:id="pl-l4d41c2-d1e118">Ait enim Fabianus Papa: <quote xml:id="pl-l4d41c2-Qd1e120">De
+          propinquis, qui ad affinitatem per virum et uxorem veniunt, defuncta uxore vel viro, in
+          quinta generatione iungantur; in quarta si iuncti fuerint, non separentur; in tertia autem
+          propinquitate non licet uxorem alterius accipere post obitum eius. Aequaliter vir iungatur
+          in matrimonio eis quae sibi consanguineae sunt, et uxoris suae consanguineis, post mortem
+          uxoris </quote>. Ecce, hic conceditur, in quinta vel quarta propinquitate affinium fieri
+          coniugium.</p>
+        <p xml:id="pl-l4d41c2-d1e124">lulius etiam Papa ait: <quote xml:id="pl-l4d41c2-Qd1e126"
+          >Statutum est, ut relictam patris uxoris suae, relictam fratris uxoris suae, relictam
+          filii uxoris suae nemo sibi in matrimonium sumat; relictam uxorem consanguineorum uxoris
+          suae usque in tertiam progeniem nemo in uxorem sumat; in quarta vero et quinta si inventi
+          fuerint, non separentur</quote>.</p>
+        <p xml:id="pl-l4d41c2-d1e131">Ecce, quam varie de affinitatis observatione loquuntur
+          auctores. Alii enim usque ad septimum gradum eam observari sanciunt; alii vero in quinto
+          vel quarto matrimonia contracta non dividunt. Sed illi veritatis rigorem, isti
+          misericordiae dispensationem videntur proponere: potest enim Ecclesia dispensare in copula
+          affinium usque ad tertium gradum, sicut <name ref="#GregoryGreat">Gregorius</name>
+          dispensavit in quarto gradu consanguinitatis.</p>
+        <p xml:id="pl-l4d41c2-d1e137">Illud etiam non est praetereundum, quod <name
+          ref="#GregoryGreat">Gregorius</name> <quote xml:id="pl-l4d41c2-Qd1e142">Venerio
+          episcopo</quote> scribit: <quote xml:id="pl-l4d41c2-Qd1e145">Sedem apostolicam consulere
+          decrevisti, si mulier copula nuptiali extraneo viro coniuncta, cognationi eius pertineat;
+          si, eo defuncto, cognatio maneat, vel si sub alio viro cognationis vocabula dissolvantur;
+          vel si susceptae soboles possint legitime ad prioris viri cognationis transire copulam. Si
+          una caro fuerit, quomodo potest aliquis eorum propinquus uni perlinere, nisi pertineat
+          alteri ? Hoc minime posse fieri, credendum est. Porro, uno defuncto, in superstite
+          affinitas non deletur, nec alia copula coniugalis affinitatem prioris copulae solvere
+          valet; sed nec alterius coniunctionis soboles placet ad affinitatis prioris viri
+          consortium transire. Si quis ergo sacrilego et temerario ausu in defuncto quaerit
+          propinquitatem extinguere, vel sub altero affinitatis vocabulo dissipare, vel susceptas
+          soboles alterius copulae propinquitati prioris credit legitime sociari, hic negat Dei
+          verbum validum esse, quod dixit: <quote xml:id="pl-l4d41c2-Qd1e147">Erunt duo in carne
+          una</quote>.</quote> </p>
+        <p xml:id="pl-l4d41c2-d1e152">Ecce, hic prohibet, si mortuo primo viro, uxor eius alii
+          nupserit, <quote xml:id="pl-l4d41c2-Qd1e154"> filios de secundo viro genitos ducere uxores
+          de cognatione prioris viri, quia filii mediante matre ad cognationem prioris viri
+          perlinent, cum quo mater eorum una caro extiterat</quote>.</p>
+        <p xml:id="pl-l4d41c2-d1e158">Hoc idem etiam Innocentius Papa ait: <quote
+          xml:id="pl-l4d41c2-Qd1e160">Si qua mulier ad secundas nuptias transierit et ex eis sobolem
+          genuerit, nullatenus potest ad consortium cognationis prioris viri pertingere </quote>.
+          Hoc autem observandum est usque ad septimum generis gradum, sed maxime usque ad tertium
+          vel quartum, sicut supra positum est.</p>
       </div>
     </body>
   </text>

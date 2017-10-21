@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -14,19 +15,14 @@
         </respStmt>
       </titleStmt>
       <editionStmt>
-        <edition n="0.0.0-dev">
-          <title>Cap. IV.</title>
-          <date when="2017-09-05">September 05, 2017</date>
-        </edition>
+        <edition n="0.0.0-dev"> <title>Cap. IV.</title> <date when="2017-09-05">September 05,
+          2017</date> </edition>
       </editionStmt>
       <publicationStmt>
-        <authority>
-          <ref>SCTA</ref>
-        </authority>
+        <authority> <ref>SCTA</ref> </authority>
         <availability status="free">
           <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
-              Commons Attribution 4.0 International</ref>
-          </p>
+            Commons Attribution 4.0 International</ref> </p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -36,7 +32,8 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -44,8 +41,7 @@
     </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2017-09-05" status="draft" n="0.0.0">
-          <p>Created file for the first time.</p>
+        <change when="2017-09-05" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
         </change>
       </listChange>
     </revisionDesc>
@@ -57,47 +53,50 @@
     <body>
       <div xml:id="pl-l3d3c4">
         <head xml:id="pl-l3d3c4-Hd1e111">Cap. IV.</head>
-        <head xml:id="pl-l3d3c4-Hd1e114" type="question-title"> Quare caro Christi non dicta est peccatrix, sed similis. </head>
-        <p xml:id="pl-l3d3c4-d1e117"> Quocirca primitiam nostrae massae recte assumsisse dicitur Christus , quia non carnem
-          peccati, sed similitudinem carnis peccati accepit. </p>
-        <p xml:id="pl-l3d3c4-d1e120">
-          <quote xml:id="pl-l3d3c4-Qd1e122" ana="#rom8_3">Misit enim Deus Filium suum, ut ait Apostolus, in similitudinem
-            carnis peccati.</quote> Assumsit enim Verbum carnem peccatrici similem in poena, et non
-          in culpa, et ideo non peccatricem; cetera vero hominum omnis caro, peccati est. Sola
-          illius non est caro peccati, quia non eum mater concupiscentia, sed gratia concepit. Habet
-          tamen similitudinem carnis peccati per passibilitatem et mortalitatem, quia esuriit,
-          sitiit et huiusmodi. Licet ergo eadem caro sit quae et nostra, non tamen ita facta est in
-          utero, sicut nostra. Est enim sanctificata in utero et nata sine peccato, et nec ipse in
-          illa unquam peccavit. In poena ergo similis est nostrae, non in qualitate peccati, quia
-          pollutionem, quae ex concupiscentiae motu concepta est, omnino non habuit, nec ex carnali
-          delectatione nata est. <quote xml:id="pl-l3d3c4-Qd1e125" ana="#sap8_20">Venit ergo ad corpus immaculatum ,</quote>
-          quod praeter libidinis concupiscentiam fuit conceptum; nec illud in se habuit vitium, quod
-          in aliis est causa peccati, nec in eo peccavit. Ideoque vere dicitur Verbi caro non fuisse
-          in Christo obligata peccato. </p>
-        <p xml:id="pl-l3d3c4-d1e129"> Illi autem sententiae, qua supra diximus , carnem Verbi non ante fuisse conceptam quam
-          assumtam, videtur obviare quod <name ref="#Augustine">Augustinus</name> ait <title>Super
-            Ioannem,</title> ubi legitur: <quote xml:id="pl-l3d3c4-Qd1e137" ana="#io2_19">Solvite templum hoc, et in tribus
-            diebus excitabo illud. Dixerunt ergo Iudaei: Quadraginta et sex annis aedificatum est
-            hoc templum, et tu tribus diebus excitabis illud</quote>? <quote xml:id="pl-l3d3c4-Qd1e140"> Hic, inquit, numerus
-            perfectioni dominici corporis convenit, quia, ut dicunt physici, tot diebus forma humani
-            corporis perficitur </quote>. </p>
-        <p xml:id="pl-l3d3c4-d1e145"> Horum occasione verborum quidam dicere praesumserunt, dominici corporis formam lot
-          diebus ad modum aliorum corporum perfectam et membrorum lineamentis distinctam, et mox
-          Verbum Dei sibi uniisse carnem et animam; et hoc modo dicunt illum numerum perfectioni
-          dominici corporis convenire. </p>
-        <p xml:id="pl-l3d3c4-d1e148"> Sed alia ratio illius dicti existit, ex qua sana oritur intelligentia verbi. Non enim
-          ideo illud dixit Augustinus, quin mox, ut caro illa opere Spiritus sancti sanctificata et
-          a reliqua separata fuit, Verbo Dei cum anima uniretur, ut perfectus et verus Deus esset
-          perfectus et verus homo, sed quia membrorum illius dominici corporis distinctio, in ipso
-          momento conceptionis et unionis Dei et hominis, adeo tenuis erat et parva, ut humano visui
-          vix posset subiici; diebus autem illis, quos memorat <name ref="#Augustine">Augustinus</name>, perfecta est et notabilis facta. </p>
-        <p xml:id="pl-l3d3c4-d1e154">
-          <quote xml:id="pl-l3d3c4-Qd1e156"> Incarnatum est igitur Verbum, ut ait <name>Ioannes Damascenus</name>, et a propria
-            incorporalitate non excessit, et lotum incarnatum est, et totum est incircumscriptum.
-            Minoratur corporaliter et contrahitur, et divine est incircumscriptum, non coextensa
-            carne eius cum incircumscripta divinitate</quote>. <quote xml:id="pl-l3d3c4-Qd1e162">In omnibus igitur et super
-            omnia erat, et in utero sanctae Genitricis existebat, sed in ipso actu incarnationis
-          </quote>. </p>
+        <head xml:id="pl-l3d3c4-Hd1e114" type="question-title"> Quare caro Christi non dicta est
+          peccatrix, sed similis. </head>
+        <p xml:id="pl-l3d3c4-d1e117"> Quocirca primitiam nostrae massae recte assumsisse dicitur
+          Christus , quia non carnem peccati, sed similitudinem carnis peccati accepit. </p>
+        <p xml:id="pl-l3d3c4-d1e120"> <quote xml:id="pl-l3d3c4-Qd1e122" ana="#rom8_3">Misit enim
+          Deus Filium suum, ut ait Apostolus, in similitudinem carnis peccati.</quote> Assumsit enim
+          Verbum carnem peccatrici similem in poena, et non in culpa, et ideo non peccatricem;
+          cetera vero hominum omnis caro, peccati est. Sola illius non est caro peccati, quia non
+          eum mater concupiscentia, sed gratia concepit. Habet tamen similitudinem carnis peccati
+          per passibilitatem et mortalitatem, quia esuriit, sitiit et huiusmodi. Licet ergo eadem
+          caro sit quae et nostra, non tamen ita facta est in utero, sicut nostra. Est enim
+          sanctificata in utero et nata sine peccato, et nec ipse in illa unquam peccavit. In poena
+          ergo similis est nostrae, non in qualitate peccati, quia pollutionem, quae ex
+          concupiscentiae motu concepta est, omnino non habuit, nec ex carnali delectatione nata
+          est. <quote xml:id="pl-l3d3c4-Qd1e125" ana="#sap8_20">Venit ergo ad corpus immaculatum
+          ,</quote> quod praeter libidinis concupiscentiam fuit conceptum; nec illud in se habuit
+          vitium, quod in aliis est causa peccati, nec in eo peccavit. Ideoque vere dicitur Verbi
+          caro non fuisse in Christo obligata peccato. </p>
+        <p xml:id="pl-l3d3c4-d1e129"> Illi autem sententiae, qua supra diximus , carnem Verbi non
+          ante fuisse conceptam quam assumtam, videtur obviare quod <name ref="#Augustine"
+          >Augustinus</name> ait <title>Super Ioannem,</title> ubi legitur: <quote
+          xml:id="pl-l3d3c4-Qd1e137" ana="#io2_19">Solvite templum hoc, et in tribus diebus excitabo
+          illud. Dixerunt ergo Iudaei: Quadraginta et sex annis aedificatum est hoc templum, et tu
+          tribus diebus excitabis illud</quote>? <quote xml:id="pl-l3d3c4-Qd1e140"> Hic, inquit,
+          numerus perfectioni dominici corporis convenit, quia, ut dicunt physici, tot diebus forma
+          humani corporis perficitur </quote>. </p>
+        <p xml:id="pl-l3d3c4-d1e145"> Horum occasione verborum quidam dicere praesumserunt, dominici
+          corporis formam lot diebus ad modum aliorum corporum perfectam et membrorum lineamentis
+          distinctam, et mox Verbum Dei sibi uniisse carnem et animam; et hoc modo dicunt illum
+          numerum perfectioni dominici corporis convenire. </p>
+        <p xml:id="pl-l3d3c4-d1e148"> Sed alia ratio illius dicti existit, ex qua sana oritur
+          intelligentia verbi. Non enim ideo illud dixit Augustinus, quin mox, ut caro illa opere
+          Spiritus sancti sanctificata et a reliqua separata fuit, Verbo Dei cum anima uniretur, ut
+          perfectus et verus Deus esset perfectus et verus homo, sed quia membrorum illius dominici
+          corporis distinctio, in ipso momento conceptionis et unionis Dei et hominis, adeo tenuis
+          erat et parva, ut humano visui vix posset subiici; diebus autem illis, quos memorat <name
+          ref="#Augustine">Augustinus</name>, perfecta est et notabilis facta. </p>
+        <p xml:id="pl-l3d3c4-d1e154"> <quote xml:id="pl-l3d3c4-Qd1e156"> Incarnatum est igitur
+          Verbum, ut ait <name>Ioannes Damascenus</name>, et a propria incorporalitate non excessit,
+          et lotum incarnatum est, et totum est incircumscriptum. Minoratur corporaliter et
+          contrahitur, et divine est incircumscriptum, non coextensa carne eius cum incircumscripta
+          divinitate</quote>. <quote xml:id="pl-l3d3c4-Qd1e162">In omnibus igitur et super omnia
+          erat, et in utero sanctae Genitricis existebat, sed in ipso actu incarnationis </quote>.
+        </p>
       </div>
     </body>
   </text>

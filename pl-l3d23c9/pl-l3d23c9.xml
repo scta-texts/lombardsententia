@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -14,18 +15,14 @@
         </respStmt>
       </titleStmt>
       <editionStmt>
-        <edition n="0.0.0-dev">
-          <title>Cap. IX</title>
-          <date when="2017-10-21">October 21, 2017</date>
-        </edition>
+        <edition n="0.0.0-dev"> <title>Cap. IX</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
       </editionStmt>
       <publicationStmt>
-        <authority>
-          <ref>SCTA</ref>
-        </authority>
+        <authority> <ref>SCTA</ref> </authority>
         <availability status="free">
-          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
-          </p>
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -35,7 +32,8 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -43,8 +41,7 @@
     </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2017-10-21" status="draft" n="0.0.0">
-          <p>Created file for the first time.</p>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
         </change>
       </listChange>
     </revisionDesc>
@@ -55,21 +52,41 @@
     </front>
     <body>
       <div xml:id="pl-l3d23c9">
-          <head xml:id="pl-l3d23c9-Hd1e109">Cap. IX</head>
-          <head xml:id="pl-l3d23c9-Hd1e112" type="question-title">Quare sola fides dicitur fundamentum.</head>
-        <p xml:id="pl-l3d23c9-d1e115"> Unde et recte ea sola dicitur fundamentum omnium virtutum et bonorum operum.</p>
-        <p xml:id="pl-l3d23c9-d1e118">Non antem fundamentum est caritatis, quia non ipsa caritatis sed caritas ipsius virtutis fidei causa est: caritas enim causa est et mater omnium virtutum, <quote xml:id="pl-l3d23c9-Qd1e120"> quae si desit, frustra habentur cetera; si autem adsit, habentur omnia </quote>. Caritas enim Spiritus 
-sanctus est, ut in superioribus praelaxatum est. Ipsa est ergo causa omnium virtutum, non ipsius aliqua virtutum causa est, quia omnia munera excellit.</p>
-        <p xml:id="pl-l3d23c9-d1e124">Unde <name ref="#Augustine">Augustinus</name> : <quote xml:id="pl-l3d23c9-Qd1e129">Respice ad munera Ecclesiae, et <quote xml:id="pl-l3d23c9-Qd1e131"> 
-</quote>universis excellentius caritatis munus cognosces </quote>, <quote xml:id="pl-l3d23c9-Qd1e135"> quae ut oleum non potest premi in imo, sed superexsilit </quote>. Non ergo eius causa, vel fundamentum fides est.</p>
-        <p xml:id="pl-l3d23c9-d1e140">
-          <name ref="#GregoryGreat">Gregorius</name> tamen <title>Super Ezechielem</title> dicit <quote xml:id="pl-l3d23c9-Qd1e148"> quia, nisi prius fides teneatur, nullatenus ad spiritualem amorem attingitur: non enim caritas fidem, sed fides caritatem praecedit, quia nemo potest amare quod non crediderit </quote>, sicut nec sperare.</p>
-        <p xml:id="pl-l3d23c9-d1e152">Sed hoc accipi potest dictum de fide, quae virtus non est; ipsa enim spem et caritatem frequenter praecedit; vel de actu fidei, qui forte naturaliter actum caritatis praecedit, sicut actum spei; quod verba praemissa diligenter notata innuunt, et ea etiam, quae addit dicens: <quote xml:id="pl-l3d23c9-Qd1e154">Nisi ea, inquit, quae audis, credideris, ad amandum ea quae audis, non inflammaberis </quote>; quae tantum  de non visis est, ut ante diximus.</p>
-        <p xml:id="pl-l3d23c9-d1e158">Unde Chrysostomus : <quote xml:id="pl-l3d23c9-Qd1e160">Fides in anima nostra facit subsistere ea quae non videntur, de quibus proprie fides est; de visis enim non est fides, sed agnitio </quote>.</p>
-        <p xml:id="pl-l3d23c9-d1e164">
-          <name ref="#Augustine">Augustinus</name> in libro <quote xml:id="pl-l3d23c9-Qd1e169">De praedestinatione Sanctorum:</quote> 
-          <quote xml:id="pl-l3d23c9-Qd1e172">Credere ipsum nihil est aliud quam cum assensione cogitare </quote>.</p>
-        </div>
+        <head xml:id="pl-l3d23c9-Hd1e109">Cap. IX</head>
+        <head xml:id="pl-l3d23c9-Hd1e112" type="question-title">Quare sola fides dicitur
+          fundamentum.</head>
+        <p xml:id="pl-l3d23c9-d1e115"> Unde et recte ea sola dicitur fundamentum omnium virtutum et
+          bonorum operum.</p>
+        <p xml:id="pl-l3d23c9-d1e118">Non antem fundamentum est caritatis, quia non ipsa caritatis
+          sed caritas ipsius virtutis fidei causa est: caritas enim causa est et mater omnium
+          virtutum, <quote xml:id="pl-l3d23c9-Qd1e120"> quae si desit, frustra habentur cetera; si
+          autem adsit, habentur omnia </quote>. Caritas enim Spiritus sanctus est, ut in
+          superioribus praelaxatum est. Ipsa est ergo causa omnium virtutum, non ipsius aliqua
+          virtutum causa est, quia omnia munera excellit.</p>
+        <p xml:id="pl-l3d23c9-d1e124">Unde <name ref="#Augustine">Augustinus</name> : <quote
+          xml:id="pl-l3d23c9-Qd1e129">Respice ad munera Ecclesiae, et <quote
+          xml:id="pl-l3d23c9-Qd1e131"> </quote>universis excellentius caritatis munus cognosces
+          </quote>, <quote xml:id="pl-l3d23c9-Qd1e135"> quae ut oleum non potest premi in imo, sed
+          superexsilit </quote>. Non ergo eius causa, vel fundamentum fides est.</p>
+        <p xml:id="pl-l3d23c9-d1e140"> <name ref="#GregoryGreat">Gregorius</name> tamen <title>Super
+          Ezechielem</title> dicit <quote xml:id="pl-l3d23c9-Qd1e148"> quia, nisi prius fides
+          teneatur, nullatenus ad spiritualem amorem attingitur: non enim caritas fidem, sed fides
+          caritatem praecedit, quia nemo potest amare quod non crediderit </quote>, sicut nec
+          sperare.</p>
+        <p xml:id="pl-l3d23c9-d1e152">Sed hoc accipi potest dictum de fide, quae virtus non est;
+          ipsa enim spem et caritatem frequenter praecedit; vel de actu fidei, qui forte naturaliter
+          actum caritatis praecedit, sicut actum spei; quod verba praemissa diligenter notata
+          innuunt, et ea etiam, quae addit dicens: <quote xml:id="pl-l3d23c9-Qd1e154">Nisi ea,
+          inquit, quae audis, credideris, ad amandum ea quae audis, non inflammaberis </quote>; quae
+          tantum de non visis est, ut ante diximus.</p>
+        <p xml:id="pl-l3d23c9-d1e158">Unde Chrysostomus : <quote xml:id="pl-l3d23c9-Qd1e160">Fides
+          in anima nostra facit subsistere ea quae non videntur, de quibus proprie fides est; de
+          visis enim non est fides, sed agnitio </quote>.</p>
+        <p xml:id="pl-l3d23c9-d1e164"> <name ref="#Augustine">Augustinus</name> in libro <quote
+          xml:id="pl-l3d23c9-Qd1e169">De praedestinatione Sanctorum:</quote> <quote
+          xml:id="pl-l3d23c9-Qd1e172">Credere ipsum nihil est aliud quam cum assensione cogitare
+          </quote>.</p>
+      </div>
     </body>
   </text>
 </TEI>

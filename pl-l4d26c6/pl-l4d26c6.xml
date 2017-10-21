@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CAP. VI</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev"> <title>CAP. VI</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority> <ref>SCTA</ref> </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l4d26c6">
+        <head xml:id="pl-l4d26c6-Hd1e109">CAP. VI</head>
+        <head xml:id="pl-l4d26c6-Hd1e112" type="question-title">Cuius rei Sacramentum sit
+          coniugium.</head>
+        <p xml:id="pl-l4d26c6-d1e115">Cum igitur coniugium Sacramentum sit, et sacrum signum est et
+          sacrae rei, scilicet coniunctionis Christi et Ecclesiae, sicut ait <name ref="Paul"
+          >Apostolus</name>: Scriptum est, inquit: <quote xml:id="pl-l4d26c6-Qd1e120">Relinquet homo
+          patrem et matrem et adhaerebit uxori suae, et erunt duo in carne una. Sacramentum autem
+          hoc est magnum; ego autem dico in Christo et Ecclesia.</quote> Ut enim inter coniuges
+          coniunctio est secundum consensum animorum et secundum permixtionem corporum, sic Ecclesia
+          Christo copulatur voluntate et natura, quia idem vult cum eo, et ipse formam assumsit de
+          natura hominis. Copulata est igitur sponsa sponso spiritualiter et corporaliter, id est
+          caritate ac naturae conformitate.</p>
+        <p xml:id="pl-l4d26c6-d1e124">Huius utriusque copulae figura est in coniugio: consensus enim
+          coniugum copulam spiritualem Christi et Ecclesiae, quae fit per caritatem, significat;
+          commixtio vero sexuum illam significat, quae fit per naturae conformitatem.</p>
+        <p xml:id="pl-l4d26c6-d1e127">Inde est, quod quidam doctorum dixerunt, illam mulierem non
+          pertinere ad matrimonium, quae non experitur carnalem copulam.</p>
+        <p xml:id="pl-l4d26c6-d1e131">Ait enim <name ref="#Augustine">Augustinus</name>: <quote
+          xml:id="pl-l4d26c6-Qd1e136">Non dubium est, illam mulierem non pertinere ad matrimonium,
+          cum qua docetur non fuisse commixtio sexus </quote>.</p>
+        <p xml:id="pl-l4d26c6-d1e140">Item Leo Papa: <quote xml:id="pl-l4d26c6-Qd1e142">Cum societas
+          nuptiarum ita a principio sit instituta, ut praeter commixtionem sexuum non habeat in se
+          Christi et Ecclesiae Sacramentum, non dubium est, illam mulierem non pertinere ad
+          matrimonium, in qua docetur non fuisse nuptiale mysterium </quote>.</p>
+        <p xml:id="pl-l4d26c6-d1e146">Item <name ref="#Augustine">Augustinus</name>: <quote
+          xml:id="pl-l4d26c6-Qd1e151">Non est perfectum coniugium sine commixtione sexuum
+          </quote>.</p>
+        <p xml:id="pl-l4d26c6-d1e155">Haec si secundum superficiem verborum quis acceperit,
+          inducitur in errorem tantum, ut dicat, sine carnali copula non posse contrahi matrimonium,
+          et inter Mariam et loseph non fuisse coniugium, vel non fuisse perfectum. Quod nefas est
+          sentire: tanto enim sanctius fuit atque perfectius, quanto a carnali opere immunius.</p>
+        <p xml:id="pl-l4d26c6-d1e158">Sed superius posita ea ratione dicta intelligendum est, non
+          quin pertineat mulier illa ad matrimonium, cum qua non est permixtio sexuum ; sed non
+          perlinet ad matrimonium, quod expressam et plenam teneat figuram coniunctionis Christi et
+          Ecclesiae. Figurat enim illam unionem Christi et Ecclesiae, quae est in caritate, sed non
+          illam, quae est in naturae conformitate. Est ergo et in illo matrimonio typus
+          coniunctionis Christi et Ecclesiae, sed illius tantum, qua Ecclesia Christo caritate
+          unitur, non illius qua per susceptionem carnis capiti membra uniuntur. Nec ideo tamen
+          minus sanctum est coniugium, quia, ut ait <name ref="#Augustine">Augustinus</name>, <quote
+          xml:id="pl-l4d26c6-Qd1e163">in nuptiis plus valet sanctitas Sacramenti quam fecunditas
+          veniris </quote>.</p>
+        <p xml:id="pl-l4d26c6-d1e167">Est etiam coniugium signum spiritualis coniunctionis et
+          dilectionis animorum, qua inter se coniuges uniri debent. Unde <name ref="Paul"
+          >Apostolus</name> ait: <quote xml:id="pl-l4d26c6-Qd1e172">Viri, diligite uxores vestras,
+          ul corpora vestra.</quote> </p>
+      </div>
+    </body>
+  </text>
+</TEI>
