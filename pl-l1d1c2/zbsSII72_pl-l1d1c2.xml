@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 1, Capitulus 2 [zbsSII72 Transcription]</title>
+        <author>Petrus Lombardus</author>
+        <editor>Brady</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum I, Distinctio 1, Capitulus 2 [zbsSII72 Transcription]</title>
+          <date when="2017-12-11">December 11, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+        <date when="2015-09-06">September 09, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Z" n="zbsSII72">Solothurn, Zentralbibliothek, Cod. S II 72</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" status="draft" n="0.0.0">
+          <p>File Started for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Z" n="3-r"/><cb ed="#Z" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d1c2">
+        <head xml:id="pl-l1d1c2-Hd1e126">Librum I, Distinctio 1, Capitulus 2 [zbsSII72 Transcription]</head>
+        <p xml:id="pll1d1c2-ieieas">
+          <lb ed="#Z"/><quote xml:id="pl-l1d1c2-Qd1e133" ana="#Augustine_DeDoctrinaChristiana_1_2_2_c"><seg type="qs">Id ergo in rebus 
+          <lb ed="#Z"/>considerandum est</seg> ut in eodem <name ref="#Augustine">augustinus</name> ait 
+          <lb ed="#Z"/><seg type="qs">Quod res aliae sunt quibus fruendum est aliae quibus 
+          <lb ed="#Z"/>utendum est aliae quae fruuntur et utuntur 
+          <lb ed="#Z"/>Illae quibus fruendum est nos beatos faciunt 
+          <lb ed="#Z"/>Istis quibus utendum est tendentes ad beatitudi<lb ed="#Z"/>nem 
+          adiuvamur et quasi adminiculamur ut ad 
+          <lb ed="#Z"/>illas res quae nos beatos faciunt pervenire eisque 
+          <lb ed="#Z"/>inhaerere possimus Res vero quae fruuntur et 
+          <lb ed="#Z"/>utuntur nos sumus quasi inter utrasque constitu<lb ed="#Z"/>ti</seg></quote>
+          et angeli sancti.
+        </p>
+        <p xml:id="pll1d1c2-faeand">
+          <quote xml:id="pl-l1d1c2-Qd1e156" ana="#Augustine_DeDoctrinaChristiana_1_4_4_a">frui autem est amore inhaerere ali<lb ed="#Z"/>cui 
+          rei propter se ipsam uti vero id quod in usum ve<lb ed="#Z"/>nerit 
+          referre ad obtinendum illud, quo fruendum 
+          <lb ed="#Z"/>est alias abuti est non uti Nam usus illicitus 
+          <lb ed="#Z"/>abusus vel abusio nominari debet</quote>
+        </p>
+        <p xml:id="pll1d1c2-riqhud">
+          <quote xml:id="pl-l1d1c2-Qd1e173" ana="#Augustine_DeDoctrinaChristiana_1_5_5_a">Res igitur quibus 
+          <lb ed="#Z"/>fruendum est sunt pater et filius et spiritus sanctus Eadem tamen 
+          <lb ed="#Z"/>trinitas quaedam summa res est communisque 
+          <lb ed="#Z"/>omnibus fruentibus ea si tamen res dici debet et non 
+          <lb ed="#Z"/>rerum omnium causa si tamen et causa. Non enim fa<lb ed="#Z"/>cile 
+          potest inveniri nomen quod tantae excellentiae 
+          <lb ed="#Z"/>conveniat nisi quod melius dicitur trinitas haec unus deus</quote>
+        </p>
+        <p xml:id="pll1d1c2-raqiec">
+          <lb ed="#Z"/>Res autem quibus utendum est mundus est et in eo creata
+        </p>
+        <p xml:id="pll1d1c2-uaitac">
+          unde <name ref="Augustine">augustinus</name> in eodem <quote xml:id="pl-l1d1c2-Qd1e197" ana="#Augustine_DeDoctrinaChristiana_1_4_4_b">utendum est hoc mun<lb ed="#Z"/>do 
+          non fruendum ut <quote xml:id="pl-l1d1c2-Qd1e201" ana="#rom1_20">invisibilia dei per ea quae 
+          <lb ed="#Z"/>facta sunt intellecta conspiciantur</quote> id est ut de temporalibus 
+          <lb ed="#Z"/>aeterna capiantur</quote>
+        </p>
+        <p xml:id="pll1d1c2-iieipp">
+          Item in eodem <quote xml:id="pl-l1d1c2-Qd1e221" ana="#Augustine_DeDoctrinaChristiana_1_22_20_a">In omnibus rebus illae 
+          <lb ed="#Z"/>tantum sunt quibus fruendum est quae aeternae et incom<lb ed="#Z"/>mutabiles 
+          sunt Ceteris autem utendum est ut ad illarum 
+          <lb ed="#Z"/>perfruitionem perveniatur</quote>
+        </p>
+        <p xml:id="pll1d1c2-uaiqfe">
+          Unde <ref xml:id="pl-l1d1c2-Rd1e233"><name ref="#Augustine">augustinus</name> in libro Xo <title ref="#deTrinitate">de trinita<lb ed="#Z"/>te</title></ref> 
+          <quote xml:id="pl-l1d1c2-Qd1e243" ana="#Augustine_DeTrinitate_10_10_13_a">fruimur cognitis in quibus ipsis propter se vo<lb ed="#Z"/>luntas 
+          delectata conquiescit utimur vero eis 
+          <lb ed="#Z"/>quae ad aliud referimus quo fruendum est</quote>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

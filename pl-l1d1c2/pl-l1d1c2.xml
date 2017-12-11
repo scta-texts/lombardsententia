@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -10,16 +10,15 @@
         <editor>Brady</editor>
       </titleStmt>
       <editionStmt>
-        <edition n="2015.09-dev-master">
+        <edition n="0.0.0-dev">
           <title>Librum I, Distinctio 1, Capitulus 2</title>
           <date when="2015-09-06">September 09, 2015</date>
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher></publisher>
-        <pubPlace></pubPlace>
+        <authority>SCTA</authority>
         <availability status="free">
-          <p>Public Domain</p>
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
         </availability>
         <date when="2015-09-06">September 09, 2015</date>  
       </publicationStmt>
@@ -27,43 +26,45 @@
         <listWit>
           <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
           <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
-          <witness xml:id="Z" n="zbsSII72" xml:base="http://www.e-codices.unifr.ch/metadata/iiif/zbs-SII-0072/canvas/">Solothurn, Zentralbibliothek, Cod. S II 72</witness>
+          <witness xml:id="Z" n="zbsSII72">Solothurn, Zentralbibliothek, Cod. S II 72</witness>
+          <witness xml:id="H" n="hopkinsMSB19">Baltimore, Hopkins</witness>
+          <witness xml:id="Pd" n="parker255">Cambridge, Parker Library, ms. 255</witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a critical edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2015-09-06" who="#JW" status="draft" n="2015.09">
-          <p>Created file for the first time.</p>
-          <note type="status">
-            <note type="collobaration">Yes</note>
-            <note type="validating-schema">lbp-0.0.1</note>
-            <note type="transcription-type">critical</note>
-          </note>
+        <change when="2015-09-06" status="draft" n="0.0.0">
+          <p>File Started for the first time.</p>
         </change>
       </listChange>
     </revisionDesc>
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="includeList">
-        <xi:include
-          href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml"
-          xpointer="worksCited"/>
-        <xi:include
-          href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml"
-          xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
-        <cb ed="#Z" n="3rb" select="zbs-SII-0072_003r.json"/>
+        <pb ed="#P" n="5-r"/><cb ed="#P" n="a"/>
+        <pb ed="#Z" n="3-r"/><cb ed="#Z" n="b"/>
+        <pb ed="#Pb" n="3-r"/><cb ed="#Pb" n="b"/>
+        <pb ed="#H" n="4-v"/><cb ed="#H" n="a"/>
+        <pb ed="#Pd" n="6-r"/>
       </div>
     </front>
     <body>
       <div xml:id="pl-l1d1c2">
-        <head>Librum I, Distinctio 1, Capitulus 2</head>
+        <head xml:id="pl-l1d1c2-Hd1e126">Librum I, Distinctio 1, Capitulus 2</head>
         <p xml:id="pll1d1c2-ieieas">
           <cit>
-            <quote ana="#Augustine_DeDoctrinaChristiana_1_2_2_c"><seg type="qs">Id ergo in rebus considerandum est,</seg> ut in eodem <name ref="#Augustine">Augustinus</name> 
+            <quote xml:id="pl-l1d1c2-Qd1e133" ana="#Augustine_DeDoctrinaChristiana_1_2_2_c"><seg type="qs">Id ergo in rebus considerandum est,</seg> ut in eodem <name ref="#Augustine">Augustinus</name> 
               ait, <seg type="qs">quod res aliae sunt, quibus fruendum est, aliae, quibus 
               utendum est, aliae, quae fruuntur et utuntur. Illae, quibus 
               fruendum est, nos beatos faciunt; istis, quibus utendum est, tendentes 
@@ -78,7 +79,9 @@
         </p>
         <p xml:id="pll1d1c2-faeand">
           <cit>
-            <quote ana="#Augustine_DeDoctrinaChristiana_1_4_4_a">Frui autem est amore inhaerere alicui rei propter se ipsam; 
+            <quote xml:id="pl-l1d1c2-Qd1e156" ana="#Augustine_DeDoctrinaChristiana_1_4_4_a">Frui autem 
+              <cb ed="#H" n="b"/> 
+              est amore inhaerere alicui rei propter se ipsam; 
             uti vero id quod in usum venerit referre ad obtinendum illud, quo 
             fruendum est; alias abuti est, non uti. Nam usus illicitus abusus 
             vel abusio nominari debet.</quote>
@@ -87,8 +90,8 @@
         </p>
         <p xml:id="pll1d1c2-riqhud">
           <cit>
-            <quote ana="#Augustine_DeDoctrinaChristiana_1_5_5_a">Res igitur, quibus fruendum est, sunt Pater et Filius et 
-            Spiritus Sanctus. Eadem tamen Trinitas quaedam summa res est 
+            <quote xml:id="pl-l1d1c2-Qd1e173" ana="#Augustine_DeDoctrinaChristiana_1_5_5_a">Res igitur, quibus fruendum est, sunt Pater et Filius et 
+            Spiritus Sanctus. <pb ed="#Pd" n="6-v"/> Eadem tamen Trinitas quaedam summa res est 
             communisque omnibus fruentibus ea, si tamen res dici debet et 
             non rerum omnium causa, si tamen et causa. Non enim facile potest 
             inveniri nomen, quod tantae excellentiae conveniat, nisi quod melius 
@@ -99,10 +102,10 @@
         <p xml:id="pll1d1c2-raqiec">Res autem, quibus utendum est, mundus est et in eo creata</p>
         <p xml:id="pll1d1c2-uaitac">Unde <name ref="Augustine">Augustinus</name> in eodem: 
           <cit>
-            <quote ana="#Augustine_DeDoctrinaChristiana_1_4_4_b">Utendum est hoc mundo, 
+            <quote xml:id="pl-l1d1c2-Qd1e197" ana="#Augustine_DeDoctrinaChristiana_1_4_4_b">Utendum est hoc mundo, 
             non fruendum, ut 
               <cit>
-                <quote ana="#rom1_20">invisibilia Dei per ea quae facta sunt, intellecta 
+                <quote xml:id="pl-l1d1c2-Qd1e201" ana="#rom1_20">invisibilia Dei per ea quae facta sunt, intellecta 
                 conspiciantur,</quote>
                 <bibl>Ad Romanos 1:20</bibl>
               </cit>
@@ -113,14 +116,14 @@
         </p>
         <p xml:id="pll1d1c2-iieipp">Item in eodem: 
           <cit>
-            <quote ana="#Augustine_DeDoctrinaChristiana_1_22_20_a">In omnibus rebus illae tantum sunt, quibus 
+            <quote xml:id="pl-l1d1c2-Qd1e221" ana="#Augustine_DeDoctrinaChristiana_1_22_20_a">In omnibus rebus illae tantum sunt, quibus 
             fruendum est, quae aeternae et incommutabiles sunt; ceteris 
             autem utendum est, ut ad illarum perfruitionem perveniatur.</quote>
             <bibl>Augustine, <title>De doctrina christiana</title>, I, 22, 20 (PL 34, XXX)</bibl>
           </cit></p>
-        <p xml:id="pll1d1c2-uaiqfe">Unde <ref><name ref="#Augustine">Augustinus</name> in libro X <title ref="#deTrinitate">De Trinitate</title>:</ref> 
+        <p xml:id="pll1d1c2-uaiqfe">Unde <ref xml:id="pl-l1d1c2-Rd1e233"><name ref="#Augustine">Augustinus</name> in libro X <title ref="#deTrinitate">De Trinitate</title>:</ref> 
           <cit>
-            <quote ana="#Augustine_DeTrinitate_10_10_13_a">Fruimur 
+            <quote xml:id="pl-l1d1c2-Qd1e243" ana="#Augustine_DeTrinitate_10_10_13_a">Fruimur 
             cognitis, in quibus ipsis propter se voluntas delectata conquiescit; 
             utimur vero eis quae ad aliud referimus, quo fruendum est.</quote>
             <bibl>Augustine, <title>De Trinitate</title>, X, 10, 13 (PL 42:981)</bibl>
