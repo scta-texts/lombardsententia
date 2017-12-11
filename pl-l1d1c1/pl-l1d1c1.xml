@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -10,37 +10,40 @@
         <editor>Brady</editor>
       </titleStmt>
       <editionStmt>
-        <edition n="2015.09-dev-master">
+        <edition n="0.0.0-dev">
           <title>Librum I, Distinctio 1, Capitulus 1</title>
           <date when="2015-09-06">September 09, 2015</date>
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher></publisher>
-        <pubPlace></pubPlace>
+        <authority>SCTA</authority>
         <availability status="free">
-          <p>Public Domain</p>
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
         </availability>
         <date when="2015-09-06">September 09, 2015</date>  
       </publicationStmt>
       <sourceDesc>
         <listWit>
-        	<witness xml:id="P" n="bnf15705" xml:base="http://scta.info/iiif/pl-bnf15705/canvas/">Paris, Lat 15705</witness>
-        	<witness xml:id="Pb" n="bda446" xml:base="http://scta.info/iiif/pl-bda446/canvas/">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+          <witness xml:id="P" n="bnf15705" xml:base="http://scta.info/iiif/pl-bnf15705/canvas/">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446" xml:base="http://scta.info/iiif/pl-bda446/canvas/">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
           <witness xml:id="Z" n="zbsSII72" xml:base="http://www.e-codices.unifr.ch/metadata/iiif/zbs-SII-0072/canvas/">Solothurn, Zentralbibliothek, Cod. S II 72</witness>
-        	<witness xml:id="H" n="hopkinsMSB19" xml:base="http://scta.info/iiif/pl-hopkins/canvas/">Baltimore, Hopkins</witness>
+          <witness xml:id="H" n="hopkinsMSB19" xml:base="http://scta.info/iiif/pl-hopkins/canvas/">Baltimore, Hopkins</witness>
+          <witness xml:id="Pd" n="parker255">Cambridge, Parker Library, ms. 255</witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a critical edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2015-09-06" who="#JW" status="draft" n="2015.09">
-          <p>Created file for the first time.</p>
-          <note type="status">
-            <note type="collobaration">Yes</note>
-            <note type="validating-schema">lbp-0.0.1</note>
-            <note type="transcription-type">critical</note>
-          </note>
+        <change when="2015-09-06" status="draft" n="0.0.0">
+          <p>File Started for the first time.</p>
         </change>
       </listChange>
     </revisionDesc>
@@ -48,31 +51,27 @@
   <text xml:lang="la">
     <front>
       <div xml:id="includeList">
-        <xi:include
-          href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml"
-          xpointer="worksCited"/>
-        <xi:include
-          href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml"
-          xpointer="prosopography"/>
+        
       </div>
       <div xml:id="starts-on">
-        <cb ed="#Z" n="3ra" select="zbs-SII-0072_003r.json"/>
-      	<cb ed="#Pb" n="3ra" select="Pb3r"/>
-      	<cb ed="#P" n="4vb" select="P4v"/>
-      	<cb ed="#H" n="4va" select="4v"/>
+        <pb ed="#Z" n="3-r"/><cb ed="#Z" n="a"/>
+        <pb ed="#Pb" n="3-r"/><cb ed="#Pb" n="a"/>
+        <pb ed="#P" n="4-v"/><cb ed="#P" n="b"/>
+        <pb ed="#H" n="4-v"/><cb ed="#H" n="a"/>
+        <pb ed="#Pd" n="5-v"/>
       </div>
     </front>
     <body>
       <div xml:id="pl-l1d1c1">
-        <head>Librum I, Distinctio 1, Capitulus 1</head>
+        <head xml:id="pl-l1d1c1-Hd1e3524">Librum I, Distinctio 1, Capitulus 1</head>
         <p xml:id="pll1d1c1-vanspv">Veteris ac novae Legis continentiam diligenti indagine etiam 
         atque etiam considerantibus nobis praevia Dei gratia innotuit, sacrae 
         paginae tractatum circa res vel signa praecipue versari.</p>
         
-        <p xml:id="pll1d1c1-ueeeis">Ut enim <ref><name ref="#Augustine">egregius doctor Augustinus</name> ait in libro <title ref="#deDoctrinaChristiana">De doctrina 
+        <p xml:id="pll1d1c1-ueeeis">Ut enim <ref xml:id="pl-l1d1c1-Rd1e3532"><name ref="#Augustine">egre<pb ed="#Pd" n="6-r"/>gius doctor Augustinus</name> ait in libro <title ref="#deDoctrinaChristiana">De doctrina 
         christiana</title>:</ref> 
         <cit>
-          <quote ana="#Augustine_DeDoctrinaChristiana_1_2_2_a">Omnis doctrina vel rerum est, vel signorum. Sed 
+          <quote xml:id="pl-l1d1c1-Qd1e3544" ana="#Augustine_DeDoctrinaChristiana_1_2_2_a">Omnis doctrina vel rerum est, vel signorum. Sed 
           res etiam per signa discuntur. Proprie autem hic res appellantur, 
           quae non ad significandum aliquid adhibentur ; signa vero, quorum 
           usus est in significando.</quote>
@@ -86,19 +85,20 @@
         Sacramenta.</p>
         <p xml:id="pll1d1c1-eqadta">
           <cit>
-            <quote ana="#Augustine_DeDoctrinaChristiana_1_2_2_b"><seg type="qs">Ex quo aperte intelligitur, quae hic appellentur signa, res 
+            <quote xml:id="pl-l1d1c1-Qd1e3559" ana="#Augustine_DeDoctrinaChristiana_1_2_2_b"><seg type="qs">Ex quo aperte intelligitur, quae hic appellentur signa, res 
             illae videlicet, quae ad significandum aliquid adhibentur. Omne igitur 
             signum etiam res aliqua est. Quod enim nulla res est,</seg> ut in eodem 
             <name ref="#Augustine">Augustinus</name> ait, <seg type="qs">omnino nihil est; non autem e converso omnis res 
             signum
-            	<cb ed="#P" n="5ra" select="P5r"/>
+              <pb ed="#P" n="5-r"/>
+            	<cb ed="#P" n="a"/>
             est,</seg></quote>
             <bibl>Augustine, <title>De doctrina christiana</title>, I, c. 2, n. 2 (PL 34:19)</bibl>
           </cit>
           quia non adhibetur 
-        	<cb ed="#Pb" n="3rb" select="Pb3r"/>
+        	<cb ed="#Pb" n="b"/> <!-- pb 3rb -->
           ad significandum aliquid. Cumque 
-          his intenderit theologorum speculatio studiosa atque modesta, divinam 
+          his inten<cb ed="#Z" n="b"/>derit theologorum speculatio studiosa atque modesta, divinam 
           Scripturam formam praescriptam in doctrina tenere advertet.</p>
         <!-- p. 15 -->
         <p xml:id="pll1d1c1-dhedsd">De his ergo nobis aditum ad res divinas aliquatenus intelligendas, 

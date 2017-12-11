@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 1, Capitulus 1 [Parker 522 Transcription]</title>
+        <author>Petrus Lombardus</author>
+        <editor>Brady</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum I, Distinctio 1, Capitulus 1  [Parker 522 Transcription]</title>
+          <date when="2017-12-11">December 11, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+        <date when="2017-12-11">December 11, 2017</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Pd" n="parker522">Cambridge, Parker Library, ms. 522</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-06" status="draft" n="0.1.0" corresp="versionlog.xml#v0.1.0">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Pd" n="5-v"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d1c1">
+        <head xml:id="pl-l1d1c1-Hd1e3524">Librum I, Distinctio 1, Capitulus 1 [Parker 522 Transcription]</head>
+        <p xml:id="pll1d1c1-vanspv">
+          <lb ed="#Pd"/>Veteris ac novae legis continentiam diligenti 
+          <lb ed="#Pd"/>indagine etiam atque etiam considerantibus nobis praevia 
+          <lb ed="#Pd"/>dei gratia innotuit sacrae paginae tractatum 
+          <lb ed="#Pd"/>circa res vel signa praecipue versari
+        </p>
+        <p xml:id="pll1d1c1-ueeeis">
+          Ut enim <ref xml:id="pl-l1d1c1-Rd1e3532"><name ref="#Augustine">egre<pb ed="#Pd" n="6-r"/><lb ed="#Pd"/>gius 
+          doctor Augustinus</name> ait in libro <title ref="#deDoctrinaChristiana">de doctrina christiana</title></ref> <quote xml:id="pl-l1d1c1-Qd1e3544" ana="#Augustine_DeDoctrinaChristiana_1_2_2_a">Omnis 
+          <lb ed="#Pd"/>doctrina vel rerum est vel signorum si res etiam per signa discuntur 
+          <lb ed="#Pd"/>proprie autem hic res appellantur quae non ad significandum 
+          <lb ed="#Pd"/>aliquid adhibentur Signa vero quorum usus est in significando</quote>
+        </p>
+        <p xml:id="pll1d1c1-eaases">
+          <lb ed="#Pd"/>Eorum autem aliqua sunt, quorum omnis usus in significando 
+          <lb ed="#Pd"/>non in iustificando id est quibus non utimur nisi aliquid significandi gratia ut aliqua 
+          <lb ed="#Pd"/>sacramenta legalia Alia quae non solum significant sed conferunt 
+          <lb ed="#Pd"/>quod intus adiuvet sicut evvangelica sacramenta</p>
+        <p xml:id="pll1d1c1-eqadta">
+          <quote xml:id="pl-l1d1c1-Qd1e3559" ana="#Augustine_DeDoctrinaChristiana_1_2_2_b">Ex quo 
+          <lb ed="#Pd"/>aperte intelligitur quae hic appellentur signa res videlicet 
+          <lb ed="#Pd"/>quae ad significandum aliquid adhibentur Omne igitur signum 
+          <lb ed="#Pd"/>etiam res aliqua est <pc type="virgula">/</pc> quod enim nulla res est ut in eodem <name ref="#Augustine">Augustinus</name> 
+          <lb ed="#Pd"/>ait omnino nichil est non autem econverso omnis res signum est</quote> 
+          <lb ed="#Pd"/>quia non adhibetur ad significandum aliquid Cumque hiis 
+          <lb ed="#Pd"/>intenderit theologorum speculatio studiosa atque modesta 
+          <lb ed="#Pd"/>divinam scripturam formam praescriptam in doctrina tenere advertet
+        </p>
+        <p xml:id="pll1d1c1-dhedsd">
+          <lb ed="#Pd"/>De hiis ergo nobis aditum ad res divinas aliquatenus 
+          <lb ed="#Pd"/>intelligendas deo duce aperire volentibus disserendum 
+          <lb ed="#Pd"/>est et primum de rebus postea de signis disseremus
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

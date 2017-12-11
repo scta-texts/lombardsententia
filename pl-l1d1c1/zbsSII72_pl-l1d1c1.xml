@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 1, Capitulus 1 [zbsSII72 Transcription]</title>
+        <author>Petrus Lombardus</author>
+        <editor>Brady</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum I, Distinctio 1, Capitulus 1  [zbsSII72 Transcription]</title>
+          <date when="2017-12-11">December 11, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+        <date when="2017-12-11">December 11, 2017</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Z" n="zbsSII72" xml:base="http://www.e-codices.unifr.ch/metadata/iiif/zbs-SII-0072/canvas/">Solothurn, Zentralbibliothek, Cod. S II 72</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-12-11" status="draft" n="0.0.0">
+          <p>File Started for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Z" n="3-r"/><cb ed="#Z" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d1c1">
+        <head xml:id="pl-l1d1c1-Hd1e3524">Librum I, Distinctio 1, Capitulus 1 [zbsSII72 Transcription]</head>
+        <p xml:id="pll1d1c1-vanspv">
+          <lb ed="#Z"/>Veteris ac 
+          <lb ed="#Z"/>novae legis continen<lb ed="#Z"/>tiam 
+          diligenti in<lb ed="#Z"/>dagine 
+          etiam atque etiam con<lb ed="#Z"/>siderantibus 
+          nobis 
+          <lb ed="#Z"/>praevia dei gratia inno<lb ed="#Z"/>tuit 
+          sacrae paginae 
+          <lb ed="#Z"/>tractatum circa 
+          <lb ed="#Z"/>res vel signa praecipue versari
+        </p>
+        <p xml:id="pll1d1c1-ueeeis">
+          ut enim <ref xml:id="pl-l1d1c1-Rd1e3532"><name ref="#Augustine">egre<lb ed="#Z"/>gius 
+          doctor augustinus</name> ait in libro <title ref="#deDoctrinaChristiana">de doctrina christia<lb ed="#Z"/>na</title></ref> 
+          <quote xml:id="pl-l1d1c1-Qd1e3544" ana="#Augustine_DeDoctrinaChristiana_1_2_2_a">Omnis doctrina vel rerum est vel signorum <sic>sed</sic> res 
+          <lb ed="#Z"/>etiam per signa <seg type="correction"><del>dino</del><add place="above-line">dis</add></seg>cuntur proprie autem hic res ap<lb ed="#Z"/>pellantur 
+          quae non ad significandum aliquid 
+            <lb ed="#Z"/>adhibentur Signa vero quorum usus est in signifi<lb ed="#Z"/>cando</quote>
+        </p>
+        <p xml:id="pll1d1c1-eaases">
+          eorum autem aliqua sunt quorum 
+          <lb ed="#Z"/>omnis usus in significando non in iustificando 
+          id est quibus non utimur nisi aliquid significandi gratia 
+          <lb ed="#Z"/>ut aliqua sacramenta legalia alia quae non so<lb ed="#Z"/>lum 
+          significant sed conferunt quod intus ad<lb ed="#Z"/>iuvet 
+          sicut evangelica sacramenta
+        </p>
+        <p xml:id="pll1d1c1-eqadta">
+          <quote xml:id="pl-l1d1c1-Qd1e3559" ana="#Augustine_DeDoctrinaChristiana_1_2_2_b">Ex quo aperte 
+          <lb ed="#Z"/>intelligitur quae hic appellentur signa res illae vide<lb ed="#Z"/>licet 
+          quae ad significandum aliquid adhibentur 
+          <lb ed="#Z"/>Omne igitur signum etiam res aliqua est quod enim nul<lb ed="#Z"/>la 
+          res est ut in eodem <name ref="#Augustine">Augustinus</name> ait omnino nichil 
+          <lb ed="#Z"/>est non autem econverso omnis res signum est</quote> quia non adhi<lb ed="#Z"/>betur 
+          ad significandum aliquid Cumque hiis inten<cb ed="#Z" n="b"/><lb ed="#Z"/>derit 
+          theologorum speculatio studiosa atque mo<lb ed="#Z"/>desta 
+          divinam scripturam formam praescriptam 
+          <lb ed="#Z"/>in doctrina tenere advertet
+        </p>
+        <p xml:id="pll1d1c1-dhedsd">
+          De his ergo nobis aditum 
+          <lb ed="#Z"/>aliquatenus ad res divinas intelligendas deo 
+          <lb ed="#Z"/>duce aperire volentibus disserendum est et primum 
+          <lb ed="#Z"/>de rebus postea de signis disseremus
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
