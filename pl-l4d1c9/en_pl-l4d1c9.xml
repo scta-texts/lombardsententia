@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CAP. IX</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+          <resp>Translator</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev"> <title>CAP. IX</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority> <ref>SCTA</ref> </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref> </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="en">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l4d1c9">
+        <head xml:id="pl-l4d1c9-Hd1e109">CAP. IX</head>
+        <head xml:id="pl-l4d1c9-Hd1e112" type="question-title">Concerning the institution of circumcision 
+          and its cause.</head>
+        <p xml:id="pl-l4d1c9-d1e115">
+          Here it should be said, 
+          in what circumcision was instituted; 
+          and why; and why it was changed into baptism.
+        </p>
+        <p xml:id="pl-l4d1c9-d1e118">
+          <name ref="#Abraham">Abraham</name> first received the command of circumcision 
+          in order to prove obedience. Circumcision 
+          was commanded not only to him, but to his offspring, 
+          that is to all Hebrews, 
+          which was that according to the law on the eight day 
+          he cut, with a stone knife, the flesh of the foreskin.
+        </p>
+        <p xml:id="pl-l4d1c9-d1e124">
+          However circumcision was given for many reasons, 
+          namely so that through obedience of the law <name ref="#Abraham">Abraham</name> 
+          would please God, whom 
+          <name>Adam</name> had displeased through his transgression. 
+          It was also given as a sign of the great faith of <name ref="#Abraham">Abraham</name>, 
+          who believed, that would have a son, 
+          from whom the blessing of all would come. 
+          Against, so that with this sign 
+          the people would be distinguished from other nations.
+        </p>
+        <p xml:id="pl-l4d1c9-d1e131">
+          But circumcision in the flesh of the foresking 
+          was commanded because 
+          it was instituted as a remedy for original sin, 
+          which we receive from our parents through 
+          concupiscence, 
+          which dominates most greatly in this part. 
+          And because in this part 
+          the first man sensed the guilt of disobedience, 
+          it was appropriate 
+          that he accept the sign of obedience there.
+        </p>
+        <p xml:id="pl-l4d1c9-d1e134">
+          But it happen on the eight day, 
+          with a stone knife, 
+          because in the common resurrection, on the eight day,
+          through the rock Christ 
+          every corruption will be removed from the elect.
+          And through the resurrection of Christ, 
+          made on the eight day, 
+          the soul of anyone believing in him 
+          will be circumcised from sin. 
+          <cit>
+            <quote xml:id="pl-l4d1c9-Qd1e136">Therefore two things belonging to this sacrament.</quote>
+            <bibl>Hugo, Sum. Sent. tr. 4, c. 1 (PL 176, 119)</bibl>
+          </cit>.
+        </p>
+        <p xml:id="pl-l4d1c9-d1e140">
+          Moreover therefore, circumcision was changed to baptism 
+          because the sacrament of baptism is more common and more perfect 
+          because it has accumulated grace more fully. <!-- translation help needed --> 
+          For in baptism sin was not only dismissed,
+          but there neither the grace helping us to do well, 
+          nor the possession or augmentation of virtue is surpassed, 
+          such that in baptism, 
+          where sins are not just destroyed, 
+          but also helping grace is conferred, 
+          and virtues are increased. 
+          Whence the water of refreshment is 
+          said to be that which makes dry places fertile 
+          and gives already fruitful places more abundance; 
+          because, 
+          however much 
+          through faith and love 
+          before the habit 
+          someone just <!-- translation fix -->
+          will receive more abundant grace, 
+          but this is not the case with circumcision. 
+          Whence for one already justified through the faith of 
+          <name>Abraham</name> it was only a sign, 
+          and did nothing for him internally.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

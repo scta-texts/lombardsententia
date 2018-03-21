@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CAP. IV</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+          <resp>Translator</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev"> <title>CAP. IV</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority> <ref>SCTA</ref> </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref> </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="en">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l4d1c4">
+        <head xml:id="pl-l4d1c4-Hd1e109">Chapter 4</head>
+        <p xml:id="pl-l4d1c4-d1e112"> 
+          <cit>
+            <quote xml:id="pl-l4d1c4-Qd1e114">
+              But some signs are natural, 
+              like smoke signifying fire, 
+              other are given
+            </quote>
+            <bibl>Augustinus, De doctrina christiana, II, c. n. 2</bibl>
+          </cit>.
+          And of those which are given, 
+          some are sacraments, and some are not. 
+          For every sacrament is a sign, 
+          but the reverse is not true.
+        </p>
+        <p xml:id="pl-l4d1c4-d1e118">
+          The sacrament of something carries a likeness 
+          of the thing for which it is a sign. 
+          <cit>
+            <quote xml:id="pl-l4d1c4-Qd1e120">
+              For if the sacrament did not have a likeness 
+              of the things of which they are a sacrament, 
+              they would not properly be called sacraments.
+            </quote>
+            <bibl>Augustinus, epist. 98 Ad Bonifacium, n. 9 (PL 33, 364)</bibl>
+          </cit>. 
+          For something is properly called a sacrament 
+          which is a sign of the grace of God and 
+          a form of invisible grace, 
+          such that it carries the image of it 
+          and exists as its cause. 
+          Therefore the sacraments are instituted not only for 
+          the sake of signifying, 
+          but also for the sake of sanctifying.
+        </p>
+        <p xml:id="pl-l4d1c4-d1e124">
+          For what has been instituted for the sake of signifying, 
+          are only signs, and not sacraments, 
+          just as there were carnal sacrifices 
+          and ceremonial observances of the old law, 
+          which were never able to make just those who were offering them, 
+          because, as the
+          <ref xml:id="pl-l4d1c4-Rashaec"><name ref="#Paul">Apostle</name></ref> says, 
+          <cit>
+            <quote xml:id="pl-l4d1c4-Qsheaec" ana="#hebr9_13">
+              the blood of goats and of oxen 
+              and the ashes of heifer 
+              sprinkled would be sanctifying the unclean 
+              for the cleansing of the flesh
+            </quote>
+            <bibl>Hebrews 9:13</bibl>
+          </cit>, 
+          not
+          of the soul, 
+          for this iniquity was the contact of death.
+        </p>
+        <p xml:id="pl-l4d1c4-d1e127">
+          Whence
+          <name ref="#Augustine">Augustine</name>: 
+          <cit>
+            <quote xml:id="pl-l4d1c4-Qd1e132">
+              I understand iniquity, which the law cleans,
+              to be nothing other than 
+              the contact of the death of humanity, 
+              which whoever touched, 
+              <cit>
+                <quote xml:id="pl-l4d1c4-Qiesesd" ana="#num19_11">was unclean for seven days</quote>
+                <bibl>Numbers 19:11</bibl>
+              </cit>,
+              but was purified according to the law 
+              on the third and seventh, 
+              and was clean
+            </quote>
+            <bibl>Augustinus, Quaestionibus in Pentateuch, IV, q. 33 (PL 34, 735)</bibl>
+          </cit>, 
+          such that he may now enter the temple.
+        </p>
+        <p xml:id="pl-l4d1c4-d1e137">
+          Now sometimes these laws were cleansing people from  a bodily leprosy, 
+          but 
+          <pb ed="#Qb" n="747"/>
+          <cit>
+            <quote xml:id="pl-l4d1c4-Qneoaie" ana="#rom3_20">no one was every justified from the works of the law</quote>
+          </cit>, 
+          as the 
+          <ref xml:id="pl-l4d1c4-Rneaiea" corresp="#pl-l4d1c4-Qneoaie">
+            <name ref="#Paul">Apostle</name>
+          </ref>
+          says, 
+          even if they do them in faith and love. 
+          Why? because God imposed them in servitude, 
+          not in justification, 
+          so that they would be figures of the future, 
+          that one might will these form himself 
+          rather than offering them to idols. 
+          These therefore are signs, and even sacraments, 
+          though often less properly named in scripture 
+          because they were signs of sacred things, 
+          which they by no means surpassed. <!-- translation review needed here -->
+          But these things that the 
+          <ref xml:id="pl-l4d1c4-Raolaol"><name ref="#Paul">Apostle</name></ref>
+          calls 
+          <cit>
+            <quote xml:id="pl-l4d1c4-Qoaloal" ana="#rom3_20">works of the law</quote>
+            <bibl>Romans 3:20</bibl>
+          </cit> 
+          are only instituted either for the sake of signifying 
+          or out of necessity.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -3,7 +3,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>CAP. I</title>
+        <title>CAP. II</title>
         <author ref="#Lombard">Peter Lombard</author>
         <respStmt>
           <name xml:id="JW">Jeffrey C. Witt</name>
@@ -15,7 +15,7 @@
         </respStmt>
       </titleStmt>
       <editionStmt>
-        <edition n="0.0.0-dev"> <title>CAP. I</title> <date when="2017-10-21">October 21,
+        <edition n="0.0.0-dev"> <title>CAP. II</title> <date when="2017-10-21">October 21,
           2017</date> </edition>
       </editionStmt>
       <publicationStmt>
@@ -45,23 +45,34 @@
       </listChange>
     </revisionDesc>
   </teiHeader>
-  <text xml:lang="la">
+  <text xml:lang="en">
     <front>
       <div xml:id="starts-on"/>
     </front>
     <body>
-      <div xml:id="pl-l4d1c1">
-        <head xml:id="pl-l4d1c1-Hd1e109">CAP. I</head>
-        <head xml:id="pl-l4d1c1-Hd1e112" type="question-title">De Sacramentis.</head>
-        <p xml:id="pl-l4d1c1-d1e115">
-          Samaritanus enim, vulnerato appropians, curationi eius Sacramentorum 
-          alligamenta adhibuit, quia contra originalis peccati et actualis vulnera,
-          Sacramentorum remedia Deus instituit.
+      <div xml:id="pl-l4d2c2">
+        <head xml:id="pl-l4d2c2-Hd1e109">CAP. II</head>
+        <head xml:id="pl-l4d2c2-Hd1e112" type="question-title">
+          Concerning baptism. On the difference between the baptism of John and Christ
+        </head>
+        <p xml:id="pl-l4d2c2-d1e115">
+          Now let us see about the sacrament of baptism 
+          which is first among sacraments of the new grace.
         </p>
-        <p xml:id="pl-l4d1c1-d1e118">
-          De quibus quatuor primo consideranda occurrunt: quid sit
-          Sacramentum; quare institutum; in quibus consistat et conficiatur; et quae sit distantia
-          inter Sacramenta veteris et novae legis.
+        <p xml:id="pl-l4d2c2-d1e118">
+          John announced the baptism of Christ in advance of 
+          his own baptism, 
+          which is first read to have baptized, <!-- translation confusing --> 
+          but in water, not in the Spiritu, 
+          just as he says: 
+          <cit>
+            <quote xml:id="pl-l4d2c2-Qd1e122" ana="#mt3_11">
+              I baptize you in the water into penticnece.
+            </quote>
+            <bibl>Matthaeus 3:11</bibl>
+          </cit>.
+          For he was only washing the body, 
+          but was not cleansing from sin.
         </p>
       </div>
     </body>

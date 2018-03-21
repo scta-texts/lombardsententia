@@ -21,8 +21,7 @@
       <publicationStmt>
         <authority> <ref>SCTA</ref> </authority>
         <availability status="free">
-          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
-            Commons Attribution 4.0 International</ref> </p>
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref> </p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -55,15 +54,28 @@
         <head xml:id="pl-l4d2c4-Hd1e109">CAP. IV</head>
         <head xml:id="pl-l4d2c4-Hd1e112" type="question-title">Quid utilitatis habuit baptismus
           Ioannis.</head>
-        <p xml:id="pl-l4d2c4-d1e115"> <quote xml:id="pl-l4d2c4-Qd1e117"> Ad quid ergo utilis erat
-          baptismus Ioannis ? Quia homines usu baptizandi praeparabat ad baptismum Christi
-          </quote>.</p>
-        <p xml:id="pl-l4d2c4-d1e121">Sed, quare dictus est Ioannis baptismus, sicut Veritas dicit:
-          <quote xml:id="pl-l4d2c4-Qd1e125" ana="#mt21_25">Baptismus Ioannis unde est?</quote> Quia
+        <p xml:id="pl-l4d2c4-d1e115"> 
+          <cit>
+            <quote xml:id="pl-l4d2c4-Qd1e117">
+              Ad quid ergo utilis erat 
+              baptismus Ioannis ? Quia homines usu baptizandi praeparabat ad baptismum Christi
+            </quote>
+            <!-- unclear if this should be a quote or a copyOf section -->
+            <bibl>Hugo, De Sacramentis, XXX</bibl>
+          </cit>.
+        </p>
+        <p xml:id="pl-l4d2c4-d1e121">
+          Sed, quare dictus est Ioannis baptismus, sicut Veritas dicit:
+          <cit>
+            <quote xml:id="pl-l4d2c4-Qd1e125" ana="#mt21_25">Baptismus Ioannis unde est?</quote>
+            <bibl>Matthaeus 21:25</bibl>
+          </cit> 
+          Quia
           ibi Ioannis operatio visibilis tantum erat exterius lavantis, non invisibilis gratia Dei
-          interius operantis. Sed tamen et illa loannis operatio a Deo erat, et baptismus ille erat
+          interius operantis. Sed tamen et illa Ioannis operatio a Deo erat, et baptismus ille erat
           a Deo, non ab homine; sed hominis dictus est, quia nihil ibi gerebatur, quod non ageret
-          homo.</p>
+          homo.
+        </p>
       </div>
     </body>
   </text>

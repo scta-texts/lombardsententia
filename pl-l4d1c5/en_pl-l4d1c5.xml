@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CAP. V</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev"> <title>CAP. V</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority> <ref>SCTA</ref> </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref> </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="en">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l4d1c5">
+        <head xml:id="pl-l4d1c5-Hd1e109">CAP. V</head>
+        <head xml:id="pl-l4d1c5-Hd1e112" type="question-title">Why the sacraments have been instituted</head>
+        <p xml:id="pl-l4d1c5-d1e115">
+          The sacraments have been instituted from three reasons: 
+          in order to humble, for instruction, and for training.
+          <!-- passage copies from Hugh of St. Victor; see info file -->
+        </p>
+        <p xml:id="pl-l4d1c5-d1e119">
+          In order to humble, 
+          such that while man,
+          standing in reverence according to the command of the creator,
+          subjects himself, 
+          to sensible things, 
+          which are below him in nature, 
+          from this humility and obedience 
+          he pleases God more greatly and 
+          earns merit from him,
+          by whose command he seeks salvation 
+          amoung things inferior to himself, 
+          even though this salvation does not come from these things
+          but from God through them.
+        </p>
+        <p xml:id="pl-l4d1c5-d1e123">
+          It has also been instituted on account of instruction, 
+          such that through the fact that is considered 
+          externally in a visible species, 
+          the mind would be instructed to discern 
+          the invisible power that is internal.
+          For man, who before sin saw God without an intermediary,
+          through sin has become dim <!-- translating "hebuit" from hebere, hebeo, needs dbcheck -->
+          such that he cannot grasp the divine, 
+          unless he is trained <!-- exercitatus --> 
+          with human things.
+          <!-- some people seem to translate this "unless he leave human things, 
+            but why not "stirred up with human things" since the point seems to be that after sin 
+            he cannot longer see the divine except through visible pointers to the invisible 
+          
+          One commentator writes "Senteces manuscripts have both variants, "exercitatus" and "excitatus" 
+          (the difference is a stroke above the letters 
+          marking the syllable -er-). Obviously, the intended meaning (and hence the correct from) is "humanis excitatus" 
+          that is "leaving behind human things" (humana) when thriving for the divine - as hugh taugh. 
+          The Form of "Humanis exercitatus" means the precise opposite of the idea, "dealing with" or "exercise in" human things. 
+          This scribal error must derive from the noun of the next adjacent sentence: "Humanis excitatus. Propter exercitationem similiter"
+          p. 182, n. 607, Contemplation and the Cognition of God. Victorine Theological Anthropology and it Decline, Dissertation 2013
+          
+          This opinion doesn't seem obviously correct to me. 
+          
+          translations of "excitato" don't seem to fit with "leaving behind" 
+          
+          rather the suggest being stirred up or awakened by"
+          The "exercitatus" variant suggest something similar, being trained by human things. 
+          Quarrachi notes the variant. What does Brady say?? How does Silano translate -->
+          <!-- this is not verbatim from Hugh -->
+        </p>
+        <p xml:id="pl-l4d1c5-d1e128"> 
+          The are similarly instituted on account of training: 
+          because, when is not able to be leisurely, 
+          useful and healthy training in the sacraments is proposed, 
+          through which he holds off empty and harmful occupations. 
+          For he is not easily captured by temptations 
+          who has prepared himself with good training; 
+          whence 
+          <ref xml:id="pl-l4d1c5-Rhsahdi">
+            <name ref="#Jerome">Jerome</name>
+          </ref> 
+          advises: 
+          <cit>
+            <quote xml:id="pl-l4d1c5-Qd1e136">
+              Always do something good, 
+              so that the devil 
+              finds you occupied. 
+            </quote>
+            <bibl>Hieronymus, Epis 125, Ad Rustic. n. 11 (PL 22, 1078)</bibl>
+          </cit>. 
+          But instruction is of three types: 
+          one that pertains to the edification of the soul, 
+          another of alleviation of the soul, 
+          and another for the subversion of both.
+        </p>
+        <p xml:id="pl-l4d1c5-d1e143">
+          Therefore 
+          since without the sacraments,
+          such that God did not bind his own power to these things, <!-- translation help needed -->
+          he would still be able to give grace to man,
+          he instituted the Sacraments for the aforesaid reasons.
+        </p>
+        <p xml:id="pl-l4d1c5-d1e146"> 
+          But there are two things, 
+          in which the Sacrament consists, 
+          namely the word and the thing: 
+          the word, such as the invocation of the Trinity;
+          the thing, such as the 
+          water, oil, or things of this type.
+          <!-- this passage copies from Hugh -->
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

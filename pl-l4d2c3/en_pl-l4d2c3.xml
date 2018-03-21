@@ -3,19 +3,16 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>CAP. I</title>
+        <title>CAP. III</title>
         <author ref="#Lombard">Peter Lombard</author>
         <respStmt>
           <name xml:id="JW">Jeffrey C. Witt</name>
           <resp>TEI encoder</resp>
-        </respStmt>
-        <respStmt>
-          <name>Youlanda Halterman</name>
-          <resp>Original OCR Preparation</resp>
+          <resp>Translator</resp>
         </respStmt>
       </titleStmt>
       <editionStmt>
-        <edition n="0.0.0-dev"> <title>CAP. I</title> <date when="2017-10-21">October 21,
+        <edition n="0.0.0-dev"> <title>CAP. III</title> <date when="2017-10-21">October 21,
           2017</date> </edition>
       </editionStmt>
       <publicationStmt>
@@ -45,23 +42,30 @@
       </listChange>
     </revisionDesc>
   </teiHeader>
-  <text xml:lang="la">
+  <text xml:lang="en">
     <front>
       <div xml:id="starts-on"/>
     </front>
     <body>
-      <div xml:id="pl-l4d1c1">
-        <head xml:id="pl-l4d1c1-Hd1e109">CAP. I</head>
-        <head xml:id="pl-l4d1c1-Hd1e112" type="question-title">De Sacramentis.</head>
-        <p xml:id="pl-l4d1c1-d1e115">
-          Samaritanus enim, vulnerato appropians, curationi eius Sacramentorum 
-          alligamenta adhibuit, quia contra originalis peccati et actualis vulnera,
-          Sacramentorum remedia Deus instituit.
-        </p>
-        <p xml:id="pl-l4d1c1-d1e118">
-          De quibus quatuor primo consideranda occurrunt: quid sit
-          Sacramentum; quare institutum; in quibus consistat et conficiatur; et quae sit distantia
-          inter Sacramenta veteris et novae legis.
+      <div xml:id="pl-l4d2c3">
+        <head xml:id="pl-l4d2c3-Hd1e109">CAP. III</head>
+        <p xml:id="pl-l4d2c3-d1e112">
+          The baptism of John was into penitence, 
+          not into remission; 
+          but the baptism of Christ was into remission; 
+          because while baptizing John called men to penitence, 
+          and those who he was baptizing, he taught penitence, 
+          according to which it says:  
+          <cit>
+            <quote xml:id="pl-l4d2c3-Qd1e116" ana="#mt3_6">
+              They came to John in the Jordan, 
+              confessing their sins
+            </quote>
+            <bibl>Matthew 3:6</bibl>
+          </cit>. 
+          But in the baptism of John 
+          there is not remission of sin, 
+          which there is in the baptism of Christ.
         </p>
       </div>
     </body>

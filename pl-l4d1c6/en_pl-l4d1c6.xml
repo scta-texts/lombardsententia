@@ -1,21 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>CAP. III</title>
+        <title>CAP. VI</title>
         <author ref="#Lombard">Peter Lombard</author>
         <respStmt>
           <name xml:id="JW">Jeffrey C. Witt</name>
           <resp>TEI encoder</resp>
-        </respStmt>
-        <respStmt>
-          <name>Youlanda Halterman</name>
-          <resp>Original OCR Preparation</resp>
+          <resp>Translator</resp>
         </respStmt>
       </titleStmt>
       <editionStmt>
-        <edition n="0.0.0-dev"> <title>CAP. III</title> <date when="2017-10-21">October 21,
+        <edition n="0.0.0-dev"> <title>CAP. VI</title> <date when="2017-10-21">October 21,
           2017</date> </edition>
       </editionStmt>
       <publicationStmt>
@@ -45,26 +43,35 @@
       </listChange>
     </revisionDesc>
   </teiHeader>
-  <text xml:lang="la">
+  <text xml:lang="en">
     <front>
       <div xml:id="starts-on"/>
     </front>
     <body>
-      <div xml:id="pl-l4d2c3">
-        <head xml:id="pl-l4d2c3-Hd1e109">CAP. III</head>
-        <p xml:id="pl-l4d2c3-d1e112">
-          Baptismus Ioannis erat in poenitentiam, non in remissionem;
-          baptismus vero Christi in remissionem; quia Ioannes baptizans homines ad poenitentiam
-          vocabat, et quos baptizabat, poenitere docebat, secundum illud: 
+      <div xml:id="pl-l4d1c6">
+        <head xml:id="pl-l4d1c6-Hd1e109">CAP. VI</head>
+        <head xml:id="pl-l4d1c6-Hd1e112" type="question-title">
+          On the difference between the old and new sacraments
+        </head>
+        <p xml:id="pl-l4d1c6-d1e115">
+          Now it stands to see the distance between the old and new sacraments, 
+          as we call those things sacraments which in ancient times were signifying holy things, 
+          like sacrifices and oblations and things of this type.
+        </p>
+        <p xml:id="pl-l4d1c6-d1e118">
+          But
+          <ref xml:id="pl-l4d1c6-Raqiads" corresp="#pl-l4d1c6-Qd1e123">
+            <name ref="#Augustine">Augustine</name>
+          </ref>
+          assigns a difference 
+          between these old and new sacraments saying, 
           <cit>
-            <quote xml:id="pl-l4d2c3-Qd1e116" ana="#mt3_6">
-              Veniebant ad Ioannem in Iordanem, confitentes 
-              peccata sua
+            <quote xml:id="pl-l4d1c6-Qd1e123">
+              because those things were only promising and signifying, 
+              but these things give salvation
             </quote>
-            <bibl>Matthaeus 3:6</bibl>
+            <bibl>Augustinus, Enarrationes in Psalmos, 73, n. 2 (PL 36, 931)</bibl>
           </cit>. 
-          Sed in Ioannis baptismo non dabatur peccatorum remissio, quae data
-          est in Christi baptismo.
         </p>
       </div>
     </body>

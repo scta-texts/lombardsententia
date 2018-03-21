@@ -3,7 +3,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>CAP. I</title>
+        <title>CAP. IV</title>
         <author ref="#Lombard">Peter Lombard</author>
         <respStmt>
           <name xml:id="JW">Jeffrey C. Witt</name>
@@ -15,7 +15,7 @@
         </respStmt>
       </titleStmt>
       <editionStmt>
-        <edition n="0.0.0-dev"> <title>CAP. I</title> <date when="2017-10-21">October 21,
+        <edition n="0.0.0-dev"> <title>CAP. IV</title> <date when="2017-10-21">October 21,
           2017</date> </edition>
       </editionStmt>
       <publicationStmt>
@@ -45,23 +45,43 @@
       </listChange>
     </revisionDesc>
   </teiHeader>
-  <text xml:lang="la">
+  <text xml:lang="en">
     <front>
       <div xml:id="starts-on"/>
     </front>
     <body>
-      <div xml:id="pl-l4d1c1">
-        <head xml:id="pl-l4d1c1-Hd1e109">CAP. I</head>
-        <head xml:id="pl-l4d1c1-Hd1e112" type="question-title">De Sacramentis.</head>
-        <p xml:id="pl-l4d1c1-d1e115">
-          Samaritanus enim, vulnerato appropians, curationi eius Sacramentorum 
-          alligamenta adhibuit, quia contra originalis peccati et actualis vulnera,
-          Sacramentorum remedia Deus instituit.
+      <div xml:id="pl-l4d2c4">
+        <head xml:id="pl-l4d2c4-Hd1e109">CAP. IV</head>
+        <head xml:id="pl-l4d2c4-Hd1e112" type="question-title">
+          What kind of utility does the baptism of John have</head>
+        <p xml:id="pl-l4d2c4-d1e115"> 
+          <cit>
+            <quote xml:id="pl-l4d2c4-Qd1e117">
+              Therefore for what reason was the baptism of John useful?
+              Because men were prepared for the baptism of Christ by the use of the one baptizing.
+            </quote>
+            <!-- unclear if this should be a quote or a copyOf section -->
+            <bibl>Hugo, De Sacramentis, XXX</bibl>
+          </cit>.
         </p>
-        <p xml:id="pl-l4d1c1-d1e118">
-          De quibus quatuor primo consideranda occurrunt: quid sit
-          Sacramentum; quare institutum; in quibus consistat et conficiatur; et quae sit distantia
-          inter Sacramenta veteris et novae legis.
+        <p xml:id="pl-l4d2c4-d1e121">
+          But, why is the baptism of John spoken of 
+          the way that the Truth speaks:
+          <cit>
+            <quote xml:id="pl-l4d2c4-Qd1e125" ana="#mt21_25">From where did the baptism of John come?</quote>
+            <bibl>Matthew 21:25</bibl>
+          </cit> 
+          Because in this case the visible operation of John 
+          was of one washing externally, 
+          not the invisible grace of God 
+          who is operating internally.
+          But nevertheless this operation of John 
+          was from God, 
+          and the baptism was from God, 
+          not from man; 
+          but it was said of man, 
+          because nothing was done there 
+          that a man did not do.
         </p>
       </div>
     </body>

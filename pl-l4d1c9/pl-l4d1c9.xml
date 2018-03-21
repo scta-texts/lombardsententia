@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -21,8 +23,7 @@
       <publicationStmt>
         <authority> <ref>SCTA</ref> </authority>
         <availability status="free">
-          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
-            Commons Attribution 4.0 International</ref> </p>
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref> </p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -55,35 +56,50 @@
         <head xml:id="pl-l4d1c9-Hd1e109">CAP. IX</head>
         <head xml:id="pl-l4d1c9-Hd1e112" type="question-title">De institutione circumcisionis et
           causa.</head>
-        <p xml:id="pl-l4d1c9-d1e115">Hic dicendum est, in quo instituta fuerit circumcisio; et
-          quare; et cur mutata per baptismum.</p>
-        <p xml:id="pl-l4d1c9-d1e118"> <name ref="#Abraham">Abraham</name> primus mandatum
+        <p xml:id="pl-l4d1c9-d1e115">
+          Hic dicendum est, in quo instituta fuerit circumcisio; et
+          quare; et cur mutata per baptismum.
+        </p>
+        <p xml:id="pl-l4d1c9-d1e118">
+          <name ref="#Abraham">Abraham</name> primus mandatum
           circumcisionis habuit ad probationem obedientiae; nec ei soli praecepta fuit circumcisio,
           sed et semini eius, id est omnibus Hebraeis; quae fiebat secundum Legem octava die,
-          lapideo cultro, in carne praeputii.</p>
-        <p xml:id="pl-l4d1c9-d1e124">Data autem fuit circumcisio pluribus de causis, scilicet ut per
+          lapideo cultro, in carne praeputii.
+        </p>
+        <p xml:id="pl-l4d1c9-d1e124">
+          Data autem fuit circumcisio pluribus de causis, scilicet ut per
           obedientiam mandati <name ref="#Abraham">Abraham</name> placeret Deo, cui per
-          praevaricationem Adam displicuerat. Data etiam fuit in signum magnae fidei Abrahae, qui
+          praevaricationem <name>Adam</name> displicuerat. Data etiam fuit in signum magnae fidei <name ref="#Abraham">Abrahae</name>, qui
           credidit, se habiturum filium, in quo fieret benedictio omnium. Deinde, ut hoc signo a
-          celeris nationibus discerneretur populus ille.</p>
-        <p xml:id="pl-l4d1c9-d1e131">In carne vero praeputii ideo iussa est fieri circumcisio, quia
+          ceteris nationibus discerneretur populus ille.
+        </p>
+        <p xml:id="pl-l4d1c9-d1e131">
+          In carne vero praeputii ideo iussa est fieri circumcisio, quia
           in remedium instituta est originalis peccati, quod a parentibus trahimus per
           concupiscentiam, quae in parte illa magis dominatur. Et quia in parte illa culpam
-          inobedientiae primus homo sensit, decuit ut ibi signum obedientiae acciperet.</p>
-        <p xml:id="pl-l4d1c9-d1e134">Fiebat autem octavo die, petrino cultro, quia et in
+          inobedientiae primus homo sensit, decuit ut ibi signum obedientiae acciperet.
+        </p>
+        <p xml:id="pl-l4d1c9-d1e134">
+          Fiebat autem octavo die, petrino cultro, quia et in
           resurrectione communi, octava aetate futura, per petram Christum omnis ab electis
           abscindetur corruptio, et per Christi resurrectionem, octava die factam, circumciditur a
-          peccatis anima cuiusque in eum credentis. <quote xml:id="pl-l4d1c9-Qd1e136">Duae igitur
-          res sunt illius Sacramenti</quote>.</p>
-        <p xml:id="pl-l4d1c9-d1e140">Ideo autem mutata est circumcisio per baptismum, quia
+          peccatis anima cuiusque in eum credentis. 
+          <cit>
+            <quote xml:id="pl-l4d1c9-Qd1e136">Duae igitur res sunt illius Sacramenti</quote>
+            <bibl>Hugo, Sum. Sent. tr. 4, c. 1 (PL 176, 119)</bibl>
+          </cit>.
+        </p>
+        <p xml:id="pl-l4d1c9-d1e140">
+          Ideo autem mutata est circumcisio per baptismum, quia
           Sacramentum baptismi et communius est et perfectius, quia pleniori gratia accumulatum. Ibi
           enim peccata solum dimittebantur, sed nec gratia ad bene operandum adiutrix, nec virtutum
           possessio vel augmentum ibi praestabatur, ut in baptismo, ubi non modo abolentur peccata,
           sed etiam gratia adiutrix confertur, et virtutes augentur. Unde aqua refectionis dicitur,
           quae aridos fecundat et iam fructificantes ampliori ubertate donat; quia, quantumcumque
           per fidem et caritatem ante habitam aliquis iustus ad baptismum accedit, uberiorem ibi
-          recipit gratiam, sed non ita in circumcisione. Unde Abrahae per fidem iam iustificato
-          signaculum tantum fuit, nihil ei intus contulit.</p>
+          recipit gratiam, sed non ita in circumcisione. Unde <name>Abrahae</name> per fidem iam iustificato
+          signaculum tantum fuit, nihil ei intus contulit.
+        </p>
       </div>
     </body>
   </text>

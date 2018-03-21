@@ -1,9 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>CAP. I</title>
+        <title>CAP. V</title>
         <author ref="#Lombard">Peter Lombard</author>
         <respStmt>
           <name xml:id="JW">Jeffrey C. Witt</name>
@@ -15,7 +17,7 @@
         </respStmt>
       </titleStmt>
       <editionStmt>
-        <edition n="0.0.0-dev"> <title>CAP. I</title> <date when="2017-10-21">October 21,
+        <edition n="0.0.0-dev"> <title>CAP. V</title> <date when="2017-10-21">October 21,
           2017</date> </edition>
       </editionStmt>
       <publicationStmt>
@@ -45,23 +47,26 @@
       </listChange>
     </revisionDesc>
   </teiHeader>
-  <text xml:lang="la">
+  <text xml:lang="en">
     <front>
       <div xml:id="starts-on"/>
     </front>
     <body>
-      <div xml:id="pl-l4d1c1">
-        <head xml:id="pl-l4d1c1-Hd1e109">CAP. I</head>
-        <head xml:id="pl-l4d1c1-Hd1e112" type="question-title">De Sacramentis.</head>
-        <p xml:id="pl-l4d1c1-d1e115">
-          Samaritanus enim, vulnerato appropians, curationi eius Sacramentorum 
-          alligamenta adhibuit, quia contra originalis peccati et actualis vulnera,
-          Sacramentorum remedia Deus instituit.
-        </p>
-        <p xml:id="pl-l4d1c1-d1e118">
-          De quibus quatuor primo consideranda occurrunt: quid sit
-          Sacramentum; quare institutum; in quibus consistat et conficiatur; et quae sit distantia
-          inter Sacramenta veteris et novae legis.
+      <div xml:id="pl-l4d2c5">
+        <head xml:id="pl-l4d2c5-Hd1e109">CAP. V</head>
+        <head xml:id="pl-l4d2c5-Hd1e112" type="question-title">
+          Whether this baptism was a sacrament
+        </head>
+        <p xml:id="pl-l4d2c5-d1e115">
+          But if it is asked, 
+          whether this was a sacrament, 
+          it is able to be sufficiently conceded 
+          from the sense, 
+          in which Sacraments are called legal signs.
+          For the baptism of John was signifying the holy thing, 
+          namely the baptism of Christ, 
+          which is not only a baptism of penitence, 
+          but also a baptism of the remission of sins.
         </p>
       </div>
     </body>

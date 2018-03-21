@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -21,8 +23,7 @@
       <publicationStmt>
         <authority> <ref>SCTA</ref> </authority>
         <availability status="free">
-          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
-            Commons Attribution 4.0 International</ref> </p>
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref> </p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -55,8 +56,8 @@
         <head xml:id="pl-l4d2c5-Hd1e109">CAP. V</head>
         <head xml:id="pl-l4d2c5-Hd1e112" type="question-title">Si fuit Sacramentum baptismus
           ille.</head>
-        <p xml:id="pl-l4d2c5-d1e115">Si vero quaeritur, an Sacramentum fuerit, potest salis concedi
-          ex eo sensu, quo legalia signa dicuntur Sacramenta. Signabat enim baptismus loannis rem
+        <p xml:id="pl-l4d2c5-d1e115">Si vero quaeritur, an Sacramentum fuerit, potest satis concedi
+          ex eo sensu, quo legalia signa dicuntur Sacramenta. Signabat enim baptismus <name>Ioannis</name> rem
           sacram, scilicet baptismum Christi, qui non tantum est poenitentiae, sed et remissionis
           peccatorum.</p>
       </div>

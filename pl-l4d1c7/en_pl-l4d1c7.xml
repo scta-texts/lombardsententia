@@ -10,11 +10,9 @@
         <respStmt>
           <name xml:id="JW">Jeffrey C. Witt</name>
           <resp>TEI encoder</resp>
+          <resp>Translator</resp>
         </respStmt>
-        <respStmt>
-          <name>Youlanda Halterman</name>
-          <resp>Original OCR Preparation</resp>
-        </respStmt>
+        
       </titleStmt>
       <editionStmt>
         <edition n="0.0.0-dev"> <title>CAP. VII</title> <date when="2017-10-21">October 21,
@@ -46,55 +44,67 @@
       </listChange>
     </revisionDesc>
   </teiHeader>
-  <text xml:lang="la">
+  <text xml:lang="en">
     <front>
       <div xml:id="starts-on"/>
     </front>
     <body>
       <div xml:id="pl-l4d1c7">
         <head xml:id="pl-l4d1c7-Hd1e109">CAP. VII</head>
-        <head xml:id="pl-l4d1c7-Hd1e112" type="question-title">De circumcisione.</head>
+        <head xml:id="pl-l4d1c7-Hd1e112" type="question-title">On circumcision</head>
         <p xml:id="pl-l4d1c7-d1e115">
-          Fuit tamen et inter illa Sacramentum quoddam, scilicet
-          circumcisionis, idem conferens remedium contra peccatum, quod nunc baptismus.
+          Nevertheless there was one among those sacraments, 
+          namely circumcision, 
+          conferring the same remedy against sin, 
+          that is now conferred through baptism.
         </p>
         <p xml:id="pl-l4d1c7-d1e118">
-          Unde 
+          Whence 
           <ref xml:id="pl-l4d1c7-Rd1e122" corresp="#pl-l4d1c7-Qd1e123">
-            <name ref="#Augustine">Augustinus</name>
+            <name ref="#Augustine">Augustine</name>
           </ref>:
           <cit>
             <quote xml:id="pl-l4d1c7-Qd1e123"> 
-              Ex quo instituta est circumcisio in populo Dei, quae erat tunc
-            <cit>
-              <quote xml:id="pl-l4d1c7-Qd1e127" ana="#rom4_11">signaculum iustitiae fidei</quote>
-              <bibl>Romanos 4:11</bibl>
-            </cit>,
-              ad
-              purgationem valebat magnis et parvulis originalis veterisque peccati; sicut baptismus ex
-              illo valere coepit ad innovationem hominis, ex quo institutus est
+              From which circumcision was instituted among the people of God, 
+              which was at that time
+              <cit>
+                <quote xml:id="pl-l4d1c7-Qd1e127" ana="#rom4_11">the seal of the justice of faith</quote>
+                <bibl>Romanos 4:11</bibl>
+              </cit>,
+              was valid for the purging of a great and small, original and old, sin; 
+              just as baptism 
+              from the time in which it was instituted 
+              began to be valid for the renewal of man.
             </quote>
             <bibl>Augustinus, De nuptiis et concupiscentia, II, c. 11, n. 24 (PL 44, 450)</bibl>
           </cit>.
         </p>
         <p xml:id="pl-l4d1c7-d1e127"> 
-          Item 
-          <ref xml:id="pl-l4d1c7-Rd1e149"><name ref="#Bede">Beda</name></ref>: 
+          Again
+          <ref xml:id="pl-l4d1c7-Rd1e149"><name ref="#Bede">Bede</name></ref>: 
           <cit>
-            <quote xml:id="pl-l4d1c7-Qd1e132">Idem salutiferae curationis auxilium circumcisio in Lege contra
-            originalis peccati vulnus agebat, quod baptismus agere revelatae gratiae tempore
-            consuevit, excepto quod regni caelestis ianuam necdum intrare poterant; tamen in sinu
-            Abrahae post mortem beata requie consolati, supernae pacis ingressum spe felici
-            exspectabant
+            <quote xml:id="pl-l4d1c7-Qd1e132">
+              It is the same help of salvific healing 
+              that circumcision in the law worked 
+              against the wound of original sin,
+              that baptism is accustomed to effect 
+              in the time of revealed grace,
+              with the exception that they are 
+              not yet able to enter the door of the heavenly kingdom. 
+              Nevertheless, after death 
+              consoled in the bosom of Abraham,
+              they were awaiting with happy hope 
+              entrance into eternal peace.
             </quote>
             <bibl>Beda, Homil. 10, in circumcisione Domini (PL 94:54)</bibl>
           </cit>. 
         </p>
         <p xml:id="pl-l4d1c7-d1e137">
-          His aperte traditur, per circumcisionem, ex quo instituta fuit,
-          remissionem peccati originalis et actualis parvulis et maioribus a Deo praestitam, sicut
-          nunc per baptismum datur.
-        </p>
+         In these ways it is openly explained that,
+         the remission of original and actual sin, small and large, was made good by God,
+         through circumcision, for which it was instituted,
+         just as it is now given by through baptism. <!-- translation a bit fuzzy, dbhceck --> 
+        </p> 
       </div>
     </body>
   </text>
