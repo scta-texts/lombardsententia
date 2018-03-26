@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CAP. IV</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+          <resp>Translator</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev"> 
+          <title>CAP. IV</title> 
+          <date when="2018-03-26">March 26, 2018</date> 
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority> <ref>SCTA</ref> </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref> </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-26" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="en">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Qb" n="756"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l4d3c4">
+        <head xml:id="pl-l4d3c4-Hd1e109">Chapter IV</head>
+        <head xml:id="pl-l4d3c4-Hd1e112" type="question-title">
+          If baptism is possible in the name of the Father or the Holy Spirit alone.
+        </head>
+        <p xml:id="pl-l4d3c4-d1e115">
+          Here it is asked, 
+          whether baptism would be true, 
+          if it were said in the name of the Father alone 
+          or of the Holy Spirit alone, 
+          as it is when it is said in the name of Christ.
+        </p>
+        <p xml:id="pl-l4d3c4-d1e118">
+          <name ref="#Ambrose">Ambrose</name> seems to say, 
+          that if the mystery of the Trinity is held by faith, 
+          and only one person is named,
+          then it is a true sacrament, 
+          and conversely, 
+          if three names are mentioned, 
+          but one does not believe rightly about one of them, 
+          the mystery becomes empty. 
+          For he says the following:
+          <cit>
+            <quote xml:id="pl-l4d3c4-Qd1e123">
+              Where there is not the full sacrament of baptism 
+              neither the beginning nor some species of baptism is estimated. 
+              But the fullness is present, 
+              if the Father and the Son and the Holy spirit are acknowledge. 
+              If you deny one, you ruin the whole.
+              And just as if you comprehend one in a word, either Father
+              <pb ed="#Qb" n="757"/>
+              or Son, or Holy Spirit 
+              but in faith you deny neither the Father, nor the Son, nor the Holy Sirit, 
+              then the Sacrament is full of faith; 
+              thus also, 
+              though you say the Father and Son and Holy Spirit,
+              but you diminish the power of the Father 
+              or the Son 
+              or the Holy Spirit, 
+              then every mystery is empty.
+            </quote>
+            <bibl>Ambrosius, De spiritu sancto, I, c. 3., n. 42 </bibl>
+          </cit>. 
+          <cit>
+            <quote xml:id="pl-l4d3c4-Qd1e126">
+              Since it is said in the name of Christ, 
+              the mystery is filled through the unity of the name; 
+              for not even the Spirit is separated from the baptism of Christ, 
+              because Christ was baptized in the Spirit
+            </quote>
+            <bibl>Ambrosius, De spiritu sancto, I, c. 3., n. 43</bibl>
+          </cit>.
+        </p>
+        <p xml:id="pl-l4d3c4-d1e130"> 
+          <cit>
+            <quote xml:id="pl-l4d3c4-Qd1e132">
+              Now let us consider, 
+              whether, 
+              just as we read in the name of Christ 
+              that the sacrament of baptism is full, 
+              so also when called upon the name of the Holy Spirit alone, 
+              nothing is lacking for the fullness of the mystery. 
+              Let us follow reason. 
+              Whoever said one, signified the Trinity; 
+              if you say Christ, you have designated both the Father, by whom the Son was anointed, 
+              and the Son who himself was anointed,  
+              and the Holy Spirit, in whom he was anointed.
+              For it has been written
+              <cit>
+                <quote xml:id="pl-l4d3c4-Qd1e136" ana="#act10_38">
+                  This is Jesus of Nazarath, 
+                  who God anointed in the Holy Spirit
+                </quote>
+                <bibl>Actus 10:38</bibl>
+              </cit>. 
+              And if you say the Father, you are indicating 
+              equally his Son and the Spirit of his mouth, 
+              but only if you comprehend that in your heart. 
+              And if you say the Spirit, 
+              you name God the Father, 
+              by whom he proceeds, 
+              and the Son, 
+              of which it is the Spirit.
+              Whence, with authority joined to reason, 
+              the Lord says: 
+              <cit>
+                <quote xml:id="pl-l4d3c4-Qd1e139" ana="#act1_5">
+                  But you were baptized in the Holy Spirit
+                </quote>
+                <bibl>Actus 1:5</bibl>
+              </cit>
+            </quote>
+            <bibl>Ambrosius, De spiritu sancto, I, c. 3., n. 44</bibl>
+          </cit>. 
+          From which he indicates, 
+          we are able rightly to be baptized in the Holy Spirit.
+        </p>
+        <p xml:id="pl-l4d3c4-d1e137">
+          From these things you have understood opening, 
+          that baptism is truly possible in the name of Christ; 
+          where nevertheless it seems to be insinuated, 
+          that true baptism is able to be given 
+          in the name of the Father alone, 
+          or the Holy Spirit alone, 
+          if the one who baptizes, holds the faith of the Trinity, 
+          which is understood 
+          in one of their names. 
+          But if someone, 
+          believing perversely and 
+          intending to introduce error, 
+          names only one of the three, 
+          then the mystery is not fulfilled.
+        </p>
+        <p xml:id="pl-l4d3c4-d1e140">
+          For truly he says,
+          <cit>
+            <quote xml:id="pl-l4d3c4-Qd1e142">
+              having named the three persons, 
+              the mystery is still empty, 
+              if the one baptizing diminishes 
+              the power of the Father or the Son or the Holy Spirit
+            </quote>
+            <bibl>Ambrosius, De spiritu sancto, I, c. 3., n. 42 </bibl>
+          </cit>, 
+          that is, holding a bad opinion about the power of one of them, 
+          not believing one power of the three, 
+          this should be understood about him who 
+          does not intend
+          <pb ed="#Qb" n="758"/>
+          to baptize nor to believe in baptism,
+          who not only lacks faith, 
+          but also does not have the intention of baptizing.
+        </p>
+        <p xml:id="pl-l4d3c4-d1e146">
+          Therefore 
+          the one who baptizes in the name of Christ, 
+          baptizes in the name of the Trinity, 
+          since it is understood there. 
+          Nevertheless, 
+          it is safer, to name the three persons there, 
+          that is to say: in the name of the Father and the Son and the Holy Spirit, 
+          not in names, but in one name, 
+          that is in the invocation or in the confession of the Father and the Son and the Holy Spirit; 
+          for there the Trinity is invoked, 
+          such that it works there invisibly in itself, 
+          just as it is visible worked through the minister. 
+          But if it is done in names, 
+          then the sacrament is not there 
+          because the form is not kept.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
