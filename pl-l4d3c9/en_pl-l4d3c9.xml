@@ -8,16 +8,14 @@
         <author ref="#Lombard">Peter Lombard</author>
         <respStmt>
           <name xml:id="JW">Jeffrey C. Witt</name>
-          <resp>TEI encoder</resp>
-        </respStmt>
-        <respStmt>
-          <name>Youlanda Halterman</name>
-          <resp>Original OCR Preparation</resp>
+          <resp>TEI encoder, translator</resp>
         </respStmt>
       </titleStmt>
       <editionStmt>
-        <edition n="0.0.0-dev"> <title>CAP. IX</title> <date when="2017-10-21">October 21,
-          2017</date> </edition>
+        <edition n="0.0.0-dev"> 
+          <title>CAP. IX</title> 
+          <date when="2018-05-16">May 16, 2018</date> 
+        </edition>
       </editionStmt>
       <publicationStmt>
         <authority> <ref>SCTA</ref> </authority>
@@ -41,12 +39,13 @@
     </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
+        <change when="2018-05-16" status="draft" n="0.0.0"> 
+          <p>Created file for the first time.</p>
         </change>
       </listChange>
     </revisionDesc>
   </teiHeader>
-  <text xml:lang="la">
+  <text xml:lang="en">
     <front>
       <div xml:id="starts-on"/>
     </front>
@@ -54,20 +53,36 @@
       <div xml:id="pl-l4d3c9">
         <head xml:id="pl-l4d3c9-Hd1e109">CAP. IX</head>
         <head xml:id="pl-l4d3c9-Hd1e112" type="question-title">
-          De causa institutionis baptismi.
+          Concerning the cause of the institution of baptism.
         </head>
         <p xml:id="pl-l4d3c9-d1e115">
-          Causa vero institutionis baptismi est innovatio mentis, ut
-          homo, qui per peccatum vetus fuerat, per gratiam baptismi renovetur, quod fit depositione
-          vitiorum et collatione virtutum. Sic enim fit quisque novus homo, cum, abolitis peccatis,
-          ornatur virtutibus. Abolitio peccatorum pellit foeditatem; appositio virtutum affert
-          decorem, et haec est res huius Sacramenti, scilicet interior munditia.
+          But the cause of the institution of baptism 
+          is an renewal of the mind, 
+          such that a person, who was made old through sin, 
+          is made new through the grace of baptism, 
+          which happens through the laying aside of vices 
+          and the gathering of virtues. 
+          For in this way one becomes a new person, 
+          when, having abolished sin, 
+          they are dressed in virtues. 
+          The abolition of sins 
+          drives away ugliness; 
+          the acquisition of virtue <!-- check translation of "appositio" as "acquisitio" --> 
+          leads what is beautiful, 
+          and this is the thing (res) of this sacrament, 
+          namely the interior cleaning.
         </p>
         <p xml:id="pl-l4d3c9-d1e118">
-          Si quaeritur, utrum baptismus aperuerit caelum, quod non
-          aperuit circumcisio, dicimus, quia nec baptismus nec circumcisio aditum regni nobis
-          aperuit, sed hostia Salvatoris, quae si tempore circumcisionis oblata fuisset, illius
-          temporis homines in regnum intrassent. Res ergo huius Sacramenti justificatio est.
+          If it is asked, 
+          whether baptism opened heaven, 
+          because circumcision did not, 
+          we say,
+          because neither baptism nor circumcision 
+          opened for us access to the kingdom,
+          but rather the sacrifice of the Savior, 
+          which if it had been made during the time of circumcision, 
+          the people of that time would have entered into the kingdom. 
+          The thing therefore of this sacrament is justification.
         </p>
       </div>
     </body>

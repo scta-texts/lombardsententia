@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -21,8 +20,7 @@
       <publicationStmt>
         <authority> <ref>SCTA</ref> </authority>
         <availability status="free">
-          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
-            Commons Attribution 4.0 International</ref> </p>
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref> </p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -32,11 +30,9 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
-        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-          guidelines for a critical edition.</p>
+        <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref> </p>
       </editorialDecl>
     </encodingDesc>
     <revisionDesc status="draft">
@@ -53,40 +49,81 @@
     <body>
       <div xml:id="pl-l4d3c7">
         <head xml:id="pl-l4d3c7-Hd1e109">CAP. VII</head>
-        <head xml:id="pl-l4d3c7-Hd1e112" type="question-title">De immersione, quoties fieri
-          debeat.</head>
-        <p xml:id="pl-l4d3c7-d1e115">De immersione vero si quaeritur quomodo fieri debeat praecise,
-          respondemus: vel semel, vel tertio, pro vario more Ecclesiae.</p>
-        <p xml:id="pl-l4d3c7-d1e118">Unde <name ref="GregoryGreat">Gregorius</name>: <quote
-          xml:id="pl-l4d3c7-Qd1e123">De trina immersione baptismi nil verius responderi potest, quam
-          quod ipsi sensistis; quia in una fide nihil officit Ecclesiae sanctae consuetudo diversa.
-          Quia enim in tribus subsistentiis una substantia est, reprehensibile esse nullatenus
-          potest, infantem in baptismo vel ter vel semel mergere, quia et in tribus mersionibus
-          personarum Trinitas, et in una potest Divinitatis singularitas designari. Nos vero, qui
-          tertio mergimus, etiam triduanae sepulturae sacramentum signamus</quote>.</p>
-        <p xml:id="pl-l4d3c7-d1e127">Secundum hoc enim licet non modo ter, sed etiam semel tantum
-          mergere.</p>
-        <p xml:id="pl-l4d3c7-d1e131">Ibi tamen dumtaxat semel mergere licet, ubi consuetudo
+        <head xml:id="pl-l4d3c7-Hd1e112" type="question-title">
+          De immersione, quoties fieri debeat.
+        </head>
+        <p xml:id="pl-l4d3c7-d1e115">
+          De immersione vero si quaeritur quomodo fieri debeat praecise,
+          respondemus: vel semel, vel tertio, pro vario more Ecclesiae.
+        </p>
+        <p xml:id="pl-l4d3c7-d1e118">
+          Unde 
+          <ref xml:id="pl-l4d3c7-Rd1e125" corresp="#pl-l4d3c7-Qd1e123">
+            <name ref="#GregoryGreat">Gregorius</name>
+          </ref>: 
+          <cit>
+            <quote xml:id="pl-l4d3c7-Qd1e123">
+              De trina immersione baptismi nil verius responderi potest, quam
+              quod ipsi sensistis; quia in una fide nihil officit Ecclesiae sanctae consuetudo diversa.
+              Quia enim in tribus subsistentiis una substantia est, reprehensibile esse nullatenus
+              potest, infantem in baptismo vel ter vel semel mergere, quia et in tribus mersionibus
+              personarum Trinitas, et in una potest Divinitatis singularitas designari. Nos vero, qui
+              tertio mergimus, etiam triduanae sepulturae sacramentum signamus
+            </quote>
+            <bibl>
+              Gregorius, XXX <!-- Epistolar. indiction, 9, epist. 43 alias 41) (PL 77, 497; 
+              Seem to have parallels in canon law cfr. Ivo Decret. p. 1, c. 130; De consecration. dist 4 (t. 1, 1388). -->
+            </bibl>
+          </cit>.
+        </p>
+        <p xml:id="pl-l4d3c7-d1e127">
+          Secundum hoc enim licet non modo ter, sed etiam semel tantum
+          mergere.
+        </p>
+        <p xml:id="pl-l4d3c7-d1e131">
+          Ibi tamen dumtaxat semel mergere licet, ubi consuetudo
           Ecclesiae talis existit. Si quis vero id facere incipiat, ubi consuetudo talis non est,
-          vel semel tantum mergendum esse asserat, reprehensibilem se constituit.</p>
-        <p xml:id="pl-l4d3c7-d1e134">Unde <name>Haymo</name>: <quote xml:id="pl-l4d3c7-Qd1e136">In suo sensu
-          abundabat <name>Cyprianus</name>, cum semel mergebat in baptismo parvulos; qui quod intelligebat,
-          studiose implebat, bonis operibus abundando, licet in hoc nescius delinqueret. Sed quia
-          bonis operibus abundabat, postea, correctus a Deo, abundavit altiori sensu, ter illos
-          mergendo</quote>.</p>
-        <p xml:id="pl-l4d3c7-d1e140">Ecce habes, quia deliquit qui semel mersit; sed hoc ideo, quia
+          vel semel tantum mergendum esse asserat, reprehensibilem se constituit.
+        </p>
+        <p xml:id="pl-l4d3c7-d1e134">
+          Unde 
+          <ref xml:id="pl-l4d3c7-Rd1e150" corresp="#pl-l4d3c7-Qd1e136"><name>Haymo</name></ref>: 
+          <cit>
+            <quote xml:id="pl-l4d3c7-Qd1e136">
+              In suo sensu
+              abundabat <name>Cyprianus</name>, cum semel mergebat in baptismo parvulos; qui quod intelligebat,
+              studiose implebat, bonis operibus abundando, licet in hoc nescius delinqueret. Sed quia
+              bonis operibus abundabat, postea, correctus a Deo, abundavit altiori sensu, ter illos
+              mergendo
+            </quote>
+           <bibl>Haymo, Expost. in Epist. ad Rom 14:5 (PL 117, 488)</bibl>
+          </cit>.
+        </p>
+        <p xml:id="pl-l4d3c7-d1e140">
+          Ecce habes, quia deliquit qui semel mersit; sed hoc ideo, quia
           aliter se habebat illius Ecclesiae consuetudo, vel quia unam tantum faciendam mersionem
-          asserebat.</p>
-        <p xml:id="pl-l4d3c7-d1e143">De trina mersione <name ref="#Augustine">Augustinus</name> ait:
-          <quote xml:id="pl-l4d3c7-Qd1e148">Postquam nos credere promisimus, tertio capita nostra in
-          sacro fonte dimersimus, qui ordo baptismi duplici mysterii significatione celebratur.
-          Recte enim tertio mersi estis, qui accepistis baptismum in nomine Trinitatis. Recte tertio
-          mersi qui accepistis baptismum in nomine Christi, qui die tertia resurrexit a mortuis.
-          Illa enim tertio repetita mersio typum dominicae exprimit sepulturae</quote>.</p>
-        <p xml:id="pl-l4d3c7-d1e152">Constat ergo, baptizandos tertio debere immergi; et tamen si
-          semel tantum immergantur, verum baptisma accipiunt. Et qui</p>
-        <p xml:id="pl-l4d3c7-d1e155">semel immergit tantum, non peccat, nisi Ecclesiae consuetudo
-          obsistat, vel hoc modo tantum debere fieri asserat.</p>
+          asserebat.
+        </p>
+        <p xml:id="pl-l4d3c7-d1e143">
+          De trina mersione 
+          <ref xml:id="pl-l4d3c7-Rd1e172" corresp="#pl-l4d3c7-Qd1e148"><name ref="#Augustine">Augustinus</name></ref> 
+          ait: 
+          <cit>
+            <quote xml:id="pl-l4d3c7-Qd1e148">Postquam nos credere promisimus, tertio capita nostra in
+               sacro fonte dimersimus, qui ordo baptismi duplici mysterii significatione celebratur.
+               Recte enim tertio mersi estis, qui accepistis baptismum in nomine Trinitatis. Recte tertio
+               mersi qui accepistis baptismum in nomine Christi, qui die tertia resurrexit a mortuis.
+               Illa enim tertio repetita mersio typum dominicae exprimit sepulturae
+            </quote>
+            <bibl>Sermo De mysterio baptismi (PL 40, 1211) <!-- see also De Consecrat. dist. 4 (t. 1, 1388) --></bibl>
+          </cit>.
+        </p>
+        <p xml:id="pl-l4d3c7-d1e152">
+          Constat ergo, baptizandos tertio debere immergi; et tamen si
+          semel tantum immergantur, verum baptisma accipiunt. Et qui 
+          semel immergit tantum, non peccat, nisi Ecclesiae consuetudo
+          obsistat, vel hoc modo tantum debere fieri asserat.
+        </p>
       </div>
     </body>
   </text>

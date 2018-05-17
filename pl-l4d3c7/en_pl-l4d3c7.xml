@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CAP. VII</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+          <resp>Translator</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev"> <title>CAP. VII</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority> <ref>SCTA</ref> </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref> </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref> </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="en">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l4d3c7">
+        <head xml:id="pl-l4d3c7-Hd1e109">CAP. VII</head>
+        <head xml:id="pl-l4d3c7-Hd1e112" type="question-title">
+          On the immersion, how often it ought to happen. 
+        </head>
+        <p xml:id="pl-l4d3c7-d1e115">
+          Concerning the immersion 
+          if it were asked how it ought to be done precisely, 
+          we respond: either one time, or three times, 
+          according to the different custom of the Church.
+        </p>
+        <p xml:id="pl-l4d3c7-d1e118">
+          Whence 
+          <ref xml:id="pl-l4d3c7-Rd1e125" corresp="#pl-l4d3c7-Qd1e123">
+            <name ref="#GregoryGreat">Gregory</name>
+          </ref>: 
+          <cit>
+            <quote xml:id="pl-l4d3c7-Qd1e123">
+              Concerning the threefold immersion of baptism, 
+              nothing truly is able to be responded 
+              than what you have sensed; 
+              because in one faith 
+              diverse customs of the Holy Church 
+              impede nothing.
+              For because there is one substance 
+              subsisting in three things, 
+              it is in no way able to be reprehensible 
+              that an infant is immersed in baptism three times or one time, 
+              because both the Trinity of persons is able to be designated 
+              in the threefold immersion, 
+              and the singularity of the divine is able to be designated 
+              in the one immersion. 
+              But we, who immerse in three, 
+              also mark the sacrament with the sign of 
+              a three day burial. 
+            </quote>
+            <bibl>
+              Gregorius, XXX <!-- Epistolar. indiction, 9, epist. 43 alias 41) (PL 77, 497; 
+              Seem to have parallels in canon law cfr. Ivo Decret. p. 1, c. 130; De consecration. dist 4 (t. 1, 1388). -->
+            </bibl>
+          </cit>.
+        </p>
+        <p xml:id="pl-l4d3c7-d1e127">
+          For according to this 
+          it is permissible to immerse 
+          not in the mode of three, 
+          but also only once.
+        </p>
+        <p xml:id="pl-l4d3c7-d1e131">
+          Nevertheless it is permissible 
+          to immerse one time, 
+          where such a custom of the Church exists. 
+          But if someone begins to do it, 
+          where such a custom does not exist, 
+          or asserts that someone should be immersed only one time, 
+          then they are doing something worthy of reproach.
+        </p>
+        <p xml:id="pl-l4d3c7-d1e134">
+          Whence
+          <ref xml:id="pl-l4d3c7-Rd1e150" corresp="#pl-l4d3c7-Qd1e136"><name>Haymo</name></ref>: 
+          <cit>
+            <quote xml:id="pl-l4d3c7-Qd1e136">
+              In this sense 
+              <name ref="#Cyprian">Cyprian</name> abounds,
+              since he was immersing children only one time in baptism; 
+              who was fulfilling because he was understanding zealously, 
+              by abounding with good works, 
+              though in this he unknowingly was erring. 
+              But because he was abounding in good works, 
+              afterward, 
+              having been corrected by God, 
+              he abounded in a higher sense, 
+              by immersing them three times.
+            </quote>
+           <bibl>Haymo, Expost. in Epist. ad Rom 14:5 (PL 117, 488)</bibl>
+          </cit>.
+        </p>
+        <!-- Translation review needed above and below -->
+        <p xml:id="pl-l4d3c7-d1e140">
+          Behold you have 
+          because he fails who immerses one time; 
+          but this was therefore, 
+          the custom of the Church was otherwise 
+          or because he was asserting only one 
+          immersion should be made.
+        </p>
+        <p xml:id="pl-l4d3c7-d1e143">
+          Concerning threefold immersion
+          <ref xml:id="pl-l4d3c7-Rd1e172" corresp="#pl-l4d3c7-Qd1e148">
+            <name ref="#Augustine">Augustine</name>
+          </ref> 
+          says: 
+          <cit>
+            <quote xml:id="pl-l4d3c7-Qd1e148">
+              After we promise to believe 
+              we dip our head in the holy font a third time, 
+              in whatever way <!-- translation difficult -->the order of baptism is celebrated with 
+              a double signification of the mystery
+              For you have rightly been immersed a third time, 
+              who have received the baptism in the name of the Trinity. 
+              You are immersed rightly a third time 
+              who have received the baptism in the name of Christ, 
+              who was resurrected from the dead on the third day. 
+              For this immersion repeated a third time expresses 
+              the type of lordly burial
+            </quote>
+            <bibl>Sermo De mysterio baptismi (PL 40, 1211) <!-- see also De Consecrat. dist. 4 (t. 1, 1388) --></bibl>
+          </cit>.
+        </p>
+        <p xml:id="pl-l4d3c7-d1e152">
+          Therefore it stands that 
+          those being baptized should be immersed a third time; 
+          and nevertheless if 
+          they are immersed only once, 
+          they still truly receive baptism. 
+          And the one who immerses only once, 
+          does not sin, 
+          unless they oppose the custom of the Church, 
+          or assert that it ought to be done only in this mode.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

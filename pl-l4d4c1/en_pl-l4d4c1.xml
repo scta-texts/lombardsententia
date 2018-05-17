@@ -8,16 +8,14 @@
         <author ref="#Lombard">Peter Lombard</author>
         <respStmt>
           <name xml:id="JW">Jeffrey C. Witt</name>
-          <resp>TEI encoder</resp>
-        </respStmt>
-        <respStmt>
-          <name>Youlanda Halterman</name>
-          <resp>Original OCR Preparation</resp>
+          <resp>TEI encoder, Translator</resp>
         </respStmt>
       </titleStmt>
       <editionStmt>
-        <edition n="0.0.0-dev"> <title>CAP. I</title> <date when="2017-10-21">October 21,
-          2017</date> </edition>
+        <edition n="0.0.0-dev"> 
+          <title>CAP. I</title>
+          <date when="2018-05-16">May 16, 2018</date> 
+        </edition>
       </editionStmt>
       <publicationStmt>
         <authority> 
@@ -52,7 +50,7 @@
       </listChange>
     </revisionDesc>
   </teiHeader>
-  <text xml:lang="la">
+  <text xml:lang="en">
     <front>
       <div xml:id="starts-on"/>
     </front>
@@ -60,45 +58,63 @@
       <div xml:id="pl-l4d4c1">
         <head xml:id="pl-l4d4c1-Hd1e109">CAP. I</head>
         <head xml:id="pl-l4d4c1-Hd1e112" type="question-title">
-          De illis qui suscipiunt Sacramentum
-          et rem, et rem et non Sacramentum, et Sacramentum et non rem.
+          Concerning those who receive the sacrament and the thing, 
+          those who receive the thing and not the sacrament, 
+          and those who receive the Sacrament and not the thing.
         </head>
         <p xml:id="pl-l4d4c1-d1e115">
-          Hic dicendum est, aliquos suscipere Sacramentum et rem, aliquos
-          Sacramentum et non rem, alios rem et non Sacramentum.
+          Here it should be said that, 
+          some receive the sacrament and the thing, 
+          some the Sacrament and not the thing, 
+          some the thing and not the sacrament.
         </p>
         <p xml:id="pl-l4d4c1-d1e118">
-          Sacramentum et rem simul suscipiunt omnes parvuli, qui in
-          baptismo ab originali mundantur peccato; quamvis quidam diffiteantur, illis qui perituri
-          sunt parvulis in baptismo dimitti peccata, innitentes illi verbo 
+          All children receive the sacrament and the thing, 
+          who in baptism are cleaned from original sin; 
+          although some deny
+          that sin is removed from those children 
+          who are about to die at the moment of baptism, 
+          relying on that word of
           <ref xml:id="pl-l4d4c1-Ragnaui" corresp="#pl-l4d4c1-Qd1e120">
-            <name ref="#Augustine">Augustini</name>
+            <name ref="#Augustine">Augustine</name>
           </ref>: 
           <cit>
             <quote xml:id="pl-l4d4c1-Qd1e120">
-              Sacramenta in solis electis efficiunt quod figurant; non
-              intelligentes, illud esse ita accipiendam: quia, cum in aliis efficiant remissionem, non
-              hoc faciunt eis ad salutem, sed solis electis 
+              Sacraments only accomplish what they symbolize 
+              in the elect; 
+              not merely in those understanding, that it should be thus accepted, 
+              because when it effects the remission in others, 
+              it does not do this to them for salvation, 
+              but only for the elect.
             </quote>
             <bibl>Enchiridion, c. 43, n. 13 <!-- citaiton unclear, precedents in Abelard, sic et non, and Ivo, Decret, p. 17, c. 4 --></bibl>
           </cit>.
         </p>
         <p xml:id="pl-l4d4c1-d1e124">
-          Nam quod omnibus parvulis in baptismo remittatur peccatum
-          evidenter dicit 
+          But that for all children there is the removal of sin 
+          in baptism, it is evidently said by
           <ref xml:id="pl-l4d4c1-Ragsugu" corresp="#pl-l4d4c1-Qd1e129">
-            <name ref="#Augustine">Augustinus</name>
+            <name ref="#Augustine">Augustine</name>
           </ref>: 
           <cit>
             <quote xml:id="pl-l4d4c1-Qd1e129">
-              A parvulo, inquit, recenter nato usque ad decrepitum senem,
-              sicut nullus prohibetur a baptismo, ita nullus est, qui non peccato moriatur; sed parvuli
-              tantum originali, maiores vero etiam omnibus quae male vivendo addiderunt ad illud 
+              from a child, he says, recently 
+              born up to a decrepit old person, 
+              just as no one is prohibited from baptism, 
+              so no one is, 
+              who is not dead in sin, 
+              <!-- need translation help -->
+              but children only have original sin, 
+              indeed it is greater to all those things, 
+              which by living badly have added to that 
+              <!-- needs translation help -->
             </quote>
-            <bibl>Enchiridion, c. 43, n. 13 <!-- citaiton unclear, precedents in Abelard, sic et non, and Ivo, Decret, p. 17, c. 4 --></bibl>
+            <bibl>Enchiridion, c. 43, n. 13 <!-- citation unclear, precedents in Abelard, sic et non, and Ivo, Decret, p. 17, c. 4 --></bibl>
           </cit>, 
-          nisi vitae enormitas impediat. Adulti quoque, qui cum fide baptizantur,
-          Sacramentum et rem suscipiunt.
+          unless they are impeded by the enormity of life. 
+          Adults also, 
+          which are baptized with faith 
+          receive the sacrament and the thing.
         </p>
       </div>
     </body>
