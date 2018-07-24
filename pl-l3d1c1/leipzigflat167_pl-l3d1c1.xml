@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber I, Distinctio 1, Cap. 1 [Leipzig Frag. Lat. 167 Transcription]</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <editor>Jeffrey C. Witt</editor>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber I, Distinctio 1, Cap. 1 [Leipzig Frag. Lat. 167 Transcription]</title>
+          <date when="2018-07-24">July 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>
+            <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="leipzigflat167">Leipzig, Universitätsbibliothek, Fragm. lat. 167</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-07-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l3d1c1">
+        <head xml:id="pl-l3d1c1-Hd1e111">Liber I, Distinctio 1, Cap. 1 [Leipzig Frag. Lat. 167 Transcription]</head>
+        <head xml:id="pl-l3d1c1-Hd1e114" type="question-title">Quare Filius carnem assumsil, non Pater vel Spiritus
+          sanctus.</head>
+        <p xml:id="pl-l3d1c1-d1e117"> 
+          <pb ed="#L" n="1-r"/>
+          <lb ed="#L"/>Diligenter vero est annotandum <pc type="virgula">/</pc> quare 
+          <lb ed="#L"/>filius non pater vel spiritus sanctus est incarnatus <pc type="virgula">/</pc> Solus namque filius 
+          <lb ed="#L"/>hominem assumpsit 
+        </p>
+        <p xml:id="pl-l3d1c1-d1e120">
+          <pc type="virgula">/</pc> quod ordine congruo <pc type="virgula">/</pc> atque alto dei sa<lb ed="#L"/>pientia 
+          fecit consilio <pc type="virgula">/</pc> ut deus qui in sapientia sua 
+          <lb ed="#L"/>mundum condiderat <pc type="virgula">/</pc> secundum illud <quote xml:id="pl-l3d1c1-Qd1e122" ana="#ps103_24">omnia in sapientia fecisti</quote> in eadem 
+          <lb ed="#L"/><quote xml:id="pl-l3d1c1-Qd1e125" ana="#eph1_10">quae in caelis sunt et quae in terris restauraret</quote> haec est 
+          <lb ed="#L"/>mulier evangelica <pc type="virgula">/</pc> quae <quote xml:id="pl-l3d1c1-Qd1e128" ana="#lc15_8">accendit lucernam <pc type="virgula">/</pc> et drachmam deci<lb ed="#L"/>mam</quote> 
+          <pc type="virgula">/</pc> quae perdita fuerat reperit Sapientia scilicet patris 
+          <lb ed="#L"/><pc type="virgula">/</pc> quae testam humanae infirmitatis <pc type="virgula">/</pc> lumine suae divinitatis 
+          <lb ed="#L"/>accendit <pc type="virgula">/</pc> perditumque hominem reparavit <pc type="virgula">/</pc> nomine regis 
+          <lb ed="#L"/>et ymagine insignitum
+        </p>
+        <p xml:id="pl-l3d1c1-d1e132">
+          Ideo etiam filius missus est 
+          <lb ed="#L"/>et non pater <pc type="virgula">/</pc> quia congruentius mitti debebat 
+          <!-- fragment breaks to top of next page which is missing -->
+        </p>
+        <p xml:id="pl-l3d1c1-d1e136">
+          <!-- missing from fragment -->
+        </p>
+        <p xml:id="pl-l3d1c1-d1e154">
+          <pb ed="#L" n="1-v"/>
+          <lb ed="#L"/>et ne idem esset pater et filius <pc type="virgula">/</pc> si deus pater de homine 
+          <lb ed="#L"/>nasceretur.
+        </p>
+        <p xml:id="pl-l3d1c1-d1e157">
+          <lb ed="#L"/>unde in <title>ecclesiasticis dogmatibus</title> <quote xml:id="pl-l3d1c1-Qd1e162">Non pater carnem 
+          <lb ed="#L"/>assumpsit neque spiritus sanctus <pc type="virgula">/</pc> sed filius tantum <pc type="virgula">/</pc> ut qui erat in divinitate 
+          <lb ed="#L"/><seg type="correction">filius dei <!-- indications for transposition --></seg> <add place="above-line">et</add> ipse fieret in humanitate hominis filius <pc type="virgula">/</pc> ne filii 
+          <lb ed="#L"/>nomen ad alterum transiret <pc type="virgula">/</pc> qui non esset aeterna nativitate 
+          <lb ed="#L"/>filius <pc type="virgula">/</pc> dei ergo filius <pc type="virgula">/</pc> hominis factus est filius <pc type="virgula">/</pc> natus 
+          <lb ed="#L"/>secundum veritatem naturae ex deo dei filius et secundum veritatem naturae ex 
+          <lb ed="#L"/>homine hominis filius <pc type="virgula">/</pc> ut veritas geniti <pc type="virgula">/</pc> non adop<lb ed="#L"/>tione 
+          non appellatione <pc type="virgula">/</pc> sed in utraque nativitate <pc type="virgula">/</pc> 
+          <lb ed="#L"/><pc type="virgula">/</pc> filii nomen nascendo haberet <pc type="#punctus"/> et esset <pc type="#punctus"/> verus Deus <pc type="#punctus"/> et verus 
+          <lb ed="#L"/>homo <pc type="#punctus"/> unus filius <pc type="virgula">/</pc> Non ergo duos christos neque duos filios 
+          <lb ed="#L"/><pc type="virgula">/</pc> sed deum et hominem unum filium <seg>quem <!-- smudged --></seg> confitemur Quem propterea 
+          <lb ed="#L"/>unigenitum dicimus <pc type="virgula">/</pc> manentem in duabus substantiis <pc type="#punctus"/> sicut ei naturae</quote>
+        </p>
+        <p xml:id="pl-l3d1c1-d1e166">
+          <!-- fragment breaks to top of next page which is missing -->
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

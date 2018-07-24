@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -31,8 +30,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -61,30 +59,39 @@
         </p>
         <p xml:id="pl-l4d4c2-d1e118">
           Unde 
-          <name ref="#Jerome">Hieronymus</name>: 
-          <quote xml:id="pl-l4d4c2-Qd1e123">
-            Sunt lavacra gentilium, haereticorum, sed non lavant in
-            salutem. In Ecclesia etiam, qui non plena fide baptismum accipiunt, non Spiritum sed aquam
-            accipiunt
-          </quote>.
+          <ref xml:id="pl-l4d4c2-Rd1e124" corresp="#pl-l4d4c2-Qd1e123"><name ref="#Jerome">Hieronymus</name></ref>: 
+          <cit>
+            <quote xml:id="pl-l4d4c2-Qd1e123">
+              Sunt lavacra gentilium, haereticorum, sed non lavant in
+              salutem. In Ecclesia etiam, qui non plena fide baptismum accipiunt, non Spiritum sed aquam
+              accipiunt
+            </quote>
+            <bibl>Hieronymus, Comment. in Ezech, IV, c. 16, 4</bibl>
+          </cit>.
         </p>
         <p xml:id="pl-l4d4c2-d1e127">
-          <name ref="#Augustine">Augustinus</name> 
+          <ref xml:id="pl-l4d4c2-Rd1e140" corresp="#pl-l4d4c2-Qd1e132"><name ref="#Augustine">Augustinus</name></ref> 
           etiam ait: 
-          <quote xml:id="pl-l4d4c2-Qd1e132">
-            Iudaeis omnibus communia erant Sacramenta, sed non communis
-            omnibus erat gratia, quae est virtus Sacramentorum; ita et nunc baptismus communis est
-            omnibus baptizatis, sed non virtus baptismi, id est ipsa gratia
-          </quote>.
+          <cit>
+            <quote xml:id="pl-l4d4c2-Qd1e132">
+              Iudaeis omnibus communia erant Sacramenta, sed non communis
+              omnibus erat gratia, quae est virtus Sacramentorum; ita et nunc baptismus communis est
+              omnibus baptizatis, sed non virtus baptismi, id est ipsa gratia
+            </quote>
+            <bibl>Augustinus, Enarrat. in Ps. 77, n. 2 (PL 36, 983)</bibl>
+          </cit>.
         </p>
         <p xml:id="pl-l4d4c2-d1e137">
-          Idem: 
-          <quote xml:id="pl-l4d4c2-Qd1e139">
-            Omnis qui iam suae
-            voluntatis arbiter constitutus est, cum accedit ad Sacramentum fidelium, nisi poeniteat
-            eum veteris vitae, novam non potest inchoare. Ab hac poenitentia, cum baptizantur, soli
-            parvuli immunes sunt
-          </quote>.
+          <ref xml:id="pl-l4d4c2-Rd1e157" corresp="#pl-l4d4c2-Qd1e139">Idem</ref>: 
+          <cit>
+            <quote xml:id="pl-l4d4c2-Qd1e139">
+              Omnis qui iam suae
+              voluntatis arbiter constitutus est, cum accedit ad Sacramentum fidelium, nisi poeniteat
+              eum veteris vitae, novam non potest inchoare. Ab hac poenitentia, cum baptizantur, soli
+              parvuli immunes sunt
+            </quote>
+            <bibl>Augustinus, Sermo 351</bibl>
+          </cit>.
         </p>
         <p xml:id="pl-l4d4c2-d1e143">
           His aliisque testimoniis aperte ostenditur, adultis, sine fide
@@ -94,62 +101,90 @@
         </p>
         <p xml:id="pl-l4d4c2-d1e146">
           Videtur tamen 
-          <name ref="#Augustine">Augustinus</name> 
+          <ref xml:id="pl-l4d4c2-Rd1e175" corresp="#pl-l4d4c2-Qd1e151">
+            <name ref="#Augustine">Augustinus</name> <!-- possible corresponds to the other two quotes below as well -->
+          </ref> 
           dicere,
           quod ficte accedenti, qui etiam habet odium fraternum, in ipso momento, quo baptizatur,
           omnia condonentur et post baptismum mox redeant; sed non hoc asserendo dicit, immo hanc
-          opinionem et praemissam sententiam conferendo. Ait enim sic: 
-          <quote xml:id="pl-l4d4c2-Qd1e151">
-            His qui ficto corde baptizantur, aut peccata nullatenus
-            dimittuntur (quia 
-            <quote xml:id="pl-l4d4c2-Qd1e155" ana="#sap1_5">
-              Spiritus sanctus disciplinae effugiet fictum
+          opinionem et praemissam sententiam conferendo. Ait enim sic:
+          <cit>
+            <quote xml:id="pl-l4d4c2-Qd1e151">
+              His qui ficto corde baptizantur, aut peccata nullatenus
+              dimittuntur (quia
+              <cit>
+                <quote xml:id="pl-l4d4c2-Qd1e155" ana="#sap1_5">
+                  Spiritus sanctus disciplinae effugiet fictum
+                </quote>
+                <bibl>Sapientia 1:5</bibl>
+              </cit>)
+              aut in ipso temporis puncto per vim Sacramenti 
+              dimissa, iterum per fictionem replicantur; ut etiam illud verum sit: 
+              <cit>
+                <quote xml:id="pl-l4d4c2-Qd1e158" ana="#gal3_27">
+                  Quotquot in Christo baptizati estis
+                </quote>
+                <bibl>Gal 3:27</bibl>
+              </cit>,
+              etc., et illud: 
+              <cit>
+                <quote xml:id="pl-l4d4c2-Qd1e161" ana="#sap1_5">
+                  Spiritus sanctus disciplinae effugiet fictum
+                </quote>
+                <bibl>Sapientia 1:5</bibl>
+              </cit>; 
+              ut induat eum Christum sanctitas baptismi, exuat eum
+              Christum pernicies fictionis
             </quote>
-            ) 
-            aut in ipso temporis puncto per vim Sacramenti 
-            dimissa, iterum per fictionem replicantur; ut etiam illud verum sit: 
-            <quote xml:id="pl-l4d4c2-Qd1e158" ana="#gal3_27">
-              Quotquot in Christo baptizati estis
-            </quote>, 
-            etc., et illud: 
-            <quote xml:id="pl-l4d4c2-Qd1e161" ana="#sap1_5">
-              Spiritus sanctus disciplinae effugiet fictum
-            </quote>; 
-            ut induat eum Christum sanctitas baptismi, exuat eum
-            Christum pernicies fictionis
-          </quote>. 
-          <quote xml:id="pl-l4d4c2-Qd1e154">
-            Nam redire dimissa
-            peccata, ubi fraterna caritas non est, aperte Dominus docet in illo servo, a quo Dominus
-            dimissum debitum petiit, quia ille conservo dimittere noluit</quote>. 
-          <quote xml:id="pl-l4d4c2-Qd1e157"> 
-            Sic non impeditur baptismi gratia, quominus omnia peccata
-            dimittantur etiam si fraternum odium in eius cui dimittuntur animo perseverat. Solvitur
-            enim hesternus dies, et quidquid superesl; solvitur etiam ipsa hora momentumque ante
-            baptismum et in baptismo. Deinceps autem continuo reus esse incipit, non solum
-            consequentium, sed et praeteritorum dierum, horarum, momentorum, redeuntibus omnibus quae
-            dimissa sunt
-          </quote>.
+            <bibl>Augustinus, De baptismo contra Donastistas, I, c. 12, n. 19 (PL 43, 1119)</bibl>
+          </cit>. 
+          <cit>
+            <quote xml:id="pl-l4d4c2-Qd1e154">
+              Nam redire dimissa
+              peccata, ubi fraterna caritas non est, aperte Dominus docet in illo servo, a quo Dominus
+              dimissum debitum petiit, quia ille conservo dimittere noluit
+            </quote>
+            <bibl>Augustinus, De baptismo contra Donastistas, I, c. 12, n. 20 (PL 43, 1119)</bibl>
+          </cit>. 
+          <cit>
+            <quote xml:id="pl-l4d4c2-Qd1e157"> 
+              Sic non impeditur baptismi gratia, quominus omnia peccata
+              dimittantur etiam si fraternum odium in eius cui dimittuntur animo perseverat. Solvitur
+              enim hesternus dies, et quidquid superest; solvitur etiam ipsa hora momentumque ante
+              baptismum et in baptismo. Deinceps autem continuo reus esse incipit, non solum
+              consequentium, sed et praeteritorum dierum, horarum, momentorum, redeuntibus omnibus quae
+              dimissa sunt
+            </quote>
+            <bibl>Augustinus, De baptismo contra Donastistas, I, c. 12, n. 20 (PL 43, 1119)</bibl>
+          </cit>.
         </p>
         <p xml:id="pl-l4d4c2-d1e161">
           Hoc autem, ut praediximus, non sub assertione dixit; quod
-          ostenditur ex eo quod ait in eodem libro sic : 
-          <quote xml:id="pl-l4d4c2-Qd1e163">
-            Si ad
-            baptismum fictus accedit, dimissa sunt ei peccata, aut non sunt dimissa; eligant quod
-            volunt
-          </quote>. 
+          ostenditur ex eo quod ait 
+          <ref xml:id="pl-l4d4c2-Rd1e240" corresp="#pl-l4d4c2-Qd1e163">in eodem libro</ref> 
+          sic: 
+          <cit>
+            <quote xml:id="pl-l4d4c2-Qd1e163">
+              Si ad
+              baptismum fictus accedit, dimissa sunt ei peccata, aut non sunt dimissa; eligant quod
+              volunt
+            </quote>
+            <bibl>Augustinus, De baptismo contra Donastistas, I, c. 12, n. 18 (PL 43, 1119)</bibl>
+          </cit>. 
           Ecce aperte cernis, si tamen intendis, id dixisse 
           <name ref="Augustine">Augustinum</name> 
           non asserendo, sed quaerendo, et aliorum opinionem referendo.
         </p>
         <p xml:id="pl-l4d4c2-d1e170">
-          Idem enim ait: 
-          <quote xml:id="pl-l4d4c2-Qd1e172">
-            Tunc valere incipit ad salutem baptismus, 
-            cum illa fictio veraci confessione recesserit, quae, corde 
-            in malilitia perseverante, peccatorum ablutionem non sinebat fieri
-          </quote>. 
+          <ref xml:id="pl-l4d4c2-Rd1e258" corresp="#pl-l4d4c2-Qd1e172">Idem</ref> enim ait: 
+          <cit>
+            <quote xml:id="pl-l4d4c2-Qd1e172">
+              Tunc valere incipit ad salutem baptismus, 
+              cum illa fictio veraci confessione recesserit, quae, corde 
+              in <unclear>malilitia <!-- 1916 text has this, but is this a mistake; should it be malitia?? --></unclear>perseverante, peccatorum ablutionem non sinebat fieri
+            </quote>
+            <bibl>Augustinus, De baptismo contra Donastistas, I, c. 12, n. 18 (PL 43, 1119)</bibl>
+          </cit>. 
           Non igitur ficte accedenti peccata dimittuntur.
         </p>
       </div>

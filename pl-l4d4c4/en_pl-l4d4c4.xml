@@ -9,17 +9,13 @@
         <author ref="#Lombard">Peter Lombard</author>
         <respStmt>
           <name xml:id="JW">Jeffrey C. Witt</name>
-          <resp>TEI encoder</resp>
-        </respStmt>
-        <respStmt>
-          <name>Youlanda Halterman</name>
-          <resp>Original OCR Preparation</resp>
+          <resp>TEI encode, translator</resp>
         </respStmt>
       </titleStmt>
       <editionStmt>
         <edition n="0.0.0-dev"> 
           <title>CAP. IV</title> 
-          <date when="2017-10-21">October 21, 2017</date> 
+          <date when="2018-05-20">May 20, 2018</date> 
         </edition>
       </editionStmt>
       <publicationStmt>
@@ -45,12 +41,12 @@
     </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
+        <change when="2018-05-20" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
         </change>
       </listChange>
     </revisionDesc>
   </teiHeader>
-  <text xml:lang="la">
+  <text xml:lang="en">
     <front>
       <div xml:id="starts-on">
         <pb ed="#Qb" n="765"/>
@@ -60,20 +56,25 @@
       <div xml:id="pl-l4d4c4">
         <head xml:id="pl-l4d4c4-Hd1e109">CAP. IV</head>
         <head xml:id="pl-l4d4c4-Hd1e112" type="question-title">
-          Quod passio supplet vicem baptismi et
-          fides et contritio.
+          That the passion supplies 
+          the exchange of baptism, 
+          and also faith and contrition.
         </head>
         <p xml:id="pl-l4d4c4-d1e115">
-          Sunt et alii, ut supra posuimus, qui suscipiunt rem et non
-          Sacramentum. Qui enim fundunt sanguinem pro nomine Iesu, etsi non Sacramentum, rem tamen
-          percipiunt.
+          There are others, 
+          as we have asserted above, 
+          who receive the thing and not the sacrament. 
+          For whoever pours out the blood in the name of Jesus, 
+          even if it is not the Sacrament, 
+          nevertheless they perceive the thing.
         </p>
         <p xml:id="pl-l4d4c4-d1e118">
-          Unde 
+          Whence
           <ref xml:id="pl-l4d4c4-Ragnuts" corresp="#pl-l4d4c4-Qd1e123">
-            <name ref="#Augustine">Augustinus</name>
+            <name ref="#Augustine">Augustine</name>
           </ref>: 
           <quote xml:id="pl-l4d4c4-Qd1e123">
+            
             Quicumque, non percepto regenerationis lavacro, pro confessione
             Christi moriuntur, tantum eis valet ad dimittenda peccata, quantum si abluerentur sacro
             fonte baptismi

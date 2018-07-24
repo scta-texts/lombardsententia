@@ -8,16 +8,14 @@
         <author ref="#Lombard">Peter Lombard</author>
         <respStmt>
           <name xml:id="JW">Jeffrey C. Witt</name>
-          <resp>TEI encoder</resp>
-        </respStmt>
-        <respStmt>
-          <name>Youlanda Halterman</name>
-          <resp>Original OCR Preparation</resp>
+          <resp>TEI encoder, translator</resp>
         </respStmt>
       </titleStmt>
       <editionStmt>
-        <edition n="0.0.0-dev"> <title>CAP. III</title> <date when="2017-10-21">October 21,
-          2017</date> </edition>
+        <edition n="0.0.0-dev"> 
+          <title>CAP. III</title> 
+          <date when="2018-05-19">May 19, 2018</date> 
+        </edition>
       </editionStmt>
       <publicationStmt>
         <authority> <ref>SCTA</ref> </authority>
@@ -40,12 +38,13 @@
     </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
+        <change when="2018-05-19" status="draft" n="0.0.0"> 
+          <p>Created file for the first time.</p>
         </change>
       </listChange>
     </revisionDesc>
   </teiHeader>
-  <text xml:lang="la">
+  <text xml:lang="en">
     <front>
       <div xml:id="starts-on">
         <pb ed="#Qb" n="764"/>
@@ -55,42 +54,56 @@
       <div xml:id="pl-l4d4c3">
         <head xml:id="pl-l4d4c3-Hd1e109">CAP. III</head>
         <head xml:id="pl-l4d4c3-Hd1e112" type="question-title">
-          Quomodo intelligatur illud: Quotquot
-          in Christo baptizati estis, Christum induistis.
+          How it should be understood that: 
+          for as many as have been baptized in Christ 
+          you have put on Christ
         </head>
         <p xml:id="pl-l4d4c3-d1e115">
-          Quaeritur ergo, quomodo accipiendum sit illud: 
+          Therefore it is asked, 
+          how the following should be understood: 
           <cit>
             <quote xml:id="pl-l4d4c3-Qd1e119" ana="#gal3_27">
-              Quotquot in 
-              Christo baptizati estis, Christum induistis
+              As many as have been baptized in Christ, 
+              you have put on Christ
             </quote>
             <bibl>Gal. 3:27</bibl>
           </cit>.
         </p>
         <p xml:id="pl-l4d4c3-d1e118">
-          Potest dici, quod qui in Christo, id est in Christi
-          conformitate baptizantur, (ut scilicet moriantur vetustati peccati, sicut Christus
-          vetustati poenae) induunt Christum, quem per gratiam inhabitantem habent. Potest et aliter
-          solvi: Duobus enim modis induere Christum dicimur: vel assumtione Sacramenti, vel rei
-          perceptione.
+          It is able to be said, 
+          that who is in Christ, 
+          that is those who have been baptized 
+          in conformity of Christ, 
+          (such that namely that have died 
+          to the old sin, 
+          just as Christ to the old penalty)
+          they put on Christ, 
+          whom they have indwelling through grace.
+          It is also able to be explained in another way: 
+          For we say there are two modes of putting on Christ: 
+          either through receiving the sacrament, 
+          or the perception of the thing.
         </p>
         <p xml:id="pl-l4d4c3-d1e121">
-          Unde 
+          Whence 
           <ref xml:id="pl-l4d4c3-Rd1e136" corresp="#pl-l4d4c3-Qd1e126">
-            <name ref="#Augustine">Augustinus</name>
+            <name ref="#Augustine">Augustine</name>
           </ref>: 
           <cit>
             <quote xml:id="pl-l4d4c3-Qd1e126">
-              Induunt homines Christum aliquando usque ad Sacramenti
-              perceptionem, aliquando usque ad vitae sanctificationem; atque illud primum bonis et malis
-              esse potest commune, hoc autem proprium est bonorum et piorum
+              Men put on Christ sometimes 
+              upon the perception of the sacrament, 
+              other times up to the sanctification of life; 
+              and the that first case is able to be common 
+              to both the good and the bad, 
+              but the later is proper only to the good and the pious.
             </quote>
-            <bibl>Augustinus, De baptismo contra Donatistas, V, c. 24, n. 34 (PL 43: 193)</bibl>
+            <bibl>Augustine, De baptismo contra Donatistas, V, c. 24, n. 34 (PL 43: 193)</bibl>
           </cit>. 
-          Omnes ergo, qui in
-          Christi nomine baptizantur, Christum induunt vel secundum Sacramenti perceptionem, vel
-          secundum sanctificationem.
+          Everyone one therefore, 
+          who is baptized in the name of Christ, 
+          puts on Christ either through a perception of the Sacrament
+          or according to sanctification.
         </p>
       </div>
     </body>

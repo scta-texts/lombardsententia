@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CAP. II</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev"> <title>CAP. II</title> <date when="2017-10-21">October 21,
+          2017</date> </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority> <ref>SCTA</ref> </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="en">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Qb" n="762"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l4d4c2">
+        <head xml:id="pl-l4d4c2-Hd1e109">CAP. II</head>
+        <head xml:id="pl-l4d4c2-Hd1e112" type="question-title">
+          Concerning those receiving falsely
+        </head>
+        <p xml:id="pl-l4d4c2-d1e115">
+          But those who receive without faith or false, 
+          receive the sacrament, not the thing.
+        </p>
+        <p xml:id="pl-l4d4c2-d1e118">
+          Whence 
+          <ref xml:id="pl-l4d4c2-Rd1e124" corresp="#pl-l4d4c2-Qd1e123">
+            <name ref="#Jerome">Jerome</name>
+          </ref>: 
+          <cit>
+            <quote xml:id="pl-l4d4c2-Qd1e123">
+              They are bath of the gentiles, 
+              of the heretics, 
+              but they do not wash in salvation. 
+              Even in the church, 
+              those who do not receive baptism in full faith, 
+              do not receive the Spirit but water.
+            </quote>
+            <bibl>Hieronymus, Comment. in Ezech, IV, c. 16, 4</bibl>
+          </cit>.
+        </p>
+        <p xml:id="pl-l4d4c2-d1e127">
+          <ref xml:id="pl-l4d4c2-Rd1e140" corresp="#pl-l4d4c2-Qd1e132">
+            <name ref="#Augustine">Augustine</name>
+          </ref> 
+          also says: 
+          <cit>
+            <quote xml:id="pl-l4d4c2-Qd1e132">
+              the sacraments were common among the Jews, 
+              but grace, which is the power of the sacraments, 
+              was not common to all; 
+              thus even now baptism is common 
+              to all who have been baptized, 
+              but not the power of baptism, 
+              that is the grace itself
+            </quote>
+            <bibl>Augustinus, Enarrat. in Ps. 77, n. 2 (PL 36, 983)</bibl>
+          </cit>.
+        </p>
+        <p xml:id="pl-l4d4c2-d1e137">
+          <ref xml:id="pl-l4d4c2-Rd1e157" corresp="#pl-l4d4c2-Qd1e139">The same one says</ref>: 
+          <cit>
+            <quote xml:id="pl-l4d4c2-Qd1e139">
+              everyone who is constituted 
+              freely of his own will, 
+              when they receive the sacrament of the faithful, 
+              unless they repent of the old life, 
+              they are not able to begin the new life. 
+              Only children are immune from this repentance 
+              when they are baptized
+            </quote>
+            <bibl>Augustinus, Sermo 351</bibl>
+          </cit>.
+        </p>
+        <p xml:id="pl-l4d4c2-d1e143">
+          These and other testimonies 
+          show openly that the grace of remission 
+          is not conferred in baptism to adults 
+          who are without faith and true penitence,
+          since nor is remission given in baptism 
+          to children, 
+          who are not able to have their own faith, 
+          without the faith of another.
+          Therefore if someone receives 
+          falsely, 
+          not having true contrition of the heart, 
+          they receive the sacrament without the thing.
+        </p>
+        <p xml:id="pl-l4d4c2-d1e146">
+          Nevertheless
+          <ref xml:id="pl-l4d4c2-Rd1e175" corresp="#pl-l4d4c2-Qd1e151">
+            <name ref="#Augustine">Augustine</name> <!-- possible corresponds to the other two quotes below as well -->
+          </ref> 
+          seems to say that 
+          to the one receiving falsely, 
+          who even has brotherly hate, 
+          in the moment in which they are baptized 
+          all things are forgiven 
+          but soon after baptism these things return, 
+          but he says this not by asserting,
+          but rather by putting forward an opinion and sending forward a belief. 
+          For he says thus:
+          <cit>
+            <quote xml:id="pl-l4d4c2-Qd1e151">
+              To those who are baptized with a false heart, 
+              or never gave up sin 
+              (because
+              <cit>
+                <quote xml:id="pl-l4d4c2-Qd1e155" ana="#sap1_5">
+                  the Holy Spirit of discipline 
+                  will flea from what is feigned
+                </quote>
+                <bibl>Sapientia 1:5</bibl>
+              </cit>)
+              or at this point in time 
+              having dismissed the strength of the Sacrament 
+              are replicated again through deceit; <!-- translation review -->
+              so that it is again true: 
+              <cit>
+                <quote xml:id="pl-l4d4c2-Qd1e158" ana="#gal3_27">
+                  For as many of you as have been baptized in Christ
+                </quote>
+                <bibl>Gal 3:27</bibl>
+              </cit>,
+              etc., and there: 
+              <cit>
+                <quote xml:id="pl-l4d4c2-Qd1e161" ana="#sap1_5">
+                  the Holy Spirit of discipline will flee from what is false
+                </quote>
+                <bibl>Sapientia 1:5</bibl>
+              </cit>; 
+              so that the sanctity of baptism clothes him with Christ, 
+              the perniciousness of dissemblance 
+              disrobes Christ from him
+            </quote>
+            <bibl>Augustinus, De baptismo contra Donastistas, I, c. 12, n. 19 (PL 43, 1119)</bibl>
+          </cit>. 
+          <cit>
+            <quote xml:id="pl-l4d4c2-Qd1e154">
+              For to return after having dismissed sin, <!-- need translation help/review here --> 
+              where fraternal charity is not, 
+              the Lord openly teaches in that servant, 
+              from whom the Lord 
+              attacked having dismissed his debt
+              because he did not wish 
+              to dismissed the debt of his fellow servant
+            </quote>
+            <bibl>Augustinus, De baptismo contra Donastistas, I, c. 12, n. 20 (PL 43, 1119)</bibl>
+          </cit>. 
+          <cit>
+            <quote xml:id="pl-l4d4c2-Qd1e157"> 
+              Thus the grace of baptism is not impeded,
+              that not all sins are dismissed 
+              even if fraternal hate is preserved in the mind 
+              of him from whom they are dismissed. 
+              For yesterday is solved, 
+              and whatever remains; 
+              this hour and moment is solved 
+              before baptism and in baptism. 
+              But then one begins to be culpable 
+              in the continuation, 
+              not only of what follows, 
+              but even for what belongs to the past days, 
+              hours, and moments, to all things which are returning 
+              which were once dismissed <!-- translation help needed -->
+            </quote>
+            <bibl>Augustinus, De baptismo contra Donastistas, I, c. 12, n. 20 (PL 43, 1119)</bibl>
+          </cit>.
+        </p>
+        <p xml:id="pl-l4d4c2-d1e161">
+          But this, 
+          as we have already said, 
+          he did not say as an assertion; 
+          because it is show from what he says
+          <ref xml:id="pl-l4d4c2-Rd1e240" corresp="#pl-l4d4c2-Qd1e163">in the same book</ref> 
+          thus: 
+          <cit>
+            <quote xml:id="pl-l4d4c2-Qd1e163">
+              If someone dissembling receives 
+              baptism, 
+              the sins are dismissed to the them, 
+              but they are not dismissed; 
+              they choose what they wish <!-- translation help -->
+            </quote>
+            <bibl>Augustinus, De baptismo contra Donastistas, I, c. 12, n. 18 (PL 43, 1119)</bibl>
+          </cit>. 
+          Behold you see openly, 
+          if you nevertheless intend, 
+          <name ref="Augustine">Augustine</name>
+          has said that, he did so not by asserting, 
+          but by asking, and by referring to the opinion of others.
+        </p>
+        <p xml:id="pl-l4d4c2-d1e170">
+          For 
+          <ref xml:id="pl-l4d4c2-Rd1e258" corresp="#pl-l4d4c2-Qd1e172">the same one</ref> 
+          says:
+          <cit>
+            <quote xml:id="pl-l4d4c2-Qd1e172">
+              Then baptism began to make well for salvation, 
+              when this fiction had receded 
+              through true confession, which, 
+              while the hear remains in malice, 
+              the absolution of sin was not accustomed to occur
+            </quote>
+            <bibl>Augustinus, De baptismo contra Donastistas, I, c. 12, n. 18 (PL 43, 1119)</bibl>
+          </cit>. 
+          Therefore the sins of the one receiving in dissemblance are not removed.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
