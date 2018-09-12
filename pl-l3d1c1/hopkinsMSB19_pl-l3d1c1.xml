@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber I, Distinctio 1, Cap. 1 [hopkinsMSB19 Transcription]</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <editor>Jeffrey C. Witt</editor>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber I, Distinctio 1, Cap. 1 [hopkinsMSB19 Transcription]</title>
+          <date when="2018-09-12">September 12, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>
+            <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="leipzigflat167">Leipzig, Universitätsbibliothek, Fragm. lat. 167</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-07-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#H" n="97-r"/><cb ed="#H" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l3d1c1">
+        <head xml:id="pl-l3d1c1-Hd1e111">Liber I, Distinctio 1, Cap. 1 [hopkinsMSB19 Transcription]</head>
+        <head xml:id="pl-l3d1c1-Hd1e114" type="question-title">Quare Filius carnem assumsit, non Pater vel Spiritus
+          sanctus.</head>
+        <p xml:id="pl-l3d1c1-d1e117"> 
+          <lb ed="#H"/>Diligenter vero est adnotandum <pc type="#punctus"/> quare filius 
+          non pater vel spiritus sanctus est incarnatus solus 
+          <cb ed="#H" n="b"/>
+          <lb ed="#H"/>namque filius hominem assumpsit 
+        </p>
+        <p xml:id="pl-l3d1c1-d1e120">
+          Quod utique congruo 
+          ordine atque alto <pc type="#punctus"/> dei sapientia fecit consilio ut 
+          <lb ed="#H"/>deus qui in sapientia sua mundum condiderat secundum il<lb ed="#H"/>lud 
+          <quote xml:id="pl-l3d1c1-Qd1e122" ana="#ps103_24">omnia in sapientia fecisti</quote> <unclear>dicens</unclear> in eadem <quote xml:id="pl-l3d1c1-Qd1e125" ana="#eph1_10">quae in caelis sunt 
+          <lb ed="#H"/>et quae in terris restauraret</quote> Haec est mulier evan<lb ed="#H"/>gelica quae <quote xml:id="pl-l3d1c1-Qd1e128" ana="#lc15_8"><seg type="correction">a<subst><del rend="expunctuation">s</del><add place="above-line">c</add></subst>cendit</seg> lucernam et dragmam deci<lb ed="#H"/>mam</quote> 
+          quae perdita fuerat reperit Sapientia scilicet patris quae tes<lb ed="#H"/>tam 
+          humanae infirmitatis lumine suae divini<lb ed="#H"/>tatis 
+          <seg type="correction">a<subst><del rend="expunctuation">s</del><add place="above-line">c</add></subst>cendit</seg> perditumque hominem reparavit 
+          <lb ed="#H"/>nomine regis et imagine insignitum
+        </p>
+        <p xml:id="pl-l3d1c1-d1e132">
+          <note type="marginal-note" place="in-line">secunda ratio</note>
+          <lb ed="#H"/>Ideo etiam filius missus est et non pater quia congruentius mitti 
+          <lb ed="#H"/>debebat <pc type="#punctus"/> qui est ab alio quam qui est a nullo filius 
+          <lb ed="#H"/>autem a patre est pater vero a nullo alio est.  
+        </p>
+        <p xml:id="pl-l3d1c1-d1e136">
+          ut enim ait <name ref="#Augustine">augustinus</name> 
+          <lb ed="#H"/>in libro <title>de trinitate</title> <quote xml:id="pl-l3d1c1-Qd1e144">Non habet de quo sit</quote> <quote xml:id="pl-l3d1c1-Qd1e147">Sicut ergo pater gen<lb ed="#H"/>uit 
+          filius genitus est ita congrue pater misit <pc type="#punctus"/> filius 
+          <lb ed="#H"/>missus est</quote> <quote xml:id="pl-l3d1c1-Qd1e150">Ab illo enim convenienter mittitur <pc type="#punctus"/> dei 
+          <lb ed="#H"/>verbum cuius est verbum <pc type="#punctus"/> ab illo mittitur <pc type="#punctus"/> de quo natum est 
+          <lb ed="#H"/>Mittitur quia genitum est <pc type="#punctus"/> pater vero qui misit <pc type="#punctus"/> a nul<lb ed="#H"/>lo 
+          est</quote> Ideoque pater missus non est ne si mitteretur <pc type="#punctus"/> ab alio 
+          <lb ed="#H"/>esse putaretur 
+        </p>
+        <p xml:id="pl-l3d1c1-d1e154">
+          Missus ergo primo est filius qui a so<lb ed="#H"/>lo 
+          patre est 
+          <note type="marginal-note" place="margin-right">Tertia</note>
+          Deinde etiam spiritus sanctus qui est a patre et filio <pc type="#punctus"/> Sed 
+          <lb ed="#H"/>filius solus in carne missus est non spiritus sanctus sicut nec pater 
+          <lb ed="#H"/>Quod ideo factum est <pc type="#punctus"/> ut qui erat in divinitate 
+          <lb ed="#H"/>dei filius in humanitate <del rend="strikethrough">dei</del> fieret hominis filius 
+          <lb ed="#H"/>Non pater vel spiritus sanctus carnem induit ne alius in divi<lb ed="#H"/>nitate 
+          esset filius alius in humanitate et ne 
+          <lb ed="#H"/>idem esset pater et filius si deus pater de homine nasce<lb ed="#H"/>retur
+        </p>
+        <p xml:id="pl-l3d1c1-d1e157">
+          unde in <title>ecclesiasticis dogmatibus</title> <quote xml:id="pl-l3d1c1-Qd1e162">Non pater car<lb ed="#H"/>nem 
+          assumpsit neque spiritus sanctus sed filius tantum ut qui erat 
+          <lb ed="#H"/>in divinitate dei filius <pc type="#punctus"/> ipse fieret in homine <pc type="#punctus"/> ho<lb ed="#H"/>minis 
+          filius <pc type="#punctus"/> ne filii nomen ad alterum transiret <pc type="#punctus"/> 
+          <lb ed="#H"/>qui non esset aeterna nativitate filius Dei ergo filius <pc type="#punctus"/> hominis 
+          <lb ed="#H"/>factus est filius natus secundum veritatem naturae ex deo dei filius et secundum 
+          <lb ed="#H"/>veritatem naturae ex homine hominis filius <pc type="#punctus"/> ut veritas geniti <pc type="#punctus"/> non ad<lb ed="#H"/>optione <pc type="#punctus"/>
+          non appellatione sed in utraque nativitate <pc type="#punctus"/> filii nomen 
+          <lb ed="#H"/>nascendo haberet et esset verus deus et verus homo unus 
+          <lb ed="#H"/>filius Non <seg type="correction">ergo<del rend="expunctuation">i</del></seg> duos christos neque duos filios sed deum et 
+          <lb ed="#H"/>hominem unum filium <del rend="expunctuation">et</del> quem propterea unigenitum 
+          <lb ed="#H"/>dicimus manentem in duabus substantiis sicut ei naturae veri<lb ed="#H"/>tas 
+          contulit <pc type="#punctus"/> non confusis naturis <pc type="#punctus"/> neque immixtis <pc type="#punctus"/> sicut 
+          <lb ed="#H"/>timotheani volunt <pc type="#punctus"/> sed societate unitis <pc type="#punctus"/></quote>
+        </p>
+        <p xml:id="pl-l3d1c1-d1e166">
+          ecce 
+          <lb ed="#H"/>habes quare filius non pater vel spiritus sanctus carnem assumpserit. 
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
