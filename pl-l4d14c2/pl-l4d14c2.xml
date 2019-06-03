@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -15,8 +17,10 @@
         </respStmt>
       </titleStmt>
       <editionStmt>
-        <edition n="0.0.0-dev"> <title>CAP. II</title> <date when="2017-10-21">October 21,
-          2017</date> </edition>
+        <edition n="0.0.0-dev"> 
+          <title>CAP. II</title> 
+          <date when="2017-10-21">October 21, 2017</date> 
+        </edition>
       </editionStmt>
       <publicationStmt>
         <authority> <ref>SCTA</ref> </authority>
@@ -33,7 +37,7 @@
     </fileDesc>
     <encodingDesc>
       <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -41,7 +45,8 @@
     </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
+        <change when="2017-10-21" status="draft" n="0.0.0"> 
+          <p>Created file for the first time.</p>
         </change>
       </listChange>
     </revisionDesc>
@@ -53,24 +58,67 @@
     <body>
       <div xml:id="pl-l4d14c2">
         <head xml:id="pl-l4d14c2-Hd1e109">CAP. II</head>
-        <p xml:id="pl-l4d14c2-d1e112">[Cap. II]. <quote xml:id="pl-l4d14c2-Qd1e114"> Poenitentia
-          dicitur a puniendo, qua quis punit illicita, quae commisit: poenitentiae virtus timore
-          concipitur</quote>.</p>
-        <p xml:id="pl-l4d14c2-d1e118">Unde Isaias: A timore tuo, Domine, concepimus et peperimus
-          spiritum salutis.</p>
-        <p xml:id="pl-l4d14c2-d1e121"> <quote xml:id="pl-l4d14c2-Qd1e123"> Est autem poenitentia, ut
-          ait <name ref="#Ambrose">Ambrosius</name>, mala praeterita plangere, et plangenda iterum
-          non committere</quote>.</p>
-        <p xml:id="pl-l4d14c2-d1e130">Item <name ref="GregoryGreat">Gregorius</name>: <quote
-          xml:id="pl-l4d14c2-Qd1e135">Poenitere est anteacta peccata deflere et flenda non
-          committere. Nam qui sic alia deplorat, ut alia tamen committat, adhuc poenitentiam agere
-          aut ignorat, aut dissimulat. Quid enim prodest, si peccata luxuriae quis defleat, et adhuc
-          avaritiae aestibus anhelat?</quote> </p>
-        <p xml:id="pl-l4d14c2-d1e140">His verbis quidam vehementius inhaerentes, contendunt, vere
+        <p xml:id="pl-l4d14c2-d1e112">
+          <quote xml:id="pl-l4d14c2-Qd1e114">
+            Poenitentia 
+            dicitur a puniendo, 
+            qua quis punit illicita, quae commisit: 
+            poenitentiae virtus timore 
+            concipitur
+          </quote>.
+        </p>
+        <p xml:id="pl-l4d14c2-d1e118">
+          Unde Isaias: 
+          <cit>
+            <quote ana="#is26_18">
+              A timore tuo, Domine, concepimus et peperimus spiritum salutis
+            </quote>
+            <bibl>
+              Isaias 26:18
+            </bibl>
+          </cit>.
+        </p>
+        <p xml:id="pl-l4d14c2-d1e121"> 
+          <cit>
+            <quote xml:id="pl-l4d14c2-Qd1e123">
+              Est autem poenitentia, ut
+              ait <name ref="#Ambrose">Ambrosius</name>, 
+              mala praeterita plangere, et plangenda iterum
+              non committere
+            </quote>
+            <bibl>
+              <name>Ambrosius</name>
+              <title>Sermo 25, n. 1 (PL 47, 655)</title>
+              <!-- several echos of this quotatio in 
+                Hugh Sum. Sent, tr. 6, c. 12 (PL 176, 149)
+                Abelard Ethica, c. 18 (PL 178, 661)
+                Ivo, Decret, p. 15, c. 1 (PL 161, 857); 
+                Gratian, C. "Poenitentia est", De Poenitentia dist. 3 (t. 1, 1211)
+               -->
+            </bibl>
+          </cit>.
+        </p>
+        <p xml:id="pl-l4d14c2-d1e130">
+          Item 
+          <ref><name ref="GregoryGreat">Gregorius</name></ref>: 
+          <quote xml:id="pl-l4d14c2-Qd1e135">
+            Poenitere est anteacta peccata deflere et flenda non
+            committere. Nam qui sic alia deplorat, ut alia tamen committat, adhuc poenitentiam agere
+            aut ignorat, aut dissimulat. Quid enim prodest, si peccata luxuriae quis defleat, et adhuc
+            avaritiae aestibus anhelat?
+          </quote> 
+        </p>
+        <p xml:id="pl-l4d14c2-d1e140">
+          His verbis quidam vehementius inhaerentes, contendunt, vere
           poenitentem ultra non peccare damnabiliter; et si graviter peccaverit, veram non
-          praecessisse poenitentiam.</p>
-        <p xml:id="pl-l4d14c2-d1e143">Quod etiam aliis muniunt testimoniis.</p>
-        <p xml:id="pl-l4d14c2-d1e146">Ait enim Isidorus: <quote xml:id="pl-l4d14c2-Qd1e148">Irrisor
+          praecessisse poenitentiam.
+        </p>
+        <p xml:id="pl-l4d14c2-d1e143">
+          Quod etiam aliis muniunt testimoniis.
+        </p>
+        <p xml:id="pl-l4d14c2-d1e146">
+          Ait enim Isidorus: 
+          <quote xml:id="pl-l4d14c2-Qd1e148">Irrisor
           est, et non poenitens, qui adhuc agit quod poenitet; nec videtur Deum poscere subditus,
           sed subsannare superbus: canis reversus ad vomitum, et poenitens ad peccatum. Multi
           lacrymas indesinenter fundunt, et peccare non desinunt. Quosdam accipere lacrymas ad
@@ -79,55 +127,98 @@
           committunt. Isaias de peccatoribus dicit: Lavamini, mundi estote. Lavatur et mundus est
           qui et praeterita plangit, et flenda iterum non admittit. Lavatur, et non est mundus, qui
           plangit quae gessit, nec deserit, et post lacrymas, ea quae fleverat, repetit
-          </quote>.</p>
-        <p xml:id="pl-l4d14c2-d1e152">Item <name ref="#Augustine">Augustinus</name>: <quote
-          xml:id="pl-l4d14c2-Qd1e157"> Inanis est poenitentia, quam sequens culpa coinquinat. Nihil
-          prosunt lamenta, si replicantur peccata; nihil valet veniam a malis poscere et mala denuo
-          iterare </quote>.</p>
-        <p xml:id="pl-l4d14c2-d1e161">Item <name ref="GregoryGreat">Gregorius</name>: <quote
-          xml:id="pl-l4d14c2-Qd1e166">Qui admissa plangit, nec tamen deserit, poenae graviori se
-          subiicit</quote>.</p>
-        <p xml:id="pl-l4d14c2-d1e170">Item <name ref="#Ambrose">Ambrosius</name> : <quote
-          xml:id="pl-l4d14c2-Qd1e175"> Reperiuntur qui saepius agendam poenitentiam putant, qui
-          luxuriantur in Christo. Nam si vere in Christo poenitentiam agerent, iterandam postea non
-          putarent; quia sicut unum baptisma, ita est una poenitentia </quote>.</p>
-        <p xml:id="pl-l4d14c2-d1e180">His aliisque pluribus utuntur in assertionem suae
-          opinionis.</p>
-        <p xml:id="pl-l4d14c2-d1e183">Sed <name ref="#Ambrose">Ambrosius</name> dicit: <quote
-          xml:id="pl-l4d14c2-Qd1e188">Haec est vera poenitentia, cessare a peccato </quote>.</p>
-        <p xml:id="pl-l4d14c2-d1e192">Et item: <quote xml:id="pl-l4d14c2-Qd1e194"> Magni profectus
-          est renuntiasse errori </quote> : <quote xml:id="pl-l4d14c2-Qd1e197"> imbutos enim vitiis
-          animos exuere atque emendare virtutis est perfectae et caelestis gratiae </quote>.</p>
-        <p xml:id="pl-l4d14c2-d1e201">Et ideo sane ita definiri potest: Poenitentia est virtus vel
+          </quote>.
+        </p>
+        <p xml:id="pl-l4d14c2-d1e152">
+          Item 
+          <name ref="#Augustine">Augustinus</name>:
+          <quote xml:id="pl-l4d14c2-Qd1e157">
+            Inanis est poenitentia, quam sequens culpa coinquinat. Nihil
+            prosunt lamenta, si replicantur peccata; nihil valet veniam a malis poscere et mala denuo
+            iterare
+          </quote>.
+        </p>
+        <p xml:id="pl-l4d14c2-d1e161">
+          Item <name ref="GregoryGreat">Gregorius</name>: 
+          <quote xml:id="pl-l4d14c2-Qd1e166">
+            Qui admissa plangit, nec tamen deserit, poenae graviori se subiicit</quote>.
+        </p>
+        <p xml:id="pl-l4d14c2-d1e170">
+          Item <name ref="#Ambrose">Ambrosius</name> : 
+          <quote xml:id="pl-l4d14c2-Qd1e175">
+            Reperiuntur qui saepius agendam poenitentiam putant, qui
+            luxuriantur in Christo. Nam si vere in Christo poenitentiam agerent, iterandam postea non
+            putarent; quia sicut unum baptisma, ita est una poenitentia 
+          </quote>.
+        </p>
+        <p xml:id="pl-l4d14c2-d1e180">
+          His aliisque pluribus utuntur in assertionem suae opinionis.
+        </p>
+        <p xml:id="pl-l4d14c2-d1e183">
+          Sed <name ref="#Ambrose">Ambrosius</name> dicit: 
+          <quote xml:id="pl-l4d14c2-Qd1e188">Haec est vera poenitentia, cessare a peccato </quote>.
+        </p>
+        <p xml:id="pl-l4d14c2-d1e192">
+          Et item: 
+          <quote xml:id="pl-l4d14c2-Qd1e194">
+            Magni profectus est renuntiasse errori 
+          </quote> : 
+          <quote xml:id="pl-l4d14c2-Qd1e197">
+            imbutos enim vitiis
+            animos exuere atque emendare virtutis est perfectae et caelestis gratiae
+          </quote>.
+        </p>
+        <p xml:id="pl-l4d14c2-d1e201">
+          Et ideo sane ita definiri potest: Poenitentia est virtus vel
           gratia qua commissa mala cum emendationis proposito plangimus et odimus, et plangenda
-          ulterius committere nolumus; quia poenitentia vera est in animo dolere et odire vitia.</p>
-        <p xml:id="pl-l4d14c2-d1e204">Unde illa verba praemissa: <quote xml:id="pl-l4d14c2-Qd1e206">
-          Poenitere est anteacta deflere, et flenda non committere</quote>, recte sic accipi
+          ulterius committere nolumus; quia poenitentia vera est in animo dolere et odire vitia.
+        </p>
+        <p xml:id="pl-l4d14c2-d1e204">
+          Unde illa verba praemissa: 
+          <quote xml:id="pl-l4d14c2-Qd1e206">
+            Poenitere est anteacta deflere, et flenda non committere
+          </quote>, 
+          recte sic accipi
           possunt, ut non ad diversa tempora, sed ad idem referantur, ut scilicet tempore quo deflet
           commissa mala, non committat voluntate vel opere flenda. Quod innuitur ex verbis
-          consequentibus: <quote xml:id="pl-l4d14c2-Qd1e209">Nam qui sic alia deplorat </quote>,
+          consequentibus: 
+          <quote xml:id="pl-l4d14c2-Qd1e209">Nam qui sic alia deplorat </quote>,
           etc.</p>
-        <p xml:id="pl-l4d14c2-d1e213">Hinc <name ref="#Augustine">Augustinus</name> ait: <quote
-          xml:id="pl-l4d14c2-Qd1e218">Cavendum est, nequis existimet, infanda illa crimina, qualia
-          qui agunt, regnum Dei non possidebunt , quotidie perpetranda et eleemosynis quotidie
-          redimenda. In melius est enim vita mutanda, et per eleemosynas de peccatis praeieritis
-          propitiandus est Deus, non ad hoc emendus quodam modo, ut ea semper liceat impune
-          committere: nemini enim dedit laxamentum peccandi, etsi miserando deleat commissa peccata,
-          si non satisfactio congrua negligatur </quote>.</p>
-        <p xml:id="pl-l4d14c2-d1e223">Item Pius Papa: <quote xml:id="pl-l4d14c2-Qd1e225">Nihil
-          prodest homini ieiunare et orare et alia religionis opera agere, nisi mens ab iniquitate
-          revocetur</quote>.</p>
-        <p xml:id="pl-l4d14c2-d1e229">Qui ergo a malis sic mentem revocat, ut commissa plangat,</p>
-        <p xml:id="pl-l4d14c2-d1e232">et plangenda committere non velit, nec satisfacere negligat,
+        <p xml:id="pl-l4d14c2-d1e213">
+          Hinc <name ref="#Augustine">Augustinus</name> ait: 
+          <quote xml:id="pl-l4d14c2-Qd1e218">
+            Cavendum est, nequis existimet, infanda illa crimina, qualia
+            qui agunt, regnum Dei non possidebunt , quotidie perpetranda et eleemosynis quotidie
+            redimenda. In melius est enim vita mutanda, et per eleemosynas de peccatis praeieritis
+            propitiandus est Deus, non ad hoc emendus quodam modo, ut ea semper liceat impune
+            committere: nemini enim dedit laxamentum peccandi, etsi miserando deleat commissa peccata,
+            si non satisfactio congrua negligatur </quote>.
+        </p>
+        <p xml:id="pl-l4d14c2-d1e223">
+          Item Pius Papa: 
+          <quote xml:id="pl-l4d14c2-Qd1e225">
+            Nihil
+            prodest homini ieiunare et orare et alia religionis opera agere, nisi mens ab iniquitate
+            revocetur
+          </quote>.
+        </p>
+        <p xml:id="pl-l4d14c2-d1e229">
+          Qui ergo a malis sic mentem revocat, ut commissa plangat, 
+          et plangenda committere non velit, nec satisfacere negligat,
           vere poenilet. Nec ideo non est vera poenitentia, quia forte post, non de proposito, sed
           casu vel infirmitate peccabit. Ille autem irrisor est, et non poenitens, qui sic commissa
           plangit, ut plangenda vo luntate vel opere committere non desinat. Ille etiam, qui post
-          lacrymas repetit quae flevit, lavatur ad tempus, sed non est</p>
-        <p xml:id="pl-l4d14c2-d1e235">mundus, id est, illa munditia non est ei sufficiens ad
-          salutem,</p>
-        <p xml:id="pl-l4d14c2-d1e238">quia est momentanea, non perseverans.</p>
-        <p xml:id="pl-l4d14c2-d1e241">Item illud: <quote xml:id="pl-l4d14c2-Qd1e243"> Inanis est
-          poenitentia, quam sequens culpa coinquinat</quote>, sic intelligendum est: Inanis est,
+          lacrymas repetit quae flevit, lavatur ad tempus, sed non est 
+          mundus, id est, illa munditia non est ei sufficiens ad
+          salutem, quia est momentanea, non perseverans.
+        </p>
+        <p xml:id="pl-l4d14c2-d1e241">
+          Item illud: 
+          <quote xml:id="pl-l4d14c2-Qd1e243">
+            Inanis est
+            poenitentia, quam sequens culpa coinquinat
+          </quote>, 
+           sic intelligendum est: Inanis est,
           scilicet carens fructu illius poenitentiae, quam sequens culpa non inquinat: illius enim
           fructus est vitatio gehennae et adeptio gloriae. Mortificatur enim illa poenitentia et
           alia anteacta bona, per sequens pecca tum, ut non sortiantur mercedem quam meruerunt cum
@@ -135,46 +226,76 @@
           poenitentia agatur, et poenitentia quae praecessit, et alia anteacta bona reviviscunt; sed
           illa tantum quae ex ca ritate prodierunt. Illa enim sola viva sunt, quae in caritate
           fiunt; ideoque, si per sequentia peccata mortificantur, per sub sequentem poenitentiam
-          reviviscere possunt; quae vero sine cari tate fiunt, mortua et inania generantur; et ideo
-          per poenitentiam reviviscere non valent.</p>
-        <p xml:id="pl-l4d14c2-d1e248">Similiter intelligendum est illud: <quote
-          xml:id="pl-l4d14c2-Qd1e250"> Nihil prosunt lamenta</quote>, etc., et illud: <quote
-          xml:id="pl-l4d14c2-Qd1e253"> Nihil valet </quote>, etc. Si enim replicentur peccata, nihil
+          reviviscere possunt; quae vero sine caritate fiunt, mortua et inania generantur; et ideo
+          per poenitentiam reviviscere non valent.
+        </p>
+        <p xml:id="pl-l4d14c2-d1e248">
+          Similiter intelligendum est illud: 
+          <quote xml:id="pl-l4d14c2-Qd1e250">
+            Nihil prosunt lamenta
+          </quote>, 
+          etc., et illud: 
+          <quote xml:id="pl-l4d14c2-Qd1e253">
+            Nihil valet
+          </quote>, 
+          etc. Si enim replicentur peccata, nihil
           valet ad salutem vel ad veniam in fine praecedens lamentum, quia nihil relinquitur de
           vitae munditia; quia aut peccata dimissa redeunt, ut quibusdam placet, cum replicantur;
           vel si non redeunt, eis tamen deletis, propter ingratitudinem ita reus et immundus
           constituitur, cum adhuc expiandis implicatur, ut si iam deleta redirent. De hoc tamen,
-          scilicet an peccala redeant, post plenius agemus.</p>
-        <p xml:id="pl-l4d14c2-d1e257">Similiter nihil valet ad salutem oblinendam vel ad munditiam
-          vitae habendam, veniam de malis factis poscere, et mala denuo iterare.</p>
-        <p xml:id="pl-l4d14c2-d1e260">Ita etiam intelligendum est illud quod idem <name
-          ref="#Augustine">Augustinus</name> alibi ait: <quote xml:id="pl-l4d14c2-Qd1e265"
-          >Poenitentia est quaedam dolentis vindicta, puniens in se, quod dolet
-          admisisse</quote>.</p>
-        <p xml:id="pl-l4d14c2-d1e269">Et infra: <quote xml:id="pl-l4d14c2-Qd1e271">Continue dolendum
-          est de peccato, quod declarat ipsa dictionis virtus: poenitere enim est poenam tenere, ut
-          semper puniat in se ulciscendo, quod commisit peccando. Ille poenam tenet, qui semper
-          vindicat quod commisisse dolet. Poenitentia igitur est vindicta semper puniens in se, quod
-          dolet commisisse </quote>. <quote xml:id="pl-l4d14c2-Qd1e274"> Quid restat nobis, nisi
-          dolere in vita? ubi enim dolor finitur, deficit et poenitentia. Si vero poenitentia
-          finitur, quid relinquitur de venia? Tamdiu gaudeat et speret de gratia, quamdiu
-          sustentatura poenitentia. Dicit enim Dominus: Vade, et amplius noli peccare. Non dixit: ne
-          pecces, sed nec voluntas peccandi in te oriatur. Quod quomodo servabitur, nisi dolor in
-          poenitentia continue custodiatur? Hic semper doleat et de dolore gaudeat; et non sit satis
-          quod doleat, sed ex fide doleat, et non semper doluisse doleat</quote>.</p>
-        <p xml:id="pl-l4d14c2-d1e278">De poenitentia perfectorum vel ad salutem sufficienti
-          intelligendum est quod supra dixit, scilicet: <quote xml:id="pl-l4d14c2-Qd1e280"
-          >Poenitentia est vindicta semper puniens quod commisit</quote>; et alia huiusmodi.</p>
-        <p xml:id="pl-l4d14c2-d1e284">Illuti vero: <quote xml:id="pl-l4d14c2-Qd1e286">Si poenitentia
-          finitur, nihil de venia relinquitur </quote>, dupliciter accipi potest.</p>
-        <p xml:id="pl-l4d14c2-d1e291">Si enim, iuxta quorundam intelligentiam, peccata dimissa
+          scilicet an peccala redeant, post plenius agemus.
+        </p>
+        <p xml:id="pl-l4d14c2-d1e257">
+          Similiter nihil valet ad salutem oblinendam vel ad munditiam
+          vitae habendam, veniam de malis factis poscere, et mala denuo iterare.
+        </p>
+        <p xml:id="pl-l4d14c2-d1e260">
+          Ita etiam intelligendum est illud quod idem <name
+          ref="#Augustine">Augustinus</name> alibi ait: 
+          <quote xml:id="pl-l4d14c2-Qd1e265">
+            Poenitentia est quaedam dolentis vindicta, puniens in se, quod dolet admisisse
+          </quote>.
+        </p>
+        <p xml:id="pl-l4d14c2-d1e269">Et infra: 
+          <quote xml:id="pl-l4d14c2-Qd1e271">
+            Continue dolendum
+            est de peccato, quod declarat ipsa dictionis virtus: poenitere enim est poenam tenere, ut
+            semper puniat in se ulciscendo, quod commisit peccando. Ille poenam tenet, qui semper
+            vindicat quod commisisse dolet. Poenitentia igitur est vindicta semper puniens in se, quod
+            dolet commisisse 
+          </quote>. 
+          <quote xml:id="pl-l4d14c2-Qd1e274">
+            Quid restat nobis, nisi
+            dolere in vita? ubi enim dolor finitur, deficit et poenitentia. Si vero poenitentia
+            finitur, quid relinquitur de venia? Tamdiu gaudeat et speret de gratia, quamdiu
+            sustentatura poenitentia. Dicit enim Dominus: Vade, et amplius noli peccare. Non dixit: ne
+            pecces, sed nec voluntas peccandi in te oriatur. Quod quomodo servabitur, nisi dolor in
+            poenitentia continue custodiatur? Hic semper doleat et de dolore gaudeat; et non sit satis
+            quod doleat, sed ex fide doleat, et non semper doluisse doleat
+          </quote>.
+        </p>
+        <p xml:id="pl-l4d14c2-d1e278">
+          De poenitentia perfectorum vel ad salutem sufficienti
+          intelligendum est quod supra dixit, scilicet: 
+          <quote xml:id="pl-l4d14c2-Qd1e280">Poenitentia est vindicta semper puniens quod commisit</quote>; 
+          et alia huiusmodi.
+        </p>
+        <p xml:id="pl-l4d14c2-d1e284">
+          Illuti vero: <quote xml:id="pl-l4d14c2-Qd1e286">Si poenitentia
+          finitur, nihil de venia relinquitur </quote>, dupliciter accipi potest.
+        </p>
+        <p xml:id="pl-l4d14c2-d1e291">
+          Si enim, iuxta quorundam intelligentiam, peccata dimissa
           redeunt, facile est intelligere, nihil de venia relinqui; quia peccata dimissa iterum
           replicantur. Sicut enim ille qui ex servitute in libertatem manumittitur, interim vere
           liber est, et tamen propter offensam, in servitutem postea revocatur; sic et poenitenti
-          peccata vere dimittuntur, et tamen propter offensam quae replicatur, iterum redeunt.</p>
-        <p xml:id="pl-l4d14c2-d1e294">Si vero non redire dicantur, sane potest dici, etiam sic nihil
+          peccata vere dimittuntur, et tamen propter offensam quae replicatur, iterum redeunt.
+        </p>
+        <p xml:id="pl-l4d14c2-d1e294">
+          Si vero non redire dicantur, sane potest dici, etiam sic nihil
           de venia relinqui; non quod dimissa peccata iterum imputentur, sed quia propter
-          ingratitudinem ita reus est et immundus constituitur, ac si illa redirent.</p>
+          ingratitudinem ita reus est et immundus constituitur, ac si illa redirent.
+        </p>
       </div>
     </body>
   </text>

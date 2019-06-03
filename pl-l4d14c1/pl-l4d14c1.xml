@@ -1,9 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>CAP. I</title>
+        <title>Liber IV, D. 14, C. 1</title>
         <author ref="#Lombard">Peter Lombard</author>
         <respStmt>
           <name xml:id="JW">Jeffrey C. Witt</name>
@@ -15,11 +14,15 @@
         </respStmt>
       </titleStmt>
       <editionStmt>
-        <edition n="0.0.0-dev"> <title>CAP. I</title> <date when="2017-10-21">October 21,
-          2017</date> </edition>
+        <edition n="0.0.0-dev"> 
+          <title>CAP. I</title> 
+          <date when="2017-10-21">October 21, 2017</date> 
+        </edition>
       </editionStmt>
       <publicationStmt>
-        <authority> <ref>SCTA</ref> </authority>
+        <authority> 
+          <ref>SCTA</ref> 
+        </authority>
         <availability status="free">
           <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
             Commons Attribution 4.0 International</ref> </p>
@@ -32,8 +35,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -57,23 +59,57 @@
           poenitentia.</head>
         <p xml:id="pl-l4d14c1-d1e115">Post haec de poenitentia agendum est. Poenitentia longe
           positis necessaria est, ut appropinquent.</p>
-        <p xml:id="pl-l4d14c1-d1e118">Est enim, ut ait <name ref="#Jerome">Hieronymus</name>, <quote
-          xml:id="pl-l4d14c1-Qd1e123">secunda tabula post naufragium</quote>; quia, si quis vestem
-          innocentiae in baptismo perceptam peccando corruperit, poenitentiae remedio reparare
-          potest. Prima tabula est baptismus, ubi deponitur vetus homo, et induitur novus; secunda,
-          poenitentia, qua post lapsum resurgimus, dum vetustas reversa repellitur, et novitas
-          perdita resumitur. Post baptismum prolapsi per poenitentiam renovari valent, sed non per
-          baptismum: licet homini saepius poenitere, sed non baptizari.</p>
-        <p xml:id="pl-l4d14c1-d1e127">Baptismus tantum est Sacramentum, sed poenitentia dicitur et
+        <p xml:id="pl-l4d14c1-d1e118">
+          Est enim, ut ait 
+          <ref xml:id="pl-l4d14c1-Rd1e122"><name ref="#Jerome">Hieronymus</name></ref>, 
+          <cit>
+            <quote xml:id="pl-l4d14c1-Qd1e123">
+              secunda tabula post naufragium
+            </quote>
+            <bibl>
+              <name>Hieronymus</name>,
+              <title>Ad Demetriadem</title>, 
+              Epist. 130, n. 9 (PL 22, 1115)
+            </bibl>
+          </cit>;
+          quia, 
+          si quis vestem innocentiae in baptismo perceptam peccando corruperit, 
+          poenitentiae remedio reparare potest. 
+          Prima tabula est baptismus, ubi deponitur vetus homo, 
+          et induitur novus; 
+          secunda, poenitentia, 
+          qua post lapsum resurgimus, 
+          dum vetustas reversa repellitur, et novitas
+          perdita resumitur. 
+          Post baptismum prolapsi per poenitentiam renovari valent, 
+          sed non per baptismum: 
+          licet homini saepius poenitere, sed non baptizari.
+        </p>
+        <p xml:id="pl-l4d14c1-d1e127">
+          Baptismus tantum est Sacramentum, sed poenitentia dicitur et
           Sacramentum et virtus mentis. Est enim poenitentia interior et poenitentia exterior:
           exterior Sacramentum est, interior virtus mentis est; et utraque salutis causa est et
-          justificationis.</p>
-        <p xml:id="pl-l4d14c1-d1e131">Utrum vero omnis exterior poenitentia sit Sacramentum, vel si
-          non omnis, quae hoc nomine censenda sit, consequenter investigabimus.</p>
-        <p xml:id="pl-l4d14c1-d1e134"> A poenitentia coepit Ioannis praedicatio dicentis:
-          Poenitentiam agile, appropinquabit enim regnum caelorum. <quote
-          xml:id="pl-l4d14c1-Qd1e136"> Quod autem praeco docuit, idem post Veritas praedicavit,
-          exordium sermonis sumens a poenitentia </quote>.</p>
+          justificationis.
+        </p>
+        <p xml:id="pl-l4d14c1-d1e131">
+          Utrum vero omnis exterior poenitentia sit Sacramentum, vel si
+          non omnis, quae hoc nomine censenda sit, consequenter investigabimus.
+        </p>
+        <p xml:id="pl-l4d14c1-d1e134">
+          A poenitentia coepit Ioannis praedicatio dicentis:
+          <cit>
+            <quote xml:id="pl-l4d14c1-Qd1e153" ana="#mt3_2">
+              Poenitentiam agite, appropinquabit enim regnum caelorum
+            </quote>
+            <bibl>Matthaeus 3:2</bibl>
+          </cit>. 
+          <cit>
+            <quote xml:id="pl-l4d14c1-Qd1e136">
+              Quod autem praeco docuit, idem post Veritas praedicavit,
+              exordium sermonis sumens a poenitentia.
+            </quote>
+          </cit>.
+        </p>
       </div>
     </body>
   </text>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber IV, D. 14, C. 1</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Youlanda Halterman</name>
+          <resp>Original OCR Preparation</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev"> 
+          <title>CAP. I</title> 
+          <date when="2017-10-21">October 21, 2017</date> 
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority> 
+          <ref>SCTA</ref> 
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative
+            Commons Attribution 4.0 International</ref> </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-21" status="draft" n="0.0.0"> <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="en">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l4d14c1">
+        <head xml:id="pl-l4d14c1-Hd1e109">CAP. I</head>
+        <head xml:id="pl-l4d14c1-Hd1e112" type="question-title">
+          On penitence, and whyit is called penitence.
+        </head>
+        <p xml:id="pl-l4d14c1-d1e115">
+          After this penitence should be discussed. 
+          Penitence is necessary for the one's posited, 
+          so that they might come near. <!-- translation help needed -->
+        </p>
+        <p xml:id="pl-l4d14c1-d1e118">
+          For it is, as 
+          <ref>
+            <name ref="#Jerome">Jerome</name></ref> says, 
+          <cit>
+            <quote xml:id="pl-l4d14c1-Qd1e123">
+              the second table after a shipwreck
+            </quote>
+            <bibl>
+              <name>Hieronymus</name>,
+              <title>Ad Demetriadem</title>, 
+              Epist. 130, n. 9 (PL 22, 1115)
+            </bibl>
+          </cit>
+          because, 
+          if someone corrupts by sinning the garments of innocences 
+          secured through baptism, 
+          he is able to repair them 
+          through the remedy of penitence.
+          The first table is baptism, 
+          which removes the old man, 
+          and introduces the new; 
+          the second, 
+          is penitence, 
+          by which we are restored, 
+          while the return to the old is repelled, 
+          and the newness fell away is resumed.
+          After baptism, 
+          those how have fallen 
+          are able to be renewed through penitence, 
+          but not through baptism, 
+          as man can do penance often, 
+          but not baptized.
+        </p>
+        <p xml:id="pl-l4d14c1-d1e127">
+          As baptism is a sacrament, 
+          but penitence is also said 
+          to be a sacrament and virtue of the mind. 
+          For there is interior penance 
+          and exterior penance: 
+          exterior penance is a sacrament, 
+          interior penance is a virtue of the mind, 
+          and each is a cause of salvation and justification.
+        </p>
+        <p xml:id="pl-l4d14c1-d1e131">
+          But whether every exterior act of penance is a sacrament, 
+          or if not every act which is referred to by this name is a sacrament,
+          will investigate below.
+        </p>
+        <p xml:id="pl-l4d14c1-d1e134">
+          The preaching of John began with penance, saying:
+          <cit>
+            <quote xml:id="pl-l4d14c1-Qd1e153">
+              Repent, for the kingdom of heaven is at hand
+            </quote>
+            <bibl>Matthaeus 3:2</bibl>
+          </cit>.
+          <cit>
+            <quote xml:id="pl-l4d14c1-Qd1e136">
+              But that herald taught, 
+              the Truth preach the same after, 
+              beginning his sermon from penance
+            </quote>
+          </cit>.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
