@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 1, Distinctio 1, Caput 1 [Vatlat 681 Transcription]</title>
+        <author>Petrus Lombardus</author>
+        <editor ref="#jeffreycwitt">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 1, Distinctio 1, Caput 1  [Vatlat 681 Transcription]</title>
+          <date when="2019-07-05">July 05, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Vb" n="vatlat681">Vat lat 681</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-05" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Vb" n="4-v"/>
+        <cb ed="#Vb" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d1c1">
+        <head xml:id="pl-l1d1c1-Hd1e3524">Caput 1 [Vatlat 683 Transcription]</head>
+        <p xml:id="pll1d1c1-vanspv">
+          <pb ed="#Vb" n="4-v"/>
+          <cb ed="#Vb" n="a"/>
+          <lb ed="#Vb" n="1"/>Vete<lb ed="#Vb"/>ris 
+          <lb ed="#Vb"/>ac 
+          <lb ed="#Vb"/>no<lb ed="#Vb"/>vae 
+          <lb ed="#Vb"/>le<lb ed="#Vb"/>gis 
+          continentiam diligenti inda<lb ed="#Vb"/>gine 
+          etiam atque etiam considerantibus 
+          <lb ed="#Vb"/>nobis praevia dei gratia innotuit sa<lb ed="#Vb"/>crae 
+          paginae tractatum circa res vel 
+          <lb ed="#Vb"/>signa praecipue versari
+        </p>
+        <p xml:id="pll1d1c1-ueeeis">
+          ut enim <ref xml:id="pl-l1d1c1-Rd1e3532"><name ref="#Augustine">egre<lb ed="#Vb"/>gius 
+          doctor augustinus</name> ait in libro <title ref="#deDoctrinaChristiana">de 
+          doctrina christiana</title></ref> <quote xml:id="pl-l1d1c1-Qd1e3544">omnis doctrina 
+          <lb ed="#Vb"/>vel rerum est vel signorum sed res eti<lb ed="#Vb"/>am 
+          per signa dignoscuntur proprie <unclear>et</unclear> 
+          <lb ed="#Vb"/>autem res hic appellantur quae non 
+          <lb ed="#Vb"/>ad significandum aliquid adhi<lb ed="#Vb"/>bentur 
+          Signa vero <pc>:</pc> quorum usus in 
+          <lb ed="#Vb"/>significando est</quote>
+        </p>
+        <p xml:id="pll1d1c1-eaases">
+          <pc type="#pilcrow"/>Eorum autem <!-- scribal confusion over aliqua or alia -->vel 
+          <lb ed="#Vb"/>aliqua vel alia <!-- end confusion --> sunt <pc type="#punctus"/> quorum usus 
+          <lb ed="#Vb"/>omnis in significando est <pc type="#punctus"/> non in iu<lb ed="#Vb"/>stificando 
+          id est quibus non utimur 
+          <lb ed="#Vb"/>nisi aliquod significandi gratia ut ali<lb ed="#Vb"/>qua 
+          sacramenta legalia alia quae 
+          <lb ed="#Vb"/>non solum significant <pc>:</pc> sed con<lb ed="#Vb"/>ferunt 
+          <pc type="#punctus"/> quod intus adiuvent sicut 
+          <lb ed="#Vb"/>evangelica sacramenta
+        </p>
+        <p xml:id="pll1d1c1-eqadta">
+          <pc type="#pilcrow"/><quote xml:id="pl-l1d1c1-Qd1e3559">Ex quo a<lb ed="#Vb"/>perte 
+          intelligitur quae hic appellen<lb ed="#Vb"/>tur 
+          res illae videlicet quae ad signifi<lb ed="#Vb"/>candum 
+          aliquid adhibentur omne 
+          <lb ed="#Vb"/>igitur signum <pc>:</pc> etiam aliqua res est quod enim nu<lb ed="#Vb"/>lla 
+          res est Quod enim nulla res est 
+          <lb ed="#Vb"/>ut in eodem libro <name ref="#Augustine">augustinus</name> ait omnino nihil 
+          <lb ed="#Vb"/>est non autem econverso omnis res sig<lb ed="#Vb"/>num 
+          est</quote> quia non adhibetur ad signi<cb ed="#Vb" n="b"/><lb ed="#Vb"/>ficandum 
+          aliquid Cumque his in<lb ed="#Vb"/>tenderit 
+          theologorum speculatio e<lb ed="#Vb"/>studiosa 
+          atque modesta divinam 
+          <lb ed="#Vb"/>scripturam formam praescriptam in 
+          <lb ed="#Vb"/>doctrina tenere avertet <pc type="#punctus"/>
+        </p>
+        <p xml:id="pll1d1c1-dhedsd">
+          De his ergo 
+          <lb ed="#Vb"/>nobis aditum ad res divinas a<lb ed="#Vb"/>liquatenus 
+          intelligendas deo 
+          <lb ed="#Vb"/>duce aperire volentibus disserendum 
+          <lb ed="#Vb"/>est <pc type="#punctus"/> et primum de rebus postea de signis dis<lb ed="#Vb"/>seremus 
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
