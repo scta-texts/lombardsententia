@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber III, Distinctio 1, Cap. 1 [vatlat681 Transcription]</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <editor>Jeffrey C. Witt</editor>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber III, Distinctio 1, Cap. 1 [vatlat681 Transcription]</title>
+          <date when="2019-07-28">July 28, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>
+            <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Vb" n="vatlat683">vat lat 681</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-28" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Vb" n="170-r"/>
+        <cb ed="#Vb" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l3d1c1">
+        <head xml:id="pl-l3d1c1-Hd1e111">Liber III, Distinctio 1, Cap. 1 [Vat Lat 681]</head>
+        <head xml:id="pl-l3d1c1-Hd1e114" type="question-title">Quare Filius carnem assumsit, non Pater vel Spiritus
+          sanctus.</head>
+        <p xml:id="pl-l3d1c1-d1e117"> 
+          <lb ed="#Vb" n="2"/>Diligenter 
+          <lb ed="#Vb"/>vero adnotandum 
+          <lb ed="#Vb"/>quare filius non pater vel spiritus sanctus 
+          <lb ed="#Vb"/>est incarnatus solus namque 
+          <lb ed="#Vb"/>filius hominem assumpsit 
+        </p>
+        <p xml:id="pl-l3d1c1-d1e120">
+          Quod uti<lb ed="#Vb"/>que 
+          ordine congruo atque alto dei 
+          <lb ed="#Vb"/>sapientia fecit consilio ut deus q<lb ed="#Vb"/>ui 
+          in sapientia sua mundum condiderat 
+          <lb ed="#Vb"/>secundum illud <quote xml:id="pl-l3d1c1-Qd1e122" ana="#ps103_24">omnia in sapientia fecisti</quote> 
+          deus ut eadem <quote xml:id="pl-l3d1c1-Qd1e125" ana="#eph1_10">quae in caelis sunt 
+          <lb ed="#Vb"/>et quae in terris restauraret</quote> haec est 
+          <lb ed="#Vb"/>mulier euangelica quae <quote xml:id="pl-l3d1c1-Qd1e128" ana="#lc15_8">accendit 
+          <lb ed="#Vb"/>lucernam et dragmam decimam</quote> quae perdita fuerat reperit sapientia scilicet pa<lb ed="#Vb"/>tris 
+          quae testam humanae infirmi<lb ed="#Vb"/>tatis 
+          lumine suae divinitatis 
+          <lb ed="#Vb"/>accendit perditumque hominem <unclear>reparavit</unclear> 
+          <lb ed="#Vb"/>nomine regis et imagine <unclear>insinitum</unclear>
+        </p>
+        <p xml:id="pl-l3d1c1-d1e132">
+          <lb ed="#Vb"/>Ideo etiam filius missus est et non pater quia 
+          <lb ed="#Vb"/>congruentius mitti debebat qui est 
+          <lb ed="#Vb"/>ab alio quam qui est a nullo filius 
+          <lb ed="#Vb"/>autem a patre est pater vero a nullo alio 
+          <lb ed="#Vb"/>est  
+        </p>
+        <p xml:id="pl-l3d1c1-d1e136">
+          ut enim ait <name ref="#Augustine">augustinus</name> in libro <title>de trinitate</title> <quote xml:id="pl-l3d1c1-Qd1e144">Non habet de 
+          <lb ed="#Vb"/>quo sit</quote> <quote xml:id="pl-l3d1c1-Qd1e147">Sicut ergo pater genu<lb ed="#Vb"/>it 
+          filius genitus est ita congrue et 
+          <lb ed="#Vb"/>pater misit filius missus est</quote> <del rend="strikethrough">a</del> 
+          <lb ed="#Vb"/><quote xml:id="pl-l3d1c1-Qd1e150">ab illo enim convenienter mittitur dei ver<lb ed="#Vb"/>bum 
+          cuius est verbum ab illo mittitur de quo 
+          <lb ed="#Vb"/>natum est <pc type="#punctus"/> mittitur quod genitum <pc type="#punctus"/> pater vero q<lb ed="#Vb"/>ui 
+          misit a nullo est</quote> Ideoque pater missum 
+          <lb ed="#Vb"/>non est ne si mitteretur ab illo esse 
+          <lb ed="#Vb"/>putaretur 
+        </p>
+        <p xml:id="pl-l3d1c1-d1e154">
+          missus est ergo primo 
+          <lb ed="#Vb"/>filius qui a solo patre est deinde 
+          <lb ed="#Vb"/>etiam spiritus sanctus qui est a patre et filio <pc type="#punctus"/> Sed fi<lb ed="#Vb"/>lius 
+          solus in carnem missus est <pc type="#punctus"/> 
+          <lb ed="#Vb"/>non spiritus sanctus sicut nec pater <pc type="#punctus"/> Quod ideo factum est <pc type="#punctus"/> 
+          ut qui erant in divinitate dei 
+          <lb ed="#Vb"/>filius in humanitate fieret hominis fi<cb ed="#Vb" n="b"/><!--170rb--><lb ed="#Vb"/>lius 
+          <pc type="#punctus"/> Non pater vel spiritus sanctus carnem 
+          <lb ed="#Vb"/>induit ne alius in divinitate 
+          <lb ed="#Vb"/>esset filius <pc type="#punctus"/> alius in humanita<lb ed="#Vb"/>te 
+          <pc type="#punctus"/> et ne idem esset pater et filius si deus 
+          <lb ed="#Vb"/>pater de homine nasceretur
+        </p>
+        <p xml:id="pl-l3d1c1-d1e157">
+          unde in <title>ecclesia<lb ed="#Vb"/>sticis 
+          dogmatibus</title> <quote xml:id="pl-l3d1c1-Qd1e162">Non pater carnem 
+          <lb ed="#Vb"/>assumpsit <pc type="#punctus"/> nec spiritus sanctus sed filius tantum <pc type="#punctus"/> ut qui 
+          <lb ed="#Vb"/>erat in divinitate <del rend="expunctuation">s</del> dei filius <pc type="#punctus"/> 
+          ipse fieret in humanitate hominis fi<lb ed="#Vb"/>lius 
+          ne filii nomen ad alterum tran<lb ed="#Vb"/>siret 
+          qui non esset nativitate aeter<lb ed="#Vb"/>na 
+          filius <pc type="#punctus"/> Dei ergo filius et hominis 
+          <lb ed="#Vb"/>factus est filius natus secundum verita<lb ed="#Vb"/>tem 
+          naturae ex deo dei filius et secundum verita<lb ed="#Vb"/>tem 
+          naturae <del rend="expunctuation">ex deo dei filius et secundum verita<lb ed="#Vb"/>tem 
+          naturae</del> ex homine hominis filius <pc type="#punctus"/> 
+          <lb ed="#Vb"/>ut veritas geniti non adoptione enim 
+          <lb ed="#Vb"/>appellatione <pc type="#punctus"/> sed in utraque nati<lb ed="#Vb"/>vitate 
+          <pc type="#punctus"/> filii nomen nascendo ha<lb ed="#Vb"/>beret 
+          <pc type="#punctus"/> et esset verus deus <pc type="#punctus"/> et verus homo 
+          <lb ed="#Vb"/>unus filius <pc type="#punctus"/> Non ergo duos christos <pc type="#punctus"/> 
+          <lb ed="#Vb"/>neque duos filos <pc type="#punctus"/> sed deum et hominem <del rend="expunctuation">u</del> 
+          <lb ed="#Vb"/>unum filium <pc type="#punctus"/> quem propterea unigeni<lb ed="#Vb"/>tum 
+          dicimus manentem in duabus 
+          <lb ed="#Vb"/>substantiis <pc type="#punctus"/> Sicut ei naturae veritas contulit 
+          <lb ed="#Vb"/>non confusis naturis neque immixtis <pc type="#punctus"/> 
+          sicut tymothiam volunt <pc type="#punctus"/> sed soci<lb ed="#Vb"/>etate 
+          unitis <pc type="#punctus"/></quote>
+        </p>
+        <p xml:id="pl-l3d1c1-d1e166">
+          Ecce habes quare filius non 
+          <lb ed="#Vb"/>pater vel spiritus sanctus carnem assumpserit <pc type="#punctus"/> 
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

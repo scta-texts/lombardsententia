@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber III, Distinctio 1, Cap. 1 [vatlat683 Transcription]</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <editor>Jeffrey C. Witt</editor>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber III, Distinctio 1, Cap. 1 [vatlat683 Transcription]</title>
+          <date when="2019-07-28">July 28, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>
+            <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Vd" n="vatlat683">vat lat 683</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-28" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Vd" n="92-r"/>
+        <cb ed="#Vd" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l3d1c1">
+        <head xml:id="pl-l3d1c1-Hd1e111">Liber III, Distinctio 1, Cap. 1 [Vat Lat 683]</head>
+        <head xml:id="pl-l3d1c1-Hd1e114" type="question-title">Quare Filius carnem assumsit, non Pater vel Spiritus
+          sanctus.</head>
+        <p xml:id="pl-l3d1c1-d1e117"> 
+          <lb ed="#Vd" n="38"/>Diligenter vero adnotandum quare 
+          <lb ed="#Vd"/>filius non pater vel spiritus sanctus est incarnatus 
+          <lb ed="#Vd"/>solus namque filius hominem assumpsit 
+        </p>
+        <p xml:id="pl-l3d1c1-d1e120">
+          quod 
+          <lb ed="#Vd"/>ordine congruo atque alto dei sapientia fecit 
+          <lb ed="#Vd"/>consilio ut deus qui in sapientia sua mundum 
+          <lb ed="#Vd"/>condiderat secundum illud <quote xml:id="pl-l3d1c1-Qd1e122" ana="#ps103_24">omnia in sapientia fecisti</quote> <unclear>dicens</unclear> 
+          <lb ed="#Vd"/>ut eadem <quote xml:id="pl-l3d1c1-Qd1e125" ana="#eph1_10">quae in caelis sunt <unclear>et</unclear> quae in terris resta<lb ed="#Vd" break="no"/>uraret</quote> 
+          haec est mulier euangelica quae <quote xml:id="pl-l3d1c1-Qd1e128" ana="#lc15_8">accendit lu<lb ed="#Vd"/>cernam 
+          et dragmam decimam</quote> quae perdita fuerat 
+          <lb ed="#Vd"/>reperit sapientia scilicet patris quae testam humanae 
+          <pb ed="#Vd" n="92-v"/>
+          <cb ed="#Vd" n="a"/>
+          <lb ed="#Vd"/>infirmitatis lumine suae divinita<lb ed="#Vd" break="no"/>tis 
+          accendit perditumque hominem reparavit 
+          <lb ed="#Vd"/>nomine regis et imagine insignitum
+        </p>
+        <p xml:id="pl-l3d1c1-d1e132">
+          <lb ed="#Vd"/>Ideo etiam filius missus est et non pater qui<lb ed="#Vd" break="no"/>a 
+          congruentius mitti debebat qui est ab 
+          <lb ed="#Vd"/>alio quam qui est a nullo filius autem a pa<lb ed="#Vd"/>tre 
+          est pater vero a nullo alio est  
+        </p>
+        <p xml:id="pl-l3d1c1-d1e136">
+          ut enim <name ref="#Augustine">augustinus</name> 
+          <lb ed="#Vd"/>in libro <title>de trinitate</title> ait <quote xml:id="pl-l3d1c1-Qd1e144">non habet de 
+          <lb ed="#Vd"/>quo sit</quote> <quote xml:id="pl-l3d1c1-Qd1e147">Sicut ergo pater genuit filius 
+          <lb ed="#Vd"/>genitus est ita congrue pater misit <pc type="#punctus"/> filius 
+          <lb ed="#Vd"/>missus est</quote> <quote xml:id="pl-l3d1c1-Qd1e150">ab illo enim convenienter mitti<lb ed="#Vd" break="no"/>tur 
+          dei verbum cuius est verbum ab illo mitti<lb ed="#Vd"/>tur 
+          de quo natum est <pc type="#punctus"/> mittitur quod geni<lb ed="#Vd"/>tum 
+          est <pc type="#punctus"/> pater vero qui misit a nullo est</quote> Ideoque 
+          pater missus non est <pc type="#punctus"/> ne si mitteretur ab alio 
+          <lb ed="#Vd"/>esse putaretur 
+        </p>
+        <p xml:id="pl-l3d1c1-d1e154">
+          missus est ergo primo filius 
+          <lb ed="#Vd"/>qui a solo patre est deinde etiam spiritus sanctus qui est 
+          <lb ed="#Vd"/>a patre et filio Sed filius solus in carne 
+          <lb ed="#Vd"/>missus est non spiritus sanctus sicut nec pater Quod ideo 
+          <lb ed="#Vd"/>factum est ut qui erat in divinitate dei fi<lb ed="#Vd" break="no"/>lius 
+          <pc type="#punctus"/> in humanitate fieret hominis filius <pc type="#punctus"/> Non 
+          <lb ed="#Vd"/>pater vel spiritus sanctus carnem induit ne alius in di<lb ed="#Vd" break="no"/>vinitate 
+          esset filius <pc type="#punctus"/> alius in humanita<lb ed="#Vd" break="no"/>te 
+          <pc type="#punctus"/> et ne idem esset pater et filius <pc type="#punctus"/> si deus pater de 
+          <lb ed="#Vd"/>homine nasceretur
+        </p>
+        <p xml:id="pl-l3d1c1-d1e157">
+          <pc type="#punctus"/> unde in <title>ecclesiasticis dogma<lb ed="#Vd" break="no"/>tibus</title> 
+          <quote xml:id="pl-l3d1c1-Qd1e162">Non pater carnem assumpsit <pc type="#punctus"/> nec spiritus sanctus 
+          <lb ed="#Vd"/>sed filius tantum <pc type="#punctus"/> ut qui erat in divinitate dei 
+          <lb ed="#Vd"/>filius <pc type="#punctus"/> ipse fieret in homine hominis filius ne fi<lb ed="#Vd" break="no"/>lii 
+          nomen ad alterum transiret qui non esset na<lb ed="#Vd" break="no"/>tivitate 
+          filius <pc type="#punctus"/> dei ergo filius et hominis filius 
+          <lb ed="#Vd"/>natus secundum veritatem naturae ex homine hominis filius ut 
+          <lb ed="#Vd"/>veritas filii non adoptione non appellatione <pc type="#punctus"/> sed 
+          <lb ed="#Vd"/>in utraque nativitate <pc type="#punctus"/> filii nomen nascendo 
+          <lb ed="#Vd"/>haberet <pc type="#punctus"/> et esset verus deus <pc type="#punctus"/> et verus homo <pc type="#punctus"/> unus 
+          filius <pc type="#punctus"/> Non ergo duos christos <pc type="#punctus"/> neque duos 
+          <lb ed="#Vd"/>filios <pc type="#punctus"/> sed deum et hominem unum filium <pc type="#punctus"/> quem propterea 
+          <lb ed="#Vd"/>unigenitum dicimus manentem in duabus sub<lb ed="#Vd"/>stantiis 
+          <pc type="#punctus"/>Sicut ei naturae veritas contulit <pc type="#punctus"/> non <seg type="correction">con<lb ed="#Vd"/>fusi<del rend="expunctuation">i</del>s</seg> 
+            naturis <pc type="#punctus"/> neque immixtis <pc type="#punctus"/> sicut <sic>ethimo<lb ed="#Vd"/>tiam</sic> 
+            volunt <pc type="#punctus"/> sed societate unitis <pc type="#punctus"/></quote>
+        </p>
+        <p xml:id="pl-l3d1c1-d1e166">
+          ecce habes 
+          <lb ed="#Vd"/>quare filius non pater vel spiritus sanctus carnem assumpserit <pc type="#punctus"/> 
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
