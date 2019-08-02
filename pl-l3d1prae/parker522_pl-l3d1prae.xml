@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber III, Distinctio 1, Praeambulum [Parker522 Transcription]</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <editor>Jeffrey C. Witt</editor>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber III, Distinctio 1, Praeambulum [Parker522 Transcription]</title>
+          <date when="2019-08-02">August 2, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>
+            <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Pd" n="parker522">Parker 522</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-07-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Pd" n="211-v"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l3d1prae">
+        <head xml:id="pl-l3d1prae-Hd1e111">Liber III, Distinctio 1, Praeambulum [Parker522 Transcription]</head>
+        <p xml:id="pl-l3d1prae-d1e114">
+          <lb ed="#Pd" n="1"/><quote xml:id="pl-l3d1prae-Qd1e116" ana="#gal4_4">Cum venit ergo plenitudo temporis ut ait apostolus 
+          <lb ed="#Pd"/>misit deus filium suum factum ex muliere factum 
+          <lb ed="#Pd"/>sub lege ut eos qui sub lege erant redimeret 
+          <lb ed="#Pd"/>ut adoptionem filiorum dei</quote>
+        </p>
+        <p xml:id="pl-l3d1prae-d1e120">
+          Tempus autem 
+          <lb ed="#Pd"/>plenitudinis dicitur tempus gratiae quod ab adventu 
+          <lb ed="#Pd"/>salvatoris exordium sumpsit hoc est <quote xml:id="pl-l3d1prae-Qd1e122">tempus miserendi</quote> 
+          <lb ed="#Pd"/>et <quote xml:id="pl-l3d1prae-Qd1e125">annus benignitatis</quote> in quo <quote xml:id="pl-l3d1prae-Qd1e128">gratia et veritas per ihesum christum facta 
+          <lb ed="#Pd"/>est</quote> <mentioned>Gratia</mentioned> quia per caritatem adimpletur quod in lege praecipiebatur 
+          <mentioned>veritas</mentioned> quia per christi adventum exhibetur atque perficitur humanae re<lb ed="#Pd"/>demptionis 
+          sponsio facta ab antiquo <quote xml:id="pl-l3d1prae-Qd1e138">filii ergo missio 
+          <lb ed="#Pd"/>est ipsa incarnatio</quote> <pc type="virgula">/</pc> eo enim missus est quod in forma hominis 
+          <lb ed="#Pd"/>mundo visibilis apparuit de quo supra sufficienter dictum est  
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

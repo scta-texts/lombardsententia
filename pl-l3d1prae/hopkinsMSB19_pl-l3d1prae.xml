@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber III, Distinctio 1, Praeambulum [hopkinsMSB19 Transcription]</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <editor>Jeffrey C. Witt</editor>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber III, Distinctio 1, Praeambulum [hopkinsMSB19 Transcription]</title>
+          <date when="2019-08-02">August 2, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>
+            <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="H" n="hopkinsMSB19">Baltimore, Hopkins, MS B19</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-07-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#H" n="97-r"/>
+        <cb ed="#H" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l3d1prae">
+        <head xml:id="pl-l3d1prae-Hd1e111">Liber III, Distinctio 1, Praeambulum [hopkinsMSB19 Transcription]</head>
+        <p xml:id="pl-l3d1prae-d1e114">
+          <lb ed="#H" n="21"/><quote xml:id="pl-l3d1prae-Qd1e116" ana="#gal4_4">Cum ve<lb ed="#H"/>nit 
+          <lb ed="#H"/>igitur 
+          <lb ed="#H"/>plenitudo tem<lb ed="#H"/>poris ut ait 
+          <lb ed="#H"/>apostolus <pc type="#punctus"/> misit deus
+          <lb ed="#H"/>filium suum 
+          <lb ed="#H"/>factum ex mu<lb ed="#H"/>liere 
+          factum sub lege <pc type="#punctus"/> ut eos qui sub lege erant redi<lb ed="#H"/>meret 
+          <pc type="#punctus"/> in adoptionem filiorum dei <pc type="#punctus"/></quote>
+        </p>
+        <p xml:id="pl-l3d1prae-d1e120">
+          Tempus autem plenitudinis 
+          <lb ed="#H"/>dicitur <pc type="#punctus"/> tempus gratiae <pc type="#punctus"/> quod ab adventu salvatoris <pc type="#punctus"/> exor<lb ed="#H"/>dium
+          sumpsit <pc type="#punctus"/> hoc est <quote xml:id="pl-l3d1prae-Qd1e122">tempus miserendi</quote> <pc type="#punctus"/> et <quote xml:id="pl-l3d1prae-Qd1e125">annus 
+          <lb ed="#H"/>benignitatis</quote> <pc type="#punctus"/> in quo <quote xml:id="pl-l3d1prae-Qd1e128">gratia et veritas <pc type="#punctus"/> per ihesum christum 
+          <lb ed="#H"/>facta est</quote> <pc type="#punctus"/> <mentioned>Gratia</mentioned> <pc type="#punctus"/> quia per caritatem impletur <pc type="#punctus"/> quod in lege 
+          <lb ed="#H"/>praecipiebatur <pc type="#punctus"/> <mentioned>veritas</mentioned> <pc type="#punctus"/> quia per christi adventum exhi<lb ed="#H"/>betur <pc type="#punctus"/> atque perficitur <pc type="#punctus"/> humanae redemptionis sponsio <pc type="#punctus"/> 
+          <lb ed="#H"/>facta ab antiquo <pc type="#punctus"/> <quote xml:id="pl-l3d1prae-Qd1e138"> filii ergo missio <pc type="#punctus"/> est ipsa incar<lb ed="#H"/>natio</quote>  
+          <pc type="#punctus"/> eo enim missus est <pc type="#punctus"/> quod in forma hominis 
+          <lb ed="#H"/>mundo visibilis apparuit <pc type="#punctus"/> de quo supra suf<lb ed="#H"/>ficienter 
+          dictum est <pc type="#punctus"/> 
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

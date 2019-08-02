@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 3, Prologus</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 3, Prologus</title>
+          <date when="2019-08-02">August 02, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>
+            <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1916b">Quaracchi 1916, Volume 2</witness>
+          <witness xml:id="L" n="leipzigflat167">Leipzig, Universitätsbibliothek, Fragm. lat. 167</witness>
+          <witness xml:id="H" n="hopkinsMSB19">Baltimore, Hopkins, MS B19</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-09-05" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l3prol">
+        <head xml:id="pl-l3prol-Hd1e109">Liber 3, Prologus</head>
+        <p xml:id="pl-l3prol-d1e112">
+          Iam nunc his intelligendis atque pertractandis, quae ad Verbi 
+          incarnati mysterium pertinent, integra mentis consideratione intendamus, 
+          ut de ineffabilibus vel modicum aliquid fari, Deo revelante, 
+          valeamus. Sic enim rationis ordo postulat, ut qui in primo libro 
+          de inexplicabili mysterio summae Trinitatis irrefragabili Sanctorum 
+          attestatione aliquid diximus, ac deinde in secundo libro conditionis 
+          rerum ordinem hominisque lapsum sub certis auctoritatis regulis 
+          insinuavimus, de eius reparatione, per gratiam Mediatoris Dei et 
+          hominum praestita, atque humanae redemptionis Sacramentis, quibus 
+          contritiones hominis alligantur, ac vulnera peccatorum curantur, consequenter 
+          in tertio et in quarto libro disseramus, ut Samaritanus 
+          ad vulneratum, medicus ad infirmum, gratia ad miserum accedat. 
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
