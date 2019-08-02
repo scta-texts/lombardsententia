@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 1, Distinctio 1, Capitulus 1 [Hopkins MSB19 Transcription]</title>
+        <author>Petrus Lombardus</author>
+        <editor>Brady</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 1, Distinctio 1, Capitulus 1  [Hopkins MSB19 Transcription]</title>
+          <date when="2019-08-01">August 1, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>
+            <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="H" n="hopkinsMSB19">Baltimore, Hopkins, MS B19</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-08-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#H" n="4-v"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d1c1">
+        <head xml:id="pl-l1d1c1-Hd1e3524">Liber 1, Distinctio 1, Capitulus 1 [Hopkins MSB19 Transcription]</head>
+        <p xml:id="pll1d1c1-vanspv">
+          <lb ed="#H" n="1"/>Veteris 
+          <lb ed="#H"/>ac novae 
+          <lb ed="#H"/>legis 
+          <lb ed="#H"/>continentiam diligenti in<lb ed="#H"/>dagine 
+          etiam 
+          <lb ed="#H"/>atque etiam con<lb ed="#H"/>siderantibus 
+          nobis praevia dei 
+          <lb ed="#H"/>gratia innotuit 
+          <lb ed="#H"/>sacrae paginae 
+          <lb ed="#H"/>tractatum 
+          circa res vel 
+          <lb ed="#H"/>signa praecipue versari
+        </p>
+        <p xml:id="pll1d1c1-ueeeis">
+          ut enim <ref xml:id="pl-l1d1c1-Rd1e3532"><name ref="#Augustine">egre<pb ed="#Pd" n="6-r"/>gius doctor 
+          <lb ed="#H"/>augustinus</name> ait in libro <title ref="#deDoctrinaChristiana">de doctrina christiana</title></ref> <pc type="#punctus"/> <quote xml:id="pl-l1d1c1-Qd1e3544" ana="#Augustine_DeDoctrinaChristiana_1_2_2_a">Omnis 
+          doctri<lb ed="#H"/>na 
+          vel rerum est vel signorum <unclear>sed</unclear> res etiam per sig<lb ed="#H"/>na 
+          discuntur proprie autem hic res appellantur quae non ad sig<lb ed="#H"/>nificandum 
+          aliquid adibentur <pc type="#punctus"/> Signa uero quorum 
+          <lb ed="#H"/>usus est in significando</quote> <pc type="#punctus"/>
+        </p>
+        <p xml:id="pll1d1c1-eaases">
+          Eorum autem aliqua sunt 
+          <lb ed="#H"/>quorum omnis usus est in significando non in 
+          <lb ed="#H"/>iustificando id est quibus non utimur nisi aliquid signi<lb ed="#H"/>ficandi
+          gratia <pc type="#punctus"/> ut aliqua sacramenta legalia <pc type="#punctus"/> aliaqua 
+          <lb ed="#H"/>quae non solum significant sed conferunt quod intus ad iu<lb ed="#H"/>vet 
+          sicut <pc type="#punctus"/> euangelica sacramenta
+        </p>
+        <p xml:id="pll1d1c1-eqadta">
+          <quote xml:id="pl-l1d1c1-Qd1e3559" ana="#Augustine_DeDoctrinaChristiana_1_2_2_b">Ex quo aperte in<lb ed="#H"/>telligitur 
+          quae hic appellentur signa res illae 
+          <lb ed="#H"/>videlicet quae ad significandum aliquid adibentur <pc type="#punctus"/> 
+          Omne igitur signum etiam res est aliqua quod 
+          <lb ed="#H"/>enim nulla res est ut in eodem <name ref="#Augustine">augustinus</name> ait omnino nichil est 
+          <lb ed="#H"/>non autem econverso <pc type="#punctus"/> omnis res signum est</quote> quia non adhi<lb ed="#H"/>betur 
+          ad significandum aliquid <pc type="#punctus"/> Cumque his inten<lb ed="#H"/>derit 
+          theologorum speculatio studiosa atque 
+          <lb ed="#H"/>modesta divinam scripturam formam prae<lb ed="#H"/>scriptam 
+          in doctrina tenere advertet <pc type="#punctus"/>
+        </p>
+        <p xml:id="pll1d1c1-dhedsd">
+          De his ergo 
+          <lb ed="#H"/>nobis additum <pc type="#punctus"/> ad res divinas aliquatenus intel<lb ed="#H"/>ligendas 
+          deo duce aperire<!-- possible correction here --> volentibus disserendum 
+          <lb ed="#H"/>est et primum de rebus postea de signis disseremus <pc type="#punctus"/>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
