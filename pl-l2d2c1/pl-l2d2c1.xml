@@ -5,7 +5,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Liber 2, Distinctio 2, Capitulus 1</title>
+        <title>Liber 2, Distinctio 2, Capitulum 1</title>
         <author>Petrus Lombardus</author>
         <editor/>
         <respStmt>
@@ -15,17 +15,16 @@
       </titleStmt>
       <editionStmt>
         <edition n="0.0.1-dev">
-          <title>Liber 2, Distinctio 2, Capitulus 1</title>
+          <title>Liber 2, Distinctio 2, Capitulum 1</title>
           <date when="2016-03-22">March 22, 2016</date>
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher/>
-        <pubPlace/>
-        <availability status="free">
-          <p>Public Domain</p>
+        <authority>SCTA</authority>
+        <availability  status="free">
+          <p>Published  under  a  <ref  target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike  4.0  International  (CC  BY-NC-SA  4.0)</ref></p>
         </availability>
-        <date when="2016-03-22">March 22, 2016</date>  
+        <date when="2016-03-24">March 24, 2016</date>
       </publicationStmt>
       <sourceDesc>
         <listWit>
@@ -59,41 +58,46 @@
     </front>
     <body>
       <div xml:id="pl-l2d2c1">
-        <head xml:id="pll2d2c1-Hd1e3508">Liber 2, Distinctio 2, Capitulus 1</head>
+        <head xml:id="pll2d2c1-Hd1e3508">Capitulum 1</head>
         <head xml:id="pll2d2c1-Hd1e3511" type="questionTitle">De Angelis, quando facti sunt</head>
         <!-- there is a small prologue to d. 2 that needs its own file -->
         <p xml:id="pll2d2c1-d1e3516">Quaedam auctoritates innuere videntur, quod ante omnem 
           creaturam creati sint Angeli.</p>
         <p xml:id="pll2d2c1-d1e3519">Unde illud: 
           <cit>
-            <quote xml:id="pll2d2c1-Qd1e3523">Primo omnium creata est sapientia,</quote>
-            <bibl/>
-          </cit>
-          quod inteligitur 
+            <quote xml:id="pll2d2c1-Qd1e3523" source="http://scta.info/resource/sir1_4">
+              Primo omnium creata est sapientia</quote>
+            <bibl>Sir 1:4</bibl>
+          </cit>,
+          quod intelligitur 
           de angelica natura, quae in Scriptura saepe vita, sapientia 
           et lux dicitur. Nam sapientia illa, quae Deus est, creata non est: 
           Filius enim sapientia Patris est genita, non facta nec creata; et 
           tota Trinitas una sapientia est, quae nec facta nec creata est, nec 
           genita, vel procedens. De angelica ergo vita illud accipiendum est, 
-          de qua dicit Scriptura, quando facta, est, scilicet <mentioned>primo omnium</mentioned>.</p>
-        <p xml:id="pll2d2c1-d1e3534">Sed rurusus alia Scriptura dicit: 
+          de qua dicit Scriptura, quando facta, est, scilicet <mentioned>primo omnium</mentioned>.
+        </p>
+        <p xml:id="pll2d2c1-d1e3534">
+          Sed rurusus alia Scriptura dicit: 
           <cit>
-            <quote xml:id="pll2d2c1-Qd1e3538">In principio creavit Deus 
-              caelum et terram.</quote>
+            <quote xml:id="pll2d2c1-Qd1e3538" source="http://scta.info/resource/gen1_1">
+              In principio creavit Deus caelum et terram.</quote>
             <bibl>2</bibl>
           </cit>
           Et in Propheta: 
           <cit>
-            <quote xml:id="pll2d2c1-Qd1e3547">Initia tu, Domine, terram 
-              fundasti, et opera manuum tuarum sunt caeli.</quote>
+            <quote xml:id="pll2d2c1-Qd1e3547" source="http://scta.info/resource/ps101_26">
+              Initia tu, Domine, terram fundasti, et opera manuum tuarum sunt caeli</quote>
             <bibl>3</bibl>
-          </cit>
+          </cit>.
         </p>
-        <p xml:id="pll2d2c1-d1e3555">Et videtur quaedam contrarietas oriri ex assertionibus istis. 
+        <p xml:id="pll2d2c1-d1e3555">
+          Et videtur quaedam contrarietas oriri ex assertionibus istis. 
           Nam in 
           <cit>
-            <quote xml:id="pll2d2c1-Qd1e3559">prim omnium creata est sapientia,</quote>
-            <bibl>xxx</bibl>
+            <quote xml:id="pll2d2c1-Qd1e3559" source="http://scta.info/resource/sir1_4">
+              primo omnium creata est sapientia,</quote>
+            <bibl>Sir 1:4</bibl>
           </cit>
           omnia post ipsam 
           facta videntur, et ita post ipsam facta videntur caelum et terra, 
@@ -101,29 +105,43 @@
           Deus caelum et terram, nihil factum est ante caelum et terram; 
           nec ipsa sapientia facta est ante caelum et terram. Cum igitur 
           haec contraria videantur, nec in divina Scriptura fas sit sentire 
-          aliquid esse contrarietatis, requiramus intelligentiam veritatis.</p>
-        <p xml:id="pll2d2c1-d1e3567">Videtur itaque hoc esse tenendum, quod simul creata est 
+          aliquid esse contrarietatis, requiramus intelligentiam veritatis.
+        </p>
+        <p xml:id="pll2d2c1-d1e3567">
+          Videtur itaque hoc esse tenendum, quod simul creata est 
           spiritualis creatura, id est angelica, et corporalis, secundum quod 
-          potest accipi illud <name ref="#Solomon">Salomonis</name>: 
+          potest accipi illud 
+          <name ref="#Solomon">Salomonis</name>: 
           <cit>
-            <quote xml:id="pll2d2c1-Qd1e3574">Qui vivit in aeternum creavit 
-              omnia simul,</quote>
-            <bibl>xxx</bibl>
+            <quote xml:id="pll2d2c1-Qd1e3574" source="http://scta.info/resource/sir18_1">
+              Qui vivit in aeternum creavit omnia simul
+            </quote>
+            <bibl>Sir 18:1</bibl>
           </cit>
           id est spiritualem et corporalem naturam; et ita 
           non prius tempore creati sunt Angeli quam illa corporalis materia <!-- 314 --> 
-          quatuor elementorum. Et tamen 
+          quatuor elementorum. 
+          Et tamen 
           <cit>
-            <quote xml:id="pll2d2c1-Qd1e3585">primo omnium creata est 
-              sapientia,</quote>
-            <bibl>xxx</bibl>
+            <quote xml:id="pll2d2c1-Qd1e3585" source="http://scta.info/resource/sir1_4">
+              primo omnium creata est sapientia,</quote>
+            <bibl>Sir 1:4</bibl>
           </cit>
           quia etsi non tempore, praecedit tamen dignitate. Quod 
           autem simul creata fuerit spiritualis corporalisque creatura, 
-          <ref><name ref="#Augustine">Augustinus</name> <title>Super Genesim</title></ref> aperte ostendit dicens, per caelum et 
+          <cit>
+            <ref>
+              <name ref="#Augustine">Augustinus</name> 
+              <title>Super Genesim</title>
+            </ref>
+            <bibl>XXX</bibl>
+          </cit> 
+          aperte ostendit dicens, per caelum et 
           terram spiritualem corporalemque creaturam intelligi: et haec 
-          creata <mentioned>in principio</mentioned>, scilicet temporis, vel <mentioned>in principio</mentioned>, quia primo 
-          facta sunt.</p>
+          creata <mentioned>in principio</mentioned>, scilicet temporis, 
+          vel <mentioned>in principio</mentioned>, quia primo 
+          facta sunt.
+        </p>
       </div>
     </body>
   </text>
