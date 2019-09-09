@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -46,8 +43,8 @@
   <text xml:lang="la">
     <front>
       <div xml:id="includeList">
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
       </div>
     </front>
     <body>
@@ -55,7 +52,7 @@
         <head xml:id="pll1d25c2-Hd1e3496">Liber 1, Distinctio 25, Capitulus 2</head>
         <!-- De triplici acceptione huius nominis persona in Trinitate -->
         <p xml:id="pll1d25c2-d1e3501">Sciendum est igitur, quod hoc nomen persona multiplicem 
-          non unam tantum intelligentiam facit. Et ut <ref><name ref="#HilaryOfPoitiers">Hilarius</name> ait in 
+          non unam tantum intelligentiam facit. Et ut <ref xml:id="pl-l1d25c2-Rd1e109"><name ref="#HilaryOfPoitiers">Hilarius</name> ait in 
             libro <title ref="#deTrinitate">De Trinitate</title>:</ref> 
           <cit>
             <quote xml:id="pll1d25c2-Qd1e3513" source="http://scta.info/resource/adt-l1">
@@ -114,7 +111,7 @@
           </cit>
           Verumtamen, cum quaeritur, quid tres, vel quid tria, non 
           de essentia quaeritur, nec ibi quid ad essentiam refertur; sed cum 
-          fides catholica tres ese profiteretur, sicut <ref><name ref="#John">Ioannes</name> in <title ref="#Iio">Epistola 
+          fides catholica tres ese profiteretur, sicut <ref xml:id="pl-l1d25c2-Rd1e165"><name ref="#John">Ioannes</name> in <title ref="#Iio">Epistola 
             canonica</title></ref> ait: 
           <cit>
             <quote xml:id="pll1d25c2-Qd1e3568">Tres sunt, qui testimonium perhibent in caelo,</quote>
@@ -130,15 +127,21 @@
           tres res dicimus, ut eandem esse unam quandam summam rem 
           confiteamur.</p>
         <p xml:id="pll1d25c2-d1e3581">Unde 
-          <ref><name ref="#Augustine">Augustinus</name> in I libro <title ref="#deDoctrinaChristiana">De doctrina christiana</title></ref> 
+          <ref xml:id="pl-l1d25c2-Rd1e189" corresp="#pll1d25c2-Qd1e3592">
+            <name ref="#Augustine">Augustinus</name> 
+            in I libro 
+            <title ref="#deDoctrinaChristiana">De doctrina christiana</title>
+          </ref> 
           sic 
           ait: 
           <cit>
-            <quote xml:id="pll1d25c2-Qd1e3592">Res quibus fruendum est, nos beatos faciunt.</quote>
+            <quote xml:id="pll1d25c2-Qd1e3592" source="http://scta.info/resource/addc-l1-d1e132">
+              Res quibus fruendum est, nos beatos faciunt
+            </quote>
             <bibl>Augustinus, De doctrina christiana, I, c. 3, n. 3 (PL 34:20)</bibl>
-          </cit>
+          </cit>.
           <cit>
-            <quote xml:id="pll1d25c2-Qd1e3601">Res igitur, 
+            <quote xml:id="pll1d25c2-Qd1e3601" source="http://scta.info/resource/addc-l1-d1e155">Res igitur, 
               quibus fruendum est, sunt Pater et Filius et Spiritus sanctus. 
               Eademque Trinitas una quaedam summa res est communisque 
               fruentibus ea, si tamen res, et non rerum omnium causa sit, si 
@@ -148,9 +151,12 @@
             <bibl>Augustinus, De doctrina christiana, I, c. 5, n. 5 (PL 34:21)</bibl>
           </cit>
           Sicut ergo tres res dicuntur, et hae sunt una res, 
-          ita tres subsistentiae dicuntur, et hae sunt una substantia.</p>
-        <p xml:id="pll1d25c2-d1e3609">Ecce ostensum est, quae sit intelligentia huius nominis persona, 
-          cum dicimus: tres personas.</p>
+          ita tres subsistentiae dicuntur, et hae sunt una substantia.
+        </p>
+        <p xml:id="pll1d25c2-d1e3609">
+          Ecce ostensum est, quae sit intelligentia huius nominis persona, 
+          cum dicimus: tres personas.
+        </p>
       </div>
     </body>
   </text>

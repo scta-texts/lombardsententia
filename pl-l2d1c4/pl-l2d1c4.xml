@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -50,8 +47,8 @@
   <text xml:lang="la">
     <front>
       <div xml:id="includeList">
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
       </div>
       <div xml:id="starts-on">
         
@@ -78,13 +75,24 @@
           </cit>
         </p>
         <p xml:id="pll2d1c4-d1e3526">
+          Ideoque, si quaeritur, quare creatus sit homo vel Angelus, 
+          brevi sermone responderi potest: propter bonitatem eius. 
+          Unde 
+          <ref xml:id="pl-l2d1c4-Rd1e134" corresp="#pll2d1c4-Qd1e3530">
+            <name ref="#Augustine">Augustinus</name> in libro 
+            <title ref="#deDoctrinaChristiana">De doctrina christiana</title>
+          </ref>:
           <cit>
-            <quote xml:id="pll2d1c4-Qd1e3530">Ideoque, si quaeritur, quare creatus sit homo vel Angelus, 
-              brevi sermone responderi potest: propter bonitatem eius. 
-              Unde <ref><name ref="#Augustine">Augustinus</name> in libro <title ref="#deDoctrinaChristiana">De doctrina christiana</title>:</ref> Quia bonus 
-              est Deus, sumus; et in quantum sumus, boni sumus.</quote>
-            <bibl>xxx</bibl>
-          </cit>
+            <quote xml:id="pll2d1c4-Qd1e3530" source="http://scta.info/resource/addc-l1-d1e487">
+              Quia bonus est Deus, sumus; 
+              et in quantum sumus, boni sumus
+            </quote>
+            <bibl>
+              <name>Augustinus</name>, 
+              <title>De Doctrina Christiana</title>
+              I, 32, 35
+            </bibl>
+          </cit>.
         </p>
         <p xml:id="pll2d1c4-d1e3546">
           <cit>

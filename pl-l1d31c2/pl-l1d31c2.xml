@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -46,8 +43,8 @@
   <text xml:lang="la">
     <front>
       <div xml:id="includeList">
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
       </div>
     </front>
     <body>
@@ -59,7 +56,7 @@
           speciem in Imagine, usum in Munere. Quae tantae difficultatis sunt 
           verba, ut in eorum intelligentia atque explanatione vehementer 
           laboraverit 
-          <ref><name ref="#Augustine">Augustinus</name>, ut ipse ostendit in VI libro <title ref="#deTrinitate">De Trinitate</title></ref> 
+          <ref xml:id="pl-l1d31c2-Rd1e112"><name ref="#Augustine">Augustinus</name>, ut ipse ostendit in VI libro <title ref="#deTrinitate">De Trinitate</title></ref> 
           ita dicens: 
           <cit>
             <quote xml:id="pll1d31c2-Qd1e3515" source="http://scta.info/resource/adt-l6">Quidam, cum vellet brevissime singularum in 
@@ -141,7 +138,7 @@
         <!-- next paragraph is in smaller font size 
         note indicates that almost all codices have this paragraph (which appears to be a possible marginal note but not in this place.
         -->
-        <p xml:id="pll1d31c2-d1e3588"><ref><name ref="#HilaryOfPoitiers">Hilarius</name> in libro <title>De Synodis</title>:</ref> 
+        <p xml:id="pll1d31c2-d1e3588"><ref xml:id="pl-l1d31c2-Rd1e195"><name ref="#HilaryOfPoitiers">Hilarius</name> in libro <title>De Synodis</title>:</ref> 
           <cit>
             <quote xml:id="pll1d31c2-Qd1e3599">Imago eius, ad quem imaginatur 
               species indifferens est. Neque enim sibi ipse quisquam imago est; sed eum cuius 
@@ -162,9 +159,13 @@
           non ipsam paternitatem, sed eam voluit intelligi notionem, qua dicitur 
           ingenitus.</p>
         <!-- next paragraph is again in smaller font possibly indicating a marginal note ?? -->
-        <p xml:id="pll1d31c2-d1e3619"><ref><name ref="#HilaryOfPoitiers">Hilarius</name> in libro <title>De Synodis</title>:</ref> 
+        <p xml:id="pll1d31c2-d1e3619">
+          <ref xml:id="pl-l1d31c2-Rd1e226">
+            <name ref="#HilaryOfPoitiers">Hilarius</name> in libro <title>De Synodis</title>
+          </ref>: 
           <cit>
-            <quote xml:id="pll1d31c2-Qd1e3630">Si quis innascibilem et sine initio dicat 
+            <quote xml:id="pll1d31c2-Qd1e3630">
+              Si quis innascibilem et sine initio dicat 
               Filium, quasi duo sine principio et duo innascibilia et duo innata dicens, duos 
               faciat deos: anathema sit. Caput enim, quod est principium omnium Filius;
               <!-- p. 195 -->
@@ -176,11 +177,12 @@
               Dei Deus sit -- quia innascibilitas sola penes unum sit. Filius autem idcirco Deus, 
               quia ex innascibili essentia natus existat. Caput enim omnium Filius est, sed 
               caput Filii Deus est, et ad unum Deum omnia hoc gradu et hac confessione referuntur, 
-              cum ab eo sumant universa principum, cum ipse principum sit.</quote>
+              cum ab eo sumant universa principum, cum ipse principum sit
+            </quote>
             <bibl>Propositio 26, n. 59 et 60 (PL 10:521)</bibl>
-          </cit>
+          </cit>.
         </p>
-        <p xml:id="pll1d31c2-d1e3640">Idem <ref>in eodem:</ref>
+        <p xml:id="pll1d31c2-d1e3640">Idem <ref xml:id="pl-l1d31c2-Rd1e248">in eodem:</ref>
           <cit>
             <quote xml:id="pll1d31c2-Qd1e3647">Omnibus creaturis substantiam voluntas Die attulit, sed 
               naturam dedit Filio ex impassibili ac non nata substantia perfecta nativitas. 
@@ -192,10 +194,15 @@
           </cit>
         </p>
         <p xml:id="pll1d31c2-d1e3655">Illud etiam sciri oportet, quod earundem trium personarum 
-          distinctionem Augustinus ostendere volens sine expressione illarum trium proprietatum superius commemoratarum, in I libro 
-          <title ref="#deDoctrinaChristiana">De doctrina christiana</title> si ait: 
+          distinctionem Augustinus ostendere volens sine expressione illarum trium proprietatum superius commemoratarum, in 
+          <ref xml:id="pl-l1d31c2-Rd1e263" corresp="#pll1d31c2-Qd1e3662">
+            I libro 
+            <title ref="#deDoctrinaChristiana">De doctrina christiana</title>
+          </ref> 
+          si ait: 
           <cit>
-            <quote xml:id="pll1d31c2-Qd1e3662">In Patre est unitas, in Filio 
+            <quote xml:id="pll1d31c2-Qd1e3662" source="http://scta.info/resource/addc-l1-d1e155">
+              In Patre est unitas, in Filio 
               aequalitas, in Spiritu sancto unitatis aequalitatisque concordia: et 
               tria haec unum omnia propter Patrem, aequalia omnia propter Filium, 
               connexa omnia propter Spiritum sanctum. Itaque Pater et 
@@ -206,9 +213,10 @@
               Spiritus sanctus nec Pater est nec Filius, sed Pater tantum pater, 
               et Filius tantum filius, et Spiritus sanctus tantum spiritus sanctus. 
               Eadem tribus aeternitas, eadem incommutabilitas, eadem maiestas, 
-              eadem potestas.</quote>
+              eadem potestas
+            </quote>
             <bibl>Augustinus, De doctrina christiana, I, c. 5, n. 5 (PL 34:21)</bibl>
-          </cit>
+          </cit>.
           In his verbis aperte insinuatur personarum 
           trium distinctio.</p>
       </div>

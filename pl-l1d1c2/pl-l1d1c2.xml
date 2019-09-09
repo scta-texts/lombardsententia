@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -63,71 +60,117 @@
       <div xml:id="pl-l1d1c2">
         <head xml:id="pl-l1d1c2-Hd1e126">Liber 1, Distinctio 1, Capitulus 2</head>
         <p xml:id="pll1d1c2-ieieas">
+          Id ergo in rebus considerandum est,
+          ut 
+          <ref xml:id="pl-l1d1c2-Rd1e128" corresp="#pl-l1d1c2-Qd1e133">
+            in eodem
+            <name ref="#Augustine">Augustinus</name>
+          </ref>
+          ait,
           <cit>
-            <quote xml:id="pl-l1d1c2-Qd1e133" source="http://scta.info/resource/Augustine_DeDoctrinaChristiana_1_2_2_c"><seg type="qs">Id ergo in rebus considerandum est,</seg> ut in eodem <name ref="#Augustine">Augustinus</name> 
-              ait, <seg type="qs">quod res aliae sunt, quibus fruendum est, aliae, quibus 
+            <quote xml:id="pl-l1d1c2-Qd1e133" source="http://scta.info/resource/addc-l1-d1e132">
+              quod res aliae sunt, quibus fruendum est, aliae, quibus 
               utendum est, aliae, quae fruuntur et utuntur. Illae, quibus 
               fruendum est, nos beatos faciunt; istis, quibus utendum est, tendentes 
               ad beatitudinem adiuvamur et quasi adminiculamur, ut ad 
               illas res, quae nos beatos faciunt, pervenire eisque inhaerere possimus. 
               Res vero, quae fruuntur et utuntur, nos sumus, quasi inter 
-              utrasque constituti,</seg>
+              utrasque constituti
             </quote>
-            <bibl>Augustine, <title>De doctrina christiana</title>, I, 2, 2 et I, 3, 3 (PL 34, 19)</bibl>
-          </cit>
+            <bibl>
+              Augustine, 
+              <title>De doctrina christiana</title>, 
+              I, 2, 2 et I, 3, 3 (PL 34, 19)
+            </bibl>
+          </cit>,
           et Angeli sancti.
         </p>
         <p xml:id="pll1d1c2-faeand">
           <cit>
-            <quote xml:id="pl-l1d1c2-Qd1e156" source="http://scta.info/resource/Augustine_DeDoctrinaChristiana_1_4_4_a">Frui autem 
+            <quote xml:id="pl-l1d1c2-Qd1e156" source="http://scta.info/resource/addc-l1-d1e143">Frui autem 
               <cb ed="#H" n="b"/> 
               est amore inhaerere alicui rei propter se ipsam; 
-            uti vero id quod in usum venerit referre ad obtinendum illud, quo 
-            fruendum est; alias abuti est, non uti. Nam usus illicitus abusus 
-            vel abusio nominari debet.</quote>
-            <bibl>Augustinus, <title>De doctrina christiana</title>, I, 4, 4 (PL 34:20).</bibl>
-          </cit>
+              uti vero id quod in usum venerit referre ad obtinendum illud, quo 
+              fruendum est; alias abuti est, non uti. Nam usus illicitus abusus 
+              vel abusio nominari debet
+            </quote>
+            <bibl>
+              Augustinus, 
+              <title>De doctrina christiana</title>, I, 4, 4 (PL 34:20).
+            </bibl>
+          </cit>.
         </p>
         <p xml:id="pll1d1c2-riqhud">
           <cit>
-            <quote xml:id="pl-l1d1c2-Qd1e173" source="http://scta.info/resource/Augustine_DeDoctrinaChristiana_1_5_5_a">Res igitur, quibus fruendum est, sunt Pater et Filius et 
-            Spiritus Sanctus. <pb ed="#Pd" n="6-v"/> Eadem tamen Trinitas quaedam summa res est 
-            communisque omnibus fruentibus ea, si tamen res dici debet et 
-            non rerum omnium causa, si tamen et causa. Non enim facile potest 
-            inveniri nomen, quod tantae excellentiae conveniat, nisi quod melius 
-            dicitur Trinitas haec unus Deus.</quote>
-            <bibl>Augustinus, <title>De Doctrina Christiana</title>, I, 5, 5 (PL 34, 20)</bibl>
-          </cit>
-        </p>
-        <p xml:id="pll1d1c2-raqiec">Res autem, quibus utendum est, mundus est et in eo creata</p>
-        <p xml:id="pll1d1c2-uaitac">Unde <name ref="Augustine">Augustinus</name> in eodem: 
-          <cit>
-            <quote xml:id="pl-l1d1c2-Qd1e197" source="http://scta.info/resource/Augustine_DeDoctrinaChristiana_1_4_4_b">Utendum est hoc mundo, 
-            non fruendum, ut 
-              <cit>
-                <quote xml:id="pl-l1d1c2-Qd1e201" source="http://scta.info/resource/rom1_20">invisibilia Dei per ea quae facta sunt, intellecta 
-                conspiciantur,</quote>
-                <bibl>Ad Romanos 1:20</bibl>
-              </cit>
-            id est, ut de temporalibus aeterna capiantur.
+            <quote xml:id="pl-l1d1c2-Qd1e173" source="http://scta.info/resource/addc-l1-d1e155">
+              Res igitur, quibus fruendum est, sunt Pater et Filius et 
+              Spiritus Sanctus. <pb ed="#Pd" n="6-v"/> Eadem tamen Trinitas quaedam summa res est 
+              communisque omnibus fruentibus ea, si tamen res dici debet et 
+              non rerum omnium causa, si tamen et causa. Non enim facile potest 
+              inveniri nomen, quod tantae excellentiae conveniat, nisi quod melius 
+              dicitur Trinitas haec unus Deus
             </quote>
-            <bibl>Augustine, <title>De doctrina christiana</title>, I, 4, 4 (PL 34:20)</bibl>
-          </cit>
+            <bibl>Augustinus, <title>De Doctrina Christiana</title>, I, 5, 5 (PL 34, 20)</bibl>
+          </cit>.
         </p>
-        <p xml:id="pll1d1c2-iieipp">Item in eodem: 
+        <p xml:id="pll1d1c2-raqiec">
+          Res autem, quibus utendum est, mundus est et in eo creata.
+        </p>
+        <p xml:id="pll1d1c2-uaitac">
+          Unde 
+          <ref xml:id="pl-l1d1c2-Rd1e187" corresp="#pl-l1d1c2-Qd1e197">
+            <name ref="Augustine">Augustinus</name> in eodem
+          </ref>: 
           <cit>
-            <quote xml:id="pl-l1d1c2-Qd1e221" source="http://scta.info/resource/Augustine_DeDoctrinaChristiana_1_22_20_a">In omnibus rebus illae tantum sunt, quibus 
-            fruendum est, quae aeternae et incommutabiles sunt; ceteris 
-            autem utendum est, ut ad illarum perfruitionem perveniatur.</quote>
-            <bibl>Augustine, <title>De doctrina christiana</title>, I, 22, 20 (PL 34, XXX)</bibl>
-          </cit></p>
-        <p xml:id="pll1d1c2-uaiqfe">Unde <ref xml:id="pl-l1d1c2-Rd1e233"><name ref="#Augustine">Augustinus</name> in libro X <title ref="#deTrinitate">De Trinitate</title>:</ref> 
+            <quote xml:id="pl-l1d1c2-Qd1e197" source="http://scta.info/resource/addc-l1-d1e143">
+              Utendum est hoc mundo, 
+              non fruendum, ut 
+              <cit>
+                <quote xml:id="pl-l1d1c2-Qd1e201" source="http://scta.info/resource/rom1_20">
+                  invisibilia Dei per ea quae facta sunt, 
+                  intellecta conspiciantur
+                </quote>
+                <bibl>Ad Romanos 1:20</bibl>
+              </cit>,
+              id est, 
+              ut de temporalibus aeterna capiantur
+            </quote>
+            <bibl>
+              Augustine, 
+              <title>De doctrina christiana</title>, 
+              I, 4, 4 (PL 34:20)
+            </bibl>
+          </cit>.
+        </p>
+        <p xml:id="pll1d1c2-iieipp">
+          Item in eodem: 
           <cit>
-            <quote xml:id="pl-l1d1c2-Qd1e243" source="http://scta.info/resource/adt-l10-d1e1166">Fruimur 
-            cognitis, in quibus ipsis propter se voluntas delectata conquiescit; 
-            utimur vero eis quae ad aliud referimus, quo fruendum est.</quote>
+            <quote xml:id="pl-l1d1c2-Qd1e221" source="http://scta.info/resource/addc-l1-d1e349">
+              In omnibus rebus illae tantum sunt, quibus 
+              fruendum est, quae aeternae et incommutabiles sunt; ceteris 
+              autem utendum est, ut ad illarum perfruitionem perveniatur
+            </quote>
+            <bibl>
+              Augustine, 
+              <title>De doctrina christiana</title>, 
+              I, 22, 20 (PL 34, XXX)</bibl>
+          </cit>.
+        </p>
+        <p xml:id="pll1d1c2-uaiqfe">
+          Unde 
+          <ref xml:id="pl-l1d1c2-Rd1e233" corresp="#pl-l1d1c2-Qd1e243">
+            <name ref="#Augustine">Augustinus</name> 
+            in libro X 
+            <title ref="#deTrinitate">De Trinitate</title>
+          </ref>: 
+          <cit>
+            <quote xml:id="pl-l1d1c2-Qd1e243" source="http://scta.info/resource/adt-l10-d1e1166">
+              Fruimur 
+              cognitis, in quibus ipsis propter se voluntas delectata conquiescit; 
+              utimur vero eis quae ad aliud referimus, quo fruendum est
+            </quote>
             <bibl>Augustine, <title>De Trinitate</title>, X, 10, 13 (PL 42:981)</bibl>
-          </cit>
+          </cit>.
         </p>
       </div>
     </body>
