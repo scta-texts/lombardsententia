@@ -1,13 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Liber 1, Distinctio 17, Capitulus 6</title>
         <author>Petrus Lombardus</author>
-        <editor></editor>
+        <editor/>
       </titleStmt>
       <editionStmt>
         <edition n="2015.11-dev-master">
@@ -16,8 +13,8 @@
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher></publisher>
-        <pubPlace></pubPlace>
+        <publisher/>
+        <pubPlace/>
         <availability status="free">
           <p>Public Domain</p>
         </availability>
@@ -46,8 +43,8 @@
   <text xml:lang="la">
     <front>
       <div xml:id="includeList">
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
       </div>
     </front>
     <body>
@@ -64,7 +61,7 @@
           eadem ergo caritas est, qua Deus diligit nos, et qua nos diligimus 
           eum.</p>
         <p xml:id="pll1d17c6-d1e3480">Hoc autem Sanctorum auctoritates negare videntur. Dicit enim 
-          <ref><name ref="#Augustine">Augustinus</name> in libro <title>De spiritu et littera</title>.</ref> 
+          <ref xml:id="pl-l1d17c6-Rd1e112"><name ref="#Augustine">Augustinus</name> in libro <title>De spiritu et littera</title>.</ref> 
           <cit>
             <quote xml:id="pll1d17c6-Qd1e3492">Unde est dilectio, 
               nisi unde et ipsa fides, id est a Spiritu sancto? Non enim 
@@ -86,7 +83,7 @@
           ipse sit ea iustus, sed quia ea nos iustos facit, similiter et fides 
           et salus; sic videtur dicta caritas Dei, quae est in nobis, non quod 
           ipse ea diligat, sed quia ea nos diligere facit.</p>
-        <p xml:id="pll1d17c6-d1e3511">De hoc etiam idem <ref><name ref="#Augustine">Augustinus</name> in libro XV <title ref="#deTrinitate">De Trinitate</title></ref> 
+        <p xml:id="pll1d17c6-d1e3511">De hoc etiam idem <ref xml:id="pl-l1d17c6-Rd1e143"><name ref="#Augustine">Augustinus</name> in libro XV <title ref="#deTrinitate">De Trinitate</title></ref> 
           ait: 
           <cit>
             <quote xml:id="pll1d17c6-Qd1e3522" source="http://scta.info/resource/adt-l15">Cum <name ref="#John">Ioannes</name> commemorasset Dei dilectionem, non qua 
@@ -150,15 +147,19 @@
           animi vel motus mentis, quia Spiritus sanctus immutabilis est et 
           increatus; non est ergo caritas.</p>
         <p xml:id="pll1d17c6-d1e3578">Quod autem caritas sit affectio animi et motus mentis, auctoritatibus 
-          confirmant. Dicit enim <ref><name ref="#Augustine">Augustinus</name> in III libro <title ref="#deDoctrinaChristiana">De 
-            doctrina christiana</title>:</ref> 
+          confirmant. Dicit enim 
+          <ref xml:id="pl-l1d17c6-Rd1e210" corresp="#pll1d17c6-Qd1e3590">
+            <name ref="#Augustine">Augustinus</name> in III libro 
+            <title ref="#deDoctrinaChristiana">De doctrina christiana</title>
+          </ref>: 
           <cit>
-            <quote xml:id="pll1d17c6-Qd1e3590"> <!-- and rom8_39 -->Caritatem voco motum animi ad fruendum 
-              Deo propter ipsum et se ac proximo propter Deum.</quote>
+            <quote xml:id="pll1d17c6-Qd1e3590" source="http://scta.info/resource/addc-l3-d1e245"> <!-- and rom8_39 -->Caritatem voco motum animi ad fruendum 
+              Deo propter ipsum et se ac proximo propter Deum
+            </quote>
             <bibl>Augustinus, De Doctrina Christiana, III, c. 10, n. 16 (PL 34:72)</bibl>
-          </cit>
+          </cit>.
         </p>
-        <p xml:id="pll1d17c6-d1e3600">Idem <ref>in libro <title>De moribus Ecclesiae catholicae</title>,</ref> tractans 
+        <p xml:id="pll1d17c6-d1e3600">Idem <ref xml:id="pl-l1d17c6-Rd1e233">in libro <title>De moribus Ecclesiae catholicae</title>,</ref> tractans 
           illud verbum <name>Apostoli</name>: 
           <cit>
             <quote xml:id="pll1d17c6-Qd1e3613" source="http://scta.info/resource/rom8_38"><!-- and 8:39 -->Nec mors nec vita poterit nos separare 
