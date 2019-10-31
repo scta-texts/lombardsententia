@@ -5,7 +5,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Liber III, Distinctio 1, Cap. 1 [sbsSII72 Transcription]</title>
+        <title>Liber III, Distinctio 1, Cap. 1 [pflewisE170 Transcription]</title>
         <author ref="#Lombard">Peter Lombard</author>
         <editor>Jeffrey C. Witt</editor>
         <respStmt>
@@ -15,8 +15,8 @@
       </titleStmt>
       <editionStmt>
         <edition n="0.0.0-dev">
-          <title>Liber III, Distinctio 1, Cap. 1 [sbsSII72 Transcription]</title>
-          <date when="2019-10-12">October 30, 2019</date>
+          <title>Liber III, Distinctio 1, Cap. 1 [pflewisE170 Transcription]</title>
+          <date when="2019-10-30">October 30, 2019</date>
         </edition>
       </editionStmt>
       <publicationStmt>
@@ -31,7 +31,7 @@
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="Z" n="sbsSII72">Solothurn, Zentralbibliothek, Cod. S II 72</witness>
+          <witness xml:id="Pc" n="pflewisE170">Solothurn, Zentralbibliothek, Cod. S II 72</witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
@@ -44,7 +44,7 @@
     </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2019-10-12" status="draft" n="0.0.0">
+        <change when="2019-10-30" status="draft" n="0.0.0">
           <p>Created file for the first time.</p>
         </change>
       </listChange>
@@ -53,72 +53,88 @@
   <text xml:lang="la">
     <front>
       <div xml:id="starts-on">
-        <pb ed="#Z" n="97-v"/>
-        <cb ed="#Z" n="b"/>
+        <pb ed="#Pc" n="116-v"/>
+        <cb ed="#Pc" n="a"/>
       </div>
     </front>
     <body>
       <div xml:id="pl-l3d1c1">
-        <head xml:id="pl-l3d1c1-Hd1e111">Liber 3, Distinctio 1, Cap. 1 [sbsSII72 Transcription]</head>
+        <head xml:id="pl-l3d1c1-Hd1e111">Liber 3, Distinctio 1, Cap. 1 [pflewisE170 Transcription]</head>
         <head xml:id="pl-l3d1c1-Hd1e114" type="question-title">Quare Filius carnem assumsit, non Pater vel Spiritus
           sanctus.</head>
         <p xml:id="pl-l3d1c1-d1e117"> 
-          <lb ed="#Z" n="45"/>Diligenter vero est adnotandum <pc type="#punctus"/> quare filius non pater vel spiritus sanctus 
-          <lb ed="#Z"/>est incarnatus Solus namque filius hominem assumpsit <pc type="#punctus"/> 
+          <lb ed="#Pc" n="37"/>Diligenter 
+          <lb ed="#Pc"/>est adno<lb ed="#Pc"/>tandum 
+          quare filius non pater vel spiritus sanctus 
+          <cb ed="#Pc" n="b"/>
+          <lb ed="#Pc"/>est incarnatus <pc type="#punctus"/> solus namque <add place="above-line">filius</add> hominem 
+          <lb ed="#Pc"/>assumpsit  
         </p>
         <p xml:id="pl-l3d1c1-d1e120">
-          <lb ed="#Z"/>Quod ordine congruo atque alto dei sapientia fecit consilio <pc type="#punctus"/> ut deus qui 
-          <lb ed="#Z"/>in sapientia sua mundum condiderat secundum illud <pc type="#punctus"/> <quote xml:id="pl-l3d1c1-Qd1e122">Omnia in sapientia 
-          <lb ed="#Z"/>fecisti domine</quote> <pc type="#punctus"/> in eadem <pc type="#punctus"/> <quote xml:id="pl-l3d1c1-Qd1e125">quae in caelis sunt et quae in terris restau<lb ed="#Z"/>raret</quote> <pc type="#punctus"/> 
-          haec est mulier euuangelica <pc type="#punctus"/> quae <quote xml:id="pl-l3d1c1-Qd1e128">accendit lucer<lb ed="#Z"/>nam 
-          <pc type="#punctus"/> et dragmam decimam</quote> quae perdita fuerat reperit <pc type="#punctus"/> Sapientia 
-          <lb ed="#Z"/>scilicet patris quae testam humanae infirmitatis lumine suae 
-          <lb ed="#Z"/>divinitatis accendit <pc type="#punctus"/> perditumque hominem reparavit <pc type="#punctus"/> 
-          <lb ed="#Z"/>nomine regis et imagine insignitum <pc type="#punctus"/>
+          quod itaque ordine congruo atque alto dei 
+          <lb ed="#Pc"/>sapientia fecit consilio <pc type="#punctus"/> ut deus qui in sapientia sua 
+          <lb ed="#Pc"/>mundum condiderat <pc type="#punctus"/> secundum illud <pc type="#punctus"/> <quote xml:id="pl-l3d1c1-Qd1e122">omnia 
+          <lb ed="#Pc"/>in sapientia fecisti domine</quote> in eadem <quote xml:id="pl-l3d1c1-Qd1e125">quae in caelis 
+          <lb ed="#Pc"/>sunt et quae in terris restauraret</quote> <pc type="#punctus"/> haec est mulier 
+          <lb ed="#Pc"/>euuangelica quae <quote xml:id="pl-l3d1c1-Qd1e128">accendit lucernam et dragmam 
+          <lb ed="#Pc"/>decimam</quote> quae perdita fuerat reperit sapientia 
+          scilicet patris quae testam humanae infirmitatis 
+          <lb ed="#Pc"/>lumine suae divinitatis accendit <pc type="#punctus"/> perditumque 
+          <lb ed="#Pc"/>hominem reparavit <pc type="#punctus"/> regis nomine et yma<lb ed="#Pc"/>gine 
+          insignitum <pc type="#punctus"/>
         </p>
         <p xml:id="pl-l3d1c1-d1e132">
-          <lb ed="#Z"/>Ideo etiam filius missus est et non pater <pc type="#punctus"/> quia congruentius mitti 
-          <lb ed="#Z"/><seg type="correction">debe<add place="above-line">b</add>at</seg> qui est ab alio <pc type="#punctus"/> quam qui est a nullo <pc type="#punctus"/> filius autem a patre est Pater 
-          vero <pc type="#punctus"/> a nullo alio est <pc type="#punctus"/>  
+          Ideo etiam filius missus est et non 
+          <lb ed="#Pc"/>pater quia congruentius mitti debebat qui est 
+          ab alio <pc type="#punctus"/> quam qui est a nullo <pc type="#punctus"/> filius autem 
+          <lb ed="#Pc"/>a patre est <pc type="#punctus"/> pater vero a nullo alio est
         </p>
         <p xml:id="pl-l3d1c1-d1e136">
-          ut enim ait <name ref="#Augustine">augustinus</name> in libro <title>de trinitate</title> <quote xml:id="pl-l3d1c1-Qd1e144">Non enim 
-          <lb ed="#Z"/>habet de quo sit</quote> <pc type="#punctus"/> <quote xml:id="pl-l3d1c1-Qd1e147">Sicut ergo pater genuit <pc type="#punctus"/> 
-          filius genitus est <pc type="#punctus"/> Ita con<lb ed="#Z"/>grue 
-          pater misit <pc type="#punctus"/> filius missus est</quote> <pc type="#punctus"/> <quote xml:id="pl-l3d1c1-Qd1e150">ab illo enim convenienter 
-          <lb ed="#Z"/>mittitur dei verbum cuius est verbum <pc type="#punctus"/> ab illo mittitur de quo natum 
-          <lb ed="#Z"/>est mittitur quia genitum est <pc type="#punctus"/> Pater vero qui misit a nullo est</quote> <pc type="#punctus"/> Ideoque 
-          <lb ed="#Z"/>pater missus non est <pc type="#punctus"/> ne si mitteretur <pc type="#punctus"/> ab alio esse putaretur <pc type="#punctus"/> 
+          ut enim 
+          <lb ed="#Pc"/>ait <name ref="#Augustine">augustinus</name> in libro <title>de trinitate</title> <quote xml:id="pl-l3d1c1-Qd1e144"><add place="above-line"><unclear>pater</unclear></add> non habet de quo sit</quote> <pc type="#punctus"/> <quote xml:id="pl-l3d1c1-Qd1e147">sicut 
+          <lb ed="#Pc"/>ergo pater genuit <pc type="#punctus"/> filius genitus <pc type="#punctus"/> ita congrue 
+          pater misit <pc type="#punctus"/> filius missus est</quote> <pc type="#punctus"/> <quote xml:id="pl-l3d1c1-Qd1e150">ab illo enim 
+          convenienter mittitur dei verbum cuius est ver<lb ed="#Pc"/>bum 
+          <pc type="#punctus"/> ab illo mittitur de quo natum est <pc type="#punctus"/> mittitur 
+          quia genitum est pater vero qui misit a nul<lb ed="#Pc"/>lo 
+          est</quote> <pc type="#punctus"/> Ideoque pater missus <add place="above-line">non</add> est <subst><del rend="strikethrough">non</del><add place="above-line">ne</add></subst> si mitteretur <pc type="#punctus"/> ab 
+          <lb ed="#Pc"/>alio esse putaretur <pc type="#punctus"/> 
         </p>
         <p xml:id="pl-l3d1c1-d1e154">
-          <lb ed="#Z"/>missus est ergo <pc type="#punctus"/> primo est filius <pc type="#punctus"/> qui a solo patre est <pc type="#punctus"/> deinde etiam spiritus 
-          <lb ed="#Z"/>sanctus <pc type="#punctus"/> qui est a patre et filio <pc type="#punctus"/> sed filius solus in carne missus est 
-          <lb ed="#Z"/>non spiritus sanctus sicut nec pater Quod ideo factum est <pc type="#punctus"/> ut qui erat in diuini<lb ed="#Z"/>tate 
-          dei filius in humanitate fieret hominis filius <pc type="#punctus"/> Non pater 
-          <lb ed="#Z"/>vel spiritus sanctus carnem induit <pc type="#punctus"/> ne alius in diuinitate esset fi<lb ed="#Z"/>lius 
-          <pc type="#punctus"/> alius in humanitate <pc type="#punctus"/> et ne idem esset pater et filius si deus 
-          <lb ed="#Z"/>pater de homine nasceretur <pc type="#punctus"/>
+          missus est ergo primo est filius 
+          <lb ed="#Pc"/>qui a solo patre est deinde etiam spiritus sanctus qui est 
+          <lb ed="#Pc"/>a patre et filio <pc type="#punctus"/> sed filius solus in carne missus est 
+          <lb ed="#Pc"/>non spiritus sanctus sicut nec pater Quod ideo factum est ut qui 
+          <lb ed="#Pc"/>erat in divinitate dei filius in humanitate 
+          <lb ed="#Pc"/>fieret hominis filius <pc type="#punctus"/> non pater vel spiritus sanctus 
+          <lb ed="#Pc"/>carnem induit <pc type="#punctus"/> ne alius in divinitate esset 
+          <lb ed="#Pc"/>filius <pc type="#punctus"/> alius in humanitate <pc type="#punctus"/> et ne idem esset 
+          <lb ed="#Pc"/>pater et filius <pc type="#punctus"/> si deus pater de homine nasceretur <pc type="#punctus"/>
         </p>
         <p xml:id="pl-l3d1c1-d1e157">
-          Unde in <title>ecclesiasticis dogma<lb ed="#Z"/>tibus</title> 
-          <quote xml:id="pl-l3d1c1-Qd1e162">Non pater carnem assumpsit <pc type="#punctus"/> neque spiritus sanctus sed filius tantum <pc type="#punctus"/> 
-          <lb ed="#Z"/>ut qui erat in diuinitate dei filius <pc type="#punctus"/> ipse fieret in homine 
-          <lb ed="#Z"/>hominis filius <pc type="#punctus"/> ne filii nomen ad alterum transiret <pc type="#punctus"/> qui non esset na<lb ed="#Z"/>tiuitate 
-          filius dei ergo filius hominis factus est filius natus secundum 
-          <lb ed="#Z"/>ueritatem naturae <pc type="#punctus"/> ex deo dei filius et secundum ueritatem naturae 
-          <pb ed="#Z" n="98-r"/>
-          <cb ed="#Z" n="a"/>
-          <lb ed="#Z"/>ex homine hominis filius ut veritas geniti non adoptione non 
-          <lb ed="#Z"/>appellatione <pc type="#punctus"/> sed in utraque nativitate filii nomen nascen<lb ed="#Z"/>do 
-          haberet et esset verus deus <pc type="#punctus"/> et verus homo <pc type="#punctus"/> unus filius non ergo duos 
-          <lb ed="#Z"/>christos neque duos filios <pc type="#punctus"/> sed deum et hominem unum filium quem 
-          <lb ed="#Z"/>propterea unigenitum dicimus manentem in duabus substantiis 
-          <lb ed="#Z"/>sicut ei naturae veritas contulit <pc type="#punctus"/> non <sic>confusus</sic> naturis neque in<lb ed="#Z"/>mixtis 
-          sicut thimotiani volunt <pc type="#punctus"/> sed societate uni<lb ed="#Z"/>tis 
-          <pc type="#punctus"/></quote>
+          <lb ed="#Pc"/>unde in <title>ecclesiasticis dogmatibus</title> <pc type="#punctus"/> <quote xml:id="pl-l3d1c1-Qd1e162">non pater car<lb ed="#Pc"/>nem 
+          assumpsit <pc type="#punctus"/> neque spiritus sanctus sed filius tantum <pc type="#punctus"/> ut 
+          <lb ed="#Pc"/>qui erat in divinitate dei filius <pc type="#punctus"/> ipse fieret 
+          <lb ed="#Pc"/>in homine hominis filius <pc type="#punctus"/> ne filii nomen 
+          <lb ed="#Pc"/>ad alterum transiret <pc type="#punctus"/> qui non esset aeterna 
+          nativitate filius <pc type="#punctus"/> dei ergo filius hominis 
+          <lb ed="#Pc"/>factus est filius <pc type="#punctus"/> natus secundum veritatem naturae 
+          <lb ed="#Pc"/>ex deo dei filius et secundum veritatem naturae <pc type="#punctus"/> 
+          <lb ed="#Pc"/>ex homine hominis filius ut veritas geniti <pc type="#punctus"/> 
+          <pb ed="#Pc" n="117-r"/>
+          <cb ed="#Pc" n="a"/>
+          <lb ed="#Pc"/>non adoptione non <seg type="correction">appellatione<del>m</del></seg> sed in utraque 
+          <lb ed="#Pc"/>nativitate filii nomen nascendo haberet et esset verus deus 
+          <lb ed="#Pc"/>et verus homo unus filius <pc type="#punctus"/> Non ergo duos christos neque duos 
+          <lb ed="#Pc"/>filios sed deum <subst><del rend="expunctuation">in</del><add place="above-line">et</add></subst> hominem unum filium quem propter<lb ed="#Pc"/>ea 
+          unigenitum dicimus manentem in duabus sub<lb ed="#Pc"/>stantiis 
+          sicut ei naturae veritas <del rend="expunctuation">non</del> contulit non con<lb ed="#Pc"/>fusis 
+          naturis <pc type="#punctus"/> neque inmixtis sicut thimochiani volunt <pc type="#punctus"/> 
+          <lb ed="#Pc"/>sed societate unitis <pc type="#punctus"/></quote>
         </p>
         <p xml:id="pl-l3d1c1-d1e166">
-          Ecce habes quare filius non pater <pc type="#punctus"/> vel spiritus sanctus carnem assumpse<lb ed="#Z"/>rit <pc type="#punctus"/> 
+          Ecce habes quare filius non pater vel spiritus 
+          <lb ed="#Pc"/>sanctus carnem assumpserit <pc type="#punctus"/> 
         </p>
       </div>
     </body>
