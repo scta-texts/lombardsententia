@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 1, Prologus [Parker522 Transcription]</title>
+        <author>Petrus Lombardus</author>
+        <editor>Brady</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 1, Liber 1, Prologus  [Parker522 Transcription]</title>
+          <date when="2019-11-15">November 15, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>
+            <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Pd" n="parker522">Cambridge, Parker Library, ms. 522</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-11-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Pd" n="1-r"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1prol">
+        <head xml:id="pl-l1prol-Hd1e128">Liber 1, Prologus [Parker522 Transcription]</head>
+        <p xml:id="pll1prol-cadzdd">
+          <pb ed="#Pd" n="1-r"/>
+          <lb ed="#H" n="1"/><quote xml:id="pl-l1prol-Qd1e143">Cupientes aliquid de penuria ac tenuitate 
+          <lb ed="#H"/>nostra cum paupercula in gazophilacium domini 
+          <lb ed="#H"/>mittere</quote> ardua scandere opus ultra vires 
+          <lb ed="#H"/>nostras agere praesumpsimus consummationis fiduciam 
+          <lb ed="#H"/>laborisque mercedem <quote xml:id="pl-l1prol-Qd1e160">in samaritano</quote> statuentes qui 
+          prolati in curationem semivivi duobus denariis supereroganti 
+          <lb ed="#H"/>cuncta reddere professus est Delectat nos veritas pollicentis 
+          <lb ed="#H"/>sed terret immensitas laboris Desiderium hortatur proficiendi 
+          <lb ed="#H"/>sed dehortatur infirmitas deficiendi quod vincit zelus domus 
+          <lb ed="#H"/>dei
+        </p>
+        <p xml:id="pll1prol-qifacc">
+          <quote xml:id="pl-l1prol-Qd1e172">Quo inardescentes fidem nostram adversus errores car<lb ed="#H"/>nalium 
+          atque animalium hominum</quote> davidicae turris clipeis munire vel 
+          <lb ed="#H"/>potius munitam ostendere ac theologicarum inquisitionum abdita 
+          <lb ed="#H"/>pandere nec non et sacramentorum ecclesiasticorum pro modico intelli<lb ed="#H"/>gentiae 
+          nostrae notitiam tradere studuimus <quote xml:id="pl-l1prol-Qd1e181">Non valentes studiosorum 
+          <lb ed="#H"/>fratrum iure resistere Eorum in christo laudabilibus studiis lingua ac 
+          <lb ed="#H"/>stilo nos servire flagitantium quas bigas in nobis agitat 
+          <lb ed="#H"/>christi caritas</quote>
+        </p>
+        <p xml:id="pll1prol-qnavet">
+          <quote xml:id="pl-l1prol-Qd1e195">Quamvis enim ambigamus omnem humani eloquii 
+          <lb ed="#H"/>sermonem calumpniae atque contradictioni aemulorum semper fuisse obnox<lb ed="#H"/>ium 
+          quia dissentientibus voluntatum motibus dissentiens 
+          <lb ed="#H"/>quoque fit animorum sensus</quote> <quote xml:id="pl-l1prol-Qd1e204">ut cum omne dictum veri ratione perfectum 
+          <lb ed="#H"/>sit tamen dum aliud aliis aut videtur aut complacet veritati vel non 
+          <lb ed="#H"/>intellectae vel offendenti impietatis error obnitatur ac voluntatis 
+          <lb ed="#H"/>invidia resultet</quote> <quote xml:id="pl-l1prol-Qd1e213">Quam <quote xml:id="pl-l1prol-Qd1e217">deus huius saeculi operatur in illis diffi<lb ed="#H"/>dentiae 
+          filiis</quote> qui non rationi voluntatem subiciunt Nec doctrinae 
+          <lb ed="#H"/>studium impendunt Sed his quae somniarunt sapientiae verba coaptare 
+          <lb ed="#H"/>nituntur non veri sed placiti rationem sectantes quos iniqua voluntas 
+          <lb ed="#H"/>non ad intelligentiam veritatis Sed ad defensionem placentium 
+          <lb ed="#H"/>incitat non desiderantes doceri veritatem Sed ab ea <quote xml:id="pl-l1prol-Qd1e228">ad fabulas 
+          <lb ed="#H"/>convertentes auditum</quote> Quorum professio est magis placita quam 
+          <lb ed="#H"/>docenda conquirere nec docenda desiderare Sed desideratis 
+          <lb ed="#H"/>doctrinam coaptare <quote xml:id="pl-l1prol-Qd1e240">habent rationem sapientiae in superstitione</quote> quia 
+          <lb ed="#H"/>fidei defectionem sequitur ypocrisis mendax ut sit vel in 
+          <pb ed="#H" n="1-v"/>
+          <lb ed="#H"/>verbis pietas quam amiserit conscientia ipsamque simulatam pietatem 
+          <lb ed="#H"/>omni verborum mendacio impiam reddunt falsae doctrinae institutis 
+          <lb ed="#H"/>fidei sanctitatem corrumpere molientes auriumque pruriginem 
+          <lb ed="#H"/>sub novello sui desiderii dogmate aliis ingerentes qui 
+          <lb ed="#H"/>contentioni studentes contra veritatem sine foedere bellant</quote> <quote xml:id="pl-l1prol-Qd1e256">Inter 
+          veri namque assertionem et placiti defensionem pertinax 
+          <lb ed="#H"/>pugna est dum se et veritas tenet et se voluntas erroris 
+          <lb ed="#H"/>tuetur</quote>
+        </p>
+        <p xml:id="pll1prol-hidqld">
+          Horum igitur deo odibilem ecclesiam evertere atque ora <del rend="strikethrough">op</del> 
+          <lb ed="#H"/>oppilare ne virus nequitiae in alios effundere queant <quote xml:id="pl-l1prol-Qd1e274">et 
+          lucernam veritatis in candelabro exaltare volentes</quote> in la<lb ed="#H"/>bore 
+          multo ac sudore volumen deo praestante conpegimus 
+          <lb ed="#H"/>ex testimoniis veritatis in aeternum fundatis in iiii libris 
+          <lb ed="#H"/>distinctum
+        </p>
+        <p xml:id="pll1prol-iqmpdl">
+          In quo per dominicae fidei sinceram professionem 
+          <lb ed="#H"/>vipereae doctrinae fraudulentiam prodidimus aditum demon<lb ed="#H"/>strandae 
+          veritatis complexi nec periculo impiae professionis 
+          <lb ed="#H"/>inserti temperato inter utrumque moderamine utentes 
+          <lb ed="#H"/>sic ubi vero parum vox nostra insonuit non a paternis discessit 
+          <lb ed="#H"/>limitibus
+        </p>
+        <p xml:id="pll1prol-nidqhc">
+          <quote xml:id="pl-l1prol-Qd1e292">Non igitur debet hic labor cuiquam pigro vel multum 
+          <lb ed="#H"/>docto videri superfluus cum multis inpigris multis que indoctis 
+          <lb ed="#H"/>inter quos etiam mihi si necessarius</quote> brevi volumine complicans 
+          patrum sententias appositis eorum testimoniis ut non sit necesse 
+          <lb ed="#H"/>quaerenti librorum numerositatem evolvere cui brevitas col<lb ed="#H"/>lecta 
+          quod quaeritur offert sine labore In hoc autem tractatu <quote xml:id="pl-l1prol-Qd1e303">non 
+          <lb ed="#H"/>solum pium lectorem sed etiam liberum correctorem desidero 
+          et maxime ubi profunda versatur veritatis quaestio Quae utinam 
+          <lb ed="#H"/>tot haberet inventores quot habet contradictores</quote>
+        </p>
+        <p xml:id="pll1prol-uaqcdp">
+          ut autem quod quaeritur 
+          <lb ed="#H"/>facilius occurrat titulos quibus singulorum librorum capitula 
+          <lb ed="#H"/>distinguuntur praemisimus
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
