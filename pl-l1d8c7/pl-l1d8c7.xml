@@ -1,13 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Liber 1, Distinctio 8, Capitulus 7</title>
         <author>Petrus Lombardus</author>
-        <editor></editor>
+        <editor/>
       </titleStmt>
       <editionStmt>
         <edition n="2015.10-dev-master">
@@ -16,8 +13,8 @@
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher></publisher>
-        <pubPlace></pubPlace>
+        <publisher/>
+        <pubPlace/>
         <availability status="free">
           <p>Public Domain</p>
         </availability>
@@ -46,23 +43,30 @@
   <text xml:lang="la">
     <front>
       <div xml:id="includeList">
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
       </div>
     </front>
     <body>
       <div xml:id="pl-l1d8c7">
-        <head>Liber 1, Distinctio 8, Capitulus 7</head>
+        <head xml:id="pl-l1d8c7-Hd1e102">Liber 1, Distinctio 8, Capitulus 7</head>
         <!-- quod Deus abusive dicitur substantia -->
-        <p xml:id="pll1d8c7-d1e3477">Unde nec proprie dicitur substantia, ut <ref><name ref="#Augustine">Augustinus</name> ostendit 
+        <p xml:id="pll1d8c7-d1e3477">Unde nec proprie dicitur substantia, ut <ref xml:id="pl-l1d8c7-Rd1e109"><name xml:id="pl-l1d8c7-Nd1e110" ref="#Augustine">Augustinus</name> ostendit 
           in libro VII <title ref="#deTrinitate">De Trinitate</title></ref>: 
           <cit>
-            <quote xml:id="pll1d8c7-Qd1e3488" source="http://scta.info/resource/adt-l7">Sicut ab eo quod est esse appellatur 
+            <quote xml:id="pl-l1d8c7-Qd1e118" source="http://scta.info/resource/adt-l7-d1e899" synch="271-314">
+              Sicut ab eo quod est esse appellatur 
               essentia, ita ab eo quod est subsistere substantiam dicimus, si 
               tamen dignum est, ut Deus dicatur subsistere. Hoc enim de his 
               rebus recte intelligitur, in quibus subiectis sunt ea quae in aliquo 
               subiecto esse dicuntur, sicut in corpore color aut forma. Corpus 
-              enim subsistit, et ideo substantia est. Res ergo mutabiles neque 
+              enim subsistit, et ideo substantia est. 
+            </quote>
+            <bibl>Augustinus, De Trinitate, VII, c. 4 (PL 42, 942)</bibl>
+          </cit>
+          <cit>
+            <quote xml:id="pll1d8c7-Qd1e3488" source="http://scta.info/resource/pll1d8c7-d1e3477" synch="120-194">
+              Res ergo mutabiles neque 
               simplices proprie dicuntur substantiae. Deus autem, si subsistit, 
               ut proprie substantia dici possit, inest in eo aliquid tanquam in 
               subiecto, et non est simplex. Nefas est autem dicere, ut subsistat 
@@ -73,10 +77,9 @@
               vocari, ut nomine usitatiori intelligatur essentia, quod vere 
               ac proprie dicitur, ita ut fortasse solum Deum dici oporteat essentiam. 
               Est enim vere solus, quia incommutabilis est.</quote>
-            <bibl>Augustinus, De Trinitate, VII, c. 4 et c. 5 (PL 42, 942)</bibl>
+            <bibl>Augustinus, De Trinitate, VII, c. 5 (PL 42, 942)</bibl>
           </cit>
         </p>
-        
       </div>
     </body>
   </text>
