@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 1, Distinctio 17, Caput 4 [Hopkins MSB19 Transcription]</title>
+        <author>Petrus Lombardus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor; Tei Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 1, Distinctio 17, Caput 4  [Hopkins MSB19 Transcription]</title>
+          <date when="2020-11-03">November 3, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>
+            <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="H" n="hopkinsMSB19">Baltimore, Hopkins, MS B19</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-11-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#H" n="21-r"/>
+        <cb ed="#H" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d17c4">
+        <head xml:id="pll1d17c4-Hd1e3472">Liber 1, Distinctio 17, Caput 4</head>
+        <!-- Quomodo Spiritus sanctus mittatur vel detur nobis -->
+        <p xml:id="pll1d17c4-d1e3477">
+          <lb ed="#H" n="65"/>Tunc enim mitti vel dari nobis dicitur cum ita in 
+          <lb ed="#H"/>nobis est ut facit nos diligere deum et 
+          <lb ed="#H"/>proximum <pc type="#punctus"/> per quod manemus in deo et deus in 
+          <lb ed="#H"/>nobis
+        </p>
+        <p xml:id="pll1d17c4-d1e3480">
+          Unde <name ref="#Augustine">augustinus</name> hunc missionis modum 
+          <lb ed="#H"/>insinuans in <ref>XV libro <title ref="#deTrinitate">de trinitate</title></ref> ait <pc type="#punctus"/> <quote xml:id="pll1d17c4-Qd1e3492">Deus spiritus sanctus <pc type="#punctus"/> 
+          <lb ed="#H"/>qui procedit ex deo cum datus fuerit homini ac<lb ed="#H"/>cendit 
+          eum ad diligendum deum et proximum 
+          <lb ed="#H"/>et ipse dilectio est non enim habet homo unde 
+          <lb ed="#H"/>diligat deum nisi ex deo</quote> <pc type="#punctus"/> Ecce quomodo datur 
+          <lb ed="#H"/>vel mittitur nobis spiritus sanctus <pc type="#punctus"/> secundum quod dicitur da<lb ed="#H"/>tum 
+          sive donum
+        </p>
+        <p xml:id="pll1d17c4-d1e3503">
+          Quod donum <name ref="#Augustine">augustinus</name> commen<lb ed="#H"/>dat 
+          explanans apertius quomodo detur in 
+          <lb ed="#H"/>eodem libro <quote xml:id="pll1d17c4-Qd1e3510"><quote xml:id="pll1d17c4-Qd1e3514">Dilectio inquid dei diffusa est in 
+          <lb ed="#H"/>cordibus nostris ut ait <name ref="#Paul">apostolus</name> per spiritum sanctum qui datus est 
+          <lb ed="#H"/>nobis</quote> <pc type="#punctus"/> Nullum est isto dei dono excellentius solum 
+          est <pc type="#punctus"/> quod dividit inter filios regni et 
+          <lb ed="#H"/>filios perditionis <pc type="#punctus"/> Dantur et alia per Spiritum <add place="above-line">sanctum</add> mu<lb ed="#H"/>nera 
+          sed sine caritate nihil prosunt nisi ergo tantum 
+          <lb ed="#H"/>impertiatur cuiquam spiritus sanctus ut eum dei et <seg type="correction">proxi<lb ed="#H"/>mi<del rend="strikethrough">um</del></seg> 
+          faciat amatorem a sinistra non trans<lb ed="#H"/>fertur 
+          ad dexteram <pc type="#punctus"/> nec spiritus sanctus proprie dicitur donum <pc type="#punctus"/> 
+          <lb ed="#H"/>nisi propter dilectionem quam qui non habuerit etsi <quote xml:id="pll1d17c4-Qd1e3526">loquatur 
+          <lb ed="#H"/>omnibus linguis et habuerit prophetiam et omnem sci<lb ed="#H"/>entiam 
+          et omnem fidem et distribuerit substantiam suam <pc type="#punctus"/> 
+          <lb ed="#H"/>et tradiderit corpus suum ita ut ardeat nichil 
+          <lb ed="#H"/>ei prodest</quote> <pc type="#punctus"/> Quantum ergo bonum est <pc type="#punctus"/> sine quo ad aeternam 
+          <lb ed="#H"/>vitam neminem tanta bona perducunt <pc type="#punctus"/> Ipsa 
+          <lb ed="#H"/>vero dilectio vel caritas Nam unius rei nomen 
+          <lb ed="#H"/>est utrumque perducit ad regnum <pc type="#punctus"/> Dilectio igitur quae ex 
+          <lb ed="#H"/>deo est et deus proprie dpiritus sanctus est per quem <quote xml:id="pll1d17c4-Qd1e3535">diffunditur 
+          <pb ed="#H" n="21-v"/>
+          <cb ed="#H" n="a"/>
+          <lb ed="#H"/>in cordibus nostris</quote> deus caritas <pc type="#punctus"/> per quam nos tota inhabi<lb ed="#H"/>tat 
+          trinitas <pc type="#punctus"/> Quocirca rectissime spiritus sanctus cum sit deus 
+          <lb ed="#H"/>vocatur etiam donum dei <pc type="#punctus"/> quod donum proprie quid nisi 
+          <lb ed="#H"/>caritas intelligendum est <pc type="#punctus"/> quae perducit ad deum <pc type="#punctus"/> et sine qua 
+          <lb ed="#H"/>quodlibet aliud dei donum non perducit ad deum</quote> <del rend="strikethrough">et si<lb ed="#H"/>ne 
+          qua quodlibet aliud die donum non perducit ad 
+          <lb ed="#H"/>deum et sine qua</del> ecce hic aperitur quod supra dictum 
+          <lb ed="#H"/>erat scilicet quod caritas sit aperitur quod supra dictum 
+          <lb ed="#H"/>erat scilicet quod caritas sit spiritus sanctus et donum excellen<lb ed="#H"/>tius 
+          et quomodo hoc donum id est spiritus sanctus detur nobis scilicet cum 
+          <lb ed="#H"/>ita impertitur alicui id est ita habet esse in aliquo ut 
+          <lb ed="#H"/>eum faciat dei et proximi amatorem <pc type="#punctus"/> quod cum facit 
+          <lb ed="#H"/>tunc dari dicitur sive mitti alicui et tunc ille dicitur pro<lb ed="#H"/>prie 
+          habere Spiritum sanctum.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
