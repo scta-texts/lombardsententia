@@ -1,13 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Liber 1, Distinctio 8, Caput 8</title>
         <author>Petrus Lombardus</author>
-        <editor></editor>
+        <editor/>
       </titleStmt>
       <editionStmt>
         <edition n="2015.10-dev-master">
@@ -16,8 +13,8 @@
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher></publisher>
-        <pubPlace></pubPlace>
+        <publisher/>
+        <pubPlace/>
         <availability status="free">
           <p>Public Domain</p>
         </availability>
@@ -46,18 +43,18 @@
   <text xml:lang="la">
     <front>
       <div xml:id="includeList">
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
       </div>
     </front>
     <body>
       <div xml:id="pl-l1d8c8">
-        <head>Liber 1, Distinctio 8, Caput 8</head>
+        <head xml:id="pl-l1d8c8-Hd1e102">Liber 1, Distinctio 8, Caput 8</head>
         <!-- quod non est in Deo aliquid, quod non sit Deus -->
         <p xml:id="pll1d8c8-d1e3477">Huius autem essentiae simplicitas ac sinceritas tanta est, 
           quod non est in ea aliquid, quod non sit ipsa; sed idem est habens 
           et quod habetur.</p>
-        <p xml:id="pll1d8c8-d1e3480">Unde <name ref="#HilaryOfPoitiers">Hilarius</name> in VII libro <title>De Trinitate</title> ait: 
+        <p xml:id="pll1d8c8-d1e3480">Unde <name xml:id="pl-l1d8c8-Nd1e112" ref="#HilaryOfPoitiers">Hilarius</name> in VII libro <title>De Trinitate</title> ait: 
           <cit>
             <quote xml:id="pll1d8c8-Qd1e3490">Non ex 
               compositis Deus, qui vita est, subsistit, neque qui virtus est, ex 
@@ -67,7 +64,7 @@
             <bibl>Hilarius, De Trinitate, VII, n. 27 (PL 10, 223)</bibl>
           </cit>
         </p>
-        <p xml:id="pll1d8c8-d1e3498">Idem in <ref>VIII libro <title ref="#deTrinitate">De Trinitate</title></ref>: 
+        <p xml:id="pll1d8c8-d1e3498">Idem in <ref xml:id="pl-l1d8c8-Rd1e130">VIII libro <title ref="#deTrinitate">De Trinitate</title></ref>: 
           <cit>
             <quote xml:id="pll1d8c8-Qd1e3507" source="http://scta.info/resource/adt-l8">Non humano modo ex 
               compositis Deus est, ut in eo aiud sit quod ab eo habetur, et aliud 
@@ -77,14 +74,14 @@
             <bibl>Augustinus, De Trinitate, VIII, c. 2 (PL 64:1250)</bibl>
           </cit>
         </p>
-        <p xml:id="pll1d8c8-d1e3516">De hoc eodem <name ref="#Boethius">Boethius</name> in I libro <title>De Trinitate</title> ait: 
+        <p xml:id="pll1d8c8-d1e3516">De hoc eodem <name xml:id="pl-l1d8c8-Nd1e148" ref="#Boethius">Boethius</name> in I libro <title>De Trinitate</title> ait: 
           <cit>
             <quote xml:id="pll1d8c8-Qd1e3526">Quocirca hoc vere unum, in quo nullus numerus, nullum in 
               eo aliud praeter in quod est; neque enim subiectum fieri potest.</quote>
             <bibl>Boethius, De Trinitate, I, c. 2 (PL 64:1250)</bibl>
           </cit>
         </p>
-        <p xml:id="pll1d8c8-d1e3534"><name ref="#Augustine">Augustinus</name> quoque in libro <title>De fide ad Petrum</title> dicit: 
+        <p xml:id="pll1d8c8-d1e3534"><name xml:id="pl-l1d8c8-Nd1e165" ref="#Augustine">Augustinus</name> quoque in libro <title>De fide ad Petrum</title> dicit: 
           <cit>
             <quote xml:id="pll1d8c8-Qd1e3543">In Dei substantia non est aliquid, quod non sit substantia, quasi 
               aliud ibi sit substantia, aliud quod accidat substantiae. Sed quidquid 
@@ -93,7 +90,7 @@
             <bibl>Augustinus, De fide ad Petrum, c. 9, n. 20 (PL 40:193)</bibl>
           </cit>
         </p>
-        <p xml:id="pll1d8c8-d1e3551">Idem in <ref>libro XV <title ref="#deTrinitate">De Trinitate</title></ref> 
+        <p xml:id="pll1d8c8-d1e3551">Idem in <ref xml:id="pl-l1d8c8-Rd1e183">libro XV <title ref="#deTrinitate">De Trinitate</title></ref> 
           <cit>
             <quote xml:id="pll1d8c8-Qd1e3560" source="http://scta.info/resource/adt-l15">Sic habetur in natura 
               uniuscuiusque trium, ut qui habet, hoc sit quod habet, sicut immutabilis 
@@ -101,7 +98,7 @@
             <bibl>Augustinus, De Trinitate, XV, c. 17, n. 28 (PL 42:1080)</bibl>
           </cit>
         </p>
-        <p xml:id="pll1d8c8-d1e3568">Unde <name ref="#IsidoreOfSeville">Isidorus</name> ait: 
+        <p xml:id="pll1d8c8-d1e3568">Unde <name xml:id="pl-l1d8c8-Nd1e200" ref="#IsidoreOfSeville">Isidorus</name> ait: 
           <cit>
             <quote xml:id="pll1d8c8-Qd1e3575">Deus simplex dicitur, sive non amittendo 
               quod habet, seu quod aliud non est ipse, et aliud quod in 
@@ -110,9 +107,16 @@
           </cit>
           Et cum tantae simplicitatis atque sinceritatis sit natura 
           divina, est tamen in ea personarum Trinitas.</p>
-        <p xml:id="pll1d8c8-d1e3583">Unde <name ref="#Augustine">Augustinus</name> in libro XI <title ref="#CityOfGod">De civitate Dei</title> ait: 
+        <p xml:id="pll1d8c8-d1e3583">
+          Unde 
+          <ref xml:id="pl-l1d8c8-Rd1e215" corresp="#pll1d8c8-Qd1e3593">
+            <name xml:id="pl-l1d8c8-Nd1e217" ref="#Augustine">Augustinus</name> 
+            in libro XI <title ref="#CityOfGod">De civitate Dei</title>
+          </ref> 
+          ait: 
           <cit>
-            <quote xml:id="pll1d8c8-Qd1e3593">Non 
+            <quote xml:id="pll1d8c8-Qd1e3593" source="http://scta.info/resource/adcd-l11-d1e1578 http://scta.info/resource/adcd-l11-d1e1581" synch="161-224 1-61">
+              Non 
               propter hoc naturam summi boni simplicem dicimus, quia est Pater 
               in ea solus, aut Filius in ea solus, aut Spiritus sanctus solus, 
               id est, quia sola est ista nominum trinitas sine subsistentia personarum, 
@@ -125,7 +129,9 @@
               itaque natura haec dicitur simplex, quod non sit aliud habens, 
               et aliud id quod habet, sicut in ceteris rebus est. Non enim habens 
               liquorem liquor est, nec corpus color, nec anima est sapientia.</quote>
-            <bibl>Augustinus, De Civitate Dei, XI, c. 10 (PL 178:1059)</bibl>
+            <bibl>
+              Augustinus, De Civitate Dei, XI, c. 10 (PL 178:1059)
+            </bibl>
           </cit>
         </p>
         <p xml:id="pll1d8c8-d1e3601">Ecce, quanta est identitas, quanta est unitas, immutabilitas, 
