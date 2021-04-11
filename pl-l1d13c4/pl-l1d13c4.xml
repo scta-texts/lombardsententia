@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Liber 1, Distinctio 13, Caput 4</title>
         <author>Petrus Lombardus</author>
-        <editor></editor>
+        <editor/>
       </titleStmt>
       <editionStmt>
         <edition n="2015.10-dev-master">
@@ -16,8 +14,8 @@
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher></publisher>
-        <pubPlace></pubPlace>
+        <publisher/>
+        <pubPlace/>
         <availability status="free">
           <p>Public Domain</p>
         </availability>
@@ -46,48 +44,72 @@
   <text xml:lang="la">
     <front>
       <div xml:id="includeList">
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+        
       </div>
     </front>
     <body>
       <div xml:id="pl-l1d13c4">
-        <head>Liber 1, Distinctio 13, Caput 4</head>
+        <head xml:id="pl-l1d13c4-Hd1e102">Liber 1, Distinctio 13, Caput 4</head>
         <!-- utrum Spiritus sanctus debeat dici ingenitus, cum non sit genitus -->
         <p xml:id="pll1d13c4-d1e3477">Nunc considerandum est, cum Spiritus sanctus non sit genitus, 
           utrum debeat ici ingenitus.</p>
         <p xml:id="pll1d13c4-d1e3480">Ad quod dicimus, Spiritum sanctum nec genitum nec ingenitum 
           debere dici.</p>
         <!-- p. 88 -->
-        <p xml:id="pll1d13c4-d1e3486">Unde <ref><name ref="#Augustine">Augustinus</name> <title>Ad Orosium</title></ref> ait: 
+        <p xml:id="pll1d13c4-d1e3486">Unde 
+          <ref xml:id="pl-l1d13c4-Rd1e118">
+            <name xml:id="pl-l1d13c4-Nd1e120" ref="#Augustine">Augustinus</name> <title>Ad Orosium</title>
+          </ref> 
+          ait: 
           <cit>
-            <quote xml:id="pll1d13c4-Qd1e3497">Spiritum sanctum 
+            <quote xml:id="pll1d13c4-Qd1e3497" source="http://scta.info/resource/y7898a-d1e149-d1e121" synch="2-26">
+              Spiritum sanctum 
               nec genitum nec ingenitum fides certa declarat; quia si dixerimus 
               ingenitum, duos patres affirmare videbimur; si autem genitum, 
-              duos filios credere culpamur.</quote>
-            <bibl>Augustinus, Ad Orosium, q. 2 (PL 40:734) <!-- needs revision --></bibl>
+              duos filios credere culpamur.
+            </quote>
+            <bibl>
+              Augustinus, Ad Orosium, q. 2 (PL 40:734) 
+            </bibl>
           </cit>
           Sicut enim solus Filius dicitur 
-          genitus, ita et solus Pater dicitur ingenitus, eo quod ab alio non sit.</p>
-        <p xml:id="pll1d13c4-d1e3506">Unde <ref><name ref="#Augustine">Augustinus</name> in XV libro <title ref="#deTrinitate">De Trinitate</title>:</ref> 
+          genitus, ita et solus Pater dicitur ingenitus, eo quod ab alio non sit.
+        </p>
+        <p xml:id="pll1d13c4-d1e3506">
+          Unde 
+          <ref xml:id="pl-l1d13c4-Rd1e139" corresp="#pll1d13c4-Qd1e3518 #pl-l1d13c4-Qd1e159">
+            <name xml:id="pl-l1d13c4-Nd1e141" ref="#Augustine">Augustinus</name> in XV libro 
+            <title ref="#deTrinitate">De Trinitate</title>:
+          </ref> 
           <cit>
-            <quote xml:id="pll1d13c4-Qd1e3518" source="http://scta.info/resource/adt-l15">Pater, inquit, 
+            <quote xml:id="pll1d13c4-Qd1e3518" source="http://scta.info/resource/adt-l15-d1e1975" synch="71-120">
+              Pater, inquit, 
               solus non est de alio, ideo solus appellatur ingenitus, non 
               quidem in Scripturis, sed in consuetudine disputantium et de re 
               tanta sermonem qualem valuerint proferentium. Filius autem de 
               Patre natus est, et Spiritus sanctus de Patre principaliter et communiter 
-              de utroque procedit. Ideoque cum Spiritum sanctum genitum 
+              de utroque procedit.
+            </quote>
+            <bibl>Augustinus, De Trinitate, XV, c. 26, n. 47 (PL 42:1094)</bibl>
+          </cit>
+          <cit>
+            <quote xml:id="pl-l1d13c4-Qd1e159" source="http://scta.info/resource/adt-l15-d1e1975" synch="39-70">
+              Ideoque cum Spiritum sanctum genitum 
               non dicamus, dicere tamen non audemus ingenitum, ne in hoc 
               vocabulo vel duos patres in illa Trinitate, vel duos, qui non sunt 
-              de alio, quispiam suspicetur.</quote>
+              de alio, quispiam suspicetur.
+            </quote>
             <bibl>Augustinus, De Trinitate, XV, c. 26, n. 47 (PL 42:1094)</bibl>
           </cit>
           Ecce his verbis aperte ostendit, 
-          Spiritum sanctum nec genitum nec ingenitum debere dici.</p>
-        <p xml:id="pll1d13c4-d1e3526"><ref><name ref="#Jerome">Hieronymus</name> tamen in <title>Regulis definitionum</title></ref> contra haereticos, 
+          Spiritum sanctum nec genitum nec ingenitum debere dici.
+        </p>
+        <p xml:id="pll1d13c4-d1e3526">
+          <ref xml:id="pl-l1d13c4-Rd1e169"><name xml:id="pl-l1d13c4-Nd1e170" ref="#Jerome">Hieronymus</name> tamen in <title>Regulis definitionum</title></ref> contra haereticos, 
           Spiritum sanctum dicit esse ingenitum, his verbis: 
           <cit>
-            <quote xml:id="pll1d13c4-Qd1e3536">Spiritus 
+            <quote xml:id="pll1d13c4-Qd1e3536">
+              Spiritus 
               sanctus Pater non est, sed ingenitus atque infectus. Pater 
               non est, quia Patris est et in Patre est; processionem habet ex 
               Patre, et non nativitatem; Filius autem non est, quia genitus non 
@@ -96,15 +118,15 @@
           </cit>
         </p>
         <p xml:id="pll1d13c4-d1e3544">Ecce his verbis dicitur Spiritus sanctus esse ingenitus; quod 
-          videtur adversari praemissis verbis <name ref="#Augustine">Augustini</name>.</p>
+          videtur adversari praemissis verbis <name xml:id="pl-l1d13c4-Nd1e188" ref="#Augustine">Augustini</name>.</p>
         <!--  p. 89 -->
         <p xml:id="pll1d13c4-d1e3552">Sed ut istam quae videtur repugnantiam de medio abigamus, 
-          dicimus, quod <name ref="#Jerome">Hieronymus</name> aliter acceperit nomen ingeniti, et 
-          aliter <name ref="#Augustine">Augustinus</name>. Accepti enim <name ref="#Augustine">Augustinus</name> ingenitum, qui 
+          dicimus, quod <name xml:id="pl-l1d13c4-Nd1e196" ref="#Jerome">Hieronymus</name> aliter acceperit nomen ingeniti, et 
+          aliter <name xml:id="pl-l1d13c4-Nd1e199" ref="#Augustine">Augustinus</name>. Accepti enim <name xml:id="pl-l1d13c4-Nd1e202" ref="#Augustine">Augustinus</name> ingenitum, qui 
           vel quod ab alio non est; et secundum hoc de solo Patre dicitur; 
-          <name ref="#Jerome">Hieronymus</name> vero ingenitum dicit non-genitum; et secundum 
+          <name xml:id="pl-l1d13c4-Nd1e205" ref="#Jerome">Hieronymus</name> vero ingenitum dicit non-genitum; et secundum 
           hoc potest dici de Spiritu, cum Spiritus sanctus non sit genitus.</p>
-        <p xml:id="pll1d13c4-d1e3568">Quod autem <name ref="#Jerome">Hieronymus</name> ita acceperit, ostenditur ex verbis 
+        <p xml:id="pll1d13c4-d1e3568">Quod autem <name xml:id="pl-l1d13c4-Nd1e212" ref="#Jerome">Hieronymus</name> ita acceperit, ostenditur ex verbis 
           suis, quibus in eodem tractatu utitur, faciens talem divisionem: 
           <cit>
             <quote xml:id="pll1d13c4-Qd1e3575">Omne quod est, aut ingenitum est, aut genitum, aut factum. Est 
@@ -123,7 +145,7 @@
               non est, animalia sunt.</quote>
             <bibl>Hieronymus, Regulis definitionum, XXX</bibl>
           </cit>
-          Ecce his verbis ostendit <name ref="#Jerome">Hieronymus</name>, 
+          Ecce his verbis ostendit <name xml:id="pl-l1d13c4-Nd1e224" ref="#Jerome">Hieronymus</name>, 
           se ingenitum accipere non-genitum. Aliter enim non esset 
           praemissa divisio vera, scilicet omne quod est aut ingenitum est, 
           aut genitum, aut factum. Atque in divisionis huius prosecutione in 
