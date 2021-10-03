@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cap. 1 [Parker 522 Transcription]</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription editor; TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Cap. 1 [Parker 522 Transcription]</title>
+          <date when="2021-10-03">October 03, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>
+            <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Pd" n="parker522">Parker 522</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-10-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Pd" n="275-r"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l3d35c1">
+        <head xml:id="pl-l3d35c1-Hd1e109">Capitulum 1</head>
+        <head xml:id="pl-l3d35c1-Hd1e112" type="question-title">
+          De sapientia et scientia, quo differant.</head>
+        <!--<p>
+          Quomodo differat 
+          <lb ed="#P"/>Sapientia et scientia
+        </p>-->
+        <p xml:id="pl-l3d35c1-d1e115">
+          <lb ed="#Pd" n="6"/>Post praemissa diligenter considerandum est in quo differat sapientia 
+          <lb ed="#Pd"/>a scientia
+        </p>
+        <p xml:id="pl-l3d35c1-d1e118">
+          De hoc <ref xml:id="pl-l3d35c1-Rd1e122"><name xml:id="pl-l3d35c1-Nd1e124" ref="#Augustine">Augustinus</name> Xm de trinitate</ref> ait <quote xml:id="pl-l3d35c1-Qd1e123">philosophi 
+            <lb ed="#Pd"/>disputantes de sapientia deffinierunt eum dicentes Sapientia est 
+            <lb ed="#Pd"/>rerum humanarum divinarumque scientia Ego quoque utrarumque rerum 
+            <lb ed="#Pd"/>cognitionem id est divinarum et humanarumque sapientiam et scientiam dici posse 
+            <lb ed="#Pd"/>non nego verum tamen iuxta distinctionem apostoli qua dixit <quote xml:id="pl-l3d35c1-Qd1e128">alii datur 
+            <lb ed="#Pd"/>sermo sapientiae alii sermo scientiae</quote> illa definitio dividenda est 
+            <lb ed="#Pd"/>ut rerum divinarum cognitio sapientia proprie nuncupetur humanarum vero 
+            <lb ed="#Pd"/>cognitio proprie scientiae nomen obtineat. Neque vero quidquid sciri ab 
+            <lb ed="#Pd"/>homine potest in rebus humanis ubi plurimum supervacuae vanitatis 
+            <lb ed="#Pd"/>et noxiae curiositatis est huic scientiae tribuo Sed illud tantum quo fides 
+            <lb ed="#Pd"/>saluberrima quae ad veram beatitudinem ducit gignitur nutritur defen<lb ed="#Pd"/>ditur 
+            roboratur qua scientia non pollent fideles plurimi quamvis 
+            <lb ed="#Pd"/>polleant ipsa fide plurimum Aliud est enim scire tantummodo quid homo 
+            <lb ed="#Pd"/>credere debeat propter adipiscendam vitam aeternam aliud est 
+            <lb ed="#Pd"/>scire quomodo hoc ipsum et piis opituletur et contra impios defendatur 
+            <lb ed="#Pd"/>quae proprio vocabulo appellatur scientia</quote>
+        </p>
+        <p xml:id="pl-l3d35c1-d1e133">
+          De his quoque duabus 
+          <lb ed="#Pd"/>virtutibus idem <name xml:id="pl-l3d35c1-Nd1e143" ref="#Augustine">augustinus</name> differentiam inter eas assignans super psalmum 
+          <lb ed="#Pd"/>ait <quote xml:id="pl-l3d35c1-Qd1e138">distat sapientia a scientia testante sancto <name xml:id="pl-l3d35c1-Nd1e150" ref="#Job">iob</name> qui quodam modo 
+          <lb ed="#Pd"/>singula diffiniens ait <quote xml:id="pl-l3d35c1-Qd1e140">Sapientia est pietas scientia vero est ab<lb ed="#Pd"/>stinere 
+          a malis</quote> pietatem vero hoc loco posuit dei cultum quae graece 
+          <lb ed="#Pd"/>dicitur theosebia quae est in cognitione et dilectione eius quod semper est et 
+          <lb ed="#Pd"/>incommutabiliter manet quod est deus abstinere vero a malis est <quote xml:id="pl-l3d35c1-Qd1e143">in medio 
+          <lb ed="#Pd"/>pravae nationis</quote> prudenter versari</quote>
+        </p>
+        <p xml:id="pl-l3d35c1-d1e149">
+          <ref xml:id="pl-l3d35c1-Rd1e170">Idem</ref> quoque inter haec duo aperte 
+          <lb ed="#Pd"/>distinguens ait <quote xml:id="pl-l3d35c1-Qd1e151">Distat ab aeternorum contemplatione actio quam bene 
+          <lb ed="#Pd"/>utimur temporalibus rebus et illa sapientiae haec scientiae deputatur quamvis illa 
+          <pb ed="#Pd" n="275-v"/>
+          <lb ed="#Pd"/>quae sapientia est possit nuncupari scientia ut <ref xml:id="pl-l3d35c1-Rd1e177"><name xml:id="pl-l3d35c1-Nd1e178" ref="Paul">apostolus</name></ref> loquitur ubi dicitur 
+          <lb ed="#Pd"/><quote xml:id="pl-l3d35c1-Qd1e156">Nunc scio ex parte</quote> quam scientiam profecto contemplationis dei vult intelligi</quote>
+          <lb ed="#Pd"/><quote xml:id="pl-l3d35c1-Qd1e191">In hoc igitur differentia est quia ad contemplationem sapientia ad actionem vero scientia pertinet</quote>
+        </p>
+        <p xml:id="pl-l3d35c1-d1e161">
+          <lb ed="#Pd"/>Ecce aperte demonstratum est in quo differat spiritus sapientiae et spiritus 
+          <lb ed="#Pd"/>scientiae scilicet ut sapientia divinis scientia humanis attributa sit rebus
+        </p>
+        <p xml:id="pl-l3d35c1-d1e164">
+          et ut docet <ref xml:id="pl-l3d35c1-Rd1e201"><name xml:id="pl-l3d35c1-Nd1e203" ref="#Augustine">augustinus</name></ref> utrumque agnoscimus in christo scilicet et rem 
+          <lb ed="#Pd"/>divinam et rem humanam et ideo de ipso habemus sapientiam et scientiam <quote xml:id="pl-l3d35c1-Qd1e169">Cum enim 
+          <lb ed="#Pd"/>legitur <quote xml:id="pl-l3d35c1-Qd1e171">verbum caro factum est</quote> in verbo intelligitur verus dei filius in carne cognoscitur 
+          <lb ed="#Pd"/>verus hominis filius</quote>
+        </p>
+        <p xml:id="pl-l3d35c1-d1e176">
+          Item cum dicimus <quote xml:id="pl-l3d35c1-Qd1e218"><quote xml:id="pl-l3d35c1-Qd1e178">vidimus plenum gratiae 
+          <lb ed="#Pd"/>et veritatis</quote> gratiam referamus ad scientiam et veritatem ad sapientiam</quote> quia in christo 
+          <lb ed="#Pd"/>et scientia et sapientia plenarie fuit et nos sapientiam et scientiam de eo 
+          <lb ed="#Pd"/>habemus quo deus est et homo
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
