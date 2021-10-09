@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cap. 1 [Zentralbibliothek, Cod. S II 72 Transcription]</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription editor; TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Cap. 1 [Zentralbibliothek, Cod. S II 72 Transcription]</title>
+          <date when="2021-10-09">October 09, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>
+            <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Z" n="zbsSII72">Solothurn, Zentralbibliothek, Cod. S II 72</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-10-09" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Z" n="125-r"/>
+        <cb ed="#Z" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l3d35c1">
+        <head xml:id="pl-l3d35c1-Hd1e109">Capitulum 1</head>
+        <head xml:id="pl-l3d35c1-Hd1e112" type="question-title">
+          De sapientia et scientia, quo differant.</head>
+        <!--<p>
+          Quomodo differat 
+          <lb ed="#P"/>Sapientia et scientia
+        </p>-->
+        <p xml:id="pl-l3d35c1-d1e115">
+          <lb ed="#Z" n="73"/>Post praemissa diligenter considerandum est in quo differat sapientia 
+          <lb ed="#Z"/>a scientia
+        </p>
+        <p xml:id="pl-l3d35c1-d1e118">
+          De hoc <ref xml:id="pl-l3d35c1-Rd1e122"><name xml:id="pl-l3d35c1-Nd1e124" ref="#Augustine">augustinus</name> ita</ref> ait <quote xml:id="pl-l3d35c1-Qd1e123">Philosophi dispu<pb ed="#Z" n="125-v"/><cb ed="#Z" n="a"/><lb ed="#Z" break="no"/>tantes 
+            de sapientia diffinierunt eam dicentes sapientia est rerum 
+            <lb ed="#Z"/>humanarum divinarumque scientia Ego quoque utrarumque rerum cogni<lb ed="#Z"/>tionem 
+            id est divinarum et humanarumque et sapientiam et scientiam dici pos<lb ed="#Z"/>se 
+            non nego verum tamen iuxta distinctionem apostoli qua dixit <quote xml:id="pl-l3d35c1-Qd1e128">alii 
+              <lb ed="#Z"/>datur sermo sapientiae alii sermo scientiae</quote> illa diffinitio 
+            <lb ed="#Z"/>dividenda est ut rerum divinarum cognitio proprie sapientia nuncu<lb ed="#Z"/>petur 
+            humanarum vero cognitio proprie scientiae nomen optine<lb ed="#Z"/>at. 
+            Neque vero quidquid sciri ab homine potest in rebus humanis 
+            <lb ed="#Z"/>ubi plurimum supervacuae vanitatis et noxiae curiosita<lb ed="#Z"/>tis 
+            est huic scientiae tribuo sed illud tantum quo fides saluberrima 
+            <lb ed="#Z"/>quae ad veram beatitudinem ducit gignitur nutritur robora<lb ed="#Z"/>tur 
+            deffenditur qua scientia non pollent fideles plurimi quamvis 
+            <lb ed="#Z"/>polleant ipsa fide plurimum Aliud est enim scire tantummodo quid 
+            <lb ed="#Z"/>homo credere debeat propter adipiscendam beatam vitam aliud 
+            <lb ed="#Z"/>est scire quomodo hoc ipsum et piis opituletur et contra impios def<lb ed="#Z"/>endatur 
+            quae proprio vocabulo appellatur scientia</quote>
+        </p>
+        <p xml:id="pl-l3d35c1-d1e133">
+          de his quoque dua<lb ed="#Z"/>bus 
+          virtutibus idem <name xml:id="pl-l3d35c1-Nd1e143" ref="#Augustine">augustinus</name> differentiam inter eas assignans super 
+          <lb ed="#Z"/>psalmum ait <quote xml:id="pl-l3d35c1-Qd1e138">distat sapientia a scientia teste sancto <name xml:id="pl-l3d35c1-Nd1e150" ref="#Job">iob</name> qui 
+          <lb ed="#Z"/>quodam modo singula diffiniens ait <quote xml:id="pl-l3d35c1-Qd1e140">sapientia est pietas scientia 
+          <lb ed="#Z"/>vero est abstinere a malis</quote> pietatem vero hoc loco posuit dei 
+            <lb ed="#Z"/>cultum quae graece dicitur theosebia quae est in cognitione et di<lb ed="#Z"/>lectione 
+            eius quod semper est et incommutabiliter manet quod est deus 
+            <lb ed="#Z"/>abstinere vero a malis est <quote xml:id="pl-l3d35c1-Qd1e143">in medio pravae nationis</quote> pruden<lb ed="#Z"/>ter 
+            versari</quote>
+        </p>
+        <p xml:id="pl-l3d35c1-d1e149">
+          <ref xml:id="pl-l3d35c1-Rd1e170">Idem</ref> quoque inter haec duo aperte distinguens ait 
+          <lb ed="#Z"/><quote xml:id="pl-l3d35c1-Qd1e151">distat ab aeternorum contemplatione actio quam bene utimur temporali<lb ed="#Z"/>bus 
+          rebus et illa sapientiae haec scientiae deputatur quamvis et illa
+          <lb ed="#Z"/>sapientia possit nuncupari scientia ut <ref xml:id="pl-l3d35c1-Rd1e177"><name xml:id="pl-l3d35c1-Nd1e178" ref="Paul">apostolus</name></ref> loquitur <add place="above-line">ubi dicitur</add> <quote xml:id="pl-l3d35c1-Qd1e156">nunc 
+          <lb ed="#Z"/>scio ex parte</quote> quam scientiam profecto contemplationis dei vult in<lb ed="#Z"/>telligi</quote>
+          <quote xml:id="pl-l3d35c1-Qd1e191">In hoc ergo differentia est quia ad contemplationem sapientia ad 
+          <lb ed="#Z"/>actionem vero scientia pertinet</quote>
+        </p>
+        <p xml:id="pl-l3d35c1-d1e161">
+          Ecce aperte demonstrandum 
+          <lb ed="#Z"/>est in quo differat spiritus sapientiae et spiritus scientiae scilicet ut sapientia divi<lb ed="#Z"/>nis 
+          scientia humanis attributa sit rebus 
+        </p>
+        <p xml:id="pl-l3d35c1-d1e164">
+          et ut docet <ref xml:id="pl-l3d35c1-Rd1e201"><name xml:id="pl-l3d35c1-Nd1e203" ref="#Augustine">augustinus</name></ref> 
+          <lb ed="#Z"/><seg type="correction">utrum<add place="above-line">que</add></seg> agnoscimus in christo scilicet et rem divinam et rem humanam 
+          <lb ed="#Z"/>et ideo de ipso habemus sapientiam et scientiam <quote xml:id="pl-l3d35c1-Qd1e169">Cum enim legitur <quote xml:id="pl-l3d35c1-Qd1e171">verbum 
+          <lb ed="#Z"/>caro factum est</quote> in verbo intelligitur verus dei filius In carne ag<lb ed="#Z"/>noscitur 
+          verus hominis filius</quote>
+        </p>
+        <p xml:id="pl-l3d35c1-d1e176">
+          Item cum dicitur <quote xml:id="pl-l3d35c1-Qd1e218"><quote xml:id="pl-l3d35c1-Qd1e178">vidimus plenum <sic>gratia</sic> et 
+          <lb ed="#Z"/>veritate</quote> gratiam referamus ad scientiam et veritatem ad sapientiam</quote> 
+          <cb ed="#Z" n="b"/>
+          <lb ed="#Z"/>quia in christo et scientia et sapientia fuit plenarie et nos scientiam et sapientiam 
+          <lb ed="#Z"/>de eo habemus qui deus est et homo
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
