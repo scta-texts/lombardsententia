@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -50,10 +48,6 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="includeList">
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
       <div xml:id="starts-on">
         <cb ed="#Z" n="52va" select="zbs-SII-0072_052v.json"/>
       </div>
@@ -69,9 +63,14 @@
           voluntas, oportet attendere, quid congruat ei velle et quo 
           fine: tantum enim interest inter voluntatem Dei et voluntatem 
           hominis, ut in quibusdam aliud congruat Deo velle, aliud homini.</p>
-        <p xml:id="pll1d48c1-d1e3523">Unde <name ref="#Augustine">Augustinus</name> in <title>Enchiridio</title>: 
+        <p xml:id="pll1d48c1-d1e3523">
+          Unde 
+          <ref xml:id="pl-l1d48c1-Rd1e131" corresp="#pll1d48c1-Qd1e3533">
+            <name xml:id="pl-l1d48c1-Nd1e132" ref="#Augustine">Augustinus</name> in <title>Enchiridio</title>
+          </ref>: 
           <cit>
-            <quote xml:id="pll1d48c1-Qd1e3533">Aliquando, inquit, 
+            <quote xml:id="pll1d48c1-Qd1e3533" source="http://scta.info/resource/augen-d1e252-d1e119@1-115">
+              Aliquando, inquit, 
               bona voluntate homo vult aliquid, quod Deus non vult bona multo 
               amplius multoque certius voluntate - nam ipsius mala voluntas 
               esse nunquam potest - tanquam si bonus filius patrem velit vivere, 
@@ -82,8 +81,9 @@
               tamen bonae Dei voluntati pietas illius potius consonat, quamvis 
               aliud volentis, quam huius idem volentis impietas. Multum enim 
               interest, quid velle homini, quid Deo congruat, et ad quem finem 
-              quisque suam referat voluntatem, ut approbetur vel improbetur.</quote>
-            <bibl>Augustinus, Enchiridion, c. 101, n. 26 (PL 40:279)</bibl>
+              quisque suam referat voluntatem, ut approbetur vel improbetur.
+            </quote>
+            <bibl>Augustinus, Enchiridion, 26, 101 (PL 40:279)</bibl>
           </cit>
         </p>
         <p xml:id="pll1d48c1-d1e3541">Potest enim velle bonum, quod non congruit ei velle; et potest 
