@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 2, Distinctio 5, Caput 5</title>
+        <author>Petrus Lombardus</author>
+        <editor/>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.1-dev">
+          <title>Liber 2, Distinctio 5, Caput 5</title>
+          <date when="2022-06-01">June 01, 2022</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher/>
+        <pubPlace/>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-04-09">April 09, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
+          <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+          <witness xml:id="Z" n="zbsSII72" xml:base="http://www.e-codices.unifr.ch/metadata/iiif/zbs-SII-0072/canvas/">Solothurn, Zentralbibliothek, Cod. S II 72</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2022-06-01" who="#JW" status="draft" n="0.0.1">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        
+      </div>
+    </front>
+  	<body>
+  		<div xml:id="pl-l2d5c5">
+  			<head xml:id="pl-l2d5c5-Hd1e99">Capitulum 5</head>
+  			<head xml:id="pl-l2d5c5-Hd1e101" type="questionTitle">An lapsis sit imputanda aversio</head>
+  			<p xml:id="pl-l2d5c5-d1e104">
+  			  Ideo a quibusdam obiici solet, non esse imputandum illis 
+  			  qui aversi sunt et non conversi, quia sine gratia converti non poterant; 
+  			  sed illa non eis data, nec culpa illorum fuit, quod 
+  			  non est data, quia in eis nulla culpa adhuc praecesserat.
+  			</p>
+  		  <p xml:id="pl-l2d5c5-d1e106">
+  		    Ad quod dici potest, quoniam quibus apposita est ipsa gratia, 
+  		    non fuit ex meritis eorum, alioquin iam non esset gratia, si ex 
+  		    merito, quod esset ante gratiam, daretur. Quod vero aliis non est 
+  		    data, culpa eorum fuit, quia cum stare possent, noluerunt, quousque
+  		    gratia apponeretur, sicut alii perstiterunt, donec, illis cadentibus 
+  		    per superbiam, eis gratia est apposita. Aperte ergo cadentium 
+  		    culpa in hoc deprehendi potest, quia, licet sine gratia nequirent 
+  		    proficere, quam nondum acceperant, per id tamen, quod 
+  		    eis collatum erat in creatione, poterant non cadere, id est stare; 
+  		    quia nihil erat, quod ad casum eos compelleret, sed sua spontanea 
+  		    voluntate declinaverunt; quod si non fecissent, quod datum
+  		    est aliis utique daretur et ists.
+  		  </p>
+  		</div>
+  	</body>
+  </text>
+</TEI>
