@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -57,7 +55,7 @@
           aliquo fiunt, dum malus est, et in peccato mortali persistit vel ad tempus, vel usque in
           finem; quae dicuntur remunerari a Deo et non dari oblivioni, non quia proficiant ad vitam
           aeternam obtinendam, sed ad tolerabilius extremi indicii supplicium- sentiendum; sicut de
-          fide et ceteris, quae sine caritate habentur, <name ref="#Augustine">Augustinus</name>
+          fide et ceteris, quae sine caritate habentur, <name xml:id="pl-l4d15c7-Nd1e108" ref="#Augustine">Augustinus</name>
           ait: <quote xml:id="pl-l4d15c7-Qd1e117">Si quis non habens caritatem, quae pertinet ad
           unitatem spiritus et vinculum pacis, quo Ecclesia connectitur, in aliquo schismate
           constitutus, ne Christum neget, patitur tribulationes, famem, persecutionem, vel flammas,
@@ -65,7 +63,7 @@
           laudanda est patientia. Non enim dicere poterimus, melius ei fuisse, ut Christum negando
           nihil eorum pateretur, quae passus est confitendo; sed aestimandum est , fortasse
           tolerabilius ei futurum iudicium, quam si, Christum negando, nihil eorum pateretur, ut
-          illud quod ait <name ref="Paul">Apostolus</name>: Si tradidero corpus meum, ita ut ardeam,
+          illud quod ait <name xml:id="pl-l4d15c7-Nd1e113" ref="Paul">Apostolus</name>: Si tradidero corpus meum, ita ut ardeam,
           caritatem autem non habuero, nihil mihi prodest, nihil prodesse intelligatur ad regnum
           obtinendum, non ad extremi indicii tolerabilius supplicium subeundum </quote>.</p>
         <p xml:id="pl-l4d15c7-d1e124">Et infra: <quote xml:id="pl-l4d15c7-Qd1e126"> Haec propter
@@ -74,11 +72,10 @@
         <p xml:id="pl-l4d15c7-d1e130">Ex bis ostenditur, bona, quae sine caritate fiunt, prodesse
           quidem ad tolerabiliorem poenam sentiendam, sed non ad vitam obtinendam.</p>
         <p xml:id="pl-l4d15c7-d1e133">Illa etiam, quae in caritate quis facit, si postea prolapsus
-          fuerit nec exsurrexerit, non esse in memoria Dei, Ezechiel dicit: Si averterit se iustus a
+          fuerit nec exsurrexerit, non esse in memoria Dei, Ezechiel dicit: <quote xml:id="pl-l4d15c7-Qd1e129" source="http://scta.info/resource/ez18_24@1-27">Si averterit se iustus a
           iustitia et fecerit iniquitatem, nunquid vivet? Omnes iustitiae eius, quas fecerat, non
-          recordabuntur; in peccato suo morietur, et non erunt in memoria iustitiae, quas fecit.</p>
-        <p xml:id="pl-l4d15c7-d1e137">In cuius loci expositione <name ref="GregoryGreat"
-          >Gregorius</name> ait: <quote xml:id="pl-l4d15c7-Qd1e142">Hoc nobis maxime considerandum
+          recordabuntur</quote>; <quote xml:id="pl-l4d15c7-Qd1e132" source="http://scta.info/resource/ez3_20@21-30">in peccato suo morietur, et non erunt in memoria iustitiae, quas fecit.</quote></p>
+        <p xml:id="pl-l4d15c7-d1e137">In cuius loci expositione <name xml:id="pl-l4d15c7-Nd1e138" ref="GregoryGreat">Gregorius</name> ait: <quote xml:id="pl-l4d15c7-Qd1e142">Hoc nobis maxime considerandum
           est, quia, cum mala committimus, sine causa ad memoriam transacta bona revocamus, quoniam
           in perpetratione malorum nulla debet esse fiducia praeteritorum bonorum </quote>.</p>
         <p xml:id="pl-l4d15c7-d1e146">lntelligendum est hic, ad vitam percipiendam bona praeterita
@@ -90,8 +87,7 @@
           confessionem non exposito.</p>
         <p xml:id="pl-l4d15c7-d1e152">Qui non modo praemissis auctoritatibus confutantur, sed et
           subditis.</p>
-        <p xml:id="pl-l4d15c7-d1e155">Ait enim <name ref="#Augustine">Augustinus</name>: <quote
-          xml:id="pl-l4d15c7-Qd1e160">Sunt plures, quos poenitet peccasse, sed tamen omnino
+        <p xml:id="pl-l4d15c7-d1e155">Ait enim <name xml:id="pl-l4d15c7-Nd1e156" ref="#Augustine">Augustinus</name>: <quote xml:id="pl-l4d15c7-Qd1e160">Sunt plures, quos poenitet peccasse, sed tamen omnino
           reservantes sibi quaedam, in quibus delectentur, non animadvertentes, Dominum simul mutum
           et surdum a daemonio liberasse: per hoc docet nos nunquam nisi de omnibus sanari. Si enim
           vellet peccata ex parte reservari, habentem daemonia septem, perficere potuit, sex
@@ -127,14 +123,12 @@
           et committendi cum desiderio satisfaciendi affert.</p>
         <p xml:id="pl-l4d15c7-d1e183">ludas enim poenituisse legitur sine assecutione veniae, quia
           tali poenitentia non corrigit crimen.</p>
-        <p xml:id="pl-l4d15c7-d1e186">Unde <name ref="#Jerome">Hieronymus</name>: <quote
-          xml:id="pl-l4d15c7-Qd1e191">Nihil Indae profuit egisse poenitentiam, per quam scelus
+        <p xml:id="pl-l4d15c7-d1e186">Unde <name xml:id="pl-l4d15c7-Nd1e187" ref="#Jerome">Hieronymus</name>: <quote xml:id="pl-l4d15c7-Qd1e191">Nihil Indae profuit egisse poenitentiam, per quam scelus
           corrigere non potuit. Si quando frater sic peccat in fratrem, ut emendare non valeat quod
           peccavit, potest ei dimitti; sin autem permanent opera, frustra voce assumitur
           poenitentia; hoc est quod de eo dicitur: Et oratio eius fiat in peccatum; ut non solum
           emendare nequiverit proditionis nefas, sed proprii homicidii scelus addiderit</quote>.</p>
-        <p xml:id="pl-l4d15c7-d1e195">Cave, qualiter intelligas illud: <quote
-          xml:id="pl-l4d15c7-Qd1e197">Ut emendare non valeat quod peccavit </quote>, etc. Non enim
+        <p xml:id="pl-l4d15c7-d1e195">Cave, qualiter intelligas illud: <quote xml:id="pl-l4d15c7-Qd1e197">Ut emendare non valeat quod peccavit </quote>, etc. Non enim
           emendatio hic intelligenda est rei demptae recompensatio, sed delicti exprobratio et
           abominatio cum satisfactionis desiderio. Demit enim iniuste quis alicui quod restituere
           non valet, ut oculum vel vitam et huiusmodi; et tamen, si poenituerit peccati, cum amore
