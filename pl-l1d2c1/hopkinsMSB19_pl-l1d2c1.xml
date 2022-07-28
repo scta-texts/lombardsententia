@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 1, Distinctio 2, Caput 1 [Hopkins MSB19 Transcription]</title>
+        <author>Petrus Lombardus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor; Tei Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="#RobbieBuhite">Robert J. Buhite III</name>
+          <resp>Transcription Editor; Tei Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 1, Distinctio 2, Caput 1  [Hopkins MSB19 Transcription]</title>
+          <date when="2022-07-28">July 28, 2022</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>
+            <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="H" n="hopkinsMSB19">Baltimore, Hopkins, MS B19</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2022-07-28" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#H" n="5-v"/>
+        <cb ed="#H" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d2c1">
+        <head>Capitulum 1</head>
+        <p xml:id="pll1d2c1-d1e3473">
+          <lb ed="#H"/>hoc itaque vera ac pia 
+          <lb ed="#H"/>fide tenendum est <quote xml:id="pll1d2c1-Qd1e3477" source="http://scta.info/resource/adt-l1">quod Trinitas sit unus 
+          <cb ed="#H" n="b"/>
+          <lb ed="#H"/>et solus veru Deus, ut <name ref="#Augustine">Augustinus</name> in I libro 
+              <title ref="#deTrinitate">De Trinitate</title>, scilicet Pater et Filius et Spiritus sanctus; et haec 
+              Trinitas unius eiusdemque substantiae vel essentiae dicitur, creditur 
+              et it intelligitur, quae est summum bonum, quod purgatissimis 
+              mentibus cernitur. Mentis enim humanae acies invalida in tam excellenti 
+              luce non figitur, nisi per iustitiam fidei emundetur.</quote>
+        </p>
+        <!-- this paragraph is in a smaller font the meaning of which is not clear -->
+        <p xml:id="pll1d2c1-d1e3493">Idem in eodem: 
+          <cit>
+            <quote xml:id="pll1d2c1-Qd1e3497">Non approbo quod in oratione dixi: 
+              <cit>
+                <quote xml:id="pll1d2c1-Qd1e3501">Deus, qui 
+                  nisi mundos verum scire voluisti.</quote>
+              </cit>
+              Responderi enim potest, multos etiam 
+              non mundos multa scire vera.
+            </quote>
+            <bibl>Augustine, Soliloq., Libr. I, c. 1, n. 2 (PL 32:870)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d2c1-d1e3511">De hac igitur re summa et excellentissima cum modestia et 
+          timore agendum est, et attentissimis auribus atque devotis audiendum 
+          <cit>
+            <quote xml:id="pll1d2c1-Qd1e3515" source="http://scta.info/resource/adt-l1-d1e27">
+              ubi quaeritur unitas Trinitatis, Patris scilicet et Filii et Spiritus 
+              sancti, quia nec periculosius alicubi erratur, nec laboriosius 
+              aliquid quaeritur, nec fructuosius aliquid invenitur.</quote>
+            <bibl>Augustinus, De Trinitate, I, c. 3, n. 5 (PL 42:822)</bibl>
+          </cit>
+        </p>
+        <p xml:id="pll1d2c1-d1e3524">Proinde omnis, qui audit et legit ea quae de ineffabili et inaccessibili 
+          Deitatis luce dicuntur, studeat imitari atque servare, 
+          quod <ref><name ref="#Augustine">venerabilis doctor Augustinus</name> in libro I <title ref="#deTrinitate">De Trinitate</title></ref> 
+          de se ipso ait: 
+          <cit>
+            <quote xml:id="pll1d2c1-Qd1e3535" source="http://scta.info/resource/adt-l1-d1e24 
+              http://scta.info/resource/adt-l1-d1e27">
+              Non pigebit me, inquit, sicubi 
+              <cb ed="P" n="6ra"/>
+              haesito, quaerere, 
+              nec pudebit, sicubi erro, discere. 
+              <!-- breaks to next paragraph-->
+              Quisquis ergo haec audit vel legit, 
+              ubi pariter certus est, pergat mecum; ubi pariter haesitat, quaerat 
+              mecum; ubi errorem suum cognoscit, redeat ad me; ubi meum, 
+              revocet me. Ita ingrediamur simul caritatis viam, tendentes ad 
+              eum de quo dictum est: 
+              <cit>
+                <quote xml:id="pll1d2c1-Qd1e3539" source="http://scta.info/resource/ps104_4">Quaerite faciem eius semper</quote>
+                <bibl>Psalm 104:4</bibl>
+              </cit>
+            </quote>
+            <bibl>
+              <name>Augustinus</name>, 
+              <title>De Trinitate</title>, 
+              I, 
+              c. 2, 4 - c. 3, n. 5 
+              <!--(PL 42:824)-->
+            </bibl>
+          </cit>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
