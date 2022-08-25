@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -60,60 +57,60 @@
         <p xml:id="pll1d1c1-vanspv">
           <pb ed="#Vb" n="4-v"/>
           <cb ed="#Vb" n="a"/>
-          <lb ed="#Vb" n="1"/>Vete<lb ed="#Vb"/>ris 
-          <lb ed="#Vb"/>ac 
-          <lb ed="#Vb"/>no<lb ed="#Vb"/>vae 
-          <lb ed="#Vb"/>le<lb ed="#Vb"/>gis 
-          continentiam diligenti inda<lb ed="#Vb"/>gine 
+          <lb ed="#Vb" n="1"/>Vete<lb ed="#Vb" n="2" break="no"/>ris 
+          <lb ed="#Vb" n="3"/>ac 
+          <lb ed="#Vb" n="4"/>no<lb ed="#Vb" n="5" break="no"/>vae 
+          <lb ed="#Vb" n="6"/>le<lb ed="#Vb" n="7" break="no"/>gis 
+          continentiam diligenti inda<lb ed="#Vb" n="8" break="no"/>gine 
           etiam atque etiam considerantibus 
-          <lb ed="#Vb"/>nobis praevia dei gratia innotuit sa<lb ed="#Vb"/>crae 
+          <lb ed="#Vb" n="9"/>nobis praevia dei gratia innotuit sa<lb ed="#Vb" n="10" break="no"/>crae 
           paginae tractatum circa res vel 
-          <lb ed="#Vb"/>signa praecipue versari
+          <lb ed="#Vb" n="11"/>signa praecipue versari
         </p>
         <p xml:id="pll1d1c1-ueeeis">
-          ut enim <ref xml:id="pl-l1d1c1-Rd1e3532"><name ref="#Augustine">egre<lb ed="#Vb"/>gius 
+          ut enim <ref xml:id="pl-l1d1c1-Rd1e3532"><name ref="#Augustine">egre<lb ed="#Vb" n="12" break="no"/>gius 
           doctor augustinus</name> ait in libro <title ref="#deDoctrinaChristiana">de 
           doctrina christiana</title></ref> <quote xml:id="pl-l1d1c1-Qd1e3544">omnis doctrina 
-          <lb ed="#Vb"/>vel rerum est vel signorum sed res eti<lb ed="#Vb"/>am 
+          <lb ed="#Vb" n="13"/>vel rerum est vel signorum sed res eti<lb ed="#Vb" n="14" break="no"/>am 
           per signa dignoscuntur proprie <unclear>et</unclear> 
-          <lb ed="#Vb"/>autem res hic appellantur quae non 
-          <lb ed="#Vb"/>ad significandum aliquid adhi<lb ed="#Vb"/>bentur 
+          <lb ed="#Vb" n="15"/>autem res hic appellantur quae non 
+          <lb ed="#Vb" n="16"/>ad significandum aliquid adhi<lb ed="#Vb" n="17" break="no"/>bentur 
           Signa vero <pc>:</pc> quorum usus in 
-          <lb ed="#Vb"/>significando est</quote>
+          <lb ed="#Vb" n="18"/>significando est</quote>
         </p>
         <p xml:id="pll1d1c1-eaases">
           <pc type="#pilcrow"/>Eorum autem <!-- scribal confusion over aliqua or alia -->vel 
-          <lb ed="#Vb"/>aliqua vel alia <!-- end confusion --> sunt <pc type="#punctus"/> quorum usus 
-          <lb ed="#Vb"/>omnis in significando est <pc type="#punctus"/> non in iu<lb ed="#Vb"/>stificando 
+          <lb ed="#Vb" n="19"/>aliqua vel alia <!-- end confusion --> sunt <pc type="#punctus"/> quorum usus 
+          <lb ed="#Vb" n="20"/>omnis in significando est <pc type="#punctus"/> non in iu<lb ed="#Vb" n="21" break="no"/>stificando 
           id est quibus non utimur 
-          <lb ed="#Vb"/>nisi aliquod significandi gratia ut ali<lb ed="#Vb"/>qua 
+          <lb ed="#Vb" n="22"/>nisi aliquod significandi gratia ut ali<lb ed="#Vb" n="23" break="no"/>qua 
           sacramenta legalia alia quae 
-          <lb ed="#Vb"/>non solum significant <pc>:</pc> sed con<lb ed="#Vb"/>ferunt 
+          <lb ed="#Vb" n="24"/>non solum significant <pc>:</pc> sed con<lb ed="#Vb" n="25" break="no"/>ferunt 
           <pc type="#punctus"/> quod intus adiuvent sicut 
-          <lb ed="#Vb"/>evangelica sacramenta
+          <lb ed="#Vb" n="26"/>evangelica sacramenta
         </p>
         <p xml:id="pll1d1c1-eqadta">
-          <pc type="#pilcrow"/><quote xml:id="pl-l1d1c1-Qd1e3559">Ex quo a<lb ed="#Vb"/>perte 
-          intelligitur quae hic appellen<lb ed="#Vb"/>tur 
-          res illae videlicet quae ad signifi<lb ed="#Vb"/>candum 
+          <pc type="#pilcrow"/><quote xml:id="pl-l1d1c1-Qd1e3559">Ex quo a<lb ed="#Vb" n="27" break="no"/>perte 
+          intelligitur quae hic appellen<lb ed="#Vb" n="28" break="no"/>tur 
+          res illae videlicet quae ad signifi<lb ed="#Vb" n="29" break="no"/>candum 
           aliquid adhibentur omne 
-          <lb ed="#Vb"/>igitur signum <pc>:</pc> etiam aliqua res est quod enim nu<lb ed="#Vb"/>lla 
-          res est Quod enim nulla res est 
-          <lb ed="#Vb"/>ut in eodem libro <name ref="#Augustine">augustinus</name> ait omnino nihil 
-          <lb ed="#Vb"/>est non autem econverso omnis res sig<lb ed="#Vb"/>num 
-          est</quote> quia non adhibetur ad signi<cb ed="#Vb" n="b"/><lb ed="#Vb"/>ficandum 
-          aliquid Cumque his in<lb ed="#Vb"/>tenderit 
-          theologorum speculatio e<lb ed="#Vb"/>studiosa 
+          <lb ed="#Vb" n="30"/>igitur signum <pc>:</pc> etiam aliqua res est quod enim nu<lb ed="#Vb" n="31" break="no"/>lla 
+          res est Quod enim nulla res est</quote>
+          <lb ed="#Vb" n="32"/>ut in eodem libro <name ref="#Augustine">augustinus</name> ait <quote xml:id="pl-l1d1c1-Qd1e3xtx">omnino nihil 
+          <lb ed="#Vb" n="33"/>est non autem econverso omnis res sig<lb ed="#Vb" n="34" break="no"/>num 
+          est</quote> quia non adhibetur ad signi<cb ed="#Vb" n="b"/><lb ed="#Vb" n="35"/>ficandum 
+          aliquid Cumque his in<lb ed="#Vb" n="36" break="no"/>tenderit 
+          theologorum speculatio e<lb ed="#Vb" n="37" break="no"/>studiosa 
           atque modesta divinam 
-          <lb ed="#Vb"/>scripturam formam praescriptam in 
-          <lb ed="#Vb"/>doctrina tenere avertet <pc type="#punctus"/>
+          <lb ed="#Vb" n="38"/>scripturam formam praescriptam in 
+          <lb ed="#Vb" n="39"/>doctrina tenere avertet <pc type="#punctus"/>
         </p>
         <p xml:id="pll1d1c1-dhedsd">
           De his ergo 
-          <lb ed="#Vb"/>nobis aditum ad res divinas a<lb ed="#Vb"/>liquatenus 
+          <lb ed="#Vb" n="40"/>nobis aditum ad res divinas a<lb ed="#Vb" n="41" break="no"/>liquatenus 
           intelligendas deo 
-          <lb ed="#Vb"/>duce aperire volentibus disserendum 
-          <lb ed="#Vb"/>est <pc type="#punctus"/> et primum de rebus postea de signis dis<lb ed="#Vb"/>seremus 
+          <lb ed="#Vb" n="42"/>duce aperire volentibus disserendum 
+          <lb ed="#Vb" n="43"/>est <pc type="#punctus"/> et primum de rebus postea de signis dis<lb ed="#Vb" n="44" break="no"/>seremus 
         </p>
       </div>
     </body>

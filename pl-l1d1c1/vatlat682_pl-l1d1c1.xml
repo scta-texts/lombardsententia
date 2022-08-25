@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -60,46 +57,46 @@
         <p xml:id="pll1d1c1-vanspv">
           <pb ed="#Vc" n="2-r"/>
           <cb ed="#Vc" n="a"/>
-          <lb ed="#Vc" n="1"/>Veteris ac novae legis conti<lb ed="#Vc"/>nentiam 
-          diligenti indagi<lb ed="#Vc"/>ne 
+          <lb ed="#Vc" n="1"/>Veteris ac novae legis conti<lb ed="#Vc" break="no" n="2"/>nentiam 
+          diligenti indagi<lb ed="#Vc" break="no" n="3"/>ne 
           etiam atque etiam considerantibus 
-          <lb ed="#Vc"/>nobis praevia dei gratia inno<lb ed="#Vc"/>tuit 
-          sacrae paginae trac<lb ed="#Vc"/>tatum 
+          <lb ed="#Vc" n="4"/>nobis praevia dei gratia inno<lb ed="#Vc" break="no" n="5"/>tuit 
+          sacrae paginae trac<lb ed="#Vc" break="no" n="6"/>tatum 
           circa res vel signa 
-          <lb ed="#Vc"/>praecipue versari
+          <lb ed="#Vc" n="7"/>praecipue versari
         </p>
         <p xml:id="pll1d1c1-ueeeis">
-          Ut enim <ref xml:id="pl-l1d1c1-Rd1e3532"><name ref="#Augustine">e<lb ed="#Vc"/>gregius 
+          Ut enim <ref xml:id="pl-l1d1c1-Rd1e3532"><name ref="#Augustine">e<lb ed="#Vc" break="no" n="8"/>gregius 
           doctor augustinus</name> ait in libro <title ref="#deDoctrinaChristiana">de doctrina 
-          <lb ed="#Vc"/>christiana</title></ref> <quote xml:id="pl-l1d1c1-Qd1e3544">omnis doctrina vel rerum est vel signo<lb ed="#Vc"/>rum 
+          <lb ed="#Vc" n="9"/>christiana</title></ref> <quote xml:id="pl-l1d1c1-Qd1e3544">omnis doctrina vel rerum est vel signo<lb ed="#Vc" break="no" n="10"/>rum 
           sed res etiam per signa discuntur proprie autem hic res 
-          <lb ed="#Vc"/>appellantur quae non ad significandum aliquid 
-          <lb ed="#Vc"/>adhibentur Signa vero quorum usus est in signi<lb ed="#Vc"/>ficando 
+          <lb ed="#Vc" n="11"/>appellantur quae non ad significandum aliquid 
+          <lb ed="#Vc" n="12"/>adhibentur Signa vero quorum usus est in signi<lb ed="#Vc" break="no" n="13"/>ficando 
           est</quote>
         </p>
         <p xml:id="pll1d1c1-eaases">
           eorum autem aliqua sunt quorum omnis usus est 
           in significando non in iustificando id est quibus 
-          <lb ed="#Vc"/>non utimur nisi aliquid significandi gratia ut ali<lb ed="#Vc"/>qua 
+          <lb ed="#Vc" n="14"/>non utimur nisi aliquid significandi gratia ut ali<lb ed="#Vc" break="no" n="15"/>qua 
           sacramenta legalia Alia quae non solum 
-          <lb ed="#Vc"/>significant sed conferunt quod intus adiuvent sicut evan<lb ed="#Vc"/>gelica 
+          <lb ed="#Vc" n="16"/>significant sed conferunt quod intus adiuvent sicut evan<lb ed="#Vc" break="no" n="17"/>gelica 
           sacramenta
         </p>
         <p xml:id="pll1d1c1-eqadta">
           <quote xml:id="pl-l1d1c1-Qd1e3559">Ex quo aperte intelligitur quae 
-          <lb ed="#Vc"/>hic appellentur signa res illae videlicet quae ad si<lb ed="#Vc"/>gnificandum 
+          <lb ed="#Vc" n="18"/>hic appellentur signa res illae videlicet quae ad si<lb ed="#Vc" break="no" n="19"/>gnificandum 
           aliquid adhibentur Omne igitur signum etiam  
-          <lb ed="#Vc"/>res aliqua est quod enim nulla res est ut in eodem 
-          <lb ed="#Vc"/><name ref="#Augustine">augustinus</name> ait omnino nihil est non autem econverso omnis res 
-          <lb ed="#Vc"/>signum est</quote> quia non adhibetur ad significandum a<lb ed="#Vc"/>liquid 
-          Cumque his intenderit theologorum specu<lb ed="#Vc"/>latio 
+          <lb ed="#Vc" n="20"/>res aliqua est quod enim nulla res est</quote> ut in eodem 
+          <lb ed="#Vc" n="21"/><name ref="#Augustine">augustinus</name> ait <quote xml:id="pl-l1d1c1-Qd1e3xtx">omnino nihil est non autem econverso omnis res 
+          <lb ed="#Vc" n="22"/>signum est</quote> quia non adhibetur ad significandum a<lb ed="#Vc" break="no" n="23"/>liquid 
+          Cumque his intenderit theologorum specu<lb ed="#Vc" break="no" n="24"/>latio 
           studiosa atque modesta divinam scripturam 
-          <lb ed="#Vc"/>formam praescriptam in doctrina tenere advertet 
+          <lb ed="#Vc" n="25"/>formam praescriptam in doctrina tenere advertet 
         </p>
         <p xml:id="pll1d1c1-dhedsd">
-          <lb ed="#Vc"/>De his ergo nobis aditum ad res divinas aliquate<lb ed="#Vc"/>nus 
-          intelligendas deo duce aperire volenti<lb ed="#Vc"/>bus 
-          disserendum est Et primum de rebus postea de si<lb ed="#Vc"/>gnis 
+          <lb ed="#Vc" n="26"/>De his ergo nobis aditum ad res divinas aliquate<lb ed="#Vc" break="no" n="27"/>nus 
+          intelligendas deo duce aperire volenti<lb ed="#Vc" break="no" n="28"/>bus 
+          disserendum est Et primum de rebus postea de si<lb ed="#Vc" break="no" n="29"/>gnis 
           disseremus 
         </p>
       </div>

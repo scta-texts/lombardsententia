@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -62,36 +59,36 @@
         <p xml:id="pll1d1c1-vanspv">
           <!-- this is line when exlucing table of contents that precedes on this page -->
           <lb ed="#Pd" n="1"/>Veteris ac novae legis continentiam diligenti 
-          <lb ed="#Pd"/>indagine etiam atque etiam considerantibus nobis praevia 
-          <lb ed="#Pd"/>dei gratia innotuit sacrae paginae tractatum 
-          <lb ed="#Pd"/>circa res vel signa praecipue versari
+          <lb ed="#Pd" n="2"/>indagine etiam atque etiam considerantibus nobis praevia 
+          <lb ed="#Pd" n="3"/>dei gratia innotuit sacrae paginae tractatum 
+          <lb ed="#Pd" n="4"/>circa res vel signa praecipue versari
         </p>
         <p xml:id="pll1d1c1-ueeeis">
-          Ut enim <ref xml:id="pl-l1d1c1-Rd1e3532"><name ref="#Augustine">egre<pb ed="#Pd" n="6-r"/><lb ed="#Pd"/>gius 
-          doctor Augustinus</name> ait in libro <title ref="#deDoctrinaChristiana">de doctrina christiana</title></ref> <quote xml:id="pl-l1d1c1-Qd1e3544" source="http://scta.info/resource/Augustine_DeDoctrinaChristiana_1_2_2_a">Omnis 
-          <lb ed="#Pd"/>doctrina vel rerum est vel signorum si res etiam per signa discuntur 
-          <lb ed="#Pd"/>proprie autem hic res appellantur quae non ad significandum 
-          <lb ed="#Pd"/>aliquid adhibentur Signa vero quorum usus est in significando</quote>
+          Ut enim <ref xml:id="pl-l1d1c1-Rd1e3532"><name ref="#Augustine">egre<pb ed="#Pd" n="6-r"/><lb ed="#Pd" n="1" break="no"/>gius 
+          doctor Augustinus</name> ait in libro <title ref="#deDoctrinaChristiana">de doctrina christiana</title></ref> <quote xml:id="pl-l1d1c1-Qd1e3544">Omnis 
+          <lb ed="#Pd" n="2"/>doctrina vel rerum est vel signorum si res etiam per signa discuntur 
+          <lb ed="#Pd" n="3"/>proprie autem hic res appellantur quae non ad significandum 
+          <lb ed="#Pd" n="4"/>aliquid adhibentur Signa vero quorum usus est in significando</quote>
         </p>
         <p xml:id="pll1d1c1-eaases">
-          <lb ed="#Pd"/>Eorum autem aliqua sunt, quorum omnis usus in significando 
-          <lb ed="#Pd"/>non in iustificando id est quibus non utimur nisi aliquid significandi gratia ut aliqua 
-          <lb ed="#Pd"/>sacramenta legalia Alia quae non solum significant sed conferunt 
-          <lb ed="#Pd"/>quod intus adiuvet sicut evvangelica sacramenta</p>
+          <lb ed="#Pd" n="5"/>Eorum autem aliqua sunt, quorum omnis usus in significando 
+          <lb ed="#Pd" n="6"/>non in iustificando id est quibus non utimur nisi aliquid significandi gratia ut aliqua 
+          <lb ed="#Pd" n="7"/>sacramenta legalia Alia quae non solum significant sed conferunt 
+          <lb ed="#Pd" n="8"/>quod intus adiuvet sicut evvangelica sacramenta</p>
         <p xml:id="pll1d1c1-eqadta">
-          <quote xml:id="pl-l1d1c1-Qd1e3559" source="http://scta.info/resource/Augustine_DeDoctrinaChristiana_1_2_2_b">Ex quo 
-          <lb ed="#Pd"/>aperte intelligitur quae hic appellentur signa res videlicet 
-          <lb ed="#Pd"/>quae ad significandum aliquid adhibentur Omne igitur signum 
-          <lb ed="#Pd"/>etiam res aliqua est <pc type="virgula">/</pc> quod enim nulla res est ut in eodem <name ref="#Augustine">Augustinus</name> 
-          <lb ed="#Pd"/>ait omnino nichil est non autem econverso omnis res signum est</quote> 
-          <lb ed="#Pd"/>quia non adhibetur ad significandum aliquid Cumque hiis 
-          <lb ed="#Pd"/>intenderit theologorum speculatio studiosa atque modesta 
-          <lb ed="#Pd"/>divinam scripturam formam praescriptam in doctrina tenere advertet
+          <quote xml:id="pl-l1d1c1-Qd1e3559">Ex quo 
+          <lb ed="#Pd" n="9"/>aperte intelligitur quae hic appellentur signa res videlicet 
+          <lb ed="#Pd" n="10"/>quae ad significandum aliquid adhibentur Omne igitur signum 
+          <lb ed="#Pd" n="11"/>etiam res aliqua est <pc type="virgula">/</pc> quod enim nulla res est</quote> ut in eodem <name ref="#Augustine">Augustinus</name> 
+          <lb ed="#Pd" n="12"/>ait <quote xml:id="pl-l1d1c1-Qd1e3xtx">omnino nichil est non autem econverso omnis res signum est</quote> 
+          <lb ed="#Pd" n="13"/>quia non adhibetur ad significandum aliquid Cumque hiis 
+          <lb ed="#Pd" n="14"/>intenderit theologorum speculatio studiosa atque modesta 
+          <lb ed="#Pd" n="15"/>divinam scripturam formam praescriptam in doctrina tenere advertet
         </p>
         <p xml:id="pll1d1c1-dhedsd">
-          <lb ed="#Pd"/>De hiis ergo nobis aditum ad res divinas aliquatenus 
-          <lb ed="#Pd"/>intelligendas deo duce aperire volentibus disserendum 
-          <lb ed="#Pd"/>est et primum de rebus postea de signis disseremus
+          <lb ed="#Pd" n="16"/>De hiis ergo nobis aditum ad res divinas aliquatenus 
+          <lb ed="#Pd" n="17"/>intelligendas deo duce aperire volentibus disserendum 
+          <lb ed="#Pd" n="18"/>est et primum de rebus postea de signis disseremus
         </p>
       </div>
     </body>

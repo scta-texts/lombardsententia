@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -64,52 +61,52 @@
         <head xml:id="pl-l1d1c1-Hd1e3524">Capitulum 1 [Hopkins MSB19 Transcription]</head>
         <p xml:id="pll1d1c1-vanspv">
           <lb ed="#H" n="1"/>Veteris 
-          <lb ed="#H"/>ac novae 
-          <lb ed="#H"/>legis 
-          <lb ed="#H"/>continentiam 
-          <lb ed="#H"/>diligenti in<lb ed="#H"/>dagine 
+          <lb ed="#H" n="2"/>ac novae 
+          <lb ed="#H" n="3"/>legis 
+          <lb ed="#H" n="4"/>continentiam 
+          <lb ed="#H" n="5"/>diligenti in<lb ed="#H" n="6" break="no"/>dagine 
           etiam 
-          <lb ed="#H"/>atque etiam con<lb ed="#H"/>siderantibus 
-          <lb ed="#H"/>nobis praevia dei 
-          <lb ed="#H"/>gratia innotuit 
-          <lb ed="#H"/>sacrae paginae 
-          <lb ed="#H"/>tractatum 
-          <lb ed="#H"/>circa res vel 
-          <lb ed="#H"/>signa praecipue versari
+          <lb ed="#H" n="7"/>atque etiam con<lb ed="#H" n="8" break="no"/>siderantibus 
+          <lb ed="#H" n="9"/>nobis praevia dei 
+          <lb ed="#H" n="10"/>gratia innotuit 
+          <lb ed="#H" n="11"/>sacrae paginae 
+          <lb ed="#H" n="12"/>tractatum 
+          <lb ed="#H" n="13"/>circa res vel 
+          <lb ed="#H" n="14"/>signa praecipue versari
         </p>
         <p xml:id="pll1d1c1-ueeeis">
           ut enim <ref xml:id="pl-l1d1c1-Rd1e3532"><name ref="#Augustine">egregius doctor 
-          <lb ed="#H"/>augustinus</name> ait in libro <title ref="#deDoctrinaChristiana">de doctrina christiana</title></ref> <pc type="#punctus"/> <quote xml:id="pl-l1d1c1-Qd1e3544" source="http://scta.info/resource/Augustine_DeDoctrinaChristiana_1_2_2_a">Omnis doctri<lb ed="#H"/>na 
-          vel rerum est vel signorum <unclear>sed</unclear> res etiam per sig<lb ed="#H"/>na 
-          discuntur proprie autem hic res appellantur quae non ad sig<lb ed="#H"/>nificandum 
+          <lb ed="#H" n="15"/>augustinus</name> ait in libro <title ref="#deDoctrinaChristiana">de doctrina christiana</title></ref> <pc type="#punctus"/> <quote xml:id="pl-l1d1c1-Qd1e3544" source="http://scta.info/resource/Augustine_DeDoctrinaChristiana_1_2_2_a">Omnis doctri<lb ed="#H" n="16" break="no"/>na 
+          vel rerum est vel signorum <unclear>sed</unclear> res etiam per sig<lb ed="#H" n="17" break="no"/>na 
+          discuntur proprie autem hic res appellantur quae non ad sig<lb ed="#H" n="18" break="no"/>nificandum 
           aliquid adibentur <pc type="#punctus"/> Signa uero quorum 
-          <lb ed="#H"/>omnis usus est in significando</quote> <pc type="#punctus"/>
+          <lb ed="#H" n="19"/>omnis usus est in significando</quote> <pc type="#punctus"/>
         </p>
         <p xml:id="pll1d1c1-eaases">
           Eorum autem aliqua sunt 
-          <lb ed="#H"/>quorum omnis usus est in significando non in 
-          <lb ed="#H"/>iustificando id est quibus non utimur nisi aliquid signi<lb ed="#H"/>ficandi
+          <lb ed="#H" n="20"/>quorum omnis usus est in significando non in 
+          <lb ed="#H" n="21"/>iustificando id est quibus non utimur nisi aliquid signi<lb ed="#H" n="22" break="no"/>ficandi
           gratia <pc type="#punctus"/> ut aliqua sacramenta legalia <pc type="#punctus"/> aliqua 
-          <lb ed="#H"/>quae non solum significant sed conferunt quod intus ad iu<lb ed="#H"/>vet 
+          <lb ed="#H" n="23"/>quae non solum significant sed conferunt quod intus ad iu<lb ed="#H" n="24" break="no"/>vet 
           sicut <pc type="#punctus"/> euangelica sacramenta
         </p>
         <p xml:id="pll1d1c1-eqadta">
-          <quote xml:id="pl-l1d1c1-Qd1e3559" source="http://scta.info/resource/Augustine_DeDoctrinaChristiana_1_2_2_b">Ex quo aperte in<lb ed="#H"/>telligitur 
+          <quote xml:id="pl-l1d1c1-Qd1e3559">Ex quo aperte in<lb ed="#H" n="25" break="no"/>telligitur 
           quae hic appellentur signa res illae 
-          <lb ed="#H"/>videlicet quae ad significandum aliquid adi<lb ed="#H"/>bentur <pc type="#punctus"/> 
+          <lb ed="#H" n="26"/>videlicet quae ad significandum aliquid adi<lb ed="#H" n="27" break="no"/>bentur <pc type="#punctus"/> 
           Omne igitur signum etiam res est aliqua quod 
-          <lb ed="#H"/>enim nulla res est ut in eodem <name ref="#Augustine">augustinus</name> ait omnino nichil est 
-          <lb ed="#H"/>non autem econverso <pc type="#punctus"/> omnis res signum est</quote> quia non adhi<lb ed="#H"/>betur 
-          ad significandum aliquid <pc type="#punctus"/> Cumque his inten<lb ed="#H"/>derit 
+            <lb ed="#H" n="28"/>enim nulla res est</quote> ut in eodem <name ref="#Augustine">augustinus</name> ait <quote xml:id="pl-l1d1c1-Qd1e3xtx">omnino nichil est 
+          <lb ed="#H" n="29"/>non autem econverso <pc type="#punctus"/> omnis res signum est</quote> quia non adhi<lb ed="#H" n="30" break="no"/>betur 
+          ad significandum aliquid <pc type="#punctus"/> Cumque his inten<lb ed="#H" n="31" break="no"/>derit 
           theologorum speculatio studiosa atque 
-          <lb ed="#H"/>modesta divinam scripturam formam prae<lb ed="#H"/>scriptam 
+          <lb ed="#H" n="32"/>modesta divinam scripturam formam prae<lb ed="#H" n="33" break="no"/>scriptam 
           in doctrina tenere advertet <pc type="#punctus"/>
         </p>
         <p xml:id="pll1d1c1-dhedsd">
           De his ergo 
-          <lb ed="#H"/>nobis additum <pc type="#punctus"/> ad res divinas aliquatenus intel<lb ed="#H"/>ligendas 
+          <lb ed="#H" n="34"/>nobis additum <pc type="#punctus"/> ad res divinas aliquatenus intel<lb ed="#H" n="35" break="no"/>ligendas 
           deo duce aperire<!-- possible correction here --> volentibus disserendum 
-          <lb ed="#H"/>est et primum de rebus postea de signis disseremus <pc type="#punctus"/>
+          <lb ed="#H" n="36"/>est et primum de rebus postea de signis disseremus <pc type="#punctus"/>
         </p>
       </div>
     </body>

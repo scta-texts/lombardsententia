@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -60,49 +57,49 @@
       <div xml:id="pl-l1d1c1">
         <head xml:id="pl-l1d1c1-Hd1e3524">Capitulum 1 [zbsSII72 Transcription]</head>
         <p xml:id="pll1d1c1-vanspv">
-          <lb ed="#Z"/>Veteris ac 
-          <lb ed="#Z"/>novae legis continen<lb ed="#Z"/>tiam 
-          diligenti in<lb ed="#Z"/>dagine 
-          etiam atque etiam con<lb ed="#Z"/>siderantibus 
+          <lb ed="#Z" n="18"/>Veteris ac 
+          <lb ed="#Z" n="19"/>novae legis continen<lb ed="#Z" break="no" n="20"/>tiam 
+          diligenti in<lb ed="#Z" break="no" n="21"/>dagine 
+          etiam atque etiam con<lb ed="#Z" break="no" n="22"/>siderantibus 
           nobis 
-          <lb ed="#Z"/>praevia dei gratia inno<lb ed="#Z"/>tuit 
+          <lb ed="#Z" n="23"/>praevia dei gratia inno<lb ed="#Z" break="no" n="24"/>tuit 
           sacrae paginae 
-          <lb ed="#Z"/>tractatum circa 
-          <lb ed="#Z"/>res vel signa praecipue versari
+          <lb ed="#Z" n="25"/>tractatum circa 
+          <lb ed="#Z" n="26"/>res vel signa praecipue versari
         </p>
         <p xml:id="pll1d1c1-ueeeis">
-          ut enim <ref xml:id="pl-l1d1c1-Rd1e3532"><name ref="#Augustine">egre<lb ed="#Z"/>gius 
-          doctor augustinus</name> ait in libro <title ref="#deDoctrinaChristiana">de doctrina christia<lb ed="#Z"/>na</title></ref> 
-          <quote xml:id="pl-l1d1c1-Qd1e3544" source="http://scta.info/resource/Augustine_DeDoctrinaChristiana_1_2_2_a">Omnis doctrina vel rerum est vel signorum <sic>sed</sic> res 
-          <lb ed="#Z"/>etiam per signa <seg type="correction"><del>dino</del><add place="above-line">dis</add></seg>cuntur proprie autem hic res ap<lb ed="#Z"/>pellantur 
+          ut enim <ref xml:id="pl-l1d1c1-Rd1e3532"><name ref="#Augustine">egre<lb ed="#Z" break="no" n="27"/>gius 
+          doctor augustinus</name> ait in libro <title ref="#deDoctrinaChristiana">de doctrina christia<lb ed="#Z" break="no" n="28"/>na</title></ref> 
+          <quote xml:id="pl-l1d1c1-Qd1e3544">Omnis doctrina vel rerum est vel signorum <sic>sed</sic> res 
+          <lb ed="#Z" n="29"/>etiam per signa <seg type="correction"><del>dino</del><add place="above-line">dis</add></seg>cuntur proprie autem hic res ap<lb ed="#Z" break="no" n="30"/>pellantur 
           quae non ad significandum aliquid 
-            <lb ed="#Z"/>adhibentur Signa vero quorum usus est in signifi<lb ed="#Z"/>cando</quote>
+            <lb ed="#Z" n="31"/>adhibentur Signa vero quorum usus est in signifi<lb ed="#Z" break="no" n="32"/>cando</quote>
         </p>
         <p xml:id="pll1d1c1-eaases">
           eorum autem aliqua sunt quorum 
-          <lb ed="#Z"/>omnis usus in significando non in iustificando 
+          <lb ed="#Z" n="33"/>omnis usus in significando non in iustificando 
           id est quibus non utimur nisi aliquid significandi gratia 
-          <lb ed="#Z"/>ut aliqua sacramenta legalia alia quae non so<lb ed="#Z"/>lum 
-          significant sed conferunt quod intus ad<lb ed="#Z"/>iuvet 
+          <lb ed="#Z" n="34"/>ut aliqua sacramenta legalia alia quae non so<lb ed="#Z" break="no" n="35"/>lum 
+          significant sed conferunt quod intus ad<lb ed="#Z" break="no" n="36"/>iuvet 
           sicut evangelica sacramenta
         </p>
         <p xml:id="pll1d1c1-eqadta">
-          <quote xml:id="pl-l1d1c1-Qd1e3559" source="http://scta.info/resource/Augustine_DeDoctrinaChristiana_1_2_2_b">Ex quo aperte 
-          <lb ed="#Z"/>intelligitur quae hic appellentur signa res illae vide<lb ed="#Z"/>licet 
+          <quote xml:id="pl-l1d1c1-Qd1e3559">Ex quo aperte 
+          <lb ed="#Z" n="37"/>intelligitur quae hic appellentur signa res illae vide<lb ed="#Z" break="no" n="38"/>licet 
           quae ad significandum aliquid adhibentur 
-          <lb ed="#Z"/>Omne igitur signum etiam res aliqua est quod enim nul<lb ed="#Z"/>la 
-          res est ut in eodem <name ref="#Augustine">Augustinus</name> ait omnino nichil 
-          <lb ed="#Z"/>est non autem econverso omnis res signum est</quote> quia non adhi<lb ed="#Z"/>betur 
-          ad significandum aliquid Cumque hiis inten<cb ed="#Z" n="b"/><lb ed="#Z"/>derit 
-          theologorum speculatio studiosa atque mo<lb ed="#Z"/>desta 
+          <lb ed="#Z" n="39"/>Omne igitur signum etiam res aliqua est quod enim nul<lb ed="#Z" break="no" n="40"/>la 
+            res est</quote> ut in eodem <name ref="#Augustine">Augustinus</name> ait <quote xml:id="pl-l1d1c1-Qd1e3xtx">omnino nichil 
+          <lb ed="#Z" n="41"/>est non autem econverso omnis res signum est</quote> quia non adhi<lb ed="#Z" break="no" n="42"/>betur 
+          ad significandum aliquid Cumque hiis inten<cb ed="#Z" n="b"/><lb ed="#Z" n="43"/>derit 
+          theologorum speculatio studiosa atque mo<lb ed="#Z" break="no" n="44"/>desta 
           divinam scripturam formam praescriptam 
-          <lb ed="#Z"/>in doctrina tenere advertet
+          <lb ed="#Z" n="45"/>in doctrina tenere advertet
         </p>
         <p xml:id="pll1d1c1-dhedsd">
           De his ergo nobis aditum 
-          <lb ed="#Z"/>aliquatenus ad res divinas intelligendas deo 
-          <lb ed="#Z"/>duce aperire volentibus disserendum est et primum 
-          <lb ed="#Z"/>de rebus postea de signis disseremus
+          <lb ed="#Z" n="46"/>aliquatenus ad res divinas intelligendas deo 
+          <lb ed="#Z" n="47"/>duce aperire volentibus disserendum est et primum 
+          <lb ed="#Z" n="48"/>de rebus postea de signis disseremus
         </p>
       </div>
     </body>
