@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -59,23 +60,25 @@
           pro obligatione poenae temporalis, vel aeternae. Si enim mortale est, obligat nos poenae
           aeternae; si veniale, obligat nos poenae temporali: duo enim sunt peccatorum genera,
           mortalium scilicet et venialium. Mortale est per quod homo mortem aeternam meretur ——
-            <cit>
-              <quote>crimen enim,<quote>
-            <cit>
-          ut ait 
-            <ref>
-            <name>Augustinus<name>
-            <ref>
-            <!--I'm not sure why there's an error here. There's a problem with ref.^-->-->
-            <cit>
-              <quote>
-                , <pb ed="#Q" n="530"/> est, quod est dignum accusatione et
-          damnatione
-              <quote>
-            <cit>
-          
-          <p -— veniale autem, quod hominem usque in reatum perpetuae mortis non
-          gravat, verumtamen poenam meretur, sed facile indulgetur. </p> <p>
+          <cit>
+            <quote>
+              <seg type="qs">
+                crimen enim
+              </seg>,
+              ut ait 
+              <ref>
+                <name>Augustinus</name>
+              </ref>,
+              <pb ed="#Q" n="530"/> 
+              <seg type="qs">
+                est, quod est dignum accusatione et
+                damnatione
+              </seg>
+            </quote>
+          </cit>
+          -— veniale autem, quod hominem usque in reatum perpetuae mortis non
+          gravat, verumtamen poenam meretur, sed facile indulgetur. 
+          </p>
       </div>
     </body>
   </text>
