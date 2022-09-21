@@ -60,7 +60,7 @@
           obligata fuerit peccato, et an talis assumta fuerit a Verbo. 
         </p>
         <p xml:id="pl-l3d3c1-d1e120"> 
-          Sane dici potest et credi oportet, iuxla Sanctorum
+          Sane dici potest et credi oportet, iuxta Sanctorum
           attestationis convenientiam, ipsam prius peccato fuisse obnoxiam, sicut 
           reliqua 
           <name>
@@ -74,14 +74,18 @@
           <name>
             Mariam
           </name>
-          quoque lotam Spiritus sanctus, in eam praeveniens, a
+          quoque totam Spiritus sanctus, in eam praeveniens, a
           peccato prorsus purgavit et a fomite peccati etiam liberavit, vel fomitem ipsum penitus
           evacuando, ut quibusdam placet, vel sic debilitando et extenuando, ut ei postmodum
           peccandi occasio nullatenus exstiterit; potentiam quoque generandi absque viri semine
           <name>
             Virgini
           </name>
-          praeparavit. Ita enim verba Evangelii docent, ubi Angelus 
+          praeparavit. Ita enim verba Evangelii docent, ubi 
+          <name>
+            Angelus
+          </name>
+          <!--This is a reference to Gabriel, so I put it in a name tag.-->
           <name>
             Virginem
           </name>
@@ -105,10 +109,12 @@
           </cit> 
         </p>
         <p xml:id="pl-l3d3c1-d1e136"> 
-          Quod exponens 
-          <name>
-            Ioannes
-          </name>
+          Quod exponens
+          <ref> 
+            <name>
+              Ioannes
+            </name>
+          </ref>
           ait: 
           <cit>
             <quote xml:id="pl-l3d3c1-Qd1e138">
@@ -120,12 +126,20 @@
           </name>,
           <cit>
             <quote> 
-          Spiritus sanctus praevenit in ipsam, secundum
-          verbum Domini quod dixit Angelus, purgans ipsam et potentiam deitatis Verbi receptivam
-          praeparans, simul autem et generativam. Et tunc obumbravit ipsam Dei altissimi per se
-          Sapientia et Virtus existens, id est Filius Dei, Patri homousios, id est
-          consubstantialis, sicut divinum semen; et copulavit sibi ipsi ex sanctissimis et
-          purissimis ipsius
+              Spiritus sanctus praevenit in ipsam, secundum
+              verbum Domini quod dixit 
+            </quote>
+          </cit>
+          <name>
+            Angelus
+          </name>
+          <cit>
+            <quote>
+              , purgans ipsam et potentiam deitatis Verbi receptivam
+              praeparans, simul autem et generativam. Et tunc obumbravit ipsam Dei altissimi per se
+              Sapientia et Virtus existens, id est Filius Dei, Patri homousios, id est
+              consubstantialis, sicut divinum semen; et copulavit sibi ipsi ex sanctissimis et
+              purissimis ipsius
             </quote>
           </cit>
           <name>
@@ -142,6 +156,8 @@
               intellectiva 
             </quote>
           </cit>. 
+          <!--the quote is from post concessum to intellectiva, but there are names that belong in the quote, 
+          so you might have to look at this one-->
         </p>
         <p xml:id="pl-l3d3c1-d1e145"> 
           Ex his perspicuum fit quod ante diximus, carnem scilicet Verbi
@@ -165,6 +181,7 @@
               celebraretur conceptus Dei et hominis 
             </quote>
           </cit>. 
+          <!--same thing with names inside quotes and cits above. ^-->
           <cit>
             <quote xml:id="pl-l3d3c1-Qd1e150"> 
               Illa enim caro, quam Deus ex
@@ -179,14 +196,18 @@
               sine vitio concepta, sine peccato nata est
             </quote>
           </cit>.
+          <!--same thing with a name inside a quote above ^-->
           <cit>
             <quote xml:id="pl-l3d3c1-Qd1e153">
-              Hanc carnem tamen non caelestis, non aereae, non alterius cuiusquam putes 
+              Hanc carnem tamen non caelestis, non a <!--this e has an umlaut on it in the text, but 
+              it doesn't appear here-->reae, non alterius cuiusquam putes 
               esse naturae, sed eius, cuius est omnium hominum caro
-          </quote>
+            </quote>
           </cit>.
-          <!--there were a lot of open and close quotes that happened in one block of text without statements like Augustinus ait. 
-          I am not sure why there are so many quotes, but I wrapped them with cits anyways.--> 
+          <!--there were a lot of open and close quotes that happened in one block of text without any comment 
+          from Lombard in between. 
+          I am not sure why there are so many quotes back to back, but I wrapped them with cits anyways 
+          and I checked the text twice.--> 
         </p>
       </div>
     </body>
