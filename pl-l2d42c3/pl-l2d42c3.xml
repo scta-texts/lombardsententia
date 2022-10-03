@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -54,13 +55,30 @@
       <div xml:id="pl-l2d42c3">
         <head xml:id="pl-l2d42c3-Hd1e102">Capitulum 3</head>
         <head xml:id="pl-l2d42c3-Hd1e105" type="question-title">Quibus modis accipitur reatus.</head>
-        <p xml:id="pl-l2d42c3-d1e108"> Beatus autem in Scriptura multipliciter accipitur, scilicet pro 379 culpa, pro poena,
+        <p xml:id="pl-l2d42c3-d1e108"> 
+          Reatus autem in Scriptura multipliciter accipitur, scilicet pro culpa, pro poena,
           pro obligatione poenae temporalis, vel aeternae. Si enim mortale est, obligat nos poenae
-          aeternae; si veniale, obli- gat nos-e poenae temporali: duo enim sunt peccatorum genera,
-          mortalium scilicet et venialium. Mortale est per quod homo mor- tem aeternam meretur ——
-          «crimen enim, ut ait Augustinus, <pb ed="#Q" n="530"/> est, quod est dignum accusatione et
-          damnatione» -.-— Veniale autem, . quod hominem usque in reatum perpetuae mortis non.
-          gravat, verumtamen poenam meretur, sed facile indulgetur. </p>
+          aeternae; si veniale, obligat nos poenae temporali: duo enim sunt peccatorum genera,
+          mortalium scilicet et venialium. Mortale est per quod homo mortem aeternam meretur ——
+          <cit>
+            <quote>
+              <seg type="qs">
+                crimen enim
+              </seg>,
+              ut ait 
+              <ref>
+                <name>Augustinus</name>
+              </ref>,
+              <pb ed="#Q" n="530"/> 
+              <seg type="qs">
+                est, quod est dignum accusatione et
+                damnatione
+              </seg>
+            </quote>
+          </cit>
+          -— veniale autem, quod hominem usque in reatum perpetuae mortis non
+          gravat, verumtamen poenam meretur, sed facile indulgetur. 
+        </p>
       </div>
     </body>
   </text>
