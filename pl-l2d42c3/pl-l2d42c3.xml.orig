@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 2, Distinctio 42, C. 3</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 2, Distinctio 42, C. 3</title>
+          <date when="2017-07-04">July 4, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative
+              Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="Quaracchi1916">Quaracchi 1916 Volume 1</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-07-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l2d42c3">
+        <head xml:id="pl-l2d42c3-Hd1e102">Capitulum 3</head>
+        <head xml:id="pl-l2d42c3-Hd1e105" type="question-title">Quibus modis accipitur reatus.</head>
+<<<<<<< HEAD
+        <p xml:id="pl-l2d42c3-d1e108"> 
+=======
+        <p xml:id="pl-l2d42c3-d1e108">
+>>>>>>> 5223551e3f18228089971937130c3a27f7f5ff4a
+          Reatus autem in Scriptura multipliciter accipitur, scilicet pro culpa, pro poena,
+          pro obligatione poenae temporalis, vel aeternae. Si enim mortale est, obligat nos poenae
+          aeternae; si veniale, obligat nos poenae temporali: duo enim sunt peccatorum genera,
+          mortalium scilicet et venialium. Mortale est per quod homo mortem aeternam meretur ——
+          <cit>
+            <quote>
+<<<<<<< HEAD
+              <seg type="qs">
+                crimen enim
+              </seg>,
+              ut ait 
+              <ref>
+                <name>Augustinus</name>
+              </ref>,
+              <pb ed="#Q" n="530"/> 
+              <seg type="qs">
+                est, quod est dignum accusatione et
+                damnatione
+              </seg>
+            </quote>
+          </cit>
+          -— veniale autem, quod hominem usque in reatum perpetuae mortis non
+          gravat, verumtamen poenam meretur, sed facile indulgetur. 
+=======
+              crimen enim, ut ait Augustinus, <pb ed="#Q" n="530"/> est, quod est dignum accusatione et
+              damnatione
+            </quote>
+          </cit>. 
+          —— veniale autem, quod hominem usque in reatum perpetuae mortis non
+          gravat, verumtamen poenam meretur, sed facile indulgetur.
+>>>>>>> 5223551e3f18228089971937130c3a27f7f5ff4a
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
