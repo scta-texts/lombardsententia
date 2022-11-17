@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 1, Distinctio 2, Caput 2 [Hopkins MSB19 Transcription]</title>
+        <author>Petrus Lombardus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor; Tei Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="#RobbieBuhite">Robert J. Buhite III</name>
+          <resp>Transcription Editor; Tei Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 1, Distinctio 2, Caput 2  [Hopkins MSB19 Transcription]</title>
+          <date when="2022-10-20">October 20, 2022</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>
+            <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="H" n="hopkinsMSB19">Baltimore, Hopkins, MS B19</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2022-10-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#H" n="5-v"/>
+        <cb ed="#H" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d2c2">
+        <head>Capitulum 2</head>
+        <!--<p> rubric heading
+          <lb ed="#H"/>Quae fiunt intentio scribentium de trinitate
+        </p>-->
+        <p xml:id="pll1d2c2-d1e3473">
+          <lb ed="#H"/><quote xml:id="pll1d2c2-Qd1e3477">Omnes autem catholici tractatores <unclear>ut</unclear> 
+            <lb ed="#H"/>in eodem libro <name ref="#Augustinus">augustinus</name> ait <add place="above-line">qui</add> de trinitate quae 
+            <lb ed="#H"/>deus est scripserunt <pc type="punctus"/> hoc intenderunt secundum 
+            <lb ed="#H"/>scripturas docere quod pater et filius et spiritus sanctus 
+            <lb ed="#H"/>unius sint substantiae <pc type="punctus"/> et inseparabili aequalitate u<lb ed="#H"/>nus 
+            sint deus ut sit unitas in essentia et plura<lb ed="#H"/>litas 
+            in personis Ideoque non <seg type="correction">s<subst><del rend="expunctuation">i</del><add place="above-line">u</add></subst>nt</seg> tres dii sed 
+            <lb ed="#H"/>unus deus licet pater filium genuerit <pc type="punctus"/> et ideo 
+            <lb ed="#H"/>filius non sit qui pater est <pc type="punctus"/> filiusque a patre sit
+            <!-- left off -->
+              genitus, et ideo Pater non sit qui Filius est; et Spiritus sanctus 
+              nec Pater sit nec Filius, sed tantum Patris et Filii Spiritus utrique 
+              coaequalis et ad Trinitatis pertinens unitatem.</quote>
+            <bibl>Augustine, De Trinitate I, c. 4, n. 7 (PL 42:824)</bibl>
+          
+        </p>
+        <!-- another paragraph in smaller font; meaning unlcear -->
+        <p xml:id="pll1d2c2-d1e3492"><ref><name ref="#Augustine">Augustinus</name> in libro I <title ref="#Retractationum">Retractationum</title>:</ref> 
+          <cit>
+            <quote xml:id="pll1d2c2-Qd1e3503">Ubi dixi de Patre et Filio: 
+              qui gignit et quem gignit unum est, dicendum fuit unum sunt, sicut aperte ipsa 
+              Veritas loquitur, dicens: 
+              <cit>
+                <quote xml:id="pll1d2c2-Qd1e3507" source="http://scta.info/resource/io10_30">Ego et Pater unum sumus</quote>
+                <bibl>Iohannes 10:30</bibl>
+              </cit>
+            </quote>
+          </cit>
+        </p>
+        <p xml:id="pll1d2c2-d1e3517">
+          <cit>
+            <quote xml:id="pll1d2c2-Qd1e3521">Teneamus igitur, Patrem et Filium et Spiritum sanctum unum 
+              esse naturaliter Deum, ut ait 
+              <ref><name ref="#Augustine">Augustinus</name> in libro <title ref="#de">De fide ad Petrum</title>;</ref> 
+              nec tamen ipsum Patrem esse qui Filius; nec Filium 
+              ipsum esse qui Pater est; nec Spiritum sanctum ipsum esse qui 
+              Pater est aut Filius. Una est enim Patris et Filii et Spiritus sancti 
+              essentia, quam Graeci homousion vocant, in qua non est aliud 
+              Pater, aliud Filius, aliud Spiritus sanctus, quamvis sit personaliter 
+              alius Pater, alius Filius, alius Spiritu sanctus.</quote>
+            <bibl>Augustinus, De fide ad Petrum, c. 1, n. 5 (PL 40:755)</bibl>
+          </cit>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
