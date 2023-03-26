@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,7 +29,7 @@
           <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
           <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
           <witness xml:id="Z" n="zbsSII72" xml:base="http://www.e-codices.unifr.ch/metadata/iiif/zbs-SII-0072/canvas/">Solothurn, Zentralbibliothek, Cod. S II 72</witness>
-        	<witness xml:id="H" n="hopkinsMSB19" xml:base="http://scta.info/iiif/pl-hopkins/canvas/">Baltimore, Hopkins</witness>
+          <witness xml:id="H" n="hopkinsMSB19" xml:base="http://scta.info/iiif/pl-hopkins/canvas/">Baltimore, Hopkins</witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
@@ -50,93 +47,100 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="includeList">
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
       <div xml:id="starts-on">
-      	<cb ed="#H" n="66vb" select="66v"/>
+        <cb ed="#H" n="66vb" select="66v"/>
       </div>
     </front>
-  	<body>
-  		<div xml:id="pl-l2d12c5">
-  			<head xml:id="pll2d12c5-Hd1e3513">Capitulum 5</head>
-  			<head xml:id="pll2d12c5-Hd1e3516" type="questionTitle">Quare illa materia confusa sit dicta informis, et ubi ad esse prodiit, et quantumcumque in altum ascenderit</head>
-  			<p xml:id="pll2d12c5-d1e3519">De qua priusquam tractemus, duo nobis discutienda occurrunt: 
-  				primum, quare illa materia confusa informis dicatur, 
-  				<cb ed="#H" n="67ra" select="67r"/>
-  				an quia 
-  				omni forma caruerit, an propter aliud; secundum, ubi ad esse 
-  				prodierit et quantum in altum ascenderit.</p>
-  			<p xml:id="pll2d12c5-d1e3524">Ad illud igitur quod primo positum est, breviter respondentes 
-  				dicimus, illam primam materiam non ideo dictam foret informem, 
-  				quod nullam omnino formam habuerit, quia non aliquid corporeum 
-  				tale existere potest, quod nullam habeat formam; sed ideo non 
-  				absurde informem appellari posse dicimus, quia in confusione et 
-  				permixtione quadam subsistens, nondum pulcram apertamque et 
-  				distinctam receperat formam, qualem modo cernimus. Facta est 
-  				ergo illa materia in forma confusionis ante formam dispositionis: 
-  				in forma confusionis prius omnia corporalia materialiter simul et 
-  				semel sunt creata, postmodum in forma dispositionis sex diebus 
-  				sunt ordinata.</p>
-  			<p xml:id="pll2d12c5-d1e3527">Ecce absolutum est quod primo in discussione propositum fuit, 
-  				scilicet quare illa materia dicatur informis.</p>
-  			<p xml:id="pll2d12c5-d1e3531">
-  				<cit>
-  					<quote xml:id="pll2d12c5-Qd1e3535">
-  						<cb ed="#H" n="67rb" select="67r"/>
-  						Nunc superest quod secundo proponebatur explicare, ubi scilicet 
-  						illa materia substiterit et quantum in altitudine porrigebatur.</quote>
-  					<bibl>XXX <!-- bibl go with subsequent quote  --></bibl>
-  				</cit>
-  			</p>
-  			<p xml:id="pll2d12c5-d1e3546">
-  				<cit>
-  					<quote xml:id="pll2d12c5-Qd1e3550">Ad quod nihil temere asserentes dicimus, quod illa prima 
-  						rerum omnium moles, quando creata est, ibidem ad esse videtur 
-  						prodiisse, ubi nunc formata subsistit; eratque terreum hoc elementum <!-- 362 -->
-  						mentum in uno loco eodemque medio subsidens, ceteris in una 
-  						confusione permixtis, eisdemque circumquaque in modo cuiusdam 
-  						nebulae oppansis, ita obvolutum erat, ut apparere non posset 
-  						quod fuit. Illa vero tria, in una confusione permixta circumquaque 
-  						suspensa, <sic>eousque</sic> in altum porrigebantur, <sic>quousque</sic> nunc 
-  						summitas corporeae naturae pertingit</quote>
-  					<bibl>XXX <!-- bibl goes with above quote as well --></bibl>
-  				</cit>.
-  			</p>
-  			<p xml:id="pll2d12c5-d1e3567">Et sicut quibusdam videtur, ultra locum firmamenti extendebatur 
-  				illa moles, quae in inferiori parte spissior atque grossior 
-  				erat, in superiori vero rarior et levior atque subtilior existebat; 
-  				de qua rariori substantia putant quidam fuisse aquas, quae super 
-  				firmamentum esse dicuntur.</p>
-  			<p xml:id="pll2d12c5-d1e3570">
-  				<cit>
-  					<quote xml:id="pll2d12c5-Qd1e3574">Talis fuit mundi facies in principio, priusquam reciperet formam 
-  						vel dispositionem</quote>
-  					<bibl>Beda, <!-- possibly same as above --></bibl>
-  				</cit>.
-  			</p>
-  			<p xml:id="pll2d12c5-d1e3583">Nunc superest, ut dispositionem illam, qualiter perfecta sit, 
-  				ordine prosequamur.</p>
-  			<p xml:id="pll2d12c5-d1e3586">Sex diebus, sicut docet Scriptura Genesis, distinxit Deus et 
-  				in formas redegit proprias cuncta, quae simul materialiter fecerat; 
-  				perfecitque opus suum die sexto, et sic deinde 
-  				<cit>
-  					<quote xml:id="pll2d12c5-Qd1e3590">requievit die septimo 
-  						ab omni opere</quote>
-  					<bibl/>
-  				</cit>, 
-  				id est, cessavit novam creaturam facere. Sex 
-  				enim diebus, sex rerum genera distinxit, nihilque postea fecit quod 
-  				in aliquo illorum non contineatur; operatus est tamen postea, sicut 
-  				Veritas in Evangelio ait: 
-  				<cit>
-  					<quote xml:id="pll2d12c5-Qd1e3598" source="http://scta.info/resource/io5_17">Pater meus operatur usque nunc, et 
-  						ego operor illud.</quote>
-  					<bibl>Ioannes 5:17</bibl>
-  				</cit>
-  			</p>
-  		</div>
-  	</body>
+    <body>
+      <div xml:id="pl-l2d12c5">
+        <head xml:id="pll2d12c5-Hd1e3513">Capitulum 5</head>
+        <head xml:id="pll2d12c5-Hd1e3516" type="questionTitle">Quare illa materia confusa sit dicta informis, et ubi ad esse prodiit, et quantumcumque in altum ascenderit</head>
+        <p xml:id="pll2d12c5-d1e3519">De qua priusquam tractemus, duo nobis discutienda occurrunt: 
+          primum, quare illa materia confusa informis dicatur, 
+          <cb ed="#H" n="67ra" select="67r"/>
+          an quia 
+          omni forma caruerit, an propter aliud; secundum, ubi ad esse 
+          prodierit et quantum in altum ascenderit.</p>
+        <p xml:id="pll2d12c5-d1e3524">Ad illud igitur quod primo positum est, breviter respondentes 
+          dicimus, illam primam materiam non ideo dictam foret informem, 
+          quod nullam omnino formam habuerit, quia non aliquid corporeum 
+          tale existere potest, quod nullam habeat formam; sed ideo non 
+          absurde informem appellari posse dicimus, quia in confusione et 
+          permixtione quadam subsistens, nondum pulcram apertamque et 
+          distinctam receperat formam, qualem modo cernimus. Facta est 
+          ergo illa materia in forma confusionis ante formam dispositionis: 
+          in forma confusionis prius omnia corporalia materialiter simul et 
+          semel sunt creata, postmodum in forma dispositionis sex diebus 
+          sunt ordinata.</p>
+        <p xml:id="pll2d12c5-d1e3527">Ecce absolutum est quod primo in discussione propositum fuit, 
+          scilicet quare illa materia dicatur informis.</p>
+        <p xml:id="pll2d12c5-d1e3531">
+          <cit>
+            <quote xml:id="pll2d12c5-Qd1e3535">
+              <cb ed="#H" n="67rb" select="67-r"/>
+              Nunc superest quod secundo proponebatur explicare, ubi scilicet 
+              illa materia substiterit et quantum in altitudine porrigebatur.</quote>
+            <bibl>XXX <!-- bibl go with subsequent quote  --></bibl>
+          </cit>
+        </p>
+        <p xml:id="pll2d12c5-d1e3546">
+          <cit>
+            <quote xml:id="pll2d12c5-Qd1e3550">Ad quod nihil temere asserentes dicimus, quod illa prima 
+              rerum omnium moles, quando creata est, ibidem ad esse videtur 
+              prodiisse, ubi nunc formata subsistit; eratque terreum hoc elementum <!-- 362 -->
+              mentum in uno loco eodemque medio subsidens, ceteris in una 
+              confusione permixtis, eisdemque circumquaque in modo cuiusdam 
+              nebulae oppansis, ita obvolutum erat, ut apparere non posset 
+              quod fuit. Illa vero tria, in una confusione permixta circumquaque 
+              suspensa, <sic>eousque</sic> in altum porrigebantur, <sic>quousque</sic> nunc 
+              summitas corporeae naturae pertingit</quote>
+            <bibl>XXX <!-- bibl goes with above quote as well --></bibl>
+          </cit>.
+        </p>
+        <p xml:id="pll2d12c5-d1e3567">Et sicut quibusdam videtur, ultra locum firmamenti extendebatur 
+          illa moles, quae in inferiori parte spissior atque grossior 
+          erat, in superiori vero rarior et levior atque subtilior existebat; 
+          de qua rariori substantia putant quidam fuisse aquas, quae super 
+          firmamentum esse dicuntur.</p>
+        <p xml:id="pll2d12c5-d1e3570">
+          <cit>
+            <quote xml:id="pll2d12c5-Qd1e3574">Talis fuit mundi facies in principio, priusquam reciperet formam 
+              vel dispositionem</quote>
+            <bibl>Beda, <!-- possibly same as above --></bibl>
+          </cit>.
+        </p>
+        <p xml:id="pll2d12c5-d1e3583">
+          <cit>
+            <quote xml:id="pl-l2d12c5-Qd1e3384" source="http://scta.info/resource/hsvhsv-g10044-d1e1009@18-27">Nunc superest, ut dispositionem illam, qualiter perfecta sit, 
+            ordine prosequamur</quote>
+          </cit>.
+        </p>
+        <p xml:id="pll2d12c5-d1e3586">
+          <cit>
+            <quote xml:id="pl-l2d12c5-Qd1e3393" source="http://scta.info/resource/hsvhsv-g10044-d1e1009@28-58">
+             Sex diebus, sicut docet Scriptura Genesis, distinxit Deus et 
+             in formas redegit proprias cuncta, quae simul materialiter fecerat; 
+             perfecitque opus suum die sexto, et sic deinde 
+             <cit>
+               <quote xml:id="pll2d12c5-Qd1e3590" source="http://scta.info/resource/gen2_2@10-15">requievit die septimo 
+                 ab omni opere</quote>
+               <bibl/>
+             </cit>, 
+             id est, cessavit novam creaturam facere
+          </quote>
+          </cit>. 
+          Sex 
+          enim diebus, sex rerum genera distinxit, nihilque postea fecit quod 
+          in aliquo illorum non contineatur; operatus est tamen postea, sicut 
+          Veritas in Evangelio ait: 
+          <cit>
+            <quote xml:id="pll2d12c5-Qd1e3598" source="http://scta.info/resource/io5_17">
+              Pater meus operatur usque nunc, et 
+              ego operor illud.</quote>
+            <bibl>Ioannes 5:17</bibl>
+          </cit>
+        </p>
+      </div>
+    </body>
   </text>
 </TEI>

@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -50,10 +48,6 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="includeList">
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
       <div xml:id="starts-on">
       	<cb ed="#H" n="67va" select="67v"/>
       </div>
@@ -73,7 +67,7 @@
   				solis tenebat, quae motu suo circumagitata, noctem diemque discernebat.</p>
   			<p xml:id="pll2d13c3-d1e3525">
   				<cit>
-  					<quote xml:id="pll2d13c3-Qd1e3529">Ibi ergo primum lucem apparuisse verisimile est, ubi sol 
+  				  <quote xml:id="pll2d13c3-Qd1e3529" source="http://scta.info/resource/hsvhsv-g10044-d1e1145@218-252">Ibi ergo primum lucem apparuisse verisimile est, ubi sol 
   						quotidiano cursu circumvectus apparet, ut eodem tramite lux circumcurrens 
   						ac primo ad occasum descendens, vesperam faceret, 
   						<!-- 365 --> 
