@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -65,15 +62,15 @@
         <head>Capitulum 1</head>
         <!--<p>De misterio trinita<lb/>tis et unitatis</p>-->
         <p xml:id="pll1d2c1-d1e3473">
-          <lb ed="#H"/>hoc itaque vera ac pia 
-          <lb ed="#H"/>fide tenendum est <quote xml:id="pll1d2c1-Qd1e3477">quod trinitas sit unus 
+          <lb ed="#H" n="45"/>hoc itaque vera ac pia 
+          <lb ed="#H" n="46"/>fide tenendum est <quote xml:id="pll1d2c1-Qd1e3477">quod trinitas sit unus 
           <cb ed="#H" n="b"/>
-          <lb ed="#H"/>et solus uerus deus ut ait <ref><name>augustinus</name> in 1o libro de trinitate</ref> scilicet pater
-          <lb ed="#H"/>et filius et spiritus sanctus et haec trinitas unius eiusdemque substantiae 
-          <lb ed="#H"/>vel essentiae dicitur creditur et intelligitur <pc type="punctus"/> quae summum 
-          <lb ed="#H"/>bonum est <pc type="punctus"/> quod purgatissimis mentibus cern<lb ed="#H" break="no"/>itur 
+          <lb ed="#H" n="47"/>et solus uerus deus ut ait <ref><name>augustinus</name> in 1o libro de trinitate</ref> scilicet pater
+          <lb ed="#H" n="48"/>et filius et spiritus sanctus et haec trinitas unius eiusdemque substantiae 
+          <lb ed="#H" n="49"/>vel essentiae dicitur creditur et intelligitur <pc type="punctus"/> quae summum 
+          <lb ed="#H" n="50"/>bonum est <pc type="punctus"/> quod purgatissimis mentibus cern<lb ed="#H" break="no" n="51"/>itur 
           <pc type="punctus"/> Mentis enim humanae acies inualida 
-          <lb ed="#H"/><unclear>in<!--ita --></unclear> tam <seg type="correction"><subst><del rend="expunctuation">et</del><add place="above-line">ex</add></subst>cellenti</seg> luce non figitur nisi per iusti<lb ed="#H" break="no"/>tiam 
+          <lb ed="#H" n="52"/><unclear>in<!--ita --></unclear> tam <seg type="correction"><subst><del rend="expunctuation">et</del><add place="above-line">ex</add></subst>cellenti</seg> luce non figitur nisi per iusti<lb ed="#H" break="no" n="53"/>tiam 
           fidei emundetur</quote><pc type="punctus"/>
         </p>
         <!-- this paragraph is in a smaller font the meaning of which is not clear -->
@@ -91,26 +88,26 @@
         </p>
         <p xml:id="pll1d2c1-d1e3511">
           De hac igitur re summa
-          <lb ed="#H"/>et excellentissima est modestia et timore agen<lb ed="#H"/>dum
+          <lb ed="#H" n="54"/>et excellentissima est modestia et timore agen<lb ed="#H" n="55"/>dum
           est: et atentissimis auribus atque devotis
-          <lb ed="#H"/>audiendum <pc type="punctus"/> ubi quaeritur <quote xml:id="pll1d2c1-Qd1e3515" source="http://scta.info/resource/adt-l1-d1e27">unitas trinitatis 
-          <lb ed="#H"/>patris scilicet et filii et spiritus <seg type="correction">sanct<subst><del rend="expunctuation">us</del><add>i</add></subst></seg> quia nec periculosius 
-          <lb ed="#H"/>alicubi erratur nec <seg type="correction">labor<add place="above-line">i</add>osius</seg> aliquid quae<lb ed="#H"/>ritur 
+          <lb ed="#H" n="56"/>audiendum <pc type="punctus"/> ubi quaeritur <quote xml:id="pll1d2c1-Qd1e3515" source="http://scta.info/resource/adt-l1-d1e27">unitas trinitatis 
+          <lb ed="#H" n="57"/>patris scilicet et filii et spiritus <seg type="correction">sanct<subst><del rend="expunctuation">us</del><add>i</add></subst></seg> quia nec periculosius 
+          <lb ed="#H" n="58"/>alicubi erratur nec <seg type="correction">labor<add place="above-line">i</add>osius</seg> aliquid quae<lb ed="#H" n="59"/>ritur 
           <pc type="punctus"/> nec fructuosius aliquid invenitur</quote>
         </p>
         <p xml:id="pll1d2c1-d1e3524">
-          pro<lb ed="#H"/>inde omnis qui audit et legit ea quae de ineffabi<lb ed="#H" break="no"/>li 
-          et inaccessibili deitatis luce dicuntur stude<lb ed="#H"/>at 
+          pro<lb ed="#H" n="60"/>inde omnis qui audit et legit ea quae de ineffabi<lb ed="#H" break="no" n="61"/>li 
+          et inaccessibili deitatis luce dicuntur stude<lb ed="#H" n="62"/>at 
           imitari atque servare quod <ref><name ref="#Augustine">venerabilis 
-          <lb ed="#H"/>doctor augustinus</name> in I libro <title ref="#deTrinitate">de trinitate</title></ref> de se ipso ait <quote xml:id="pll1d2c1-Qd1e3535" source="http://scta.info/resource/adt-l1-d1e24 http://scta.info/resource/adt-l1-d1e27">non pi<lb ed="#H"/>gebit 
-          me inquid sic ubi <sic>esito</sic> quaerere nec pu<lb ed="#H"/>debit 
+          <lb ed="#H" n="63"/>doctor augustinus</name> in I libro <title ref="#deTrinitate">de trinitate</title></ref> de se ipso ait <quote xml:id="pll1d2c1-Qd1e3535" source="http://scta.info/resource/adt-l1-d1e24 http://scta.info/resource/adt-l1-d1e27">non pi<lb ed="#H" n="64"/>gebit 
+          me inquid sic ubi <sic>esito</sic> quaerere nec pu<lb ed="#H" n="65"/>debit 
           <unclear>sic<!-- c is possibly deleted but it is unclear --></unclear> ubi erro discere <pc type="punctus"/> Quisquis ergo haec 
-          <lb ed="#H"/>audit <pc type="punctus"/> vel legit ubi pariter certus est pergat me<lb ed="#H"/>cum 
+          <lb ed="#H" n="66"/>audit <pc type="punctus"/> vel legit ubi pariter certus est pergat me<lb ed="#H" n="67"/>cum 
           ubi pariter haesitat quaerat mecum ubi 
-          <lb ed="#H"/>errorem suum cognoscit redeat ad me <pc type="punctus"/> 
-          <lb ed="#H"/>ubi meum revocet me <pc type="punctus"/> Ita ingrediamur simul 
-          <lb ed="#H"/>caritatis viam tendentes ad eum de quo 
-          <lb ed="#H"/>dictum est <pc type="punctus"/> <quote xml:id="pll1d2c1-Qd1e3539" source="http://scta.info/resource/ps104_4">Quaerite faciem eius semper</quote></quote> <pc type="punctus"/>
+          <lb ed="#H" n="68"/>errorem suum cognoscit redeat ad me <pc type="punctus"/> 
+          <lb ed="#H" n="69"/>ubi meum revocet me <pc type="punctus"/> Ita ingrediamur simul 
+          <lb ed="#H" n="70"/>caritatis viam tendentes ad eum de quo 
+          <lb ed="#H" n="71"/>dictum est <pc type="punctus"/> <quote xml:id="pll1d2c1-Qd1e3539" source="http://scta.info/resource/ps104_4">Quaerite faciem eius semper</quote></quote> <pc type="punctus"/>
         </p>
       </div>
     </body>

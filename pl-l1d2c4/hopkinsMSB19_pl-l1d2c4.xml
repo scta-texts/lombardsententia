@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 1, Distinctio 2, Caput 4 [Hopkins MSB19 Transcription]</title>
+        <author>Petrus Lombardus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor; Tei Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 1, Distinctio 2, Caput 4  [Hopkins MSB19 Transcription]</title>
+          <date when="2023-03-29">March 29, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>
+            <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="H" n="hopkinsMSB19">Baltimore, Hopkins, MS B19</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-03-29" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#H" n="6-r"/>
+        <cb ed="#H" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d2c4">
+        <head xml:id="pl-l1d2c4-Hd1e105">Capitulum 4</head>
+        <!--<p>
+          <pc type="pilcrow"/>testimonia sanctorum de trinitate
+        </p>-->
+        <p xml:id="pll1d2c4-d1e3473">
+          <lb ed="#H" n="13"/>Proponamus ergo in me<lb ed="#H" break="no" n="14"/>dium 
+          veteris ac novi testamenti auctori<lb ed="#H" break="no" n="15"/>tates 
+          quibus divinae unitatis atque trinitatis 
+          <lb ed="#H" n="16"/>veritas demonstretur
+        </p>
+        <p xml:id="pll1d2c4-d1e3476">
+          ac primum ipsa Legis ex<lb ed="#H" break="no" n="17"/>ordia 
+          occurant Ubi <name xml:id="pl-l1d2c4-Nd1e114" ref="#Moses">moyses</name> ait <quote xml:id="pll1d2c4-Qd1e3483">israel au<lb ed="#H" break="no" n="18"/>di 
+          <lb ed="#H" n="19"/>dominus deus tuus deus unus est</quote>
+        </p>
+        <p xml:id="pll1d2c4-d1e3491">
+          Item <quote xml:id="pll1d2c4-Qd1e3495">Ego sum dominus 
+          <lb ed="#H" n="20"/>deus tuus qui te eduxi de terra aegypti non 
+          <lb ed="#H" n="21"/>erunt <sic>ibi</sic> dii alii praeter me</quote>
+        </p>
+        <p xml:id="pll1d2c4-d1e3503">
+          Ecce hic significa<lb ed="#H" break="no" n="22"/>vit 
+          unitatem divinae naturae <quote xml:id="pll1d2c4-Qd1e3507"><mentioned>DDeus</mentioned> enim et <mentioned>dominus</mentioned> 
+            <lb ed="#H" n="23"/>ut ait <ref xml:id="pl-l1d2c4-Rd1e146"><name xml:id="pl-l1d2c4-Nd1e147" ref="#Ambrose">ambrosius</name> in primo libro <title>de trinitate</title></ref> no<lb ed="#H" break="no" n="24"/>men 
+            est naturae nomen est potestatis</quote>
+        </p>
+        <p xml:id="pll1d2c4-d1e3528">
+          <pc type="punctus"/> Item alibi deus 
+          <lb ed="#H" n="25"/>loquens ad <name xml:id="pl-l1d2c4-Nd1e160" ref="#Moses">moysen</name> ait <quote xml:id="pll1d2c4-Qd1e3535">Ego sum qui sum et 
+          <lb ed="#H" n="26"/>si quaesierint nomen meum vade et dic eis qui est 
+          <lb ed="#H" n="27"/>misit me ad vos</quote> dicens enim <mentioned>ego sum</mentioned> non nos 
+          <lb ed="#H" n="28"/>sumus et <mentioned>qui est</mentioned> non qui sumus apertissime 
+          <lb ed="#H" n="29"/>declaravit unum solum deum esse
+        </p>
+        <p xml:id="pll1d2c4-d1e3549">
+          <pc type="punctus"/> In <title ref="#cant">can<lb ed="#H" break="no" n="30"/>tico</title> 
+          etiam <title ref="#ex">exodi</title> legitur <quote xml:id="pll1d2c4-Qd1e3559">omnipotens dominus nomen eius</quote> non ait 
+          <lb ed="#H" n="31"/><mentioned>domini</mentioned> unitatem volens significare
+        </p>
+        <p xml:id="pll1d2c4-d1e3570">
+          Personarum 
+          <lb ed="#H" n="32"/>quoque pluralitatem et naturae unitatem similiter
+          <lb ed="#H" n="33"/>ostendit dominus in <title ref="#gen">genesi</title> dicens <quote xml:id="pll1d2c4-Qd1e3577">faciamus ho<lb ed="#H" break="no" n="34"/>minem 
+          ad imaginem et similitudinem 
+          <lb ed="#H" n="35"/>nostram</quote> dicens enim <mentioned>faciamus</mentioned> et <mentioned>nostram</mentioned> pluralita<lb ed="#H" break="no" n="36"/>tem 
+          personarum ostendit dicens vero <mentioned>imaginem</mentioned> 
+          <lb ed="#H" n="37"/>unitatem essentiae
+        </p>
+        <p xml:id="pll1d2c4-d1e3594">
+          Ut enim dicit <ref xml:id="pl-l1d2c4-Rd1e222"><name xml:id="pl-l1d2c4-Nd1e223" ref="#Augustine">augustinus</name> in libro <title>de 
+          <lb ed="#H" n="38"/>fide ad petrum</title></ref> <quote xml:id="pll1d2c4-Qd1e3606">si in illa natura patris et filii 
+          <lb ed="#H" n="39"/>et spiritus sancti una esset tantum persona non diceretur <quote xml:id="pll1d2c4-Qd1e3612">faci<lb ed="#H" break="no" n="40"/>amus 
+          hominem ad imaginem et similitudi<lb ed="#H" break="no" n="41"/>nem 
+          nostram</quote> Cum enim dicit <mentioned>ad imaginem</mentioned> osten<lb ed="#H" break="no" n="42"/>dit 
+          unam naturam esse ad cuius imaginem <del rend="expunctuation">esse</del> 
+          <lb ed="#H" n="43"/>homo fieret Cum vero dicit <mentioned>nostram</mentioned> ostendit 
+          <lb ed="#H" n="44"/>eundem deum non unam sed plures esse personas</quote>
+        </p>
+        <p xml:id="pll1d2c4-d1e3628">
+          <ref xml:id="pl-l1d2c4-Rd1e252"><name xml:id="pl-l1d2c4-Nd1e253" ref="#HilaryOfPoitiers">hilarius</name> quoque in libro III <title>de trinitate</title></ref> dicit his ver<lb ed="#H" break="no" n="45"/>bis 
+          significari quod in trinitate nec diver<lb ed="#H" break="no" n="46"/>sitas 
+          est nec singularitas nec solitudo sed simi<lb ed="#H" break="no" n="47"/>litudo 
+          et pluralitas sive distinctio <name><seg type="correction">hi<del rend="strikethrough">l</del>larius</seg></name> 
+          <cb ed="#H" n="b"/>
+          <lb ed="#H" n="48"/>ait enim sic <quote xml:id="pll1d2c4-Qd1e3639">Qui dixit <quote xml:id="pll1d2c4-Qd1e3643">faciamus hominem ad ima<lb ed="#H" break="no" n="49"/>ginem 
+          et similitudinem nostram</quote> invicem esse 
+          <lb ed="#H" n="50"/>sui similes in eo quod dicit <mentioned>imaginem et simili<lb ed="#H" break="no" n="51"/>tudinem 
+          nostram</mentioned> ostendit ymago enim sola non 
+          <lb ed="#H" n="52"/>est et similitudo non sibi est neque diversitatem 
+          <lb ed="#H" n="53"/>duobus admisceri alterius ad alterum similitu<lb ed="#H" break="no" n="54"/>do 
+          permittit</quote>
+        </p>
+        <p xml:id="pll1d2c4-d1e3659">
+          Item <ref xml:id="pl-l1d2c4-Rd1e279">idem in quarto libro</ref> <quote xml:id="pll1d2c4-Qd1e3666">absolutius 
+          <lb ed="#H" n="55"/>voluit intelligi significationem hanc non 
+          <lb ed="#H" n="56"/>ad se tantum esse referendam dicendo <quote xml:id="pll1d2c4-Qd1e3670">faciamus 
+          <lb ed="#H" n="57"/>hominem ad imaginem nostram et similitu<lb ed="#H" break="no" n="58"/>dinem 
+          nostram</quote> professio enim consortii sustulit in<lb ed="#H" break="no" n="59"/>telligentiam 
+          singularis quia consortium 
+          <lb ed="#H" n="60"/>aliquod non potest sibi ipsi esse solitario neque 
+          <lb ed="#H" n="61"/>rursum solitudo solitarii recipit <mentioned>faciamus</mentioned> 
+          <lb ed="#H" n="62"/>neque quisquam alieno a se loquitur <mentioned>nostram</mentioned> 
+          <lb ed="#H" n="63"/>uterque igitur sermo scilicet <mentioned>faciamus</mentioned> et <mentioned>nostram</mentioned> ut solita<lb ed="#H" break="no" n="64"/>rium 
+          eundemque non patitur ita neque 
+          <lb ed="#H" n="65"/>diversum a se alienumque significat solitario convenit faciam 
+          <lb ed="#H" n="66"/>et meam non solitario vero convenit <mentioned>faciamus</mentioned> et <mentioned>nostram</mentioned> uterque sermo 
+          <lb ed="#H" n="67"/>ut non solitarium tantum ita neque differentem 
+          <lb ed="#H" n="68"/>esse vel diversum esse significat Nobis quoque nec soli<lb ed="#H" break="no" n="69"/>tarius 
+          nec diversus est confitendus Ita ergo deus ad 
+          <lb ed="#H" n="70"/>communem sibi cum deo imaginem ean<lb ed="#H" break="no" n="71"/>demque 
+          similitudinem hominem reperitur 
+          <lb ed="#H" n="72"/>operari ut nec significatio efficientis ad<lb ed="#H" break="no" n="73"/>mittat 
+          intelligentiam solitudinis nec 
+          <lb ed="#H" n="74"/>operatio constituta ad ymaginem eandem 
+          <lb ed="#H" n="75"/>vel similitudinem patiatur diversitatem divinitatis</quote>
+        </p>
+        <p xml:id="pll1d2c4-d1e3700">
+          In his verbis <name xml:id="pl-l1d2c4-Nd1e314" ref="#HilaryOfPoitiers">hylarius</name> pluralitatem personarum 
+          <lb ed="#H" n="76"/>voluit intelligi nomine consortii atque 
+          <lb ed="#H" n="77"/>significavit nomine consortii vel pluralitatis 
+          <lb ed="#H" n="78"/>non poni aliquid sed removeri pluralitas enim 
+          <lb ed="#H" n="79"/>vel consortium personarum cum dicitur solitudo 
+          <lb ed="#H" n="80"/>et singularitas negatur cum dicimus, plures esse 
+          <lb ed="#H" n="81"/>personas significamus quod non est una sola
+        </p>
+        <p xml:id="pll1d2c4-d1e3708">
+          Ideo <name xml:id="pl-l1d2c4-Nd1e324" ref="#HilaryOfPoitiers">hylarius</name> 
+          <lb ed="#H" n="82"/>volens haec subtiliter et sane intelligi ait <quote xml:id="pll1d2c4-Qd1e3715">professio 
+          consortii sustulit intelligentiam 
+          <lb ed="#H" n="83"/>singularitatis</quote> non dicit posuit aliquid. Ita etiam cum di<lb ed="#H" break="no" n="84"/>cimus 
+          tres personas singularitatem et solitu<lb ed="#H" break="no" n="85"/>dinem 
+          tollimus et quod pater non est solus 
+          <lb ed="#H" n="86"/>nec filius est solus nec spiritus sanctus est solus signifi<lb ed="#H" break="no" n="87"/>camus 
+          et quod nec pater tantum est et filius nec 
+          <lb ed="#H" n="88"/>pater tantum et spiritus sanctus nec filius tantum et spiritus sanctus 
+          <lb ed="#H" n="89"/>de hoc autem in sequenti plenius agetur ubi scilicet 
+          <lb ed="#H" n="90"/>secundum quid similes dicantur tres personae et utrum 
+          <lb ed="#H" n="91"/>aliquo modo sit ibi diversitas vel differentia 
+          <lb ed="#H" n="92"/>ostendetur.
+        </p>
+        <!--<p>
+          <pc type="pilcrow"/>Ad id quod ceperat redit
+          <pb ed="#H" n="106-v"/>
+          <cb ed="#H" n="a"/>
+          <lb ed="#H"/>ut alias scilicet auctoritates supponat
+        </-->
+        <p xml:id="pll1d2c4-d1e3723">
+          <pb ed="#H" n="106-v"/> <!-- column break really goes in above heading block -->
+          <cb ed="#H" n="a"/>
+          <lb ed="#H" n="1"/>
+          <lb ed="#H" n="2"/>Nunc vero ad propositum redeamus et ad ostendendam 
+          <lb ed="#H" n="3"/>personarum pluralitatem atque essentiae divinae u<lb ed="#H" break="no" n="4"/>nitatem 
+          alias sanctorum auctoritates inducamus
+        </p>
+        <p xml:id="pll1d2c4-d1e3726">
+          <lb ed="#H" n="5"/><name xml:id="pl-l1d2c4-Nd1e342" ref="#Moses">Moyses</name> dicit <quote xml:id="pll1d2c4-Qd1e3732">In principio creavit deus caelum et terram</quote>
+          <lb ed="#H" n="6"/>per deum significans patrem per principium filium 
+          <lb ed="#H" n="7"/>et pro eo quod apud nos dicitur deus hebraica veritas habet 
+          <lb ed="#H" n="8"/><mentioned>eloym</mentioned> quod est plurale huius singularis quod est <mentioned>el</mentioned> quod ergo 
+          <lb ed="#H" n="9"/>non est dictum <mentioned>hel</mentioned> quod est deus sed <mentioned>heloim</mentioned> quod 
+          <lb ed="#H" n="10"/>potest interpretari dii sive iudices ad pluralitatem 
+          <lb ed="#H" n="11"/>personarum refertur
+        </p>
+        <p xml:id="pll1d2c4-d1e3755">
+          ad quam etiam illud attinere 
+          <lb ed="#H" n="12"/>videtur quod diabolus <add place="above-line">per</add> serpentem dixit 
+          <lb ed="#H" n="13"/><quote xml:id="pll1d2c4-Qd1e3759">eritis sicut dii</quote> pro quo in hebraeo habetur <mentioned>heloim</mentioned> 
+          <lb ed="#H" n="14"/>ac si diceret eritis sicut divinae personae
+        </p>
+        <p xml:id="pll1d2c4-d1e3770">
+          Ille etiam 
+          <lb ed="#H" n="15"/>maximus prophetarum et regum <name xml:id="pl-l1d2c4-Nd1e380" ref="#David">david</name> qui 
+          <lb ed="#H" n="16"/>suam ceteris praefert intelligentiam dicens 
+          <lb ed="#H" n="17"/><quote xml:id="pll1d2c4-Qd1e3777">super senes intellexi</quote> unitatem divinae na<lb ed="#H" break="no" n="18"/>turae 
+          ostendens ait <quote xml:id="pll1d2c4-Qd1e3786">dominus nomen est illi</quote> non dicit 
+          <lb ed="#H" n="19"/>domini
+        </p>
+        <p xml:id="pll1d2c4-d1e3795">
+          alibi etiam eiusdem unitatem et aeternitatem 
+          <lb ed="#H" n="20"/>simul ostendens <del rend="strikethrough">simul</del> ait ex persona dei <quote xml:id="pll1d2c4-Qd1e3799">is<lb ed="#H" break="no" n="21"/>rael 
+          si me audieris non erit in te deus recens neque adorabis deum alienum<!-- each of the last 6 words abbreviated within one letter --></quote> 
+          <lb ed="#H" n="22"/><quote xml:id="pll1d2c4-Qd1e3810">aliud horum ut dicit <ref xml:id="pl-l1d2c4-Rd1e419"><name xml:id="pl-l1d2c4-Nd1e420" ref="#Ambrose">ambrosius</name> in <add place="above-line">I</add> libro <title>de trinitate</title></ref> signifi<lb ed="#H" break="no" n="23"/>cat 
+          aeternitatem aliud unitatem substantiae in<lb ed="#H" break="no" n="24"/>differentis 
+          ut neque posteriorem patre neque 
+          <lb ed="#H" n="25"/>alterius divinitatis filium vel spiritum sanctum esse 
+          <lb ed="#H" n="26"/>credamus nam si patre posterior est filius 
+          <lb ed="#H" n="27"/>vel spiritus sanctus recens est et si unius non est divinitatis alienus est sed nec posterior est quia recens 
+          <lb ed="#H" n="28"/>non est nec alienus quia ex patre natus</quote> est
+          <lb ed="#H" n="29"/>filius et ex patre procedit spiritus sanctus
+        </p>
+        <p xml:id="pll1d2c4-d1e3825">
+          alibi quoque dis<lb ed="#H" break="no" n="30"/>tinctionem 
+          personarum insinuans ait <quote xml:id="pll1d2c4-Qd1e3829">Verbo 
+          <lb ed="#H" n="31"/>domini caeli <seg type="correction">firm<del rend="expunctuation">i</del>ati</seg> sunt et spiritu oris eius omnis virtus eorum <!-- first letter abbreviated --></quote>
+        </p>
+        <p xml:id="pll1d2c4-d1e3837">
+          alibi etiam ait
+          <quote xml:id="pll1d2c4-Qd1e3841">Benedicat nos deus deus noster 
+            <lb ed="#H" n="32"/>benedicat nos deus et metuant eum omnes fines terrae <!-- first letter abbreviated --></quote> Trina enim confes<lb ed="#H" break="no" n="33"/>sio 
+          dei trinitatem exprimit personarum 
+          <lb ed="#H" n="34"/>unitatem vero essentiae aperit cum singulariter 
+          <lb ed="#H" n="35"/>subiungit <mentioned>eum</mentioned>
+        </p>
+        <p xml:id="pll1d2c4-d1e3854">
+          <title ref="#Isaias">ysaias</title> quoque dicit se audis<lb ed="#H" break="no" n="36"/>se 
+          seraphim clamantia <quote xml:id="pll1d2c4-Qd1e3860">sanctus sanctuss sanctus dominus 
+          <lb ed="#H" n="37"/>deus</quote> per hoc quod dicit ter <mentioned>sanctus</mentioned> trinitatem significat 
+          <lb ed="#H" n="38"/>per hoc quod subdit <mentioned>dominus deus</mentioned> unitatem 
+          <lb ed="#H" n="39"/>essentiae
+        </p>
+        <p xml:id="pll1d2c4-d1e3876">
+          <name xml:id="pl-l1d2c4-Nd1e478" ref="#David">David</name> quoque aeternam filii generatio<lb ed="#H" break="no" n="40"/>nem 
+          aperte insinuat ex persona filii dicens 
+          <lb ed="#H" n="41"/><quote xml:id="pll1d2c4-Qd1e3882">dominus dixit ad me filius meus es <add place="above-line">tu</add> ego hodie genui te <!-- first letter abbreviations --></quote>
+        </p>
+        <p xml:id="pll1d2c4-d1e3890">
+          de 
+          <lb ed="#H" n="42"/>hac ineffabili generatione <add place="margin-left"><name xml:id="pl-l1d2c4-Nd1e492" ref="#Isaias">esayas</name> ait</add> <quote xml:id="pll1d2c4-Qd1e3897"><add place="margin-left">Generationem</add> eius quis enar<lb ed="#H" break="no" n="43"/>rabit <add place="margin-left">eius</add></quote>
+        </p>
+        <p xml:id="pll1d2c4-d1e3906">
+          In libro quoque sapientiae aeternitas 
+          <lb ed="#H" n="44"/>filii cum patre monstratur ubi sapien<lb ed="#H" break="no" n="45"/>tia 
+          ita loquitur <quote xml:id="pll1d2c4-Qd1e3910">Dominus possedit <add place="above-line">me</add> initio
+          <cb ed="#H" n="b"/>
+          <lb ed="#H" n="46"/>viarum suarum antequam quodquam fieret a 
+          <lb ed="#H" n="47"/>principio ab aeterno ordinata sum antequam terra 
+          <lb ed="#H" n="48"/>fieret necdum erant abyssi et ego iam 
+          <lb ed="#H" n="49"/>concepta eram necdum fontes nec<lb ed="#H" break="no" n="50"/>dum 
+          montes aut colles et ego parturi<lb ed="#H" break="no" n="51"/>ebar 
+          adhuc terram non fecerat et cardines or<lb ed="#H" break="no" n="52"/>bis 
+          terrae quando praeparabat caelos aderam quando 
+          <lb ed="#H" n="53"/><del rend="expunctuation">appetebat caelos aderam quando</del> appendebat 
+          <lb ed="#H" n="54"/>fundamenta terrae, cum eo eram cuncta 
+          <lb ed="#H" n="55"/>componens et delectabar per singulos dies <add place="above-line">ludens</add> co<lb ed="#H" break="no" n="56"/>ram 
+          eo</quote> Ecce apertum de aeterna genitura 
+          <lb ed="#H" n="57"/>testimonium quo ipsa sapientia perhibet 
+          <lb ed="#H" n="58"/>se ante mundum conceptam esse et parturiri 
+          <lb ed="#H" n="59"/>id est genitam et apud patrem aeternaliter existere
+        </p>
+        <p xml:id="pll1d2c4-d1e3920">
+          <lb ed="#H" n="60"/>Ipsa etiam alibi ait <quote xml:id="pll1d2c4-Qd1e3924">Ego ex ore altissimi 
+          <lb ed="#H" n="61"/>prodii primogenita ante omnem creaturam</quote>
+        </p>
+        <p xml:id="pll1d2c4-d1e3932">
+          <name xml:id="pl-l1d2c4-Nd1e532"><sic>Michi<lb ed="#H" break="no" n="62"/>chaeas</sic></name> 
+          quoque Propheta aeternam <add place="above-line">verbi</add> generationem et temporalem 
+          <lb ed="#H" n="63"/>ex <name xml:id="pl-l1d2c4-Nd1e536" ref="#Mary">maria</name> simul insinuavit dicens <quote xml:id="pll1d2c4-Qd1e3938">et tu 
+          <lb ed="#H" n="64"/><sic>belleem effrata</sic> parvula es in milibus iuda 
+          <lb ed="#H" n="65"/>ex te egredietur qui sit dominator in israel et 
+          <lb ed="#H" n="66"/>egressus eius ab initio a diebus <add place="above-line">aeternitatis</add></quote>
+        </p>
+        <!--<p>
+          rubric header SPecialia testimonia de spiritu sancto
+        </p>-->
+        <p xml:id="pll1d2c4-d1e3946">
+          <lb ed="#H" n="67"/>De spiritu sancto etiam expressa documenta 
+          <lb ed="#H" n="68"/>in veteri testamento habemus
+        </p>
+        <p xml:id="pll1d2c4-d1e3949">
+          In <title ref="#gen">genesi</title> enim 
+          <lb ed="#H" n="69"/>legitur <quote xml:id="pll1d2c4-Qd1e3956">spiritus domini ferebatur super aquas</quote>
+        </p>
+        <p xml:id="pll1d2c4-d1e3964">
+          et <name xml:id="pl-l1d2c4-Nd1e567" ref="#David">david</name> 
+          <lb ed="#H" n="70"/>dicit <quote xml:id="pll1d2c4-Qd1e3971" ana="ps138_7">quo ibo a spiritu tuo</quote>
+        </p>
+        <p xml:id="pll1d2c4-d1e3982">
+          et in libro <title ref="#sap">sapientiae</title> 
+          <lb ed="#H" n="71"/>dicitur <quote xml:id="pll1d2c4-Qd1e3989">spiritus sanctus disciplinae effugiet fictum ben<lb ed="#H" break="no" n="72"/>ignus 
+          enim est spiritus sapientiae</quote> <del rend="strikethrough">ysaias quo<lb ed="#H" break="no" n="73"/>que ait spiritus sapientiae</del>
+        </p>
+        <p xml:id="pll1d2c4-d1e3999">
+          <name xml:id="pl-l1d2c4-Nd1e599" ref="#Isaias">ysaias</name> quoque ait 
+          <quote xml:id="pll1d2c4-Qd1e4005">spiritus domini 
+          <lb ed="#H" n="74"/>super me</quote> etc
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

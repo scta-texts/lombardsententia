@@ -1,13 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Liber 1, Distinctio 2, Caput 4</title>
         <author>Petrus Lombardus</author>
-        <editor></editor>
+        <editor/>
         <respStmt>
           <name>Jeffrey C. Witt</name>
           <resp>TEI Encoder</resp>
@@ -20,8 +17,8 @@
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher></publisher>
-        <pubPlace></pubPlace>
+        <publisher/>
+        <pubPlace/>
         <availability status="free">
           <p>Public Domain</p>
         </availability>
@@ -50,27 +47,20 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="includeList">
-        <xi:include
-          href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml"
-          xpointer="worksCited"/>
-        <xi:include
-          href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml"
-          xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
-        <cb ed="#Z" n="4va" select="zbs-SII-0072_004v.json"/>
+        <cb ed="#Z" n="4va"/>
       </div>
     </front>
     <body>
       <div xml:id="pl-l1d2c4">
-        <head>Capitulum 4</head>
+        <head xml:id="pl-l1d2c4-Hd1e105">Capitulum 4</head>
         <p xml:id="pll1d2c4-d1e3473">Proponamus ergo in medium veteris ac novi Testamenti auctoritates, 
           quibus divinae 
           <cb ed="#Z" n="4vb" select="zbs-SII-0072_004v.json"/>
           Unitatis atque Trinitatis veritas demonstretur.</p>
         
-        <p xml:id="pll1d2c4-d1e3476">Ac primum ipsa Legis exordia occurant, ubi <name ref="#Moses">Moyses</name> ait: 
+        <p xml:id="pll1d2c4-d1e3476">Ac primum ipsa Legis exordia occurant, ubi <name xml:id="pl-l1d2c4-Nd1e114" ref="#Moses">Moyses</name> ait: 
           <cit>
             <quote xml:id="pll1d2c4-Qd1e3483" source="http://scta.info/resource/deut6_4">Audi Israel, Dominus Deus tuus, Deus unus est.</quote>
             <bibl>Deut. 6:4</bibl>
@@ -86,12 +76,12 @@
         <p xml:id="pll1d2c4-d1e3503">Ecce hic significavit unitatem divinae naturae. 
           <cit>
             <quote xml:id="pll1d2c4-Qd1e3507"><mentioned>Deus</mentioned> enim 
-              et <mentioned>Dominus</mentioned>, ut ait <ref><name ref="#Ambrose">Ambrosius</name> in I libro <title>de Trinitate</title></ref>, 
+              et <mentioned>Dominus</mentioned>, ut ait <ref xml:id="pl-l1d2c4-Rd1e146"><name xml:id="pl-l1d2c4-Nd1e147" ref="#Ambrose">Ambrosius</name> in I libro <title>de Trinitate</title></ref>, 
               nomen est naturae, nomen est potestatis.</quote>
             <bibl>Ambrose, De Trinitate sive De fide ad Gratian, c. 1, n. 7 (PL 16:530)</bibl>
           </cit>
         </p>
-        <p xml:id="pll1d2c4-d1e3528">Item alibi Deus loquens ad <name ref="#Moses">Moysen</name> ait: 
+        <p xml:id="pll1d2c4-d1e3528">Item alibi Deus loquens ad <name xml:id="pl-l1d2c4-Nd1e160" ref="#Moses">Moysen</name> ait: 
           <cit>
             <quote xml:id="pll1d2c4-Qd1e3535" source="http://scta.info/resource/ex3_14">Ego sum qui sum, 
               et si quaesierint nomen meum, vade et dic eis: Qui est, misit 
@@ -105,8 +95,7 @@
         
         <p xml:id="pll1d2c4-d1e3549">In <title ref="#cant">Cantico</title> etiam <title ref="#ex">Exodi</title> legitur: 
           <cit>
-            <quote xml:id="pll1d2c4-Qd1e3559" source="http://scta.info/resource/ex15:3">Dominus, omnipotens nomen 
-              eius</quote>
+            <quote xml:id="pll1d2c4-Qd1e3559" source="http://scta.info/resource/ex15_3">Dominus, omnipotens nomen eius</quote>
             <bibl>Exodus 15:3</bibl>
           </cit>
           Non ait <mentioned>Domini</mentioned>, unitatem volens significare.
@@ -116,14 +105,14 @@
           <cb ed="P" n="6rb"/>
           Dominus in <title ref="#gen">Genesi</title> dicens: 
           <cit>
-            <quote xml:id="pll1d2c4-Qd1e3577" source="http://scta.info/resource/gen1_26">Faciamus homine ad imaginem 
+            <quote xml:id="pll1d2c4-Qd1e3577" source="http://scta.info/resource/gen1_26">Faciamus hominem ad imaginem 
               et similitudinem nostram.</quote>
             <bibl>Genesis 1:26</bibl>
           </cit>
           Dicens <mentioned>faciamus</mentioned> et <mentioned>nostram</mentioned>, 
           pluralitatem personarum ostendit: dicens vero <mentioned>imaginem</mentioned>, unitatem 
           essentiae.</p>
-        <p xml:id="pll1d2c4-d1e3594">Ut enim dicit <ref><name ref="#Augustine">Augustinus</name> in libro <title>De fide ad Petrum</title>:</ref> 
+        <p xml:id="pll1d2c4-d1e3594">Ut enim dicit <ref xml:id="pl-l1d2c4-Rd1e222"><name xml:id="pl-l1d2c4-Nd1e223" ref="#Augustine">Augustinus</name> in libro <title>De fide ad Petrum</title>:</ref> 
           <cit>
             <quote xml:id="pll1d2c4-Qd1e3606">Si in illa natura Patris et Filii et Spiritus sancti una esset tantum 
               <!-- p. 24 --> persona, non diceretur: 
@@ -139,7 +128,7 @@
           </cit>
         </p>
         <p xml:id="pll1d2c4-d1e3628">
-          <ref><name ref="#HilaryOfPoitiers">Hilarius</name> quoque in libro III <title>De Trinitate</title></ref> dicit, his verbis 
+          <ref xml:id="pl-l1d2c4-Rd1e252"><name xml:id="pl-l1d2c4-Nd1e253" ref="#HilaryOfPoitiers">Hilarius</name> quoque in libro III <title>De Trinitate</title></ref> dicit, his verbis 
           significari, quod in Trinitate nec diversitas est nec singularitas, 
           nec solitudo, sed similitudo et pluralitas sive distinctio. Ait enim 
           sic: 
@@ -150,14 +139,14 @@
                   nostram,</quote>
                 <bibl>Genesis 1:26</bibl>
               </cit>
-              invidem esse sui similes in eo quod dicit: <mentioned>imaginem 
+              invicem esse sui similes in eo quod dicit: <mentioned>imaginem 
                 et similitudinem nostram,</mentioned> ostendit. Imago enim sola non 
               est, et similitudo non sibi est: neque diversitatem duobus admisceri 
               alterius ad alterum similitudo permittit.</quote>
             <bibl>Hilarius, De Trinitate, IV, n. 18, 19, 20 (PL 10:111)</bibl>
           </cit>
         </p>
-        <p xml:id="pll1d2c4-d1e3659">Item <ref>idem in IV libro:</ref> 
+        <p xml:id="pll1d2c4-d1e3659">Item <ref xml:id="pl-l1d2c4-Rd1e279">idem in IV libro:</ref> 
           <cit>
             <quote xml:id="pll1d2c4-Qd1e3666">Absolutius voluit intelligi, significationem 
               hanc non ad se tantum esse referendam, dicendo: 
@@ -185,7 +174,7 @@
               diversitatem divinitatis.</quote>
           </cit>
         </p>
-        <p xml:id="pll1d2c4-d1e3700">In his verbis <name ref="#HilaryOfPoitiers">Hilarius</name> pluralitatem personarum voluit intelligi 
+        <p xml:id="pll1d2c4-d1e3700">In his verbis <name xml:id="pl-l1d2c4-Nd1e314" ref="#HilaryOfPoitiers">Hilarius</name> pluralitatem personarum voluit intelligi 
           nomine consortii, atque significavit, nomine consortii vel 
           pluralitatis non poni aliquid, sed removeri. Pluralitas enim vel consortium 
           personarum cum dicitur, 
@@ -194,7 +183,7 @@
           <!-- p. 25 -->
           cum dicimus, plures esse personas, significamus, quod non est 
           una sola.</p>
-        <p xml:id="pll1d2c4-d1e3708">Ideo <name ref="#HilaryOfPoitiers">Hilarius</name> volens ista subtiliter et sane intelligi, ait: 
+        <p xml:id="pll1d2c4-d1e3708">Ideo <name xml:id="pl-l1d2c4-Nd1e324" ref="#HilaryOfPoitiers">Hilarius</name> volens ista subtiliter et sane intelligi, ait: 
           <cit>
             <quote xml:id="pll1d2c4-Qd1e3715">Professio consortii sustulit intelligentiam singularitatis,</quote>
             <bibl>Hillarius, De Trinitate, XXX</bibl>
@@ -213,7 +202,7 @@
         <p xml:id="pll1d2c4-d1e3723">Nunc vero ad propositum redeamus et ad ostendendam pluralitatem 
           personarum atque essentiae divinae unitatem alias Sanctorum 
           auctoritates inducamus.</p>
-        <p xml:id="pll1d2c4-d1e3726"><name ref="#Moses">Moyses</name> dicit: 
+        <p xml:id="pll1d2c4-d1e3726"><name xml:id="pl-l1d2c4-Nd1e342" ref="#Moses">Moyses</name> dicit: 
           <cit>
             <quote xml:id="pll1d2c4-Qd1e3732" source="http://scta.info/resource/gen1_1">In principio creavit Deus caelum et terram,</quote>
             <bibl>Genesis 1:1</bibl>
@@ -232,7 +221,7 @@
           </cit>
           pro quo in Hebraeo habetur 
           <mentioned>heloym</mentioned>, ac si diceret: eritis sicut divinae personae.</p>
-        <p xml:id="pll1d2c4-d1e3770">Ille etiam maximus Prophetarum et regum, <name ref="#David">David</name>, qui suam 
+        <p xml:id="pll1d2c4-d1e3770">Ille etiam maximus Prophetarum et regum, <name xml:id="pl-l1d2c4-Nd1e380" ref="#David">David</name>, qui suam 
           ceteris praefert in<cb ed="#Z" n="5rb" select="zbs-SII-0072_005r.json"/>telligentiam dicens: 
           <cit>
             <quote xml:id="pll1d2c4-Qd1e3777" source="http://scta.info/resource/ps118_100">Super senes intellexi,</quote>
@@ -247,13 +236,14 @@
         <p xml:id="pll1d2c4-d1e3795">Alibi etiam eiusdem unitatem et aeternitatem simul ostendens 
           ait ex persona Dei: 
           <cit>
-            <quote xml:id="pll1d2c4-Qd1e3799" source="http://scta.info/resource/ps80_9"> <!-- also ps 80_10 -->Israel, si me audieris, non erit in te Deus 
+            <quote xml:id="pll1d2c4-Qd1e3799" source="http://scta.info/resource/ps80_9 http://scta.info/resource/ps80_10">
+              Israel, si me audieris, non erit in te Deus 
               recens, neque adorabis Deum alienum.</quote>
             <bibl>Psalm 80:9-10</bibl>
           </cit>
           <cit>
             <quote xml:id="pll1d2c4-Qd1e3810">Aliud horum, ut dicit 
-              <ref><name ref="#Ambrose">Ambrosius</name> in I libro <title>De Trinitate</title></ref>, 
+              <ref xml:id="pl-l1d2c4-Rd1e419"><name xml:id="pl-l1d2c4-Nd1e420" ref="#Ambrose">Ambrosius</name> in I libro <title>De Trinitate</title></ref>, 
               significat aeternitatem, 
               aliud unitatem substantiae indifferentis, ut neque posteriorem Patre, 
               neque alterius divinitatis Filium vel Spiritum sanctum esse credamus. 
@@ -294,7 +284,7 @@
           per hoc quod subdit <mentioned>Dominus Deus,</mentioned> 
           unitatem essentiae.
         </p>
-        <p xml:id="pll1d2c4-d1e3876"><name ref="#David">David</name> quoque aeternam Filii generationem aperte insinuat ex 
+        <p xml:id="pll1d2c4-d1e3876"><name xml:id="pl-l1d2c4-Nd1e478" ref="#David">David</name> quoque aeternam Filii generationem aperte insinuat ex 
           persona Filii dicens: 
           <cit>
             <quote xml:id="pll1d2c4-Qd1e3882" source="http://scta.info/resource/ps2_3">Dominus dixit ad me: Filius meus es tu, 
@@ -302,17 +292,19 @@
             <bibl>Psalm 2:3</bibl>
           </cit>
         </p>
-        <p xml:id="pll1d2c4-d1e3890">De hac ineffabili generatione <name ref="#Isaias">Isaias</name> ait: 
+        <p xml:id="pll1d2c4-d1e3890">De hac ineffabili generatione <name xml:id="pl-l1d2c4-Nd1e492" ref="#Isaias">Isaias</name> ait: 
           <cit>
             <quote xml:id="pll1d2c4-Qd1e3897" source="http://scta.info/resource/is53_8">Generationem eius 
               quis enarrabit?</quote>
             <bibl>Isaias 53:8</bibl>
           </cit>
         </p>
-        <p xml:id="pll1d2c4-d1e3906">In libro quoque Sapietiae aeternitas Filii cum Patre monstratur, 
+        <p xml:id="pll1d2c4-d1e3906">
+          In libro quoque Sapientiae aeternitas Filii cum Patre monstratur, 
           ubi Sapientia ita loquitur: 
           <cit>
-            <quote xml:id="pll1d2c4-Qd1e3910" source="http://scta.info/resource/prov8_22"> <!-- prov 8:22-30 --> Dominus possedit me in initio 
+            <quote xml:id="pll1d2c4-Qd1e3910" source="http://scta.info/resource/prov8_22 http://scta.info/resource/prov8_23 http://scta.info/resource/prov8_24 http://scta.info/resource/prov8_25 http://scta.info/resource/prov8_26 http://scta.info/resource/prov8_27 http://scta.info/resource/prov8_28 http://scta.info/resource/prov8_29 http://scta.info/resource/prov8_30">
+              Dominus possedit me in initio 
               viarum suarum, antequam quidquam faceret a principio: ab 
               aeterno ordinata sum, antequam terra fieret; necdum erant 
               abyssi, et ego iam concepta eram; necdum fontes, necdum montes 
@@ -335,10 +327,10 @@
             <bibl>Eccli 24:5</bibl>
           </cit>
         </p>
-        <p xml:id="pll1d2c4-d1e3932"><name>Michaeas</name> quoque Propheta aeternam Verbi generationem 
+        <p xml:id="pll1d2c4-d1e3932"><name xml:id="pl-l1d2c4-Nd1e532">Michaeas</name> quoque Propheta aeternam Verbi generationem 
           et temporalem 
           <cb ed="#Z" n="5va" select="zbs-SII-0072_005v.json"/>
-          ex <name ref="#Mary">Maria</name> simul insinuavit dicens: 
+          ex <name xml:id="pl-l1d2c4-Nd1e536" ref="#Mary">Maria</name> simul insinuavit dicens: 
           <cit>
             <quote xml:id="pll1d2c4-Qd1e3938" source="http://scta.info/resource/mic5_2">Et tu, Bethlehem 
               Ephrata, parvulus vicus es in milibus Iuda: ex te egredietur 
@@ -356,7 +348,7 @@
             <bibl>Genesis 1:2</bibl>
           </cit>
         </p>
-        <p xml:id="pll1d2c4-d1e3964">Et <name ref="#David">David</name> dicit: 
+        <p xml:id="pll1d2c4-d1e3964">Et <name xml:id="pl-l1d2c4-Nd1e567" ref="#David">David</name> dicit: 
           <cit>
             <quote xml:id="pll1d2c4-Qd1e3971" ana="ps138_7">Quo ibo a Spiritu tuo?</quote>
             <bibl>Psalm 138:7</bibl>
@@ -365,12 +357,13 @@
         <!-- p. 28 -->
         <p xml:id="pll1d2c4-d1e3982">Et in libro <title ref="#sap">Sapientiae</title> dicitur: 
           <cit>
-            <quote xml:id="pll1d2c4-Qd1e3989" source="http://scta.info/resource/sap1_5"> <!-- sap 1:5-6 -->Spiritus sanctus disciplinae 
+            <quote xml:id="pll1d2c4-Qd1e3989" source="http://scta.info/resource/sap1_5 http://scta.info/resource/sap1_6">
+              Spiritus sanctus disciplinae 
               effugiet fictum, benignus est enim spiritus sapientiae.</quote>
             <bibl>Sapientia 1:5-6</bibl>
           </cit>
         </p>
-        <p xml:id="pll1d2c4-d1e3999"><name ref="#Isaias">Isaias</name> quoque ait: 
+        <p xml:id="pll1d2c4-d1e3999"><name xml:id="pl-l1d2c4-Nd1e599" ref="#Isaias">Isaias</name> quoque ait: 
           <cit>
             <quote xml:id="pll1d2c4-Qd1e4005" source="http://scta.info/resource/is61_1">Spiritus Domini super me</quote>
             <bibl>Isaias 61:1</bibl>

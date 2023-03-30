@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -64,51 +61,49 @@
       <div xml:id="pl-l1d2c2">
         <head>Capitulum 2</head>
         <!--<p> rubric heading
-          <lb ed="#H"/>Quae fiunt intentio scribentium de trinitate
+          <lb ed="#H" n="72"/>Quae fiunt intentio scribentium de trinitate
         </p>-->
         <p xml:id="pll1d2c2-d1e3473">
-          <lb ed="#H"/><quote xml:id="pll1d2c2-Qd1e3477">Omnes autem catholici tractatores <unclear>ut</unclear> 
-            <lb ed="#H"/>in eodem libro <name ref="#Augustinus">augustinus</name> ait <add place="above-line">qui</add> de trinitate quae 
-            <lb ed="#H"/>deus est scripserunt <pc type="punctus"/> hoc intenderunt secundum 
-            <lb ed="#H"/>scripturas docere quod pater et filius et spiritus sanctus 
-            <lb ed="#H"/>unius sint substantiae <pc type="punctus"/> et inseparabili aequalitate u<lb ed="#H"/>nus 
-            sint deus ut sit unitas in essentia et plura<lb ed="#H"/>litas 
+          <lb ed="#H" n="73"/><quote xml:id="pll1d2c2-Qd1e3477">Omnes autem catholici tractatores <unclear>ut</unclear> 
+            <lb ed="#H" n="74"/>in eodem libro <name ref="#Augustinus">augustinus</name> ait <add place="above-line">qui</add> de trinitate quae 
+            <lb ed="#H" n="75"/>deus est scripserunt <pc type="punctus"/> hoc intenderunt secundum 
+            <lb ed="#H" n="76"/>scripturas docere quod pater et filius et spiritus sanctus 
+            <lb ed="#H" n="77"/>unius sint substantiae <pc type="punctus"/> et inseparabili aequalitate u<lb ed="#H" break="no" n="78"/>nus 
+            sint deus ut sit unitas in essentia et plura<lb ed="#H" n="79"/>litas 
             in personis Ideoque non <seg type="correction">s<subst><del rend="expunctuation">i</del><add place="above-line">u</add></subst>nt</seg> tres dii sed 
-            <lb ed="#H"/>unus deus licet pater filium genuerit <pc type="punctus"/> et ideo 
-            <lb ed="#H"/>filius non sit qui pater est <pc type="punctus"/> filiusque a patre sit
-            <!-- left off -->
-              genitus, et ideo Pater non sit qui Filius est; et Spiritus sanctus 
-              nec Pater sit nec Filius, sed tantum Patris et Filii Spiritus utrique 
-              coaequalis et ad Trinitatis pertinens unitatem.</quote>
-            <bibl>Augustine, De Trinitate I, c. 4, n. 7 (PL 42:824)</bibl>
-          
+            <lb ed="#H" n="80"/>unus deus licet pater filium genuerit <pc type="punctus"/> et ideo 
+            <lb ed="#H" n="81"/>filius non sit qui pater est <pc type="punctus"/> filiusque a patre sit
+            <lb ed="#H" n="82"/>genitus et ideo pater non sit qui filius est et spiritus sanctus 
+            <lb ed="#H" n="83"/>nec Pater sit nec Filius sed tantum patris et filii 
+            <lb ed="#H" n="84"/>spiritus utrique coaequalis et ad trinitatis pertinens 
+            <lb ed="#H" n="85"/>unitatem</quote>
         </p>
         <!-- another paragraph in smaller font; meaning unlcear -->
-        <p xml:id="pll1d2c2-d1e3492"><ref><name ref="#Augustine">Augustinus</name> in libro I <title ref="#Retractationum">Retractationum</title>:</ref> 
-          <cit>
-            <quote xml:id="pll1d2c2-Qd1e3503">Ubi dixi de Patre et Filio: 
-              qui gignit et quem gignit unum est, dicendum fuit unum sunt, sicut aperte ipsa 
-              Veritas loquitur, dicens: 
-              <cit>
-                <quote xml:id="pll1d2c2-Qd1e3507" source="http://scta.info/resource/io10_30">Ego et Pater unum sumus</quote>
-                <bibl>Iohannes 10:30</bibl>
-              </cit>
+        <p xml:id="pll1d2c2-d1e3492">
+          <!-- position within text unclear -->
+          <add place="margin-right"><ref>in libro <title ref="#Retractationum">etractationum</title></ref> 
+            <quote xml:id="pll1d2c2-Qd1e3503">ubi dixi 
+              de patre et filio 
+              qui gignit 
+              et quem gignit unum 
+              est dicendum fuit 
+              unum sunt sicut aperte 
+              ipsa veritas loquitur dicens
+              <quote xml:id="pll1d2c2-Qd1e3507" source="http://scta.info/resource/io10_30">ego et pater 
+                unum sumus</quote>
             </quote>
-          </cit>
+          </add>
         </p>
         <p xml:id="pll1d2c2-d1e3517">
-          <cit>
-            <quote xml:id="pll1d2c2-Qd1e3521">Teneamus igitur, Patrem et Filium et Spiritum sanctum unum 
-              esse naturaliter Deum, ut ait 
-              <ref><name ref="#Augustine">Augustinus</name> in libro <title ref="#de">De fide ad Petrum</title>;</ref> 
-              nec tamen ipsum Patrem esse qui Filius; nec Filium 
-              ipsum esse qui Pater est; nec Spiritum sanctum ipsum esse qui 
-              Pater est aut Filius. Una est enim Patris et Filii et Spiritus sancti 
-              essentia, quam Graeci homousion vocant, in qua non est aliud 
-              Pater, aliud Filius, aliud Spiritus sanctus, quamvis sit personaliter 
-              alius Pater, alius Filius, alius Spiritu sanctus.</quote>
-            <bibl>Augustinus, De fide ad Petrum, c. 1, n. 5 (PL 40:755)</bibl>
-          </cit>
+            <quote xml:id="pll1d2c2-Qd1e3521">Teneamus igitur patrem et filium et spiritum sanctum 
+            <lb ed="#H" n="86"/>unum esse naturaliter deum ut ait <ref><name ref="#Augustine">augustinus</name> 
+            <lb ed="#H" n="87"/>in libro <title ref="#de">de fide ad petrum</title></ref> nec tamen <del rend="erasure">esse</del> ip<lb ed="#H" break="no" n="88"/>sum 
+            patrem esse qui filius nec filium 
+            <lb ed="#H" n="89"/>ipsum esse qui pater est nec spiritum sanctum ipsum esse qui 
+            <lb ed="#H" n="90"/>pater est aut filius una est enim et patris et filii et <add place="above-line">spiritus sancti</add> esse<lb ed="#H" break="no" n="91"/>ntia quam 
+            graeci <foreign>homousion</foreign> vocant in qua non 
+            <lb ed="#H" n="92"/>est aliud pater aliud filius aliud spiritus sanctus quamvis 
+            <lb ed="#H" n="93"/>sit personaliter alius pater alius filius alius spiritus sanctus</quote>
         </p>
       </div>
     </body>

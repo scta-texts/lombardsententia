@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 1, Distinctio 2, Caput 3 [Hopkins MSB19 Transcription]</title>
+        <author>Petrus Lombardus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor; Tei Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 1, Distinctio 2, Caput 3  [Hopkins MSB19 Transcription]</title>
+          <date when="2023-03-29">March 29, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>
+            <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="H" n="hopkinsMSB19">Baltimore, Hopkins, MS B19</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-03-29" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#H" n="6-r"/>
+        <cb ed="#H" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d2c3">
+        <head xml:id="pl-l1d2c3-Hd1e110">Capitulum 3</head>
+        <!--<p>
+          <lb ed="#H" n="1"/><pc type="pilcrow"/>Quis ordo seruandus cum de trinitate
+           (drops line) agitur
+          </p>-->
+        <p xml:id="pll1d2c3-d1e3473">
+          <lb ed="#H" n="2"/>Ceterum= ut in <ref xml:id="pl-l1d2c3-Rd1e114">I libro <add place="above-line"><title ref="#deTrinitate">de trinitate</title></add> <name xml:id="pl-l1d2c3-Nd1e119" ref="#Augustine">augustinus</name></ref> docet
+          <lb ed="#H" n="3"/><quote xml:id="pl-l1d2c3-Qd1e124">primum secundum auctoritates sanctarum scripturarum 
+          <lb ed="#H" n="4"/>utrum se ita fides habeat demonstratum est 
+            <lb ed="#H" n="5"/>deinde adversum garrulos <seg type="correction">ratinat<add place="above-line">i</add>o<subst><del rend="expunctuation">r</del><add place="above-line">n</add></subst>es</seg> elatio<lb ed="#H" break="no" n="6"/>res 
+            quam capaciores rationibus catholicis et simi<lb ed="#H" n="7"/>litudinibus 
+            congruis ad defensionem et as<lb ed="#H" n="8"/>sertionem 
+            fidei utendum est ut eorum inquisitionibus 
+            <lb ed="#H" n="9"/>satisfacientes mansuetos plenius instruamus 
+            <lb ed="#H" n="10"/>et illi si nequiverint invenire quod quaerunt de 
+            <lb ed="#H" n="11"/>suis mentibus potius quam de ipsa veritate vel de nostra 
+            <lb ed="#H" n="12"/>dissertione conquerantur</quote>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
