@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,8 +13,8 @@
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher></publisher>
-        <pubPlace></pubPlace>
+        <publisher/>
+        <pubPlace/>
         <availability status="free">
           <p>Public Domain</p>
         </availability>
@@ -45,15 +42,11 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="includeList">
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
     </front>
     <body>
       <div xml:id="pl-l1d3c1">
-        <head>Capitulum 1</head>
-        <p xml:id="pll1d3c1-d1e3476"><name ref="#Lombard">Apostolus</name> namque ait, quod 
+        <head xml:id="pl-l1d3c1-Hd1e3296">Capitulum 1</head>
+        <p xml:id="pll1d3c1-d1e3476"><name xml:id="pl-l1d3c1-Nd1e3299" ref="#Lombard">Apostolus</name> namque ait, quod 
           <cit>
             <quote xml:id="pll1d3c1-Qd1e3482" source="http://scta.info/resource/ro1_20">invisibilia Dei a creatura 
               mundi per ea quae facta sunt intellecta conspiciuntur, sempiterna 
@@ -76,7 +69,7 @@
           conspexit <mentioned>per ea quae facta sunt,</mentioned> id est, per creaturas visibiles 
           vel invisibiles. A duobus enim iuvabatur, scilicet a natura, quae 
           rationalis erat, et ab operibus a Deo factis, ut manifestaretur homini 
-          veritas. Ideo <name ref="#Paul">Apostolus</name> dicit: 
+          veritas. Ideo <name xml:id="pl-l1d3c1-Nd1e3322" ref="#Paul">Apostolus</name> dicit: 
           <cit>
             <quote xml:id="pll1d3c1-Qd1e3511" source="http://scta.info/resource/rom1_19">quia Deus revelavit illis,</quote>
             <bibl>Romanos 1:19</bibl>
@@ -84,7 +77,7 @@
           scilicet 
           dum fecit opera, in quibus artificis aliquatenus relucet iudicium.
         </p>
-        <p xml:id="pll1d3c1-d1e3519">Nam sicut ait <name ref="#Ambrose">Ambrosius</name>: 
+        <p xml:id="pll1d3c1-d1e3519">Nam sicut ait <name xml:id="pl-l1d3c1-Nd1e3337" ref="#Ambrose">Ambrosius</name>: 
           <cit>
             <quote xml:id="pll1d3c1-Qd1e3526">Ut Deus, qui natura invisibilis 
               est, etiam a visibilibus posset scire, opus fecit, quod opificem 
@@ -104,10 +97,10 @@
         <!-- p. 31 -->
         <p xml:id="pll1d3c1-d1e3536">Alio etiam modo Dei veritatem ductu rationis cognoscere potuerunt 
           vel etiam cognoverunt.</p>
-        <p xml:id="pll1d3c1-d1e3540">Ut enim <ref><name ref="#Augustine">Augustinus</name> ait in libro <title ref="#CityOfGod">De civitate Dei</title>:</ref> 
+        <p xml:id="pll1d3c1-d1e3540">Ut enim <ref xml:id="pl-l1d3c1-Rd1e3359"><name xml:id="pl-l1d3c1-Nd1e3360" ref="#Augustine">Augustinus</name> ait in libro <title ref="#CityOfGod">De civitate Dei</title>:</ref> 
           <cit>
             <quote xml:id="pll1d3c1-Qd1e3552">Viderunt summi philosophi nullum corpus esse Deum, et ideo cuncta 
-              corpora trasncenderunt <!-- corrected from transcederunt in text -->, quaerentes Deum; viderunt etiam, quidquid 
+              corpora transcenderunt <!-- corrected from trasncederunt in text -->, quaerentes Deum; viderunt etiam, quidquid 
               mutabile est non esse summum Deum omniumque principium, et 
               ideo omnem animam mutabilesque spiritus transcenderunt; deinde 
               viderunt, omne, quod mutabile est, non posse esse nisi ab illo, qui 
@@ -118,7 +111,7 @@
         </p>
         <p xml:id="pll1d3c1-d1e3562">
           <cit>
-            <quote xml:id="pll1d3c1-Qd1e3566">Consideraverunt etiam, quidquid est in substantiis vel corpus 
+            <quote xml:id="pll1d3c1-Qd1e3566" source="http://scta.info/resource/adcd-l8-d1e1128@225-241">Consideraverunt etiam, quidquid est in substantiis vel corpus 
               esse vel spiritum, meliusque aliquid spiritum esse quam corpus, 
               sed longe meliorem qui spiritum fecit et corpus.</quote>
             <bibl>Augustine, De civitate Dei, VIII, c. 6 (PL 41:231)</bibl>
@@ -126,7 +119,7 @@
         </p>
         <p xml:id="pll1d3c1-d1e3574">
           <cit>
-            <quote xml:id="pll1d3c1-Qd1e3578">Intellexerunt etiam, corporis speciem esse sensibilem et 
+            <quote xml:id="pll1d3c1-Qd1e3578" source="http://scta.info/resource/adcd-l8-d1e1128@242-431">Intellexerunt etiam, corporis speciem esse sensibilem et 
               spiritus speciem intelligibilem, et intelligibilem speciem sensibili 
               praetulerunt. Sensibilia dicimus, quae visu tactuque corporis sentiri 
               queunt, intelligibilia, quae conspectu mentis intelligi. Cum igitur 
@@ -138,42 +131,67 @@
               et ex quo cuncta facta essent.</quote>
           </cit>
         </p>
-        <p xml:id="pll1d3c1-d1e3583">Ecce tot modis potuit cognosci veritas Dei. Cum ergo Deus una 
+        <p xml:id="pll1d3c1-d1e3583">
+          Ecce tot modis potuit cognosci veritas Dei. Cum ergo Deus una 
           sit et simplex essentia, quae ex nulla diversitate partium vel accidentium 
-          consistit, pluraliter tamen dicit <name ref="#Paul">Apostolus</name>: 
+          consistit, pluraliter tamen dicit 
+          <name xml:id="pl-l1d3c1-Nd1e3400" ref="#Paul">Apostolus</name>: 
           <cit>
-            <quote xml:id="pll1d3c1-Qd1e3590" source="http://scta.info/resource/rom1_20">invisibilia Dei,</quote>
+            <quote xml:id="pll1d3c1-Qd1e3590" source="http://scta.info/resource/rom1_20">
+              invisibilia Dei
+            </quote>
             <bibl>Romanos 1:20</bibl>
-          </cit>
+          </cit>,
           quia pluribus modis cognoscitur veritas Dei per ea quae facta 
           sunt. Ex perpetuitate namque creaturarum intelligitur Conditor 
           aeternus; ex magnitudine creaturarum omnipotens; ex ordine et 
           dispositione sapiens; ex gubernatione bonus. Haec autem omnia 
-          ad unitatem Deitatis pertinent monstrandam.</p>
+          ad unitatem Deitatis pertinent monstrandam.
+        </p>
         <p xml:id="pll1d3c1-d1e3598">Nunc restat ostendere, utrum per ea quae facta sunt aliquod
           <cb ed="#Pb" n="6ra"/>
           Trinitatis indicium vel exiguum haberi potuerit.</p>
         <!-- p. 32 -->
-        <p xml:id="pll1d3c1-d1e3604">De hoc <ref><name ref="#Augustine">Augustinus</name> in libro VI <title ref="#deTrinitate">De Trinitate</title></ref> ait: 
+        <p xml:id="pll1d3c1-d1e3604">De hoc <ref xml:id="pl-l1d3c1-Rd1e3422"><name xml:id="pl-l1d3c1-Nd1e3423" ref="#Augustine">Augustinus</name> in libro VI <title ref="#deTrinitate">De Trinitate</title></ref> ait: 
           <cit>
-            <quote xml:id="pll1d3c1-Qd1e3615" source="http://scta.info/resource/adt-l6">Oportet, ut Creatorem per ea quae facta sunt intellectu conspicientes, 
+            <quote xml:id="pll1d3c1-Qd1e3615" source="http://scta.info/resource/adt-l6-d1e833@1-21">
+              Oportet, ut Creatorem per ea quae facta sunt intellectu conspicientes, 
               Trinitatem intelligamus. Huius enim Trinitatis vestigium in creaturis 
-              apparet. Haec enim, quae arte divina facta sunt, et unitatem 
-              quandam in se ostendunt et speciem et ordinem. Nam quodque 
+              apparet.
+            </quote>
+            <bibl>Augustinus, De Trinitate, VI, c. 10, n. 12 (PL 42:932)</bibl>
+          </cit>
+          <cit>
+            <quote xml:id="pl-l1d3c1-Qd1e233" source="http://scta.info/resource/adt-l6-d1e830@1-18">
+              Haec enim, quae arte divina facta sunt, et unitatem 
+              quandam in se ostendunt et speciem et ordinem
+            </quote>
+            <bibl>Augustinus, De Trinitate, VI, c. 10, n. 12 (PL 42:932)</bibl>
+          </cit>.
+          <cit>
+            <quote xml:id="pl-l1d3c1-Qd1e241" source="http://scta.info/resource/adt-l6-d1e830@19-64">
+              Nam quodque 
               horum creatorum et unum aliquid est, sicut sunt naturae corporum 
               et animarum; et aliqua specie formatur, sicut sunt figurae 
               vel qualitates corporum ac doctrinae vel artes animarum; et ordinem 
               aliquem petit aut tenet, sicut sunt pondera vel locationes 
-              corporum et amores vel delectationes animarum; et ita in creaturis 
-              praelucet vestigium Trinitatis. In illa enim Trinitate summa origo 
-              est omnium rerum et perfectissima pulcritudo et beatissima delectatio.</quote>
+              corporum et amores vel delectationes animarum
+            </quote>
+            <bibl>Augustinus, De Trinitate, VI, c. 10, n. 12 (PL 42:932)</bibl>
+          </cit>;
+          et ita in creaturis praelucet vestigium Trinitatis.
+          <cit>
+            <quote xml:id="pl-l1d3c1-Qd1e249" source="http://scta.info/resource/adt-l6-d1e833@22-36">
+              In illa enim Trinitate summa origo 
+              est omnium rerum et perfectissima pulcritudo et beatissima delectatio.
+            </quote>
             <bibl>Augustinus, De Trinitate, VI, c. 10, n. 12 (PL 42:932)</bibl>
           </cit>
         </p>
         <p xml:id="pll1d3c1-d1e3623">
           <cit>
             <quote xml:id="pll1d3c1-Qd1e3627">Summa autem origo, ut 
-              <ref><name ref="#Augustine">Augustinus</name> ostendit in libro <title>De vera Religione</title>,</ref>
+              <ref xml:id="pl-l1d3c1-Rd1e3444"><name xml:id="pl-l1d3c1-Nd1e3445" ref="#Augustine">Augustinus</name> ostendit in libro <title>De vera Religione</title>,</ref>
               intelligitur Deus Pater, a quo sunt omnia, a 
               quo Filius et Spiritus sanctus. Perfectissima pulcritudo intelligitur 
               Filius, scilicet veritas Patris, nulla ex parte ei dissimilis, quam 
@@ -183,7 +201,7 @@
               essent, nisi Deus summe bonus esset, qui et nulli naturae, quod 
               ab illo bona esset, invidit, et ut in bono ipso maneret, alia 
               quantum vellet, alia quantum posset, dedit; quae bonitas intelligitur 
-              Spiritus sanctus, qui est domum Patris et Filii. Quare ipsum 
+              Spiritus sanctus, qui est donum Patris et Filii. Quare ipsum 
               donum Dei cum Patre et Filio aeque incommutabile colere et tenere 
               nos convenit. Per considerationem itque creaturarum unius substantiae 
               Trinitatem intelligimus, scilicet unum Deum Patrem, a quo 

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 1, Distinctio 2, Caput 5 [Hopkins MSB19 Transcription]</title>
+        <author>Petrus Lombardus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor; Tei Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 1, Distinctio 2, Caput 4  [Hopkins MSB19 Transcription]</title>
+          <date when="2023-03-30">March 30, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>
+            <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="H" n="hopkinsMSB19">Baltimore, Hopkins, MS B19</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-03-30" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#H" n="6-v"/>
+        <cb ed="#H" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d2c5">
+        <head>Capitulum 5</head>
+        <p xml:id="pll1d2c5-d1e3476">
+          <lb ed="#H" n="75"/>Nunc post testimonia veteris testamenti de 
+          <lb ed="#H" n="76"/>fide sanctae trinitatis <add place="above-line">et</add> unitatis <pc type="punctus"/> ad novi testa<lb ed="#H" break="no" n="77"/>menti 
+          auctoritates accedamus <unclear>ubi</unclear> <quote xml:id="pll1d2c5-Qd1e3480">in med<lb ed="#H" break="no" n="78"/>io 
+          duum animalium</quote> cognoscatur 
+          <lb ed="#H" n="79"/>veritas et <quote xml:id="pll1d2c5-Qd1e3489">forcipe de altari sumatur calcu<lb ed="#H" break="no" n="80"/>lus</quote> 
+          quo tangantur ora fidelium
+        </p>
+        <p xml:id="pll1d2c5-d1e3497">
+          <pc type="punctus"/> Dominus 
+          <lb ed="#H" n="81"/>itaque christus unitatem divinae essentiae ac personarum
+          <lb ed="#H" n="82"/>trinitatem aperte insinuat dicens <name>apostolis</name> <quote xml:id="pll1d2c5-Qd1e3504">Ite <seg type="correction">baptiza<del rend="expunctuation">n</del>te<del rend="expunctuation">s</del></seg> gentes <pc type="punctus"/>in nomine patris et fi<lb ed="#H" break="no" n="83"/>lii 
+          et spiritus sancti</quote> <quote xml:id="pll1d2c5-Qd1e3510"><mentioned>In nomine</mentioned> utique ait ut ait <ref><name ref="#Ambrose">ambrosius</name> 
+          <lb ed="#H" n="84"/>in I libro <title>de trinitate</title></ref> non in nominibus</quote> ut unitas essentiae 
+          <lb ed="#H" n="85"/>ostendatur per <seg type="correction">nomin<del rend="expunctuation">e</del>a</seg> tria quae supposuit 
+          <lb ed="#H" n="86"/>tres esse personas declaravit <pc type="punctus"/>
+        </p>
+        <p xml:id="pll1d2c5-d1e3535">
+            <quote xml:id="pll1d2c5-Qd1e3539">Ipse etiam ait 
+            <lb ed="#H" n="87"/><quote xml:id="pll1d2c5-Qd1e3543">ego et pater unum <sic>simus</sic></quote> <mentioned>unum</mentioned> dixit ut 
+            <lb ed="#H" n="88"/>ait <ref><name ref="#Ambrose">ambrosius</name> in eodem libro</ref> ne fiat discretio 
+            <lb ed="#H" n="89"/>potestatis naturae sed addit <mentioned>sumus</mentioned> ut pa<lb ed="#H" break="no" n="90"/>trem 
+            filiumque cognoscas scilicet ut perfectus pa<lb ed="#H" break="no" n="91"/>ter 
+            filium perfectum genuisse credatur 
+            <pb ed="#H" n="7-r"/>
+            <cb ed="#H" n="a"/>
+            <lb ed="#H" n="1"/>et quod pater et filius unum sint non confu<lb ed="#H" break="no" n="2"/>sione 
+            sed unitate naturae</quote>
+        </p>
+        <p xml:id="pll1d2c5-d1e3576">
+          <ref><name ref="#John">Ioannes</name> quoque in 
+          <lb ed="#H" n="3"/><title ref="#Iio">epistola canonica</title></ref> ait <quote xml:id="pll1d2c5-Qd1e3588">tres sunt qui testimo<lb ed="#H" break="no" n="4"/>nium 
+          perhibent in caelo pater verbum spiritus sanctus 
+          <lb ed="#H" n="5"/>et hii tres unum sunt</quote>
+        </p>
+        <p xml:id="pll1d2c5-d1e3596">
+          Ipse etiam in initio evan<lb ed="#H" break="no" n="6"/>gelii 
+          sui ait <quote xml:id="pll1d2c5-Qd1e3600">In principio erat verbum et ver<lb ed="#H" break="no" n="7"/>bum 
+          erat apud deum et deus erat vebum</quote> ubi 
+          <lb ed="#H" n="8"/>aperte ostendit filium semper et aeternaliter fu<lb ed="#H" break="no" n="9"/>isse 
+          apud patrem ut alium apud alium
+        </p>
+        <p xml:id="pll1d2c5-d1e3608">
+          <name ref="#Paul">apostolus</name> quoque 
+          <lb ed="#H" n="10"/>aperte trinitatem distinguit dicens <quote xml:id="pll1d2c5-Qd1e3614">Misit 
+          <lb ed="#H" n="11"/>spiritum filii sui in corda nostra</quote>
+        </p>
+        <p xml:id="pll1d2c5-d1e3622">
+          et alibi <quote xml:id="pll1d2c5-Qd1e3626">si spiritus 
+          <lb ed="#H" n="12"/>eius qui suscitavit ihesum habitat in nobis</quote> 
+          <lb ed="#H" n="13"/>etc <pc type="punctus"/>
+        </p>
+        <p xml:id="pll1d2c5-d1e3634">
+          Item alibi trinitatem atque unitatem 
+          <lb ed="#H" n="14"/>evidentissime commendat dicens <pc type="punctus"/> <quote xml:id="pll1d2c5-Qd1e3638">quoniam ex 
+          <lb ed="#H" n="15"/>ipso et per ipsum et in ipso sunt omnia ipsi gloria</quote>
+          <lb ed="#H" n="16"/><quote xml:id="pll1d2c5-Qd1e3647"><mentioned>ex ipso</mentioned> ut <ref><name ref="#Augustine">augustinus</name> in liber <title ref="#deTrinitate">de trinitate</title></ref> dicit <del rend="strikethrough">ex ipso</del> propter 
+          <lb ed="#H" n="17"/>patrem <mentioned>per ipsum</mentioned> dicit propter filium <mentioned>in ipso</mentioned> propter spiritum 
+          <lb ed="#H" n="18"/>sanctum</quote> per hoc vero quod <add place="above-line">non</add> ait ex ipsis per ipsos et in ipsis 
+          <lb ed="#H" n="19"/>nec ait ipsis gloria sed <mentioned><seg type="correction">ipsi<del rend="expunctuation">s</del></seg></mentioned> insinuavit hanc 
+          <lb ed="#H" n="20"/>trinitatem unum dominum deum esse
+        </p>
+        <p xml:id="pll1d2c5-d1e3677">
+          sed quia 
+          <lb ed="#H" n="21"/>singulae pene <unclear>sillabae</unclear> novi testamenti hanc 
+          <lb ed="#H" n="22"/>ineffabilis unitatis atque trinitatis veritatem 
+          <lb ed="#H" n="23"/>concorditer insinuant inductioni testi<lb ed="#H" break="no" n="24"/>moniorum 
+          super hac re supersedeamus
+          <lb ed="#H" n="25"/><pc type="punctus"/> et rationibus congruisque similitudinis 
+          <lb ed="#H" n="26"/>ita esse prout infirmitas nostra valet ostenda<lb ed="#H" break="no" n="27"/>mus
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

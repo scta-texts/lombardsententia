@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 1, Distinctio 3, Caput 1 [Hopkins MSB19 Transcription]</title>
+        <author>Petrus Lombardus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor; Tei Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 1, Distinctio 3, Caput 1   [Hopkins MSB19 Transcription]</title>
+          <date when="2023-04-19">April 19, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>
+            <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="H" n="hopkinsMSB19">Baltimore, Hopkins, MS B19</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-04-19" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#H" n="7-r"/>
+        <cb ed="#H" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d3c1">
+        <head xml:id="pl-l1d3c1-Hd1e3296">Capitulum 1</head>
+        <!-- rubric: Incipit ostendere quomodo per createa potuit cognsoci creator -->
+        <p xml:id="pll1d3c1-d1e3476">
+          <lb ed="#H" n="28"/><name xml:id="pl-l1d3c1-Nd1e3299" ref="#Lombard">Apostolus</name> namque ait quod 
+          <lb ed="#H" n="29"/><quote xml:id="pll1d3c1-Qd1e3482">invisibilia dei a creatura mundi per 
+          <lb ed="#H" n="30"/>ea quae facta sunt intellecta conspici<lb ed="#H" break="no" n="31"/>untur 
+          sempiterna quoque virtus eius et divini<lb ed="#H" break="no" n="32"/>tas</quote> 
+          per <mentioned>creaturam mundi</mentioned> intelligitur homo 
+          <lb ed="#H" n="33"/><quote xml:id="pll1d3c1-Qd1e3494">propter excellentiam qua excellit inter alias 
+          <lb ed="#H" n="34"/>creaturas vel propter convenientiam quam habet 
+          <lb ed="#H" n="35"/>cum omni creatura</quote> Homo ergo <seg type="correction"><subst><del rend="strikethrough">i</del><add place="above-line">in</add></subst>visibilia</seg> 
+          <lb ed="#H" n="36"/>dei intellectu mentis conspicere potuit 
+          <lb ed="#H" n="37"/>vel etiam conspexit <mentioned>per ea quae facta sunt</mentioned> 
+          <lb ed="#H" n="38"/>id est per creaturas visibiles vel invisibiles a 
+          <lb ed="#H" n="39"/>duobus enim iuvabatur scilicet a natura quae ratio<lb ed="#H" break="no" n="40"/>nalis 
+          erat et ab operibus a deo factis ut mani<lb ed="#H" break="no" n="41"/>festaretur 
+          homini veritas ideo <name xml:id="pl-l1d3c1-Nd1e3322" ref="#Paul">apostolus</name> di<lb ed="#H" break="no" n="42"/>cit 
+          <quote xml:id="pll1d3c1-Qd1e3511">quia deus revelavit illis</quote> scilicet dum fecit 
+          <lb ed="#H" n="43"/>omnia opera in quibus artificis aliqua<lb ed="#H" break="no" n="44"/>tenus 
+          relucet iudicium
+        </p>
+        <p xml:id="pll1d3c1-d1e3519">
+          nam sicut ait 
+          <lb ed="#H" n="45"/><name xml:id="pl-l1d3c1-Nd1e3337" ref="#Ambrose">ambrosius</name> <quote xml:id="pll1d3c1-Qd1e3526">ut deus qui natura invisibilis est etiam 
+          <lb ed="#H" n="46"/>a visibilibus posset scire opus fecit quod 
+          <lb ed="#H" n="47"/>opificem visibilitate sui manifesta<cb ed="#H" n="b"/><lb ed="#H" break="no" n="48"/>vit 
+          ut per certum incertum posset sciri et ille 
+          <lb ed="#H" n="49"/>deus omnium esse crederetur qui hoc fecit quod ab ho<lb ed="#H" break="no" n="50"/>mine 
+          impossibile est fieri</quote> potuerunt ergo cognoscere 
+          <lb ed="#H" n="51"/>sive cognoverunt ultra omnem creaturam esse illum qui 
+          <lb ed="#H" n="52"/>ea fecit quae nulla creaturarum facere vel destruere 
+          <lb ed="#H" n="53"/>valet accedat quaecumque vis creatura et <seg type="correction">fa<add place="above-line">ciat</add></seg> tale caelum 
+          <lb ed="#H" n="54"/>et talem terram et dicam quia deus est Sed quia nulla cre<lb ed="#H" break="no" n="55"/>atura 
+          talia facere valet constat supra omnem 
+          <lb ed="#H" n="56"/>creaturam esse illum qui ea fecit ac per hoc illum esse deum 
+          <lb ed="#H" n="57"/>humana mens cognoscere potuit
+        </p>
+        
+        <p><!-- rubric 
+          secunda 
+          <lb/>ratio qua potuit cognosci vel modus quo noverunt -->
+          </p>
+        <p xml:id="pll1d3c1-d1e3536">
+          <lb ed="#H" n="58"/> <!-- rubric line break (see above) -->
+          <lb ed="#H" n="59"/>Alio etiam modo Dei veritatem ductu rationis cognoscere potuerunt 
+          vel etiam cognoverunt.</p>
+        <p xml:id="pll1d3c1-d1e3540">
+          ut enim <ref xml:id="pl-l1d3c1-Rd1e3359"><name xml:id="pl-l1d3c1-Nd1e3360" ref="#Augustine">augustinus</name> 
+          <lb ed="#H" n="60"/>ait in libro <title ref="#CityOfGod">de civitate dei</title></ref> <quote xml:id="pll1d3c1-Qd1e3552">viderunt summi philosophi 
+          <lb ed="#H" n="61"/>nullum corpus esse deum et ideo cuncta corpora 
+          <lb ed="#H" n="62"/>transcenderunt quaerentes deum viderunt 
+          <lb ed="#H" n="63"/>etiam quidquid mutabile est non esse summum 
+          <lb ed="#H" n="64"/>deum omniumque principium et ideo omnem 
+          <lb ed="#H" n="65"/>animam mutabilesque spiritus transcende<lb ed="#H" break="no" n="66"/>runt 
+          deinde viderunt omne quod mutabi<lb ed="#H" break="no" n="67"/>le 
+          est non posse esse nisi ab illo qui incommu<lb ed="#H" break="no" n="68"/>tabiliter 
+          et simpliciter est intellexerunt igitur eum et 
+          <lb ed="#H" n="69"/>omnia ista fecisse et a nullo fieri posse</quote>
+        </p>
+        <p xml:id="pll1d3c1-d1e3562">
+          <lb ed="#H" n="70"/><quote xml:id="pll1d3c1-Qd1e3566">Consideraverunt 
+          <lb ed="#H" n="71"/>etiam quicquid est in substantiis vel corpus esse vel spiritum 
+          <lb ed="#H" n="72"/>meliusque aliquid spiritum esse quam corpus sed longe 
+          <lb ed="#H" n="73"/>meliorem qui spiritum fecit et corpus</quote>
+        </p>
+        <p xml:id="pll1d3c1-d1e3574">
+          <lb ed="#H" n="74"/><quote xml:id="pll1d3c1-Qd1e3578">Intellexerunt etiam corporis speciem esse 
+          <lb ed="#H" n="75"/>sensibilem et spiritus speciem intelligibilem 
+          <lb ed="#H" n="76"/>et intelligibilem speciem sensibili praetulerunt 
+          <lb ed="#H" n="77"/>sensibilia dicimus quae visu tactuque corporis 
+          <lb ed="#H" n="78"/>sentiri queunt intelligibilia quae conspe<lb ed="#H" break="no" n="79"/>ctu 
+          mentis intelligi Cum igitur in eorum 
+          <lb ed="#H" n="80"/>conspectu et corpus et animus magis mi<lb ed="#H" break="no" n="81"/>nusque 
+          speciosa essent <pc type="punctus"/> Si autem omni specie ca<lb ed="#H" break="no" n="82"/>rere 
+          possent omnino nulla esset vide<lb ed="#H" break="no" n="83"/>runt 
+          esse aliquid quo illa speciosa facta sunt ubi 
+          <lb ed="#H" n="84"/>est prima et incommutabilis species ideoque incom<lb ed="#H" break="no" n="85"/>parabilis 
+          et illud esse rerum principium rectis<lb ed="#H" break="no" n="86"/>sime 
+          crediderunt quod factum non esset et ex quo cunc<lb ed="#H" break="no" n="87"/>ta 
+          facta essent</quote> <pc type="punctus"/>
+        </p>
+        <p xml:id="pll1d3c1-d1e3583">
+          Ecce tot modis potuit cognos<lb ed="#H" break="no" n="88"/>ci 
+          veritas dei Cum ergo deus una sit et simplex essentia quae 
+          <lb ed="#H" n="89"/>ex nulla diversitate partium vel accidentium 
+          <lb ed="#H" n="90"/>consistit pluraliter tamen dicit <name xml:id="pl-l1d3c1-Nd1e3400" ref="#Paul">apostolus</name> <quote xml:id="pll1d3c1-Qd1e3590">invisibilia 
+          dei</quote> quia pluribus modis cognoscitur veritas 
+          <lb ed="#H" n="91"/>dei per ea quae facta sunt ex perpetuitate 
+          <lb ed="#H" n="92"/>namque creaturarum intelligitur conditor aeternus ex 
+          <pb ed="#H" n="7-v"/>
+          <cb ed="#H" n="a"/>
+          <lb ed="#H" n="1"/>magnitudine creaturarum omnipotens <pc type="punctus"/> ex ordine et dispo<lb ed="#H" break="no" n="2"/>sitione 
+          sapiens <pc type="punctus"/> ex gubernatione bonus haec autem omnia 
+          <lb ed="#H" n="3"/>ad unitatem deitatis pertinent monstrandam
+        </p>
+        <!-- rubric: quomodo increatis apparet vestigium trinitatis -->
+        <p xml:id="pll1d3c1-d1e3598">
+          <lb ed="#H" n="4"/><!-- rubric line -->
+          <lb ed="#H" n="5"/>Nunc restat ostendere utrum per ea quae facta sunt <del rend="expunctuation">in<lb ed="#H" break="no" n="6"/>tellectu</del> 
+          aliquod trinitatis indicium vel exiguum 
+          <lb ed="#H" n="7"/>haberi potuerit <pc type="punctus"/>
+        </p>
+        <p xml:id="pll1d3c1-d1e3604">
+          De hoc <ref xml:id="pl-l1d3c1-Rd1e3422"><name xml:id="pl-l1d3c1-Nd1e3423" ref="#Augustine">Augustinus</name> in libro VI <title ref="#deTrinitate">de trinitate</title></ref> ait 
+          <quote xml:id="pll1d3c1-Qd1e3615">Oportet ut creatorem per ea quae facta sunt intellectu con<lb ed="#H" break="no" n="8"/>spicientes 
+          trinitatem intelligamus huius enim trinitatis 
+          <lb ed="#H" n="9"/>vestigium in creaturis apparet</quote> <quote xml:id="pl-l1d3c1-Qd1e233">
+          haec enim quae arte divi<lb ed="#H" break="no" n="10"/>na 
+          facta sunt et unitatem quandam in se ostendunt et speciem 
+          <lb ed="#H" n="11"/>et ordinem</quote> <quote xml:id="pl-l1d3c1-Qd1e241">Nam quodque <sic>harum creaturarum</sic> et unum 
+          <lb ed="#H" n="12"/>aliquid est sicut sunt naturae corporum et animarum et aliqua 
+          <lb ed="#H" n="13"/>specie formatur sicut sunt figurae vel qualitates corporum ac 
+          <lb ed="#H" n="14"/>doctrinae vel artes animarum et ordinem aliquem petit aut 
+          <lb ed="#H" n="15"/>tenet sicut sunt pondera vel locationes corporum et amores vel de<lb ed="#H" break="no" n="16"/>lectationes 
+          animarum</quote> et ita in creaturis praelucet vestigium trinitatis <quote xml:id="pl-l1d3c1-Qd1e249">In illa enim 
+          <lb ed="#H" n="17"/>summa origo est omnium rerum et perfectissima pulcritu<lb ed="#H" break="no" n="18"/>do 
+          et beatissima delectatio
+        </quote>
+        </p>
+        <p xml:id="pll1d3c1-d1e3623">
+          <quote xml:id="pll1d3c1-Qd1e3627">Summa autem origo ut <ref xml:id="pl-l1d3c1-Rd1e3444"><name xml:id="pl-l1d3c1-Nd1e3445" ref="#Augustine">augustinus</name> 
+          <lb ed="#H" n="19"/>ostendit in libro <title>de vera religione</title></ref> intelligitur deus pa<lb ed="#H" break="no" n="20"/>ter 
+          a quo sunt omnia a quo filius et spiritus sanctus perfectissima 
+          <lb ed="#H" n="21"/>pulcritudo intelligitur filius scilicet veritas patris nulla ex 
+          <lb ed="#H" n="22"/>parte ei dissimilis quam cum ipso et in ipso patre venera<lb ed="#H" break="no" n="23"/>mur 
+          quae forma est omnium quae ab uno facta sunt et ad unum 
+          <lb ed="#H" n="24"/>referuntur Quae tamen omnia nec fierent a patre per filium neque 
+          <lb ed="#H" n="25"/>suis finibus salva essent nisi deus summe bonus esset qui 
+          <lb ed="#H" n="26"/>et nulli naturae quod ab illo bona esset invidit et ut 
+          <lb ed="#H" n="27"/>in bono ipso <seg type="correction">manere<add place="above-line">t</add></seg> alia quantum vellet alia quan<lb ed="#H" break="no" n="28"/>tum 
+          posset dedit quae bonitas intelligitur spiritus sanctus qui 
+          <lb ed="#H" n="29"/>est donum patris et filii quare ipsum donum dei cum patre et fi<lb ed="#H" break="no" n="30"/>lio 
+          aeque incommutabile colere et tenere nos convenit <pc type="punctus"/> 
+          <lb ed="#H" n="31"/>per considerationem itaque creaturarum unius substantiae trinitatem 
+          <lb ed="#H" n="32"/>intelligimus scilicet unum deum patrem a quo sumus 
+          <lb ed="#H" n="33"/>et filium per quem sumus et spiritum sanctum in quo sumus scilicet 
+          <lb ed="#H" n="34"/>principium ad quod recurrimus et formam quam sequimur 
+          <lb ed="#H" n="35"/>et gratiam qua reconciliamur unum scilicet quo auctore 
+          <lb ed="#H" n="36"/>conditi sumus et similitudinem eius per quam ad unitatem 
+          <lb ed="#H" n="37"/>reformamur et pacem qua unitati adhaeremus scilicet deum 
+          <lb ed="#H" n="38"/>qui dixit <quote xml:id="pll1d3c1-Qd1e3639">fiat</quote> et verbum per quod factum est omne quod substantialiter  
+          <lb ed="#H" n="39"/>et naturaliter est et donum benignitatis eius <add place="above-line">qua</add> placuit 
+          <lb ed="#H" n="40"/>quod ab eo per verbum factum est et reconciliatum est aucto<lb ed="#H" break="no" n="41"/>ri 
+          ut non interiret</quote> <pc type="punctus"/>
+        </p>
+        <p xml:id="pll1d3c1-d1e3654">
+          Ecce ostensum est qualiter in creaturis 
+          <lb ed="#H" n="42"/>aliquatenus imago trinitatis indicatur non enim 
+          <lb ed="#H" n="43"/>per creaturarum contemplationem sufficiens no<lb ed="#H" break="no" n="44"/>titia 
+          trinitatis potest haberi vel potuit sine doctri<lb ed="#H" break="no" n="45"/>nae 
+          vel interioris inspirationis revelatione 
+          <lb ed="#H" n="46"/>unde illi antiqui philosophi quasi per umbram et de 
+          <cb ed="#H" n="b"/>
+          <lb ed="#H" n="47"/>longinquo viderunt veritatem, deficientes in contu<lb ed="#H" break="no" n="48"/>itu 
+          trinitatis ut magi <seg type="correction">pha<add place="above-line">rah</add>onis</seg> in tertio signo 
+          <lb ed="#H" n="49"/>adiuvamur tamen in fide invisibilium per ea quae facta sunt
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
