@@ -1,61 +1,63 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Liber 1, Distinctio 3, Caput 2</title>
-        <author>Petrus Lombardus</author>
-        <editor></editor>
+        <author ref="#Lombard">Petrus Lombardus</author>
+        <editor/>
       </titleStmt>
       <editionStmt>
-        <edition n="2015.09-dev-master">
+        <edition n="0.0.0-dev">
           <title>Liber 1, Distinctio 3, Caput 2</title>
           <date when="2015-09-25">September 25, 2015</date>
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher></publisher>
-        <pubPlace></pubPlace>
+        <authority>SCTA</authority>
         <availability status="free">
-          <p>Public Domain</p>
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
         </availability>
-        <date when="2015-09-25">September 25, 2015</date>  
+        <date when="2015-09-06">September 09, 2015</date>  
       </publicationStmt>
       <sourceDesc>
         <listWit>
           <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
           <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+          <witness xml:id="Z" n="zbsSII72">Solothurn, Zentralbibliothek, Cod. S II 72</witness>
+          <witness xml:id="H" n="hopkinsMSB19">Baltimore, Hopkins</witness>
+          <witness xml:id="Pd" n="parker522">Cambridge, Parker Library, ms. 522</witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a critical edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2015-09-25" who="#JW" status="draft" n="2015.09">
-          <p>Created file for the first time.</p>
-          <note type="status">
-            <note type="collobaration">Yes</note>
-            <note type="validating-schema">lbp-0.0.1</note>
-            <note type="transcription-type">critical</note>
-          </note>
+        <change when="2015-09-25" status="draft" n="0.0.0">
+          <p>File Started for the first time.</p>
         </change>
       </listChange>
     </revisionDesc>
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="includeList">
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      <div xml:id="starts-on">
+        <pb ed="#Pb" n="6-r"/>
+        <cb ed="#Pb" n="b"/>
       </div>
     </front>
     <body>
       <div xml:id="pl-l1d3c2">
-        <head>Capitulum 2</head>
+        <head xml:id="pl-l1d3c2-Hd1e101">Capitulum 2</head>
         <p xml:id="pll1d3c2-d1e3476">
           <cit>
-            <quote xml:id="pll1d3c2-Qd1e3480">Nunc vero iam ad eam perveniamus dipsutaitonem, ub in 
+            <quote xml:id="pll1d3c2-Qd1e3480" source="http://scta.info/resource/adt-l14-d1e1586@1-25">Nunc vero iam ad eam perveniamus disputationem, ubi in 
               mente humana, quae novit Deum vel potest nosse, Trinitatis imaginem 
               reperiamus.</quote>
             <bibl>Augustinus, <title>De Trinitate</title>, XIV, c. 8, n. 11 (PL 42:1044)</bibl>
@@ -63,12 +65,12 @@
         </p>
         <p xml:id="pll1d3c2-d1e3491">
           Ut enim ait 
-          <ref>
-            <name ref="#Augustine">Augustinus</name> in XIV libro 
+          <ref xml:id="pl-l1d3c2-Rd1e119">
+            <name xml:id="pl-l1d3c2-Nd1e121" ref="#Augustine">Augustinus</name> in XIV libro 
             <title ref="#deTrinitate">De Trinitate</title>
           </ref>: 
           <cit>
-            <quote xml:id="pll1d3c2-Qd1e3502" source="http://scta.info/resource/adt-l14-d1e1586">
+            <quote xml:id="pll1d3c2-Qd1e3502" source="http://scta.info/resource/adt-l14-d1e1586@26-119 http://scta.info/resource/adt-l14-d1e1589@1-21">
               Licet 
               humana mens non sit eius naturae, cuius Deus est, imago tamen 
               illius, quo nihil melius est, ibi quaerenda et invenienda est, quo 
@@ -77,7 +79,8 @@
               etsi enim, amissa Dei participatione, deformis sit, imago tamen Dei 
               permanet. Eo enim ipso imago Dei est mens, quo capax eius est, 
               eiusque particeps esse potest. Iam ergo in ea Trinitatem, quae Deus 
-              est, inquiramus. Ecce ergo mens meminit sui, intelligit se, diligit 
+              est, inquiramus.
+              Ecce ergo mens meminit sui, intelligit se, diligit 
               se; hoc si cernimus, cernimus trinitatem, nondum quidem Deum, 
               sed imaginem Dei
             </quote>
@@ -86,17 +89,18 @@
           Hic enim quaedam apparet trinitas memoriae, 
           intelligentiae et amoris. 
           <cit>
-            <quote xml:id="pll1d3c2-Qd1e3514">Haec igitur tria potissimum tractemus, 
-              memoriam, intelligentiam, voluntatem.</quote>
+            <quote xml:id="pll1d3c2-Qd1e3514" source="http://scta.info/resource/adt-l10-d1e1178@12-19">
+              Haec igitur tria potissimum tractemus, memoriam, intelligentiam, voluntatem
+            </quote>
             <bibl>Augustine, De Trinitate, X, c. 11, n. 17 (PL 42:982)</bibl>
-          </cit>
+          </cit>.
         </p>
         <!-- p. 34 -->
         <p xml:id="pll1d3c2-d1e3524">
           <cit>
-            <quote xml:id="pll1d3c2-Qd1e3528" source="http://scta.info/resource/adt-l10-d1e1182">
+            <quote xml:id="pll1d3c2-Qd1e3528" source="http://scta.info/resource/adt-l10-d1e1182@1-113">
               Haec igitur tria, ut ait 
-              <ref><name ref="#Augustine">Augustinus</name> in libro X <title ref="#deTrinitate">De Trinitate</title>,</ref>
+              <ref xml:id="pl-l1d3c2-Rd1e156"><name xml:id="pl-l1d3c2-Nd1e157" ref="#Augustine">Augustinus</name> in libro X <title ref="#deTrinitate">De Trinitate</title>,</ref>
               non sunt tres vitae, sed una vita, nec tres mentes, sed 
               una mens, una essentia. Memoria vero dicitur ad aliquid, et intelligentia 
               et voluntas sive dilectio similiter ad aliquid dicitur; vita 
@@ -110,7 +114,7 @@
         </p>
         <p xml:id="pll1d3c2-d1e3545">
           <cit>
-            <quote xml:id="pll1d3c2-Qd1e3549" source="http://scta.info/resource/adt-l10-d1e1182">
+            <quote xml:id="pll1d3c2-Qd1e3549" source="http://scta.info/resource/adt-l10-d1e1182@114-223">
               Aequalia etiam sunt non solum singula singulis, sed etiam 
               singula omnibus; alioquin non se invicem caperent; se autem invicem 
               capiunt. Capiuntur enim et a singulis singula et a singulis 
@@ -118,7 +122,8 @@
               et intelligo me intelligere et velle atque meminisse; et 
               volo me velle et meminisse et intelligere, totamque meam memoriam 
               et intelligentiam et voluntatem simul memini. Quod enim
-              <cb ed="#Pb" n="6va"/>
+              <pb ed="#Pb" n="6-v"/>
+              <cb ed="#Pb" n="a"/>
               memoriae meae non memini, illud non est in memoria mea; nihil 
               autem tam in memoria est, quam ipsa memoria: totam igitur 
               memini. Item, quidquid intelligo, intelligere me scio, et scio, me 
@@ -130,7 +135,7 @@
         </p>
         <p xml:id="pll1d3c2-d1e3557">
           <cit>
-            <quote xml:id="pll1d3c2-Qd1e3561" source="http://scta.info/resource/adt-l10-d1e1182">
+            <quote xml:id="pll1d3c2-Qd1e3561" source="http://scta.info/resource/adt-l10-d1e1182@224-266">
               Similiter, cum haec tria intelligo, tota simul intelligo. Neque enim 
               quidquam intelligibilium est, quod non intelligam, nisi 
               quod ignoro. Quod autem ignoro, nec memini nec volo. Quidquid 
@@ -142,7 +147,8 @@
         </p>
         <p xml:id="pll1d3c2-d1e3569">
           <cit>
-            <quote xml:id="pll1d3c2-Qd1e3573">Voluntas etiam mea totam intelligentiam totamque memoriam 
+            <quote xml:id="pll1d3c2-Qd1e3573" source="http://scta.info/resource/adt-l10-d1e1182@267-314">
+              Voluntas etiam mea totam intelligentiam totamque memoriam 
               meam capit, dum utor toto eo quod intelligo et memini. Cum 
               itaque invicem a singulis et omnia et tota capiantur, aequalia sunt 
               tota singula totis singulis et tota singula simul omnibus totis; et 
@@ -157,24 +163,26 @@
             <bibl>Augustine, De Trinitate, 15, c. 7, n. 11 (PL 48:1065)</bibl>
           </cit>
           <cit>
-            <quote xml:id="pll1d3c2-Qd1e3594">imago est humana mens, licet impar</quote>
+            <quote xml:id="pll1d3c2-Qd1e3594" source="http://scta.info/resource/adt-l10-d1e1185@15-19">imago est humana mens, licet impar</quote>
             <bibl>Augustine, De Trinitate, 10, c. 12, n. 19 (PL 42:984)</bibl>
           </cit>
           <!-- p. 35 -->
           Mens autem hic pro animo ipso accipitur, ubi est illa imago Trinitatis; 
+          proprie vero mens dicitur, ut <name xml:id="pl-l1d3c2-Nd1e229" ref="#Augustine">Augustinus</name> ait, 
           <cit>
-            <quote xml:id="pll1d3c2-Qd1e3605">proprie vero mens dicitur, ut <name ref="#Augustine">Augustinus</name> ait, non 
-              anima ipsa, sed quod in ea ext excellentius,</quote>
+            <quote xml:id="pll1d3c2-Qd1e3605" source="http://scta.info/resource/adt-l15-d1e1753@119-128">
+              non anima ipsa, sed quod in ea est excellentius</quote>
             <bibl>Augustine, De Trinitate, 15, c. 7, n. 11 (PL 42:1065)</bibl>
-          </cit>
+          </cit>,
           qualiter accipitur 
           saepe. Illud etiam sciendum, quod memoria non est solum absentium 
-          et praeteritorum, sed etiam praesentium, ut ait 
-          <ref>
-            <seg><name ref="#Augustine">Augustinus</name> 
-              in XIV libro <title ref="#deTrinitate">De Trinitate</title>,</seg>
+          et praeteritorum, sed etiam praesentium, ut ait
+          <cit>
+            <ref xml:id="pl-l1d3c2-Rd1e236">
+              <name xml:id="pl-l1d3c2-Nd1e239" ref="#Augustine">Augustinus</name> in XIV libro <title ref="#deTrinitate">De Trinitate</title>
+            </ref>
             <bibl>Augustine, De Trinitate, XIV, c. 11, n. 14</bibl>
-          </ref> 
+          </cit>,
           alioquin non se caperet.
         </p>
         <p xml:id="pll1d3c2-d1e3630">
@@ -189,7 +197,7 @@
         </p>
         <p xml:id="pll1d3c2-d1e3633">
           <cit>
-            <quote xml:id="pll1d3c2-Qd1e3637" source="http://scta.info/resource/adt-l10-d1e1182"> <!-- source checked -->
+            <quote xml:id="pll1d3c2-Qd1e3637" source="http://scta.info/resource/adt-l10-d1e1182@106-113">
               Et haec tria etiam ad se ipsa referuntur
             </quote>
             <bibl>
@@ -200,23 +208,23 @@
             </bibl>
           </cit>,
           ut ait 
-          <ref>
-            <name ref="#Augustine">Augustinus</name> 
+          <ref xml:id="pl-l1d3c2-Rd1e270">
+            <name xml:id="pl-l1d3c2-Nd1e272" ref="#Augustine">Augustinus</name> 
             in IX libro 
             <title ref="#deTrinitate">De Trinitate</title>
           </ref>: 
           <cit>
-            <quote xml:id="pll1d3c2-Qd1e3654" source="http://scta.info/resource/adt-l9-d1e1043">
+            <quote xml:id="pll1d3c2-Qd1e3654" source="http://scta.info/resource/adt-l9-d1e1043@1-16">
               Mens enim amare se ipsam 
               vel meminisse
-              <cb ed="#Pb" n="6vb"/>
+              <cb ed="#Pb" n="b"/>
               non potest, nisi etiam noverit se: nam quomodo 
               amat vel meminit quod nescit?</quote>
             <bibl>Augustinus, De Trinitate, IX, c. 3 n. 3 (PL 42: 962)</bibl>
           </cit>.
           <cit>
             <!-- this quote not marked in quaracci edition -->
-            <quote xml:id="pll1d3c2-Qzeg3dd" source="http://scta.info/resource/adt-l9-d1e1059">
+            <quote xml:id="pll1d3c2-Qzeg3dd" source="http://scta.info/resource/adt-l9-d1e1059@301-329">
               Miro itque modo tria ista inseparabilia sunt a semetipsis; et tamen eorum singulum et simul 
               omnia una essentia est, cum et relative dicantur ad invicem
             </quote>
@@ -230,15 +238,16 @@
         <p xml:id="pll1d3c2-d1e3663">Sed iam videndum est, quo modo haec tria dicantur una substantia; 
           ideo scilicet, quia in ipsa anima vel mente substantialiter 
           existunt, non sicut accidentia in subiectis, quae possunt adesse 
-          et abesse.</p>
+          et abesse.
+        </p>
         <p xml:id="pll1d3c2-d1e3666">
           Unde 
-          <ref>
-            <name ref="#Augustine">Augustinus</name> in libro IX 
+          <ref xml:id="pl-l1d3c2-Rd1e313">
+            <name xml:id="pl-l1d3c2-Nd1e315" ref="#Augustine">Augustinus</name> in libro IX 
             <title ref="#deTrinitate">De Trinitate</title>
           </ref> ait: 
           <cit>
-            <quote xml:id="pll1d3c2-Qd1e3677" source="http://scta.info/resource/adt-l9-d1e1049">
+            <quote xml:id="pll1d3c2-Qd1e3677" source="http://scta.info/resource/adt-l9-d1e1049@3-35 http://scta.info/resource/adt-l9-d1e1049@106-118">
               Admonemur, si utcumque videre possumus, haec in animo existere 
               substantialiter, non tanquam in subiecto, ut color in corpore, quia 
               etsi relative dicuntur ad invicem, singula tamen substantialiter 
@@ -251,10 +260,10 @@
           Ecce ex quo sensu illa tria dicantur esse unum sive una 
           substantia.
           <cit>
-            <quote xml:id="pll1d3c2-Qd1e3692" source="http://scta.info/resource/adt-l15-d1e1921">
+            <quote xml:id="pll1d3c2-Qd1e3692" source="http://scta.info/resource/adt-l15-d1e1921@100-140">
               Quae tria, 
-              <ref>ut ait 
-                <name ref="#Augustine">Augustinus</name> in libro XV 
+              <ref xml:id="pl-l1d3c2-Rd1e340">ut ait 
+                <name xml:id="pl-l1d3c2-Nd1e342" ref="#Augustine">Augustinus</name> in libro XV 
                 <title ref="#deTrinitate">De Trinitate</title>
               </ref>,
               <!-- p. 36 -->
