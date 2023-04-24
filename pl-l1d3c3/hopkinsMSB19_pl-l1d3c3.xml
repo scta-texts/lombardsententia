@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 1, Distinctio 3, Caput 3 [Hopkins MSB19 Transcription]</title>
+        <author>Petrus Lombardus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor; Tei Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 1, Distinctio 3, Caput 3 [Hopkins MSB19 Transcription]</title>
+          <date when="2023-04-23">April 23, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>
+            <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="H" n="hopkinsMSB19">Baltimore, Hopkins, MS B19</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-04-23" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#H" n="8-r"/>
+        <cb ed="#H" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d3c3">
+        <head xml:id="pl-l1d3c3-Hd1e105">Capitulum 3</head>
+        <p xml:id="pll1d3c3-d1e3476">
+          <!-- rubric: quod nulla similitudine est dei similitudo -->
+          <lb ed="#H" n="58"/><quote xml:id="pll1d3c3-Qd1e3480">Verumtamen caveat ne 
+          <lb ed="#H" n="59"/>hanc imaginem ab eadem trinitate factam 
+          <lb ed="#H" n="60"/>ita ei comparet ut omnino existimet similem sed 
+          <lb ed="#H" n="61"/>potius in qualicumque ista similitudine mag<lb ed="#H" break="no" n="62"/>nam 
+          quoque dissimilitudinem cernat</quote>
+        </p>
+        <!-- rubric: prima dissimilitudo -->
+        <p xml:id="pll1d3c3-qboiee">
+          <lb ed="#H" n="63"/><quote xml:id="pll1d3c3-Qd1e3489">Quod breviter ostendi potest homo unus per illa tria 
+          <lb ed="#H" n="64"/>meminit intelligit diligit qui nec memoria est nec 
+          <lb ed="#H" n="65"/>intelligentia nec dilectio sed haec habet unus ergo homo est qui habet haec tria 
+          <lb ed="#H" n="66"/>non ipse est haec tria In illius vero summae simplicitate na<lb ed="#H" break="no" n="67"/>turae 
+          quae deus est quamvis unus sit deus tres tamen personae sunt 
+          <lb ed="#H" n="68"/>pater et filius et spiritus sanctus</quote> et hae tres unus deus <quote xml:id="pll1d3c3-Qd1e3498">Aliud est u<lb ed="#H" break="no" n="69"/>tique 
+          trinitas res ipsa aliud ymago trinitatis in re alia 
+          <lb ed="#H" n="70"/>propter quam imaginem etiam illud in quo sunt haec tria i<lb ed="#H" break="no" n="71"/>mago 
+          dicitur <del rend="expunctuation">tabula</del> scilicet homo sicut imago dicitur <add place="above-line">et</add> tabu<lb ed="#H" break="no" n="72"/>la 
+          et pictura quae est in ea sed tabula nomine ima<lb ed="#H" break="no" n="73"/>ginis 
+          appellatur propter picturam quae in ea est</quote> <pc type="punctus"/>
+        </p>
+        <!-- rubric: altera dissimilitudo -->
+        <p xml:id="pll1d3c3-d1e3506">
+          <lb ed="#H" n="74"/><quote xml:id="pll1d3c3-Qd1e3510">Rursus ista 
+          <lb ed="#H" n="75"/>ymago quae est homo habens illa tria una persona est illa vero trinitas 
+          <lb ed="#H" n="76"/>non una persona est <pc type="punctus"/> sed tres personae pater filii et filius patris et spiritus patris 
+          <lb ed="#H" n="77"/>et Filii</quote>
+          <!-- rubric: caue non unius dei scilicet tantum sunt sed etiam unus deus -->
+          <lb ed="#H" n="78"/><quote xml:id="pl-l1d3c3-Qd1e149">Itaque in ista imagine trinitatis non haec tria unus 
+          <lb ed="#H" n="79"/>homo sed unius hominis sunt In illa vero summa trinitate cuius 
+          <lb ed="#H" n="80"/>haec imago est non unius dei sunt illa tria sed unus 
+          <lb ed="#H" n="81"/>deus et tres sunt illae non una persona</quote> <quote xml:id="pll1d3c3-Qd1e3519">Illa 
+          <lb ed="#H" n="82"/>enim tria non homo sunt <del rend="strikethrough">hominis sunt</del> in homine <add place="above-line">sunt</add> Sed nunquid pos<lb ed="#H" break="no" n="83"/>sumus 
+          dicere trinitatem sic esse in deo ut aliquid dei 
+          <lb ed="#H" n="84"/>sit nec ipsa sit deus?</quote>
+        </p>
+        <p xml:id="pll1d3c3-d1e3530">
+          absit ut hoc credamus Dicamus 
+          <lb ed="#H" n="85"/>ergo in mente nostra imaginis trinitatem <del rend="expunctuation">necessitatem</del> 
+          <lb ed="#H" n="86"/>sed exiguam et qualemcumque esse quae summae <seg type="correction">t<add place="above-line">rinitatis</add></seg> ita gerit 
+          <lb ed="#H" n="87"/>similitudinem ut ex maxima parte sit 
+          <lb ed="#H" n="88"/>dissimilis <pc type="punctus"/> sciendum vero quod <quote xml:id="pll1d3c3-Qd1e3536">haec trinitas mentis ut 
+          <lb ed="#H" n="89"/>ait <ref xml:id="pl-l1d3c3-Rd1e179"><name xml:id="pl-l1d3c3-Nd1e181" ref="#Augustine">augustinus</name> in XIIII libro <title ref="#deTrinitate">De Trinitate</title></ref> non propterea tantum ima<lb ed="#H" break="no" n="90"/>go 
+          dei est quia sui meminerit mens et intel<lb ed="#H" break="no" n="91"/>ligit 
+          ac diligit se sed quia potest etiam meminisse et in<lb ed="#H" break="no" n="92"/>telligere 
+          et amare illum a quo facta est <pc type="punctus"/></quote>
+        </p>
+        <!-- rubric: alia assignatio trinitatis in anima scilicet mens notitia amor -->
+        <p xml:id="pll1d3c3-d1e3555">
+          <pb ed="#H" n="8-v"/>
+          <cb ed="#H" n="a"/>
+          <lb ed="#H" n="1"/><!-- rubric line -->
+          <lb ed="#H" n="2"/>potest etiam alio modo aliisque nominibus distingui 
+          <lb ed="#H" n="3"/>trinitas in anima quae est imago illius summae et inef<lb ed="#H" break="no" n="4"/>fabilis 
+          trinitatis
+        </p>
+        <p xml:id="pll1d3c3-d1e3559">
+          ut enim ait <ref xml:id="pl-l1d3c3-Rd1e202"><name xml:id="pl-l1d3c3-Nd1e203" ref="#Augustine">augustinus</name> in IX libro <title ref="#deTrinitate">de trinitate</title></ref> 
+          <lb ed="#H" n="5"/><quote xml:id="pll1d3c3-Qd1e3570">mens et notitia eius et amor tria <del rend="expunctuation">quas</del> quaedam sunt mens 
+          <lb ed="#H" n="6"/>enim novit se et amat se nec se amare potest nisi etiam noverit 
+          <lb ed="#H" n="7"/>se Duo quaedam sunt mens et notitia eius Item duo quaedam 
+          <lb ed="#H" n="8"/>sunt mens et amor eius</quote> <quote xml:id="pll1d3c3-Qd1e3579">Cum ergo se novit mens et amat 
+          <lb ed="#H" n="9"/>se manet trinitas scilicet mens amor et notitia</quote> <quote xml:id="pll1d3c3-Qd1e3588">mens 
+          <lb ed="#H" n="10"/>autem hic accipitur non pro anima sed pro eo quod in anima excellentius 
+          <lb ed="#H" n="11"/>est</quote>
+          <!-- rubric Quomodo dicantur esse unum -->
+          <lb ed="#H" n="12"/>haec autem tria cum sint distincta a se invicem dicuntur 
+          <lb ed="#H" n="13"/>tamen esse unum quia in animo substantialiter <unclear>existunt</unclear>
+        </p>
+        <!-- rubric: Quia mens vice patris notitia filii amor spiritus sancti accipitur -->
+        <p xml:id="pll1d3c3-d1e3593">
+          <lb ed="#H" n="14"/><!-- rubric line -->
+          <lb ed="#H" n="15"/>Et est ipsa mens quasi 
+          <lb ed="#H" n="16"/>parens et notitia eius quasi proles eius <quote xml:id="pll1d3c3-Qd1e3597">mens enim 
+          <lb ed="#H" n="17"/>cum se cognoscit notitiam sui gignit et est sola 
+          <lb ed="#H" n="18"/>parens suae notitiae</quote> <quote xml:id="pl-l1d3c3-Qd1e247">Tertius est amor qui de ipsa 
+          <lb ed="#H" n="19"/>mente et notitia procedit dum mens cognoscens 
+          <lb ed="#H" n="20"/>se diligit se non enim posset se diligere nisi cognosceret se 
+          <lb ed="#H" n="21"/>amat etiam placitam prolem id est notitiam suam et ita a<lb ed="#H" break="no" n="22"/>mor 
+          quidam complexus est parentis et prolis</quote> <pc type="punctus"/>
+          <!-- rubric Quod non est minor mente notitia nec amor utroque -->
+          <lb ed="#H" n="23"/><quote xml:id="pl-l1d3c3-Qd1e255">Nec minor est proles parente 
+          <lb ed="#H" n="24"/>dum tantam se novit mens quanta est <add place="above-line">nec minor est</add> amor paren<lb ed="#H" break="no" n="25"/>te 
+          et prole id est mente <add place="above-line">et</add> notitia dum tantum se diligit mens 
+          <lb ed="#H" n="26"/>quantum se novit et quanta est</quote> 
+          <lb ed="#H" n="27"/><quote xml:id="pl-l1d3c3-Qd1e265">sunt etiam <add place="above-line">haec</add> singula in se ipsis quia <del rend="strikethrough">mens</del> 
+          <lb ed="#H" n="28"/>et mens amans in amore est et amor in aman<lb ed="#H" break="no" n="29"/>tis 
+          notitia et notitia in mente noscente est</quote>
+        </p>
+        <p xml:id="pll1d3c3-d1e3608">
+          <lb ed="#H" n="30"/>Ecce in his tribus qualecumque trinitatis vestigium appa<lb ed="#H" break="no" n="31"/>ret
+        </p>
+        <!-- rubric: Quomodo mens pro ista proficit ad intelligendum deum -->
+        <p xml:id="pll1d3c3-d1e3611">
+          <lb ed="#H" n="32"/>Mens itaque rationalis considerans haec tria et illam unam 
+          <lb ed="#H" n="33"/>essentiam in qua ista sunt extendit se ad contemplatio<lb ed="#H" break="no" n="34"/>nem 
+          creatoris et videt unitatem in trinitate et trinita<lb ed="#H" break="no" n="35"/>tem 
+          in unitate Intelligit enim unum deum esse unam 
+          <lb ed="#H" n="36"/>essentiam unum principium Intelligit enim quia 
+          <lb ed="#H" n="37"/>si duo essent vel uterque insufficiens esset vel alter super<lb ed="#H" break="no" n="38"/>flueret 
+          quia si aliquid deesset uni quod haberet alter 
+          <lb ed="#H" n="39"/>non esset ibi summa perfectio si vero nihil uni de<lb ed="#H" break="no" n="40"/>esset 
+          quod haberet alter cum in uno essent omnia alter super<lb ed="#H" break="no" n="41"/>flueret 
+          Intellexit ergo unum esse deum unum 
+          <lb ed="#H" n="42"/>omnium auctorem et vidit quia absque sapientia non 
+          <lb ed="#H" n="43"/>sit quasi res fatua et ideo intellexit eum habere sapi<lb ed="#H" break="no" n="44"/>entiam 
+          quae <subst><del>habet</del> <add place="above-line">ab</add></subst> ipso genita est et quia sapientiam su<lb ed="#H" break="no" n="45"/>am 
+          diligit intellexit etiam ibi amorem esse
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
