@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 1, Distinctio 4, Caput 1 [Hopkins MSB19 Transcription]</title>
+        <author>Petrus Lombardus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor; Tei Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 1, Distinctio 4, Caput 1 [Hopkins MSB19 Transcription]</title>
+          <date when="2023-04-27">April 27, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>
+            <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="H" n="hopkinsMSB19">Baltimore, Hopkins, MS B19</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-04-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#H" n="8-v"/>
+        <cb ed="#H" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d4c1">
+        <head xml:id="pl-l1d4c1-Hd1e3296">Capitulum 1</head>
+        <!-- rubric: hic quaeritur utrum 
+          <lb ed="#H"/>concedendum sit quia deus se genuerit -->
+        <p xml:id="pll1d4c1-d1e3476">
+          <lb ed="#H" n="70"/><!-- rubric line -->
+          <lb ed="#H" n="71"/>hic oritur quaestio satis necessaria Constat 
+          <lb ed="#H" n="72"/>enim et irrefragabiliter verum est quod deus pater 
+          <lb ed="#H" n="73"/>genuit filium Ideo quaeritur utrum concedendum 
+          <lb ed="#H" n="74"/>sit quod deus genuit deum Si enim deus genuit 
+          <lb ed="#H" n="75"/>deum videtur quod aut se deum aut alium genuerit 
+          <lb ed="#H" n="76"/>si vero alium deum genuit non est tantum unus deus si autem 
+          <lb ed="#H" n="77"/>se ipsum deum genuit aliqua res se ipsam ge<lb ed="#H" break="no" n="78"/>nuit 
+        </p>
+        <p xml:id="pll1d4c1-d1e3481">
+          Ad quod respondentes dicimus sane et 
+          <lb ed="#H" n="79"/>catholice concedi quod unus unum genuit 
+          <lb ed="#H" n="80"/>et quod deus deum genuit <del rend="strikethrough">et quod deus deum genuit</del> 
+          <lb ed="#H" n="81"/>quia deus pater <subst><del rend="expunctuation">deus</del> <add place="above-line">deum</add></subst> filium genuit In simbolo quoque 
+          <lb ed="#H" n="82"/>scriptum est <quote xml:id="pll1d4c1-Qd1e3485">Lumen de lumine deum verum de deo 
+          <lb ed="#H" n="83"/>vero</quote> Quod vero additur ergo genuit se deum vel alium deum 
+          <lb ed="#H" n="84"/>neutrum concedendum esse dicimus quod alium <del rend="strikethrough">non</del> deum non ge<lb ed="#H" break="no" n="85"/>nuit 
+          manifestum est quia unus tantum deus est quod autem 
+          <lb ed="#H" n="86"/>se ipsum <add place="above-line">non</add> genuit ostendit <ref xml:id="pl-l1d4c1-Rd1e3315"><name xml:id="pl-l1d4c1-Nd1e3316" ref="#Augustine">augustinus</name> in I libro <title ref="#deTrinitate">de trinitate</title></ref> 
+          <lb ed="#H" n="87"/>dicens<quote xml:id="pll1d4c1-Qd1e3501">Qui putant eius potentiae esse deum ut 
+          <lb ed="#H" n="88"/>se ipsum ipse genuerit eo plus errant quod 
+          <lb ed="#H" n="89"/>non solum deus ita non est sed nec spiritualis <add place="above-line">nec</add> corporalis crea<lb ed="#H" break="no" n="90"/>tura 
+          Nulla enim res est quae se ipsam gignat ut 
+          <lb ed="#H" n="91"/>sit</quote> et non est credendum vel dicendum quod deus ge<lb ed="#H" break="no" n="92"/>nuit 
+          se
+        </p>
+        <p xml:id="pll1d4c1-d1e3511">
+          <lb ed="#H" n="93"/>Sed adhuc opponunt garruli ratiocina<lb ed="#H" break="no" n="94"/>tores 
+          dicentes si deus pater genuit deum aut genuit deum qui est deus pater 
+          <lb ed="#H" n="95"/>aut deum qui non est deus pater si genuit deum qui non 
+          <lb ed="#H" n="96"/>est deus pater ergo deus est qui non est deus pater non ergo unus tantum 
+          <lb ed="#H" n="97"/>deus est si vero genuit deum qui deus pater ergo genuit se ipsum
+        </p>
+        <p xml:id="pll1d4c1-d1e3514">
+          Ad quod respondemus determinantes il<lb ed="#H" break="no" n="98"/>lam 
+          propositionem quia sic proponunt Si deus pater 
+          <lb ed="#H" n="99"/>genuit deum aut deum qui est deus pater aut deum 
+          qui non est deus pater hoc enim sane et prave intelli<lb ed="#H" break="no" n="100"/>gi 
+          potest et ideo respondendum est ita Deus pater ge<lb ed="#H" break="no" n="101"/>nuit 
+          <add place="above-line">deum</add> qui est ipse pater hoc dicimus esse falsum et con<lb ed="#H" break="no" n="102"/>cedimus 
+          alteram scilicet genuit deum <del rend="strikethrough">deum</del> qui non 
+          <lb ed="#H" n="103"/>est pater <pc type="punctus"/> nec tamen genuit alterum deum nec ille qui ge<lb ed="#H" break="no" n="104"/>nitus 
+          est alius deus est quam pater sed unus deus cum patre si 
+          <lb ed="#H" n="105"/>vero additur genuit deum qui non est deus pater hic dis<lb ed="#H" break="no" n="106"/>tinguimus 
+          quia dupliciter potest intelligi ge<lb ed="#H" break="no" n="107"/>nuit 
+          deum qui non est deus pater scilicet deum filium qui 
+          <lb ed="#H" n="108"/>filius non est pater qui deus est hic sensus verus est Si 
+          <lb ed="#H" n="109"/>vero intelligatur sic genuit deum qui non est deus 
+          <lb ed="#H" n="110"/>pater id est qui non est deus qui <del rend="strikethrough">non</del> est pater hic sensus 
+          <lb ed="#H" n="111"/>falsus est unus enim et idem deus est pater filius et spiritus sanctus 
+          <lb ed="#H" n="112"/>et e converso pater et filius et spiritus sanctus est unus deus
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
