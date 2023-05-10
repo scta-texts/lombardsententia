@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cap. 3 [hopkinsMSB19 Transcription]</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription editor; TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Cap. 3 [hopkinsMSB19 Transcription]</title>
+          <date when="2023-05-10">May 10, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>
+            <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="H" n="hopkinsMSB19">Baltimore, Hopkins, MS B19</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-05-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#H" n="120-v"/>
+        <cb ed="#H" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l3d34c3">
+      <head xml:id="pl-l3d34c3-Hd1e109">Capitulum 3</head>
+      <head xml:id="pl-l3d34c3-Hd1e112" type="question-title">Utrum in Christo fuerint.</head>
+        <!-- rubric: Quod in chirsto fuerit illa vii dona --> 
+      <p xml:id="pl-l3d34c3-d1e115">
+        <lb ed="#H"/>In christo etiam <add place="above-line">haec</add> eadem 
+        <lb ed="#H"/>fuisse ysaias ostendit dicens <quote xml:id="pl-l3d34c3-Qd1e117">egredietur 
+        <lb ed="#H"/>virga de radice iesse et flos de radice eius ascendet et requiescet super eum spiritus 
+        <lb ed="#H"/>domini spiritus <!--sapientiae--> et intellectus spiritus consilii et fortitudinis spiritus scientiae et pietatis et replebit 
+        <lb ed="#H"/>eum spiritus timoris domini</quote>
+      </p>
+      <p xml:id="pl-l3d34c3-d1e121">
+        <lb ed="#H"/>His autem videtur obviare quod <name xml:id="pl-l3d34c3-Nd1e117" ref="#Bede">beda</name> de ti<lb ed="#H" break="no"/>more 
+        domini dicit super parabolas scilicet 
+        <lb ed="#H"/>quod omnis timor in futuro cessabit ait
+        <lb ed="#H"/>enim sic super illum locum <!--<quote>--> Timor domini 
+        <lb ed="#H"/>principium sapientiae <quote xml:id="pl-l3d34c3-Qd1e128">Duo sunt timores 
+        <lb ed="#H"/>domini servilis qui principium est sapientiae 
+        <lb ed="#H"/>et amicalis qui perfectionem sapientiae comita<lb ed="#H" break="no"/>tur 
+        Servilis principium sapientiae est quia qui post 
+        <lb ed="#H"/>errata sapere incipit primo timore cor<lb ed="#H" break="no"/>ripitur 
+        divino ne puniatur sed hunc <quote xml:id="pl-l3d34c3-Qd1e130">perfec<lb ed="#H" break="no"/>ta 
+        caritas foras mittit</quote> Succedit huic 
+        <lb ed="#H"/><quote xml:id="pl-l3d34c3-Qd1e133">timor domini sanctus permanens in saeculum saeculi</quote> 
+        <lb ed="#H"/>Quem non excludit caritas sed auget quo 
+        <lb ed="#H"/>timet filius ne vel in modico oculos aman<lb ed="#H" break="no"/>tissimi 
+        patris offendat uterque in futuro ces<lb ed="#H" break="no"/>sabit 
+        <quote xml:id="pl-l3d34c3-Qd1e136">caritas</quote> vero <quote xml:id="pl-l3d34c3-Qd1e139">nunquam excidet</quote></quote>
+      </p>
+      <p xml:id="pl-l3d34c3-d1e144">
+        <name xml:id="pl-l3d34c3-Nd1e140" ref="#Augustine">augustinus</name> quoque 
+        <lb ed="#H"/>super illum locum psalmi <quote xml:id="pl-l3d34c3-Qd1e149">adorabo ad tem<lb ed="#H" break="no"/>plum 
+        sanctum tuum in timore tuo</quote> Timorem <unclear><!-- possible correction here -->desiturum</unclear> 
+        <lb ed="#H"/>dicit sic <quote xml:id="pl-l3d34c3-Qd1e152">Timor domini est magnum praesi<lb ed="#H" break="no"/>dium 
+        proficientibus ad salutem sed pervenientibus 
+        <lb ed="#H"/>foras mittitur Non enim timent iam ami<lb ed="#H" break="no"/>cum 
+        cum scilicet ad id quod repromissum est: perducti 
+        <lb ed="#H"/>fuerint</quote>
+      </p>
+      <p xml:id="pl-l3d34c3-d1e157">
+        Ex his auctoritatibus significatur 
+        <lb ed="#H"/>quod timor non erit in futuro
+      </p>
+      <p xml:id="pl-l3d34c3-d1e160">
+        Si autem timor non fuerit in futuro ergo 
+        <lb ed="#H"/>nec septem dona erunt nec modo sunt in angelis sive in 
+        <pb ed="#H" n="121-r"/>
+        <cb ed="#H" n="a"/>
+        <lb ed="#H"/>animabus sanctis
+      </p>
+      <p xml:id="pl-l3d34c3-d1e163">
+        Ad quod dicimus auctoritatum praemissarum 
+        <lb ed="#H"/>quae videtur repugnantiam dirimentes quod VII dona 
+        <lb ed="#H"/>illa et in angelis modo sunt et in animabus sanctis feliciter 
+        <lb ed="#H"/>viventibus et in nobis erunt in futuro sed non habebunt omnia hos 
+        <lb ed="#H"/>usus sive haec officia quae nunc habent ut verbi gratia Ti<lb ed="#H" break="no"/>mor 
+        filialis modo facit timere ne offendamus quem 
+        <lb ed="#H"/>diligimus et ne separemur ab eo facit etiam nos revere<lb ed="#H" break="no"/>ri 
+        eundem. In futuro vero faciet nos revereri 
+        <lb ed="#H"/>quando non timebimus separari vel offendere Non ergo me<lb ed="#H" break="no"/>tus 
+        separationis vel offensionis: nunc est in angelis vel 
+        <lb ed="#H"/>in animabus sanctis nec in nobis erit in futuro. sed re<lb ed="#H" break="no"/>verentia 
+        quae est mixta cum subiectione dilectio. quae 
+        <lb ed="#H"/>etiam in christo fuit sicut <name xml:id="pl-l3d34c3-Nd1e159" ref="Paul">apostolus</name> dicit in epistola ad hebrae<lb ed="#H" break="no"/>os
+        loquens de christo <quote xml:id="pl-l3d34c3-Qd1e168">qui exauditus est <subst><add place="above-line">pro</add> <del rend="expunctuation">de</del></subst> sua reveren<lb ed="#H" break="no"/>tia</quote>
+      </p>
+      <p xml:id="pl-l3d34c3-d1e172">
+        quidam tamen secundum effectum timorem in christo et in
+        <lb ed="#H"/>angelis tantum esse contendunt
+      </p>
+    </div>
+    </body>
+  </text>
+</TEI>

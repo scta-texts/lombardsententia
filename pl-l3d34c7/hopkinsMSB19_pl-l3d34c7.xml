@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cap. 7 [hopkinsMSB19 Transcription]</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription editor; TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Cap. 9 [hopkinsMSB19 Transcription]</title>
+          <date when="2023-05-10">May 10, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>
+            <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="H" n="hopkinsMSB19">Baltimore, Hopkins, MS B19</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-05-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#H" n="121-v"/>
+        <cb ed="#H" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l3d34c7">
+        <head xml:id="pl-l3d34c7-Hd1e109">Capitulum 7</head>
+        <head xml:id="pl-l3d34c7-Hd1e112" type="question-title">Quod timor servilis et initialis
+          dicuntur initium sapientiae, sed differenter.</head>
+        <!-- rubric: Quod timor simul
+          et initialis: dicitur initium sapientiae sed differenter -->
+        <p xml:id="pl-l3d34c7-d1e115">
+          <lb ed="#H" n="76"/><!-- rubric line -->
+          <lb ed="#H" n="77"/>Sciendum tamen est: quod uterque timor scilicet servilis et initi<lb ed="#H" break="no" n="78"/>alis 
+          in scripturae diversis locis dicitur <quote xml:id="pl-l3d34c7-Qd1e117">initium sapientiae</quote> et 
+          <lb ed="#H" n="79"/>ita fore comperies: si diligenter annotaveri<subst><del rend="expunctuation">t</del> <add place="above-line">s</add></subst> loca scrip<lb ed="#H" break="no" n="80"/>turae 
+          in quibus de timore domini fit mentio ex alia 
+          <lb ed="#H" n="81"/>tamen ratione et causa diversa dicitur servilis: initium sapientiae et ex 
+          <lb ed="#H" n="82"/>alia initialis
+        </p>
+        <p xml:id="pl-l3d34c7-d1e121">
+          Servilis enim ideo dicitur initium sapientiae quia praepa<lb ed="#H" break="no" n="83"/>rat
+          locum sapientiae. et ducit ad sapientiam. sed tamen non rema<lb ed="#H" break="no" n="84"/>net
+          cum ea. immo foras exit.
+        </p>
+        <p xml:id="pl-l3d34c7-d1e128">
+          Initialis vero dicitur <quote xml:id="pl-l3d34c7-Qd1e130">initi<lb ed="#H" break="no" n="85"/>um 
+          sapientiae</quote>: quia est in inchoata sapientia. quem cum quis habere 
+          <lb ed="#H" n="86"/>incipit: sapientiam et caritatem habere incipit. Inde 
+          <lb ed="#H" n="87"/>etiam est quod uterque timor dicitur initialis. quod invenire 
+          <lb ed="#H" n="88"/>poteris per diversa scripturae loca. uterque etiam timor in<lb ed="#H" break="no" n="89"/>terdum
+          dicitur servilis. quia et ipse initialis qui est in ca<lb ed="#H" break="no" n="90"/>ritate 
+          inchoata: aliquid habet de servili scilicet angorem 
+          <lb ed="#H" n="91"/>poenae. sicut et aliquid habet de casto scilicet quod timet 
+          <lb ed="#H" n="92"/>offendere ac separari.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cap. 2 [hopkinsMSB19 Transcription]</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription editor; TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Cap. 2 [hopkinsMSB19 Transcription]</title>
+          <date when="2023-05-10">May 10, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>
+            <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="H" n="hopkinsMSB19">Baltimore, Hopkins, MS B19</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-05-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#H" n="120-v"/>
+        <cb ed="#H" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l3d34c2">
+        <head xml:id="pl-l3d34c2-Hd1e109">Capitulum 2</head>
+        <head xml:id="pl-l3d34c2-Hd1e112" type="question-title">Utrum sini virtutes, et sint, in
+          Angelis.</head>
+        <p xml:id="pl-l3d34c2-d1e115">
+          Haec dona virtutes esse nec in futuro de<lb ed="#H"/>situra 
+          <name xml:id="pl-l3d34c2-Nd1e111" ref="#Ambrose">ambrosius</name> ostendit ea VII fore vir<lb ed="#H" break="no"/>tutes 
+          dicens et in angelis habundantis<lb ed="#H" break="no"/>sime 
+          esse sic: <quote xml:id="pl-l3d34c2-Qd1e120">Civitas dei illa ierusalem caelestis 
+          <lb ed="#H"/>non meatu alicuius fluvii terrestris abluitur sed 
+          <lb ed="#H"/>ex vitae fonte procedens spiritus sanctus cuius nos brevi 
+          <lb ed="#H"/>satiamur haustu in illis caelestibus spiritibus 
+          <lb ed="#H"/>redundantius videtur effluere pleno VII 
+          <lb ed="#H"/>virtutum spiritualium fervens meatu Si enim
+          <cb ed="#H" n="b"/>
+          <lb ed="#H"/>fluvius riparum editis superfusus exundat: 
+          <lb ed="#H"/>quanto magis spiritus omnem supereminens creaturam 
+            <lb ed="#H"/>cum nostrae mentis arcana tamquam inferiora per<lb ed="#H" break="no"/>stringat: 
+          caelestem illam angelorum naturam 
+            <lb ed="#H"/>effusiore quadam sanctificationum ubertate laetifi<lb ed="#H" break="no"/>cat</quote>
+        </p>
+        <p xml:id="pl-l3d34c2-d1e124">
+          Deinde sanctificationes exponens subdit 
+          <lb ed="#H"/><quote xml:id="pl-l3d34c2-Qd1e126">his autem sanctificationibus <seg type="correction">sanctific<subst><del rend="expunctuation">e</del><add place="above-line">a</add></subst>tur</seg> plenitudo 
+            <lb ed="#H"/>VII spiritualium virtutum quas enumerat ysa<lb ed="#H" break="no"/>ias 
+          dicens <quote xml:id="pl-l3d34c2-Qd1e128">Spiritus sapientiae et intellectus 
+            <lb ed="#H"/>consilii et fortitudinis scientiae et pietatis et timo<lb ed="#H" break="no"/>ris 
+            domini</quote> unum est ergo flumen sed multi spi<lb ed="#H" break="no"/>ritualium 
+          donorum meatus</quote> <quote xml:id="pl-l3d34c2-Qd1e132">Quamvis ergo multi 
+          <lb ed="#H"/>dicantur spiritus ut <quote xml:id="pl-l3d34c2-Qd1e134">spiritus sapientiae et intellectus</quote> etc. unus 
+          <lb ed="#H"/>tamen est dei spiritus suae libertatis arbiter omnia pro 
+          <lb ed="#H"/>auctoritate voluntatis <quote xml:id="pl-l3d34c2-Qd1e137">dividens singulis</quote></quote>
+        </p>
+        <p xml:id="pl-l3d34c2-d1e142">
+          <lb ed="#H"/>hic expresse traditum est VII dona et virtutes 
+          <lb ed="#H"/>esse sanctificationesque fidelium mentium et in futuro 
+          <lb ed="#H"/>non desitura cum sint et in angelis
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

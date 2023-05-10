@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cap. 5 [hopkinsMSB19 Transcription]</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription editor; TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Cap. 5 [hopkinsMSB19 Transcription]</title>
+          <date when="2023-05-10">May 10, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>
+            <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="H" n="hopkinsMSB19">Baltimore, Hopkins, MS B19</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-05-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#H" n="121-r"/>
+        <cb ed="#H" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l3d34c5">
+        <head xml:id="pl-l3d34c5-Hd1e109">Capitulum 5</head>
+        <head xml:id="pl-l3d34c5-Hd1e112" type="question-title">De casto et servili et
+          initiali.</head>
+        <!-- rubric: de casto et servili plenius agere tangens in titulum de initiali -->
+        <p xml:id="pl-l3d34c5-d1e115">
+          <lb ed="#H" n="58"/><!-- rubric line -->
+          <lb ed="#H" n="59"/>De his eisdem timoribus latius disputat dicens 
+          <lb ed="#H" n="60"/><quote xml:id="pl-l3d34c5-Qd1e117">Coepit aliquis credere diem <seg type="correction">ind<add place="above-line">ic</add>ii</seg> si coepit credere coepit et 
+          <lb ed="#H" n="61"/>timere. sed qui adhuc timet nondum habet fiduciam 
+          <lb ed="#H" n="62"/>in die iudicii nondum est in illo perfecta caritas</quote> <quote xml:id="pl-l3d34c5-Qd1e120">si perfec<lb ed="#H" break="no" n="63"/>ta 
+          in illo esset caritas non timeret perfecta enim 
+          <lb ed="#H" n="64"/>caritas faceret perfectam <seg type="correction">i<add place="above-line">us</add>titiam</seg> et non haberet quare 
+          <lb ed="#H" n="65"/>timeret immo haberet; quare desideraret ut transeat 
+          <lb ed="#H" n="66"/>iniquitas et veniat regnum dei ergo timor non est 
+          <lb ed="#H" n="67"/>in caritate. Sed in qua caritate: Non in inchoa<lb ed="#H" break="no" n="68"/>ta 
+          In qua ergo; in perfecta. <quote xml:id="pl-l3d34c5-Qd1e122">Perfecta</quote> inquid <quote xml:id="pl-l3d34c5-Qd1e125">caritas: 
+          <lb ed="#H" n="69"/>foras mittit timorem</quote> ergo incipiat timor quia <quote xml:id="pl-l3d34c5-Qd1e128">initium 
+          <lb ed="#H" n="70"/>sapientiae: timor domini</quote> timor: quasi locum 
+          <lb ed="#H" n="71"/>praeparat caritati Cum autem coeperit caritas habi<lb ed="#H" break="no" n="72"/>tare: 
+          pellitur timor qui ei praeparavit locum Quantum 
+          <lb ed="#H" n="73"/>enim illa crescit ille decrescit et quantum illa fit 
+          <lb ed="#H" n="74"/>interior timor pellitur foras: maior caritas 
+          <lb ed="#H" n="75"/>minor timor. minor caritas: maior timor 
+          <lb ed="#H" n="76"/>Si autem nullus est timor: non est qua intret caritas 
+          <lb ed="#H" n="77"/>sicut videmus per setam introduci linum quando aliquid 
+          <lb ed="#H" n="78"/>suitur seta prius intrat nisi exeat non succedit linum 
+          <lb ed="#H" n="79"/>sic timor primo occupat mentem non autem timor 
+          <lb ed="#H" n="80"/>ibi remanet quia ideo intravit: ut introduceret ca<lb ed="#H" break="no" n="81"/>ritatem</quote>
+        </p>
+        <p xml:id="pl-l3d34c5-d1e136">
+          <lb ed="#H" n="82"/><quote xml:id="pl-l3d34c5-Qd1e138">Est autem alia sententia: quae videtur huic esse 
+          <lb ed="#H" n="83"/>contraria si non habet pium intellectorem. Dicitur enim in psalmo
+          <lb ed="#H" n="84"/><quote xml:id="pl-l3d34c5-Qd1e140">Timor domini castus permanet in saeculum saeculi</quote> 
+          <lb ed="#H" n="85"/>Aeternum quendam timorem: nobis ostendit. sed cas<lb ed="#H" break="no" n="86"/>tum 
+          quod si ostendit ille nobis aeternum timorem: 
+          <lb ed="#H" n="87"/>nunquid contradicit illi ista epistola quae dicit <quote xml:id="pl-l3d34c5-Qd1e143">non est ti<lb ed="#H" break="no" n="88"/>mor 
+          in caritate. sed perfecta caritas. foras mit<lb ed="#H" break="no" n="89"/>tit
+          timorem?</quote> hoc enim dictum est per iohannem illud dic<lb ed="#H" break="no" n="90"/>tum 
+          est per david sed nolite putare alium esse spiritum 
+          <lb ed="#H" n="91"/>Si unus flatus inflat duas tibias non potuit 
+          <lb ed="#H" n="92"/>unus spiritus implere duo corda et agitare 
+          <lb ed="#H" n="93"/>duas linguas? Si spiritu uno id est uno flatu im<lb ed="#H" break="no" n="94"/>pletae 
+          duae tibiae consonant impletae duae linguae
+          <lb ed="#H" n="95"/>spiritu dei dissonare possunt? Immo est ibi quaedam consonan<pb ed="#H" n="121-v"/><cb ed="#H" n="a"/><lb ed="#H" break="no" n="1"/>tia 
+          est quaedam concordia. sed auditorem desiderat stu<lb ed="#H" break="no" n="2"/>diosum 
+          non otiosum. Ecce movit duas linguas spiritus 
+          <lb ed="#H" n="3"/>dei et ex una audivimus <quote xml:id="pl-l3d34c5-Qd1e149">timor non est in caritate</quote> audi<lb ed="#H" break="no" n="4"/>vimus 
+          ex alia: <quote xml:id="pl-l3d34c5-Qd1e152">timor domini castus permanet in saeculum 
+          <lb ed="#H" n="5"/>saeculi</quote>. Quid est hoc? dissonant? Non. excute aures. intende 
+          <lb ed="#H" n="6"/>melodiam non sine causa hic addidit <quote xml:id="pl-l3d34c5-Qd1e156">castus</quote> illic 
+          <lb ed="#H" n="7"/>non addidit: quia est timor aliquis qui dicitur castus est autem 
+          <lb ed="#H" n="8"/>alius timor qui non dicitur castus Discernamus istos 
+          <lb ed="#H" n="9"/>duos timores et intelligamus consonantiam tibi<lb ed="#H" break="no" n="10"/>arum 
+          Quomodo discernimus? attendat caritas vestra. 
+          <lb ed="#H" n="11"/>Sunt homines qui propterea timent deum: ne mittantur 
+          <lb ed="#H" n="12"/>in gehennam ne forte ardeant cum diabolo in ig<lb ed="#H" break="no" n="13"/>ne 
+          aeterno ipse <add place="above-line">est</add> timor qui introducit caritatem sed 
+          <lb ed="#H" n="14"/>sic venit ut exeat Si enim propter <add place="above-line">poenas</add> times deum non<lb ed="#H" break="no" n="15"/>dum 
+          amas quem sic times non bona desideras sed ma<lb ed="#H" break="no" n="16"/>la 
+          caves Sed <add place="above-line">ex</add> eo quia mala caves corrigis te et 
+          <lb ed="#H" n="17"/>incipis bona desiderare cum bona desiderare coeperis 
+          <lb ed="#H" n="18"/>erit in te timor castus Quid est timor castus? Ti<lb ed="#H" break="no" n="19"/>mere 
+          ne amittas ipsa bona timere deum; ne rece<lb ed="#H" break="no" n="20"/>dat 
+          a te. Cum autem times deum, ne te deserat 
+          <lb ed="#H" n="21"/>praesentia eius: amplecteris eum. ipso frui desideras.</quote>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

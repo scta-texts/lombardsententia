@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -59,19 +57,17 @@
           eius ascendet, et requiescet super eum spiritus Domini, spiritus sapientiae et
           intellectus, spiritus consilii et fortitudinis, spiritus scientiae et pietatis, et
           replebit eum spiritus timoris Domini.</quote> </p>
-        <p xml:id="pl-l3d34c3-d1e121">His autem videtur obviare quod <name ref="#Bede">Beda</name>
+        <p xml:id="pl-l3d34c3-d1e121">His autem videtur obviare quod <name xml:id="pl-l3d34c3-Nd1e117" ref="#Bede">Beda</name>
           de timore Domini dicit super parabolas, scilicet quod omnis timor in futuro cessabit. Ait
-          enim sic super illum locum: <!--<quote>-->Timor Domini principium sapientiae : <quote
-          xml:id="pl-l3d34c3-Qd1e128">Duo sunt timores Domini; servilis, qui principium est
+          enim sic super illum locum: <!--<quote>-->Timor Domini principium sapientiae : <quote xml:id="pl-l3d34c3-Qd1e128">Duo sunt timores Domini; servilis, qui principium est
           sapientiae; et amicalis, qui perfectionem sapientiae comitatur. Servilis principium
           sapientiae est, quia qui post errata sapere incipit, primo timore corripitur divino, ne
           puniatur; sed hunc <quote xml:id="pl-l3d34c3-Qd1e130">perfecta caritas foras
-          mittit</quote>. Succedit huic <quote xml:id="pl-l3d34c3-Qd1e133">limor Domini sanctus,
+          mittit</quote>. Succedit huic <quote xml:id="pl-l3d34c3-Qd1e133">timor Domini sanctus,
           permanens in saeculum saeculi</quote> , quem non excludit caritas, sed auget; quo timet
           filius, ne vel in modico oculos amantissimi patris offendat. Uterque in futuro cessabit.
-          <quote xml:id="pl-l3d34c3-Qd1e136">Caritas</quote> vero <quote xml:id="pl-l3d34c3-Qd1e139"
-          >nunquam excidet</quote>.</quote> </p>
-        <p xml:id="pl-l3d34c3-d1e144"> <name ref="#Augustine">Augustinus</name> quoque super illum
+          <quote xml:id="pl-l3d34c3-Qd1e136">Caritas</quote> vero <quote xml:id="pl-l3d34c3-Qd1e139">nunquam excidet</quote>.</quote> </p>
+        <p xml:id="pl-l3d34c3-d1e144"> <name xml:id="pl-l3d34c3-Nd1e140" ref="#Augustine">Augustinus</name> quoque super illum
           locum Psalmi : <quote xml:id="pl-l3d34c3-Qd1e149">Adorabo ad templum sanctum tuum in
           timore tuo,</quote> timorem desiturum dicit sic: <quote xml:id="pl-l3d34c3-Qd1e152"> Timor
           Domini est magnum praesidium proficientibus ad salutem, sed pervenientibus foras mittitur:
@@ -89,7 +85,7 @@
           futuro vero faciet nos revereri, quando non timebimus separari, vel offendere. Non ergo
           metus separationis vel offensionis nunc est in Angelis vel animabus sanctis, nec in nobis
           erit in futuro, sed reverentia, quae est mixta cum subiectione dilectio; quae etiam in
-          Christo fuit, sicut <name ref="Paul">Apostolus</name> dicit in Epistola ad Hebraeos
+          Christo fuit, sicut <name xml:id="pl-l3d34c3-Nd1e159" ref="Paul">Apostolus</name> dicit in Epistola ad Hebraeos
           loquens de Christo: <quote xml:id="pl-l3d34c3-Qd1e168">Qui exauditus est pro sua
           reverentia.</quote> </p>
         <p xml:id="pl-l3d34c3-d1e172">Quidam tamen secundum effectum timorem in Christo et in

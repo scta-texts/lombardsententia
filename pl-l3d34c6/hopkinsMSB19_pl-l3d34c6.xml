@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cap. 6 [hopkinsMSB19 Transcription]</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription editor; TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Cap. 6 [hopkinsMSB19 Transcription]</title>
+          <date when="2023-05-10">May 10, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>
+            <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="H" n="hopkinsMSB19">Baltimore, Hopkins, MS B19</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-05-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#H" n="121-v"/>
+        <cb ed="#H" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l3d34c6">
+        <head xml:id="pl-l3d34c6-Hd1e109">Capitulum 6</head>
+        <head xml:id="pl-l3d34c6-Hd1e112" type="question-title">Quo differant castus et
+          servilis.</head>
+        <!-- rubric: Quomodo distent duo timores per similitudinem duarum mulierum ostendit -->
+        <p xml:id="pl-l3d34c6-d1e115"> 
+          <lb ed="#H" n="22"/><!-- rubric line -->
+          <lb ed="#H" n="23"/><quote xml:id="pl-l3d34c6-Qd1e117">Non potes
+          <lb ed="#H" n="24"/>melius explanare: quid intersit inter istos duos 
+          <lb ed="#H" n="25"/>timores quam si ponas duas mulieres marita<lb ed="#H" break="no" n="26"/>tas 
+          quarum unam constituas volentem facere adulterium 
+          <lb ed="#H" n="27"/>sed timet ne dampnetur a marito. Timet ma<lb ed="#H" break="no" n="28"/>ritum 
+          quia adhuc amat nequitiam Huic non est 
+          <lb ed="#H" n="29"/>grata: sed onerosa mariti praesentia et si forte vi<lb ed="#H" break="no" n="30"/>vit 
+          nequiter timet maritum, ne veniat Ta<lb ed="#H" break="no" n="31"/>les 
+          sunt qui timent diem iudicii Fac alteram etiam ama<lb ed="#H" break="no" n="32"/>re 
+          virum debere illi castos amplexus nulla se adulteri<lb ed="#H" break="no" n="33"/>na 
+          immunditia maculare velle. ista optat prae<lb ed="#H" break="no" n="34"/>sentiam 
+          viri. Illa timet et illa timet. Iam 
+          <lb ed="#H" n="35"/>ergo interrogentur quare timeant. illa dicet timeo 
+          <lb ed="#H" n="36"/>virum ne veniat illa dicet: timeo virum ne 
+          <lb ed="#H" n="37"/>discedat illa dicet timeo virum ne damnet 
+          <lb ed="#H" n="38"/>illa dicet. timeo virum: ne deserat. Pone hoc 
+          <lb ed="#H" n="39"/>in animo: et invenis timorem: quem <quote xml:id="pl-l3d34c6-Qd1e119">foras mittit
+          <lb ed="#H" n="40"/>caritas</quote> et alium timorem castum permanentem in 
+          <lb ed="#H" n="41"/>saeculum saeculi</quote> <quote xml:id="pl-l3d34c6-Qd1e123">Illum timorem <quote xml:id="pl-l3d34c6-Qd1e125">perfecta caritas: foras 
+          <lb ed="#H" n="42"/>mittit</quote> quia ille timor tormentum habet torquetur 
+          <lb ed="#H" n="43"/>conscientia peccatorum nondum facta est iustificatio. Est
+          <lb ed="#H" n="44"/>ibi quod titillet mentem quod pugnat: quod stimulet 
+          <lb ed="#H" n="45"/>stimulat ille timor. sed intrat caritas. quae sanat 
+          <lb ed="#H" n="46"/>quod vulnerat timor</quote> timor castus facit securitatem 
+          <lb ed="#H" n="47"/>in animo
+        </p>
+        <p xml:id="pl-l3d34c6-d1e133"> 
+          <quote xml:id="pl-l3d34c6-Qd1e135">Audivimus duas tibias Iohannem et david 
+          <cb ed="#H" n="b"/>
+          <lb ed="#H" n="48"/>consonantes <pc type="punctus"/> Illa de timore dei dicit <pc type="punctus"/> quo timet anima ne damp<lb ed="#H" break="no" n="49"/>netur 
+          illa de timore quo timet anima ne deseratur Ille est timor quem caritas <seg type="correction">ex<lb ed="#H" n="50"/><add place="above-line">clu</add>dit</seg> 
+          ille est timor. qui <quote xml:id="pl-l3d34c6-Qd1e137">permanet in saeculum saeculi</quote></quote>
+        </p>
+        <p xml:id="pl-l3d34c6-d1e142">
+          Ecce in 
+          <lb ed="#H" n="51"/>his verbis praedictis aperte ostendit <name xml:id="pl-l3d34c6-Nd1e138" ref="#Augustine">augustinus</name> quis sit timor 
+          <lb ed="#H" n="52"/>castus et qui servilis et qualiter differant
+        </p>
+        <p xml:id="pl-l3d34c6-d1e149">
+          in quibus etiam initialem 
+          <lb ed="#H" n="53"/>timorem significavit qui nec ex toto est servilis nec ex toto castus sed tan<lb ed="#H" break="no" n="54"/>quam 
+          medius aliquid de servili et aliquid de casto timore 
+          <lb ed="#H" n="55"/>habet facit enim servire partim timore poenae par<lb ed="#H" break="no" n="56"/>tim 
+          amore iustitiae per quem timemus puniri et time<lb ed="#H" break="no" n="57"/>mus 
+          offendere. Iste timor est in inchoata caritate non in
+          <lb ed="#H" n="58"/>perfecta et quantum crescit caritas: tantum decrescit iste timor 
+          <lb ed="#H" n="59"/>quantum ad metum poenae id est quantum ad id quod facit timere 
+          <lb ed="#H" n="60"/>poenam et quantum ad tormentum conscientiae Nam quanto dili<lb ed="#H" break="no" n="61"/>gimus 
+          tanto minus timemus Iste timor notatur in illis 
+          <lb ed="#H" n="62"/>verbis augustini ubi non negat timorem esse in caritate inchoa<lb ed="#H" break="no" n="63"/>ta 
+          sed perfecta quod non posset dici de servili <subst><del>quia ut</del> <add>ut quia</add></subst> ipse supra 
+          <lb ed="#H" n="64"/>dixit servilis timor non remanet veniente caritate 
+          <lb ed="#H" n="65"/>nec intrat caritas: nisi prius ille timor exeat. nec in illo 
+          <lb ed="#H" n="66"/>timore: aliquis credit in deum etsi credat deo nec 
+          <lb ed="#H" n="67"/>bene facit: etiam si bonum est quod facit. Non est ergo timor ille 
+          <lb ed="#H" n="68"/>in caritate etiam inchoata. Quia omnis qui cari<lb ed="#H" break="no" n="69"/>tatem 
+          habet. licet non perfectam: et in deum credit et bene 
+          <lb ed="#H" n="70"/>bona facit. quare servilis non est timor ille <unclear>quem</unclear> in ca<lb ed="#H" break="no" n="71"/>ritate 
+          <lb ed="#H" n="72"/>inchoata: fore concessit et quem crescente carita<lb ed="#H" break="no" n="73"/>te 
+          <lb ed="#H" n="74"/>decrescere dixit. sed ille est timor initialis quem <add place="above-line">non</add> negat 
+          <lb ed="#H" n="75"/>esse in caritate: nisi perfecta sit
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

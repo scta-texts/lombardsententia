@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cap. 4 [hopkinsMSB19 Transcription]</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription editor; TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Cap. 4 [hopkinsMSB19 Transcription]</title>
+          <date when="2023-05-10">May 10, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>
+            <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="H" n="hopkinsMSB19">Baltimore, Hopkins, MS B19</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-05-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#H" n="121-r"/>
+        <cb ed="#H" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l3d34c4">
+        <head xml:id="pl-l3d34c4-Hd1e109">Capitulum 4</head>
+        <head xml:id="pl-l3d34c4-Hd1e112" type="question-title">De timorum distinctione.</head>
+        <p xml:id="pl-l3d34c4-d1e115">
+          <lb ed="#H" n="17"/>Et quia de timore tractandi nobis occurrit 
+          <lb ed="#H" n="18"/>locus sciendum est IIII esse timores scilicet mun<lb ed="#H" break="no" n="19"/>danum 
+          sive humanum servilem initialem castum 
+          <lb ed="#H" n="20"/>vel filialem sive amicalem
+        </p>
+        <p xml:id="pl-l3d34c4-d1e118">
+          Humanus timor est ut 
+          <lb ed="#H" n="21"/>ait <name xml:id="pl-l3d34c4-Nd1e114" ref="Cassiodorus">cassiodorus</name> quando timemus pati pericula carnis vel <seg type="correction">per<lb ed="#H" n="22"/><del rend="expunctuation">fi</del>dere</seg> 
+          bona mundi propter quod delinquimus Hic 
+          <lb ed="#H" n="23"/>timor malus est qui in primo gradu cum mun<lb ed="#H" break="no" n="24"/>do 
+          deseritur quem dominus prohibet in evangelio: 
+          <lb ed="#H" n="25"/>dicens. <quote xml:id="pl-l3d34c4-Qd1e123">nolite timere eos qui occidunt corpus</quote> etc.
+        </p>
+        <p xml:id="pl-l3d34c4-d1e127">
+          Timor autem servilis est: ut ait <name xml:id="pl-l3d34c4-Nd1e123" ref="#Augustine">augustinus</name> cum per timorem ge<lb ed="#H" break="no" n="26"/>hennae 
+          continet se homo a peccato quo 
+          <lb ed="#H" n="27"/>praesentiam iudicis: et poenas metuit. et ti<lb ed="#H" break="no" n="28"/>more 
+          facit quicquid boni facit non timore 
+          <lb ed="#H" n="29"/>amittendi aeternum bonum: quod non amat. sed ti<lb ed="#H" break="no" n="30"/>more 
+          patiendi malum quod formidat Non 
+          <lb ed="#H" n="31"/>timet ne perdat amplexus pulcherrimi 
+          <lb ed="#H" n="32"/>sponsi. sed timet: ne mittatur in gehennam 
+          <lb ed="#H" n="33"/>Bonus est iste timor et utilis: licet insuf<lb ed="#H" break="no" n="34"/>ficiens 
+          per quem fit paulatim consuetudo ius<lb ed="#H" break="no" n="35"/>titiae
+        </p>
+        <p xml:id="pl-l3d34c4-d1e134">
+          et succedit initialis timor Quando in<lb ed="#H" break="no" n="36"/>cipit: 
+          quod durum erat amari. et sic incipit exclu<lb ed="#H" break="no" n="37"/>di 
+          servilis timor a caritate
+        </p>
+        <p xml:id="pl-l3d34c4-d1e137">
+          et succedit deinde 
+          <lb ed="#H" n="38"/>timor castus sive amicalis Quo timemus 
+          <lb ed="#H" n="39"/>ne sponsus tardet ne discedat ne offenda<lb ed="#H" break="no" n="40"/>mus 
+          ne eo careamus. Timor iste: de amore 
+          <lb ed="#H" n="41"/>venit. ille quidem servilis est utilis sed non permanens 
+          <lb ed="#H" n="42"/>in aeternum ut iste. Timor divinus comes est 
+          <lb ed="#H" n="43"/>per omnes gradus.
+        </p>
+        <!-- rubric: "Collatio praedictorum -->
+        <p xml:id="pl-l3d34c4-d1e140">
+          <lb ed="#H" n="44"/>Et attende quod IIII hic distinguuntur timo<lb ed="#H" break="no" n="45"/>res 
+          cum supra <name xml:id="pl-l3d34c4-Nd1e136" ref="#Bede">beda</name> dixerit duos esse. Sed <name xml:id="pl-l3d34c4-Nd1e139" ref="#Bede">beda</name>
+          <lb ed="#H" n="46"/>humanum timorem praetermisit et nomine servilis 
+          <lb ed="#H" n="47"/>duos quos hic distinguimus complexus fuit scilicet servi<lb ed="#H" break="no" n="48"/>lem 
+          et initialem amicalem vero castum dicit
+        </p>
+        <p xml:id="pl-l3d34c4-d1e149">
+          <name xml:id="pl-l3d34c4-Nd1e145" ref="#Augustine">augustinus</name> quoque 
+          <lb ed="#H" n="49"/>servilem et castum timorem aperte discernit dum epistolae 
+          <lb ed="#H" n="50"/>ad romanos illum locum exponit. Non <quote xml:id="pl-l3d34c4-Qd1e154">enim acce<lb ed="#H" break="no" n="51"/>pistis 
+          spiritum servitutis iterum in timore sed accepistis 
+          <lb ed="#H" n="52"/>spiritum adoptionis filiorum dei</quote> ita dicens <quote xml:id="pl-l3d34c4-Qd1e157">Duo timo<lb ed="#H" break="no" n="53"/>res 
+          hic insinuantur: unus qui est in perfecta cari<lb ed="#H" break="no" n="54"/>tate 
+          scilicet timor castus alter qui non est in caritate id est servilis 
+          <lb ed="#H" n="55"/>in quo quamvis deo credatur non tamen in deum et si bonum 
+          <lb ed="#H" n="56"/>fiat non tamen bene</quote> <quote xml:id="pl-l3d34c4-Qd1e160">Nemo enim invitus bene facit etiam<lb ed="#H" break="no" n="57"/>si 
+          bonum est quod facit</quote>.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
