@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cap. 9 [hopkinsMSB19 Transcription]</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription editor; TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Cap. 9 [hopkinsMSB19 Transcription]</title>
+          <date when="2023-05-10">May 10, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>
+            <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="H" n="hopkinsMSB19">Baltimore, Hopkins, MS B19</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-05-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#H" n="122-r"/>
+        <cb ed="#H" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l3d34c9">
+        <head xml:id="pl-l3d34c9-Hd1e109">Capitulum 9</head>
+        <head xml:id="pl-l3d34c9-Hd1e112" type="question-title">Si timor poenae, qui fuit in
+          Christo, fuit servilis, vel initialis.</head>
+        <!-- rubric: "an timor pene qui fuit in christo fuit servilis vel initialis --> 
+        <p xml:id="pl-l3d34c9-d1e115">
+          <lb ed="#H" n="7"/><!-- rubric line -->
+          <lb ed="#H" n="8"/>
+          <lb ed="#H" n="9"/>Cum autem fuerit in christo timor poenae quaeritur an iste ti<lb ed="#H" break="no" n="10"/>mor 
+          fuerit mundanus vel servilis vel initialis
+        </p>
+        <p xml:id="pl-l3d34c9-d1e118">
+          Ad 
+          <lb ed="#H" n="11"/>quod dicimus nullum eorum fuisse in christo quia munda<lb ed="#H" break="no" n="12"/>nus
+          malus est ut supra dictum est et in primo gra<lb ed="#H" break="no" n="13"/>du 
+          cum mundo deseritur servilis vero vel ini<lb ed="#H" break="no" n="14"/>tialis 
+          in perfecta caritate non est. Nullus ergo timorum 
+          <lb ed="#H" n="15"/>istorum fuit in christo.
+        </p>
+        <p xml:id="pl-l3d34c9-d1e121">
+          Quis ergo fuit timor ille quo 
+          <lb ed="#H" n="16"/>poenam timuit? potest timor ille dici naturalis sive 
+          <lb ed="#H" n="17"/>humanus qui omnibus hominibus inest quo <seg type="correction"><add place="above-line">h</add>orretur</seg> mors ac 
+          <lb ed="#H" n="18"/>formidatur poena et dicitur timor iste naturalis non quia acces<lb ed="#H" break="no" n="19"/>serit 
+          homini ex natura secundum quod prius fuit instituta quia non 
+          <lb ed="#H" n="20"/>fuit iste timor concretus homini nec de bonis naturalibus 
+          <lb ed="#H" n="21"/>sed quia ex corrupta natura per peccatum omnibus advenit cui cor<lb ed="#H" break="no" n="22"/>ruptio
+          inolevit tamquam esset naturalis. et est iste ti<lb ed="#H" break="no" n="23"/>mor 
+          effectus peccati. ut praedictum est.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
