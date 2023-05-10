@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 1, Distinctio 5, Caput 1 [Hopkins MSB19 Transcription]</title>
+        <author>Petrus Lombardus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor; Tei Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 1, Distinctio 4, Caput 2 [Hopkins MSB19 Transcription]</title>
+          <date when="2023-05-04">May 04, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>
+            <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="H" n="hopkinsMSB19">Baltimore, Hopkins, MS B19</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-05-04" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#H" n="9-r"/>
+        <cb ed="#H" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d5c1">
+        <head xml:id="pl-l1d5c1-Hd1e99">Capitulum 1</head>
+        <!-- rubric: haec quaeritur an pater genuit divinam essentiam 
+          <lb ed="#H"/>vel ipsa filium an essentia genuit essentiam vel ipsa nec genuit nec genita sit -->
+        <p xml:id="pll1d5c1-d1e3476">
+          <lb ed="#H" n="67"/><!-- rubric line -->
+          <lb ed="#H"/>Post haec quaeritur utrum concedendum 
+          <lb ed="#H"/>sit quod pater genuit divinam essentiam 
+          <lb ed="#H"/>vel quod divina essentia genuit filium vel <unclear>essentia<!-- possible correction--></unclear> 
+          <lb ed="#H"/><unclear><!-- del but possible inserted above -->genuit essentiam</unclear> an omnino non genuit nec ge<lb ed="#H"/>nita 
+          est divina essentia
+        </p>
+        <p xml:id="pll1d5c1-d1e3479">
+          Ad quod catholicis trac<lb ed="#H"/>tatoribus 
+          consentientes dicimus quod nec pater ge<lb ed="#H"/>nuit 
+          divinam essentiam nec divina essentia 
+          <lb ed="#H"/>genuit filium nec divina essentia genuit 
+          <lb ed="#H"/>essentiam hic autem nomine essentiae intelligimus di<lb ed="#H"/>vinam 
+          naturam quae communis est tribus per<lb ed="#H"/>sonis 
+          et tota in singulis
+        </p>
+        <p xml:id="pll1d5c1-d1e3482">
+          Ideo non est dicendum quod pa<lb ed="#H"/>ter 
+          genuit divinam essentiam quia si pater 
+          <lb ed="#H"/>diceretur genuisse divinam essentiam essen<lb ed="#H"/>tia 
+          divina relative diceretur ad patrem vel pro relativo po<lb ed="#H"/>neretur 
+          <del rend="expunctuation">non indicaret essentiam</del> si autem relative diceretur vel pro relativo 
+          <lb ed="#H"/>poneretur non indicaret essentiam Ut enim ait <ref xml:id="pl-l1d5c1-Rd1e109"><name xml:id="pl-l1d5c1-Nd1e110">augustinus</name> in V libro <title ref="#deTrinitate">de trinitate</title></ref> 
+          <lb ed="#H"/><quote xml:id="pll1d5c1-Qd1e3494">quod relative dicitur non indicat substantiam</quote>
+        </p>
+        <!-- rubric: Secunda -->
+        <p xml:id="pll1d5c1-d1e3505">
+          <lb ed="#H"/>Item cum deus pater sit divina essentia si eius esset 
+          <lb ed="#H"/>genitor esset utique genitor eius rei quae ipse est et ita 
+          <lb ed="#H"/>eadem res se ipsam genuisset quod <name xml:id="pl-l1d5c1-Nd1e130" ref="#Augustine">augustinus</name> ne<lb ed="#H"/>gat 
+          ut supra ostendimus
+        </p>
+        <p xml:id="pll1d5c1-d1e3511">
+          <lb ed="#H"/>Item si pater est genitor essentiae divinae <add place="above-line">cum</add> ipse 
+          <lb ed="#H"/>essentia divina et sit et deus sit eo ergo quod generat
+          <pb ed="#H" n="9-v"/>
+          <cb ed="#H" n="a"/>
+          <lb ed="#H"/>et est et deus est Ita ergo non illud quod generatur est a patre 
+          <lb ed="#H"/>deus sed pater eo quod generat et est et deus est et si ita est non genito 
+          <lb ed="#H"/>gignens sed gignenti <seg type="correction">genitu<subst><del>m</del><add place="above-line">s</add></subst></seg> causa est 
+          <lb ed="#H"/>ut est sit et deus sit
+        </p>
+        <p xml:id="pll1d5c1-d1e3514">
+          Simili ratiocinatione probat <ref xml:id="pl-l1d5c1-Rd1e139"><name xml:id="pl-l1d5c1-Nd1e140" ref="#Augustine">augustinus</name> in libro VII <title ref="#deTrinitate">de 
+          <lb ed="#H"/>trinitate</title></ref> <quote xml:id="pll1d5c1-Qd1e3526">quod pater non est sapiens sapientia 
+          <lb ed="#H"/>quam genuit <pc type="punctus"/> quia si ea sapiens est ea est hoc enim est illi 
+          <lb ed="#H"/>esse quod sapere quodsi <add place="above-line">hoc</add> est <subst><del>ibi</del> <add place="in-line">illi</add></subst> esse quod sapere non per illam sa<lb ed="#H"/>pientiam 
+          quam genuit sapiens pater est Quid enim 
+          <lb ed="#H"/>aliud dicimus cum dicimus hoc illi est esse quod sapere nisi 
+          <lb ed="#H"/>eo est quo sapiens est ergo quae causa illi est ut sapiens 
+          <lb ed="#H"/>sit etiam ipsa illi causa est ut sit <pc type="punctus"/> Si ergo sapientia quam 
+          <lb ed="#H"/>genuit causa illi est ut sapiens sit et causa illi est 
+          <lb ed="#H"/>ut sit sed causam patri qua sit a patre genitam nul<lb ed="#H"/>lo 
+          modo quisquam dixerit sapientiam <pc type="punctus"/> Quod enim 
+          <lb ed="#H"/>est insanius? Ita ergo si pater genuit essentiam 
+          <lb ed="#H"/>qua est essentia quam genuit causa est illi ut sit</quote> <pc type="punctus"/> Non 
+          <lb ed="#H"/>igitur ipsam qua est essentiam genuit <pc type="punctus"/> <quote xml:id="pll1d5c1-Qd1e3535">Nam in illa 
+          <lb ed="#H"/>simplicitate inquid <name xml:id="pl-l1d5c1-Nd1e159" ref="#Augustine">augustinus</name> quia non est aliud 
+          <lb ed="#H"/>sapere <pc type="punctus"/> quam esse eadem <subst><del>ibi</del> <add place="above-line">illi</add></subst> sapientia quae essentia</quote> <pc type="punctus"/>
+          <lb ed="#H"/>Ideoque quod de sapientia hoc de essentia dicimus Si<lb ed="#H"/>cut 
+          ergo non genuit sapientiam qua sapiens est ita 
+          <lb ed="#H"/>nec essentiam qua est ut enim sapientia sapiens est 
+          <lb ed="#H"/>et potentia potens ita et essentia ipse est Eadem<lb ed="#H"/>que 
+          est sapientia et potentia quae essentia
+        </p>
+        <p xml:id="pll1d5c1-d1e3547">
+          patet itque 
+          <lb ed="#H"/>ex praedictis quia pater essentiam divinam non genuit
+        </p>
+        <!-- rubric: hic videtur ad versari -->
+        <p xml:id="pll1d5c1-d1e3550">
+          <lb ed="#H"/>Huic autem videtur contrarium quod <ref xml:id="pl-l1d5c1-Rd1e174"><name xml:id="pl-l1d5c1-Nd1e175" ref="#Augustine">augustinus</name> 
+          ait in libro <title>de fide ad petrum</title></ref> <quote xml:id="pll1d5c1-Qd1e3562">deus cum verbum 
+          <lb ed="#H"/>genuit id quod ipse est genuit nec de nihi<lb ed="#H"/>lo 
+          nec de aliqua iam facta conditaque materia sed 
+          <lb ed="#H"/>de ipso id quod est ipse</quote> <pc type="punctus"/>
+        </p>
+        <p xml:id="pll1d5c1-d1e3573">
+          Item <quote xml:id="pll1d5c1-Qd1e3577">deus pater qui verissi<lb ed="#H"/>me 
+          se indicare animis cognituris et voluit et 
+          <lb ed="#H"/>potuit hoc ad se ipsum indicandum genuit quod est ipse qui genuit</quote> <pc type="punctus"/>
+        </p>
+        <p xml:id="pll1d5c1-d1e3586">
+          Ecce aperte dicit his verbis 
+          <lb ed="#H"/>deum patrem genuisse illud quod ipse est Illud autem quod ipse est non est nisi 
+          <lb ed="#H"/>divina essentia <pc type="punctus"/> Videtur ergo divinam essentiam genuisse <pc type="punctus"/>
+        </p>
+        <p xml:id="pll1d5c1-d1e3589">
+          <lb ed="#H"/>Ad quod respondemus illa verba sic intelligenda esse dicentes pater 
+          <lb ed="#H"/>de se ipso genuit illud quod ipse est id est filium qui est illud quod pater est nam quod pater est et filius 
+          <lb ed="#H"/>hoc est sed non qui pater est et filius hic est
+        </p>
+        <!-- rubric alias parte quaestiones exequitur -->
+        <p xml:id="pll1d5c1-d1e3592">
+          <lb ed="#H"/>Ita etiam non est dicendum 
+          <lb ed="#H"/>quod divina essentia genuit filium quia cum 
+          <lb ed="#H"/>filius sit divina essentia iam esset filius res 
+          <lb ed="#H"/>a qua generatur et ita eadem res se ipsam ge<lb ed="#H"/>neraret 
+          Ita etiam dicimus quod essentia divi<lb ed="#H"/>na 
+          non genuit essentiam <pc type="punctus"/> Cum enim una 
+          <lb ed="#H"/>et summa quaedam res sit divina essentia
+          <cb ed="#H" n="b"/>
+          <lb ed="#H"/>si divina essentia essentiam genuit eadem res 
+          <lb ed="#H"/>se ipsam genuit quod omnino esse non potest sed pater solus ge<lb ed="#H"/>nuit 
+          filium et a patre et filio procedit spiritus santus
+        </p>
+        <!-- rubric <lb ed="#H"/>Que videantur praedictis esse contraria -->
+        <p xml:id="pll1d5c1-d1e3595">
+          <lb ed="#H"/>Praedictis autem videtur esse contrarium quod dicit <ref xml:id="pl-l1d5c1-Rd1e217"><name xml:id="pl-l1d5c1-Nd1e218" ref="#Augustine">augustinus</name> 
+          <lb ed="#H"/>in libro VII <title ref="#deTrinitate">de trinitate</title></ref> <quote xml:id="pll1d5c1-Qd1e3607">hoc inquid est deo esse <seg type="correction">qu<subst><add place="above-line">o</add><del rend="expunctuation">i</del></subst>d</seg> sapere 
+          <lb ed="#H"/>unde pater et filius simul <del rend="expunctuation">est</del> sunt una 
+          <lb ed="#H"/>sapientia quia una essentia et singillatim sapientia 
+          <lb ed="#H"/>de sapientia sicut essentia de essentia</quote> Ecce his verbis 
+          <lb ed="#H"/>aperte dicit <name xml:id="pl-l1d5c1-Nd1e235" ref="#Augustine">augustinus</name> sapientiam de sapientia et essentiam de essen<lb ed="#H"/>tiam 
+          ubi videtur significare quod sapientia sapien<lb ed="#H"/>tiam 
+          et essentia essentiam genuerit
+        </p>
+        <p xml:id="pll1d5c1-d1e3619">
+          Idem <ref xml:id="pl-l1d5c1-Rd1e241">in libro <title>de 
+          <lb ed="#H"/>fide ad petrum</title></ref> ait <quote xml:id="pll1d5c1-Qd1e3628">Sic christum dei filium id est unam 
+          <lb ed="#H"/>ex trinitate personam deum verum crede ut di<lb ed="#H"/>vinitatem 
+          eius de natura patris natam esse non du<lb ed="#H"/>bites</quote> 
+          hic videtur dicere quod natura filii sit nata 
+          <lb ed="#H"/>de natura patris
+        </p>
+        <p xml:id="pll1d5c1-d1e3637">
+          Idem etiam in <ref xml:id="pl-l1d5c1-Rd1e257">XV libro <title ref="#deTrinitate">de trinitate</title></ref> ait 
+          <lb ed="#H"/><quote xml:id="pll1d5c1-Qd1e3646">Dicitur filius consilium de consilio et volun<lb ed="#H"/>tas 
+          de voluntate sicut substantia de substantia et sapientia 
+          <lb ed="#H"/>de sapientia</quote> et hic videtur dicere <add place="above-line">quod</add> substantia sit geni<lb ed="#H"/>ta 
+          de substantia et sapientia de sapientia
+        </p>
+        <p xml:id="pll1d5c1-d1e3657">
+          Sed haec ita determina<lb ed="#H"/>mus 
+          <quote xml:id="pll1d5c1-Qd1e3661">sapientia de sapientia et substantia de substantia est</quote> id est filius qui 
+          <lb ed="#H"/>est sapientia qui est substantia <add place="above-line">est</add> de patre qui est eadem substantia 
+          <lb ed="#H"/>et sapientia et filius qui est divinitas natus est de patre 
+          <lb ed="#H"/>qui est divina natura Et ut expressius dic<lb ed="#H"/>amus 
+          dicimus filium sapientiam esse de patre sapientia 
+          <lb ed="#H"/>et dicimus filium substantiam esse genitum de patre et a 
+          <lb ed="#H"/>patre substantia
+        </p>
+        <p xml:id="pll1d5c1-d1e3672">
+          quod autem ita intelligi debeat <ref xml:id="pl-l1d5c1-Rd1e290"><name xml:id="pl-l1d5c1-Nd1e291" ref="#Augustine">augustinus</name> 
+          <lb ed="#H"/>ostendit in VII libro <title ref="#deTrinitate">de trinitate</title></ref> dicens <quote xml:id="pll1d5c1-Qd1e3683">pater ipse sapientia 
+          <lb ed="#H"/>est et dicitur filius sapientia patris quomodo dicitur lumen patris 
+          <lb ed="#H"/>id est sicut lumen de lumine <pc type="punctus"/> et uterque unum lumen sic 
+          <lb ed="#H"/>intelligatur sapientia de sapientia uterque una sapientia et 
+          <lb ed="#H"/>una essentia</quote>
+        </p>
+        <p xml:id="pll1d5c1-d1e3694">Item <quote xml:id="pll1d5c1-Qd1e3698">Ideo dicitur <sic>christo</sic> virtus est sapientia dei 
+          <lb ed="#H"/>quia de patre virtute et sapientia etiam ipse 
+          <lb ed="#H"/>virtus et sapientia est sicut ipse lumen de 
+          <lb ed="#H"/>patre lumine est et ipse fons vitae est apud deum 
+          <lb ed="#H"/>patrem fontem vitae</quote> <quote xml:id="pl-l1d5c1-Qd1e327"> filius ergo sapientia de patre sapi<lb ed="#H"/>entia 
+          est sicut filius <del rend="expunctuation">ergo sapientia</del> lumen de lumi<lb ed="#H"/>ne 
+          patre et deus filius de deo patre ut <add place="above-line">et</add> singulus 
+          <lb ed="#H"/>sit lumen et singulus sit deus et singulus sit sapientia et simul 
+          <lb ed="#H"/>unum lumen unus deus una sapientia</quote>
+        </p>
+        <p xml:id="pll1d5c1-d1e3709">
+          Ecce his verbis 
+          <lb ed="#H"/>manifeste aperit <name xml:id="pl-l1d5c1-Nd1e325" ref="#Augustine">augustinus</name> ex quo sensu accipien<lb ed="#H"/>da 
+          sint praedicta verba et his similia scilicet cum dicitur 
+          <lb ed="#H"/>substantia de substantia vel substantia genuit substantiam
+        </p>
+        <!--rubric: <lb ed="#H"/> Hoc uidetur praedicte expositioni contrarium --> 
+        <p xml:id="pll1d5c1-d1e3715">
+          <lb ed="#H"/>Huic vero id etiam contrarium videtur quod <ref xml:id="pl-l1d5c1-Rd1e331"><name xml:id="pl-l1d5c1-Nd1e332" ref="#HilaryOfPoitiers">hyllarius</name> 
+          <pb ed="#H" n="10-r"/>
+          <cb ed="#H" n="a"/>
+          <lb ed="#H"/>ait in IIII libro <title ref="#deTrinitate">de trinitate</title></ref> <quote xml:id="pll1d5c1-Qd1e3727">Nihil inquid nisi natum habet fi<lb ed="#H"/>lius 
+          et geniti honoris ammiratio in honore 
+          <lb ed="#H"/>generantis est</quote> Cum ergo filius essentiam habet tota 
+          <lb ed="#H"/>enim in eo est divina essentia videtur quod ipsa divina essentia nata sit
+        </p>
+        <p xml:id="pll1d5c1-d1e3738">
+          Item in <ref xml:id="pl-l1d5c1-Rd1e353">V libro</ref> ait <quote xml:id="pll1d5c1-Qd1e3745">Nativi<lb ed="#H"/>tas 
+          dei <add place="above-line">non</add> potest eam ex qua profecta est non tenere naturam 
+          <lb ed="#H"/>nec enim aliud quam deus subsistit quod non aliun<lb ed="#H"/>de 
+          quam de deo subsistit</quote> Ecce hic dicit nativi<lb ed="#H"/>tatem 
+          dei profectam ex natura et ita videtur ex his 
+          <lb ed="#H"/>verbis atque praedictis natura dei <add place="above-line">et</add> genita et genu<lb ed="#H"/>isse
+        </p>
+        <p xml:id="pll1d5c1-d1e3755">
+          Quod apertius dicit in <ref xml:id="pl-l1d5c1-Rd1e368">libro IX <title ref="#deTrinitate">de trinitate</title></ref> <quote xml:id="pll1d5c1-Qd1e3764">Nos inquit 
+          <lb ed="#H"/>unigenitum deum in forma <sic>dei</sic> manentem 
+          <lb ed="#H"/>in natura dei mansisse profitemur nec unitatem 
+          <lb ed="#H"/>formae servilis in naturam divinae unitatis re<lb ed="#H"/>fundimus 
+          nec rursum corporali insinuatione 
+          <lb ed="#H"/>patrem in filio praedicamus sed ex eo eiusdem generis 
+          <lb ed="#H"/>genitam <add place="above-line">naturam</add> naturaliter in se gignentem habu<lb ed="#H"/>isse 
+          <add place="above-line">naturam</add> quae in forma naturae se gignentis manens formam naturae et infirmi<lb ed="#H"/>tatis 
+          corporalis accepit Non enim defecerat 
+          <lb ed="#H"/>dei natura ne esset sed in se humilitatem terre<lb ed="#H"/>nae 
+          nativitatis manens sibi Dei natura 
+          <lb ed="#H"/>susceperat generis sui potestatem in habitu 
+          <lb ed="#H"/>assumptae humilitatis exercens</quote> Ecce hic 
+          <lb ed="#H"/>aperte dicit et naturam genuisse et naturam ge<lb ed="#H"/>nitam 
+          <del rend="strikethrough">et naturam</del> assumpsisse naturam quod a 
+          <lb ed="#H"/>plerisque negatur
+        </p>
+        
+        <p xml:id="pll1d5c1-d1e3776">
+          Item in <ref xml:id="pl-l1d5c1-Rd1e388">eodem</ref> <quote xml:id="pll1d5c1-Qd1e3783">Nun<lb ed="#H"/>quid 
+          unigenito deo contumelia est pa<lb ed="#H"/>trem 
+          sibi innascibilem deum esse cum ex in<lb ed="#H"/>nascibili 
+          deo nativitas unigenita in na<lb ed="#H"/>turam 
+          unigenitam subsistat?</quote> Ecce et hic di<lb ed="#H"/>cit 
+          unigenitam naturam
+        </p>
+        <!-- rubric 
+          Quomodo sit intelli<lb ed="#H"/>genda
+          praemissa verba hylarii -->
+        <p xml:id="pll1d5c1-d1e3791">
+          <lb ed="#H"/><!-- rubric line -->
+          <lb ed="#H"/>Sed quia haec verba sane vult intelligi 
+          <lb ed="#H"/><ref xml:id="pl-l1d5c1-Rd1e401">ipse idem dicit in IIIIto libro</ref> <quote xml:id="pll1d5c1-Qd1e3798">Intelligentia 
+          <lb ed="#H"/>dictorum ex causis est assumenda dicendi quia 
+          <lb ed="#H"/>non sermoni res sed rei <add place="above-line">est</add> sermo subiectus</quote> haec ergo 
+          <lb ed="#H"/>verba ita intelligi possunt Nihil habet Filius 
+          <lb ed="#H"/>nisi natum id est nihil habet secundum quod deus est nisi quod 
+          <lb ed="#H"/>nascendo <sic>sumpsit</sic> et ipse nascendo patris 
+          <lb ed="#H"/>in se subsistentem habuit naturam
+        </p>
+        <p xml:id="pll1d5c1-d1e3806">
+          Unde <ref xml:id="pl-l1d5c1-Rd1e414">idem <name xml:id="pl-l1d5c1-Nd1e416">hylarius</name> addidit in libro V</ref> <quote xml:id="pll1d5c1-Qd1e3816">Eandem 
+            naturam habet genitus quam ille qui genuit ita 
+            <lb ed="#H"/>tamen ut natus non sit ille qui genuit <pc type="punctus"/> Nam 
+            <lb ed="#H"/>quomodo erit ipse cum genitus sit? sed 
+            <lb ed="#H"/>in his ipsis subsistat ille qui genitus est in 
+            <lb ed="#H"/>quibus totus est ipse qui genuit <pc type="punctus"/> quia non est ali<lb ed="#H"/>unde 
+            qui genitus est et ideo non refertur ad aliud 
+            <lb ed="#H"/>quod in uno subsistit ex uno ac si in generatio<cb ed="#H" n="b"/><lb ed="#H" break="no"/>ne 
+            filii et naturam suam ut ita dicam sequitur in<lb ed="#H"/>mutabilis 
+            deus inmutabilem gignens deum nec 
+            <lb ed="#H"/>naturam suam deserit ex inmutabili deo 
+            <lb ed="#H"/><seg type="correction">in<del rend="expunctuation">de</del>mutabili</seg> \dei perfecta nativitas <pc type="punctus"/> subsisten<lb ed="#H"/>tem 
+            igitur in eo dei naturam intelligamus cum 
+            <lb ed="#H"/>in deo deus insit nec praeter eum qui est deus quisquam 
+            <lb ed="#H"/>deus alius sit quia ipse deus et in eo deus</quote>
+        </p>
+        <p xml:id="pll1d5c1-d1e3827">
+          Naturae ergo 
+          <lb ed="#H"/>dei patris veritas in deo filio esse docetur cum in eo 
+          <lb ed="#H"/>deus intelligitur esse qui deus est Est enim unus in u<lb ed="#H"/>no 
+          et unus ab uno
+        </p>
+        <!-- rubric Quod legitur pater de sua substantia 
+          genuisse filium et filius substantie patris -->
+        <p xml:id="pll1d5c1-d1e3830">
+          <lb ed="#H"/>Dicitur quoque et frequenter in scriptura sacra legitur patrem 
+          de sua substantia genuisse Filium</p>
+        <p xml:id="pll1d5c1-d1e3833">Unde <name xml:id="pl-l1d5c1-Nd1e439" ref="#Augustine">Augustinus</name> in libro <title>De fide ad Petrum</title> ait 
+          
+            <quote xml:id="pll1d5c1-Qd1e3843">Pater 
+              Deus de nullo genitus Deo semel de sua natura sine initio genuit 
+              Filium Dum sibi aequalem et eadem qua ipse naturaliter aeternus 
+              est divinitate coaeternum</quote>
+            
+          
+          Ecce hic dicit <name xml:id="pl-l1d5c1-Nd1e452" ref="#Augustine">Augustinus</name> 
+          Filium genitum de natura Patris Est autem una natura Patris 
+          et Filii et Spiritus sancti Si ergo de natura Patris genitus est 
+          Filius genitus est de natura Filii et Spiritus sancti immo de natura 
+          trium personarum</p>
+        <p xml:id="pll1d5c1-d1e3854">Idem quoque <ref xml:id="pl-l1d5c1-Rd1e458"><name xml:id="pl-l1d5c1-Nd1e459" ref="#Augustine">Augustinus</name> in libro XV <title ref="#deTrinitate">De Trinitate</title></ref> dicit 
+          Christum esse Filium substantiae Patris et de substantia Patris genitum 
+          tractans illud verbum <name xml:id="pl-l1d5c1-Nd1e465" ref="#Paul">Apostoli</name> loquentis de Deo Patre 
+          sic 
+          
+            <quote xml:id="pll1d5c1-Qd1e3868" source="http://scta.info/resource/col1_13">Qui eruit nos de potestate tenebrarum et transtulit in 
+              regnum Filii caritatis suae</quote>
+            
+          
+          
+            <quote xml:id="pll1d5c1-Qd1e3877" source="http://scta.info/resource/adt-l15">Quod dictum est inquit <mentioned>Filii 
+              caritatis suae</mentioned> nihil aliud intelligatur quam Filii sui dilecti quam 
+              Filii substantiae suae Caritas quippe Patris quae in natura eius 
+              est ineffabiliter simplici nihil est aliud quam ipsa natura atque 
+              substantia ut saepe diximus et saepe iterare non piget ac per hoc 
+              Filius caritatis eius nullus est alius quam qui de substantia eius 
+              est genitus</quote>
+            
+           
+          Ecce aperte hic dicit <name xml:id="pl-l1d5c1-Nd1e486" ref="#Augustine">Augustinus</name> Filium esse genitum 
+          de substantia Patris et Filium substantiae Patris</p>
+        <p xml:id="pll1d5c1-d1e3891">Idem quoque <ref xml:id="pl-l1d5c1-Rd1e492"><name xml:id="pl-l1d5c1-Nd1e493" ref="#Augustine">Augustinus</name> in libro II <title>Contra Maximinum haereticum</title></ref> 
+          substantiam Dei genuisse Filium et Filium genitum 
+          de substantia Patris asserit dicens 
+          
+            <quote xml:id="pll1d5c1-Qd1e3903">Carnalibus cogitationibus 
+              pleni substantiam Dei de se ipsa gignere Filium non putatis 
+              nisi hoc patiatur quod substantia carnis patitur quando gignit 
+              
+                <quote xml:id="pll1d5c1-Qd1e3907" ana="mt22_29">Erratis nescientes Scripturas neque virtutem Dei</quote>
+                
+               
+              Nullo enim 
+              <!-- p. 48 --> 
+              modo verum Dei Filium cogitatis si eum natum esse de substantia 
+              Patris negatis Non enim iam erat hominis Filius et Deo donante 
+              factus est Dei Filius ex Deo natus gratia non natura An forte 
+              etsi non hominis filius erat tamen aliqua iam erat qualiscumque 
+              creatura et in Dei Filium Deo mutante conversa est? Sed nihil 
+              horum est ergo aut de nihilo aut de aliqua substantia natus est 
+              Sed ne crederemus vos putare de nihilo esse Dei Filium affirmastis 
+              non vos dicere de nihilo esse Dei Filium De aliqua ergo 
+              substantia est et si non de substantia Patris de qua sit dicite sed 
+              non invenietis Iam igitur unigenitum Dei Filium Iesum Christum 
+              de Patris esse substantia non vos nobiscum pigeat confiteri</quote>
+            
+          
+        </p>
+        <p xml:id="pll1d5c1-d1e3922">Item in <ref xml:id="pl-l1d5c1-Rd1e520">eodem</ref> 
+          
+            <quote xml:id="pll1d5c1-Qd1e3929">Utrique legimus 
+              
+                <quote xml:id="pll1d5c1-Qd1e3933" source="http://scta.info/resource/Iio5_10">ut simus in vero Filio eius</quote>
+                
+              
+              Iesu Christo Dicite ergo nobis utrum iste verus Dei Filius 
+              ab eis qui gratia filii sunt quadam proprietate discretus de nulla 
+              substantia sit an de aliqua? Non dico in quis de nulla nec dicam 
+              de nihilo ergo de aliqua substantia est Quaero de qua? 
+              Si non de Patris substantia est aliam quaere Si aliam non invenis 
+              Patris agnosce substantiam et cum Patre Filium homousion 
+              confitere</quote>
+             <!-- dbheck -->
+          
+        </p>
+        <p xml:id="pll1d5c1-d1e3949">Item in <ref xml:id="pl-l1d5c1-Rd1e544">eodem</ref> 
+          
+            <quote xml:id="pll1d5c1-Qd1e3956">Confiteor Deum Patrem omnino incorruptibiliter genuisse 
+            sed quod ipse est genuisse Item dico quod 
+            saepe dicendum est Aut de aliqua substantia natus est Dei Filius 
+            aut de nulla Si de nulla ergo de nihilo quod vos iam non dicitis 
+            si vero de aliqua nec tamen de Patris substantia non est verus 
+            Filius si vero de Patris substantia unius eiusdemque substantiae 
+            sunt Pater et Filius Vos autem nec Filium de Patris substantia 
+            genitum vultis et tamen eum nec ex nihilo nec ex aliqua materia 
+            sed ex Patre esse conceditis nec videtis quam necesse sit ut qui 
+            non est ex nihilo nec ex aliqua re alia sed ex Deo nisi ex 
+            Dei substantia esset non possit et hoc esse quod Deus est de quo 
+            est id est Deus de Deo natus quia non alius prius fuit sed natura 
+            coaeterna de Deo est</quote>
+          
+        </p>
+        <p xml:id="pll1d5c1-d1e3961">His verbis praemissis innui videtur quod divina substantia 
+          Filium genuerit et quod Filius sit genitus de substantia Patris et 
+          quod de Deo est natura coaeterna et quod Pater id quod ipse
+          <!-- p. 49 --> 
+          est genuit Id autem quo ipse est essentia divina est et ita putari 
+          potest divinam essentiam genuisse</p>
+        <p xml:id="pll1d5c1-d1e3966">Vehementer movent nos haec verba quae quomodo intelligenda 
+          sint mallem ab aliis audire quam tradere Ut tamen sine 
+          praeiudicio atque temeritate loquar ex hoc sensu dicta possunt 
+          accipi Natura coaeterna de Deo est id est Filius coaeternus Patri 
+          de Patre est ita quod est eadem cum eo natura vel eiusdem naturae 
+          Quem sensu confirmat <name xml:id="pl-l1d5c1-Nd1e560" ref="#Augustine">Augustinus</name> ibidem subiiciens 
+          et quod dixerat quasi explanans Dicto enim 
+          
+            <quote xml:id="pll1d5c1-Qd1e3973">Natura coaeterna 
+              de Deo est</quote>
+             <!-- dbheck -->
+          
+          addidit 
+          
+            <quote xml:id="pll1d5c1-Qd1e3984">Non est aliud Filius quam illud de quo 
+            est id est unius eiusdemque substantiae est</quote>
+            
+          
+        </p>
+        <p xml:id="pll1d5c1-d1e3992">Deinde apertius talem intellectum ex praedictis verbis fore 
+          habendum aperit in <ref xml:id="pl-l1d5c1-Rd1e584">eodem libro <title>Contra Maximinum</title></ref> dicens 
+          
+            <quote xml:id="pll1d5c1-Qd1e4001">Trinitas haec unius eiusdemque substantiae est quia non de aliqua 
+              materia vel de nihilo est Filius sed de quo est genitus Itemque 
+              Spiritus sanctus non de aliqua materia vel de nihil est sed inde 
+              est unde procedit</quote>
+             <!-- dbcheck -->
+          
+        </p>
+        <p xml:id="pll1d5c1-d1e4011">His utique verbis aperte ostendit ea ratione dici Filium esse 
+          de substantia Patris quia est de Patre genitus ita quod est eiusdem 
+          substantiae cum eo et Spiritum sanctum esse de substantia Patris 
+          et Filii quia ab utroque procedit ita quod est eiusdem substantiae</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 1, Distinctio 4, Caput 2 [Hopkins MSB19 Transcription]</title>
+        <author>Petrus Lombardus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor; Tei Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 1, Distinctio 4, Caput 2 [Hopkins MSB19 Transcription]</title>
+          <date when="2023-05-01">May 01, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>
+            <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="H" n="hopkinsMSB19">Baltimore, Hopkins, MS B19</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-05-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#H" n="9-r"/>
+        <cb ed="#H" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pl-l1d4c2">
+        <head xml:id="pl-l1d4c2-Hd1e99">Capitulum 2</head>
+        <!-- rubric: Oppi<lb ed="#H" n="20"/>io 
+          quorudam dicentium tres personas esse unum 
+          <lb ed="#H" n="21"/>deum unam substantiam sed non econverso scilicet unum deum vel
+          una substantia esse tres personas -->
+        <p xml:id="pll1d4c2-d1e3476">
+          <lb ed="#H" n="20"/>
+          <lb ed="#H" n="21"/>
+          <lb ed="#H" n="22"/>Quidam tamen veritatis adversa<lb ed="#H" break="no" n="23"/>rii 
+          concedunt patrem filium et spiritum sanctum sive tres 
+          <lb ed="#H" n="24"/>personas esse unum deum unam substantiam sed no<lb ed="#H" break="no" n="25"/>lunt 
+          concedere unum <add place="above-line">deum</add> sive unam substantiam 
+          <lb ed="#H" n="26"/>esse tres personas dicentes substantiam divinam 
+          <lb ed="#H" n="27"/>praedicari de tribus personis non tres personas de 
+          <lb ed="#H" n="28"/>substantia divina
+        </p>
+        <p xml:id="pll1d4c2-d1e3481">
+          fides autem catholica tenet ac prae<lb ed="#H" break="no" n="29"/>dicat 
+          et tres personas esse unum deum unam sub<lb ed="#H" break="no" n="30"/>stantiam 
+          sive essentiam sive naturam divi<lb ed="#H" break="no" n="31"/>nam 
+          et unum deum sive essentiam divinam esse tres 
+          <lb ed="#H" n="32"/>personas
+        </p> 
+        <!-- possibile abelard ref -->
+        <p xml:id="pll1d4c2-d1e3487">
+          unde <ref xml:id="pl-l1d4c2-Rd1e114"><name xml:id="pl-l1d4c2-Nd1e115" ref="#Augustine">augustinus</name> in I libro <title ref="#deTrinitate">de trinitate</title></ref> ait <quote xml:id="pll1d4c2-Qd1e3498" source="http://scta.info/resource/adt-l1">Recte ipse 
+          <lb ed="#H" n="33"/>deus trinitas intelligitur beatus et solus potens</quote> 
+          <lb ed="#H" n="34"/>Ecce quam expresse <del rend="strikethrough">d</del> dixit ipse deus trinitas ut 
+          <lb ed="#H" n="35"/>ostenderet et ipsum deum esse trinitatem et trinitatem ipsum deum
+        </p>
+        <p xml:id="pll1d4c2-d1e3506">
+          Item <ref xml:id="pl-l1d4c2-Rd1e134">in eodem</ref> <quote xml:id="pll1d4c2-Qd1e3513">In verbis 
+          <lb ed="#H" n="36"/>inquid illis <name xml:id="pl-l1d4c2-Nd1e140" ref="#Paul">apostoli</name> quibus de adventu christi a<lb ed="#H" break="no" n="37"/>gens 
+          dicit <quote xml:id="pll1d4c2-Qd1e3520">quem ostendet beatus et solus po<lb ed="#H" break="no" n="38"/>tens 
+          rex regum et dominus dominantium qui solus habet 
+          <lb ed="#H" n="39"/>inmortalitatem</quote> etc nec pater proprie nominatus est 
+          <lb ed="#H" n="40"/>nec filius nec spiritus sanctus sed beatus et solus 
+          <lb ed="#H" n="41"/>potens id est unus et solus verus qui est ipsa trinitas</quote> 
+          <lb ed="#H" n="42"/>Ecce et hic aperte dicit unum solum verum de<lb ed="#H" break="no" n="43"/>um 
+          esse ipsa trinitatem et si unus deus trini<lb ed="#H" break="no" n="44"/>tas 
+          est ergo unus deus est tres personae
+        </p>
+        
+        
+        <p xml:id="pl-l1d4c2-d1e158">
+          Item in <ref xml:id="pl-l1d4c2-Rd1e160">V libro
+          <cb ed="#H" n="b"/>
+          <lb ed="#H" n="45"/><title>de trinitate</title></ref> <quote xml:id="pl-l1d4c2-Qd1e166" source="http://scta.info/resource/adt-l5-d1e718@71-82">non tres deos sed unum deum dicimus esse ipsam praestan<lb ed="#H" break="no" n="46"/>tissimam 
+            trinitatem</quote>
+        </p>
+        <p xml:id="pl-l1d4c2-d1e171">
+          Item in <ref xml:id="pl-l1d4c2-Rd1e173">libro <title><add place="above-line">de</add> fide ad petrum 
+          <lb ed="#H" n="47"/>In expositione simboli</title></ref> <quote xml:id="pl-l1d4c2-Qd1e180">satis est christiano rerum creata<lb ed="#H" break="no" n="48"/>rum 
+          causam visibilium sive invisibilium non nisi bonitatem credere creato<lb ed="#H" break="no" n="49"/>ris 
+          qui est deus unus et verus nullamque esse naturam 
+          <lb ed="#H" n="50"/>quae non aut ipse sit aut ab ipso eumque Trinitate esse 
+          <lb ed="#H" n="51"/>patrem scilicet et filium et spiritum sanctum</quote>
+        </p>
+        <p xml:id="pl-l1d4c2-d1e184">
+          Item <ref xml:id="pl-l1d4c2-Rd1e186"><name xml:id="pl-l1d4c2-Nd1e188">augustinus</name> in <title>ser<lb ed="#H" break="no" n="52"/>mone 
+          de fide</title></ref> <quote xml:id="pl-l1d4c2-Qd1e195">credimus unum deum unam esse di<lb ed="#H" break="no" n="53"/>vini 
+          nominis trinitatem</quote>
+        </p>
+        <p xml:id="pl-l1d4c2-d1e199">
+          Idem in <ref xml:id="pl-l1d4c2-Rd1e201">VI libro de trinitate</ref> <quote xml:id="pl-l1d4c2-Qd1e205">dicimus 
+          deum solum esse ipsam trinitatem</quote>
+        </p>
+        <p xml:id="pl-l1d4c2-d1e211">
+          Ecce his et aliis 
+          <lb ed="#H" n="54"/>pluribus auctoritatibus evidenter ostenditur esse di<lb ed="#H" break="no" n="55"/>cendum 
+          et concedendum quod unus deus est trinitas et una substantia tres personae sicut 
+          <lb ed="#H" n="56"/>e converso trinitas dicitur esse unus Deus et tres personae dicuntur esse una substantia
+        </p>
+        <!-- rubrci: <lb ed="#H"/>Redit ad praemissam quaestionem scilicet an deus pater se deum an alium genuit deum -->
+        <p xml:id="pll1d4c2-d1e3535">
+          <lb ed="#H" n="57"/><!-- rubric line -->
+          <lb ed="#H" n="58"/>Nunc ad praemissam quaestionem 
+          <lb ed="#H" n="59"/>revertamur ubi quaerebatur an deus pater genuerit se deum 
+          <lb ed="#H" n="60"/>an alium deum
+        </p>
+        <p xml:id="pll1d4c2-d1e3538">
+          Ad quod dicimus neutrum fore concedendum 
+          <lb ed="#H" n="61"/>dicit tamen <name xml:id="pl-l1d4c2-Nd1e163">augustinus</name> in <title>epistola ad maximum</title> quod deus pater se al<lb ed="#H" break="no" n="62"/>terum 
+          genuit his verbis <quote xml:id="pll1d4c2-Qd1e3548">pater ut haberet filium de se ipso non minuit 
+          <lb ed="#H" n="63"/>se ipsum sed ita genuit de se alterum se ut totus maneret in se et esset in fi<lb ed="#H" break="no" n="64"/>lio 
+          tantus quantus et solus</quote> quod ita intelligi potest id est de se alterum genuit non uti<lb ed="#H" break="no" n="65"/>que 
+          alterum <add place="above-line">deum</add> sed alteram personam vel genuit se alterum id est genuit alterum qui est hoc quod ipse <add place="margin-right">nam etsi alius sit pater quam filius non tamen aliud est</add> 
+          <lb ed="#H" n="66"/>sed unum</p>
+      </div>
+    </body>
+  </text>
+</TEI>

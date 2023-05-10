@@ -1,47 +1,53 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Liber 1, Distinctio 4, Caput 1</title>
         <author>Petrus Lombardus</author>
-        <editor>Brady</editor>
       </titleStmt>
       <editionStmt>
-        <edition n="2015.09-dev-master">
+        <edition n="0.0.0-dev">
           <title>Liber 1, Distinctio 4, Caput 1</title>
           <date when="2015-09-26">September 26, 2015</date>
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher/>
-        <pubPlace/>
+        <authority>SCTA</authority>
         <availability status="free">
-          <p>Public Domain</p>
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
         </availability>
-        <date when="2015-09-26">September 26, 2015</date>  
+        <date when="2015-09-25">September 25, 2015</date>  
       </publicationStmt>
       <sourceDesc>
         <listWit>
           <witness xml:id="P" n="bnf15705">Paris, Lat 15705</witness>
           <witness xml:id="Pb" n="bda446">Paris, Bibliotheque de l'Arsenal, ms. lat. 446</witness>
+          <witness xml:id="Z" n="zbsSII72">Solothurn, Zentralbibliothek, Cod. S II 72</witness>
+          <witness xml:id="H" n="hopkinsMSB19">Baltimore, Hopkins</witness>
+          <witness xml:id="Pd" n="parker522">Cambridge, Parker Library, ms. 522</witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a critical edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2015-09-26" who="#JW" status="draft" n="2015.09">
-          <p>Created file for the first time.</p>
-          <note type="status">
-            <note type="collobaration">Yes</note>
-            <note type="validating-schema">lbp-0.0.1</note>
-            <note type="transcription-type">critical</note>
-          </note>
+        <change when="2015-09-26" status="draft" n="0.0.0">
+          <p>File Started for the first time.</p>
         </change>
       </listChange>
     </revisionDesc>
   </teiHeader>
   <text xml:lang="la">
     <front>
+      <div xml:id="starts-on">
+      </div>
     </front>
     <body>
       <div xml:id="pl-l1d4c1">
