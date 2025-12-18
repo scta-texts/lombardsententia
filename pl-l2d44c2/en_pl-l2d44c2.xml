@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Book 2, Distinction 44, Chapter 2</title>
+        <author ref="#Lombard">Peter Lombard</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Book 2, Distinction 44, Chapter 2</title>
+          <date when="2025-12-18">December 18, 2025</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="Quaracchi1916">Quaracchi 1916 Volume 1</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2025-12-18" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="en">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="pl-l2d44c2">
+        <head xml:id="pl-l2d44c2-Hd1e102">Chapter 2</head>
+        <head xml:id="pl-l2d44c2-Hd1e105" type="question-title">Whether power should ever be resisted.</head>
+        
+        <p xml:id="pl-l2d44c2-d1e108"> 
+          Here arises a question not to be passed over in silence. 
+          For it has been said above,
+          that the power of sinning and harming is given to man or the devil only by God. 
+          <ref xml:id="pl-l2d44c2-Rd1e104">
+            <name xml:id="pl-l2d44c2-Nd1e106">The Apostle</name>
+          </ref>
+          however says,
+          that
+          <cit>
+            <quote xml:id="pl-l2d44c2-Qd1e111" source="http://scta.info/resource/rom13_2@2-7">
+              he who resists authority,
+              resists the ordinance of God</quote>
+          </cit>.
+          Therefore,
+          since the devil has the power of evil,
+          by God's ordinance,
+          it seems that his power ought not to be resisted. 
+        </p>
+        
+        <p xml:id="pl-l2d44c2-d1e111"> 
+          But it must be known that 
+          <name xml:id="pl-l2d44c2-Nd1e118">the Apostle</name> 
+          is speaking there of secular power,
+          namely of kings and princes and the like;
+          who are not to be resisted in those things which God commands to be rendered to them,
+          namely in tributes and the like. 
+          But if any prince or devil should command or persuade anything contrary to God,
+          then resistance must be made. 
+        </p>
+        
+        <p xml:id="pl-l2d44c2-d1e114"> 
+          Hence
+          <ref xml:id="pl-l2d44c2-Rd1e123"> 
+            <name xml:id="pl-l2d44c2-Nd1e125">Augustine</name>
+          </ref>,
+          determining when power should be resisted,
+          <ref xml:id="pl-l2d44c2-Rd1e128">
+            in the book 
+            <title>On the Nature of the Good</title>
+          </ref>,
+          says: 
+          <cit>
+            <quote xml:id="pl-l2d44c2-Qd1e137">
+              If a power commands what you ought not to do,
+              then surely despise the power,
+              fearing the greater power. 
+              Consider the very grades of human affairs. 
+              If a curator commands something,
+              should it be done,
+              if he commands contrary to the proconsul? 
+              Again,
+              if the proconsul himself commands one thing,
+              and the emperor commands another,
+              is there any doubt that the former should be disregarded and service rendered to the latter? 
+              Therefore if the emperor commands one thing,
+              and God another,
+              the former being disregarded,
+              God must be obeyed
+            </quote>
+          </cit>.
+        </p>
+        
+        <p xml:id="pl-l2d44c2-d1e120"> 
+          Therefore let us resist the power of the devil or of man when he suggests anything contrary to God;
+          in which we do not resist God's ordinance,
+          but obey it;
+          for thus God has commanded,
+          that in evil things we should obey no power. 
+        </p>
+        
+      </div>
+    </body>
+  </text>
+</TEI>
