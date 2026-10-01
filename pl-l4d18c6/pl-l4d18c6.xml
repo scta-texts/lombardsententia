@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -66,9 +64,9 @@
           erant lepra, quae peccatum figurat. 
         </p>
         <p xml:id="pl-l4d18c6-d1e118">
-          Unde <name ref="#Jerome">Hieronymus</name> <title>Super Matthaeum,</title> ubi Dominus ait Petro: 
+          Unde <name xml:id="pl-l4d18c6-Nd1e114" ref="#Jerome">Hieronymus</name> <title>Super Matthaeum,</title> ubi Dominus ait Petro: 
           <cit>
-            <quote xml:id="pl-l4d18c6-Qd1e126">
+            <quote xml:id="pl-l4d18c6-Qd1e126" source="http://scta.info/resource/mt16_19@1-24">
               Tibi dabo
               claves regni caelorum, et quodcumque ligaveris super terram, erit ligatum et in caelis; et
               quodcumque solveris super terram, erit solutum et in caelis:
@@ -97,13 +95,13 @@
               sed ipse benedicit,
             </quote>
           </cit> 
-          ut legitur in Numeris. Hunc modum ligandi et solvendi <name ref="#Jerome">Hieronymus</name> supra notavit.
+          ut legitur in Numeris. Hunc modum ligandi et solvendi <name xml:id="pl-l4d18c6-Nd1e140" ref="#Jerome">Hieronymus</name> supra notavit.
         </p>
         <p xml:id="pl-l4d18c6-d1e143">
           Ligant quoque sacerdotes, dum satisfactionem poenitentiae
           confitentibus imponunt; solvunt, cum de ea aliquid dimittunt, vel per eam purgatos ad
           Sacramentorum communionem admittunt; quem modum superius Leo Papa notavit. Secundum hunc
-          modum etiam dicuntur sacerdotes dimittere peccata vel retinere. Unde superius <name ref="#Augustine">Augustinus</name> dixit: 
+          modum etiam dicuntur sacerdotes dimittere peccata vel retinere. Unde superius <name xml:id="pl-l4d18c6-Nd1e147" ref="#Augustine">Augustinus</name> dixit: 
           <cit>
             <quote xml:id="pl-l4d18c6-Qd1e148">
               Quibus remittunt, remittit Deus
@@ -120,7 +118,7 @@
           retineri a Deo indicat.
         </p>
         <p xml:id="pl-l4d18c6-d1e155">
-          Quod autem hoc ad claves pertineat, <name ref="#Augustine">Augustinus</name> ostendit dicens: 
+          Quod autem hoc ad claves pertineat, <name xml:id="pl-l4d18c6-Nd1e162" ref="#Augustine">Augustinus</name> ostendit dicens: 
           <cit>
             <quote xml:id="pl-l4d18c6-Qd1e160">
               Frustrat claves

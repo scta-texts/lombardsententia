@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -55,12 +52,12 @@
           cum dicitur: <mentioned>ex ipso</mentioned>, <mentioned>per ipsum</mentioned>, <mentioned>in ipso,</mentioned> omnia 
           tamen ex Patre et per Patrem et in Patre sunt: similiter de Filio 
           et Spiritu sancto accipiendum est.</p>
-        <p xml:id="pll1d36c4-d1e3513">Unde <ref><name ref="#Augustine">Augustinus</name> in libro <title ref="#deTrinitate">De Trinitate</title></ref>: 
+        <p xml:id="pll1d36c4-d1e3513">Unde <ref xml:id="pl-l1d36c4-Rd1e105"><name xml:id="pl-l1d36c4-Nd1e106" ref="#Augustine">Augustinus</name> in libro <title ref="#deTrinitate">De Trinitate</title></ref>: 
           <cit>
             <quote xml:id="pll1d36c4-Qd1e3524">Non confuse, 
-              inquit, accipiendum est quod ait <name ref="#Paul">Apostolus</name> 
+              inquit, accipiendum est quod ait <name xml:id="pl-l1d36c4-Nd1e116" ref="#Paul">Apostolus</name> 
               <cit>
-                <quote xml:id="pll1d36c4-Qd1e3531">ex ipso, et per ipsum, 
+                <quote xml:id="pll1d36c4-Qd1e3531" source="http://scta.info/resource/rom11_36@2-9">ex ipso, et per ipsum, 
                   et in ipso: </quote>
                 <bibl>xxx</bibl>
               </cit>

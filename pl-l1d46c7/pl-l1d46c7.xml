@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -55,7 +52,7 @@
       <div xml:id="pl-l1d46c7">
         <head xml:id="pll1d46c7-Hd1e3504">Capitulum 7</head>
         <head xml:id="pll1d46c7-Hd1e3507" type="questionTitle">Quod in Deo non est causa, ut sit homo deterior</head>
-        <p xml:id="pll1d46c7-d1e3510">Deinde idem <name ref="#Augustine">Augustinus</name> quaerens, quae sit causa, ut 
+        <p xml:id="pll1d46c7-d1e3510">Deinde idem <name xml:id="pl-l1d46c7-Nd1e106" ref="#Augustine">Augustinus</name> quaerens, quae sit causa, ut 
           sit homo deterior, in Deo non esse asserit, in eodem libro sic dicens: 
           <cit>
             <quote xml:id="pll1d46c7-Qd1e3517">Ut si homo deterior, aut in ipso est, aut in alio, aut in 
@@ -80,7 +77,7 @@
           <!-- 286 -->
           auctore est, quod aliquis operatur malum; non est ergo bonum, 
           quod aliquis operatur malum, quia tantum boni Deus auctor est.</p>
-        <p xml:id="pll1d46c7-d1e3536">Hoc autem in eodem libro <name ref="#Augustine">Augustinus</name> aperte explicat 
+        <p xml:id="pll1d46c7-d1e3536">Hoc autem in eodem libro <name xml:id="pl-l1d46c7-Nd1e131" ref="#Augustine">Augustinus</name> aperte explicat 
           ita dicens: 
           <cit>
             <quote xml:id="pll1d46c7-Qd1e3543">Qui omnium quae sunt, auctor est, et ad cuius 
@@ -105,7 +102,7 @@
           modo. Quod mala fiunt, verum est; omne autem verum quod est, 
           est a veritate quae Deus est; a Deo igitur est, quod mala fiunt.</p>
         <p xml:id="pll1d46c7-d1e3566">Quod autem omne verum a Deo sit, confirmant auctoritate 
-          <ref><name ref="#Augustine">Augustini</name> in libro <title ana="#deDiversisQuaestionibus">83 Quaestionum</title></ref> ita dicentis: 
+          <ref xml:id="pl-l1d46c7-Rd1e159"><name xml:id="pl-l1d46c7-Nd1e160" ref="#Augustine">Augustini</name> in libro <title ana="#deDiversisQuaestionibus">83 Quaestionum</title></ref> ita dicentis: 
           <cit>
             <quote xml:id="pll1d46c7-Qd1e3577">Omne verum 
               a veritate verum est; est autem veritas Deus; Deum igitur 
@@ -121,10 +118,10 @@
             <quote xml:id="pll1d46c7-Qd1e3592">Omne namque verum a Deo est,</quote>
             <bibl>xx</bibl>
           </cit>
-          ut ait <name ref="#Augustine">Augustinus</name>, 
-          cui consonat <name ref="#Ambrose">Ambrosius</name>, qui tractans illud verbum <name ref="#Paul">Apostoli</name>: 
+          ut ait <name xml:id="pl-l1d46c7-Nd1e188" ref="#Augustine">Augustinus</name>, 
+          cui consonat <name xml:id="pl-l1d46c7-Nd1e191" ref="#Ambrose">Ambrosius</name>, qui tractans illud verbum <name xml:id="pl-l1d46c7-Nd1e194" ref="#Paul">Apostoli</name>: 
           <cit>
-            <quote xml:id="pll1d46c7-Qd1e3610" source="http://scta.info/resource/ICor12_3">Nemo post dicere: Dominus Iesus, nisi in Spiritu sancto,</quote>
+            <quote xml:id="pll1d46c7-Qd1e3610" source="http://scta.info/resource/Icor12_3@15-23">Nemo post dicere: Dominus Iesus, nisi in Spiritu sancto,</quote>
             <bibl>I Cor 12:3</bibl>
           </cit>
           dicit quod 

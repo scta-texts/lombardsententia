@@ -1,13 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Liber 1, Distinctio 17, Caput 5</title>
         <author>Petrus Lombardus</author>
-        <editor></editor>
+        <editor/>
       </titleStmt>
       <editionStmt>
         <edition n="2015.11-dev-master">
@@ -16,8 +13,8 @@
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher></publisher>
-        <pubPlace></pubPlace>
+        <publisher/>
+        <pubPlace/>
         <availability status="free">
           <p>Public Domain</p>
         </availability>
@@ -95,7 +92,7 @@
         <p xml:id="pll1d17c5-d1e3520">Ut autem certius fiat quod diximus, auctoritate firmamus.</p>
         <p xml:id="pll1d17c5-d1e3524">Quod Spiritus sanctus magis ac minus percipiatur et homini 
           augeatur et non habenti detur, et habenti, ut plus habeatur, 
-          <ref><name ref="#Augustine">Augustinus</name> ostendit <title>Super Ioannem</title></ref> dicens: 
+          <ref xml:id="pl-l1d17c5-Rd1e140"><name xml:id="pl-l1d17c5-Nd1e141" ref="#Augustine">Augustinus</name> ostendit <title>Super Ioannem</title></ref> dicens: 
           <cit>
             <quote xml:id="pll1d17c5-Qd1e3535">Sine Spiritu 
               sancto constat Christum nos non diligere, et eius mandata servare 
@@ -104,7 +101,7 @@
               amplius. Ideoque non solum non habenti, verum etiam habenti 
               non incassum promittitur: non habenti quidem, ut habeatur, 
               habenti autem, ut amplius habeatur. Nam si ab alio minus et ab 
-              alio amplius non haberetur, <name>sanctus Eliseus</name> <name>sancto Eliae</name> non diceret: 
+              alio amplius non haberetur, <name xml:id="pl-l1d17c5-Nd1e150">sanctus Eliseus</name> <name xml:id="pl-l1d17c5-Nd1e152">sancto Eliae</name> non diceret: 
               <cit>
                 <quote xml:id="pll1d17c5-Qd1e3545" source="http://scta.info/resource/IIpara2_9">Spiritus qui est in te, duplo sit in me</quote> <!-- dbcheck this -->
                 <bibl>IV Reg. 2:9</bibl>
@@ -117,7 +114,7 @@
           <cit>
             <quote xml:id="pll1d17c5-Qd1e3565">In libro <title>Regum</title> sic: 
               <cit>
-                <quote xml:id="pll1d17c5-Qd1e3572">Elias dixit ad Eliseum: Postual quod vis, et faciam 
+                <quote xml:id="pll1d17c5-Qd1e3572" source="http://scta.info/resource/IIreg2_9@3-26">Elias dixit ad Eliseum: Postual quod vis, et faciam 
                   tibi, antequam tollar a te. Dixitque Eliseus: Obsecro, ut fiat spiritus tuus duplex 
                   in me.</quote>
                 <bibl/>
@@ -159,7 +156,7 @@
           proprie loquar, homo in ea proficit et deficit aliquando; et tunc 
           ipsa dicitur proficere, quae tamen nec proficit nec deficit in se, 
           quia Deus est.</p>
-        <p xml:id="pll1d17c5-d1e3619">Unde <name ref="#Augustine">Augustinus</name> in homilia IX <title>Super Epistolam Ioannis</title> 
+        <p xml:id="pll1d17c5-d1e3619">Unde <name xml:id="pl-l1d17c5-Nd1e225" ref="#Augustine">Augustinus</name> in homilia IX <title>Super Epistolam Ioannis</title> 
           ait: 
           <cit>
             <quote xml:id="pll1d17c5-Qd1e3629">Probet se quisque, quantum in illo profecerit caritas, vel 

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -60,11 +58,10 @@
           copulae, an cohabitationis, an utriusque. Si cohabitationis consensus matrimonium facit,
           tunc frater cum sorore, potest contrahere matrimonium; si carnalis copulae, tunc inter
           Mariam et Ioseph non fuit coniugium. Proposuerat enim Maria in virginitate manere, nisi
-          Deus aliter facere iuberet, secundum quod videtur Angelo dixisse <quote
-          xml:id="pl-l4d28c3-Qd1e119">Quomodo fiet istud, quoniam virum non cognosco?</quote> id
+          Deus aliter facere iuberet, secundum quod videtur Angelo dixisse <quote xml:id="pl-l4d28c3-Qd1e119" source="http://scta.info/resource/lc1_34@6-12">Quomodo fiet istud, quoniam virum non cognosco?</quote> id
           est, me non cognituram proposui. Neque enim, quia tunc virum non cognoscebat, necesse erat
           inquiri, quomodo posset habere filium: sed quia nunquam se cognituram proposuerat
-          </quote>. Dicit enim <name ref="#Bede">Beda</name>, <quote xml:id="pl-l4d28c3-Qd1e126">
+          </quote>. Dicit enim <name xml:id="pl-l4d28c3-Nd1e117" ref="#Bede">Beda</name>, <quote xml:id="pl-l4d28c3-Qd1e126">
           quod in virginitate manere disposuerat </quote>. Si igitur contra suum propositum post
           consensit in carnalem copulam, videtur facta voti rea mente etsi non opere violati.</p>
       </div>

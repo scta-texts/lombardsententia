@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -61,9 +58,9 @@
           eadem ratione videtur dicendum, omnia mala esse in eo, 
           cum ea semper noverit, et per cognitionem ei praesentia fuerint. 
           Praecognovit enim Deus ab aeterno quosdam futuros malos et eorum 
-          malitiam, ut ait <name ref="#Augustine">Augustinus</name>, praescivit, sed non praeparavit. 
+          malitiam, ut ait <name xml:id="pl-l1d36c2-Nd1e99" ref="#Augustine">Augustinus</name>, praescivit, sed non praeparavit. 
           Cum ergo peccata omnium sciat, nunquid intelligendum est, ea includi <!-- 226 --> 
-          in illa generalitate locutionis, qua dicit <name ref="#Paul">Apostolus</name>, omnia 
+          in illa generalitate locutionis, qua dicit <name xml:id="pl-l1d36c2-Nd1e104" ref="#Paul">Apostolus</name>, omnia 
           esse in Deo? 
           <cit>
             <quote xml:id="pll1d36c2-Qd1e3516" source="http://scta.info/resource/rom11_36">Ex ipso, inquit, 
@@ -77,7 +74,7 @@
           nisi bonorum. Non ergo ex ipso vel per ipsum sunt nisi bona; 
           ita ergo nec in ipso sunt nisi bona; non ergo mala in Deo sunt, 
           quia, licet ea noscat, non tamen ita noscit omnino, ut bona. Mala 
-          quasi de longe cognoscit, ut ait <name>Propheta</name>, 
+          quasi de longe cognoscit, ut ait <name xml:id="pl-l1d36c2-Nd1e118">Propheta</name>, 
           <cit>
             <quote xml:id="pll1d36c2-Qd1e3531" source="http://scta.info/resource/ps137_6">et alta de longe 
               cognoscit,</quote>
@@ -86,11 +83,11 @@
           id est superbiam. Et alibi ad Deum loquens de malis 
           ait: 
           <cit>
-            <quote xml:id="pll1d36c2-Qd1e3540" ana="16_14">De absconditis tuis adimpletus est venter eorum.</quote>
+            <quote xml:id="pll1d36c2-Qd1e3540" ana="16_14" source="http://scta.info/resource/ps16_14@15-21">De absconditis tuis adimpletus est venter eorum.</quote>
             <bibl>Psalm 16:14</bibl>
           </cit>
         </p>
-        <p xml:id="pll1d36c2-d1e3549">Quod exponens <name ref="#Augustine">Augustinus</name>: 
+        <p xml:id="pll1d36c2-d1e3549">Quod exponens <name xml:id="pl-l1d36c2-Nd1e140" ref="#Augustine">Augustinus</name>: 
           <cit>
             <quote xml:id="pll1d36c2-Qd1e3556">Abscondita, inquit, peccata 
               sunt, quae a lumine tuae veritatis absconduntur.</quote>
@@ -100,13 +97,13 @@
           peccata a lumine veritatis divinae absconduntur, cum a Deo sciantur? 
           Si enim non sciret, quomodo de illis iudicaret, et pro illis 
           malos damnaret?</p>
-        <p xml:id="pll1d36c2-d1e3564">Alibi <name>Propheta</name> dicit: 
+        <p xml:id="pll1d36c2-d1e3564">Alibi <name xml:id="pl-l1d36c2-Nd1e154">Propheta</name> dicit: 
           <cit>
             <quote xml:id="pll1d36c2-Qd1e3571" source="http://scta.info/resource/ps74_7">Quia neque ab Oriente, neque ab 
               Occidente</quote>
             <bibl>Psalmus 74:7</bibl>
           </cit>
-          deest. Quod exponens <name ref="#Cassiodorus">Cassiodorus</name> inquit: 
+          deest. Quod exponens <name xml:id="pl-l1d36c2-Nd1e164" ref="#Cassiodorus">Cassiodorus</name> inquit: 
           <cit>
             <quote xml:id="pll1d36c2-Qd1e3583">Neque 
               a bonis, neque a malis deest Deus, sed omnibus praesens et cognitor 
@@ -116,14 +113,14 @@
           Cognoscit ergo Deus et bona et mala per scientiam, 
           sed bona cognoscit etiam per approbationem, per beneplacitum; 
           mala vero non.</p>
-        <p xml:id="pll1d36c2-d1e3591">Unde <ref><name>Cassiodorus</name> <title>Super Psalmum</title></ref> dicit: 
+        <p xml:id="pll1d36c2-d1e3591">Unde <ref xml:id="pl-l1d36c2-Rd1e178"><name xml:id="pl-l1d36c2-Nd1e179">Cassiodorus</name> <title>Super Psalmum</title></ref> dicit: 
           <cit>
             <quote xml:id="pll1d36c2-Qd1e3602">Peccata abscondita 
               Deo sunt, quia non novit, id est non approbat.</quote>
             <bibl>Cassiodorus, Expositio in Psalterium (PL 70:122)</bibl>
           </cit>
         </p>
-        <p xml:id="pll1d36c2-d1e3610">Et ex eo sensu <name ref="#Augustine">Augustinus</name> dixit ea abscondi a lumine 
+        <p xml:id="pll1d36c2-d1e3610">Et ex eo sensu <name xml:id="pl-l1d36c2-Nd1e194" ref="#Augustine">Augustinus</name> dixit ea abscondi a lumine 
           Dei. Qui etiam in libro <title>Ad Helvidium</title> insinuat, cognitionem Dei 
           variis modis accipiendam, inquiens: 
           <cit>

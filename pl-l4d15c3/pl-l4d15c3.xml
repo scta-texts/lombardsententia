@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -54,8 +52,7 @@
       <div xml:id="pl-l4d15c3">
         <head xml:id="pl-l4d15c3-Hd1e109">Capitulum 3</head>
         <p xml:id="pl-l4d15c3-d1e112">
-          Nam etsi super eundem locum <name ref="#Jerome"
-          >Hieronymus</name> dicat, Aegyptios et Israelitas a Deo temporaliter punitos, ne in
+          Nam etsi super eundem locum <name xml:id="pl-l4d15c3-Nd1e108" ref="#Jerome">Hieronymus</name> dicat, Aegyptios et Israelitas a Deo temporaliter punitos, ne in
           aeternum punirentur, non est tamen de omnibus generaliter intelligendum. Ait enim sic:
           <cit>
             <quote xml:id="pl-l4d15c3-Qd1e117">
@@ -103,7 +100,7 @@
           compensatur.
         </p>
         <p xml:id="pl-l4d15c3-d1e139">
-          Hic satis innuit <name ref="#Jerome">Hieronymus</name>, gravia
+          Hic satis innuit <name xml:id="pl-l4d15c3-Nd1e144" ref="#Jerome">Hieronymus</name>, gravia
           peccata et hic puniri gravi supplicio et in faturo punienda aeternaliter, de quibus
           poenitentia non agitur inter flagella; levia vero, quae hic puniuntur, levi poena
           compensationem recipere; quod in bonis fieri non ambigimus; et in malis forte fit etiam
@@ -118,7 +115,7 @@
           Alias quoque auctoritates inducunt.
         </p>
         <p xml:id="pl-l4d15c3-d1e151">
-          Ait enim <name ref="GregoryGreat">Gregorius</name>: 
+          Ait enim <name xml:id="pl-l4d15c3-Nd1e156" ref="GregoryGreat">Gregorius</name>: 
           <cit>
             <quote xml:id="pl-l4d15c3-Qd1e156"> 
               Pluit Dominus super unam civitatem, et super alteram non
@@ -130,7 +127,7 @@
           </cit>.
         </p>
         <p xml:id="pl-l4d15c3-d1e160">
-          Item <name ref="#Ambrose">Ambrosius</name>: 
+          Item <name xml:id="pl-l4d15c3-Nd1e168" ref="#Ambrose">Ambrosius</name>: 
           <cit>
             <quote xml:id="pl-l4d15c3-Qd1e165">
               Prima consolatio est, quia non obliviscitur misereri Deus
@@ -171,14 +168,14 @@
           <cit>
             <quote xml:id="pl-l4d15c3-Qd1e181"> 
               qui arbiter suae voluntatis constitutus est, non potest
-              inchoare novam vitam, ut ait <name ref="#Augustine">Augustinus</name>, nisi poeniteat eum
+              inchoare novam vitam, ut ait <name xml:id="pl-l4d15c3-Nd1e200" ref="#Augustine">Augustinus</name>, nisi poeniteat eum
               veteris vitae, quomodo ad novitatem indulgentiae perveniet, qui odii vetustatem non
               deposuit?
             </quote>
           </cit> 
         </p>
         <p xml:id="pl-l4d15c3-d1e188">
-          Illud etiam quod <name ref="#Ambrose">Ambrosius</name> ait:
+          Illud etiam quod <name xml:id="pl-l4d15c3-Nd1e208" ref="#Ambrose">Ambrosius</name> ait:
           <cit>
             <quote xml:id="pl-l4d15c3-Qd1e193"> 
               Etsi fides desit, poena satisfacit
@@ -186,8 +183,8 @@
           </cit>, 
           etc., non de fide intelligitur, qua creditur in Deum, sed de conscientia delicti: deest enim fides
           cum peccati conscientia subest. Nam cum delicta omnia nemo intelligat, est aliquando in
-          homine peccatum, cuius non habet conscientiam. Unde <name ref="Paul">Apostolus</name>:
-          Nihil mihi conscius sum, sed non in hoc iustificatus sum. Cum
+          homine peccatum, cuius non habet conscientiam. Unde <name xml:id="pl-l4d15c3-Nd1e217" ref="Paul">Apostolus</name>:
+          <quote xml:id="pl-l4d15c3-Qd1e220" source="http://scta.info/resource/Icor4_4@1-11">Nihil mihi conscius sum, sed non in hoc iustificatus sum</quote>. Cum
           igitur flagellatur quis pro peccato, cuius non est conscius,
           si patienter fert poenam et humiliter amplectitur, cogitans se peccatum forte habere, quod
           non intelligit, et pro eo puniri a Deo, poena
@@ -204,7 +201,7 @@
           <cit>
             <quote xml:id="pl-l4d15c3-Qd1e215"> 
               Est enim satisfactio
-              poenitentiae, ut ait <name ref="#Augustine">Augustinus</name>, peccatorum causas excidere,
+              poenitentiae, ut ait <name xml:id="pl-l4d15c3-Nd1e233" ref="#Augustine">Augustinus</name>, peccatorum causas excidere,
               nec suggestionibus earum aditum indulgere
             </quote>
           </cit>.

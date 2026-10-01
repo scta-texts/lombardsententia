@@ -1,13 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Liber 1, Distinctio 17, Caput 1</title>
         <author>Petrus Lombardus</author>
-        <editor></editor>
+        <editor/>
       </titleStmt>
       <editionStmt>
         <edition n="2015.11-dev-master">
@@ -16,8 +13,8 @@
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher></publisher>
-        <pubPlace></pubPlace>
+        <publisher/>
+        <pubPlace/>
         <availability status="free">
           <p>Public Domain</p>
         </availability>
@@ -49,7 +46,7 @@
     </front>
     <body>
       <div xml:id="pl-l1d17c1">
-        <head>Capitulum 1</head>
+        <head xml:id="pl-l1d17c1-Hd1e89">Capitulum 1</head>
         <!-- Quod Spiritus sanctus est caritas, qua diligimus Deum et proximum -->
         <p xml:id="pll1d17c1-d1e3477">Iam nunc accedamus ad assignandam missionem Spiritus sancti, 
           qua invisibiliter mittitur in corda fidelium. Nam ipse Spiritus 
@@ -82,8 +79,8 @@
         </p>
         <p xml:id="pll1d17c1-d1e3497">
           De hoc 
-          <ref>
-            <name ref="#Augustine">Augustinus</name> 
+          <ref xml:id="pl-l1d17c1-Rd1e113">
+            <name xml:id="pl-l1d17c1-Nd1e115" ref="#Augustine">Augustinus</name> 
             in VIII libro <title ref="#deTrinitate">De Trinitate</title>
           </ref> 
           ait: 
@@ -110,7 +107,7 @@
                 <quote xml:id="pll1d17c1-Qd1e3533" source="http://scta.info/resource/io4_16">Deus dilectio est,</quote>
                 <bibl>Ioannes 4:16</bibl>
               </cit>
-              ut ait <name ref="#John">Ioannes Apostolus</name>. 
+              ut ait <name xml:id="pl-l1d17c1-Nd1e153" ref="#John">Ioannes Apostolus</name>. 
               Ut quid ergo imus et currimus in sublimia caelorum et ima 
               terrarum, quaerentes eum qui est apud nos, si nos esse velimus 
               apud eum?</quote>
@@ -130,13 +127,13 @@
             <bibl>Augustinus, De Trinitate, VIII, c. 8, n. 12 (PL 42:957)</bibl>
           </cit>
         </p>
-        <p xml:id="pll1d17c1-d1e3558">His verbis satis ostendit <name ref="#Augustine">Augustinus</name>, quod dilectio ipsa, qua 
+        <p xml:id="pll1d17c1-d1e3558">His verbis satis ostendit <name xml:id="pl-l1d17c1-Nd1e171" ref="#Augustine">Augustinus</name>, quod dilectio ipsa, qua 
           diligimus Deum vel proximum, Deus est.</p>
         <p xml:id="pll1d17c1-d1e3564">Sed adhuc apertius in eodem libro subdit dicens: 
           <cit>
-            <quote xml:id="pll1d17c1-Qd1e3568">Dilectionem fraternam quantum commendet <name ref="#John">Ioannes Apostolus,</name> attendamus. 
+            <quote xml:id="pll1d17c1-Qd1e3568">Dilectionem fraternam quantum commendet <name xml:id="pl-l1d17c1-Nd1e181" ref="#John">Ioannes Apostolus,</name> attendamus. 
               <cit>
-                <quote xml:id="pll1d17c1-Qd1e3575" ana="Iio2_10">Qui diligit, inquit, fratrem in lumine manet, et scandalum 
+                <quote xml:id="pll1d17c1-Qd1e3575" ana="Iio2_10" source="http://scta.info/resource/Iio2_10@1-13">Qui diligit, inquit, fratrem in lumine manet, et scandalum 
                   in eo non est.</quote>
                 <bibl>I Ioannes 2:10</bibl>
               </cit>
@@ -155,7 +152,7 @@
               Ista contextio 
               satis aperte declarat, eandem ipsam fraternam dilectionem 
               (nam fraterna dilectio est qua diligimus invicem) non solum ex 
-              Deo, sed etiam Deum esse, tanta auctoritate, scilicet <name ref="#John">Ioannis</name>, praedicari. 
+              Deo, sed etiam Deum esse, tanta auctoritate, scilicet <name xml:id="pl-l1d17c1-Nd1e202" ref="#John">Ioannis</name>, praedicari. 
               Cum ergo de dilectione diligimus fratrem, de Deo diligimus 
               <!-- p. 108 -->
               fratrem; nec fieri potest, ut eandem dilectionem non praecipue 

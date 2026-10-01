@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -69,19 +67,17 @@
           constituunt, tam magis quam minus de peccato dolentibus. Quorum studium ad hoc praecipue
           tendere de bet, ut cordis dolorem, quantum fas est, cognoscant, et secundum ipsius modum,
           satisfactionem iniungant.</p>
-        <p xml:id="pl-l4d20c3-d1e125">Unde <name ref="#Augustine">Augustinus</name>: <quote
-          xml:id="pl-l4d20c3-Qd1e130">In actione poenitentiae, ubi tale commissum est, ut is qui
+        <p xml:id="pl-l4d20c3-d1e125">Unde <name xml:id="pl-l4d20c3-Nd1e121" ref="#Augustine">Augustinus</name>: <quote xml:id="pl-l4d20c3-Qd1e130">In actione poenitentiae, ubi tale commissum est, ut is qui
           commisit, a Christi etiam corpore separetur, non tam consideranda est mensura temporis
           quam dolo ris: <quote xml:id="pl-l4d20c3-Qd1e132">Cor enim contritum et humiliatum Deus
           non despicit</quote>. Verum quia plerumque et dolor alterius cordis occultus est alteri,
           ne in aliorum notitiam nisi per verba vel alia quaecunque signa procedit, cum sit coram
-          illo cui dicitur : <quote xml:id="pl-l4d20c3-Qd1e135">Gemitus meus a te non est
+          illo cui dicitur : <quote xml:id="pl-l4d20c3-Qd1e135" source="http://scta.info/resource/ps37_10@7-14">Gemitus meus a te non est
           absconditus,</quote> recte constituuntur ab bis qui Ecclesiis praesunt, tempora
           poenitentiae, ut satisfiat etiam Ecclesiae, in qua remittuntur peccata ipsa; extra eam
           quippe non remittuntur: ipsa enim Spiritum sanctum pignus accepit, sine quo non
           remittuntur ulla peccata </quote>.</p>
-        <p xml:id="pl-l4d20c3-d1e140">Item <name ref="#Jerome">Hieronymus</name>: <quote
-          xml:id="pl-l4d20c3-Qd1e145">Mensuram temporis in agenda poenitentia ideo non satis aperte
+        <p xml:id="pl-l4d20c3-d1e140">Item <name xml:id="pl-l4d20c3-Nd1e136" ref="#Jerome">Hieronymus</name>: <quote xml:id="pl-l4d20c3-Qd1e145">Mensuram temporis in agenda poenitentia ideo non satis aperte
           praefigunt canones pro unoquoque crimine, ut de singulis dicant, qualiter unumquodque
           emendandum sit, sed magis in arbitrio sacerdotis intelligentis relinquendum statuunt, quia
           apud Deum non tam valet mensura temporis quam doloris, nec abstinentia tantum ciborum,

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -68,10 +66,9 @@
           referuntur, ita et ipsa decem ad duo mandata caritatis. Omnia ergo ad duo mandata
           caritatis pertinent, quia per caritatem implentur, et ad caritatem tanquam finem referri
           debent.</p>
-        <p xml:id="pl-l3d36c3-d1e121">Unde <name ref="#Augustine">Augustinus</name>:
+        <p xml:id="pl-l3d36c3-d1e121">Unde <name xml:id="pl-l3d36c3-Nd1e117" ref="#Augustine">Augustinus</name>:
           <!--<quote>-->Totam magnitudinem et amplitudinem divinorum Eloquiorum possidet caritas,
-          qua Deum proximumque diligimus, quae radix est omnium bonorum. Unde Veritas ait: <quote
-          xml:id="pl-l3d36c3-Qd1e128">In his duobus mandatis universa Lex pendet et
+          qua Deum proximumque diligimus, quae radix est omnium bonorum. Unde Veritas ait: <quote xml:id="pl-l3d36c3-Qd1e128" source="http://scta.info/resource/mt22_40@1-9">In his duobus mandatis universa Lex pendet et
           Prophetae.</quote> Si ergo non vacat omnes Paginas sanctas perscrutari, omnia involucra
           sermonum evolvere, lene caritatem, ubi pendent omnia<!--</quote>-->, quia perfectio est et
           finis omnium. Tunc enim et praecepta et consilia recte fiunt, cum referuntur ad diligendum

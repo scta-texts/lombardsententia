@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -55,14 +53,14 @@
         <head xml:id="pl-l4d27c7-Hd1e109">Capitulum 7</head>
         <p xml:id="pl-l4d27c7-d1e112">[Cap. VII]. Hoc autem coniugatis nullatenus licet: non enim
           potest vir melioris vitae propositum sumere sine uxoris consensu, et e converso.</p>
-        <p xml:id="pl-l4d27c7-d1e115">Unde <name ref="GregoryGreat">Gregorius</name>, scribens
+        <p xml:id="pl-l4d27c7-d1e115">Unde <name xml:id="pl-l4d27c7-Nd1e111" ref="GregoryGreat">Gregorius</name>, scribens
           Theotistae patritiae: <quote xml:id="pl-l4d27c7-Qd1e120">Sunt qui dicunt, religionis
           gratia coniugia debere solvi. Verum sciendum est, quia, etsi hoc lex humana concessit,
           tamen lex divina prohibuit. Si vero utrisque conveniat continentem vitam ducere, hoc quis
           audeat accusare? Sic enim multos Sanctorum novimus cum suis coniugibus et prius
           continentem vitam duxisse, et post ad sanctae Ecclesiae regimina migrasse. Si vero
           continentiam, quam vir appetit, mulier non sequitur, aut quam uxor appetit, vir recusat,
-          coniugium dividi non potest, quia scriptum est: <quote xml:id="pl-l4d27c7-Qd1e122">Mulier
+          coniugium dividi non potest, quia scriptum est: <quote xml:id="pl-l4d27c7-Qd1e122" source="http://scta.info/resource/Icor7_4@1-19">Mulier
           sui corporis potestatem non habet, sed vir; similiter vir sin corporis potestatem non
           habet, sed mulier</quote> </quote>.</p>
         <p xml:id="pl-l4d27c7-d1e127">Idem: <quote xml:id="pl-l4d27c7-Qd1e129"> Agathosa, latrix

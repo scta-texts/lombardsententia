@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -68,10 +66,8 @@
         <p xml:id="pl-l4d23c2-d1e130">A quibus fuerit hoc Sacramentum institutum.</p>
         <p xml:id="pl-l4d23c2-d1e134"> <quote xml:id="pl-l4d23c2-Qd1e136"> Hoc Sacramentum unctionis
           infirmorum ab Apostolis institutum legitur.</quote> </p>
-        <p xml:id="pl-l4d23c2-d1e140"> <quote xml:id="pl-l4d23c2-Qd1e142">Ait enim lacobus: <quote
-          xml:id="pl-l4d23c2-Qd1e144">Infirmatur aliquis</quote> <quote xml:id="pl-l4d23c2-Qd1e147"
-          >in vobis? inducat presbyteros Ecclesiae, et orent super eum, ungentes eum oleo in nomine
-          Domini, et alleviabit</quote> <quote xml:id="pl-l4d23c2-Qd1e150">eum Dominus; et si in
+        <p xml:id="pl-l4d23c2-d1e140"> <quote xml:id="pl-l4d23c2-Qd1e142">Ait enim lacobus: <quote xml:id="pl-l4d23c2-Qd1e144" source="http://scta.info/resource/iac5_14@1-2">Infirmatur aliquis</quote> <quote xml:id="pl-l4d23c2-Qd1e147" source="http://scta.info/resource/iac5_14@3-17 http://scta.info/resource/iac5_15@6-7">in vobis? inducat presbyteros Ecclesiae, et orent super eum, ungentes eum oleo in nomine
+          Domini, et alleviabit</quote> <quote xml:id="pl-l4d23c2-Qd1e150" source="http://scta.info/resource/iac5_15@8-16">eum Dominus; et si in
           peccatis sit, dimittentur ei.</quote> In quo ostenditur duplici ex causa Sacramentum hoc
           institutum, scilicet ad peccatorum remissionem et ad corporalis infirmitatis
           alleviationem. Unde constat, eum qui hanc unctionem fideliter devoteque percipit, et in

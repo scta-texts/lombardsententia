@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -57,17 +55,14 @@
           fornicationem separantur.</head>
         <p xml:id="pl-l4d35c3-d1e115">Si quis autem fornicationis expers fornicariam dimiserit, alii
           copulari non potest, sed continere oportet, vel ad dimissam redire; sic et de femina.</p>
-        <p xml:id="pl-l4d35c3-d1e118">Unde <name ref="Paul">Apostolus</name>: <quote
-          xml:id="pl-l4d35c3-Qd1e123">His qui matrimonio iuncti sunt, praecipio non ego, sed
+        <p xml:id="pl-l4d35c3-d1e118">Unde <name xml:id="pl-l4d35c3-Nd1e114" ref="Paul">Apostolus</name>: <quote xml:id="pl-l4d35c3-Qd1e123" source="http://scta.info/resource/Icor7_10@1-16 http://scta.info/resource/Icor7_11@1-9">His qui matrimonio iuncti sunt, praecipio non ego, sed
           Dominus, uxorem a viro non discedere; quodsi discesserit, manere innuptam, aut viro suo
-          reconciliari; </quote>et de viro addit: <quote xml:id="pl-l4d35c3-Qd1e126">Et vir uxorem
+          reconciliari; </quote>et de viro addit: <quote xml:id="pl-l4d35c3-Qd1e126" source="http://scta.info/resource/Icor7_11@10-14">Et vir uxorem
           non dimittat.</quote> </p>
-        <p xml:id="pl-l4d35c3-d1e130">Sed <name ref="#Ambrose">Ambrosius</name> ait: <quote
-          xml:id="pl-l4d35c3-Qd1e135">Ideo non subdit de viro sicut de muliere, quia licet viro
+        <p xml:id="pl-l4d35c3-d1e130">Sed <name xml:id="pl-l4d35c3-Nd1e126" ref="#Ambrose">Ambrosius</name> ait: <quote xml:id="pl-l4d35c3-Qd1e135">Ideo non subdit de viro sicut de muliere, quia licet viro
           aliam ducere</quote>.</p>
         <p xml:id="pl-l4d35c3-d1e140">Sed hoc a falsariis in Ambrosii libro positum creditur;
-          supplendum enim esse in viro quod de uxore praemisit, aperte dicit <name ref="#Augustine"
-          >Augustinus</name> sic: <quote xml:id="pl-l4d35c3-Qd1e145"> Quare non addit de muliere
+          supplendum enim esse in viro quod de uxore praemisit, aperte dicit <name xml:id="pl-l4d35c3-Nd1e136" ref="#Augustine">Augustinus</name> sic: <quote xml:id="pl-l4d35c3-Qd1e145"> Quare non addit de muliere
           quod praemisit de viro, nisi quod similem formam vult intelligi, ut, si dimiserit, quod
           causa fornicationis permittitur, maneat sine uxore, aut reconcilietur uxori </quote>.</p>
         <p xml:id="pl-l4d35c3-d1e149">Idem: <quote xml:id="pl-l4d35c3-Qd1e151">Si nec illi nubere
@@ -84,8 +79,7 @@
           Matthaeum:</title> <quote xml:id="pl-l4d35c3-Qd1e169">Sicut crudelis et iniquus est qui
           castam dimittit, sic fatuus est et iniquus qui retinet meretricem: patronus enim
           turpitudinis est qui celat crimen uxoris</quote>.</p>
-        <p xml:id="pl-l4d35c3-d1e173">Item <name ref="#Jerome">Hieronymus</name>: <quote
-          xml:id="pl-l4d35c3-Qd1e178">Cum mulier unam carnem in aliam diviserit et se fornicatione a
+        <p xml:id="pl-l4d35c3-d1e173">Item <name xml:id="pl-l4d35c3-Nd1e168" ref="#Jerome">Hieronymus</name>: <quote xml:id="pl-l4d35c3-Qd1e178">Cum mulier unam carnem in aliam diviserit et se fornicatione a
           marito separaverit, non debet teneri, ne virum quoque sub maledicto faciat, dicente
           Scriptura: <quote xml:id="pl-l4d35c3-Qd1e180">Qui tenet, adulteram stultus et impius
           est</quote> </quote>.</p>
@@ -101,16 +95,14 @@
           perseverare elegit, patronus turpitudinis et lenocinii reus maritus habebitur, nisi eam
           adulterii facere ream voluerit</quote>. Si autem a peccato recesserit et per poenitentiam
           illud purgaverit, poterit viro reconciliari.</p>
-        <p xml:id="pl-l4d35c3-d1e207">Unde <name ref="#Augustine">Augustinus</name>: <quote
-          xml:id="pl-l4d35c3-Qd1e212"> Quod tibi durum videtur, ut post adulterium reconcilietur
+        <p xml:id="pl-l4d35c3-d1e207">Unde <name xml:id="pl-l4d35c3-Nd1e202" ref="#Augustine">Augustinus</name>: <quote xml:id="pl-l4d35c3-Qd1e212"> Quod tibi durum videtur, ut post adulterium reconcilietur
           coniux, si fides adsit, non erit durum. Cur enim adhuc deputamus adulteros quos credimus
           poenitentia esse sanatos </quote>?</p>
         <p xml:id="pl-l4d35c3-d1e216">Idem: <quote xml:id="pl-l4d35c3-Qd1e218">Non erit turpis nec
           difficilis, etiam post patrata et purgata adulteria, reconciliatio coniugii, ubi per
           claves regni caelorum non dubitatur fieri remissio peccatorum; non ut post viri divortium
           adultera revocetur, sed ut post Christi consortium adultera non vocetur </quote>.</p>
-        <p xml:id="pl-l4d35c3-d1e222">Item <name ref="#GregoryGreat">Gregorius</name>: <quote
-          xml:id="pl-l4d35c3-Qd1e227">Debet recipere peccatricem, quae poenitentiam egerit, sed non
+        <p xml:id="pl-l4d35c3-d1e222">Item <name xml:id="pl-l4d35c3-Nd1e217" ref="#GregoryGreat">Gregorius</name>: <quote xml:id="pl-l4d35c3-Qd1e227">Debet recipere peccatricem, quae poenitentiam egerit, sed non
           saepe</quote>.</p>
         <p xml:id="pl-l4d35c3-d1e232">Item Hermas: <quote xml:id="pl-l4d35c3-Qd1e234">Si vir scierit
           uxorem suam deliquisse, et non egerit poenitentiam mulier, sed permanet in fornicatione

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -66,13 +64,11 @@
           proximi etiam sanctos Angelos contineri, a quibus tanta nobis misericordiae impenduntur
           officia.</p>
         <p xml:id="pl-l3d28c3-d1e130"> <quote xml:id="pl-l3d28c3-Qd1e132"> Ex quo et Dominus
-          proximum se nostrum dici voluit, ut in parabola saucii significat et in Propheta: <quote
-          xml:id="pl-l3d28c3-Qd1e134">Quasi proximum et quasi fratrem nostrum sic
+          proximum se nostrum dici voluit, ut in parabola saucii significat et in Propheta: <quote xml:id="pl-l3d28c3-Qd1e134" source="http://scta.info/resource/ps34_14@1-8">Quasi proximum et quasi fratrem nostrum sic
           complacebam.</quote> Sed quia excellentior ac supra nostram naturam est divina substantia,
           praeceptum dilectionis Dei a proximi dilectione distinctum est </quote>. Ideoque licet
           Deus omnia nobis impendat beneficia, non tamen nomine proximi includitur in illo
-          praecepto; quem non sicut nos diligere debemus, sed plus quam nos <quote
-          xml:id="pl-l3d28c3-Qd1e138">toto corde et anima.</quote> </p>
+          praecepto; quem non sicut nos diligere debemus, sed plus quam nos <quote xml:id="pl-l3d28c3-Qd1e138">toto corde et anima.</quote> </p>
         <p xml:id="pl-l3d28c3-d1e142">Christum vero, in quantum homo est, sicut nos diligere
           debemus, einsque secundum hominem dilectio illo continetur mandato; quem etiam secundum
           hominem magis quam nos, sed non quantum Deum, debemus diligere, quia in quantum est homo,

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -76,11 +74,11 @@
         <p xml:id="pl-l4d17c1-d1e128">
           Unde Propheta: 
           <cit>
-            <quote xml:id="pl-l4d17c1-Qd1e130">
+            <quote xml:id="pl-l4d17c1-Qd1e130" source="http://scta.info/resource/ps31_5@11-20">
               Dixi, confitebor adversum me iniustitiam meam Domino, et tu remisisti,
             </quote>
           </cit> 
-          etc. Quod exponens <name ref="Cassiodorus">Cassiodorus</name> ait: 
+          etc. Quod exponens <name xml:id="pl-l4d17c1-Nd1e130" ref="Cassiodorus">Cassiodorus</name> ait: 
           <cit>
             <quote xml:id="pl-l4d17c1-Qd1e136"> 
               <cit>
@@ -101,7 +99,7 @@
           </cit>.
         </p>
         <p xml:id="pl-l4d17c1-d1e146">
-          Item <name ref="#Augustine">Augustinus</name>: 
+          Item <name xml:id="pl-l4d17c1-Nd1e154" ref="#Augustine">Augustinus</name>: 
           <cit>
             <quote xml:id="pl-l4d17c1-Qd1e151">
               Nondum pronuntiat; promittit se pronuntiaturum, et Deus
@@ -169,8 +167,7 @@
             </quote>
           </cit>
         </p>
-        <p xml:id="pl-l4d17c1-d1e189"
-          >Item <name ref="#Ambrose">Ambrosius</name>: 
+        <p xml:id="pl-l4d17c1-d1e189">Item <name xml:id="pl-l4d17c1-Nd1e215" ref="#Ambrose">Ambrosius</name>: 
           <cit>
             <quote xml:id="pl-l4d17c1-Qd1e194">
               Non potest quisquam iustificari a peccato, nisi fuerit
@@ -201,7 +198,7 @@
           </cit>.
         </p>
         <p xml:id="pl-l4d17c1-d1e210">
-          Item <name ref="#Augustine">Augustinus</name>: 
+          Item <name xml:id="pl-l4d17c1-Nd1e245" ref="#Augustine">Augustinus</name>: 
           <cit>
             <quote xml:id="pl-l4d17c1-Qd1e215"> 
               Agite poenitentiam, qualis agitur in Ecclesia. Nemo dicat
@@ -225,7 +222,7 @@
           </cit>!
         </p>
         <p xml:id="pl-l4d17c1-d1e225">
-          Item <name ref="#Ambrose">Ambrosius</name>: 
+          Item <name xml:id="pl-l4d17c1-Nd1e269" ref="#Ambrose">Ambrosius</name>: 
           <cit>
             <quote xml:id="pl-l4d17c1-Qd1e230">
               Venialis est culpa, quam sequitur confessio delictorum
@@ -233,10 +230,10 @@
           </cit>.
         </p>
         <p xml:id="pl-l4d17c1-d1e235">
-          Item <name ref="#Augustine">Augustinus</name> super illum
+          Item <name xml:id="pl-l4d17c1-Nd1e282" ref="#Augustine">Augustinus</name> super illum
           locum: 
           <cit>
-            <quote xml:id="pl-l4d17c1-Qd1e240">
+            <quote xml:id="pl-l4d17c1-Qd1e240" source="http://scta.info/resource/ps68_16@6-16">
               Non absorbeat me profundum, neque urgeat super
               me puteus os suum:
             </quote>
@@ -279,7 +276,7 @@
           </cit>.
         </p>
         <p xml:id="pl-l4d17c1-d1e262">
-          Item <name ref="#Jerome">Hieronymus</name>: 
+          Item <name xml:id="pl-l4d17c1-Nd1e327" ref="#Jerome">Hieronymus</name>: 
           <cit>
             <quote xml:id="pl-l4d17c1-Qd1e267">
               Qui peccator est, plangat delicia propria vel populi, et
@@ -326,7 +323,7 @@
           Sicut enim praecepta est nobis interior poenitentia, ita et
           oris confessio et exterior satisfactio, si adsit facultas: unde nec vere poenitens est qui
           confessionis votum non habet. Et sicut peccati remissio munus Dei est, ita poenitentia et
-          confessio, per quam peccatum deletur, non potest esse nisi a Deo, ut <name ref="#Augustine">Augustinus</name> ait: 
+          confessio, per quam peccatum deletur, non potest esse nisi a Deo, ut <name xml:id="pl-l4d17c1-Nd1e364" ref="#Augustine">Augustinus</name> ait: 
           <cit>
             <quote xml:id="pl-l4d17c1-Qd1e295"> 
               Iam, inquit,

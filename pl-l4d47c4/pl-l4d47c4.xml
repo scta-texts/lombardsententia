@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -56,10 +54,9 @@
         <head xml:id="pl-l4d47c4-Hd1e112" type="question-title">De ordinibus eorum qui erunt in
           iudicio.</head>
         <p xml:id="pl-l4d47c4-d1e115">De ordine iudicii et ministerio Angelorum.</p>
-        <p xml:id="pl-l4d47c4-d1e118">Cum autem in Evangelio legatur, quod <quote
-          xml:id="pl-l4d47c4-Qd1e120">Dominus mittet Angelos suos, qui colligent de regno eius omnia
-          scandala et mittent </quote>iniquos <quote xml:id="pl-l4d47c4-Qd1e123">in caminum
-          ignis;</quote> et item: <quote xml:id="pl-l4d47c4-Qd1e126">Exibunt Angeli et separabunt
+        <p xml:id="pl-l4d47c4-d1e118">Cum autem in Evangelio legatur, quod <quote xml:id="pl-l4d47c4-Qd1e120" source="http://scta.info/resource/mt13_41@1-12">Dominus mittet Angelos suos, qui colligent de regno eius omnia
+          scandala et mittent </quote>iniquos <quote xml:id="pl-l4d47c4-Qd1e123" source="http://scta.info/resource/mt13_42@4-6">in caminum
+          ignis;</quote> et item: <quote xml:id="pl-l4d47c4-Qd1e126" source="http://scta.info/resource/mt13_49@6-13">Exibunt Angeli et separabunt
           malos de medio iustorum et mittent eos in caminum ignis;</quote> </p>
         <p xml:id="pl-l4d47c4-d1e130">et item: <quote xml:id="pl-l4d47c4-Qd1e132">Mittet Angelos
           suos cum tuba et congregabunt electos</quote> </p>
@@ -72,7 +69,7 @@
           ascendet ignis in iudicio, quantum ascenderunt aquae in diluvio.</p>
         <p xml:id="pl-l4d47c4-d1e149">Ille autem ignis malis, qui reperti fuerint vivi, erit
           consumtio, bonis vero non.</p>
-        <p xml:id="pl-l4d47c4-d1e152">Ut enim <name ref="#Augustine">Augustinus</name> ait, hoc erit
+        <p xml:id="pl-l4d47c4-d1e152">Ut enim <name xml:id="pl-l4d47c4-Nd1e148" ref="#Augustine">Augustinus</name> ait, hoc erit
           incendium mundi Sanctis, quod fuit caminus tribus pueris; in quibus aliquid purgandum
           fuerit, per illum ignem purgabitur; aliis vero nullam ingeret molestiam.</p>
         <p xml:id="pl-l4d47c4-d1e158">Purgato vero per ignem mundo, et ad iudicium veniente Domino,
@@ -80,13 +77,10 @@
           ventilabitur area, quia boni congregabuntur ei de quatuor partibus orbis angelico
           ministerio; quo et rapientur <quote xml:id="pl-l4d47c4-Qd1e160">obviam Christo in
           aera</quote>, reprobis in terra, quam dilexerunt, remanentibus.</p>
-        <p xml:id="pl-l4d47c4-d1e164">Et tunc praeconia illa bonorum: <quote
-          xml:id="pl-l4d47c4-Qd1e166">Esurivi, et dedistis mihi manducare,</quote> et increpationes
+        <p xml:id="pl-l4d47c4-d1e164">Et tunc praeconia illa bonorum: <quote xml:id="pl-l4d47c4-Qd1e166">Esurivi, et dedistis mihi manducare,</quote> et increpationes
           illae malorum: <quote xml:id="pl-l4d47c4-Qd1e169">Esurivi, et non dedistis mihi
           manducare,</quote> etc. proferentur vel sono vocali, vel alio modo.</p>
-        <p xml:id="pl-l4d47c4-d1e174">Denique proferetur sententia super utrosque: <quote
-          xml:id="pl-l4d47c4-Qd1e176">Venite benedicti</quote>, etc.<quote
-          xml:id="pl-l4d47c4-Qd1e179">; Ite maledicti,</quote> etc.; et ministerio Angelorum,
+        <p xml:id="pl-l4d47c4-d1e174">Denique proferetur sententia super utrosque: <quote xml:id="pl-l4d47c4-Qd1e176">Venite benedicti</quote>, etc.<quote xml:id="pl-l4d47c4-Qd1e179">; Ite maledicti,</quote> etc.; et ministerio Angelorum,
           virtute Dei cooperante, mittentur mali in caminum ignis, id est in infernum.</p>
       </div>
     </body>

@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -53,12 +50,12 @@
         <!-- Utrum idem sit: Omnia esse ex Deo, et per ipsum et in ipso. -->
         <p xml:id="pll1d36c3-d1e3501">Proinde si diligenter inspiciamus, idem videtur esse omnia 
           esse ex Deo et per ipsum et in ipso.</p>
-        <p xml:id="pll1d36c3-d1e3504">Unde <ref><name ref="#Ambrose">Ambrosius</name> in III libro <title>De Spiritu sancto</title></ref>: 
+        <p xml:id="pll1d36c3-d1e3504">Unde <ref xml:id="pl-l1d36c3-Rd1e99"><name xml:id="pl-l1d36c3-Nd1e100" ref="#Ambrose">Ambrosius</name> in III libro <title>De Spiritu sancto</title></ref>: 
           <cit>
             <quote xml:id="pll1d36c3-Qd1e3515">Haec 
               tria: 
               <cit>
-                <quote xml:id="pll1d36c3-Qd1e3519" source="http://scta.info/resource/rom11:36">ex ipso et per ipsum et in ipso sunt omnia;</quote>
+                <quote xml:id="pll1d36c3-Qd1e3519" source="http://scta.info/resource/rom11_36@2-10">ex ipso et per ipsum et in ipso sunt omnia;</quote>
                 <bibl>Romanos 11:36</bibl>
               </cit>
               unum esse, 
@@ -85,7 +82,7 @@
           praesentia sint omnia, scilicet bona et mala, in eo tamen non dicuntur 
           esse nisi bona, quorum auctor est.</p> 
         <!-- 228 -->
-        <p xml:id="pll1d36c3-d1e3585">Unde <ref><name ref="#Augustine">Augustinus</name> in libro <title>De natura boni</title>:</ref>
+        <p xml:id="pll1d36c3-d1e3585">Unde <ref xml:id="pl-l1d36c3-Rd1e164"><name xml:id="pl-l1d36c3-Nd1e165" ref="#Augustine">Augustinus</name> in libro <title>De natura boni</title>:</ref>
           <cit>
             <quote xml:id="pll1d36c3-Qd1e3597">Cum audimus, 
               inquit, <mentioned>ex</mentioned> Deo et <mentioned>per ipsum</mentioned> et <mentioned>in ipso</mentioned> esse omnia, omnes 

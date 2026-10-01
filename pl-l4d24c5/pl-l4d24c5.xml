@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -60,13 +58,12 @@
           custodiunt, atque inter bonos et malos habentes iudicium, dignos recipiunt, indignos
           respuunt.</p>
         <p xml:id="pl-l4d24c5-d1e118">Unde et eis, cum ordinantur, claves Ecclesiae dantur ab
-          episcopo, et dicitur eis: <quote xml:id="pl-l4d24c5-Qd1e120"> <quote
-          xml:id="pl-l4d24c5-Qd1e122">Sic agite, tanquam rationem Deo reddituri pro rebus, quae
+          episcopo, et dicitur eis: <quote xml:id="pl-l4d24c5-Qd1e120"> <quote xml:id="pl-l4d24c5-Qd1e122">Sic agite, tanquam rationem Deo reddituri pro rebus, quae
           clavibus istis recluduntur</quote>..</quote> </p>
         <p xml:id="pl-l4d24c5-d1e127">Hoc officium Dominus in sua persona suscepit, quando flagello
           de funiculis facto vendentes et ementes de templo eiecit. Ipse enim, se ostiarium
-          significans, dicit: <quote xml:id="pl-l4d24c5-Qd1e129">Ego sum ostium, per me si quis
-          introierit</quote> , <quote xml:id="pl-l4d24c5-Qd1e132">et ingredietur et egredietur et
+          significans, dicit: <quote xml:id="pl-l4d24c5-Qd1e129" source="http://scta.info/resource/io10_9@1-8">Ego sum ostium, per me si quis
+          introierit</quote> , <quote xml:id="pl-l4d24c5-Qd1e132" source="http://scta.info/resource/io10_9@10-16">et ingredietur et egredietur et
           pascua inveniet.</quote> </p>
       </div>
     </body>

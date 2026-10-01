@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -58,19 +56,16 @@
         <p xml:id="pl-l4d50c3-d1e115">Praeterea quaeri solet, si reproborum animae, quae nunc in
           inferno cruciantur, notitiam habeant eorum quae circa suos in hac vita geruntur; et si
           aliquo modo doleant super infortuniis suorum carorum.</p>
-        <p xml:id="pl-l4d50c3-d1e118">Hanc quaestionem <name ref="#Augustine">Augustinus</name>
-          commemorat, ex parte eam explicans, ex parte vero insolutam relinquens. Ait enim: <quote
-          xml:id="pl-l4d50c3-Qd1e123"> Quaeret aliquis, an ullus dolor tangat mortuos de his quae in
+        <p xml:id="pl-l4d50c3-d1e118">Hanc quaestionem <name xml:id="pl-l4d50c3-Nd1e114" ref="#Augustine">Augustinus</name>
+          commemorat, ex parte eam explicans, ex parte vero insolutam relinquens. Ait enim: <quote xml:id="pl-l4d50c3-Qd1e123"> Quaeret aliquis, an ullus dolor tangat mortuos de his quae in
           suis post mortem contingunt, vel quomodo ea quae circa nos aguntur, noverint spiritus
           defunctorum. Cui respondeo, magnam esse quaestionem, nec in praesenti disserendam.
           Verumtamen breviter dici potest, quod est cura mortuis de suis caris, ut de divite
-          legitur, qui, dum tormenta apud inferos pateretur, <quote xml:id="pl-l4d50c3-Qd1e125"
-          >levavit oculos ad <name ref="#Abraham">Abraham</name> </quote> et inter alia dixit:
-          <quote xml:id="pl-l4d50c3-Qd1e131">Habeo enim quinque fratres</quote>; <quote
-          xml:id="pl-l4d50c3-Qd1e134">ut testetur illis, ne et ipsi veniant in hunc locum
+          legitur, qui, dum tormenta apud inferos pateretur, <quote xml:id="pl-l4d50c3-Qd1e125">levavit oculos ad <name xml:id="pl-l4d50c3-Nd1e121" ref="#Abraham">Abraham</name> </quote> et inter alia dixit:
+          <quote xml:id="pl-l4d50c3-Qd1e131" source="http://scta.info/resource/lc16_28@1-4">Habeo enim quinque fratres</quote>; <quote xml:id="pl-l4d50c3-Qd1e134" source="http://scta.info/resource/lc16_28@5-15">ut testetur illis, ne et ipsi veniant in hunc locum
           tormentorum.</quote> Habent enim mortui curam de vivis, quos sciunt vivere, quia nec in
           locis poenarum vident eos, ubi dives sine fratribus erat; nec in requie beatorum, ubi
-          Lazarum et <name ref="#Abraham">Abraham</name>, quamvis longe, agnoscebat. Non tamen ideo
+          Lazarum et <name xml:id="pl-l4d50c3-Nd1e131" ref="#Abraham">Abraham</name>, quamvis longe, agnoscebat. Non tamen ideo
           consequens est, eos scire quae circa caros suos aguntur hic, vel laeta, vel tristia
           </quote>.</p>
       </div>

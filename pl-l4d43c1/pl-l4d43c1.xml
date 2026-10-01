@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -63,19 +61,15 @@
           debet Christianus</quote>.</p>
         <p xml:id="pl-l4d43c1-d1e124">Ait enim Isaias: <quote xml:id="pl-l4d43c1-Qd1e126" source="http://scta.info/resource/is26_19">Resurgent
           mortui, et resurgent qui erunt in sepulcris.</quote> </p>
-        <p xml:id="pl-l4d43c1-d1e131">Et <name ref="Paul">Apostolus</name>: <quote
-          xml:id="pl-l4d43c1-Qd1e136" source="http://scta.info/resource/Ithes4_12">Nolumus vos ignorare, fratres, de dormientibus, ut non
+        <p xml:id="pl-l4d43c1-d1e131">Et <name xml:id="pl-l4d43c1-Nd1e127" ref="Paul">Apostolus</name>: <quote xml:id="pl-l4d43c1-Qd1e136" source="http://scta.info/resource/Ith4_13@1-17">Nolumus vos ignorare, fratres, de dormientibus, ut non
           contristemini, sicut et ceteri, qui spem non habent</quote> 
           scilicet resurrectionis. 
-          <quote xml:id="pl-l4d43c1-Qd1e142" 
-            source="http://scta.info/resource/Ithes4_14 
-            http://scta.info/resource/Ithes4_15 
-            http://scta.info/resource/Ithes4_16">
-            Hoc enim vobis dicimus in verbo Domini, quia nos, qui vivimus,
-          qui residui sumus, non praeveniemus eos qui dormierunt. Quoniam ipse Dominus in iussu et
+          <quote xml:id="pl-l4d43c1-Qd1e142" source="http://scta.info/resource/Ithes4_14              http://scta.info/resource/Ithes4_15              http://scta.info/resource/Ithes4_16">
+            <quote xml:id="pl-l4d43c1-Qd1e135" source="http://scta.info/resource/Ith4_15@1-22">Hoc enim vobis dicimus in verbo Domini, quia nos, qui vivimus,
+          qui residui sumus, non praeveniemus eos qui dormierunt</quote>. <quote xml:id="pl-l4d43c1-Qd1e138" source="http://scta.info/resource/Ith4_16@1-24">Quoniam ipse Dominus in iussu et
           in voce Archangeli et in tuba Dei descendet de caelo, et mortui, qui in Christo sunt,
-          resurgent primi. Deinde nos qui vivimus, qui relinquimur, simul rapiemur cum illis in
-          nubibus obviam Christo in aera; et sic semper cum Domino erimus.</quote> </p>
+          resurgent primi</quote>. <quote xml:id="pl-l4d43c1-Qd1e141" source="http://scta.info/resource/Ith4_17@1-22">Deinde nos qui vivimus, qui relinquimur, simul rapiemur cum illis in
+          nubibus obviam Christo in aera; et sic semper cum Domino erimus</quote>.</quote> </p>
         <p xml:id="pl-l4d43c1-d1e146">His verbis et veritas resurrectionis et causa atque ordo
           resurgentium praeclarissime insinuatur.</p>
       </div>

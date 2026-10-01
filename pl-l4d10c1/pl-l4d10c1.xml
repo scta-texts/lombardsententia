@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -65,10 +63,9 @@
               Hoc est corpus meum
             </quote>
           </cit>, 
-          sicut <name ref="Paul">Apostolus</name> dixit: 
+          sicut <name xml:id="pl-l4d10c1-Nd1e117" ref="Paul">Apostolus</name> dixit: 
           <cit>
-            <quote xml:id="pl-l4d10c1-Qd1e125" source="http://scta.info/resource/Icor10_4"
-              >Petra erat Christus
+            <quote xml:id="pl-l4d10c1-Qd1e125" source="http://scta.info/resource/Icor10_4">Petra erat Christus
             </quote>
           </cit>. 
           Dicunt enim, ibi esse corpus Christi tantum in Sacramento,
@@ -86,10 +83,10 @@
                   sanguinem meum, non habebit vitam aeternam
                 </quote>
               </cit>, 
-              illi non intelligentes dixerunt: Durus
-              est hic sermo; quis potest eum audire? et abierunt retro. Iliis discedentibus, instruxit
-              duodecim qui remanserant: Spiritus est, inquit, qui vivificat; caro nihil prodest. Verba
-              quae locutus sum vobis, spiritus et vita sunt. Intellixisti spiritualiter? Spiritus et
+              illi non intelligentes dixerunt: <quote xml:id="pl-l4d10c1-Qd1e139" source="http://scta.info/resource/io6_61@8-15">Durus
+              est hic sermo; quis potest eum audire?</quote> et abierunt retro. Iliis discedentibus, instruxit
+              duodecim qui remanserant: <quote xml:id="pl-l4d10c1-Qd1e14a" source="http://scta.info/resource/io6_64@1-18">Spiritus est, inquit, qui vivificat; caro nihil prodest. Verba
+              quae locutus sum vobis, spiritus et vita sunt</quote>. Intellixisti spiritualiter? Spiritus et
               vita sunt. Intellixisti carnaliter? Etiam sic spiritus et vita sunt, sed tibi non sunt.
               Spiritualiter intelligite quae locutus sum. Non hoc corpus, quod videtis, manducaturi
               estis et bibituri illum sanguinem, quem fusuri sunt qui me crucifigent. Sacramentum
@@ -102,7 +99,7 @@
           Sunt etiam et alia illorum insaniae fomitem ministrantia.
         </p>
         <p xml:id="pl-l4d10c1-d1e131">
-          Ait enim <name ref="#Augustine">Augustinus</name>: 
+          Ait enim <name xml:id="pl-l4d10c1-Nd1e154" ref="#Augustine">Augustinus</name>: 
           <cit>
             <quote xml:id="pl-l4d10c1-Qd1e136">
               Donec saeculum finiatur, sursum est Dominus; sed tamen etiam
@@ -142,7 +139,7 @@
           traderet.
         </p>
         <p xml:id="pl-l4d10c1-d1e155">
-          Quem sensum <name ref="#Augustine">Augustinus</name> confirmat
+          Quem sensum <name xml:id="pl-l4d10c1-Nd1e192" ref="#Augustine">Augustinus</name> confirmat
           dicens: 
           <cit>
             <quote xml:id="pl-l4d10c1-Qd1e160">
@@ -177,7 +174,7 @@
           sed quia non in sua specie apparet, invisibilis dicitur.
         </p>
         <p xml:id="pl-l4d10c1-d1e180">
-          Ait enim <name ref="#Augustine">Augustinus</name>: 
+          Ait enim <name xml:id="pl-l4d10c1-Nd1e223" ref="#Augustine">Augustinus</name>: 
           <cit>
             <quote xml:id="pl-l4d10c1-Qd1e185">
               Hoc est quod dicimus, quod modis omnibus approbare
@@ -209,8 +206,7 @@
           </cit>.
         </p>
         <p xml:id="pl-l4d10c1-d1e199">
-          Attende his diligenter, quia tropo quodam utitur hic <name
-          ref="#Augustine">Augustinus</name>, quo solent res significantes rerum sortiri vocabula,
+          Attende his diligenter, quia tropo quodam utitur hic <name xml:id="pl-l4d10c1-Nd1e248" ref="#Augustine">Augustinus</name>, quo solent res significantes rerum sortiri vocabula,
           quas significant. Hic enim visibilis specie panis vocatur nomine carnis, et visibilis
           species vini, nomine sanguinis. Invisibilis vero et inlelligibilis dicitur caro Christi,
           quia secundum illam speciem non videtur caro, sed intelligitur; ita et sanguis. Caro ergo
@@ -220,7 +216,7 @@
           visibile et palpabile, ubi in forma sua apparet. Ita et de sanguine accipi debet.
         </p>
         <p xml:id="pl-l4d10c1-d1e205">
-          Quem sensum confirmat <name ref="#Augustine">Augustinus</name>, aperiens qualiter praedicta intelligenda sint (quia obscuro dixerat),
+          Quem sensum confirmat <name xml:id="pl-l4d10c1-Nd1e254" ref="#Augustine">Augustinus</name>, aperiens qualiter praedicta intelligenda sint (quia obscuro dixerat),
           consequenter dicens, ita panem vocari corpus Christi, cum vere sil Sacramentum corporis
           Christi, quod in cruce positum est; sicut ipsa immolatio, quae fit manibus sacerdotis,
           vocatur Christi passio, non rei veritate, sed significanti mysterio, et sicut

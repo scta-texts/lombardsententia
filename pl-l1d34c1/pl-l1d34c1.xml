@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -63,8 +60,8 @@
           naturam et personam dividunt, ita ut non recipiant unam deitatis 
           naturam et simplicem esse tres personas.</p>
         
-        <p xml:id="pll1d34c1-d1e3506">Idque testimonio <ref><name ref="#HilaryOfPoitiers">Hilarii</name> defendere nituntur, qui in VIII libro 
-          <title ref="#HilaryOfPoitiers_DeTrinitate">De Trinitate</title></ref> quaerens, utrum <name ref="#Paul">Apostolus</name>, nominans 
+        <p xml:id="pll1d34c1-d1e3506">Idque testimonio <ref xml:id="pl-l1d34c1-Rd1e101"><name xml:id="pl-l1d34c1-Nd1e102" ref="#HilaryOfPoitiers">Hilarii</name> defendere nituntur, qui in VIII libro 
+          <title ref="#HilaryOfPoitiers_DeTrinitate">De Trinitate</title></ref> quaerens, utrum <name xml:id="pl-l1d34c1-Nd1e108" ref="#Paul">Apostolus</name>, nominans 
           <cit>
             <quote xml:id="pll1d34c1-Qd1e3520" source="http://scta.info/resource/rom8_9">spiritum 
               Dei et spiritum Christi,</quote>
@@ -101,7 +98,7 @@
         </p>
         <p xml:id="pll1d34c1-d1e3551">Hoc quidem dicunt, non intelligentes pia diligentia Scripturae 
           circumstantiam, qua considerata, percipi potest, quomodo praemissa <!-- 214 --> 
-          dixerit <name ref="#HilaryOfPoitiers">Hilarius</name>. Subsequenter enim in eadem serie ostendit, 
+          dixerit <name xml:id="pl-l1d34c1-Nd1e144" ref="#HilaryOfPoitiers">Hilarius</name>. Subsequenter enim in eadem serie ostendit, 
           in <mentioned>spiritu Dei</mentioned> aliquando significari Patrem, ut cum dicitur: 
           <cit>
             <quote xml:id="pll1d34c1-Qd1e3563" source="http://scta.info/resource/is61_1">Spiritus Domini super me;</quote>
@@ -117,14 +114,14 @@
           se daemones eiicere demonstrans; aliquando Spiritum sanctum, ut 
           ibi: 
           <cit>
-            <quote xml:id="pll1d34c1-Qd1e3582" source="http://scta.info/resource/ioel2_28">Effundam de spiritu meo super omnem carnem.</quote>
+            <quote xml:id="pll1d34c1-Qd1e3582" source="http://scta.info/resource/act2_17@8-14">Effundam de spiritu meo super omnem carnem.</quote>
             <bibl>Ioel 2:28</bibl>
           </cit>
           Quod dicit 
-          consummatum fuisse, cum <name ref="#Paul">Apostoli</name>, misso Spiritu, omnibus linguis 
+          consummatum fuisse, cum <name xml:id="pl-l1d34c1-Nd1e174" ref="#Paul">Apostoli</name>, misso Spiritu, omnibus linguis 
           locuti sunt.</p>
         <p xml:id="pll1d34c1-d1e3594">Deinde, quare hanc distinctionem fecerit, et quod in superioribus 
-          verbis <name ref="#Paul">Apostoli</name> idem Spiritus significatus sit, et quod ipse 
+          verbis <name xml:id="pl-l1d34c1-Nd1e181" ref="#Paul">Apostoli</name> idem Spiritus significatus sit, et quod ipse 
           sit res unius naturae Patris et Filii, aperte ostendit inquiens ita: 
           <cit>
             <quote xml:id="pll1d34c1-Qd1e3601">Haec idcirco sunt demonstrata, ut quacumque parte haeretica 
@@ -171,7 +168,7 @@
           Dei, ubi dicitur: Per naturam Dei natura ipsa habitat in 
           nobis, si per Spiritum sanctum Christus est in nobis.</p>
         <p xml:id="pll1d34c1-d1e3641">Itaque in Trinitate non ita distinguendum est inter naturam 
-          et rem naturae, sicut in rebus creatis, quia, ut ait <name ref="#HilaryOfPoitiers">Hilarius</name>: 
+          et rem naturae, sicut in rebus creatis, quia, ut ait <name xml:id="pl-l1d34c1-Nd1e224" ref="#HilaryOfPoitiers">Hilarius</name>: 
           <cit>
             <quote xml:id="pll1d34c1-Qd1e3648">Comparatio terrenorum ad Deum nulla est; et si qua comparationum 
               exempla interdum afferuntur, nemo ea aestimet absolute 
@@ -227,7 +224,7 @@
           et per illa in omnibus est suis, quae non insunt. Sua enim 
           sunt etiam quae non insunt, id est omnes creaturae; et sua sunt 
           quae insunt, ut tres personae, quae sunt eiusdem naturae et eadem 
-          natura, sicut supra <name ref="#Augustine">Augustini</name> testimonio firmavimus dicentis, 
+          natura, sicut supra <name xml:id="pl-l1d34c1-Nd1e278" ref="#Augustine">Augustini</name> testimonio firmavimus dicentis, 
           tres personas esse eiusdem essentiae vel eandem essentiam, sed non 
           ex eadem essentia, ne aliud intelligatur essentia, aliud persona.</p>
         <p xml:id="pll1d34c1-d1e3707">Nec tamen diffitemur, aliquam distinctionem habendam fore 
@@ -236,7 +233,7 @@
           vero non. Est tamen hypostasis essentia, et e converso. Fateamur 
           ergo, unum atque idem esse tres personas secundum essentiam, 
           differentes autem proprietatibus.</p>
-        <p xml:id="pll1d34c1-d1e3710">Unde <name ref="#Augustine">Augustinus</name> super locum <title ref="#ps">Psalmi</title> praetaxatum ait: 
+        <p xml:id="pll1d34c1-d1e3710">Unde <name xml:id="pl-l1d34c1-Nd1e288" ref="#Augustine">Augustinus</name> super locum <title ref="#ps">Psalmi</title> praetaxatum ait: 
           <cit>
             <quote xml:id="pll1d34c1-Qd1e3720">Quaeris, quid sit Pater? Respondetur: Deus. Quaeris, quid sit 
               Filius? Respondetur: Deus. Quaeris, quid sit Pater et Filius? Respondetur: 

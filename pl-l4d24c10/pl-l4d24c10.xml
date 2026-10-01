@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -87,18 +85,15 @@
           sancto</quote> ad hoc officium elegerunt, et oratione praemissa, manus eis imposuerunt.
           Unde et consuetudo inolevit, ut in omni matrice ecclesia septem diacones circa Christi
           aram quasi septem columnae assistant. Hi sunt septem Angeli tuba canentes in Apocalypsi;
-          qui quales esse debeant, <name ref="Paul">Apostolus</name> docet, Timotheo scribens.</p>
+          qui quales esse debeant, <name xml:id="pl-l4d24c10-Nd1e139" ref="Paul">Apostolus</name> docet, Timotheo scribens.</p>
         <p xml:id="pl-l4d24c10-d1e149"> <quote xml:id="pl-l4d24c10-Qd1e151"> Hi cum ordinantur,
           solus Episcopus eis manum imponit, quia ad ministerium applicantur </quote>. Ponit eis
-          orarium, id est stolam, super laevum humerum, ut per hoc intelligant, se accepisse <quote
-          xml:id="pl-l4d24c10-Qd1e154">iugum Domini suave</quote>, quo ad sinistram pertinentia
+          orarium, id est stolam, super laevum humerum, ut per hoc intelligant, se accepisse <quote xml:id="pl-l4d24c10-Qd1e154">iugum Domini suave</quote>, quo ad sinistram pertinentia
           divino timori subiiciant. Accipiunt et textum Evangelii, ut intelligant se esse praecones
-          Evangelii Christi. Hi autem, antequam ordinentur, probentur, ut docet <name ref="Paul"
-          >Apostolus</name>, et sic ministrent, nullum crimen habentes.</p>
+          Evangelii Christi. Hi autem, antequam ordinentur, probentur, ut docet <name xml:id="pl-l4d24c10-Nd1e151" ref="Paul">Apostolus</name>, et sic ministrent, nullum crimen habentes.</p>
         <p xml:id="pl-l4d24c10-d1e161"> <quote xml:id="pl-l4d24c10-Qd1e163"> Hoc officio usus est
           Christus quando post Coenam Sacramentum carnis et sanguinis discipulis dispensavit, et
-          quando Apostolos dormitantes ad orationem incitavit dicens: <quote
-          xml:id="pl-l4d24c10-Qd1e165">Vigilate et orate, ut non intretis in
+          quando Apostolos dormitantes ad orationem incitavit dicens: <quote xml:id="pl-l4d24c10-Qd1e165" source="http://scta.info/resource/mt26_41@1-8">Vigilate et orate, ut non intretis in
           tertiationem</quote>.</quote> </p>
       </div>
     </body>

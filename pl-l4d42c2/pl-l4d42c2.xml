@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -82,12 +80,10 @@
           potest sibi copulare nuptialiter; et si praesumtum fuerit, separandi sunt. Qui autem
           legitime coniuncti sunt, non ideo separandi sunt, quia alter eorum insidiose filium de
           fonte levavit.</p>
-        <p xml:id="pl-l4d42c2-d1e146">Quod etiam Nicolaus confirmat dicens: <quote
-          xml:id="pl-l4d42c2-Qd1e148"> Nosse desideras, utrum mulier, quae viri filium, ex alia
+        <p xml:id="pl-l4d42c2-d1e146">Quod etiam Nicolaus confirmat dicens: <quote xml:id="pl-l4d42c2-Qd1e148"> Nosse desideras, utrum mulier, quae viri filium, ex alia
           femina genitum, de sacro fonte levaverit, postmodum possit cum eodem viro copulari. Quos
           ideo coniungi posse decrevimus, quia secundum canones sacros, nisi amborum consensu,
-          nullius religionis obtentu debet coniux dimittere coniugem, cum <name ref="Paul"
-          >Apostolus</name> praecipiat: <quote xml:id="pl-l4d42c2-Qd1e153">Nolite fraudare invicem,
+          nullius religionis obtentu debet coniux dimittere coniugem, cum <name xml:id="pl-l4d42c2-Nd1e144" ref="Paul">Apostolus</name> praecipiat: <quote xml:id="pl-l4d42c2-Qd1e153" source="http://scta.info/resource/Icor7_5@1-9">Nolite fraudare invicem,
           nisi forte ex consensu ad tempus</quote> </quote>, etc.</p>
         <p xml:id="pl-l4d42c2-d1e158">Item: <quote xml:id="pl-l4d42c2-Qd1e160">Dictum est nobis,
           quasdam feminas desidiose, quasdam vero fraudulenter, ut a viris suis separentur, proprios
@@ -112,8 +108,7 @@
         <p xml:id="pl-l4d42c2-d1e173">His aliisque pluribus auctoritatibus edocetur, coniuges non
           esse separandos, si post legitimam copulam alter alterius filium de fonte levat, vel in
           confirmatione tenet.</p>
-        <p xml:id="pl-l4d42c2-d1e176">His autem obviare videtur, quod Deusdedit Papa ait: <quote
-          xml:id="pl-l4d42c2-Qd1e178"> Pervenit ad nos diaconus, Sanctitatis vestrae epistolam
+        <p xml:id="pl-l4d42c2-d1e176">His autem obviare videtur, quod Deusdedit Papa ait: <quote xml:id="pl-l4d42c2-Qd1e178"> Pervenit ad nos diaconus, Sanctitatis vestrae epistolam
           deferens, quod quidam viri et mulieres praeterito sabbato paschali pro magno populi
           incursu nescientes filios suos suscepissent de lavacro. Cupis ergo scire, an propter hoc
           debeant viri ac mulieres ad proprium usum redire, vel non. Nos ergo de hac re moesti

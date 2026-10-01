@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -56,13 +54,11 @@
         <head xml:id="pl-l4d47c3-Hd1e112" type="question-title">De ordinibus eorum qui erunt in
           iudicio.</head>
         <p xml:id="pl-l4d47c3-d1e115">Erunt autem quatuor ordines in iudicio. Duae quippe sunt
-          partes, electorum scilicet et reproborum, ut ait <name ref="#GregoryGreat"
-          >Gregorius</name>, <quote xml:id="pl-l4d47c3-Qd1e120"> sed bini ordines eisdem singulis
+          partes, electorum scilicet et reproborum, ut ait <name xml:id="pl-l4d47c3-Nd1e111" ref="#GregoryGreat">Gregorius</name>, <quote xml:id="pl-l4d47c3-Qd1e120"> sed bini ordines eisdem singulis
           partibus continentur. Alii enim iudicantur et pereunt, alii non indicantur et pereunt;
           alii iudicantur et regnant, alii non iudicantur et regnant. Iudicantur et pereunt quibus
           dominica inclamatione dicitur: <quote xml:id="pl-l4d47c3-Qd1e122">Esurivi, et non dedistis
-          mihi manducare,</quote> etc. Non iudicantur et pereunt quibus Dominus ait: <quote
-          xml:id="pl-l4d47c3-Qd1e125">Qui non credit, iam iudicatus est:</quote> eorum enim damnatio
+          mihi manducare,</quote> etc. Non iudicantur et pereunt quibus Dominus ait: <quote xml:id="pl-l4d47c3-Qd1e125">Qui non credit, iam iudicatus est:</quote> eorum enim damnatio
           toti Ecclesiae nota est et certa, et ideo dicuntur tunc non iudicari, quia ad conspectum
           districti iudicis cum aperta damnatione suae infidelitatis accedent. Qui vero professionem
           fidei sine operibus habent iudicabuntur et peribunt, id est, redarguentur, ut pereant. Qui
@@ -73,13 +69,11 @@
           servare voluerunt </quote>; et ideo illi iudicandi, isti non iudicandi dicuntur.</p>
         <p xml:id="pl-l4d47c3-d1e130"> <quote xml:id="pl-l4d47c3-Qd1e132"> Ex electorum vero parte
           alii iudicantur et regnant, scilicet qui vitae maculas lacrymis tergunt et eleemosynarum
-          superinductione operiunt; quibus iudex veniens in dextera consistentibus dicet: <quote
-          xml:id="pl-l4d47c3-Qd1e134">Esurivi, et dedistis mihi manducare.</quote> Alii autem non
+          superinductione operiunt; quibus iudex veniens in dextera consistentibus dicet: <quote xml:id="pl-l4d47c3-Qd1e134">Esurivi, et dedistis mihi manducare.</quote> Alii autem non
           iudicantur et regnant, qui etiam praecepta legis perfectionis virtute transcendunt; quia
           non hoc solum, quod lex praecipit, implere contenti sunt, sed et quod ad perfectionem
-          consulitur implere student. De quibus Propheta ait: <quote xml:id="pl-l4d47c3-Qd1e137"
-          >Dominus ad iudiciurn veniet cum senatoribus populi sui;</quote> et Salomon, de Ecclesiae
-          sponso loquens, ait: <quote xml:id="pl-l4d47c3-Qd1e140">Nobilis in portis vir eius, quando
+          consulitur implere student. De quibus Propheta ait: <quote xml:id="pl-l4d47c3-Qd1e137">Dominus ad iudiciurn veniet cum senatoribus populi sui;</quote> et Salomon, de Ecclesiae
+          sponso loquens, ait: <quote xml:id="pl-l4d47c3-Qd1e140" source="http://scta.info/resource/prov31_23@2-11">Nobilis in portis vir eius, quando
           sederit cum senatoribus terrae.</quote> Et Iob.: <quote xml:id="pl-l4d47c3-Qd1e143">Non
           salvat impios et pauperibus iudicium tribuit.</quote> Hi ergo recte sub generali iudicio
           non tenentur, sed iudices veniunt, quia et praecepta generalia vivendo vicerunt, et
@@ -87,7 +81,7 @@
           mundo magna humilitate despecti sunt, tanto tunc maiori culmine potestatis
           excrescent</quote>.</p>
         <p xml:id="pl-l4d47c3-d1e148"> <quote xml:id="pl-l4d47c3-Qd1e150"> De talibus dicitur:
-          <quote xml:id="pl-l4d47c3-Qd1e152">Qui vicerit, dabo illi sedere mecum in throno meo;
+          <quote xml:id="pl-l4d47c3-Qd1e152" source="http://scta.info/resource/ap3_21@1-21">Qui vicerit, dabo illi sedere mecum in throno meo;
           sicut et ego vici et sedi cum Patre meo in throno eius.</quote> Vincens Dominus cum Patre
           in throno sedit, quia post passionis certamen et resurrectionis palmam, quod Patri esset
           aequalis, omnibus claruit. Nobis vero in throno Filii sedere est ex eiusdem Filii

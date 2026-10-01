@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -54,7 +51,7 @@
           quibus et hic liberantur et in futuro coronabuntur. Praedestinavit 
           autem ab aeterno Deus homines ad bona eligendo, et praedestinavit 
           eis bona praeparando.</p>
-        <p xml:id="pll1d35c4-d1e3502">Quod homines praedestinavit, <name ref="#Paul">Apostolus</name> ostendit dicens: 
+        <p xml:id="pll1d35c4-d1e3502">Quod homines praedestinavit, <name xml:id="pl-l1d35c4-Nd1e97" ref="#Paul">Apostolus</name> ostendit dicens: 
           <cit>
             <quote xml:id="pll1d35c4-Qd1e3509" source="http://scta.info/resource/rom8_29">Praedestinavit quos praescivit fieri conformes imaginis Filii 
               sui.</quote>
@@ -62,13 +59,13 @@
           </cit>
           Et alibi: 
           <cit>
-            <quote xml:id="pll1d35c4-Qd1e3518" source="http://scta.info/resource/eph1:4">Elegit nos ante mundi constitutionem, ut essemus 
+            <quote xml:id="pll1d35c4-Qd1e3518" source="http://scta.info/resource/eph1_4@2-13">Elegit nos ante mundi constitutionem, ut essemus 
               sancti et immaculati.</quote>
             <bibl>Ephes. 1:4</bibl>
           </cit>
         </p>
         <!-- p. 221 -->
-        <p xml:id="pll1d35c4-d1e3528">Quod autem eis bona praeparaverit, propheta <name ref="#is">Isaias</name> ostendit 
+        <p xml:id="pll1d35c4-d1e3528">Quod autem eis bona praeparaverit, propheta <name xml:id="pl-l1d35c4-Nd1e121" ref="#is">Isaias</name> ostendit 
           dicens: 
           <cit>
             <quote xml:id="pll1d35c4-Qd1e3535" source="http://scta.info/resource/is64_4">Oculus non vidit, Deus, absque te, quae praeparasti diligentibus 

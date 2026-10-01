@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -61,12 +59,11 @@
           scilicet Deum, erunt. Nunc enim, etsi patiantur tenebras in</p>
         <p xml:id="pl-l4d50c2-d1e121">caecitate mentis, non tamen penitus extra lucem Dei sunt, nec
           corporali luce privantur.</p>
-        <p xml:id="pl-l4d50c2-d1e125">De hoc <name ref="#Augustine">Augustinus</name> sic ait:
+        <p xml:id="pl-l4d50c2-d1e125">De hoc <name xml:id="pl-l4d50c2-Nd1e121" ref="#Augustine">Augustinus</name> sic ait:
           <quote xml:id="pl-l4d50c2-Qd1e130"> Ira Dei et in iudicio erit, et hic est in caecitate
           mentis, cum dantur mali <quote xml:id="pl-l4d50c2-Qd1e132">in reprobum sensum</quote>. Ibi
           exteriores tenebrae erunt, quia tunc peccatores erunt penitus extra Deum. Quid est enim
-          penitus esse extra Deum, nisi esse in summa caecitate ? Siquidem Deus <quote
-          xml:id="pl-l4d50c2-Qd1e135">habitat lucem inaccessibilem</quote> . Hae autem tenebrae hic
+          penitus esse extra Deum, nisi esse in summa caecitate ? Siquidem Deus <quote xml:id="pl-l4d50c2-Qd1e135">habitat lucem inaccessibilem</quote> . Hae autem tenebrae hic
           iam incipiunt in peccante <quote xml:id="pl-l4d50c2-Qd1e138">, </quote>cum ab interiori
           Dei luce secluditur, sed non penitus, dum in hac vita est </quote>.</p>
         <p xml:id="pl-l4d50c2-d1e143">Ecce, quare peccator ibi dicitur pati exteriores tenebras, et
@@ -75,7 +72,7 @@
           videbunt Deum per speciem ? Sed nec aliquis hic videt Deum per speciem. An per
           dissimilitudinem, quam facit peccatum inter Deum et hominem? Sed et hic multi per gravia
           peccata elongantur a Deo. An quia Deum odiunt, ita ut velint, eum non esse? Sed et hic
-          Deum multi oderunt, de quibus scriptum est: <quote xml:id="pl-l4d50c2-Qd1e148">Superbia
+          Deum multi oderunt, de quibus scriptum est: <quote xml:id="pl-l4d50c2-Qd1e148" source="http://scta.info/resource/ps73_23@6-12">Superbia
           eorum qui te oderunt, ascendit semper.</quote> Quae est igitur illa elongatio?</p>
         <p xml:id="pl-l4d50c2-d1e152">Sane exteriores tenebrae intelligi possunt quaedam malignitas
           odii et voluntatis, quae tunc excrescet in mentibus reproborum, et quaedam oblivio Dei,
@@ -87,9 +84,8 @@
           appetitum beatitudinis et quendam boni amorem, quem naturaliter habet rationalis
           creatura.</p>
         <p xml:id="pl-l4d50c2-d1e155">lllas autem exteriores et profundissimas tenebras reprobos
-          perpessuros post iudicium, dicit <name ref="#Augustine">Augustinus</name>, opponens de
-          illo divite, qui in inferno positus, elevans oculos, vidit <name ref="#Abraham"
-          >Abraham</name> et in sinu eius Lazarum, cuius comparatione coactus est confiteri mala sua
+          perpessuros post iudicium, dicit <name xml:id="pl-l4d50c2-Nd1e151" ref="#Augustine">Augustinus</name>, opponens de
+          illo divite, qui in inferno positus, elevans oculos, vidit <name xml:id="pl-l4d50c2-Nd1e154" ref="#Abraham">Abraham</name> et in sinu eius Lazarum, cuius comparatione coactus est confiteri mala sua
           <quote xml:id="pl-l4d50c2-Qd1e163"> usque adeo, ut et fratres roget ab his praemoneri,
           quod ante iudicium facium legitur. Sed post iudicium iu profundioribus tenebris erunt
           impii, ubi nullam Dei lucem videbunt, cui confiteantur </quote>.</p>

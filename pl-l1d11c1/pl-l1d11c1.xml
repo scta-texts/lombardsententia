@@ -1,13 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Liber 1, Distinctio 11, Caput 1</title>
         <author>Petrus Lombardus</author>
-        <editor></editor>
+        <editor/>
       </titleStmt>
       <editionStmt>
         <edition n="2015.10-dev-master">
@@ -16,8 +13,8 @@
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher></publisher>
-        <pubPlace></pubPlace>
+        <publisher/>
+        <pubPlace/>
         <availability status="free">
           <p>Public Domain</p>
         </availability>
@@ -49,7 +46,7 @@
     </front>
     <body>
       <div xml:id="pl-l1d11c1">
-        <head>Capitulum 1</head>
+        <head xml:id="pl-l1d11c1-Hd1e89">Capitulum 1</head>
         <!-- Quod spiritus sanctus procedit a Patre et Filio, quem tamen 
           Graeci a Filio procedere diffitentur. -->
         <p xml:id="pll1d11c1-d1e3477">Hic dicendum est, Spiritum sanctum esse a Patre et Filio et 
@@ -61,9 +58,9 @@
               testimoniis comprobatur.</quote>
           </cit>
         </p>
-        <p xml:id="pll1d11c1-d1e3489">Dicit enim <name ref="#Paul">Apostolus</name>: 
+        <p xml:id="pll1d11c1-d1e3489">Dicit enim <name xml:id="pl-l1d11c1-Nd1e107" ref="#Paul">Apostolus</name>: 
           <cit>
-            <quote xml:id="pll1d11c1-Qd1e3496" source="http://scta.info/resource/gal4_16">Misit Deus Spiritum Filii sui in 
+            <quote xml:id="pll1d11c1-Qd1e3496" source="http://scta.info/resource/gal4_6@5-12">Misit Deus Spiritum Filii sui in 
               corda nostra.</quote>
             <bibl>Gal. 4:16</bibl>
           </cit>
@@ -167,7 +164,7 @@
           </cit>
           id est, contrarium docuerit vel contrario 
           modo praedicaverit, anathema sit. Aliud ergo posuit pro opposito, 
-          qualiter <ref><name ref="#Paul">Apostolus</name> in <title ref="#gal">Epistola ad Galatas</title>:</ref>
+          qualiter <ref xml:id="pl-l1d11c1-Rd1e238"><name xml:id="pl-l1d11c1-Nd1e239" ref="#Paul">Apostolus</name> in <title ref="#gal">Epistola ad Galatas</title>:</ref>
           <cit>
             <quote xml:id="pll1d11c1-Qd1e3645" source="http://scta.info/resource/gal1_8">Si quis aliud 
               evangelizaverit 
@@ -177,7 +174,7 @@
           Non dicit: Si 
           quis addiderit. 
           <cit>
-            <quote xml:id="pll1d11c1-Qd1e3654">Nam si illud diceret, sibi ipsi, ut ait <name ref="#Augustine">Augustinus</name>, 
+            <quote xml:id="pll1d11c1-Qd1e3654">Nam si illud diceret, sibi ipsi, ut ait <name xml:id="pl-l1d11c1-Nd1e258" ref="#Augustine">Augustinus</name>, 
               praeiudicaret, qui cupiebat venire ad quosdam, quibus scribebat, 
               sicut ad Thessalonicenses, ut 
               <cit>

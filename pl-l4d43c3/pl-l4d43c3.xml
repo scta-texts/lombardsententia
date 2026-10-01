@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -54,16 +52,11 @@
       <div xml:id="pl-l4d43c3">
         <head xml:id="pl-l4d43c3-Hd1e109">Capitulum 3</head>
         <head xml:id="pl-l4d43c3-Hd1e112" type="question-title">De nocte media.</head>
-        <p xml:id="pl-l4d43c3-d1e115"> <quote xml:id="pl-l4d43c3-Qd1e117">Media</quote> autem <quote
-          xml:id="pl-l4d43c3-Qd1e120">nocte</quote> dicitur venturus, ut ait <name ref="#Augustine"
-          >Augustinus</name>, non pro hora temporis, sed <quote xml:id="pl-l4d43c3-Qd1e126">quia
+        <p xml:id="pl-l4d43c3-d1e115"> <quote xml:id="pl-l4d43c3-Qd1e117">Media</quote> autem <quote xml:id="pl-l4d43c3-Qd1e120">nocte</quote> dicitur venturus, ut ait <name xml:id="pl-l4d43c3-Nd1e117" ref="#Augustine">Augustinus</name>, non pro hora temporis, sed <quote xml:id="pl-l4d43c3-Qd1e126">quia
           tunc veniet, cum non sperabitur </quote>. <quote xml:id="pl-l4d43c3-Qd1e129">Media</quote>
-          ergo <quote xml:id="pl-l4d43c3-Qd1e133">nocte,</quote> scilicet cum <quote
-          xml:id="pl-l4d43c3-Qd1e136"> valde obscurum erit, id est occultum, veniet</quote>. <quote
-          xml:id="pl-l4d43c3-Qd1e139">Dies enim Domini, sicut fur in nocte, ita veniet</quote>.</p>
+          ergo <quote xml:id="pl-l4d43c3-Qd1e133">nocte,</quote> scilicet cum <quote xml:id="pl-l4d43c3-Qd1e136"> valde obscurum erit, id est occultum, veniet</quote>. <quote xml:id="pl-l4d43c3-Qd1e139" source="http://scta.info/resource/Ith5_2@6-13">Dies enim Domini, sicut fur in nocte, ita veniet</quote>.</p>
         <p xml:id="pl-l4d43c3-d1e143">Potest tamen non incongrue intelligi mediae noctis tempore
-          venturus, quia ut ait <name ref="Cassiodorus">Cassiodorus</name>, <quote
-          xml:id="pl-l4d43c3-Qd1e148">hoc tempore primogenita Aegypti percussa sunt, quando etiam
+          venturus, quia ut ait <name xml:id="pl-l4d43c3-Nd1e139" ref="Cassiodorus">Cassiodorus</name>, <quote xml:id="pl-l4d43c3-Qd1e148">hoc tempore primogenita Aegypti percussa sunt, quando etiam
           sponsus venturus est</quote>.</p>
       </div>
     </body>

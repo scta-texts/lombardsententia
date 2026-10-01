@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -55,15 +53,13 @@
         <head xml:id="pl-l3d34c5-Hd1e109">Capitulum 5</head>
         <head xml:id="pl-l3d34c5-Hd1e112" type="question-title">De casto et servili et
           initiali.</head>
-        <p xml:id="pl-l3d34c5-d1e115">De his eisdem timoribus latius disputat dicens: <quote
-          xml:id="pl-l3d34c5-Qd1e117">Coepit aliquis credere diem indicii; si coepit credere, coepit
+        <p xml:id="pl-l3d34c5-d1e115">De his eisdem timoribus latius disputat dicens: <quote xml:id="pl-l3d34c5-Qd1e117">Coepit aliquis credere diem indicii; si coepit credere, coepit
           et timere. Sed qui adhuc timet, nondum habet fiduciam in die iudicii, nondum est in illo
           perfecta caritas</quote>; <quote xml:id="pl-l3d34c5-Qd1e120">si perfecta in illo esset
           caritas, non timeret. Perfecta enim caritas faceret perfectam iustitiam, et non haberet,
           quare timeret, immo haberet, quare desideraret, ut transeat iniquitas, et veniat regnum
           Dei. Ergo timor non est in caritate. Sed in qua caritate ? Non in inchoata. In qua ergo?
-          In perfecta. <quote xml:id="pl-l3d34c5-Qd1e122">Perfecta,</quote> inquit, <quote
-          xml:id="pl-l3d34c5-Qd1e125">caritas foras mittit timorem .</quote> Ergo incipiat timor,
+          In perfecta. <quote xml:id="pl-l3d34c5-Qd1e122" source="http://scta.info/resource/Iio4_18@7-7">Perfecta,</quote> inquit, <quote xml:id="pl-l3d34c5-Qd1e125" source="http://scta.info/resource/Iio4_18@8-11">caritas foras mittit timorem .</quote> Ergo incipiat timor,
           quia <quote xml:id="pl-l3d34c5-Qd1e128">initium sapientiae timor Domini</quote>. Timor
           quasi locum praeparat caritati; cum autem coeperit caritas habitare, pellitur timor, qui
           ei praeparavit locum. Quantum enim illa crescit, ille decrescit; et quantum illa fit
@@ -76,8 +72,7 @@
           quae videtur huic esse contraria, si non habet pium intellectorem. Dicitur enim in Psalmo:
           <quote xml:id="pl-l3d34c5-Qd1e140">Timor Domini castus permanet in saeculum
           saeculi.</quote> Aeternum quendam timorem nobis ostendit, sed castum. Quod si ostendit
-          ille nobis aeternum timorem, nunquid contradicit illi ista Epistola, quae dicit: <quote
-          xml:id="pl-l3d34c5-Qd1e143">Timor non est in caritate, sed perfecta caritas foras mittit
+          ille nobis aeternum timorem, nunquid contradicit illi ista Epistola, quae dicit: <quote xml:id="pl-l3d34c5-Qd1e143" source="http://scta.info/resource/Iio4_18@1-11">Timor non est in caritate, sed perfecta caritas foras mittit
           timorem?</quote> Hoc enim dictum est per Ioannem, illud dictum est per David. Sed nolite
           putare, alium esse Spiritum. Si unus flatus
           inflat duas tibias, non potest unus Spiritus implere duo corda et agitare duas linguas? Si

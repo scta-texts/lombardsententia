@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -57,7 +55,7 @@
           vel augeat Bonorum gloriam.</head>
         <p xml:id="pl-l4d50c7-d1e115">Postremo quaeritur, an visa poena reproborum decoloret gloriam
           Beatorum, an beatitudini eorum proficiat.</p>
-        <p xml:id="pl-l4d50c7-d1e118">De hoc ita <name ref="#GregoryGreat">Gregorius</name> ait:
+        <p xml:id="pl-l4d50c7-d1e118">De hoc ita <name xml:id="pl-l4d50c7-Nd1e114" ref="#GregoryGreat">Gregorius</name> ait:
           <quote xml:id="pl-l4d50c7-Qd1e123">Apud animum iustorum non fuscat beatitudinem aspecta
           poena reproborum, quia, ubi iam compassio miseriae non erit, minuere Beatorum laetitiam
           non valebit. Et licet iustis sua gaudia sufficiant, ad maiorem tamen gloriam vident poenas
@@ -70,11 +68,10 @@
           afficientur, sed laetitia satiabuntur, agentes gratias de sua liberatione, visa impiorum
           ineffabili calamitate </quote>.</p>
         <p xml:id="pl-l4d50c7-d1e134">Unde Isaias, impiorum tormenta describens et ex eorum visione
-          laetitiam bonorum exprimens, ait: <quote xml:id="pl-l4d50c7-Qd1e136">Egredientur,</quote>
-          electi scilicet, <quote xml:id="pl-l4d50c7-Qd1e139">et videbunt cadavera virorum, qui
+          laetitiam bonorum exprimens, ait: <quote xml:id="pl-l4d50c7-Qd1e136" source="http://scta.info/resource/is66_24@2-2">Egredientur,</quote>
+          electi scilicet, <quote xml:id="pl-l4d50c7-Qd1e139" source="http://scta.info/resource/is66_24@3-28">et videbunt cadavera virorum, qui
           praevaricati sunt in me. Vermis eorum non morietur, et ignis non extinguetur, et erunt
-          usque ad satietatem visionis omni carni,</quote> id est electis. <quote
-          xml:id="pl-l4d50c7-Qd1e142">Laetabitur enim iustus, cum viderit vindictam</quote> .</p>
+          usque ad satietatem visionis omni carni,</quote> id est electis. <quote xml:id="pl-l4d50c7-Qd1e142">Laetabitur enim iustus, cum viderit vindictam</quote> .</p>
         <p xml:id="pl-l4d50c7-d1e146">Exultativa operis.</p>
         <p xml:id="pl-l4d50c7-d1e149"> Haec de <quote xml:id="pl-l4d50c7-Qd1e151" source="http://scta.info/resource/is6_1 http://scta.info/resource/is6_2">pedibus Sedentis
           super solium excelsum, quos Seraphim duabus alis velabant</quote>, scriptori, etsi non

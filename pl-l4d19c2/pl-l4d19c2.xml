@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -56,15 +54,14 @@
         <head xml:id="pl-l4d19c2-Hd1e112" type="question-title">Utrum per indignos transfunditur
           gratia dignis.</head>
         <p xml:id="pl-l4d19c2-d1e115">Item quod sacerdos, etiam si malus sit, gratiam tamen
-          transfundat pro suae dignitatis officio, <name ref="#Augustine">Augustinus</name> ostendit
+          transfundat pro suae dignitatis officio, <name xml:id="pl-l4d19c2-Nd1e111" ref="#Augustine">Augustinus</name> ostendit
           dicens <quote xml:id="pl-l4d19c2-Qd1e120">: </quote> <quote xml:id="pl-l4d19c2-Qd1e123">
-          Dictum est a Domino in Numeris ad Moysen et Aaron sacerdotes : <quote
-          xml:id="pl-l4d19c2-Qd1e125">Vos ponite nomen meum super filios Israel, ego Dominus
+          Dictum est a Domino in Numeris ad Moysen et Aaron sacerdotes : <quote xml:id="pl-l4d19c2-Qd1e125">Vos ponite nomen meum super filios Israel, ego Dominus
           benedicam eos ,</quote> ut gratiam traditio per ministerium ordinati transfundat
           hominibus, nec voluntas sacerdotis obesse vel prodesse possit, sed meritum benedictionem
           poscentis. Quanta autem dignitas sit sacerdotalis officii et ordinis , hinc advertamus.
-          Dictum est de nequissimo Caipha inter cetera: <quote xml:id="pl-l4d19c2-Qd1e128">Hoc autem
-          </quote>a <quote xml:id="pl-l4d19c2-Qd1e131">semetipso non dixit, sed cum esset pontifex
+          Dictum est de nequissimo Caipha inter cetera: <quote xml:id="pl-l4d19c2-Qd1e128" source="http://scta.info/resource/io11_51@1-2">Hoc autem
+          </quote>a <quote xml:id="pl-l4d19c2-Qd1e131" source="http://scta.info/resource/io11_51@4-14">semetipso non dixit, sed cum esset pontifex
           anni illius, prophetavit;</quote> per quod ostenditur, Spiritum gratiarum non personam
           sequi digni vel indigni, sed ordinem traditionis; ut, quamvis aliquis boni meriti sit, non
           tamen possit benedicere, nisi fuerit ordinatus, ut officii ministerium exhibeat. Dei autem
@@ -84,8 +81,7 @@
           Christus habitat, benedictionis plenitudinem tribuere dicuntur, non quia soli illi
           transfundant gratiam, sed quia illi soli licite et digne id agunt. Nec subditos sacerdotis
           vita mala laedit, si bona faciunt quae ille dicit.</p>
-        <p xml:id="pl-l4d19c2-d1e152">Unde <name ref="GregoryGreat">Gregorius</name>: <quote
-          xml:id="pl-l4d19c2-Qd1e157">Multi, dum plus vitam sacerdotum quam suam discutiunt, in
+        <p xml:id="pl-l4d19c2-d1e152">Unde <name xml:id="pl-l4d19c2-Nd1e148" ref="GregoryGreat">Gregorius</name>: <quote xml:id="pl-l4d19c2-Qd1e157">Multi, dum plus vitam sacerdotum quam suam discutiunt, in
           erroris foveam dilabuntur, minus considerantes, quod non eos vita sacerdotum laederet, si
           humiliter bonis sacerdotum admonitionibus aurem accommodarent </quote>.</p>
       </div>

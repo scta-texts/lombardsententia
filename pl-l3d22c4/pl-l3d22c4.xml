@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -62,15 +60,11 @@
         <p xml:id="pl-l3d22c4-d1e121">Ad quod dicimus: Si ad unitatem personae referatur dicti
           intelligentia, sane dici potest; si vero ad distinctionem naturarum, nullatenus
           concedendum est.</p>
-        <p xml:id="pl-l3d22c4-d1e125">Unde <name ref="#Augustine">Augustinus</name>: <quote
-          xml:id="pl-l3d22c4-Qd1e130">Una persona est Christus, Deus et horno. Ideo dicitur: <quote
-          xml:id="pl-l3d22c4-Qd1e132">Nemo ascendit in caelum, nisi qui descendit de caelo,</quote>
+        <p xml:id="pl-l3d22c4-d1e125">Unde <name xml:id="pl-l3d22c4-Nd1e121" ref="#Augustine">Augustinus</name>: <quote xml:id="pl-l3d22c4-Qd1e130">Una persona est Christus, Deus et horno. Ideo dicitur: <quote xml:id="pl-l3d22c4-Qd1e132" source="http://scta.info/resource/io3_13@2-10">Nemo ascendit in caelum, nisi qui descendit de caelo,</quote>
           etc. Si ergo attendas distinctionem substantiarum, Filius Dei descendit, et filius hominis
           crucifixus est; si vero unitatem personae, et filius hominis descendit, et Filius Dei est
           crucifixus. Propter hanc unitatem personae, non solum filium hominis descendisse de caelo,
-          sed etiam dixit esse in caelo, cum loqueretur in terra</quote>. <quote
-          xml:id="pl-l3d22c4-Qd1e136"> Propter hanc eandem dicitur <quote
-          xml:id="pl-l3d22c4-Qd1e138">Deus gloriae crucifixus,</quote> qui tamen ex forma servi
+          sed etiam dixit esse in caelo, cum loqueretur in terra</quote>. <quote xml:id="pl-l3d22c4-Qd1e136"> Propter hanc eandem dicitur <quote xml:id="pl-l3d22c4-Qd1e138">Deus gloriae crucifixus,</quote> qui tamen ex forma servi
           tantum crucifixus est, non secundum hoc quod Deus gloriae est, et secundum quod glorificat
           suos; et tamen dicitur <quote xml:id="pl-l3d22c4-Qd1e141">Deus gloriae crucifixus,</quote>
           recte quidem, non ex virtute divinitatis, sed ex infirmitate carnis. Quid ergo propter

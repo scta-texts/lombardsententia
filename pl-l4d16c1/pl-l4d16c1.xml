@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -74,7 +72,7 @@
         <p xml:id="pl-l4d16c1-d1e127"> 
           <cit>
             <quote xml:id="pl-l4d16c1-Qd1e129">Sunt enim tres peccati
-              differentiae, ut ait <name ref="#Augustine">Augustinus</name>, et in corde, et in facto,
+              differentiae, ut ait <name xml:id="pl-l4d16c1-Nd1e127" ref="#Augustine">Augustinus</name>, et in corde, et in facto,
               et in consuetudine vel verbo, tanquam tres mortes: una quasi in domo, scilicet cum in
               corde consentitur libidini; altera quasi prolata iam 
               <cit>
@@ -95,7 +93,7 @@
         <p xml:id="pl-l4d16c1-d1e143">
         Compunctio nobis commendatur ibi: 
         <cit>
-          <quote xml:id="pl-l4d16c1-Qd1e145">
+          <quote xml:id="pl-l4d16c1-Qd1e145" source="http://scta.info/resource/ioel2_13@2-8">
             Scindite corda vestra, et non vestimenta vestra.
           </quote>
         </cit>

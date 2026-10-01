@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -60,22 +58,20 @@
           iurare<quote xml:id="pl-l3d39c4-Qd1e120">, </quote>peccatum grande est. Ex necessitate
           autem iurare, scilicet vel ad foedera pacis confirmanda, vel ad persuadendum auditoribus
           quod est eis utile, malum non est, quia necessarium.</p>
-        <p xml:id="pl-l3d39c4-d1e124">Unde <name ref="#Augustine">Augustinus</name>: <quote
-          xml:id="pl-l3d39c4-Qd1e129"> Juramentum faciendum est in necessariis, cum pigri sunt
+        <p xml:id="pl-l3d39c4-d1e124">Unde <name xml:id="pl-l3d39c4-Nd1e120" ref="#Augustine">Augustinus</name>: <quote xml:id="pl-l3d39c4-Qd1e129"> Juramentum faciendum est in necessariis, cum pigri sunt
           homines credere quod eis est utile. Iuratio non est bona, non tamen mala, cum est
           necessaria </quote>, id est, non est appetenda sicut bona, non tamen fugienda tanquam
           mala, cum est necessaria. <quote xml:id="pl-l3d39c4-Qd1e132"> Non est enim contra
           praeceptum Dei iuratio, sed ita intelligitur Dominus prohibuisse a iuramento, ut, quantum
           in ipso est, quisque non iuret — quod multi faciunt, in ore habentes iurationem tanquam
-          magnum atque suave aliquid — <name ref="Paul">Apostolus</name> enim novit praeceptum
+          magnum atque suave aliquid — <name xml:id="pl-l3d39c4-Nd1e128" ref="Paul">Apostolus</name> enim novit praeceptum
           Domini, et tamen iuravit</quote>. Prohibemur ergo iurare cupiditate, vel delectatione
           iurandi.</p>
         <p xml:id="pl-l3d39c4-d1e140"> <quote xml:id="pl-l3d39c4-Qd1e142"> Quod ergo Christus ait in
           Evangelio: <quote xml:id="pl-l3d39c4-Qd1e144">Ego dico vobis, non iurare omnino,</quote>
           ita intelligitur praecepisse, ne quisquam sicut bonum appetat iuramentum, et assiduitate
           iurandi labatur in periurium</quote>.</p>
-        <p xml:id="pl-l3d39c4-d1e149">Quod vero addit: <quote xml:id="pl-l3d39c4-Qd1e151"> <quote
-          xml:id="pl-l3d39c4-Qd1e153">Sil sermo vester: est, est, non, non, </quote>bonum est et
+        <p xml:id="pl-l3d39c4-d1e149">Quod vero addit: <quote xml:id="pl-l3d39c4-Qd1e151"> <quote xml:id="pl-l3d39c4-Qd1e153" source="http://scta.info/resource/mt5_37@1-8">Sil sermo vester: est, est, non, non, </quote>bonum est et
           appetendum. <quote xml:id="pl-l3d39c4-Qd1e156">Quod autem amplius est, a malo est,
           </quote>id est, si iurare cogeris, scias de necessitate venire infirmitatis eorum quibus
           aliquid suades; quae infirmitas utique malum est, unde nos quotidie liberari precamur

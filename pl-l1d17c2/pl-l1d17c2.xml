@@ -1,13 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Liber 1, Distinctio 17, Caput 2</title>
         <author>Petrus Lombardus</author>
-        <editor></editor>
+        <editor/>
       </titleStmt>
       <editionStmt>
         <edition n="2015.11-dev-master">
@@ -16,8 +13,8 @@
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher></publisher>
-        <pubPlace></pubPlace>
+        <publisher/>
+        <pubPlace/>
         <availability status="free">
           <p>Public Domain</p>
         </availability>
@@ -54,7 +51,7 @@
         <p xml:id="pll1d17c2-d1e3477">Cum autem fraterna dilectio sit Deus, nec Pater est, nec Filius 
           est, sed tantum Spiritus sanctus, qui proprie dilectio in Trinitate 
           vel caritas dicitur.</p>
-        <p xml:id="pll1d17c2-d1e3480">Unde <ref><name ref="#Augustine">Augustinus</name> in libro XV <title ref="#deTrinitate">De Trinitate</title>:</ref> 
+        <p xml:id="pll1d17c2-d1e3480">Unde <ref xml:id="pl-l1d17c2-Rd1e99"><name xml:id="pl-l1d17c2-Nd1e100" ref="#Augustine">Augustinus</name> in libro XV <title ref="#deTrinitate">De Trinitate</title>:</ref> 
           <cit>
             <quote xml:id="pll1d17c2-Qd1e3492">Si in donis 
               Dei nihil maius est caritate, et nullum est maius donum Dei 
@@ -63,7 +60,7 @@
             <bibl>Augustinus, De Trinitate, XV, c. 19, n. 37 (PL 42:1086)</bibl>
           </cit>
           <cit>
-            <quote xml:id="pll1d17c2-Qd1e3501">Ita enim ait <name ref="#John">Ioannes</name>: 
+            <quote xml:id="pll1d17c2-Qd1e3501">Ita enim ait <name xml:id="pl-l1d17c2-Nd1e119" ref="#John">Ioannes</name>: 
               <cit>
                 <quote xml:id="pll1d17c2-Qd1e3508" source="http://scta.info/resource/Iio4_7">Dilectio ex Deo est;</quote>
                 <bibl>I Ioannes 4:7</bibl> <!-- dbcheck -->
@@ -80,10 +77,10 @@
         </p>
         <p xml:id="pll1d17c2-d1e3537">Item in eodem: 
           <cit>
-            <quote xml:id="pll1d17c2-Qd1e3541"><name ref="#John">Ioannes</name> volens de hac re apertius 
+            <quote xml:id="pll1d17c2-Qd1e3541"><name xml:id="pl-l1d17c2-Nd1e154" ref="#John">Ioannes</name> volens de hac re apertius 
               loqui inquit: 
               <cit>
-                <quote xml:id="pll1d17c2-Qd1e3547" ana="Iio4_13">In hoc cognovimus, quia in ipso manemus et ipse 
+                <quote xml:id="pll1d17c2-Qd1e3547" ana="Iio4_13" source="http://scta.info/resource/Iio4_13@1-17">In hoc cognovimus, quia in ipso manemus et ipse 
                   in nobis, quia de Spiritu suo dedit nobis.</quote>
                 <bibl>I Ioannes 4:13</bibl>
               </cit>

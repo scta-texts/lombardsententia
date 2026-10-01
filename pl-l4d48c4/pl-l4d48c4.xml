@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -55,8 +53,7 @@
         <head xml:id="pl-l4d48c4-Hd1e109">Capitulum 4</head>
         <head xml:id="pl-l4d48c4-Hd1e112" type="question-title">De loco iudicii.</head>
         <p xml:id="pl-l4d48c4-d1e115">Putant quidam, Dominum descensurum in vallem losaphat in
-          iudicio, eo quod ipse per loel prophetam sic loquitur: <quote xml:id="pl-l4d48c4-Qd1e117"
-          >Congregabo omnes gentes et deducam eas in vallem losaphat et disceptabo ibi cum
+          iudicio, eo quod ipse per loel prophetam sic loquitur: <quote xml:id="pl-l4d48c4-Qd1e117" source="http://scta.info/resource/ioel3_2@1-14">Congregabo omnes gentes et deducam eas in vallem losaphat et disceptabo ibi cum
           eis.</quote> In cuius capituli expositione ita reperi: <quote xml:id="pl-l4d48c4-Qd1e120">
           Hoc quidam pueriliter intelligunt, quod in valle, quae est in latere montis Oliveti,
           descensurus sit Dominus ad iudicium; quod frivolum est, quia non in terra, sed in spatio
