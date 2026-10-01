@@ -1,0 +1,109 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-09-30T23:52:06Z",
+    "model": "claude-sonnet-5-5",
+    "prompt_version": "interpretation-v1",
+    "source_commit": "440a635",
+    "generation_method": "hierarchical"
+  },
+  "pll1d37c8-d1e3501": {
+    "summary": "Thesis: created spirits are in place, move between places, and are in a way local and circumscribed; God is in all places but wholly non-local.",
+    "claims": [
+      "Created spirits are in a way local and circumscribed.",
+      "God is in every place yet non-local."
+    ],
+    "concepts": [
+      "created spirit",
+      "locality",
+      "divine immensity"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pl-l1d37c8",
+        "pll1d37c8-Hd1e3496"
+      ],
+      "model": "claude-sonnet-5-5",
+      "prompt_version": "interpretation-paragraph-v1",
+      "generated_at": "2026-09-30T23:52:06Z",
+      "source_commit": "440a635"
+    }
+  },
+  "pll1d37c8-d1e3504": {
+    "summary": "Bede: angels come to us while remaining before God by contemplation; an angel is circumscribed, God is not, and the angel runs within God.",
+    "claims": [
+      "Angels are circumscribed spirits; God is uncircumscribed."
+    ],
+    "concepts": [
+      "angel",
+      "circumscription",
+      "contemplation"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pl-l1d37c8",
+        "pll1d37c8-Hd1e3496"
+      ],
+      "model": "claude-sonnet-5-5",
+      "prompt_version": "interpretation-paragraph-v1",
+      "generated_at": "2026-09-30T23:52:06Z",
+      "source_commit": "440a635"
+    }
+  },
+  "pll1d37c8-d1e3522": {
+    "summary": "Ambrose: the Seraph passes from place to place since it does not fill all things, but is filled by the Spirit; hence angels are in a way local.",
+    "claims": [
+      "Angels move from place to place and do not fill all things.",
+      "The Holy Spirit fills all things."
+    ],
+    "concepts": [
+      "angel",
+      "local motion",
+      "Holy Spirit"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pl-l1d37c8",
+        "pll1d37c8-Hd1e3496"
+      ],
+      "model": "claude-sonnet-5-5",
+      "prompt_version": "interpretation-paragraph-v1",
+      "generated_at": "2026-09-30T23:52:06Z",
+      "source_commit": "440a635"
+    }
+  },
+  "pl-l1d37c8": {
+    "summary": "Concludes that created spirits are in place and pass from place to place, being in some way local and circumscribed but not as bodies are, whereas God is in every place yet wholly non-local. Bede and Ambrose on angels and the Seraph support this.",
+    "claims": [
+      "Created spirits are in place and move from place to place, though differently from bodies.",
+      "God is in every place but is non-local and uncircumscribed.",
+      "Angels are circumscribed, unlike God."
+    ],
+    "concepts": [
+      "angels",
+      "locality",
+      "circumscription",
+      "divine immensity",
+      "created vs uncreated spirit"
+    ],
+    "_metadata": {
+      "level": "capitulum",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "pll1d37c8-d1e3501",
+        "pll1d37c8-d1e3504",
+        "pll1d37c8-d1e3522"
+      ],
+      "model": "claude-sonnet-5-5",
+      "prompt_version": "interpretation-capitulum-v1",
+      "generated_at": "2026-09-30T23:52:06Z",
+      "source_commit": "440a635"
+    }
+  }
+}

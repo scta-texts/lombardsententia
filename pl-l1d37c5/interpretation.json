@@ -1,0 +1,59 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-09-30T23:52:06Z",
+    "model": "claude-sonnet-5-5",
+    "prompt_version": "interpretation-v1",
+    "source_commit": "440a635",
+    "generation_method": "hierarchical"
+  },
+  "pll1d37c5-d1e3501": {
+    "summary": "Since God is essentially in every place and time he is not moved, local, or temporal; he is not circumscribed by place, is not in one place to the exclusion of others, and has no dimension like a body.",
+    "claims": [
+      "God is not local nor temporal.",
+      "God lacks dimensions and spatial distinctions proper to bodies."
+    ],
+    "concepts": [
+      "immutability",
+      "circumscription",
+      "dimension",
+      "body"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pl-l1d37c5",
+        "pll1d37c5-Hd1e3496"
+      ],
+      "model": "claude-sonnet-5-5",
+      "prompt_version": "interpretation-paragraph-v1",
+      "generated_at": "2026-09-30T23:52:06Z",
+      "source_commit": "440a635"
+    }
+  },
+  "pl-l1d37c5": {
+    "summary": "States that God, though truly and essentially in all places and times, is not moved by place or time and is neither local nor temporal, since he is not circumscribed by place or dimension.",
+    "claims": [
+      "God is not moved by place or time.",
+      "God is not local because he is not circumscribed and has no dimension."
+    ],
+    "concepts": [
+      "divine immutability",
+      "locality",
+      "circumscription",
+      "dimension"
+    ],
+    "_metadata": {
+      "level": "capitulum",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "pll1d37c5-d1e3501"
+      ],
+      "model": "claude-sonnet-5-5",
+      "prompt_version": "interpretation-capitulum-v1",
+      "generated_at": "2026-09-30T23:52:06Z",
+      "source_commit": "440a635"
+    }
+  }
+}

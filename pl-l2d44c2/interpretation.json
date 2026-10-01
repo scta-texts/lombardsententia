@@ -1,0 +1,134 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-09-30T23:52:06Z",
+    "model": "claude-sonnet-5-5",
+    "prompt_version": "interpretation-v1",
+    "source_commit": "440a635",
+    "generation_method": "hierarchical"
+  },
+  "pl-l2d44c2-d1e108": {
+    "summary": "Raises the difficulty: if the devil's power is from God's ordination and Romans 13 forbids resisting power, the devil's power seems not to be resisted.",
+    "claims": [
+      "If all power is ordained by God and resisting power resists God, evil power seems not to be resistible."
+    ],
+    "concepts": [
+      "divine ordination",
+      "resistance",
+      "potestas"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pl-l2d44c2",
+        "pl-l2d44c2-Hd1e102",
+        "pl-l2d44c2-Hd1e105"
+      ],
+      "model": "claude-sonnet-5-5",
+      "prompt_version": "interpretation-paragraph-v1",
+      "generated_at": "2026-09-30T23:52:06Z",
+      "source_commit": "440a635"
+    }
+  },
+  "pl-l2d44c2-d1e111": {
+    "summary": "Resolves it: Paul speaks of secular rulers and of what is owed them (tribute etc.); when a ruler or the devil commands or urges against God, resistance is required.",
+    "claims": [
+      "Paul's prohibition applies to secular authorities in what God bids be rendered.",
+      "One must resist commands contrary to God."
+    ],
+    "concepts": [
+      "secular power",
+      "limits of obedience",
+      "interpretation of Scripture"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pl-l2d44c2",
+        "pl-l2d44c2-Hd1e102",
+        "pl-l2d44c2-Hd1e105"
+      ],
+      "model": "claude-sonnet-5-5",
+      "prompt_version": "interpretation-paragraph-v1",
+      "generated_at": "2026-09-30T23:52:06Z",
+      "source_commit": "440a635"
+    }
+  },
+  "pl-l2d44c2-d1e114": {
+    "summary": "Augustine, De natura boni: a lower authority's command against a higher one is to be disregarded, as a governor's against the proconsul's and the proconsul's against the emperor's; so too against God.",
+    "claims": [
+      "Where a power's command contradicts God's, obey God and disregard the power."
+    ],
+    "concepts": [
+      "hierarchy of authority",
+      "obedience to God",
+      "argument from analogy"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pl-l2d44c2",
+        "pl-l2d44c2-Hd1e102",
+        "pl-l2d44c2-Hd1e105"
+      ],
+      "model": "claude-sonnet-5-5",
+      "prompt_version": "interpretation-paragraph-v1",
+      "generated_at": "2026-09-30T23:52:06Z",
+      "source_commit": "440a635"
+    }
+  },
+  "pl-l2d44c2-d1e120": {
+    "summary": "Conclusion: resist the power of devil or human when they suggest something against God; thereby one obeys rather than resists God's ordination.",
+    "claims": [
+      "Resisting contra-divine commands is obedience to divine ordination."
+    ],
+    "concepts": [
+      "resistance",
+      "obedience",
+      "divine precept"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pl-l2d44c2",
+        "pl-l2d44c2-Hd1e102",
+        "pl-l2d44c2-Hd1e105"
+      ],
+      "model": "claude-sonnet-5-5",
+      "prompt_version": "interpretation-paragraph-v1",
+      "generated_at": "2026-09-30T23:52:06Z",
+      "source_commit": "440a635"
+    }
+  },
+  "pl-l2d44c2": {
+    "summary": "Lombard resolves an apparent conflict between divine ordination of power and the duty to resist evil power: Romans 13 concerns lawful secular authority, and resistance is required whenever a power commands against God, following Augustine's hierarchy of authorities.",
+    "claims": [
+      "Resisting a power commanding against God is obedience to God's ordination, not resistance to it.",
+      "Romans 13 concerns secular power in matters God commands to be rendered."
+    ],
+    "concepts": [
+      "resistance to power",
+      "obedience",
+      "hierarchy of authority",
+      "divine ordination"
+    ],
+    "_metadata": {
+      "level": "capitulum",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "pl-l2d44c2-d1e108",
+        "pl-l2d44c2-d1e111",
+        "pl-l2d44c2-d1e114",
+        "pl-l2d44c2-d1e120"
+      ],
+      "model": "claude-sonnet-5-5",
+      "prompt_version": "interpretation-capitulum-v1",
+      "generated_at": "2026-09-30T23:52:06Z",
+      "source_commit": "440a635"
+    }
+  }
+}

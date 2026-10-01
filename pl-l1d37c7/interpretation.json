@@ -1,0 +1,107 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-09-30T23:52:06Z",
+    "model": "claude-sonnet-5-5",
+    "prompt_version": "interpretation-v1",
+    "source_commit": "440a635",
+    "generation_method": "hierarchical"
+  },
+  "pll1d37c7-d1e3501": {
+    "summary": "Defines change by time as variation in interior qualities (joy, pain, knowledge) or in form, occurring in both corporeal and spiritual creatures.",
+    "claims": [
+      "Temporal change is variation of qualities in corporeal or spiritual creatures."
+    ],
+    "concepts": [
+      "temporal change",
+      "quality"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pl-l1d37c7",
+        "pll1d37c7-Hd1e3496"
+      ],
+      "model": "claude-sonnet-5-5",
+      "prompt_version": "interpretation-paragraph-v1",
+      "generated_at": "2026-09-30T23:52:06Z",
+      "source_commit": "440a635"
+    }
+  },
+  "pll1d37c7-d1e3504": {
+    "summary": "Reports a dispute: some deny that any spirit changes place, restricting place to dimension and circumscription, and claim Augustine held this.",
+    "claims": [
+      "Some hold that spirits cannot change place, because place requires dimension."
+    ],
+    "concepts": [
+      "spirit and place",
+      "opposing view"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pl-l1d37c7",
+        "pll1d37c7-Hd1e3496"
+      ],
+      "model": "claude-sonnet-5-5",
+      "prompt_version": "interpretation-paragraph-v1",
+      "generated_at": "2026-09-30T23:52:06Z",
+      "source_commit": "440a635"
+    }
+  },
+  "pll1d37c7-d1e3510": {
+    "summary": "Lombard's resolution: by the two senses of 'local', bodies satisfy both, spirits only place-definition; spirits do pass from place to place without dimension or occupation. Augustine attributes local motion to bodies in the dimensional sense.",
+    "claims": [
+      "Spirits are in place by definition but do not occupy space or crowd bodies.",
+      "Augustine's denial concerns dimensional motion, not any passage of spirits."
+    ],
+    "concepts": [
+      "locality",
+      "created spirits",
+      "dimension",
+      "interpretation of Augustine"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pl-l1d37c7",
+        "pll1d37c7-Hd1e3496"
+      ],
+      "model": "claude-sonnet-5-5",
+      "prompt_version": "interpretation-paragraph-v1",
+      "generated_at": "2026-09-30T23:52:06Z",
+      "source_commit": "440a635"
+    }
+  },
+  "pl-l1d37c7": {
+    "summary": "Defines change through time as variation of interior or exterior qualities, then addresses a dispute over whether spirits change place. Lombard rejects the view that spirits cannot change place, distinguishing the dimensional and definitional senses of 'local' so that Augustine's denial of local motion to spirits is understood as denial of dimensional motion.",
+    "claims": [
+      "Temporal change is variation in qualities.",
+      "Created spirits can change place, but not dimensionally.",
+      "Augustine attributes local change to bodies in the sense of dimensional circumscription."
+    ],
+    "concepts": [
+      "temporal change",
+      "local motion",
+      "created spirits",
+      "circumscription",
+      "interpretation of Augustine"
+    ],
+    "_metadata": {
+      "level": "capitulum",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "pll1d37c7-d1e3501",
+        "pll1d37c7-d1e3504",
+        "pll1d37c7-d1e3510"
+      ],
+      "model": "claude-sonnet-5-5",
+      "prompt_version": "interpretation-capitulum-v1",
+      "generated_at": "2026-09-30T23:52:06Z",
+      "source_commit": "440a635"
+    }
+  }
+}

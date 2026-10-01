@@ -1,0 +1,157 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-09-30T23:52:06Z",
+    "model": "claude-sonnet-5-5",
+    "prompt_version": "interpretation-v1",
+    "source_commit": "440a635",
+    "generation_method": "hierarchical"
+  },
+  "pll1d37c6-d1e3501": {
+    "summary": "Two senses of local or circumscribable: having dimension producing distance in place, and being defined by place (here and not everywhere), the latter applicable to every created spirit.",
+    "claims": [
+      "'Local' has two senses: dimensional and definitional.",
+      "Every created spirit is local in the definitional sense."
+    ],
+    "concepts": [
+      "locality",
+      "circumscription",
+      "dimension"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pl-l1d37c6",
+        "pll1d37c6-Hd1e3496"
+      ],
+      "model": "claude-sonnet-5-5",
+      "prompt_version": "interpretation-paragraph-v1",
+      "generated_at": "2026-09-30T23:52:06Z",
+      "source_commit": "440a635"
+    }
+  },
+  "pll1d37c6-d1e3504": {
+    "summary": "Applies: bodies are local in every way; created spirits are local by definition of place but not dimensionally.",
+    "claims": [
+      "Created spirits are local only by place-definition, not by dimension."
+    ],
+    "concepts": [
+      "created spirit",
+      "locality"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pl-l1d37c6",
+        "pll1d37c6-Hd1e3496"
+      ],
+      "model": "claude-sonnet-5-5",
+      "prompt_version": "interpretation-paragraph-v1",
+      "generated_at": "2026-09-30T23:52:06Z",
+      "source_commit": "440a635"
+    }
+  },
+  "pll1d37c6-d1e3507": {
+    "summary": "Only the divine essence is wholly non-local and uncircumscribed, moved neither by place nor by time (affection and cognition); change by these two modes belongs to creatures.",
+    "claims": [
+      "God alone is wholly non-local and uncircumscribed.",
+      "Change by place and time belongs to creatures, not God."
+    ],
+    "concepts": [
+      "divine simplicity",
+      "immutability",
+      "creature-creator distinction"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pl-l1d37c6",
+        "pll1d37c6-Hd1e3496"
+      ],
+      "model": "claude-sonnet-5-5",
+      "prompt_version": "interpretation-paragraph-v1",
+      "generated_at": "2026-09-30T23:52:06Z",
+      "source_commit": "440a635"
+    }
+  },
+  "pll1d37c6-d1e3511": {
+    "summary": "Augustine, De Genesi ad litteram: God moves spiritual creatures through time and bodies through time and place while remaining unchanged, being interior to and exterior to all things, prior to and posterior to all.",
+    "claims": [
+      "God moves creatures through time and place while his own substance remains immutable.",
+      "God is interior, exterior, prior, and later than all things."
+    ],
+    "concepts": [
+      "divine immutability",
+      "divine transcendence and immanence",
+      "providence"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pl-l1d37c6",
+        "pll1d37c6-Hd1e3496"
+      ],
+      "model": "claude-sonnet-5-5",
+      "prompt_version": "interpretation-paragraph-v1",
+      "generated_at": "2026-09-30T23:52:06Z",
+      "source_commit": "440a635"
+    }
+  },
+  "pll1d37c6-d1e3533": {
+    "summary": "Conclusion from Augustine: God is not changed or moved by place or time; spiritual creatures move through time, bodily through time and place.",
+    "claims": [
+      "God is not moved by place or time.",
+      "Spiritual creatures move by time, bodily by time and place."
+    ],
+    "concepts": [
+      "immutability",
+      "creaturely motion"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pl-l1d37c6",
+        "pll1d37c6-Hd1e3496"
+      ],
+      "model": "claude-sonnet-5-5",
+      "prompt_version": "interpretation-paragraph-v1",
+      "generated_at": "2026-09-30T23:52:06Z",
+      "source_commit": "440a635"
+    }
+  },
+  "pl-l1d37c6": {
+    "summary": "Distinguishes two senses of 'local' or 'circumscribed' (having dimension; being defined by place so as not to be everywhere): bodies are local in both, created spirits in the second only, God in neither. Confirms by Augustine that God moves creatures through time and place without himself changing.",
+    "claims": [
+      "Bodies are local in both senses; created spirits only in the second; God in neither.",
+      "Creatures change by time and place; God does neither.",
+      "Spiritual creatures move by time, bodily creatures by time and place."
+    ],
+    "concepts": [
+      "locality",
+      "circumscription",
+      "dimension",
+      "divine immutability",
+      "created spirit"
+    ],
+    "_metadata": {
+      "level": "capitulum",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "pll1d37c6-d1e3501",
+        "pll1d37c6-d1e3504",
+        "pll1d37c6-d1e3507",
+        "pll1d37c6-d1e3511",
+        "pll1d37c6-d1e3533"
+      ],
+      "model": "claude-sonnet-5-5",
+      "prompt_version": "interpretation-capitulum-v1",
+      "generated_at": "2026-09-30T23:52:06Z",
+      "source_commit": "440a635"
+    }
+  }
+}

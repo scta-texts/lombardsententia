@@ -1,0 +1,180 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-09-30T23:52:06Z",
+    "model": "claude-sonnet-5-5",
+    "prompt_version": "interpretation-v1",
+    "source_commit": "440a635",
+    "generation_method": "hierarchical"
+  },
+  "pll1d37c4-d1e3501": {
+    "summary": "Augustine states the objection: how can God be substantially in all things without being touched by bodily impurities?",
+    "claims": [
+      "The objection: substantial presence seems to imply contamination."
+    ],
+    "concepts": [
+      "objection",
+      "substantial presence",
+      "contamination"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pl-l1d37c4",
+        "pll1d37c4-Hd1e3496"
+      ],
+      "model": "claude-sonnet-5-5",
+      "prompt_version": "interpretation-paragraph-v1",
+      "generated_at": "2026-09-30T23:52:06Z",
+      "source_commit": "440a635"
+    }
+  },
+  "pll1d37c4-d1e3513": {
+    "summary": "Augustine's reply: the objection is frivolous; created spirit is not defiled by bodily filth; the sun's rays are not polluted; all the more divine essence, simple and unchangeable, fills all without contamination.",
+    "claims": [
+      "The divine essence fills all without contamination.",
+      "Created spirits and sunlight show that the pure is not defiled by contact with the impure."
+    ],
+    "concepts": [
+      "divine purity",
+      "simplicity",
+      "sun analogy"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pl-l1d37c4",
+        "pll1d37c4-Hd1e3496"
+      ],
+      "model": "claude-sonnet-5-5",
+      "prompt_version": "interpretation-paragraph-v1",
+      "generated_at": "2026-09-30T23:52:06Z",
+      "source_commit": "440a635"
+    }
+  },
+  "pll1d37c4-d1e3528": {
+    "summary": "Augustine, De natura boni: all things are in God yet sinners do not defile him; Wisdom touches all things for her purity.",
+    "claims": [
+      "Sinners do not defile God, in whom all things are."
+    ],
+    "concepts": [
+      "divine purity",
+      "Wisdom"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pl-l1d37c4",
+        "pll1d37c4-Hd1e3496"
+      ],
+      "model": "claude-sonnet-5-5",
+      "prompt_version": "interpretation-paragraph-v1",
+      "generated_at": "2026-09-30T23:52:06Z",
+      "source_commit": "440a635"
+    }
+  },
+  "pll1d37c4-d1e3566": {
+    "summary": "Augustine, De agone: the sun analogy applied to the incarnation: if visible pure things are not defiled, so much more invisible Truth.",
+    "claims": [
+      "The incarnation and omnipresence do not defile divine truth."
+    ],
+    "concepts": [
+      "incarnation",
+      "sun analogy",
+      "divine purity"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pl-l1d37c4",
+        "pll1d37c4-Hd1e3496"
+      ],
+      "model": "claude-sonnet-5-5",
+      "prompt_version": "interpretation-paragraph-v1",
+      "generated_at": "2026-09-30T23:52:06Z",
+      "source_commit": "440a635"
+    }
+  },
+  "pll1d37c4-d1e3584": {
+    "summary": "Lombard's dilemma: God must be nowhere, everywhere, or somewhere only; the first and third are unacceptable (somewhere only implies local), so God is everywhere whole, indivisible, unstainable, incomprehensible.",
+    "claims": [
+      "God is everywhere whole and cannot be divided, defiled, or comprehended.",
+      "Being somewhere only would make God local."
+    ],
+    "concepts": [
+      "immensity",
+      "simplicity",
+      "locality",
+      "dilemma"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pl-l1d37c4",
+        "pll1d37c4-Hd1e3496"
+      ],
+      "model": "claude-sonnet-5-5",
+      "prompt_version": "interpretation-paragraph-v1",
+      "generated_at": "2026-09-30T23:52:06Z",
+      "source_commit": "440a635"
+    }
+  },
+  "pll1d37c4-d1e3587": {
+    "summary": "Augustine: God is everywhere, and we approach him by actions, not places.",
+    "claims": [
+      "Nearness to God is through actions, not spatial proximity."
+    ],
+    "concepts": [
+      "non-spatial nearness",
+      "moral proximity"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pl-l1d37c4",
+        "pll1d37c4-Hd1e3496"
+      ],
+      "model": "claude-sonnet-5-5",
+      "prompt_version": "interpretation-paragraph-v1",
+      "generated_at": "2026-09-30T23:52:06Z",
+      "source_commit": "440a635"
+    }
+  },
+  "pl-l1d37c4": {
+    "summary": "Responds to the objection that God's essential presence in all things would defile him with their impurities, using Augustine's sun analogy and arguments from divine simplicity, purity, and immensity; concludes that God is wholly everywhere without division, stain, or limitation.",
+    "claims": [
+      "God is not contaminated by the things in which he is essentially present.",
+      "God is neither nowhere nor somewhere only; he is everywhere whole.",
+      "God is near by actions, not by places."
+    ],
+    "concepts": [
+      "divine purity",
+      "divine simplicity",
+      "omnipresence",
+      "sun analogy",
+      "immensity"
+    ],
+    "_metadata": {
+      "level": "capitulum",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "pll1d37c4-d1e3501",
+        "pll1d37c4-d1e3513",
+        "pll1d37c4-d1e3528",
+        "pll1d37c4-d1e3566",
+        "pll1d37c4-d1e3584",
+        "pll1d37c4-d1e3587"
+      ],
+      "model": "claude-sonnet-5-5",
+      "prompt_version": "interpretation-capitulum-v1",
+      "generated_at": "2026-09-30T23:52:06Z",
+      "source_commit": "440a635"
+    }
+  }
+}

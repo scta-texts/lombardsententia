@@ -1,0 +1,164 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-09-30T23:58:48Z",
+    "model": "claude-sonnet-5-5",
+    "prompt_version": "interpretation-distinctio-v1",
+    "source_commit": "440a635",
+    "generation_method": "hierarchical",
+    "scope": "every structural ancestor above the item level, up to the whole work; partial where descendants lack interpretations (see each entry's _metadata.partial and coverage)"
+  },
+  "pl-l1d37": {
+    "summary": "Lombard's treatment of the ways God is in things, arising as a digression from the discussion of divine knowledge and whether things are 'in God'. He establishes that God is everywhere by essence, presence, and power, yet dwells only in the good by grace (c1-3), defends divine purity against contamination by things (c4), and then argues that God is neither local nor temporal and changes by neither place nor time (c5-9). To this end he distinguishes bodily locality (dimension plus place-definition) from created spirits' locality (place-definition only) and from God's complete non-locality, answering the objection that God's coming to be in new creatures implies change.",
+    "claims": [
+      "God is essentially, presentially, and potentially in all things without limitation or change.",
+      "God dwells by grace only in the good, and in Christ by the grace of union.",
+      "God's presence to things does not defile him (simplicity and purity).",
+      "God is neither circumscribed nor moved by place or time; created spirits are local in a qualified sense, bodies wholly so.",
+      "God's beginning to be in new creatures implies no change in God.",
+      "The mode of God's essential omnipresence exceeds human comprehension."
+    ],
+    "concepts": [
+      "divine omnipresence",
+      "presence, power, essence",
+      "indwelling by grace",
+      "divine simplicity and purity",
+      "divine immutability",
+      "locality and circumscription",
+      "created spirits and angels",
+      "limits of human knowledge"
+    ],
+    "_metadata": {
+      "level": "distinctio",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "pl-l1d37c1",
+        "pl-l1d37c2",
+        "pl-l1d37c3",
+        "pl-l1d37c4",
+        "pl-l1d37c5",
+        "pl-l1d37c6",
+        "pl-l1d37c7",
+        "pl-l1d37c8",
+        "pl-l1d37c9"
+      ],
+      "model": "claude-sonnet-5-5",
+      "prompt_version": "interpretation-distinctio-v1",
+      "generated_at": "2026-09-30T23:58:48Z",
+      "source_commit": "440a635",
+      "source_structure": "/scta-projectfiles/pl-projectdata.xml"
+    }
+  },
+  "pl-l2d44": {
+    "summary": "Lombard asks about the source of the power to sin and the duty of resistance to power. He argues against those who assign the power of evil to humans or the devil that all power, even power to do harm, comes from God, with culpability lying in the will and in proud misuse (c1); he then reconciles this with Romans 13 by holding that resistance to any power commanding against God is obedience to God's ordination (c2).",
+    "claims": [
+      "The power of sinning or harming is from God, though the will to do so is not.",
+      "Culpability lies in the abuse of power, not in power itself.",
+      "Romans 13 concerns lawful secular power; commands against God must be resisted.",
+      "Resisting a contra-divine command is obedience to the divine ordering."
+    ],
+    "concepts": [
+      "divine causality of power",
+      "power versus will",
+      "origin of evil",
+      "divine justice",
+      "resistance and obedience",
+      "hierarchy of authority"
+    ],
+    "_metadata": {
+      "level": "distinctio",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "pl-l2d44c1",
+        "pl-l2d44c2"
+      ],
+      "model": "claude-sonnet-5-5",
+      "prompt_version": "interpretation-distinctio-v1",
+      "generated_at": "2026-09-30T23:58:48Z",
+      "source_commit": "440a635",
+      "source_structure": "/scta-projectfiles/pl-projectdata.xml"
+    }
+  },
+  "pl-liber1": {
+    "summary": "Partial summary of Book 1 (on the Trinity and God), based only on Distinction 37. There Lombard treats how God is in things: essentially, presentially, and potentially in all things yet by grace only in the good, undefiled by creatures, and neither local nor temporal, as part of the doctrine of divine attributes and knowledge. The remaining distinctions of Book 1 have not yet been interpreted, so this entry does not represent the whole book.",
+    "claims": [
+      "God is omnipresent by essence, presence, and power without locality or change.",
+      "God's indwelling is by grace and differs from his universal presence."
+    ],
+    "concepts": [
+      "divine omnipresence",
+      "indwelling by grace",
+      "divine immutability",
+      "locality and circumscription"
+    ],
+    "_metadata": {
+      "level": "liber",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "pl-l1d37"
+      ],
+      "partial": true,
+      "coverage": "1 of 48 direct children have interpretations",
+      "model": "claude-sonnet-5-5",
+      "prompt_version": "interpretation-distinctio-v1",
+      "generated_at": "2026-10-01T00:05:42Z",
+      "source_commit": "440a635",
+      "source_structure": "/scta-projectfiles/pl-projectdata.xml"
+    }
+  },
+  "pl-liber2": {
+    "summary": "Partial summary of Book 2 (on creation and sin), based only on Distinction 44. There Lombard argues that all power, including the power to sin or harm, is from God while the guilt lies in the will's abuse of it, and that resisting a power that commands against God is obedience to God's ordering. The remaining distinctions of Book 2 have not yet been interpreted, so this entry does not represent the whole book.",
+    "claims": [
+      "The power to sin is from God; the evil lies in the will and its misuse.",
+      "Power commanding against God must be resisted, which is obedience to God."
+    ],
+    "concepts": [
+      "divine causality of power",
+      "power versus will",
+      "origin of evil",
+      "resistance and obedience"
+    ],
+    "_metadata": {
+      "level": "liber",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "pl-l2d44"
+      ],
+      "partial": true,
+      "coverage": "1 of 44 direct children have interpretations",
+      "model": "claude-sonnet-5-5",
+      "prompt_version": "interpretation-distinctio-v1",
+      "generated_at": "2026-10-01T00:05:42Z",
+      "source_commit": "440a635",
+      "source_structure": "/scta-projectfiles/pl-projectdata.xml"
+    }
+  },
+  "lombardsententia": {
+    "summary": "Very partial summary of Peter Lombard's Sentences, based only on Liber 1 (Distinction 37) and Liber 2 (Distinction 44); Liber 3 and Liber 4 have no interpretations yet. The interpreted portions show Lombard's method of assembling patristic and scriptural authorities to resolve questions: God's non-local, immutable, grace-indwelling presence in creation (Book 1) and God's sovereignty over power together with the moral limits of obedience (Book 2).",
+    "claims": [
+      "Lombard resolves questions on God and creation by collating patristic and scriptural authorities, chiefly Augustine.",
+      "Divine causality of power and divine immutable presence are maintained alongside creaturely responsibility and distinction."
+    ],
+    "concepts": [
+      "divine omnipresence",
+      "divine causality of power",
+      "patristic authority",
+      "origin of evil"
+    ],
+    "_metadata": {
+      "level": "work",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "pl-liber1",
+        "pl-liber2"
+      ],
+      "partial": true,
+      "coverage": "2 of 4 direct children have interpretations",
+      "model": "claude-sonnet-5-5",
+      "prompt_version": "interpretation-distinctio-v1",
+      "generated_at": "2026-10-01T00:05:42Z",
+      "source_commit": "440a635",
+      "source_structure": "/scta-projectfiles/pl-projectdata.xml"
+    }
+  }
+}
