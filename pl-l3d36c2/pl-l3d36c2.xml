@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -63,14 +61,14 @@
           aliam, sicut eam plenius habet quam aliam. Non tamen magis per aliquam mereri dicunt quam
           per caritatem, nec aliquam plenius a quoquam haberi quam caritatem. Alias igitur magis, et
           alias minus in aliquo esse dicunt, sed nullam plenius caritate, quae celeras gignit;
-          hasque dicunt esse multas facies, quas memorat <name ref="Paul">Apostolus</name> dicens:
+          hasque dicunt esse multas facies, quas memorat <name xml:id="pl-l3d36c2-Nd1e114" ref="Paul">Apostolus</name> dicens:
           <quote xml:id="pl-l3d36c2-Qd1e123">Ex personis multarum facierum</quote> etc.</p>
         <p xml:id="pl-l3d36c2-d1e127">Alii verius dicunt, omnes virtutes et simul et pares esse in
           quocumque sunt, ut qui in una alteri par extiterit, in omnibus eidem aequalis sit.</p>
         <p xml:id="pl-l3d36c2-d1e131">
           Unde 
           <ref xml:id="pl-l3d36c2-Qd1e136">
-            <name ref="#Augustine">Augustinus</name>
+            <name xml:id="pl-l3d36c2-Nd1e129" ref="#Augustine">Augustinus</name>
           </ref>: 
           <cit>
             <quote xml:id="pl-l3d36c2-Qd1e136" source="http://scta.info/resource/adt-l6-d1e801@3-78">
@@ -87,12 +85,12 @@
         <p xml:id="pl-l3d36c2-d1e140">
           Ex his clarescit, omnes virtutes non modo esse connexas, sed
           etiam pares in animo hominis. Cum ergo dicitur aliquis aliqua praeeminere virtute, ut
-          <name ref="#Abraham">Abraham</name> fide, Iob patientia, secundum usus exteriores
+          <name xml:id="pl-l3d36c2-Nd1e142" ref="#Abraham">Abraham</name> fide, Iob patientia, secundum usus exteriores
           accipiendum est, vel in comparatione aliorum hominum, quia vel humilitatis habitum maxime
           praefert, vel opus fidei, vel alicuius ceterarum virtutum praecipue exsequitur. Unde et ea
           prae aliis pollere, vel inter alios homines singulariter excellere dicitur secundum hunc
           modum, scilicet secundum rationem actuum exteriorum.</p>
-        <p xml:id="pl-l3d36c2-d1e146">Alibi <name ref="#Augustine">Augustinus</name> dicit, in
+        <p xml:id="pl-l3d36c2-d1e146">Alibi <name xml:id="pl-l3d36c2-Nd1e148" ref="#Augustine">Augustinus</name> dicit, in
           aliquo aliam magis esse virtutem, aliam minus, et unam esse, et non alteram. Ait enim sic:
           <quote xml:id="pl-l3d36c2-Qd1e151"> Clarissima disputatione tua satis apparuit, non
           placuisse auctoribus nostris, immo ipsi Veritati, omnia paria esse peccata, etiam si hoc
@@ -121,10 +119,7 @@
           tamen habet in habitu.</p>
         <p xml:id="pl-l3d36c2-d1e161">Cur ergo non dicantur paria peccata? Forte quia magis facit
           contra caritatem qui gravius peccat, minus qui levius. Nemo enim</p>
-        <p xml:id="pl-l3d36c2-d1e164">peccat, nisi adversus illam faciendo, quae est <quote
-          xml:id="pl-l3d36c2-Qd1e166">plenitudo Legis;</quote> ideo recte dicitur: <quote
-          xml:id="pl-l3d36c2-Qd1e169">Qui offenderit in uno</quote>, <quote
-          xml:id="pl-l3d36c2-Qd1e172">factus est omnium reus</quote>, id est, contra caritatem
+        <p xml:id="pl-l3d36c2-d1e164">peccat, nisi adversus illam faciendo, quae est <quote xml:id="pl-l3d36c2-Qd1e166">plenitudo Legis;</quote> ideo recte dicitur: <quote xml:id="pl-l3d36c2-Qd1e169" source="http://scta.info/resource/iac2_10@8-13">Qui offenderit in uno</quote>, <quote xml:id="pl-l3d36c2-Qd1e172">factus est omnium reus</quote>, id est, contra caritatem
           facit, in qua pendent omnia <!--</quote>-->.</p>
       </div>
     </body>

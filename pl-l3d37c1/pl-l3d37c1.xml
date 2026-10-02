@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -61,15 +59,13 @@
           decem praecepta, quae sunt decachordum Psalterium; quae sic sunt distributa, ut tria, quae
           sunt in prima tabula, pertineant ad Deum, scilicet ad cognitionem et dilectionem
           Trinitatis; septem, quae sunt in secunda tabula, ad dilectionem proximi </quote>.</p>
-        <p xml:id="pl-l3d37c1-d1e124">Primum in prima tabula est: <quote xml:id="pl-l3d37c1-Qd1e126"
-          >Non habebis deos alienos; non facies libi sculptile neque omnem similitudinem,</quote>
+        <p xml:id="pl-l3d37c1-d1e124">Primum in prima tabula est: <quote xml:id="pl-l3d37c1-Qd1e126"><quote xml:id="pl-l3d37c1-Qd1e121" source="http://scta.info/resource/ex20_3@1-4">Non habebis deos alienos</quote>; non facies libi <quote xml:id="pl-l3d37c1-Qd1e124" source="http://scta.info/resource/ex20_4@4-7">sculptile neque omnem similitudinem</quote>,</quote>
           etc.</p>
-        <p xml:id="pl-l3d37c1-d1e131">Haec <name ref="Origen">Origenes</name> dicit esse duo
-          mandata, sed <name ref="#Augustine">Augustinus</name> unum. Hoc ipsum enim, quod dixerat:
-          <quote xml:id="pl-l3d37c1-Qd1e139">non habebis deos alienos,</quote> perfectius explicat,
+        <p xml:id="pl-l3d37c1-d1e131">Haec <name xml:id="pl-l3d37c1-Nd1e132" ref="Origen">Origenes</name> dicit esse duo
+          mandata, sed <name xml:id="pl-l3d37c1-Nd1e135" ref="#Augustine">Augustinus</name> unum. Hoc ipsum enim, quod dixerat:
+          <quote xml:id="pl-l3d37c1-Qd1e139" source="http://scta.info/resource/ex20_3@1-4">non habebis deos alienos,</quote> perfectius explicat,
           cum prohibet coli figmenta, scilicet idolum, vel similitudinem alicuius rei; quae duo
-          <name ref="Origen">Origenes</name> ita dicit distare, <quote xml:id="pl-l3d37c1-Qd1e145"
-          >ut idolum sit quod nihil habet simile sui; similitudo vero, quod habet speciem alicuius
+          <name xml:id="pl-l3d37c1-Nd1e141" ref="Origen">Origenes</name> ita dicit distare, <quote xml:id="pl-l3d37c1-Qd1e145">ut idolum sit quod nihil habet simile sui; similitudo vero, quod habet speciem alicuius
           rei; ut verbi gratia, si quis in auro vel ligno vel alia re faciat speciem serpentis vel
           avis vel alius rei, et statuat ad adorandum, non idolum, sed similitudinem fecit. Qui vero
           facit speciem, quam non vidit oculus, sed animus sibi finxit, ut si quis humanis membris

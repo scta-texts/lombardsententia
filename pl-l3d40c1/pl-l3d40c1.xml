@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -57,16 +55,13 @@
           non animum.</head>
         <p xml:id="pl-l3d40c1-d1e115">Sextum praeceptum est: <quote xml:id="pl-l3d40c1-Qd1e117">Non
           desiderabis uxorem proximi tui.</quote> </p>
-        <p xml:id="pl-l3d40c1-d1e121">Septimum:<quote xml:id="pl-l3d40c1-Qd1e123"> Non concupisces
+        <p xml:id="pl-l3d40c1-d1e121">Septimum:<quote xml:id="pl-l3d40c1-Qd1e123" source="http://scta.info/resource/ex20_17@1-13"> Non concupisces
           domum proximi tui, non servum, non ancillam,</quote> etc.</p>
         <p xml:id="pl-l3d40c1-d1e127">Sed videtur praeceptum de non concupiscendis rebus proximi
           unum esse cum eo quo dicitur: <quote xml:id="pl-l3d40c1-Qd1e129">Non furaberis;</quote> et
-          praeceptum de non concupiscenda uxore unum esse cum eo quo dicitur: <quote
-          xml:id="pl-l3d40c1-Qd1e132">Non moechaberis.</quote> <quote xml:id="pl-l3d40c1-Qd1e135">
+          praeceptum de non concupiscenda uxore unum esse cum eo quo dicitur: <quote xml:id="pl-l3d40c1-Qd1e132">Non moechaberis.</quote> <quote xml:id="pl-l3d40c1-Qd1e135">
           Poterat enim praeceptum non furandi in illa generalitate intelligi, ubi de non
-          concupiscenda re proximi praecipitur; et in eo quod dictum est: <quote
-          xml:id="pl-l3d40c1-Qd1e137">Non moechaberis,</quote> poterat illud intelligi: <quote
-          xml:id="pl-l3d40c1-Qd1e140">Non concupisces uxorem proximi tui.</quote> Sed in illis
+          concupiscenda re proximi praecipitur; et in eo quod dictum est: <quote xml:id="pl-l3d40c1-Qd1e137">Non moechaberis,</quote> poterat illud intelligi: <quote xml:id="pl-l3d40c1-Qd1e140" source="http://scta.info/resource/deut5_21@1-5">Non concupisces uxorem proximi tui.</quote> Sed in illis
           duobus praeceptis non moechandi et non furandi, ipsa opera notata sunt et prohibita, in
           his vero extremis ipsa concupiscentia </quote>. Multum ergo differunt illa ab istis. Unde
           illi praecepto non moechandi fit superadditio in Evangelio, ubi omnis concupiscentia

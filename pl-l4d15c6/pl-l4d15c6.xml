@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -80,7 +78,7 @@
           Et in huius opinionis munimentum auctoritates inducunt.
         </p>
         <p xml:id="pl-l4d15c6-d1e124">
-          Ait enim <name ref="#Augustine">Augustinus</name>: 
+          Ait enim <name xml:id="pl-l4d15c6-Nd1e123" ref="#Augustine">Augustinus</name>: 
           <cit>
             <quote xml:id="pl-l4d15c6-Qd1e129">
               Pium est credere, et nostra fides hoc postulat, ut, cum
@@ -90,7 +88,7 @@
           </cit>.
           </p>
         <p xml:id="pl-l4d15c6-d1e134">
-        Item, <name ref="#Jerome">Hieronymus</name>: 
+        Item, <name xml:id="pl-l4d15c6-Nd1e136" ref="#Jerome">Hieronymus</name>: 
         <cit>
           <quote xml:id="pl-l4d15c6-Qd1e139">
             Si quando videris, inter multa peccata quemquam facere aliqua
@@ -110,8 +108,8 @@
           mala mortificaverant, poenitentia de illis malis habita, vivificantur et remunerantur.
         </p>
         <p xml:id="pl-l4d15c6-d1e146">
-          Unde <name ref="Paul">Apostolus</name>: lacientes fundamentum
-          poenitentiae ab operibus mortuis; opera mortua nominans, priora bona significat, quae per
+          Unde <name xml:id="pl-l4d15c6-Nd1e151" ref="Paul">Apostolus</name>: <quote xml:id="pl-l4d15c6-Qd1e154" source="http://scta.info/resource/hebr6_1@11-16">lacientes fundamentum
+          poenitentiae ab operibus mortuis</quote>; opera mortua nominans, priora bona significat, quae per
           sequens peccatum erant mortua , quia hi peccando priora bona irrita fecerunt. Haec sicut
           peccando fiunt irrita, ita per poenitentiam reviviscunt, et ad meritum aeternitatis
           prodesse incipiunt. Similiter et illud bonum amat Deus, quod plantavit in peccante, in

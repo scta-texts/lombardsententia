@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -60,10 +58,9 @@
           benedicti,</quote> et: <quote xml:id="pl-l4d47c1-Qd1e123">Ite maledicti;</quote> an
           virtute indicis ita fiat, conscientiis singulorum attestantibus, ut modo dicitur futurum,
           ut iudicis potentiae effectus ipsius dictione significetur.</p>
-        <p xml:id="pl-l4d47c1-d1e127">Illa etiam: <quote xml:id="pl-l4d47c1-Qd1e129">Esurivi, et non
+        <p xml:id="pl-l4d47c1-d1e127">Illa etiam: <quote xml:id="pl-l4d47c1-Qd1e129" source="http://scta.info/resource/mt25_42@4-7">Esurivi, et non
           dedistis mihi manducare,</quote> et huiusmodi, magis conscientiis exprimenda plurimi
-          putant quam verbis, quia <name ref="Paul">Apostolus</name> <quote
-          xml:id="pl-l4d47c1-Qd1e135">in momento, et in ictu oculi</quote> mysterium consummandum
+          putant quam verbis, quia <name xml:id="pl-l4d47c1-Nd1e126" ref="Paul">Apostolus</name> <quote xml:id="pl-l4d47c1-Qd1e135">in momento, et in ictu oculi</quote> mysterium consummandum
           tradit. Sed illud ad resurrectionis statum tantum referunt, non ad iudirium, qui iudicii
           sententiam et malorum increpationes et honorum praeconia verbis exprimenda asserunt.</p>
       </div>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -57,23 +55,23 @@
         <p xml:id="pl-l4d8c4-d1e115">
           Forma vero est, quam ipse ibidem edidit dicens: 
           <cit>
-            <quote source="http://scta.info/resource/mt26_26@19-22">
+            <quote xml:id="pl-l4d8c4-Qd1e113" source="http://scta.info/resource/mt26_26@19-22">
               Hoc est corpus
               meum
             </quote>
           </cit>; 
-          et post: Hic est sanguis meus. Cum enim haec verba proferuntur, conversio fit panis
+          et post: <quote xml:id="pl-l4d8c4-Qd1e117" source="http://scta.info/resource/mc14_24@4-7">Hic est sanguis meus</quote>. Cum enim haec verba proferuntur, conversio fit panis
           et vini in substantiam corporis et sanguinis Christi ; reliqua ad Dei laudem dicuntur.
         </p>
         <p xml:id="pl-l4d8c4-d1e118">
-          Unde <name ref="#Ambrose">Ambrosius</name>: 
+          Unde <name xml:id="pl-l4d8c4-Nd1e123" ref="#Ambrose">Ambrosius</name>: 
           <cit>
             <quote xml:id="pl-l4d8c4-Qd1e123">
               Sermone Christi hoc conficitur Sacramentum, quia sermo Christi
               creaturam mutat, et sic ex pane fit corpus Christi, et vinum cum aqua in calicem missum
               fit sanguis consecratione verbi caelestis. Consecratio quibus fit verbis? Attende, quae
-              sunt verba: Accipite et edite ex eo omnes; hoc est corpus meum; et item: Accipite et
-              bibite ex eo omnes; hic est sanguis meus
+              sunt verba: Accipite et edite ex eo omnes; <quote xml:id="pl-l4d8c4-Qd1e130" source="http://scta.info/resource/mt26_26@19-22">hoc est corpus meum</quote>; et item: Accipite et
+              bibite ex eo omnes; <quote xml:id="pl-l4d8c4-Qd1e133" source="http://scta.info/resource/mc14_24@4-7">hic est sanguis meus</quote>
             </quote>
           </cit>. 
           <cit>
@@ -84,7 +82,7 @@
           </cit>.
         </p>
         <p xml:id="pl-l4d8c4-d1e130">
-          Item, <name ref="#Augustine">Augustinus</name>: 
+          Item, <name xml:id="pl-l4d8c4-Nd1e147" ref="#Augustine">Augustinus</name>: 
           <cit>
             <quote xml:id="pl-l4d8c4-Qd1e135">
               Credendum est, quod in verbis Christi Sacramenta conficiantur;

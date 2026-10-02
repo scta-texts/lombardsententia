@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -85,8 +83,8 @@
           personam in Trinitate, sed unam personam confiteor Verbi et carnis eius</quote>. </p>
         <p xml:id="pl-l3d9c1-d1e133"> His verbis insinuari videtur, Christi humanitatem una
           adoratione cum Verbo esse adorandam. </p>
-        <p xml:id="pl-l3d9c1-d1e136"> De hoc etiam <name ref="#Augustine">Augustinus</name> ex
-          sermone Domini, ubi dicit: <quote xml:id="pl-l3d9c1-Qd1e141">Non turbetur cor
+        <p xml:id="pl-l3d9c1-d1e136"> De hoc etiam <name xml:id="pl-l3d9c1-Nd1e130" ref="#Augustine">Augustinus</name> ex
+          sermone Domini, ubi dicit: <quote xml:id="pl-l3d9c1-Qd1e141" source="http://scta.info/resource/io14_1@1-4">Non turbetur cor
           vestrum,</quote> ita dicit: <quote xml:id="pl-l3d9c1-Qd1e144">Dicunt haeretici, Filium non
           natura esse Deum, sed creatum. Quibus respondendum est, quia, si Filius non est Deus
           natura, sed creatura, nec colendus est omnino, nec ut Deus adorandus, dicente Apostolo:
@@ -104,8 +102,7 @@
           Ita etiam in Christo Domino humanitatem non solam vel nudam, sed divinitati unitam,
           scilicet unum Filium, Deum verum et hominem verum, si quis adorare contempserit,
           aeternaliter morietur </quote>. </p>
-        <p xml:id="pl-l3d9c1-d1e163"> Idem <title>Super Psalmum 98</title>, ubi dicitur: <quote
-          xml:id="pl-l3d9c1-Qd1e168" source="http://scta.info/resource/ps98_5">Adorate scabellum pedum eius, quoniam sanctum
+        <p xml:id="pl-l3d9c1-d1e163"> Idem <title>Super Psalmum 98</title>, ubi dicitur: <quote xml:id="pl-l3d9c1-Qd1e168" source="http://scta.info/resource/ps98_5">Adorate scabellum pedum eius, quoniam sanctum
           est: </quote> <quote xml:id="pl-l3d9c1-Qd1e171">Sciendum quia in Christo terra est, id est
           caro, quae sine impietate adoratur: suscepit enim de terra terram, quia caro de terra est,
           et de carne Mariae carnem accepit<quote xml:id="pl-l3d9c1-Qd1e173">.</quote> Haec sine

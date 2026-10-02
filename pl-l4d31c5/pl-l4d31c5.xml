@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -60,19 +58,16 @@
           coniuges conveniunt, sic excusatur coitus, ut culpam non habeat; quando vero, deficiente
           bono prolis, fide tamen servata, conveniunt causa incontinentiae, non sic excusatur, ut
           non habeat culpam, sed venialem.</p>
-        <p xml:id="pl-l4d31c5-d1e118">Unde <name ref="#Augustine">Augustinus</name>: <quote
-          xml:id="pl-l4d31c5-Qd1e123">Coniugalis concubitus, generandi gratia, non habet culpam;
+        <p xml:id="pl-l4d31c5-d1e118">Unde <name xml:id="pl-l4d31c5-Nd1e114" ref="#Augustine">Augustinus</name>: <quote xml:id="pl-l4d31c5-Qd1e123">Coniugalis concubitus, generandi gratia, non habet culpam;
           concupiscentiae vero satiandae, sed tamen cum coniuge propter fidem tori, venialem habet
           culpam </quote>.</p>
         <p xml:id="pl-l4d31c5-d1e127">Item, hoc, quod coniugati, victi concupiscentia, utuntur
           invicem ultra necessitatem liberos procreandi, ponam in his, pro quibus quotidie dicimus:
-          <quote xml:id="pl-l4d31c5-Qd1e129">Dimitte nobis debita nostra,</quote> etc. Ubi autem
+          <quote xml:id="pl-l4d31c5-Qd1e129" source="http://scta.info/resource/mt6_12@2-5">Dimitte nobis debita nostra,</quote> etc. Ubi autem
           haec bona desunt, fides scilicet et proles, non videtur coitus defendi a crimine.</p>
-        <p xml:id="pl-l4d31c5-d1e134">Unde in <quote xml:id="pl-l4d31c5-Qd1e136"
-          >Sententiolis</quote> Sexti Pythagorici legitur: <quote xml:id="pl-l4d31c5-Qd1e139"> Omnis
+        <p xml:id="pl-l4d31c5-d1e134">Unde in <quote xml:id="pl-l4d31c5-Qd1e136">Sententiolis</quote> Sexti Pythagorici legitur: <quote xml:id="pl-l4d31c5-Qd1e139"> Omnis
           ardentior amator propriae uxoris adulter est</quote>.</p>
-        <p xml:id="pl-l4d31c5-d1e143"> Item <name ref="#Jerome">Hieronymus</name> : <quote
-          xml:id="pl-l4d31c5-Qd1e148"> Sapiens iudicio amat coniugem, non affectu; non regnat in eo
+        <p xml:id="pl-l4d31c5-d1e143"> Item <name xml:id="pl-l4d31c5-Nd1e139" ref="#Jerome">Hieronymus</name> : <quote xml:id="pl-l4d31c5-Qd1e148"> Sapiens iudicio amat coniugem, non affectu; non regnat in eo
           impetus voluptatis, nec praeceps fertur ad coitum: nihil est foedius quam uxorem amare
           quasi adulteram. Qui dicunt se causa humani generis uxoribus iungi, imitentur saltem
           pecudes; et postquam venter uxoris intumuerit, non perdant filios, nec amatores se

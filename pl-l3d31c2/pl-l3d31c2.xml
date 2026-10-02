@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -56,10 +54,9 @@
         <head xml:id="pl-l3d31c2-Hd1e112" type="question-title">Quare fides, spes, scientia dicuntur
           evacuari, et non caritas, cum et ipsa sil ex parte.</head>
         <p xml:id="pl-l3d31c2-d1e115">Advertendum etiam est, quomodo fides, spes et scientia
-          dicantur <quote xml:id="pl-l3d31c2-Qd1e117">evacuari,</quote> quia <quote
-          xml:id="pl-l3d31c2-Qd1e120">ex parte sunt</quote>, et non caritas, cum et ipsa ex parte
+          dicantur <quote xml:id="pl-l3d31c2-Qd1e117">evacuari,</quote> quia <quote xml:id="pl-l3d31c2-Qd1e120">ex parte sunt</quote>, et non caritas, cum et ipsa ex parte
           sit: ex parte enim, id est imperfecte, diligimus, sicut ex parte scimus, ut ait Hesychius
-          <title>Super Leviticum .</title> Cum igitur omne quod ex parte est, evacuetur, cur caritas
+          <title>Super Leviticum .</title> Cum igitur omne <quote xml:id="pl-l3d31c2-Qd1e119" source="http://scta.info/resource/Icor13_10@8-11">quod ex parte est</quote>, evacuetur, cur caritas
           excipitur, quae dicitur nunquam excidere ?</p>
         <p xml:id="pl-l3d31c2-d1e127">Caritas quidem etiam ex parte est, ut saepe Sancti docent,
           quia ex parte diligimus nunc; et ideo ipsa evacuabitur, in quantum ex parte est, quia

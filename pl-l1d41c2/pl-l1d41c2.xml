@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -51,9 +48,9 @@
       <div xml:id="pl-l1d41c2">
         <head xml:id="pll1d41c2-Hd1e3496">Capitulum 2</head>
         <!-- De variis super hoc carnalium opinionbius -->
-        <p xml:id="pll1d41c2-d1e3501">Opinati sunt quidam tamen, Deum ideo elegisse <name ref="#Jacob">Iacob</name>, quia 
+        <p xml:id="pll1d41c2-d1e3501">Opinati sunt quidam tamen, Deum ideo elegisse <name xml:id="pl-l1d41c2-Nd1e96" ref="#Jacob">Iacob</name>, quia 
           talem futurum praescivit, qui in eum crederet et ei serviret.</p>
-        <p xml:id="pll1d41c2-d1e3507">Quod aliquando se <ref><name ref="#Augustine">Augustinus</name> sensisse dicit in libro <title>Retractationum</title>,</ref> 
+        <p xml:id="pll1d41c2-d1e3507">Quod aliquando se <ref xml:id="pl-l1d41c2-Rd1e102"><name xml:id="pl-l1d41c2-Nd1e103" ref="#Augustine">Augustinus</name> sensisse dicit in libro <title>Retractationum</title>,</ref> 
           ubi aperte ostendit, quod si propter futura merita 
           electus esset, iam non ex gratia esset electio. Non ergo ideo 
           electus est a Deo, quia talis futurus erat, sed ex electione talis 
@@ -77,15 +74,15 @@
           retractavit dicens: 
           <cit>
             <quote xml:id="pll1d41c2-Qd1e3537">Nondum diligentius quaesiveram nec adhuc 
-              inveneram, qualis sit electio gratiae, de qua dicit <name ref="#Paul">Apostolus</name>: 
+              inveneram, qualis sit electio gratiae, de qua dicit <name xml:id="pl-l1d41c2-Nd1e130" ref="#Paul">Apostolus</name>: 
               <cit>
                 <quote xml:id="pll1d41c2-Qd1e3544" source="http://scta.info/resource/rom11_5">Reliquiae per electionem gratiae salvae fient;</quote>
                 <bibl>Romanos 11:5</bibl>
               </cit>
               quae utique non 
-              est gratia, si ex meritis procedit, ut iam quod datur non secundum 
-              gratiam, sed secundum debitum reddatur potius meritis, quam 
-              donetur. Proinde quod continuo dixi: Dicit enim idem <name ref="#Paul">Apostolus</name>: 
+              est gratia, si ex meritis procedit, ut iam quod datur non <quote xml:id="pl-l1d41c2-Qd1e141" source="http://scta.info/resource/rom4_4@8-12">secundum 
+              gratiam, sed secundum debitum</quote> reddatur potius meritis, quam 
+              donetur. Proinde quod continuo dixi: Dicit enim idem <name xml:id="pl-l1d41c2-Nd1e144" ref="#Paul">Apostolus</name>: 
               <cit>
                 <quote xml:id="pll1d41c2-Qd1e3556" source="http://scta.info/resource/Icor12_6">Idem Deus qui operatur omnia in omnibus.</quote>
                 <bibl>I Cor 12:6</bibl>
@@ -114,7 +111,7 @@
           fidem vel aliqua merita elegit Deus aliquos ab aeterno, vel apposuit 
           gratiam iustificationis in tempore, sed gratuita bonitate sua 
           elegit, ut boni essent.</p>
-        <p xml:id="pll1d41c2-d1e3578">Unde <ref><name ref="#Augustine">Augustinus</name> in libro <title>De praedestinatione Sanctorum</title>:</ref> 
+        <p xml:id="pll1d41c2-d1e3578">Unde <ref xml:id="pl-l1d41c2-Rd1e171"><name xml:id="pl-l1d41c2-Nd1e172" ref="#Augustine">Augustinus</name> in libro <title>De praedestinatione Sanctorum</title>:</ref> 
           <cit>
             <quote xml:id="pll1d41c2-Qd1e3590">Non quia futuros nos tales esse praescivit, ideo elegit, 
               sed ut essemus tales per ipsam electionem gratiae suae, qua 
@@ -128,10 +125,10 @@
           </cit>
         </p>
         <!-- 256 -->
-        <p xml:id="pll1d41c2-d1e3609">His tamen videtur adversari, quod dicit <ref><name ref="#Augustine">Augustinus</name> <title>Super 
+        <p xml:id="pll1d41c2-d1e3609">His tamen videtur adversari, quod dicit <ref xml:id="pl-l1d41c2-Rd1e199"><name xml:id="pl-l1d41c2-Nd1e200" ref="#Augustine">Augustinus</name> <title>Super 
           Malachiam</title></ref> prophetam, ubi scriptum est: 
           <cit>
-            <quote xml:id="pll1d41c2-Qd1e3620" source="http://scta.info/resource/mal1_2"><!-- and mal 1_3 --><name ref="#Jacob">Iacob</name> dilexi, <name>Esau</name> 
+            <quote xml:id="pll1d41c2-Qd1e3620" source="http://scta.info/resource/mal1_2"><!-- and mal 1_3 --><name xml:id="pl-l1d41c2-Nd1e209" ref="#Jacob">Iacob</name> dilexi, <name xml:id="pl-l1d41c2-Nd1e212">Esau</name> 
               autem odio habuit:</quote>
             <bibl>Malach 1:2-3</bibl>
           </cit>
@@ -152,7 +149,7 @@
             <bibl>Augustinus, De Diversis Quaestionibus, q. 68, n. 4 (PL 40:72)</bibl>
           </cit>
         </p>
-        <p xml:id="pll1d41c2-d1e3652">Ecce hic videtur <name ref="#Augustine">Augustinus</name> dicere, quod et ipsa Dei voluntas, 
+        <p xml:id="pll1d41c2-d1e3652">Ecce hic videtur <name xml:id="pl-l1d41c2-Nd1e237" ref="#Augustine">Augustinus</name> dicere, quod et ipsa Dei voluntas, 
           qua alios elegit, alios reprobat, ex meritis veniat, sed 
           occultissimis, id est, quod pro meritis alios voluerit eligere, alios 
           reprobare, et quod pro meritis aliis apponitur gratia iustificationis, 
@@ -190,7 +187,7 @@
               disputare de Dei profundo, versi sunt in profundum, dicentes, animas 
               in caelo ante conversatas, et ibi aliquid boni vel mali egisse, et pro 
               meritis ad corpora terrena destruas esse. Hoc autem respuit catholica 
-              fides propter evidentem <name ref="#Paul">Apostoli</name> sententiam, qua ait: 
+              fides propter evidentem <name xml:id="pl-l1d41c2-Nd1e267" ref="#Paul">Apostoli</name> sententiam, qua ait: 
               <cit>
                 <quote xml:id="pll1d41c2-Qd1e3690" source="http://scta.info/resource/rom9_11"> <!-- and rom9_12 -->Cum 
                   nondum nati essent, aut aliquid boni vel mali egissent</quote>
@@ -205,7 +202,7 @@
           <cit>
             <quote xml:id="pll1d41c2-Qd1e3709">Elegit ergo quos voluit gratuita misericordia, non quia fideles 
               erant futuri, sed ut fideles essent, eisque gratiam dedit, non quia 
-              fideles erant, sed ut fierent. Ait enim <name ref="#Paul">Apostolus</name>: 
+              fideles erant, sed ut fierent. Ait enim <name xml:id="pl-l1d41c2-Nd1e291" ref="#Paul">Apostolus</name>: 
               <cit>
                 <quote xml:id="pll1d41c2-Qd1e3716" source="http://scta.info/resource/Icor7_25">Misericordiam 
                   consecutus sum, ut fidelis essem;</quote>

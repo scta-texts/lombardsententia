@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -71,7 +68,7 @@
         <p xml:id="pl-l4d4c4-d1e118">
           Unde 
           <ref xml:id="pl-l4d4c4-Ragnuts" corresp="#pl-l4d4c4-Qd1e123">
-            <name ref="#Augustine">Augustinus</name>
+            <name xml:id="pl-l4d4c4-Nd1e118" ref="#Augustine">Augustinus</name>
           </ref>: 
           <quote xml:id="pl-l4d4c4-Qd1e123">
             Quicumque, non percepto regenerationis lavacro, pro confessione
@@ -87,7 +84,7 @@
           Nec tantum passio vicem baptismi implet, sed etiam fides et
           contritio, ubi necessitas excludit Sacramentum, sicut aperte docet 
           <ref xml:id="pl-l4d4c4-Rd1e135" corresp="#pl-l4d4c4-Qbvaane">
-            <name ref="#Augustine">Augustinus</name>
+            <name xml:id="pl-l4d4c4-Nd1e134" ref="#Augustine">Augustinus</name>
           </ref> 
           dicens: 
           <cit>
@@ -108,7 +105,7 @@
               sed dum patitur, credit. Quantum igitur etiam valeat sine visibili baptismi Sacramento
               (quod ait 
               <ref xml:id="pl-l4d4c4-Rd1e154" corresp="#pl-l4d4c4-Qd1e149">
-                <name ref="Paul">Apostolus</name>
+                <name xml:id="pl-l4d4c4-Nd1e152" ref="Paul">Apostolus</name>
               </ref>:
               <cit>
                 <quote xml:id="pl-l4d4c4-Qd1e149" source="http://scta.info/resource/rom10_10">
@@ -139,7 +136,7 @@
         </p>
         <p xml:id="pl-l4d4c4-d1e153">
           Sed quidam dicunt, 
-          <name ref="Augustine">Augustinum</name>
+          <name xml:id="pl-l4d4c4-Nd1e182" ref="Augustine">Augustinum</name>
           hoc retractasse. 
           Retractavit quidem exemplum, 
           sed non sententiam. 
@@ -158,7 +155,7 @@
         <p xml:id="pl-l4d4c4-d1e162">
           Unde 
           <ref xml:id="pl-l4d4c4-Rd1e204" corresp="#pl-l4d4c4-Qd1e167">
-            <name ref="#Ambrose">Ambrosius</name> 
+            <name xml:id="pl-l4d4c4-Nd1e198" ref="#Ambrose">Ambrosius</name> 
             <title>De Valentiniano</title>
           </ref>:
           <cit>
@@ -218,7 +215,7 @@
         </p>
         <p xml:id="pl-l4d4c4-d1e187">
           Unde 
-          <ref xml:id="pl-l4d4c4-Rd1e268" corresp="#pl-l4d4c4-Qd1e192"><name ref="#Augustine">Augustinus</name></ref>: 
+          <ref xml:id="pl-l4d4c4-Rd1e268" corresp="#pl-l4d4c4-Qd1e192"><name xml:id="pl-l4d4c4-Nd1e256" ref="#Augustine">Augustinus</name></ref>: 
           <cit>
             <quote xml:id="pl-l4d4c4-Qd1e192">
               Quaeris, quid sit maius: fides, an aqua; non dubito, quin
@@ -241,12 +238,12 @@
         </p>
         <p xml:id="pl-l4d4c4-d1e199">
           <ref xml:id="pl-l4d4c4-Rd1e295" corresp="#pl-l4d4c4-Qd1e204">
-            <name ref="#Augustine">Augustinus</name>
+            <name xml:id="pl-l4d4c4-Nd1e283" ref="#Augustine">Augustinus</name>
           </ref> 
           ait: 
           <cit>
             <quote xml:id="pl-l4d4c4-Qd1e204">
-              Ex illo tempore, quo Salvator dixit: Nisi quis renatus fuerit,
+              Ex illo tempore, quo Salvator dixit: <quote xml:id="pl-l4d4c4-Qd1e291" source="http://scta.info/resource/io3_5@7-10">Nisi quis renatus fuerit</quote>,
               etc., absque Sacramento baptismi, praeter eos qui in Ecclesia sanguinem fundunt, aliquis
               vitam aeternam accipere non potest
             </quote>
@@ -286,7 +283,7 @@
           Quod vero invisibilis sanctificatio sine visibili Sacramento
           quibusdam insit, aperte 
           <ref xml:id="pl-l4d4c4-Rd1e341" corresp="#pl-l4d4c4-Qd1e229">
-            <name ref="#Augustine">Augustinus</name> 
+            <name xml:id="pl-l4d4c4-Nd1e329" ref="#Augustine">Augustinus</name> 
             Super Leviticum
           </ref> 
           tradit dicens, 
@@ -315,7 +312,7 @@
         <p xml:id="pl-l4d4c4-d1e236">
           Ad quod hoc unum sufficiat 
           <ref xml:id="pl-l4d4c4-Rd1e362" corresp="#pl-l4d4c4-Qd1e238">
-            <name ref="#Augustine">Augustini</name>
+            <name xml:id="pl-l4d4c4-Nd1e349" ref="#Augustine">Augustini</name>
           </ref>: 
           <cit>
             <quote xml:id="pl-l4d4c4-Qd1e238">
@@ -335,7 +332,7 @@
         </p>
         <p xml:id="pl-l4d4c4-d1e246">
           Unde 
-          <ref xml:id="pl-l4d4c4-Rd1e384" corresp="#pl-l4d4c4-Qd1e251"><name ref="#Augustine">Augustinus</name></ref>: 
+          <ref xml:id="pl-l4d4c4-Rd1e384" corresp="#pl-l4d4c4-Qd1e251"><name xml:id="pl-l4d4c4-Nd1e369" ref="#Augustine">Augustinus</name></ref>: 
           <cit>
             <quote xml:id="pl-l4d4c4-Qd1e251">
               Parvulum, etsi nondum fides illa, quae in credentium voluntate

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -57,8 +55,8 @@
         <cit>
           <quote xml:id="pl-l4d15c5-Qd1e114"> 
             Est enim
-            eleemosyna opus misericordiae, verissimeque dictum est: Miserere animae tuae, placens
-            Deo
+            eleemosyna opus misericordiae, verissimeque dictum est: <quote xml:id="pl-l4d15c5-Qd1e112" source="http://scta.info/resource/sir30_24@1-5">Miserere animae tuae, placens
+            Deo</quote>
           </quote>
         </cit>.
         </p>
@@ -66,8 +64,8 @@
         <cit>
           <quote xml:id="pl-l4d15c5-Qd1e120"> Non ergo se fallant qui
             per eleemosynas largissimas fructuum suorum vel pecuniae impunitatem se emere aestimant,
-            in peccatis permanentes, quae ita diligunt, ut in eis optent versari. Qui vero diligit
-            iniquitatem odit animam suam, et qui odit animam suam non est ei misericors, sed crudelis:
+            in peccatis permanentes, quae ita diligunt, ut in eis optent versari. Qui vero <quote xml:id="pl-l4d15c5-Qd1e124" source="http://scta.info/resource/ps10_6@8-12">diligit
+            iniquitatem odit animam suam</quote>, et qui odit animam suam non est ei misericors, sed crudelis:
             diligendo quippe eam secundum saeculum, odit eam secundum Deum. Si ergo vult ei dare
             eleemosynam, per quam fit munda, odiat eam secundum saeculum, et diligat eam secundum Deum
           </quote>
@@ -79,14 +77,13 @@
         </p>
         <p xml:id="pl-l4d15c5-d1e127">
           Ad quod Christus hortans ait: Mundate quae intus sunt.
-          Immundis enim nihil est mundum; sed polluta sunt eorum mens et conscientia, ut ait <name
-          ref="Paul">Apostolus</name>. Immundi vero sunt omnes, quos non mundat fides, qua creditur
+          Immundis enim nihil est mundum; sed polluta sunt eorum mens et conscientia, ut ait <name xml:id="pl-l4d15c5-Nd1e135" ref="Paul">Apostolus</name>. Immundi vero sunt omnes, quos non mundat fides, qua creditur
           in Christum; de qua scriptum est: Mundans fide corda eorum. 
           <cit>
             <quote xml:id="pl-l4d15c5-Qd1e132"> 
               Sed ne istas eleemosynas, quae fiunt de fructibus terrae,
-              respuere Christus videretur, haec, inquit, oportuit facere, scilicet iudicium et caritatem
-              Dei, et illa non omittere , id est eleemosynas fructuum terrenorum
+              respuere Christus videretur, haec, inquit, oportuit facere, scilicet <quote xml:id="pl-l4d15c5-Qd1e142" source="http://scta.info/resource/lc11_42@15-18">iudicium et caritatem
+              Dei</quote>, et illa non omittere , id est eleemosynas fructuum terrenorum
             </quote>
           </cit>.
         </p>

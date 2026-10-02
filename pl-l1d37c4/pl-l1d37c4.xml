@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -75,13 +72,13 @@
           </cit>
         </p>
         <!-- p. 235 -->
-        <p xml:id="pll1d37c4-d1e3528">Unde <ref><name ref="#Augustine">Augustinus</name> in libro <title>De natura boni</title>:</ref> 
+        <p xml:id="pll1d37c4-d1e3528">Unde <ref xml:id="pl-l1d37c4-Rd1e121"><name xml:id="pl-l1d37c4-Nd1e122" ref="#Augustine">Augustinus</name> in libro <title>De natura boni</title>:</ref> 
           <cit>
             <quote xml:id="pll1d37c4-Qd1e3540">Cum in 
               Deo, inquit, sint omnia quae condidit, non tamen inquinant eum 
               illi qui peccant. De cuius etiam sapientia, quae 
               <cit>
-                <quote xml:id="pll1d37c4-Qd1e3544" ana="sap8_1">attingit a fine
+                <quote xml:id="pll1d37c4-Qd1e3544" source="http://scta.info/resource/sap8_1@3-8">attingit a fine
                   usque ad finem fortiter,</quote>
                 <bibl>Sap 8:1</bibl>
               </cit>
@@ -95,7 +92,7 @@
             </quote>
           </cit>
         </p>
-        <p xml:id="pll1d37c4-d1e3566"><ref><name ref="#Augustine">Augustinus</name> <title>De agone christiano</title></ref>: 
+        <p xml:id="pll1d37c4-d1e3566"><ref xml:id="pl-l1d37c4-Rd1e154"><name xml:id="pl-l1d37c4-Nd1e155" ref="#Augustine">Augustinus</name> <title>De agone christiano</title></ref>: 
           <cit>
             <quote xml:id="pll1d37c4-Qd1e3576">Timent quidam quod fieri non 
               potest, scilicet ne humana carne veritas et substantia Dei inquinetur; et tamen 
@@ -114,7 +111,7 @@
           ubique tota, quae continet totum et penetrat totum, quae nec pro 
           sui simplicitate dividi, nec pro sui puritate maculari, nec pro sui 
           immensitate ullo modo comprehendi potest.</p>
-        <p xml:id="pll1d37c4-d1e3587">Unde <name ref="#Augustine">Augustinus</name>: 
+        <p xml:id="pll1d37c4-d1e3587">Unde <name xml:id="pl-l1d37c4-Nd1e174" ref="#Augustine">Augustinus</name>: 
           <cit>
             <quote xml:id="pll1d37c4-Qd1e3594">Deus ubique est, cui non locis, sed 
               actionibus propinquamus.</quote>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -64,8 +62,8 @@
           dicere, quando aliquis laeditur: cum enim a sciente dicitur falsum, mendacium est, sive
           quis, sive nemo laedatur </quote>.</p>
         <p xml:id="pl-l3d38c4-d1e121">Ecce ex his constat, omne mendacium esse peccatum. Non tamen
-          de omni mendacio accipiendum est illud: <quote xml:id="pl-l3d38c4-Qd1e123">Perdes omnes
-          qui loquuntur mendacium;</quote> nec illud: <quote xml:id="pl-l3d38c4-Qd1e126">Os, quod
+          de omni mendacio accipiendum est illud: <quote xml:id="pl-l3d38c4-Qd1e123" source="http://scta.info/resource/ps5_7@6-10">Perdes omnes
+          qui loquuntur mendacium;</quote> nec illud: <quote xml:id="pl-l3d38c4-Qd1e126" source="http://scta.info/resource/sap1_11@23-26">Os, quod
           mentitur, occidit animam;</quote> nec omne mendacium isto praecepto prohiberi videtur, nec
           praemissa descriptione mendacium ioci includi .</p>
       </div>

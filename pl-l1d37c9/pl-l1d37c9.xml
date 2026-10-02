@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -60,7 +57,7 @@
           </cit>
           non tamen spatiosa magnitudine nec locai motu, sed immensitate 
           atque immobilitate suae essentiae.</p>
-        <p xml:id="pll1d37c9-d1e3515">Unde <ref><name ref="#Augustine">Augustinus</name> <title>Ad Dardanum</title></ref> ait: 
+        <p xml:id="pll1d37c9-d1e3515">Unde <ref xml:id="pl-l1d37c9-Rd1e109"><name xml:id="pl-l1d37c9-Nd1e110" ref="#Augustine">Augustinus</name> <title>Ad Dardanum</title></ref> ait: 
           <cit>
             <quote xml:id="pll1d37c9-Qd1e3526">Non quasi spatiosa 
               magnitudine opinemur Deum per cuncta diffundi, sicut humus 
@@ -80,7 +77,7 @@
               non esse in parte, sed ubique esse per se ipsum. Haec est 
               enim sapientia Dei, quae 
               <cit>
-                <quote xml:id="pll1d37c9-Qd1e3545">attingit a fine usque ad finem fortiter,</quote>
+                <quote xml:id="pll1d37c9-Qd1e3545" source="http://scta.info/resource/sap8_1@3-8">attingit a fine usque ad finem fortiter,</quote>
                 <bibl>Psalmus 147:22</bibl>
               </cit>
               non tamen motu locali, sed immobilitate sui: velut si moles aliqua 
@@ -94,7 +91,7 @@
         <p xml:id="pll1d37c9-d1e3559">Ex praedictis innotescit, quod Deus ita est ubique per essentiam, 
           quod nec spatiosa magnitudine diffunditur, nec, uno deserto 
           loco, alium occupat, quia localem motum non habet.</p>
-        <p xml:id="pll1d37c9-d1e3562">Ideoque <name ref="#Augustine">Augustinus</name>, volens praescidere a Dei puritate 
+        <p xml:id="pll1d37c9-d1e3562">Ideoque <name xml:id="pl-l1d37c9-Nd1e151" ref="#Augustine">Augustinus</name>, volens praescidere a Dei puritate 
           omnem localem motum et localem circumscriptionem, potius dicit, 
           omnia esse in illo, quam ipsum esse alicubi, nec tamen ipsum esse 
           locum, qui non est in loco, in <ref xml:id="pll1d37c9-Rgvh777" corresp="#pll1d37c9-Qd1e3572">libro <title ref="#deDiversisQuaestionibus">83 Quaestionum</title></ref> ita inquiens: 

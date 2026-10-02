@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -56,9 +54,9 @@
         <head xml:id="pl-l3d7c3-Hd1e114" type="question-title"> Quod non debet dici homo dominicus. </head>
         <p xml:id="pl-l3d7c3-d1e117"> Et licet dicatur homo Deus, non tamen congrue dicitur homo
           dominicus. </p>
-        <p xml:id="pl-l3d7c3-d1e120"> Unde <name ref="#Augustine">Augustinus</name> in libro
+        <p xml:id="pl-l3d7c3-d1e120"> Unde <name xml:id="pl-l3d7c3-Nd1e114" ref="#Augustine">Augustinus</name> in libro
           <title>Retractationum</title> : <quote xml:id="pl-l3d7c3-Qd1e128">Non video, utrum recte
-          dicatur homo dominicus, qui est mediator Dei et hominum, Christus lesus, cum sit utique
+          dicatur homo dominicus, qui est <quote xml:id="pl-l3d7c3-Qd1e121" source="http://scta.info/resource/Itim2_5@6-12">mediator Dei et hominum, Christus lesus</quote>, cum sit utique
           Dominus; et hoc quidem ut dicerem, apud quosdam legi tractatores catholicos. Sed ubicumque
           hoc dixi, dixisse me nollem. Postea quippe vidi, non esse di¬ cendum, quamvis nonnulla
           ratione possit defendi </quote>. </p>

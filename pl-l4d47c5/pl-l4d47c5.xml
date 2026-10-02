@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -57,8 +55,8 @@
           hominibus ad puniendum.</head>
         <p xml:id="pl-l4d47c5-d1e115">Et solet quaeri, utrum in inferno malis ad puniendum praesint
           daemones post iudicium, quos carnifices tortoresqne animarum Scriptura appellat.</p>
-        <p xml:id="pl-l4d47c5-d1e118"> <name ref="Paul">Apostolus</name> dicit, quod Christus tunc
-          evacuabit <quote xml:id="pl-l4d47c5-Qd1e123">omnem principatum et potestatem et
+        <p xml:id="pl-l4d47c5-d1e118"> <name xml:id="pl-l4d47c5-Nd1e114" ref="Paul">Apostolus</name> dicit, quod Christus tunc
+          evacuabit <quote xml:id="pl-l4d47c5-Qd1e123" source="http://scta.info/resource/Icor15_24@11-16">omnem principatum et potestatem et
           virtutem.</quote> Dum enim durat mundus, Angeli Angelis, daemones daemonibus, homines
           hominibus praesunt; sed omnibus collectis, iam omnis praelatio cessabit.</p>
         <p xml:id="pl-l4d47c5-d1e127">Hinc quidam putant, post iudicium daemones non habere

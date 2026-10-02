@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -63,7 +61,7 @@
           praecessit, et naturalium bonorum elisionem patitur, unde intellectus obtunditur, et totus
           homo interior obtenebratur, et ita quasi caligine quadam mens obvolvitur: quae caligo
           peccati poena est. Hanc ergo Deus pellit, cum poenitentiam immittit, per quam bona perdita
-          restituit et vitiata reparat. Unde Propheta: <quote xml:id="pl-l4d18c8-Qd1e123">Nebulam
+          restituit et vitiata reparat. Unde Propheta: <quote xml:id="pl-l4d18c8-Qd1e123" source="http://scta.info/resource/ps147_5@6-9">Nebulam
           sicut cinerem spargit.</quote> </p>
         <p xml:id="pl-l4d18c8-d1e128">Sed quae est macula peccati, a qua animam lavat ? Ecce enim
           quis voluit facere homicidium et patravit; quo patrato, desinit tam velle quam facere;
@@ -80,9 +78,8 @@
           animae macula intelligitur, a qua purgatur in poenitentia. Hoc autem solus Deus facit, qui
           solus suscitat animam et illuminat; quod sacerdotes nequeunt, qui tamen sunt medici
           animarum.</p>
-        <p xml:id="pl-l4d18c8-d1e134">Unde Propheta: <quote xml:id="pl-l4d18c8-Qd1e136">Nunquid
-          medici suscitabunt et confitebuntur tibi?</quote> Quod exponens <name ref="#Augustine"
-          >Augustinus</name> ait: <quote xml:id="pl-l4d18c8-Qd1e142">Boni doctores recte dicuntur
+        <p xml:id="pl-l4d18c8-d1e134">Unde Propheta: <quote xml:id="pl-l4d18c8-Qd1e136" source="http://scta.info/resource/ps87_11@6-10">Nunquid
+          medici suscitabunt et confitebuntur tibi?</quote> Quod exponens <name xml:id="pl-l4d18c8-Nd1e133" ref="#Augustine">Augustinus</name> ait: <quote xml:id="pl-l4d18c8-Qd1e142">Boni doctores recte dicuntur
           medici, qui viventes curare ministerio possunt, sed non mortuos suscitare; sola enim
           gratia Dei reviviscunt</quote>.</p>
       </div>

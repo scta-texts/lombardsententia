@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -54,15 +52,13 @@
       <div xml:id="pl-l4d26c2">
         <head xml:id="pl-l4d26c2-Hd1e109">Capitulum 2</head>
         <p xml:id="pl-l4d26c2-d1e112">[Cap. II]. Coniugii autem institutio duplex est: una ante
-          peccatum ad officium facta est in paradiso, ubi esset <quote xml:id="pl-l4d26c2-Qd1e114"
-          >torus immaculatus et nuptiae honorabiles</quote>, ex quibus sine ardore conciperent, sine
+          peccatum ad officium facta est in paradiso, ubi esset <quote xml:id="pl-l4d26c2-Qd1e114">torus immaculatus et nuptiae honorabiles</quote>, ex quibus sine ardore conciperent, sine
           dolore parerent; altera post peccatum ad remedium facta extra paradisum, propter illicitum
           motum devitandum. Prima, ut natura multiplicaretur; secunda, ut natura exciperetur, et
-          vitium cohiberetur. Nam et ante peccatum dixit Deus: <quote xml:id="pl-l4d26c2-Qd1e117"
-          >Crescite et multiplicamini;</quote> et post peccatum, omnibus pene hominibus per diluvium
+          vitium cohiberetur. Nam et ante peccatum dixit Deus: <quote xml:id="pl-l4d26c2-Qd1e117" source="http://scta.info/resource/gen1_28@6-9">Crescite et multiplicamini;</quote> et post peccatum, omnibus pene hominibus per diluvium
           consumtis.</p>
         <p xml:id="pl-l4d26c2-d1e121">Quod vero ante peccatum institutum fuit coniugium ad officium,
-          post peccatum vero ad remedium concessum, <name ref="#Augustine">Augustinus</name>
+          post peccatum vero ad remedium concessum, <name xml:id="pl-l4d26c2-Nd1e117" ref="#Augustine">Augustinus</name>
           testatur dicens: <quote xml:id="pl-l4d26c2-Qd1e126"> Quod sanis esset officium, aegrotis
           est ad remedium </quote>.</p>
         <p xml:id="pl-l4d26c2-d1e130">Infirmitas enim incontinentiae, quae est in carne per peccatum

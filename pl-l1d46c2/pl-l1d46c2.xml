@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -61,7 +58,7 @@
         <!-- p. 279 -->
         <p xml:id="pll1d46c2-d1e3514">
           <cit>
-            <quote xml:id="pll1d46c2-Qd1e3518">Non enim ex eo sensu illud dictum est, ut ait <ref><name ref="#Augustine">Augustinus</name> 
+            <quote xml:id="pll1d46c2-Qd1e3518">Non enim ex eo sensu illud dictum est, ut ait <ref xml:id="pl-l1d46c2-Rd1e114"><name xml:id="pl-l1d46c2-Nd1e115" ref="#Augustine">Augustinus</name> 
               in <title>Enchiridio</title>,</ref> praedictam solvens quaestionem, quasi Dominus 
               voluerit colligere filios Ierusalem, et non sit factum quod 
               voluit, quia ipsa noluerit; sed potius illa quidem filios suos ab 
@@ -88,7 +85,7 @@
           <cb ed="#Z" n="50va" select="zbs-SII-0072_050v.json"/>
           superioribus 
           non repugnant.</p>
-        <p xml:id="pll1d46c2-d1e3558">Nunc videre restat, quomodo etiam praemissa verba <name ref="#Paul">Apostoli</name> 
+        <p xml:id="pll1d46c2-d1e3558">Nunc videre restat, quomodo etiam praemissa verba <name xml:id="pl-l1d46c2-Nd1e150" ref="#Paul">Apostoli</name> 
           praedictis non contradicant, qui de Deo loquens ait: 
           <cit>
             <quote xml:id="pll1d46c2-Qd1e3565">Vult omnes 
@@ -144,7 +141,7 @@
               Omnipotentem aliquid voluisse fieri, factumque non esse, qui sine 
               ullis ambiguitatibus, si in caelo et in terra, sicut Veritas cantat, 
               <cit>
-                <quote xml:id="pll1d46c2-Qd1e3625">omnia quaecumque voluit, fecit,</quote>
+                <quote xml:id="pll1d46c2-Qd1e3625" source="http://scta.info/resource/ps134_6@1-5">omnia quaecumque voluit, fecit,</quote>
                 <bibl>xxx</bibl>
               </cit>
               profecto facere non voluit, quaecumque non fecit.</quote>

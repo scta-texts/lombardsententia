@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -60,8 +58,8 @@
           dicitur: 
           <cit>
             <quote xml:id="pl-l4d18c7-Qd1e117">
-              Quodcumque solveritis super terram, erit
-              solutum et in caelis, et quodcumque ligaveritis super terram, erit ligatum et in
+              <quote xml:id="pl-l4d18c7-Qd1e115" source="http://scta.info/resource/mt16_19@17-24">Quodcumque solveritis super terram, erit
+              solutum et in caelis</quote>, et quodcumque ligaveritis super terram, erit ligatum et in
               caelis
             </quote>
           </cit>? 
@@ -82,7 +80,7 @@
           Qui autem non meruit, sententia Ecclesiae non laeditur, nisi
           contemnat.
         </p>
-        <p xml:id="pl-l4d18c7-d1e128">Unde <name ref="Origen">Origenes</name>: 
+        <p xml:id="pl-l4d18c7-d1e128">Unde <name xml:id="pl-l4d18c7-Nd1e130" ref="Origen">Origenes</name>: 
         <cit>
           <quote xml:id="pl-l4d18c7-Qd1e133">
             Exiit quis a veritate, a fide, a caritate, per hoc exit de

@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -55,7 +52,7 @@
         <p xml:id="pll1d33c2-d1e3501">Sed forte quaeres, cum hae proprietates non possint esse in 
           personis, quin eas determinent, quomodo in essentia divina esse 
           possunt, ita ut non eam determinent.</p>
-        <p xml:id="pll1d33c2-d1e3504">Respondeo tibi et hic cum <name ref="#HilaryOfPoitiers">Hilario</name>: 
+        <p xml:id="pll1d33c2-d1e3504">Respondeo tibi et hic cum <name xml:id="pl-l1d33c2-Nd1e99" ref="#HilaryOfPoitiers">Hilario</name>: 
           <cit>
             <quote xml:id="pll1d33c2-Qd1e3511">Ego nescio, non requiro, 
               et consolabor me tamen. Archangeli nesciunt, Angeli non 
@@ -94,9 +91,9 @@
           opinionem suam etiam Sancorum auctoritatibus munire conantur, 
           quibus ostendere volunt, proprietatem, qua Pater est Pater, et proprietatem, 
           qua Filius est Filius, non esse Deum; ad hoc inducentes 
-          verba <name ref="#Augustine">Augustini</name> super illum locum <title ref="#ps">Psalmi</title>: 
+          verba <name xml:id="pl-l1d33c2-Nd1e141" ref="#Augustine">Augustini</name> super illum locum <title ref="#ps">Psalmi</title>: 
           <cit> <!-- dbcheck psalm ref -->
-            <quote xml:id="pll1d33c2-Qd1e3562" source="http://scta.info/resource/ps68:3">Et non est substantia,</quote>
+            <quote xml:id="pll1d33c2-Qd1e3562" source="http://scta.info/resource/ps68_3@6-9">Et non est substantia,</quote>
             <bibl>Psalmus 68:3</bibl>
           </cit>
           ita dicentis: 
@@ -137,7 +134,7 @@
           non negavit. Ita etiam illud intelligendum est quod ait: Cum Pater 
           est, non illud est quod est, id est, non illo Pater est, quod vel quo 
           ipse est, id est essentia, sed notione.</p>
-        <p xml:id="pll1d33c2-d1e3590">Item illis verbis <name ref="#Augustine">Augustini</name> vehementer insistunt superius 
+        <p xml:id="pll1d33c2-d1e3590">Item illis verbis <name xml:id="pl-l1d33c2-Nd1e178" ref="#Augustine">Augustini</name> vehementer insistunt superius 
           positis, scilicet Verbum, secundum quod sapientia est et essentia, 
           hoc est quod Pater; secundum quod Verbum, non hoc est quod 
           Pater. Si, inquiunt, Verbum non est hoc quod Pater, secundum 

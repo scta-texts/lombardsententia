@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -54,28 +52,18 @@
       <div xml:id="pl-l4d21c4">
         <head xml:id="pl-l4d21c4-Hd1e109">Capitulum 4</head>
         <p xml:id="pl-l4d21c4-d1e112">[Cap. IV]. <quote xml:id="pl-l4d21c4-Qd1e114">Unde non frustra
-          illa tria distinxit <name ref="Paul">Apostolus</name>: <quote xml:id="pl-l4d21c4-Qd1e119"
-          >lignum, foenum, stipulam,</quote> quae illi aedificant, qui , etsi aliena non rapiunt,
+          illa tria distinxit <name xml:id="pl-l4d21c4-Nd1e110" ref="Paul">Apostolus</name>: <quote xml:id="pl-l4d21c4-Qd1e119">lignum, foenum, stipulam,</quote> quae illi aedificant, qui , etsi aliena non rapiunt,
           rebus tamen infirmitati concessis, aliqua dilectione inhaerent; qui secundum suos amandi
           haec modos diutius, ut <quote xml:id="pl-l4d21c4-Qd1e122">lignum, </quote>vel minus, ut
-          <quote xml:id="pl-l4d21c4-Qd1e125">foenum,</quote> vel minimum, ut <quote
-          xml:id="pl-l4d21c4-Qd1e128">stipula,</quote> ignem sustinebunt. Qui vero superaedificant
-          <quote xml:id="pl-l4d21c4-Qd1e132">aurum, argentum , lapides pretiosos,</quote> de utroque
+          <quote xml:id="pl-l4d21c4-Qd1e125">foenum,</quote> vel minimum, ut <quote xml:id="pl-l4d21c4-Qd1e128">stipula,</quote> ignem sustinebunt. Qui vero superaedificant
+          <quote xml:id="pl-l4d21c4-Qd1e132" source="http://scta.info/resource/Icor3_12@8-11">aurum, argentum , lapides pretiosos,</quote> de utroque
           igne securi sunt, non solum de illo aeterno, qui cruciaturus est impios in aeternum, sed
           etiam de illo emendatorio, quo purgabuntur quidam salvandi </quote>.</p>
-        <p xml:id="pl-l4d21c4-d1e137">Hic obiici potest: Si per <quote xml:id="pl-l4d21c4-Qd1e139"
-          >lignum, foenum, stipulam,</quote> venialia intelliguntur peccata, et nullus est adeo
-          perfectus, qui venialiter non peccet, ergo qui <quote xml:id="pl-l4d21c4-Qd1e142"
-          >aedificant aurum, argentum, lapides pretiosos,</quote> aedificant etiam <quote
-          xml:id="pl-l4d21c4-Qd1e145">lignum, foenum, stipulam;</quote> ergo per ignem
+        <p xml:id="pl-l4d21c4-d1e137">Hic obiici potest: Si per <quote xml:id="pl-l4d21c4-Qd1e139">lignum, foenum, stipulam,</quote> venialia intelliguntur peccata, et nullus est adeo
+          perfectus, qui venialiter non peccet, ergo qui <quote xml:id="pl-l4d21c4-Qd1e142" source="http://scta.info/resource/Icor3_12@8-11">aedificant aurum, argentum, lapides pretiosos,</quote> aedificant etiam <quote xml:id="pl-l4d21c4-Qd1e145">lignum, foenum, stipulam;</quote> ergo per ignem
           transibunt.</p>
-        <p xml:id="pl-l4d21c4-d1e149">Ad quod dicimus, quia non omnis qui venialiter peccat, <quote
-          xml:id="pl-l4d21c4-Qd1e151">lignum, foenum, stipulam</quote> aedificat; sicut e converso
-          non omnis qui contemplatur Deum et diligit proximum et opera bona facit, aedificat <quote
-          xml:id="pl-l4d21c4-Qd1e154">aurum, argentum, lapides pretiosos.</quote> Et tamen in <quote
-          xml:id="pl-l4d21c4-Qd1e157">auro</quote> intelligitur contemplatio Dei, in <quote
-          xml:id="pl-l4d21c4-Qd1e160">argento</quote> dilectio proximi, in <quote
-          xml:id="pl-l4d21c4-Qd1e163">lapide pretioso</quote> bona opera. Sed et ilii qui aedificant
+        <p xml:id="pl-l4d21c4-d1e149">Ad quod dicimus, quia non omnis qui venialiter peccat, <quote xml:id="pl-l4d21c4-Qd1e151">lignum, foenum, stipulam</quote> aedificat; sicut e converso
+          non omnis qui contemplatur Deum et diligit proximum et opera bona facit, aedificat <quote xml:id="pl-l4d21c4-Qd1e154" source="http://scta.info/resource/Icor3_12@8-11">aurum, argentum, lapides pretiosos.</quote> Et tamen in <quote xml:id="pl-l4d21c4-Qd1e157">auro</quote> intelligitur contemplatio Dei, in <quote xml:id="pl-l4d21c4-Qd1e160">argento</quote> dilectio proximi, in <quote xml:id="pl-l4d21c4-Qd1e163">lapide pretioso</quote> bona opera. Sed et ilii qui aedificant
           <quote xml:id="pl-l4d21c4-Qd1e167">lignum, foenum, stipulam,</quote> Deum contemplantur,
           et proximum diligunt, et opera bona faciunt, nec tamen aedificant aurum, argentum, lapides
           pretiosos.</p>

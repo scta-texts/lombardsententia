@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -53,12 +51,11 @@
     <body>
       <div xml:id="pl-l3d37c2">
         <head xml:id="pl-l3d37c2-Hd1e109">Capitulum 2</head>
-        <p xml:id="pl-l3d37c2-d1e112"> <quote xml:id="pl-l3d37c2-Qd1e114">Ideo dicit <name
-          ref="Paul">Apostolus</name>, quia idolum nihil est' in mundo. Non enim aliqua ex rebus
+        <p xml:id="pl-l3d37c2-d1e112"> <quote xml:id="pl-l3d37c2-Qd1e114">Ideo dicit <name xml:id="pl-l3d37c2-Nd1e110" ref="Paul">Apostolus</name>, quia idolum nihil est' in mundo. Non enim aliqua ex rebus
           constantibus assumitur spe cies, sed quod mens otiosa et curiosa reperit. Similitudo vero
           est, cum aliquid ex his quae sunt vel in caelo vel in terra vel in aquis formatur
           </quote>.</p>
-        <p xml:id="pl-l3d37c2-d1e121"> <name ref="#Augustine">Augustinus</name> vero ita exponit
+        <p xml:id="pl-l3d37c2-d1e121"> <name xml:id="pl-l3d37c2-Nd1e117" ref="#Augustine">Augustinus</name> vero ita exponit
           illud: <quote xml:id="pl-l3d37c2-Qd1e126">Idolum nihil est in mundo, id est, inter
           creaturas mundi non est forma idoli; materiam enim formavit Deus, sed stultitia hominum
           formam dedit. Quaecumque facta sunt naturaliter, facta sunt per Verbum; sed forma hominis
@@ -73,23 +70,20 @@
           non in quantum est idoli, id est, posita ad adorandum: in hoc enim non est creatura, sed
           perversio craaturae. Sicut illud quod peccatum est, in quantum peccatum est, nihil est; et
           homines, cum peccant, nihil fiunt, quia ab illo qui vere est, separantur.</p>
-        <p xml:id="pl-l3d37c2-d1e143">Unde <name ref="#Jerome">Hieronymus</name>: <quote
-          xml:id="pl-l3d37c2-Qd1e148">Quod ex Deo non est, qui solus vere est, non esse
+        <p xml:id="pl-l3d37c2-d1e143">Unde <name xml:id="pl-l3d37c2-Nd1e139" ref="#Jerome">Hieronymus</name>: <quote xml:id="pl-l3d37c2-Qd1e148">Quod ex Deo non est, qui solus vere est, non esse
           dicitur</quote>. Ideoque peccatum, quod nos a vero</p>
         <p xml:id="pl-l3d37c2-d1e152">esse abducit, nihil esse vel non esse dicitur.</p>
         <p xml:id="pl-l3d37c2-d1e155">Alii vero dicunt, omnem formam, quae scilicet naturaliter est,
           et omne quod naturaliter est, esse a Deo; sed forma idoli non est naturaliter, quia
           naturae iustitiae non servit. Id enim naturaliter esse dicitur, quod simplici naturae
           iustitiae, quae Deus est, militat, non resultat, et naturam creatam non vitiat.</p>
-        <p xml:id="pl-l3d37c2-d1e158">Secundum praeceptum est: <quote xml:id="pl-l3d37c2-Qd1e160"
-          >Non assumes nomen Dei tui in</quote> </p>
+        <p xml:id="pl-l3d37c2-d1e158">Secundum praeceptum est: <quote xml:id="pl-l3d37c2-Qd1e160">Non assumes nomen Dei tui in</quote> </p>
         <p xml:id="pl-l3d37c2-d1e164"> <quote xml:id="pl-l3d37c2-Qd1e166">vanum;</quote> quod est
           dicere secundum litteram: Non iurabis pro</p>
         <p xml:id="pl-l3d37c2-d1e171">nihilo nomen Dei ; allegorice vero praecipitur, ut non putes,
-          <quote xml:id="pl-l3d37c2-Qd1e173"> creaturam esse Christum, Dei Filium, quia <quote
-          xml:id="pl-l3d37c2-Qd1e175">omnis creatura vanitati subiecta est</quote>, sed aequalem
+          <quote xml:id="pl-l3d37c2-Qd1e173"> creaturam esse Christum, Dei Filium, quia <quote xml:id="pl-l3d37c2-Qd1e175">omnis creatura vanitati subiecta est</quote>, sed aequalem
           Patri </quote>.</p>
-        <p xml:id="pl-l3d37c2-d1e180">Tertium vero est: <quote xml:id="pl-l3d37c2-Qd1e182">Memento,
+        <p xml:id="pl-l3d37c2-d1e180">Tertium vero est: <quote xml:id="pl-l3d37c2-Qd1e182" source="http://scta.info/resource/ex20_8@1-5">Memento,
           ut diem Sabbati sanctifices;</quote> ubi secundum litteram praecipitur Sabbati
           observantia; allegorice vero, ut requiem et hic a vitiis et in futuro in Dei
           contemplatione exspectes ex Spiritu sancio, id est ex caritate et dono Dei, non quod

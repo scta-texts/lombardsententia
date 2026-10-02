@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -55,14 +53,13 @@
         <head xml:id="pl-l4d46c2-Hd1e109">Capitulum 2</head>
         <head xml:id="pl-l4d46c2-Hd1e112" type="question-title">De occulto Dei iudicio.</head>
         <p xml:id="pl-l4d46c2-d1e115"> <quote xml:id="pl-l4d46c2-Qd1e117">Cuius occultum iudicium,
-          ut ait <name ref="#Augustine">Augustinus</name>, intelligitur poena, qua quisque vel
+          ut ait <name xml:id="pl-l4d46c2-Nd1e113" ref="#Augustine">Augustinus</name>, intelligitur poena, qua quisque vel
           exercetur ad purgationem, vel movetur ad conversionem, vel, si contemnit, excaecatur ad
           damnationem </quote>.</p>
         <p xml:id="pl-l4d46c2-d1e124"><!--<quote>-->Occultum igitur Dei iudicium dicitur poena, qua
           iudicat purgando, convertendo, excaecando. ludicia quoque Dei interdum appellantur
-          dispositiones eius de omnibus rebus; unde: <quote xml:id="pl-l4d46c2-Qd1e127">Quam
-          incomprehensibilia sunt iudicia eius!</quote> et <quote xml:id="pl-l4d46c2-Qd1e130"
-          >iudicia eius abyssus multa.</quote> Iudicium autem, quo in futuro iudicabit, intelligitur
+          dispositiones eius de omnibus rebus; unde: <quote xml:id="pl-l4d46c2-Qd1e127" source="http://scta.info/resource/rom11_33@8-12">Quam
+          incomprehensibilia sunt iudicia eius!</quote> et <quote xml:id="pl-l4d46c2-Qd1e130" source="http://scta.info/resource/ps35_7@6-9">iudicia eius abyssus multa.</quote> Iudicium autem, quo in futuro iudicabit, intelligitur
           sententia qua <quote xml:id="pl-l4d46c2-Qd1e133">ventilabitur area</quote>, id est,
           dividentur localiter boni a malis, ministerio Angelorum; et illi in vitam ducentur, illi
           in supplicium mittentur, qui nunc simul mixti sunt.</p>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -55,7 +53,7 @@
         <head xml:id="pl-l4d16c6-Hd1e109">Capitulum 6</head>
         <head xml:id="pl-l4d16c6-Hd1e112" type="question-title">De satisfactione venialium.</head>
         <p xml:id="pl-l4d16c6-d1e115">
-          Quae autem pro venialibus sit satisfactio sufficiens, <name ref="#Augustine">Augustinus</name> insinuat, ita inquiens in 
+          Quae autem pro venialibus sit satisfactio sufficiens, <name xml:id="pl-l4d16c6-Nd1e111" ref="#Augustine">Augustinus</name> insinuat, ita inquiens in 
           Enchiridio: 
           <cit>
             <quote xml:id="pl-l4d16c6-Qd1e123">
@@ -70,7 +68,7 @@
               peccata; delet et illa, a quibus vita fidelium, etiam scelerate gesta, sed poenitendo in
               melius commutata, discedit, si, ut veraciter dicitur: 
               <cit>
-                <quote xml:id="pl-l4d16c6-Qd1e128">
+                <quote xml:id="pl-l4d16c6-Qd1e128" source="http://scta.info/resource/mt6_12@2-5">
                   Dimitte nobis debita nostra,
                 </quote>
               </cit>
@@ -96,7 +94,7 @@
         </p>
         <p xml:id="pl-l4d16c6-d1e143">
           Pro gravioribus vero peccatis haec etiam in satisfactione
-          adhibenda sunt, sed multo vehementius atque districtius, quia, ut ait <name ref="#Augustine">Augustinus</name>, ad agendam poenitentiam 
+          adhibenda sunt, sed multo vehementius atque districtius, quia, ut ait <name xml:id="pl-l4d16c6-Nd1e148" ref="#Augustine">Augustinus</name>, ad agendam poenitentiam 
           <cit>
             <quote xml:id="pl-l4d16c6-Qd1e148">
               non sufficit mores in melius commutare et a malis factis

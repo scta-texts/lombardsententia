@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -65,7 +63,7 @@
           rebaptizari.
         </p>
         <p xml:id="pl-l4d6c2-d1e121">
-          Unde <name ref="#Bede">Beda</name>:
+          Unde <name xml:id="pl-l4d6c2-Nd1e117" ref="#Bede">Beda</name>:
           <cit>
             <quote xml:id="pl-l4d6c2-Qd1e126">
               Sive haereticus sive schismaticus sive facinorosus quisque in
@@ -75,18 +73,18 @@
           </cit>.
         </p>
         <p xml:id="pl-l4d6c2-d1e131">
-          Item <name ref="#Augustine">Augustinus</name>: 
+          Item <name xml:id="pl-l4d6c2-Nd1e130" ref="#Augustine">Augustinus</name>: 
           <cit>
             <quote xml:id="pl-l4d6c2-Qd1e136">
               Quamvis unum baptisma sit et haereticorum, scilicet eorum qui
               <cit>
-                <quote>
+                <quote xml:id="pl-l4d6c2-Qd1e139">
                  in nomine Patris et Filii et Spiritus sancti
                 </quote>
               </cit> 
               baptizant, et Ecclesiae Catholicae, tamen qui
               foris Ecclesiam baptizantur non sumunt baptismum ad salutem, sed ad perniciem, habentes
-              formam Sacramenti, virtutem autem eius abnegantes; et ideo Ecclesia non eos rebaptizat,
+              formam Sacramenti, <quote xml:id="pl-l4d6c2-Qd1e14a" source="http://scta.info/resource/IItim3_5@5-8">virtutem autem eius abnegantes</quote>; et ideo Ecclesia non eos rebaptizat,
               quia in nomine Trininitatis baptizati sunt, et ipsa est forma Sacramenti
             </quote>
           </cit>.
@@ -123,7 +121,7 @@
               Quomodo sanctificare aquam potest, cum
               ipse immundus est, et apud quem Spiritus sanctus non est; cum Dominus dicat in Lege:
               <cit>
-                <quote source="http://scta.info/resource/num19_22@1-13">
+                <quote xml:id="pl-l4d6c2-Qd1e174" source="http://scta.info/resource/num19_22@1-13">
                   Quaecumque tetigerit immundus, immunda erunt?
                 </quote>
               </cit>
@@ -132,8 +130,7 @@
           </cit>?
         </p>
         <p xml:id="pl-l4d6c2-d1e165">
-          Hoc vero ex ignorantia eum dixisse <name ref="#Augustine"
-          >Augustinus</name> innuit dicens: 
+          Hoc vero ex ignorantia eum dixisse <name xml:id="pl-l4d6c2-Nd1e184" ref="#Augustine">Augustinus</name> innuit dicens: 
           <cit>
             <quote xml:id="pl-l4d6c2-Qd1e173">
               Martyrem gloriosum

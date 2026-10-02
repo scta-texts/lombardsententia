@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -57,7 +55,7 @@
         <p xml:id="pl-l4d24c4-d1e115"> <quote xml:id="pl-l4d24c4-Qd1e117"> Corona enim signaculum
           est, quo signantur in partem sortis ministerii divini. Corona regale decus significat, et
           servire Deo regnare est. Unde ministri Ecclesiae reges esse debent, ut se et alios regant,
-          quibus Petrus ait: <quote xml:id="pl-l4d24c4-Qd1e119">Vos estis genus electum, regale
+          quibus Petrus ait: <quote xml:id="pl-l4d24c4-Qd1e119" source="http://scta.info/resource/Ipetr2_9@3-6">Vos estis genus electum, regale
           sacerdotium,</quote> etc. Summitas capitis desuper nudatur, ut eorum mens ad Deum libera
           monstretur, quae, <quote xml:id="pl-l4d24c4-Qd1e122">revelata facie, gloriam Dei</quote>
           contempletur. Summitas enim capitis est eminentia mentis; denudatio capitis est revelatio
@@ -75,8 +73,7 @@
           Apostolorum , Priscillam et Aquilam hoc fecisse, legimus; Paulus quoque et alii quidam
           discipuli Christi hoc fecerunt </quote>.</p>
         <p xml:id="pl-l4d24c4-d1e139">Recte ergo in quibuslibet gradibus constituti clerici
-          vocantur; quorum nomina et rationes nominum Isidorus exponens ait: <quote
-            xml:id="pl-l4d24c4-Qd1e141" source="http://scta.info/resource/wer3fe-d1e119"> Cleros et clericos hinc appellatos esse credimus, quia
+          vocantur; quorum nomina et rationes nominum Isidorus exponens ait: <quote xml:id="pl-l4d24c4-Qd1e141" source="http://scta.info/resource/wer3fe-d1e119"> Cleros et clericos hinc appellatos esse credimus, quia
           Mathias electus est sorte, quem primum per Apostolos legimus ordinatum. Cleros enim
           Graece, Latine sors vel haereditas dicitur . Ideo ergo dicti sunt clerici, quia de sorte
           sunt Domini, vel quia Deum partem habent. Generaliter vero clerici nuncupati sunt omnes

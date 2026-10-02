@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -73,9 +71,9 @@
           suscitatur a morte peccati.
         </p>
         <p xml:id="pl-l4d18c4-d1e124">
-          Unde <name ref="Paul">Apostolus</name>: 
+          Unde <name xml:id="pl-l4d18c4-Nd1e123" ref="Paul">Apostolus</name>: 
           <cit>
-            <quote xml:id="pl-l4d18c4-Qd1e129">
+            <quote xml:id="pl-l4d18c4-Qd1e129" source="http://scta.info/resource/eph5_14@4-14">
               Surge qui dormis, et illuminabit te Christus.
             </quote>
           </cit> 
@@ -103,15 +101,15 @@
         </p>
         <p xml:id="pl-l4d18c4-d1e140">
           Quod autem ipse tegat, aperte dicit 
-          <name ref="#Augustine">Augustinus</name>, exponens illum locum Psalmi: 
+          <name xml:id="pl-l4d18c4-Nd1e145" ref="#Augustine">Augustinus</name>, exponens illum locum Psalmi: 
           <cit>
-            <quote xml:id="pl-l4d18c4-Qd1e145">
+            <quote xml:id="pl-l4d18c4-Qd1e145" source="http://scta.info/resource/ps31_1@10-13">
               Quorum tecta sunt peccata,
             </quote>
           </cit> 
           id est 
           <cit>
-            <quote>
+            <quote xml:id="pl-l4d18c4-Qd1e15a">
               cooperta et abolita. Si enim texit Deus
               peccata, noluit advertere; si noluit advertere, noluit animadvertere, id est punire, sed
               ignoscere. Ita ergo dicit a Deo tecta, ut Deus non videat, id est aeternaliter
@@ -122,7 +120,7 @@
           peccatis faciem, hoc est ea ad poenam non reservare.
         </p>
         <p xml:id="pl-l4d18c4-d1e151">
-          Item <name ref="#Jerome">Hieronymus</name>: 
+          Item <name xml:id="pl-l4d18c4-Nd1e162" ref="#Jerome">Hieronymus</name>: 
           <cit>
             <quote xml:id="pl-l4d18c4-Qd1e156">
               Quibus Deus dimittit peccata, tegit, ne in iudicio revelentur
@@ -130,7 +128,7 @@
           </cit>.
         </p>
         <p xml:id="pl-l4d18c4-d1e160">
-          Item <name ref="Cassiodorus">Cassiodorus</name>: 
+          Item <name xml:id="pl-l4d18c4-Nd1e174" ref="Cassiodorus">Cassiodorus</name>: 
           <cit>
             <quote xml:id="pl-l4d18c4-Qd1e165">
               Qui gravia habent peccata, aliis Deus imputat, aliis per
@@ -150,7 +148,7 @@
         <p xml:id="pl-l4d18c4-d1e176">
           Nemo enim de peccato vere compungitur, habens 
           <cit>
-            <quote xml:id="pl-l4d18c4-Qd1e178">
+            <quote xml:id="pl-l4d18c4-Qd1e178" source="http://scta.info/resource/ps50_19@5-8">
               cor contritum et humiliatum,
             </quote>
           </cit> 
@@ -196,7 +194,7 @@
           </cit>.
         </p>
         <p xml:id="pl-l4d18c4-d1e200">
-          Item <name ref="#Augustine">Augustinus</name>: 
+          Item <name xml:id="pl-l4d18c4-Nd1e232" ref="#Augustine">Augustinus</name>: 
           <cit>
             <quote xml:id="pl-l4d18c4-Qd1e205">
               Nerno tollit peccata nisi solus Christus, qui est 

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -67,7 +65,7 @@
         </p>
         <p xml:id="pl-l4d15c1-d1e121">
           Ait enim Propheta: Non iudicabit Deus bis in id ipsum, vel ut
-          alii transtulerunt: Non consurget duplex tribulatio. Si ergo, inquiunt illi, aliquis
+          alii transtulerunt: <quote xml:id="pl-l4d15c1-Qd1e117" source="http://scta.info/resource/nah1_9@8-11">Non consurget duplex tribulatio</quote>. Si ergo, inquiunt illi, aliquis
           sacerdoti fuerit confessus unum de duobus vel pluribus peccatis, et de illo iniunctam sibi
           a sacerdote satisfactionem expleverit, ceteris tacitis, non pro illo peccato amplius
           iudicandus est, de quo satisfecit ad arbitrium sacerdotis, qui vicem Christi in Ecclesia
@@ -82,8 +80,8 @@
               illud intelligi, qui praesentibus suppliciis commutantur in bonum et sic perseverant,
               super quos non consurgit duplex tribulatio. Qui vero inter flagella duriores et deteriores
               fiunt ut Pharao, praesentibus aeterna connectunt, ut temporale supplicium sit eis aeternae
-              poenae initium. Unde <name ref="#Augustine">Augustinus</name>: Ignis succensus est, etc. —
-              id est, vindicia hic incipiet — et ardebit usque ad extremam damnationem. Hoc contra illos
+              poenae initium. Unde <name xml:id="pl-l4d15c1-Nd1e128" ref="#Augustine">Augustinus</name>: Ignis succensus est, etc. —
+              id est, vindicia hic incipiet — <quote xml:id="pl-l4d15c1-Qd1e131" source="http://scta.info/resource/deut32_22@7-10">et ardebit usque ad</quote> extremam damnationem. Hoc contra illos
               notandum est, qui dicunt, illud, scilicet: Non indicabit Deus bis in id ipsum, ad omnia
               pertinere flagella, quia quidam hic flagellis emendantur, alii hic et in aeternum
               puniuntur

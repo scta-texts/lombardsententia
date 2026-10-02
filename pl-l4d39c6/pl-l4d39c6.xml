@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -57,16 +55,14 @@
           sit.</head>
         <p xml:id="pl-l4d39c6-d1e115">Sunt tamen nonnulli, qui inter infideles asserunt non esse
           coniugium, quia nec rata nec legitima est eorum copula.</p>
-        <p xml:id="pl-l4d39c6-d1e118">Rata non est, quia solvi potest; nec legitima, quia <name
-          ref="Paul">Apostolus</name> dicit: <quote xml:id="pl-l4d39c6-Qd1e123"> <quote
-          xml:id="pl-l4d39c6-Qd1e125">Omne quod non est ex fide, peccatum est </quote>.</quote>
+        <p xml:id="pl-l4d39c6-d1e118">Rata non est, quia solvi potest; nec legitima, quia <name xml:id="pl-l4d39c6-Nd1e114" ref="Paul">Apostolus</name> dicit: <quote xml:id="pl-l4d39c6-Qd1e123"> <quote xml:id="pl-l4d39c6-Qd1e125" source="http://scta.info/resource/rom14_23@12-19">Omne quod non est ex fide, peccatum est </quote>.</quote>
           Eorum autem coniunctio non est ex fide, et ideo peccatum est; non est igitur coniugium,
           quia nullum coniugium peccatum est.</p>
-        <p xml:id="pl-l4d39c6-d1e130"> <name ref="#Augustine">Augustinus</name> etiam dicit, quia
+        <p xml:id="pl-l4d39c6-d1e130"> <name xml:id="pl-l4d39c6-Nd1e126" ref="#Augustine">Augustinus</name> etiam dicit, quia
           non est vera pudicitia infidelis cum fideli. Sed vera negatur esse pudicitia , non quod
           infidelium coniugium non sil verum, sed quia non habet illud triplex bonum, quod excusat
           coitum et meretur praemium.</p>
-        <p xml:id="pl-l4d39c6-d1e137">Item, illud Apostoli: <quote xml:id="pl-l4d39c6-Qd1e139">Omne
+        <p xml:id="pl-l4d39c6-d1e137">Item, illud Apostoli: <quote xml:id="pl-l4d39c6-Qd1e139" source="http://scta.info/resource/rom14_23@12-19">Omne
           quod non est ex fide, peccatum est,</quote> non ita intelligendum est ut quidquid fit ab
           infidelibus peccatum sit; sed omne quod fit contra fidem, id est conscientiam, male fit et
           ad gehennam aedificat. Vel, in omni eo quod infidelis facit, peccat, non quia illud facit,

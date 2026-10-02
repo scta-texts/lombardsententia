@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -55,8 +53,7 @@
         <head xml:id="pl-l3d27c5-Hd1e109">Capitulum 5</head>
         <head xml:id="pl-l3d27c5-Hd1e112" type="question-title">De modo diligendi.</head>
         <p xml:id="pl-l3d27c5-d1e115">Consequenter modum utriusque dilectionis advertamus.</p>
-        <p xml:id="pl-l3d27c5-d1e118"> <quote xml:id="pl-l3d27c5-Qd1e120">Haec regula, ut ait <name
-          ref="#Augustine">Augustinus</name>, dilectionis divinitus constituta est</quote>, ut Deum
+        <p xml:id="pl-l3d27c5-d1e118"> <quote xml:id="pl-l3d27c5-Qd1e120">Haec regula, ut ait <name xml:id="pl-l3d27c5-Nd1e116" ref="#Augustine">Augustinus</name>, dilectionis divinitus constituta est</quote>, ut Deum
           propter se toto corde, et proximum diligas sicut te ipsum, id est, ad quod et propter quod
           te ipsum diligere debes: in bono enim et propter Deum te ipsum diligere</p>
         <p xml:id="pl-l3d27c5-d1e127">debes, in bono ergo diligendus est proximus, non in malo, et
@@ -67,14 +64,14 @@
           amare debet, hoc est in Deo vel propter Deum; sic enim et se ipsum amare debet, scilicet
           in Deo vel propter Deum, id est, quia iustus est, vel ut iustus sit. Qui enim aliter se
           diligit, ini uste se diligit, quia ad hoc se diligit ut sil iniustus, ad hoc ergo ut sit
-          malus: non ergo iam se diligit. <quote xml:id="pl-l3d27c5-Qd1e133">Qui enim 
+          malus: non ergo iam se diligit. <quote xml:id="pl-l3d27c5-Qd1e133" source="http://scta.info/resource/ps10_6@8-12">Qui enim 
             diligit, iniquitatem odit animam suam</quote></quote>.</p>
         <p xml:id="pl-l3d27c5-d1e143"> <quote xml:id="pl-l3d27c5-Qd1e145" source="http://scta.info/resource/adt-l14"> Sic condita est mens
           humana, ut nunquam sui non meminerit, nunquam se non intelligat, nunquam se non diligat.
           Sed quoniam qui odit aliquem, nocere illi studet, non immerito et mens hominis, quando
           sibi nocet, se odisse dicitur. Nesciens enim sibi vult male</quote>, dum non putat sibi
           obesse quod vult; sed tamen male sibi vult, quando id vult, quod obsit sibi; secundum
-          illud: <quote xml:id="pl-l3d27c5-Qd1e148">Qui diligit iniquitatem odit animam
+          illud: <quote xml:id="pl-l3d27c5-Qd1e148" source="http://scta.info/resource/ps10_6@8-12">Qui diligit iniquitatem odit animam
           suam.</quote> Qui ergo diligere se novit, Deum diligit; qui vero non diligit Deum, etiam
           si se diligit, quod ei naturaliter inditum est, tamen non incongrue se odisse dicitur, cum
           id agit, quod sibi adversatur et se ipsum tanquam suus' inimicus insequitur.</p>
@@ -84,8 +81,7 @@
           cum ait: <quote xml:id="pl-l3d27c5-Qd1e157">sicut te ipsum,</quote> ut proximum diligas,
           ad quod te ipsum. Si ergo te non propter te diligere debes, sed propter illum, ubi
           dilectionis tuae rectissimus finis est, non succenseat alius aliquis homo, si et ipsum
-          propter Deum diligis. Huius dilectionis modum Veritas insinuat dicens : <quote
-          xml:id="pl-l3d27c5-Qd1e160" source="http://scta.info/resource/io13_34">Mandatum novum do vobis, ut diligatis invicem, sicut dilexi
+          propter Deum diligis. Huius dilectionis modum Veritas insinuat dicens : <quote xml:id="pl-l3d27c5-Qd1e160" source="http://scta.info/resource/io13_34">Mandatum novum do vobis, ut diligatis invicem, sicut dilexi
           vos,</quote> id est, ad quod dilexi vos, scilicet ut <mentioned>filii sitis, ut vitam habeatis.</mentioned> </p>
         <p xml:id="pl-l3d27c5-d1e167">Dilectionis autem Dei modus insinuatur, cum dicitur: 
           <quote xml:id="pl-l3d27c5-Qd1e171">Ex toto corde, id

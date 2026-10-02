@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -70,13 +68,12 @@
         <p xml:id="pl-l4d15c4-d1e121"> 
         <cit>
           <quote xml:id="pl-l4d15c4-Qd1e123"> Quod ergo Dominus ait:
-            Date eleemosynam, et omnia munda sunt vobis; itane intellecturi sumus, ut non credentibus
+            Date eleemosynam, et <quote xml:id="pl-l4d15c4-Qd1e127" source="http://scta.info/resource/lc11_41@8-11">omnia munda sunt vobis</quote>; itane intellecturi sumus, ut non credentibus
             in Christum munda sint omnia, si eleemosynas istas dederint 
           </quote>
         </cit>? 
         <cit>
-          <quote
-            xml:id="pl-l4d15c4-Qd1e126"> Qui vult ordinate dare eleemosynam a se debet primum
+          <quote xml:id="pl-l4d15c4-Qd1e126"> Qui vult ordinate dare eleemosynam a se debet primum
             incipere, et eam sibi primum dare 
           </quote>
         </cit>.

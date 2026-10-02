@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -59,31 +56,31 @@
           dum bona magis placent et laudabiliora existunt. Ipsis etiam 
           facientibus, ex malis quae faciunt, interdum bona veniunt, si 
           <cit>
-            <quote xml:id="pll1d46c6-Qd1e3514">secundum 
+            <quote xml:id="pll1d46c6-Qd1e3514" source="http://scta.info/resource/rom8_28@12-16">secundum 
               propositum vocati sunt Sancti</quote>
             <bibl>xxx</bibl>
           </cit>
         </p>
         <p xml:id="pll1d46c6-d1e3522">
           <cit>
-            <quote xml:id="pll1d46c6-Qd1e3526">Talibus enim, ut ait <ref><name ref="#Augustine">Augustinus</name> in libro <title>De correptione 
+            <quote xml:id="pll1d46c6-Qd1e3526">Talibus enim, ut ait <ref xml:id="pl-l1d46c6-Rd1e121"><name xml:id="pl-l1d46c6-Nd1e122" ref="#Augustine">Augustinus</name> in libro <title>De correptione 
               et gratia</title>,</ref> usque adeo Deus omnia cooperatur in bonum, ut, si qui 
               eorum deviant et exorbitant, etiam hoc ipsum eis faciat proficere 
               in bonum, quia humiliores redeunt atque doctiores,</quote>
             <bibl>Augustinus, De correptione et gratia, c. 9, n. 24 (PL 44:930)</bibl>
           </cit>
-          ut <name ref="#Peter">Petrus</name>.</p>
+          ut <name xml:id="pl-l1d46c6-Nd1e132" ref="#Peter">Petrus</name>.</p>
         <p xml:id="pll1d46c6-d1e3545">
           <cit>
             <quote xml:id="pll1d46c6-Qd1e3549" source="http://scta.info/resource/adt-l13-d1e1492">
               Illa etiam mala, quae ab iniquis fideles pie perferunt, ut ait 
-              <name ref="#Augustine">Augustinus</name> in libro <title ref="#deTrinitate">De Trinitate</title>, ipsis utique prosunt vel ad 
+              <name xml:id="pl-l1d46c6-Nd1e142" ref="#Augustine">Augustinus</name> in libro <title ref="#deTrinitate">De Trinitate</title>, ipsis utique prosunt vel ad 
               demenda peccata, vel ad exercendam probandamque iustitiam, 
               vel ad demonstrandam huius vitae miseriam.</quote>
             <bibl>Augustinus, De Trinitate, XIII, c. 16, n. 20 (PL 42:1030)</bibl>
           </cit>
         </p>
-        <p xml:id="pll1d46c6-d1e3564">Ideoque et <name ref="#Job">Iob</name> Dei manum, et Apostolus satanae stimulum 
+        <p xml:id="pll1d46c6-d1e3564">Ideoque et <name xml:id="pl-l1d46c6-Nd1e156" ref="#Job">Iob</name> Dei manum, et Apostolus satanae stimulum 
           sensit; et uterque profecti, quia 
           <cb ed="#Z" n="51va" select="zbs-SII-0072_051v.json"/>
           malum bene portavit.</p>
@@ -97,7 +94,7 @@
           Et si eo auctore homo fit deterior, tunc eo volente homo fit 
           deterior - idem est enim dicere aliquid fieri Deo auctore, quod 
           Deo volente - Deo autem auctore non fit homo deterior; ergo nec 
-          Deo volente, ut <ref><name ref="#Augustine">Augustinus</name> in libro <title ref="#deDiversisQuaestionibus">83 Quaestionum</title></ref> aperte 
+          Deo volente, ut <ref xml:id="pl-l1d46c6-Rd1e164"><name xml:id="pl-l1d46c6-Nd1e165" ref="#Augustine">Augustinus</name> in libro <title ref="#deDiversisQuaestionibus">83 Quaestionum</title></ref> aperte 
           <!-- 285 -->
           astruit a minori, dicens ita: 
           <cit>
@@ -112,7 +109,7 @@
             <bibl>Augustinus, De diversis quaestionibus, q. 3 (PL 40:11)</bibl>
           </cit>
           <cit>
-            <quote xml:id="pll1d46c6-Qd1e3594">Ecce hic <name ref="#Augustine">Augustinus</name> dicit aperte, Deo auctore vel volente 
+            <quote xml:id="pll1d46c6-Qd1e3594">Ecce hic <name xml:id="pl-l1d46c6-Nd1e185" ref="#Augustine">Augustinus</name> dicit aperte, Deo auctore vel volente 
               hominem non fieri deteriorem, sed vitio voluntatis suae. Non 
               est ergo Deo auctore, quod malum fit ab aliquo; et ita Deo volente, 
               mala non fiunt.</quote>

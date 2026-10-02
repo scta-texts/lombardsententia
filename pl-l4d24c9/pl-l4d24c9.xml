@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -59,15 +57,13 @@
           vocantur, quos nos subdiacones, dicimus; qui ideo sic appellantur , quia subiacent
           praeceptis et officiis levitarum. Oblationes enim in templo a fidelibus suscipiunt et
           levitis superponendas altaribus deferunt. Hi apud Hebraeos Nathinaei vocantur </quote>,
-          <quote xml:id="pl-l4d24c9-Qd1e123"> id est in <quote xml:id="pl-l4d24c9-Qd1e125"
-          >humilitate Domino servientes</quote>.</quote> </p>
+          <quote xml:id="pl-l4d24c9-Qd1e123"> id est in <quote xml:id="pl-l4d24c9-Qd1e125">humilitate Domino servientes</quote>.</quote> </p>
         <p xml:id="pl-l4d24c9-d1e130"> <quote xml:id="pl-l4d24c9-Qd1e132"> Ad subdiaconum pertinet
           calicem et patenam ad altare Christi deferre et levitis tradere eisque ministrare,
           urceolum quoque et aqua-manile et manutergium tenere, epicopo et presbyteris et levitis
           pro lavandis ante altare manibus aquam praebere </quote>.</p>
         <p xml:id="pl-l4d24c9-d1e137">His lex continentiae imponitur; quia, altari propinquantes,
-          vasa corporis et sanguinis Christi portant; unde illud implere debent : <quote
-          xml:id="pl-l4d24c9-Qd1e139">Mundamini qui fertis vasa Domini.</quote> </p>
+          vasa corporis et sanguinis Christi portant; unde illud implere debent : <quote xml:id="pl-l4d24c9-Qd1e139" source="http://scta.info/resource/is52_11@12-16">Mundamini qui fertis vasa Domini.</quote> </p>
         <p xml:id="pl-l4d24c9-d1e143"> <quote xml:id="pl-l4d24c9-Qd1e145"> Ad hos etiam perlinet
           tantum de oblationibus ponere in altari, quantum sufficere possit populo, nec non et
           corporales et pallas et substratoria lavare </quote>.</p>

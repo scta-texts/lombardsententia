@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -59,16 +57,14 @@
           quaedam bonitati attribuantur, in Scripturis facile est reperire.</p>
         <p xml:id="pl-l4d46c4-d1e118">Et de misericordia quidem et iustitia manifestum est, de
           bonitate vero et misericordia amplius latet.</p>
-        <p xml:id="pl-l4d46c4-d1e121">Sed <name ref="#Augustine">Augustinus</name> docet illa opera
+        <p xml:id="pl-l4d46c4-d1e121">Sed <name xml:id="pl-l4d46c4-Nd1e117" ref="#Augustine">Augustinus</name> docet illa opera
           proprie ad misericordiam pertinere, quibus aliqui a miseria liberantur; ad bonitatem vero
-          non solum illa, sed facturam et gubernationem naturalium, ita dicens: <quote
-          xml:id="pl-l4d46c4-Qd1e126"> Ad misericordiam pertinet, quod a peccatis mundat et de
+          non solum illa, sed facturam et gubernationem naturalium, ita dicens: <quote xml:id="pl-l4d46c4-Qd1e126"> Ad misericordiam pertinet, quod a peccatis mundat et de
           miseria liberat; ad bonitatem vero, quod caelum et terram et omnia valde bona creavit, ut
           essent</quote>.</p>
         <p xml:id="pl-l4d46c4-d1e131">Idem: <quote xml:id="pl-l4d46c4-Qd1e133">Caeli non indigent
           misericordia, ubi nulla est miseria; in terra hominis abundat miseria, et superabundat
-          Domini misericordia. Miseria igitur hominis et <quote xml:id="pl-l4d46c4-Qd1e135"
-          >misericordia Domini plena est terra</quote>, non caeli, qui non indigent misericordia,
+          Domini misericordia. Miseria igitur hominis et <quote xml:id="pl-l4d46c4-Qd1e135" source="http://scta.info/resource/ps32_5@5-9">misericordia Domini plena est terra</quote>, non caeli, qui non indigent misericordia,
           indigent tamen regente Domino. Omnia enim indigent Domino, et felicia et misera, quia sine
           illo miser non sublevatur, felix non regitur </quote>.</p>
         <p xml:id="pl-l4d46c4-d1e140">Item alibi: <quote xml:id="pl-l4d46c4-Qd1e142">Misericordia

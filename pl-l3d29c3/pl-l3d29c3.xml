@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -57,14 +55,14 @@
         <p xml:id="pl-l3d29c3-d1e115">Sciendum quoque est, diversos esse gradus caritatis: est enim
           caritas incipiens, proficiens, perfecta, perfectissima.</p>
         <p xml:id="pl-l3d29c3-d1e118">
-          Unde <ref xml:id="pl-l3d29c3-Rgg98aa" corresp="#pl-l3d29c3-Qcna111"><name ref="#Augustine">Augustinus</name></ref>:
+          Unde <ref xml:id="pl-l3d29c3-Rgg98aa" corresp="#pl-l3d29c3-Qcna111"><name xml:id="pl-l3d29c3-Nd1e115" ref="#Augustine">Augustinus</name></ref>:
           <quote xml:id="pl-l3d29c3-Qcna111" source="http://scta.info/resource/n6MsPi-cIaudh-d1e547@147-200"><!-- source text is rough, so wordRange is approximate -->Perfecta caritas haec est, ut quis paratus sil pro fratribus etiam mori. Sed
           nunquid mox ul nascitur, iam prorsus perfecta est? lmmo ut perficiatur, nascitur; cum
           fuerit nata, nutritur; cum fuerit nutrita, roboratur; cum fuerit roborata, perficitur; cum
           ad perfectionem venerit, dicit: <quote xml:id="pl-l3d29c3-Qd1e125">Cupio dissolvi, et esse
           cum Christo ,</quote></quote> etc.</p>
         <p xml:id="pl-l3d29c3-d1e129">Hic aperte progressus et perfectio caritatis insinuatur, quam
-          perfectionem etiam Veritas commendat dicens: <quote xml:id="pl-l3d29c3-Qd1e131">Maiorem
+          perfectionem etiam Veritas commendat dicens: <quote xml:id="pl-l3d29c3-Qd1e131" source="http://scta.info/resource/io15_13@1-13">Maiorem
           hac dilectionem nemo habet, quam ut animam suam ponat quis pro amicis suis .</quote> Quod
           utique dictum est de opere dilectionis, quia maior dilectionis effectus non est quam
           ponere animam pro aliis. Nec te moveat quod ait <quote xml:id="pl-l3d29c3-Qd1e134">pro

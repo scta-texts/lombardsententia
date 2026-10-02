@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -55,7 +53,7 @@
         <head xml:id="pl-l4d45c2-Hd1e109">Capitulum 2</head>
         <head xml:id="pl-l4d45c2-Hd1e112" type="question-title">De suffragiis defunctorum.</head>
         <p xml:id="pl-l4d45c2-d1e115"> <quote xml:id="pl-l4d45c2-Qd1e117"> Neque negandum est, ut
-          ait <name ref="#Augustine">Augustinus</name>, defunctorum animas pietate suorum viventium
+          ait <name xml:id="pl-l4d45c2-Nd1e113" ref="#Augustine">Augustinus</name>, defunctorum animas pietate suorum viventium
           relevari, cum pro illis sacrificium Mediatori offertur, vel eleemosynae fiunt in Ecclesia.
           Sed eis haec prosunt, qui, cum viverent, haec sibi ut postea possent prodesse, meruerunt.
           Est enim quidam vivendi modus, nec tam bonus ut non requirat ista post mortem, nec tam
@@ -64,7 +62,7 @@
           Quocirca hic omne meritum comparatur, quo possit post hanc vitam quispiam gravari, vel
           relevari. Nemo autem speret, quod hic neglexit, cum obierit, apud Deum promereri. Non
           igitur ista quae pro defunctis commendandis frequentat Ecclesia, illi apostolicae sunt
-          adversa sententiae, qua dictum est: <quote xml:id="pl-l4d45c2-Qd1e122">Omnes astabimus
+          adversa sententiae, qua dictum est: <quote xml:id="pl-l4d45c2-Qd1e122" source="http://scta.info/resource/IIcor5_10@5-15">Omnes astabimus
           ante tribunal Christi, ut referat unusquisque secundum ea quae per corpus gessit,</quote>
           scilicet <quote xml:id="pl-l4d45c2-Qd1e125">bona vel mala;</quote> quia etiam hoc meritum
           sibi quisque, cum in corpore viveret, comparavit, ut possent ei ista prodesse: non enim
@@ -95,8 +93,7 @@
           , quos sibi fecerunt <quote xml:id="pl-l4d45c2-Qd1e144">amicos de mammona
           iniquitatis;</quote> quorum tanta est perfectio, ut his adiutoriis non indigeant, quales
           sunt Apostoli et Martyres.</p>
-        <p xml:id="pl-l4d45c2-d1e149">Ut enim ait <name ref="#Augustine">Augustinus</name>: <quote
-          xml:id="pl-l4d45c2-Qd1e154"> Iniuria est pro Martyre in Ecclesia orare, cuius debemus
+        <p xml:id="pl-l4d45c2-d1e149">Ut enim ait <name xml:id="pl-l4d45c2-Nd1e145" ref="#Augustine">Augustinus</name>: <quote xml:id="pl-l4d45c2-Qd1e154"> Iniuria est pro Martyre in Ecclesia orare, cuius debemus
           orationibus commendari; pro aliis autem defunctis oratur</quote>.</p>
       </div>
     </body>

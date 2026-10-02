@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -63,7 +61,7 @@
           Quibusdam visum est sufficere, si soli Deo fiat confessio sine
           indicio sacerdotali et confessione Ecclesiae, quia David dicit: 
           <cit>
-            <quote xml:id="pl-l4d17c2-Qd1e120">
+            <quote xml:id="pl-l4d17c2-Qd1e120" source="http://scta.info/resource/ps31_5@11-20">
               Dixi, confitebor Domino, et tu remisisti,
             </quote>
           </cit> 
@@ -71,7 +69,7 @@
           ait sacerdoti, et tamen remissum sibi dicit peccatum.
         </p>
         <p xml:id="pl-l4d17c2-d1e124">
-          Item <name ref="#Ambrose">Ambrosius</name>:
+          Item <name xml:id="pl-l4d17c2-Nd1e123" ref="#Ambrose">Ambrosius</name>:
           <cit>
             <quote xml:id="pl-l4d17c2-Qd1e129">
               Ideo flevit Petrus, quia culpa obrepsit ei; non invenio quid

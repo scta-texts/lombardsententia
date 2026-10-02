@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -26,8 +25,7 @@
         </authority>
         <availability status="free">
           <p>Published under a
-            <ref target="https://creativecommons.org/licenses/by-sa/4.0"
-              >Creative Commons Attribution 4.0 International</ref>
+            <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
           </p>
         </availability>
       </publicationStmt>
@@ -39,8 +37,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the
           LombardPress 1.0.0 guidelines for a critical edition.</p>
@@ -68,7 +65,7 @@
           debeat contrahi matrimonium. </p>
         <p xml:id="pl-l4d30c3-d1e118">
           <cit>
-            <quote>
+            <quote xml:id="pl-l4d30c3-Qd1e116">
               Est igitur finalis causa contrahendi matrimonii
               principalis procreatio prolis; propter hoc enim instituit
               Deus coniugium inter primos parentes, quibus dixit:
@@ -81,7 +78,7 @@
               etc. 
               Secunda est post peccatum Adae vitatio fornicationis;
               unde 
-              <name ref="Paul">Apostolus</name>:
+              <name xml:id="pl-l4d30c3-Nd1e124" ref="Paul">Apostolus</name>:
               <cit>
                 <quote xml:id="pl-l4d30c3-Qd1e127" source="http://scta.info/resource/Icor7_2">
                   Propter fornicationem
@@ -101,7 +98,7 @@
         </p>
         <p xml:id="pl-l4d30c3-d1e131">
           <cit>
-            <quote>
+            <quote xml:id="pl-l4d30c3-Qd1e140">
               Nec est assentiendum illis qui dicunt, non esse
               coniugium, quod propter has causas minus honestas
               contrahitur. Constat enim ex praemissis, coniugium fieri ex
@@ -112,16 +109,16 @@
         </p>
         <p xml:id="pl-l4d30c3-d1e136">
           <cit>
-            <quote>Cuius rei documentum praestat Iacob, qui Rachel
+            <quote xml:id="pl-l4d30c3-Qd1e149">Cuius rei documentum praestat Iacob, qui Rachel
               <cit>
-                <quote xml:id="pl-l4d30c3-Qd1e139">
+                <quote xml:id="pl-l4d30c3-Qd1e139" source="http://scta.info/resource/gen29_17@7-11">
                   decoram facie et venusto
                   aspectu
                 </quote>
               </cit>
               adamavit, eamque diligens ait:
               <cit>
-                <quote xml:id="pl-l4d30c3-Qd1e142">
+                <quote xml:id="pl-l4d30c3-Qd1e142" source="http://scta.info/resource/gen29_18@5-13">
                   Serviam tibi pro Rachel
                   septem annis.
                 </quote>

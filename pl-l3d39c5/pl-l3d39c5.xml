@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -56,8 +54,7 @@
         <head xml:id="pl-l3d39c5-Hd1e112" type="question-title">De iuramento, quod fit per
           creaturas.</head>
         <p xml:id="pl-l3d39c5-d1e115">Quaeritur etiam, utrum liceat iurare per creaturam.</p>
-        <p xml:id="pl-l3d39c5-d1e118">Quod non videtur, cum in Lege scriptum sil: <quote
-          xml:id="pl-l3d39c5-Qd1e120">Reddes autem Domino iuramenta tua;</quote> et Christus in
+        <p xml:id="pl-l3d39c5-d1e118">Quod non videtur, cum in Lege scriptum sil: <quote xml:id="pl-l3d39c5-Qd1e120" source="http://scta.info/resource/mt5_33@9-13">Reddes autem Domino iuramenta tua;</quote> et Christus in
           Evangelio praecipiat, <quote xml:id="pl-l3d39c5-Qd1e123">non iurare omnino, nec per
           caelum, nec per terram, nec per Hierosolymam, nec per caput tuum.</quote> </p>
         <p xml:id="pl-l3d39c5-d1e127"> <quote xml:id="pl-l3d39c5-Qd1e129"> ludaeis, quasi parvulis,

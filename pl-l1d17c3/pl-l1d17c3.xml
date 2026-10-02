@@ -1,13 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Liber 1, Distinctio 17, Caput 3</title>
         <author>Petrus Lombardus</author>
-        <editor></editor>
+        <editor/>
       </titleStmt>
       <editionStmt>
         <edition n="2015.11-dev-master">
@@ -16,8 +13,8 @@
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher></publisher>
-        <pubPlace></pubPlace>
+        <publisher/>
+        <pubPlace/>
         <availability status="free">
           <p>Public Domain</p>
         </availability>
@@ -60,7 +57,7 @@
           eo scilicet quod caritas sit ex Deo et 
           <!-- p. 109 -->
           non sit ipse Deus, sicut dicitur: Deus nostra patientia et spes, 
-          non quod ipse sit ista, sed quia ista ex eo sunt, occurrit <name ref="#Augustine">Augustinus</name> 
+          non quod ipse sit ista, sed quia ista ex eo sunt, occurrit <name xml:id="pl-l1d17c3-Nd1e106" ref="#Augustine">Augustinus</name> 
           ostendens, non hoc esse dictum per causam, sicut illa, 
           in <ref xml:id="pl-l1d17c3-Rfja888" corresp="#pll1d17c3-Qd1e3499">XV libro <title ref="#deTrinitate">De Trinitate</title></ref> ita dicens: 
           <cit>
@@ -106,7 +103,7 @@
               </cit>
               sicut dictum est: 
               <cit>
-                <quote xml:id="pll1d17c3-Qd1e3558" source="http://scta.info/resource/Iio4_24">Deus 
+                <quote xml:id="pll1d17c3-Qd1e3558" source="http://scta.info/resource/io4_24">Deus 
                   spiritus est.</quote>
                 <bibl>I Ioannes 4:24</bibl>
               </cit>

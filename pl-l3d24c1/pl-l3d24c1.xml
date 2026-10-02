@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -59,23 +57,20 @@
           Veritas Apostolis ait : <quote xml:id="pl-l3d24c1-Qd1e117" source="http://scta.info/resource/io14_29">Nunc dico vobis, priusquam
           fiat, ut, cum facium fuerit, credatis?</quote> ubi innui videtur, quod fides illis fuerit
           de factis et visis.</p>
-        <p xml:id="pl-l3d24c1-d1e121">Super quo <name ref="#Augustine">Augustinus</name> movet
+        <p xml:id="pl-l3d24c1-d1e121">Super quo <name xml:id="pl-l3d24c1-Nd1e117" ref="#Augustine">Augustinus</name> movet
           quaestionem et absolvit, ita inquiens: <quote xml:id="pl-l3d24c1-Qd1e126"> Quid sibi vult:
-          <quote xml:id="pl-l3d24c1-Qd1e128">Ut, cum factum fuerit, credatis</quote>? Haec est laus
-          fidei, si quod creditur non videtur. Nam et Thomas, cui dictum est: <quote
-          xml:id="pl-l3d24c1-Qd1e131" source="http://scta.info/resource/io20_29">Quia vidisti me, credidisti,</quote> non hoc credidit, quod
+          <quote xml:id="pl-l3d24c1-Qd1e128" source="http://scta.info/resource/io14_29@8-11">Ut, cum factum fuerit, credatis</quote>? Haec est laus
+          fidei, si quod creditur non videtur. Nam et Thomas, cui dictum est: <quote xml:id="pl-l3d24c1-Qd1e131" source="http://scta.info/resource/io20_29">Quia vidisti me, credidisti,</quote> non hoc credidit, quod
           vidit. Cernebat enim et tangebat carnem viventem, quam viderat morientem, et credebat Deum
           in carne ipsa latentem. Credebat ergo mente, quod non videbat per hoc quod sensibus
           corporis apparebat. Si vero dicuntur credi quae videntur, sicut dicit unusquisque oculis
           suis credidisse, non ipsa est quae in nobis aedificatur fides, sed ex rebus quae videntur,
           agitur in nobis, ut ea credantur quae non videntur </quote>.</p>
-        <p xml:id="pl-l3d24c1-d1e136">Ex his aperte intelligitur, quod proprie fides <quote
-          xml:id="pl-l3d24c1-Qd1e138">non apparentium</quote> est; nec illa fides est, qua in
+        <p xml:id="pl-l3d24c1-d1e136">Ex his aperte intelligitur, quod proprie fides <quote xml:id="pl-l3d24c1-Qd1e138">non apparentium</quote> est; nec illa fides est, qua in
           Christo aedificamur, qua dicimus usitata locutione, nos ea credere quae videmus.</p>
-        <p xml:id="pl-l3d24c1-d1e143">Alibi tamen dicit <name ref="#Augustine">Augustinus</name>,
+        <p xml:id="pl-l3d24c1-d1e143">Alibi tamen dicit <name xml:id="pl-l3d24c1-Nd1e139" ref="#Augustine">Augustinus</name>,
           fidem esse de rebus praesentibus; quod erit in futuro, cum per speciem Deum praesentem
-          contemplabimur; quae tamen non proprie dicitur fides, sed veritas. <quote
-          xml:id="pl-l3d24c1-Qd1e148"> Est, inquit, fides, qua creduntur ea quae non videntur; sed
+          contemplabimur; quae tamen non proprie dicitur fides, sed veritas. <quote xml:id="pl-l3d24c1-Qd1e148"> Est, inquit, fides, qua creduntur ea quae non videntur; sed
           tamen est etiam fides rerum, quando non verbis, sed rebus ipsis praesentibus creditur;
           quod erit, cum per speciem manifestam se contemplandam Sanctis praebebit Dei
           sapientia</quote>. Sed non proprie haec dicitur fides, immo fidei merces, ad quam credendo

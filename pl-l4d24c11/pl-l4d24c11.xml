@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -57,9 +55,8 @@
         <p xml:id="pl-l4d24c11-d1e115">Septimus est ordo presbyterorum.</p>
         <p xml:id="pl-l4d24c11-d1e118"> <quote xml:id="pl-l4d24c11-Qd1e120"> Presbyter Graece,
           senior interpetratur Latine. Non modo pro aetate vel decrepita senectute, sed propter
-          honorem et dignitatem, quam acceperunt, presbyteri nominantur </quote>; <quote
-          xml:id="pl-l4d24c11-Qd1e123"> qui morum prudentia et maturitate conversationis praecellere
-          debent in populo, sicut scriptum est: <quote xml:id="pl-l4d24c11-Qd1e125">Senectus
+          honorem et dignitatem, quam acceperunt, presbyteri nominantur </quote>; <quote xml:id="pl-l4d24c11-Qd1e123"> qui morum prudentia et maturitate conversationis praecellere
+          debent in populo, sicut scriptum est: <quote xml:id="pl-l4d24c11-Qd1e125" source="http://scta.info/resource/sap4_8@1-15 http://scta.info/resource/sap4_9@1-5">Senectus
           venerabilis est, non diuturna neque annorum numero computata. Cani enim sunt sensus
           hominis, et aetas senectutis vita immaculata</quote> </quote>.</p>
         <p xml:id="pl-l4d24c11-d1e130"> <quote xml:id="pl-l4d24c11-Qd1e132"> Ideo autem et
@@ -86,15 +83,12 @@
           summum sacerdotem filios vero eius unxit in minores sacerdotes .</p>
         <p xml:id="pl-l4d24c11-d1e155">Christus quoque <quote xml:id="pl-l4d24c11-Qd1e157">elegii
           duodecim discipulos</quote> prius, <quote xml:id="pl-l4d24c11-Qd1e160">quos et Apostolos
-          vocavit;</quote> quorum vicem gerunt in Ecclesia maiores pontifices. Deinde <quote
-          xml:id="pl-l4d24c11-Qd1e163">alios septuaginta duos discipulos designavit; </quote>quorum
+          vocavit;</quote> quorum vicem gerunt in Ecclesia maiores pontifices. Deinde <quote xml:id="pl-l4d24c11-Qd1e163">alios septuaginta duos discipulos designavit; </quote>quorum
           vicem in Ecclesia tenent presbyteri. Unus autem inter Apostolos princeps exstitit Petrus,
           cuius vicarius et successor est Pontifex Summus, unde dicitur Apostolicus, qui et Papa
-          vocatur, scilicet Paler patrum. Qualis autem eligi debeat presbyter, <name ref="Paul"
-          >Apostolus</name> scribens Timotheo ostendit, ubi nomine episcopi presbyterum
+          vocatur, scilicet Paler patrum. Qualis autem eligi debeat presbyter, <name xml:id="pl-l4d24c11-Nd1e160" ref="Paul">Apostolus</name> scribens Timotheo ostendit, ubi nomine episcopi presbyterum
           significat.</p>
-        <p xml:id="pl-l4d24c11-d1e170">Hoc autem officio usus est Christus, cum <quote
-          xml:id="pl-l4d24c11-Qd1e172">se ipsum in ara crucis obtulit</quote>, idem sacerdos et
+        <p xml:id="pl-l4d24c11-d1e170">Hoc autem officio usus est Christus, cum <quote xml:id="pl-l4d24c11-Qd1e172">se ipsum in ara crucis obtulit</quote>, idem sacerdos et
           hostia, et quando post coenam panem et vinum in corpus suum et sanguinem commutavit.</p>
         <p xml:id="pl-l4d24c11-d1e176">Ecce de septem Ecclesiae gradibus breviter elocuti, quid ad
           quemque pertineat, insinuavimus.</p>

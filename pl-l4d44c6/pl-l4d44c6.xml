@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -56,16 +54,14 @@
         <head xml:id="pl-l4d44c6-Hd1e112" type="question-title">Si daemones corporali igne
           cremantur.</head>
         <p xml:id="pl-l4d44c6-d1e115">Quaeri etiam solet, an daemones corporali igne ardeant.</p>
-        <p xml:id="pl-l4d44c6-d1e118">Ad quod <name ref="#Augustine">Augustinus</name> respondens
+        <p xml:id="pl-l4d44c6-d1e118">Ad quod <name xml:id="pl-l4d44c6-Nd1e114" ref="#Augustine">Augustinus</name> respondens
           ait: <quote xml:id="pl-l4d44c6-Qd1e123">Cur non dicamus, quamvis miris, veris tamen modis,
           etiam spiritus incorporeos posse poena corporalis ignis affligi, si spiritus hominum,
           etiam ipsi incorporei, et nunc potuerunt suorum vinculis insolubiliter alligari</quote>?
-          <quote xml:id="pl-l4d44c6-Qd1e126">Gehenna illa, quae <quote xml:id="pl-l4d44c6-Qd1e128"
-          >stagnum ignis et sulphuris</quote> dicta est, corporeus ignis erit, et cruciabit
+          <quote xml:id="pl-l4d44c6-Qd1e126">Gehenna illa, quae <quote xml:id="pl-l4d44c6-Qd1e128" source="http://scta.info/resource/ap20_9@19-22">stagnum ignis et sulphuris</quote> dicta est, corporeus ignis erit, et cruciabit
           damnatorum corpora, hominum, vel daemonum, sed solida hominum, aerea daemonum. Unus enim
           utrisque ignis erit, ut Veritas ait</quote>.</p>
-        <p xml:id="pl-l4d44c6-d1e133">De quo igne si quaeritur, qualis vel ubi sit, <name
-          ref="#Augustine">Augustinus</name> sic respondet: <quote xml:id="pl-l4d44c6-Qd1e138">Ignis
+        <p xml:id="pl-l4d44c6-d1e133">De quo igne si quaeritur, qualis vel ubi sit, <name xml:id="pl-l4d44c6-Nd1e129" ref="#Augustine">Augustinus</name> sic respondet: <quote xml:id="pl-l4d44c6-Qd1e138">Ignis
           aeternus cuiusmodi sit, et in qua mundi vel rerum parte futurus sit, hominem scire
           arbitror neminem, nisi forte cui Spiritus divinus ostendit</quote>.</p>
       </div>

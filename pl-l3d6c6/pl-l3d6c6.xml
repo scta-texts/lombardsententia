@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -73,20 +71,18 @@
           stabilitate, sed in <quote xml:id="pl-l3d6c6-Qd1e142">similitudinem hominum </quote>factus
           est ipse susceptor, verum hominem suscipiendo, e<quote xml:id="pl-l3d6c6-Qd1e145">t habitu
           inventus est ut homo,</quote> id est, habendo hominem inventus est ut homo, non sibi, sed
-          eis quibus in homine apparuit </quote>. Quod autem dicit <quote xml:id="pl-l3d6c6-Qd1e149"
-          >ut homo</quote> veritatem exprimit. </p>
+          eis quibus in homine apparuit </quote>. Quod autem dicit <quote xml:id="pl-l3d6c6-Qd1e149">ut homo</quote> veritatem exprimit. </p>
         <p xml:id="pl-l3d6c6-d1e154"> <quote xml:id="pl-l3d6c6-Qd1e156">Nomine ergo habitus satis
-          significavit Apostolus, qualiter dixerit <quote xml:id="pl-l3d6c6-Qd1e158">in
+          significavit Apostolus, qualiter dixerit <quote xml:id="pl-l3d6c6-Qd1e158" source="http://scta.info/resource/phil2_7@8-11">in
           similitudinem hominum factus,</quote> quia non transfi¬ guratione in hominem, sed habitu
           factus est, cum indutus est hominem, quem sibi uniens quodam modo atque conformans,
           immortalitati aeternilatique sociaret. Non ergo oportet intelligi mutatum esse Verbum
           susceptione hominis, sicut nec membra veste induta mutantur, quamvis illa susceptio
           ineffabiliter susceptum suscipienti copularet </quote>. </p>
-        <p xml:id="pl-l3d6c6-d1e163"> His verbis aperte innuere videtur <name>Augustinus</name>,
+        <p xml:id="pl-l3d6c6-d1e163"> His verbis aperte innuere videtur <name xml:id="pl-l3d6c6-Nd1e157">Augustinus</name>,
           Deum dici factum hominem secundum habitum. </p>
         <p xml:id="pl-l3d6c6-d1e169"> Qui etiam ipsius incarnationis modum volens exprimere,
-          quaerentibus in <ref xml:id="pl-l3d6c6-Rvn18hh" corresp="#pl-l3d6c6-Qd1e174">IV libro <title ref="#deTrinitate">De Trinitate</title></ref> ait: <quote
-          xml:id="pl-l3d6c6-Qd1e174" source="http://scta.info/resource/adt-l4-d1e659@40-112">Si quaeritur, ipsa
+          quaerentibus in <ref xml:id="pl-l3d6c6-Rvn18hh" corresp="#pl-l3d6c6-Qd1e174">IV libro <title ref="#deTrinitate">De Trinitate</title></ref> ait: <quote xml:id="pl-l3d6c6-Qd1e174" source="http://scta.info/resource/adt-l4-d1e659@40-112">Si quaeritur, ipsa
           incarnatio quo modo facta sit, ipsum Verbum Dei dico carnem factum, id est hominem factum,
           non tamen in hoc, quod factum est, conversam atque mutatum, sed carne, ut
           carnalibus congruenter appareret, indutum. Ita sane
@@ -95,25 +91,23 @@
           Deum, et homo propter hominem. Quod si difficile intelligitur, mens fide purgetur, a
           peccatis abstinendo et bona operando; difficilia enim sunt haec</quote>. 
         </p>
-        <p xml:id="pl-l3d6c6-d1e184"> Idem in libro <title>De fide ad Petrum</title> : <quote
-          xml:id="pl-l3d6c6-Qd1e189">Dei Filius, cum sit Deus aeternus et verus, pro nobis factus
+        <p xml:id="pl-l3d6c6-d1e184"> Idem in libro <title>De fide ad Petrum</title> : <quote xml:id="pl-l3d6c6-Qd1e189">Dei Filius, cum sit Deus aeternus et verus, pro nobis factus
           est homo verus et plenus: in eo verus, quia veram habet ille Deus humanam naturam ; in eo
           vero plenus, quia et carnem humanam suscepit et animam rationalem </quote>. </p>
         <p xml:id="pl-l3d6c6-d1e193"> Item : <quote xml:id="pl-l3d6c6-Qd1e195"> Non aliud fuit illa
           Dei summi exinanitio, nisi formae servilis, id est naturae humanae susceptio. Utraque
           igitur est in Christo forma, quia utraque vera et plena est in Christo substantia
           </quote>, divina scilicet et humana. </p>
-        <p xml:id="pl-l3d6c6-d1e199"> Idem in libro <title>Contra Maximinum</title>: <quote
-          xml:id="pl-l3d6c6-Qd1e204">Cum esset per se ipsum invisibilis, visibilis in homine
+        <p xml:id="pl-l3d6c6-d1e199"> Idem in libro <title>Contra Maximinum</title>: <quote xml:id="pl-l3d6c6-Qd1e204">Cum esset per se ipsum invisibilis, visibilis in homine
           apparuit, quem de femina suscipere dignatus est</quote>. </p>
         <p xml:id="pl-l3d6c6-d1e209"> Item in eodem: <quote xml:id="pl-l3d6c6-Qd1e211">Nos Christum
           Dominum verum hominem suscepisse credimus, et in ipso visibiliter invisibilem hominibus
           apparuisse, in ipso inter <quote xml:id="pl-l3d6c6-Qd1e213">homines conversatum
           fuisse</quote> , in ipso ab hominibus humana pertulisse, in ipso homines docuisse</quote>. </p>
-        <p xml:id="pl-l3d6c6-d1e218"> <name>Hilarius</name> quoque in libro X <title>De
+        <p xml:id="pl-l3d6c6-d1e218"> <name xml:id="pl-l3d6c6-Nd1e205">Hilarius</name> quoque in libro X <title>De
           Trinitate</title> ait: <quote xml:id="pl-l3d6c6-Qd1e226">Quomodo Dei Filius natus ex Maria
-          est, nisi quod <quote xml:id="pl-l3d6c6-Qd1e228">Verbum caro factum est,</quote> scilicet
-          quod Filius Dei, cum <quote xml:id="pl-l3d6c6-Qd1e231">in forma Dei esset, formam servi
+          est, nisi quod <quote xml:id="pl-l3d6c6-Qd1e228" source="http://scta.info/resource/io1_14@2-5">Verbum caro factum est,</quote> scilicet
+          quod Filius Dei, cum <quote xml:id="pl-l3d6c6-Qd1e231" source="http://scta.info/resource/phil2_6@2-6 http://scta.info/resource/phil2_7@5-7">in forma Dei esset, formam servi
           accepit</quote> ? Unum tamen eundemque non Dei defectione, sed hominis assumtione
           profitemur, et in <quote xml:id="pl-l3d6c6-Qd1e234">forma Dei</quote> per naturam divinam,
           et in <quote xml:id="pl-l3d6c6-Qd1e237">forma servi</quote> ex conceptione Spiritus sancti

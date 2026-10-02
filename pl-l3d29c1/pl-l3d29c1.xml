@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -56,13 +54,11 @@
         <head xml:id="pl-l3d29c1-Hd1e112" type="question-title">De ordine diligendi, quid prius,
           quid post.</head>
         <p xml:id="pl-l3d29c1-d1e115">Post praedicta, de ordine caritatis agendum est, quia dicit
-          sponsa : <quote xml:id="pl-l3d29c1-Qd1e117">Introduxit me rex in cellam vinariam et
-          ordinavit in me caritatem.</quote> Videamus igitur ordinem, quid prius, quid post<quote
-          xml:id="pl-l3d29c1-Qd1e120"> </quote>esse debeat. Peccat enim qui praepostere agit: nam
+          sponsa : <quote xml:id="pl-l3d29c1-Qd1e117" source="http://scta.info/resource/cant2_4@1-9">Introduxit me rex in cellam vinariam et
+          ordinavit in me caritatem.</quote> Videamus igitur ordinem, quid prius, quid post<quote xml:id="pl-l3d29c1-Qd1e120"> </quote>esse debeat. Peccat enim qui praepostere agit: nam
           scire quid facias, et nescire ordinem faciendi non est perfectae cognitionis: ordinis
           namque ignorantia conturbat meritorum formam.</p>
-        <p xml:id="pl-l3d29c1-d1e124">Ordinem autem diligendi <name ref="#Augustine"
-          >Augustinus</name> insinuat dicens: <quote xml:id="pl-l3d29c1-Qd1e129"> Ipse est qui
+        <p xml:id="pl-l3d29c1-d1e124">Ordinem autem diligendi <name xml:id="pl-l3d29c1-Nd1e120" ref="#Augustine">Augustinus</name> insinuat dicens: <quote xml:id="pl-l3d29c1-Qd1e129"> Ipse est qui
           ordinatam habet dilectionem, ne aut diligat quod non est diligendum, aut non diligat quod
           diligendum est, aut aeque diligat quod minus vel amplius diligendum est, aut minus vel
           amplius quod aeque diligendum est. Omnis peccator, in quantum peccator est, non est

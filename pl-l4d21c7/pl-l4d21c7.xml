@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -64,14 +62,12 @@
           iterata; perfectius est tamen etiam illa exprimere, si vales. Ideoque quotidie generaliter
           fit confessio in Ecclesia, pro venialibus scilicet peccatis, quae quotidie admittimus , et
           pro illis mortiferis, quorum notitiam non habemus.</p>
-        <p xml:id="pl-l4d21c7-d1e125">Unde <name ref="#Augustine">Augustinus</name>: <quote
-          xml:id="pl-l4d21c7-Qd1e130">Veritatem Deo dicit poenitens, quando nihil illi de commissis
+        <p xml:id="pl-l4d21c7-d1e125">Unde <name xml:id="pl-l4d21c7-Nd1e121" ref="#Augustine">Augustinus</name>: <quote xml:id="pl-l4d21c7-Qd1e130">Veritatem Deo dicit poenitens, quando nihil illi de commissis
           sceleribus celat; non quod, etsi voluntate celaverit, Deus ignoret, sed veritatem sibi ah
           eo dici vult, ut veniam consequatur. Si vero mente aliqua exciderint, confitetur veritatem
           Deo, cum generaliter dixerit: <quote xml:id="pl-l4d21c7-Qd1e132">Deus, qui nosti occulta
-          cordis, et opera mea et delicta a te non sunt abscondita,</quote> quibus veniam largiaris.
-          Et haec est veritas confitentis, quam diligit Deus</quote>. Unde: <quote
-          xml:id="pl-l4d21c7-Qd1e136">Ecce enim veritatem dilexisti.</quote> </p>
+          cordis, et opera mea et delicta <quote xml:id="pl-l4d21c7-Qd1e128" source="http://scta.info/resource/ps68_6@9-13">a te non sunt abscondita</quote>,</quote> quibus veniam largiaris.
+          Et haec est veritas confitentis, quam diligit Deus</quote>. Unde: <quote xml:id="pl-l4d21c7-Qd1e136" source="http://scta.info/resource/ps50_8@1-4">Ecce enim veritatem dilexisti.</quote> </p>
         <p xml:id="pl-l4d21c7-d1e140">Hic insinuatur, quod generalis confessio etiam mortalia delet,
           quorum intelligentia non habetur.</p>
       </div>

@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -61,16 +58,16 @@
           cum veritas praedicatur alicui propter Deum non obedienti; et 
           aliquid in se et facienti et ei cui fit bonum, ut cum veritas 
           praedicatur propter Deum credenti.</p>
-        <p xml:id="pll1d46c5-d1e3513">Unde <name ref="#Paul">Apostolus</name>: 
+        <p xml:id="pll1d46c5-d1e3513">Unde <name xml:id="pl-l1d46c5-Nd1e109" ref="#Paul">Apostolus</name>: 
           <cit>
-            <quote xml:id="pll1d46c5-Qd1e3520" source="http://scta.info/resource/2cor2_15"> <!-- and 2cor2_16 --> Bonus odor sumus Deo, aliis odor 
+            <quote xml:id="pll1d46c5-Qd1e3520" source="http://scta.info/resource/IIcor2_15"> <!-- and 2cor2_16 --> Bonus odor sumus Deo, aliis odor 
               vitae, aliis odor mortis.</quote>
             <bibl>II Cor 2:15-16</bibl>
           </cit>
         </p>
         <p xml:id="pll1d46c5-d1e3530">Est autem aliud, quod nec in se bonum est, et facienti nocet 
           et damnat, nisi poeniteat, ut malum; valet tamen ad aliquid.</p>
-        <p xml:id="pll1d46c5-d1e3534">Ut enim <name ref="#Augustine">Augustinus</name> ait in <title ref="#Enchiridion">Enchiridio</title>: 
+        <p xml:id="pll1d46c5-d1e3534">Ut enim <name xml:id="pl-l1d46c5-Nd1e129" ref="#Augustine">Augustinus</name> ait in <title ref="#Enchiridion">Enchiridio</title>: 
           <cit>
             <quote xml:id="pll1d46c5-Qd1e3544">A summe et 
               aequaliter et incommutabiliter bona Trinitate creata sunt omnia 

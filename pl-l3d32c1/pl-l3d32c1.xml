@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -59,8 +57,7 @@
         <p xml:id="pl-l3d32c1-d1e118">Dilectio autem Dei divina usia est; eademque dilectione Pater
           et Filius et Spiritus sanctus se diligunt et nos, ut supra disseruimus; cumque eius
           dilectio sit immutabilis et aeterna, alium tamen magis, alium minus diligit.</p>
-        <p xml:id="pl-l3d32c1-d1e121">Unde <name ref="#Augustine">Augustinus</name> : <quote
-          xml:id="pl-l3d32c1-Qd1e126"> Incomprehensibilis est dilectio atque immutabilis, qua Deus
+        <p xml:id="pl-l3d32c1-d1e121">Unde <name xml:id="pl-l3d32c1-Nd1e117" ref="#Augustine">Augustinus</name> : <quote xml:id="pl-l3d32c1-Qd1e126"> Incomprehensibilis est dilectio atque immutabilis, qua Deus
           in unoquoque nostrum amat quod fecit, sicut et odit quod fecimus. Miro igitur et divino
           modo, etiam quando odit, diligit nos; et hoc quidem in omnibus intelligi potest, Quis ergo
           digne possit eloqui, quantum diligat membra Unigeniti sui, et quanto amplius Unigenitum
@@ -68,7 +65,7 @@
           quae fecisti</quote> </quote>.</p>
         <p xml:id="pl-l3d32c1-d1e134">Ex his percipitur, quod Deus omnes creaturas suas diligat,
           quia scriptum est: <quote xml:id="pl-l3d32c1-Qd1e136">Nihil odisti eorum quae
-          fecisti;</quote> et item: <quote xml:id="pl-l3d32c1-Qd1e139">Vidit Deus cuncta quae
+          fecisti;</quote> et item: <quote xml:id="pl-l3d32c1-Qd1e139" source="http://scta.info/resource/gen1_31@1-9">Vidit Deus cuncta quae
           fecerat, et erant valde bona.</quote> Si omnia quae fecit, bona sunt, et omne bonum
           diligit: omnia igitur diligit, quae fecit; et inter ea magis diligit rationales creaturas,
           et de illis eas amplius, quae sunt membra Unigeniti sui, et multo magis ipsum

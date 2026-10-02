@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -80,7 +78,7 @@
           qui doctrinam simul ac vitam Apostolorum servant. Illas enim claves promisit Dominus Petro
           et imitatoribus eius tantum, ut aiunt; qui etiam auctoritatibus utuntur in munimentum suae
           opinionis.</p>
-        <p xml:id="pl-l4d19c1-d1e134">Hoc enim dicunt <name ref="Augustine">Augustinum</name>
+        <p xml:id="pl-l4d19c1-d1e134">Hoc enim dicunt <name xml:id="pl-l4d19c1-Nd1e130" ref="Augustine">Augustinum</name>
           sensisse superius, ubi ait: <quote xml:id="pl-l4d19c1-Qd1e139"> Remissionem peccatorum vel
           per se ipsum facit Deus, vel per columbae membra</quote>. Dicit etiam idem, peccata
           dimitti vel teneri a Sanctis.</p>
@@ -89,12 +87,10 @@
           <quote xml:id="pl-l4d19c1-Qd1e150"/> Haec, inquit, significat fiduciam bonae vitae, quam
           qui vere perfecteque, non significatione, sed veritate, sacerdos habet, solus potest
           peccata auferre </quote>.</p>
-        <p xml:id="pl-l4d19c1-d1e154">Item <name ref="GregoryGreat">Gregorius</name>: <quote
-          xml:id="pl-l4d19c1-Qd1e159"> Illi soli habent in hac carne positi ligandi et solvendi
+        <p xml:id="pl-l4d19c1-d1e154">Item <name xml:id="pl-l4d19c1-Nd1e149" ref="GregoryGreat">Gregorius</name>: <quote xml:id="pl-l4d19c1-Qd1e159"> Illi soli habent in hac carne positi ligandi et solvendi
           potestatem, sicut sancti Apostoli, qui illorum exempla simul cum doctrina tenent
           </quote>.</p>
-        <p xml:id="pl-l4d19c1-d1e164">Item ex dictis Origenis: <quote xml:id="pl-l4d19c1-Qd1e166"
-          >Haec potestas soli Petro concessa est et imitatoribus Petri . Nam quicumque vestigia
+        <p xml:id="pl-l4d19c1-d1e164">Item ex dictis Origenis: <quote xml:id="pl-l4d19c1-Qd1e166">Haec potestas soli Petro concessa est et imitatoribus Petri . Nam quicumque vestigia
           Petri imitantur, habent recte ligandi el solvendi potestatem </quote>.</p>
         <p xml:id="pl-l4d19c1-d1e170">His aliisque testimoniis innituntur qui asserunt, potestatem
           ligandi et solvendi illis solis concessam sacerdotibus, qui vita et doctrina pollent sicut
@@ -108,9 +104,8 @@
           in quibus habitat Spiritus sanctus, digne et recte fit remissio vel retentio peccatorum.
           Fit tamen et per illos qui sancti non sunt, sed non digne vel recte: dat enim Deus
           benedictionem digne poscenti, etiam per indignum ministrum.</p>
-        <p xml:id="pl-l4d19c1-d1e176">Quod vero hanc potestatem habeant omnes sacerdotes, <name
-          ref="#Jerome">Hieronymus</name> testatur super illum Evangelii locum, ubi dixit Dominus
-          Petro: <quote xml:id="pl-l4d19c1-Qd1e181">Tibi dabo claves regni caelorum, </quote>etc. :
+        <p xml:id="pl-l4d19c1-d1e176">Quod vero hanc potestatem habeant omnes sacerdotes, <name xml:id="pl-l4d19c1-Nd1e171" ref="#Jerome">Hieronymus</name> testatur super illum Evangelii locum, ubi dixit Dominus
+          Petro: <quote xml:id="pl-l4d19c1-Qd1e181" source="http://scta.info/resource/mt16_19@2-6">Tibi dabo claves regni caelorum, </quote>etc. :
           <quote xml:id="pl-l4d19c1-Qd1e184">Habent, inquit, eandem iudiciariam potestatem alii
           Apostoli, habet et omnis Ecclesia in episcopis et presbyteris; sed ideo Petrus eam
           specialiter accepit, ut omnes intelligant, quod quicumque ab unitate fidei et societate
