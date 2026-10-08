@@ -1,0 +1,93 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-10-08T19:14:15Z",
+    "model": "claude-opus-5-5",
+    "prompt_version": "interpretation-v1",
+    "source_commit": "6ae8779",
+    "generation_method": "hierarchical"
+  },
+  "pl-l3d24c2-d1e115": {
+    "summary": "Answers whether Peter had faith in the passion while seeing Christ suffer: he did, not in believing that a man was suffering, which he saw, but in believing that God was the one suffering. The virtue of faith was not believing that a man suffered and died, which a Jewish onlooker also believed, but that God was the sufferer.",
+    "claims": [
+      "Peter had faith in the passion.",
+      "Peter's faith lay in believing that God suffered, not that a man suffered.",
+      "Believing that a man suffered is not the virtue of faith."
+    ],
+    "concepts": [
+      "fides passionis",
+      "seen versus believed",
+      "divinity of the sufferer"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pl-l3d24c2",
+        "pl-l3d24c2-Hd1e109",
+        "pl-l3d24c2-Hd1e112",
+        "pl-l3d24c1"
+      ],
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-paragraph-v1",
+      "generated_at": "2026-10-08T19:14:15Z",
+      "source_commit": "6ae8779"
+    }
+  },
+  "pl-l3d24c2-d1e118": {
+    "summary": "Augustine on Psalm 101: the praise of faith is not believing that the man died, which even a pagan believes, but that he was glorified and true God; faith believes God died and the man was glorified. Lombard applies this to Peter and to us: our faith merits by believing that the God-man died, not that a man died.",
+    "claims": [
+      "The praise of faith is to believe the crucified man is glorified and true God.",
+      "Faith believes God died and a man was glorified.",
+      "Our merit lies in believing that the God-man died."
+    ],
+    "concepts": [
+      "laus fidei",
+      "God-man",
+      "communicatio idiomatum",
+      "meritum fidei"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pl-l3d24c2",
+        "pl-l3d24c2-Hd1e109",
+        "pl-l3d24c2-Hd1e112",
+        "pl-l3d24c2-d1e115"
+      ],
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-paragraph-v1",
+      "generated_at": "2026-10-08T19:14:15Z",
+      "source_commit": "6ae8779"
+    }
+  },
+  "pl-l3d24c2": {
+    "summary": "Asks whether Peter, seeing Christ suffer, had faith in the passion. Lombard answers that he did, not in believing that a man suffered, which he saw and which even a Jew or pagan could believe, but in believing that the one suffering was God. Augustine confirms that the praise and merit of faith lie in believing the dead man to be God and glorified.",
+    "claims": [
+      "Faith does not concern what is seen, even in the passion.",
+      "Peter's faith in the passion consisted in believing that God was the one suffering.",
+      "Believing that the man died is common to unbelievers and is not meritorious faith.",
+      "The merit of faith lies in believing the God-man died and was glorified."
+    ],
+    "concepts": [
+      "faith in the passion",
+      "communicatio idiomatum",
+      "God-man",
+      "merit of faith",
+      "seen versus believed"
+    ],
+    "_metadata": {
+      "level": "capitulum",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "pl-l3d24c2-d1e115",
+        "pl-l3d24c2-d1e118"
+      ],
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-capitulum-v1",
+      "generated_at": "2026-10-08T19:14:15Z",
+      "source_commit": "6ae8779"
+    }
+  }
+}

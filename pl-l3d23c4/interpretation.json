@@ -1,0 +1,150 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-10-08T19:14:15Z",
+    "model": "claude-opus-5-5",
+    "prompt_version": "interpretation-v1",
+    "source_commit": "6ae8779",
+    "generation_method": "hierarchical"
+  },
+  "pl-l3d23c4-d1e115": {
+    "summary": "Introduces the distinction between believing Christ, believing Christ's word, and believing into Christ, noting that demons believed Christ to be the Christ without believing into him.",
+    "claims": [
+      "There is a significant difference between believing Christ, believing Christ's word, and believing into Christ.",
+      "Demons believed that he was the Christ without believing into him."
+    ],
+    "concepts": [
+      "credere Christum",
+      "credere in Christum",
+      "faith of demons"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pl-l3d23c4",
+        "pl-l3d23c4-Hd1e109",
+        "pl-l3d23c4-Hd1e112"
+      ],
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-paragraph-v1",
+      "generated_at": "2026-10-08T19:14:15Z",
+      "source_commit": "6ae8779"
+    }
+  },
+  "pl-l3d23c4-d1e121": {
+    "summary": "Defines 'believing God' (credere Deo) as believing that what God says is true, something the wicked also do; analogously we believe a human being without believing into a human being.",
+    "claims": [
+      "To believe God (credere Deo) is to believe that what he says is true.",
+      "The wicked can believe God in this sense.",
+      "Believing someone's word does not entail believing into them."
+    ],
+    "concepts": [
+      "credere Deo",
+      "testimonial belief"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pl-l3d23c4",
+        "pl-l3d23c4-Hd1e109",
+        "pl-l3d23c4-Hd1e112",
+        "pl-l3d23c4-d1e115"
+      ],
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-paragraph-v1",
+      "generated_at": "2026-10-08T19:14:15Z",
+      "source_commit": "6ae8779"
+    }
+  },
+  "pl-l3d23c4-d1e124": {
+    "summary": "Defines 'believing that God is' (credere Deum), also possible for the wicked, and 'believing into God' (credere in Deum): to love by believing, to go into him by believing, to adhere to him, and to be incorporated into his members.",
+    "claims": [
+      "To believe God (credere Deum) is to believe that he is God, which the wicked also do.",
+      "To believe into God is to love, approach, and adhere to him through believing and to be incorporated into his members."
+    ],
+    "concepts": [
+      "credere Deum",
+      "credere in Deum",
+      "adhaesio",
+      "incorporation into Christ"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pl-l3d23c4",
+        "pl-l3d23c4-Hd1e109",
+        "pl-l3d23c4-Hd1e112",
+        "pl-l3d23c4-d1e121"
+      ],
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-paragraph-v1",
+      "generated_at": "2026-10-08T19:14:15Z",
+      "source_commit": "6ae8779"
+    }
+  },
+  "pl-l3d23c4-d1e128": {
+    "summary": "Draws consequences: through faith that believes into God the ungodly is justified, and that faith then begins to work through love; only works done through love of God are good. The faith of demons and false Christians is a quality of mind but unformed, lacking charity, as Paul shows ('if I have all faith but not charity'), and can still be called a gift of God, since even the wicked have some gifts.",
+    "claims": [
+      "The ungodly are justified through faith that believes into God.",
+      "Only works done through the love of God are good works.",
+      "The faith of demons and false Christians is a real quality of mind but unformed because it lacks charity.",
+      "Unformed faith may still be called a gift of God."
+    ],
+    "concepts": [
+      "iustificatio impii",
+      "opera bona",
+      "fides informis",
+      "qualitas mentis",
+      "donum Dei"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pl-l3d23c4",
+        "pl-l3d23c4-Hd1e109",
+        "pl-l3d23c4-Hd1e112",
+        "pl-l3d23c4-d1e124"
+      ],
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-paragraph-v1",
+      "generated_at": "2026-10-08T19:14:15Z",
+      "source_commit": "6ae8779"
+    }
+  },
+  "pl-l3d23c4": {
+    "summary": "Develops the Augustinian triad of believing God (credere Deum), believing God's word (credere Deo), and believing into God (credere in Deum). Only the last, which includes loving and adhering to God and being incorporated into Christ's members, justifies; the first two are shared by the wicked and demons. The faith of demons and false Christians is a real but unformed quality of mind, still a gift of God.",
+    "claims": [
+      "Believing that God exists and believing what God says are possible without love and are shared by the wicked.",
+      "Believing into God means loving, going toward, and adhering to God by believing, and being incorporated into his members.",
+      "The ungodly are justified by faith that believes into God, which then works through love.",
+      "The faith of demons and bad Christians is an unformed quality of mind lacking charity, yet still a gift of God."
+    ],
+    "concepts": [
+      "credere Deum",
+      "credere Deo",
+      "credere in Deum",
+      "justification by faith",
+      "fides informis",
+      "qualitas mentis",
+      "donum Dei"
+    ],
+    "_metadata": {
+      "level": "capitulum",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "pl-l3d23c4-d1e115",
+        "pl-l3d23c4-d1e121",
+        "pl-l3d23c4-d1e124",
+        "pl-l3d23c4-d1e128"
+      ],
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-capitulum-v1",
+      "generated_at": "2026-10-08T19:14:15Z",
+      "source_commit": "6ae8779"
+    }
+  }
+}

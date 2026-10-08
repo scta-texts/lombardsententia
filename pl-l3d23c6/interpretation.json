@@ -1,0 +1,117 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-10-08T19:14:15Z",
+    "model": "claude-opus-5-5",
+    "prompt_version": "interpretation-v1",
+    "source_commit": "6ae8779",
+    "generation_method": "hierarchical"
+  },
+  "pl-l3d23c6-d1e115": {
+    "summary": "Affirms, despite the many senses of 'faith', that faith is one, citing Paul: 'one Lord, one faith'.",
+    "claims": [
+      "Faith is one, notwithstanding the several senses of the term."
+    ],
+    "concepts": [
+      "unity of faith"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pl-l3d23c6",
+        "pl-l3d23c6-Hd1e109",
+        "pl-l3d23c6-Hd1e112",
+        "pl-l3d23c3"
+      ],
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-paragraph-v1",
+      "generated_at": "2026-10-08T19:14:15Z",
+      "source_commit": "6ae8779"
+    }
+  },
+  "pl-l3d23c6-d1e124": {
+    "summary": "Explains the unity of faith under both senses: as content believed, it is one because all believers are commanded to believe the same thing, hence it is called catholic or universal; as the means by which one believes, it is one not numerically but in kind, that is, by likeness.",
+    "claims": [
+      "Faith as content is one because all the faithful believe the same thing.",
+      "'Catholic' faith means universal faith.",
+      "Faith as the means of believing is one in genus (by likeness), not in number."
+    ],
+    "concepts": [
+      "fides quae creditur",
+      "fides qua creditur",
+      "catholicity",
+      "unity by similitude",
+      "numerical unity"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pl-l3d23c6",
+        "pl-l3d23c6-Hd1e109",
+        "pl-l3d23c6-Hd1e112",
+        "pl-l3d23c6-d1e115",
+        "pl-l3d23c3"
+      ],
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-paragraph-v1",
+      "generated_at": "2026-10-08T19:14:15Z",
+      "source_commit": "6ae8779"
+    }
+  },
+  "pl-l3d23c6-d1e127": {
+    "summary": "Supports the point with Augustine: faith is common to all the faithful as a face is common to many people, though each has their own; it is one in kind, not number, called one rather than many because of likeness, as with one will among those who will the same thing.",
+    "claims": [
+      "Each believer has their own faith, which is similar, not identical, to others'.",
+      "Faith is called one because of likeness, as a common will or face is."
+    ],
+    "concepts": [
+      "unity by similitude",
+      "analogy of the face",
+      "analogy of the will"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pl-l3d23c6",
+        "pl-l3d23c6-Hd1e109",
+        "pl-l3d23c6-Hd1e112",
+        "pl-l3d23c6-d1e124"
+      ],
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-paragraph-v1",
+      "generated_at": "2026-10-08T19:14:15Z",
+      "source_commit": "6ae8779"
+    }
+  },
+  "pl-l3d23c6": {
+    "summary": "Explains in what sense faith is one (Ephesians 4:5) despite the several senses of the word. Faith as the content believed is numerically one and the same for all, hence 'catholic'; faith as the means of believing is one only in kind or by likeness, as Augustine shows with the analogy of a common face or a common will.",
+    "claims": [
+      "Faith is one despite being said in several ways.",
+      "As content believed, faith is one and the same for all believers, hence universal (catholic).",
+      "As the habit by which one believes, faith is one not in number but in kind, by likeness."
+    ],
+    "concepts": [
+      "unity of faith",
+      "fides quae creditur",
+      "fides qua creditur",
+      "unity by genus or likeness",
+      "numerical unity"
+    ],
+    "_metadata": {
+      "level": "capitulum",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "pl-l3d23c6-d1e115",
+        "pl-l3d23c6-d1e124",
+        "pl-l3d23c6-d1e127"
+      ],
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-capitulum-v1",
+      "generated_at": "2026-10-08T19:14:15Z",
+      "source_commit": "6ae8779"
+    }
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-10-08T19:14:15Z",
+    "model": "claude-opus-5-5",
+    "prompt_version": "interpretation-v1",
+    "source_commit": "6ae8779",
+    "generation_method": "hierarchical"
+  },
+  "pl-l3d25c3-d1e115": {
+    "summary": "Asks whether, since the ancients could not be saved without faith in the Mediator, they had to believe everything about him that we now believe.",
+    "claims": [
+      "Faith in the Mediator was necessary for the ancients as for moderns."
+    ],
+    "concepts": [
+      "faith of the ancients",
+      "content of faith"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pl-l3d25c3",
+        "pl-l3d25c3-Hd1e109",
+        "pl-l3d25c3-Hd1e112",
+        "pl-l3d25c1"
+      ],
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-paragraph-v1",
+      "generated_at": "2026-10-08T19:14:15Z",
+      "source_commit": "6ae8779"
+    }
+  },
+  "pl-l3d25c3-d1e118": {
+    "summary": "First opinion: it sufficed for them to believe only four things, namely the nativity, death, resurrection, and coming to judgment, drawn from the Augustine text cited earlier.",
+    "claims": [
+      "Some hold that four articles about Christ sufficed for the ancients."
+    ],
+    "concepts": [
+      "four articles",
+      "minimum explicit faith"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pl-l3d25c3",
+        "pl-l3d25c3-Hd1e109",
+        "pl-l3d25c3-Hd1e112",
+        "pl-l3d25c3-d1e115",
+        "pl-l3d25c1-d1e161"
+      ],
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-paragraph-v1",
+      "generated_at": "2026-10-08T19:14:15Z",
+      "source_commit": "6ae8779"
+    }
+  },
+  "pl-l3d25c3-d1e121": {
+    "summary": "Second opinion: given faith in the Trinity, it sufficed concerning the incarnation to believe that the Son of God would be born of a human and would judge. They cite John the Baptist, who according to Gregory seemed to doubt Christ's death and descent to hell when asking 'Are you he who is to come?', meaning 'will you yourself descend to hell?'",
+    "claims": [
+      "Some hold that, with faith in the Trinity, belief in the Son's birth and judgment sufficed.",
+      "On Gregory's exposition, John the Baptist doubted Christ's descent to hell."
+    ],
+    "concepts": [
+      "Trinity",
+      "incarnation",
+      "John the Baptist",
+      "descensus ad inferos",
+      "Gregorian exegesis"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pl-l3d25c3",
+        "pl-l3d25c3-Hd1e109",
+        "pl-l3d25c3-Hd1e112",
+        "pl-l3d25c3-d1e118"
+      ],
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-paragraph-v1",
+      "generated_at": "2026-10-08T19:14:15Z",
+      "source_commit": "6ae8779"
+    }
+  },
+  "pl-l3d25c3-d1e131": {
+    "summary": "Others reply that John did not doubt from ignorance but from piety: he showed doubt out of compassion for Christ and wonder at his humility.",
+    "claims": [
+      "John's question expressed compassionate wonder, not ignorance."
+    ],
+    "concepts": [
+      "dubitatio pietatis",
+      "humility of Christ"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pl-l3d25c3",
+        "pl-l3d25c3-Hd1e109",
+        "pl-l3d25c3-Hd1e112",
+        "pl-l3d25c3-d1e121"
+      ],
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-paragraph-v1",
+      "generated_at": "2026-10-08T19:14:15Z",
+      "source_commit": "6ae8779"
+    }
+  },
+  "pl-l3d25c3": {
+    "summary": "Asks how much the ancients had to believe about the Mediator. Two opinions are reported: some hold that four articles sufficed (birth, death, resurrection, coming to judgment), on the basis of Augustine; others hold that, with faith in the Trinity, it sufficed to believe that the Son of God would be born of a human and would judge, citing John the Baptist's apparent doubt about Christ's death and descent to hell. A third interpretation reads John's question as compassionate wonder rather than ignorance, weakening that evidence.",
+    "claims": [
+      "Without faith in the Mediator there was salvation neither for ancients nor moderns.",
+      "One opinion: the ancients needed to believe four articles about Christ.",
+      "Another opinion: with faith in the Trinity, belief that the Son of God would be born and judge sufficed.",
+      "John the Baptist's question may express compassion rather than ignorance."
+    ],
+    "concepts": [
+      "faith of the ancients",
+      "articuli fidei",
+      "minimum explicit faith",
+      "Trinity",
+      "John the Baptist",
+      "descensus ad inferos"
+    ],
+    "_metadata": {
+      "level": "capitulum",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "pl-l3d25c3-d1e115",
+        "pl-l3d25c3-d1e118",
+        "pl-l3d25c3-d1e121",
+        "pl-l3d25c3-d1e131"
+      ],
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-capitulum-v1",
+      "generated_at": "2026-10-08T19:14:15Z",
+      "source_commit": "6ae8779"
+    }
+  }
+}

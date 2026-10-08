@@ -1,0 +1,62 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-10-08T19:14:15Z",
+    "model": "claude-opus-5-5",
+    "prompt_version": "interpretation-v1",
+    "source_commit": "6ae8779",
+    "generation_method": "hierarchical"
+  },
+  "pl-l3d23c2-d1e115": {
+    "summary": "Defines faith as the virtue by which unseen things are believed, then limits the definition with Augustine: it concerns only those unseen things whose belief pertains to religion, since a Christian may be ignorant of many unseen matters without deviating from religion.",
+    "claims": [
+      "Faith is the virtue by which things not seen are believed.",
+      "Not all unseen things are objects of faith, only those whose belief pertains to religion.",
+      "Ignorance of matters irrelevant to religion is no defect of faith."
+    ],
+    "concepts": [
+      "fides",
+      "virtus",
+      "non visa",
+      "religio",
+      "ignorance"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pl-l3d23c2",
+        "pl-l3d23c2-Hd1e109",
+        "pl-l3d23c2-Hd1e112"
+      ],
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-paragraph-v1",
+      "generated_at": "2026-10-08T19:14:15Z",
+      "source_commit": "6ae8779"
+    }
+  },
+  "pl-l3d23c2": {
+    "summary": "Gives the basic definition of faith as the virtue by which things not seen are believed, and immediately restricts its object to unseen things whose belief pertains to religion, not to every unknown matter.",
+    "claims": [
+      "Faith is the virtue by which things not seen are believed.",
+      "The object of faith is restricted to unseen things that pertain to religion."
+    ],
+    "concepts": [
+      "definition of faith",
+      "non visa",
+      "religio",
+      "object of faith"
+    ],
+    "_metadata": {
+      "level": "capitulum",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "pl-l3d23c2-d1e115"
+      ],
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-capitulum-v1",
+      "generated_at": "2026-10-08T19:14:15Z",
+      "source_commit": "6ae8779"
+    }
+  }
+}

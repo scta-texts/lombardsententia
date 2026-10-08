@@ -1,0 +1,150 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-10-08T19:14:15Z",
+    "model": "claude-opus-5-5",
+    "prompt_version": "interpretation-v1",
+    "source_commit": "6ae8779",
+    "generation_method": "hierarchical"
+  },
+  "pl-l3d25c4-d1e115": {
+    "summary": "Poses the Cornelius dilemma: his alms and prayers were accepted and he was called just and God-fearing. If he lacked faith in the incarnation, he had justice without it; if he had it, why was Peter sent to him?",
+    "claims": [
+      "Cornelius's case seems to show either justice without faith in the incarnation or a pointless mission of Peter."
+    ],
+    "concepts": [
+      "Cornelius",
+      "fides incarnationis",
+      "iustitia"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pl-l3d25c4",
+        "pl-l3d25c4-Hd1e109",
+        "pl-l3d25c4-Hd1e112",
+        "pl-l3d25c3"
+      ],
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-paragraph-v1",
+      "generated_at": "2026-10-08T19:14:15Z",
+      "source_commit": "6ae8779"
+    }
+  },
+  "pl-l3d25c4-d1e127": {
+    "summary": "Resolves: Cornelius had by revelation faith in the unity of God and in the incarnation, but did not know that the Son of God was already incarnate; Peter was sent to announce the Son already born and to confer the sacrament of regeneration. He had faith in the incarnation without knowing whether it was past or future, came through faith to works, and through works was strengthened in faith. With Gregory: through faith one comes to works; Cornelius's works pleased God through faith, since without faith it is impossible to please God.",
+    "claims": [
+      "Cornelius believed in the incarnation without knowing it had occurred.",
+      "Peter's mission was to announce the incarnate Son and to baptize.",
+      "Faith leads to works and works strengthen faith.",
+      "Cornelius's works pleased God through his faith."
+    ],
+    "concepts": [
+      "fides incarnationis",
+      "sacramentum regenerationis",
+      "faith and works",
+      "revelation"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pl-l3d25c4",
+        "pl-l3d25c4-Hd1e109",
+        "pl-l3d25c4-Hd1e112",
+        "pl-l3d25c4-d1e115"
+      ],
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-paragraph-v1",
+      "generated_at": "2026-10-08T19:14:15Z",
+      "source_commit": "6ae8779"
+    }
+  },
+  "pl-l3d25c4-d1e142": {
+    "summary": "Augustine: Cornelius was told his alms and prayers were accepted before he believed in Christ; yet he gave and prayed with some faith, for how could he invoke one in whom he did not believe? But if salvation were possible without faith in Christ, Peter, architect of the Church, would not have been sent.",
+    "claims": [
+      "Cornelius's works were accepted before he believed in Christ.",
+      "Cornelius acted with some faith.",
+      "Salvation is impossible without faith in Christ, which is why Peter was sent."
+    ],
+    "concepts": [
+      "Cornelius",
+      "fides Christi",
+      "prayer and faith"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pl-l3d25c4",
+        "pl-l3d25c4-Hd1e109",
+        "pl-l3d25c4-Hd1e112",
+        "pl-l3d25c4-d1e127"
+      ],
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-paragraph-v1",
+      "generated_at": "2026-10-08T19:14:15Z",
+      "source_commit": "6ae8779"
+    }
+  },
+  "pl-l3d25c4-d1e155": {
+    "summary": "Harmonizes Augustine: although salvation requires faith in Christ, Cornelius was heard 'before he believed in Christ', which can be understood as before he knew Christ was incarnate, while already believing in him in mystery.",
+    "claims": [
+      "Cornelius believed in Christ in mystery before knowing he was incarnate.",
+      "Augustine's statement is consistent with the necessity of faith in Christ."
+    ],
+    "concepts": [
+      "fides implicita",
+      "harmonization of authorities"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pl-l3d25c4",
+        "pl-l3d25c4-Hd1e109",
+        "pl-l3d25c4-Hd1e112",
+        "pl-l3d25c4-d1e142",
+        "pl-l3d25c4-d1e127"
+      ],
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-paragraph-v1",
+      "generated_at": "2026-10-08T19:14:15Z",
+      "source_commit": "6ae8779"
+    }
+  },
+  "pl-l3d25c4": {
+    "summary": "Treats the case of Cornelius (Acts 10): if he lacked faith in the incarnation, he was just without it; if he had it, why was Peter sent? Lombard answers that Cornelius had, by revelation, faith in the unity of God and in the incarnation, but did not know whether it had happened; Peter was sent to announce the Son already born and to give baptism. An Augustinian text saying Cornelius was heard before believing in Christ is read as 'before he knew Christ was incarnate', since he already believed in him in mystery. Faith leads to works, and works strengthen faith.",
+    "claims": [
+      "Cornelius had faith in God's unity and in the incarnation by revelation.",
+      "Cornelius did not know whether the incarnation had already occurred.",
+      "Peter was sent to announce the incarnate Son and to confer baptism.",
+      "No salvation is possible without faith in Christ.",
+      "Faith leads to works, and works further strengthen faith.",
+      "Without faith it is impossible to please God."
+    ],
+    "concepts": [
+      "Cornelius",
+      "fides incarnationis",
+      "fides implicita",
+      "faith and works",
+      "sacramentum regenerationis",
+      "necessity of faith in Christ"
+    ],
+    "_metadata": {
+      "level": "capitulum",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "pl-l3d25c4-d1e115",
+        "pl-l3d25c4-d1e127",
+        "pl-l3d25c4-d1e142",
+        "pl-l3d25c4-d1e155"
+      ],
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-capitulum-v1",
+      "generated_at": "2026-10-08T19:14:15Z",
+      "source_commit": "6ae8779"
+    }
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-10-08T19:14:15Z",
+    "model": "claude-opus-5-5",
+    "prompt_version": "interpretation-v1",
+    "source_commit": "6ae8779",
+    "generation_method": "hierarchical"
+  },
+  "pl-l3d25c2-d1e115": {
+    "summary": "Raises the question: what of the simple, to whom the mystery of the incarnation was not revealed, who piously believed what was handed down to them?",
+    "claims": [
+      "The salvation of the simple who lacked explicit knowledge of the incarnation is in question."
+    ],
+    "concepts": [
+      "faith of the simple",
+      "mysterium incarnationis"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pl-l3d25c2",
+        "pl-l3d25c2-Hd1e109",
+        "pl-l3d25c2-Hd1e112",
+        "pl-l3d25c1"
+      ],
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-paragraph-v1",
+      "generated_at": "2026-10-08T19:14:15Z",
+      "source_commit": "6ae8779"
+    }
+  },
+  "pl-l3d25c2-d1e118": {
+    "summary": "Answers that no one was just or saved without revelation, but revelation was either distinct (to Abraham, Moses, and the greater, who distinguished the articles) or veiled (to the simple, who believed what the greater believed and taught without distinguishing it). Similarly, less capable Church members who cannot distinguish the Creed's articles believe all it contains, holding faith veiled in mystery; so the simple of old adhered to the greater and entrusted their faith to them.",
+    "claims": [
+      "Salvation always required revelation, either distinct or veiled.",
+      "The greater (Abraham, Moses) had explicit, articulated faith.",
+      "The simple had implicit faith through adherence to the greater.",
+      "Less capable Church members today also believe the Creed implicitly."
+    ],
+    "concepts": [
+      "revelatio distincta",
+      "revelatio velata",
+      "fides implicita",
+      "articuli fidei",
+      "maiores and minores"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pl-l3d25c2",
+        "pl-l3d25c2-Hd1e109",
+        "pl-l3d25c2-Hd1e112",
+        "pl-l3d25c2-d1e115"
+      ],
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-paragraph-v1",
+      "generated_at": "2026-10-08T19:14:15Z",
+      "source_commit": "6ae8779"
+    }
+  },
+  "pl-l3d25c2-d1e121": {
+    "summary": "Allegorizes Job 1:14: the oxen plowing are the greater and the asses grazing beside them are the simple, who, humbly adhering, believed in mystery what the greater taught in mystery; perhaps such was the widow of Zarephath.",
+    "claims": [
+      "The simple are like asses grazing beside the oxen, humbly following the greater."
+    ],
+    "concepts": [
+      "allegorical exegesis",
+      "humility",
+      "fides implicita"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pl-l3d25c2",
+        "pl-l3d25c2-Hd1e109",
+        "pl-l3d25c2-Hd1e112",
+        "pl-l3d25c2-d1e118"
+      ],
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-paragraph-v1",
+      "generated_at": "2026-10-08T19:14:15Z",
+      "source_commit": "6ae8779"
+    }
+  },
+  "pl-l3d25c2": {
+    "summary": "Addresses the salvation of the simple among the ancients, to whom the mystery of the incarnation was not revealed. Lombard holds that no one was saved without revelation, but it could be distinct (as for Abraham and Moses, who distinguished the articles) or veiled (as for the simple, who believed whatever the elders believed and taught without distinguishing it). The same holds for less capable members of the Church now, who believe the whole Creed implicitly. Job's oxen and grazing asses figure the simple adhering humbly to the greater.",
+    "claims": [
+      "No one was saved without some revelation of the mystery.",
+      "Revelation could be distinct or veiled.",
+      "The simple believed implicitly what the greater believed and taught explicitly.",
+      "Less capable believers in the Church likewise hold the Creed by implicit faith.",
+      "The simple entrusted their faith to the greater by humble adherence."
+    ],
+    "concepts": [
+      "fides implicita",
+      "fides explicita",
+      "revelatio distincta",
+      "revelatio velata",
+      "maiores and minores",
+      "faith of the simple"
+    ],
+    "_metadata": {
+      "level": "capitulum",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "pl-l3d25c2-d1e115",
+        "pl-l3d25c2-d1e118",
+        "pl-l3d25c2-d1e121"
+      ],
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-capitulum-v1",
+      "generated_at": "2026-10-08T19:14:15Z",
+      "source_commit": "6ae8779"
+    }
+  }
+}

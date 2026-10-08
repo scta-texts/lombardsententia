@@ -1,0 +1,62 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-10-08T19:14:15Z",
+    "model": "claude-opus-5-5",
+    "prompt_version": "interpretation-v1",
+    "source_commit": "6ae8779",
+    "generation_method": "hierarchical"
+  },
+  "pl-l3d23c5-d1e115": {
+    "summary": "Raises the question whether the unformed quality by which a bad Christian believes everything a good one does remains and becomes a virtue when charity is added, or is eliminated and replaced by a new virtuous quality. Either answer is allowed as safe, but Lombard prefers that the earlier quality remains and becomes a virtue by the coming of charity.",
+    "claims": [
+      "A bad Christian believes the same content as a good one.",
+      "Either answer to the question is theologically safe.",
+      "The prior unformed quality remains and becomes a virtue when charity arrives."
+    ],
+    "concepts": [
+      "fides informis",
+      "qualitas mentis",
+      "accessus caritatis",
+      "continuity of habit"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pl-l3d23c5",
+        "pl-l3d23c5-Hd1e109",
+        "pl-l3d23c5-Hd1e112",
+        "pl-l3d23c4"
+      ],
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-paragraph-v1",
+      "generated_at": "2026-10-08T19:14:15Z",
+      "source_commit": "6ae8779"
+    }
+  },
+  "pl-l3d23c5": {
+    "summary": "Asks whether, when charity comes to a bad Christian, the unformed quality of faith remains and becomes a virtue or is replaced by a new quality. Lombard allows either view as safe but prefers that the same quality remains and becomes a virtue through the arrival of charity.",
+    "claims": [
+      "Whether unformed faith persists or is replaced when charity arrives may be held either way without danger.",
+      "Lombard's own view is that the same quality persists and becomes a virtue by the accession of charity."
+    ],
+    "concepts": [
+      "fides informis",
+      "fides formata",
+      "transformation of habits",
+      "caritas"
+    ],
+    "_metadata": {
+      "level": "capitulum",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "pl-l3d23c5-d1e115"
+      ],
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-capitulum-v1",
+      "generated_at": "2026-10-08T19:14:15Z",
+      "source_commit": "6ae8779"
+    }
+  }
+}

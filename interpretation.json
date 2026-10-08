@@ -133,31 +133,187 @@
       "source_structure": "/scta-projectfiles/pl-projectdata.xml"
     }
   },
-  "lombardsententia": {
-    "summary": "Very partial summary of Peter Lombard's Sentences, based only on Liber 1 (Distinction 37) and Liber 2 (Distinction 44); Liber 3 and Liber 4 have no interpretations yet. The interpreted portions show Lombard's method of assembling patristic and scriptural authorities to resolve questions: God's non-local, immutable, grace-indwelling presence in creation (Book 1) and God's sovereignty over power together with the moral limits of obedience (Book 2).",
+  "pl-l3d23": {
+    "summary": "Lombard opens the treatise on the theological virtues by asking whether Christ, full of grace, also had faith and hope, and answers by first giving a full account of faith. Faith is the virtue by which unseen things pertaining to religion are believed. 'Faith' is said in three ways: formed faith (a virtue, informed by charity), unformed faith (a real quality of mind and gift of God, but no virtue, which demons and bad Christians have), and the content believed. Using Augustine's triad, he separates believing God exists and believing God's word, which the wicked can do, from believing into God, which loves and adheres to him and justifies. When charity comes, the unformed quality probably remains and becomes a virtue. Faith is one in content for all but one only in kind as a habit. It properly concerns only the non-apparent, yet is seen intellectually by its possessor. Expounding Hebrews 11:1, faith is the substance and foundation of hoped-for goods and the proof of unseen things. The act of faith naturally precedes hope and charity, though charity, being the Holy Spirit and mother of the virtues, is the cause of faith as a virtue, not its effect. To believe is to think with assent.",
     "claims": [
-      "Lombard resolves questions on God and creation by collating patristic and scriptural authorities, chiefly Augustine.",
-      "Divine causality of power and divine immutable presence are maintained alongside creaturely responsibility and distinction."
+      "Faith is the virtue by which unseen things pertaining to religion are believed.",
+      "Faith is said as formed virtue, as unformed quality, and as content believed.",
+      "Only believing into God, which includes love and adherence, justifies; believing that God exists or that his word is true is shared by the wicked.",
+      "Unformed faith is a real quality and gift of God which likely becomes a virtue when charity arrives.",
+      "Faith is numerically one as content, but one only by likeness as a habit.",
+      "Faith properly concerns only the non-apparent, though it is itself known intellectually by its possessor.",
+      "Faith is the foundation of all virtues and good works, but not of charity, which causes it.",
+      "The act of faith naturally, not temporally or causally, precedes the acts of hope and charity."
+    ],
+    "concepts": [
+      "fides formata",
+      "fides informis",
+      "fides qua / quae creditur",
+      "credere Deum / Deo / in Deum",
+      "non apparentia",
+      "substantia rerum sperandarum",
+      "fundamentum",
+      "caritas mater virtutum",
+      "natural priority of acts",
+      "unity of faith"
+    ],
+    "_metadata": {
+      "level": "distinctio",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "pl-l3d23c1",
+        "pl-l3d23c2",
+        "pl-l3d23c3",
+        "pl-l3d23c4",
+        "pl-l3d23c5",
+        "pl-l3d23c6",
+        "pl-l3d23c7",
+        "pl-l3d23c8",
+        "pl-l3d23c9"
+      ],
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-distinctio-v1",
+      "generated_at": "2026-10-08T19:15:07Z",
+      "source_commit": "6ae8779",
+      "source_structure": "/scta-projectfiles/pl-projectdata.xml"
+    }
+  },
+  "pl-l3d24": {
+    "summary": "Lombard defends and refines the thesis that faith concerns only what is unseen. Against John 14:29 he argues with Augustine that seen things only prompt belief in unseen things, as Thomas saw flesh and believed God; ordinary talk of believing one's eyes is improper, and the heavenly 'faith of things' is not faith but its reward. Peter's faith in the passion lay not in believing that a man suffered, which he saw, but that God suffered; the merit of faith lies in believing the God-man died. Finally, faith is not about the wholly unknown: it is not of objects of bodily sight but can concern what interior vision grasps. Some things must be understood to be believed, others believed to be understood; faith comes from hearing, purifies the heart, and increases understanding, so that what is believed is partly but not wholly unknown, as one can love what one does not fully know. Perfect knowledge of God awaits the next life.",
+    "claims": [
+      "Faith properly concerns only the unseen; visible things merely occasion belief in invisible ones.",
+      "The beatific 'faith of things' is not properly faith but its reward.",
+      "Faith in the passion consists in believing that the one who suffered is God.",
+      "Faith concerns objects of interior, not exterior, vision and is never about the wholly unknown.",
+      "Some truths must be understood before belief, others believed before understanding.",
+      "Faith purifies the heart and increases understanding, while perfect knowledge awaits the next life."
+    ],
+    "concepts": [
+      "non visa",
+      "fides verborum / fides rerum",
+      "fides passionis",
+      "God-man",
+      "visio interior / exterior",
+      "faith and understanding",
+      "fides ex auditu",
+      "purification of the heart",
+      "love of the unknown"
+    ],
+    "_metadata": {
+      "level": "distinctio",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "pl-l3d24c1",
+        "pl-l3d24c2",
+        "pl-l3d24c3"
+      ],
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-distinctio-v1",
+      "generated_at": "2026-10-08T19:15:07Z",
+      "source_commit": "6ae8779",
+      "source_structure": "/scta-projectfiles/pl-projectdata.xml"
+    }
+  },
+  "pl-l3d25": {
+    "summary": "Lombard turns to the sufficiency of faith for salvation across history. Faith has grown over time in knowledge and articles, and while Hebrews 11:6 (believing that God exists and rewards) is a necessary minimum, it never sufficed: from Adam's fall onward no one has been saved without faith in the Mediator, the ancients believing in future what we believe as past. Not everyone needed explicit knowledge: revelation was distinct for the greater (Abraham, Moses) and veiled for the simple, who believed implicitly by adhering to the greater, as less capable Christians now hold the Creed. Lombard reports, without deciding between them, opinions on the minimum the ancients had to believe about Christ (four articles, or the Son's birth and judgment given faith in the Trinity). He resolves the case of Cornelius, who believed in the incarnation without knowing it had occurred, with Peter sent to announce it and baptize. He closes by holding with Gregory that faith, hope, charity, and works are equal in intensity in this life, while charity is greater because it endures and mothers the virtues; it is said to 'proceed' from faith and hope only because it never exists without them.",
+    "claims": [
+      "Belief that God exists and rewards is necessary but never sufficient for salvation.",
+      "No one before or after Christ has been saved without faith in the Mediator.",
+      "The ancients and moderns share one faith differing only in tense.",
+      "Revelation may be distinct (explicit) or veiled (implicit); the simple are saved by implicit faith adhering to the greater.",
+      "Cornelius had faith in the incarnation without knowing it had been fulfilled.",
+      "Faith, hope, charity, and works are equal in intensity in this life, but charity is greater.",
+      "Charity does not arise from faith and hope but presupposes them."
+    ],
+    "concepts": [
+      "sufficiency of faith for salvation",
+      "fides Mediatoris",
+      "faith of the ancients",
+      "fides implicita / explicita",
+      "articuli fidei",
+      "Cornelius",
+      "equality of the virtues",
+      "preeminence of charity"
+    ],
+    "_metadata": {
+      "level": "distinctio",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "pl-l3d25c1",
+        "pl-l3d25c2",
+        "pl-l3d25c3",
+        "pl-l3d25c4",
+        "pl-l3d25c5"
+      ],
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-distinctio-v1",
+      "generated_at": "2026-10-08T19:15:07Z",
+      "source_commit": "6ae8779",
+      "source_structure": "/scta-projectfiles/pl-projectdata.xml"
+    }
+  },
+  "pl-liber3": {
+    "summary": "Partial summary of Book 3 (on the incarnation, the virtues, and the commandments), based only on Distinctions 23 to 25, the opening of the treatise on the theological virtues. There Lombard defines faith as the virtue by which unseen religious truths are believed; distinguishes formed from unformed faith and the act from the content of faith; separates believing God, believing God's word, and believing into God; treats faith as the foundation of the virtues while making charity its cause; argues that faith concerns only what is unseen yet is not about the wholly unknown, and that faith and understanding mutually advance; and holds that faith in the Mediator, explicit or implicit, has always been necessary for salvation. The prologue and the other 37 distinctions, including the Christology of Distinctions 1 to 22, have not yet been interpreted, so this entry does not represent the whole book.",
+    "claims": [
+      "Faith is the virtue of believing unseen religious truths, formed by charity into a virtue.",
+      "Charity is the cause and mother of the virtues, including faith.",
+      "Faith concerns the unseen but is never about the wholly unknown, and it advances understanding.",
+      "Faith in the Mediator, explicit or implicit, has always been necessary for salvation."
+    ],
+    "concepts": [
+      "fides formata / informis",
+      "credere in Deum",
+      "caritas mater virtutum",
+      "faith and understanding",
+      "fides Mediatoris",
+      "fides implicita"
+    ],
+    "_metadata": {
+      "level": "liber",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "pl-l3d23",
+        "pl-l3d24",
+        "pl-l3d25"
+      ],
+      "partial": true,
+      "coverage": "3 of 41 direct children have interpretations",
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-distinctio-v1",
+      "generated_at": "2026-10-08T19:15:07Z",
+      "source_commit": "6ae8779",
+      "source_structure": "/scta-projectfiles/pl-projectdata.xml"
+    }
+  },
+  "lombardsententia": {
+    "summary": "Very partial summary of Peter Lombard's Sentences, based only on Liber 1 (Distinction 37), Liber 2 (Distinction 44), and Liber 3 (Distinctions 23 to 25); Liber 4 has no interpretations yet. The interpreted portions show Lombard's method of assembling and harmonizing patristic and scriptural authorities, chiefly Augustine and Gregory, to resolve questions: God's non-local, immutable, grace-indwelling presence in creation (Book 1); God's sovereignty over all power together with the moral limits of obedience (Book 2); and the nature of faith, its relation to charity and understanding, and its necessity for salvation in every age (Book 3).",
+    "claims": [
+      "Lombard resolves questions by collating and harmonizing patristic and scriptural authorities, chiefly Augustine.",
+      "Divine causality of power and divine immutable presence are maintained alongside creaturely responsibility and distinction.",
+      "Faith formed by charity, whether explicit or implicit, is necessary for salvation, and charity is the mother of the virtues."
     ],
     "concepts": [
       "divine omnipresence",
       "divine causality of power",
+      "theological virtues",
+      "fides formata",
       "patristic authority",
-      "origin of evil"
+      "harmonization of authorities"
     ],
     "_metadata": {
       "level": "work",
       "generation_method": "descendant_summaries",
       "input_ids": [
         "pl-liber1",
-        "pl-liber2"
+        "pl-liber2",
+        "pl-liber3"
       ],
       "partial": true,
-      "coverage": "2 of 4 direct children have interpretations",
-      "model": "claude-sonnet-5-5",
+      "coverage": "3 of 4 direct children have interpretations",
+      "model": "claude-opus-5-5",
       "prompt_version": "interpretation-distinctio-v1",
-      "generated_at": "2026-10-01T00:05:42Z",
-      "source_commit": "440a635",
+      "generated_at": "2026-10-08T19:15:07Z",
+      "source_commit": "6ae8779",
       "source_structure": "/scta-projectfiles/pl-projectdata.xml"
     }
   }

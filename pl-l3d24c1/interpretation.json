@@ -1,0 +1,147 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-10-08T19:14:15Z",
+    "model": "claude-opus-5-5",
+    "prompt_version": "interpretation-v1",
+    "source_commit": "6ae8779",
+    "generation_method": "hierarchical"
+  },
+  "pl-l3d24c1-d1e115": {
+    "summary": "Raises the objection: if faith is only of unseen things, how can Christ tell the apostles he speaks beforehand so that they will believe when it has happened? This seems to make faith concern things done and seen.",
+    "claims": [
+      "John 14:29 seems to imply faith about events already seen."
+    ],
+    "concepts": [
+      "objection",
+      "non visa",
+      "fulfilled prophecy"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pl-l3d24c1",
+        "pl-l3d24c1-Hd1e109",
+        "pl-l3d24c1-Hd1e112",
+        "pl-l3d23c7"
+      ],
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-paragraph-v1",
+      "generated_at": "2026-10-08T19:14:15Z",
+      "source_commit": "6ae8779"
+    }
+  },
+  "pl-l3d24c1-d1e121": {
+    "summary": "Augustine's resolution: faith is praiseworthy when its object is not seen. Thomas did not believe what he saw: he saw and touched living flesh and believed God hidden in it. When people say they believe their eyes, this is not the faith built up in us; rather, seen things move us to believe unseen things.",
+    "claims": [
+      "The merit of faith lies in believing what is not seen.",
+      "Thomas saw Christ's flesh and believed the hidden God.",
+      "Seen things lead us to believe unseen things."
+    ],
+    "concepts": [
+      "laus fidei",
+      "Thomas the apostle",
+      "visible and invisible",
+      "credibility"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pl-l3d24c1",
+        "pl-l3d24c1-Hd1e109",
+        "pl-l3d24c1-Hd1e112",
+        "pl-l3d24c1-d1e115"
+      ],
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-paragraph-v1",
+      "generated_at": "2026-10-08T19:14:15Z",
+      "source_commit": "6ae8779"
+    }
+  },
+  "pl-l3d24c1-d1e136": {
+    "summary": "Lombard concludes that faith properly concerns the non-apparent; the ordinary locution of believing what we see does not name the faith by which we are built up in Christ.",
+    "claims": [
+      "Faith properly concerns the non-apparent.",
+      "'Believing what we see' is an improper, everyday locution."
+    ],
+    "concepts": [
+      "proper and improper usage",
+      "aedificatio in Christo"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pl-l3d24c1",
+        "pl-l3d24c1-Hd1e109",
+        "pl-l3d24c1-Hd1e112",
+        "pl-l3d24c1-d1e121"
+      ],
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-paragraph-v1",
+      "generated_at": "2026-10-08T19:14:15Z",
+      "source_commit": "6ae8779"
+    }
+  },
+  "pl-l3d24c1-d1e143": {
+    "summary": "Notes another Augustinian text speaking of faith about present things, namely the future contemplation of God by sight. This is not properly faith but truth and the reward of faith: the just pass from faith in words to faith in realities.",
+    "claims": [
+      "Augustine speaks of a 'faith of things' when realities are present.",
+      "This future state is not properly faith but its reward.",
+      "The just pass from faith of words to faith of things."
+    ],
+    "concepts": [
+      "fides verborum",
+      "fides rerum",
+      "merces fidei",
+      "visio per speciem",
+      "veritas"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pl-l3d24c1",
+        "pl-l3d24c1-Hd1e109",
+        "pl-l3d24c1-Hd1e112",
+        "pl-l3d24c1-d1e136"
+      ],
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-paragraph-v1",
+      "generated_at": "2026-10-08T19:14:15Z",
+      "source_commit": "6ae8779"
+    }
+  },
+  "pl-l3d24c1": {
+    "summary": "Addresses an objection to the thesis that faith concerns only the unseen: Christ told the apostles he foretold events 'so that when it has happened you may believe'. With Augustine, Lombard answers that what is seen prompts belief in what is not seen (Thomas saw living flesh and believed God hidden in it); the everyday sense of 'believing what one sees' is not the faith that builds us up in Christ. The 'faith of things' present in the beatific vision is not properly faith but its reward and truth.",
+    "claims": [
+      "Faith properly concerns only what is not seen.",
+      "Seen things can occasion belief in unseen things, as with Thomas.",
+      "Saying one 'believes one's eyes' is an improper usage, not the faith that edifies.",
+      "The 'faith of present realities' in heaven is not properly faith but its reward."
+    ],
+    "concepts": [
+      "non visa",
+      "fides verborum and fides rerum",
+      "Thomas the apostle",
+      "merces fidei",
+      "visio per speciem"
+    ],
+    "_metadata": {
+      "level": "capitulum",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "pl-l3d24c1-d1e115",
+        "pl-l3d24c1-d1e121",
+        "pl-l3d24c1-d1e136",
+        "pl-l3d24c1-d1e143"
+      ],
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-capitulum-v1",
+      "generated_at": "2026-10-08T19:14:15Z",
+      "source_commit": "6ae8779"
+    }
+  }
+}

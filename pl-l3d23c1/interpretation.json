@@ -1,0 +1,84 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-10-08T19:14:15Z",
+    "model": "claude-opus-5-5",
+    "prompt_version": "interpretation-v1",
+    "source_commit": "6ae8779",
+    "generation_method": "hierarchical"
+  },
+  "pl-l3d23c1-d1e115": {
+    "summary": "Poses the guiding question: since Christ has been shown to be full of grace, did he have faith and hope as well as charity? If he lacked them, he would seem not to have had the fullness of graces.",
+    "claims": [
+      "If Christ lacked faith and hope, he would seem to lack the fullness of graces."
+    ],
+    "concepts": [
+      "plenitudo gratiae",
+      "Christ's knowledge and virtues",
+      "theological virtues"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pl-l3d23c1",
+        "pl-l3d23c1-Hd1e109",
+        "pl-l3d23c1-Hd1e112"
+      ],
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-paragraph-v1",
+      "generated_at": "2026-10-08T19:14:15Z",
+      "source_commit": "6ae8779"
+    }
+  },
+  "pl-l3d23c1-d1e118": {
+    "summary": "Methodological transition: the question about Christ will be clarified by first treating each of the virtues individually, beginning with faith, according to the measure of which Paul bids each to be wise.",
+    "claims": [
+      "The question is best answered by first examining faith, hope, and charity individually."
+    ],
+    "concepts": [
+      "fides",
+      "mensura fidei",
+      "order of exposition"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pl-l3d23c1",
+        "pl-l3d23c1-Hd1e109",
+        "pl-l3d23c1-Hd1e112"
+      ],
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-paragraph-v1",
+      "generated_at": "2026-10-08T19:14:15Z",
+      "source_commit": "6ae8779"
+    }
+  },
+  "pl-l3d23c1": {
+    "summary": "Opens the treatise on the theological virtues by asking whether Christ, already shown to be full of grace, also had faith and hope as he had charity, and announces that faith must first be examined in its own right before the question can be resolved.",
+    "claims": [
+      "Christ's fullness of grace raises the question whether he had faith and hope as well as charity.",
+      "The question about Christ requires a prior account of each theological virtue, beginning with faith."
+    ],
+    "concepts": [
+      "fullness of grace in Christ",
+      "theological virtues",
+      "fides",
+      "spes",
+      "caritas"
+    ],
+    "_metadata": {
+      "level": "capitulum",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "pl-l3d23c1-d1e115",
+        "pl-l3d23c1-d1e118"
+      ],
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-capitulum-v1",
+      "generated_at": "2026-10-08T19:14:15Z",
+      "source_commit": "6ae8779"
+    }
+  }
+}
