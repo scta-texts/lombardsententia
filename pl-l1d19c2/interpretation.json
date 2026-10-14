@@ -1,0 +1,156 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T14:03:29Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "13a4d90",
+  "generation_method": "hierarchical"
+ },
+ "pll1d19c2-d1e3477": {
+  "summary": "Notes that though eternity, magnitude, and power are listed as diverse, in God they are one and the same, the simple and unchangeable divine essence.",
+  "claims": [
+   "In God eternity, magnitude, and power are the same divine essence."
+  ],
+  "concepts": [
+   "simplicity"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d19c2",
+    "pll1d19c1-d1e3500"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T14:03:29Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d19c2-d1e3480": {
+  "summary": "Cites De Trinitate VII: God is great by that by which he is God, since being great and being God are not different for him. His magnitude is his power and his essence. So Father and Son together are one essence and one magnitude.",
+  "claims": [
+   "God is great by that by which he is God.",
+   "God's magnitude, power, and essence are the same.",
+   "Father and Son are one essence and one magnitude."
+  ],
+  "concepts": [
+   "magnitude",
+   "essence"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d19c2",
+    "pll1d19c2-d1e3477"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T14:03:29Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d19c2-d1e3500": {
+  "summary": "Adds that God's power is the divine essence, citing Augustine: God's will and power are God himself.",
+  "claims": [
+   "God's power and will are God himself."
+  ],
+  "concepts": [
+   "power",
+   "will"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d19c2",
+    "pll1d19c2-d1e3477"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T14:03:29Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d19c2-d1e3521": {
+  "summary": "Adds that God's eternity is the divine essence, citing Augustine on Ps 101:25: God's years are not other than God; they are his eternity, which is his unchangeable substance.",
+  "claims": [
+   "God's years are his eternity.",
+   "God's eternity is his substance, without change."
+  ],
+  "concepts": [
+   "eternity"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d19c2",
+    "pll1d19c2-d1e3477"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T14:03:29Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d19c2-d1e3550": {
+  "summary": "Concludes that God's eternity, power, and magnitude are the same divine essence, though Scripture speaks of them as distinct. Augustine thus summarized equality as no person surpassing another in eternity, magnitude, or power, and coeternity has already been shown.",
+  "claims": [
+   "Eternity, power, and magnitude are one divine essence.",
+   "Scripture speaks of them as if distinct.",
+   "Coeternity of the persons has already been shown."
+  ],
+  "concepts": [
+   "summary",
+   "transition"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d19c2",
+    "pll1d19c2-d1e3521",
+    "pl-l1d9c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T14:03:29Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pl-l1d19c2": {
+  "summary": "Notes that eternity, magnitude, and power, though listed as if diverse, are one and the same in God, the simple and unchangeable divine essence. Augustine: God is great by that by which he is God; his power and will are God himself; his 'years' are his eternity, which is his substance. Scripture speaks of these as if distinct. Coeternity has already been shown, so magnitude and power remain.",
+  "claims": [
+   "Eternity, magnitude, and power are one and the same in God, the divine essence.",
+   "God is great by that by which he is God.",
+   "God's power and will are God himself.",
+   "God's eternity is his substance.",
+   "Scripture speaks of the divine attributes as if they were distinct."
+  ],
+  "concepts": [
+   "divine simplicity",
+   "identity of attributes",
+   "eternity",
+   "magnitude",
+   "power"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d19c2-d1e3477",
+    "pll1d19c2-d1e3480",
+    "pll1d19c2-d1e3500",
+    "pll1d19c2-d1e3521",
+    "pll1d19c2-d1e3550"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T14:03:29Z",
+   "source_commit": "13a4d90"
+  }
+ }
+}

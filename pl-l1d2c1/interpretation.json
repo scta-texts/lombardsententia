@@ -1,0 +1,136 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T13:44:40Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "13a4d90",
+  "generation_method": "hierarchical"
+ },
+ "pll1d2c1-d1e3473": {
+  "summary": "States the article of faith that frames the treatise: the Trinity is the one true God, of one substance or essence, the supreme good seen only by the purest minds, since the human mind cannot fix on so great a light unless cleansed by the justice of faith.",
+  "claims": [
+   "The Trinity is one and the only true God.",
+   "The Trinity is of one substance or essence.",
+   "The mind must be purified by faith to behold God."
+  ],
+  "concepts": [
+   "Trinity",
+   "essentia",
+   "summum bonum",
+   "purification of mind",
+   "faith"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d2c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:44:40Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d2c1-d1e3493": {
+  "summary": "Adds Augustine's retraction of a prayer implying only the pure know truth, since many who are not pure know many truths. This qualifies the preceding point: purity is required for the vision of God, not for every true knowledge.",
+  "claims": [
+   "Many impure people know many truths."
+  ],
+  "concepts": [
+   "retractation",
+   "knowledge and moral purity"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d2c1",
+    "pll1d2c1-d1e3473"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:44:40Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d2c1-d1e3511": {
+  "summary": "Sets the attitude for the investigation: the unity of the Trinity is to be treated with modesty and fear and heard devoutly, for nowhere is error more dangerous, inquiry more laborious, or discovery more fruitful.",
+  "claims": [
+   "Nowhere is error more dangerous, nor inquiry more laborious, nor finding more fruitful than about the Trinity."
+  ],
+  "concepts": [
+   "theological modesty",
+   "fear of God",
+   "stakes of error"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d2c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:44:40Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d2c1-d1e3524": {
+  "summary": "Proposes Augustine's ethic of inquiry for reader and author: not ashamed to seek or learn, sharing certainty, doubt, and correction, walking together on the way of charity toward the God whose face is always to be sought.",
+  "claims": [
+   "One should not be ashamed to ask where uncertain or to learn where mistaken.",
+   "Author and reader should correct each other.",
+   "Theological inquiry is a shared way of charity toward God."
+  ],
+  "concepts": [
+   "intellectual humility",
+   "fraternal correction",
+   "charity",
+   "quest for God"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d2c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:44:40Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pl-l1d2c1": {
+  "summary": "Begins the treatise on the Trinity with the rule of faith that the Trinity is the one true God, of one substance, the supreme good seen only by purified minds. Insists that the subject requires modesty, fear, and devout attention because error here is most dangerous, and adopts Augustine's posture of shared inquiry and correction in charity.",
+  "claims": [
+   "The Trinity, Father, Son, and Holy Spirit, is the one true God, of one substance or essence.",
+   "The supreme good is seen only by minds cleansed by the justice of faith.",
+   "Inquiry into the Trinity must be undertaken with modesty and fear, since error here is most dangerous.",
+   "Readers and author should seek, learn, and correct one another in charity."
+  ],
+  "concepts": [
+   "Trinity",
+   "unity of essence",
+   "purification of mind",
+   "theological modesty",
+   "rule of faith",
+   "communal inquiry"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d2c1-d1e3473",
+    "pll1d2c1-d1e3493",
+    "pll1d2c1-d1e3511",
+    "pll1d2c1-d1e3524"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T13:44:40Z",
+   "source_commit": "13a4d90"
+  }
+ }
+}

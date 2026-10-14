@@ -1,0 +1,60 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T13:44:40Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "13a4d90",
+  "generation_method": "hierarchical"
+ },
+ "pll1d2c3-d1e3473": {
+  "summary": "Sets out the twofold method from Augustine: first establish from Scripture that the faith is so, then answer proud reasoners with Catholic arguments and fitting likenesses, instructing the meek and leaving critics to blame their own minds.",
+  "claims": [
+   "Scriptural authority comes first in establishing the faith.",
+   "Reasons and similitudes are used to defend and assert the faith.",
+   "Those who fail to find what they seek should blame their own minds, not the truth."
+  ],
+  "concepts": [
+   "auctoritas et ratio",
+   "similitudes",
+   "apologetics",
+   "order of theological demonstration"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d2c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:44:40Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pl-l1d2c3": {
+  "summary": "States the method of the treatise, following Augustine: first show from scriptural authority that the faith holds this, then defend and assert it against proud reasoners with Catholic reasons and fitting similitudes, so the meek are instructed and the critics blame their own minds rather than the truth.",
+  "claims": [
+   "The doctrine of the Trinity is first to be shown from the authorities of Scripture.",
+   "It is then to be defended with Catholic reasons and fitting similitudes against contentious reasoners.",
+   "Failure to grasp the doctrine reflects the limits of the inquirer, not of the truth."
+  ],
+  "concepts": [
+   "theological method",
+   "authority and reason",
+   "similitudes",
+   "apologetics"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d2c3-d1e3473"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T13:44:40Z",
+   "source_commit": "13a4d90"
+  }
+ }
+}

@@ -1,0 +1,128 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T13:58:25Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "13a4d90",
+  "generation_method": "hierarchical"
+ },
+ "pll1d15c3-d1e3477": {
+  "summary": "States that, as Augustine says, authorities confirm that the Son was sent by the Spirit.",
+  "claims": [
+   "The Son was sent by the Spirit."
+  ],
+  "concepts": [
+   "mission"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d15c3",
+    "pl-l1d15c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:58:25Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d15c3-d1e3483": {
+  "summary": "Cites Isaiah 48:16, 'the Lord and his Spirit have sent me,' which Ambrose reads as Christ speaking. So the Father and the Spirit sent the Son.",
+  "claims": [
+   "In Isa 48:16 Christ says he was sent by the Lord and his Spirit.",
+   "Father and Spirit sent the Son."
+  ],
+  "concepts": [
+   "Isaiah 48:16",
+   "Ambrose"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d15c3",
+    "pll1d15c3-d1e3477"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:58:25Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d15c3-d1e3532": {
+  "summary": "Further Ambrose: the Son was given by the Father ('a son is given to us') and, Ambrose dares say, by the Spirit, who also sent him, as Christ said reading Isaiah in Luke 4:18–21. 'Upon me' is said because, as Son of man, he was anointed and sent to preach, while according to divinity the Spirit is not upon Christ but in him.",
+  "claims": [
+   "The Son was given by the Father and the Spirit.",
+   "Christ applied Isaiah 61 to himself.",
+   "As man Christ was anointed by the Spirit; as God the Spirit is in him."
+  ],
+  "concepts": [
+   "anointing",
+   "Luke 4:18",
+   "two natures"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d15c3",
+    "pll1d15c3-d1e3483"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:58:25Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d15c3-d1e3593": {
+  "summary": "Concludes that Ambrose shows the Son was sent and given to us not only by the Father but by the Spirit.",
+  "claims": [
+   "The Son was sent and given by the Father and the Spirit."
+  ],
+  "concepts": [
+   "conclusion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d15c3",
+    "pll1d15c3-d1e3532"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:58:25Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pl-l1d15c3": {
+  "summary": "Confirms by authorities that the Son was sent also by the Spirit. Christ speaks in Isaiah 48:16, 'the Lord and his Spirit have sent me,' read by Ambrose as Christ speaking. Ambrose adds that the Son was given by the Father (Isa 9:6) and also by the Spirit, as Luke 4:18 ('the Spirit of the Lord is upon me... he sent me') shows. The Spirit is 'upon' him as Son of man, but 'in' him according to divinity.",
+  "claims": [
+   "The Son was sent by the Father and by the Holy Spirit.",
+   "The Son was given to us by the Father and the Spirit.",
+   "As man, Christ was anointed and sent by the Spirit; according to divinity the Spirit is in him, not over him."
+  ],
+  "concepts": [
+   "mission of the Son",
+   "anointing",
+   "Christ's two natures",
+   "Ambrose"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d15c3-d1e3477",
+    "pll1d15c3-d1e3483",
+    "pll1d15c3-d1e3532",
+    "pll1d15c3-d1e3593"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T13:58:25Z",
+   "source_commit": "13a4d90"
+  }
+ }
+}

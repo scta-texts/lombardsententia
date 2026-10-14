@@ -1,0 +1,125 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T14:03:29Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "13a4d90",
+  "generation_method": "hierarchical"
+ },
+ "pll1d19c10-d1e3477": {
+  "summary": "States that Damascene's 'the hypostases differ not in nature' is wholly true, but 'differ in number' must be understood carefully, since things are said to differ in number in various ways.",
+  "claims": [
+   "The persons do not differ in nature.",
+   "'Differ in number' has several senses."
+  ],
+  "concepts": [
+   "numerical difference"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d19c10",
+    "pll1d19c9-d1e3503"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T14:03:29Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d19c10-d1e3483": {
+  "summary": "First sense: things differ in number when one is not the other nor anything that is or is in the other, as Socrates and Plato, the philosophers' individuals. In this sense the persons cannot be said to differ in number.",
+  "claims": [
+   "The persons do not differ in number as Socrates and Plato do."
+  ],
+  "concepts": [
+   "individuals",
+   "philosophical sense"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d19c10",
+    "pll1d19c10-d1e3477"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T14:03:29Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d19c10-d1e3492": {
+  "summary": "Second sense: things differ in number when they are distinguished in counting, as one, two, three. Damascene perhaps meant this, since we can say the Father is one, Father and Son two, and the three three. More fittingly, though, the persons are said to be distinguished only by properties, to be treated later.",
+  "claims": [
+   "The persons are distinguished when counted.",
+   "It is more fitting to say they are distinguished only by properties."
+  ],
+  "concepts": [
+   "counting",
+   "properties"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d19c10",
+    "pll1d19c10-d1e3483"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T14:03:29Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d19c10-d1e3499": {
+  "summary": "Returns to the main topic, repeating what was said so that it becomes more familiar.",
+  "claims": [],
+  "concepts": [
+   "transition",
+   "pedagogy of repetition"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d19c10"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T14:03:29Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pl-l1d19c10": {
+  "summary": "Examines Damascene's statement that the hypostases differ in number, not nature. 'Not in nature' is wholly true; 'in number' needs care, since things differ numerically in various ways. In the philosophical sense, where one thing is not the other nor anything that is or is in the other, as Socrates and Plato, the persons do not differ in number. But in the sense that they are distinguished in counting (one, two, three) Damascene may be right. It is more fitting, though, to say the persons are distinguished only by properties, to be treated later. Lombard then returns to his theme.",
+  "claims": [
+   "The persons do not differ in nature.",
+   "The persons do not differ in number as philosophical individuals like Socrates and Plato do.",
+   "The persons can be said to differ in number in that they are counted as one, two, three.",
+   "It is more fitting to say the persons are distinguished only by their properties."
+  ],
+  "concepts": [
+   "numerical difference",
+   "counting persons",
+   "personal properties",
+   "Damascene"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d19c10-d1e3477",
+    "pll1d19c10-d1e3483",
+    "pll1d19c10-d1e3492",
+    "pll1d19c10-d1e3499"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T14:03:29Z",
+   "source_commit": "13a4d90"
+  }
+ }
+}

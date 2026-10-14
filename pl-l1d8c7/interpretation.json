@@ -1,0 +1,67 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T13:49:38Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "13a4d90",
+  "generation_method": "hierarchical"
+ },
+ "pll1d8c7-d1e3477": {
+  "summary": "With De Trinitate VII, argues that God is not properly called substance: substance comes from subsisting, said of things that underlie accidents as body underlies color. Changeable and non-simple things are properly substances. If God subsisted thus, something would be in him as in a subject and he would not be simple; it is impious to say God underlies his goodness. So he is called substance loosely, meaning essence, said truly and perhaps of God alone, who alone truly is because unchangeable.",
+  "claims": [
+   "Substance is named from subsisting under accidents.",
+   "God does not underlie his goodness as subject; God is his goodness.",
+   "God is called substance only by abuse of language.",
+   "Essence is properly said of God, perhaps of God alone.",
+   "God alone truly is, because he is unchangeable."
+  ],
+  "concepts": [
+   "substantia",
+   "essentia",
+   "subject",
+   "simplicity",
+   "abusive predication"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d8c7",
+    "pll1d8c6-d1e3496"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:49:38Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pl-l1d8c7": {
+  "summary": "With De Trinitate VII, argues that God is not properly called 'substance': substance comes from 'subsisting,' that is, standing under accidents in a subject. If God subsisted in this sense, his goodness would be in him as in a subject and he would not be simple, which is impious. So God is called substance loosely, meaning essence, which is said truly and properly and perhaps of God alone, since he alone truly is, being unchangeable.",
+  "claims": [
+   "Substance is named from subsisting, i.e. underlying accidents.",
+   "Changeable and non-simple things are properly called substances.",
+   "If God were substance in the proper sense, something would be in him as in a subject, and he would not be simple.",
+   "God is not a subject of his goodness; he is his goodness.",
+   "God is called substance improperly; essence is said of him properly, perhaps of him alone."
+  ],
+  "concepts": [
+   "substantia vs essentia",
+   "subsistere",
+   "subject and accident",
+   "divine simplicity",
+   "proper vs improper predication"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d8c7-d1e3477"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T13:49:38Z",
+   "source_commit": "13a4d90"
+  }
+ }
+}

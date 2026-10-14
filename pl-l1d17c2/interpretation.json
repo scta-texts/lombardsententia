@@ -1,0 +1,129 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T14:00:33Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "13a4d90",
+  "generation_method": "hierarchical"
+ },
+ "pll1d17c2-d1e3477": {
+  "summary": "States that since fraternal love is God, it is neither the Father nor the Son but only the Holy Spirit, who is properly called love or charity in the Trinity.",
+  "claims": [
+   "Fraternal love is the Holy Spirit."
+  ],
+  "concepts": [
+   "proper name of the Spirit"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d17c2",
+    "pll1d17c1-d1e3643",
+    "pl-l1d10c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T14:00:33Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d17c2-d1e3480": {
+  "summary": "Cites De Trinitate XV: if nothing among God's gifts is greater than charity and no gift is greater than the Spirit, the Spirit is charity, both God and from God, as John says 'love is from God' and 'God is love.'",
+  "claims": [
+   "No gift is greater than charity.",
+   "No gift is greater than the Holy Spirit.",
+   "Charity is God and from God."
+  ],
+  "concepts": [
+   "greatest gift",
+   "argument by identity"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d17c2",
+    "pll1d17c2-d1e3477"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T14:00:33Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d17c2-d1e3537": {
+  "summary": "Further De Trinitate XV on 1 John 4:13: the Spirit he gave us makes us abide in God and he in us; this is what love does; so the Spirit is the God who is love.",
+  "claims": [
+   "The Spirit makes us abide in God and God in us.",
+   "Love does this, so the Spirit is the God who is love."
+  ],
+  "concepts": [
+   "abiding",
+   "1 John 4:13"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d17c2",
+    "pll1d17c2-d1e3480"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T14:00:33Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d17c2-d1e3564": {
+  "summary": "Concludes that the Holy Spirit is charity.",
+  "claims": [
+   "The Holy Spirit is charity."
+  ],
+  "concepts": [
+   "conclusion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d17c2",
+    "pll1d17c2-d1e3537"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T14:00:33Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pl-l1d17c2": {
+  "summary": "Specifies that since fraternal love is God, it is neither the Father nor the Son but only the Holy Spirit, who is properly called love or charity in the Trinity. With De Trinitate XV: if no gift is greater than charity and none greater than the Spirit, the Spirit is charity, which is both God and from God; and by 1 John 4:13 the Spirit given to us makes us abide in God, which love does, so the Spirit is the God who is love.",
+  "claims": [
+   "Fraternal love, which is God, is the Holy Spirit, not the Father or the Son.",
+   "Since no gift is greater than charity and none greater than the Spirit, the Spirit is charity.",
+   "Charity is both God and from God.",
+   "The Spirit makes us abide in God and God in us, which is the work of love."
+  ],
+  "concepts": [
+   "caritas as Holy Spirit",
+   "greatest gift",
+   "1 John 4",
+   "abiding in God"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d17c2-d1e3477",
+    "pll1d17c2-d1e3480",
+    "pll1d17c2-d1e3537",
+    "pll1d17c2-d1e3564"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T14:00:33Z",
+   "source_commit": "13a4d90"
+  }
+ }
+}

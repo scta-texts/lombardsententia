@@ -1,0 +1,68 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T13:49:38Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "13a4d90",
+  "generation_method": "hierarchical"
+ },
+ "pll1d8c4-d1e3475": {
+  "summary": "Argues that the soul, though simple relative to body (not extended, whole in the whole body and in every part, so it senses whatever affects any part), is not truly simple, since its skill, memory, desires, fears, joys, and sorrows differ and vary. Since nothing simple is changeable and every creature is changeable, no creature is truly simple. God, though named in many ways, is supremely simple: his greatness is his wisdom, great not by mass but by power, and being blessed, great, wise, true, good, and being itself are not different in him.",
+  "claims": [
+   "The soul is whole in the whole body and whole in each part.",
+   "The soul is not truly simple, since its qualities and affections are diverse and variable.",
+   "Nothing simple is mutable; every creature is mutable; so no creature is truly simple.",
+   "God is truly and supremely simple.",
+   "In God greatness, wisdom, goodness, truth, beatitude, and being are the same."
+  ],
+  "concepts": [
+   "simplicity of the soul",
+   "tota in toto",
+   "mutability",
+   "divine simplicity",
+   "identity of attributes"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d8c4",
+    "pll1d8c3-d1e3478"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:49:38Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pl-l1d8c4": {
+  "summary": "Extends the argument to spiritual creatures. The soul is simple compared with body, not spread out in space but whole in the whole and in each part, so it feels whatever happens in any part. Yet it is not truly simple, since in it skill, sharpness, memory, desire, fear, joy, and sorrow differ and come and go. Nothing simple is changeable, every creature is changeable, so no creature is truly simple. God, though spoken of in many ways (great, good, wise, blessed, true), is truly and supremely simple, since in him greatness, wisdom, goodness, and being are the same.",
+  "claims": [
+   "The soul is simple relative to body, being whole in the whole body and in each part.",
+   "The soul is not truly simple, since it has diverse and variable qualities and affections.",
+   "Nothing simple is mutable, and every creature is mutable, so no creature is truly simple.",
+   "God is truly and supremely simple though spoken of in many ways.",
+   "In God greatness, goodness, wisdom, truth, beatitude, and being are identical."
+  ],
+  "concepts": [
+   "simplicity",
+   "soul",
+   "tota in toto",
+   "mutability",
+   "divine attributes",
+   "identity of attributes"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d8c4-d1e3475"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T13:49:38Z",
+   "source_commit": "13a4d90"
+  }
+ }
+}

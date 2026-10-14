@@ -1,0 +1,72 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T14:01:40Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "13a4d90",
+  "generation_method": "hierarchical"
+ },
+ "pll1d18c6-d1e3477": {
+  "summary": "Asks whether the Spirit is referred to himself. It seems so: what is given is referred to the giver and recipient, and the Spirit is given by himself.",
+  "claims": [],
+  "concepts": [
+   "self-relation",
+   "objection"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d18c6",
+    "pll1d18c4-d1e3480",
+    "pl-l1d15c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T14:01:40Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d18c6-d1e3480": {
+  "summary": "Defers the answer until the treatment of what is said of God relatively in time, which includes 'given' and 'gifted.'",
+  "claims": [],
+  "concepts": [
+   "deferred question",
+   "temporal predication"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d18c6",
+    "pll1d18c6-d1e3477"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T14:01:40Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pl-l1d18c6": {
+  "summary": "Raises whether the Spirit is referred to himself: since what is given is referred to giver and recipient, and the Spirit gives himself, it seems so. Lombard postpones the question to the treatment of names said of God relatively in time, among which are 'given' and 'gifted.'",
+  "claims": [],
+  "concepts": [
+   "self-relation",
+   "temporal relative names",
+   "deferred question"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d18c6-d1e3477",
+    "pll1d18c6-d1e3480"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T14:01:40Z",
+   "source_commit": "13a4d90"
+  }
+ }
+}

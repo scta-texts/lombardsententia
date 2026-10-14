@@ -1,0 +1,133 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T13:47:26Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "13a4d90",
+  "generation_method": "hierarchical"
+ },
+ "pll1d4c1-d1e3476": {
+  "summary": "Raises the question whether 'God begot God' is to be granted, since it seems to entail either that God begot himself (something generating itself) or another God (contrary to divine unity).",
+  "claims": [],
+  "concepts": [
+   "generation",
+   "Deus genuit Deum",
+   "dilemma"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d4c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:47:26Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d4c1-d1e3481": {
+  "summary": "Grants that 'God begot God' and 'one begot one' are Catholic, since God the Father begot God the Son ('true God from true God'), but denies both 'begot himself' and 'begot another God': God is one, and Augustine teaches that nothing begets itself.",
+  "claims": [
+   "'God begot God' is to be granted.",
+   "God did not beget another God.",
+   "God did not beget himself, since nothing begets itself."
+  ],
+  "concepts": [
+   "Creed",
+   "generation",
+   "unity of God",
+   "self-generation"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d4c1",
+    "pll1d4c1-d1e3476"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:47:26Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d4c1-d1e3511": {
+  "summary": "Reports a further dilemma from 'garrulous reasoners': the Father begot either the God who is the Father (and so himself) or a God who is not the Father (and so there is another God).",
+  "claims": [],
+  "concepts": [
+   "sophistical dilemma",
+   "generation"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d4c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:47:26Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d4c1-d1e3514": {
+  "summary": "Resolves the dilemma by distinguishing: 'he begot God who is the Father' is false; 'he begot God who is not the Father' is true if it means God the Son, who is not the Father, but false if it means a God who is not the God that the Father is. There is one God, Father, Son, and Spirit.",
+  "claims": [
+   "The Father did not beget God who is the Father.",
+   "The Father begot God who is not the Father, namely the Son.",
+   "The Son is not a God other than the Father, but one God with him."
+  ],
+  "concepts": [
+   "distinction of senses",
+   "personal vs essential reference",
+   "unity of God",
+   "logic of Trinitarian predication"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d4c1",
+    "pll1d4c1-d1e3511"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:47:26Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pl-l1d4c1": {
+  "summary": "Takes up whether 'God begot God' is to be granted. Lombard affirms it (Father-God begot Son-God; 'God from God' in the Creed) but denies both inferences 'he begot himself' (nothing begets itself) and 'he begot another God' (God is one). Against the dilemma 'he begot a God who is God the Father or one who is not,' he distinguishes senses: he begot God who is not the Father (the Son), true; he begot one who is not the God who is the Father, false, since Father, Son, and Spirit are one and the same God.",
+  "claims": [
+   "'God begot God' is to be granted, since God the Father begot God the Son.",
+   "God did not beget himself, for nothing begets itself.",
+   "God did not beget another God, since there is only one God.",
+   "The Father begot God who is not the Father, but not a God other than the God who is the Father.",
+   "Father, Son, and Holy Spirit are one and the same God."
+  ],
+  "concepts": [
+   "generation in God",
+   "God begot God",
+   "self-generation",
+   "distinction of senses",
+   "personal vs essential predication",
+   "unity of God"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d4c1-d1e3476",
+    "pll1d4c1-d1e3481",
+    "pll1d4c1-d1e3511",
+    "pll1d4c1-d1e3514"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T13:47:26Z",
+   "source_commit": "13a4d90"
+  }
+ }
+}

@@ -1,0 +1,168 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T13:51:12Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "13a4d90",
+  "generation_method": "hierarchical"
+ },
+ "pll1d9c2-d1e3477": {
+  "summary": "States the thesis: the Son is begotten of the Father and therefore other, yet the Father was not before the Son, since the three persons are coeternal.",
+  "claims": [
+   "The Son is begotten and therefore other than the Father.",
+   "The Father did not exist before the Son.",
+   "The three persons are coeternal."
+  ],
+  "concepts": [
+   "coeternity",
+   "generation"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d9c2",
+    "pll1d9c1-d1e3480"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:51:12Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d9c2-d1e3480": {
+  "summary": "States the Arian objection (from Ambrose and Augustine): whatever is born has a beginning; if the Son is born, there was a time he was not. Augustine replies that for God being born is being eternal, just as brightness generated from fire is coeval with it and would be coeternal if fire were eternal.",
+  "claims": [
+   "Arius held that if the Son was born, there was when he was not.",
+   "For God, being born is being eternal.",
+   "Brightness is coeval with the fire that generates it."
+  ],
+  "concepts": [
+   "Arianism",
+   "eternal generation",
+   "fire and brightness"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d9c2",
+    "pll1d9c2-d1e3477"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:51:12Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d9c2-d1e3529": {
+  "summary": "Gives Augustine's argument from 1 Cor 1:24: if the Son is God's power and wisdom and God was never without these, the Son is coeternal; otherwise God once lacked wisdom, which is mad. Since God always had wisdom, he always had the Son.",
+  "claims": [
+   "The Son is God's power and wisdom.",
+   "God was never without power and wisdom.",
+   "Therefore the Son is coeternal with the Father."
+  ],
+  "concepts": [
+   "Son as wisdom",
+   "coeternity",
+   "reductio"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d9c2",
+    "pll1d9c2-d1e3480"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:51:12Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d9c2-d1e3559": {
+  "summary": "Gives Ambrose's reply: he confesses the Son born and recoils from the rest. From Isa 43:10, whether Father or Son speaks, neither has one before or after. Father and Son are known in each other, and naming the Father implies the Son, since no one is his own son; so both always are.",
+  "claims": [
+   "The Son is born, but not in time.",
+   "Neither Father nor Son has another God before or after him.",
+   "Father and Son are correlative, so neither exists without the other.",
+   "The Father and the Son are always."
+  ],
+  "concepts": [
+   "correlation",
+   "coeternity",
+   "mutual indwelling"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d9c2",
+    "pll1d9c2-d1e3480"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:51:12Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d9c2-d1e3596": {
+  "summary": "Continues Ambrose: if there was a time when God was God and not yet Father, then generation added something and God changed, which is madness.",
+  "claims": [
+   "If God became Father, he would be changeable.",
+   "God is immutable, so he is always Father."
+  ],
+  "concepts": [
+   "immutability",
+   "eternal fatherhood"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d9c2",
+    "pll1d9c2-d1e3559"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:51:12Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pl-l1d9c2": {
+  "summary": "Argues that the Son, though begotten and so distinct, is coeternal with the Father. Against the Arian 'whatever is born has a beginning; if born, there was when he was not,' Augustine answers that for God being born is being eternal, as brightness is coeval with fire; and since the Son is God's power and wisdom, which God never lacked, the Son always was. Ambrose adds Isa 43:10 (no God before me or after me) and the correlation of Father and Son: neither can be without the other, so both are always; and if God became Father, he would have changed.",
+  "claims": [
+   "The Son is begotten of the Father and so other, yet the Father is not before the Son.",
+   "The three persons are coeternal.",
+   "For God, being born is being eternal.",
+   "Since the Son is God's power and wisdom, and God never lacked these, the Son is eternal.",
+   "Father and Son are correlatives; neither exists without the other.",
+   "If God became Father in time, he would be changeable."
+  ],
+  "concepts": [
+   "coeternity",
+   "eternal generation",
+   "anti-Arianism",
+   "fire and brightness analogy",
+   "Son as wisdom",
+   "correlation of Father and Son",
+   "immutability"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d9c2-d1e3477",
+    "pll1d9c2-d1e3480",
+    "pll1d9c2-d1e3529",
+    "pll1d9c2-d1e3559",
+    "pll1d9c2-d1e3596"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T13:51:12Z",
+   "source_commit": "13a4d90"
+  }
+ }
+}

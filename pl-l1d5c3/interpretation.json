@@ -1,0 +1,77 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T13:47:26Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "13a4d90",
+  "generation_method": "hierarchical"
+ },
+ "pll1d5c3-d1e3476": {
+  "summary": "Infers that the only-begotten alone is called Son by nature, since he is of and is the same nature as the Father.",
+  "claims": [
+   "Only the only-begotten is Son by nature."
+  ],
+  "concepts": [
+   "natural sonship"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d5c3",
+    "pll1d5c2-d1e3629"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:47:26Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d5c3-d1e3479": {
+  "summary": "Supports this with Hilary: he is Son by nature because he has the same nature as his begetter.",
+  "claims": [
+   "The Son has the same nature as the one who begot him."
+  ],
+  "concepts": [
+   "natural sonship",
+   "Hilary"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d5c3",
+    "pll1d5c3-d1e3476"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:47:26Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pl-l1d5c3": {
+  "summary": "Concludes that only the only-begotten is Son by nature, because he has and is the same nature as the Father, citing Hilary.",
+  "claims": [
+   "Only the only-begotten Son is Son by nature.",
+   "He is Son by nature because he has the same nature as the begetter."
+  ],
+  "concepts": [
+   "natural sonship",
+   "unity of nature",
+   "only-begotten"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d5c3-d1e3476",
+    "pll1d5c3-d1e3479"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T13:47:26Z",
+   "source_commit": "13a4d90"
+  }
+ }
+}

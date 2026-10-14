@@ -1,0 +1,95 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T14:03:29Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "13a4d90",
+  "generation_method": "hierarchical"
+ },
+ "pll1d19c6-d1e3477": {
+  "summary": "Cites Augustine against Maximinus: the three are one, supremely one, where there is no diversity of natures or wills; one in nature but not in consent would not be supremely one. So no one of the three can be part of the Trinity, nor a third part, and two are not greater than one, nor all than each, since magnitude here is spiritual, not bodily. Who can grasp it, let him; who cannot, let him believe and pray to understand ('unless you believe, you will not understand,' Isa 7:9).",
+  "claims": [
+   "The three persons are supremely one in nature and will.",
+   "No person is a part of the Trinity.",
+   "Divine magnitude is spiritual, not corporeal.",
+   "Belief precedes understanding."
+  ],
+  "concepts": [
+   "unity of will",
+   "Isaiah 7:9",
+   "credo ut intelligam"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d19c6",
+    "pll1d19c5-d1e3480"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T14:03:29Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d19c6-d1e3509": {
+  "summary": "Further Augustine: Maximinus said God is not composed of parts and called the Father a simple unbegotten power, yet he says God begot God, good begot good, wise begot wise; goodness, wisdom, and power are not parts of that simple power. So much more are Father, Son, and Spirit one God by undivided deity, three persons by their properties, and not parts by the perfection of each. To deny that power born of power has the same nature is against the faith. So the persons are not parts of God, and none is greater.",
+  "claims": [
+   "Divine attributes are not parts of a simple power.",
+   "The persons are one God by undivided deity.",
+   "The persons are three by their properties.",
+   "The persons are not parts of God because each is perfect.",
+   "Power begotten of power has the same nature."
+  ],
+  "concepts": [
+   "ad hominem argument",
+   "properties",
+   "perfection",
+   "simplicity"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d19c6",
+    "pll1d19c6-d1e3477"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T14:03:29Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pl-l1d19c6": {
+  "summary": "Continues Augustine against Maximinus: the three are one because of one substance and are supremely one, with no diversity of natures or wills; none can be part of the Trinity, a third part, and two or all are not greater than one, since the magnitude is spiritual, not corporeal. Who can grasp this should, and who cannot should believe and pray to understand ('unless you believe, you will not understand'). Augustine also turns Maximinus's own admission against him: he grants that the Father is a simple power though good, wise, merciful, and powerful are said of him without these being parts; so much more are Father, Son, and Spirit one God by undivided deity and three persons by properties, and not parts by the perfection of each.",
+  "claims": [
+   "The three persons are supremely one, having one nature and no diversity of wills.",
+   "No person is a part of the Trinity.",
+   "Two or three persons are not greater than one, since divine magnitude is spiritual.",
+   "One who cannot understand should believe and pray to understand.",
+   "Many attributes said of the Father are not parts of his simple power; so the persons are not parts of God.",
+   "The persons are one God by undivided deity, three by properties, and not parts by the perfection of each."
+  ],
+  "concepts": [
+   "unity of will",
+   "non-partition",
+   "spiritual magnitude",
+   "faith seeking understanding",
+   "ad hominem argument",
+   "divine simplicity"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d19c6-d1e3477",
+    "pll1d19c6-d1e3509"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T14:03:29Z",
+   "source_commit": "13a4d90"
+  }
+ }
+}

@@ -1,0 +1,242 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T13:48:21Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "13a4d90",
+  "generation_method": "hierarchical"
+ },
+ "pll1d6c1-d1e3476": {
+  "summary": "Raises the question whether the Father begot the Son by will or by necessity.",
+  "claims": [],
+  "concepts": [
+   "generation",
+   "will",
+   "necessity"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d6c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:48:21Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d6c1-d1e3479": {
+  "summary": "Gives Orosius's answer from Augustine: neither by will nor by necessity, because there is no necessity in God and will cannot precede wisdom.",
+  "claims": [
+   "There is no necessity in God.",
+   "Will cannot precede wisdom."
+  ],
+  "concepts": [
+   "necessity",
+   "will and wisdom"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d6c1",
+    "pll1d6c1-d1e3476"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:48:21Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d6c1-d1e3499": {
+  "summary": "With Augustine, ridicules Eunomius's dialectic: unable to believe the Word is Son by nature, from the Father's substance, he called him Son of God's will, implying that God gained a new will as we do, which would make God changeable.",
+  "claims": [
+   "Eunomius held the Son to be Son of will, not of nature.",
+   "A will accruing to God would make him mutable."
+  ],
+  "concepts": [
+   "Eunomianism",
+   "mutability",
+   "natural sonship"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d6c1",
+    "pll1d6c1-d1e3479"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:48:21Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d6c1-d1e3522": {
+  "summary": "Concludes that the Word is Son by nature, not will, and relays Augustine's praised retort to a heretic: asked whether God begot willingly or unwillingly, the Catholic asked in turn whether the Father is God willingly or unwillingly, trapping him. So it is not to be granted that God begot by will or necessity, willingly or unwillingly.",
+  "claims": [
+   "The Word is Son of God by nature, not by will.",
+   "God is not God by will.",
+   "It is not to be granted that God begot by will or necessity, willingly or unwillingly."
+  ],
+  "concepts": [
+   "natural sonship",
+   "dialectical retort",
+   "Arian sophistry"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d6c1",
+    "pll1d6c1-d1e3499"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:48:21Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d6c1-d1e3543": {
+  "summary": "Objection: since God's will is his nature and the three have one will as one essence, being God by nature would be being God by will, and the Word Son by nature would be Son by will.",
+  "claims": [],
+  "concepts": [
+   "identity of will and nature",
+   "objection"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d6c1",
+    "pll1d6c1-d1e3522"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:48:21Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d6c1-d1e3546": {
+  "summary": "Refutes the objection: God's knowledge, foreknowledge, will, and predestination are all the divine essence, yet not all that is said of knowledge is said of will. God knows good and evil but wills only good. So although nature and will are one, the Son is said to be begotten by nature, not will.",
+  "claims": [
+   "In God knowing and willing are the same as being.",
+   "What is said of divine knowledge is not thereby said of divine will.",
+   "God's knowledge and foreknowledge concern good and evil; his will and predestination concern only good.",
+   "The Father begot the Son by nature, not by will, though will and nature are identical."
+  ],
+  "concepts": [
+   "divine simplicity",
+   "distinct predication of identical attributes",
+   "foreknowledge",
+   "predestination"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d6c1",
+    "pll1d6c1-d1e3543"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:48:21Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d6c1-d1e3551": {
+  "summary": "Lombard's own interpretation: the denials mean that God is not God, and did not beget, by a preceding or accruing will, as Eunomius thought. Yet the Father begot willingly, just as he begot wisely, powerfully, and good, since to be willing is the same as to be God. Supported by Jerome on Ephesians: no paternal will preceded the Son's being.",
+  "claims": [
+   "The Father did not beget by an antecedent or supervening will.",
+   "The Father begot the Son willingly, as he begot wisely and powerfully.",
+   "No paternal will preceded the Son's existence."
+  ],
+  "concepts": [
+   "voluntas praecedens",
+   "concomitant will",
+   "divine attributes in generation"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d6c1",
+    "pll1d6c1-d1e3522",
+    "pll1d6c1-d1e3546"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:48:21Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d6c1-d1e3581": {
+  "summary": "Adds Hilary's anathemas from De synodis against those who say the Son was from non-existents, or begotten neither by counsel nor will, or born against the Father's will. The Father was neither compelled nor driven by natural necessity, but timelessly and impassibly showed forth the only-begotten as he willed.",
+  "claims": [
+   "Those who say the Son was born against the Father's will are anathema.",
+   "The Father was not compelled or driven by natural necessity in begetting.",
+   "The Son's generation is timeless and impassible."
+  ],
+  "concepts": [
+   "anathema",
+   "compulsion",
+   "natural necessity",
+   "eternal generation"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d6c1",
+    "pll1d6c1-d1e3551"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:48:21Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pl-l1d6c1": {
+  "summary": "Asks whether the Father begot the Son by will or by necessity. With Orosius's question to Augustine, neither: God has no necessity, and will cannot precede wisdom. Against Eunomius, who called the Son a Son of will so as to imply a will supervening on God, the Son is Son by nature, as shown by the Catholic retort 'is God the Father God willingly or unwillingly?' To the objection that God's will is his nature, Lombard replies that knowledge and will are the same essence and yet not everything said of one is said of the other. He then refines the denial: the Father did not beget by a preceding or supervening will, but he begot willingly, as he begot wisely and powerfully. Hilary's anathemas exclude both begetting without will and begetting by compulsion.",
+  "claims": [
+   "The Father did not beget the Son by a preceding will or by necessity, since there is no necessity in God and will cannot precede wisdom.",
+   "The Son is Son by nature, not by will.",
+   "Eunomius erred in positing a will accruing to God by which he begot the Son.",
+   "Though God's will and nature are the same, not everything said of one is said of the other.",
+   "God's knowledge extends to good and evil, his will and predestination only to good.",
+   "The Father begot the Son willingly, as he begot wisely and powerfully, but not by an antecedent will.",
+   "The Son was not begotten against the Father's will or by natural compulsion."
+  ],
+  "concepts": [
+   "generation by will vs nature",
+   "necessity in God",
+   "Eunomianism",
+   "divine immutability",
+   "identity of divine attributes",
+   "knowledge and will",
+   "foreknowledge and predestination",
+   "voluntas praecedens",
+   "concomitant willing"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d6c1-d1e3476",
+    "pll1d6c1-d1e3479",
+    "pll1d6c1-d1e3499",
+    "pll1d6c1-d1e3522",
+    "pll1d6c1-d1e3543",
+    "pll1d6c1-d1e3546",
+    "pll1d6c1-d1e3551",
+    "pll1d6c1-d1e3581"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T13:48:21Z",
+   "source_commit": "13a4d90"
+  }
+ }
+}

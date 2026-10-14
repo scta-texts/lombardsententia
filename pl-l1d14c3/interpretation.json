@@ -1,0 +1,161 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T13:57:06Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "13a4d90",
+  "generation_method": "hierarchical"
+ },
+ "pll1d14c3-d1e3477": {
+  "summary": "Asks whether holy men give or can give the Spirit. If they did, since giving is procession, the Spirit would proceed or be sent from them; but the Creator does not proceed from a creature, so they neither give nor can give him.",
+  "claims": [
+   "The giving of the Spirit is his procession.",
+   "The Creator does not proceed from a creature.",
+   "Humans do not give the Holy Spirit."
+  ],
+  "concepts": [
+   "giving of the Spirit",
+   "Creator and creature"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d14c3",
+    "pll1d14c1-d1e3514"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:57:06Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d14c3-d1e3480": {
+  "summary": "Cites De Trinitate XV: no disciple gave the Spirit; they prayed that he would come on those on whom they laid hands, as the Church still does. Simon Magus asked that whoever he laid hands on should receive the Spirit, and Scripture says the Spirit was given through the apostles' laying on of hands, not by them.",
+  "claims": [
+   "The apostles did not give the Spirit but prayed for him to come.",
+   "The Spirit was given through, not by, the apostles' imposition of hands."
+  ],
+  "concepts": [
+   "imposition of hands",
+   "Simon Magus",
+   "prayer"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d14c3",
+    "pll1d14c3-d1e3477"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:57:06Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d14c3-d1e3533": {
+  "summary": "Adds Augustine: Christ received the promised Spirit from the Father as man and poured it out as God (Acts 2:33). We can receive the Gift according to our measure but cannot pour it on others; we invoke God to do it.",
+  "claims": [
+   "Christ received the Spirit as man and gave it as God.",
+   "Humans can receive the Spirit but cannot pour it on others."
+  ],
+  "concepts": [
+   "two natures of Christ",
+   "receiving vs giving"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d14c3",
+    "pll1d14c3-d1e3480"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:57:06Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d14c3-d1e3557": {
+  "summary": "Raises Gal 3:5 ('he who gives you the Spirit'), where Paul seems to say he gave the Spirit, and answers that he means not authority to give but the ministry in which God gave the Spirit.",
+  "claims": [
+   "Paul had a ministry, not authority, in the giving of the Spirit."
+  ],
+  "concepts": [
+   "ministerium vs potestas",
+   "Galatians 3:5"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d14c3",
+    "pll1d14c3-d1e3533"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:57:06Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d14c3-d1e3579": {
+  "summary": "Confirms with Augustine's commentary on Galatians: the apostle preached faith, in which the Galatians sensed the Spirit's presence, shown in that early time by sensible miracles. So Paul gave the Spirit by preaching, not by sending. No one, however holy, can give the Holy Spirit.",
+  "claims": [
+   "Paul gave the Spirit by preaching the faith, not by sending him.",
+   "The Spirit's presence was shown by visible signs in the early Church.",
+   "No human, however holy, can give the Holy Spirit."
+  ],
+  "concepts": [
+   "preaching",
+   "miracles",
+   "signs of the Spirit"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d14c3",
+    "pll1d14c3-d1e3557"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:57:06Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pl-l1d14c3": {
+  "summary": "Asks whether holy men give or can give the Holy Spirit. Since giving the Spirit is his procession, and the Creator does not proceed from a creature, they cannot. Augustine: the apostles prayed that the Spirit would come on those on whom they laid hands, and Simon Magus asked for the power that the Spirit be received through his hands, not to give it himself. Christ received the Spirit as man and poured it out as God; we receive it but cannot pour it out. Paul's 'he who gives you the Spirit' (Gal 3:5) means his ministry of preaching, through which God gave the Spirit with visible signs, not authority to give it.",
+  "claims": [
+   "Holy men, even apostles, do not and cannot give the Holy Spirit.",
+   "The giving of the Spirit is his procession, and the Creator does not proceed from a creature.",
+   "The apostles prayed for the Spirit to come; they did not give him.",
+   "Christ received the Spirit as man and poured him out as God.",
+   "Paul 'gave' the Spirit only as a minister through whose preaching God gave him."
+  ],
+  "concepts": [
+   "giving of the Spirit",
+   "ministry vs authority",
+   "laying on of hands",
+   "Christ's two natures",
+   "Simon Magus",
+   "sacramental ministry"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d14c3-d1e3477",
+    "pll1d14c3-d1e3480",
+    "pll1d14c3-d1e3533",
+    "pll1d14c3-d1e3557",
+    "pll1d14c3-d1e3579"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T13:57:06Z",
+   "source_commit": "13a4d90"
+  }
+ }
+}

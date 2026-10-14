@@ -1,0 +1,256 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T13:47:26Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "13a4d90",
+  "generation_method": "hierarchical"
+ },
+ "pll1d5c2-d1e3476": {
+  "summary": "Draws a further conclusion from the authorities: Son and Spirit are not from nothing but from something, though not from any matter.",
+  "claims": [
+   "Son and Spirit are not from nothing.",
+   "Son and Spirit are not from matter."
+  ],
+  "concepts": [
+   "ex nihilo",
+   "generation without matter"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d5c2",
+    "pll1d5c1-d1e3992"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:47:26Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d5c2-d1e3479": {
+  "summary": "Cites Hilary: the only-begotten testifies the Father as author; born from one who remains, he is not born from nothing; born before time, he precedes all understanding.",
+  "claims": [
+   "The Son is not born from nothing.",
+   "The Son's birth precedes time."
+  ],
+  "concepts": [
+   "auctor",
+   "eternal birth",
+   "ex nihilo"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d5c2",
+    "pll1d5c2-d1e3476"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:47:26Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d5c2-d1e3500": {
+  "summary": "Extends this to the Holy Spirit, who is not from nothing. 'The Son born of the Father's substance' means he is from the Father, with whom he is of and is the same substance, and 'the Father begot what he is' means the Son who is what the Father is.",
+  "claims": [
+   "The Holy Spirit is not from nothing.",
+   "'Born of the Father's substance' means from the Father, as the same substance."
+  ],
+  "concepts": [
+   "Holy Spirit",
+   "personal reading"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d5c2",
+    "pll1d5c1-d1e3589"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:47:26Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d5c2-d1e3522": {
+  "summary": "Supports the reading with Augustine against Maximinus: the Father begot what he is; otherwise the Son would not be a true Son.",
+  "claims": [
+   "The Son is a true Son because he is what the Father is."
+  ],
+  "concepts": [
+   "true sonship",
+   "identity of nature"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d5c2",
+    "pll1d5c2-d1e3500"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:47:26Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d5c2-d1e3542": {
+  "summary": "Interprets 'the substance of God begot the Son' as 'the Father, who is substance, begot the Son, of the same substance,' citing Augustine's instruction to Maximinus to say 'spirit begot spirit of the same nature' and 'God begot God of the same substance.'",
+  "claims": [
+   "'The substance of God begot the Son' means the Father-substance begot a consubstantial Son.",
+   "One should say God begot God of the same nature or substance."
+  ],
+  "concepts": [
+   "personal reading",
+   "consubstantiality",
+   "anti-Arian formula"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d5c2",
+    "pll1d5c2-d1e3500"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:47:26Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d5c2-d1e3569": {
+  "summary": "Applies the same exposition to 'the Son born of the Father's substance,' 'begot the Son of his nature,' and 'the Son of the Father's substance': the Father, being nature and essence, begot a Son of the same essence, who is that essence, so consubstantial.",
+  "claims": [
+   "The Father begot from himself, who is nature and essence, a Son of the same essence.",
+   "The Son is consubstantial with the Father."
+  ],
+  "concepts": [
+   "consubstantiality",
+   "exposition of formulas"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d5c2",
+    "pll1d5c2-d1e3542"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:47:26Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d5c2-d1e3590": {
+  "summary": "Supports this sense from De Trinitate VII: we say 'three persons of the same essence' or 'one essence,' but not 'from the same essence,' as though essence and person were different. So 'person from essence' is to be said only in the stated sense.",
+  "claims": [
+   "Three persons are said to be of one essence, not from one essence.",
+   "Person and essence are not different things in God."
+  ],
+  "concepts": [
+   "person and essence",
+   "prepositional predication"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d5c2",
+    "pll1d5c2-d1e3569"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:47:26Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d5c2-d1e3610": {
+  "summary": "Further confirms with De Trinitate XV: our word born of our knowledge differs from God's Word born of the Father's essence, meaning 'from the Father who is essence, knowledge, wisdom.'",
+  "claims": [
+   "'Born of the Father's essence' means born of the Father who is essence.",
+   "Our mental word is unlike the divine Word."
+  ],
+  "concepts": [
+   "verbum mentis",
+   "dissimilitude",
+   "personal reading"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d5c2",
+    "pll1d5c2-d1e3590"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:47:26Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d5c2-d1e3629": {
+  "summary": "Concludes: in this sense the Word, the only Son, like and equal to the Father in all things, is rightly called God from God, light from light, wisdom from wisdom, essence from essence, being wholly what the Father is, yet not the Father.",
+  "claims": [
+   "The Son is God from God, light from light, wisdom from wisdom, essence from essence.",
+   "The Son is wholly what the Father is, but not the Father."
+  ],
+  "concepts": [
+   "Nicene formulas",
+   "equality",
+   "personal distinction"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d5c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:47:26Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pl-l1d5c2": {
+  "summary": "Follows up the previous chapter: the Son and Spirit are not from nothing but from something, though not from matter (Hilary). Lombard gives the agreed sense of disputed formulas: 'the Father begot what he is' means the Son who is what the Father is; 'the substance of God begot the Son' means the Father, who is substance, begot the Son of the same substance (as Augustine instructs Maximinus); 'the Son of the Father's substance' means consubstantial. With De Trinitate VII, one says 'three persons of one essence,' not 'from one essence,' as though person and essence differed. So the Word is rightly 'God from God, light from light, essence from essence': all that the Father is, yet not the Father.",
+  "claims": [
+   "The Son and the Holy Spirit are not from nothing, nor from matter.",
+   "'Substance of God begot the Son' means the Father, who is substance, begot a Son of the same substance.",
+   "'Son of the substance of the Father' means the Son consubstantial with the Father.",
+   "One should say 'three persons of the same essence,' not 'from the essence.'",
+   "The Word is God from God, light from light, essence from essence, the same as the Father yet not the Father."
+  ],
+  "concepts": [
+   "ex nihilo",
+   "de substantia",
+   "consubstantiality",
+   "personal reading of essential formulas",
+   "person and essence",
+   "Nicene formulas"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d5c2-d1e3476",
+    "pll1d5c2-d1e3479",
+    "pll1d5c2-d1e3500",
+    "pll1d5c2-d1e3522",
+    "pll1d5c2-d1e3542",
+    "pll1d5c2-d1e3569",
+    "pll1d5c2-d1e3590",
+    "pll1d5c2-d1e3610",
+    "pll1d5c2-d1e3629"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T13:47:26Z",
+   "source_commit": "13a4d90"
+  }
+ }
+}

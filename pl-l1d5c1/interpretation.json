@@ -1,0 +1,875 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T13:47:26Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "13a4d90",
+  "generation_method": "hierarchical"
+ },
+ "pll1d5c1-d1e3476": {
+  "summary": "Poses the question whether the Father begot the divine essence, the essence begot the Son, essence begot essence, or the essence neither begot nor was begotten.",
+  "claims": [],
+  "concepts": [
+   "generation and essence"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d5c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:47:26Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d5c1-d1e3479": {
+  "summary": "Answers with the Catholic writers that none of the three is true, taking 'essence' as the divine nature common to the three persons and whole in each.",
+  "claims": [
+   "The Father did not beget the essence.",
+   "The essence did not beget the Son.",
+   "Essence did not beget essence."
+  ],
+  "concepts": [
+   "divine essence",
+   "common nature"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d5c1",
+    "pll1d5c1-d1e3476"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:47:26Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d5c1-d1e3482": {
+  "summary": "First argument: if the Father begot the essence, the essence would be said relatively to the Father, but per Augustine what is said relatively does not indicate substance.",
+  "claims": [
+   "What is said relatively does not indicate substance.",
+   "The essence cannot be the term of generation."
+  ],
+  "concepts": [
+   "relative predication",
+   "substance"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d5c1",
+    "pll1d5c1-d1e3479"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:47:26Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d5c1-d1e3505": {
+  "summary": "Second argument: since the Father is the divine essence, begetting it would be begetting what he is, so the same thing would beget itself, which Augustine denies.",
+  "claims": [
+   "If the Father begot the essence, he would beget himself."
+  ],
+  "concepts": [
+   "self-generation",
+   "identity of person and essence"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d5c1",
+    "pll1d4c1-d1e3481"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:47:26Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d5c1-d1e3511": {
+  "summary": "Third argument: if the Father begot the essence by which he is and is God, then the begotten would be the cause of the begetter's being, not the reverse.",
+  "claims": [
+   "Begetting the essence would make the begotten cause the begetter's being."
+  ],
+  "concepts": [
+   "causality",
+   "generation"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d5c1",
+    "pll1d5c1-d1e3479"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:47:26Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d5c1-d1e3514": {
+  "summary": "Supports the third argument with Augustine's parallel from De Trinitate VII: since in God to be is to be wise, the Father is not wise by the wisdom he begot, or that wisdom would cause his being. Likewise he did not beget the essence by which he is; wisdom, power, and essence are one.",
+  "claims": [
+   "In God to be and to be wise are the same.",
+   "The Father is not wise by the wisdom he begot.",
+   "The Father did not beget the essence by which he is.",
+   "In God, wisdom, power, and essence are identical."
+  ],
+  "concepts": [
+   "divine simplicity",
+   "wisdom and essence",
+   "causality"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d5c1",
+    "pll1d5c1-d1e3511"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:47:26Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d5c1-d1e3547": {
+  "summary": "Concludes that the Father did not beget the divine essence.",
+  "claims": [
+   "The Father did not beget the divine essence."
+  ],
+  "concepts": [
+   "conclusion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d5c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:47:26Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d5c1-d1e3550": {
+  "summary": "Raises a contrary authority: Augustine says God, when he begot the Word, begot what he himself is, from himself, not from nothing or from matter.",
+  "claims": [],
+  "concepts": [
+   "contrary authority",
+   "generation"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d5c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:47:26Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d5c1-d1e3573": {
+  "summary": "Adds a second similar text: God the Father, wishing to reveal himself, begot what he himself is.",
+  "claims": [],
+  "concepts": [
+   "contrary authority",
+   "self-revelation"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d5c1",
+    "pll1d5c1-d1e3550"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:47:26Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d5c1-d1e3586": {
+  "summary": "States the objection: what the Father is, is only the divine essence, so he seems to have begotten the essence.",
+  "claims": [],
+  "concepts": [
+   "objection"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d5c1",
+    "pll1d5c1-d1e3550",
+    "pll1d5c1-d1e3573"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:47:26Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d5c1-d1e3589": {
+  "summary": "Resolves it: the Father begot from himself what he is, that is, the Son, who is what the Father is. 'What' the Father is the Son also is, but not 'who' the Father is.",
+  "claims": [
+   "'The Father begot what he is' means the Son, who is the same as the Father.",
+   "The Son is quod the Father is, not qui the Father is."
+  ],
+  "concepts": [
+   "quod vs qui",
+   "personal reading of authorities"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d5c1",
+    "pll1d5c1-d1e3586"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:47:26Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d5c1-d1e3592": {
+  "summary": "Extends the denial: the essence did not beget the Son, since the Son is the essence and would beget himself, nor did essence beget essence, since one supreme thing would beget itself. The Father alone begot the Son, and the Spirit proceeds from both.",
+  "claims": [
+   "The divine essence did not beget the Son.",
+   "The essence did not beget essence.",
+   "The Father alone begot the Son; the Spirit proceeds from Father and Son."
+  ],
+  "concepts": [
+   "self-generation",
+   "personal properties",
+   "Filioque"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d5c1",
+    "pll1d5c1-d1e3479"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:47:26Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d5c1-d1e3595": {
+  "summary": "Raises Augustine's 'wisdom from wisdom, essence from essence,' which seems to mean that wisdom begot wisdom and essence begot essence.",
+  "claims": [],
+  "concepts": [
+   "contrary authority",
+   "sapientia de sapientia"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d5c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:47:26Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d5c1-d1e3619": {
+  "summary": "Adds the De fide ad Petrum, which says the Son's divinity was born of the Father's nature, as if nature were begotten from nature.",
+  "claims": [],
+  "concepts": [
+   "contrary authority",
+   "natura de natura"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d5c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:47:26Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d5c1-d1e3637": {
+  "summary": "Adds De Trinitate XV: the Son is called counsel from counsel and will from will, as substance from substance and wisdom from wisdom.",
+  "claims": [],
+  "concepts": [
+   "contrary authority"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d5c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:47:26Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d5c1-d1e3657": {
+  "summary": "Resolves these: 'wisdom from wisdom, substance from substance' means the Son, who is wisdom and substance, is from the Father, who is the same substance and wisdom; the Son-wisdom is from the Father-wisdom, the Son-substance begotten from the Father-substance.",
+  "claims": [
+   "The Son, who is wisdom and substance, is from the Father, who is the same wisdom and substance."
+  ],
+  "concepts": [
+   "personal reading of essential terms",
+   "de Patre sapientia"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d5c1",
+    "pll1d5c1-d1e3595",
+    "pll1d5c1-d1e3619",
+    "pll1d5c1-d1e3637"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:47:26Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d5c1-d1e3672": {
+  "summary": "Confirms the reading with Augustine: the Father is wisdom and the Son is the Father's wisdom, as light from light, both being one light, one wisdom, one essence.",
+  "claims": [
+   "Wisdom from wisdom is to be understood as light from light, both being one."
+  ],
+  "concepts": [
+   "lumen de lumine",
+   "unity of essence"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d5c1",
+    "pll1d5c1-d1e3657"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:47:26Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d5c1-d1e3694": {
+  "summary": "Adds Augustine: Christ is God's power and wisdom because he is power and wisdom from the Father, who is power and wisdom, as light from light and fountain of life with the fountain of life. Each is light, God, and wisdom, and together one light, God, and wisdom.",
+  "claims": [
+   "Each person is God, light, and wisdom, and together they are one.",
+   "The Son is wisdom from the Father-wisdom."
+  ],
+  "concepts": [
+   "virtus et sapientia Dei",
+   "unity and plurality"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d5c1",
+    "pll1d5c1-d1e3657"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:47:26Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d5c1-d1e3709": {
+  "summary": "Notes that Augustine thus shows the sense of 'substance from substance' and 'substance begot substance.'",
+  "claims": [
+   "Augustine's own words fix the sense of 'substance from substance.'"
+  ],
+  "concepts": [
+   "hermeneutics of authorities"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d5c1",
+    "pll1d5c1-d1e3672",
+    "pll1d5c1-d1e3694"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:47:26Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d5c1-d1e3715": {
+  "summary": "Raises Hilary's 'the Son has nothing that is not born': since the Son has the divine essence, it seems the essence is born.",
+  "claims": [],
+  "concepts": [
+   "Hilary",
+   "contrary authority",
+   "birth of the essence"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d5c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:47:26Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d5c1-d1e3738": {
+  "summary": "Adds Hilary, De Trinitate V: the birth of God cannot fail to keep the nature from which it came, so the nature of God seems both to beget and to be begotten.",
+  "claims": [],
+  "concepts": [
+   "Hilary",
+   "nativitas",
+   "natura"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d5c1",
+    "pll1d5c1-d1e3715"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:47:26Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d5c1-d1e3755": {
+  "summary": "Adds Hilary, De Trinitate IX: the begotten nature had the begetting nature in itself and assumed the form of a servant. This says plainly that nature begot, was begotten, and assumed a nature, which many deny.",
+  "claims": [
+   "Hilary appears to speak of nature begetting, begotten, and assuming nature."
+  ],
+  "concepts": [
+   "Hilary",
+   "incarnation",
+   "natura genita",
+   "assumption of nature"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d5c1",
+    "pll1d5c1-d1e3738"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:47:26Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d5c1-d1e3776": {
+  "summary": "Adds a further text of Hilary speaking of an 'only-begotten nature' from the unbegotten God.",
+  "claims": [],
+  "concepts": [
+   "Hilary",
+   "natura unigenita"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d5c1",
+    "pll1d5c1-d1e3755"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:47:26Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d5c1-d1e3791": {
+  "summary": "Resolves using Hilary's own hermeneutical rule that words are subject to things and are understood from the reasons for speaking: 'the Son has nothing but what is born' means that whatever he has as God he received by being born, and by being born he has the Father's nature subsisting in him.",
+  "claims": [
+   "Words are to be understood from the reasons for which they are said.",
+   "Whatever the Son has as God he received by being born."
+  ],
+  "concepts": [
+   "hermeneutical principle",
+   "res and sermo",
+   "reception of nature by birth"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d5c1",
+    "pll1d5c1-d1e3715",
+    "pll1d5c1-d1e3738",
+    "pll1d5c1-d1e3755"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:47:26Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d5c1-d1e3806": {
+  "summary": "Supports the resolution with Hilary, De Trinitate V: the begotten has the same nature as the begetter without being the begetter, subsisting in that in which the begetter wholly is; unchangeable God begets unchangeable God, and God is in God without there being another God.",
+  "claims": [
+   "The begotten has the same nature as the begetter without being the begetter.",
+   "God is in God, and there is no other God."
+  ],
+  "concepts": [
+   "same nature",
+   "immutability",
+   "mutual indwelling"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d5c1",
+    "pll1d5c1-d1e3791"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:47:26Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d5c1-d1e3827": {
+  "summary": "Concludes the reading of Hilary: the truth of the Father's nature is in God the Son, one in one and one from one.",
+  "claims": [
+   "The Father's nature is truly in the Son.",
+   "The Son is one in one and one from one."
+  ],
+  "concepts": [
+   "unus in uno",
+   "unity of nature"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d5c1",
+    "pll1d5c1-d1e3806"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:47:26Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d5c1-d1e3830": {
+  "summary": "Notes another frequent scriptural and patristic formula: the Father begot the Son from his substance.",
+  "claims": [],
+  "concepts": [
+   "de substantia Patris"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d5c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:47:26Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d5c1-d1e3833": {
+  "summary": "Cites the De fide ad Petrum that the Father begot the Son from his own nature, and notes the problem: since the nature is common, the Son would be begotten from the nature of the Son and Spirit, indeed of all three.",
+  "claims": [],
+  "concepts": [
+   "de natura Patris",
+   "common nature",
+   "objection"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d5c1",
+    "pll1d5c1-d1e3830"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:47:26Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d5c1-d1e3854": {
+  "summary": "Cites De Trinitate XV on Col 1:13: the 'Son of his love' means Son of his substance, since the Father's love is his simple nature, so the Son is begotten of the Father's substance.",
+  "claims": [
+   "The Father's love is identical with his substance.",
+   "The Son is begotten of the Father's substance."
+  ],
+  "concepts": [
+   "Filius caritatis",
+   "simplicity",
+   "de substantia"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d5c1",
+    "pll1d5c1-d1e3830"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:47:26Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d5c1-d1e3891": {
+  "summary": "Cites Augustine against Maximinus: the substance of God begets the Son without the passions of carnal generation. The Son is not a man made son by grace nor a converted creature, nor from nothing, so he must be from some substance, and that can only be the Father's.",
+  "claims": [
+   "God's substance begets the Son without bodily passion.",
+   "The Son is Son by nature, not by grace.",
+   "Since the Son is not from nothing or from another substance, he is from the Father's substance."
+  ],
+  "concepts": [
+   "anti-Arian argument",
+   "natural sonship",
+   "ex nihilo",
+   "de substantia Patris"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d5c1",
+    "pll1d5c1-d1e3830"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:47:26Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d5c1-d1e3922": {
+  "summary": "Continues against Maximinus on 1 John 5:20: the true Son, distinct from sons by grace, is from some substance; if not the Father's, another must be found, and none can be, so the Son is homoousios with the Father.",
+  "claims": [
+   "The true Son is distinguished from adopted sons.",
+   "The Son is homoousios with the Father."
+  ],
+  "concepts": [
+   "homoousios",
+   "sons by grace vs by nature"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d5c1",
+    "pll1d5c1-d1e3891"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:47:26Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d5c1-d1e3949": {
+  "summary": "Continues: the Father incorruptibly begot what he is. The Son is from some substance or none; if none, from nothing; if another, not a true Son; if the Father's, of one substance. What is from God and not from nothing or other matter is necessarily of God's substance, a coeternal nature from God.",
+  "claims": [
+   "The Father begot what he is, incorruptibly.",
+   "What is from God and not from nothing or matter is from God's substance.",
+   "Father and Son are of one and the same substance."
+  ],
+  "concepts": [
+   "dilemma argument",
+   "coeternal nature",
+   "consubstantiality"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d5c1",
+    "pll1d5c1-d1e3922"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:47:26Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d5c1-d1e3961": {
+  "summary": "States the difficulty these texts raise: they seem to imply that the divine substance begot the Son, that the Son is from the Father's substance, that a coeternal nature is from God, and so that the essence begot.",
+  "claims": [],
+  "concepts": [
+   "objection",
+   "generation of essence"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d5c1",
+    "pll1d5c1-d1e3891",
+    "pll1d5c1-d1e3949"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:47:26Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d5c1-d1e3966": {
+  "summary": "Lombard confesses that he is strongly moved by these words and would rather hear than teach their meaning. Speaking tentatively, he reads 'coeternal nature from God' as 'the Son coeternal with the Father is from the Father, being the same nature,' which Augustine confirms: 'the Son is not other than that from which he is.'",
+  "claims": [
+   "'A coeternal nature is from God' means the coeternal Son is from the Father and is the same nature.",
+   "The Son is not other than that from which he is."
+  ],
+  "concepts": [
+   "theological reticence",
+   "interpretation",
+   "same nature"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d5c1",
+    "pll1d5c1-d1e3961"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:47:26Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d5c1-d1e3992": {
+  "summary": "Confirms the reading with Augustine against Maximinus: the Trinity is of one substance because the Son is not from matter or nothing but from him who begot him, and the Spirit from him from whom he proceeds.",
+  "claims": [
+   "The Son is from the one who begot him, not from matter or nothing.",
+   "The Spirit is from the one from whom he proceeds."
+  ],
+  "concepts": [
+   "consubstantiality",
+   "procession"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d5c1",
+    "pll1d5c1-d1e3966"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:47:26Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d5c1-d1e4011": {
+  "summary": "Draws the rule: the Son is 'of the Father's substance' because begotten from the Father so as to be of the same substance; the Spirit is 'of the substance of Father and Son' because he proceeds from both as of the same substance.",
+  "claims": [
+   "The Son is said to be of the Father's substance because he is begotten of the Father and is consubstantial with him.",
+   "The Spirit is of the substance of Father and Son because he proceeds from both."
+  ],
+  "concepts": [
+   "de substantia Patris",
+   "personal reading",
+   "procession"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d5c1",
+    "pll1d5c1-d1e3992"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:47:26Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pl-l1d5c1": {
+  "summary": "Asks whether the Father begot the divine essence, whether the essence begot the Son, or essence begot essence, and answers no to all three. Generation would make the essence relative; something would beget itself, since the Father is the essence; and, by Augustine's argument about wisdom, the begotten would cause the begetter's being. Lombard then works through apparently contrary authorities: Augustine's 'begot what he is' and 'wisdom from wisdom, essence from essence'; the De fide ad Petrum's 'his divinity born of the Father's nature'; Hilary's 'nature begotten' and 'nature begetting'; and Augustine against Maximinus that the Son is 'of the substance of the Father' and a 'coeternal nature from God.' With some reticence ('I would rather hear than teach'), he reads these personally: the Son, who is the same essence, is from the Father, who is that essence, and so is of one substance with him; the Spirit proceeds in the same way.",
+  "claims": [
+   "The Father did not beget the divine essence.",
+   "The divine essence did not beget the Son, nor did essence beget essence.",
+   "What is said relatively does not indicate substance.",
+   "In God's simplicity, being and being wise are the same, so the Father is not wise or existent by the wisdom or essence he begot.",
+   "'The Father begot what he is' means he begot the Son, who is what the Father is.",
+   "'Wisdom from wisdom' and 'substance from substance' mean the Son, who is wisdom and substance, is from the Father, who is the same wisdom and substance.",
+   "The Son is 'of the substance of the Father' because he is begotten of the Father and is of the same substance."
+  ],
+  "concepts": [
+   "generation of the essence",
+   "relative vs absolute predication",
+   "divine simplicity",
+   "self-generation",
+   "interpretation of authorities",
+   "Hilary on natura",
+   "de substantia Patris",
+   "homoousios",
+   "theological reticence"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d5c1-d1e3476",
+    "pll1d5c1-d1e3479",
+    "pll1d5c1-d1e3482",
+    "pll1d5c1-d1e3505",
+    "pll1d5c1-d1e3511",
+    "pll1d5c1-d1e3514",
+    "pll1d5c1-d1e3547",
+    "pll1d5c1-d1e3550",
+    "pll1d5c1-d1e3573",
+    "pll1d5c1-d1e3586",
+    "pll1d5c1-d1e3589",
+    "pll1d5c1-d1e3592",
+    "pll1d5c1-d1e3595",
+    "pll1d5c1-d1e3619",
+    "pll1d5c1-d1e3637",
+    "pll1d5c1-d1e3657",
+    "pll1d5c1-d1e3672",
+    "pll1d5c1-d1e3694",
+    "pll1d5c1-d1e3709",
+    "pll1d5c1-d1e3715",
+    "pll1d5c1-d1e3738",
+    "pll1d5c1-d1e3755",
+    "pll1d5c1-d1e3776",
+    "pll1d5c1-d1e3791",
+    "pll1d5c1-d1e3806",
+    "pll1d5c1-d1e3827",
+    "pll1d5c1-d1e3830",
+    "pll1d5c1-d1e3833",
+    "pll1d5c1-d1e3854",
+    "pll1d5c1-d1e3891",
+    "pll1d5c1-d1e3922",
+    "pll1d5c1-d1e3949",
+    "pll1d5c1-d1e3961",
+    "pll1d5c1-d1e3966",
+    "pll1d5c1-d1e3992",
+    "pll1d5c1-d1e4011"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T13:47:26Z",
+   "source_commit": "13a4d90"
+  }
+ }
+}

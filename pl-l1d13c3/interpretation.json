@@ -1,0 +1,138 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T13:57:06Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "13a4d90",
+  "generation_method": "hierarchical"
+ },
+ "pll1d13c3-d1e3477": {
+  "summary": "Acknowledges that while we live here we cannot distinguish the Son's generation from the Spirit's procession.",
+  "claims": [
+   "In this life we cannot distinguish generation from procession."
+  ],
+  "concepts": [
+   "limits of understanding"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d13c3",
+    "pl-l1d13c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:57:06Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d13c3-d1e3480": {
+  "summary": "Gives Augustine's answer to Maximinus: both Son and Spirit are from the Father's substance, but the Son is begotten and so is the Father's Son, while the Spirit proceeds from both and so is the Spirit of both. Christ said 'proceeds from the Father' because the Father begot a Son and gave him that the Spirit proceeds from him. His breathing 'Receive the Holy Spirit' showed this openly. If the Spirit were born of both, he would be son of both.",
+  "claims": [
+   "Son and Spirit are both from the Father's substance.",
+   "The Son is begotten; the Spirit proceeds from both.",
+   "Christ's breathing on the disciples signified procession from himself.",
+   "Had the Spirit been born of both, he would be son of both."
+  ],
+  "concepts": [
+   "Maximinus",
+   "insufflation",
+   "Filioque",
+   "generation vs procession"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d13c3",
+    "pll1d13c3-d1e3477"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:57:06Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d13c3-d1e3517": {
+  "summary": "Continues Augustine: who can explain the difference between being born and proceeding? Not all that proceeds is born, though all that is born proceeds, as all men are bipeds but not all bipeds men. He confesses that he does not know and cannot distinguish them. As 'who shall declare his generation?' so 'who shall declare his procession?' It suffices that neither Son nor Spirit is from himself and that the Spirit proceeds from both.",
+  "claims": [
+   "All that is born proceeds, but not all that proceeds is born.",
+   "The distinction between generation and procession cannot be explained by us.",
+   "The Spirit's procession is ineffable.",
+   "Neither the Son nor the Spirit is from himself."
+  ],
+  "concepts": [
+   "ineffability",
+   "genus and species analogy",
+   "confession of ignorance"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d13c3",
+    "pll1d13c3-d1e3480"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:57:06Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d13c3-d1e3541": {
+  "summary": "Concludes: it has been discussed, as far as seemed fitting, how the Spirit is from God and yet not a son, since he is from God by proceeding, not by being born.",
+  "claims": [
+   "The Spirit is from God by procession, not birth, and so is not a son."
+  ],
+  "concepts": [
+   "summary"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d13c3",
+    "pl-l1d13c1",
+    "pl-l1d13c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:57:06Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pl-l1d13c3": {
+  "summary": "Admits that in this life we cannot distinguish between the generation of the Son and the procession of the Spirit. Augustine's reply to Maximinus: both are from the Father, but one is begotten and so is the Father's Son, the other proceeds and so is the Spirit of both. Christ's breathing on the disciples showed that the Spirit proceeds from him too, and had the Spirit been born of both he would be son of both. Augustine confesses that he does not know how to distinguish generation from procession: not everything that proceeds is born, and the procession, like the generation, is ineffable. It is enough to know that neither Son nor Spirit is from himself.",
+  "claims": [
+   "In this life we cannot adequately distinguish generation from procession.",
+   "The Son is from the Father by generation, the Spirit from both by procession.",
+   "Christ's breathing on the disciples signifies that the Spirit proceeds from him.",
+   "Everything born proceeds, but not everything that proceeds is born.",
+   "The procession of the Spirit, like the generation of the Son, is ineffable.",
+   "Neither Son nor Spirit is from himself."
+  ],
+  "concepts": [
+   "generation vs procession",
+   "ineffability",
+   "limits of understanding",
+   "insufflation",
+   "Filioque"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d13c3-d1e3477",
+    "pll1d13c3-d1e3480",
+    "pll1d13c3-d1e3517",
+    "pll1d13c3-d1e3541"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T13:57:06Z",
+   "source_commit": "13a4d90"
+  }
+ }
+}

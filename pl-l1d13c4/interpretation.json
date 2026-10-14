@@ -1,0 +1,225 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T13:57:06Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "13a4d90",
+  "generation_method": "hierarchical"
+ },
+ "pll1d13c4-d1e3477": {
+  "summary": "Asks whether the Spirit, since he is not begotten, should be called unbegotten.",
+  "claims": [],
+  "concepts": [
+   "ingenitus"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d13c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:57:06Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d13c4-d1e3480": {
+  "summary": "Answers that the Spirit should be called neither begotten nor unbegotten.",
+  "claims": [
+   "The Spirit is neither begotten nor unbegotten."
+  ],
+  "concepts": [
+   "ingenitus"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d13c4",
+    "pll1d13c4-d1e3477"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:57:06Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d13c4-d1e3486": {
+  "summary": "Cites Augustine to Orosius: if we call the Spirit unbegotten we seem to assert two fathers, if begotten two sons. As only the Son is begotten, only the Father is unbegotten, being from no other.",
+  "claims": [
+   "Calling the Spirit unbegotten implies two fathers.",
+   "Calling the Spirit begotten implies two sons.",
+   "Only the Father is unbegotten, since he is from no other."
+  ],
+  "concepts": [
+   "ingenitus",
+   "two fathers / two sons"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d13c4",
+    "pll1d13c4-d1e3480"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:57:06Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d13c4-d1e3506": {
+  "summary": "Adds De Trinitate XV: the Father alone is not from another and so alone is called unbegotten, by the usage of disputants rather than Scripture. The Son is born, and the Spirit proceeds principally from the Father and in common from both; so we do not call the Spirit unbegotten, lest two fathers or two unoriginate persons be suspected.",
+  "claims": [
+   "Only the Father is from no other.",
+   "'Unbegotten' comes from theological usage, not Scripture.",
+   "The Spirit is not to be called unbegotten."
+  ],
+  "concepts": [
+   "usage of disputants",
+   "principaliter",
+   "unoriginate"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d13c4",
+    "pll1d13c4-d1e3486"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:57:06Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d13c4-d1e3526": {
+  "summary": "Cites 'Jerome' (in fact Syagrius, Regulae definitionum): the Spirit is not the Father but unbegotten and unmade; not the Father because of and in the Father, with procession not nativity from him; not the Son because not begotten.",
+  "claims": [
+   "A patristic text calls the Spirit unbegotten and unmade."
+  ],
+  "concepts": [
+   "contrary authority",
+   "ingenitus"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d13c4",
+    "pll1d13c4-d1e3486"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:57:06Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d13c4-d1e3544": {
+  "summary": "Notes that this seems to contradict Augustine.",
+  "claims": [],
+  "concepts": [
+   "conflict of authorities"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d13c4",
+    "pll1d13c4-d1e3526",
+    "pll1d13c4-d1e3506"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:57:06Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d13c4-d1e3552": {
+  "summary": "Resolves it: Augustine takes 'unbegotten' as 'not from another,' said only of the Father; Jerome takes it as 'not begotten,' which can be said of the Spirit.",
+  "claims": [
+   "Augustine's 'ingenitus' means 'not from another.'",
+   "Jerome's 'ingenitus' means 'not begotten.'",
+   "In Jerome's sense the Spirit can be called unbegotten."
+  ],
+  "concepts": [
+   "equivocation",
+   "reconciliation of authorities"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d13c4",
+    "pll1d13c4-d1e3544"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:57:06Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d13c4-d1e3568": {
+  "summary": "Shows Jerome's sense from his division: everything is unbegotten, begotten, or made, with the subdivisions assigned to the Father (neither born nor made, from none), the Son (born, not made), the Spirit (neither born nor made, proceeding), insensible things (made, not born), man (made, born, reborn), and animals (made, born, not reborn). The division holds only if 'unbegotten' means 'not born.'",
+  "claims": [
+   "Jerome divides beings into unbegotten, begotten, and made.",
+   "In Jerome's division 'unbegotten' means 'not born.'",
+   "The Spirit is neither born nor made."
+  ],
+  "concepts": [
+   "division of beings",
+   "made, born, reborn",
+   "semantic analysis"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d13c4",
+    "pll1d13c4-d1e3552"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:57:06Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pl-l1d13c4": {
+  "summary": "Asks whether the Spirit, being not begotten, should be called unbegotten, and answers neither begotten nor unbegotten. Augustine: calling him unbegotten would suggest two fathers, and calling him begotten two sons; 'unbegotten,' used by disputants though not by Scripture, belongs to the Father alone as the one who is from no other. Jerome (actually Syagrius's Regulae) calls the Spirit unbegotten. Lombard reconciles them: Augustine takes 'unbegotten' as 'not from another,' true only of the Father, while Jerome takes it as 'not begotten,' true also of the Spirit, as Jerome's division of beings into unborn, born, and made shows.",
+  "claims": [
+   "The Holy Spirit should be called neither begotten nor unbegotten.",
+   "Calling the Spirit unbegotten would suggest two fathers; begotten, two sons.",
+   "'Unbegotten' properly belongs to the Father alone, as the one who is not from another.",
+   "Jerome calls the Spirit 'unbegotten' meaning merely 'not begotten.'",
+   "The apparent contradiction is resolved by the two senses of 'ingenitus.'"
+  ],
+  "concepts": [
+   "ingenitus",
+   "innascibility",
+   "equivocation",
+   "reconciliation of authorities",
+   "Father as unoriginate",
+   "division of beings"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d13c4-d1e3477",
+    "pll1d13c4-d1e3480",
+    "pll1d13c4-d1e3486",
+    "pll1d13c4-d1e3506",
+    "pll1d13c4-d1e3526",
+    "pll1d13c4-d1e3544",
+    "pll1d13c4-d1e3552",
+    "pll1d13c4-d1e3568"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T13:57:06Z",
+   "source_commit": "13a4d90"
+  }
+ }
+}

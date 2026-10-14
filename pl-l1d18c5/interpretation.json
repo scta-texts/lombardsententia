@@ -1,0 +1,107 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T14:01:40Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "13a4d90",
+  "generation_method": "hierarchical"
+ },
+ "pll1d18c5-d1e3477": {
+  "summary": "Asks whether the Son, since he is given to us, is or can be called ours.",
+  "claims": [],
+  "concepts": [
+   "possessive predication"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d18c5",
+    "pll1d18c4-d1e3512"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T14:01:40Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d18c5-d1e3480": {
+  "summary": "Answers that the Son is called our bread, our redeemer, and the like, but not our Son, since 'Son' is relative only to the begetter. Yet as given he is referred to giver and receivers, like the Spirit. Scripture says 'our spirit' or 'your spirit' but never 'our Holy Spirit,' because 'Holy Spirit' and 'Gift' are eternally relative to Father and Son. 'Our gift' takes 'gift' for 'given.' The Son is our bread because given to nourish us; the Spirit is our spirit because breathed into us by Father and Son.",
+  "claims": [
+   "The Son is not called our Son, since 'Son' relates only to the Father.",
+   "Scripture never says 'our Holy Spirit.'",
+   "'Holy Spirit' and 'Gift' are eternally relative to Father and Son.",
+   "The Son is our bread; the Spirit is our spirit."
+  ],
+  "concepts": [
+   "relative names",
+   "bread of life",
+   "inspiration"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d18c5",
+    "pll1d18c5-d1e3477"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T14:01:40Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d18c5-d1e3489": {
+  "summary": "Cites De Trinitate V: what is born of the Father is referred only to the Father when called Son, so the Son is the Father's and not ours as we say 'our spirit'; yet we say 'give us our bread.'",
+  "claims": [
+   "The Son as Son is referred only to the Father.",
+   "We nonetheless call him 'our bread.'"
+  ],
+  "concepts": [
+   "relative names",
+   "Lord's Prayer"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d18c5",
+    "pll1d18c5-d1e3480"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T14:01:40Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pl-l1d18c5": {
+  "summary": "Asks whether the Son, since he is given to us, can be called 'ours.' He is called our bread and our redeemer, but not our Son, since 'Son' is said relatively only to the one who begot him. Likewise Scripture says 'our spirit' or 'his spirit' (of Moses, Elijah) but never 'our Holy Spirit,' since 'Holy Spirit' and 'Gift' are eternally relative to Father and Son. If one says 'our gift,' gift is taken for 'given.' Augustine confirms: the Son is the Father's and not ours, though we say 'our bread.'",
+  "claims": [
+   "The Son is called our bread and our redeemer, but not our Son.",
+   "'Son' is said relatively only to the Father who begot him.",
+   "Scripture never says 'our Holy Spirit,' only 'our spirit.'",
+   "'Holy Spirit' and 'Gift' are eternally relative to Father and Son.",
+   "'Our gift' takes 'gift' in the sense of 'given.'"
+  ],
+  "concepts": [
+   "relative names",
+   "possessive predication",
+   "Son as given",
+   "donum vs datum"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d18c5-d1e3477",
+    "pll1d18c5-d1e3480",
+    "pll1d18c5-d1e3489"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T14:01:40Z",
+   "source_commit": "13a4d90"
+  }
+ }
+}

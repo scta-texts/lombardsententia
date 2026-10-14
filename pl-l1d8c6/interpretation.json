@@ -1,0 +1,86 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T13:49:38Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "13a4d90",
+  "generation_method": "hierarchical"
+ },
+ "pll1d8c6-d1e3477": {
+  "summary": "With De Trinitate V, shows the absence of accidents and mutability in God by negating the categories: good without quality, great without quantity, creator without need, presiding without position, containing without habit, everywhere without place, eternal without time, unchanging maker of changeable things, suffering nothing. Whoever thinks this way should at least avoid thinking of God what he is not.",
+  "claims": [
+   "God is good without quality and great without quantity.",
+   "God is everywhere without place and eternal without time.",
+   "God makes changeable things without changing and suffers nothing.",
+   "We should avoid attributing to God what he is not."
+  ],
+  "concepts": [
+   "negation of categories",
+   "immutability",
+   "apophatic theology"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d8c6",
+    "pll1d8c5-d1e3486"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:49:38Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d8c6-d1e3496": {
+  "summary": "Draws the conclusion: the categories of dialectic hardly fit the nature of God, which is subject to no accidents.",
+  "claims": [
+   "The dialectical categories do not apply to God's nature.",
+   "God's nature is subject to no accidents."
+  ],
+  "concepts": [
+   "categories",
+   "dialectic and theology"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d8c6",
+    "pll1d8c6-d1e3477"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:49:38Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pl-l1d8c6": {
+  "summary": "Confirms with De Trinitate V that the divine nature has no diversity of accidents and no mutability: God is good without quality, great without quantity, creator without need, presiding without position, containing without habit, everywhere without place, eternal without time, making changeable things without change. Concludes that the categories of dialectic do not properly fit God's nature, which is subject to no accidents.",
+  "claims": [
+   "God is good without quality, great without quantity, everywhere without place, eternal without time.",
+   "Even if we cannot find what God is, we should avoid thinking of him what he is not.",
+   "The Aristotelian categories do not properly apply to the divine nature."
+  ],
+  "concepts": [
+   "divine simplicity",
+   "categories",
+   "negative theology",
+   "accidents",
+   "apophatic caution"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d8c6-d1e3477",
+    "pll1d8c6-d1e3496"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T13:49:38Z",
+   "source_commit": "13a4d90"
+  }
+ }
+}

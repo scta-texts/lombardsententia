@@ -1,0 +1,252 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T14:01:40Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "13a4d90",
+  "generation_method": "hierarchical"
+ },
+ "pll1d18c2-d1e3475": {
+  "summary": "Asks whether 'gift' and 'given' apply to the Spirit by the same reason; it seems so, since being given and being gifted are the same.",
+  "claims": [],
+  "concepts": [
+   "donum vs datum"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d18c2",
+    "pl-l1d18c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T14:01:40Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d18c2-d1e3478": {
+  "summary": "Notes that Augustine seems to say this in De Trinitate XV: the Spirit is God's gift insofar as he is given, but God in himself even if given to no one. This seems to imply that he is called gift because he is given and so was not gift eternally.",
+  "claims": [],
+  "concepts": [
+   "objection",
+   "gift in time"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d18c2",
+    "pll1d18c2-d1e3475",
+    "pll1d15c1-d1e3485"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T14:01:40Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d18c2-d1e3498": {
+  "summary": "Answers that the Spirit is called both gift and given, but 'given' only because he is given, which is temporal, whereas 'gift' names a property he had eternally, since he proceeded from Father and Son, not because he was given.",
+  "claims": [
+   "'Given' is said of the Spirit only in time.",
+   "'Gift' is said of the Spirit eternally, because of his procession."
+  ],
+  "concepts": [
+   "eternal property",
+   "donum"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d18c2",
+    "pll1d18c2-d1e3478"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T14:01:40Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d18c2-d1e3501": {
+  "summary": "Cites De Trinitate IV: as for the Son being born is being from the Father, so for the Spirit being God's gift is proceeding from Father and Son. So the Son is from the Father by generation, the Spirit from both as their gift by procession; he is Spirit as he is gift, and gift as he is proceeding.",
+  "claims": [
+   "For the Spirit, being gift is proceeding from Father and Son.",
+   "The Son and Spirit are from the Father by different properties."
+  ],
+  "concepts": [
+   "personal properties",
+   "procession as gift"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d18c2",
+    "pll1d18c2-d1e3498"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T14:01:40Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d18c2-d1e3521": {
+  "summary": "Cites De Trinitate V: 'Holy Spirit,' said properly, is relative to Father and Son, though the relation does not appear in the name; it appears in 'gift of God,' since he is the gift of Father and Son by proceeding from both. So the property for 'Holy Spirit' and 'Gift' is procession, and since he proceeded eternally, he was gift before being given.",
+  "claims": [
+   "'Holy Spirit' is a relative name, though the relation is hidden in it.",
+   "The relation appears in the name 'Gift.'",
+   "The Spirit's property is procession.",
+   "The Spirit was gift before he was given."
+  ],
+  "concepts": [
+   "relative names",
+   "procession"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d18c2",
+    "pll1d18c2-d1e3501"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T14:01:40Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d18c2-d1e3542": {
+  "summary": "Cites De Trinitate V: the Spirit proceeds eternally, and since he proceeded as giftable, he was gift before there was anyone to give him to. 'Gift' can exist before being given; 'given' cannot. So he is eternally gift and temporally given, not because given by the Father to the Son, but because he eternally proceeded giftable.",
+  "claims": [
+   "The Spirit eternally proceeds as giftable.",
+   "A gift can exist before being given; 'given' requires actual giving.",
+   "The Spirit is eternally gift and temporally given."
+  ],
+  "concepts": [
+   "donabilis",
+   "eternal vs temporal"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d18c2",
+    "pll1d18c2-d1e3521"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T14:01:40Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d18c2-d1e3571": {
+  "summary": "Asks to whom the Spirit was giftable: to Father and Son, or only to us, who did not yet exist? If only to us, the Son too would seem to be eternally gift, since he proceeded eternally and was giftable to us in time ('a son is given to us,' Isa 9:6).",
+  "claims": [],
+  "concepts": [
+   "objection",
+   "Son as gift"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d18c2",
+    "pll1d18c2-d1e3542"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T14:01:40Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d18c2-d1e3583": {
+  "summary": "Answers that the Spirit proceeded giftable only to us, not to Father or Son, as he is given only to us. The Son was truly given to us and proceeded eternally, not only as giftable but as begotten, who could also be given. The Spirit proceeds not as begotten but only as gift; he was always gift because he proceeded from both and was giftable.",
+  "claims": [
+   "The Spirit proceeded giftable only to creatures.",
+   "The Son proceeded as begotten, though he could also be given.",
+   "The Spirit proceeds only as gift."
+  ],
+  "concepts": [
+   "mode of procession",
+   "Son vs Spirit"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d18c2",
+    "pll1d18c2-d1e3571"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T14:01:40Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d18c2-d1e3588": {
+  "summary": "Cites De Trinitate V: since God would give him, he was already gift before he was given. The Spirit is giftable differently from the Son, as he is given and proceeds differently; the Son's procession is generation, the Spirit's is not, and both are ineffable.",
+  "claims": [
+   "The Spirit was already gift before being given.",
+   "The Spirit is giftable differently than the Son.",
+   "The Son's procession is generation; the Spirit's is not.",
+   "Both processions are ineffable."
+  ],
+  "concepts": [
+   "generation vs procession",
+   "ineffability"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d18c2",
+    "pll1d18c2-d1e3583"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T14:01:40Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pl-l1d18c2": {
+  "summary": "Asks whether 'gift' (donum) and 'given' (datum/donatum) apply to the Spirit for the same reason. Augustine's 'gift insofar as given' suggests the Spirit is gift only in time. Lombard answers that 'given' applies only from his being given in time, while 'gift' names an eternal property: the Spirit was eternally gift because he proceeded from Father and Son. For the Spirit, being gift is proceeding from both, as for the Son being born is being from the Father; 'Holy Spirit' and 'Gift' express the same relation, which appears more clearly in 'gift.' He was eternally 'giftable' (donabilis), to us, not to Father or Son. The Son was also given to us, but proceeded as begotten, not as gift.",
+  "claims": [
+   "'Given' applies to the Spirit only temporally, because he is given in time.",
+   "'Gift' applies to the Spirit eternally, because he eternally proceeds from Father and Son.",
+   "For the Spirit, being gift is proceeding from Father and Son.",
+   "'Holy Spirit' and 'Gift' are relative names expressing the same relation.",
+   "The Spirit was eternally giftable, to us, not to the Father or the Son.",
+   "The Son was given to us but proceeded as begotten, not as gift."
+  ],
+  "concepts": [
+   "donum vs datum",
+   "eternal vs temporal predication",
+   "donabilis",
+   "personal property",
+   "procession",
+   "relative names"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d18c2-d1e3475",
+    "pll1d18c2-d1e3478",
+    "pll1d18c2-d1e3498",
+    "pll1d18c2-d1e3501",
+    "pll1d18c2-d1e3521",
+    "pll1d18c2-d1e3542",
+    "pll1d18c2-d1e3571",
+    "pll1d18c2-d1e3583",
+    "pll1d18c2-d1e3588"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T14:01:40Z",
+   "source_commit": "13a4d90"
+  }
+ }
+}

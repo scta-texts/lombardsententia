@@ -1,0 +1,422 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T14:00:33Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "13a4d90",
+  "generation_method": "hierarchical"
+ },
+ "pll1d17c6-d1e3477": {
+  "summary": "Recalls that the Spirit is the charity of Father and Son and also the charity poured into our hearts. All Catholics grant the first; many deny the second, arguing that it would make the charity by which God loves us the same as that by which we love him.",
+  "claims": [
+   "All Catholics grant that the Spirit is the charity of Father and Son.",
+   "Many deny that the Spirit is the charity by which we love God and neighbor."
+  ],
+  "concepts": [
+   "controversy",
+   "Lombard's thesis"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d17c6",
+    "pll1d17c1-d1e3480"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T14:00:33Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d17c6-d1e3480": {
+  "summary": "Gives the opponents' first authority, Augustine's De spiritu et littera: love is from the Spirit, as faith is; the charity poured in our hearts is not that by which God loves us but that by which he makes us lovers, as 'justice of God' is that by which he makes us just. This seems to distinguish God's charity from ours.",
+  "claims": [
+   "Augustine says the charity poured into us is that by which God makes us love.",
+   "This seems to distinguish God's love from ours."
+  ],
+  "concepts": [
+   "objection",
+   "genitive of cause",
+   "iustitia Dei"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d17c6",
+    "pll1d17c6-d1e3477"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T14:00:33Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d17c6-d1e3511": {
+  "summary": "Gives a second authority, De Trinitate XV: John speaks of God's love 'not by which we loved him, but by which he loved us.' The opponents conclude that if the Spirit were both, love would be twofold, indeed two different things, which is absurd; so the Spirit is only the love by which God loves us.",
+  "claims": [
+   "Augustine seems to distinguish the love by which we love God from that by which he loves us.",
+   "If the Spirit were both, love would be two things."
+  ],
+  "concepts": [
+   "objection"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d17c6",
+    "pll1d17c6-d1e3480"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T14:00:33Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d17c6-d1e3543": {
+  "summary": "Replies: these texts neither divide nor show a division of the charity by which God loves from that by which we love. Since it is one and the same charity, they show it called 'God's charity' for different reasons: because by it God loves us, or because by it he makes us lovers of him.",
+  "claims": [
+   "The charity by which God loves and by which we love is one.",
+   "It is called 'God's charity' for different reasons."
+  ],
+  "concepts": [
+   "reply",
+   "ratio of naming"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d17c6",
+    "pll1d17c6-d1e3480",
+    "pll1d17c6-d1e3511"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T14:00:33Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d17c6-d1e3546": {
+  "summary": "Applies the reply to Rom 5:5: the charity poured into our hearts is called God's not because God loves us by it there, but because he makes us lovers by it, as with 'justice of God,' 'salvation of the Lord,' and 'faith of Christ.'",
+  "claims": [
+   "In Rom 5:5 charity is called God's because he makes us love by it."
+  ],
+  "concepts": [
+   "genitive of efficient cause",
+   "Romans 5:5"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d17c6",
+    "pll1d17c6-d1e3543"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T14:00:33Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d17c6-d1e3562": {
+  "summary": "Likewise reads the second text as commemorating God's love insofar as he loves us by it, not insofar as we love him by it.",
+  "claims": [
+   "The text distinguishes aspects of one love, not two loves."
+  ],
+  "concepts": [
+   "reply"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d17c6",
+    "pll1d17c6-d1e3511"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T14:00:33Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d17c6-d1e3565": {
+  "summary": "Gives a stronger objection: Augustine said love is from the Spirit, as faith is. As faith is not the Spirit, neither is charity; and if charity were the Spirit and from the Spirit, the Spirit would be from himself.",
+  "claims": [
+   "If charity is from the Spirit and is the Spirit, the Spirit would be from himself."
+  ],
+  "concepts": [
+   "objection"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d17c6",
+    "pll1d17c6-d1e3480"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T14:00:33Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d17c6-d1e3571": {
+  "summary": "Replies: the Spirit is not from himself, but he gives himself to us, and in this sense charity is from him in us and yet is he. Faith is from the Spirit and is not the Spirit, since it is only a gift given, not the God who gives.",
+  "claims": [
+   "The Spirit is not from himself but gives himself.",
+   "Charity is from the Spirit by his self-giving and is the Spirit.",
+   "Faith is only a gift, not the God who gives."
+  ],
+  "concepts": [
+   "self-giving",
+   "faith as created gift"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d17c6",
+    "pll1d17c6-d1e3565",
+    "pl-l1d15c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T14:00:33Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d17c6-d1e3574": {
+  "summary": "Reports another argument: charity is an affection and motion of the mind, while the Spirit is unchangeable and uncreated, so charity is not the Spirit.",
+  "claims": [],
+  "concepts": [
+   "objection",
+   "affectio"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d17c6",
+    "pll1d17c6-d1e3477"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T14:00:33Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d17c6-d1e3578": {
+  "summary": "Supports it with De doctrina christiana III: charity is the motion of the soul toward enjoying God for his own sake and oneself and one's neighbor for God's sake.",
+  "claims": [
+   "Augustine defines charity as a motion of the soul toward enjoying God."
+  ],
+  "concepts": [
+   "definition of charity",
+   "frui"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d17c6",
+    "pll1d17c6-d1e3574"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T14:00:33Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d17c6-d1e3600": {
+  "summary": "Supports it with De moribus Ecclesiae: the charity of God in Rom 8:39 is the virtue, the most right affection of our soul, that joins us to God.",
+  "claims": [
+   "Augustine calls charity a virtue and right affection of the soul."
+  ],
+  "concepts": [
+   "virtue",
+   "affectio"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d17c6",
+    "pll1d17c6-d1e3578"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T14:00:33Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d17c6-d1e3633": {
+  "summary": "Replies that charity is called a motion or affection of the mind as God is called our hope and patience, because by it the mind is moved and affected to love God. Wisdom is likewise called 'mobile' and 'act,' not because it moves but because by its immobility it reaches everywhere. So charity is called a motion not because it is a motion, affection, or virtue of the soul, but because by it the mind is moved as if by a virtue.",
+  "claims": [
+   "Charity is called a motion of the mind because the mind is moved by it.",
+   "Wisdom is called mobile because it reaches everywhere while immobile.",
+   "Charity is not itself a created affection or virtue."
+  ],
+  "concepts": [
+   "causal predication",
+   "Wisdom 7:22",
+   "uncreated charity"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d17c6",
+    "pll1d17c6-d1e3578",
+    "pll1d17c6-d1e3600",
+    "pl-l1d17c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T14:00:33Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d17c6-d1e3658": {
+  "summary": "Raises a follow-up: if charity is the Spirit, who works in each as he wills and moves the mind to believe and hope as well as to love, why is charity not called the motion of the mind toward believing and hoping as toward loving?",
+  "claims": [],
+  "concepts": [
+   "objection"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d17c6",
+    "pll1d17c6-d1e3633"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T14:00:33Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d17c6-d1e3670": {
+  "summary": "Answers that charity, that is the Spirit, works the acts of other virtues through those virtues (believing through faith, hoping through hope), but works the act of loving by itself without a mediating virtue. So Scripture attributes this act specially to charity, and charity is the Holy Spirit.",
+  "claims": [
+   "The Spirit works acts of faith and hope through the virtues of faith and hope.",
+   "The Spirit works the act of love directly, without a mediating virtue.",
+   "Hence loving is specially attributed to charity, which is the Spirit."
+  ],
+  "concepts": [
+   "immediacy of love",
+   "virtues as media",
+   "act of charity"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d17c6",
+    "pll1d17c6-d1e3658"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T14:00:33Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d17c6-d1e3674": {
+  "summary": "Cites De moribus: if nothing separates us from God's charity, nothing could be better or more certain than this good. Since nothing is better than charity, charity is the Holy Spirit, God and gift, who divides gifts among the faithful without being divided himself.",
+  "claims": [
+   "Nothing is better than charity.",
+   "Charity is the Holy Spirit, God and gift.",
+   "The Spirit divides gifts but is given undivided."
+  ],
+  "concepts": [
+   "summum bonum",
+   "undivided Spirit",
+   "gifts"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d17c6",
+    "pll1d17c6-d1e3600"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T14:00:33Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d17c6-d1e3694": {
+  "summary": "Adds Augustine on John 3:34: to others the Spirit is divided, not the Spirit himself, but his gifts.",
+  "claims": [
+   "Not the Spirit himself but his gifts are divided among people."
+  ],
+  "concepts": [
+   "gifts of the Spirit",
+   "indivisibility"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d17c6",
+    "pll1d17c6-d1e3674"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T14:00:33Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pl-l1d17c6": {
+  "summary": "Defends the thesis, denied by many, that the Spirit who is the charity of Father and Son is also the charity by which we love God and neighbor. Objection 1: Augustine says the charity poured into our hearts is not that by which God loves us but that by which he makes us lovers, like 'the justice of God'; and he contrasts the love by which we love God with that by which God loves us. Lombard replies that these texts do not divide charity but show the reasons for calling one charity 'of God.' Objection 2: Augustine says love is from the Spirit, as faith is, so charity is not the Spirit; Lombard replies that the Spirit gives himself, while faith is only a given gift. Objection 3: charity is a motion and affection of the mind (De doctrina christiana; De moribus), and the Spirit is unchangeable; Lombard replies that charity is called a motion as God is called our hope, because by it the mind is moved, as Wisdom is called 'mobile.' Asked why charity, but not faith or hope, is called the motion to love, he answers that the Spirit produces the acts of faith and hope by means of those virtues, but the act of loving by himself without a mediating virtue. Augustine's 'nothing is better than charity' confirms that charity is God; he divides gifts among the faithful but is himself undivided.",
+  "claims": [
+   "The Holy Spirit is both the charity of Father and Son and the charity by which we love God and neighbor.",
+   "One and the same charity is called 'God's charity' for different reasons: by it God loves us, or by it he makes us love him.",
+   "Charity is from the Spirit because the Spirit gives himself; faith is from the Spirit but is only a gift.",
+   "Charity is called a motion of the mind because by it the mind is moved, not because it is a created motion.",
+   "The Spirit produces acts of faith and hope through the virtues of faith and hope, but the act of love directly, without a mediating virtue.",
+   "Nothing is better than charity, so charity is God.",
+   "The Spirit divides his gifts but is himself given undivided."
+  ],
+  "concepts": [
+   "caritas as Holy Spirit",
+   "created vs uncreated charity",
+   "Lombard's thesis",
+   "motus animi",
+   "virtues as means",
+   "act of love",
+   "immediacy of charity",
+   "reconciliation of authorities"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d17c6-d1e3477",
+    "pll1d17c6-d1e3480",
+    "pll1d17c6-d1e3511",
+    "pll1d17c6-d1e3543",
+    "pll1d17c6-d1e3546",
+    "pll1d17c6-d1e3562",
+    "pll1d17c6-d1e3565",
+    "pll1d17c6-d1e3571",
+    "pll1d17c6-d1e3574",
+    "pll1d17c6-d1e3578",
+    "pll1d17c6-d1e3600",
+    "pll1d17c6-d1e3633",
+    "pll1d17c6-d1e3658",
+    "pll1d17c6-d1e3670",
+    "pll1d17c6-d1e3674",
+    "pll1d17c6-d1e3694"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T14:00:33Z",
+   "source_commit": "13a4d90"
+  }
+ }
+}

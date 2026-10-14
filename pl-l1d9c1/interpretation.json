@@ -1,0 +1,79 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T13:51:12Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "13a4d90",
+  "generation_method": "hierarchical"
+ },
+ "pll1d9c1-d1e3477": {
+  "summary": "Announces the transition to the distinction of persons.",
+  "claims": [],
+  "concepts": [
+   "distinction of persons",
+   "transition"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d9c1",
+    "pl-l1d8c8"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:51:12Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d9c1-d1e3480": {
+  "summary": "Restates from the De fide ad Petrum that the three are naturally one God, none being the other; in the one essence the Father is not aliud from the Son and Spirit, though personally alius.",
+  "claims": [
+   "The three persons are naturally one God.",
+   "No person is another person.",
+   "The persons are personally other, but not other in essence."
+  ],
+  "concepts": [
+   "aliud vs alius",
+   "one essence"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d9c1",
+    "pll1d2c2-d1e3517"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:51:12Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pl-l1d9c1": {
+  "summary": "Turns to the distinction of persons and restates the rule of faith from the De fide ad Petrum: Father, Son, and Spirit are naturally one God, yet none is the other. In the one essence they are not another thing (aliud) but another person (alius).",
+  "claims": [
+   "Father, Son, and Holy Spirit are naturally one God.",
+   "None of the three persons is the other.",
+   "In the one essence the persons are other (alius) personally but not another thing (aliud)."
+  ],
+  "concepts": [
+   "distinction of persons",
+   "unity of essence",
+   "aliud vs alius"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d9c1-d1e3477",
+    "pll1d9c1-d1e3480"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T13:51:12Z",
+   "source_commit": "13a4d90"
+  }
+ }
+}

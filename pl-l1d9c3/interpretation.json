@@ -1,0 +1,89 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T13:51:12Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "13a4d90",
+  "generation_method": "hierarchical"
+ },
+ "pll1d9c3-d1e3477": {
+  "summary": "Quotes Ambrose's reply to the question how the Son does not have the Father as prior: the secret of generation is impossible to know. Mind and voice fail, even those of angels, since the generation is above all sense, as the peace of Christ is. One may know that he was born but not discuss how, for the generation is ineffable (Isa 53:8).",
+  "claims": [
+   "The secret of the generation cannot be known.",
+   "It surpasses angels and all understanding.",
+   "It is lawful to know that the Son was born, not to inquire how.",
+   "The generation is ineffable."
+  ],
+  "concepts": [
+   "ineffability",
+   "apophatic restraint",
+   "mystery"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d9c3",
+    "pll1d9c2-d1e3559"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:51:12Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d9c3-d1e3528": {
+  "summary": "Rejects those who, presuming on their wit, say the generation can be understood, appealing to Jerome on Ecclesiastes that 'who' often marks difficulty, not impossibility. Lombard says Jerome meant that something can be understood or said of it, not that any mortal can fully understand or explain it; some read the verse of Christ's temporal birth.",
+  "claims": [
+   "The eternal generation cannot be fully understood or explained by any mortal.",
+   "Something can nevertheless be understood or said about it.",
+   "Some interpret Isa 53:8 as referring to the temporal birth."
+  ],
+  "concepts": [
+   "presumption",
+   "limits of understanding",
+   "interpretation of authorities"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d9c3",
+    "pll1d9c3-d1e3477"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:51:12Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pl-l1d9c3": {
+  "summary": "Stresses the ineffability of eternal generation. Ambrose: the mind fails and the voice is silent, even of angels, before the secret of the generation, which is above every sense; one may know that he is born but not discuss how (Isa 53:8, 'who shall declare his generation?'). Against those who, relying on Jerome's remark that 'who' in Scripture often means 'difficult' rather than 'impossible,' claim the generation can be understood, Lombard says Jerome meant only that something can be understood or said of it, not that any mortal can fully grasp it; some apply the verse to the temporal birth.",
+  "claims": [
+   "The manner of the Son's eternal generation is beyond the understanding of humans and angels.",
+   "It is permitted to know that the Son is born, but not to investigate how.",
+   "The eternal generation is ineffable.",
+   "Jerome's remark means only that something can be understood or said about the generation, not that it can be fully understood."
+  ],
+  "concepts": [
+   "ineffability",
+   "eternal generation",
+   "limits of reason",
+   "theological reticence",
+   "exegesis of Isaiah 53:8"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d9c3-d1e3477",
+    "pll1d9c3-d1e3528"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T13:51:12Z",
+   "source_commit": "13a4d90"
+  }
+ }
+}

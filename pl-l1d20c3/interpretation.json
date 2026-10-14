@@ -1,0 +1,212 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T14:04:07Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "13a4d90",
+  "generation_method": "hierarchical"
+ },
+ "pll1d20c3-d1e3477": {
+  "summary": "Continues Augustine against Maximinus: you hold the Son powerful but the Father more powerful, as though the powerful begot the powerful but not the omnipotent the omnipotent. Then the Father has an omnipotence the Son lacks, and 'All that the Father has is mine' is false.",
+  "claims": [
+   "If the Father were more powerful, he would have an omnipotence the Son lacks.",
+   "That would falsify John 16:15."
+  ],
+  "concepts": [
+   "reductio",
+   "omnipotence"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d20c3",
+    "pll1d20c2-d1e3477"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T14:04:07Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d20c3-d1e3498": {
+  "summary": "Answers the objection that the Father received power from no one but the Son from the Father: granted, but in begetting the Father gave the Son power, as he gave him everything in his substance.",
+  "claims": [
+   "The Son received power from the Father.",
+   "In begetting, the Father gave the Son all that is in his substance."
+  ],
+  "concepts": [
+   "giving in generation"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d20c3",
+    "pll1d20c3-d1e3477"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T14:04:07Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d20c3-d1e3512": {
+  "summary": "Asks whether the Father gave as much power as he has or less. If as much, the Omnipotent begot the omnipotent; if less, not all the Father's is the Son's. Since all is the Son's, the Father's omnipotence is the Son's, and the Father is not more powerful.",
+  "claims": [
+   "The Father's omnipotence belongs to the Son.",
+   "The Father is not more powerful than the Son."
+  ],
+  "concepts": [
+   "dilemma"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d20c3",
+    "pll1d20c3-d1e3498"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T14:04:07Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d20c3-d1e3525": {
+  "summary": "Gives a second argument: if the Father begot a lesser Son, he either could not or would not beget an equal; if he could not, he is weak; if he would not, he is envious. Both are false, so the Son is equal, and the Spirit, proceeding from both, is equal to both. If the Father could beget his form fully in the Son but begot a lesser one, he would be envious; so he begot full God equal to himself.",
+  "claims": [
+   "If the Father begot a lesser Son, he would be either weak or envious.",
+   "The Father is neither, so the Son is equal.",
+   "The Holy Spirit is equal to Father and Son."
+  ],
+  "concepts": [
+   "dilemma",
+   "divine generosity",
+   "omnipotence"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d20c3",
+    "pll1d20c3-d1e3512"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T14:04:07Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d20c3-d1e3554": {
+  "summary": "Adds a human likeness: a human father would beget an equal son if he could, and even a greater and better one; nothing is greater than God, and God needed no years for the Son to reach equality and lacked no power. Not unwilling, since not envious, God begot an equal Son.",
+  "claims": [
+   "A human father would beget an equal or better son if he could.",
+   "God lacks neither power nor good will to beget an equal.",
+   "The Son is equal to the Father."
+  ],
+  "concepts": [
+   "human analogy",
+   "a fortiori argument"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d20c3",
+    "pll1d20c3-d1e3525"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T14:04:07Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d20c3-d1e3586": {
+  "summary": "Answers the claim that the Father is greater because, though unbegotten, he begot an equal: rather he is not greater because he begot an equal. Origin asks who is from whom; equality asks of what kind or how great. Begetting shows not unequal substance but an order of nature, not one prior to the other but one from the other. So equality or inequality is not found in generation or procession.",
+  "claims": [
+   "Origin and equality are distinct questions.",
+   "Generation shows an order of nature, not inequality of substance.",
+   "Being from another does not make a person unequal."
+  ],
+  "concepts": [
+   "origin vs equality",
+   "ordo naturae",
+   "equality"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d20c3",
+    "pll1d20c3-d1e3554"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T14:04:07Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d20c3-d1e3609": {
+  "summary": "Concludes that the equality and one substance of the Trinity have been shown: no person exceeds another in eternity, magnitude, or power.",
+  "claims": [
+   "No person exceeds another in eternity, magnitude, or power.",
+   "The Trinity is of one substance."
+  ],
+  "concepts": [
+   "conclusion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d20c3",
+    "pl-l1d19c1",
+    "pll1d20c3-d1e3586"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T14:04:07Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pl-l1d20c3": {
+  "summary": "Continues Augustine against Maximinus. If the Son is powerful but the Father more so, the Father has an omnipotence the Son lacks, contradicting John 16:15. The Son received power from the Father, who received it from no one, but in begetting the Father gave all that is in his substance. If the Father begot a lesser Son, he either could not (and is weak) or would not (and is envious), both false; a human father would beget an equal or even better son if he could. To the claim that the Father is greater because he is unbegotten, Augustine answers that origin (who is from whom) and equality (how great) are different questions: generation shows an order of nature, not inequality of substance. Lombard concludes that the equality of the persons in eternity, magnitude, and power has been shown.",
+  "claims": [
+   "If the Father had an omnipotence the Son lacked, not all the Father's would be the Son's.",
+   "The Son received power from the Father by birth; the Father received it from no one.",
+   "In begetting, the Father gave the Son all that is in his substance.",
+   "If the Father had begotten a lesser Son, he would be either powerless or envious.",
+   "Origin concerns who is from whom; equality concerns how great; they are distinct questions.",
+   "Generation implies an order of nature, not inequality of substance.",
+   "No person exceeds another in eternity, magnitude, or power."
+  ],
+  "concepts": [
+   "omnipotence",
+   "equality",
+   "anti-Arianism",
+   "origin vs equality",
+   "ordo naturae",
+   "dilemma argument",
+   "divine generosity"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d20c3-d1e3477",
+    "pll1d20c3-d1e3498",
+    "pll1d20c3-d1e3512",
+    "pll1d20c3-d1e3525",
+    "pll1d20c3-d1e3554",
+    "pll1d20c3-d1e3586",
+    "pll1d20c3-d1e3609"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T14:04:07Z",
+   "source_commit": "13a4d90"
+  }
+ }
+}

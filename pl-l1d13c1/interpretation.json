@@ -1,0 +1,78 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T13:57:06Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "13a4d90",
+  "generation_method": "hierarchical"
+ },
+ "pll1d13c1-d1e3477": {
+  "summary": "Raises, as far as we can understand it, why the Spirit, proceeding from the Father and of his substance, is not said to be born and is not called son.",
+  "claims": [],
+  "concepts": [
+   "procession vs generation",
+   "limits of understanding"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d13c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:57:06Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d13c1-d1e3480": {
+  "summary": "Answers with De Trinitate XV: if the Spirit were called son, he would be son of both, which is most absurd, since no one is son of two except of father and mother, and nothing of the sort may be suspected between Father and Son. So he is not begotten by both but proceeds from both.",
+  "claims": [
+   "A son of two would have to be of a father and mother.",
+   "The Spirit is not begotten by Father and Son.",
+   "The Spirit proceeds from both as Spirit of both."
+  ],
+  "concepts": [
+   "reductio ad absurdum",
+   "procession from both"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d13c1",
+    "pll1d13c1-d1e3477"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:57:06Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pl-l1d13c1": {
+  "summary": "Asks why the Spirit, though from the Father and of his substance, is said to proceed and not to be born, and why he is not called a son. With Augustine: if he were begotten he would be the son of both Father and Son, which is absurd, since a son of two can only be of a father and a mother. So he is not begotten by both but proceeds from both as the Spirit of both.",
+  "claims": [
+   "The Holy Spirit is from the Father's substance but is not born and not a son.",
+   "If the Spirit were begotten, he would be the son of both Father and Son, which is absurd.",
+   "The Spirit is not begotten by both but proceeds from both."
+  ],
+  "concepts": [
+   "procession vs generation",
+   "Holy Spirit not a son",
+   "reductio ad absurdum"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d13c1-d1e3477",
+    "pll1d13c1-d1e3480"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T13:57:06Z",
+   "source_commit": "13a4d90"
+  }
+ }
+}

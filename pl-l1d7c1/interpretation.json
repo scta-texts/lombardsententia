@@ -1,0 +1,254 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T13:48:21Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "13a4d90",
+  "generation_method": "hierarchical"
+ },
+ "pll1d7c1-d1e3476": {
+  "summary": "Raises the question whether the Father could, or willed to, beget the Son.",
+  "claims": [],
+  "concepts": [
+   "power and will to beget"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d7c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:48:21Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d7c1-d1e3479": {
+  "summary": "States the sophism behind the question: if the Father could and willed to beget, he could and willed something the Son could not, since the Son cannot beget a Son.",
+  "claims": [],
+  "concepts": [
+   "sophism",
+   "inequality of power"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d7c1",
+    "pll1d7c1-d1e3476"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:48:21Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d7c1-d1e3482": {
+  "summary": "Replies that being able or willing to beget is a power or will, but not a power or will over 'something' subject to them. The Son's generation is not among the things subject to divine power and will but above and before all; nor did the Father will or have power before begetting, since he begot from eternity.",
+  "claims": [
+   "Being able to beget the Son is not being able to do something subject to power.",
+   "The Son's generation is above and before all things.",
+   "The Father did not will or have power to beget before begetting; he begets eternally."
+  ],
+  "concepts": [
+   "power over objects",
+   "eternity of generation",
+   "distinction of senses"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d7c1",
+    "pll1d7c1-d1e3479"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:48:21Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d7c1-d1e3485": {
+  "summary": "Gives a parallel: the Father can and wills to be Father and the Son cannot, but it does not follow that the Father can be something the Son cannot, because being Father is not being something (to be shown in d. 28).",
+  "claims": [
+   "Being Father is not being 'something'.",
+   "The inference from personal property to unequal power fails."
+  ],
+  "concepts": [
+   "relational properties",
+   "parallel argument"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d7c1",
+    "pll1d7c1-d1e3482"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:48:21Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d7c1-d1e3500": {
+  "summary": "Lombard is troubled by Augustine's reply to Maximinus, who argued the Father is more powerful since he begot a creator-Son. Augustine says the Son 'was not unable but it was not fitting' to beget, since otherwise generation would be endless, each begotten needing to beget to be called omnipotent. The Father begot an omnipotent Son by nature.",
+  "claims": [
+   "The Father is not more powerful than the Son.",
+   "If each begotten had to beget to be omnipotent, generation would be infinite.",
+   "The Father begot an omnipotent Son by nature."
+  ],
+  "concepts": [
+   "Arian argument from power",
+   "omnipotence",
+   "infinite regress",
+   "non potuit sed non oportuit"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d7c1",
+    "pll1d7c1-d1e3479"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:48:21Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d7c1-d1e3537": {
+  "summary": "Notes that some think it untenable that the Son could beget.",
+  "claims": [],
+  "concepts": [
+   "objection"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d7c1",
+    "pll1d7c1-d1e3500"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:48:21Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d7c1-d1e3540": {
+  "summary": "Argument that the Son could not beget: he would have to be father of someone, but not of another (none always existed), not of the Father (unbegotten), not of himself (nothing begets itself), nor of the Spirit (who cannot be born without being mutable).",
+  "claims": [
+   "The Son could not be father of anyone.",
+   "The Father is unbegotten.",
+   "Nothing begets itself.",
+   "The Spirit cannot be born."
+  ],
+  "concepts": [
+   "exhaustive dilemma",
+   "innascibility",
+   "immutability"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d7c1",
+    "pll1d7c1-d1e3537"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:48:21Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d7c1-d1e3552": {
+  "summary": "Admits that it is not clear how Augustine's statement is true and that it would be better passed over in silence, except that questioners insist.",
+  "claims": [
+   "The meaning of Augustine's statement is not evident."
+  ],
+  "concepts": [
+   "theological reticence",
+   "difficult authority"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d7c1",
+    "pll1d7c1-d1e3500"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:48:21Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d7c1-d1e3555": {
+  "summary": "Offers a reading: 'not unable but not fitting' means the Son did not beget not because of impotence but because it did not befit him. Likewise the Son is not the Father and the Father not the Son without impotence; each is what he is by the property of generation or nativity, to be treated more fully later (d. 26).",
+  "claims": [
+   "The Son's not begetting is not from impotence but from what befits his person.",
+   "The Father is Father by the property of generation, the Son Son by the property of nativity.",
+   "Personal distinction implies no lack of power."
+  ],
+  "concepts": [
+   "personal properties",
+   "generation and nativity",
+   "impotence vs fittingness"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d7c1",
+    "pll1d7c1-d1e3552",
+    "pll1d7c1-d1e3540"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:48:21Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pl-l1d7c1": {
+  "summary": "Addresses the sophism that if the Father could and willed to beget the Son, he could and willed something the Son could not. Lombard answers that being able or willing to beget is not being able or willing 'something' subject to power, since generation is above all things, eternal, and not preceded by power or will; likewise being Father is not 'being something.' He then faces Augustine's troubling reply to Maximinus that the Son 'was not unable but it was not fitting' to beget, which seems to imply the Son could beget. Reluctantly, and only because questioners insist, he reads it as saying that the Son's not begetting comes not from impotence but from the personal property of nativity, as the Father's not being the Son comes from the property of generation.",
+  "claims": [
+   "Being able or willing to beget the Son is not being able or willing something subject to divine power or will.",
+   "The generation of the Son is above and before all things and is eternal.",
+   "Being Father is not being 'something'.",
+   "The Son could not beget, since he could be father of neither himself, the Father, the Spirit, nor another.",
+   "Augustine's 'not unable but not fitting' means the Son's not begetting comes from his personal property, not from impotence.",
+   "Father and Son are each what they are by personal property, not by lack of power."
+  ],
+  "concepts": [
+   "divine power",
+   "generation",
+   "sophism",
+   "personal property",
+   "notional acts",
+   "omnipotence and personal distinction",
+   "Arian argument from power"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d7c1-d1e3476",
+    "pll1d7c1-d1e3479",
+    "pll1d7c1-d1e3482",
+    "pll1d7c1-d1e3485",
+    "pll1d7c1-d1e3500",
+    "pll1d7c1-d1e3537",
+    "pll1d7c1-d1e3540",
+    "pll1d7c1-d1e3552",
+    "pll1d7c1-d1e3555"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T13:48:21Z",
+   "source_commit": "13a4d90"
+  }
+ }
+}

@@ -1,0 +1,89 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T13:51:12Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "13a4d90",
+  "generation_method": "hierarchical"
+ },
+ "pll1d10c3-d1e3477": {
+  "summary": "Notes that as the Spirit is specially called charity, the union of Father and Son, so he properly holds a name that in a way fits Father and Son in common.",
+  "claims": [
+   "The Holy Spirit is called charity as the union of Father and Son.",
+   "The Spirit properly bears a name common to Father and Son."
+  ],
+  "concepts": [
+   "proper name",
+   "union"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d10c3",
+    "pl-l1d10c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:51:12Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d10c3-d1e3480": {
+  "summary": "With De Trinitate XV: since the charity by which Father and Son love each other shows their communion, it fits that the Spirit common to both is properly called charity. Similarly, though Father and Son are spirit and holy, he is called Holy Spirit because the one common to both is properly called what both are in common. If only the Spirit were charity, then by Col 1:13 ('the Son of his charity') the Son would be the Spirit's Son, which is absurd; so the Spirit is not the only charity but is properly so called.",
+  "claims": [
+   "The Spirit common to both is fittingly called charity properly.",
+   "Father and Son are also spirit and holy.",
+   "What is common to both is properly the name of the one who is common to both.",
+   "The Holy Spirit is not the only charity in God, else the Son would be the Spirit's Son."
+  ],
+  "concepts": [
+   "proper naming",
+   "communio",
+   "reductio ad absurdum",
+   "Filius caritatis"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d10c3",
+    "pll1d10c3-d1e3477"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:51:12Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pl-l1d10c3": {
+  "summary": "Explains why the Spirit has as a proper name ('Holy Spirit') what is common to Father and Son. With De Trinitate XV, since charity shows the ineffable communion of both, it fits that the Spirit common to both is properly called charity, and likewise properly called 'spirit' and 'holy,' though Father and Son are also spirit and holy. But the Spirit is not the only charity in God, otherwise, given Col 1:13 ('Son of his charity'), the Son would be the Spirit's Son, which is absurd.",
+  "claims": [
+   "As the union of Father and Son, the Spirit is specially called charity.",
+   "The Spirit properly bears a name that fits Father and Son in common.",
+   "Father and Son are also spirit and holy, yet the third person is properly called Holy Spirit.",
+   "The Holy Spirit is not the only charity in the Trinity.",
+   "If he were, the Son would be the Spirit's Son, which is absurd."
+  ],
+  "concepts": [
+   "proper names of the Spirit",
+   "common and proper names",
+   "appropriation",
+   "Col 1:13",
+   "reductio ad absurdum"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d10c3-d1e3477",
+    "pll1d10c3-d1e3480"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T13:51:12Z",
+   "source_commit": "13a4d90"
+  }
+ }
+}

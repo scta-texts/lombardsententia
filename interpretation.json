@@ -1,320 +1,1108 @@
 {
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-09-30T23:58:48Z",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "interpretation-distinctio-v1",
+  "source_commit": "440a635",
+  "generation_method": "hierarchical",
+  "scope": "every structural ancestor above the item level, up to the whole work; partial where descendants lack interpretations (see each entry's _metadata.partial and coverage)"
+ },
+ "pl-l1d1": {
+  "summary": "Opening distinction of the Sentences, setting the framework for the whole work and for Book 1. Following Augustine's De doctrina christiana, all teaching concerns things or signs, so the work will treat things first and signs (the sacraments) last (c1). Things are divided into those to be enjoyed, those to be used, and those that enjoy and use; only the eternal, unchangeable Trinity is to be enjoyed and the world is to be used (c2). Lombard then resolves three difficulties by harmonizing Augustine with himself and with Ambrose: enjoyment in this life is real but imperfect; humans are to be loved for God's sake and not enjoyed, even oneself, and God 'uses' us for our good; and virtues, though loved for their own sake, are referred to beatitude, so we use them and through them enjoy God (c3). He closes by announcing the treatment of the Trinity.",
+  "claims": [
+   "Sacred doctrine is concerned with things and signs, and treats things first.",
+   "Things are to be enjoyed, to be used, or are those that enjoy and use.",
+   "Only the Trinity, the eternal and unchangeable supreme good, is to be enjoyed; the world is to be used.",
+   "We enjoy God imperfectly in this life and fully in the next.",
+   "Humans, including oneself, are to be loved for God's sake, not enjoyed.",
+   "God does not enjoy us but uses us for our benefit and his goodness.",
+   "Virtues are loved for their own sake and yet referred to beatitude; through them we enjoy God."
+  ],
+  "concepts": [
+   "res et signa",
+   "frui et uti",
+   "ordered love",
+   "beatitude",
+   "summum bonum",
+   "virtues",
+   "harmonization of authorities",
+   "plan of the Sentences"
+  ],
   "_metadata": {
-    "schema_version": "1.0",
-    "generated_at": "2026-09-30T23:58:48Z",
-    "model": "claude-sonnet-5-5",
-    "prompt_version": "interpretation-distinctio-v1",
-    "source_commit": "440a635",
-    "generation_method": "hierarchical",
-    "scope": "every structural ancestor above the item level, up to the whole work; partial where descendants lack interpretations (see each entry's _metadata.partial and coverage)"
-  },
-  "pl-l1d37": {
-    "summary": "Lombard's treatment of the ways God is in things, arising as a digression from the discussion of divine knowledge and whether things are 'in God'. He establishes that God is everywhere by essence, presence, and power, yet dwells only in the good by grace (c1-3), defends divine purity against contamination by things (c4), and then argues that God is neither local nor temporal and changes by neither place nor time (c5-9). To this end he distinguishes bodily locality (dimension plus place-definition) from created spirits' locality (place-definition only) and from God's complete non-locality, answering the objection that God's coming to be in new creatures implies change.",
-    "claims": [
-      "God is essentially, presentially, and potentially in all things without limitation or change.",
-      "God dwells by grace only in the good, and in Christ by the grace of union.",
-      "God's presence to things does not defile him (simplicity and purity).",
-      "God is neither circumscribed nor moved by place or time; created spirits are local in a qualified sense, bodies wholly so.",
-      "God's beginning to be in new creatures implies no change in God.",
-      "The mode of God's essential omnipresence exceeds human comprehension."
-    ],
-    "concepts": [
-      "divine omnipresence",
-      "presence, power, essence",
-      "indwelling by grace",
-      "divine simplicity and purity",
-      "divine immutability",
-      "locality and circumscription",
-      "created spirits and angels",
-      "limits of human knowledge"
-    ],
-    "_metadata": {
-      "level": "distinctio",
-      "generation_method": "descendant_summaries",
-      "input_ids": [
-        "pl-l1d37c1",
-        "pl-l1d37c2",
-        "pl-l1d37c3",
-        "pl-l1d37c4",
-        "pl-l1d37c5",
-        "pl-l1d37c6",
-        "pl-l1d37c7",
-        "pl-l1d37c8",
-        "pl-l1d37c9"
-      ],
-      "model": "claude-sonnet-5-5",
-      "prompt_version": "interpretation-distinctio-v1",
-      "generated_at": "2026-09-30T23:58:48Z",
-      "source_commit": "440a635",
-      "source_structure": "/scta-projectfiles/pl-projectdata.xml"
-    }
-  },
-  "pl-l2d44": {
-    "summary": "Lombard asks about the source of the power to sin and the duty of resistance to power. He argues against those who assign the power of evil to humans or the devil that all power, even power to do harm, comes from God, with culpability lying in the will and in proud misuse (c1); he then reconciles this with Romans 13 by holding that resistance to any power commanding against God is obedience to God's ordination (c2).",
-    "claims": [
-      "The power of sinning or harming is from God, though the will to do so is not.",
-      "Culpability lies in the abuse of power, not in power itself.",
-      "Romans 13 concerns lawful secular power; commands against God must be resisted.",
-      "Resisting a contra-divine command is obedience to the divine ordering."
-    ],
-    "concepts": [
-      "divine causality of power",
-      "power versus will",
-      "origin of evil",
-      "divine justice",
-      "resistance and obedience",
-      "hierarchy of authority"
-    ],
-    "_metadata": {
-      "level": "distinctio",
-      "generation_method": "descendant_summaries",
-      "input_ids": [
-        "pl-l2d44c1",
-        "pl-l2d44c2"
-      ],
-      "model": "claude-sonnet-5-5",
-      "prompt_version": "interpretation-distinctio-v1",
-      "generated_at": "2026-09-30T23:58:48Z",
-      "source_commit": "440a635",
-      "source_structure": "/scta-projectfiles/pl-projectdata.xml"
-    }
-  },
-  "pl-liber1": {
-    "summary": "Partial summary of Book 1 (on the Trinity and God), based only on Distinction 37. There Lombard treats how God is in things: essentially, presentially, and potentially in all things yet by grace only in the good, undefiled by creatures, and neither local nor temporal, as part of the doctrine of divine attributes and knowledge. The remaining distinctions of Book 1 have not yet been interpreted, so this entry does not represent the whole book.",
-    "claims": [
-      "God is omnipresent by essence, presence, and power without locality or change.",
-      "God's indwelling is by grace and differs from his universal presence."
-    ],
-    "concepts": [
-      "divine omnipresence",
-      "indwelling by grace",
-      "divine immutability",
-      "locality and circumscription"
-    ],
-    "_metadata": {
-      "level": "liber",
-      "generation_method": "descendant_summaries",
-      "input_ids": [
-        "pl-l1d37"
-      ],
-      "partial": true,
-      "coverage": "1 of 49 direct children have interpretations",
-      "model": "claude-sonnet-5-5",
-      "prompt_version": "interpretation-distinctio-v1",
-      "generated_at": "2026-10-01T00:05:42Z",
-      "source_commit": "440a635",
-      "source_structure": "/scta-projectfiles/pl-projectdata.xml"
-    }
-  },
-  "pl-liber2": {
-    "summary": "Partial summary of Book 2 (on creation and sin), based only on Distinction 44. There Lombard argues that all power, including the power to sin or harm, is from God while the guilt lies in the will's abuse of it, and that resisting a power that commands against God is obedience to God's ordering. The remaining distinctions of Book 2 have not yet been interpreted, so this entry does not represent the whole book.",
-    "claims": [
-      "The power to sin is from God; the evil lies in the will and its misuse.",
-      "Power commanding against God must be resisted, which is obedience to God."
-    ],
-    "concepts": [
-      "divine causality of power",
-      "power versus will",
-      "origin of evil",
-      "resistance and obedience"
-    ],
-    "_metadata": {
-      "level": "liber",
-      "generation_method": "descendant_summaries",
-      "input_ids": [
-        "pl-l2d44"
-      ],
-      "partial": true,
-      "coverage": "1 of 44 direct children have interpretations",
-      "model": "claude-sonnet-5-5",
-      "prompt_version": "interpretation-distinctio-v1",
-      "generated_at": "2026-10-01T00:05:42Z",
-      "source_commit": "440a635",
-      "source_structure": "/scta-projectfiles/pl-projectdata.xml"
-    }
-  },
-  "pl-l3d23": {
-    "summary": "Lombard opens the treatise on the theological virtues by asking whether Christ, full of grace, also had faith and hope, and answers by first giving a full account of faith. Faith is the virtue by which unseen things pertaining to religion are believed. 'Faith' is said in three ways: formed faith (a virtue, informed by charity), unformed faith (a real quality of mind and gift of God, but no virtue, which demons and bad Christians have), and the content believed. Using Augustine's triad, he separates believing God exists and believing God's word, which the wicked can do, from believing into God, which loves and adheres to him and justifies. When charity comes, the unformed quality probably remains and becomes a virtue. Faith is one in content for all but one only in kind as a habit. It properly concerns only the non-apparent, yet is seen intellectually by its possessor. Expounding Hebrews 11:1, faith is the substance and foundation of hoped-for goods and the proof of unseen things. The act of faith naturally precedes hope and charity, though charity, being the Holy Spirit and mother of the virtues, is the cause of faith as a virtue, not its effect. To believe is to think with assent.",
-    "claims": [
-      "Faith is the virtue by which unseen things pertaining to religion are believed.",
-      "Faith is said as formed virtue, as unformed quality, and as content believed.",
-      "Only believing into God, which includes love and adherence, justifies; believing that God exists or that his word is true is shared by the wicked.",
-      "Unformed faith is a real quality and gift of God which likely becomes a virtue when charity arrives.",
-      "Faith is numerically one as content, but one only by likeness as a habit.",
-      "Faith properly concerns only the non-apparent, though it is itself known intellectually by its possessor.",
-      "Faith is the foundation of all virtues and good works, but not of charity, which causes it.",
-      "The act of faith naturally, not temporally or causally, precedes the acts of hope and charity."
-    ],
-    "concepts": [
-      "fides formata",
-      "fides informis",
-      "fides qua / quae creditur",
-      "credere Deum / Deo / in Deum",
-      "non apparentia",
-      "substantia rerum sperandarum",
-      "fundamentum",
-      "caritas mater virtutum",
-      "natural priority of acts",
-      "unity of faith"
-    ],
-    "_metadata": {
-      "level": "distinctio",
-      "generation_method": "descendant_summaries",
-      "input_ids": [
-        "pl-l3d23c1",
-        "pl-l3d23c2",
-        "pl-l3d23c3",
-        "pl-l3d23c4",
-        "pl-l3d23c5",
-        "pl-l3d23c6",
-        "pl-l3d23c7",
-        "pl-l3d23c8",
-        "pl-l3d23c9"
-      ],
-      "model": "claude-opus-5-5",
-      "prompt_version": "interpretation-distinctio-v1",
-      "generated_at": "2026-10-08T19:15:07Z",
-      "source_commit": "6ae8779",
-      "source_structure": "/scta-projectfiles/pl-projectdata.xml"
-    }
-  },
-  "pl-l3d24": {
-    "summary": "Lombard defends and refines the thesis that faith concerns only what is unseen. Against John 14:29 he argues with Augustine that seen things only prompt belief in unseen things, as Thomas saw flesh and believed God; ordinary talk of believing one's eyes is improper, and the heavenly 'faith of things' is not faith but its reward. Peter's faith in the passion lay not in believing that a man suffered, which he saw, but that God suffered; the merit of faith lies in believing the God-man died. Finally, faith is not about the wholly unknown: it is not of objects of bodily sight but can concern what interior vision grasps. Some things must be understood to be believed, others believed to be understood; faith comes from hearing, purifies the heart, and increases understanding, so that what is believed is partly but not wholly unknown, as one can love what one does not fully know. Perfect knowledge of God awaits the next life.",
-    "claims": [
-      "Faith properly concerns only the unseen; visible things merely occasion belief in invisible ones.",
-      "The beatific 'faith of things' is not properly faith but its reward.",
-      "Faith in the passion consists in believing that the one who suffered is God.",
-      "Faith concerns objects of interior, not exterior, vision and is never about the wholly unknown.",
-      "Some truths must be understood before belief, others believed before understanding.",
-      "Faith purifies the heart and increases understanding, while perfect knowledge awaits the next life."
-    ],
-    "concepts": [
-      "non visa",
-      "fides verborum / fides rerum",
-      "fides passionis",
-      "God-man",
-      "visio interior / exterior",
-      "faith and understanding",
-      "fides ex auditu",
-      "purification of the heart",
-      "love of the unknown"
-    ],
-    "_metadata": {
-      "level": "distinctio",
-      "generation_method": "descendant_summaries",
-      "input_ids": [
-        "pl-l3d24c1",
-        "pl-l3d24c2",
-        "pl-l3d24c3"
-      ],
-      "model": "claude-opus-5-5",
-      "prompt_version": "interpretation-distinctio-v1",
-      "generated_at": "2026-10-08T19:15:07Z",
-      "source_commit": "6ae8779",
-      "source_structure": "/scta-projectfiles/pl-projectdata.xml"
-    }
-  },
-  "pl-l3d25": {
-    "summary": "Lombard turns to the sufficiency of faith for salvation across history. Faith has grown over time in knowledge and articles, and while Hebrews 11:6 (believing that God exists and rewards) is a necessary minimum, it never sufficed: from Adam's fall onward no one has been saved without faith in the Mediator, the ancients believing in future what we believe as past. Not everyone needed explicit knowledge: revelation was distinct for the greater (Abraham, Moses) and veiled for the simple, who believed implicitly by adhering to the greater, as less capable Christians now hold the Creed. Lombard reports, without deciding between them, opinions on the minimum the ancients had to believe about Christ (four articles, or the Son's birth and judgment given faith in the Trinity). He resolves the case of Cornelius, who believed in the incarnation without knowing it had occurred, with Peter sent to announce it and baptize. He closes by holding with Gregory that faith, hope, charity, and works are equal in intensity in this life, while charity is greater because it endures and mothers the virtues; it is said to 'proceed' from faith and hope only because it never exists without them.",
-    "claims": [
-      "Belief that God exists and rewards is necessary but never sufficient for salvation.",
-      "No one before or after Christ has been saved without faith in the Mediator.",
-      "The ancients and moderns share one faith differing only in tense.",
-      "Revelation may be distinct (explicit) or veiled (implicit); the simple are saved by implicit faith adhering to the greater.",
-      "Cornelius had faith in the incarnation without knowing it had been fulfilled.",
-      "Faith, hope, charity, and works are equal in intensity in this life, but charity is greater.",
-      "Charity does not arise from faith and hope but presupposes them."
-    ],
-    "concepts": [
-      "sufficiency of faith for salvation",
-      "fides Mediatoris",
-      "faith of the ancients",
-      "fides implicita / explicita",
-      "articuli fidei",
-      "Cornelius",
-      "equality of the virtues",
-      "preeminence of charity"
-    ],
-    "_metadata": {
-      "level": "distinctio",
-      "generation_method": "descendant_summaries",
-      "input_ids": [
-        "pl-l3d25c1",
-        "pl-l3d25c2",
-        "pl-l3d25c3",
-        "pl-l3d25c4",
-        "pl-l3d25c5"
-      ],
-      "model": "claude-opus-5-5",
-      "prompt_version": "interpretation-distinctio-v1",
-      "generated_at": "2026-10-08T19:15:07Z",
-      "source_commit": "6ae8779",
-      "source_structure": "/scta-projectfiles/pl-projectdata.xml"
-    }
-  },
-  "pl-liber3": {
-    "summary": "Partial summary of Book 3 (on the incarnation, the virtues, and the commandments), based only on Distinctions 23 to 25, the opening of the treatise on the theological virtues. There Lombard defines faith as the virtue by which unseen religious truths are believed; distinguishes formed from unformed faith and the act from the content of faith; separates believing God, believing God's word, and believing into God; treats faith as the foundation of the virtues while making charity its cause; argues that faith concerns only what is unseen yet is not about the wholly unknown, and that faith and understanding mutually advance; and holds that faith in the Mediator, explicit or implicit, has always been necessary for salvation. The prologue and the other 37 distinctions, including the Christology of Distinctions 1 to 22, have not yet been interpreted, so this entry does not represent the whole book.",
-    "claims": [
-      "Faith is the virtue of believing unseen religious truths, formed by charity into a virtue.",
-      "Charity is the cause and mother of the virtues, including faith.",
-      "Faith concerns the unseen but is never about the wholly unknown, and it advances understanding.",
-      "Faith in the Mediator, explicit or implicit, has always been necessary for salvation."
-    ],
-    "concepts": [
-      "fides formata / informis",
-      "credere in Deum",
-      "caritas mater virtutum",
-      "faith and understanding",
-      "fides Mediatoris",
-      "fides implicita"
-    ],
-    "_metadata": {
-      "level": "liber",
-      "generation_method": "descendant_summaries",
-      "input_ids": [
-        "pl-l3d23",
-        "pl-l3d24",
-        "pl-l3d25"
-      ],
-      "partial": true,
-      "coverage": "3 of 41 direct children have interpretations",
-      "model": "claude-opus-5-5",
-      "prompt_version": "interpretation-distinctio-v1",
-      "generated_at": "2026-10-08T19:15:07Z",
-      "source_commit": "6ae8779",
-      "source_structure": "/scta-projectfiles/pl-projectdata.xml"
-    }
-  },
-  "lombardsententia": {
-    "summary": "Very partial summary of Peter Lombard's Sentences, based only on Liber 1 (Distinction 37), Liber 2 (Distinction 44), and Liber 3 (Distinctions 23 to 25); Liber 4 has no interpretations yet. The interpreted portions show Lombard's method of assembling and harmonizing patristic and scriptural authorities, chiefly Augustine and Gregory, to resolve questions: God's non-local, immutable, grace-indwelling presence in creation (Book 1); God's sovereignty over all power together with the moral limits of obedience (Book 2); and the nature of faith, its relation to charity and understanding, and its necessity for salvation in every age (Book 3).",
-    "claims": [
-      "Lombard resolves questions by collating and harmonizing patristic and scriptural authorities, chiefly Augustine.",
-      "Divine causality of power and divine immutable presence are maintained alongside creaturely responsibility and distinction.",
-      "Faith formed by charity, whether explicit or implicit, is necessary for salvation, and charity is the mother of the virtues."
-    ],
-    "concepts": [
-      "divine omnipresence",
-      "divine causality of power",
-      "theological virtues",
-      "fides formata",
-      "patristic authority",
-      "harmonization of authorities"
-    ],
-    "_metadata": {
-      "level": "work",
-      "generation_method": "descendant_summaries",
-      "input_ids": [
-        "pl-liber1",
-        "pl-liber2",
-        "pl-liber3"
-      ],
-      "partial": true,
-      "coverage": "3 of 4 direct children have interpretations",
-      "model": "claude-opus-5-5",
-      "prompt_version": "interpretation-distinctio-v1",
-      "generated_at": "2026-10-08T19:15:07Z",
-      "source_commit": "6ae8779",
-      "source_structure": "/scta-projectfiles/pl-projectdata.xml"
-    }
+   "level": "distinctio",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l1d1c1",
+    "pl-l1d1c2",
+    "pl-l1d1c3"
+   ],
+   "partial": false,
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-distinctio-v1",
+   "generated_at": "2026-10-14T13:52:38Z",
+   "source_commit": "13a4d90",
+   "source_structure": "/scta-projectfiles/pl-projectdata.xml"
   }
+ },
+ "pl-l1d2": {
+  "summary": "Begins the treatise on the Trinity. Lombard states the faith that the Trinity is the one true God, of one substance, approached only by purified minds and with modesty, since error here is most dangerous (c1), and sets out the Catholic teaching of unity of essence and plurality of persons, other in person (alius) but not in thing (aliud) (c2). He adopts Augustine's method: first scriptural authority, then reasons and similitudes against contentious reasoners (c3). He then collects Old Testament testimonies to unity (the Shema, 'I am who am'), to plurality and unity together (Gen 1:26, Elohim, the Trisagion), to the Son's eternal generation, and to the Spirit, drawing from Hilary the principle that number words in God remove solitude rather than posit something (c4). New Testament testimonies follow (baptismal formula, John 10:30, Rom 11:36) before he turns to reasons (c5).",
+  "claims": [
+   "The Trinity is the one true God, of one substance or essence.",
+   "Inquiry into the Trinity requires modesty, purity of mind, and charitable correction.",
+   "There is unity of essence and plurality of persons; the persons are alius, not aliud.",
+   "The doctrine is to be shown first from Scripture, then defended by reasons and similitudes.",
+   "Both Testaments attest the unity of nature and the trinity of persons.",
+   "Numerical terms in God remove singularity and solitude rather than positing something.",
+   "Scripture attests the eternal generation of the Son and the divinity of the Holy Spirit."
+  ],
+  "concepts": [
+   "Trinity",
+   "unity of essence",
+   "plurality of persons",
+   "aliud vs alius",
+   "theological method",
+   "scriptural proof",
+   "negative sense of number",
+   "eternal generation"
+  ],
+  "_metadata": {
+   "level": "distinctio",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l1d2c1",
+    "pl-l1d2c2",
+    "pl-l1d2c3",
+    "pl-l1d2c4",
+    "pl-l1d2c5"
+   ],
+   "partial": false,
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-distinctio-v1",
+   "generated_at": "2026-10-14T13:52:38Z",
+   "source_commit": "13a4d90",
+   "source_structure": "/scta-projectfiles/pl-projectdata.xml"
+  }
+ },
+ "pl-l1d3": {
+  "summary": "Moves from authorities to reasons and likenesses for the Trinity. From Rom 1:20 and Augustine's account of the philosophers, God can be known from creatures as the unchangeable, simple principle of all, eternal, omnipotent, wise, and good, and creatures bear a vestige of the Trinity in unity, form, and order; yet without revelation the Trinity cannot be sufficiently known (c1). The image of the Trinity is found in the mind: memory, understanding, and will are one life, mind, and essence, three by relation, mutually comprehending and equal. Lombard explains that they are 'one substance' in that they exist substantially in the soul, not as accidents (c2). He insists on the great unlikeness within the likeness: a man has these three but is not them and is one person, whereas God is three persons. He gives a second triad, mind, knowledge, and love, as parent, offspring, and proceeding love, and shows the mind ascending to one God with begotten wisdom and love (c3). The distinction ends by restating the faith: one nature, three related persons, the Father begetting, the Son born, the Spirit proceeding from both (c4).",
+  "claims": [
+   "God's existence and attributes are knowable from creatures.",
+   "Creatures bear a vestige of the Trinity in unity, species, and order.",
+   "Sufficient knowledge of the Trinity requires revelation.",
+   "The human mind is an image of the Trinity in memory, understanding, and will, and in mind, knowledge, and love.",
+   "The mind is God's image chiefly because it can know and love God.",
+   "The image is marked by great unlikeness as well as likeness.",
+   "There is one divine nature and three persons, distinguished by begetting, being born, and proceeding."
+  ],
+  "concepts": [
+   "natural knowledge of God",
+   "vestigium Trinitatis",
+   "imago Trinitatis",
+   "psychological analogy",
+   "memoria, intelligentia, voluntas",
+   "mens, notitia, amor",
+   "similitude and dissimilitude",
+   "limits of reason",
+   "personal properties"
+  ],
+  "_metadata": {
+   "level": "distinctio",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l1d3c1",
+    "pl-l1d3c2",
+    "pl-l1d3c3",
+    "pl-l1d3c4"
+   ],
+   "partial": false,
+   "note": "EDF lists pl-l1d3c1 twice and omits pl-l1d3c2; pl-l1d3c2 is used here as the evident second child",
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-distinctio-v1",
+   "generated_at": "2026-10-14T13:52:38Z",
+   "source_commit": "13a4d90",
+   "source_structure": "/scta-projectfiles/pl-projectdata.xml"
+  }
+ },
+ "pl-l1d4": {
+  "summary": "Treats the logic of 'God begot God.' Lombard grants that God the Father begot God the Son ('God from God') but denies both that God begot himself (nothing begets itself) and that he begot another God (God is one). He disarms the dilemma 'he begot a God who is or is not God the Father' by distinguishing personal from essential readings (c1). Against those who allow 'the three persons are one God' but not the converse, he shows from Augustine that the predication runs both ways: one God is the Trinity. He reads Augustine's 'begot another himself' as another person, not another thing (c2).",
+  "claims": [
+   "'God begot God' is true, since God the Father begot God the Son.",
+   "God neither begot himself nor another God.",
+   "The Son is God who is not the Father, yet not a God other than the God the Father is.",
+   "The three persons are one God, and one God is the three persons.",
+   "Father and Son are other persons (alius) but not other things (aliud)."
+  ],
+  "concepts": [
+   "generation",
+   "Deus genuit Deum",
+   "self-generation",
+   "distinction of senses",
+   "convertible predication of essence and person",
+   "aliud vs alius"
+  ],
+  "_metadata": {
+   "level": "distinctio",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l1d4c1",
+    "pl-l1d4c2"
+   ],
+   "partial": false,
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-distinctio-v1",
+   "generated_at": "2026-10-14T13:52:38Z",
+   "source_commit": "13a4d90",
+   "source_structure": "/scta-projectfiles/pl-projectdata.xml"
+  }
+ },
+ "pl-l1d5": {
+  "summary": "Asks whether the Father begot the divine essence, the essence begot the Son, or essence begot essence, and denies all three. Generation would make the essence relative, something would beget itself, and, on Augustine's argument from wisdom, the begotten would cause the begetter's being, since in God to be is to be wise. Lombard then works through many seemingly contrary authorities: Augustine's 'begot what he is,' 'wisdom from wisdom, essence from essence'; Hilary's language of nature begotten and begetting; and Augustine against Maximinus that the Son is 'of the Father's substance.' Admitting he would rather hear than teach, he reads them personally: the Son, who is the same essence, is from the Father, who is that essence (c1). So the Son and Spirit are not from nothing or from matter, and formulas such as 'God from God, light from light, essence from essence' mean consubstantial and not the same person (c2). Hence only the only-begotten is Son by nature (c3).",
+  "claims": [
+   "The Father did not beget the divine essence, the essence did not beget the Son, and essence did not beget essence.",
+   "What is said relatively does not signify substance.",
+   "In God's simplicity, to be and to be wise are the same.",
+   "Formulas like 'begot what he is,' 'substance from substance,' and 'of the Father's substance' are to be read personally: the Son, who is the same essence, is from the Father.",
+   "The Son and Spirit are neither from nothing nor from matter.",
+   "One says three persons 'of one essence,' not 'from' it.",
+   "Only the only-begotten is Son by nature."
+  ],
+  "concepts": [
+   "generation of the essence",
+   "relative vs absolute predication",
+   "divine simplicity",
+   "interpretation of authorities",
+   "de substantia Patris",
+   "consubstantiality",
+   "natural sonship",
+   "theological reticence"
+  ],
+  "_metadata": {
+   "level": "distinctio",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l1d5c1",
+    "pl-l1d5c2",
+    "pl-l1d5c3"
+   ],
+   "partial": false,
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-distinctio-v1",
+   "generated_at": "2026-10-14T13:52:38Z",
+   "source_commit": "13a4d90",
+   "source_structure": "/scta-projectfiles/pl-projectdata.xml"
+  }
+ },
+ "pl-l1d6": {
+  "summary": "Asks whether the Father begot the Son by will or by necessity. With Augustine and Orosius: neither, for there is no necessity in God and will cannot precede wisdom. Against Eunomius's 'Son of will,' which implies a new will in a changeable God, the Son is Son by nature, as the Catholic retort ('Is the Father God willingly?') shows. To the objection that will and nature are identical, Lombard replies that identical attributes need not share all predicates, since God knows evil but wills only good. He concludes that the Father begot not by an antecedent will but willingly, as he begot wisely, and Hilary anathematizes both compulsion and generation against the Father's will (c1).",
+  "claims": [
+   "The Father did not beget by antecedent will or by necessity.",
+   "The Son is Son by nature, not by will.",
+   "Positing a will that accrues to God makes God mutable.",
+   "Identical divine attributes are not interchangeable in all predications.",
+   "God's knowledge covers good and evil, his will only good.",
+   "The Father begot the Son willingly, as he begot wisely and powerfully, without a preceding will."
+  ],
+  "concepts": [
+   "generation and will",
+   "necessity",
+   "Eunomianism",
+   "divine immutability",
+   "identity of attributes",
+   "foreknowledge and predestination",
+   "concomitant will"
+  ],
+  "_metadata": {
+   "level": "distinctio",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l1d6c1"
+   ],
+   "partial": false,
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-distinctio-v1",
+   "generated_at": "2026-10-14T13:52:38Z",
+   "source_commit": "13a4d90",
+   "source_structure": "/scta-projectfiles/pl-projectdata.xml"
+  }
+ },
+ "pl-l1d7": {
+  "summary": "Addresses arguments that power and will to beget would make the Father greater than the Son. Being able or willing to beget is not being able or willing 'something' subject to divine power, since the generation is eternal and above all things, and being Father is not being 'something' (c1). Lombard reluctantly takes up Augustine's reply to Maximinus that the Son 'was not unable but it was not fitting' to beget, reading it as saying that the Son's not begetting comes not from impotence but from his personal property of nativity. Then (c2) he holds that the Father is powerful only by nature, his power being his essence. The Son has the very same power by which the Father begets and the Son is begotten; Father and Son differ in property or notion, not in power or will.",
+  "claims": [
+   "Being able to beget the Son is not being able to do something subject to power.",
+   "The Son's generation is eternal and above all things.",
+   "The Son's not begetting arises from his personal property, not from impotence.",
+   "God's power is his essence.",
+   "Father and Son have one and the same power and will.",
+   "Father and Son differ by properties or notions, not by power."
+  ],
+  "concepts": [
+   "divine power",
+   "potentia generandi",
+   "personal properties",
+   "notions",
+   "omnipotence and personal distinction",
+   "Arian argument from power",
+   "one will"
+  ],
+  "_metadata": {
+   "level": "distinctio",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l1d7c1",
+    "pl-l1d7c2"
+   ],
+   "partial": false,
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-distinctio-v1",
+   "generated_at": "2026-10-14T13:52:38Z",
+   "source_commit": "13a4d90",
+   "source_structure": "/scta-projectfiles/pl-projectdata.xml"
+  }
+ },
+ "pl-l1d8": {
+  "summary": "Treats the truth, immutability, and simplicity of the divine essence. God is essence, named from 'to be' ('I am who am'), and alone properly is, without past or future. Verbs of every tense may be said of him, but they signify his simple existence without temporal motion (c1). God alone is properly unchangeable, receiving no accidents, so he alone 'has immortality'; every change is a kind of death, and creaturely impeccability comes by grace (c2). God alone is truly simple: bodies have parts and separable accidents, and the soul, though whole in every part, has varied qualities and is changeable (c3–4). God's many names signify one thing, since in him being is being wise or just (c5); the categories do not fit him, since he is good without quality and great without quantity (c6); and he is called 'substance' only loosely, since he underlies no accidents, while 'essence' is proper (c7). In God the haver and what is had are the same, yet this simplicity admits a Trinity of persons, distinguished only by what is said relatively (c8).",
+  "claims": [
+   "God alone is properly essence or being, without past or future.",
+   "Tensed verbs predicated of God signify simple existence, not temporal motion.",
+   "God alone is properly immutable, and true immortality is immutability.",
+   "Every change in creatures is a kind of death; creaturely impeccability is by grace.",
+   "No creature is truly simple; God is supremely simple.",
+   "God's many names signify one divine nature; in God to be is to be wise, just, good.",
+   "The categories do not properly apply to God, who is subject to no accidents.",
+   "God is called substance improperly and essence properly.",
+   "In God the haver is what is had, except for the relative distinctions among persons."
+  ],
+  "concepts": [
+   "essentia",
+   "divine eternity",
+   "immutability",
+   "immortality",
+   "divine simplicity",
+   "divine names",
+   "categories",
+   "substance vs essence",
+   "simplicity and Trinity",
+   "relations"
+  ],
+  "_metadata": {
+   "level": "distinctio",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l1d8c1",
+    "pl-l1d8c2",
+    "pl-l1d8c3",
+    "pl-l1d8c4",
+    "pl-l1d8c5",
+    "pl-l1d8c6",
+    "pl-l1d8c7",
+    "pl-l1d8c8"
+   ],
+   "partial": false,
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-distinctio-v1",
+   "generated_at": "2026-10-14T13:52:38Z",
+   "source_commit": "13a4d90",
+   "source_structure": "/scta-projectfiles/pl-projectdata.xml"
+  }
+ },
+ "pl-l1d9": {
+  "summary": "Turns to the distinction of persons, beginning with the Son's relation to the Father. The three are one God yet personally other (c1). The Son, though begotten, is coeternal: against the Arian 'if born, then there was when he was not,' Augustine argues from brightness and fire and from the Son as God's eternal wisdom, and Ambrose from the correlation of Father and Son and from divine immutability (c2). The manner of the generation is ineffable; we may know that he is born but not how (c3). On whether to say the Son 'is always being born' or 'is always born,' Lombard reconciles Gregory, Augustine, and Origen: 'always born' is more fitting, but 'always being born' is true of an eternal, not repeated, nativity. The Son is coeternal with the Father, his author, and with Hilary there is no interval between generation and nativity (c4). Against the objection that what is born was not always, the eternal Father always has the Son, a truth held by faith beyond reason (c5).",
+  "claims": [
+   "The three persons are one God, yet personally distinct.",
+   "The Son is begotten and coeternal with the Father.",
+   "Since the Son is God's wisdom and God was never without wisdom, the Son is eternal.",
+   "Father and Son are correlatives, so the Father was always Father.",
+   "The manner of eternal generation is ineffable and not to be scrutinized.",
+   "'Always born' is the most fitting expression; 'always being born' is true of eternal nativity.",
+   "The Father is eternal without author; the Son is coeternal with his author."
+  ],
+  "concepts": [
+   "distinction of persons",
+   "coeternity",
+   "eternal generation",
+   "anti-Arianism",
+   "ineffability",
+   "tense and eternity",
+   "Father as auctor",
+   "reconciliation of authorities",
+   "faith beyond reason"
+  ],
+  "_metadata": {
+   "level": "distinctio",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l1d9c1",
+    "pl-l1d9c2",
+    "pl-l1d9c3",
+    "pl-l1d9c4",
+    "pl-l1d9c5"
+   ],
+   "partial": false,
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-distinctio-v1",
+   "generated_at": "2026-10-14T13:52:38Z",
+   "source_commit": "13a4d90",
+   "source_structure": "/scta-projectfiles/pl-projectdata.xml"
+  }
+ },
+ "pl-l1d10": {
+  "summary": "Begins the treatment of the Holy Spirit as the love of the Father and Son. With Augustine, charity, like wisdom, is said of each person and of the whole Trinity as one, yet is properly said of the Spirit, as wisdom is of the Son. So 'charity' sometimes names the common substance and sometimes the Spirit (c1). By the general rule that terms have common and proper uses, and by Augustine's exegesis of 1 John 4 (the love that is God from God, by which we abide in God), the Spirit is the love by which Father and Son love each other: the bond, communion, and charity, consubstantial and coeternal. Whether the Spirit is also the charity by which we love God is deferred to d. 17 (c2). The Spirit properly bears the names common to Father and Son ('spirit,' 'holy,' 'charity') as their communion, but he is not the only charity in God, otherwise the Son would be 'Son of the Spirit' (c3).",
+  "claims": [
+   "The Holy Spirit is the love or charity of the Father and the Son.",
+   "Charity is said of each person and the whole Trinity, but properly of the Spirit.",
+   "Many terms have both general and proper uses in Trinitarian theology.",
+   "The Spirit is the bond and communion by which Father and Son love each other.",
+   "The love that is God from God in 1 John 4 is the Holy Spirit.",
+   "The Spirit properly bears names common to Father and Son.",
+   "The Spirit is not the only charity in God."
+  ],
+  "concepts": [
+   "Holy Spirit as love",
+   "caritas",
+   "mutual love",
+   "vinculum",
+   "communio",
+   "appropriation",
+   "essential vs personal names",
+   "1 John 4"
+  ],
+  "_metadata": {
+   "level": "distinctio",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l1d10c1",
+    "pl-l1d10c2",
+    "pl-l1d10c3"
+   ],
+   "partial": false,
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-distinctio-v1",
+   "generated_at": "2026-10-14T13:52:38Z",
+   "source_commit": "13a4d90",
+   "source_structure": "/scta-projectfiles/pl-projectdata.xml"
+  }
+ },
+ "pl-l1d11": {
+  "summary": "Defends the procession of the Holy Spirit from both Father and Son against the Greeks. Scripture calls the Spirit the Spirit of the Father and of the Son and says both send him. The Greeks object that Christ names only the Father (John 15:26) and that the conciliar creeds, including the one Leo III inscribed in silver, forbid teaching 'otherwise' and lack the Filioque. Lombard replies that 'otherwise' means 'contrary,' not 'in addition,' and that Christ did not say 'from the Father alone' (c1). The Greeks agree in substance, since they confess the Spirit to be the Son's, which is the same as being from him, and Greek doctors such as Athanasius, Didymus, Cyril, and Chrysostom teach procession from the Son (c2).",
+  "claims": [
+   "The Holy Spirit proceeds from the Father and the Son.",
+   "Scripture calls the Spirit the Spirit of both and says both send him.",
+   "The creedal anathema forbids contrary teaching, not addition.",
+   "Christ's 'proceeds from the Father' does not exclude the Son.",
+   "The Greeks agree in meaning, though not in words, since being the Spirit of the Son is being from the Son.",
+   "Greek fathers themselves taught procession from the Son."
+  ],
+  "concepts": [
+   "Filioque",
+   "procession of the Holy Spirit",
+   "Greek objection",
+   "conciliar anathemas",
+   "addition vs contradiction",
+   "Greek fathers",
+   "verbal vs real disagreement"
+  ],
+  "_metadata": {
+   "level": "distinctio",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l1d11c1",
+    "pl-l1d11c2"
+   ],
+   "partial": false,
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-distinctio-v1",
+   "generated_at": "2026-10-14T14:05:12Z",
+   "source_commit": "13a4d90",
+   "source_structure": "/scta-projectfiles/pl-projectdata.xml"
+  }
+ },
+ "pl-l1d12": {
+  "summary": "Answers two questions about the order of procession. Did the Spirit proceed from the Father before the Son? With Augustine, there are no intervals of time in the Trinity, so the procession is as timeless as the generation (c1). Does he proceed more fully from the Father? No. Augustine's 'principally' and Jerome's 'properly' from the Father mean that the Father has from himself, and the Son from the Father, that the Spirit proceeds from them. Hilary's 'from the Father through the Son' marks the Father's authority, not the Son's inferiority. This is why Christ named only the Father: as the Father timelessly gave the Son life in himself, he gave him to be the source of the Spirit (c2).",
+  "claims": [
+   "The Spirit does not proceed from the Father before the Son; there is no time in the Trinity.",
+   "The Spirit does not proceed more fully from the Father than from the Son.",
+   "'Principally' and 'properly from the Father' mean that the Father has from himself what the Son has from the Father.",
+   "The Son received in his generation that the Spirit proceeds from him.",
+   "'Through the Son' expresses the Father's authority, not inferiority of the Son."
+  ],
+  "concepts": [
+   "procession",
+   "eternity",
+   "principaliter",
+   "auctoritas of the Father",
+   "per Filium",
+   "Filioque"
+  ],
+  "_metadata": {
+   "level": "distinctio",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l1d12c1",
+    "pl-l1d12c2"
+   ],
+   "partial": false,
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-distinctio-v1",
+   "generated_at": "2026-10-14T14:05:12Z",
+   "source_commit": "13a4d90",
+   "source_structure": "/scta-projectfiles/pl-projectdata.xml"
+  }
+ },
+ "pl-l1d13": {
+  "summary": "Asks why the Spirit, who is from the Father, is not born or a son. If begotten by both he would be son of both, which is absurd (c1). Son and Spirit both proceed from the Father, but the Son by being born and the Spirit as given, as Gift; so the Spirit is neither a natural nor an adopted son (c2). With Augustine, we cannot in this life distinguish generation from procession: all that is born proceeds but not all that proceeds is born, and the procession, like the generation, is ineffable (c3). The Spirit should be called neither begotten nor unbegotten, since 'unbegotten' (not from another) belongs only to the Father; Jerome's calling the Spirit 'unbegotten' means only 'not begotten,' as his division of beings shows (c4).",
+  "claims": [
+   "The Holy Spirit is not born and is not a son.",
+   "If the Spirit were begotten of both, he would be son of both, which is absurd.",
+   "The Son proceeds by birth, the Spirit as gift.",
+   "Generation and procession cannot be distinguished by us in this life; both are ineffable.",
+   "The Spirit is neither begotten nor unbegotten.",
+   "'Unbegotten' in the proper sense belongs to the Father alone."
+  ],
+  "concepts": [
+   "generation vs procession",
+   "Holy Spirit not a son",
+   "Spirit as Gift",
+   "ineffability",
+   "ingenitus",
+   "equivocation",
+   "reconciliation of authorities"
+  ],
+  "_metadata": {
+   "level": "distinctio",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l1d13c1",
+    "pl-l1d13c2",
+    "pl-l1d13c3",
+    "pl-l1d13c4"
+   ],
+   "partial": false,
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-distinctio-v1",
+   "generated_at": "2026-10-14T14:05:12Z",
+   "source_commit": "13a4d90",
+   "source_structure": "/scta-projectfiles/pl-projectdata.xml"
+  }
+ },
+ "pl-l1d14": {
+  "summary": "Distinguishes the Spirit's eternal procession from his temporal procession, his mission or giving to sanctify creatures. In both he proceeds jointly from Father and Son. Bede identifies the temporal procession with the giving of grace, and Augustine sees it in Christ's breathing on the disciples and in the two givings, on earth for love of neighbor and from heaven for love of God (c1). Against those who say only the Spirit's gifts are given, Lombard holds with Augustine and Ambrose that the Spirit himself, God, is given and poured into minds: only God gives God, and the Spirit, undivided and present to many at once, gives a gift equal to himself without being lessened by being sent (c2). Holy men, even apostles, do not and cannot give the Spirit: they pray for him, Christ gave him as God, and Paul 'gave' him only as minister of preaching (c3).",
+  "claims": [
+   "The Spirit has an eternal and a temporal procession, both from Father and Son jointly.",
+   "The temporal procession is the giving or mission of the Spirit to sanctify creatures.",
+   "The Spirit himself, not only his gifts, is given to humans.",
+   "Being sent or given does not make the Spirit lesser.",
+   "No human, however holy, can give the Spirit; ministers only pray and preach."
+  ],
+  "concepts": [
+   "eternal vs temporal procession",
+   "mission",
+   "giving of the Spirit himself",
+   "uncreated gift",
+   "ministry vs authority",
+   "laying on of hands"
+  ],
+  "_metadata": {
+   "level": "distinctio",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l1d14c1",
+    "pl-l1d14c2",
+    "pl-l1d14c3"
+   ],
+   "partial": false,
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-distinctio-v1",
+   "generated_at": "2026-10-14T14:05:12Z",
+   "source_commit": "13a4d90",
+   "source_structure": "/scta-projectfiles/pl-projectdata.xml"
+  }
+ },
+ "pl-l1d15": {
+  "summary": "Treats the missions. The Spirit gives himself as God and is given as Gift, so, since giving is a common work of the three, he is sent and proceeds temporally also from himself. Son and Spirit are sent where they already were (c1). The Son's mission is the incarnation, his being made of a woman, done by Father, Spirit, and the Son himself as an inseparable work, without change of place or of the Word (c2–4). 'I have not come of myself' is said of his humanity (c5). Besides the eternal generation, better called begetting, the Son is sent in two ways: once, visibly, to be man, and often, invisibly, to holy souls and angels, to be with man and be known, which is not a sending 'into the world' (c6–8). The Father is never sent, because he has the authority of principle as the source of the whole deity (c9), and sending implies no inequality, only that authority (c10).",
+  "claims": [
+   "The Spirit is given and sent by Father, Son, and himself, since mission is a common divine work.",
+   "Son and Spirit are sent where they already were.",
+   "The Son's visible mission is the incarnation, a work of the whole Trinity.",
+   "The Son was sent visibly once, and is sent invisibly often to holy souls.",
+   "The Father is never sent, because he is the principle of the whole deity.",
+   "Being sent does not imply inequality."
+  ],
+  "concepts": [
+   "mission",
+   "visible and invisible mission",
+   "incarnation",
+   "inseparable operations",
+   "auctoritas principii",
+   "forma servi",
+   "omnipresence and mission"
+  ],
+  "_metadata": {
+   "level": "distinctio",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l1d15c1",
+    "pl-l1d15c2",
+    "pl-l1d15c3",
+    "pl-l1d15c4",
+    "pl-l1d15c5",
+    "pl-l1d15c6",
+    "pl-l1d15c7",
+    "pl-l1d15c8",
+    "pl-l1d15c9",
+    "pl-l1d15c10"
+   ],
+   "partial": false,
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-distinctio-v1",
+   "generated_at": "2026-10-14T14:05:12Z",
+   "source_commit": "13a4d90",
+   "source_structure": "/scta-projectfiles/pl-projectdata.xml"
+  }
+ },
+ "pl-l1d16": {
+  "summary": "Treats the Spirit's visible mission. Like the Son, the Spirit is sent visibly (the dove; wind and tongues of fire at Pentecost) and invisibly into minds. With Augustine, the visible signs were creatures made in time to turn hearts to the eternal, signifying the inner infusion without showing his substance or any local motion. The Son is called less than the Father according to his mission because he assumed humanity into personal union, while the Spirit did not become a dove (c1). As man the Son is less than the Father, the Spirit, and himself, equal by nature and less by habitus. Hilary's view that the Father is greater by the authority of giving, without the Son being less, is to be read piously (c2).",
+  "claims": [
+   "The Spirit was sent visibly through creaturely signs that signified his invisible infusion.",
+   "The Spirit's substance was not seen and he did not move locally.",
+   "The Son is less than the Father insofar as he became man.",
+   "The Spirit is not called less because he did not assume a creature into personal union.",
+   "As man the Son is less than the Father, the Spirit, and himself.",
+   "The Father is 'greater' by authority of origin, without the Son being less in nature."
+  ],
+  "concepts": [
+   "visible mission",
+   "Pentecost",
+   "sign and signified",
+   "hypostatic union",
+   "forma servi",
+   "minoritas",
+   "auctoritas"
+  ],
+  "_metadata": {
+   "level": "distinctio",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l1d16c1",
+    "pl-l1d16c2"
+   ],
+   "partial": false,
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-distinctio-v1",
+   "generated_at": "2026-10-14T14:05:12Z",
+   "source_commit": "13a4d90",
+   "source_structure": "/scta-projectfiles/pl-projectdata.xml"
+  }
+ },
+ "pl-l1d17": {
+  "summary": "Gives Lombard's distinctive thesis on the Spirit's invisible mission: the Spirit himself is the charity by which we love God and neighbor, and he is sent when he makes us love. With Augustine, the love by which we love the brother is God, better known than the brother (c1); that love is the Holy Spirit, the greatest gift (c2); 'God is charity' is said essentially, not causally like 'God is my patience' (c3). Charity, the most excellent gift, alone divides the saved from the lost, and through it the whole Trinity dwells in us (c4). Charity grows in us without the Spirit changing: properly, we advance in him; he is everywhere but not had by all; and he was given to Christ without measure (c5). Against objections, Lombard holds that God's charity and ours are one, named for different reasons. Charity is from the Spirit because he gives himself, unlike faith, which is only a gift. It is called a motion of the mind because it moves the mind. The Spirit produces acts of faith and hope through those virtues but the act of love immediately (c6).",
+  "claims": [
+   "The Holy Spirit is the charity by which we love God and neighbor.",
+   "The Spirit is sent invisibly when he makes us love God and neighbor.",
+   "'God is charity' is an essential, not a causal, predication.",
+   "Charity is the most excellent gift, without which no other gift leads to God.",
+   "Charity grows in us while the Spirit remains unchangeable; properly, we advance in him.",
+   "God's charity and ours are one and the same, named for different reasons.",
+   "The Spirit works the act of love directly, without a created virtue mediating, but acts of faith and hope through those virtues."
+  ],
+  "concepts": [
+   "caritas as Holy Spirit",
+   "invisible mission",
+   "Lombard's thesis",
+   "Deus caritas est",
+   "increase of charity",
+   "immutability",
+   "created vs uncreated charity",
+   "indwelling of the Trinity"
+  ],
+  "_metadata": {
+   "level": "distinctio",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l1d17c1",
+    "pl-l1d17c2",
+    "pl-l1d17c3",
+    "pl-l1d17c4",
+    "pl-l1d17c5",
+    "pl-l1d17c6"
+   ],
+   "partial": false,
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-distinctio-v1",
+   "generated_at": "2026-10-14T14:05:12Z",
+   "source_commit": "13a4d90",
+   "source_structure": "/scta-projectfiles/pl-projectdata.xml"
+  }
+ },
+ "pl-l1d18": {
+  "summary": "Treats the Spirit as Gift. Through the Gift that is the Spirit, proper gifts are divided to each, while all the good have the Gift in common (c1). 'Given' applies to him only in time, but 'Gift' eternally, because he eternally proceeds from Father and Son as giftable to creatures. For the Spirit, being Gift is proceeding, as for the Son being born is being from the Father, and 'Holy Spirit' and 'Gift' are relative names (c2). By proceeding the Spirit receives not only to be Gift but to be the divine essence, as the Son does by birth, though neither is essence by his personal property (c3). As eternal Gift he is referred to Father and Son, as given also to recipients, so he is called 'our' spirit, the one received to make us holy (c4). The Son is 'our bread' but not 'our Son,' and Scripture never says 'our Holy Spirit' (c5). Whether the Spirit is referred to himself is deferred (c6).",
+  "claims": [
+   "Gifts are divided through the Gift, the Holy Spirit, whom all the good have in common.",
+   "The Spirit is eternally Gift and temporally given.",
+   "For the Spirit, being Gift is proceeding from Father and Son.",
+   "By procession the Spirit receives the whole divine essence, as the Son does by birth.",
+   "The given Spirit is referred to giver and recipients and called 'ours.'",
+   "'Son' and 'Holy Spirit' are relative only to the divine persons."
+  ],
+  "concepts": [
+   "donum vs datum",
+   "donabilis",
+   "relative names",
+   "procession",
+   "communication of essence",
+   "sanctification",
+   "possessive predication"
+  ],
+  "_metadata": {
+   "level": "distinctio",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l1d18c1",
+    "pl-l1d18c2",
+    "pl-l1d18c3",
+    "pl-l1d18c4",
+    "pl-l1d18c5",
+    "pl-l1d18c6"
+   ],
+   "partial": false,
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-distinctio-v1",
+   "generated_at": "2026-10-14T14:05:12Z",
+   "source_commit": "13a4d90",
+   "source_structure": "/scta-projectfiles/pl-projectdata.xml"
+  }
+ },
+ "pl-l1d19": {
+  "summary": "Treats the coequality of the three persons: none exceeds another in eternity, magnitude, or power (c1), which are one divine essence (c2). In magnitude no person is greater, nor two than one, since the whole essence is in each (c3). Hence the persons are in one another, by the fullness of divinity and unity of nature, as Augustine, Hilary, and Ambrose agree, though we see it only in a mirror (c4). No person is a part of God (c5–6). Essence is not predicated of the persons as genus of species or species of individuals (c7), nor as common matter like the gold of three statues (c8), nor as a common nature like that of three men (c9). Lombard reconciles John Damascene's language of universal substance and particular hypostases by reading it as analogy, holding that Augustine's teaching must be kept (c9). The persons differ in number only in being counted, and are better said to be distinguished by properties (c10). Magnitude is truth, and no person is truer than another (c11). So God is triune but not triple (c12).",
+  "claims": [
+   "The three persons are coequal in eternity, magnitude, and power, which are one essence.",
+   "The whole divine essence is in each person.",
+   "The persons are in one another by unity of nature.",
+   "No person is a part of God, and several persons are not greater than one.",
+   "Essence is not predicated of the persons as genus, species, matter, or common nature.",
+   "Damascene's universal–particular language is to be read by analogy; Augustine prevails.",
+   "The persons are distinguished by properties, not as numerically distinct individuals.",
+   "God is triune, not triple."
+  ],
+  "concepts": [
+   "coequality",
+   "divine simplicity",
+   "perichoresis",
+   "non-partition",
+   "predicables",
+   "universal and particular",
+   "John Damascene",
+   "numerical difference",
+   "trinus vs triplex"
+  ],
+  "_metadata": {
+   "level": "distinctio",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l1d19c1",
+    "pl-l1d19c2",
+    "pl-l1d19c3",
+    "pl-l1d19c4",
+    "pl-l1d19c5",
+    "pl-l1d19c6",
+    "pl-l1d19c7",
+    "pl-l1d19c8",
+    "pl-l1d19c9",
+    "pl-l1d19c10",
+    "pl-l1d19c11",
+    "pl-l1d19c12"
+   ],
+   "partial": false,
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-distinctio-v1",
+   "generated_at": "2026-10-14T14:05:12Z",
+   "source_commit": "13a4d90",
+   "source_structure": "/scta-projectfiles/pl-projectdata.xml"
+  }
+ },
+ "pl-l1d20": {
+  "summary": "Completes the treatment of equality with power. No person is more powerful than another, since the Son received the Father's omnipotence by birth and the Spirit by procession (c1). Following Augustine against Maximinus: 'All that the Father has is mine' implies equal power (c2). A Father who begot a lesser Son would be either weak or envious, and a human father would beget an equal if he could. Origin (who is from whom) and equality (how great) are different questions, since generation implies an order of nature, not inequality. So no person exceeds another in eternity, magnitude, or power (c3).",
+  "claims": [
+   "The three persons have one and equal power.",
+   "The Son received omnipotence by birth, the Spirit by procession.",
+   "All that the Father has belongs to the Son, including omnipotence.",
+   "A Father who begot a lesser Son would be weak or envious.",
+   "Origin and equality are distinct questions; generation implies order, not inequality."
+  ],
+  "concepts": [
+   "equality of power",
+   "omnipotence",
+   "anti-Arianism",
+   "origin vs equality",
+   "ordo naturae",
+   "Maximinus"
+  ],
+  "_metadata": {
+   "level": "distinctio",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l1d20c1",
+    "pl-l1d20c2",
+    "pl-l1d20c3"
+   ],
+   "partial": false,
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-distinctio-v1",
+   "generated_at": "2026-10-14T14:05:12Z",
+   "source_commit": "13a4d90",
+   "source_structure": "/scta-projectfiles/pl-projectdata.xml"
+  }
+ },
+ "pl-l1d37": {
+  "summary": "Lombard's treatment of the ways God is in things, arising as a digression from the discussion of divine knowledge and whether things are 'in God'. He establishes that God is everywhere by essence, presence, and power, yet dwells only in the good by grace (c1-3), defends divine purity against contamination by things (c4), and then argues that God is neither local nor temporal and changes by neither place nor time (c5-9). To this end he distinguishes bodily locality (dimension plus place-definition) from created spirits' locality (place-definition only) and from God's complete non-locality, answering the objection that God's coming to be in new creatures implies change.",
+  "claims": [
+   "God is essentially, presentially, and potentially in all things without limitation or change.",
+   "God dwells by grace only in the good, and in Christ by the grace of union.",
+   "God's presence to things does not defile him (simplicity and purity).",
+   "God is neither circumscribed nor moved by place or time; created spirits are local in a qualified sense, bodies wholly so.",
+   "God's beginning to be in new creatures implies no change in God.",
+   "The mode of God's essential omnipresence exceeds human comprehension."
+  ],
+  "concepts": [
+   "divine omnipresence",
+   "presence, power, essence",
+   "indwelling by grace",
+   "divine simplicity and purity",
+   "divine immutability",
+   "locality and circumscription",
+   "created spirits and angels",
+   "limits of human knowledge"
+  ],
+  "_metadata": {
+   "level": "distinctio",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l1d37c1",
+    "pl-l1d37c2",
+    "pl-l1d37c3",
+    "pl-l1d37c4",
+    "pl-l1d37c5",
+    "pl-l1d37c6",
+    "pl-l1d37c7",
+    "pl-l1d37c8",
+    "pl-l1d37c9"
+   ],
+   "model": "claude-sonnet-5-5",
+   "prompt_version": "interpretation-distinctio-v1",
+   "generated_at": "2026-09-30T23:58:48Z",
+   "source_commit": "440a635",
+   "source_structure": "/scta-projectfiles/pl-projectdata.xml"
+  }
+ },
+ "pl-l2d44": {
+  "summary": "Lombard asks about the source of the power to sin and the duty of resistance to power. He argues against those who assign the power of evil to humans or the devil that all power, even power to do harm, comes from God, with culpability lying in the will and in proud misuse (c1); he then reconciles this with Romans 13 by holding that resistance to any power commanding against God is obedience to God's ordination (c2).",
+  "claims": [
+   "The power of sinning or harming is from God, though the will to do so is not.",
+   "Culpability lies in the abuse of power, not in power itself.",
+   "Romans 13 concerns lawful secular power; commands against God must be resisted.",
+   "Resisting a contra-divine command is obedience to the divine ordering."
+  ],
+  "concepts": [
+   "divine causality of power",
+   "power versus will",
+   "origin of evil",
+   "divine justice",
+   "resistance and obedience",
+   "hierarchy of authority"
+  ],
+  "_metadata": {
+   "level": "distinctio",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d44c1",
+    "pl-l2d44c2"
+   ],
+   "model": "claude-sonnet-5-5",
+   "prompt_version": "interpretation-distinctio-v1",
+   "generated_at": "2026-09-30T23:58:48Z",
+   "source_commit": "440a635",
+   "source_structure": "/scta-projectfiles/pl-projectdata.xml"
+  }
+ },
+ "pl-liber1": {
+  "summary": "Partial summary of Book 1 (on the Trinity and the one God), based on Distinctions 1 to 20 and Distinction 37; the prologue, Distinctions 21 to 36, and 38 to 48 have not yet been interpreted. Distinction 1 sets the plan of the whole work (things and signs) and the frui/uti framework, naming the Trinity as the sole object of enjoyment. Distinctions 2 and 3 establish the faith in one essence and three persons from Scripture, created vestiges, and the image of the Trinity in the mind. Distinctions 4 to 7 analyze the Son's generation: God begot God but neither himself nor another God, the essence neither begets nor is begotten, and the Son is Son by nature with one power and will. Distinction 8 sets out the truth, immutability, and simplicity of the divine essence. Distinction 9 defends the Son's coeternity and ineffable birth. Distinctions 10 to 18 treat the Holy Spirit: the mutual love of Father and Son; his procession from both against the Greeks, timeless and principally from the Father as author; his being not begotten and not a son; his eternal and temporal procession; the visible and invisible missions of Son and Spirit, with the Father never sent as principle of the deity; Lombard's distinctive thesis that the Spirit himself is the charity by which we love God and neighbor; and the Spirit as eternal Gift and temporally given. Distinctions 19 and 20 establish the coequality of the persons in eternity, magnitude, and power, their mutual indwelling, and that essence is not predicated of them as genus, species, or matter. Distinction 37 treats how God is in things by essence, presence, and power, without locality or change. Throughout, Lombard gathers and harmonizes scriptural and patristic authorities, chiefly Augustine, Hilary, and Ambrose, while reconciling Greek authorities such as John Damascene and often distinguishing senses or confessing the limits of understanding.",
+  "claims": [
+   "Theology treats things and signs; the Trinity alone is to be enjoyed.",
+   "God is one simple, immutable essence in three persons, other in person but not in thing.",
+   "The Father begot the Son, God from God, but the divine essence neither begets nor is begotten.",
+   "The Holy Spirit proceeds eternally from Father and Son as their mutual love and Gift.",
+   "Son and Spirit are sent visibly and invisibly; the Father, as principle, is not sent.",
+   "The Holy Spirit is the charity by which we love God and neighbor.",
+   "The three persons are coeternal and coequal in magnitude and power, and are in one another.",
+   "God is omnipresent by essence, presence, and power without locality or change."
+  ],
+  "concepts": [
+   "frui et uti",
+   "Trinity",
+   "divine simplicity",
+   "eternal generation",
+   "Filioque",
+   "Holy Spirit as love and Gift",
+   "missions",
+   "caritas as Holy Spirit",
+   "coequality",
+   "perichoresis",
+   "divine omnipresence",
+   "harmonization of authorities"
+  ],
+  "_metadata": {
+   "level": "liber",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l1d1",
+    "pl-l1d2",
+    "pl-l1d3",
+    "pl-l1d4",
+    "pl-l1d5",
+    "pl-l1d6",
+    "pl-l1d7",
+    "pl-l1d8",
+    "pl-l1d9",
+    "pl-l1d10",
+    "pl-l1d11",
+    "pl-l1d12",
+    "pl-l1d13",
+    "pl-l1d14",
+    "pl-l1d15",
+    "pl-l1d16",
+    "pl-l1d17",
+    "pl-l1d18",
+    "pl-l1d19",
+    "pl-l1d20",
+    "pl-l1d37"
+   ],
+   "partial": true,
+   "coverage": "21 of 49 direct children have interpretations",
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-distinctio-v1",
+   "generated_at": "2026-10-14T14:05:12Z",
+   "source_commit": "13a4d90",
+   "source_structure": "/scta-projectfiles/pl-projectdata.xml"
+  }
+ },
+ "pl-liber2": {
+  "summary": "Partial summary of Book 2 (on creation and sin), based only on Distinction 44. There Lombard argues that all power, including the power to sin or harm, is from God while the guilt lies in the will's abuse of it, and that resisting a power that commands against God is obedience to God's ordering. The remaining distinctions of Book 2 have not yet been interpreted, so this entry does not represent the whole book.",
+  "claims": [
+   "The power to sin is from God; the evil lies in the will and its misuse.",
+   "Power commanding against God must be resisted, which is obedience to God."
+  ],
+  "concepts": [
+   "divine causality of power",
+   "power versus will",
+   "origin of evil",
+   "resistance and obedience"
+  ],
+  "_metadata": {
+   "level": "liber",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d44"
+   ],
+   "partial": true,
+   "coverage": "1 of 44 direct children have interpretations",
+   "model": "claude-sonnet-5-5",
+   "prompt_version": "interpretation-distinctio-v1",
+   "generated_at": "2026-10-01T00:05:42Z",
+   "source_commit": "440a635",
+   "source_structure": "/scta-projectfiles/pl-projectdata.xml"
+  }
+ },
+ "pl-l3d23": {
+  "summary": "Lombard opens the treatise on the theological virtues by asking whether Christ, full of grace, also had faith and hope, and answers by first giving a full account of faith. Faith is the virtue by which unseen things pertaining to religion are believed. 'Faith' is said in three ways: formed faith (a virtue, informed by charity), unformed faith (a real quality of mind and gift of God, but no virtue, which demons and bad Christians have), and the content believed. Using Augustine's triad, he separates believing God exists and believing God's word, which the wicked can do, from believing into God, which loves and adheres to him and justifies. When charity comes, the unformed quality probably remains and becomes a virtue. Faith is one in content for all but one only in kind as a habit. It properly concerns only the non-apparent, yet is seen intellectually by its possessor. Expounding Hebrews 11:1, faith is the substance and foundation of hoped-for goods and the proof of unseen things. The act of faith naturally precedes hope and charity, though charity, being the Holy Spirit and mother of the virtues, is the cause of faith as a virtue, not its effect. To believe is to think with assent.",
+  "claims": [
+   "Faith is the virtue by which unseen things pertaining to religion are believed.",
+   "Faith is said as formed virtue, as unformed quality, and as content believed.",
+   "Only believing into God, which includes love and adherence, justifies; believing that God exists or that his word is true is shared by the wicked.",
+   "Unformed faith is a real quality and gift of God which likely becomes a virtue when charity arrives.",
+   "Faith is numerically one as content, but one only by likeness as a habit.",
+   "Faith properly concerns only the non-apparent, though it is itself known intellectually by its possessor.",
+   "Faith is the foundation of all virtues and good works, but not of charity, which causes it.",
+   "The act of faith naturally, not temporally or causally, precedes the acts of hope and charity."
+  ],
+  "concepts": [
+   "fides formata",
+   "fides informis",
+   "fides qua / quae creditur",
+   "credere Deum / Deo / in Deum",
+   "non apparentia",
+   "substantia rerum sperandarum",
+   "fundamentum",
+   "caritas mater virtutum",
+   "natural priority of acts",
+   "unity of faith"
+  ],
+  "_metadata": {
+   "level": "distinctio",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d23c1",
+    "pl-l3d23c2",
+    "pl-l3d23c3",
+    "pl-l3d23c4",
+    "pl-l3d23c5",
+    "pl-l3d23c6",
+    "pl-l3d23c7",
+    "pl-l3d23c8",
+    "pl-l3d23c9"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-distinctio-v1",
+   "generated_at": "2026-10-08T19:15:07Z",
+   "source_commit": "6ae8779",
+   "source_structure": "/scta-projectfiles/pl-projectdata.xml"
+  }
+ },
+ "pl-l3d24": {
+  "summary": "Lombard defends and refines the thesis that faith concerns only what is unseen. Against John 14:29 he argues with Augustine that seen things only prompt belief in unseen things, as Thomas saw flesh and believed God; ordinary talk of believing one's eyes is improper, and the heavenly 'faith of things' is not faith but its reward. Peter's faith in the passion lay not in believing that a man suffered, which he saw, but that God suffered; the merit of faith lies in believing the God-man died. Finally, faith is not about the wholly unknown: it is not of objects of bodily sight but can concern what interior vision grasps. Some things must be understood to be believed, others believed to be understood; faith comes from hearing, purifies the heart, and increases understanding, so that what is believed is partly but not wholly unknown, as one can love what one does not fully know. Perfect knowledge of God awaits the next life.",
+  "claims": [
+   "Faith properly concerns only the unseen; visible things merely occasion belief in invisible ones.",
+   "The beatific 'faith of things' is not properly faith but its reward.",
+   "Faith in the passion consists in believing that the one who suffered is God.",
+   "Faith concerns objects of interior, not exterior, vision and is never about the wholly unknown.",
+   "Some truths must be understood before belief, others believed before understanding.",
+   "Faith purifies the heart and increases understanding, while perfect knowledge awaits the next life."
+  ],
+  "concepts": [
+   "non visa",
+   "fides verborum / fides rerum",
+   "fides passionis",
+   "God-man",
+   "visio interior / exterior",
+   "faith and understanding",
+   "fides ex auditu",
+   "purification of the heart",
+   "love of the unknown"
+  ],
+  "_metadata": {
+   "level": "distinctio",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d24c1",
+    "pl-l3d24c2",
+    "pl-l3d24c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-distinctio-v1",
+   "generated_at": "2026-10-08T19:15:07Z",
+   "source_commit": "6ae8779",
+   "source_structure": "/scta-projectfiles/pl-projectdata.xml"
+  }
+ },
+ "pl-l3d25": {
+  "summary": "Lombard turns to the sufficiency of faith for salvation across history. Faith has grown over time in knowledge and articles, and while Hebrews 11:6 (believing that God exists and rewards) is a necessary minimum, it never sufficed: from Adam's fall onward no one has been saved without faith in the Mediator, the ancients believing in future what we believe as past. Not everyone needed explicit knowledge: revelation was distinct for the greater (Abraham, Moses) and veiled for the simple, who believed implicitly by adhering to the greater, as less capable Christians now hold the Creed. Lombard reports, without deciding between them, opinions on the minimum the ancients had to believe about Christ (four articles, or the Son's birth and judgment given faith in the Trinity). He resolves the case of Cornelius, who believed in the incarnation without knowing it had occurred, with Peter sent to announce it and baptize. He closes by holding with Gregory that faith, hope, charity, and works are equal in intensity in this life, while charity is greater because it endures and mothers the virtues; it is said to 'proceed' from faith and hope only because it never exists without them.",
+  "claims": [
+   "Belief that God exists and rewards is necessary but never sufficient for salvation.",
+   "No one before or after Christ has been saved without faith in the Mediator.",
+   "The ancients and moderns share one faith differing only in tense.",
+   "Revelation may be distinct (explicit) or veiled (implicit); the simple are saved by implicit faith adhering to the greater.",
+   "Cornelius had faith in the incarnation without knowing it had been fulfilled.",
+   "Faith, hope, charity, and works are equal in intensity in this life, but charity is greater.",
+   "Charity does not arise from faith and hope but presupposes them."
+  ],
+  "concepts": [
+   "sufficiency of faith for salvation",
+   "fides Mediatoris",
+   "faith of the ancients",
+   "fides implicita / explicita",
+   "articuli fidei",
+   "Cornelius",
+   "equality of the virtues",
+   "preeminence of charity"
+  ],
+  "_metadata": {
+   "level": "distinctio",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d25c1",
+    "pl-l3d25c2",
+    "pl-l3d25c3",
+    "pl-l3d25c4",
+    "pl-l3d25c5"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-distinctio-v1",
+   "generated_at": "2026-10-08T19:15:07Z",
+   "source_commit": "6ae8779",
+   "source_structure": "/scta-projectfiles/pl-projectdata.xml"
+  }
+ },
+ "pl-liber3": {
+  "summary": "Partial summary of Book 3 (on the incarnation, the virtues, and the commandments), based only on Distinctions 23 to 25, the opening of the treatise on the theological virtues. There Lombard defines faith as the virtue by which unseen religious truths are believed; distinguishes formed from unformed faith and the act from the content of faith; separates believing God, believing God's word, and believing into God; treats faith as the foundation of the virtues while making charity its cause; argues that faith concerns only what is unseen yet is not about the wholly unknown, and that faith and understanding mutually advance; and holds that faith in the Mediator, explicit or implicit, has always been necessary for salvation. The prologue and the other 37 distinctions, including the Christology of Distinctions 1 to 22, have not yet been interpreted, so this entry does not represent the whole book.",
+  "claims": [
+   "Faith is the virtue of believing unseen religious truths, formed by charity into a virtue.",
+   "Charity is the cause and mother of the virtues, including faith.",
+   "Faith concerns the unseen but is never about the wholly unknown, and it advances understanding.",
+   "Faith in the Mediator, explicit or implicit, has always been necessary for salvation."
+  ],
+  "concepts": [
+   "fides formata / informis",
+   "credere in Deum",
+   "caritas mater virtutum",
+   "faith and understanding",
+   "fides Mediatoris",
+   "fides implicita"
+  ],
+  "_metadata": {
+   "level": "liber",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d23",
+    "pl-l3d24",
+    "pl-l3d25"
+   ],
+   "partial": true,
+   "coverage": "3 of 41 direct children have interpretations",
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-distinctio-v1",
+   "generated_at": "2026-10-08T19:15:07Z",
+   "source_commit": "6ae8779",
+   "source_structure": "/scta-projectfiles/pl-projectdata.xml"
+  }
+ },
+ "lombardsententia": {
+  "summary": "Partial summary of Peter Lombard's Sentences, based on Liber 1 (Distinctions 1 to 20 and 37), Liber 2 (Distinction 44), and Liber 3 (Distinctions 23 to 25); Liber 4 has no interpretations yet. The opening distinction gives the plan of the work: teaching concerns things and signs, and things divide into those to be enjoyed (the Trinity alone), those to be used, and those that enjoy and use, so the work moves from the Trinity through creatures and Christ to the sacraments as signs. In the interpreted portions Lombard assembles and harmonizes scriptural and patristic authorities, above all Augustine and Hilary, to settle questions, often by distinguishing senses or confessing the limits of understanding. Book 1 presents the one simple, immutable divine essence in three coequal persons: the Son eternally begotten by nature, the Spirit proceeding from Father and Son as their mutual love and Gift, the visible and invisible missions of Son and Spirit, the Spirit as the charity by which we love God, and God present to all things without locality. Book 2 treats God's sovereignty over all power together with the moral limits of obedience. Book 3 treats faith, its relation to charity and understanding, and its necessity for salvation in every age.",
+  "claims": [
+   "The Sentences are organized by the distinction of things and signs, with the Trinity as the sole object of enjoyment.",
+   "Lombard resolves questions by collating and harmonizing patristic and scriptural authorities, chiefly Augustine.",
+   "God is one simple, immutable essence in three coeternal and coequal persons, distinguished by relations of origin.",
+   "The Holy Spirit, proceeding from Father and Son, is the charity by which God loves and by which we love God.",
+   "Divine causality of power and divine immutable presence are maintained alongside creaturely responsibility and distinction.",
+   "Faith formed by charity, whether explicit or implicit, is necessary for salvation, and charity is the mother of the virtues."
+  ],
+  "concepts": [
+   "res et signa",
+   "frui et uti",
+   "Trinity",
+   "divine simplicity",
+   "Filioque",
+   "missions",
+   "caritas",
+   "divine omnipresence",
+   "divine causality of power",
+   "fides formata",
+   "patristic authority",
+   "harmonization of authorities"
+  ],
+  "_metadata": {
+   "level": "work",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-liber1",
+    "pl-liber2",
+    "pl-liber3"
+   ],
+   "partial": true,
+   "coverage": "3 of 4 direct children have interpretations",
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-distinctio-v1",
+   "generated_at": "2026-10-14T14:05:12Z",
+   "source_commit": "13a4d90",
+   "source_structure": "/scta-projectfiles/pl-projectdata.xml"
+  }
+ }
 }

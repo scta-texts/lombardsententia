@@ -1,0 +1,286 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T13:47:26Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "13a4d90",
+  "generation_method": "hierarchical"
+ },
+ "pll1d4c2-d1e3476": {
+  "summary": "Reports opponents who grant that the three persons are one God and one substance but deny that one God or substance is three persons, holding that substance is predicated of the persons but not the reverse.",
+  "claims": [],
+  "concepts": [
+   "predication of essence and person",
+   "error"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d4c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:47:26Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d4c2-d1e3481": {
+  "summary": "States the Catholic faith: the three persons are one God, one substance, essence, or nature, and one God or divine essence is three persons.",
+  "claims": [
+   "The three persons are one God.",
+   "One God, the divine essence, is three persons."
+  ],
+  "concepts": [
+   "convertible predication",
+   "essence and persons"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d4c2",
+    "pll1d4c2-d1e3476"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:47:26Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d4c2-d1e3487": {
+  "summary": "Cites Augustine's 'God himself, the Trinity, blessed and only powerful' to show that God himself is the Trinity and the Trinity God himself.",
+  "claims": [
+   "God is the Trinity, and the Trinity is God."
+  ],
+  "concepts": [
+   "Trinity as God"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d4c2",
+    "pll1d4c2-d1e3481"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:47:26Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d4c2-d1e3506": {
+  "summary": "With Augustine on 1 Tim 6:15, the 'blessed and only potentate' names neither Father, Son, nor Spirit properly but the one true God who is the Trinity. So if one God is the Trinity, one God is three persons.",
+  "claims": [
+   "The one true God is the Trinity itself.",
+   "Therefore one God is three persons."
+  ],
+  "concepts": [
+   "essential names",
+   "Trinity"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d4c2",
+    "pll1d4c2-d1e3481"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:47:26Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pl-l1d4c2-d1e158": {
+  "summary": "Adds De Trinitate V: we call the most excellent Trinity not three gods but one God.",
+  "claims": [
+   "The Trinity is one God, not three gods."
+  ],
+  "concepts": [
+   "unity of God"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d4c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:47:26Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pl-l1d4c2-d1e171": {
+  "summary": "Adds the De fide ad Petrum: a Christian must believe that the cause of all created things is the goodness of the one true Creator God, that every nature is either he or from him, and that he is the Trinity.",
+  "claims": [
+   "The cause of all creatures is the goodness of the Creator.",
+   "Every nature is either God or from God.",
+   "The one true God is the Trinity."
+  ],
+  "concepts": [
+   "creation",
+   "divine goodness",
+   "Trinity"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d4c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:47:26Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pl-l1d4c2-d1e184": {
+  "summary": "Adds Augustine's sermon: we believe one God to be the one Trinity of the divine name.",
+  "claims": [
+   "One God is the Trinity."
+  ],
+  "concepts": [
+   "Trinity",
+   "divine name"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d4c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:47:26Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pl-l1d4c2-d1e199": {
+  "summary": "Adds De Trinitate VI: God alone is the Trinity itself.",
+  "claims": [
+   "God is the Trinity itself."
+  ],
+  "concepts": [
+   "Trinity"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d4c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:47:26Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pl-l1d4c2-d1e211": {
+  "summary": "Concludes from these authorities that one must grant both that one God is the Trinity and one substance three persons, and conversely that the Trinity is one God and the three persons one substance.",
+  "claims": [
+   "One God is the Trinity, and one substance is three persons.",
+   "The Trinity is one God, and the three persons are one substance."
+  ],
+  "concepts": [
+   "convertible predication",
+   "conclusion from authorities"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d4c2",
+    "pll1d4c2-d1e3481"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:47:26Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d4c2-d1e3535": {
+  "summary": "Returns to the earlier question whether God the Father begot himself as God or another God.",
+  "claims": [],
+  "concepts": [
+   "generation"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d4c2",
+    "pll1d4c1-d1e3476"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:47:26Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d4c2-d1e3538": {
+  "summary": "Neither is to be granted. Augustine's statement in the letter to Maximus that the Father 'begot another himself' without diminishing himself is read as begetting another person, not another God, or one who is the same as he is; the Father is another (alius) than the Son, but not another thing (aliud).",
+  "claims": [
+   "Neither 'God begot himself' nor 'God begot another God' is to be granted.",
+   "The Father begot another person, not another God.",
+   "Father and Son are alius but not aliud."
+  ],
+  "concepts": [
+   "alius vs aliud",
+   "generation without diminution",
+   "interpreting authorities"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d4c2",
+    "pll1d4c2-d1e3535",
+    "pll1d4c1-d1e3481"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:47:26Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pl-l1d4c2": {
+  "summary": "Rejects the view of some who allow 'the three persons are one God' but not the converse 'one God is three persons,' as though the divine substance were predicated of the persons but not they of it. With Augustine's 'God himself, the Trinity' and further authorities, Lombard holds both directions. Returning to whether the Father begot 'himself as another,' he explains Augustine's phrase 'begot another himself' as another person, not another God: alius but not aliud.",
+  "claims": [
+   "The three persons are one God, and the one God is the three persons.",
+   "The divine essence is predicated of the persons, and the persons of the essence.",
+   "The Father did not beget himself or another God.",
+   "Augustine's 'begot another himself' means another person, who is the same thing as the Father."
+  ],
+  "concepts": [
+   "convertibility of essence and persons",
+   "Trinitarian predication",
+   "God is the Trinity",
+   "alius vs aliud",
+   "generation"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d4c2-d1e3476",
+    "pll1d4c2-d1e3481",
+    "pll1d4c2-d1e3487",
+    "pll1d4c2-d1e3506",
+    "pl-l1d4c2-d1e158",
+    "pl-l1d4c2-d1e171",
+    "pl-l1d4c2-d1e184",
+    "pl-l1d4c2-d1e199",
+    "pl-l1d4c2-d1e211",
+    "pll1d4c2-d1e3535",
+    "pll1d4c2-d1e3538"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T13:47:26Z",
+   "source_commit": "13a4d90"
+  }
+ }
+}

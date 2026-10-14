@@ -1,0 +1,127 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T14:03:29Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "13a4d90",
+  "generation_method": "hierarchical"
+ },
+ "pll1d19c11-d1e3477": {
+  "summary": "Cites De Trinitate VIII: the equality in the Trinity is such that not only is the Father not greater than the Son, but Father and Son together are not greater than the Spirit, nor is any person less than the Trinity.",
+  "claims": [
+   "Father and Son together are not greater than the Spirit.",
+   "No person is less than the Trinity."
+  ],
+  "concepts": [
+   "equality"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d19c11",
+    "pll1d19c10-d1e3499"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T14:03:29Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d19c11-d1e3498": {
+  "summary": "Proposes, with Augustine, to show as far as the Creator helps how two or three persons are not greater than one.",
+  "claims": [],
+  "concepts": [
+   "proposed demonstration"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d19c11",
+    "pll1d19c11-d1e3477"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T14:03:29Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d19c11-d1e3515": {
+  "summary": "Gives Augustine's argument: in God what is great is great by that by which it truly is; magnitude is truth and truth essence, so what is not truer is not greater. Father and Son together are not truer than either alone, nor than the Spirit, so not greater. In the essence of truth, to be true is to be and to be is to be great, so what has no more truth has no more greatness. The Trinity is as great as each person.",
+  "claims": [
+   "In God magnitude is truth and truth is essence.",
+   "What is not truer is not greater.",
+   "No person or set of persons is truer than another.",
+   "The Trinity is as great as each person."
+  ],
+  "concepts": [
+   "verum and magnum",
+   "identity of being, truth, and magnitude"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d19c11",
+    "pll1d19c11-d1e3498"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T14:03:29Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d19c11-d1e3530": {
+  "summary": "Concludes that it has been shown by fitting Catholic reason how the magnitude of the persons is undifferentiated: none is greater than another, nor two than one, nor three than each.",
+  "claims": [
+   "The magnitude of the three persons is equal."
+  ],
+  "concepts": [
+   "conclusion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d19c11",
+    "pll1d19c11-d1e3515"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T14:03:29Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pl-l1d19c11": {
+  "summary": "Repeats Augustine's thesis from De Trinitate VIII: the equality in the Trinity is such that Father and Son together are not greater than the Spirit, nor any person less than the Trinity. He demonstrates it: in God magnitude is truth and truth is essence, so what is not truer is not greater. Two or three persons together are not 'more true' than one, so they are not greater; the Trinity is as great as each person.",
+  "claims": [
+   "Father and Son together are not greater than the Holy Spirit.",
+   "No person is less than the Trinity.",
+   "In God magnitude is truth and truth is essence.",
+   "What is not truer is not greater.",
+   "No person, or group of persons, is truer than another, so none is greater."
+  ],
+  "concepts": [
+   "equality",
+   "magnitude as truth",
+   "verum and esse",
+   "Augustine De Trinitate VIII"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d19c11-d1e3477",
+    "pll1d19c11-d1e3498",
+    "pll1d19c11-d1e3515",
+    "pll1d19c11-d1e3530"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T14:03:29Z",
+   "source_commit": "13a4d90"
+  }
+ }
+}

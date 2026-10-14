@@ -1,0 +1,62 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T13:51:12Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "13a4d90",
+  "generation_method": "hierarchical"
+ },
+ "pll1d9c5-d1e3477": {
+  "summary": "With Hilary, answers the heretic's objection that everything born did not always exist. In human things the father was not always and not always father, but where the Father is always Father, the Son must always be Son. The only-begotten is born before time, neither existing before birth nor born before existing, since being born of what already was would be changing oneself. This exceeds human understanding and is a matter of faithful profession.",
+  "claims": [
+   "Human births come from fathers who were not always fathers.",
+   "Since God is always Father, the Son is always Son.",
+   "The Son is neither prior to his birth nor born prior to his being.",
+   "The eternal birth exceeds human reason and is grasped by faith."
+  ],
+  "concepts": [
+   "eternal fatherhood",
+   "correlation",
+   "faith beyond reason"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d9c5",
+    "pll1d9c2-d1e3480"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:51:12Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pl-l1d9c5": {
+  "summary": "Answers the heretic's objection that whatever is born did not always exist, with Hilary: among humans, those born from one who did not always exist were not always, and their fathers were not always fathers. But where the Father is always Father, the Son is always Son. The only-begotten is born before time, neither existing before being born nor born before existing, a truth that exceeds human understanding and is held by the profession of faith.",
+  "claims": [
+   "Being born of one who did not always exist differs from being born of one who always exists.",
+   "Where the Father is always Father, the Son is always Son.",
+   "The Son did not exist before being born, nor was born before existing.",
+   "The eternal birth exceeds human understanding and is held by faith."
+  ],
+  "concepts": [
+   "eternal generation",
+   "anti-Arianism",
+   "eternal fatherhood",
+   "faith and reason"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d9c5-d1e3477"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T13:51:12Z",
+   "source_commit": "13a4d90"
+  }
+ }
+}

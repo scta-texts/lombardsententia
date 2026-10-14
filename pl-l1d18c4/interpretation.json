@@ -1,0 +1,132 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T14:01:40Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "13a4d90",
+  "generation_method": "hierarchical"
+ },
+ "pll1d18c4-d1e3477": {
+  "summary": "Concludes that the Spirit is eternally Gift and temporally given, which corresponds to the twofold procession: by one he is given, by the other Gift.",
+  "claims": [
+   "The Spirit is eternally Gift and temporally given.",
+   "This corresponds to his eternal and temporal processions."
+  ],
+  "concepts": [
+   "twofold procession"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d18c4",
+    "pl-l1d14c1",
+    "pl-l1d18c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T14:01:40Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d18c4-d1e3480": {
+  "summary": "Explains that as eternal Gift the Spirit is referred to Father and Son; as given, he is referred to the giver and to those to whom he is given, and is said to belong to both.",
+  "claims": [
+   "As Gift the Spirit is referred to Father and Son.",
+   "As given he is referred to giver and recipients."
+  ],
+  "concepts": [
+   "relations of the Spirit"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d18c4",
+    "pll1d18c4-d1e3477"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T14:01:40Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d18c4-d1e3483": {
+  "summary": "Cites De Trinitate V: what is given is referred to giver and recipients, so the Spirit is ours who received him, as well as the Father's and Son's. He is not our spirit by which we exist, which is the human spirit; what we received to exist differs from what we received to be holy.",
+  "claims": [
+   "The Spirit is called ours because we received him.",
+   "The human spirit by which we exist differs from the Holy Spirit by which we are holy."
+  ],
+  "concepts": [
+   "spirit of man",
+   "sanctification"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d18c4",
+    "pll1d18c4-d1e3480"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T14:01:40Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d18c4-d1e3512": {
+  "summary": "Shows from Scripture that the Spirit is called ours: John came 'in the spirit of Elijah' (Luke 1:17), and God tells Moses 'I will take of your spirit' (Num 11:17), meaning the Holy Spirit already given to him. The Spirit is ours because given to make us holy, while the created spirit was given to make us exist.",
+  "claims": [
+   "Scripture calls the Holy Spirit the spirit of Elijah and of Moses.",
+   "The Spirit is ours because given to us for holiness."
+  ],
+  "concepts": [
+   "spirit of Elijah",
+   "Moses"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d18c4",
+    "pll1d18c4-d1e3483"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T14:01:40Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pl-l1d18c4": {
+  "summary": "Draws the consequence of the twofold procession: the Spirit is eternally Gift and temporally given. As eternal Gift he is referred to Father and Son; as given, he is referred both to the giver and to the recipients and is said to be theirs. With Augustine, the Spirit is ours, not as the created spirit by which we are, but as the Spirit received so that we might be holy, as Scripture speaks of 'the spirit of Elijah' and 'your spirit' to Moses.",
+  "claims": [
+   "The Spirit is eternally Gift and temporally given, corresponding to the twofold procession.",
+   "As eternal Gift he is referred to Father and Son.",
+   "As given, he is referred to the giver and to those who receive him.",
+   "The Spirit is called ours because he is given to us.",
+   "The created spirit by which we are differs from the Holy Spirit given to make us holy."
+  ],
+  "concepts": [
+   "donum vs datum",
+   "twofold procession",
+   "relation to recipients",
+   "created spirit vs Holy Spirit",
+   "sanctification"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d18c4-d1e3477",
+    "pll1d18c4-d1e3480",
+    "pll1d18c4-d1e3483",
+    "pll1d18c4-d1e3512"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T14:01:40Z",
+   "source_commit": "13a4d90"
+  }
+ }
+}

@@ -1,0 +1,154 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T13:58:25Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "13a4d90",
+  "generation_method": "hierarchical"
+ },
+ "pll1d15c8-d1e3477": {
+  "summary": "Distinguishes the frequencies: by one mode the Son was sent once, to be man; by the other he is sent often and daily, to be with man, to the saints, and was so sent before the incarnation to the saints of old and to angels.",
+  "claims": [
+   "The Son was sent once to be man.",
+   "The Son is sent daily to be with the saints.",
+   "He was sent invisibly before the incarnation to saints and angels."
+  ],
+  "concepts": [
+   "frequency of mission"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d15c8",
+    "pll1d15c7-d1e3477"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:58:25Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d15c8-d1e3482": {
+  "summary": "Cites De Trinitate IV: Wisdom is sent in one way to be with man and in another to be man. She passes into holy souls and makes friends of God and prophets (Wis 7:27), and fills the angels; but in the fullness of time she was sent so that the Word became flesh.",
+  "claims": [
+   "Wisdom is sent to be with man and, uniquely, to be man.",
+   "Wisdom makes holy souls friends of God and prophets."
+  ],
+  "concepts": [
+   "Wisdom",
+   "incarnation",
+   "indwelling"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d15c8",
+    "pll1d15c8-d1e3477"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:58:25Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d15c8-d1e3511": {
+  "summary": "Notes that by one mode the Son is said to be sent into the world, by the other not; he is sent into the world in appearing visibly.",
+  "claims": [
+   "Only the visible mission is 'into the world.'"
+  ],
+  "concepts": [
+   "in mundum"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d15c8",
+    "pll1d15c8-d1e3477"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:58:25Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d15c8-d1e3515": {
+  "summary": "Cites Augustine: when the Son is perceived in a mind he is sent, but not into this world, since he does not appear to the bodily senses. We too, insofar as we grasp the eternal, are not in this world, nor are the spirits of the just insofar as they savor divine things.",
+  "claims": [
+   "The invisible mission is not into this world.",
+   "Insofar as the mind grasps the eternal, it is not in this world."
+  ],
+  "concepts": [
+   "sensible vs intelligible",
+   "contemplation"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d15c8",
+    "pll1d15c8-d1e3511"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:58:25Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d15c8-d1e3530": {
+  "summary": "Concludes: besides the ineffable generation, the Son is sent in two ways, appearing visibly or perceived invisibly by the mind.",
+  "claims": [
+   "The Son's mission is visible or invisible."
+  ],
+  "concepts": [
+   "summary"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d15c8",
+    "pll1d15c8-d1e3477"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:58:25Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pl-l1d15c8": {
+  "summary": "Draws out the two modes of the Son's mission. By one he was sent once, to be man; by the other he is sent daily to be with man, to the saints, as he was before the incarnation to the patriarchs and prophets and to the angels (Augustine). The visible mission is 'into the world'; the invisible is not, since perceiving the eternal in the mind is not a sensible appearance, and the just, insofar as they savor divine things, are not in this world.",
+  "claims": [
+   "The Son was sent once to become man.",
+   "The Son is sent often, even daily, to be with humans.",
+   "The invisible mission occurred before the incarnation to saints and angels.",
+   "Only the visible mission is said to be 'into the world.'",
+   "Insofar as the just savor divine things, they are not in this world."
+  ],
+  "concepts": [
+   "visible mission",
+   "invisible mission",
+   "Wisdom indwelling the saints",
+   "in mundum",
+   "contemplation"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d15c8-d1e3477",
+    "pll1d15c8-d1e3482",
+    "pll1d15c8-d1e3511",
+    "pll1d15c8-d1e3515",
+    "pll1d15c8-d1e3530"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T13:58:25Z",
+   "source_commit": "13a4d90"
+  }
+ }
+}

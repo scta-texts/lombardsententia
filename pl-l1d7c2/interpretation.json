@@ -1,0 +1,212 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T13:48:21Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "13a4d90",
+  "generation_method": "hierarchical"
+ },
+ "pll1d7c2-d1e3476": {
+  "summary": "Raises the question whether the Father is able by nature to beget the Son and whether that power is in the Son.",
+  "claims": [],
+  "concepts": [
+   "potentia generandi"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d7c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:48:21Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d7c2-d1e3479": {
+  "summary": "Answers that the Father is powerful only by nature, for his power is his nature or essence.",
+  "claims": [
+   "God's power is his nature or essence."
+  ],
+  "concepts": [
+   "identity of power and essence"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d7c2",
+    "pll1d7c2-d1e3476"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:48:21Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d7c2-d1e3482": {
+  "summary": "Objection: if the Father is able to beget, he has a power of begetting the Son lacks, and so a power the Son does not have.",
+  "claims": [],
+  "concepts": [
+   "objection",
+   "inequality of power"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d7c2",
+    "pll1d7c2-d1e3479"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:48:21Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d7c2-d1e3488": {
+  "summary": "Denies the inference: the Son has exactly the same power by which the Father could beget and the Son could be begotten.",
+  "claims": [
+   "The power by which the Father can beget is the same as that by which the Son can be begotten."
+  ],
+  "concepts": [
+   "one power"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d7c2",
+    "pll1d7c2-d1e3482"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:48:21Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d7c2-d1e3491": {
+  "summary": "Counter-objection: being able to beget is other than being able to be begotten, as begetting differs from being begotten.",
+  "claims": [],
+  "concepts": [
+   "objection"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d7c2",
+    "pll1d7c2-d1e3488"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:48:21Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d7c2-d1e3494": {
+  "summary": "Distinguishes: if 'other' means a different power in Father and Son, it is false; if it means the Father has a different property or notion by which he is begetter and the Son by which he is begotten, it is true.",
+  "claims": [
+   "There are not different powers in Father and Son.",
+   "Father and Son have different properties or notions."
+  ],
+  "concepts": [
+   "distinction of senses",
+   "notions",
+   "personal properties"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d7c2",
+    "pll1d7c2-d1e3491"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:48:21Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d7c2-d1e3497": {
+  "summary": "Notes that 'the Son does not have the power of begetting that the Father has' can be taken in two ways.",
+  "claims": [],
+  "concepts": [
+   "ambiguity"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d7c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:48:21Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d7c2-d1e3500": {
+  "summary": "Resolves the ambiguity: true if it means the Son lacks a power such that he begot or begets as the Father does; false if it denies that the Son has the same power by which the Father begets. Likewise there is one power by which the Father can be Father and the Son Son, and one will by which each wills to be what he is and wills the other to be what he is.",
+  "claims": [
+   "The Son does not beget as the Father does.",
+   "The Son has the same power as the Father.",
+   "One power and one will in Father and Son underlie their distinct personal being."
+  ],
+  "concepts": [
+   "one power",
+   "one will",
+   "personal distinction"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d7c2",
+    "pll1d7c2-d1e3497"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:48:21Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pl-l1d7c2": {
+  "summary": "Asks whether the Father is able by nature to beget and whether this power is in the Son. Lombard holds that the Father is powerful only by nature, since his power is his essence, and that the Son has the very same power by which the Father could beget and the Son be begotten. To 'being able to beget is other than being able to be begotten,' he distinguishes: it is false if it means two powers, true if it means distinct properties or notions. Likewise 'the Son lacks the power of begetting' is true of the act, false of the power itself. There is one power and one will by which the Father wills to be Father and the Son to be Son.",
+  "claims": [
+   "The Father is powerful only by nature, since his power is his essence.",
+   "The Son has the very same power by which the Father could beget.",
+   "The power by which the Father can beget and the Son can be begotten is one.",
+   "Father and Son have different properties or notions but not different powers.",
+   "There is one will by which the Father wills to be Father and the Son to be Son."
+  ],
+  "concepts": [
+   "divine power",
+   "potentia generandi",
+   "notions",
+   "personal properties",
+   "identity of power and essence",
+   "one will"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d7c2-d1e3476",
+    "pll1d7c2-d1e3479",
+    "pll1d7c2-d1e3482",
+    "pll1d7c2-d1e3488",
+    "pll1d7c2-d1e3491",
+    "pll1d7c2-d1e3494",
+    "pll1d7c2-d1e3497",
+    "pll1d7c2-d1e3500"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T13:48:21Z",
+   "source_commit": "13a4d90"
+  }
+ }
+}

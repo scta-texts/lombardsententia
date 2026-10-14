@@ -1,0 +1,116 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T13:44:40Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "13a4d90",
+  "generation_method": "hierarchical"
+ },
+ "pll1d2c2-d1e3473": {
+  "summary": "Gives the consensus of all Catholic writers: according to Scripture, Father, Son, and Holy Spirit are one substance and one God in inseparable equality, unity in essence and plurality in persons, with the persons distinguished by generation and procession.",
+  "claims": [
+   "The three persons are of one substance and one God.",
+   "There is unity in essence and plurality in persons.",
+   "The Father begets the Son, so the Son is not the Father.",
+   "The Holy Spirit is neither Father nor Son but the Spirit of both, coequal."
+  ],
+  "concepts": [
+   "Trinity",
+   "unitas essentiae",
+   "pluralitas personarum",
+   "generation",
+   "coequality"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d2c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:44:40Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d2c2-d1e3492": {
+  "summary": "Augustine's Retractationes corrects his earlier phrase 'the begetter and begotten is one' to 'are one,' following Christ's 'I and the Father are one' (John 10:30), guarding personal plurality.",
+  "claims": [
+   "One should say Father and Son 'are one,' not 'is one.'"
+  ],
+  "concepts": [
+   "Trinitarian grammar",
+   "retractation",
+   "plurality of persons"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d2c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:44:40Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pll1d2c2-d1e3517": {
+  "summary": "Gives the rule of faith with the De fide ad Petrum: the three are naturally one God, yet none is the other. There is one homoousian essence in which there is not aliud but alius: personally other, not another thing.",
+  "claims": [
+   "The three persons are naturally one God.",
+   "None of the persons is the other.",
+   "The one essence is called homoousion by the Greeks.",
+   "The persons are 'another' (alius) personally, but not 'another thing' (aliud)."
+  ],
+  "concepts": [
+   "homoousios",
+   "aliud vs alius",
+   "personal distinction",
+   "unity of nature"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d2c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T13:44:40Z",
+   "source_commit": "13a4d90"
+  }
+ },
+ "pl-l1d2c2": {
+  "summary": "Sets out the Catholic doctrine to be defended, as taught by all orthodox writers on the Trinity: Father, Son, and Holy Spirit are one substance and one God in inseparable equality, with unity of essence and plurality of persons, yet each person is not the other. Includes Augustine's correction 'are one' rather than 'is one' (John 10:30) and the formula that in the one homoousian essence there is not 'another thing' but 'another person.'",
+  "claims": [
+   "Father, Son, and Holy Spirit are of one substance and one God in inseparable equality.",
+   "There is unity in essence and plurality in persons.",
+   "There are not three gods but one God.",
+   "The Father is not the Son, the Son is not the Father, and the Holy Spirit is neither.",
+   "In God there is not aliud (another thing) but alius (another person)."
+  ],
+  "concepts": [
+   "consubstantiality",
+   "homoousios",
+   "unity of essence",
+   "plurality of persons",
+   "personal distinction",
+   "aliud vs alius"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d2c2-d1e3473",
+    "pll1d2c2-d1e3492",
+    "pll1d2c2-d1e3517"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T13:44:40Z",
+   "source_commit": "13a4d90"
+  }
+ }
+}
