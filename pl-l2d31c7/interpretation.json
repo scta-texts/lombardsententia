@@ -1,0 +1,132 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T21:06:51Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d31c7-d1e108": {
+  "summary": "Concludes that original sin is so called because concupiscence is transmitted by the defective law of our origin in which we are conceived. We do not contract sin merely because conceived from flesh descended from Adam, since Christ's body was formed from that flesh, but his conception was by the Holy Spirit, not by the law of sin, so his flesh was not sinful; ours is not without lust and so not without sin.",
+  "claims": [
+   "Christ's conception without lust was without sin.",
+   "Our conception in lust is with sin."
+  ],
+  "concepts": [
+   "Christ's conception",
+   "lust"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d31c7",
+    "pl-l2d31c6"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:06:51Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d31c7-d1e111": {
+  "summary": "Cites De fide ad Petrum: since parents' union is not without lust, the children's conception cannot be without sin; not propagation but lust transmits sin to infants, not the fertility of nature but the foulness of lust; hence David says he was conceived in iniquities. So original sin is transmitted by the law of conception.",
+  "claims": [
+   "Lust, not propagation, transmits sin."
+  ],
+  "concepts": [
+   "Fulgentius De fide ad Petrum",
+   "Psalm 50:7"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d31c7",
+    "pl-l2d31c7-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:06:51Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d31c7-d1e114": {
+  "summary": "Raises an objection: at conception the flesh is propagated but, according to physicians, the soul is infused only when the body is shaped, as Exodus implies in distinguishing unformed and formed miscarriage; so how is sin transmitted at conception, when sin cannot be where there is no soul?",
+  "claims": [
+   "The soul is infused only in the formed body."
+  ],
+  "concepts": [
+   "objection",
+   "Exodus 21:22",
+   "physicians"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d31c7",
+    "pl-l2d31c7-d1e111"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:06:51Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d31c7-d1e120": {
+  "summary": "Answers that sin is said to be transmitted in conception not because it is there, but because the flesh contracts what causes sin in the soul when infused. Both the propagation of the flesh and the infusion of the soul are called conception, sometimes also birth, though birth properly means coming into the light.",
+  "claims": [
+   "Flesh contracts the cause of sin before the soul is infused."
+  ],
+  "concepts": [
+   "conception"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d31c7",
+    "pl-l2d31c7-d1e114"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:06:51Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d31c7": {
+  "summary": "Concludes that original sin is so called because it is transmitted by the defective law of our origin, conception in lust. It is not drawn simply from flesh descended from Adam, since Christ's body came from the same flesh, but his conception was by the Holy Spirit, not by the law of sin; ours is not without lust and so not without sin. Augustine: not propagation but lust transmits sin; not the fertility of nature but the foulness of lust makes humans born with sin. An objection: at conception the flesh is propagated but the soul is infused only when the body is formed (Exod 21:22–23), so how is sin transmitted where there is no soul? Answer: the flesh then contracts what causes sin in the soul when infused; both moments are called conception.",
+  "claims": [
+   "Original sin is named from the defective law of our origin, conception in lust.",
+   "Christ's flesh descended from Adam but was conceived without lust and so without sin.",
+   "Lust, not propagation itself, transmits sin.",
+   "The soul is infused only when the body is formed.",
+   "At conception the flesh contracts the cause of sin, which becomes sin when the soul is infused."
+  ],
+  "concepts": [
+   "original sin",
+   "conception",
+   "Christ's conception",
+   "lust",
+   "infusion of the soul",
+   "Exodus 21:22",
+   "Fulgentius De fide ad Petrum"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d31c7-d1e108",
+    "pl-l2d31c7-d1e111",
+    "pl-l2d31c7-d1e114",
+    "pl-l2d31c7-d1e120"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T21:06:51Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

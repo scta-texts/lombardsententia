@@ -1,0 +1,78 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T13:06:03Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d39c3-d1e112": {
+  "summary": "States that the believer can lawfully dismiss the unbeliever, since in the unbeliever there is fornication, if not of body then of mind; the Lord excepted fornication as cause, and we must understand fornication generally, bodily and spiritual.",
+  "claims": [
+   "Fornication includes spiritual fornication."
+  ],
+  "concepts": [
+   "spiritual fornication",
+   "separation"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d39c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:06:03Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d39c3-d1e115": {
+  "summary": "Quotes Augustine: idolatry and any harmful superstition is fornication; the Lord permitted, not commanded, dismissing a wife for fornication, leaving the Apostle room to counsel that one who wishes not dismiss; but one can lawfully dismiss, for if fornication of the flesh is to be detested in a spouse, how much more fornication of the mind, unbelief.",
+  "claims": [
+   "Idolatry is fornication.",
+   "Mental fornication is worse than bodily."
+  ],
+  "concepts": [
+   "idolatry",
+   "spiritual fornication",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d39c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:06:03Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d39c3": {
+  "summary": "The believer can lawfully dismiss the unbeliever, since unbelief is fornication of the mind if not the body, and the Lord's exception of fornication includes spiritual fornication; Augustine: idolatry and harmful superstition are fornication, and if bodily fornication is to be detested in a spouse, much more mental fornication, unbelief.",
+  "claims": [
+   "Unbelief is spiritual fornication.",
+   "Spiritual fornication justifies separation."
+  ],
+  "concepts": [
+   "spiritual fornication",
+   "separation",
+   "idolatry"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d39c3-d1e112",
+    "pl-l4d39c3-d1e115"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T13:06:03Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

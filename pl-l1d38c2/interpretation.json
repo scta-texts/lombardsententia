@@ -1,0 +1,126 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T18:38:53Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll1d38c2-d1e3501": {
+  "summary": "Reports an objection: God foreknew this man would read, but it is possible he not read, so God's foreknowledge can be deceived.",
+  "claims": [],
+  "concepts": [
+   "objection"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d38c2",
+    "pll1d38c1-d1e3510"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:38:53Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d38c2-d1e3504": {
+  "summary": "Answers that this is false: something foreknown can fail to happen, yet foreknowledge cannot be deceived, since if it did not happen it would not have been foreknown.",
+  "claims": [
+   "Foreknowledge cannot be deceived.",
+   "If an event did not occur, it would not have been foreknown."
+  ],
+  "concepts": [
+   "infallibility",
+   "contingency"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d38c2",
+    "pll1d38c2-d1e3501"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:38:53Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d38c2-d1e3507": {
+  "summary": "Reports the pressing dilemma: either things cannot happen otherwise than foreknown, and all happens necessarily, or they can, and foreknowledge can fail or change. Since things can happen otherwise than they do, and they happen as foreknown, they can happen otherwise than foreknown.",
+  "claims": [],
+  "concepts": [
+   "dilemma"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d38c2",
+    "pll1d38c2-d1e3504"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:38:53Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d38c2-d1e3511": {
+  "summary": "Answers that such statements are ambiguous and must be taken conjointly or disjointly. 'It cannot happen otherwise than God foreknew' is true conjointly (both cannot be: that God foreknew it so and that it happens otherwise), false disjointly (that the event could not happen otherwise than it does). Likewise for 'impossible that what God foreknew not be' and 'impossible that what happens not be foreknown': true conjointly, but false that God could not have not foreknown, since he could have made it not happen.",
+  "claims": [
+   "The statements are true conjointly and false disjointly.",
+   "Events can happen otherwise than they do.",
+   "God could have made something not happen, and then it would not be foreknown."
+  ],
+  "concepts": [
+   "coniunctim vs disiunctim",
+   "modal ambiguity"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d38c2",
+    "pll1d38c2-d1e3507"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:38:53Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1d38c2": {
+  "summary": "Answers the objection that God's foreknowledge could be deceived: God foreknew this man would read, but he might not read. Lombard: something foreknown might not happen, but then it would not have been foreknown, so foreknowledge is not deceived. To the dilemma that things either cannot happen otherwise than foreknown (so all is necessary) or can (so foreknowledge can fail), he distinguishes the conjoined and disjoined senses: 'it cannot happen otherwise than God foreknew' is true conjointly (both cannot be true together: that God foreknew it and that it happens otherwise), false disjointly (that this thing could not have happened otherwise). Likewise for 'it is impossible that what God foreknew not happen.' God could have made it not happen, and then it would not have been foreknown.",
+  "claims": [
+   "God's foreknowledge cannot be deceived.",
+   "What is foreknown could fail to happen, but then it would not have been foreknown.",
+   "'It cannot happen otherwise than God foreknew' is true in the conjoined sense and false in the disjoined sense.",
+   "Foreknowledge does not make events necessary.",
+   "God could have made things not happen, and then they would not have been foreknown."
+  ],
+  "concepts": [
+   "foreknowledge and contingency",
+   "conjoined vs disjoined sense",
+   "modal logic",
+   "infallibility",
+   "necessity"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d38c2-d1e3501",
+    "pll1d38c2-d1e3504",
+    "pll1d38c2-d1e3507",
+    "pll1d38c2-d1e3511"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T18:38:53Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

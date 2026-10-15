@@ -1,0 +1,131 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:37:02Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d27c5-d1e108": {
+  "summary": "Turns to what virtue is and what its act or work is.",
+  "claims": [],
+  "concepts": [
+   "question"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d27c5",
+    "pl-l2d27c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:37:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d27c5-d1e111": {
+  "summary": "Gives Augustine's definition: virtue is a good quality of mind by which one lives rightly, which no one misuses, and which God alone works in man; so on 'I have done judgment and justice' Augustine says justice is a great virtue that only God makes in man, and the prophet means its work, not the virtue. The same holds of the other virtues.",
+  "claims": [
+   "Virtue is God's work alone in man.",
+   "Man does the work of justice, not the virtue."
+  ],
+  "concepts": [
+   "definition of virtue",
+   "Psalm 118:121"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d27c5",
+    "pl-l2d27c5-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:37:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d27c5-d1e114": {
+  "summary": "Adds that Paul says faith is not of ourselves but God's gift (Eph 2:8), which the saints explain as not from the power of our nature; so faith is not from free choice, agreeing with what was said, that prevenient or operating grace is a virtue that frees and heals the will.",
+  "claims": [
+   "Faith is not from free choice.",
+   "Prevenient grace is a virtue."
+  ],
+  "concepts": [
+   "Ephesians 2:8",
+   "faith"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d27c5",
+    "pl-l2d27c5-d1e111",
+    "pl-l2d26c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:37:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d27c5-d1e121": {
+  "summary": "Cites De spiritu et littera: we are justified not by free will but by Christ's grace, not without our will, but the law shows the will weak so that grace may heal it and the healed will fulfill the law.",
+  "claims": [
+   "Grace heals the will so it can fulfill the law."
+  ],
+  "concepts": [
+   "justification",
+   "Augustine De spiritu et littera"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d27c5",
+    "pl-l2d27c5-d1e114"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:37:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d27c5": {
+  "summary": "Asks what virtue is and what its act is. Augustine: virtue is a good quality of mind by which one lives rightly and which no one misuses, which God alone works in man; so on 'I have done judgment and justice,' the prophet means the work of justice, not the virtue, which man does not make. Likewise faith is not of ourselves but God's gift (Eph 2:8), not from the power of our nature or from free choice; this agrees with calling prevenient grace a virtue that frees and heals the will. Augustine: we are justified not by free will but by Christ's grace, not without our will, but grace heals the will and the healed will fulfills the law.",
+  "claims": [
+   "Virtue is a good quality of mind by which one lives rightly, which no one misuses, and which God alone works in man.",
+   "Man does the work of justice, not the virtue of justice.",
+   "Faith is purely God's gift, not from free choice.",
+   "Prevenient grace is a virtue that frees and heals the will.",
+   "We are justified by Christ's grace, which heals the will so that it fulfills the law."
+  ],
+  "concepts": [
+   "definition of virtue",
+   "virtue and act",
+   "justice",
+   "faith",
+   "justification",
+   "Ephesians 2:8",
+   "Augustine De spiritu et littera"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d27c5-d1e108",
+    "pl-l2d27c5-d1e111",
+    "pl-l2d27c5-d1e114",
+    "pl-l2d27c5-d1e121"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:37:02Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

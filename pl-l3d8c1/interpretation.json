@@ -1,0 +1,125 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T01:04:37Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l3d8c1-d1e117": {
+  "summary": "Asks whether it should be granted of the divine nature that it was born of the Virgin, as it is said to be incarnate in the Virgin.",
+  "claims": [],
+  "concepts": [
+   "birth of Christ",
+   "incarnation of the divine nature"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d8c1",
+    "pl-l3d5c1-d1e316"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:04:37Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d8c1-d1e120": {
+  "summary": "Argues that it should not be said to be born of the Virgin, since it is not born of the Father: what is not begotten of the Father does not seem to be born of the mother, lest something have the name of sonship in humanity that it does not have in divinity.",
+  "claims": [
+   "The divine nature is not born of the Father.",
+   "Nothing should be son in humanity that is not son in divinity."
+  ],
+  "concepts": [
+   "divine sonship",
+   "nature and person"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d8c1",
+    "pl-l3d8c1-d1e117",
+    "pl-l1d5c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:04:37Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d8c1-d1e123": {
+  "summary": "Argues on the other side: if God's being born of the Virgin is assuming man in her womb, and the divine nature was said earlier to have assumed man, it seems it should be said to be born.",
+  "claims": [
+   "Argument: the divine nature assumed man, so seems born of the Virgin."
+  ],
+  "concepts": [
+   "incarnation of the divine nature"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d8c1",
+    "pl-l3d8c1-d1e120"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:04:37Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d8c1-d1e127": {
+  "summary": "Cites Augustine, De fide ad Petrum: the eternal divine nature could not be conceived and born in time from human nature unless, by taking true humanity, the divinity received a true temporal conception and birth; thus the eternal God was truly conceived and born of the Virgin in time. This seems to say the divine nature was born, but on careful attention it concerns the person, which without doubt is born of the Father and of the mother.",
+  "claims": [
+   "Augustine's text speaks of the person, not the nature.",
+   "The person is born of the Father and the mother."
+  ],
+  "concepts": [
+   "nature and person",
+   "birth of Christ"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d8c1",
+    "pl-l3d8c1-d1e123"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:04:37Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d8c1": {
+  "summary": "Asks whether the divine nature should be said to be born of the Virgin, as it is said to be incarnate in her. It seems not, since it is not born of the Father, and nothing should have the name of sonship in humanity that it lacks in divinity. Yet it seems yes, since being born of the Virgin is assuming man in her womb, and the divine nature assumed man. Augustine, De fide ad Petrum, seems to say the eternal nature was conceived and born, but on careful reading he is speaking of the person, which is born of both Father and mother.",
+  "claims": [
+   "The divine nature is not born of the Father.",
+   "Augustine's text on the eternal nature being born refers to the person.",
+   "The person of the Son is born of the Father and of the mother."
+  ],
+  "concepts": [
+   "birth of Christ",
+   "incarnation of the divine nature",
+   "nature and person"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d8c1-d1e117",
+    "pl-l3d8c1-d1e120",
+    "pl-l3d8c1-d1e123",
+    "pl-l3d8c1-d1e127"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T01:04:37Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

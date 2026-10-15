@@ -1,0 +1,75 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T11:08:35Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l3d37c6-d1e112": {
+  "summary": "Asks whether every lie is forbidden. Some say only one that harms and does not benefit the hearer, since only that is 'against the neighbor', which they think is why Scripture added the phrase.",
+  "claims": [
+   "Some hold that only harmful lies are forbidden."
+  ],
+  "concepts": [
+   "lying",
+   "harm to neighbor",
+   "opposing opinion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d37c6"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:08:35Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d37c6-d1e118": {
+  "summary": "Notes that the question about lying is great and cannot be quickly resolved.",
+  "claims": [],
+  "concepts": [
+   "lying",
+   "open question"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d37c6"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:08:35Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d37c6": {
+  "summary": "Asks whether every lie is forbidden. Some say only a lie that harms and does not help the hearer is forbidden, since only that is 'against the neighbor', which is why Scripture adds that phrase. Lombard notes that the question of lying is great and cannot be quickly explained.",
+  "claims": [
+   "Some hold that only harmful lies are forbidden by the commandment.",
+   "The question of lying is difficult."
+  ],
+  "concepts": [
+   "lying",
+   "eighth commandment",
+   "harm to neighbor"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d37c6-d1e112",
+    "pl-l3d37c6-d1e118"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T11:08:35Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

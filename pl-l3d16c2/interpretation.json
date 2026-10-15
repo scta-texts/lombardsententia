@@ -1,0 +1,86 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T01:11:30Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l3d16c2-d1e117": {
+  "summary": "Notes that Christ, who came to save all, took something from every state of man; there are four: before sin, after sin and before grace, under grace, and in glory.",
+  "claims": [
+   "There are four states of man.",
+   "Christ took something from each."
+  ],
+  "concepts": [
+   "four states of man"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d16c2",
+    "pl-l3d16c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:11:30Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d16c2-d1e120": {
+  "summary": "Specifies: from the first state he took immunity from sin, as Augustine explains 'he who comes from above is above all' (Jn 3:31): from the height of human nature before sin, since the Word took human nature without the guilt whose penalty he took. From the second he took penalty and other defects; from the third, fullness of grace; from the fourth, inability to sin and perfect contemplation of God. So he had at once some goods of the way, goods of the homeland, and some evils of the way.",
+  "claims": [
+   "Christ took sinlessness from the first state.",
+   "Christ took penalty from the second, fullness of grace from the third, impeccability and contemplation from the fourth.",
+   "Christ had goods of the way, goods of the homeland, and evils of the way."
+  ],
+  "concepts": [
+   "four states of man",
+   "wayfarer and homeland",
+   "impeccability",
+   "contemplation of God"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d16c2",
+    "pl-l3d16c2-d1e117",
+    "pl-l3d13c1-d1e117"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:11:30Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d16c2": {
+  "summary": "Notes that Christ, who came to save all, took something from each of man's four states: before sin, after sin and before grace, under grace, and in glory. From the first he took immunity from sin (Augustine on Jn 3:31: he came 'from above', from human nature's height before sin); from the second, penalty and other defects; from the third, fullness of grace; from the fourth, inability to sin and perfect contemplation of God. He had at once some goods of the way, goods of the homeland, and some evils of the way.",
+  "claims": [
+   "Christ took something from each of the four states of man.",
+   "Christ had immunity from sin from the state before sin.",
+   "Christ had the penalty from the fallen state, fullness of grace from the state of grace, and impeccability and contemplation from the state of glory.",
+   "Christ was at once wayfarer and comprehensor."
+  ],
+  "concepts": [
+   "four states of man",
+   "wayfarer and homeland",
+   "impeccability",
+   "contemplation of God"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d16c2-d1e117",
+    "pl-l3d16c2-d1e120"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T01:11:30Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

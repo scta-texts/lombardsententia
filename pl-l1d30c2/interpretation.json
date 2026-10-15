@@ -1,0 +1,81 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T17:47:08Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll1d30c2-d1e3501": {
+  "summary": "Notes that the question posed earlier can now be solved: since the Spirit is called given, which relates to giver and recipient, and gives himself, is he related to himself when said to be given?",
+  "claims": [],
+  "concepts": [
+   "question resolved"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d30c2",
+    "pll1d18c6-d1e3477"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:47:08Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d30c2-d1e3504": {
+  "summary": "Answers that the Spirit is called given relatively to the giver and the recipient; the giver is Father with Son and Spirit. Yet we do not say the Spirit is related to himself; the name 'given' refers to giver and recipient. When the Spirit is given by himself, the relation is to the recipient, and the change is in the recipient, not the giver.",
+  "claims": [
+   "The Spirit is given by the three persons.",
+   "The Spirit is not related to himself.",
+   "The change in giving is in the recipient."
+  ],
+  "concepts": [
+   "donatum",
+   "relation to recipient"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d30c2",
+    "pll1d30c2-d1e3501",
+    "pll1d30c1-d1e3585"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:47:08Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1d30c2": {
+  "summary": "Resolves the earlier question whether the Spirit, giving himself, is related to himself as 'given.' The Spirit is called given relatively to the giver (Father, Son, and Spirit) and to the recipient, but he is not related to himself: the name 'given' refers to giver and recipient, and when he is given by himself it relates him to the recipient, in whom the change occurs, not in the giver.",
+  "claims": [
+   "The Spirit is called given relatively to the giver and the recipient.",
+   "The giver is Father, Son, and Spirit together.",
+   "The Spirit is not said to be related to himself.",
+   "The change in giving is in the recipient, not the giver."
+  ],
+  "concepts": [
+   "datum",
+   "self-giving",
+   "temporal relation",
+   "deferred question resolved"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d30c2-d1e3501",
+    "pll1d30c2-d1e3504"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T17:47:08Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

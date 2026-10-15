@@ -1,0 +1,63 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:00:33Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll2d7c8-d1e3514": {
+  "summary": "Denies that the bad angels are creators though the magicians made frogs and serpents through them. Hidden seeds of all bodily things lie in the elements, placed by God, who is creator as creator of the invisible seeds from which things take their beginnings, growth, and forms. As parents and farmers are not creators, neither are good or bad angels; by subtlety they know these seeds and scatter them, giving occasions for generation and growth. The good do this at God's command, the bad only as he justly permits; their will is unjust, but their power is just.",
+  "claims": [
+   "Angels are not creators.",
+   "God placed hidden seeds in the elements.",
+   "Angels give occasions, not creation."
+  ],
+  "concepts": [
+   "seminal reasons",
+   "occasions"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d7c8",
+    "pl-l2d7c7"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:00:33Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d7c8": {
+  "summary": "Denies that the bad angels are creators because the magicians made frogs and serpents through them. With Augustine, hidden seeds of all bodily things lie in the elements, placed there by God, who is creator of all as creator of the invisible seeds. As parents are not creators of humans nor farmers of crops, neither good nor bad angels are creators; by their subtlety they know these hidden seeds and scatter them, providing occasions for generation and growth. The good do this at God's command, the bad only as God justly permits; their will is unjust, but their power is given justly, for punishment or for the praise of the good.",
+  "claims": [
+   "Demons are not creators.",
+   "Hidden seeds of bodily things lie in the elements, placed there by God.",
+   "God is creator of all things as creator of the invisible seeds.",
+   "Angels, good and bad, only provide external occasions for generation.",
+   "The good act at God's command, the bad only as he justly permits.",
+   "Demons' will is unjust, but their power is justly given."
+  ],
+  "concepts": [
+   "seminal reasons",
+   "creation vs making",
+   "demonic power",
+   "Augustine De Trinitate III",
+   "permission"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll2d7c8-d1e3514"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:00:33Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

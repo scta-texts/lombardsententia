@@ -1,0 +1,81 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T11:50:19Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d3c3-d1e112": {
+  "summary": "Notes that Acts records the apostles baptizing in the name of Christ, but, as Ambrose explains, the whole Trinity is understood in that name: saying 'Christ' implies the Father who anointed, the Son who was anointed, and the Holy Spirit by whom he was anointed.",
+  "claims": [
+   "The name of Christ implies the whole Trinity."
+  ],
+  "concepts": [
+   "name of Christ",
+   "anointing",
+   "Trinity",
+   "Ambrose"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d3c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:50:19Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d3c3-d1e118": {
+  "summary": "Quotes Pope Nicholas on many baptized by a Jew: if baptized in the name of the Holy Trinity, or in the name of Christ as in Acts, they are baptized, since, as Ambrose explains, these are one and the same.",
+  "claims": [
+   "Baptism in the name of the Trinity or of Christ is valid."
+  ],
+  "concepts": [
+   "validity",
+   "form of baptism",
+   "Nicholas I"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d3c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:50:19Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d3c3": {
+  "summary": "Addresses the apostles' baptism in the name of Christ in Acts: Ambrose explains that the whole Trinity is understood in that name, since 'Christ' implies the Father who anointed, the Son anointed, and the Spirit with whom he was anointed. Pope Nicholas accordingly accepts as valid baptisms given in the name of the Trinity or of Christ.",
+  "claims": [
+   "Baptism in the name of Christ implies the whole Trinity.",
+   "Baptism in the name of Christ is valid."
+  ],
+  "concepts": [
+   "form of baptism",
+   "name of Christ",
+   "Trinity",
+   "Ambrose",
+   "Nicholas I"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d3c3-d1e112",
+    "pl-l4d3c3-d1e118"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T11:50:19Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

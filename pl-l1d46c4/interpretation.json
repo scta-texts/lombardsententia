@@ -1,0 +1,151 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T18:44:46Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll1d46c4-d1e3510": {
+  "summary": "Explains Augustine's 'it is good that evils happen': God draws good from evils and would not permit them unless he made some good from them.",
+  "claims": [
+   "God draws good from evils."
+  ],
+  "concepts": [
+   "good from evil"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d46c4",
+    "pll1d46c3-d1e3550"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:44:46Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d46c4-d1e3525": {
+  "summary": "Cites the Enchiridion: the supremely good omnipotent God would in no way permit evil in his works unless so omnipotent and good as to do good even from evil.",
+  "claims": [
+   "God permits evil only because he can bring good from it."
+  ],
+  "concepts": [
+   "Augustine Enchiridion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d46c4",
+    "pll1d46c4-d1e3510"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:44:46Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d46c4-d1e3543": {
+  "summary": "Further: God judged it better to make goods from evils than to permit no evils.",
+  "claims": [
+   "It is better to bring good from evil than to permit no evil."
+  ],
+  "concepts": [
+   "divine judgment"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d46c4",
+    "pll1d46c4-d1e3525"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:44:46Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d46c4-d1e3560": {
+  "summary": "Concludes that it is true in this sense that it is good that evils happen, since benefit accrues to the saints called according to purpose, for whom all things, even evils, work together for good (Rom 8:28), profiting them while harming those who do them.",
+  "claims": [
+   "Evils benefit the elect.",
+   "All things work together for good for the elect."
+  ],
+  "concepts": [
+   "Romans 8:28",
+   "utility"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d46c4",
+    "pll1d46c4-d1e3543"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:44:46Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d46c4-d1e3586": {
+  "summary": "Notes that evil is sometimes called good in Scripture, as Jerome says Judas's evil was good for us; but what is good for someone is not thereby good simply. Properly and simply good is what is good in itself and for the doer.",
+  "claims": [
+   "What is good for someone is not good simply.",
+   "Simply good is good in itself and for the doer."
+  ],
+  "concepts": [
+   "relative vs simple good",
+   "Jerome"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d46c4",
+    "pll1d46c4-d1e3560"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:44:46Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1d46c4": {
+  "summary": "Explains Augustine's 'it is good that evils happen': God draws good from evils and would not permit them unless he made some good from them. Augustine: the supremely good and omnipotent God would never permit evil in his works unless he could make good even from evil; he judged it better to make goods from evils than to permit no evils. So it is 'good that evils happen' because goodness, that is benefit, comes to the saints called according to purpose, for whom all things, even evils, work together for good (Rom 8:28). So evil is sometimes called good, as Judas's evil was good for us (Jerome); but what is good for someone is not good simply.",
+  "claims": [
+   "'It is good that evils happen' means God draws good from evils.",
+   "God permits evil only because he can make good from it.",
+   "God judged it better to make good from evil than to permit no evil.",
+   "For the elect all things, even evils, work together for good.",
+   "What is good for someone is not thereby good simply."
+  ],
+  "concepts": [
+   "good from evil",
+   "permission",
+   "Romans 8:28",
+   "Judas",
+   "relative vs simple good"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d46c4-d1e3510",
+    "pll1d46c4-d1e3525",
+    "pll1d46c4-d1e3543",
+    "pll1d46c4-d1e3560",
+    "pll1d46c4-d1e3586"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T18:44:46Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

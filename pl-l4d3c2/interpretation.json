@@ -1,0 +1,99 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T11:50:19Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d3c2-d1e115": {
+  "summary": "Asks what the word is which, coming to the element, makes the sacrament.",
+  "claims": [],
+  "concepts": [
+   "form of baptism",
+   "word and element"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d3c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:50:19Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d3c2-d1e118": {
+  "summary": "Answers from Christ's words to the disciples: 'Go, teach all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit'. The invocation of the Trinity is the word by which baptism is consecrated, and this is the form of words under which it is given.",
+  "claims": [
+   "The form of baptism is the invocation of the Trinity."
+  ],
+  "concepts": [
+   "form of baptism",
+   "invocation of the Trinity",
+   "Matthew 28:19"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d3c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:50:19Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d3c2-d1e121": {
+  "summary": "Quotes Pope Zachary: an English synod firmly decreed that whoever was immersed without invoking the Trinity did not have the sacrament of regeneration; and indeed one immersed in the font without that invocation is not a perfect Christian unless baptized in the name of the Father, Son, and Holy Spirit.",
+  "claims": [
+   "Immersion without invoking the Trinity does not give the sacrament."
+  ],
+  "concepts": [
+   "form of baptism",
+   "invocation of the Trinity",
+   "Zachary",
+   "validity"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d3c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:50:19Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d3c2": {
+  "summary": "Identifies the word that makes the sacrament: Christ's command to baptize in the name of the Father, Son, and Holy Spirit. The invocation of the Trinity is the form of words under which baptism is given; Pope Zachary confirms that one immersed without invoking the Trinity does not have the sacrament of regeneration.",
+  "claims": [
+   "The form of baptism is the invocation of the Trinity.",
+   "Immersion without invoking the Trinity is not baptism."
+  ],
+  "concepts": [
+   "form of baptism",
+   "invocation of the Trinity",
+   "Matthew 28:19"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d3c2-d1e115",
+    "pl-l4d3c2-d1e118",
+    "pl-l4d3c2-d1e121"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T11:50:19Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

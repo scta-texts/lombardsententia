@@ -1,0 +1,141 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T13:04:02Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d34c1-d1e115": {
+  "summary": "Turns to which persons are lawful for contracting marriage.",
+  "claims": [],
+  "concepts": [
+   "lawful persons",
+   "impediments"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d34c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:04:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d34c1-d1e118": {
+  "summary": "Explains that lawful persons are judged by the statutes of the Fathers, which differ: some were lawful before the Law, others in the time of grace; some were lawful in the primitive Church who are not now. Of those now lawful or unlawful, some are fully lawful, some wholly unlawful, some intermediate.",
+  "claims": [
+   "Lawfulness for marriage varies with the times.",
+   "Persons are fully lawful, wholly unlawful, or intermediate."
+  ],
+  "concepts": [
+   "lawful persons",
+   "dispensation"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d34c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:04:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d34c1-d1e121": {
+  "summary": "Defines fully lawful persons as those not hindered by vow of continence, holy order, kinship, disparity of worship, condition, natural frigidity, or anything else.",
+  "claims": [
+   "Fully lawful persons are free of all impediments."
+  ],
+  "concepts": [
+   "impediments"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d34c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:04:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d34c1-d1e125": {
+  "summary": "States that persons are wholly unlawful by vow, order, kinship, and disparity of worship.",
+  "claims": [
+   "Vow, order, kinship, and disparity of worship are diriment impediments."
+  ],
+  "concepts": [
+   "diriment impediments"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d34c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:04:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d34c1-d1e128": {
+  "summary": "States that persons are intermediate, neither fully lawful nor wholly unlawful, by frigidity and condition: if joined in ignorance, they can remain together if certain causes are present, and be separated if they are lacking.",
+  "claims": [
+   "Frigidity and condition are intermediate impediments."
+  ],
+  "concepts": [
+   "impotence",
+   "servile condition",
+   "impediments"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d34c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:04:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d34c1": {
+  "summary": "Turns to which persons are lawful for marriage, determined by the varying statutes of the Fathers before the Law, under grace, and in the primitive Church. Now some are fully lawful, free of vow, holy order, kinship, disparity of worship, servile condition, frigidity, and other impediments; some wholly unlawful, by vow, order, kinship, or disparity of worship; and some intermediate, by frigidity or condition, who if joined in ignorance may remain together or be separated according to circumstances.",
+  "claims": [
+   "Lawful persons are determined by the Church's changing statutes.",
+   "Vow, order, kinship, and disparity of worship make persons wholly unlawful.",
+   "Frigidity and servile condition make persons intermediately unlawful."
+  ],
+  "concepts": [
+   "impediments",
+   "lawful persons",
+   "diriment impediments"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d34c1-d1e115",
+    "pl-l4d34c1-d1e118",
+    "pl-l4d34c1-d1e121",
+    "pl-l4d34c1-d1e125",
+    "pl-l4d34c1-d1e128"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T13:04:02Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

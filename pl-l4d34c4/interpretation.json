@@ -1,0 +1,98 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T13:04:02Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d34c4-d1e115": {
+  "summary": "States that the insane cannot contract marriage while in madness.",
+  "claims": [
+   "The insane cannot consent to marriage."
+  ],
+  "concepts": [
+   "insanity",
+   "consent"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d34c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:04:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d34c4-d1e118": {
+  "summary": "Cites Pope Fabian: neither a madman nor a madwoman can contract marriage, but if it has been contracted they are not to be separated.",
+  "claims": [
+   "Marriages of the insane are not dissolved once contracted."
+  ],
+  "concepts": [
+   "insanity",
+   "Fabian"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d34c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:04:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d34c4-d1e124": {
+  "summary": "Cites Nicholas: marriages contracted while sane, where one or both later become insane or ill, cannot be dissolved for that illness; likewise for those blinded, mutilated, or castrated by enemies or barbarians.",
+  "claims": [
+   "Later insanity or mutilation does not dissolve marriage."
+  ],
+  "concepts": [
+   "indissolubility",
+   "Nicholas I"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d34c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:04:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d34c4": {
+  "summary": "The insane cannot contract marriage while insane, as Pope Fabian says, but if contracted it is not to be dissolved; and Nicholas holds that marriages contracted while sane are not dissolved if one or both become insane, blinded, or mutilated.",
+  "claims": [
+   "The insane cannot contract marriage.",
+   "Insanity or mutilation after marriage does not dissolve it."
+  ],
+  "concepts": [
+   "insanity",
+   "consent",
+   "indissolubility"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d34c4-d1e115",
+    "pl-l4d34c4-d1e118",
+    "pl-l4d34c4-d1e124"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T13:04:02Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

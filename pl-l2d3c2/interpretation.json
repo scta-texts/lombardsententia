@@ -1,0 +1,102 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T18:57:50Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll2d3c2-d1e3514": {
+  "summary": "Asks whether all angels were equal in spiritual substance, rational wisdom, and freedom of choice, considering substance, form, and power.",
+  "claims": [],
+  "concepts": [
+   "question"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d3c2",
+    "pl-l2d3c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:57:50Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d3c2-d1e3526": {
+  "summary": "Explains, following Hugh, that person is substance, wisdom form, choice power; subtlety of nature belongs to substance, perspicacity of understanding to form, and aptitude of rational will to power.",
+  "claims": [
+   "Substance, form, and power correspond to nature, understanding, and will."
+  ],
+  "concepts": [
+   "Hugh of St Victor"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d3c2",
+    "pll2d3c2-d1e3514"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:57:50Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d3c2-d1e3538": {
+  "summary": "Holds that the angels differed in subtlety of essence, perspicacity of wisdom, and aptitude of choice, as bodies differ in essence, form, and weight. God made some superior and others inferior; those more excellent by nature were later endowed with greater gifts of grace and higher dignity, God ordering all in just measure. Differences in vigor imply no weakness, lesser knowledge no ignorance, and lesser freedom no necessity on the will.",
+  "claims": [
+   "Angels were unequal in natural gifts.",
+   "Greater natural gifts were followed by greater grace and rank.",
+   "Lesser freedom does not mean necessity."
+  ],
+  "concepts": [
+   "inequality of angels",
+   "grace follows nature"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d3c2",
+    "pll2d3c2-d1e3526"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:57:50Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d3c2": {
+  "summary": "Asks whether all angels were equal in substance, wisdom, and freedom of choice, following Hugh of St Victor: substance (person), form (wisdom), and power (choice). Angels differed in subtlety of essence, perspicacity of wisdom, and aptitude of choice, as bodies differ in essence, form, and weight. God gave greater natural gifts to some, and those more excellent by nature later received greater gifts of grace and higher rank. Lesser natural vigor implies no weakness, lesser knowledge no ignorance, and lesser freedom no necessity.",
+  "claims": [
+   "Angels differed in subtlety of nature, perspicacity of wisdom, and aptitude of choice.",
+   "Those higher in natural gifts received greater gifts of grace and higher rank.",
+   "God ordered these differences in just measure.",
+   "Lesser freedom imposes no necessity on the will."
+  ],
+  "concepts": [
+   "angelic hierarchy",
+   "natural and gratuitous gifts",
+   "Hugh of St Victor",
+   "substance, form, power"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll2d3c2-d1e3514",
+    "pll2d3c2-d1e3526",
+    "pll2d3c2-d1e3538"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T18:57:50Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

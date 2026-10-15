@@ -1,0 +1,101 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T11:10:24Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l3d39c1-d1e115": {
+  "summary": "Turns to perjury and defines it as a lie confirmed by oath.",
+  "claims": [
+   "Perjury is a lie confirmed by oath."
+  ],
+  "concepts": [
+   "perjury",
+   "oath"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d39c1",
+    "pl-l3d38c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:10:24Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d39c1-d1e121": {
+  "summary": "Asks whether there is perjury where there is no lie.",
+  "claims": [],
+  "concepts": [
+   "perjury",
+   "lying"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d39c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:10:24Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d39c1-d1e124": {
+  "summary": "Reports that some think so, on Jerome's authority: an oath has three companions, truth, judgment, and justice, and without them it is not an oath but perjury. Where something false is sworn truth is lacking, so swearing falsely, even without intent to deceive, seems to be perjury.",
+  "claims": [
+   "An oath requires truth, judgment, and justice.",
+   "Swearing falsely without intent to deceive seems to be perjury."
+  ],
+  "concepts": [
+   "three companions of an oath",
+   "perjury",
+   "Jerome"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d39c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:10:24Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d39c1": {
+  "summary": "Turns to perjury, defined as a lie confirmed by oath, and asks whether there is perjury where there is no lie. Some think so, from Jerome: an oath has three companions, truth, judgment, and justice, and without them it is perjury; so swearing to something false, even without intent to deceive, seems to be perjury since truth is lacking.",
+  "claims": [
+   "Perjury is a lie confirmed by oath.",
+   "An oath requires truth, judgment, and justice.",
+   "Some hold that swearing falsely without intent to deceive is perjury."
+  ],
+  "concepts": [
+   "perjury",
+   "oath",
+   "three companions of an oath",
+   "Jerome"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d39c1-d1e115",
+    "pl-l3d39c1-d1e121",
+    "pl-l3d39c1-d1e124"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T11:10:24Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

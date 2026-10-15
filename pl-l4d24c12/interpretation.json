@@ -1,0 +1,57 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T12:50:50Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d24c12-d1e112": {
+  "summary": "States that although all are spiritual and sacred, the canons call only two sacred orders in an eminent sense, the diaconate and presbyterate, since the primitive Church is read to have had only these and the Apostle gave precepts only about them; the apostles ordained bishops and presbyters in each city and Levites, chief of whom was Stephen; subdeacons and acolytes the Church established in time.",
+  "claims": [
+   "Only the diaconate and presbyterate are sacred orders in the eminent sense.",
+   "Lower orders were instituted later by the Church."
+  ],
+  "concepts": [
+   "major and minor orders",
+   "primitive Church",
+   "Stephen"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d24c12"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:50:50Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d24c12": {
+  "summary": "Though all orders are spiritual and sacred, the canons call only two sacred orders in an eminent sense, the diaconate and presbyterate, since the primitive Church had only these and the Apostle gave precepts for them; the apostles ordained bishops and presbyters and Levites such as Stephen, while the Church later established subdeacons and acolytes.",
+  "claims": [
+   "Only the diaconate and presbyterate are sacred orders in the eminent sense.",
+   "The primitive Church had only these.",
+   "Lower orders were established by the Church later."
+  ],
+  "concepts": [
+   "major and minor orders",
+   "sacred orders",
+   "primitive Church"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d24c12-d1e112"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T12:50:50Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

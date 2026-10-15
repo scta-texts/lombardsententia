@@ -1,0 +1,190 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T01:07:53Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l3d11c3-d1e117": {
+  "summary": "Asks whether that man began to be or always was, as we say simply that Christ or the Son of God always was and did not begin.",
+  "claims": [],
+  "concepts": [
+   "eternity and time",
+   "assumed man"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d11c3",
+    "pl-l3d11c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:07:53Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d11c3-d1e120": {
+  "summary": "Cites Augustine on John: the Son of God once had what the same as son of man did not yet have, since he was not yet man.",
+  "claims": [
+   "The man did not exist before the incarnation."
+  ],
+  "concepts": [
+   "eternity and time"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d11c3",
+    "pl-l3d11c3-d1e117"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:07:53Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d11c3-d1e132": {
+  "summary": "Adds Augustine: before the world was, neither we existed nor the mediator of God and men, the man Christ Jesus.",
+  "claims": [
+   "The man Christ Jesus did not exist before the world."
+  ],
+  "concepts": [
+   "mediator",
+   "eternity and time"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d11c3",
+    "pl-l3d11c3-d1e120"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:07:53Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d11c3-d1e139": {
+  "summary": "Adds Augustine on the Psalms: our Christ, though perhaps a recent man, is nonetheless eternal God.",
+  "claims": [
+   "Christ is recent as man and eternal as God."
+  ],
+  "concepts": [
+   "eternity and time"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d11c3",
+    "pl-l3d11c3-d1e132"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:07:53Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d11c3-d1e148": {
+  "summary": "Cites texts on the other side: elsewhere it is read that the child created the stars, and Christ says he is the beginning and before Abraham (Jn 8:25, 58).",
+  "claims": [
+   "Texts attribute eternity and creation to the man Christ."
+  ],
+  "concepts": [
+   "communication of predicates"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d11c3",
+    "pl-l3d11c3-d1e139"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:07:53Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d11c3-d1e157": {
+  "summary": "Answers without rejecting these authorities: that man, insofar as he is man, began; insofar as he is the Word, he always was.",
+  "claims": [
+   "As man he began, as Word he always was."
+  ],
+  "concepts": [
+   "secundum quod",
+   "eternity and time"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d11c3",
+    "pl-l3d11c3-d1e148"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:07:53Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d11c3-d1e160": {
+  "summary": "Insists that no answer should be given without distinction, as Augustine himself distinguishes: all things were made through Christ insofar as he is the Word, while according to his being man he was made and glorified. If you look to the person, say confidently that that man always was; if to the human nature, grant that he began.",
+  "claims": [
+   "Regarding the person, that man always was.",
+   "Regarding the nature, he began."
+  ],
+  "concepts": [
+   "person and nature",
+   "distinction"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d11c3",
+    "pl-l3d11c3-d1e157"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:07:53Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d11c3": {
+  "summary": "Asks whether that man began to be or always was, as we say the Son of God always was. Augustine says the Son of God had something before the man had it, since the man did not yet exist, and that Christ, though recent as man, is eternal God; elsewhere the child is said to have made the stars and Christ to be before Abraham. Lombard answers with a distinction: as man he began, as Word he always was; with respect to the person, that man always was; with respect to the human nature, he began.",
+  "claims": [
+   "As man Christ began to be; as Word he always was.",
+   "With respect to the person, that man always was; with respect to the nature, he began."
+  ],
+  "concepts": [
+   "eternity and time",
+   "person and nature",
+   "secundum quod",
+   "communication of predicates"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d11c3-d1e117",
+    "pl-l3d11c3-d1e120",
+    "pl-l3d11c3-d1e132",
+    "pl-l3d11c3-d1e139",
+    "pl-l3d11c3-d1e148",
+    "pl-l3d11c3-d1e157",
+    "pl-l3d11c3-d1e160"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T01:07:53Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

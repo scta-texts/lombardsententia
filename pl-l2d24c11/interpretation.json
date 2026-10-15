@@ -1,0 +1,54 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:32:08Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d24c11-d1e105": {
+  "summary": "States that if there is full will to accomplish the sin, to be carried out if possible, the man also eats, since higher reason consents, and then the sin is damnable and grave.",
+  "claims": [
+   "Full will to accomplish sin is mortal."
+  ],
+  "concepts": [
+   "mortal sin"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d24c11",
+    "pl-l2d24c10"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:32:08Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d24c11": {
+  "summary": "If there is full will to accomplish the sin, so that it would be carried out if possible, the man also eats, the higher reason consenting, and the sin is grave and damnable.",
+  "claims": [
+   "Full will to accomplish the sin is the man eating.",
+   "Such sin is grave and damnable."
+  ],
+  "concepts": [
+   "mortal sin",
+   "consent",
+   "stages of sin"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d24c11-d1e105"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:32:08Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

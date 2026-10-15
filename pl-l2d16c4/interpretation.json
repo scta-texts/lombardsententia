@@ -1,0 +1,104 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:12:58Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll2d16c4-d1e3519": {
+  "summary": "States that man is called both image and 'to the image,' while the Son is image but not 'to the image,' since born, not created, equal and in no way unlike; man is created, not begotten, not equal but approaching by a certain likeness.",
+  "claims": [
+   "The Son is image as equal; man is image as like."
+  ],
+  "concepts": [
+   "image vs ad imaginem"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d16c4",
+    "pl-l2d16c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:12:58Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d16c4-d1e3524": {
+  "summary": "Cites De Trinitate VII: 'let us make... our' is plural and relative, so the Father, Son, and Spirit made man to their image, that he might be God's image; but not equal, being created, not born, so he is image and 'to the image,' approaching by likeness. The Son is image but not to the image, being equal. Man is the image of the Trinity, not equal to it as the Son to the Father.",
+  "claims": [
+   "Man is image of the Trinity by unequal likeness.",
+   "The Son is image by equality."
+  ],
+  "concepts": [
+   "Augustine De Trinitate VII"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d16c4",
+    "pll2d16c4-d1e3519"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:12:58Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d16c4-d1e3555": {
+  "summary": "Concludes that man is like God by the soul, but the body has a property indicating it, upright stature, fitting the rational soul because raised toward heaven.",
+  "claims": [
+   "Man's likeness to God is in the soul.",
+   "Upright stature signals the rational soul."
+  ],
+  "concepts": [
+   "upright stature"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d16c4",
+    "pll2d16c4-d1e3524"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:12:58Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d16c4": {
+  "summary": "Explains that man is called both image and 'to the image,' while the Son is image but not 'to the image,' since begotten, equal, and in no way unlike; man is created, not equal, but approaching by likeness (Augustine: 'our' shows man as image of the Trinity, not equal to it as the Son to the Father). Man's likeness to God is in the soul, but the body shows a sign of it: upright stature, raised to heaven, befitting the rational soul.",
+  "claims": [
+   "Man is image and made to the image; the Son is image but not to the image.",
+   "The Son is begotten and equal; man is created and only like.",
+   "Man is the image of the Trinity, not equal to it.",
+   "Man's likeness to God is in the soul.",
+   "Man's upright stature is a bodily sign of the rational soul."
+  ],
+  "concepts": [
+   "imago Dei",
+   "Son as image",
+   "Augustine De Trinitate VII",
+   "upright stature"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll2d16c4-d1e3519",
+    "pll2d16c4-d1e3524",
+    "pll2d16c4-d1e3555"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:12:58Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

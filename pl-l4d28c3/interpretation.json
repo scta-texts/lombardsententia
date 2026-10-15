@@ -1,0 +1,58 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T12:55:20Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d28c3-d1e115": {
+  "summary": "Asks, since present consent makes marriage, to what it consents: carnal union, cohabitation, or both. If consent to cohabitation makes marriage, a brother could marry his sister; if to carnal union, there was no marriage between Mary and Joseph, since Mary had resolved to remain a virgin unless God commanded otherwise, as her words 'how shall this be, since I know not man', meaning I resolved never to know one, and Bede show. If she later consented to carnal union against her resolution, she would seem guilty of violating her vow in mind if not in deed.",
+  "claims": [
+   "Neither cohabitation nor carnal union can be the object of marital consent.",
+   "Mary had resolved to remain a virgin."
+  ],
+  "concepts": [
+   "object of consent",
+   "Mary's virginity",
+   "vow",
+   "difficulty"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d28c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:55:20Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d28c3": {
+  "summary": "Asks to what present consent consents: carnal union, cohabitation, or both. If cohabitation, a brother and sister could marry; if carnal union, Mary and Joseph were not married, since Mary had resolved to remain a virgin, as her question to the angel and Bede show; if she later consented to carnal union against her resolution, she would seem guilty of breaking her vow in mind.",
+  "claims": [
+   "Consent to cohabitation alone cannot be what makes marriage.",
+   "Consent to carnal union cannot be what makes marriage, given Mary's resolve of virginity."
+  ],
+  "concepts": [
+   "object of consent",
+   "Mary's virginity",
+   "Mary and Joseph",
+   "difficulty"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d28c3-d1e115"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T12:55:20Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

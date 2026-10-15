@@ -1,0 +1,132 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T01:11:30Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l3d17c3-d1e117": {
+  "summary": "Reports troubling words of Ambrose, De Trinitate II, that seem to say Christ doubted the Father's power by human affection: of whom does he doubt? Of the Father, to whom he says 'take away'; he doubts with man's affection; God does not doubt the Father nor fear death; the Prophet does not doubt that nothing is impossible with God; as man he doubts, as man he spoke.",
+  "claims": [
+   "Ambrose seems to say Christ doubted as man."
+  ],
+  "concepts": [
+   "doubt",
+   "Ambrose"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d17c3",
+    "pl-l3d17c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:11:30Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d17c3-d1e132": {
+  "summary": "Interprets Ambrose: the words suggest that Christ doubted by human affection, not as God but as man, but they can be taken to mean not that he doubted, but that he acted as one doubting and seemed to men to doubt.",
+  "claims": [
+   "Christ did not doubt but behaved as one doubting."
+  ],
+  "concepts": [
+   "doubt",
+   "appearance",
+   "harmonizing authorities"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d17c3",
+    "pl-l3d17c3-d1e117"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:11:30Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d17c3-d1e135": {
+  "summary": "Reports Hilary's view that Christ prayed not for himself but for his own: if the passion would glorify him, how could fear of it make him sad, unless he were so irrational as to fear a death that would glorify him? He hastened to fulfill the dispensation, so he cannot have prayed not to suffer what he willed to suffer. He was sad and prayed for his disciples, that the cup would not rest on them but pass from them; 'not as I will' signifies sharing human anxiety, not dissent from the will common to him and the Father. Knowing their scandal would end after his death, he was sad unto death and knew the cup could not pass unless he drank it; after his death the scandal of the apostles' weakness would be driven out by the glory of miracles.",
+  "claims": [
+   "Hilary holds Christ did not fear his own passion.",
+   "Christ prayed that the cup pass from his disciples.",
+   "The disciples' scandal would end with Christ's death."
+  ],
+  "concepts": [
+   "Hilary",
+   "prayer of Christ",
+   "sorrow of Christ",
+   "scandal of the apostles"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d17c3",
+    "pl-l3d17c3-d1e132",
+    "pl-l3d15c4-d1e120"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:11:30Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d17c3-d1e176": {
+  "summary": "Warns the reader to attend to these words with pious diligence, lest they become vessels of death.",
+  "claims": [
+   "Hilary's words must be read with care."
+  ],
+  "concepts": [
+   "hermeneutics"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d17c3",
+    "pl-l3d17c3-d1e135"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:11:30Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d17c3": {
+  "summary": "Addresses troubling words of Ambrose that Christ, by human affection, doubted the Father's power ('as man he doubts'); Lombard reads them as meaning not that he doubted but that he acted as one doubting and seemed to doubt. Hilary seems to say Christ prayed not for himself but for his disciples, that the cup of the passion would pass from them to him, since he willed to suffer and his sorrow was for their coming scandal, which would end with his death. The reader is warned to read these words with pious care, lest they become vessels of death.",
+  "claims": [
+   "Christ did not doubt the Father's power but acted as one doubting.",
+   "Hilary holds that Christ prayed for his disciples, not for himself.",
+   "Hilary's words must be read with pious care."
+  ],
+  "concepts": [
+   "doubt",
+   "prayer of Christ",
+   "Hilary",
+   "Ambrose",
+   "harmonizing authorities"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d17c3-d1e117",
+    "pl-l3d17c3-d1e132",
+    "pl-l3d17c3-d1e135",
+    "pl-l3d17c3-d1e176"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T01:11:30Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

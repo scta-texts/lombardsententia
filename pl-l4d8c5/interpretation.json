@@ -1,0 +1,126 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T11:54:53Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d8c5-d1e112": {
+  "summary": "Asks why he gave the sacrament to the disciples after supper.",
+  "claims": [],
+  "concepts": [
+   "Last Supper"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d8c5"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:54:53Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d8c5-d1e115": {
+  "summary": "Answers that the Lord Jesus, about to go to the invisible things of the Father's majesty, having celebrated the typical Passover, wished to leave a memorial and gave them his body and blood under the species of bread and wine, to show that the sacraments of the Old Law, chief among them the paschal lamb, ended in his death and the sacraments of the New Law, in which the eucharist excels, replaced them. He gave it after the others so it would be fixed more firmly in their memory and frequented by the Church.",
+  "claims": [
+   "The eucharist is a memorial left by Christ.",
+   "It marks the replacement of the old sacraments by the new.",
+   "It was given last to be remembered."
+  ],
+  "concepts": [
+   "memorial",
+   "end of the Law",
+   "paschal lamb",
+   "Last Supper"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d8c5"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:54:53Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d8c5-d1e118": {
+  "summary": "Adds that he did not thereby establish that it be taken after other food; rather it should be taken fasting, as the Apostle teaches, so that it is discerned with singular reverence from other food, which the Lord left the apostles to arrange.",
+  "claims": [
+   "The eucharist should be received fasting."
+  ],
+  "concepts": [
+   "eucharistic fast",
+   "reverence"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d8c5"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:54:53Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d8c5-d1e124": {
+  "summary": "Quotes Augustine: the disciples did not receive the eucharist fasting the first time, yet the Church is not to be faulted for always receiving it fasting; it pleased the Holy Spirit that the Lord's body enter a Christian's mouth before other food, so this custom is kept everywhere. Christ gave it last to impress the mystery more deeply on the disciples before his passion, and left the order of receiving it to the apostles.",
+  "claims": [
+   "Receiving fasting is a custom established by the Spirit.",
+   "Christ left the order of receiving to the apostles."
+  ],
+  "concepts": [
+   "eucharistic fast",
+   "custom of the Church",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d8c5"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:54:53Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d8c5": {
+  "summary": "Asks why Christ gave the sacrament after supper. About to depart to the Father, having celebrated the typical Passover, he gave his body and blood under bread and wine as a memorial, to show that the old sacraments, chiefly the paschal lamb, ended in his death and the new, with the eucharist pre-eminent, replaced them; and he gave it last so that it would be fixed in the disciples' memory. He did not thereby decree that it be taken after other food; it should be taken fasting, out of reverence, as the apostles arranged and Augustine confirms.",
+  "claims": [
+   "Christ gave the eucharist after the Passover to show the end of the old sacraments.",
+   "He gave it last to fix it in the disciples' memory.",
+   "The eucharist is to be received fasting, by the Church's practice."
+  ],
+  "concepts": [
+   "Last Supper",
+   "memorial",
+   "end of the Law",
+   "eucharistic fast",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d8c5-d1e112",
+    "pl-l4d8c5-d1e115",
+    "pl-l4d8c5-d1e118",
+    "pl-l4d8c5-d1e124"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T11:54:53Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

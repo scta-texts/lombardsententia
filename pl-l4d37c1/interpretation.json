@@ -1,0 +1,166 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T13:04:02Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d37c1-d1e115": {
+  "summary": "Turns to the other things that make persons wholly unlawful, and first order.",
+  "claims": [],
+  "concepts": [
+   "holy orders",
+   "impediments"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d37c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:04:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d37c1-d1e118": {
+  "summary": "States that in some orders marriage can by no means be contracted, and if union occurs there is divorce: priesthood, diaconate, and subdiaconate; in others marriage is permitted, unless they have taken the religious habit or vowed continence.",
+  "claims": [
+   "Major orders invalidate marriage.",
+   "Minor orders permit marriage unless vowed."
+  ],
+  "concepts": [
+   "major and minor orders",
+   "impediments"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d37c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:04:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d37c1-d1e121": {
+  "summary": "Cites Pope Leo: the Roman Church permits clerics, lectors, porters, exorcists, and acolytes outside vow and habit who will not profess continence to marry a virgin, not a widow or divorced woman, since they cannot thereafter be promoted to the subdiaconate, nor can a layman who married a non-virgin or a bigamist become a cleric.",
+  "claims": [
+   "Minor clerics may marry a virgin but cannot then advance."
+  ],
+  "concepts": [
+   "minor orders",
+   "bigamy",
+   "Leo"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d37c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:04:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d37c1-d1e128": {
+  "summary": "Cites the Council of Carthage: bishops, priests, deacons, and subdeacons must abstain from their wives, or be removed from ecclesiastical office; other clerics are not compelled.",
+  "claims": [
+   "Clerics in major orders must abstain from their wives."
+  ],
+  "concepts": [
+   "clerical continence",
+   "conciliar law"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d37c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:04:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d37c1-d1e137": {
+  "summary": "Adds Leo: the law of continence is the same for altar ministers as for bishops and priests; as laymen or lectors they could lawfully marry, but on reaching these grades what was lawful ceased to be lawful.",
+  "claims": [
+   "Continence binds from ordination to major orders."
+  ],
+  "concepts": [
+   "clerical continence",
+   "Leo"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d37c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:04:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d37c1-d1e143": {
+  "summary": "Cites the Sixth Synod: whoever approaching the clergy wishes to marry should do so before the order of subdeacon.",
+  "claims": [
+   "Clerics must marry before the subdiaconate."
+  ],
+  "concepts": [
+   "subdiaconate",
+   "conciliar law"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d37c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:04:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d37c1": {
+  "summary": "Turns to impediments that make persons wholly unlawful, first order. In priesthood, diaconate, and subdiaconate marriage cannot be contracted, and if union occurs there is divorce; in other orders marriage is allowed unless one has taken the religious habit or vowed continence. Leo permits lower clerics outside vow and habit to marry a virgin, not a widow or divorcee, though they cannot then be promoted to the subdiaconate. Carthage requires bishops, priests, deacons, and subdeacons to abstain from wives; Leo says the law of continence binds altar ministers once ordained; the Sixth Synod requires clerics who wish to marry to do so before the subdiaconate.",
+  "claims": [
+   "Major orders are a diriment impediment to marriage.",
+   "Lower clerics may marry a virgin but cannot then advance.",
+   "Clerics in major orders must abstain from their wives."
+  ],
+  "concepts": [
+   "holy orders",
+   "clerical continence",
+   "impediments",
+   "major and minor orders"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d37c1-d1e115",
+    "pl-l4d37c1-d1e118",
+    "pl-l4d37c1-d1e121",
+    "pl-l4d37c1-d1e128",
+    "pl-l4d37c1-d1e137",
+    "pl-l4d37c1-d1e143"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T13:04:02Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

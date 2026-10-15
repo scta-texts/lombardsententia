@@ -1,0 +1,76 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T13:14:26Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d49c2-d1e115": {
+  "summary": "Asks whether one of greater merit, like Peter, knows something of God that one of lesser merit, like Linus, does not.",
+  "claims": [],
+  "concepts": [
+   "beatific vision",
+   "degrees of glory"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d49c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:14:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d49c2-d1e118": {
+  "summary": "Reports the view of many that all the elect know everything about God pertaining to beatitude, but differently: nothing knowable in God seems greater than understanding him three and one, which all will then know by sight; so nothing pertaining to beatitude will be unknown to any of the blessed, but they will differ in the manner of seeing, some shining more and others less.",
+  "claims": [
+   "All the blessed see the Trinity.",
+   "They differ in how clearly they see."
+  ],
+  "concepts": [
+   "beatific vision",
+   "Trinity",
+   "degrees of glory"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d49c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:14:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d49c2": {
+  "summary": "Asks whether a more meritorious saint, like Peter, knows something of God that a less meritorious one, like Linus, does not. Many hold that all the elect know everything about God pertaining to beatitude, but differently: nothing knowable in God is greater than his being three and one, which all will see; so nothing pertaining to beatitude is unknown to any of the blessed, though they differ in the manner of seeing, some shining more than others.",
+  "claims": [
+   "All the blessed know all that pertains to beatitude.",
+   "They differ in the manner and clarity of knowing."
+  ],
+  "concepts": [
+   "beatific vision",
+   "degrees of glory",
+   "Trinity"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d49c2-d1e115",
+    "pl-l4d49c2-d1e118"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T13:14:26Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

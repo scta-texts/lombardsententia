@@ -1,0 +1,60 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T17:48:47Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll1d32c5-d1e3501": {
+  "summary": "Compares love and wisdom: love in the Trinity is Father, Son, and Spirit, the essence; yet the Spirit is love that is not Father or Son, without two loves, since the love that is properly the Spirit is the love that is the Trinity, though he is not the Trinity, as he is the essence that is the Trinity without being the Trinity. Likewise wisdom is the essence, and the Son is wisdom that is not Father or Spirit, without two wisdoms.",
+  "claims": [
+   "There are not two loves or two wisdoms in God.",
+   "The Spirit is the love that is the Trinity, but not the Trinity.",
+   "The Son is the wisdom that is the Trinity, but not the Trinity."
+  ],
+  "concepts": [
+   "one love, one wisdom",
+   "personal vs essential"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d32c5",
+    "pll1d32c4-d1e3507",
+    "pll1d10c1-d1e3564"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:48:47Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1d32c5": {
+  "summary": "Draws a parallel between love and wisdom: love in the Trinity is Father, Son, and Spirit, the divine essence; yet the Spirit is love that is not Father or Son, without two loves, since the love that is properly the Spirit is the love that is the Trinity, though not the Trinity. So wisdom is the divine essence, and the Son is wisdom that is not Father or Spirit, without two wisdoms.",
+  "claims": [
+   "Love in the Trinity is the divine essence, common to the three.",
+   "The Spirit is love proper to him, yet there are not two loves.",
+   "Wisdom in the Trinity is the divine essence; the Son is wisdom proper to him, yet there are not two wisdoms.",
+   "The love that is properly the Spirit is the love that is the Trinity, but the Spirit is not the Trinity."
+  ],
+  "concepts": [
+   "essential vs personal love and wisdom",
+   "appropriation",
+   "parallel of Son and Spirit"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d32c5-d1e3501"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T17:48:47Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

@@ -1,0 +1,58 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:12:58Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll2d15c8-d1e3519": {
+  "summary": "Asks how God completed his work on the seventh day if he rested and made nothing new. Another translation has 'on the sixth day,' which raises no problem, since what was made then is clear and all was completed that day ('he saw all he had made, and it was very good').",
+  "claims": [
+   "Creation was completed on the sixth day.",
+   "A variant reading says the sixth day."
+  ],
+  "concepts": [
+   "textual variant",
+   "Glossa"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d15c8",
+    "pl-l2d15c7"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:12:58Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d15c8": {
+  "summary": "Asks how God is said to have completed his work on the seventh day, when he rested and made nothing new. Another translation reads 'on the sixth day,' which removes the difficulty, since all was completed then, as Scripture says ('God saw all he had made, and it was very good').",
+  "claims": [
+   "God made nothing new on the seventh day.",
+   "Another translation reads that God completed his works on the sixth day.",
+   "All things were completed on the sixth day."
+  ],
+  "concepts": [
+   "seventh day",
+   "completion of creation",
+   "textual variants",
+   "Glossa"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll2d15c8-d1e3519"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:12:58Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

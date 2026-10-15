@@ -1,0 +1,101 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T21:12:25Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d36c5-d1e108": {
+  "summary": "States that Augustine teaches in the Retractationes that some sins are punishments, just and from God: some things done by necessity are to be blamed, when man wills to act rightly and cannot.",
+  "claims": [
+   "Some necessary acts are blameworthy."
+  ],
+  "concepts": [
+   "Augustine Retractationes"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d36c5",
+    "pl-l2d36c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:12:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d36c5-d1e111": {
+  "summary": "Continues: hence 'I do not the good I will' and 'the flesh lusts against the spirit,' all from the condemnation to death. If this were nature, not punishment, these would not be sins; but if man is not good and cannot be, whether not seeing or not able, who doubts this is punishment? All punishment of sin is just; since doubting God's omnipotence and justice is madness, no unjust master could have stolen or wrested man from God to torment him; so this punishment comes justly from man's condemnation.",
+  "claims": [
+   "Inability to do good is just punishment."
+  ],
+  "concepts": [
+   "Romans 7:15",
+   "Galatians 5:17"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d36c5",
+    "pl-l2d36c5-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:12:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d36c5-d1e116": {
+  "summary": "Concludes that these and many other testimonies teach that some sins are punishments of sin.",
+  "claims": [],
+  "concepts": [
+   "conclusion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d36c5",
+    "pl-l2d36c5-d1e111"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:12:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d36c5": {
+  "summary": "Augustine shows some sins are punishments, just and from God: some evil things are done by necessity, when one wills to do right and cannot (Rom 7:15; Gal 5:17), all from the condemnation to death. If this were nature, not punishment, they would not be sins; but since man is not good and cannot be good, whether not seeing or unable to do what he sees, this is punishment, and just, since no unjust master could snatch man from God or force God; so it comes from man's just condemnation.",
+  "claims": [
+   "Some evil things are done by necessity when one wills right and cannot.",
+   "This condition comes from the condemnation to death.",
+   "If it were nature, it would not be sin.",
+   "Inability to be good is punishment, and just because God is omnipotent and just."
+  ],
+  "concepts": [
+   "necessity and sin",
+   "penalty of ignorance and difficulty",
+   "condemnation",
+   "Romans 7",
+   "Augustine Retractationes"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d36c5-d1e108",
+    "pl-l2d36c5-d1e111",
+    "pl-l2d36c5-d1e116"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T21:12:25Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

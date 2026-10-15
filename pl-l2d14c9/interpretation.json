@@ -1,0 +1,104 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:11:27Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll2d14c9-d1e3520": {
+  "summary": "Quotes Gen 1:14, 'let there be lights in the firmament to divide day and night.'",
+  "claims": [],
+  "concepts": [
+   "fourth day"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d14c9",
+    "pl-l2d14c8"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:11:27Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d14c9-d1e3532": {
+  "summary": "Summarizes the first three days: the world's machine was disposed and distributed: light formed on the first day to light all; on the second the firmament spread above; on the third the waters gathered, earth revealed, and air cleared. So the four elements were distinguished and ordered.",
+  "claims": [
+   "The first three days ordered the four elements."
+  ],
+  "concepts": [
+   "distinction"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d14c9",
+    "pll2d14c9-d1e3520"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:11:27Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d14c9-d1e3535": {
+  "summary": "Explains that the next three days adorned the elements: the firmament with sun, moon, and stars on the fourth; air with birds and waters with fish on the fifth; earth with beasts on the sixth, after which man was made from earth but for heaven. Heaven, preeminent, is adorned first; the stars light the lower part, give alternation of day and night for sleep and waking, console those who must work at night, and serve animals that cannot bear light (Augustine).",
+  "claims": [
+   "The last three days adorned the elements.",
+   "Man was made for heaven.",
+   "The stars serve human needs."
+  ],
+  "concepts": [
+   "adornment",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d14c9",
+    "pll2d14c9-d1e3532"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:11:27Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d14c9": {
+  "summary": "Introduces the fourth day ('let there be lights in the firmament'). The first three days disposed the world's fabric and distributed its parts: light first, then the firmament above and air, earth, and water below, ordering the four elements. The next three adorned them: the firmament with sun, moon, and stars (fourth day), air with birds and waters with fish (fifth), earth with animals (sixth), after which man was made from earth but for heaven. The heaven, preeminent, is adorned first; the stars light the lower world, give day and night for sleeping and waking, console humans at night, and spare creatures that cannot bear light (Augustine).",
+  "claims": [
+   "The first three days distinguished the elements; the next three adorned them.",
+   "On the fourth day the firmament was adorned with sun, moon, and stars.",
+   "On the fifth day air and water received birds and fish; on the sixth earth received animals and then man.",
+   "Man was made from earth but for heaven.",
+   "The stars were made to light the lower world and serve human needs."
+  ],
+  "concepts": [
+   "six days",
+   "distinction and adornment",
+   "fourth day",
+   "man made for heaven",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll2d14c9-d1e3520",
+    "pll2d14c9-d1e3532",
+    "pll2d14c9-d1e3535"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:11:27Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

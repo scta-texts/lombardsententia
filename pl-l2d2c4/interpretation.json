@@ -1,0 +1,172 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T18:56:42Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll2d2c4-d1e3514": {
+  "summary": "Having shown when angelic nature was created, turns to where.",
+  "claims": [],
+  "concepts": [
+   "transition"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d2c4",
+    "pl-l2d2c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:56:42Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d2c4-d1e3517": {
+  "summary": "States that authorities show the angels were in heaven before the fall, some falling through pride, others remaining.",
+  "claims": [
+   "Angels were in heaven before the fall.",
+   "Some fell through pride."
+  ],
+  "concepts": [
+   "fall of angels"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d2c4",
+    "pll2d2c4-d1e3514"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:56:42Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d2c4-d1e3520": {
+  "summary": "Cites Luke 10:18, 'I saw Satan fall like lightning from heaven,' where heaven means not the firmament made on the second day but the empyrean, 'fiery' from splendor not heat, made and immediately filled with angels, above the firmament.",
+  "claims": [
+   "The angels' heaven is the empyrean.",
+   "The empyrean is above the firmament."
+  ],
+  "concepts": [
+   "empyrean",
+   "Luke 10:18"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d2c4",
+    "pll2d2c4-d1e3517"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:56:42Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d2c4-d1e3542": {
+  "summary": "Notes that some interpreters, like Strabo, read 'heaven' in Gen 1:1 as the empyrean, fiery or intellectual, named from splendor, filled with angels at once ('when the morning stars praised me,' Job 38:7).",
+  "claims": [
+   "Gen 1:1's 'heaven' may mean the empyrean."
+  ],
+  "concepts": [
+   "Strabo",
+   "Job 38:7"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d2c4",
+    "pll2d2c4-d1e3520"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:56:42Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d2c4-d1e3577": {
+  "summary": "Cites Bede: this higher heaven, separate from the world's revolution, was filled with angels once created, who were made in the beginning with heaven and earth; the heaven of the luminaries was made on the second day.",
+  "claims": [
+   "The angels were created with heaven and earth.",
+   "The firmament was made on the second day."
+  ],
+  "concepts": [
+   "Bede"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d2c4",
+    "pll2d2c4-d1e3542"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:56:42Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d2c4-d1e3601": {
+  "summary": "Concludes that all angels were in the empyrean before some fell, created together with it and the unformed matter of all bodies.",
+  "claims": [
+   "All angels were in the empyrean before the fall."
+  ],
+  "concepts": [
+   "conclusion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d2c4",
+    "pll2d2c4-d1e3577"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:56:42Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d2c4": {
+  "summary": "Asks where the angels were made. Authorities show the angels were in heaven before the fall, some falling through pride and others remaining. 'I saw Satan fall like lightning from heaven' refers not to the firmament made on the second day but to the empyrean, 'fiery' from splendor not heat, which, once made, was filled with angels; Strabo and Bede read 'heaven' in Gen 1:1 this way. So all angels were in the empyrean before some fell, created with it and with the unformed matter of all bodies.",
+  "claims": [
+   "Angels were in heaven before some fell through pride.",
+   "The heaven of the angels is the empyrean, above the firmament.",
+   "The empyrean is named from splendor, not heat.",
+   "The empyrean was filled with angels as soon as it was made.",
+   "Angels were created simultaneously with the empyrean and unformed matter."
+  ],
+  "concepts": [
+   "empyrean heaven",
+   "fall of angels",
+   "Bede",
+   "Strabo",
+   "Luke 10:18"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll2d2c4-d1e3514",
+    "pll2d2c4-d1e3517",
+    "pll2d2c4-d1e3520",
+    "pll2d2c4-d1e3542",
+    "pll2d2c4-d1e3577",
+    "pll2d2c4-d1e3601"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T18:56:42Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

@@ -1,0 +1,88 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T11:06:24Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l3d35c3-d1e115": {
+  "summary": "Notes that the understanding and knowledge that are gifts of the Spirit differ from the understanding and knowledge naturally in the soul. The gifts are virtues infused by grace so that believers live rightly; the natural ones come from creation, though also from God. The gifts reform and help the natural powers: natural understanding, darkened by sin, is reformed by the spirit of understanding, and reason is raised by the spirit of wisdom to the contemplation and love of eternal Truth.",
+  "claims": [
+   "The gifts are infused virtues distinct from natural powers.",
+   "Grace reforms and helps natural understanding darkened by sin."
+  ],
+  "concepts": [
+   "nature and grace",
+   "infused virtues",
+   "reformation of the mind",
+   "gifts of the Holy Spirit"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d35c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:06:24Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d35c3-d1e124": {
+  "summary": "Adds, from Augustine, that the wisdom discussed is not the wisdom of God that is God, but human wisdom according to God, his true worship. The mind that worships God, of whom it is capable and in whom it can participate, becomes wise by participation in the highest light, not its own. This human wisdom is also God's, though not such that God is wise by it; so too God's justice means both the justice by which he is just and the justice he gives in justifying the impious.",
+  "claims": [
+   "The gift of wisdom is human wisdom by participation in God.",
+   "The mind is wise by participating in God's light, not its own.",
+   "God's justice also names the justice he gives in justification."
+  ],
+  "concepts": [
+   "participation",
+   "illumination",
+   "worship of God",
+   "justice of God",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d35c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:06:24Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d35c3": {
+  "summary": "Distinguishes the understanding and knowledge that are gifts of the Spirit from the natural understanding and knowledge in the soul. The gifts are virtues infused by grace so that believers may live rightly, while the natural powers come from creation; the gifts reform and help the natural ones, as natural understanding darkened by sin is restored by the spirit of understanding, and reason is raised by the spirit of wisdom to contemplate and love eternal Truth. The wisdom discussed is not the wisdom that is God but human wisdom, the true worship of God: the mind becomes wise by participation in the highest light. This human wisdom is also God's, as God's justice is also the justice he gives the impious in justifying them.",
+  "claims": [
+   "The gifts of understanding and knowledge differ from natural understanding and knowledge.",
+   "The gifts are infused virtues that reform and help the natural powers.",
+   "The wisdom that is a gift is human wisdom by participation, not the wisdom that is God.",
+   "God's wisdom and justice can name what God gives humans."
+  ],
+  "concepts": [
+   "gifts of the Holy Spirit",
+   "nature and grace",
+   "infused virtues",
+   "participation",
+   "justice of God"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d35c3-d1e115",
+    "pl-l3d35c3-d1e124"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T11:06:24Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

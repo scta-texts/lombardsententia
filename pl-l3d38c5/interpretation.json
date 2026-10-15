@@ -1,0 +1,115 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T11:35:44Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l3d38c5-d1e152": {
+  "summary": "States that Augustine suggests every lie is a sin, but that it matters greatly with what intent and about what one lies: one who lies to help sins less than one who lies to harm, and one who sends a traveler the wrong way harms less than one who corrupts the way of life by a lie.",
+  "claims": [
+   "Every lie is a sin.",
+   "Gravity depends on intent and subject matter."
+  ],
+  "concepts": [
+   "gravity of sin",
+   "intent",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d38c5"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:35:44Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d38c5-d1e112": {
+  "summary": "Gives the reason, after Augustine, that every lie is to be called a sin because a man should say what he has in mind, whether true or thought true. Words were instituted not for men to deceive one another but to bring their thoughts to another's knowledge, so using them for deception, contrary to their purpose, is sin. No lie should be thought sinless because it can sometimes help someone, since theft and adultery can also help. A lie is not only when someone is harmed: whenever a falsehood is knowingly said, it is a lie, whether anyone is harmed or not.",
+  "claims": [
+   "Words are instituted to convey thoughts, so deceiving with them is sin.",
+   "Helping by a lie does not make it sinless.",
+   "A knowingly false statement is a lie whether or not anyone is harmed."
+  ],
+  "concepts": [
+   "purpose of speech",
+   "definition of lie",
+   "ends and means"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d38c5",
+    "pl-l3d38c1-d1e137"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:35:44Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d38c5-d1e121": {
+  "summary": "Concludes that every lie is a sin; but 'you will destroy all who speak lies' and 'the mouth that lies kills the soul' are not to be understood of every lie, nor does this commandment seem to forbid every lie, nor does the definition given include the jesting lie.",
+  "claims": [
+   "Every lie is a sin.",
+   "Not every lie is mortal.",
+   "Not every lie is forbidden by the commandment.",
+   "The definition does not cover the jesting lie."
+  ],
+  "concepts": [
+   "gravity of sin",
+   "eighth commandment",
+   "jesting lie"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d38c5",
+    "pl-l3d37c6",
+    "pl-l3d38c3-d1e118"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:35:44Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d38c5": {
+  "summary": "Holds with Augustine that every lie is a sin, though it matters much with what intent and about what one lies: one who lies to help sins less than one who lies to harm. The reason is that one ought to say what one has in mind, since words were instituted to convey thoughts, not to deceive. A lie that helps someone is still a sin, as theft and adultery could also help, and a knowingly false statement is a lie whether or not anyone is harmed. Yet not every lie falls under the scriptural threats of destruction, nor is every lie forbidden by the commandment, nor does the definition include the jesting lie.",
+  "claims": [
+   "Every lie is a sin.",
+   "The gravity of a lie depends on its intent and subject matter.",
+   "Words are instituted to convey thoughts, so deceiving with them is sin.",
+   "A helpful lie is still a sin.",
+   "Not every lie is mortal or forbidden by the commandment."
+  ],
+  "concepts": [
+   "gravity of sin",
+   "purpose of speech",
+   "definition of lie",
+   "jesting lie",
+   "eighth commandment"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d38c5-d1e152",
+    "pl-l3d38c5-d1e112",
+    "pl-l3d38c5-d1e121"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T11:35:44Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

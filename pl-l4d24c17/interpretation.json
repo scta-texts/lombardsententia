@@ -1,0 +1,160 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T12:50:50Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d24c17-d1e115": {
+  "summary": "States that the order of bishops is fourfold: patriarchs, archbishops, metropolitans, and bishops.",
+  "claims": [
+   "There are four ranks of bishops."
+  ],
+  "concepts": [
+   "episcopal hierarchy"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d24c17"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:50:50Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d24c17-d1e121": {
+  "summary": "Explains that 'patriarch' means highest of fathers, since he holds the first, apostolic place, like Rome, Antioch, and Alexandria; but the Roman is highest of all.",
+  "claims": [
+   "Patriarchs hold apostolic sees; Rome is highest."
+  ],
+  "concepts": [
+   "patriarch",
+   "primacy of Rome"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d24c17"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:50:50Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d24c17-d1e127": {
+  "summary": "Explains that an archbishop is chief of bishops, 'archos' meaning chief.",
+  "claims": [],
+  "concepts": [
+   "archbishop",
+   "etymology"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d24c17"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:50:50Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d24c17-d1e134": {
+  "summary": "Explains that metropolitans are named from the measure of cities, presiding over each province, to whose authority and teaching other priests are subject, having care of the whole province; all the ranks above are called bishops.",
+  "claims": [
+   "Metropolitans preside over provinces."
+  ],
+  "concepts": [
+   "metropolitan"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d24c17"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:50:50Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d24c17-d1e140": {
+  "summary": "Notes that by 'archbishops' Isidore seems to mean primates, and by 'metropolitans' those now called archbishops.",
+  "claims": [],
+  "concepts": [
+   "terminology",
+   "primate"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d24c17"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:50:50Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d24c17-d1e143": {
+  "summary": "States that this distinction seems introduced from the gentiles, who called their priests flamens, archflamens, and protoflamens, flamens being named from the thread they tied on their heads, since they wore a cap with a woolen rod they could not bear in summer, and on feast days wore the cap for dignity.",
+  "claims": [
+   "The episcopal ranks seem modeled on pagan priestly ranks."
+  ],
+  "concepts": [
+   "flamens",
+   "origins"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d24c17"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:50:50Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d24c17": {
+  "summary": "The order of bishops is fourfold: patriarchs, archbishops, metropolitans, and bishops. Patriarchs hold the apostolic sees, Rome, Antioch, Alexandria, Rome being highest; archbishops are chief bishops; metropolitans preside over provinces; all are called bishops. Lombard notes that 'archbishop' here seems to mean primate and 'metropolitan' what is now called archbishop. The distinction seems borrowed from the pagans' flamens, archflamens, and protoflamens.",
+  "claims": [
+   "Bishops are patriarchs, archbishops, metropolitans, and bishops.",
+   "Rome is the highest patriarchate.",
+   "The hierarchy seems modeled on pagan priestly ranks."
+  ],
+  "concepts": [
+   "episcopal hierarchy",
+   "patriarch",
+   "metropolitan",
+   "primacy of Rome"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d24c17-d1e115",
+    "pl-l4d24c17-d1e121",
+    "pl-l4d24c17-d1e127",
+    "pl-l4d24c17-d1e134",
+    "pl-l4d24c17-d1e140",
+    "pl-l4d24c17-d1e143"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T12:50:50Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

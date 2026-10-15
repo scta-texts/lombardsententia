@@ -1,0 +1,120 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T13:14:26Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d49c4-d1e115": {
+  "summary": "Asks whether the saints' beatitude will be greater after the judgment than meanwhile.",
+  "claims": [],
+  "concepts": [
+   "increase of beatitude"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d49c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:14:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d49c4-d1e118": {
+  "summary": "Holds it must be believed without scruple that they will have greater glory after the judgment than before, since their joy will be greater, as Augustine said, and their knowledge fuller.",
+  "claims": [
+   "Glory, joy, and knowledge increase after the judgment."
+  ],
+  "concepts": [
+   "increase of beatitude"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d49c4",
+    "pl-l4d45c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:14:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d49c4-d1e124": {
+  "summary": "Cites Jerome: after the judgment God will show the elect greater glory of his brightness.",
+  "claims": [],
+  "concepts": [
+   "increase of beatitude",
+   "Jerome"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d49c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:14:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d49c4-d1e134": {
+  "summary": "Quotes Augustine: if anyone asks why the spirits of the dead need their bodies at the resurrection if supreme beatitude can be given without bodies, it is a hard question; but the mind, whether rapt from the senses or separated after death, cannot see the unchangeable substance as the holy angels do, whether for a more hidden cause or because of a natural appetite to govern the body, by which it is held back from going wholly into the highest heaven until that appetite is stilled; a body hard to govern, like this corruptible flesh, turns it away even more; but when it receives a spiritual body, equal to the angels, it will have its nature's perfect mode, obeying and commanding, vivified and vivifying, with such ease that what was a burden becomes glory.",
+  "claims": [
+   "The separated soul's vision is held back by its desire for the body.",
+   "The spiritual body brings the soul to its natural perfection."
+  ],
+  "concepts": [
+   "natural appetite",
+   "spiritual body",
+   "separated soul",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d49c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:14:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d49c4": {
+  "summary": "The saints' beatitude will be greater after the judgment than meanwhile, with greater joy and fuller knowledge, as Jerome says God will show the elect greater glory. Why souls need bodies if they could have supreme beatitude without them is a hard question; but Augustine says the separated mind cannot see the unchangeable substance as the angels do, perhaps because of a natural desire to govern the body that holds it back; a corruptible body hinders more; with a spiritual body the soul will have its nature's perfect mode, equal to the angels, so that what was a burden becomes glory.",
+  "claims": [
+   "The saints' beatitude increases after the judgment.",
+   "The separated soul's vision is held back by its natural desire for the body.",
+   "With a spiritual body, the soul reaches its nature's perfection."
+  ],
+  "concepts": [
+   "increase of beatitude",
+   "resurrection of the body",
+   "separated soul",
+   "natural appetite"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d49c4-d1e115",
+    "pl-l4d49c4-d1e118",
+    "pl-l4d49c4-d1e124",
+    "pl-l4d49c4-d1e134"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T13:14:26Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

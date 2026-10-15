@@ -1,0 +1,145 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:11:27Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll2d13c4-d1e3519": {
+  "summary": "Notes that 'day' is taken in several ways in Scripture.",
+  "claims": [],
+  "concepts": [
+   "equivocation"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d13c4",
+    "pl-l2d13c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:11:27Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d13c4-d1e3522": {
+  "summary": "Distinguishes: day is the light that lit the darkness for three days, the illumination of the air, or the span of twenty-four hours, as in 'evening and morning, one day.' Evening came first, then morning, completing a natural day which had evening but not morning, morning being the end of one day and beginning of the next, the dawn.",
+  "claims": [
+   "'Day' has three senses.",
+   "The first day had evening but not morning."
+  ],
+  "concepts": [
+   "senses of day"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d13c4",
+    "pll2d13c4-d1e3519"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:11:27Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d13c4-d1e3536": {
+  "summary": "Explains that the first day had no morning because no day preceded it and because, as soon as light appeared, a full bright day began, not from dawn but full light, ending in the morning of the next day.",
+  "claims": [
+   "The first day began in full light."
+  ],
+  "concepts": [
+   "first day"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d13c4",
+    "pll2d13c4-d1e3522"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:11:27Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d13c4-d1e3540": {
+  "summary": "Cites Bede: it was fitting that the day began from light and ended in the next morning, signifying that God's works began from light and were completed in light.",
+  "claims": [
+   "God's works begin and end in light."
+  ],
+  "concepts": [
+   "Bede"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d13c4",
+    "pll2d13c4-d1e3536"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:11:27Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d13c4-d1e3560": {
+  "summary": "States that the other days had morning and evening, each running from its morning to the next morning.",
+  "claims": [
+   "Other days ran from morning to morning."
+  ],
+  "concepts": [
+   "days"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d13c4",
+    "pll2d13c4-d1e3540"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:11:27Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d13c4": {
+  "summary": "Notes that 'day' has several senses in Scripture: the light that lit the first three days, the illumination of the air, and the span of twenty-four hours, as in 'evening and morning, one day.' The first day had evening but no morning, since no day preceded it and it began in full light, ending at the next morning (Bede: God's works began from light and were completed in light); the other days had morning and evening, running from morning to morning.",
+  "claims": [
+   "'Day' means the first light, the illumination of air, or a twenty-four-hour span.",
+   "The first day had evening but no morning.",
+   "The first day began in full light, not dawn.",
+   "God's works began from light and ended in light.",
+   "Other days ran from morning to morning."
+  ],
+  "concepts": [
+   "meaning of 'day'",
+   "first day",
+   "Bede",
+   "exegesis of Genesis 1:5"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll2d13c4-d1e3519",
+    "pll2d13c4-d1e3522",
+    "pll2d13c4-d1e3536",
+    "pll2d13c4-d1e3540",
+    "pll2d13c4-d1e3560"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:11:27Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

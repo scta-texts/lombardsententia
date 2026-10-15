@@ -1,0 +1,100 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:09:52Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll2d12c2-d1e3514": {
+  "summary": "Notes that some Fathers who searched God's words seem to have written contrary things about this.",
+  "claims": [],
+  "concepts": [
+   "conflict of authorities"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d12c2",
+    "pl-l2d12c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:09:52Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d12c2-d1e3517": {
+  "summary": "Reports that some held all was created at once in matter and form, as Augustine seems to have thought.",
+  "claims": [
+   "Augustine seems to hold simultaneous creation."
+  ],
+  "concepts": [
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d12c2",
+    "pll2d12c2-d1e3514"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:09:52Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d12c2-d1e3523": {
+  "summary": "Reports that others held that rude, unformed matter, a mixture of the four elements, was created first, and then over six days the kinds of bodies were formed from it; Gregory, Jerome, Bede, and others prefer this, and it fits Genesis better.",
+  "claims": [
+   "Matter was created first, then formed over six days.",
+   "This view fits Genesis better."
+  ],
+  "concepts": [
+   "six-day formation",
+   "Gregory, Jerome, Bede"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d12c2",
+    "pll2d12c2-d1e3517"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:09:52Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d12c2": {
+  "summary": "Notes that the Fathers seem to have written as if contrary: some, including Augustine, held all was created simultaneously in matter and form; others, Gregory, Jerome, Bede, and many, held that unformed matter was created first and then formed over six days, which seems to fit Genesis better.",
+  "claims": [
+   "Augustine seems to hold that all was created simultaneously in matter and form.",
+   "Gregory, Jerome, Bede, and others hold that matter was formed over six days.",
+   "The six-day view fits Genesis better."
+  ],
+  "concepts": [
+   "simultaneous creation",
+   "six days",
+   "Augustine",
+   "Gregory, Jerome, Bede"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll2d12c2-d1e3514",
+    "pll2d12c2-d1e3517",
+    "pll2d12c2-d1e3523"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:09:52Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

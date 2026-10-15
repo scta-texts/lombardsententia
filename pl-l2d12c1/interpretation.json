@@ -1,0 +1,79 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:09:52Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll2d12c1-d1e3514": {
+  "summary": "Concludes the treatment of angelic nature and turns to the creation of other things, especially the distinction of the six days' works.",
+  "claims": [],
+  "concepts": [
+   "transition"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d12c1",
+    "pl-l2d11c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:09:52Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d12c1-d1e3517": {
+  "summary": "States that with the angels God created other things: Genesis says he created heaven, the angels, and earth, the still confused and unformed matter of the four elements, chaos, before any day. Then he distinguished the elements and gave each its species, not simultaneously, as some Fathers held, but over six days, as others did.",
+  "claims": [
+   "Unformed matter preceded the six days.",
+   "The Fathers disagree whether formation was simultaneous or over six days."
+  ],
+  "concepts": [
+   "chaos",
+   "six days"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d12c1",
+    "pll2d12c1-d1e3514"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:09:52Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d12c1": {
+  "summary": "Concludes the treatment of angels and turns to the creation of other things and the work of the six days. With the angels, God created 'heaven' (angels) and 'earth' (the confused, unformed matter of the four elements, chaos) before any day; then he distinguished the elements and gave each thing its species, not all at once, as some Fathers held, but over six days, as others held.",
+  "claims": [
+   "The treatment of angels is concluded; the six days follow.",
+   "'Heaven' in Gen 1:1 means the angels; 'earth' the unformed matter of the elements.",
+   "Unformed matter was created before any day.",
+   "Some Fathers held all was formed at once, others over six days."
+  ],
+  "concepts": [
+   "six days of creation",
+   "unformed matter",
+   "chaos",
+   "transition"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll2d12c1-d1e3514",
+    "pll2d12c1-d1e3517"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:09:52Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

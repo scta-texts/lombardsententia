@@ -1,0 +1,100 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T13:06:03Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d39c7-d1e112": {
+  "summary": "Concludes that the marital union of unbelievers is lawful but not ratified marriage: lawful, being between lawful persons; not ratified, being without faith; the marriage of believers is both lawful and ratified, if the persons are lawful.",
+  "claims": [
+   "Unbelievers' marriage is lawful, not ratified.",
+   "Believers' marriage is lawful and ratified."
+  ],
+  "concepts": [
+   "ratified marriage",
+   "lawful marriage"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d39c7"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:06:03Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d39c7-d1e115": {
+  "summary": "Cites Augustine: a wife joined by lawful society is left without any fault if she will not remain with a Christian husband.",
+  "claims": [
+   "Unbelievers' marriage is a lawful society."
+  ],
+  "concepts": [
+   "lawful marriage",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d39c7"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:06:03Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d39c7-d1e124": {
+  "summary": "Adds that the Apostle counsels the converted spouse not to dismiss the unbeliever, which he would not do if there were no lawful marriage between them; lawful is what is contracted by legal institution or provincial custom, not against the Lord's command.",
+  "claims": [
+   "Lawful marriage is contracted by law or custom without violating God's command."
+  ],
+  "concepts": [
+   "lawful marriage",
+   "definition"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d39c7"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:06:03Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d39c7": {
+  "summary": "The marital union of unbelievers is lawful marriage but not ratified: lawful, being between lawful persons, but not ratified, being without faith; the marriage of believers is lawful and ratified if the persons are lawful. Augustine calls the wife of an unbeliever joined by lawful society, and Paul counsels the converted spouse not to dismiss the unbeliever, which he would not if there were no lawful marriage; a lawful marriage is one contracted by law or provincial custom, not against God's command.",
+  "claims": [
+   "Marriage among unbelievers is lawful but not ratified.",
+   "Marriage among believers is lawful and ratified.",
+   "Lawful marriage is contracted by law or custom, not against God's command."
+  ],
+  "concepts": [
+   "ratified marriage",
+   "lawful marriage",
+   "marriage among unbelievers"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d39c7-d1e112",
+    "pl-l4d39c7-d1e115",
+    "pl-l4d39c7-d1e124"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T13:06:03Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

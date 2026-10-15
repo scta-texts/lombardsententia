@@ -1,0 +1,75 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:01:54Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll2d9c5-d1e3514": {
+  "summary": "Asks whether all angels of the same order are equal.",
+  "claims": [],
+  "concepts": [
+   "question"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d9c5",
+    "pl-l2d9c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:01:54Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d9c5-d1e3517": {
+  "summary": "Says some held so, but it is improbable: Lucifer, of the highest group, was worthier than those created more excellent than others, and would have been worthier than others of his order. As among apostles and martyrs some are worthier, so in the angelic orders.",
+  "claims": [
+   "Angels in one order differ in dignity."
+  ],
+  "concepts": [
+   "analogy of apostles and martyrs"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d9c5",
+    "pll2d9c5-d1e3514"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:01:54Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d9c5": {
+  "summary": "Asks whether all angels of the same order are equal. Some thought so, but this is not probable, since Lucifer, of the highest group, was worthier than others of it; had he stood he would have been worthier than others in his order. As among apostles and martyrs some are worthier than others, so in the angelic orders.",
+  "claims": [
+   "Angels within the same order are not all equal.",
+   "Lucifer was worthier than others of his group.",
+   "As among apostles and martyrs, some angels in an order are worthier."
+  ],
+  "concepts": [
+   "angelic hierarchy",
+   "inequality within orders",
+   "Lucifer"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll2d9c5-d1e3514",
+    "pll2d9c5-d1e3517"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:01:54Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

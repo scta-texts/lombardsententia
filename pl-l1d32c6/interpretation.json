@@ -1,0 +1,169 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T17:48:47Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll1d32c6-d1e3501": {
+  "summary": "Notes that by the reasoning by which the Father is not wise by begotten wisdom, it seems the Father and Son should not love by the love that proceeds from both, since loving is being in God; otherwise they would be from the Spirit, not he from them.",
+  "claims": [],
+  "concepts": [
+   "objection",
+   "parity of reasoning"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d32c6",
+    "pl-l1d32c2-d1e3507"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:48:47Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d32c6-d1e3506": {
+  "summary": "Recalls Augustine: in the Trinity there are three, one loving him who is from him, one loving him from whom he is, and love itself; what joins them is not one of the two. So Father and Son love each other by the love that is only the Spirit. How then can they not be by that love, if loving is being, when the Father is denied to be wise by begotten wisdom lest he be by it?",
+  "claims": [],
+  "concepts": [
+   "tension in authorities"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d32c6",
+    "pll1d32c6-d1e3501",
+    "pll1d10c2-d1e3645"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:48:47Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d32c6-d1e3536": {
+  "summary": "Confesses that the question is difficult to him, especially since it arises from teachings that seem to share the same reasoning, and that his weak understanding is troubled; he wants to report the saints rather than add his own.",
+  "claims": [
+   "The question is difficult."
+  ],
+  "concepts": [
+   "confession of difficulty"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d32c6",
+    "pll1d32c6-d1e3506"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:48:47Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d32c6-d1e3539": {
+  "summary": "Cites Hilary: the best reader waits for the meaning from the words rather than imposing it, draws out rather than brings in, and does not force the text to contain what he presumed. In speaking of God we should concede to God the knowledge of himself and serve his words with reverence.",
+  "claims": [
+   "The best reader draws meaning from the text rather than imposing it."
+  ],
+  "concepts": [
+   "hermeneutics",
+   "Hilary"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d32c6",
+    "pll1d32c6-d1e3536"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:48:47Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d32c6-d1e3558": {
+  "summary": "Leaves the pious reader to seek the reason, and, not resolving but excluding error, affirms that Father and Son do not love by the proceeding love as if they were by it; each loves by the love he himself is, not only by it, as Augustine says no one should presume otherwise.",
+  "claims": [
+   "Father and Son do not love by the Spirit as if they were by him.",
+   "Each loves also by the love he himself is."
+  ],
+  "concepts": [
+   "exclusion of error"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d32c6",
+    "pll1d32c6-d1e3539"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:48:47Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d32c6-d1e3573": {
+  "summary": "Leaves the question to readers' diligence to judge and resolve more fully, as insufficient himself.",
+  "claims": [
+   "The question is left open."
+  ],
+  "concepts": [
+   "open question"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d32c6",
+    "pll1d32c6-d1e3558"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:48:47Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1d32c6": {
+  "summary": "Notes that by the same reasoning that denies the Father is wise by begotten wisdom, it seems the Father and Son should not love by the love that proceeds from both, since in God loving is being, so they would be from the Spirit. Yet Augustine said there are three, one loving the one from him, one loving the one from whom he is, and love itself, by which they love each other. Lombard confesses the question is difficult and, citing Hilary's ideal reader who draws meaning from the text rather than imposing it, does not resolve it but excludes an error: Father and Son do not love by the Spirit as if they were by him; each also loves by the love he is, not only by the Spirit. He leaves the full resolution to diligent readers.",
+  "claims": [
+   "By parity with wisdom, it seems Father and Son should not love by the proceeding love.",
+   "Yet Augustine says Father and Son love each other by the love that is the Spirit.",
+   "Father and Son do not love by the Spirit as if they were by him.",
+   "Each loves by the love he himself is, not only by the Spirit.",
+   "The question is left to readers to resolve."
+  ],
+  "concepts": [
+   "love and being",
+   "theological reticence",
+   "Hilary's ideal reader",
+   "open question",
+   "identity of loving and being"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d32c6-d1e3501",
+    "pll1d32c6-d1e3506",
+    "pll1d32c6-d1e3536",
+    "pll1d32c6-d1e3539",
+    "pll1d32c6-d1e3558",
+    "pll1d32c6-d1e3573"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T17:48:47Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

@@ -1,0 +1,122 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T13:14:26Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d48c2-d1e115": {
+  "summary": "Asks, since he will appear in human form, whether that form will appear glorious, as it truly is, or weak, as in the passion.",
+  "claims": [],
+  "concepts": [
+   "glorified body of Christ"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d48c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:14:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d48c2-d1e118": {
+  "summary": "Reports some who think the wicked will see him as they crucified him, weak, since Scripture says 'they will look on him whom they pierced'.",
+  "claims": [
+   "Some hold the wicked see Christ's weak form."
+  ],
+  "concepts": [
+   "opposing opinion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d48c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:14:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d48c2-d1e124": {
+  "summary": "Quotes Augustine: when good and bad see the Judge in the glorified form of a servant, the impious will be taken away so as not to see God's brightness, by which he is God, which only the pure of heart will see, and which will be their eternal life.",
+  "claims": [
+   "Good and bad see the glorified servant form.",
+   "Only the pure of heart see God's divinity."
+  ],
+  "concepts": [
+   "glorified body of Christ",
+   "vision of God",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d48c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:14:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d48c2-d1e137": {
+  "summary": "Concludes that the glorified human form in Christ will be seen by all; so Christ is said to judge 'because he is the son of man', not that he will judge by human power or alone without Father and Spirit, but because he alone will be seen judging in the form of a servant; 'the Father judges no one' means the Son's human form will appear to all, glorious, not weak; he will judge by the power of the divinity, with Father and Spirit, terrible to the wicked and gentle to the just.",
+  "claims": [
+   "Christ judges by divine power with Father and Spirit.",
+   "He alone appears in human form at the judgment."
+  ],
+  "concepts": [
+   "Christ as judge",
+   "Trinity",
+   "John 5:27"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d48c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:14:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d48c2": {
+  "summary": "Asks whether Christ's human form will appear glorious or weak as in the passion. Some think the wicked will see it as they crucified it; but Augustine says the glorified form of the servant will be seen by good and bad, while only the pure of heart see God's divine brightness, which is eternal life. Christ judges because he is son of man, not by human power nor without the Father and Spirit, but because he alone will be seen judging in human form; he judges by the power of the divinity, terrible to the wicked and gentle to the just.",
+  "claims": [
+   "All will see Christ's glorified human form.",
+   "Only the pure of heart will see his divinity.",
+   "Christ judges as son of man because he appears in human form, but by divine power with Father and Spirit."
+  ],
+  "concepts": [
+   "glorified body of Christ",
+   "Christ as judge",
+   "Trinity",
+   "vision of God"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d48c2-d1e115",
+    "pl-l4d48c2-d1e118",
+    "pl-l4d48c2-d1e124",
+    "pl-l4d48c2-d1e137"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T13:14:26Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

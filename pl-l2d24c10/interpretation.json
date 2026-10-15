@@ -1,0 +1,53 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:32:08Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d24c10-d1e105": {
+  "summary": "States that if lower reason consents so that the sin is held only in delight of thought without will to accomplish it, the woman alone eats, not the man, whose authority restrains the will from going to action.",
+  "claims": [
+   "Delight of thought without will to act is the woman eating alone."
+  ],
+  "concepts": [
+   "delectatio"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d24c10",
+    "pl-l2d24c9"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:32:08Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d24c10": {
+  "summary": "If the lower reason consents so that the sin is held only in delight of thought without will to do it, the woman alone has eaten, not the man, whose authority restrains the will from proceeding to action.",
+  "claims": [
+   "Consent of lower reason to delight in thought without will to act is the woman eating alone.",
+   "Higher reason restrains the will from acting."
+  ],
+  "concepts": [
+   "delectatio cogitationis",
+   "stages of sin"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d24c10-d1e105"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:32:08Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

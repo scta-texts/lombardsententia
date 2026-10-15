@@ -1,0 +1,123 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T01:01:00Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l3d2c3-d1e117": {
+  "summary": "Asks whether the Word assumed flesh and soul together, or one before the other, and whether the flesh was conceived before being assumed. Answers without doubt that the Word assumed the whole at once, uniting soul and flesh simultaneously; the flesh was not conceived first and assumed afterward, but assumed in conception and conceived in assumption.",
+  "claims": [
+   "Soul and flesh were assumed at once.",
+   "The flesh was assumed in conception and conceived in assumption."
+  ],
+  "concepts": [
+   "simultaneity of assumption",
+   "conception of Christ"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d2c3",
+    "pl-l3d2c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:01:00Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d2c3-d1e120": {
+  "summary": "Supports this with Augustine, De fide ad Petrum: hold firmly that Christ's flesh was not conceived without divinity before being taken by the Word, but the Word himself was conceived by taking flesh, and the flesh was conceived by the Word's incarnation.",
+  "claims": [
+   "Christ's flesh was not conceived before being assumed by the Word."
+  ],
+  "concepts": [
+   "conception of Christ"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d2c3",
+    "pl-l3d2c3-d1e117"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:01:00Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d2c3-d1e132": {
+  "summary": "Adds Augustine, De Trinitate: he would not be mediator unless the same were God and man; the whole Trinity made the form of a servant assumed by the Son alone. Flesh was not first taken in the womb and divinity came afterward, but as soon as the Word came into the womb he was made flesh, a perfect man in true flesh and soul.",
+  "claims": [
+   "As soon as the Word entered the womb he was made perfect man."
+  ],
+  "concepts": [
+   "mediator",
+   "simultaneity of assumption"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d2c3",
+    "pl-l3d2c3-d1e117"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:01:00Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d2c3-d1e142": {
+  "summary": "Adds Gregory, Moralia: when the angel announced and the Spirit came, at once the Word was in the womb, at once within the womb the Word was flesh.",
+  "claims": [
+   "The Word was made flesh at the moment of conception."
+  ],
+  "concepts": [
+   "conception of Christ"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d2c3",
+    "pl-l3d2c3-d1e117"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:01:00Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d2c3": {
+  "summary": "Asks whether the Word assumed soul and flesh at once, or one before the other, and whether the flesh was first conceived and then assumed. Lombard holds that the whole was assumed simultaneously, and that the flesh was assumed in being conceived and conceived in being assumed. Augustine (De fide ad Petrum, De Trinitate) and Gregory confirm that no flesh existed in the womb before the Word came; at once the Word was in the womb and flesh.",
+  "claims": [
+   "Soul and flesh were assumed simultaneously.",
+   "Christ's flesh was not conceived before it was assumed."
+  ],
+  "concepts": [
+   "conception of Christ",
+   "simultaneity of assumption",
+   "incarnation"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d2c3-d1e117",
+    "pl-l3d2c3-d1e120",
+    "pl-l3d2c3-d1e132",
+    "pl-l3d2c3-d1e142"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T01:01:00Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

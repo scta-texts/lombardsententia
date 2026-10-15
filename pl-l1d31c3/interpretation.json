@@ -1,0 +1,77 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T17:47:08Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll1d31c3-d1e3501": {
+  "summary": "Notes that many are troubled that unity is attributed to the Father and equality to the Son, since unity is said by substance and is in all three, and equality is one among the three.",
+  "claims": [],
+  "concepts": [
+   "objection"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d31c3",
+    "pll1d31c2-d1e3655"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:47:08Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d31c3-d1e3504": {
+  "summary": "Suggests that unity is attributed to the Father for the same reason as Hilary's eternity: the Father is from no other, and he begot the Son one God with him and the Spirit proceeds from him one God with him. So unity is in the Father because there is nothing from which he is, nor anything eternally from him not one with him ('I and the Father are one').",
+  "claims": [
+   "Unity is attributed to the Father because he is from none.",
+   "All that is from the Father eternally is one with him."
+  ],
+  "concepts": [
+   "appropriation",
+   "John 10:30"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d31c3",
+    "pll1d31c3-d1e3501"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:47:08Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1d31c3": {
+  "summary": "Asks why unity is attributed to the Father and equality to the Son, since unity is said by substance and equality is common to the three. Lombard proposes that unity is attributed to the Father for the same reason Hilary attributes eternity to him: the Father is from no other, and from him are the Son and Spirit, each one God with him, so nothing is from him eternally that is not one with him (John 10:30).",
+  "claims": [
+   "Unity is common to the three, yet attributed to the Father.",
+   "Unity is attributed to the Father because he is from no other and those from him are one with him.",
+   "The Son and Spirit are one with the Father."
+  ],
+  "concepts": [
+   "appropriation",
+   "unitas",
+   "Father as unoriginate"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d31c3-d1e3501",
+    "pll1d31c3-d1e3504"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T17:47:08Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

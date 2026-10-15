@@ -1,0 +1,124 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:01:54Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll2d9c4-d1e3514": {
+  "summary": "Asks whether the orders were so distinct from the beginning of creation.",
+  "claims": [],
+  "concepts": [
+   "question"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d9c4",
+    "pl-l2d9c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:01:54Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d9c4-d1e3517": {
+  "summary": "Argues it seems so, since authority says some from each order fell: Lucifer from the highest, and Paul speaks of principalities and powers of darkness (Eph 6:12), showing that the fallen kept their orders' names while ministering in evil.",
+  "claims": [],
+  "concepts": [
+   "argument",
+   "Ephesians 6:12"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d9c4",
+    "pll2d9c4-d1e3514"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:01:54Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d9c4-d1e3535": {
+  "summary": "Objects that this cannot stand: the fallen did not then burn with charity, abound in wisdom, or have God sitting in them, or they would not have fallen; so they were not then Seraphim, Cherubim, or Thrones.",
+  "claims": [
+   "The fallen lacked the gifts that define the orders."
+  ],
+  "concepts": [
+   "objection"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d9c4",
+    "pll2d9c4-d1e3517"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:01:54Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d9c4-d1e3539": {
+  "summary": "Answers that the orders did not exist before the fall, the defining gifts not yet given; they were given to some when others fell, and would have been given to the fallen had they stood. So some from each order are said to have fallen because they would have been in each order, having differing grades of nature and understanding. Only God, who disposed all in number, measure, and weight, that is in himself, can weigh these differences.",
+  "claims": [
+   "The orders were formed when the standing angels received gifts.",
+   "The fallen would have been in each order had they stood."
+  ],
+  "concepts": [
+   "Augustine De Genesi ad litteram",
+   "measure, number, weight"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d9c4",
+    "pll2d9c4-d1e3535"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:01:54Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d9c4": {
+  "summary": "Asks whether the orders were distinct from creation. It seems so, since authority says some fell from each order, Lucifer from the highest, and Paul names principalities and powers of darkness. But the fallen did not then burn with charity or have wisdom or God sitting in them, or they would not have fallen. So the orders did not exist before the fall, since the gifts defining them were given to those who stood after others fell; the fallen are said to come from each order because, had they stood, they would have been in each order, being created with differing natural grades. Only God, who disposed all in measure, number, and weight, can weigh these differences.",
+  "claims": [
+   "The orders did not exist before the fall of some angels.",
+   "The orders are defined by gifts given to the standing angels after the fall.",
+   "The fallen are said to come from each order because they would have belonged to each had they stood.",
+   "Angels were created with differing natural grades.",
+   "Only God can weigh these invisible differences."
+  ],
+  "concepts": [
+   "angelic orders",
+   "fall of angels",
+   "gifts of grace",
+   "Wisdom 11:21",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll2d9c4-d1e3514",
+    "pll2d9c4-d1e3517",
+    "pll2d9c4-d1e3535",
+    "pll2d9c4-d1e3539"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:01:54Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

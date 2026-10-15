@@ -1,0 +1,104 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T13:09:38Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d43c4-d1e115": {
+  "summary": "States that authors attest in many places that Christ's coming is called the day of the Lord not for the quality of time but of events, since then everyone's thoughts and counsels will be revealed.",
+  "claims": [
+   "The day of the Lord is named from the revelation of hearts."
+  ],
+  "concepts": [
+   "day of the Lord",
+   "revelation of secrets"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d43c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:09:38Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d43c4-d1e121": {
+  "summary": "Cites Daniel: the Ancient of Days sat, and the books were opened; the books are each one's conscience, opened then to others; then 'nothing hidden that will not be revealed' will be fulfilled; at the supreme Judge's coming not only the darkness of the air but the secrets of hearts will be manifest.",
+  "claims": [
+   "The books of judgment are consciences.",
+   "All secrets will be revealed."
+  ],
+  "concepts": [
+   "conscience",
+   "Daniel 7",
+   "last judgment"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d43c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:09:38Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d43c4-d1e133": {
+  "summary": "Explains that by divine power each will recall all his works, good or bad, and see them with the mind's eye with wonderful speed, so that conscience accuses or excuses him, and by its witness he is saved or damned.",
+  "claims": [
+   "Each will recall all his deeds instantly.",
+   "Conscience is the witness of judgment."
+  ],
+  "concepts": [
+   "conscience",
+   "memory",
+   "last judgment"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d43c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:09:38Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d43c4": {
+  "summary": "Christ's coming is called the day of the Lord not for its time but for what happens, since then everyone's thoughts and counsels will be revealed: the books opened before the Ancient of Days are consciences, opened to others, and nothing hidden will remain. By divine power each will recall all his works at once and see them with the mind's eye, conscience accusing or excusing and so saving or condemning him.",
+  "claims": [
+   "The day of the Lord reveals all thoughts.",
+   "The books of judgment are consciences.",
+   "Each will recall all his deeds, and conscience will accuse or excuse."
+  ],
+  "concepts": [
+   "last judgment",
+   "conscience",
+   "day of the Lord",
+   "revelation of secrets"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d43c4-d1e115",
+    "pl-l4d43c4-d1e121",
+    "pl-l4d43c4-d1e133"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T13:09:38Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

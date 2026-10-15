@@ -1,0 +1,100 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T21:12:25Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d36c4-d1e108": {
+  "summary": "Notes that 'crimes avenged by crimes' seems to imply that the very things that are sins are essentially punishments of sin.",
+  "claims": [],
+  "concepts": [
+   "objection"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d36c4",
+    "pl-l2d36c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:12:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d36c4-d1e111": {
+  "summary": "Reports their reply that such sayings follow the reason given and are to be read by that exposition, since understanding of words is to be taken from the causes of speaking.",
+  "claims": [
+   "Interpret by the reasons for speaking."
+  ],
+  "concepts": [
+   "interpretation of authorities"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d36c4",
+    "pl-l2d36c4-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:12:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d36c4-d1e116": {
+  "summary": "Adds that no harm is done to truth if one says the very things that are sins are essentially punishments of prior sins, just and from God; yet not from God or punishments insofar as they are sins, while as sins they are privations of good causally and actively.",
+  "claims": [
+   "Sins may be essentially punishments, not as sins."
+  ],
+  "concepts": [
+   "privation active and passive"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d36c4",
+    "pl-l2d36c4-d1e111",
+    "pl-l2d35c3-d1e165"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:12:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d36c4": {
+  "summary": "The phrase 'crimes avenged by crimes' seems to say sins are essentially punishments. Some say it must be read by the preceding account, understanding words by the reasons for speaking. But it does no harm to truth if one says that the very things that are sins are essentially punishments of prior sins, just and from God, though not from God or punishments insofar as they are sins; as sins they are privations of good causally and actively.",
+  "claims": [
+   "'Crimes avenged by crimes' seems to make sins essentially punishments.",
+   "Words are to be understood from the reasons for saying them.",
+   "It may be said without harm that sins are essentially punishments of prior sins.",
+   "Sins are not from God nor punishments insofar as they are sins.",
+   "As sins, they are privations of good actively."
+  ],
+  "concepts": [
+   "sin as punishment of sin",
+   "interpretation of authorities",
+   "privation active and passive"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d36c4-d1e108",
+    "pl-l2d36c4-d1e111",
+    "pl-l2d36c4-d1e116"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T21:12:25Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

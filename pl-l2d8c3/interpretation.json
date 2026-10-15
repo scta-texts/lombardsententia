@@ -1,0 +1,147 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:00:33Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll2d8c3-d1e3514": {
+  "summary": "Notes that Augustine poses a puzzling question he does not solve: whether in bodily appearances a creature was made just for that purpose; whether angels, keeping their spiritual bodies, assumed a bodily form from lower matter like a garment; or whether they transformed their own bodies by God-given power.",
+  "claims": [],
+  "concepts": [
+   "open question"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d8c3",
+    "pl-l2d8c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:00:33Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d8c3-d1e3517": {
+  "summary": "Cites De Trinitate III posing the question: was a creature formed for this purpose only, or did angels, speaking in God's person, assume bodily form from bodily creation, or change their own body, which they govern, into suitable forms?",
+  "claims": [],
+  "concepts": [
+   "Augustine De Trinitate III"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d8c3",
+    "pll2d8c3-d1e3514"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:00:33Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d8c3-d1e3537": {
+  "summary": "Continues Augustine: he confesses it exceeds his understanding whether angels assume a body from lower elements and change it like a garment into true forms, as water was truly changed to wine, or transform their own bodies; being human, he cannot know it by experience as angels can.",
+  "claims": [
+   "Augustine confesses he cannot know how angels appear."
+  ],
+  "concepts": [
+   "limits of knowledge"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d8c3",
+    "pll2d8c3-d1e3517"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:00:33Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d8c3-d1e3555": {
+  "summary": "Notes for the reader that Augustine leaves the question undiscussed, and his words seem to attest that angels are corporeal with spiritual bodies.",
+  "claims": [
+   "Augustine's words suggest angels have spiritual bodies."
+  ],
+  "concepts": [
+   "interpretation"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d8c3",
+    "pll2d8c3-d1e3537"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:00:33Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d8c3-d1e3561": {
+  "summary": "Leaving these obscure matters, holds firmly that God never appeared to mortals in the form of his essence (Exod 33:20; John 1:18). With Augustine, nothing visible is not mutable; God's essence, wholly immutable, cannot be visible in itself. So what the fathers saw was made through creatures, by angels, though we do not know how, and neither Father, Word, nor Spirit is mutable or visible in what they are.",
+  "claims": [
+   "God's essence was never seen by mortals.",
+   "The visible is mutable.",
+   "Theophanies were through creatures and angels."
+  ],
+  "concepts": [
+   "invisibility of God",
+   "immutability"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d8c3",
+    "pll2d8c3-d1e3555"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:00:33Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d8c3": {
+  "summary": "Reports Augustine's unresolved question about theophanies: whether a creature was made just for the purpose; whether existing angels assumed a bodily form from lower elements like a garment while keeping their spiritual bodies; or whether they changed their own bodies into suitable forms. Augustine confesses this exceeds his power to know, being human. Lombard notes he leaves it unresolved and his words suggest angels have spiritual bodies. Setting aside these obscure matters, he holds firmly that God never appeared to mortals in the form of his essence ('no man shall see me and live'; 'no one has ever seen God'): what is visible is changeable, God's essence is unchangeable and so invisible, and appearances were made through creatures, by angels.",
+  "claims": [
+   "Augustine left unresolved how angels produced bodily appearances.",
+   "Augustine's words suggest angels have spiritual bodies.",
+   "God never appeared to mortals in his essence.",
+   "Whatever is visible is mutable; God's essence, being immutable, is invisible.",
+   "Theophanies were produced through creatures by angels."
+  ],
+  "concepts": [
+   "theophanies",
+   "angelic bodies",
+   "invisibility of God",
+   "immutability",
+   "open question",
+   "Augustine De Trinitate III"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll2d8c3-d1e3514",
+    "pll2d8c3-d1e3517",
+    "pll2d8c3-d1e3537",
+    "pll2d8c3-d1e3555",
+    "pll2d8c3-d1e3561"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:00:33Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

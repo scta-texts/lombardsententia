@@ -1,0 +1,74 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T13:07:50Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d42c6-d1e115": {
+  "summary": "Asks whether a wife should sponsor a child at baptism together with her husband.",
+  "claims": [],
+  "concepts": [
+   "sponsors"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d42c6"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:07:50Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d42c6-d1e118": {
+  "summary": "Cites Urban: no authority forbids a wife and husband to sponsor a child together at baptism, but to keep the purity of spiritual paternity free from all stain and infamy, we decree that both should not aspire to it together; one who married two co-mothers as if sisters committed a crime deserving great penance.",
+  "claims": [
+   "Spouses should not jointly sponsor a child.",
+   "Marrying two co-mothers requires penance."
+  ],
+  "concepts": [
+   "sponsors",
+   "Urban II"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d42c6"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:07:50Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d42c6": {
+  "summary": "Asks whether husband and wife should together sponsor a child at baptism. Urban: no authority forbids it, but to keep spiritual paternity free of stain, both should not presume to do so together; one who married two co-mothers like sisters committed a grave sin requiring great penance.",
+  "claims": [
+   "Spouses should not sponsor the same child together.",
+   "Marrying two co-mothers in succession requires grave penance."
+  ],
+  "concepts": [
+   "sponsors",
+   "spiritual kinship",
+   "Urban II"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d42c6-d1e115",
+    "pl-l4d42c6-d1e118"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T13:07:50Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

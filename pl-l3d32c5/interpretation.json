@@ -1,0 +1,62 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T11:04:07Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l3d32c5-d1e115": {
+  "summary": "Asks whether it should be granted that God loved the reprobate from eternity, those prepared not for life but for death. It is to be granted simply only of the elect, whom he prepared for justice and the crown. Of the non-elect it is to be granted simply that he hated, that is, reprobated them, as 'Jacob I loved, Esau I hated'; it is not to be said simply that he loved them, lest they be thought predestined, but with an addition: he loved them as his future work, whom and such as he would make them.",
+  "claims": [
+   "God loved only the elect simply from eternity.",
+   "God's hatred of the reprobate is reprobation.",
+   "God loved the reprobate only as his future work."
+  ],
+  "concepts": [
+   "reprobation",
+   "election",
+   "qualified predication",
+   "Jacob and Esau"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d32c5",
+    "pl-l1d40c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:04:07Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d32c5": {
+  "summary": "Asks whether God loved the reprobate from eternity. It is to be granted simply only of the elect, whom he prepared for justice and the crown. Of the non-elect it is to be granted simply that he hated, that is, reprobated them, as 'Jacob I loved, Esau I hated'. It is not to be said simply that he loved them, lest they be understood as predestined, but with a qualification: he loved them insofar as they would be his work.",
+  "claims": [
+   "Only of the elect is it said simply that God loved them from eternity.",
+   "Of the reprobate it is said simply that God hated, that is, reprobated them.",
+   "God loved the reprobate only insofar as they would be his work."
+  ],
+  "concepts": [
+   "reprobation",
+   "election",
+   "God's love",
+   "predestination",
+   "qualified predication"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d32c5-d1e115"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T11:04:07Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

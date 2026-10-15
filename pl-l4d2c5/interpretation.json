@@ -1,0 +1,56 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T11:47:36Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d2c5-d1e115": {
+  "summary": "Asks whether John's baptism was a sacrament, and grants it in the sense in which the legal signs are called sacraments, since it signified a sacred thing, Christ's baptism, which is not only of repentance but also of remission of sins.",
+  "claims": [
+   "John's baptism was a sacrament in the broad sense of a sign of a sacred thing."
+  ],
+  "concepts": [
+   "sacrament in the broad sense",
+   "baptism of John",
+   "sign"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d2c5",
+    "pl-l4d1c4-d1e137"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:47:36Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d2c5": {
+  "summary": "Grants that John's baptism was a sacrament in the sense in which the legal signs are called sacraments, since it signified a sacred thing, Christ's baptism, which is for repentance and also for the remission of sins.",
+  "claims": [
+   "John's baptism was a sacrament in the looser sense of the legal signs.",
+   "It signified Christ's baptism."
+  ],
+  "concepts": [
+   "baptism of John",
+   "sacrament in the broad sense",
+   "sign"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d2c5-d1e115"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T11:47:36Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

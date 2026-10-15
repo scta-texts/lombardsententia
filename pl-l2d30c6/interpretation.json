@@ -1,0 +1,123 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:39:39Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d30c6-d1e108": {
+  "summary": "Turns to investigating what original sin is.",
+  "claims": [],
+  "concepts": [
+   "question"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d30c6",
+    "pl-l2d30c5"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:39:39Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d30c6-d1e111": {
+  "summary": "Notes the holy doctors spoke somewhat obscurely on this and scholastic readers have held various views.",
+  "claims": [
+   "Authorities are obscure and opinions vary."
+  ],
+  "concepts": [
+   "school opinions"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d30c6",
+    "pl-l2d30c6-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:39:39Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d30c6-d1e114": {
+  "summary": "Reports some who think original sin is liability to punishment for the first man's sin, the debt or obligation binding us to temporal and eternal punishment for his actual sin, so that eternal punishment is owed to all unless freed by grace.",
+  "claims": [
+   "One view: original sin is liability to punishment."
+  ],
+  "concepts": [
+   "reatus"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d30c6",
+    "pl-l2d30c6-d1e111"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:39:39Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d30c6-d1e118": {
+  "summary": "Infers that on this view original sin is neither fault, as they admit, nor punishment, since a debt of punishment is not punishment. Some accept this, saying Scripture calls original sin reatus, meaning liability, and that infants are guilty for the first sin as children are sometimes exiled for a parent's crime under civil justice.",
+  "claims": [
+   "On this view original sin is neither fault nor punishment."
+  ],
+  "concepts": [
+   "fault and punishment",
+   "civil justice analogy"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d30c6",
+    "pl-l2d30c6-d1e114"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:39:39Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d30c6": {
+  "summary": "Asks what original sin is, noting the saints spoke obscurely and school readers disagree. Some hold it is liability to punishment for the first man's sin, the debt by which we are bound to temporal and eternal punishment for Adam's actual sin. On this view original sin is neither fault nor punishment, since a debt of punishment is not punishment; they call it reatus in the sense of liability, as children may be exiled for a parent's crime under civil justice.",
+  "claims": [
+   "The saints spoke obscurely about original sin, and school readers disagree.",
+   "Some hold original sin is liability to punishment for Adam's sin.",
+   "On that view original sin is neither fault nor punishment.",
+   "They compare it to children exiled for a parent's crime."
+  ],
+  "concepts": [
+   "original sin",
+   "reatus",
+   "liability to punishment",
+   "fault and punishment",
+   "school opinions"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d30c6-d1e108",
+    "pl-l2d30c6-d1e111",
+    "pl-l2d30c6-d1e114",
+    "pl-l2d30c6-d1e118"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:39:39Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

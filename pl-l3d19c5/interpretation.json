@@ -1,0 +1,85 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T01:11:30Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l3d19c5-d1e117": {
+  "summary": "States that he is truly called redeemer of the world and mediator of God and men. Scripture calls only the Son mediator; redeemer sometimes also the Father or Spirit, but by use of power, not display of humility and obedience. By the use of both power and obedience the Son is properly called redeemer, since he fulfilled in himself what justifies us and worked justification itself by the power of deity with Father and Spirit. He is redeemer as God by use of power and as man by the effect of humility.",
+  "claims": [
+   "Only the Son is called mediator.",
+   "The Father and Spirit are called redeemer by power only.",
+   "The Son is redeemer by power as God and by humility as man."
+  ],
+  "concepts": [
+   "redeemer",
+   "mediator",
+   "humility and power"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d19c5",
+    "pl-l3d19c4-d1e126"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:11:30Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d19c5-d1e126": {
+  "summary": "Adds that he is more often called redeemer according to his humanity, since in it he undertook and fulfilled those mysteries (sacramenta) that are the cause of our redemption. So the Son is properly called redeemer.",
+  "claims": [
+   "The Son is more often called redeemer according to his humanity.",
+   "The Son is properly called redeemer."
+  ],
+  "concepts": [
+   "redeemer",
+   "humanity of Christ"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d19c5",
+    "pl-l3d19c5-d1e117"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:11:30Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d19c5": {
+  "summary": "Explains that Christ is truly called redeemer of the world and mediator. Scripture calls only the Son mediator, but sometimes calls the Father or Spirit redeemer, by the use of power, not by the display of humility and obedience. The Son is properly redeemer by both: he fulfilled in himself what justifies us, and worked the justification by the power of deity with Father and Spirit. He is redeemer as God by power and as man by humility, and is more often called redeemer according to his humanity, in which he undertook the mysteries that cause our redemption.",
+  "claims": [
+   "Only the Son is called mediator.",
+   "The Father and Spirit may be called redeemer by use of power.",
+   "The Son is properly redeemer by both power and humble obedience.",
+   "The Son is redeemer as God by power and as man by humility."
+  ],
+  "concepts": [
+   "redeemer",
+   "mediator",
+   "appropriation",
+   "humility and power"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d19c5-d1e117",
+    "pl-l3d19c5-d1e126"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T01:11:30Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

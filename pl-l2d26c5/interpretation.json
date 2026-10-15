@@ -1,0 +1,56 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:35:42Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d26c5-d1e108": {
+  "summary": "States that the thought or will preceding faith, charity, and other justifications does not suffice for salvation nor is right living done by it; by it the good will, a great good, is desired; so the two wills differ.",
+  "claims": [
+   "The prior will is insufficient for salvation.",
+   "The prior will desires the later good will."
+  ],
+  "concepts": [
+   "good will"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d26c5",
+    "pl-l2d26c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:35:42Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d26c5": {
+  "summary": "Distinguishes the thought or will that precedes faith, charity, and other justifications, which does not suffice for salvation and is not the will of right living, from the good will that follows faith: by the former, the latter good will, a great good, is desired. They are therefore different wills.",
+  "claims": [
+   "The will that precedes faith does not suffice for salvation.",
+   "The will that precedes faith desires the good will that follows it.",
+   "The will before faith and the good will after it are distinct."
+  ],
+  "concepts": [
+   "good will",
+   "justification",
+   "salvation"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d26c5-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:35:42Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

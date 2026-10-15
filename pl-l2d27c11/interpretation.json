@@ -1,0 +1,87 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:37:02Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d27c11-d1e108": {
+  "summary": "States that good use is from virtue and free choice, chiefly virtue, and is among great goods; prevenient grace, a virtue, is not a use of free choice but the source of its good use, from God, not from us; good use is from God and us and so is merit: there God works alone, here God and man.",
+  "claims": [
+   "Grace is from God alone; good use is from God and man."
+  ],
+  "concepts": [
+   "merit",
+   "cooperation"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d27c11",
+    "pl-l2d27c10"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:37:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d27c11-d1e111": {
+  "summary": "Cites Augustine on 'by the grace of God I am what I am, and his grace in me was not void': God first gives grace alone, when only evil merits precede, and then good merits begin through it; 'not void' shows free choice; 'not I, but the grace of God with me,' namely with free choice, shows the will can do nothing good without grace; if grace is lacking, man falls.",
+  "claims": [
+   "Good merits begin only through grace.",
+   "Grace works with free choice."
+  ],
+  "concepts": [
+   "1 Corinthians 15:10",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d27c11",
+    "pl-l2d27c11-d1e108",
+    "pl-l2d26c1-d1e123"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:37:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d27c11": {
+  "summary": "States that the good use is from virtue and from free choice, chiefly from virtue, and counts among great goods. Prevenient grace, a virtue, is not a use of free choice but the source of its good use; it is from God, not from us, while the good use is from God and from us, and so is merit: there God works alone, here God and man. On 'by the grace of God I am what I am,' Augustine says God first gives grace alone where only evil merits precede, and then good merits begin through grace; 'his grace in me was not void' shows free choice; 'not I, but the grace of God with me' shows the will can do nothing good without grace.",
+  "claims": [
+   "Good use comes from virtue and free choice, chiefly virtue.",
+   "Prevenient grace is from God alone.",
+   "Good use of free choice is from God and from us, and so is merit.",
+   "In grace God works alone; in good use God and man work together.",
+   "Good merits begin only after grace is given.",
+   "If grace is lacking, man falls."
+  ],
+  "concepts": [
+   "grace",
+   "free choice",
+   "merit",
+   "cooperation",
+   "1 Corinthians 15:10",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d27c11-d1e108",
+    "pl-l2d27c11-d1e111"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:37:02Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

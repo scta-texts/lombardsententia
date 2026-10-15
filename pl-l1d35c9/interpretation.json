@@ -1,0 +1,157 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T17:50:29Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll1d35c9-d1e3501": {
+  "summary": "States that therefore all things are said to be in God and to have been from eternity.",
+  "claims": [
+   "All things are said to be in God from eternity."
+  ],
+  "concepts": [
+   "things in God"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d35c9",
+    "pll1d35c8-d1e3501"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:50:29Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d35c9-d1e3504": {
+  "summary": "Cites Augustine on Genesis: visible things before they were made were not; how were they known to God? He made known things, not knew made things. Before they were made they were and were not: in God's knowledge, not in their nature. God did not know them otherwise once made than when he knew them in order to make them.",
+  "claims": [
+   "Things were in God's knowledge before they existed in nature.",
+   "God's knowledge is the cause, not the effect, of things.",
+   "God's knowledge does not change by creation."
+  ],
+  "concepts": [
+   "Augustine De Genesi ad litteram",
+   "divine knowledge as cause"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d35c9",
+    "pll1d35c9-d1e3501"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:50:29Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d35c9-d1e3531": {
+  "summary": "Explains that in this sense all things are in God and what was made 'is life in him,' not that the creature is the Creator or temporal things are essentially in God, but that they are always in his knowledge, which is life.",
+  "claims": [
+   "Things are in God's knowledge, not his essence.",
+   "God's knowledge is life."
+  ],
+  "concepts": [
+   "John 1:3–4",
+   "knowledge as life"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d35c9",
+    "pll1d35c9-d1e3504"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:50:29Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d35c9-d1e3543": {
+  "summary": "Adds that all things, present, past, and future, are said to be present to him ('who calls things that are not as things that are,' Rom 4:17), since, per Ambrose, he knows what is not as what is.",
+  "claims": [
+   "All things are present to God.",
+   "God knows what is not as what is."
+  ],
+  "concepts": [
+   "Romans 4:17",
+   "eternal present"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d35c9",
+    "pll1d35c9-d1e3531"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:50:29Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d35c9-d1e3570": {
+  "summary": "Cites Augustine on Ps 49:11: 'the beauty of the field is with me' because with God nothing is past or future; all future things are with him and past things are not taken from him, by an ineffable knowledge of his wisdom. This explains such expressions: all things are present to God, in God, with God, life in him.",
+  "claims": [
+   "With God nothing is past or future.",
+   "All things are with God through the ineffable knowledge of his wisdom."
+  ],
+  "concepts": [
+   "eternity",
+   "Augustine on Psalm 49"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d35c9",
+    "pll1d35c9-d1e3543"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:50:29Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1d35c9": {
+  "summary": "Explains in what sense all things are said to be in God from eternity. Augustine: before they were made, visible things both were and were not, in God's knowledge, not in their nature; God made what he knew rather than knowing what he made, and does not know them differently once made. So all things are in God and what was made 'is life in him,' not as creature is Creator or temporal things essentially in God, but because they are always in his knowledge, which is life. Hence all things, past and future, are present to him (Rom 4:17; Ambrose), and with Augustine on Ps 49, with God nothing is past or future, by the ineffable knowledge of his wisdom.",
+  "claims": [
+   "Before creation, things were in God's knowledge, not in their own nature.",
+   "God made what he knew; he did not learn from what he made.",
+   "God's knowledge does not change when things are made.",
+   "All things are in God not essentially but in his knowledge, which is life.",
+   "All things, past and future, are present to God.",
+   "With God nothing is past or future."
+  ],
+  "concepts": [
+   "things in God's knowledge",
+   "things in God",
+   "knowledge as life",
+   "eternal present",
+   "immutability of knowledge"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d35c9-d1e3501",
+    "pll1d35c9-d1e3504",
+    "pll1d35c9-d1e3531",
+    "pll1d35c9-d1e3543",
+    "pll1d35c9-d1e3570"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T17:50:29Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

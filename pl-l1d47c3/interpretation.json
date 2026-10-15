@@ -1,0 +1,62 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T18:45:54Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll1d47c3-d1e3519": {
+  "summary": "Concludes that God's will that is himself is always unconquered and fulfilled, while his counsel, precept, and prohibition are not fulfilled by all to whom given. He did not command goods, forbid evils, or counsel the best because he willed all to fulfill them, since then they would; but to show his justice, make the wicked inexcusable, and give glory for obedience and punishment for disobedience, as prepared from eternity. He willed some, not all, to do or avoid what he commanded or forbade, and gave some personal commands he did not will done, as to Abraham and to some healed in the Gospel.",
+  "claims": [
+   "God's eternal will is always fulfilled; his precepts are not.",
+   "Precepts show God's justice and leave the wicked without excuse.",
+   "God willed some, not all, to keep his commands."
+  ],
+  "concepts": [
+   "conclusion",
+   "precept"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d47c3",
+    "pl-l1d47c2",
+    "pll1d45c7-d1e3509"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:45:54Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1d47c3": {
+  "summary": "Concludes that God's will that is himself is always unconquered and fulfilled in all, while his counsel, precept, and prohibition are not fulfilled by all. He did not command goods, forbid evils, or counsel the best to all because he willed all to do or avoid them, for then they would; but to show his justice, leave the wicked without excuse, and give glory to the obedient and punishment to the disobedient, as prepared from eternity. He willed some, not all, to keep his commands, and gave some personal commands he did not will fulfilled, as to Abraham and the healed in the Gospel.",
+  "claims": [
+   "God's will that is himself is always fulfilled.",
+   "God's counsel, precept, and prohibition are not fulfilled by all.",
+   "God gives commands to all to show his justice and leave the wicked without excuse.",
+   "God willed some, not all, to obey.",
+   "Some commands were given that God did not will to be fulfilled, as to Abraham."
+  ],
+  "concepts": [
+   "beneplacitum vs signum",
+   "purpose of precepts",
+   "inexcusability",
+   "predestination"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d47c3-d1e3519"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T18:45:54Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

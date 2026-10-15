@@ -1,0 +1,243 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T17:48:47Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l1d32c2-d1e3501": {
+  "summary": "Asks whether the Father is wise by the wisdom he begot, which is the Son alone.",
+  "claims": [],
+  "concepts": [
+   "question"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d32c2",
+    "pll1d32c1-d1e3557"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:48:47Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1d32c2-d1e3504": {
+  "summary": "Argues for it by analogy: if he loves by the love that proceeds from him, why not wise or understanding by the wisdom he begot?",
+  "claims": [],
+  "concepts": [
+   "analogy",
+   "objection"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d32c2",
+    "pl-l1d32c2-d1e3501"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:48:47Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1d32c2-d1e3507": {
+  "summary": "Cites De Trinitate VII on 1 Cor 1:24: is the Father wise by the wisdom he begot? No: since in God to be is to be wise, that wisdom would cause his being, which is insane. The Father is the wisdom by which he is wise; the Son is the Father's wisdom and power because he is wisdom and power from the Father, who is wisdom and power. So the Father is wise by unbegotten wisdom, himself.",
+  "claims": [
+   "In God to be is to be wise.",
+   "The Father is not wise by begotten wisdom.",
+   "The Son is wisdom from the Father who is wisdom."
+  ],
+  "concepts": [
+   "Augustine De Trinitate VII",
+   "simplicity"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d32c2",
+    "pl-l1d32c2-d1e3504",
+    "pll1d5c1-d1e3514"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:48:47Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1d32c2-d1e3542": {
+  "summary": "Cites Augustine's 83 Questions: God is wise not by participation, like the soul, but by the wisdom he begot.",
+  "claims": [
+   "The 83 Questions says the Father is wise by the wisdom he begot."
+  ],
+  "concepts": [
+   "contrary authority"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d32c2",
+    "pl-l1d32c2-d1e3507"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:48:47Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1d32c2-d1e3563": {
+  "summary": "Warns the reader that this says the Father is wise by begotten wisdom, against other texts, and notes that Augustine corrected it in the Retractations, saying he treated the question better in De Trinitate.",
+  "claims": [
+   "Augustine retracted the claim that the Father is wise by begotten wisdom."
+  ],
+  "concepts": [
+   "Retractationes",
+   "development of Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d32c2",
+    "pl-l1d32c2-d1e3542"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:48:47Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1d32c2-d1e3590": {
+  "summary": "Asks whether the Son is wise by begotten or unbegotten wisdom: if not begotten, he is not wise by himself; if begotten, not by unbegotten, and so not wise from the Father, though he has all from the Father.",
+  "claims": [],
+  "concepts": [
+   "question",
+   "dilemma"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d32c2",
+    "pl-l1d32c2-d1e3563"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:48:47Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1d32c2-d1e3593": {
+  "summary": "Answers: the wisdom of Father, Son, and Spirit is one, as the essence is one, since wisdom is essence in that simple nature; yet only the Son is begotten wisdom and only the Father unbegotten wisdom, and begotten wisdom is from unbegotten. Since to be is to be wise, begotten wisdom is wise from unbegotten wisdom.",
+  "claims": [
+   "The three persons have one wisdom.",
+   "The Son alone is begotten wisdom; the Father alone unbegotten wisdom.",
+   "Begotten wisdom is wise from unbegotten wisdom."
+  ],
+  "concepts": [
+   "one wisdom"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d32c2",
+    "pl-l1d32c2-d1e3590"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:48:47Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1d32c2-d1e3596": {
+  "summary": "Cites De Trinitate XV: the Son is not called wisdom as if he alone understood for himself, the Father, and the Spirit; otherwise the Father would be wise from the Son and have essence from him. The Father is wise by the wisdom he is; the Son, the Father's wisdom, is wise from the wisdom that is the Father, from whom he is begotten; likewise for understanding.",
+  "claims": [
+   "The Father is wise by the wisdom he is.",
+   "The Son is wise from the wisdom that is the Father.",
+   "The Son does not make the Father wise."
+  ],
+  "concepts": [
+   "Augustine De Trinitate XV",
+   "intelligence"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d32c2",
+    "pl-l1d32c2-d1e3593"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:48:47Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1d32c2-d1e3617": {
+  "summary": "Concludes: the Father is wisdom, the Son is wisdom, both one wisdom; only the Father is unbegotten wisdom, only the Son begotten; yet not another wisdom, as the Father is unbegotten God and the Son begotten God, but not another God.",
+  "claims": [
+   "Father and Son are one wisdom.",
+   "Begotten and unbegotten wisdom are distinct persons, not distinct wisdoms."
+  ],
+  "concepts": [
+   "alius vs aliud",
+   "conclusion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d32c2",
+    "pl-l1d32c2-d1e3596"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:48:47Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1d32c2": {
+  "summary": "Asks whether the Father is wise by the wisdom he begot, the Son, by analogy with loving by the love that proceeds from him. With Augustine, De Trinitate VII: no, since in God to be is to be wise, and the begotten wisdom would then cause the Father's being. The Father is wisdom itself; the Son is called the Father's wisdom because he is wisdom from the Father who is wisdom. Augustine's earlier statement in the 83 Questions, that the Father is wise by the wisdom he begot, was corrected in his Retractations. The Son is not wise by unbegotten wisdom as if from himself, but one wisdom is common: the Father is unbegotten wisdom, the Son begotten wisdom from it, not two wisdoms, as Father and Son are not two Gods.",
+  "claims": [
+   "The Father is not wise by the wisdom he begot.",
+   "If he were, the begotten wisdom would cause the Father's being.",
+   "The Father is himself wisdom; the Son is wisdom from the Father who is wisdom.",
+   "Augustine corrected his earlier contrary statement in the Retractations.",
+   "Father, Son, and Spirit are one wisdom, as one essence.",
+   "The Father is unbegotten wisdom, the Son begotten wisdom, yet they are not two wisdoms."
+  ],
+  "concepts": [
+   "sapientia genita vs ingenita",
+   "divine simplicity",
+   "Augustine's retractation",
+   "identity of being and wisdom"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l1d32c2-d1e3501",
+    "pl-l1d32c2-d1e3504",
+    "pl-l1d32c2-d1e3507",
+    "pl-l1d32c2-d1e3542",
+    "pl-l1d32c2-d1e3563",
+    "pl-l1d32c2-d1e3590",
+    "pl-l1d32c2-d1e3593",
+    "pl-l1d32c2-d1e3596",
+    "pl-l1d32c2-d1e3617"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T17:48:47Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

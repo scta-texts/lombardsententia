@@ -1,0 +1,84 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T11:04:07Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l3d31c3-d1e115": {
+  "summary": "Asks whether Christ as man kept the prescribed order of love. If so, he loved every man as himself, wished life for all and willed all to be saved; but not all are saved, so what he wished did not happen.",
+  "claims": [],
+  "concepts": [
+   "charity of Christ",
+   "order of charity",
+   "difficulty",
+   "universal salvific will"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d31c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:04:07Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d31c3-d1e121": {
+  "summary": "Answers that Christ had charity according to the mode of the homeland, not of the way, and kept the order of love observed in the homeland. The blessed are so devoted to God's justice that nothing pleases them but what pleases God; they will the salvation only of those God wills to save and love only them as themselves. So Christ loved only the elect as himself and wished their salvation.",
+  "claims": [
+   "Christ's charity followed the mode of the homeland.",
+   "The blessed will only what God wills.",
+   "Christ loved only the elect as himself."
+  ],
+  "concepts": [
+   "charity of Christ",
+   "comprehensor",
+   "will of the blessed",
+   "election"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d31c3",
+    "pl-l3d26c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:04:07Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d31c3": {
+  "summary": "Asks whether Christ as man kept the prescribed order of love. If so, he loved every man as himself and wished life for all, but not all are saved, so what he wished did not happen. Lombard answers that Christ had charity in the mode of the homeland, not the way, and kept the order observed there: the blessed are so devoted to God's justice that only what pleases God pleases them, and they will and love as themselves only those whom God wills to save. So Christ loved only the elect as himself and wished their salvation.",
+  "claims": [
+   "Christ had charity according to the mode of the homeland, not of the way.",
+   "The blessed will the salvation only of those whom God wills to save.",
+   "Christ loved only the elect as himself and wished their salvation."
+  ],
+  "concepts": [
+   "charity of Christ",
+   "order of charity",
+   "comprehensor",
+   "will of the blessed",
+   "election"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d31c3-d1e115",
+    "pl-l3d31c3-d1e121"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T11:04:07Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

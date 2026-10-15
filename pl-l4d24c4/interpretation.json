@@ -1,0 +1,106 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T12:50:50Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d24c4-d1e115": {
+  "summary": "Explains the crown as a seal by which they are marked for the lot of divine ministry; it signifies royal dignity, since serving God is reigning, and the Church's ministers should be kings who rule themselves and others, a royal priesthood. The top of the head is bared to show the mind free toward God, contemplating his glory with unveiled face; the clerics should not be ignorant of God's secrets. The hair is cut to expose eyes and ears, teaching that vices sprouting in heart and deed must be cut away, lest they hinder hearing and understanding God's word.",
+  "claims": [
+   "The crown signifies royal service of God.",
+   "The bared head signifies an open mind toward God.",
+   "Cutting the hair signifies cutting off vices."
+  ],
+  "concepts": [
+   "tonsure",
+   "royal priesthood",
+   "symbolism"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d24c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:50:50Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d24c4-d1e130": {
+  "summary": "States that the use of tonsure seems to have arisen from the Nazirites, who after keeping their hair shaved their heads for continence and burned the hair in the sacrificial fire; so those devoted to divine worship, like Nazirites, set aside their hair, as said to Ezekiel; Priscilla and Aquila, Paul, and others did this.",
+  "claims": [
+   "Tonsure derives from the Nazirite practice."
+  ],
+  "concepts": [
+   "tonsure",
+   "Nazirites",
+   "origins"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d24c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:50:50Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d24c4-d1e139": {
+  "summary": "Concludes that those in any grade are rightly called clerics, citing Isidore: they are so called because Matthias, the first ordained by the apostles, was chosen by lot, 'kleros' meaning lot or inheritance; they belong to the Lord's lot, or have God as their portion. All who serve in Christ's Church are generally called clerics, whose grades are porter, lector, and so on.",
+  "claims": [
+   "'Cleric' means one allotted to the Lord.",
+   "All who serve the Church are called clerics."
+  ],
+  "concepts": [
+   "clergy",
+   "etymology",
+   "Isidore"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d24c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:50:50Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d24c4": {
+  "summary": "Explains the clerical crown or tonsure: a sign of being marked for the lot of divine ministry, the crown signifying royal dignity, since to serve God is to reign; the shaved top shows a mind free and open to God, and the hair is cut to the eyes and ears to show that vices must be cut away so the word of God is heard. Tonsure seems to come from the Nazirites, and Priscilla, Aquila, and Paul did likewise. So all in any grade are rightly called clerics, from the Greek 'kleros', lot or inheritance, since Matthias was chosen by lot and they belong to the Lord's portion.",
+  "claims": [
+   "The tonsure signifies royal service of God and an open mind.",
+   "Tonsure derives from the Nazirite vow.",
+   "'Cleric' comes from 'kleros', lot or inheritance."
+  ],
+  "concepts": [
+   "tonsure",
+   "clergy",
+   "Nazirites",
+   "etymology"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d24c4-d1e115",
+    "pl-l4d24c4-d1e130",
+    "pl-l4d24c4-d1e139"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T12:50:50Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

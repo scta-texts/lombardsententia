@@ -1,0 +1,108 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T11:52:39Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d5c2-d1e112": {
+  "summary": "Continues the sentence from the previous chapter: because ministers have only the ministry, not the power of baptism, which Christ kept for himself, as John knew when he saw the dove descend upon Christ.",
+  "claims": [
+   "Ministers have the ministry, not the power, of baptism."
+  ],
+  "concepts": [
+   "power and ministry",
+   "dove"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d5c2",
+    "pl-l4d5c1-d1e180"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:52:39Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d5c2-d1e115": {
+  "summary": "Quotes Augustine: John knew the Lord, but learned that the power of the Lord's baptism would pass to no man, while the ministry would pass to good and bad. The dove should look to the Lord's power, not shrink from bad ministers; neither the one who plants nor who waters is anything, but God who gives the increase. A proud minister is counted with the devil, but Christ's gift is not contaminated; water passes through a stone channel to the garden beds, and the channel bears nothing while the garden bears fruit. So both good and bad have the ministry of baptizing, neither the power.",
+  "claims": [
+   "The power of baptism passes to no man; the ministry to good and bad.",
+   "Christ's gift flows pure through a bad minister."
+  ],
+  "concepts": [
+   "power and ministry",
+   "stone channel analogy",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d5c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:52:39Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d5c2-d1e127": {
+  "summary": "Explains that Christ gave the ministry to servants but kept the power, which he could have given so that a servant would give his baptism as Christ's representative, with as much force as the Lord's. He did not, lest servant put hope in servant and there be as many baptisms as servants, called Peter's or Paul's as John's was called John's. So a servant rightly says he baptizes, but as minister; it makes no difference whether he is good or bad. No one says 'my baptism' as he says 'my gospel' or 'my prudence', where one may excel another; no one is more or less baptized by a lesser or greater minister.",
+  "claims": [
+   "Christ could have given the power of baptism but kept it.",
+   "He kept it lest hope be placed in servants.",
+   "No one is more or less baptized according to the minister."
+  ],
+  "concepts": [
+   "power and ministry",
+   "Christ the baptizer",
+   "hope in God"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d5c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:52:39Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d5c2": {
+  "summary": "Gives the reason: ministers have only the ministry of baptism, not its power, which Christ kept for himself, as John learned when he saw the dove descend on Christ. Augustine: the power would pass to no man, but the ministry to good and bad; Christ's gift flows pure through a bad minister, as water through a stone channel to the garden beds. Christ could have given servants the power, so that a servant's baptism would be as powerful as the Lord's, but chose not to, lest servants put their hope in servants and there be as many baptisms as servants. So a servant rightly says he baptizes, but as minister, and no one says 'my baptism' as one says 'my gospel'.",
+  "claims": [
+   "Ministers have the ministry of baptism, not its power.",
+   "Christ kept the power of baptism for himself.",
+   "Christ could have given servants this power but did not, lest hope be placed in servants.",
+   "Hence no one is more or less baptized according to the minister."
+  ],
+  "concepts": [
+   "power and ministry",
+   "minister of baptism",
+   "Christ the baptizer",
+   "dove",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d5c2-d1e112",
+    "pl-l4d5c2-d1e115",
+    "pl-l4d5c2-d1e127"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T11:52:39Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

@@ -1,0 +1,83 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T18:59:02Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll2d6c2-d1e3514": {
+  "summary": "States that for such pride Lucifer was cast from the empyrean into this dark air with all his accomplices; as Revelation says, the dragon falling drew a third of the stars, since many fell with him who consented to his malice. This was done for our testing and exercise.",
+  "claims": [
+   "Lucifer fell with many consenting angels into the air.",
+   "This serves to test us."
+  ],
+  "concepts": [
+   "Revelation 12:4",
+   "testing"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d6c2",
+    "pll2d6c1-d1e3559"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:59:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d6c2-d1e3546": {
+  "summary": "Cites Eph 6:12: our struggle is against spiritual wickedness in the heavens, since demons dwell in the turbulent air near us, called heaven; hence the devil is called prince of the air.",
+  "claims": [
+   "Demons dwell in the air near us.",
+   "The devil is prince of the air."
+  ],
+  "concepts": [
+   "Ephesians 6:12"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d6c2",
+    "pll2d6c2-d1e3514"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:59:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d6c2": {
+  "summary": "States that for such pride Lucifer was cast from the empyrean into this dark air with all his accomplices; the dragon drew a third of the stars (Rev 12:4). This was for our testing and exercise: we wrestle against spiritual wickedness in the heavens (Eph 6:12), since demons dwell in this turbulent air near us, called 'heaven,' and the devil is called prince of the air.",
+  "claims": [
+   "Lucifer was cast from the empyrean into the dark air.",
+   "Many angels who consented to his malice fell with him.",
+   "Their dwelling in the air serves for our testing and exercise.",
+   "Demons dwell in the turbulent air near us."
+  ],
+  "concepts": [
+   "fall of angels",
+   "demons in the air",
+   "testing",
+   "Revelation 12:4",
+   "Ephesians 6:12"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll2d6c2-d1e3514",
+    "pll2d6c2-d1e3546"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T18:59:02Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

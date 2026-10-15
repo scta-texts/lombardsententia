@@ -1,0 +1,142 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T13:04:02Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d35c1-d1e115": {
+  "summary": "States that though the Lord allows the husband to dismiss his wife for fornication, the same license is not taken from women.",
+  "claims": [
+   "Wives too may separate for fornication."
+  ],
+  "concepts": [
+   "separation",
+   "equality of spouses"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d35c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:04:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d35c1-d1e118": {
+  "summary": "Quotes Jerome: the Lord commanded that a wife not be dismissed except for fornication and, if dismissed, remain unmarried; whatever is commanded to men applies equally to women, for an adulterous wife is not to be dismissed and an adulterous husband kept.",
+  "claims": [
+   "The law of separation applies equally to both sexes."
+  ],
+  "concepts": [
+   "equality of spouses",
+   "Jerome"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d35c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:04:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d35c1-d1e127": {
+  "summary": "Adds Jerome: with us what is not lawful for women is equally not lawful for men, and the same service is judged by equal condition.",
+  "claims": [
+   "Men and women are bound equally."
+  ],
+  "concepts": [
+   "equality of spouses"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d35c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:04:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d35c1-d1e134": {
+  "summary": "Concludes that a woman can sue her husband for fornication as a man can his wife.",
+  "claims": [
+   "A wife can accuse her husband of fornication."
+  ],
+  "concepts": [
+   "adultery",
+   "equality of spouses"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d35c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:04:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d35c1-d1e137": {
+  "summary": "Quotes Pope Innocent: Christianity condemns adultery equally in both sexes; but women do not easily accuse their husbands, while men more freely bring adulterous wives before priests; so communion is denied to women whose crime is revealed, while men's hidden sins are not easily punished on suspicion, though they would be excluded if found out.",
+  "claims": [
+   "Adultery is equally condemned in both sexes.",
+   "Unequal enforcement arises from unequal accusation."
+  ],
+  "concepts": [
+   "adultery",
+   "Innocent I"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d35c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:04:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d35c1": {
+  "summary": "The permission to dismiss a spouse for fornication applies to wives as well as husbands: Jerome says what is commanded to men applies to women, and an adulterous wife is not to be dismissed while an adulterous husband is kept; so a woman can accuse her husband of fornication as he can her. Innocent: Christianity condemns adultery equally in both sexes, though women rarely accuse their husbands, so men's hidden sins go unpunished.",
+  "claims": [
+   "Husband and wife have equal right to separate for fornication.",
+   "Adultery is equally condemned in both sexes."
+  ],
+  "concepts": [
+   "adultery",
+   "equality of spouses",
+   "separation"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d35c1-d1e115",
+    "pl-l4d35c1-d1e118",
+    "pl-l4d35c1-d1e127",
+    "pl-l4d35c1-d1e134",
+    "pl-l4d35c1-d1e137"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T13:04:02Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

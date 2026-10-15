@@ -1,0 +1,121 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:38:20Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d29c6-d1e108": {
+  "summary": "Asks whether man ate of the tree of life before sin.",
+  "claims": [],
+  "concepts": [
+   "question"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d29c6",
+    "pl-l2d29c5"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:38:20Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d29c6-d1e111": {
+  "summary": "Cites Augustine on infant baptism: the first humans abstained from the forbidden food before the devil's persuasion and used what was granted. So they ate from the tree of life, being commanded to eat from every tree but the tree of knowledge of good and evil.",
+  "claims": [
+   "The first humans ate of the tree of life."
+  ],
+  "concepts": [
+   "Augustine De peccatorum meritis"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d29c6",
+    "pl-l2d29c6-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:38:20Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d29c6-d1e116": {
+  "summary": "Asks why then they were not clothed with lasting stability and blessed immortality, so as not to be changed for the worse by weakness or age, which power the tree is said to have naturally.",
+  "claims": [],
+  "concepts": [
+   "objection"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d29c6",
+    "pl-l2d29c6-d1e111"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:38:20Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d29c6-d1e120": {
+  "summary": "Suggests the tree may have conferred this only if eaten often; he could have eaten once and not more, though he was in paradise for some time, since Scripture says he slept there when the rib was taken and woman formed, and the animals were brought to be named.",
+  "claims": [
+   "The tree may require repeated eating.",
+   "Adam was in paradise for some time."
+  ],
+  "concepts": [
+   "tree of life"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d29c6",
+    "pl-l2d29c6-d1e116",
+    "pl-l2d18c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:38:20Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d29c6": {
+  "summary": "Asks whether man ate of the tree of life before sin. Augustine says the first humans abstained from the forbidden food and used what was granted, so they ate of the tree of life, being allowed every tree but that of knowledge of good and evil. Why then were they not clothed with lasting stability and immortality, which the tree is said to give naturally? Perhaps it conferred this only if eaten often; he may have eaten once and not more, though he was in paradise for some time, as the forming of woman and naming of animals show.",
+  "claims": [
+   "The first humans ate of the tree of life before sin.",
+   "The tree of life is said to give natural stability against aging.",
+   "Perhaps the tree gave immortality only if eaten often.",
+   "Adam spent some time in paradise before sin."
+  ],
+  "concepts": [
+   "tree of life",
+   "original state",
+   "immortality",
+   "Augustine De peccatorum meritis"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d29c6-d1e108",
+    "pl-l2d29c6-d1e111",
+    "pl-l2d29c6-d1e116",
+    "pl-l2d29c6-d1e120"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:38:20Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

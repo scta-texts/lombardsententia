@@ -1,0 +1,146 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T11:50:19Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d3c5-d1e115": {
+  "summary": "Notes that there are various views about when baptism was instituted.",
+  "claims": [],
+  "concepts": [
+   "institution of baptism"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d3c5"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:50:19Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d3c5-d1e118": {
+  "summary": "Reports that some say baptism was instituted when Christ told Nicodemus 'unless one is reborn of water and the Holy Spirit'.",
+  "claims": [
+   "Some date the institution of baptism to the words to Nicodemus."
+  ],
+  "concepts": [
+   "institution of baptism",
+   "Nicodemus"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d3c5"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:50:19Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d3c5-d1e121": {
+  "summary": "Reports others who say it was instituted when Christ told the apostles 'go, teach all nations, baptizing them'. But he said this after the resurrection, concerning the call of the gentiles; before the passion he had already sent them two by two to preach and baptize in Judea, so baptism was already instituted.",
+  "claims": [
+   "Baptism was already practiced before the commission to the gentiles."
+  ],
+  "concepts": [
+   "institution of baptism",
+   "mission of the apostles"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d3c5"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:50:19Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d3c5-d1e125": {
+  "summary": "Answers that they then baptized in the name of the Trinity, the form later used for the gentiles, which can be understood to have been given before the passion though not written. Christ did not first give the form when he sent them to the gentiles, but repeated what he had given when sending them to Judea.",
+  "claims": [
+   "The Trinitarian form was given before the passion, though not recorded."
+  ],
+  "concepts": [
+   "form of baptism",
+   "mission of the apostles"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d3c5"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:50:19Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d3c5-d1e128": {
+  "summary": "Holds it more fitting to say that baptism was instituted when Christ was baptized by John in the Jordan, which he arranged not because he needed cleansing, being without sin, but to give the waters regenerative power by the contact of his pure flesh, so that whoever was afterward immersed with the invocation of the Trinity would be purged of sins. Then Christ's baptism was instituted, in which the Trinity, whose mystery was revealed there, baptizes man inwardly.",
+  "claims": [
+   "Baptism was instituted at Christ's baptism in the Jordan.",
+   "Christ's flesh gave water regenerative power.",
+   "The Trinity baptizes inwardly."
+  ],
+  "concepts": [
+   "institution of baptism",
+   "baptism of Christ",
+   "regenerative power of water",
+   "Trinity"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d3c5"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:50:19Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d3c5": {
+  "summary": "Reviews opinions on when baptism was instituted: when Christ spoke to Nicodemus, or when he sent the apostles to baptize all nations; but the apostles already baptized before the passion when sent to Judea, presumably in the Trinitarian form, which Christ repeated when sending them to the gentiles. It is more fitting to say baptism was instituted when Christ was baptized by John in the Jordan, not to be cleansed, being sinless, but to give the waters regenerative power by contact with his pure flesh; the Trinity was revealed there and baptizes inwardly.",
+  "claims": [
+   "Opinions differ on when baptism was instituted.",
+   "The apostles baptized before the passion, probably in the Trinitarian form.",
+   "Baptism was most fittingly instituted at Christ's baptism in the Jordan.",
+   "Christ's flesh gave the waters regenerative power."
+  ],
+  "concepts": [
+   "institution of baptism",
+   "baptism of Christ",
+   "Jordan",
+   "regenerative power of water"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d3c5-d1e115",
+    "pl-l4d3c5-d1e118",
+    "pl-l4d3c5-d1e121",
+    "pl-l4d3c5-d1e125",
+    "pl-l4d3c5-d1e128"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T11:50:19Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

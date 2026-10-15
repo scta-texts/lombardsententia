@@ -1,0 +1,161 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T13:14:26Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d49c3-d1e115": {
+  "summary": "Asks whether the blessed are unequal in joy as they differ in clarity of knowledge.",
+  "claims": [],
+  "concepts": [
+   "joy of the blessed"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d49c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:14:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d49c3-d1e118": {
+  "summary": "Quotes Augustine: there will be many mansions in one life, various dignities of reward; but where God is all in all, there will be equal joy in unequal brightness, so that what each has is common to all, since the glory of the head will be of all through the bond of charity.",
+  "claims": [
+   "Unequal brightness, equal joy, through charity."
+  ],
+  "concepts": [
+   "joy of the blessed",
+   "charity",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d49c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:14:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d49c3-d1e130": {
+  "summary": "Draws out that all will have equal joy though unequal clarity of knowledge, since through charity, perfect in each, each will rejoice in another's good as if he had it himself.",
+  "claims": [
+   "Perfect charity makes each rejoice in others' good."
+  ],
+  "concepts": [
+   "charity",
+   "joy of the blessed"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d49c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:14:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d49c3-d1e137": {
+  "summary": "Objects: if all have equal joy, all seem to have equal beatitude, which is not so.",
+  "claims": [],
+  "concepts": [
+   "beatitude",
+   "objection"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d49c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:14:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d49c3-d1e140": {
+  "summary": "Answers that beatitude would be equal if joy were equal along with equal knowledge; but since knowledge will not be equal, equal joy does not make equal beatitude.",
+  "claims": [
+   "Beatitude includes knowledge, which differs."
+  ],
+  "concepts": [
+   "beatitude",
+   "beatific vision"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d49c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:14:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d49c3-d1e143": {
+  "summary": "Adds that equal joy can be taken as referring not to intensity of affection but to the totality of things rejoiced in, since all will rejoice in whatever one rejoices in.",
+  "claims": [
+   "Equal joy may mean joy in the same objects."
+  ],
+  "concepts": [
+   "joy of the blessed"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d49c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:14:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d49c3": {
+  "summary": "Asks whether the blessed differ in joy as in clarity of knowledge. Augustine: there will be many mansions, various dignities of reward, but in unequal brightness equal joy, since what each has will be common to all through the bond of charity. So all will have equal joy, rejoicing in another's good as their own. If joy is equal, is beatitude equal? Not, since knowledge differs; or equal joy means all rejoice in the same things, not with equal intensity.",
+  "claims": [
+   "The blessed differ in clarity but share joy through charity.",
+   "Equal joy does not mean equal beatitude, since knowledge differs.",
+   "Or 'equal joy' means joy in the same objects."
+  ],
+  "concepts": [
+   "joy of the blessed",
+   "charity",
+   "degrees of glory",
+   "beatitude"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d49c3-d1e115",
+    "pl-l4d49c3-d1e118",
+    "pl-l4d49c3-d1e130",
+    "pl-l4d49c3-d1e137",
+    "pl-l4d49c3-d1e140",
+    "pl-l4d49c3-d1e143"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T13:14:26Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

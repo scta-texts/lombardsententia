@@ -1,0 +1,78 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:30:14Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d21c8-d1e108": {
+  "summary": "Notes that the command seems given not only to the man, since the woman says 'God commanded us'; yet before she was made, God said to the man 'do not eat' in the singular, perhaps so the command would come to her through the man, to whom she was subject (1 Cor 14:35).",
+  "claims": [
+   "The command came to the woman through the man."
+  ],
+  "concepts": [
+   "subjection of woman",
+   "1 Corinthians 14:35"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d21c8",
+    "pl-l2d21c7"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:30:14Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d21c8-d1e111": {
+  "summary": "Asks how they could speak or understand speech without having learned; answers that God made them able to speak and to learn from others if there were any.",
+  "claims": [
+   "The first humans were made able to speak."
+  ],
+  "concepts": [
+   "language"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d21c8",
+    "pl-l2d21c8-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:30:14Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d21c8": {
+  "summary": "Notes that the command was not given to the man alone, since the woman says 'God commanded us'; yet before she was made God told the man 'do not eat' in the singular, perhaps so the command would reach her through him, being subject to him (1 Cor 14:35). Asked how they could speak and understand without learning, Lombard answers that God made them able to speak and to learn from others if there were any.",
+  "claims": [
+   "The command reached the woman through the man.",
+   "The woman, subject to the man, received the command through him.",
+   "God made the first humans able to speak without learning."
+  ],
+  "concepts": [
+   "original command",
+   "man and woman",
+   "language"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d21c8-d1e108",
+    "pl-l2d21c8-d1e111"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:30:14Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

@@ -1,0 +1,169 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T13:01:54Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d31c5-d1e115": {
+  "summary": "States that when the three goods concur in a marriage they excuse carnal intercourse: when spouses unite for offspring with faith kept, intercourse is excused without fault; when, lacking the good of offspring but keeping faith, they unite from incontinence, it is not excused from fault but its fault is venial.",
+  "claims": [
+   "Intercourse for offspring is without fault.",
+   "Intercourse from incontinence is venial."
+  ],
+  "concepts": [
+   "goods of marriage",
+   "marital intercourse",
+   "venial sin"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d31c5"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:01:54Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d31c5-d1e118": {
+  "summary": "Quotes Augustine: conjugal intercourse for generation has no fault; for satisfying concupiscence, yet with the spouse because of conjugal faith, it has venial fault.",
+  "claims": [
+   "Intercourse from concupiscence within marriage is venial."
+  ],
+  "concepts": [
+   "venial sin",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d31c5"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:01:54Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d31c5-d1e127": {
+  "summary": "Adds Augustine: that spouses overcome by concupiscence use each other beyond the need of procreation I place among the things for which we say daily 'forgive us our debts'. Where faith and offspring are lacking, intercourse does not seem defended from crime.",
+  "claims": [
+   "Without faith and offspring intercourse is not excused."
+  ],
+  "concepts": [
+   "venial sin",
+   "Lord's Prayer"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d31c5"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:01:54Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d31c5-d1e134": {
+  "summary": "Cites the Sentences of Sextus the Pythagorean: every too ardent lover of his own wife is an adulterer.",
+  "claims": [
+   "Excessive ardor toward one's wife is adulterous."
+  ],
+  "concepts": [
+   "concupiscence",
+   "Sextus"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d31c5"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:01:54Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d31c5-d1e143": {
+  "summary": "Quotes Jerome: the wise man loves his wife with judgment, not passion; nothing is fouler than loving a wife as an adulteress. Those who say they marry for the human race should at least imitate cattle, and not destroy children after the wife's belly swells, being husbands, not lovers.",
+  "claims": [
+   "The wise love their wives with judgment, not passion."
+  ],
+  "concepts": [
+   "concupiscence",
+   "Jerome"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d31c5"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:01:54Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d31c5-d1e152": {
+  "summary": "Adds Jerome: in marriage the work of children is permitted; pleasures sought from harlots are condemned in a wife.",
+  "claims": [
+   "Harlot-like pleasures are condemned in marriage."
+  ],
+  "concepts": [
+   "marital intercourse",
+   "Jerome"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d31c5"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:01:54Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d31c5": {
+  "summary": "When the three goods concur, they excuse intercourse: united for offspring with faith kept, it is without fault; for incontinence with faith kept, it has venial fault, as Augustine says, among the debts forgiven daily. Where faith and offspring are lacking, intercourse is not defended from crime: the Sentences of Sextus call the ardent lover of his own wife an adulterer, and Jerome says the wise man loves his wife with judgment, not passion, and condemns in marriage the pleasures sought from harlots.",
+  "claims": [
+   "Intercourse for offspring with faith kept is without fault.",
+   "Intercourse for incontinence with faith kept is a venial fault.",
+   "Without faith and offspring intercourse is not excused.",
+   "Excessive passion for one's wife is condemned."
+  ],
+  "concepts": [
+   "goods of marriage",
+   "marital intercourse",
+   "venial sin",
+   "concupiscence"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d31c5-d1e115",
+    "pl-l4d31c5-d1e118",
+    "pl-l4d31c5-d1e127",
+    "pl-l4d31c5-d1e134",
+    "pl-l4d31c5-d1e143",
+    "pl-l4d31c5-d1e152"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T13:01:54Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

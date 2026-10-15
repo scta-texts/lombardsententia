@@ -1,0 +1,125 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T21:12:25Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d39c1-d1e108": {
+  "summary": "Raises a needed question: will is natural to man like intellect and memory; natural things, however vitiated, remain good, since vice cannot wholly consume their created goodness; intellect, reason, talent, and memory, though clouded by sin, are good and not called sins, as Augustine says of reason, the image in which we were made, a good nature even amid vices. So why is will not always good?",
+  "claims": [
+   "Natural powers remain good."
+  ],
+  "concepts": [
+   "natural goods",
+   "imago Dei",
+   "Augustine De Trinitate"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d39c1",
+    "pl-l2d38c4",
+    "pl-l2d16c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:12:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d39c1-d1e111": {
+  "summary": "Reports the answer of those who say all that is, insofar as it is, is good: will as will is good, but as inordinate it is evil and sin.",
+  "claims": [
+   "Will is good as will, evil as inordinate."
+  ],
+  "concepts": [
+   "inordination"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d39c1",
+    "pl-l2d39c1-d1e108",
+    "pl-l2d35c3-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:12:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d39c1-d1e114": {
+  "summary": "Asks them: if will as inordinate is sin, why not intellect, reason, and talent when inordinate, not tending to the right end, their acts transgressions?",
+  "claims": [],
+  "concepts": [
+   "objection"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d39c1",
+    "pl-l2d39c1-d1e111"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:12:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d39c1-d1e118": {
+  "summary": "Reports their answer: 'will' means sometimes the power, the natural capacity of willing, sometimes its act; the power, naturally in the soul, is never sin, like the power of memory or understanding; but the act of this power, also called will, is sin when inordinate.",
+  "claims": [
+   "The power of will is never sin; its act can be."
+  ],
+  "concepts": [
+   "will as power and act"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d39c1",
+    "pl-l2d39c1-d1e114"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:12:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d39c1": {
+  "summary": "Asks why, if will is natural to man like intellect and memory, and natural things remain good however vitiated (Augustine: the image is a good nature even amid vices), will is not always good. Those holding all things good insofar as they are say will is good as will and evil as inordinate. Asked why intellect and memory are not sins when inordinate, they distinguish will as power, the natural capacity to will, never sin, from will as act, which is sin when inordinate.",
+  "claims": [
+   "Natural powers remain good however vitiated.",
+   "The image of God remains a good nature amid vices.",
+   "Will as a natural power is never sin.",
+   "Will as an act is sin when inordinate."
+  ],
+  "concepts": [
+   "will as power and act",
+   "natural goods",
+   "imago Dei",
+   "Augustine De Trinitate"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d39c1-d1e108",
+    "pl-l2d39c1-d1e111",
+    "pl-l2d39c1-d1e114",
+    "pl-l2d39c1-d1e118"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T21:12:25Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

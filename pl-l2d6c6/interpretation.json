@@ -1,0 +1,82 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T18:59:02Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll2d6c6-d1e3514": {
+  "summary": "Reports opinions about Lucifer: some think he is bound in hell with no access to tempt us now, citing Rev 20:7 (Satan loosed after a thousand years, under Antichrist), bound since he tempted Christ in the desert or passion and was defeated, having first tempted and conquered man, then tempted God and been conquered. Others think he was plunged into hell from his fall for the greatness of his sin.",
+  "claims": [
+   "Opinions differ on whether Lucifer was bound after Christ's victory or at his fall."
+  ],
+  "concepts": [
+   "opinions",
+   "binding of Satan"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d6c6",
+    "pl-l2d6c5"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:59:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d6c6-d1e3529": {
+  "summary": "Concludes that, whether or not he is in hell, it is credible he does not now have the access to tempt us that he will have under Antichrist, when he will act fraudulently and violently; he is perhaps said to be loosed then because God will then give him power to tempt.",
+  "claims": [
+   "Lucifer lacks now the power he will have under Antichrist."
+  ],
+  "concepts": [
+   "Antichrist",
+   "permission"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d6c6",
+    "pll2d6c6-d1e3514"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:59:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d6c6": {
+  "summary": "Reports opinions about Lucifer: some think he is bound in hell and cannot now tempt us, citing Rev 20:7 (Satan loosed after a thousand years, at the time of Antichrist), bound since he was defeated by Christ in the desert or the passion; others that he was plunged into hell from his fall. Either way, it is credible that he does not now have the access to tempt us that he will have under Antichrist, when God will give him power to tempt, so that he is said to be 'loosed' then.",
+  "claims": [
+   "Some hold Lucifer is bound in hell since his defeat by Christ.",
+   "Others hold he was plunged into hell at his fall.",
+   "Lucifer probably cannot now tempt us directly.",
+   "He will be given power to tempt at the time of Antichrist."
+  ],
+  "concepts": [
+   "Lucifer",
+   "Antichrist",
+   "Revelation 20:7",
+   "binding of Satan",
+   "opinions"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll2d6c6-d1e3514",
+    "pll2d6c6-d1e3529"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T18:59:02Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

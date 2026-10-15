@@ -1,0 +1,128 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T17:39:40Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll1d21c3-d1e3501": {
+  "summary": "Asks how the Trinity is called God alone when it is with holy spirits and souls.",
+  "claims": [],
+  "concepts": [
+   "solus",
+   "question"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d21c3",
+    "pll1d21c2-d1e3598"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:39:40Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d21c3-d1e3504": {
+  "summary": "Answers with De Trinitate VI: the Trinity is called God alone, though always with holy spirits and souls, because nothing but the Trinity is God; they are not God with it.",
+  "claims": [
+   "Only the Trinity is God.",
+   "Saints and angels are with God but are not God with him."
+  ],
+  "concepts": [
+   "exclusive terms"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d21c3",
+    "pll1d21c3-d1e3501"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:39:40Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d21c3-d1e3523": {
+  "summary": "Adds with Augustine: even if such things were said of the Father alone, Son and Spirit would not be excluded, since the three are one. So 'a name which no one knows but he' (Rev 19:12), said of the Son, does not exclude Father or Spirit, nor does 'no one knows the Father but the Son' exclude Father or Spirit, since they are inseparable.",
+  "claims": [
+   "What is said of one person does not exclude the others.",
+   "The persons are inseparable."
+  ],
+  "concepts": [
+   "inseparability",
+   "exegesis"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d21c3",
+    "pll1d21c3-d1e3504"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:39:40Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d21c3-d1e3569": {
+  "summary": "Notes that sometimes Father and Son are named and the Spirit omitted, as in John 17:3. Augustine explains that wherever one is named, as Father and Son, the Peace by which they cleave is understood though not mentioned. So when one is named the others are understood, as often in Scripture.",
+  "claims": [
+   "Where Father and Son are named, the Spirit is understood.",
+   "The Spirit is the peace uniting Father and Son.",
+   "In Scripture naming one person implies the others."
+  ],
+  "concepts": [
+   "Spirit as Pax",
+   "John 17:3",
+   "exegetical principle"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d21c3",
+    "pll1d21c3-d1e3523"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:39:40Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1d21c3": {
+  "summary": "Asks how the Trinity is called 'God alone' when it is always with holy spirits and souls. With Augustine, 'alone' means that nothing but the Trinity is God; those with it are not God with it. Even when something is said of the Father alone, Son and Spirit are not excluded, since the three are one, as 'no one knows the Father except the Son' does not exclude the Father or Spirit. Likewise, when Father and Son are named without the Spirit (John 17:3), the Spirit, their Peace, is understood.",
+  "claims": [
+   "The Trinity is called 'God alone' because nothing else is God, though it is with saints and angels.",
+   "Saying something of one person does not exclude the others, since the three are one.",
+   "Where Father and Son are named, the Spirit is understood as their bond of peace."
+  ],
+  "concepts": [
+   "solus",
+   "inseparability",
+   "exegetical principle",
+   "Spirit as Pax"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d21c3-d1e3501",
+    "pll1d21c3-d1e3504",
+    "pll1d21c3-d1e3523",
+    "pll1d21c3-d1e3569"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T17:39:40Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

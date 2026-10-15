@@ -1,0 +1,78 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T18:59:02Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll2d6c5-d1e3514": {
+  "summary": "Asks whether all demons are in the dark air or some already in hell.",
+  "claims": [],
+  "concepts": [
+   "question"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d6c5",
+    "pl-l2d6c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:59:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d6c5-d1e3517": {
+  "summary": "Answers that it is likely some demons descend daily to hell leading souls to torment, and some are always there, perhaps alternating, holding and tormenting souls. That the souls of the wicked go there follows from Christ's descent to free the just; if the just went there, much more the unjust, whom he left, 'biting hell, not swallowing it.'",
+  "claims": [
+   "Demons likely bring souls to hell and torment them there.",
+   "Christ freed the just from hell and left the wicked."
+  ],
+  "concepts": [
+   "descent into hell"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d6c5",
+    "pll2d6c5-d1e3514"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:59:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d6c5": {
+  "summary": "Asks whether all demons are in the dark air or some already in hell. It is likely that some descend daily to hell leading souls to torment, and that some are always there, perhaps by turns, to hold and torment souls. That souls of the wicked go there is shown by Christ's descent to hell to free the just: if the just went there, much more the unjust, whom he left there, 'biting hell, not swallowing it.'",
+  "claims": [
+   "Some demons likely descend to hell daily leading souls.",
+   "Some demons likely remain in hell, tormenting souls.",
+   "Souls of the wicked go to hell.",
+   "Christ descended to hell to free the just and left the wicked."
+  ],
+  "concepts": [
+   "hell",
+   "demons",
+   "descent into hell",
+   "souls of the dead"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll2d6c5-d1e3514",
+    "pll2d6c5-d1e3517"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T18:59:02Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

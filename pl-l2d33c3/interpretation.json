@@ -1,0 +1,169 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T21:09:26Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d33c3-d1e108": {
+  "summary": "Asks whether Adam's transgression, source of original sin and containing many sins, was graver than other sins.",
+  "claims": [],
+  "concepts": [
+   "question"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d33c3",
+    "pl-l2d33c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:09:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d33c3-d1e111": {
+  "summary": "Reports some who say yes, since it changed all human nature, citing the Enchiridion: that one sin committed in such happiness was so great that in one man the whole race was condemned originally and, as it were, at the root.",
+  "claims": [
+   "Adam's sin condemned the race at its root."
+  ],
+  "concepts": [
+   "Augustine Enchiridion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d33c3",
+    "pl-l2d33c3-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:09:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d33c3-d1e114": {
+  "summary": "Cites De civitate Dei: the command was violated with greater injustice the more easily it could have been kept, since desire did not yet resist the will.",
+  "claims": [
+   "The ease of the command increased the injustice."
+  ],
+  "concepts": [
+   "Augustine De civitate Dei"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d33c3",
+    "pl-l2d33c3-d1e111"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:09:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d33c3-d1e118": {
+  "summary": "States that those who call that sin graver rely on these and other authorities.",
+  "claims": [],
+  "concepts": [
+   "authorities"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d33c3",
+    "pl-l2d33c3-d1e114"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:09:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d33c3-d1e121": {
+  "summary": "Reports their argument from reason: that sin harmed more than any other, vitiating the whole race and subjecting it to both deaths; so it had a greater effect of evil.",
+  "claims": [
+   "It harmed more than any other sin."
+  ],
+  "concepts": [
+   "argument"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d33c3",
+    "pl-l2d33c3-d1e118"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:09:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d33c3-d1e124": {
+  "summary": "Answers that though it changed human nature to necessity of death and spread guilt to the race, it was not graver than the sin against the Holy Spirit, forgiven neither here nor hereafter. It corrupted the whole nature because committed when the whole nature was in one man, not because it was graver; its greater effect was in the many defects flowing from it, not in eternal punishment, which it did not merit more than many later sins; others have merited greater wrath than Adam.",
+  "claims": [
+   "Adam's sin was not the gravest.",
+   "Others merited greater wrath than Adam."
+  ],
+  "concepts": [
+   "sin against the Holy Spirit",
+   "Matthew 12:32"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d33c3",
+    "pl-l2d33c3-d1e121"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:09:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d33c3": {
+  "summary": "Asks whether Adam's transgression, from which original sin proceeded, was graver than all other sins. Some say yes, since it changed all human nature and condemned the race in its root (Augustine), was committed in great happiness, and was the more unjust because the command was easy to keep; it did more harm than any other sin. Lombard answers that though it changed nature into necessity of death and spread guilt to the race, it was not graver than the sin against the Holy Spirit, which is never forgiven. It corrupted the whole nature not because it was gravest but because the whole nature was then in one man; it had greater effect in the defects that flowed from it, not in eternal punishment, and others have merited greater wrath than Adam.",
+  "claims": [
+   "Some held Adam's sin the gravest because it corrupted all human nature.",
+   "Adam's command was easy to keep, which made its breach more unjust.",
+   "Adam's sin was not graver than the sin against the Holy Spirit.",
+   "Adam's sin corrupted all nature because all nature was then in one man.",
+   "Adam's sin had greater effect in defects, not in eternal punishment.",
+   "Others have merited greater wrath than Adam."
+  ],
+  "concepts": [
+   "gravity of sin",
+   "Adam's sin",
+   "sin against the Holy Spirit",
+   "human nature",
+   "Augustine De civitate Dei",
+   "Augustine Enchiridion"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d33c3-d1e108",
+    "pl-l2d33c3-d1e111",
+    "pl-l2d33c3-d1e114",
+    "pl-l2d33c3-d1e118",
+    "pl-l2d33c3-d1e121",
+    "pl-l2d33c3-d1e124"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T21:09:26Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

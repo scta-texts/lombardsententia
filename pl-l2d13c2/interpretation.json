@@ -1,0 +1,124 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:11:27Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll2d13c2-d1e3519": {
+  "summary": "Asks whether that light was corporeal or spiritual, answering from the saints.",
+  "claims": [],
+  "concepts": [
+   "question"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d13c2",
+    "pl-l2d13c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:11:27Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d13c2-d1e3522": {
+  "summary": "Cites Augustine: the light can be understood corporeally or spiritually. Spiritually it is angelic nature, first unformed ('heaven' in Gen 1:1), then formed when converted to the Creator and cleaving to him by charity ('let there be light'); it was first darkness, then light.",
+  "claims": [
+   "Spiritually, the first light is angelic nature formed by conversion."
+  ],
+  "concepts": [
+   "Augustine",
+   "allegorical reading"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d13c2",
+    "pll2d13c2-d1e3519",
+    "pll2d2c5-d1e3514"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:11:27Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d13c2-d1e3548": {
+  "summary": "Cites Augustine on Genesis: this creature was unformed before being formed in love of its Maker, and formed when turned to the unchangeable light of the Word.",
+  "claims": [
+   "Angelic nature was formed by turning to the Word."
+  ],
+  "concepts": [
+   "Augustine De Genesi ad litteram"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d13c2",
+    "pll2d13c2-d1e3522"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:11:27Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d13c2-d1e3567": {
+  "summary": "Holds that if the light was corporeal, which is probable, it was a luminous body like a bright cloud, formed from preexisting matter, not from nothing, with power to shine; the first day began with it, since before light there was neither day nor night, though there was time.",
+  "claims": [
+   "Corporeal light was made from preexisting matter.",
+   "Before light there was time but no day or night."
+  ],
+  "concepts": [
+   "corporeal light"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d13c2",
+    "pll2d13c2-d1e3548"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:11:27Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d13c2": {
+  "summary": "Asks whether that light was corporeal or spiritual. With Augustine, it can be either: spiritually, it is angelic nature, first unformed ('heaven') then formed when turned to the Creator in charity, so God divided light from darkness; corporeally, which is probable, it was a luminous body like a bright cloud, made from preexisting matter, with which the first day began, since before light there was time but neither day nor night.",
+  "claims": [
+   "The first light can be read as spiritual or corporeal.",
+   "Spiritually, it is angelic nature formed by conversion to God.",
+   "Corporeally, more probably, it was a luminous body made from preexisting matter.",
+   "Before light there was time but neither day nor night."
+  ],
+  "concepts": [
+   "light of the first day",
+   "angelic formation",
+   "Augustine",
+   "time before the first day"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll2d13c2-d1e3519",
+    "pll2d13c2-d1e3522",
+    "pll2d13c2-d1e3548",
+    "pll2d13c2-d1e3567"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:11:27Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

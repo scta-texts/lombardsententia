@@ -1,0 +1,101 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T21:06:51Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d32c7-d1e108": {
+  "summary": "Asks whether the soul before baptism is as God creates it.",
+  "claims": [],
+  "concepts": [
+   "question"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d32c7",
+    "pl-l2d32c6"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:06:51Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d32c7-d1e111": {
+  "summary": "Reports the argument that it is not: the soul is created in the body and stained in its union, so it has sin as soon as it exists and was never as God creates it, innocent and without defect.",
+  "claims": [
+   "The soul is never in its created innocence."
+  ],
+  "concepts": [
+   "objection"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d32c7",
+    "pl-l2d32c7-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:06:51Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d32c7-d1e114": {
+  "summary": "Answers that it is not wholly as God made it: God made it good, and it keeps its natural goodness, not wholly lost but vitiated; were it not good, evil could not be in it, since evil exists only in good, as will be said later. As one with dirty hands does not have the apple as clean as I gave it.",
+  "claims": [
+   "Natural goodness remains though vitiated.",
+   "Evil exists only in good."
+  ],
+  "concepts": [
+   "evil in good",
+   "analogy of the apple"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d32c7",
+    "pl-l2d32c7-d1e111"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:06:51Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d32c7": {
+  "summary": "Asks whether the soul before baptism is as God creates it. Some argue not, since it is stained as soon as it exists, while God creates it innocent. Lombard answers that it is not wholly as God made it: God made it good, and it keeps its natural goodness, not wholly lost but vitiated; were it not good, evil could not be in it, since evil exists only in good. As one with dirty hands does not hold the apple as clean as I gave it.",
+  "claims": [
+   "The soul before baptism is not wholly as God created it.",
+   "The soul keeps its natural goodness, though vitiated.",
+   "Evil can exist only in what is good.",
+   "God gives the soul clean; it is stained on receipt, as an apple taken by dirty hands."
+  ],
+  "concepts": [
+   "natural goodness",
+   "creation of souls",
+   "evil in good",
+   "original sin"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d32c7-d1e108",
+    "pl-l2d32c7-d1e111",
+    "pl-l2d32c7-d1e114"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T21:06:51Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

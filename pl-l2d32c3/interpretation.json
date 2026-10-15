@@ -1,0 +1,74 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T21:06:51Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d32c3-d1e108": {
+  "summary": "Asks whether concupiscence, after baptism only punishment and before baptism punishment and fault, has God or another as author.",
+  "claims": [],
+  "concepts": [
+   "question"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d32c3",
+    "pl-l2d32c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:06:51Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d32c3-d1e111": {
+  "summary": "Answers briefly: as punishment it has God as author; as fault, the devil or man.",
+  "claims": [
+   "God authors punishment, not fault."
+  ],
+  "concepts": [
+   "author of evil"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d32c3",
+    "pl-l2d32c3-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:06:51Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d32c3": {
+  "summary": "Asks whether concupiscence, which after baptism is only punishment and before baptism was punishment and fault, has God as author. Answer: insofar as it is punishment, God is its author; insofar as it is fault, the devil or man.",
+  "claims": [
+   "Concupiscence as punishment has God as author.",
+   "Concupiscence as fault has the devil or man as author."
+  ],
+  "concepts": [
+   "concupiscence",
+   "author of evil",
+   "punishment and fault"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d32c3-d1e108",
+    "pl-l2d32c3-d1e111"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T21:06:51Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

@@ -1,0 +1,128 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T11:08:35Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l3d37c1-d1e115": {
+  "summary": "Turns to the distribution of the Decalogue, which is fulfilled in the two commandments of charity.",
+  "claims": [
+   "The Decalogue is fulfilled in the two commandments of charity."
+  ],
+  "concepts": [
+   "Decalogue",
+   "double commandment"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d37c1",
+    "pl-l3d36c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:08:35Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d37c1-d1e118": {
+  "summary": "States that the Decalogue has ten precepts, the ten-stringed psaltery, so distributed that the three on the first tablet pertain to God, to the knowledge and love of the Trinity, and the seven on the second to love of neighbor.",
+  "claims": [
+   "The first tablet concerns the Trinity; the second concerns neighbor."
+  ],
+  "concepts": [
+   "Decalogue",
+   "two tablets",
+   "ten-stringed psaltery",
+   "Trinity"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d37c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:08:35Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d37c1-d1e124": {
+  "summary": "Gives the first precept of the first tablet: 'you shall not have strange gods; you shall not make for yourself a graven image or any likeness'.",
+  "claims": [],
+  "concepts": [
+   "first commandment",
+   "idolatry"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d37c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:08:35Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d37c1-d1e131": {
+  "summary": "Notes that Origen counts these as two commandments, Augustine as one, since forbidding the worship of images more fully explains 'no strange gods'. Origen distinguishes idol and likeness: a likeness is the form of some existing thing, like a serpent or bird made in gold to be adored; an idol is a form the mind invents, with nothing like it, such as a human body with a dog's head or a man with two faces.",
+  "claims": [
+   "Augustine counts the ban on gods and images as one commandment; Origen as two.",
+   "An idol is an invented form; a likeness imitates an existing thing."
+  ],
+  "concepts": [
+   "numbering of the commandments",
+   "idol and likeness",
+   "Origen",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d37c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:08:35Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d37c1": {
+  "summary": "Turns to the distribution of the Decalogue, fulfilled in the two commandments of charity. Its ten precepts, the ten-stringed psaltery, are divided so that the three of the first tablet concern God, the knowledge and love of the Trinity, and the seven of the second concern love of neighbor. The first precept is 'you shall not have strange gods; you shall not make a graven image or any likeness'. Origen counts this as two commandments, Augustine as one, since the ban on images explains the ban on strange gods. Origen distinguishes an idol, a form with nothing like it in reality, from a likeness, the form of some existing thing.",
+  "claims": [
+   "The Decalogue is fulfilled in the two commandments of charity.",
+   "The first tablet's three precepts concern God; the second tablet's seven concern neighbor.",
+   "Augustine counts the prohibition of strange gods and images as one commandment; Origen as two.",
+   "An idol represents nothing real; a likeness represents an existing thing."
+  ],
+  "concepts": [
+   "Decalogue",
+   "two tablets",
+   "first commandment",
+   "idol and likeness",
+   "numbering of the commandments"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d37c1-d1e115",
+    "pl-l3d37c1-d1e118",
+    "pl-l3d37c1-d1e124",
+    "pl-l3d37c1-d1e131"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T11:08:35Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

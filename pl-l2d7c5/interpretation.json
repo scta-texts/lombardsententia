@@ -1,0 +1,100 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:00:33Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll2d7c5-d1e3514": {
+  "summary": "States that though obstinate in malice, the bad angels are not wholly deprived of keen sense.",
+  "claims": [
+   "Demons keep keen knowledge."
+  ],
+  "concepts": [
+   "demonic knowledge"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d7c5",
+    "pl-l2d7c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:00:33Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d7c5-d1e3517": {
+  "summary": "Cites Isidore: demons flourish with threefold sharpness of knowledge, by subtlety of nature, experience of time, and revelation from higher spirits.",
+  "claims": [
+   "Demons know by nature, experience, and revelation."
+  ],
+  "concepts": [
+   "Isidore"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d7c5",
+    "pll2d7c5-d1e3514"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:00:33Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d7c5-d1e3523": {
+  "summary": "Cites Augustine: evil spirits are permitted to know some truths about temporal things, by subtlety of sense, experience over a long life, and revelation from holy angels at God's command; sometimes they foretell what they themselves will do.",
+  "claims": [
+   "Demons know some temporal truths by permission.",
+   "They may predict their own deeds."
+  ],
+  "concepts": [
+   "Augustine De Genesi ad litteram"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d7c5",
+    "pll2d7c5-d1e3517"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:00:33Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d7c5": {
+  "summary": "Notes that though obstinate, the bad angels are not deprived of keen sense: with Isidore, demons have threefold knowledge, by subtlety of nature, long experience, and revelation from higher spirits; Augustine adds that they know some truths about temporal things and sometimes foretell what they themselves will do.",
+  "claims": [
+   "Demons retain keen knowledge.",
+   "Demons know by subtlety of nature, long experience, and revelation from good angels.",
+   "Demons may foretell what they themselves will do."
+  ],
+  "concepts": [
+   "demonic knowledge",
+   "Isidore",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll2d7c5-d1e3514",
+    "pll2d7c5-d1e3517",
+    "pll2d7c5-d1e3523"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:00:33Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

@@ -1,0 +1,135 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T18:43:26Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll1d45c7-d1e3509": {
+  "summary": "Clarifies that calling precept and prohibition God's will does not mean God wills all he commands or forbids: he commanded Abraham to sacrifice his son but did not will it, intending to prove his faith; he forbade the healed man to speak, not unwilling that his work be proclaimed, but to teach avoiding human praise.",
+  "claims": [
+   "God does not will all he commands or forbids.",
+   "Precepts may aim at testing or teaching."
+  ],
+  "concepts": [
+   "Abraham",
+   "precept vs will"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d45c7",
+    "pl-l1d45c6"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:43:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d45c7-d1e3520": {
+  "summary": "Notes that permission and operation are also called God's will, citing the Enchiridion: nothing happens unless the Omnipotent wills it, either permitting or doing it; and God acts well even in permitting evils, which he permits only by just judgment, and all that is just is good.",
+  "claims": [
+   "Nothing happens unless God wills it by permitting or doing.",
+   "God permits evil by just judgment."
+  ],
+  "concepts": [
+   "Augustine Enchiridion",
+   "permission"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d45c7",
+    "pll1d45c7-d1e3509"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:43:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d45c7-d1e3539": {
+  "summary": "Explains Augustine: 'will' here means operation and permission, including all things good and evil, and he distinguishes 'by permitting' for evils and 'by doing' for goods. God permits evils but does not do them, and does goods; so permission and operation are called his will.",
+  "claims": [
+   "God permits evils and does goods.",
+   "Permission and operation are called God's will."
+  ],
+  "concepts": [
+   "interpretation"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d45c7",
+    "pll1d45c7-d1e3520"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:43:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d45c7-d1e3561": {
+  "summary": "Concludes that five things are called God's will by a trope, as signs of his one immutable will, his good pleasure. The reader must distinguish which is meant. God's good pleasure is eternal and accords with effects, since all he wills is done and all he wills not to be done is not; but its signs are not eternal, since many do not do what he commands, avoid what he forbids, or fulfill what he counsels.",
+  "claims": [
+   "God's good pleasure is always fulfilled.",
+   "Signs of God's will are often not fulfilled.",
+   "The reader must distinguish the senses of 'God's will.'"
+  ],
+  "concepts": [
+   "beneplacitum vs signum",
+   "Hugh of St Victor"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d45c7",
+    "pll1d45c7-d1e3539"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:43:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1d45c7": {
+  "summary": "Clarifies that calling precept and prohibition God's will does not mean God wills whatever he commands or forbids: he commanded Abraham to sacrifice his son without willing it, to test his faith, and forbade the healed man to speak not because he willed his works unproclaimed but to teach humility. Permission and operation are also called God's will, as Augustine says in the Enchiridion: nothing happens unless God wills it, either by permitting or by doing it; he permits evils justly and does goods. So five things are called God's will by a trope, as signs of his one immutable will, his good pleasure. The reader must distinguish: God's good pleasure is eternal and always fulfilled, while its signs are not eternal, and many do not do what he commands, avoid what he forbids, or fulfill what he counsels.",
+  "claims": [
+   "God does not will everything he commands or forbids.",
+   "God commanded Abraham's sacrifice to test his faith, not because he willed it.",
+   "Permission and operation are also called God's will.",
+   "God permits evils and does goods.",
+   "Five things are called God's will by a trope: precept, prohibition, counsel, permission, operation.",
+   "God's good pleasure is eternal and always fulfilled; its signs are not."
+  ],
+  "concepts": [
+   "beneplacitum vs signum",
+   "permission",
+   "operation",
+   "Abraham",
+   "Hugh of St Victor",
+   "evil permitted"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d45c7-d1e3509",
+    "pll1d45c7-d1e3520",
+    "pll1d45c7-d1e3539",
+    "pll1d45c7-d1e3561"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T18:43:26Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

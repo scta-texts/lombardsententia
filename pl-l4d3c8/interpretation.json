@@ -1,0 +1,80 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T11:50:19Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d3c8-d1e115": {
+  "summary": "Asks whether circumcision lost its standing from the institution of baptism.",
+  "claims": [],
+  "concepts": [
+   "circumcision",
+   "baptism and circumcision"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d3c8"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:50:19Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d3c8-d1e118": {
+  "summary": "Answers that all legal observances ended with Christ's death; from then circumcision lost its force and no longer profited but rather harmed its observers, though until the offering of the true victim it could still help. Had the legal observances ended before the passion, Christ would not have eaten the old Passover with his disciples as it approached.",
+  "claims": [
+   "The legal observances ended at Christ's death.",
+   "After the passion circumcision harmed those who kept it.",
+   "Christ's eating the Passover shows the Law was still in force before his death."
+  ],
+  "concepts": [
+   "end of the Law",
+   "circumcision",
+   "Passover",
+   "passion of Christ"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d3c8"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:50:19Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d3c8": {
+  "summary": "Asks whether circumcision lost its force when baptism was instituted. All legal observances ended with Christ's death: from then on circumcision lost its power, profited no one, and harmed its observers, but until the true sacrifice it could still help; otherwise Christ would not have eaten the old Passover with his disciples on the eve of his passion.",
+  "claims": [
+   "The legal observances ended at Christ's death.",
+   "After Christ's death circumcision harmed those who kept it.",
+   "Until the passion circumcision retained its force."
+  ],
+  "concepts": [
+   "circumcision",
+   "end of the Law",
+   "passion of Christ",
+   "Passover"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d3c8-d1e115",
+    "pl-l4d3c8-d1e118"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T11:50:19Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

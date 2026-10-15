@@ -1,0 +1,295 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:38:20Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d28c3-d1e108": {
+  "summary": "Introduces the arguments by which Pelagians defend that man can fulfill all commands by free choice without grace.",
+  "claims": [],
+  "concepts": [
+   "Pelagianism"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d28c3",
+    "pl-l2d28c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:38:20Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d28c3-d1e111": {
+  "summary": "Gives their argument: if man cannot do what is commanded, it is not imputed to him unto death, as Augustine says in De libero arbitrio: who sins in what cannot be avoided? But sin occurs, so it can be avoided.",
+  "claims": [
+   "Pelagians argued sin implies the power to avoid it."
+  ],
+  "concepts": [
+   "objection",
+   "Augustine De libero arbitrio"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d28c3",
+    "pl-l2d28c3-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:38:20Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d28c3-d1e114": {
+  "summary": "Reports Augustine's retraction: Pelagius used this text against grace, but because grace was not then in question it was not mentioned; the will is that by which we sin and live rightly, but unless freed and helped by grace mortals cannot live rightly.",
+  "claims": [
+   "The will cannot live rightly without grace.",
+   "Augustine's early text did not exclude grace."
+  ],
+  "concepts": [
+   "Augustine Retractationes"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d28c3",
+    "pl-l2d28c3-d1e111",
+    "pl-l2d26c3-d1e114"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:38:20Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d28c3-d1e118": {
+  "summary": "Notes Pelagius also relied on De duabus animabus: it is the height of iniquity and madness to hold someone guilty for not doing what he could not; so why are infants and those without grace held guilty?",
+  "claims": [
+   "Pelagius argued guilt requires ability."
+  ],
+  "concepts": [
+   "objection",
+   "Augustine De duabus animabus"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d28c3",
+    "pl-l2d28c3-d1e114"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:38:20Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d28c3-d1e121": {
+  "summary": "Reports Augustine's answer in the Retractationes: he said this against the Manichees, who posit in man an evil nature from the race of darkness that was never good and cannot will good; such a nature, if it existed, would seem not to be blamed for failing to do good.",
+  "claims": [
+   "The text targeted the Manichaean evil nature."
+  ],
+  "concepts": [
+   "Manichaeism",
+   "Augustine Retractationes"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d28c3",
+    "pl-l2d28c3-d1e118"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:38:20Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d28c3-d1e124": {
+  "summary": "Cites Contra Adimantum: unless one changes his will he cannot do good, which the Lord places in our power ('make the tree good'); Augustine retracts that this is not against grace: it is in man's power to change his will for the better, but that power is given by God (John 1:12); nothing is so in our power as the will, but the will is prepared by the Lord.",
+  "claims": [
+   "The power to change the will is given by God.",
+   "The will is prepared by the Lord."
+  ],
+  "concepts": [
+   "power of the will",
+   "Augustine Contra Adimantum",
+   "Matthew 12:33"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d28c3",
+    "pl-l2d28c3-d1e121"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:38:20Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d28c3-d1e129": {
+  "summary": "Reads likewise Augustine's saying that it is in our power to merit being grafted by God's goodness or cut off by his severity: only what follows our will is in our power, and when the will is prepared by the Lord, the work of piety becomes easy that was impossible and difficult.",
+  "claims": [
+   "When God prepares the will, piety becomes easy."
+  ],
+  "concepts": [
+   "power of the will",
+   "Romans 11:22"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d28c3",
+    "pl-l2d28c3-d1e124"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:38:20Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d28c3-d1e132": {
+  "summary": "Notes that in the exposition of propositions from Romans Augustine wrote: believing is ours, doing good is his who gives the Spirit to believers; believing and willing are ours, giving the capacity to do good is his.",
+  "claims": [
+   "Augustine once said believing is ours."
+  ],
+  "concepts": [
+   "objection",
+   "Augustine Expositio ad Romanos"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d28c3",
+    "pl-l2d28c3-d1e129"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:38:20Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d28c3-d1e135": {
+  "summary": "Gives Augustine's correction in the Retractationes: the same rule holds of willing and doing; both are God's, since he prepares the will, and both ours, since done only as we will; he would not have said otherwise had he known that faith itself is among the gifts of the Spirit.",
+  "claims": [
+   "Willing and doing are both God's and ours.",
+   "Faith is a gift of the Spirit."
+  ],
+  "concepts": [
+   "Augustine Retractationes",
+   "faith as gift"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d28c3",
+    "pl-l2d28c3-d1e132"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:38:20Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d28c3-d1e139": {
+  "summary": "Cites the Sentences of Prosper: to be able to have faith, like charity, is human nature; to have faith, like charity, is the grace of the faithful.",
+  "claims": [
+   "Ability to have faith is natural; having it is grace."
+  ],
+  "concepts": [
+   "Prosper",
+   "nature and grace"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d28c3",
+    "pl-l2d28c3-d1e135"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:38:20Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d28c3-d1e142": {
+  "summary": "Explains this does not mean faith or charity can be had by free choice, but that the mind has a natural aptitude for believing and loving, which believes and loves when prevented by grace, and cannot without it.",
+  "claims": [
+   "The mind has a natural aptitude for faith and charity.",
+   "It cannot believe or love without grace."
+  ],
+  "concepts": [
+   "natural aptitude"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d28c3",
+    "pl-l2d28c3-d1e139"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:38:20Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d28c3": {
+  "summary": "Reviews the arguments by which Pelagians claimed man fulfills all commands without grace, drawn from Augustine's own texts, and his corrections in the Retractationes. 'Who sins in what cannot be avoided?' (De libero arbitrio) spoke of the will, not excluding grace, without which the will cannot live rightly. 'It is iniquity to hold one guilty for not doing what he could not' (De duabus animabus) was said against the Manichees' evil nature, not about infants. 'It is in our power to change our will' means a power given by God, who prepares the will. 'Believing is ours, doing good is God's' Augustine retracted, since both willing and doing are God's, because he prepares the will, and ours, because done only as we will; faith too is the Spirit's gift. Finally, 'to be able to have faith and charity is nature, to have them is grace' means a natural aptitude for believing and loving that believes and loves only when prevented by grace.",
+  "claims": [
+   "Pelagians misused Augustine's early texts against grace.",
+   "Augustine's statements on the will in De libero arbitrio did not exclude grace.",
+   "The saying on not being guilty for the impossible was directed against the Manichees.",
+   "The power to change the will is given by God, who prepares the will.",
+   "Augustine retracted that believing is ours alone; faith is the Spirit's gift.",
+   "Willing and doing are both God's and ours.",
+   "The mind has a natural aptitude for faith and charity, actualized only by grace."
+  ],
+  "concepts": [
+   "Pelagianism",
+   "Manichaeism",
+   "harmonizing authorities",
+   "Augustine Retractationes",
+   "natural aptitude",
+   "faith as gift",
+   "power of the will"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d28c3-d1e108",
+    "pl-l2d28c3-d1e111",
+    "pl-l2d28c3-d1e114",
+    "pl-l2d28c3-d1e118",
+    "pl-l2d28c3-d1e121",
+    "pl-l2d28c3-d1e124",
+    "pl-l2d28c3-d1e129",
+    "pl-l2d28c3-d1e132",
+    "pl-l2d28c3-d1e135",
+    "pl-l2d28c3-d1e139",
+    "pl-l2d28c3-d1e142"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:38:20Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

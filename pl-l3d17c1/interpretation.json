@@ -1,0 +1,75 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T01:11:30Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l3d17c1-d1e117": {
+  "summary": "Asks whether Christ willed or prayed for anything that did not happen.",
+  "claims": [],
+  "concepts": [
+   "will of Christ",
+   "prayer of Christ"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d17c1",
+    "pl-l3d16c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:11:30Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d17c1-d1e120": {
+  "summary": "Notes that this may be thought from his words, 'Father, if possible, let this cup pass from me; yet not what I will but what you will' (Mt 26:39), where he seems to distinguish his own will from the Father's.",
+  "claims": [
+   "Christ seems to distinguish his will from the Father's."
+  ],
+  "concepts": [
+   "will of Christ",
+   "Gethsemane"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d17c1",
+    "pl-l3d17c1-d1e117"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:11:30Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d17c1": {
+  "summary": "Asks whether Christ willed or prayed for something that did not happen, as his prayer 'Father, if possible, let this cup pass from me; yet not as I will but as you will' suggests, where he seems to distinguish his will from the Father's.",
+  "claims": [
+   "Christ's prayer in Gethsemane seems to distinguish his will from the Father's."
+  ],
+  "concepts": [
+   "will of Christ",
+   "prayer of Christ",
+   "Gethsemane"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d17c1-d1e117",
+    "pl-l3d17c1-d1e120"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T01:11:30Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

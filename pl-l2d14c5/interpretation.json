@@ -1,0 +1,79 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:11:27Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll2d14c5-d1e3519": {
+  "summary": "Asks about the shape of heaven; the Spirit, though our authors knew, chose to say through them only what profits salvation (Augustine).",
+  "claims": [
+   "Scripture teaches what profits salvation."
+  ],
+  "concepts": [
+   "purpose of Scripture"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d14c5",
+    "pl-l2d14c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:11:27Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d14c5-d1e3531": {
+  "summary": "Asks whether heaven stands or moves: if it moves, how is it a firmament; if it stands, how do fixed stars circle? It is called firmament not for standing still but for firmness or as the impassable boundary of the waters; and if it stands, nothing prevents the stars from moving (Augustine).",
+  "claims": [
+   "'Firmament' need not mean immobile.",
+   "The stars may move whether heaven moves or not."
+  ],
+  "concepts": [
+   "motion of heaven"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d14c5",
+    "pll2d14c5-d1e3519"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:11:27Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d14c5": {
+  "summary": "Asks about the shape of heaven: the Spirit, though our authors knew, chose to say only what profits salvation. Asks whether heaven moves: if it moves, how is it a firmament; if it stands, how do the stars circle? It may be called firmament for its firmness or as the impassable boundary of the waters, not for standing still; and if it stands, nothing prevents the stars from moving (Augustine).",
+  "claims": [
+   "Scripture says only what profits salvation, not the shape of heaven.",
+   "'Firmament' may refer to firmness or to the boundary of waters, not immobility.",
+   "Whether heaven moves or stands, the stars can move."
+  ],
+  "concepts": [
+   "shape of heaven",
+   "motion of heaven",
+   "purpose of Scripture",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll2d14c5-d1e3519",
+    "pll2d14c5-d1e3531"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:11:27Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

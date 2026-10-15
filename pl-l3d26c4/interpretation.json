@@ -1,0 +1,85 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T11:01:29Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l3d26c4-d1e115": {
+  "summary": "Turns to investigate whether faith and hope were in Christ, the question from which this treatise began.",
+  "claims": [],
+  "concepts": [
+   "faith and hope of Christ"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d26c4",
+    "pl-l3d23c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:01:29Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d26c4-d1e118": {
+  "summary": "Reports, approvingly, the view that the virtues of faith and hope were not in Christ, as they are not in the blessed saints and angels. These believe and hope for the resurrection, yet lack the virtue, since they see God and know the resurrection in the Word clearly, not in a mirror and enigma. If believing the future resurrection meant having faith, they would have faith also after it, believing it past; but they will believe without faith, which is replaced by knowledge through sight. So Christ, who had the goods of the homeland, believed and hoped for his resurrection on the third day and prayed for it, and said 'In you, Lord, I have hoped', yet did not have the virtues of faith or hope, since he saw by sight what he believed.",
+  "claims": [
+   "The blessed and angels believe and hope without the virtues of faith and hope.",
+   "When knowledge by sight comes, faith is done away.",
+   "Christ believed and hoped without the virtues of faith and hope, since he saw clearly."
+  ],
+  "concepts": [
+   "faith and hope of Christ",
+   "vision and enigma",
+   "beatific knowledge",
+   "believing without faith",
+   "angels",
+   "blessed"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d26c4",
+    "pl-l3d14c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:01:29Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d26c4": {
+  "summary": "Returns to the question with which the treatise on faith began: whether faith and hope were in Christ. Some hold, not unlearnedly, that the virtues of faith and hope were not in him, as they are not in the blessed and the angels. These believe and hope for the future resurrection, yet without the virtue of faith, since they know by sight, not in a mirror and enigma; otherwise they would still have faith after the judgment when believing it past. Likewise Christ, who had the goods of the homeland, believed and hoped for his resurrection and prayed for it, yet had not the virtues of faith and hope, since he knew it clearly.",
+  "claims": [
+   "Christ did not have the virtues of faith and hope.",
+   "The blessed and angels believe and hope without having the virtues of faith and hope.",
+   "Faith and hope as virtues require knowledge that is enigmatic, not by sight.",
+   "Christ believed and hoped for his resurrection while seeing it clearly."
+  ],
+  "concepts": [
+   "faith and hope of Christ",
+   "comprehensor",
+   "vision and enigma",
+   "beatific knowledge",
+   "believing without faith"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d26c4-d1e115",
+    "pl-l3d26c4-d1e118"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T11:01:29Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

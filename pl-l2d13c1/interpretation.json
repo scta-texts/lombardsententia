@@ -1,0 +1,55 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:11:27Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll2d13c1-d1e3519": {
+  "summary": "States that the first work of distinction was the formation of light, as Genesis begins the disposition of things with light ('let there be light... one day'); fittingly the adornment began with light so the rest could be seen.",
+  "claims": [
+   "Creation's distinction began with light."
+  ],
+  "concepts": [
+   "first day",
+   "Glossa"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d13c1",
+    "pl-l2d12c6"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:11:27Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d13c1": {
+  "summary": "The first work of distinction was the formation of light (Gen 1:3–5): God made light, divided it from darkness, named day and night, and evening and morning made one day. Fittingly the adornment of the world began with light, so the rest could be seen.",
+  "claims": [
+   "The first work of the six days was the formation of light.",
+   "The world's adornment fittingly began with light."
+  ],
+  "concepts": [
+   "first day",
+   "light",
+   "Genesis 1:3"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll2d13c1-d1e3519"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:11:27Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

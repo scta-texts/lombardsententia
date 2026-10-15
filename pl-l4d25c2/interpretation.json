@@ -1,0 +1,60 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T12:53:50Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d25c2-d1e115": {
+  "summary": "Holds that simoniacs are undoubtedly heretics, who nevertheless ordain and consecrate before the sentence of degradation. Strictly, simoniacs are those who, like Simon Magus, want to purchase priceless grace, and those who receive a price for sacred ministry, like Gehazi, should be called Gehazites; but all who give and receive are called simoniacs and struck by the same sentence.",
+  "claims": [
+   "Simoniacs are heretics who validly ordain until degraded.",
+   "Givers and receivers are equally simoniacs."
+  ],
+  "concepts": [
+   "simony",
+   "heresy",
+   "Simon Magus",
+   "Gehazi"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d25c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:53:50Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d25c2": {
+  "summary": "Holds that simoniacs are certainly heretics, who nevertheless ordain and consecrate before the sentence of degradation. Strictly, simoniacs are those who, like Simon Magus, want to buy priceless grace, and those who take payment for sacred ministry, like Gehazi, should be called Gehazites; but all, givers and receivers, are called simoniacs and struck by the same sentence.",
+  "claims": [
+   "Simoniacs are heretics.",
+   "Simoniacs ordain and consecrate validly before degradation.",
+   "Both buyers and sellers of spiritual things are simoniacs."
+  ],
+  "concepts": [
+   "simony",
+   "heresy",
+   "Simon Magus",
+   "Gehazi",
+   "degradation"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d25c2-d1e115"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T12:53:50Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

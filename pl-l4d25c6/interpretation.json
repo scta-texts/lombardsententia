@@ -1,0 +1,54 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T12:53:50Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d25c6-d1e115": {
+  "summary": "Qualifies Alexander's decree that simoniacs be wholly condemned and deposed: unless someone was drawn in by force. Innocent says that those violently ordained by heretics may have some excuse if they leave them at once and renounce their wicked assembly.",
+  "claims": [
+   "Forced ordination may be excused if the ordained leaves the heretics."
+  ],
+  "concepts": [
+   "coercion",
+   "simony",
+   "Innocent I"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d25c6"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:53:50Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d25c6": {
+  "summary": "Qualifies Pope Alexander's decree that simoniacs be wholly condemned and deposed: unless someone was drawn in by force; Innocent says those violently ordained by any heretics may have some excuse if they leave them immediately and renounce their assembly.",
+  "claims": [
+   "Those ordained by force may be excused if they leave the heretics at once."
+  ],
+  "concepts": [
+   "simony",
+   "coercion",
+   "heretical ordination"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d25c6-d1e115"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T12:53:50Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

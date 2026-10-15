@@ -1,0 +1,102 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T11:52:39Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d7c5-d1e115": {
+  "summary": "Holds that confirmation must not be repeated, like baptism and orders, since no sacrament must be wronged, which is thought to happen when what must not be repeated is repeated.",
+  "claims": [
+   "Confirmation must not be repeated.",
+   "Repeating an unrepeatable sacrament wrongs it."
+  ],
+  "concepts": [
+   "non-repetition of sacraments",
+   "confirmation"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d7c5"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:52:39Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d7c5-d1e118": {
+  "summary": "Notes that whether some or none can be repeated is a question.",
+  "claims": [],
+  "concepts": [
+   "non-repetition of sacraments",
+   "open question"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d7c5"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:52:39Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d7c5-d1e121": {
+  "summary": "Quotes Augustine on baptism and orders: both are sacraments and given by a certain consecration, at baptism and at ordination, so neither may be repeated in the Catholic Church, since neither must be wronged. The same must be held without doubt of confirmation; whether others can or should be repeated will be discussed later.",
+  "claims": [
+   "Baptism and orders are given by consecration and not repeated.",
+   "Confirmation likewise is not repeated."
+  ],
+  "concepts": [
+   "consecration",
+   "non-repetition of sacraments",
+   "orders",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d7c5"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:52:39Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d7c5": {
+  "summary": "Holds that confirmation, like baptism and orders, must not be repeated, since repeating what must not be repeated wrongs the sacrament. Whether other sacraments can be repeated is a question for later; Augustine says baptism and orders, given by a consecration, may not be repeated in the Catholic Church, and the same must be held of confirmation.",
+  "claims": [
+   "Confirmation, baptism, and orders are not repeated.",
+   "Repeating an unrepeatable sacrament wrongs it.",
+   "Whether other sacraments can be repeated is treated later."
+  ],
+  "concepts": [
+   "non-repetition of sacraments",
+   "consecration",
+   "confirmation",
+   "orders"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d7c5-d1e115",
+    "pl-l4d7c5-d1e118",
+    "pl-l4d7c5-d1e121"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T11:52:39Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

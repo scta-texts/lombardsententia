@@ -1,0 +1,80 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:00:33Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll2d7c10-d1e3514": {
+  "summary": "States that bad angels can do some things by natural subtlety that they cannot do because God or good angels prohibit them, as the magicians could have made gnats; others they cannot do even if permitted by higher angels, because God does not permit.",
+  "claims": [
+   "Demonic power is limited by permission."
+  ],
+  "concepts": [
+   "permission"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d7c10",
+    "pl-l2d7c9"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:00:33Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d7c10-d1e3517": {
+  "summary": "Cites De Trinitate III: by God's ineffable power, what bad angels could do if permitted they cannot do because not permitted; only God's prohibition explains why those who made frogs and serpents could not make gnats. What they can do by nature but are prohibited from, and what their nature does not allow, is hard or impossible for humans to explore, as a man can walk unless prevented, but cannot fly even if permitted.",
+  "claims": [
+   "The magicians failed because God prohibited them.",
+   "Distinguishing natural from permitted power is beyond human knowledge."
+  ],
+  "concepts": [
+   "Augustine",
+   "limits of knowledge"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d7c10",
+    "pll2d7c10-d1e3514"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:00:33Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d7c10": {
+  "summary": "Notes that bad angels can do some things by natural subtlety that they cannot do because God or good angels do not permit them, as with the gnats; other things they cannot do even if higher angels permit, because God does not. Augustine: what they can do by nature but not by prohibition, and what they cannot do by their nature, is hard or impossible for humans to discern, as a man can walk but not if not permitted, and cannot fly even if permitted.",
+  "claims": [
+   "Demons can do some things by nature that they are prevented from doing.",
+   "Some things demons cannot do even if permitted by higher angels, because God does not permit them.",
+   "Humans cannot easily discern the limits of demonic power."
+  ],
+  "concepts": [
+   "permission and prohibition",
+   "demonic power",
+   "limits of knowledge",
+   "Augustine De Trinitate III"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll2d7c10-d1e3514",
+    "pll2d7c10-d1e3517"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:00:33Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

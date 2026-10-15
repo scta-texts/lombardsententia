@@ -1,0 +1,84 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T11:04:07Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l3d32c2-d1e115": {
+  "summary": "Asks, since God's love is immutable and neither intensified nor relaxed, what is meant by loving one thing more than another or loving all things. God's love, like his peace, surpasses all sense, so that understanding scarcely reaches it. Yet it can be said that he loves all he made because all please him and are approved as his works; they did not please him earlier or more when made, but from eternity no less than after they began.",
+  "claims": [
+   "God's love is neither intensified nor relaxed.",
+   "God's love surpasses human understanding.",
+   "All things pleased God from eternity as much as after they were made."
+  ],
+  "concepts": [
+   "God's love",
+   "immutability",
+   "divine approval",
+   "eternity"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d32c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:04:07Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d32c2-d1e118": {
+  "summary": "Explains that God's loving some rational creatures, men or angels, more and others less signifies not mutability of his charity but that he loved some for greater goods and better uses, others for lesser. All our goods come from his love. So he loved some of the elect more and others less from eternity, and still does, since he prepared and confers greater goods on some and lesser on others.",
+  "claims": [
+   "God's greater or lesser love means willing greater or lesser goods.",
+   "All our goods come from God's love."
+  ],
+  "concepts": [
+   "degrees of God's love",
+   "election",
+   "gifts of God"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d32c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:04:07Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d32c2": {
+  "summary": "Asks how God can be said to love one thing more than another, or to love all things, when his love is immutable and neither increases nor decreases. God's love, like his peace, surpasses all human understanding. He loves all things he made because all please him and are approved as his works, and they pleased him from eternity no less than after they began to be. He loves some rational creatures more and others less not by change in his charity but because he loved some for greater goods and others for lesser, preparing from eternity and conferring in time greater goods on some than others.",
+  "claims": [
+   "God's love cannot increase or decrease.",
+   "God loves all things in that all please him as his works, from eternity.",
+   "God loves some more by willing them greater goods, not by greater intensity."
+  ],
+  "concepts": [
+   "God's love",
+   "immutability",
+   "degrees of God's love",
+   "divine approval"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d32c2-d1e115",
+    "pl-l3d32c2-d1e118"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T11:04:07Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

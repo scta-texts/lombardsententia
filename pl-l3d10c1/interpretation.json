@@ -1,0 +1,199 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T01:04:37Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l3d10c1-d1e117": {
+  "summary": "Introduces a question some raise: whether Christ, according as he is man, is a person, or even something.",
+  "claims": [],
+  "concepts": [
+   "person",
+   "secundum quod"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d10c1",
+    "pl-l3d7c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:04:37Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d10c1-d1e120": {
+  "summary": "Gives arguments that he is a person: if as man he is something, he is a person, a substance, or something else; not something else, so a person or substance; if a substance, rational or irrational; not irrational, so rational; and a rational substance is a person by the definition 'an individual substance of a rational nature'. So if as man he is something, as man he is a person.",
+  "claims": [
+   "Argument: Christ as man is a rational substance and so a person."
+  ],
+  "concepts": [
+   "definition of person",
+   "person"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d10c1",
+    "pl-l3d10c1-d1e117"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:04:37Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d10c1-d1e126": {
+  "summary": "Gives the counterargument: if as man he is a person, it is either the third person in the Trinity or another; not another, so the third; but if as man he is the third person in the Trinity, then as man he is God.",
+  "claims": [
+   "Counterargument: if Christ as man were a person, he would be God as man."
+  ],
+  "concepts": [
+   "person",
+   "Trinity"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d10c1",
+    "pl-l3d10c1-d1e120"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:04:37Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d10c1-d1e130": {
+  "summary": "Reports that because of such absurdities some say Christ as man is neither a person nor something, unless 'according as' expresses unity of person. 'According as' has many senses: sometimes it expresses the condition or property of the divine or human nature, sometimes unity of person, sometimes habitus, sometimes cause. The reader should mark this distinction carefully to avoid confusion when Christ is discussed.",
+  "claims": [
+   "Some say Christ as man is not a person or something.",
+   "'According as' signifies nature, unity of person, habitus, or cause."
+  ],
+  "concepts": [
+   "secundum quod",
+   "distinction of senses",
+   "person"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d10c1",
+    "pl-l3d10c1-d1e126"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:04:37Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d10c1-d1e139": {
+  "summary": "Denies the earlier inference that if Christ as man is a rational substance he is a person: Christ's soul is a rational substance but not a person, since it does not exist by itself but is joined to something else. And that description of person was not given for the three divine persons.",
+  "claims": [
+   "Christ's soul is a rational substance but not a person.",
+   "Boethius's definition of person was not given for the divine persons."
+  ],
+  "concepts": [
+   "definition of person",
+   "soul"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d10c1",
+    "pl-l3d10c1-d1e120",
+    "pl-l3d5c3-d1e124"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:04:37Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d10c1-d1e142": {
+  "summary": "Gives another argument that Christ as man is a person: as man he is predestined to be Son of God; a thing is what it is predestined to be; so as man he is Son of God.",
+  "claims": [
+   "Argument: Christ as man is predestined to be Son of God, so as man he is Son of God."
+  ],
+  "concepts": [
+   "predestination of Christ"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d10c1",
+    "pl-l3d10c1-d1e130"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:04:37Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d10c1-d1e148": {
+  "summary": "Answers that Christ is what he was predestined to be, truly Son of God; he was predestined as man to be Son of God because he has this by grace as man; but he is not Son of God as man, unless 'according as' expresses unity of person, meaning he who is man is Son of God, which he has by grace. If cause is meant, it is false, since he is not Son of God by being man.",
+  "claims": [
+   "Christ is predestined as man to be Son of God by grace.",
+   "Christ is not Son of God by being man."
+  ],
+  "concepts": [
+   "predestination of Christ",
+   "secundum quod",
+   "grace of union"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d10c1",
+    "pl-l3d10c1-d1e142",
+    "pl-l3d7c2-d1e274"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:04:37Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d10c1": {
+  "summary": "Asks whether Christ, according as he is man, is a person or even something. Arguments: if he is something as man, he is a rational substance and so a person; but then a third person in the Trinity, and so God as man. Because of such absurdities some say Christ as man is neither a person nor something, unless 'according as' expresses unity of person. Lombard notes that 'according as' has many senses: the condition of a nature, unity of person, habitus, or cause. The inference from rational substance to person fails, since Christ's soul is a rational substance but not a person, not existing by itself; nor does Christ's being predestined as man to be Son of God make him Son of God as man, unless the phrase expresses unity of person; taken causally it is false.",
+  "claims": [
+   "'According as man' has several senses: nature, unity of person, habitus, or cause.",
+   "Christ's soul is a rational substance but not a person.",
+   "Christ is predestined as man to be Son of God, but is not Son of God by being man."
+  ],
+  "concepts": [
+   "secundum quod",
+   "person",
+   "definition of person",
+   "predestination of Christ"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d10c1-d1e117",
+    "pl-l3d10c1-d1e120",
+    "pl-l3d10c1-d1e126",
+    "pl-l3d10c1-d1e130",
+    "pl-l3d10c1-d1e139",
+    "pl-l3d10c1-d1e142",
+    "pl-l3d10c1-d1e148"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T01:04:37Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

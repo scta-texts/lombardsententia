@@ -1,0 +1,122 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T01:01:00Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l3d4c1-d1e117": {
+  "summary": "Asks why, though the incarnation is truly the work of Father, Son, and Spirit, Scripture more often attributes it to the Spirit and says Christ was conceived and born of him.",
+  "claims": [],
+  "concepts": [
+   "appropriation",
+   "incarnation"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d4c1",
+    "pl-l3d1c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:01:00Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d4c1-d1e120": {
+  "summary": "Answers that the work is attributed to the Spirit not because he did it alone, but because he is the charity and gift of Father and Son, and the Word was made flesh by God's ineffable charity and the Son united the form of a servant to himself by God's gift. Naming the Spirit does not exclude Father or Son; when one is named, the three are understood, as often in other works.",
+  "claims": [
+   "The incarnation is attributed to the Spirit as charity and gift.",
+   "Naming one person in a work does not exclude the others."
+  ],
+  "concepts": [
+   "appropriation",
+   "Holy Spirit as gift",
+   "Holy Spirit as charity"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d4c1",
+    "pl-l3d4c1-d1e117",
+    "pl-l1d17c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:01:00Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d4c1-d1e132": {
+  "summary": "Quotes Augustine, Enchiridion, raising and settling the same question: though the whole Trinity made the creature the Virgin conceived, which belongs to the Son's person alone, why is only the Spirit named? Because when one of the three is named in a work, the whole Trinity is understood to work, as examples show.",
+  "claims": [
+   "When one person is named in a work, the whole Trinity is understood to work."
+  ],
+  "concepts": [
+   "appropriation",
+   "inseparable operation"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d4c1",
+    "pl-l3d4c1-d1e120"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:01:00Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d4c1-d1e145": {
+  "summary": "Closes: the question has been posed and explained.",
+  "claims": [],
+  "concepts": [],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d4c1",
+    "pl-l3d4c1-d1e132"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:01:00Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d4c1": {
+  "summary": "Asks why Scripture so often attributes the incarnation to the Holy Spirit and says Christ was conceived and born of him, when it is the work of the whole Trinity. The reason is that the Spirit is the charity and gift of Father and Son, and the Word was made flesh by God's ineffable charity and gift. Naming the Spirit does not exclude the Father or Son; when one person is named, all three are understood, as Augustine explains in the Enchiridion.",
+  "claims": [
+   "The incarnation is the work of the whole Trinity.",
+   "The incarnation is attributed to the Spirit because he is the charity and gift of God.",
+   "When one person is named in a work, the whole Trinity is understood."
+  ],
+  "concepts": [
+   "appropriation",
+   "Holy Spirit as gift",
+   "Holy Spirit as charity",
+   "inseparable operation"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d4c1-d1e117",
+    "pl-l3d4c1-d1e120",
+    "pl-l3d4c1-d1e132",
+    "pl-l3d4c1-d1e145"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T01:01:00Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

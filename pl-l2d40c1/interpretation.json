@@ -1,0 +1,378 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T21:12:25Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d40c1-d1e108": {
+  "summary": "Asks whether acts too, like will, should be judged good or evil by their end.",
+  "claims": [],
+  "concepts": [
+   "question"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d40c1",
+    "pl-l2d39c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:12:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d40c1-d1e111": {
+  "summary": "States that though some hold all acts good insofar as they are, not all are absolutely good or rewardable; some are simply evil. Acts are simply good that have good cause and intention, accompanying good will and tending to good end; simply evil those with perverse cause and intention.",
+  "claims": [
+   "Acts are good or evil by cause and intention."
+  ],
+  "concepts": [
+   "morality of acts"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d40c1",
+    "pl-l2d40c1-d1e108",
+    "pl-l2d36c6-d1e126"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:12:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d40c1-d1e114": {
+  "summary": "Cites Ambrose: your affection gives your work its name.",
+  "claims": [
+   "Affection names the work."
+  ],
+  "concepts": [
+   "Ambrose"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d40c1",
+    "pl-l2d40c1-d1e111"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:12:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d40c1-d1e118": {
+  "summary": "Cites Augustine on Ps 31: let no one count his good works before faith; they are like great strength and swift running off the road; intention makes the good work, faith directs intention; attend not to what one does but to what he aims at. So works are good or evil by affection and end.",
+  "claims": [
+   "Intention makes the good work; faith directs intention."
+  ],
+  "concepts": [
+   "Augustine Enarrationes",
+   "faith"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d40c1",
+    "pl-l2d40c1-d1e114"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:12:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d40c1-d1e123": {
+  "summary": "Cites 'a good tree cannot bear bad fruit': the tree is not the nature of the mind but the will, which if evil does evil works, if good good works. Then asks whether all human works are good or evil by affection and end.",
+  "claims": [
+   "The tree is the will."
+  ],
+  "concepts": [
+   "Matthew 7:18"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d40c1",
+    "pl-l2d40c1-d1e118"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:12:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d40c1-d1e126": {
+  "summary": "Reports some who hold all acts indifferent, neither good nor evil in themselves, but good by good intention and evil by evil; so any act can be good if done with good intention.",
+  "claims": [
+   "One view: all acts are indifferent."
+  ],
+  "concepts": [
+   "indifferent acts"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d40c1",
+    "pl-l2d40c1-d1e123"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:12:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d40c1-d1e129": {
+  "summary": "Reports others who hold some acts evil in themselves, sins even with good cause, and some good in themselves, remaining good even with bad cause, citing Augustine that good is sometimes not done well, as what one does unwillingly or from servile fear; no one does well unwillingly even if what he does is good.",
+  "claims": [
+   "Good can be done not well."
+  ],
+  "concepts": [
+   "opinion",
+   "servile fear"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d40c1",
+    "pl-l2d40c1-d1e126"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:12:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d40c1-d1e132": {
+  "summary": "Reports their conclusion: some works are so good they cannot be evil however done, some so evil they cannot be good for any cause, and others good or evil by end or cause, to which the saints' testimonies about affection and intention apply; a threefold division of acts.",
+  "claims": [
+   "Acts are good in themselves, evil in themselves, or by end."
+  ],
+  "concepts": [
+   "threefold division of acts"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d40c1",
+    "pl-l2d40c1-d1e129"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:12:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d40c1-d1e137": {
+  "summary": "Cites Augustine, Contra mendacium: it matters greatly by what cause, end, and intention something is done, but what are clearly sins must be done for no pretext of good cause or end; works not sins in themselves are good or evil by cause, like feeding the poor from mercy or marital union for children, evil if for boasting or lust. But who would say theft, adultery, blasphemy may be done for good causes, or are just sins, stealing from the rich to give to the poor, false witness to save the innocent, adultery to save a life, forging wills to benefit almsgivers? That would overturn human morals and laws; justice rightly punishes such.",
+  "claims": [
+   "Acts that are sins in themselves may not be done for good ends."
+  ],
+  "concepts": [
+   "acts evil in themselves",
+   "Augustine Contra mendacium"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d40c1",
+    "pl-l2d40c1-d1e132"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:12:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d40c1-d1e143": {
+  "summary": "Continues Augustine: is every thief then equal to one who steals from mercy? No; the one who steals from desire is worse, but neither is good; if all theft is sin, all theft is to be avoided; the question is which act is sin, not which is graver.",
+  "claims": [
+   "Lesser sins are still sins."
+  ],
+  "concepts": [
+   "gravity of sin"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d40c1",
+    "pl-l2d40c1-d1e137"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:12:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d40c1-d1e146": {
+  "summary": "Urges the reader to consider these words to discern which act is sin: one with an evil cause, and also some acts that are sins though with good cause.",
+  "claims": [
+   "Some acts are sins despite a good cause."
+  ],
+  "concepts": [
+   "morality of acts"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d40c1",
+    "pl-l2d40c1-d1e143"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:12:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d40c1-d1e149": {
+  "summary": "Infers that will or action is not always judged evil by its end, as with acts sinful in themselves: done for a good cause, they seem to have a good end, yet the will is made evil by the action, not the action by the will. Some place here those who crucified Christ thinking they served God, having a good end but a perverse will and act.",
+  "claims": [
+   "In acts evil in themselves, the act makes the will evil."
+  ],
+  "concepts": [
+   "John 16:2",
+   "crucifiers of Christ"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d40c1",
+    "pl-l2d40c1-d1e146"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:12:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d40c1-d1e154": {
+  "summary": "Concludes that Augustine makes no exception for goods: every good will is good by its end, and every good act by end and will; but not every evil will or act is evil by its end; every act with evil cause is evil, but not every act with good cause is good. So 'affection names the work' holds generally for good works, but for evil ones those evil in themselves are excepted.",
+  "claims": [
+   "The rule of intention holds for good acts, with exceptions for evil ones."
+  ],
+  "concepts": [
+   "morality of acts"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d40c1",
+    "pl-l2d40c1-d1e149"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:12:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d40c1-d1e157": {
+  "summary": "Concludes that all human works are judged good or evil by intention and cause, except those evil in themselves, which cannot be done without transgression.",
+  "claims": [
+   "Works are judged by intention, except those evil in themselves."
+  ],
+  "concepts": [
+   "conclusion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d40c1",
+    "pl-l2d40c1-d1e154"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:12:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d40c1-d1e160": {
+  "summary": "Reports some who contend such acts never have a good cause: stealing to give to the poor is not for a good, since giving others' goods is not good; offering sacrifice from plunder is like killing a son before his father, and the offering of the wicked is abominable; saving a life by adultery is evil, though saving a life is good. Augustine spoke cautiously with 'as if' (quasi, velut): such acts have only a seemingly good intention and end, not a good one.",
+  "claims": [
+   "Acts evil in themselves have only seemingly good ends."
+  ],
+  "concepts": [
+   "Ecclesiasticus 34:24",
+   "Proverbs 15:8",
+   "acts evil in themselves"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d40c1",
+    "pl-l2d40c1-d1e157",
+    "pl-l2d40c1-d1e137"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:12:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d40c1": {
+  "summary": "Asks whether acts, like will, are judged good or evil by their end. Though some hold all acts good insofar as they are, acts are absolutely good if they have good cause and intention, and evil if perverse; Ambrose: your affection names your work; Augustine: intention makes the good work, and faith directs intention; the good tree bears good fruit, the tree being the will. Some hold all acts indifferent, good or evil by intention alone; others hold three kinds: some acts evil in themselves, some good in themselves, others good or evil by end. Augustine (Contra mendacium) teaches acts are judged by intention and cause, except those that are sins in themselves, like theft, adultery, perjury, which may not be done for any seemingly good end. So every good will is good by its end and every good act by end and will, but not every evil act is evil by its end. Some add that such acts never have a truly good cause, only a seemingly good one.",
+  "claims": [
+   "Acts are absolutely good when they have good cause and intention.",
+   "Intention makes the good work, and faith directs intention.",
+   "Some hold all acts indifferent; others distinguish acts good or evil in themselves.",
+   "Acts are judged by intention and cause, except those evil in themselves.",
+   "Theft, adultery, and false witness may not be done for any seemingly good end.",
+   "Every good act is good by end and will; not every evil act is evil by end.",
+   "Some hold that acts evil in themselves never have a truly good cause."
+  ],
+  "concepts": [
+   "morality of acts",
+   "intention",
+   "end",
+   "acts evil in themselves",
+   "indifferent acts",
+   "Augustine Contra mendacium",
+   "Ambrose",
+   "Matthew 7:18"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d40c1-d1e108",
+    "pl-l2d40c1-d1e111",
+    "pl-l2d40c1-d1e114",
+    "pl-l2d40c1-d1e118",
+    "pl-l2d40c1-d1e123",
+    "pl-l2d40c1-d1e126",
+    "pl-l2d40c1-d1e129",
+    "pl-l2d40c1-d1e132",
+    "pl-l2d40c1-d1e137",
+    "pl-l2d40c1-d1e143",
+    "pl-l2d40c1-d1e146",
+    "pl-l2d40c1-d1e149",
+    "pl-l2d40c1-d1e154",
+    "pl-l2d40c1-d1e157",
+    "pl-l2d40c1-d1e160"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T21:12:25Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

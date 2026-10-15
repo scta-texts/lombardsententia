@@ -1,0 +1,112 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T11:47:36Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d2c1-d1e115": {
+  "summary": "Lists the sacraments of the new law: baptism, confirmation, the bread of blessing or eucharist, penance, extreme unction, orders, and marriage. Some offer a remedy against sin and confer assisting grace, like baptism; some are only a remedy, like marriage; some strengthen us with grace and power, like the eucharist and orders.",
+  "claims": [
+   "There are seven sacraments of the new law.",
+   "Sacraments differ in their effects."
+  ],
+  "concepts": [
+   "seven sacraments",
+   "new law",
+   "assisting grace",
+   "remedy for sin"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d2c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:47:36Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d2c1-d1e118": {
+  "summary": "Asks why these sacraments were not instituted right after the fall, since justice and salvation are in them, and answers that the sacraments of grace were not to be given before the coming of Christ, who brought grace, since they draw their power from his death and passion. Christ chose not to come until man was convinced by the natural and the written law that neither could help him.",
+  "claims": [
+   "The sacraments draw their power from Christ's passion.",
+   "Christ came after man learned that neither natural nor written law could save him."
+  ],
+  "concepts": [
+   "passion of Christ",
+   "efficacy of sacraments",
+   "natural and written law",
+   "timing of the incarnation"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d2c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:47:36Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d2c1-d1e121": {
+  "summary": "Notes that marriage was instituted even before sin, not as a remedy but as a sacrament and a duty; after sin it became a remedy against the corruption of carnal concupiscence, to be treated in its place.",
+  "claims": [
+   "Marriage was instituted before sin as sacrament and duty.",
+   "After sin marriage became a remedy against concupiscence."
+  ],
+  "concepts": [
+   "marriage",
+   "concupiscence",
+   "state of innocence"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d2c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:47:36Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d2c1": {
+  "summary": "Turns to the sacraments of the new law: baptism, confirmation, the eucharist, penance, extreme unction, orders, and marriage. Some give a remedy against sin and assisting grace, like baptism; some are only a remedy, like marriage; some strengthen with grace and power, like the eucharist and orders. They were not instituted right after the fall, since the sacraments of grace, which draw their power from Christ's death, had to await the coming of Christ, who came only after man was convinced that neither the natural nor written law could help him. Marriage was instituted before sin as a sacrament and duty, and after sin as a remedy against concupiscence.",
+  "claims": [
+   "The new law has seven sacraments.",
+   "Sacraments differ as remedy and grace, remedy only, or strengthening grace.",
+   "The sacraments of grace draw their power from Christ's death.",
+   "Christ came after man learned that neither natural nor written law could save him.",
+   "Marriage was instituted before sin, and after sin became a remedy."
+  ],
+  "concepts": [
+   "seven sacraments",
+   "new law",
+   "efficacy of sacraments",
+   "passion of Christ",
+   "marriage",
+   "natural and written law"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d2c1-d1e115",
+    "pl-l4d2c1-d1e118",
+    "pl-l4d2c1-d1e121"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T11:47:36Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

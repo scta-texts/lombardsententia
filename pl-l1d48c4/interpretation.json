@@ -1,0 +1,109 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T18:45:54Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll1d48c4-d1e3519": {
+  "summary": "Asks whether the same applies to the saints' passions and martyrdoms: there is a difference between head and members, since only Christ's passion, as God and man, causes our salvation; the saints' passions profit them and others but are not our redemption. The faithful willed Christ's passion as they believed it would come; the saints' passions we can will and not will, both with good will if with right ends: one pleased by Paul's passion because of his reward willed well, consonant with his desire to depart and be with Christ (Phil 1:23); one who willed him to escape out of compassion willed well too.",
+  "claims": [
+   "Only Christ's passion redeems.",
+   "A saint's passion may be willed or not willed with good will, depending on the end."
+  ],
+  "concepts": [
+   "head and members",
+   "martyrdom",
+   "Philippians 1:23"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d48c4",
+    "pl-l1d48c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:45:54Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d48c4-d1e3536": {
+  "summary": "Cites the Enchiridion: the faithful who did not want Paul to go to Jerusalem, lest he suffer what Agabus foretold, had good wills; yet God willed him to suffer for the faith and fulfilled his will through the Jews' evil wills, so those who did not will what God willed belonged more to him than those through whom it was done.",
+  "claims": [
+   "Good wills may not will what God wills.",
+   "God fulfills his will through evil wills."
+  ],
+  "concepts": [
+   "Augustine Enchiridion",
+   "Paul and Agabus"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d48c4",
+    "pll1d48c4-d1e3519"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:45:54Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d48c4-d1e3563": {
+  "summary": "Applies this to Christ's passion: God, Judas, the Jews, and the devil willed the same, that Christ die, but they with evil will and God with good; and they willed the act God did not will.",
+  "claims": [
+   "The same object can be willed with good or evil will.",
+   "The killers willed the act God did not will."
+  ],
+  "concepts": [
+   "conclusion of Book 1"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d48c4",
+    "pll1d48c4-d1e3536"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:45:54Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1d48c4": {
+  "summary": "Asks whether the same holds for the passions of the saints. There is a difference between head and members: Christ's passion alone, as God and man, is the cause of our salvation, while the saints' passions profit them and others but are not our redemption. The faithful rightly willed Christ's passion; the saints' passions we can both will and not will with good will, given right ends: one who willed Paul's passion for his reward willed well, as did one who willed out of compassion that he escape. Augustine: the faithful who did not want Paul to go to Jerusalem had good wills, yet God fulfilled his good will through the Jews' evil wills. So in Christ's passion, God, Judas, the Jews, and the devil willed the same thing, Christ's death, the latter with evil will and willing the act God did not will.",
+  "claims": [
+   "Only Christ's passion, as God and man, redeems us.",
+   "The saints' passions profit them and others but are not our redemption.",
+   "One may will or not will a saint's passion with good will, given right ends.",
+   "God fulfilled his good will regarding Paul through the Jews' evil wills.",
+   "God, Judas, the Jews, and the devil willed Christ's death, but the latter with evil will and willing the evil act."
+  ],
+  "concepts": [
+   "Christ's passion as unique cause of salvation",
+   "martyrdom",
+   "head and members",
+   "right ends",
+   "good will through evil will"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d48c4-d1e3519",
+    "pll1d48c4-d1e3536",
+    "pll1d48c4-d1e3563"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T18:45:54Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

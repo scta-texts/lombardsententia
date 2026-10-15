@@ -1,0 +1,158 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T18:45:54Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll1d47c1-d1e3510": {
+  "summary": "States that God's will is always effective, so that all he wills happens and nothing he nills happens; it is always fulfilled concerning man, whichever way he turns. Nothing in free will overcomes God's will; though man acts against it, nothing is done against the will that is God as though he willed and it were not done or nilled and it were done.",
+  "claims": [
+   "God's will is always effective.",
+   "Nothing in free will overcomes God's will."
+  ],
+  "concepts": [
+   "efficacy of will",
+   "free will"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d47c1",
+    "pl-l1d46c7"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:45:54Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d47c1-d1e3518": {
+  "summary": "Cites the Enchiridion: God's will is always fulfilled either concerning us or by us: concerning us when we sin, by us when we do good knowing it pleases God. God does not will anyone to sin, but wills to spare the penitent and punishes the obstinate, as he prepared some for punishment and others for glory.",
+  "claims": [
+   "God's will is fulfilled by us or concerning us.",
+   "God does not will sin.",
+   "God spares the penitent and punishes the obstinate."
+  ],
+  "concepts": [
+   "Augustine Enchiridion",
+   "de nobis vs a nobis"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d47c1",
+    "pll1d47c1-d1e3510"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:45:54Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d47c1-d1e3530": {
+  "summary": "Continues Augustine: God's works are so wisely ordered that when angels and humans sinned, doing what they willed rather than he, he fulfilled what he willed through the same will, using evils for the damnation of those justly predestined to punishment and the salvation of those mercifully predestined to glory. In their own regard they did what God did not will; with respect to his omnipotence they could not. What is done against his will is not done apart from it, since he permits it willingly and would not permit evil unless he could bring good from it.",
+  "claims": [
+   "God fulfills his will through creatures' sinful wills.",
+   "What is done against God's will is not done apart from it.",
+   "God permits evil willingly and brings good from it."
+  ],
+  "concepts": [
+   "permission",
+   "providence over evil"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d47c1",
+    "pll1d47c1-d1e3518"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:45:54Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d47c1-d1e3562": {
+  "summary": "Asks how something is done against God's will yet not apart from it, and how sinners did what God did not will yet could not do so with respect to his omnipotence, since this seems to contradict 'nothing resists his will.'",
+  "claims": [],
+  "concepts": [
+   "question"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d47c1",
+    "pll1d47c1-d1e3530"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:45:54Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d47c1-d1e3583": {
+  "summary": "Answers that 'will' is taken in different senses: in 'not apart from his will what is done against his will,' Augustine meant not the eternal will that is God but its signs, prohibition or precept and permission.",
+  "claims": [
+   "'Against his will' refers to signs of will.",
+   "God's eternal will is never resisted."
+  ],
+  "concepts": [
+   "signs of will",
+   "distinction of senses"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d47c1",
+    "pll1d47c1-d1e3562",
+    "pll1d45c7-d1e3561"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:45:54Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1d47c1": {
+  "summary": "Holds that God's will is always effective, fulfilled concerning man whichever way he turns: nothing in free will overcomes it. With the Enchiridion, God's will is always fulfilled either by us (when we do good) or concerning us (when we sin): God does not will anyone to sin, but spares the penitent and punishes the obstinate, having prepared some for punishment and others for glory. His works are so wisely ordered that through the very will of the sinning creature by which what he did not will was done, he fulfills what he wills, using evils for the damnation of those justly predestined to punishment and the salvation of those predestined to glory. What is done against his will is not done apart from it, since he permits it willingly. Lombard explains that 'against his will' refers to the signs of his will, precept and prohibition, not his eternal will.",
+  "claims": [
+   "God's will is always effective; nothing in free will overcomes it.",
+   "God's will is fulfilled either by us, when we do good, or concerning us, when we sin.",
+   "God does not will anyone to sin, but spares the penitent and punishes the obstinate.",
+   "God fulfills his will even through the sinful will of creatures.",
+   "What is done against God's will is not done apart from it, since he permits it.",
+   "'Against God's will' refers to the signs of his will, not his eternal will."
+  ],
+  "concepts": [
+   "efficacy of divine will",
+   "free will",
+   "permission",
+   "predestination to glory and punishment",
+   "signs of will",
+   "Augustine Enchiridion"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d47c1-d1e3510",
+    "pll1d47c1-d1e3518",
+    "pll1d47c1-d1e3530",
+    "pll1d47c1-d1e3562",
+    "pll1d47c1-d1e3583"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T18:45:54Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

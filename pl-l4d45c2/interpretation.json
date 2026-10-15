@@ -1,0 +1,132 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T13:11:58Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d45c2-d1e115": {
+  "summary": "Quotes Augustine: the souls of the dead are relieved by the piety of their living when the Mediator's sacrifice is offered for them or alms given in the Church; but these profit those who in life merited to be helped by them. There is a way of life not so good as not to need them after death, nor so bad that they do not profit; another so good it does not need them, another so bad it cannot be helped. All merit is gained here. For the very good they are thanksgivings, for the not very bad propitiations, for the very bad consolations of the living; where they profit, they bring full remission or a more tolerable damnation.",
+  "claims": [
+   "Suffrages help only those who merited it in life.",
+   "Their effect varies with the person's state.",
+   "All merit is acquired in this life."
+  ],
+  "concepts": [
+   "suffrages for the dead",
+   "merit",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d45c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:11:58Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d45c2-d1e130": {
+  "summary": "Continues: there is no doubt the dead are helped by the Church's prayers, the saving sacrifice, and alms, so that God deals more mercifully with them than their sins merit; the whole Church keeps the Fathers' tradition of praying and offering for those who died in communion of the Body and Blood. These profit those who lived so as to be helped, not those who died without faith working through love and the sacraments; no new merits are acquired for the dead, but consequences follow their prior merits.",
+  "claims": [
+   "The Church's prayers and sacrifice help the dead.",
+   "No new merit is acquired after death."
+  ],
+  "concepts": [
+   "prayer for the dead",
+   "eucharistic sacrifice",
+   "merit"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d45c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:11:58Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d45c2-d1e139": {
+  "summary": "Summarizes: the Church's offerings for the dead help the moderately bad toward mitigation of punishment and the moderately good toward full absolution, who lack such perfect merits as not to need the help of the poor whom they made friends with unrighteous mammon; the most perfect, like apostles and martyrs, need no such help.",
+  "claims": [
+   "Suffrages mitigate for the moderately bad and absolve the moderately good."
+  ],
+  "concepts": [
+   "suffrages for the dead",
+   "almsgiving",
+   "degrees of merit"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d45c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:11:58Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d45c2-d1e149": {
+  "summary": "Cites Augustine: it is an injury to pray in the Church for a martyr, to whose prayers we should be commended; for other dead, one prays.",
+  "claims": [
+   "Martyrs are not prayed for but prayed to."
+  ],
+  "concepts": [
+   "martyrs",
+   "intercession",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d45c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:11:58Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d45c2": {
+  "summary": "The souls of the dead are helped by the piety of the living when the Mediator's sacrifice is offered or alms given, but only those who merited in life to be so helped: the very good do not need it, the very bad cannot be helped, the moderately good and moderately bad can; all merit is gained in this life. So for the very good these offerings are thanksgiving, for the moderately good full remission, for the moderately bad mitigation of damnation, for the very bad consolation of the living. The Church prays for those who died in communion; for those dying without faith working through love, such offices are vain. It is an injury to pray for a martyr, by whose prayers we should be commended.",
+  "claims": [
+   "Suffrages help the dead who merited it in life.",
+   "The very good need no suffrages and the very bad gain nothing from them.",
+   "For the moderately good, suffrages bring full remission; for the moderately bad, mitigation.",
+   "All merit is acquired in this life.",
+   "One does not pray for martyrs."
+  ],
+  "concepts": [
+   "suffrages for the dead",
+   "merit",
+   "purgation",
+   "prayer for the dead",
+   "martyrs"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d45c2-d1e115",
+    "pl-l4d45c2-d1e130",
+    "pl-l4d45c2-d1e139",
+    "pl-l4d45c2-d1e149"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T13:11:58Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

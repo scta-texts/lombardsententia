@@ -1,0 +1,89 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T17:41:03Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll1d23c4-d1e3501": {
+  "summary": "Gives Augustine's further question: why not three essences, which Scripture likewise neither says nor contradicts? If one essence because of unity, why not one person? He concludes that these words were produced by necessity of speech against heretics: fearing diversity, the Church would not say three essences; unable to deny three, which was Sabellius's heresy, it said three persons or, with the Greeks, three substances.",
+  "claims": [
+   "'Three essences' is avoided lest diversity be implied.",
+   "Denying that there are three is Sabellianism.",
+   "Trinitarian terms arose from necessity of speech against heresy."
+  ],
+  "concepts": [
+   "linguistic necessity",
+   "Sabellius",
+   "diversity"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d23c4",
+    "pll1d23c3-d1e3549"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:41:03Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d23c4-d1e3530": {
+  "summary": "Continues: what Latins mean by persons, Greeks mean by substances; they say three hypostases, one ousia, as we say three persons, one essence. They could say three prosopa but preferred hypostases as perhaps more fitting in their language.",
+  "claims": [
+   "Greek hypostases correspond to Latin persons.",
+   "The Greeks could have said three prosopa."
+  ],
+  "concepts": [
+   "hypostasis",
+   "prosopon",
+   "Greek usage"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d23c4",
+    "pll1d23c4-d1e3501"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:41:03Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1d23c4": {
+  "summary": "Raises Augustine's follow-up: why not three essences, which Scripture neither says nor contradicts? And if one essence because of unity, why not one person? Augustine concludes that these words were coined by Greeks and Latins out of the necessity of speech against heretics. Fearing to suggest diversity, they would not say three essences; unable to deny that there are three (Sabellius's error), they said three persons or, in Greek, three substances. Greek 'three hypostases, one ousia' corresponds to Latin 'three persons, one essence'; the Greeks could say three prosopa but found hypostases more apt.",
+  "claims": [
+   "The terms were coined from necessity of speech against heresies.",
+   "'Three essences' is avoided because it would imply diversity.",
+   "Denying that there are three would be Sabellianism.",
+   "Greek 'three hypostases' corresponds to Latin 'three persons.'",
+   "The Greeks preferred hypostases to prosopa as more apt in their language."
+  ],
+  "concepts": [
+   "tres essentiae",
+   "anti-Sabellianism",
+   "diversity",
+   "hypostasis and persona",
+   "prosopon",
+   "linguistic necessity"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d23c4-d1e3501",
+    "pll1d23c4-d1e3530"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T17:41:03Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

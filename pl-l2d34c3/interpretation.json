@@ -1,0 +1,104 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T21:09:26Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d34c3-d1e108": {
+  "summary": "States that the evil will of angel or man is also the cause of subsequent evils, evil works and evil wills.",
+  "claims": [
+   "Evil will causes further evils."
+  ],
+  "concepts": [
+   "evil will"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d34c3",
+    "pl-l2d34c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:09:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d34c3-d1e111": {
+  "summary": "Cites the Enchiridion: the cause of goods concerning us is only God's goodness; of evils, the will of a mutable good failing from the immutable good, first the angel's, then man's; this is the first evil of rational creatures, the first privation of good.",
+  "claims": [
+   "Evil's cause is a mutable will failing from the immutable good."
+  ],
+  "concepts": [
+   "Augustine Enchiridion",
+   "privation of good"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d34c3",
+    "pl-l2d34c3-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:09:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d34c3-d1e114": {
+  "summary": "Concludes that the first will of the mutable good failing from God is the cause of the evils concerning us, both sins and punishments; so the first origin of sin was good, the second evil arisen from good.",
+  "claims": [
+   "The failing will causes sins and punishments."
+  ],
+  "concepts": [
+   "origin of evil"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d34c3",
+    "pl-l2d34c3-d1e111"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:09:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d34c3": {
+  "summary": "The evil will of angel or man is in turn the cause of subsequent evils, evil works and evil wills. Augustine: the cause of the goods that concern us is only God's goodness; of evils, the will of a mutable good failing from the immutable good, first of the angel, then of man; this is the first privation of good. So the first origin of sin was good, the second evil arising from good, and it causes both sins and the punishments that oppress human nature.",
+  "claims": [
+   "The evil will is the cause of subsequent evil works and wills.",
+   "God's goodness alone causes our goods.",
+   "The will of a mutable good failing from the immutable good causes evils.",
+   "The first origin of sin is good; the second is evil arising from good.",
+   "The first failing will causes both sins and punishments."
+  ],
+  "concepts": [
+   "origin of evil",
+   "evil will",
+   "privation of good",
+   "mutable and immutable good",
+   "Augustine Enchiridion"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d34c3-d1e108",
+    "pl-l2d34c3-d1e111",
+    "pl-l2d34c3-d1e114"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T21:09:26Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

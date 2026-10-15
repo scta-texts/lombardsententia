@@ -1,0 +1,76 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T17:44:00Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll1d27c4-d1e3501": {
+  "summary": "Announces a general rule about what is said 'ad se' and relatively of Father and Son.",
+  "claims": [],
+  "concepts": [
+   "rule"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d27c4",
+    "pll1d27c3-d1e3663"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:44:00Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d27c4-d1e3504": {
+  "summary": "Gives the rule from De Trinitate VI: whatever is said 'ad se,' showing their substance, is not said of one without the other but of both together. So neither is God without the other, but both together are God; yet they are not both together Father, Son, Word, or Image.",
+  "claims": [
+   "What signifies substance is said of both together.",
+   "Relative names are not said of both together."
+  ],
+  "concepts": [
+   "Augustine De Trinitate VI"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d27c4",
+    "pll1d27c4-d1e3501"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:44:00Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1d27c4": {
+  "summary": "Gives a general rule from Augustine: whatever is said 'ad se,' signifying substance, of Father and Son is said of both together, not of one without the other. So the Father is not God without the Son, but both together are God; but they are not together Father, Son, Word, or Image.",
+  "claims": [
+   "Whatever is said of Father and Son 'ad se' is said of both together.",
+   "The Father is not God without the Son; both together are God.",
+   "Relative names are not said of both together."
+  ],
+  "concepts": [
+   "general rule",
+   "ad se vs relative",
+   "substantial predication"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d27c4-d1e3501",
+    "pll1d27c4-d1e3504"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T17:44:00Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

@@ -1,0 +1,131 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:14:24Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d17c6-d1e110": {
+  "summary": "States that among the trees of paradise were the tree of life and the tree of the knowledge of good and evil.",
+  "claims": [
+   "Paradise had the tree of life and the tree of knowledge."
+  ],
+  "concepts": [
+   "trees of paradise"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d17c6",
+    "pl-l2d17c5"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:14:24Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d17c6-d1e113": {
+  "summary": "Explains, with Bede and Strabo, that the tree of life had divine power so that whoever ate its fruit would have his body firmed in stable health and perpetual solidity, without decline by illness or age.",
+  "claims": [
+   "The tree of life preserved bodily health."
+  ],
+  "concepts": [
+   "tree of life",
+   "Bede"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d17c6",
+    "pl-l2d17c6-d1e110"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:14:24Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d17c6-d1e117": {
+  "summary": "States that the tree of knowledge of good and evil got its name not from its nature but from what later followed.",
+  "claims": [
+   "The tree's name comes from the consequence."
+  ],
+  "concepts": [
+   "tree of knowledge"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d17c6",
+    "pl-l2d17c6-d1e113"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:14:24Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d17c6-d1e120": {
+  "summary": "Explains that the tree was not evil, but named because through transgression man would learn by experience the difference between the good of obedience and the evil of disobedience. Before, man knew good by prudence and experience, evil by prudence only. Even had they obeyed, it would still be so called. God forbade a good thing so that keeping the command would be good and transgression evil, showing that punishment came from disobedience, not from an evil thing, as reward from obedience.",
+  "claims": [
+   "The forbidden tree was good.",
+   "Man learned evil by experience through transgression.",
+   "Disobedience itself was the evil."
+  ],
+  "concepts": [
+   "obedience",
+   "experience of evil"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d17c6",
+    "pl-l2d17c6-d1e117"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:14:24Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d17c6": {
+  "summary": "Describes the trees of paradise. The tree of life, per Bede and Strabo, had divine power to keep the body in stable health and perpetual firmness without decline. The tree of knowledge of good and evil was named not from its nature but from what followed: it was not evil, but through transgression man would learn by experience the difference between the good of obedience and the evil of disobedience. Before, man knew good by prudence and experience and evil by prudence only. God forbade a good thing so that obedience itself would be the good and transgression the evil, showing that punishment came not from an evil thing but from disobedience, as reward comes from obedience.",
+  "claims": [
+   "The tree of life gave the body stable health and freedom from decline.",
+   "The tree of knowledge was not evil but named from the consequence of transgression.",
+   "Through transgression man learned by experience the difference between obedience and disobedience.",
+   "Before the fall man knew evil only by prudence, not experience.",
+   "God forbade a good thing so that obedience itself would be the good.",
+   "Punishment came from disobedience, not from an evil object."
+  ],
+  "concepts": [
+   "tree of life",
+   "tree of knowledge",
+   "obedience and disobedience",
+   "Bede",
+   "Strabo",
+   "original prohibition"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d17c6-d1e110",
+    "pl-l2d17c6-d1e113",
+    "pl-l2d17c6-d1e117",
+    "pl-l2d17c6-d1e120"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:14:24Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

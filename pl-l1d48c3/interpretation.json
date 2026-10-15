@@ -1,0 +1,57 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T18:45:54Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll1d48c3-d1e3519": {
+  "summary": "Resolves whether Christ's suffering should have pleased the saints: it should please them in view of redemption, not of his torment. They willed and greatly desired Christ's death for man's liberation and the fulfilling of God's will, but not with delight in his affliction; they rejoiced and grieved over the same thing for different reasons.",
+  "claims": [
+   "The saints willed Christ's death for redemption.",
+   "They grieved over his suffering.",
+   "One can rejoice and grieve over the same thing for different reasons."
+  ],
+  "concepts": [
+   "ordered affection"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d48c3",
+    "pl-l1d48c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:45:54Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1d48c3": {
+  "summary": "Resolves whether Christ's passion should have pleased the saints: it should please them with regard to our redemption but not his torment. They willed and desired Christ's death for man's liberation and the fulfillment of God's will, but not with delight in his affliction; they rejoiced and grieved over the same thing for different reasons.",
+  "claims": [
+   "Christ's passion should please the saints with regard to redemption.",
+   "It should not please them with regard to Christ's suffering.",
+   "The saints rejoiced and grieved over Christ's death for different reasons."
+  ],
+  "concepts": [
+   "passion of Christ",
+   "joy and sorrow",
+   "ordered affection"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d48c3-d1e3519"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T18:45:54Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

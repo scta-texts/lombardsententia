@@ -1,0 +1,175 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T01:07:53Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l3d11c1-d1e117": {
+  "summary": "Asks whether it should be said and granted simply that Christ was made, created, or a creature.",
+  "claims": [],
+  "concepts": [
+   "creature",
+   "modes of speech"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d11c1",
+    "pl-l3d10c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:07:53Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d11c1-d1e120": {
+  "summary": "Answers that this is less fittingly said simply and without qualification; even if sometimes said simply for brevity, it must never be understood simply, since, as Augustine says in De Trinitate I, when speaking of Christ the prudent, careful, and pious reader must understand what is said, according to what, and why.",
+  "claims": [
+   "Christ should not be called made or a creature without qualification.",
+   "Statements about Christ must be read for what, according to what, and why."
+  ],
+  "concepts": [
+   "modes of speech",
+   "secundum quod",
+   "hermeneutics"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d11c1",
+    "pl-l3d11c1-d1e117",
+    "pl-l3d10c1-d1e130"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:07:53Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d11c1-d1e132": {
+  "summary": "Cites Augustine, De Trinitate I, to show the Son is not made or a creature: 'all things were made through him' (Jn 1:3) means every creature, so he through whom all were made is not made; if not made, not a creature; if not a creature, of the same substance as the Father, since every substance that is not God is a creature and every one not a creature is God. If not of the Father's substance he would be a made substance, and not all things would be made through him.",
+  "claims": [
+   "The Son is not made, since all things were made through him.",
+   "Every substance that is not God is a creature, and every one that is not a creature is God.",
+   "The Son is uncreated substance with the Father."
+  ],
+  "concepts": [
+   "Arianism",
+   "consubstantiality",
+   "creature"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d11c1",
+    "pl-l3d11c1-d1e120"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:07:53Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d11c1-d1e148": {
+  "summary": "Adds from the same work: if the Father made a Son whom the Son did not make, not all things were made through the Son; but all were; so he was not made, but made all things with the Father.",
+  "claims": [
+   "The Son was not made but made all things with the Father."
+  ],
+  "concepts": [
+   "creation through the Son"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d11c1",
+    "pl-l3d11c1-d1e132"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:07:53Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d11c1-d1e154": {
+  "summary": "Cites Augustine, 83 Questions: whatever God the Father made through the Son is called a creature; the Son cannot be called a creature, since all things were made through him.",
+  "claims": [
+   "The Son cannot be called a creature."
+  ],
+  "concepts": [
+   "creature"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d11c1",
+    "pl-l3d11c1-d1e148"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:07:53Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d11c1-d1e163": {
+  "summary": "Cites Ambrose, De Trinitate I: Christ commanded the disciples to preach the Gospel to every creature (Mk 16:15), excepting none; if he were a creature he would be commanding the Gospel be preached to himself and would be subject to vanity, as every creature is (Rom 8:20). So Christ is not a creature but the Creator who commands the teaching of creatures.",
+  "claims": [
+   "Christ is Creator, not creature."
+  ],
+  "concepts": [
+   "Arianism",
+   "creature"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d11c1",
+    "pl-l3d11c1-d1e154"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:07:53Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d11c1": {
+  "summary": "Asks whether it should be said simply that Christ was made, created, or a creature. This is unfitting without qualification, and even if said simply for brevity it must not be understood simply, since with Christ the careful reader must ask what is said, according to what, and why (Augustine). Augustine and Ambrose prove the Son of God is not made or a creature: all things were made through him, so he is not made, and what is not a creature is God; Christ commands the Gospel be preached to every creature, so he is Creator, not creature.",
+  "claims": [
+   "Christ should not be called made or a creature without qualification.",
+   "Statements about Christ must be read for what, according to what, and why they are said.",
+   "The Son, through whom all things were made, is not made.",
+   "Every substance is either God or a creature."
+  ],
+  "concepts": [
+   "creature",
+   "Arianism",
+   "modes of speech",
+   "secundum quod"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d11c1-d1e117",
+    "pl-l3d11c1-d1e120",
+    "pl-l3d11c1-d1e132",
+    "pl-l3d11c1-d1e148",
+    "pl-l3d11c1-d1e154",
+    "pl-l3d11c1-d1e163"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T01:07:53Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

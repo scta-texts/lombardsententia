@@ -1,0 +1,205 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T17:50:29Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll1d35c7-d1e3501": {
+  "summary": "Asks whether foreknowledge, disposition, or predestination could have been in God if nothing were future.",
+  "claims": [],
+  "concepts": [
+   "question"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d35c7",
+    "pl-l1d35c6"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:50:29Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d35c7-d1e3504": {
+  "summary": "Argues that since they concern future, makeable, and savable things, and God could have foreknown nothing, created nothing, saved no one, they could have not been in God.",
+  "claims": [],
+  "concepts": [
+   "argument"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d35c7",
+    "pll1d35c7-d1e3501"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:50:29Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d35c7-d1e3516": {
+  "summary": "Reports an objection: if foreknowledge could have not been, and it is his knowledge and his essence, then what is the divine essence could have not been from eternity; likewise for disposition and predestination.",
+  "claims": [],
+  "concepts": [
+   "objection",
+   "essence"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d35c7",
+    "pll1d35c7-d1e3504"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:50:29Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d35c7-d1e3522": {
+  "summary": "Adds: if God could have foreknown nothing, since foreknowing is knowing and knowing is being, he could have not been.",
+  "claims": [],
+  "concepts": [
+   "objection"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d35c7",
+    "pll1d35c7-d1e3516"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:50:29Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d35c7-d1e3534": {
+  "summary": "Answers that foreknowledge, disposition, and predestination seem to be said relatively, as 'creator' is, to future, makeable, and savable things. But 'creator' does not signify essence, while 'foreknowledge' both refers to future things and designates essence; so too disposition and predestination.",
+  "claims": [
+   "These names are relative to objects but signify essence."
+  ],
+  "concepts": [
+   "relative and essential"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d35c7",
+    "pll1d35c7-d1e3522"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:50:29Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d35c7-d1e3537": {
+  "summary": "Distinguishes 'if nothing were future, there would be no foreknowledge': true if meaning there would be no objects for which it is called foreknowledge; false if meaning there would be no knowledge by which he foreknows, or God would not be.",
+  "claims": [
+   "The statement is true of the name, false of the reality."
+  ],
+  "concepts": [
+   "distinction of senses"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d35c7",
+    "pll1d35c7-d1e3534"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:50:29Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d35c7-d1e3540": {
+  "summary": "Applies the same to 'God's foreknowledge could have not been' and 'God could have foreknown nothing': it could have been that no future things were subject to his knowledge, so he could not be called foreknowing, but he and his knowledge would not be less.",
+  "claims": [
+   "God's knowledge would remain the same without future objects."
+  ],
+  "concepts": [
+   "modal statements"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d35c7",
+    "pll1d35c7-d1e3537"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:50:29Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d35c7-d1e3545": {
+  "summary": "Says the same of disposition, predestination, and providence, which refer only to temporal things.",
+  "claims": [
+   "Disposition, predestination, and providence refer to temporal things."
+  ],
+  "concepts": [
+   "conclusion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d35c7",
+    "pll1d35c7-d1e3540"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:50:29Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1d35c7": {
+  "summary": "Asks whether foreknowledge, disposition, or predestination could exist in God if there were no future things, since God could have made nothing. Objection: then what is the divine essence could have not been. Lombard answers that foreknowledge, disposition, and predestination are said relatively to future, makeable, and savable things, yet also designate essence. So 'if nothing were future, there would be no foreknowledge' is true in the sense that there would be no objects by reason of which it is called foreknowledge, false if it means God's knowledge or God himself would not be. The same for disposition, predestination, and providence, which refer to temporal things.",
+  "claims": [
+   "Foreknowledge, disposition, and predestination are said relatively to their objects but designate the divine essence.",
+   "If nothing were future, God would not be called foreknowing, but his knowledge would not be less.",
+   "God's knowledge itself could not fail to exist.",
+   "Such names refer to temporal things only."
+  ],
+  "concepts": [
+   "praescientia",
+   "relational naming",
+   "divine essence",
+   "modal statements",
+   "distinction of senses"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d35c7-d1e3501",
+    "pll1d35c7-d1e3504",
+    "pll1d35c7-d1e3516",
+    "pll1d35c7-d1e3522",
+    "pll1d35c7-d1e3534",
+    "pll1d35c7-d1e3537",
+    "pll1d35c7-d1e3540",
+    "pll1d35c7-d1e3545"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T17:50:29Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

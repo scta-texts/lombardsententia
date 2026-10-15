@@ -1,0 +1,150 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T12:35:45Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d14c1-d1e115": {
+  "summary": "Turns to penance, which is necessary for those who are far off, so that they may draw near.",
+  "claims": [
+   "Penance is necessary for those far from God."
+  ],
+  "concepts": [
+   "penance"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d14c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:35:45Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d14c1-d1e118": {
+  "summary": "Quotes Jerome: penance is the second plank after shipwreck, since one who has spoiled the garment of innocence received in baptism can repair it by penance. Baptism is the first plank, where the old man is put off and the new put on; penance the second, by which we rise after a fall, driving back the returning oldness and recovering lost newness. Those fallen after baptism can be renewed by penance, not baptism; one may repent often but not be baptized often.",
+  "claims": [
+   "Penance is the second plank after shipwreck.",
+   "Those fallen after baptism are renewed by penance.",
+   "Penance can be repeated, baptism cannot."
+  ],
+  "concepts": [
+   "second plank",
+   "baptism and penance",
+   "repetition",
+   "Jerome"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d14c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:35:45Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d14c1-d1e127": {
+  "summary": "Distinguishes: baptism is only a sacrament, while penance is called both sacrament and virtue of the mind; outward penance is the sacrament, inward penance the virtue, and both are causes of salvation and justification.",
+  "claims": [
+   "Outward penance is a sacrament; inward penance is a virtue.",
+   "Both cause salvation and justification."
+  ],
+  "concepts": [
+   "sacrament and virtue",
+   "inward and outward penance",
+   "justification"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d14c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:35:45Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d14c1-d1e131": {
+  "summary": "Defers to later the question whether all outward penance is a sacrament, or if not, which should be so called.",
+  "claims": [],
+  "concepts": [
+   "sacrament of penance",
+   "open question"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d14c1",
+    "pl-l4d22c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:35:45Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d14c1-d1e134": {
+  "summary": "Notes that John's preaching began with penance, 'do penance, for the kingdom of heaven is at hand', and that the Truth later preached the same, beginning his teaching with penance.",
+  "claims": [
+   "The Gospel preaching begins with penance."
+  ],
+  "concepts": [
+   "preaching of penance",
+   "John the Baptist"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d14c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:35:45Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d14c1": {
+  "summary": "Opens the treatise on penance, necessary for those far off to draw near. Jerome calls it the second plank after shipwreck: one who has corrupted the garment of innocence received in baptism can restore it by penance; baptism cannot be repeated, but penance can. Baptism is only a sacrament, while penance is both sacrament and virtue: outward penance is the sacrament, inward penance the virtue of the mind, and both are causes of salvation and justification; whether all outward penance is a sacrament will be examined later. John's preaching and Christ's began with penance.",
+  "claims": [
+   "Penance is the second plank after shipwreck.",
+   "Penance can be repeated, baptism cannot.",
+   "Penance is both sacrament (outward) and virtue (inward).",
+   "Both outward and inward penance cause justification."
+  ],
+  "concepts": [
+   "penance",
+   "second plank",
+   "sacrament and virtue",
+   "inward and outward penance",
+   "baptism and penance"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d14c1-d1e115",
+    "pl-l4d14c1-d1e118",
+    "pl-l4d14c1-d1e127",
+    "pl-l4d14c1-d1e131",
+    "pl-l4d14c1-d1e134"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T12:35:45Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

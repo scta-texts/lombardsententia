@@ -1,0 +1,98 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T13:11:58Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d47c1-d1e115": {
+  "summary": "Asks how the sentence of judgment will be given.",
+  "claims": [],
+  "concepts": [
+   "final judgment",
+   "sentence"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d47c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:11:58Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d47c1-d1e118": {
+  "summary": "Notes that it is not clear: Scripture does not plainly define whether 'come, blessed' and 'depart, cursed' will be uttered by voice, or whether the Judge's power will so act, with each conscience bearing witness, that the effect of his power is signified by his speech.",
+  "claims": [
+   "How the sentence is given is undefined."
+  ],
+  "concepts": [
+   "sentence",
+   "conscience",
+   "open question"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d47c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:11:58Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d47c1-d1e127": {
+  "summary": "Reports that many think 'I was hungry and you gave me no food' and the like will be expressed to consciences rather than in words, since the Apostle says the mystery is consummated in a moment, in the twinkling of an eye; but others refer that only to the resurrection, not the judgment, and hold that the sentence, the rebukes of the wicked, and the praises of the good will be expressed in words.",
+  "claims": [
+   "Opinions differ on whether the judgment is spoken."
+  ],
+  "concepts": [
+   "sentence",
+   "alternative opinions"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d47c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:11:58Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d47c1": {
+  "summary": "Asks how the sentence of judgment will be given. It is not clear: Scripture does not define whether 'come, blessed' and 'depart, cursed' will be spoken aloud or effected by the Judge's power with consciences bearing witness. Many think 'I was hungry' and the like will be expressed to consciences rather than in words, since Paul says the mystery is accomplished in the twinkling of an eye; others refer that to the resurrection only, holding that the sentence, rebukes, and praises will be spoken.",
+  "claims": [
+   "How the sentence will be pronounced is uncertain.",
+   "Some hold it will be expressed to consciences, others spoken aloud."
+  ],
+  "concepts": [
+   "final judgment",
+   "sentence",
+   "conscience",
+   "open question"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d47c1-d1e115",
+    "pl-l4d47c1-d1e118",
+    "pl-l4d47c1-d1e127"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T13:11:58Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

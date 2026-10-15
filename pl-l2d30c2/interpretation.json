@@ -1,0 +1,54 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:39:39Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d30c2-d1e108": {
+  "summary": "Sets out the questions: whether that sin is original or actual; if original, what it is, why called original, and how it passes to all.",
+  "claims": [],
+  "concepts": [
+   "question",
+   "original sin"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d30c2",
+    "pl-l2d30c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:39:39Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d30c2": {
+  "summary": "Sets the questions: whether the sin of Rom 5:12 is original or actual; if original, what original sin is, why it is called original, and how it has passed or passes to all.",
+  "claims": [
+   "Whether the sin of Romans 5:12 is original or actual must be settled first.",
+   "Then it must be asked what original sin is, why it is so called, and how it passes to all."
+  ],
+  "concepts": [
+   "original sin",
+   "actual sin",
+   "Romans 5:12",
+   "question"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d30c2-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:39:39Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

@@ -1,0 +1,132 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T01:11:30Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l3d18c2-d1e117": {
+  "summary": "States that Christ merited these things not only when he obeyed the Father on the cross, but from conception, as soon as he was made man, through charity, justice, and other virtues in whose fullness he was created as man; he merited as much for himself then as later through enduring martyrdom. The fullness of spiritual gifts in him was such that he could not advance in them, and so his soul could not become better than it was from the beginning, since it could not advance in merits.",
+  "claims": [
+   "Christ merited from his conception as much as by his passion.",
+   "Christ could not advance in merit or become better."
+  ],
+  "concepts": [
+   "merit of Christ",
+   "fullness of grace"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d18c2",
+    "pl-l3d18c1-d1e145",
+    "pl-l3d13c1-d1e163"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:11:30Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d18c2-d1e120": {
+  "summary": "Cites Gregory: Christ had no merit of soul by which he could advance, but in his members, which we are, he advances daily.",
+  "claims": [
+   "Christ advances in his members, not in himself."
+  ],
+  "concepts": [
+   "head and members",
+   "merit of Christ"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d18c2",
+    "pl-l3d18c2-d1e117"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:11:30Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d18c2-d1e126": {
+  "summary": "Concludes that he did not merit more for himself by the cross than from conception by the grace of virtues; he did not advance in the force of merit, but in the number of merits, having more in the passion than at conception, though the more did not have greater force than the fewer before. From conception he merited not only bodily impassibility and immortality but also the soul's impassibility, through perfect obedience and will, which he did not first have, nor have greater, when he began to suffer and die.",
+  "claims": [
+   "Christ's merits increased in number, not in force.",
+   "Christ merited from conception through perfect obedience."
+  ],
+  "concepts": [
+   "merit of Christ",
+   "obedience"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d18c2",
+    "pl-l3d18c2-d1e117"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:11:30Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d18c2-d1e130": {
+  "summary": "Asks whether his soul, having after death a good it lacked before, was better or more blessed. It was not better, being no holier and no richer in grace, nor more blessed in contemplation of God, where beatitude chiefly lies; it can be called more blessed in being free from all misery, but from this one cannot infer that it was simply more blessed.",
+  "claims": [
+   "Christ's soul was not better after death.",
+   "Beatitude consists chiefly in contemplation of God.",
+   "Christ's soul was more blessed only in being free from misery."
+  ],
+  "concepts": [
+   "beatitude",
+   "contemplation of God"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d18c2",
+    "pl-l3d18c2-d1e126"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:11:30Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d18c2": {
+  "summary": "Teaches that Christ merited these things not only on the cross but from his conception, through charity, justice, and other virtues in whose fullness he was created; he merited as much then as later through his passion. With such fullness of gifts he could not advance, nor could his soul become better (Gregory). He did not merit more by the cross than from conception in force of merit, though he had more merits in number. After death his soul had a good it lacked before, but was not better or more blessed in contemplation of God, only more blessed in being free from misery, which does not make it simply more blessed.",
+  "claims": [
+   "Christ merited from his conception as much as by his passion.",
+   "Christ could not advance in merit or grace.",
+   "Christ's merits grew in number but not in force.",
+   "After death Christ's soul was not simply more blessed."
+  ],
+  "concepts": [
+   "merit of Christ",
+   "fullness of grace",
+   "beatitude",
+   "contemplation of God"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d18c2-d1e117",
+    "pl-l3d18c2-d1e120",
+    "pl-l3d18c2-d1e126",
+    "pl-l3d18c2-d1e130"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T01:11:30Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

@@ -1,0 +1,111 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T18:59:02Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll2d6c1-d1e3514": {
+  "summary": "States that of both greater and lesser angels some stood and some fell; among the fallen one was more excellent than all, none among those who stood being worthier, as authorities show.",
+  "claims": [
+   "Angels of all ranks fell and stood.",
+   "The chief fallen angel was the most excellent of all."
+  ],
+  "concepts": [
+   "Lucifer"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d6c1",
+    "pl-l2d5c6"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:59:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d6c1-d1e3517": {
+  "summary": "Cites Job 40:14 ('he is the beginning of the ways of God') and Ezek 28:12 ('you were the seal of likeness, full of wisdom, perfect in beauty'), which Gregory explains: the more subtle his nature, the more God's image was impressed on him.",
+  "claims": [
+   "Lucifer had the most subtle nature and greatest likeness to God."
+  ],
+  "concepts": [
+   "Job 40:14",
+   "Ezekiel 28:12",
+   "Gregory"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d6c1",
+    "pll2d6c1-d1e3514"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:59:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d6c1-d1e3559": {
+  "summary": "Cites Ezek 28:13, 'every precious stone was his covering,' that is, every angel was as his covering, he being brighter than the rest (Gregory), hence called Lucifer (Isa 14:12). He was one spirit, not an order, who, per Isidore, weighing his natural eminence and depth of knowledge, grew proud against his Creator and wished to equal God (Isa 14:13–14), not by imitation but by equality of power.",
+  "claims": [
+   "Lucifer was brighter than the others.",
+   "He wished to be equal to God in power."
+  ],
+  "concepts": [
+   "pride",
+   "Isidore",
+   "Isaiah 14"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d6c1",
+    "pll2d6c1-d1e3517"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:59:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d6c1": {
+  "summary": "Notes that some of both higher and lower ranks stood and some fell, and one of the fallen was more excellent than all, none among the standing being worthier, as authorities show: 'he is the beginning of the ways of God' (Job 40:14), 'you were the seal of likeness, full of wisdom' (Ezek 28:12), more subtle and so more like God's image (Gregory); 'every precious stone was his covering,' clearer than the others; hence called Lucifer (Isa 14:12). He was one spirit, not an order, who, considering his excellence, grew proud against his Creator and wished to equal God, not by imitation but by equality of power (Isidore).",
+  "claims": [
+   "Angels of every rank both stood and fell.",
+   "One fallen angel was the most excellent of all angels.",
+   "He was called Lucifer for his brightness.",
+   "Lucifer was one spirit, not an order.",
+   "Considering his excellence, he grew proud and wished to equal God.",
+   "He sought likeness to God not by imitation but by equality of power."
+  ],
+  "concepts": [
+   "Lucifer",
+   "pride",
+   "angelic excellence",
+   "fall of angels",
+   "Gregory",
+   "Isidore"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll2d6c1-d1e3514",
+    "pll2d6c1-d1e3517",
+    "pll2d6c1-d1e3559"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T18:59:02Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

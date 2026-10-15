@@ -1,0 +1,51 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T17:50:29Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll1d35c3-d1e3499": {
+  "summary": "Defines disposition as concerning things to be made.",
+  "claims": [
+   "Disposition is of things God will make."
+  ],
+  "concepts": [
+   "dispositio"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d35c3",
+    "pll1d35c1-d1e3504"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:50:29Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1d35c3": {
+  "summary": "Defines disposition as concerning things to be made.",
+  "claims": [
+   "Disposition is of things to be made."
+  ],
+  "concepts": [
+   "dispositio"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d35c3-d1e3499"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T17:50:29Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T11:06:24Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l3d36c1-d1e115": {
+  "summary": "Asks whether the virtues are so connected that they cannot be possessed separately, so that whoever has one has all.",
+  "claims": [],
+  "concepts": [
+   "connection of virtues"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d36c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:06:24Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d36c1-d1e118": {
+  "summary": "Quotes Jerome: all virtues cling to one another, so that whoever lacks one lacks all; whoever has one has all.",
+  "claims": [
+   "Whoever has one virtue has all."
+  ],
+  "concepts": [
+   "connection of virtues",
+   "Jerome"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d36c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:06:24Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d36c1-d1e127": {
+  "summary": "Judges this probable: since charity is the mother of all virtues, wherever the mother is, her children, the virtues, are rightly believed to be.",
+  "claims": [
+   "Charity is the mother of all virtues, so all virtues accompany it."
+  ],
+  "concepts": [
+   "charity as mother of virtues",
+   "connection of virtues"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d36c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:06:24Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d36c1-d1e131": {
+  "summary": "Confirms with Augustine: where charity is, what can be lacking? Where it is not, what can profit? Why not say that whoever has this virtue has all, since charity is the fullness of the Law? The more charity a man has, the more virtue; the less, the more vice.",
+  "claims": [
+   "Whoever has charity has all virtues.",
+   "Virtue increases with charity and vice with its lack."
+  ],
+  "concepts": [
+   "charity",
+   "fullness of the Law",
+   "connection of virtues",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d36c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:06:24Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d36c1": {
+  "summary": "Asks whether the virtues are so connected that whoever has one has all. Jerome says all virtues cling together, so that lacking one is lacking all. Lombard finds this probable: since charity is the mother of all virtues, wherever she is, all her children are. Augustine agrees: where charity is, nothing is lacking, and where it is not, nothing profits; whoever has charity, the fulfilment of the Law, has all virtues.",
+  "claims": [
+   "The virtues are connected, so whoever has one has all.",
+   "Charity is the mother of all virtues.",
+   "Where charity is, nothing is lacking."
+  ],
+  "concepts": [
+   "connection of virtues",
+   "charity as mother of virtues",
+   "Jerome"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d36c1-d1e115",
+    "pl-l3d36c1-d1e118",
+    "pl-l3d36c1-d1e127",
+    "pl-l3d36c1-d1e131"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T11:06:24Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

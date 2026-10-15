@@ -1,0 +1,197 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T01:01:00Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l3d4c2-d1e115": {
+  "summary": "Turns from that question to a harder one: how Christ is said to be born of the Holy Spirit when he is in no way the Spirit's son.",
+  "claims": [],
+  "concepts": [
+   "birth from the Holy Spirit",
+   "sonship"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d4c2",
+    "pl-l3d4c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:01:00Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d4c2-d1e121": {
+  "summary": "Quotes Augustine, Enchiridion: shall we say the Spirit is father of the man Christ, so that the Father begot the Word and the Spirit the man? No believer could bear such absurdity. Yet it is hard to explain how Christ, born of the Spirit and of the Virgin, is son of the Virgin but not of the Spirit; certainly not born of the Spirit as of a father, but of her as of a mother.",
+  "claims": [
+   "The Holy Spirit is not the father of Christ's humanity."
+  ],
+  "concepts": [
+   "birth from the Holy Spirit",
+   "sonship"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d4c2",
+    "pl-l3d4c2-d1e115"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:01:00Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d4c2-d1e130": {
+  "summary": "Continues Augustine: not everything born of something is its son (a man's son differs from hair, lice, worms; those born of water and Spirit are not sons of water but of the Father and Mother Church), and not everyone called someone's son is born of him (the adopted, sons of Gehenna). Christ's birth from Mary as son and from the Spirit not as son signifies the grace by which a man, with no prior merits, was joined to the Word from his beginning in such unity of person that the same was Son of God and son of man; so grace became in a way natural to that man, so that he could commit no sin. This grace is signified by the Spirit, since he is God in such a way as also to be God's gift.",
+  "claims": [
+   "Being born of something does not make one its son.",
+   "Christ's birth from the Spirit signifies the grace of union given without merit.",
+   "Christ could commit no sin."
+  ],
+  "concepts": [
+   "sonship",
+   "grace of union",
+   "impeccability",
+   "Holy Spirit as gift"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d4c2",
+    "pl-l3d4c2-d1e121"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:01:00Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d4c2-d1e149": {
+  "summary": "Offers another explanation: Christ, according to his humanity, is said to be born of the Spirit because the Spirit made him.",
+  "claims": [
+   "Christ is born of the Spirit because the Spirit made his humanity."
+  ],
+  "concepts": [
+   "efficient causality",
+   "birth from the Holy Spirit"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d4c2",
+    "pl-l3d4c2-d1e130"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:01:00Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d4c2-d1e152": {
+  "summary": "Develops this: as man, Christ was made, as the Apostle says, so he is conceived and born of the Spirit not because the Spirit served as seed for the Virgin, since the birth did not receive seed from the Spirit's substance, but because by God's grace and the Spirit's operation what was united to the Word was assumed from the Virgin's flesh.",
+  "claims": [
+   "The Spirit did not serve as seed in Christ's conception."
+  ],
+  "concepts": [
+   "virginal conception",
+   "efficient causality"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d4c2",
+    "pl-l3d4c2-d1e149"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:01:00Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d4c2-d1e155": {
+  "summary": "Notes that in this sense the Gospel says Mary was found with child of the Holy Spirit (Mt 1:18).",
+  "claims": [],
+  "concepts": [
+   "birth from the Holy Spirit"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d4c2",
+    "pl-l3d4c2-d1e152"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:01:00Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d4c2-d1e163": {
+  "summary": "Quotes Ambrose, De Spiritu sancto II: what is from something is from its substance (as the Son and Spirit from the Father) or from its power (as all things from God). If Mary conceived from the Spirit's substance, the Spirit would have been turned into flesh and bone, which is false; if by his operation and power, he is the author of the incarnation.",
+  "claims": [
+   "Christ is from the Spirit by power, not by substance.",
+   "The Spirit is the author of the incarnation."
+  ],
+  "concepts": [
+   "substance and power",
+   "efficient causality"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d4c2",
+    "pl-l3d4c2-d1e152"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:01:00Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d4c2": {
+  "summary": "Asks how Christ is born of the Holy Spirit though he is in no way the Spirit's son. Following Augustine's Enchiridion, it would be absurd to call the Spirit the father of the man Christ. Not everything born of something is its son (hair, worms; those reborn of water are not sons of water), and not every son is born of the one whose son he is (adopted sons, sons of Gehenna). Christ's birth from the Spirit signifies the grace by which, without prior merit, a man was joined to the Word in unity of person, grace becoming natural to him, signified by the Spirit as God's gift. Christ is also born of the Spirit because the Spirit made him: the Spirit was not seed but the worker, as Ambrose distinguishes being from something by substance and by power.",
+  "claims": [
+   "Christ is born of the Spirit but is not the Spirit's son.",
+   "Not all that is born of something is its son.",
+   "Christ's birth from the Spirit signifies grace given without prior merit.",
+   "The Spirit was not seed but the efficient cause of Christ's conception."
+  ],
+  "concepts": [
+   "birth from the Holy Spirit",
+   "sonship",
+   "grace of union",
+   "efficient causality",
+   "substance and power"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d4c2-d1e115",
+    "pl-l3d4c2-d1e121",
+    "pl-l3d4c2-d1e130",
+    "pl-l3d4c2-d1e149",
+    "pl-l3d4c2-d1e152",
+    "pl-l3d4c2-d1e155",
+    "pl-l3d4c2-d1e163"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T01:01:00Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

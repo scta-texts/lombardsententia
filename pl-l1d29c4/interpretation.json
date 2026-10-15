@@ -1,0 +1,105 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T17:45:28Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll1d29c4-d1e3501": {
+  "summary": "Asks whether Father and Son are principle of the Spirit by the same notion or by different ones.",
+  "claims": [],
+  "concepts": [
+   "question"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d29c4",
+    "pll1d29c3-d1e3504"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:45:28Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d29c4-d1e3506": {
+  "summary": "Answers that since the Spirit proceeds and is given from both in the same way, Father and Son can be understood as principle of him by the same relation or notion.",
+  "claims": [
+   "Father and Son are principle of the Spirit by the same notion."
+  ],
+  "concepts": [
+   "common notion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d29c4",
+    "pll1d29c4-d1e3501"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:45:28Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d29c4-d1e3510": {
+  "summary": "Notes that this notion has no name, but it is not paternity or filiation; it is a notion of Father and Son by which they are eternally one principle of the Spirit. 'Giver' is said of Father or Son from time, as the Spirit is given from time.",
+  "claims": [
+   "The notion of being principle of the Spirit is unnamed.",
+   "It is not paternity or filiation.",
+   "'Giver' is a temporal name."
+  ],
+  "concepts": [
+   "unnamed notion",
+   "donator"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d29c4",
+    "pll1d29c4-d1e3506",
+    "pll1d26c8-d1e3507"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:45:28Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1d29c4": {
+  "summary": "Asks whether the Father and the Son are principle of the Spirit by the same notion. Since the Spirit proceeds and is given from both in the same way, they are principle of him by the same relation or notion. It has no name, but it is not paternity or filiation; it is a notion common to Father and Son by which from eternity they are one principle of the Spirit. 'Giver,' by contrast, is said of Father or Son from time, as the Spirit is 'given' from time.",
+  "claims": [
+   "Father and Son are principle of the Spirit by one and the same notion.",
+   "The Spirit proceeds from Father and Son in the same way.",
+   "This notion has no name, but it is neither paternity nor filiation.",
+   "By it Father and Son are eternally one principle of the Spirit.",
+   "'Giver' is said of Father or Son only temporally."
+  ],
+  "concepts": [
+   "unnamed common notion",
+   "notions",
+   "one principle of the Spirit",
+   "Filioque",
+   "temporal predication"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d29c4-d1e3501",
+    "pll1d29c4-d1e3506",
+    "pll1d29c4-d1e3510"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T17:45:28Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

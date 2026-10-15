@@ -1,0 +1,106 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T12:55:20Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d28c2-d1e112": {
+  "summary": "States that in celebrating this sacrament, as in others, some things belong to its substance, like present consent, which alone suffices to contract marriage; others to its beauty and solemnity, like the parents' handing over and the priests' blessing, without which marriage is lawfully made as to power, not as to the sacrament's dignity.",
+  "claims": [
+   "Present consent alone is of the substance of marriage.",
+   "Parental giving and blessing belong to its dignity."
+  ],
+  "concepts": [
+   "substance and solemnity",
+   "consent"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d28c2",
+    "pl-l4d3c1-d1e131"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:55:20Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d28c2-d1e115": {
+  "summary": "Explains that without these, they unite not as lawful spouses but as if adulterers or fornicators, like those who marry secretly; and they would indeed be fornicators unless will expressed in words of the present made marriage between them.",
+  "claims": [
+   "Secret unions resemble fornication but are marriages if present consent is expressed."
+  ],
+  "concepts": [
+   "clandestine marriage",
+   "consent"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d28c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:55:20Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d28c2-d1e118": {
+  "summary": "Explains that secret present consent expressed in words makes marriage, though not an honorable contract; but secret consent does not sanction the marriage, since if one leaves the other, the Church cannot compel return, the secret contract being unprovable by witnesses. If those who consented secretly freely profess the same consent publicly, then their will and lawful vows sanction the marriage; secret expressed will makes the marriage, public expression confirms it and frees the Church to judge.",
+  "claims": [
+   "Secret consent makes marriage but cannot be enforced.",
+   "Public profession confirms it and enables the Church's judgment."
+  ],
+  "concepts": [
+   "clandestine marriage",
+   "proof",
+   "Church's judgment"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d28c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:55:20Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d28c2": {
+  "summary": "As in other sacraments, some things belong to the substance of marriage, present consent alone sufficing, others to its beauty and solemnity, like parental giving and priestly blessing, without which marriage is lawful in power but not in dignity. Without them people unite as if adulterers, like those who marry secretly, and would be fornicators but for their expressed present consent. Secret present consent expressed in words makes marriage, though dishonorably, but it cannot be proved before the Church; if they later publicly profess the same consent, it is sanctioned and confirmed, and the Church can judge it.",
+  "claims": [
+   "Present consent is the substance of marriage; solemnities belong to its dignity.",
+   "Secret marriage is valid but dishonorable.",
+   "Secret marriage cannot be enforced by the Church without proof.",
+   "Public profession of consent confirms a secret marriage."
+  ],
+  "concepts": [
+   "substance and solemnity",
+   "clandestine marriage",
+   "consent",
+   "proof",
+   "Church's judgment"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d28c2-d1e112",
+    "pl-l4d28c2-d1e115",
+    "pl-l4d28c2-d1e118"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T12:55:20Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

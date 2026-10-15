@@ -1,0 +1,155 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T18:44:46Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll1d46c6-d1e3510": {
+  "summary": "States that good comes from evils, as goods become more pleasing and praiseworthy; and to those who do evils good sometimes comes, if they are saints called according to purpose.",
+  "claims": [
+   "Good comes from evils, even to the elect who commit them."
+  ],
+  "concepts": [
+   "good from evil"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d46c6",
+    "pll1d46c5-d1e3534"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:44:46Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d46c6-d1e3522": {
+  "summary": "Cites De correptione et gratia: God works all to good for such people, so that if they stray, this too profits them, as they return humbler and wiser, like Peter.",
+  "claims": [
+   "The falls of the elect profit them.",
+   "They return humbler and wiser."
+  ],
+  "concepts": [
+   "Augustine",
+   "Peter"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d46c6",
+    "pll1d46c6-d1e3510"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:44:46Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d46c6-d1e3545": {
+  "summary": "Cites De Trinitate XIII: evils the faithful piously bear from the wicked profit them, to remove sins, exercise and prove justice, or show life's misery.",
+  "claims": [
+   "Evils borne by the faithful benefit them."
+  ],
+  "concepts": [
+   "suffering",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d46c6",
+    "pll1d46c6-d1e3522"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:44:46Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d46c6-d1e3564": {
+  "summary": "Adds that Job felt God's hand and Paul Satan's goad, and both profited by bearing evil well.",
+  "claims": [
+   "Job and Paul profited from evil borne well."
+  ],
+  "concepts": [
+   "Job",
+   "Paul"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d46c6",
+    "pll1d46c6-d1e3545"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:44:46Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d46c6-d1e3572": {
+  "summary": "Concludes that 'it is good that evils happen' means goods come from them, not that it is good someone does evil; otherwise God, author of all good, would be its author and make man worse. With the 83 Questions: no wise man makes another worse, much less God, whose will is far better; man becomes worse by the vice of his will. So evils do not happen with God as author or willing them.",
+  "claims": [
+   "It is not good that anyone does evil.",
+   "God does not make anyone worse.",
+   "Man becomes worse by his own vice of will."
+  ],
+  "concepts": [
+   "Augustine De diversis quaestionibus",
+   "vice of will"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d46c6",
+    "pll1d46c6-d1e3564"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:44:46Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1d46c6": {
+  "summary": "Shows how good comes from evils: goods are more pleasing in contrast; and even to those who do evil, if they are saints called according to purpose, good comes, since God makes their straying profit them, returning humbler and wiser, as Peter (Augustine). Evils patiently borne by the faithful remove sins, exercise justice, or show the misery of life, as with Job and Paul. So 'it is good that evils happen' is said in this sense, not that it is good that someone does evil, or God would be its author and make man worse. With Augustine's 83 Questions, no wise man makes a man worse, so much less God; man becomes worse by a vice of his own will. So evils are not done with God as author or willing them.",
+  "claims": [
+   "Good comes from evils as goods are more pleasing in contrast.",
+   "God makes the falls of the elect profit them, as with Peter.",
+   "Evils borne patiently remove sin, exercise justice, or reveal life's misery.",
+   "It is not good that anyone does evil.",
+   "God is not the author of anything that makes a man worse.",
+   "Man becomes worse by a vice of his own will."
+  ],
+  "concepts": [
+   "good from evil",
+   "providence over the elect",
+   "suffering",
+   "vice of will",
+   "authorship of evil"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d46c6-d1e3510",
+    "pll1d46c6-d1e3522",
+    "pll1d46c6-d1e3545",
+    "pll1d46c6-d1e3564",
+    "pll1d46c6-d1e3572"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T18:44:46Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

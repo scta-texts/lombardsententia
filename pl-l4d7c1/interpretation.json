@@ -1,0 +1,73 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T11:52:39Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d7c1-d1e115": {
+  "summary": "Turns to the sacrament of confirmation, about whose power the question is usually raised.",
+  "claims": [],
+  "concepts": [
+   "confirmation"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d7c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:52:39Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d7c1-d1e118": {
+  "summary": "States that its form is clear: the words the bishop says when he signs the baptized on the forehead with sacred chrism.",
+  "claims": [
+   "The form of confirmation is the bishop's words with the chrismation of the forehead."
+  ],
+  "concepts": [
+   "form of sacrament",
+   "chrism",
+   "bishop"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d7c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:52:39Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d7c1": {
+  "summary": "Turns to confirmation, whose power is in question; its form is clear: the words the bishop says when he signs the baptized on the forehead with sacred chrism.",
+  "claims": [
+   "The form of confirmation is the bishop's words when anointing the forehead with chrism."
+  ],
+  "concepts": [
+   "confirmation",
+   "form of sacrament",
+   "chrism"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d7c1-d1e115",
+    "pl-l4d7c1-d1e118"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T11:52:39Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

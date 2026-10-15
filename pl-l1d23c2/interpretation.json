@@ -1,0 +1,109 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T17:41:03Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll1d23c2-d1e3501": {
+  "summary": "Notes that not only Latin but also Greek is constrained by the same poverty of names.",
+  "claims": [
+   "Both Greek and Latin lack adequate names for the Trinity."
+  ],
+  "concepts": [
+   "poverty of language"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d23c2",
+    "pll1d23c1-d1e3546"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:41:03Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d23c2-d1e3504": {
+  "summary": "Cites De Trinitate VII: to speak somehow of the ineffable, the Greeks said one essence, three substances (one ousia, three hypostases), taking substance otherwise than Latins; the Latins said one essence or substance, three persons. Asked what the three are, we seek a name embracing them, but divinity exceeds our speech: God is thought more truly than said and is more truly than thought. They cannot be three fathers, sons, or holy spirits; 'three persons' is said because what person is is common to them.",
+  "claims": [
+   "Greeks say one ousia, three hypostases.",
+   "Latins say one essence, three persons.",
+   "God is thought more truly than said, and is more truly than thought.",
+   "'Person' is what is common to the three."
+  ],
+  "concepts": [
+   "ousia",
+   "hypostasis",
+   "persona",
+   "ineffability"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d23c2",
+    "pll1d23c2-d1e3501"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:41:03Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d23c2-d1e3552": {
+  "summary": "Concludes that one can see why the Latins say 'three persons,' since 'person' is said according to substance and what person is is common to the three.",
+  "claims": [
+   "What person is is common to the three."
+  ],
+  "concepts": [
+   "conclusion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d23c2",
+    "pll1d23c2-d1e3504"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:41:03Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1d23c2": {
+  "summary": "Notes that Greek as well as Latin labors under poverty of names. Augustine, De Trinitate VII: the Greeks say one essence, three substances (one ousia, three hypostases), since they take 'substance' differently; the Latins say one essence or substance, three persons, since for them essence and substance mean the same. These terms were adopted so that something might be said when asked 'three what?' God is thought more truly than he is spoken of, and is more truly than he is thought. We cannot say three fathers, sons, or holy spirits, so 'three persons,' because what person is is common to them. So the Latins say 'three persons' by necessity, and 'person,' said substantially, is common to the three.",
+  "claims": [
+   "Greek and Latin both labor under poverty of names about the Trinity.",
+   "The Greeks say one ousia, three hypostases; the Latins one essence, three persons.",
+   "For the Latins, essence and substance mean the same.",
+   "God is thought more truly than spoken of, and is more truly than thought.",
+   "The three are called three persons because what person is is common to them."
+  ],
+  "concepts": [
+   "ousia and hypostasis",
+   "Greek and Latin terminology",
+   "persona",
+   "ineffability",
+   "Augustine De Trinitate VII"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d23c2-d1e3501",
+    "pll1d23c2-d1e3504",
+    "pll1d23c2-d1e3552"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T17:41:03Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

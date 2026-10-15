@@ -1,0 +1,128 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T17:50:29Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll1d35c4-d1e3499": {
+  "summary": "Defines predestination as concerning humans to be saved and the goods by which they are freed here and crowned hereafter. God predestined humans from eternity by choosing them and predestined goods for them by preparing them.",
+  "claims": [
+   "Predestination concerns the saved and their goods.",
+   "God elected humans and prepared goods for them from eternity."
+  ],
+  "concepts": [
+   "praedestinatio",
+   "election"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d35c4",
+    "pll1d35c1-d1e3504"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:50:29Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d35c4-d1e3502": {
+  "summary": "Shows from Paul that God predestined humans: those he foreknew he predestined to be conformed to his Son (Rom 8:29), and chose us before the world's foundation to be holy (Eph 1:4).",
+  "claims": [
+   "God predestined those he foreknew.",
+   "God chose us before the foundation of the world."
+  ],
+  "concepts": [
+   "Romans 8:29",
+   "Ephesians 1:4"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d35c4",
+    "pll1d35c4-d1e3499"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:50:29Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d35c4-d1e3528": {
+  "summary": "Shows from Isaiah 64:4 (1 Cor 2:9) that God prepared goods for them: 'eye has not seen what you have prepared for those who love you.'",
+  "claims": [
+   "God prepared goods for those who love him."
+  ],
+  "concepts": [
+   "Isaiah 64:4"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d35c4",
+    "pll1d35c4-d1e3499"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:50:29Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d35c4-d1e3544": {
+  "summary": "Concludes that from eternity God predestined some to be good and blessed, choosing them, and predestined goods for them, preparing them.",
+  "claims": [
+   "God elected some to be good and blessed and prepared goods for them."
+  ],
+  "concepts": [
+   "conclusion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d35c4",
+    "pll1d35c4-d1e3502",
+    "pll1d35c4-d1e3528"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:50:29Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1d35c4": {
+  "summary": "Defines predestination as concerning humans to be saved and the goods by which they are freed here and crowned hereafter. God from eternity predestined humans to goods by choosing them, and predestined goods for them by preparing them (Rom 8:29; Eph 1:4; Isa 64:4). So he chose some to be good and blessed and prepared goods for them.",
+  "claims": [
+   "Predestination concerns humans to be saved and the goods given them.",
+   "God predestined some humans by choosing them.",
+   "God predestined goods for them by preparing them.",
+   "Predestination is from eternity."
+  ],
+  "concepts": [
+   "praedestinatio",
+   "election",
+   "preparation of goods",
+   "grace and glory"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d35c4-d1e3499",
+    "pll1d35c4-d1e3502",
+    "pll1d35c4-d1e3528",
+    "pll1d35c4-d1e3544"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T17:50:29Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

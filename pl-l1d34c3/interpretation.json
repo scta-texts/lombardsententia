@@ -1,0 +1,57 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T17:50:29Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll1d34c3-d1e3501": {
+  "summary": "States that power, wisdom, and goodness, like essence, are said of God substantially and belong equally to the three: one power, wisdom, goodness, which shows supreme perfection, since lacking any of them would not be supreme good. Though they are one in God, Scripture often refers them distinctly to the persons, power to the Father, wisdom to the Son, goodness to the Spirit; the reason is worth asking.",
+  "claims": [
+   "The three have one power, wisdom, and goodness.",
+   "Scripture appropriates them to Father, Son, and Spirit."
+  ],
+  "concepts": [
+   "appropriation"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d34c3",
+    "pll1d34c2-d1e3504"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:50:29Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1d34c3": {
+  "summary": "States that power, wisdom, and goodness are said of God by substance and so belong equally to the three: one power, wisdom, and goodness, whence the supreme perfection and supreme good of the Trinity. Yet Scripture often attributes power to the Father, wisdom to the Son, and goodness to the Spirit, and the reason is worth asking.",
+  "claims": [
+   "Power, wisdom, and goodness are said of God by substance.",
+   "The three persons have one power, wisdom, and goodness.",
+   "The Trinity is the supreme good by its perfect power, infinite wisdom, and incomprehensible goodness.",
+   "Scripture attributes power to the Father, wisdom to the Son, and goodness to the Spirit."
+  ],
+  "concepts": [
+   "appropriation",
+   "potentia, sapientia, bonitas",
+   "summum bonum"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d34c3-d1e3501"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T17:50:29Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

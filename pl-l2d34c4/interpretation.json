@@ -1,0 +1,168 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T21:09:26Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d34c4-d1e108": {
+  "summary": "Turns to in what thing evil exists, a good or an evil thing.",
+  "claims": [],
+  "concepts": [
+   "question"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d34c4",
+    "pl-l2d34c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:09:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d34c4-d1e111": {
+  "summary": "States that evil exists only in good, in a good nature, since evil is the corruption or privation of good, which cannot be where there is no good; so sin can only be in a good thing.",
+  "claims": [
+   "Sin exists only in a good thing."
+  ],
+  "concepts": [
+   "privation of good"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d34c4",
+    "pl-l2d34c4-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:09:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d34c4-d1e116": {
+  "summary": "Cites the Enchiridion: as diseases and wounds are privations of health, so vices of souls are privations of natural goods; evil is the privation of good; good diminished is evil, but something remains while the nature remains, since natural good cannot be consumed unless the nature is; corruption is evil because it deprives of some good. So nothing is evil if nothing is good; a vitiated good is evil, and evil is only what is good.",
+  "claims": [
+   "Evil requires a good subject.",
+   "An evil nature is a good that is evil."
+  ],
+  "concepts": [
+   "Augustine Enchiridion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d34c4",
+    "pl-l2d34c4-d1e111"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:09:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d34c4-d1e120": {
+  "summary": "Concludes that evil can be only in a good thing, and that, absurd as it seems, what is evil is said to be good.",
+  "claims": [
+   "What is evil is good."
+  ],
+  "concepts": [
+   "paradox of evil"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d34c4",
+    "pl-l2d34c4-d1e116"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:09:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d34c4-d1e123": {
+  "summary": "Infers that 'evil man' signifies nothing but an evil good.",
+  "claims": [
+   "An evil man is an evil good."
+  ],
+  "concepts": [
+   "evil man"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d34c4",
+    "pl-l2d34c4-d1e120"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:09:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d34c4-d1e126": {
+  "summary": "Cites Augustine: an evil man is an evil nature, since man is a nature; if man is good as a nature, an evil man is an evil good; yet he is not evil because man nor good because unjust, but good because man and evil because unjust. Every nature, though vitiated, is good as nature and evil as vitiated.",
+  "claims": [
+   "Every nature is good as nature, evil as vitiated."
+  ],
+  "concepts": [
+   "Augustine Enchiridion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d34c4",
+    "pl-l2d34c4-d1e123"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:09:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d34c4": {
+  "summary": "Asks in what thing evil exists. Evil can exist only in good, in a good nature, since evil is the corruption or privation of good, impossible where no good is. Augustine: as diseases and wounds are privations of health, vices are privations of natural goods; good diminished is evil, but something must remain while the nature remains; so a vitiated nature called evil is a good that is evil, and evil exists only in what is good. Hence an evil man is an evil good: good as man, evil as unjust; every nature, though vitiated, is good insofar as it is nature and evil insofar as vitiated.",
+  "claims": [
+   "Evil can exist only in a good nature.",
+   "Evil is the corruption or privation of good.",
+   "Good cannot be wholly consumed while the nature remains.",
+   "An evil nature is a good that is evil.",
+   "An evil man is good as a man and evil as unjust."
+  ],
+  "concepts": [
+   "subject of evil",
+   "privation of good",
+   "good nature",
+   "evil man",
+   "Augustine Enchiridion"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d34c4-d1e108",
+    "pl-l2d34c4-d1e111",
+    "pl-l2d34c4-d1e116",
+    "pl-l2d34c4-d1e120",
+    "pl-l2d34c4-d1e123",
+    "pl-l2d34c4-d1e126"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T21:09:26Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

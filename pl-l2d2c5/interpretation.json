@@ -1,0 +1,62 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T18:56:42Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll2d2c5-d1e3514": {
+  "summary": "Holds that visible matter and invisible nature were created together, each unformed in one respect and formed in another. Corporeal matter, chaos, had the form of confusion but not of distinction until later; angelic nature was formed by its natural state but lacked the form it would receive by love and conversion to its Creator. Augustine reads 'heaven' as unformed spiritual life not turned to the Creator and 'earth' as corporeal matter without quality.",
+  "claims": [
+   "Matter and angelic nature were created together, partly formed.",
+   "Angels' full form comes through conversion to God."
+  ],
+  "concepts": [
+   "informitas",
+   "conversion",
+   "Hugh",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d2c5",
+    "pll2d2c4-d1e3601"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:56:42Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d2c5": {
+  "summary": "Holds that the matter of visible things and the nature of invisible ones were created together, each in a sense unformed and in a sense formed. Corporeal matter, chaos, had a form of confusion but not of distinction until later; angelic nature was formed according to its natural state but lacked the form it would receive by love and conversion to its Creator (Hugh). Augustine reads 'heaven' as unformed spiritual life not yet turned to its Creator, and 'earth' as corporeal matter without quality.",
+  "claims": [
+   "Visible matter and invisible nature were created together.",
+   "Corporeal matter was at first confused, lacking distinct forms.",
+   "Angelic nature was formed by nature but unformed regarding conversion to God.",
+   "Angels would receive their full form by love and conversion to the Creator."
+  ],
+  "concepts": [
+   "unformed matter",
+   "chaos",
+   "formation of angels",
+   "conversion to God",
+   "Hugh of St Victor"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll2d2c5-d1e3514"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T18:56:42Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

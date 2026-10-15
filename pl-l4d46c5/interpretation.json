@@ -1,0 +1,145 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T13:11:58Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d46c5-d1e115": {
+  "summary": "Asks in what sense all the ways of the Lord are called mercy and truth.",
+  "claims": [],
+  "concepts": [
+   "ways of God",
+   "Psalm 24"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d46c5"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:11:58Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d46c5-d1e124": {
+  "summary": "Answers with several expositions: with Augustine, the ways by which the Lord comes to us are the two comings, the first, in which he showed manifold mercy, and the second, in which he will show justice in requiring merits; or the ways by which we ascend to God are justice, by which we turn from evil, and mercy, by which we do good, in which all good merit is included.",
+  "claims": [
+   "The two comings are of mercy and of justice.",
+   "Justice and mercy are our ways to God."
+  ],
+  "concepts": [
+   "two comings",
+   "merit",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d46c5"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:11:58Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d46c5-d1e133": {
+  "summary": "Asks, since Cassiodorus said all God's works are included in these two, whether they are joined in every work of the Lord.",
+  "claims": [],
+  "concepts": [
+   "mercy and justice",
+   "difficulty"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d46c5",
+    "pl-l4d46c1-d1e158"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:11:58Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d46c5-d1e140": {
+  "summary": "Reports some who say mercy and justice do not concur in every work as to effect, though in essence they are one: some works have only mercy, some only justice, some both; yet God does all things mercifully and justly, referring this to his will, which is justice and mercy, not to effects in things.",
+  "claims": [
+   "Some hold that not every work shows both effects."
+  ],
+  "concepts": [
+   "mercy and justice",
+   "effects",
+   "alternative opinion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d46c5"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:11:58Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d46c5-d1e143": {
+  "summary": "Reports others who say that as God does all his works justly and mercifully, so in every work there is justice and mercy, that is clemency, as effect or sign, since no work of God lacks an effect or sign of equity and clemency, hidden or open; sometimes the clemency is manifest and the equity hidden, sometimes the reverse.",
+  "claims": [
+   "Others hold every work shows both, openly or hiddenly."
+  ],
+  "concepts": [
+   "mercy and justice",
+   "signs",
+   "alternative opinion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d46c5"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:11:58Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d46c5": {
+  "summary": "Asks in what sense all the ways of the Lord are mercy and truth: they are the two comings, the first showing mercy, the second justice; or the ways by which we ascend to God, justice in avoiding evil and mercy in doing good. Whether mercy and justice concur in every work of God: some say not as to effect, though God does all mercifully and justly as to his will; others say that in every work there is an effect or sign of equity and clemency, hidden or open.",
+  "claims": [
+   "God's ways are his two comings, of mercy and of justice.",
+   "Our ways to God are justice and mercy.",
+   "Whether every divine work shows both mercy and justice is disputed."
+  ],
+  "concepts": [
+   "mercy and justice",
+   "two comings",
+   "ways of God",
+   "alternative opinions"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d46c5-d1e115",
+    "pl-l4d46c5-d1e124",
+    "pl-l4d46c5-d1e133",
+    "pl-l4d46c5-d1e140",
+    "pl-l4d46c5-d1e143"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T13:11:58Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

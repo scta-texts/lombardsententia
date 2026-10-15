@@ -1,0 +1,101 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T01:04:37Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l3d6c5-d1e114": {
+  "summary": "Introduces the authorities by which the third opinion's holders confirm their view, lest they seem to speak from their own minds.",
+  "claims": [],
+  "concepts": [
+   "authority"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d6c5",
+    "pl-l3d6c4-d1e117"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:04:37Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d6c5-d1e117": {
+  "summary": "Cites Augustine, De gratia novi Testamenti: as the number of persons is not increased when flesh is added to soul to make one man, so it is not increased when man is added to the Word to make one Christ. 'God-man' is said to signify the singularity of this person, not to suggest that divinity changed into flesh.",
+  "claims": [
+   "Adding man to the Word does not increase the number of persons.",
+   "Divinity is not changed into flesh."
+  ],
+  "concepts": [
+   "one person",
+   "immutability of the Word",
+   "soul-body analogy"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d6c5",
+    "pl-l3d6c5-d1e114"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:04:37Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d6c5-d1e129": {
+  "summary": "Cites Augustine, 83 Questions, on Phil 2:7 'found in habitus as a man', as showing that God is said to be made man by habitus: habitus is said in many ways, of the mind (learning firmed by use), of the body (one being stronger than another), and of things fitted to the members (clothing, shoes); in all of them habitus is what comes to something such that it could also not have it, from the verb 'to have'.",
+  "claims": [
+   "Habitus is what accrues to something so that it could also not have it."
+  ],
+  "concepts": [
+   "habitus",
+   "accident"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d6c5",
+    "pl-l3d6c5-d1e117"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:04:37Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d6c5": {
+  "summary": "Gives the third opinion's authorities: Augustine, De gratia novi Testamenti, says the number of persons is not increased when the man is added to the Word, as when flesh is added to soul, and 'God-man' signifies the singularity of the person, not that divinity changed into flesh. Augustine's 83 Questions, on 'found in habitus as a man' (Phil 2:7), explains that habitus means what comes to something so that it can also not have it, as a disposition of mind, a bodily condition, or clothing.",
+  "claims": [
+   "Adding a man to the Word does not increase the number of persons.",
+   "'God-man' does not mean divinity changed into flesh.",
+   "Habitus is what accrues to something so that it could also not have it."
+  ],
+  "concepts": [
+   "habitus",
+   "third opinion",
+   "immutability of the Word"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d6c5-d1e114",
+    "pl-l3d6c5-d1e117",
+    "pl-l3d6c5-d1e129"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T01:04:37Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

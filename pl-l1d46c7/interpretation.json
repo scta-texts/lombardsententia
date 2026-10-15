@@ -1,0 +1,266 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T18:44:46Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll1d46c7-d1e3510": {
+  "summary": "Cites the 83 Questions: the cause of man's becoming worse is in himself, another, or nothing; if another, God, a man, or something neither; but not God, who causes only goods.",
+  "claims": [
+   "God is not the cause of man becoming worse."
+  ],
+  "concepts": [
+   "Augustine",
+   "cause of evil"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d46c7",
+    "pll1d46c6-d1e3572"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:44:46Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d46c7-d1e3525": {
+  "summary": "Infers that it is not good that man becomes worse, since God, cause only of goods, does not cause it; so it is not good that someone does evil, and God does not will it.",
+  "claims": [
+   "It is not good that man becomes worse.",
+   "God does not will evil to be done."
+  ],
+  "concepts": [
+   "inference"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d46c7",
+    "pll1d46c7-d1e3510"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:44:46Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d46c7-d1e3530": {
+  "summary": "Adds another argument: God is not the cause of tending toward non-being, which is evil; one who does evil tends toward non-being; so evil is not done with God as author.",
+  "claims": [
+   "Evil is tending toward non-being.",
+   "God does not cause tending toward non-being."
+  ],
+  "concepts": [
+   "non-being"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d46c7",
+    "pll1d46c7-d1e3525"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:44:46Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d46c7-d1e3536": {
+  "summary": "Cites the 83 Questions: the author of all that is, to whose goodness it belongs that all is, is not the cause of falling away, that is tending toward non-being, being the cause of being; all things insofar as they are are good.",
+  "claims": [
+   "God is the cause of being, not of defect.",
+   "All things insofar as they are are good."
+  ],
+  "concepts": [
+   "Augustine",
+   "being and goodness"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d46c7",
+    "pll1d46c7-d1e3530"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:44:46Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d46c7-d1e3551": {
+  "summary": "Concludes that falling away from the supreme good is evil, so doing evil is evil, so evils are not done with God as author or willing; this has been sufficiently shown.",
+  "claims": [
+   "Evils are not done by God's authorship or will."
+  ],
+  "concepts": [
+   "conclusion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d46c7",
+    "pll1d46c7-d1e3536"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:44:46Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d46c7-d1e3554": {
+  "summary": "Reports some who, proceeding sophistically and so hateful to God, argue: that evils happen is true; every truth is from the Truth that is God; so it is from God that evils happen.",
+  "claims": [],
+  "concepts": [
+   "sophism"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d46c7",
+    "pll1d46c7-d1e3551"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:44:46Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d46c7-d1e3566": {
+  "summary": "They cite the 83 Questions: every truth is true by the truth, which is God, so every truth has God as author; it is true that evils happen; so God is author of their happening.",
+  "claims": [],
+  "concepts": [
+   "sophism",
+   "Augustine cited"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d46c7",
+    "pll1d46c7-d1e3554"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:44:46Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d46c7-d1e3585": {
+  "summary": "Says it is easy to answer them, though what they say seems unworthy of answer.",
+  "claims": [],
+  "concepts": [
+   "dismissal"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d46c7",
+    "pll1d46c7-d1e3566"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:44:46Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d46c7-d1e3588": {
+  "summary": "Answers: every truth is from God (Augustine; Ambrose says every truth, by whomever spoken, is from the Holy Spirit). So the truth of 'evils happen' is from God, but it does not follow that it is from God that evils happen, or he would be their author. By likeness: God forbids theft; that theft happens is true; it does not follow that God forbids a truth.",
+  "claims": [
+   "The truth of a statement about evil is from God.",
+   "It does not follow that the evil is from God."
+  ],
+  "concepts": [
+   "truth vs fact",
+   "Ambrose",
+   "counterexample"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d46c7",
+    "pll1d46c7-d1e3585"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:44:46Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d46c7-d1e3633": {
+  "summary": "Concludes, siding with the sounder party better supported by the saints: God does not will evils to happen, yet does not will them not to happen or nill them, since whatever he wills to happen happens and whatever he wills not to happen does not; but many things happen that he does not will, all evils.",
+  "claims": [
+   "God does not will evils to happen.",
+   "God does not will evils not to happen.",
+   "Evils happen without God willing them."
+  ],
+  "concepts": [
+   "conclusion",
+   "non velle"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d46c7",
+    "pll1d46c7-d1e3588",
+    "pll1d46c3-d1e3605"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:44:46Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1d46c7": {
+  "summary": "Shows with Augustine that the cause of man's becoming worse is not in God, who causes only goods. God is not the cause of tending toward non-being, which is evil, since he is the cause of being, and all that is, insofar as it is, is good; so evils are not done with God as author or willing. Lombard rejects the sophism that since 'evils happen' is true and every truth is from God (Augustine, Ambrose), God is the author of evils happening: the truth of the statement is from God, not the evils, as God forbids theft though 'theft happens' is true. He concludes, siding with the sounder party: God does not will evils to happen, yet does not will them not to happen nor nill them, since whatever he wills happens and whatever he wills not to happen does not; yet many things happen that he does not will, all evils.",
+  "claims": [
+   "The cause of man's becoming worse is not in God.",
+   "God is the cause only of goods.",
+   "Tending toward non-being is evil, and God, cause of being, does not cause it.",
+   "The truth of 'evils happen' is from God, but not the evils themselves.",
+   "God does not will evils to happen, nor wills them not to happen.",
+   "Many things happen that God does not will, namely evils."
+  ],
+  "concepts": [
+   "evil as defect",
+   "non-being",
+   "authorship",
+   "sophism rejected",
+   "truth from God",
+   "permission"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d46c7-d1e3510",
+    "pll1d46c7-d1e3525",
+    "pll1d46c7-d1e3530",
+    "pll1d46c7-d1e3536",
+    "pll1d46c7-d1e3551",
+    "pll1d46c7-d1e3554",
+    "pll1d46c7-d1e3566",
+    "pll1d46c7-d1e3585",
+    "pll1d46c7-d1e3588",
+    "pll1d46c7-d1e3633"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T18:44:46Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

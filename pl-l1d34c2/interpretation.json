@@ -1,0 +1,80 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T17:50:29Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll1d34c2-d1e3501": {
+  "summary": "Asks whether, as 'one God is three persons' and 'one essence is three persons' are said, one can also say 'one God of three persons' or 'three persons of one God,' as 'one essence of three persons.'",
+  "claims": [],
+  "concepts": [
+   "question"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d34c2",
+    "pll1d34c1-d1e3707"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:50:29Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d34c2-d1e3504": {
+  "summary": "Follows usage: 'one essence of three persons' is common, 'one God of three persons' never found, likely avoided lest it be taken as with creatures, as God is 'God of Abraham' or 'of every creature' by creation, grace, or subjection, none of which exist in the Trinity. Conversely, God's essence is not called the essence of Abraham or of any creature, lest Creator and creature be confused.",
+  "claims": [
+   "'God of' implies creation, grace, or subjection.",
+   "None of these exist in the Trinity.",
+   "Creator and creature must not be confused."
+  ],
+  "concepts": [
+   "genitive of relation",
+   "usage"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d34c2",
+    "pll1d34c2-d1e3501"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:50:29Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1d34c2": {
+  "summary": "Asks whether, as one says 'one essence of three persons,' one can say 'one God of three persons' or 'three persons of one God.' Following Scripture's usage, Lombard notes that 'one essence of three persons' is common, but 'God of three persons' is never found, probably to avoid the sense in which God is 'God of Abraham' or 'of every creature,' implying creation, grace, and subjection, which do not exist in the Trinity. Conversely, one does not call God's essence the essence of Abraham or of any creature, lest Creator and creature be confused.",
+  "claims": [
+   "'One essence of three persons' is proper usage.",
+   "'One God of three persons' is not found and should be avoided.",
+   "'God of X' implies creation, grace, and subjection, which do not exist within the Trinity.",
+   "God's essence is not called the essence of any creature, lest Creator and creature be confused."
+  ],
+  "concepts": [
+   "theological language",
+   "genitive constructions",
+   "Creator vs creature",
+   "usage of Scripture"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d34c2-d1e3501",
+    "pll1d34c2-d1e3504"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T17:50:29Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

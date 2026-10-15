@@ -1,0 +1,101 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T17:48:47Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll1d32c3-d1e3501": {
+  "summary": "Notes that the Son is wise not from himself but from the Father, and asks whether he is wise by himself or through himself.",
+  "claims": [],
+  "concepts": [
+   "question"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d32c3",
+    "pl-l1d32c2-d1e3617"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:48:47Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d32c3-d1e3504": {
+  "summary": "Reports some who distinguish: 'the Son is wise by himself' is true if it means by his nature and essence, false if it means from himself.",
+  "claims": [
+   "'Wise by himself' is true of nature, false of origin."
+  ],
+  "concepts": [
+   "distinction of senses"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d32c3",
+    "pll1d32c3-d1e3501"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:48:47Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d32c3-d1e3507": {
+  "summary": "Reports others who grant without qualification that the Son is wise through himself but not from himself, and God through himself but not from himself, citing Hilary: the Son acts through himself so as not to act from himself, since the Father abides in him; he would be weak if not acting from God, and not in unity of nature if not acting through himself.",
+  "claims": [
+   "The Son is wise and God through himself, not from himself.",
+   "The Son acts through himself, since the Father abides in him."
+  ],
+  "concepts": [
+   "Hilary",
+   "per se non a se"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d32c3",
+    "pll1d32c3-d1e3504"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:48:47Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1d32c3": {
+  "summary": "Asks whether the Son is wise by himself or through himself, given that he is wise from the Father. Some distinguish: 'by himself' is true if it means by his own nature and essence, false if it means from himself. Others grant without qualification that the Son is wise and God 'through himself' but not 'from himself,' citing Hilary: the Son acts through himself, not from himself, since the Father abides in him.",
+  "claims": [
+   "The Son is wise not from himself but from the Father.",
+   "Some say 'wise by himself' is true of his nature, false if meaning 'from himself.'",
+   "Others grant that the Son is wise through himself but not from himself.",
+   "Hilary: the Son acts through himself, not from himself."
+  ],
+  "concepts": [
+   "per se vs a se",
+   "Hilary",
+   "opinions",
+   "Son's wisdom"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d32c3-d1e3501",
+    "pll1d32c3-d1e3504",
+    "pll1d32c3-d1e3507"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T17:48:47Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

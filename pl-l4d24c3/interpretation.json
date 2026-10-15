@@ -1,0 +1,80 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T12:50:50Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d24c3-d1e112": {
+  "summary": "States that clerics should be chosen for spiritual ministry who can handle the Lord's sacraments worthily, since it is better for a priest to have few ministers able to do God's work worthily than many useless ones who burden the ordainer. Christ's ministers should be adorned with the Spirit's sevenfold grace and transmit it to others by doctrine and conduct, lest they trample the heavenly pearls of spiritual words and offices with the feet of a sordid life.",
+  "claims": [
+   "Few worthy ministers are better than many useless ones.",
+   "Ministers should transmit grace by doctrine and example."
+  ],
+  "concepts": [
+   "worthiness",
+   "choice of ministers",
+   "example"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d24c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:50:50Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d24c3-d1e117": {
+  "summary": "Lists the seven ecclesiastical grades in the sacrament of the sevenfold Spirit: porters, lectors, exorcists, acolytes, subdeacons, deacons, priests; all are called clerics, that is, allotted.",
+  "claims": [
+   "The seven grades are porter, lector, exorcist, acolyte, subdeacon, deacon, priest."
+  ],
+  "concepts": [
+   "seven grades",
+   "clergy"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d24c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:50:50Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d24c3": {
+  "summary": "Clerics chosen for spiritual ministry must be able to handle the Lord's sacraments worthily: better few worthy ministers than many useless ones; they should be adorned with the Spirit's sevenfold grace and transmit it by doctrine and life, lest they trample heavenly pearls. The seven grades are porters, lectors, exorcists, acolytes, subdeacons, deacons, and priests, all called clerics, that is, chosen by lot.",
+  "claims": [
+   "Ordinands should be few and worthy rather than many and useless.",
+   "The seven grades are porter, lector, exorcist, acolyte, subdeacon, deacon, priest.",
+   "All in orders are called clerics."
+  ],
+  "concepts": [
+   "seven grades",
+   "worthiness",
+   "clergy",
+   "choice of ministers"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d24c3-d1e112",
+    "pl-l4d24c3-d1e117"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T12:50:50Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

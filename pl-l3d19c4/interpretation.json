@@ -1,0 +1,83 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T01:11:30Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l3d19c4-d1e114": {
+  "summary": "Explains that he is said to have borne our sins, i.e., the penalty of our sins, in his body on the tree (1 Pet 2:24), because through the penalty he bore on the cross all temporal penalty owed for sin, once the sinner is converted, is wholly remitted in baptism, so that none is required of the baptized, and is lessened in penance; the penalty with which the Church binds penitents would not suffice unless Christ's penalty cooperated, who paid for us. Hence the Apostle says the sins of the just before his coming were in God's forbearance until Christ's death, to show his justice (Rom 3:25–26).",
+  "claims": [
+   "Christ's penalty remits temporal penalty in baptism and lessens it in penance.",
+   "Church penance suffices only with Christ's penalty."
+  ],
+  "concepts": [
+   "satisfaction",
+   "baptism",
+   "penance",
+   "forbearance of God"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d19c4",
+    "pl-l3d19c3-d1e114"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:11:30Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d19c4-d1e126": {
+  "summary": "Concludes that it has been partly explained how and what Christ merited and obtained for us by his death.",
+  "claims": [],
+  "concepts": [
+   "merit of Christ"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d19c4",
+    "pl-l3d18c5",
+    "pl-l3d19c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:11:30Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d19c4": {
+  "summary": "Explains that Christ bore our sins, i.e., their penalty, in his body on the tree, since through the penalty he bore on the cross all temporal penalty owed for converted sin is wholly remitted in baptism and lessened in penance; the Church's penance would not suffice unless Christ's penalty cooperated. So the sins of the just before his coming were held in God's forbearance until Christ's death. Lombard closes that it has been partly explained how and what Christ merited and obtained by his death.",
+  "claims": [
+   "Christ bore the penalty of our sins on the cross.",
+   "Through Christ's penalty, temporal penalty is wholly remitted in baptism.",
+   "Through Christ's penalty, temporal penalty is lessened in penance.",
+   "Church-imposed penance suffices only with Christ's penalty cooperating."
+  ],
+  "concepts": [
+   "satisfaction",
+   "baptism",
+   "penance",
+   "penalty",
+   "forbearance of God"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d19c4-d1e114",
+    "pl-l3d19c4-d1e126"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T01:11:30Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

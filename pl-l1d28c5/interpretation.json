@@ -1,0 +1,105 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T17:45:28Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll1d28c5-d1e3501": {
+  "summary": "Asks whether, since unbegotten and begotten differ, being Father and being Son also differ or are the same.",
+  "claims": [],
+  "concepts": [
+   "question"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d28c5",
+    "pll1d28c1-d1e3537"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:45:28Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d28c5-d1e3504": {
+  "summary": "Answers that in the sense in which begotten and unbegotten differ, being father and being son differ, since the notions differ. But transposing to 'the Father's being is one thing, the Son's being another' changes the sense to 'that by which the Father is differs from that by which the Son is,' which is false, since both are by the one essence. So the Father's being and the Son's being are the same, though being father and being son are not.",
+  "claims": [
+   "Being father and being son differ by notion.",
+   "The Father and the Son are by the same essence.",
+   "Word order changes the sense of the proposition."
+  ],
+  "concepts": [
+   "word order",
+   "notion vs essence"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d28c5",
+    "pll1d28c5-d1e3501"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:45:28Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d28c5-d1e3509": {
+  "summary": "Cites De Trinitate V: though being Father and being Son differ, the substance does not, since this is said not by substance but relatively, and the relation is not an accident because not mutable. So 'different' refers to different notions, since Father and Son are so called by relation, not essence.",
+  "claims": [
+   "Being Father and being Son differ by relation, not substance.",
+   "The relation is not an accident."
+  ],
+  "concepts": [
+   "Augustine",
+   "relation"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d28c5",
+    "pll1d28c5-d1e3504"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:45:28Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1d28c5": {
+  "summary": "Asks whether being Father and being Son are different, as begotten and unbegotten are. Lombard: in the sense that the notion by which the Father is Father differs from that by which the Son is Son, 'to be father' and 'to be son' are different. But 'it is one thing for the Father to be and another for the Son to be' is false, since the Father is by the essence by which he is God, and the Son is God by the same; so the Father's being and the Son's being are the same. Augustine: though being Father differs from being Son, the substance is not different, since these are said relatively, and the relation is not an accident.",
+  "claims": [
+   "'To be father' and 'to be son' differ, since the notions differ.",
+   "The Father's being and the Son's being are the same essence.",
+   "'It is one thing for the Father to be, another for the Son to be' is false.",
+   "Different relations do not imply different substances.",
+   "Divine relations are not accidents."
+  ],
+  "concepts": [
+   "esse patrem vs patrem esse",
+   "word order and sense",
+   "relation and essence",
+   "Augustine De Trinitate V"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d28c5-d1e3501",
+    "pll1d28c5-d1e3504",
+    "pll1d28c5-d1e3509"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T17:45:28Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

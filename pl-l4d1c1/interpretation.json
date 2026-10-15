@@ -1,0 +1,79 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T11:47:36Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d1c1-d1e115": {
+  "summary": "Takes up the Samaritan image: approaching the wounded man, he applied the bandages of the sacraments to heal him, since God instituted the remedies of the sacraments against the wounds of original and actual sin.",
+  "claims": [
+   "The sacraments are God's remedies for original and actual sin."
+  ],
+  "concepts": [
+   "Good Samaritan",
+   "sacraments",
+   "remedy for sin",
+   "original and actual sin"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d1c1",
+    "pl-l3prol"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:47:36Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d1c1-d1e118": {
+  "summary": "Sets four initial questions: what a sacrament is, why it was instituted, in what it consists and is performed, and what difference there is between the sacraments of the old and new law.",
+  "claims": [],
+  "concepts": [
+   "sacraments",
+   "old and new law",
+   "order of inquiry"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d1c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:47:36Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d1c1": {
+  "summary": "Opens the treatise on the sacraments with the parable of the Samaritan, who bound the wounded man's wounds: God instituted the sacraments as remedies against the wounds of original and actual sin. Four questions come first: what a sacrament is, why it was instituted, in what it consists and is performed, and how the sacraments of the old and new law differ.",
+  "claims": [
+   "God instituted the sacraments as remedies against original and actual sin.",
+   "The treatise first asks what a sacrament is, why it was instituted, in what it consists, and how old and new sacraments differ."
+  ],
+  "concepts": [
+   "sacraments",
+   "Good Samaritan",
+   "remedy for sin",
+   "old and new law"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d1c1-d1e115",
+    "pl-l4d1c1-d1e118"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T11:47:36Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

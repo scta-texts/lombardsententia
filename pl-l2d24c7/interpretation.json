@@ -1,0 +1,55 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:32:08Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d24c7-d1e105": {
+  "summary": "States that in us the sensual motion of the soul stands for the serpent, the lower part of reason for the woman, the higher part for the man, who per Paul is image and glory of God, while the woman is the glory of the man.",
+  "claims": [
+   "Serpent, woman, and man correspond to sensuality, lower reason, and higher reason."
+  ],
+  "concepts": [
+   "allegory"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d24c7",
+    "pl-l2d24c6"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:32:08Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d24c7": {
+  "summary": "Maps the fall onto the soul: in us the sensual motion is the serpent, the lower part of reason the woman, the higher part of reason the man, who per Paul is the image and glory of God, while the woman is the glory of the man.",
+  "claims": [
+   "Sensual motion corresponds to the serpent.",
+   "The lower part of reason corresponds to the woman.",
+   "The higher part of reason corresponds to the man."
+  ],
+  "concepts": [
+   "allegory of the fall",
+   "powers of the soul",
+   "1 Corinthians 11:7"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d24c7-d1e105"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:32:08Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

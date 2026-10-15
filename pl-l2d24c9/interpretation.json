@@ -1,0 +1,76 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:32:08Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d24c9-d1e108": {
+  "summary": "Proposes to show how sin is completed through these three, which will show what is mortal or venial sin in the soul.",
+  "claims": [],
+  "concepts": [
+   "transition"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d24c9",
+    "pl-l2d24c8"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:32:08Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d24c9-d1e111": {
+  "summary": "Explains: as the serpent persuaded the woman and she the man, so sensual motion, conceiving sin's allurement, suggests it as serpent to the woman, the lower reason or reason of knowledge; if it consents, the woman eats the forbidden food; then she gives it to the man, suggesting it to higher reason or reason of wisdom, and if it consents, the man eats too. If the allurement is held only in sensual motion, the sin is venial and very light.",
+  "claims": [
+   "Sin progresses from sensuality to lower and higher reason.",
+   "Sin held in sensuality alone is very light."
+  ],
+  "concepts": [
+   "stages of sin"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d24c9",
+    "pl-l2d24c9-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:32:08Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d24c9": {
+  "summary": "Shows how sin is completed through these three, to distinguish mortal and venial sin. As the serpent persuaded the woman and she the man, so sensual motion suggests a sinful allurement to the lower reason (reason of knowledge); if it consents, the woman eats; if it passes this to the higher reason (reason of wisdom), and it consents, the man eats with her. If the allurement is held only in the sensual motion, the sin is venial and very light.",
+  "claims": [
+   "Sensual motion suggests the allurement to lower reason.",
+   "Consent of lower reason is the woman eating; consent of higher reason is the man eating.",
+   "Allurement held only in sensual motion is a very light venial sin."
+  ],
+  "concepts": [
+   "mortal and venial sin",
+   "stages of sin",
+   "allegory of the fall"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d24c9-d1e108",
+    "pl-l2d24c9-d1e111"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:32:08Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

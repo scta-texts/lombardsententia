@@ -1,0 +1,102 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T11:50:19Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d4c3-d1e115": {
+  "summary": "Asks how 'all who have been baptized in Christ have put on Christ' is to be taken.",
+  "claims": [],
+  "concepts": [
+   "putting on Christ",
+   "Galatians 3:27"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d4c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:50:19Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d4c3-d1e118": {
+  "summary": "Answers that those baptized in Christ, in conformity with Christ, dying to the oldness of sin as he died to the oldness of penalty, put on Christ, whom they have dwelling within by grace. Alternatively, we put on Christ in two ways: by taking the sacrament or by receiving its reality.",
+  "claims": [
+   "Putting on Christ means conformity to his death by grace.",
+   "One puts on Christ by sacrament or by its reality."
+  ],
+  "concepts": [
+   "putting on Christ",
+   "conformity to Christ",
+   "sacramentum et res"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d4c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:50:19Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d4c3-d1e121": {
+  "summary": "Quotes Augustine: men put on Christ sometimes as far as receiving the sacrament, sometimes as far as sanctification of life; the first can be common to good and bad, the second belongs to the good and pious. So all baptized in Christ's name put on Christ by receiving the sacrament or by sanctification.",
+  "claims": [
+   "Putting on Christ sacramentally is common to good and bad.",
+   "Putting on Christ by sanctification is proper to the good."
+  ],
+  "concepts": [
+   "putting on Christ",
+   "sanctification",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d4c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:50:19Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d4c3": {
+  "summary": "Asks how 'all who have been baptized in Christ have put on Christ' is to be understood, since the insincere are also baptized. Those baptized in Christ's conformity, dying to the oldness of sin as he died to the oldness of penalty, put on Christ dwelling in them by grace. Alternatively, one puts on Christ either by receiving the sacrament, common to good and bad, or by receiving its reality, proper to the good, as Augustine says; so all baptized in Christ's name put on Christ in one way or the other.",
+  "claims": [
+   "Putting on Christ can mean receiving the sacrament or receiving its reality.",
+   "All the baptized put on Christ at least sacramentally.",
+   "Only the good put on Christ by sanctification."
+  ],
+  "concepts": [
+   "putting on Christ",
+   "sacramentum et res",
+   "conformity to Christ",
+   "Galatians 3:27"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d4c3-d1e115",
+    "pl-l4d4c3-d1e118",
+    "pl-l4d4c3-d1e121"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T11:50:19Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

@@ -1,0 +1,78 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T12:53:50Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d26c3-d1e112": {
+  "summary": "States that the first institution had a precept, the second an indulgence.",
+  "claims": [
+   "Marriage was commanded before sin and permitted after."
+  ],
+  "concepts": [
+   "precept and indulgence"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d26c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:53:50Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d26c3-d1e115": {
+  "summary": "Explains that the Apostle teaches marriage granted to mankind by indulgence to avoid fornication; an indulgence, since it does not choose the better, has a remedy, not a reward; whoever departs from it merits deadly judgment. What is granted by indulgence is voluntary, not necessary, otherwise one who did not do it would transgress. 'Increase and multiply' was said as a precept to the first humans and bound them after sin until multiplication, after which marriage was contracted by indulgence; likewise after the flood to Noah's sons, until mankind multiplied.",
+  "claims": [
+   "Marriage by indulgence is voluntary and remedial.",
+   "The command to multiply bound only until the race multiplied."
+  ],
+  "concepts": [
+   "precept and indulgence",
+   "increase and multiply",
+   "Paul"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d26c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:53:50Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d26c3": {
+  "summary": "The first institution had a precept, the second an indulgence. Paul teaches that marriage is granted by indulgence to avoid fornication; an indulgence has a remedy, not a reward, and is voluntary, not necessary. 'Increase and multiply' was a precept to the first humans and after the flood to Noah's sons until the race multiplied, after which marriage was contracted by indulgence, not command.",
+  "claims": [
+   "The first institution of marriage was a precept, the second an indulgence.",
+   "Marriage by indulgence is voluntary and remedial.",
+   "The precept to multiply held only until the race multiplied."
+  ],
+  "concepts": [
+   "marriage as remedy",
+   "precept and indulgence",
+   "increase and multiply"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d26c3-d1e112",
+    "pl-l4d26c3-d1e115"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T12:53:50Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

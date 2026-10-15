@@ -1,0 +1,78 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:23:30Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d14c7-d1e119": {
+  "summary": "Quotes Gen 1:9: 'let the waters be gathered into one place and let dry land appear.'",
+  "claims": [],
+  "concepts": [
+   "Genesis 1:9"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d14c7",
+    "pll2d14c6-d1e3519"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:23:30Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d14c7-d1e129": {
+  "summary": "Explains with Bede that the third day's work was gathering all waters below heaven into one bed, so that light shone more clearly in pure air and the hidden, muddy earth became dry and fit for growth; on the same day the earth produced green plants and fruit-bearing trees.",
+  "claims": [
+   "The waters were gathered into one bed.",
+   "The earth became dry and produced plants."
+  ],
+  "concepts": [
+   "Bede",
+   "third day"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d14c7",
+    "pl-l2d14c7-d1e119"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:23:30Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d14c7": {
+  "summary": "Treats the third day's work: God gathered the waters into one place and made dry land appear (Gen 1:9). All waters below the heaven were gathered into one bed, so that the light shone more clearly in pure air and the earth, hidden and muddy, became dry and fit for plants; on the same day the earth brought forth green plants and fruit trees (Bede).",
+  "claims": [
+   "The third day's work was the gathering of waters and appearance of dry land.",
+   "The gathering cleared the air and made the earth dry and fertile.",
+   "On the same day the earth produced plants and trees."
+  ],
+  "concepts": [
+   "third day",
+   "gathering of waters",
+   "Bede",
+   "Genesis 1:9"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d14c7-d1e119",
+    "pl-l2d14c7-d1e129"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:23:30Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

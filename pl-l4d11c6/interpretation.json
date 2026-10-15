@@ -1,0 +1,83 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T12:33:00Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d11c6-d1e112": {
+  "summary": "Gathers that Christ gave the disciples wine mixed with water, and gave his body as it then was, mortal and passible; now we receive it immortal and impassible, yet it has no greater efficacy.",
+  "claims": [
+   "Christ gave his body in its mortal state at the Supper.",
+   "The body received now is immortal but no more effective."
+  ],
+  "concepts": [
+   "passible and impassible body",
+   "Last Supper",
+   "efficacy"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d11c6"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:33:00Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d11c6-d1e115": {
+  "summary": "Holds that intincted eucharist should not be given to the people as a supplement to communion, since Christ is not read to have given dipped bread to any disciple but Judas; Judas then received not Christ's body but only bread, having already received the body and blood with the other disciples.",
+  "claims": [
+   "Intinction should not be given to the people.",
+   "Judas received the eucharist before the dipped bread."
+  ],
+  "concepts": [
+   "intinction",
+   "Judas",
+   "communion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d11c6"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:33:00Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d11c6": {
+  "summary": "Gathers that Christ gave the disciples wine mixed with water, and gave his body as it then was, mortal and passible, while we now receive it immortal and impassible, though with no greater efficacy. Intincted eucharist should not be given to the people as a supplement to communion, since Christ gave dipped bread only to Judas, who then received only bread, having already received the body and blood with the others.",
+  "claims": [
+   "Christ gave his body as it then was, mortal and passible.",
+   "The body received now is immortal but has no greater efficacy.",
+   "Intinction should not be used for communion.",
+   "Judas received the body and blood with the others before the dipped bread."
+  ],
+  "concepts": [
+   "Last Supper",
+   "passible and impassible body",
+   "intinction",
+   "Judas"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d11c6-d1e112",
+    "pl-l4d11c6-d1e115"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T12:33:00Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

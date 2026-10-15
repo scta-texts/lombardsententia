@@ -1,0 +1,80 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T12:48:48Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d21c2-d1e112": {
+  "summary": "Cites Augustine on those who build wood, hay, and straw, who will find a fire of passing tribulation burning the combustible buildings they carry: after death, until the day of judgment, if their spirits are said to suffer such a fire, which those without such buildings do not feel, a fire burning venial sins, he does not contradict it, since perhaps it is true; though 'he will be saved as through fire' makes it seem slight, that fire will be graver than whatever man can suffer in this life.",
+  "claims": [
+   "A purifying fire after death burns the venial sins of some.",
+   "It is graver than any suffering in this life."
+  ],
+  "concepts": [
+   "purgatorial fire",
+   "1 Corinthians 3:12-15",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d21c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:48:48Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d21c2-d1e133": {
+  "summary": "Draws out that those who build wood, hay, and straw carry combustible buildings, venial sins, which are burned in the cleansing fire; so some venial sins are deleted after this life.",
+  "claims": [
+   "Some venial sins are deleted after death."
+  ],
+  "concepts": [
+   "venial sin",
+   "purgatorial fire"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d21c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:48:48Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d21c2": {
+  "summary": "Quotes Augustine on those who build wood, hay, and straw: after death, until the day of judgment, their spirits may suffer a fire of passing tribulation that burns these combustible buildings, which others do not feel; Augustine does not deny it. Though Paul says they will be saved 'as through fire', that fire is graver than anything one can suffer in this life. Lombard draws out that the wood, hay, and straw are venial sins burned in a cleansing fire, so some venial sins are deleted after this life.",
+  "claims": [
+   "Those who build wood, hay, and straw suffer a purifying fire after death.",
+   "That fire is graver than any earthly suffering.",
+   "Wood, hay, and straw signify venial sins, deleted after this life."
+  ],
+  "concepts": [
+   "purgatorial fire",
+   "1 Corinthians 3",
+   "venial sin",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d21c2-d1e112",
+    "pl-l4d21c2-d1e133"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T12:48:48Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

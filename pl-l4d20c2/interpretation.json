@@ -1,0 +1,149 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T12:42:09Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d20c2-d1e115": {
+  "summary": "Asks whether those who do not complete penance in this life will pass through fire, to complete there what they did less here, and answers that the same holds for them as for deathbed penitents.",
+  "claims": [],
+  "concepts": [
+   "incomplete penance",
+   "purgatorial fire"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d20c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:42:09Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d20c2-d1e118": {
+  "summary": "Holds that if their contrition and reproach of the offense were great enough to punish the sin, they pass to life free from other punishments, though penance was unfinished, since they repented perfectly in heart.",
+  "claims": [
+   "Sufficient contrition frees from further punishment."
+  ],
+  "concepts": [
+   "contrition",
+   "incomplete penance"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d20c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:42:09Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d20c2-d1e121": {
+  "summary": "Holds that those less contrite who die before completing penance feel purgatorial fire and are punished more heavily than if they had completed penance here, since it is fearful to fall into the hands of the living God. God, merciful and just, forgives the penitent by mercy, not reserving sin to eternal punishment, but by justice does not leave the offense unpunished; either man punishes or God; man punishes by repenting.",
+  "claims": [
+   "Incomplete penance is completed in purgatorial fire, more heavily.",
+   "Sin is punished either by man's penance or by God."
+  ],
+  "concepts": [
+   "purgatorial fire",
+   "mercy and justice",
+   "temporal punishment"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d20c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:42:09Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d20c2-d1e128": {
+  "summary": "Adds that penance is inward and outward: if inward penance is enough to avenge the sin, God, who knows this, requires no further punishment; if inward grief is not enough and outward penance is not completed, God, who knows the measures of sins and punishments, adds sufficient punishment.",
+  "claims": [
+   "God adds punishment only where inward and outward penance fall short."
+  ],
+  "concepts": [
+   "inward and outward penance",
+   "measure of punishment"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d20c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:42:09Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d20c2-d1e131": {
+  "summary": "Urges each to correct his offenses so as not to need punishment after death: some mortal sins become venial in penance yet are not healed at once, as a sick man who would have died is treated yet not instantly cured, languishing but living. One who dies unrepentant dies wholly and is tormented eternally, since if he lived forever he would sin forever.",
+  "claims": [
+   "Penance makes mortal sins venial but healing takes time.",
+   "The unrepentant are punished eternally."
+  ],
+  "concepts": [
+   "venial and mortal sin",
+   "eternal punishment",
+   "healing analogy"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d20c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:42:09Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d20c2": {
+  "summary": "Asks whether those who do not complete their penance in this life pass through fire to complete it. As with deathbed penitents: if contrition and reproach of the offense are great enough to punish the sin, they pass free to life though the penance was unfinished; if not, they feel the purgatorial fire and are punished more heavily than if they had completed it here. God, merciful and just, forgives the penitent by mercy, not reserving sin to eternal punishment, but by justice does not leave it unpunished: either man punishes by repenting, or God. If inward penance suffices, God requires no more; if not, and outward penance is not completed, God adds sufficient punishment. Some mortal sins become venial through penance but are not healed at once, while the unrepentant die wholly and are tormented eternally.",
+  "claims": [
+   "Sufficient contrition frees from further punishment even if penance is incomplete.",
+   "Otherwise unfinished penance is completed in purgatorial fire, more heavily.",
+   "God forgives by mercy but does not leave sin unpunished by justice.",
+   "Either man punishes sin by penance or God punishes it.",
+   "The unrepentant are punished eternally."
+  ],
+  "concepts": [
+   "purgatorial fire",
+   "incomplete penance",
+   "mercy and justice",
+   "contrition",
+   "temporal punishment"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d20c2-d1e115",
+    "pl-l4d20c2-d1e118",
+    "pl-l4d20c2-d1e121",
+    "pl-l4d20c2-d1e128",
+    "pl-l4d20c2-d1e131"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T12:42:09Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

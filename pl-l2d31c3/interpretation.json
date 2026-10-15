@@ -1,0 +1,84 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T21:06:51Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d31c3-d1e108": {
+  "summary": "States that the Catholic faith rejects this as contrary to truth, admitting that only flesh, not souls, is propagated; so original sin is drawn from parents through the flesh alone. Original sin is concupiscence, not an act but a defect.",
+  "claims": [
+   "Only flesh is propagated.",
+   "Original sin passes through the flesh."
+  ],
+  "concepts": [
+   "creationism"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d31c3",
+    "pl-l2d31c2",
+    "pl-l2d30c9"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:06:51Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d31c3-d1e111": {
+  "summary": "Cites Augustine: concupiscence is the law of the members or flesh, a diseased affection or languor that stirs illicit desire; it is said to remain in the flesh, not because it is not in the soul, but because it comes to be in the soul through the flesh's corruption.",
+  "claims": [
+   "Concupiscence arises in the soul through the flesh."
+  ],
+  "concepts": [
+   "Augustine De nuptiis et concupiscentia",
+   "law of the flesh"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d31c3",
+    "pl-l2d31c3-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:06:51Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d31c3": {
+  "summary": "Rejects that view: the Catholic faith condemns the propagation of souls and admits only that flesh is propagated. So original sin is drawn from parents through the flesh alone. It is concupiscence, a defect, not an act; Augustine calls it the law of the members or of the flesh, a diseased affection or languor that stirs illicit desire, said to remain in the flesh not because it is not in the soul but because it comes to be in the soul through the corruption of the flesh.",
+  "claims": [
+   "The Catholic faith rejects the propagation of souls.",
+   "Original sin is transmitted through the flesh alone.",
+   "Original sin is concupiscence as a defect, not an act.",
+   "Concupiscence is in the soul but arises there through the flesh's corruption."
+  ],
+  "concepts": [
+   "creationism",
+   "traducianism",
+   "original sin",
+   "concupiscence",
+   "law of the flesh",
+   "Augustine De nuptiis et concupiscentia"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d31c3-d1e108",
+    "pl-l2d31c3-d1e111"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T21:06:51Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

@@ -1,0 +1,102 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T11:10:24Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l3d39c5-d1e115": {
+  "summary": "Asks whether it is lawful to swear by a creature.",
+  "claims": [],
+  "concepts": [
+   "oath by creatures"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d39c5"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:10:24Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d39c5-d1e118": {
+  "summary": "Notes that it seems not, since the Law says 'render your oaths to the Lord' and Christ commands not to swear at all, neither by heaven, earth, Jerusalem, nor one's head.",
+  "claims": [
+   "Scripture seems to forbid swearing by creatures."
+  ],
+  "concepts": [
+   "oath by creatures",
+   "objection"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d39c5"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:10:24Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d39c5-d1e127": {
+  "summary": "Answers that the Jews, like children, were allowed to swear by the Creator and commanded, if they swore, to do so only by the Creator, since those who swore by angels and elements honored creatures with worship, which was better shown to God. This was forbidden to the weak, not to the saints who honored only the Creator in creatures; so Joseph swore by Pharaoh's health, honoring God's judgment. Christ forbade swearing by creatures lest something divine be thought in them or lest those swearing falsely by them think themselves not bound.",
+  "claims": [
+   "Swearing by creatures was forbidden to the weak, lest they worship creatures.",
+   "The saints could swear by creatures, honoring the Creator.",
+   "Christ forbade it lest creatures be thought divine or oaths by them non-binding."
+  ],
+  "concepts": [
+   "oath by creatures",
+   "idolatry",
+   "Joseph",
+   "weak and perfect"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d39c5"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:10:24Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d39c5": {
+  "summary": "Asks whether one may swear by a creature. It seems not, since the Law says to render oaths to the Lord and Christ forbids swearing by heaven, earth, Jerusalem, or one's head. Lombard answers that the Jews, like children, were allowed to swear by the Creator and commanded not to swear by creatures, since those who swore by angels and elements honored creatures with worship. This was forbidden to the weak but not to the saints, who honored only the Creator in creatures, as Joseph swore by Pharaoh's health, honoring God's judgment. Christ forbade swearing by creatures so that nothing divine would be thought in them, or so that people swearing falsely by them would not think themselves unbound.",
+  "claims": [
+   "The Jews were commanded to swear only by the Creator because swearing by creatures risked honoring them with worship.",
+   "The saints could swear by creatures, honoring the Creator in them.",
+   "Christ forbade swearing by creatures lest divinity be ascribed to them or the oath be thought non-binding."
+  ],
+  "concepts": [
+   "oath by creatures",
+   "idolatry",
+   "Joseph",
+   "Sermon on the Mount",
+   "weak and perfect"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d39c5-d1e115",
+    "pl-l3d39c5-d1e118",
+    "pl-l3d39c5-d1e127"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T11:10:24Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

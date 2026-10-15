@@ -1,0 +1,107 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:37:02Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d27c8-d1e108": {
+  "summary": "States that good will is God's gift and man's merit, or rather grace's, since it is chiefly from grace and is grace.",
+  "claims": [
+   "Good will is gift and merit."
+  ],
+  "concepts": [
+   "merit"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d27c8",
+    "pl-l2d27c7"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:37:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d27c8-d1e111": {
+  "summary": "Cites Augustine to Sixtus: what is man's merit before grace, when grace alone makes all our good merit in us?",
+  "claims": [
+   "No merit precedes grace."
+  ],
+  "concepts": [
+   "Augustine to Sixtus"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d27c8",
+    "pl-l2d27c8-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:37:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d27c8-d1e114": {
+  "summary": "Explains that from prevenient grace and free choice a good affection or motion of mind is born, man's first good merit: from the virtue of faith and free choice comes believing, from charity and free choice loving, and so for other virtues. These motions are merits and God's gifts, meriting their increase and further goods here and hereafter.",
+  "claims": [
+   "The first merit is a good motion from grace and free choice.",
+   "Believing and loving are acts of faith and charity with free choice."
+  ],
+  "concepts": [
+   "acts of virtue",
+   "merit"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d27c8",
+    "pl-l2d27c8-d1e111",
+    "pl-l2d27c6-d1e118"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:37:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d27c8": {
+  "summary": "States that the good will is both God's gift and man's merit, or rather grace's, since it is chiefly from grace. Augustine: what is man's merit before grace, when grace alone makes all our good merit in us? From prevenient grace and free choice a good affection or motion of mind arises, the first good merit: from the virtue of faith and free choice comes believing, from charity and free choice loving, and so for other virtues. These good motions are merits and God's gifts, by which we merit their increase and other goods here and hereafter.",
+  "claims": [
+   "Good will is both God's gift and man's merit.",
+   "Grace makes all good merit in us.",
+   "From grace and free choice comes the first good merit, a good motion of the mind.",
+   "Believing comes from faith and free choice; loving from charity and free choice.",
+   "Good motions merit their own increase and future goods."
+  ],
+  "concepts": [
+   "merit",
+   "good will",
+   "faith",
+   "charity",
+   "believing and loving",
+   "Augustine to Sixtus"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d27c8-d1e108",
+    "pl-l2d27c8-d1e111",
+    "pl-l2d27c8-d1e114"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:37:02Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

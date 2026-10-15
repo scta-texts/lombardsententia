@@ -1,0 +1,170 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T21:09:26Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d35c2-d1e108": {
+  "summary": "Notes that from this diversity of expressions many held different views about sin.",
+  "claims": [],
+  "concepts": [
+   "school opinions"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d35c2",
+    "pl-l2d35c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:09:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d35c2-d1e111": {
+  "summary": "Reports the views: some, only evil will is sin, not exterior acts; some, will and acts; some, neither, saying all acts are good and from God and evil is nothing, citing Augustine on John ('without him was made nothing,' that is, sin, which is nothing, and men become nothing when they sin), that evil is privation or corruption of good, and that the highest evil has no mode, lacking all good, and so is not.",
+  "claims": [
+   "One view: all acts are good and evil is nothing."
+  ],
+  "concepts": [
+   "evil as nothing",
+   "Augustine on John",
+   "Augustine De diversis quaestionibus"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d35c2",
+    "pl-l2d35c2-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:09:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d35c2-d1e114": {
+  "summary": "Cites the Ecclesiastical Dogmas: evil or malice was not created by God but devised by the devil, who was himself created good.",
+  "claims": [
+   "Evil was devised by the devil, not created by God."
+  ],
+  "concepts": [
+   "Ecclesiastical Dogmas"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d35c2",
+    "pl-l2d35c2-d1e111"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:09:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d35c2-d1e118": {
+  "summary": "Cites Contra Manichaeos: to sin is to err from the precepts of truth or truth itself; if sinners did not do it by will, they would be unjustly judged.",
+  "claims": [
+   "Sin is voluntary error from truth."
+  ],
+  "concepts": [
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d35c2",
+    "pl-l2d35c2-d1e114"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:09:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d35c2-d1e123": {
+  "summary": "Asks what should be held amid such variety.",
+  "claims": [],
+  "concepts": [
+   "question"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d35c2",
+    "pl-l2d35c2-d1e118"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:09:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d35c2-d1e126": {
+  "summary": "Answers that it can be said and freely taught that sin is an evil interior and exterior act, evil thought, speech, and deed, but chiefly it consists in the will, from which evil works proceed as bad fruit from a bad tree.",
+  "claims": [
+   "Sin consists chiefly in the will."
+  ],
+  "concepts": [
+   "Lombard's opinion",
+   "Matthew 7:17"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d35c2",
+    "pl-l2d35c2-d1e123"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:09:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d35c2": {
+  "summary": "Because of these different expressions, many held different views: some that only evil will is sin, not exterior acts; some that will and acts are; some neither, holding all acts good and from God, and evil nothing, citing Augustine that sin is nothing and men become nothing when they sin, that evil is privation of good, and that the highest evil lacks all mode. Also, evil was not created by God but devised by the devil, and sinning is erring from truth, done by will. Lombard's position: sin may be freely taught to be an evil interior and exterior act, evil thought, speech, and deed, but chiefly it consists in the will, from which evil works proceed as bad fruit from a bad tree.",
+  "claims": [
+   "Some held only evil will is sin; others will and acts; others neither.",
+   "Some held all acts are good and evil is nothing.",
+   "Evil was not created by God but devised by the devil.",
+   "Sin is an evil interior and exterior act, thought, word, and deed.",
+   "Sin consists chiefly in the will."
+  ],
+  "concepts": [
+   "definition of sin",
+   "evil as nothing",
+   "privation",
+   "will",
+   "interior and exterior act",
+   "school opinions",
+   "Lombard's opinion"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d35c2-d1e108",
+    "pl-l2d35c2-d1e111",
+    "pl-l2d35c2-d1e114",
+    "pl-l2d35c2-d1e118",
+    "pl-l2d35c2-d1e123",
+    "pl-l2d35c2-d1e126"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T21:09:26Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

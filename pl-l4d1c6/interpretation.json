@@ -1,0 +1,74 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T11:47:36Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d1c6-d1e115": {
+  "summary": "Turns to the difference between the old and new sacraments, calling sacraments in the old sense what signified sacred things, like sacrifices and offerings.",
+  "claims": [],
+  "concepts": [
+   "old and new sacraments",
+   "sacrifices"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d1c6"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:47:36Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d1c6-d1e118": {
+  "summary": "Gives Augustine's brief statement of the difference: the old only promised and signified; the new give salvation.",
+  "claims": [
+   "The old sacraments promised and signified; the new give salvation."
+  ],
+  "concepts": [
+   "old and new sacraments",
+   "efficacy of sacraments",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d1c6"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:47:36Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d1c6": {
+  "summary": "Turns to the difference between the old and new sacraments, calling sacraments in the old sense the sacrifices, offerings, and the like that signified sacred things. Augustine states it briefly: the old only promised and signified; the new give salvation.",
+  "claims": [
+   "The old sacraments only promised and signified; the new give salvation."
+  ],
+  "concepts": [
+   "old and new sacraments",
+   "sacrifices",
+   "efficacy of sacraments"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d1c6-d1e115",
+    "pl-l4d1c6-d1e118"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T11:47:36Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

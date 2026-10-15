@@ -1,0 +1,78 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T21:09:26Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d35c6-d1e108": {
+  "summary": "Asks whether punishment too is privation or corruption of good.",
+  "claims": [],
+  "concepts": [
+   "question"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d35c6",
+    "pl-l2d35c5"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:09:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d35c6-d1e111": {
+  "summary": "Answers from the earlier distinction: privation or corruption of good is taken actively or passively, by efficiency or effect; so both sin and punishment are called privation, sin by efficiency, since it deprives or corrupts good, punishment by effect, the suffering that is sin's effect. Fault and punishment differ: punishment is God's, fault the devil's or man's.",
+  "claims": [
+   "Sin deprives; punishment is the deprivation suffered.",
+   "Punishment is from God, fault from creatures."
+  ],
+  "concepts": [
+   "privation active and passive",
+   "fault and punishment"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d35c6",
+    "pl-l2d35c6-d1e108",
+    "pl-l2d35c3-d1e165"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:09:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d35c6": {
+  "summary": "Asks whether punishment too is privation of good. Privation or corruption of good is taken actively or passively, by efficiency or effect: sin is privation by efficiency, since it deprives or corrupts good; punishment by effect, the suffering that is sin's effect. Fault and punishment differ: punishment is from God, fault from the devil or man.",
+  "claims": [
+   "Privation of good is taken actively or passively.",
+   "Sin is privation as efficient cause; punishment as effect.",
+   "Punishment is from God; fault is from the devil or man."
+  ],
+  "concepts": [
+   "privation active and passive",
+   "fault and punishment",
+   "author of evil"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d35c6-d1e108",
+    "pl-l2d35c6-d1e111"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T21:09:26Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

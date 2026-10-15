@@ -1,0 +1,172 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:00:33Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll2d8c4-d1e3514": {
+  "summary": "Asks whether demons, corporeal or incorporeal, substantially enter human bodies and souls, or are said to enter because they exercise their malice there by God's permission, oppressing and vexing or drawing them into sin.",
+  "claims": [],
+  "concepts": [
+   "question",
+   "possession"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d8c4",
+    "pl-l2d8c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:00:33Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d8c4-d1e3517": {
+  "summary": "States that the Gospel clearly shows demons entering people and being cast out by Christ, but not whether substantially or by effect.",
+  "claims": [
+   "Demons enter and are cast out, per the Gospel."
+  ],
+  "concepts": [
+   "Gospel exorcisms"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d8c4",
+    "pll2d8c4-d1e3514"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:00:33Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d8c4-d1e3520": {
+  "summary": "Cites Gennadius: demons do not substantially enter the soul but are united by applied oppression; only the Creator, incorporeal by nature, can enter the mind he made.",
+  "claims": [
+   "Only God can enter the mind substantially."
+  ],
+  "concepts": [
+   "Gennadius"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d8c4",
+    "pll2d8c4-d1e3517"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:00:33Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d8c4-d1e3539": {
+  "summary": "Cites Bede on Acts 5:3: only the creating Trinity can fill the mind by substance; the soul is filled by creatures only by operation and impulse. Satan fills the heart not by entering it, which belongs to God alone, but by drawing the soul to malice by deceitful thoughts and incitements; he filled Ananias's heart by inserting the poison of his malice.",
+  "claims": [
+   "Only the Trinity fills the mind by substance.",
+   "Satan fills the heart by deceptive suggestion."
+  ],
+  "concepts": [
+   "Bede",
+   "Acts 5:3"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d8c4",
+    "pll2d8c4-d1e3520"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:00:33Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d8c4-d1e3576": {
+  "summary": "Further Bede: the unclean spirit, driven from the hearts of the faithful by the flame of virtues, pours the poison of persecution into teachers of truth.",
+  "claims": [
+   "Expelled spirits incite persecution."
+  ],
+  "concepts": [
+   "Bede"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d8c4",
+    "pll2d8c4-d1e3539"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:00:33Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d8c4-d1e3588": {
+  "summary": "Concludes that demons do not enter hearts substantially but by the effect of their malice, and are said to be cast out when not permitted to harm.",
+  "claims": [
+   "Demons do not enter hearts substantially.",
+   "Being cast out means being prevented from harming."
+  ],
+  "concepts": [
+   "conclusion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d8c4",
+    "pll2d8c4-d1e3576"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:00:33Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d8c4": {
+  "summary": "Asks whether demons, corporeal or not, enter human bodies and souls substantially, or are said to enter because they exercise their malice there by God's permission. The Gospel shows they enter and are cast out, but not in what way. Gennadius: demons do not substantially enter the soul but are united by oppression; only the Creator can enter the mind. Bede on Acts 5:3: only the Trinity can fill the mind by substance; Satan fills the heart not by entering but by drawing the soul to malice by thoughts and incitements, infusing his poison. So demons enter hearts by the effect of their malice, not substantially, and are 'cast out' when not permitted to harm.",
+  "claims": [
+   "Demons are said to enter people and be cast out.",
+   "Demons do not enter the soul substantially.",
+   "Only the Creator can enter the mind substantially.",
+   "Satan fills the heart by deceptive suggestion, not by entering it.",
+   "Demons are 'cast out' when they are not permitted to harm."
+  ],
+  "concepts": [
+   "possession",
+   "demons and the soul",
+   "Gennadius",
+   "Bede",
+   "temptation",
+   "God alone enters the mind"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll2d8c4-d1e3514",
+    "pll2d8c4-d1e3517",
+    "pll2d8c4-d1e3520",
+    "pll2d8c4-d1e3539",
+    "pll2d8c4-d1e3576",
+    "pll2d8c4-d1e3588"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:00:33Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

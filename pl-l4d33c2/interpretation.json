@@ -1,0 +1,146 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T13:01:54Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d33c2-d1e112": {
+  "summary": "Quotes Augustine showing that virginal chastity is not preferred in merit to Abraham's conjugal chastity: as Peter, who suffered, and John, who did not, are equal in the merit of patience, so John, who knew no marriage, and Abraham, who begot sons, are equal in continence; John's celibacy and Abraham's marriage served Christ according to their times, John having continence in deed, Abraham in habit only. Celibate chastity is better than nuptial, but Abraham had one in use and both in habit; he could have been chaste without marriage, but it was not then fitting.",
+  "claims": [
+   "Abraham's merit of continence equals John's.",
+   "Abraham had continence in habit.",
+   "Celibate chastity is better in itself."
+  ],
+  "concepts": [
+   "virginity and marriage",
+   "habit and act",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d33c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:01:54Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d33c2-d1e133": {
+  "summary": "Quotes Jerome: who does not know that under God's high dispensation all past saints were of the same merit as Christians now? As Abraham pleased in marriage, virgins now please in chastity; he served his law and time, let us serve ours, on whom the ends of the ages have come.",
+  "claims": [
+   "The saints of old had the same merit as Christians now."
+  ],
+  "concepts": [
+   "dispensation",
+   "merit",
+   "Jerome"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d33c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:01:54Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d33c2-d1e148": {
+  "summary": "Concludes that the holy fathers before the Law had several wives or concubines without sin; Scripture calls them now wives, now concubines; Rachel and Leah were both wives, not concubines.",
+  "claims": [
+   "The fathers had several wives without sin."
+  ],
+  "concepts": [
+   "polygamy",
+   "patriarchs"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d33c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:01:54Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d33c2-d1e151": {
+  "summary": "Answers the objection that those fathers did not keep marital faith: they kept it by uniting not with others but with their own wives or handmaids.",
+  "claims": [
+   "The fathers kept marital faith."
+  ],
+  "concepts": [
+   "fides",
+   "patriarchs"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d33c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:01:54Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d33c2-d1e155": {
+  "summary": "Concludes this account of the custom before the Law.",
+  "claims": [],
+  "concepts": [
+   "patriarchs"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d33c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:01:54Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d33c2": {
+  "summary": "Virginal chastity is not preferred in merit to Abraham's conjugal chastity: Augustine compares Peter who suffered and John who did not, equal in patience, so John's celibacy and Abraham's marriage served Christ in their times, Abraham having continence in habit, John in deed; celibate chastity is better, but Abraham had both in habit. Jerome: the saints of old were of the same merit as Christians now; Abraham pleased in marriage as virgins now in chastity. So the fathers before the Law had several wives or concubines without sin, Rachel and Leah both being wives, and kept marital faith by uniting only with their own wives or handmaids.",
+  "claims": [
+   "Abraham's conjugal chastity equals John's virginity in merit.",
+   "Abraham had continence in habit, John in deed.",
+   "Celibate chastity is better in itself.",
+   "The fathers kept marital faith with their own wives and handmaids."
+  ],
+  "concepts": [
+   "virginity and marriage",
+   "merit",
+   "habit and act",
+   "patriarchs"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d33c2-d1e112",
+    "pl-l4d33c2-d1e133",
+    "pl-l4d33c2-d1e148",
+    "pl-l4d33c2-d1e151",
+    "pl-l4d33c2-d1e155"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T13:01:54Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

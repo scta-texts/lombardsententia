@@ -1,0 +1,176 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:35:42Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d26c1-d1e108": {
+  "summary": "Identifies operating and cooperating grace: operating grace prepares the will to will good; cooperating grace helps it not to will in vain.",
+  "claims": [
+   "Operating grace prepares the will; cooperating grace helps it."
+  ],
+  "concepts": [
+   "operating grace",
+   "cooperating grace"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d26c1",
+    "pl-l2d25c9"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:35:42Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d26c1-d1e111": {
+  "summary": "Cites Augustine, De gratia et libero arbitrio: God completes by cooperating what he begins by operating; he works that we will and cooperates when we will so as to accomplish; without him we can do nothing in works of piety.",
+  "claims": [
+   "God begins by operating and completes by cooperating."
+  ],
+  "concepts": [
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d26c1",
+    "pl-l2d26c1-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:35:42Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d26c1-d1e114": {
+  "summary": "Explains that operating grace prevents the good will, freeing and preparing it to be good and to will good effectively; cooperating grace follows the already good will by helping.",
+  "claims": [
+   "Operating grace precedes the good will; cooperating grace follows it."
+  ],
+  "concepts": [
+   "prevenient grace",
+   "subsequent grace"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d26c1",
+    "pl-l2d26c1-d1e111"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:35:42Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d26c1-d1e120": {
+  "summary": "Cites Augustine against Julian, who held good will comes from free choice alone and that man can will and do good without grace: on Rom 9:16, God does not show mercy because one willed and ran, but one willed and ran because God showed mercy; not that it is done without our will, but our will does nothing good unless divinely helped.",
+  "claims": [
+   "Willing and running follow mercy.",
+   "The will does nothing good without divine help."
+  ],
+  "concepts": [
+   "Pelagianism",
+   "Julian of Eclanum",
+   "Romans 9:16"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d26c1",
+    "pl-l2d26c1-d1e114"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:35:42Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d26c1-d1e123": {
+  "summary": "Cites Augustine on 'not I, but the grace of God with me' (1 Cor 15:10): Paul did not mean he did nothing good, but that he would do nothing good unless grace helped.",
+  "claims": [
+   "Paul acts, but only with grace."
+  ],
+  "concepts": [
+   "1 Corinthians 15:10"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d26c1",
+    "pl-l2d26c1-d1e120"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:35:42Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d26c1-d1e126": {
+  "summary": "Concludes that the human will is prevented and prepared by grace to become good, not to become a will; there was a will before grace, but not a good and right one.",
+  "claims": [
+   "Grace makes the will good, not makes it a will."
+  ],
+  "concepts": [
+   "good will"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d26c1",
+    "pl-l2d26c1-d1e123"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:35:42Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d26c1": {
+  "summary": "Distinguishes operating and cooperating grace: operating grace prepares the will to will good; cooperating grace helps it not to will in vain. Augustine: God begins by operating that we will and completes by cooperating with us when we will; without him we can do nothing. Against Julian, who held good will comes from free choice alone, Augustine reads 'not of him who wills or runs, but of God who shows mercy' (Rom 9:16): God does not show mercy because one willed and ran, but one willed and ran because God showed mercy. So grace prevents and prepares the will not that it become will, which it already was, but that it become good.",
+  "claims": [
+   "Operating grace prepares the will to will good; cooperating grace helps it not to will in vain.",
+   "God begins by operating and completes by cooperating.",
+   "Without grace the will can do nothing good.",
+   "Willing and running follow God's mercy, not the reverse.",
+   "Grace makes the will good, not makes it will."
+  ],
+  "concepts": [
+   "operating grace",
+   "cooperating grace",
+   "prevenient grace",
+   "good will",
+   "Pelagianism",
+   "Julian of Eclanum",
+   "Romans 9:16"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d26c1-d1e108",
+    "pl-l2d26c1-d1e111",
+    "pl-l2d26c1-d1e114",
+    "pl-l2d26c1-d1e120",
+    "pl-l2d26c1-d1e123",
+    "pl-l2d26c1-d1e126"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:35:42Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

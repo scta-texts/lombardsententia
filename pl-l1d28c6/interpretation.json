@@ -1,0 +1,129 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T17:45:28Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll1d28c6-d1e3501": {
+  "summary": "Notes that only the Son is called begotten Wisdom, as Word or Image, and asks whether this is said relatively and by the same relation.",
+  "claims": [],
+  "concepts": [
+   "question",
+   "nata Sapientia"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d28c6",
+    "pll1d27c3-d1e3663"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:45:28Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d28c6-d1e3504": {
+  "summary": "Cites De Trinitate VII: 'Word' means 'begotten Wisdom,' so that he is Son and Image. In 'begotten,' Word, Image, and Son are understood, and these do not show essence because they are relative; in 'Wisdom' essence is shown, since it is said 'ad se,' and Father and Son are one wisdom as one essence.",
+  "claims": [
+   "'Word' means 'begotten Wisdom.'",
+   "'Begotten' is relative; 'Wisdom' is essential."
+  ],
+  "concepts": [
+   "Augustine De Trinitate VII"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d28c6",
+    "pll1d28c6-d1e3501"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:45:28Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d28c6-d1e3526": {
+  "summary": "Warns the reader: Augustine seems to say that in 'begotten Wisdom,' 'wisdom' signifies essence and 'begotten' relation, which would force us to say the essence is begotten, against what was said before.",
+  "claims": [],
+  "concepts": [
+   "warning",
+   "objection"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d28c6",
+    "pll1d28c6-d1e3504",
+    "pl-l1d5c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:45:28Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d28c6-d1e3532": {
+  "summary": "Explains: 'begotten' carries the same notion as Word and Image, while 'Wisdom' shows that the Son is essence, since wisdom is said essentially. But 'wisdom' stands not for essence but for the hypostasis, so 'begotten Wisdom' means the begotten hypostasis with its property. This supports the earlier point that personal names signify hypostases with their properties, not only properties.",
+  "claims": [
+   "In 'begotten Wisdom,' 'wisdom' stands for the hypostasis.",
+   "'Begotten Wisdom' means the same hypostasis and relation as 'Word.'",
+   "Personal names signify hypostases with their properties."
+  ],
+  "concepts": [
+   "supposition",
+   "hypostasis"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d28c6",
+    "pll1d28c6-d1e3526",
+    "pll1d27c2-d1e3504"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:45:28Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1d28c6": {
+  "summary": "Asks whether 'begotten Wisdom,' said only of the Son like Word and Image, is relative and by the same relation. Augustine: 'Word' means the same as 'begotten Wisdom'; in 'begotten' the Word, Image, and Son are understood relatively, while 'Wisdom' shows essence, since wisdom is said 'ad se.' Lombard warns that this might seem to make the essence begotten, and explains that 'Wisdom' here stands for the hypostasis while showing that he who is born is essence; so 'begotten Wisdom' signifies the same relation and hypostasis as 'Word.' This confirms that personal names signify hypostases with their properties.",
+  "claims": [
+   "'Begotten Wisdom' is said of the Son alone.",
+   "'Begotten' carries the same relation as 'Word' and 'Image.'",
+   "'Wisdom' shows that the one born is the essence, but stands for the hypostasis.",
+   "'Begotten Wisdom' does not mean the essence is begotten.",
+   "Personal names signify hypostases together with their properties."
+  ],
+  "concepts": [
+   "nata Sapientia",
+   "supposition",
+   "Word",
+   "essence not begotten",
+   "personal names"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d28c6-d1e3501",
+    "pll1d28c6-d1e3504",
+    "pll1d28c6-d1e3526",
+    "pll1d28c6-d1e3532"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T17:45:28Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

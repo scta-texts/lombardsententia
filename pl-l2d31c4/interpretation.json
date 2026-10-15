@@ -1,0 +1,62 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T21:06:51Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d31c4-d1e108": {
+  "summary": "Explains that the flesh was so corrupted in Adam that, whereas before sin union could have been without lust and the marriage bed undefiled, now union cannot occur without libidinous concupiscence, always a defect and fault unless excused by the goods of marriage. The flesh to be formed into the child's body is conceived in lust and polluted; from its contact the soul, when infused, contracts a stain and becomes guilty, namely the defect of concupiscence, which is original sin.",
+  "claims": [
+   "Flesh conceived in lust is polluted.",
+   "The infused soul contracts original sin from the flesh."
+  ],
+  "concepts": [
+   "conception",
+   "infusion of the soul"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d31c4",
+    "pl-l2d31c3",
+    "pl-l2d20c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:06:51Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d31c4": {
+  "summary": "Explains how: the flesh was so corrupted in Adam by sin that, whereas before sin man and woman could have united without the incitement of lust, now carnal union cannot occur without libidinous concupiscence, which is always a defect and even fault unless excused by the goods of marriage. The flesh to be formed into the child's body is conceived in lust and so polluted; from contact with it, the soul, when infused, contracts a stain, the defect of concupiscence, which is original sin.",
+  "claims": [
+   "Sin so corrupted the flesh that union is now impossible without lust.",
+   "Lust is always a defect and is fault unless excused by the goods of marriage.",
+   "Flesh conceived in lust is polluted.",
+   "The soul contracts original sin from contact with polluted flesh when infused."
+  ],
+  "concepts": [
+   "concupiscence",
+   "lust",
+   "goods of marriage",
+   "conception",
+   "infusion of the soul",
+   "original sin"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d31c4-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T21:06:51Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

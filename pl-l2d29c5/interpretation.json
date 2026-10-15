@@ -1,0 +1,62 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:38:20Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d29c5-d1e108": {
+  "summary": "Explains Gen 3:24: literally, a fiery guard was set by angelic ministry before the visible paradise, not in vain but signifying something of the spiritual paradise. Cherubim means fullness of knowledge, which is charity, the fullness of the law; the flaming sword is temporal punishments, turning because times revolve. One returns to life only through charity and the endurance of temporal sufferings.",
+  "claims": [
+   "Cherubim signifies charity; the sword, temporal suffering.",
+   "Return to life is through charity and suffering."
+  ],
+  "concepts": [
+   "Genesis 3:24",
+   "spiritual sense"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d29c5",
+    "pl-l2d29c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:38:20Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d29c5": {
+  "summary": "Interprets the cherubim and flaming, turning sword placed before paradise to guard the way to the tree of life (Gen 3:24): literally, a fiery guard set there by the ministry of angels; spiritually, cherubim means fullness of knowledge, that is, charity, the fullness of the law, and the turning flaming sword is temporal sufferings, turning because times change. One returns to life only through charity and through enduring temporal sufferings.",
+  "claims": [
+   "Literally, angels set a fiery guard before the visible paradise.",
+   "Cherubim signifies fullness of knowledge, which is charity.",
+   "The turning sword signifies temporal sufferings.",
+   "Return to life is only through charity and enduring temporal suffering."
+  ],
+  "concepts": [
+   "cherubim",
+   "flaming sword",
+   "tree of life",
+   "literal and spiritual sense",
+   "charity",
+   "suffering",
+   "Augustine De Genesi ad litteram"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d29c5-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:38:20Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

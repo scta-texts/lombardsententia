@@ -1,0 +1,55 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T11:01:29Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l3d28c2-d1e115": {
+  "summary": "Raises the question whether love of angels pertains to the commandment of love of neighbor. That no man is excepted is shown by the parable of the man left half-dead, where the Lord calls neighbor the one who showed mercy and adds 'go and do likewise'; the sentence continues into the next chapter.",
+  "claims": [
+   "No man is excepted from the commandment of love of neighbor."
+  ],
+  "concepts": [
+   "love of angels",
+   "neighbor",
+   "Good Samaritan"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d28c2",
+    "pl-l3d28c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:01:29Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d28c2": {
+  "summary": "Raises the question whether love of angels belongs to the commandment to love the neighbor, recalling that in the parable of the half-dead man the Lord excepted no man from the neighbor and said 'go and do likewise'. The sentence continues in the next chapter.",
+  "claims": [
+   "The commandment of love of neighbor excepts no man."
+  ],
+  "concepts": [
+   "love of angels",
+   "neighbor",
+   "Good Samaritan"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d28c2-d1e115"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T11:01:29Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

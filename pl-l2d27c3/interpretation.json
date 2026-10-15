@@ -1,0 +1,85 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:37:02Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d27c3-d1e105": {
+  "summary": "Cites Augustine's Retractationes: some goods are great, some least, some middle; virtues by which one lives rightly are great; forms of bodies, without which one can live rightly, are least; powers of the soul, without which one cannot live rightly, are middle.",
+  "claims": [
+   "There are great, middle, and least goods."
+  ],
+  "concepts": [
+   "three kinds of goods",
+   "Augustine Retractationes"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d27c3",
+    "pl-l2d27c2-d1e111"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:37:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d27c3-d1e110": {
+  "summary": "Continues: no one misuses virtue, while middle and least goods can be used well or badly; no one misuses virtue because the work of virtue is the good use of goods that can be misused; God's goodness made great, middle, and least goods. Thus the three kinds are distinguished.",
+  "claims": [
+   "No one misuses virtue.",
+   "The work of virtue is the good use of misusable goods."
+  ],
+  "concepts": [
+   "virtue",
+   "use"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d27c3",
+    "pl-l2d27c3-d1e105"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:37:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d27c3": {
+  "summary": "Sets out Augustine's three kinds of goods from the Retractationes: great goods are the virtues, by which one lives rightly; least goods are the forms of bodies, without which one can live rightly; middle goods are the powers of the soul, without which one cannot live rightly. No one misuses virtues, since the work of virtue is the good use of middle and least goods, which can be used well or badly; God's goodness made all three good.",
+  "claims": [
+   "Virtues are great goods.",
+   "Bodily forms are least goods.",
+   "Powers of the soul are middle goods.",
+   "No one misuses virtue.",
+   "The work of virtue is the good use of goods that can be misused.",
+   "All three kinds of goods are from God."
+  ],
+  "concepts": [
+   "three kinds of goods",
+   "virtue",
+   "powers of the soul",
+   "use",
+   "Augustine Retractationes"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d27c3-d1e105",
+    "pl-l2d27c3-d1e110"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:37:02Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

@@ -1,0 +1,123 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T12:35:45Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d15c1-d1e115": {
+  "summary": "States that the same authorities that refute those denying repeated penance also refute those who hold that one entangled in many sins can truly repent of one and obtain the Lord's pardon for it without repenting of another.",
+  "claims": [
+   "The authorities refute the view that one can repent of one sin while retaining another."
+  ],
+  "concepts": [
+   "partial penance",
+   "opposing opinion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d15c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:35:45Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d15c1-d1e118": {
+  "summary": "Notes that they try to support this with authorities.",
+  "claims": [],
+  "concepts": [
+   "argument from authority"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d15c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:35:45Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d15c1-d1e121": {
+  "summary": "Gives their argument from the prophet: 'God will not judge twice for the same', or 'double tribulation will not arise'. If someone confesses one of several sins to the priest and completes the satisfaction imposed, keeping the others silent, he should not be judged again for that sin, for which he satisfied by the judgment of the priest, who acts in Christ's place; otherwise God judges twice.",
+  "claims": [
+   "Opponents argue that satisfaction for one sin cannot be judged again."
+  ],
+  "concepts": [
+   "double judgment",
+   "satisfaction",
+   "confession",
+   "opposing opinion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d15c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:35:45Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d15c1-d1e125": {
+  "summary": "Answers that this must be understood only of those changed for the better by present punishment who persevere; on them double tribulation does not arise. But those who become harder and worse under the scourges, like Pharaoh, join eternal to present punishment, so that temporal punishment is the beginning of eternal penalty, as Augustine says against those who apply the text to all scourges.",
+  "claims": [
+   "The text applies only to those amended by punishment.",
+   "For the hardened, temporal punishment begins eternal."
+  ],
+  "concepts": [
+   "temporal and eternal punishment",
+   "Pharaoh",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d15c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:35:45Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d15c1": {
+  "summary": "As the authorities refute those who deny repeated penance, they also refute those who say one entangled in several sins can truly repent of one and be pardoned for it without repenting of the others. These appeal to Nahum's 'God will not judge twice for the same', arguing that one who confessed one sin and completed the priest's satisfaction would be judged twice if punished again. Lombard answers that the text applies only to those who are amended by present punishment and persevere; those hardened under the scourge, like Pharaoh, join eternal punishment to temporal, which becomes the beginning of eternal penalty.",
+  "claims": [
+   "One cannot repent of one sin while retaining another.",
+   "'God will not judge twice' applies only to those amended by temporal punishment.",
+   "For the hardened, temporal punishment begins eternal punishment."
+  ],
+  "concepts": [
+   "partial penance",
+   "double judgment",
+   "Nahum 1:9",
+   "temporal and eternal punishment"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d15c1-d1e115",
+    "pl-l4d15c1-d1e118",
+    "pl-l4d15c1-d1e121",
+    "pl-l4d15c1-d1e125"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T12:35:45Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

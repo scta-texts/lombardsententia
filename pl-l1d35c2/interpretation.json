@@ -1,0 +1,53 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T17:50:29Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll1d35c2-d1e3499": {
+  "summary": "Defines foreknowledge as concerning future things only, but all of them, good and evil.",
+  "claims": [
+   "Foreknowledge is of future things, good and evil."
+  ],
+  "concepts": [
+   "praescientia"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d35c2",
+    "pll1d35c1-d1e3504"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:50:29Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1d35c2": {
+  "summary": "Defines foreknowledge (prescience or prevision) as of future things only, but of all of them, both good and evil.",
+  "claims": [
+   "Foreknowledge concerns only future things.",
+   "Foreknowledge concerns all future things, good and evil."
+  ],
+  "concepts": [
+   "praescientia",
+   "future contingents"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d35c2-d1e3499"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T17:50:29Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

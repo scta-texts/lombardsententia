@@ -1,0 +1,54 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:39:39Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d30c5-d1e105": {
+  "summary": "States that original sin, as Augustine testifies, is what passed through Adam into all begotten through concupiscence by his vitiated flesh.",
+  "claims": [
+   "Original sin passes to those begotten through concupiscence."
+  ],
+  "concepts": [
+   "transmission of sin"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d30c5",
+    "pl-l2d30c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:39:39Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d30c5": {
+  "summary": "States that original sin, as Augustine testifies, is what passed through Adam into all who are begotten through concupiscence from his vitiated flesh.",
+  "claims": [
+   "Original sin passed from Adam to all begotten through concupiscence.",
+   "It passes through Adam's vitiated flesh."
+  ],
+  "concepts": [
+   "original sin",
+   "concupiscence",
+   "transmission of sin"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d30c5-d1e105"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:39:39Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

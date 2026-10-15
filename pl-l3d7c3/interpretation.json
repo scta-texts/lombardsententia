@@ -1,0 +1,129 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T01:04:37Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l3d7c3-d1e117": {
+  "summary": "States that though one says 'man is God', one does not fittingly say 'lordly man' (homo dominicus).",
+  "claims": [
+   "Christ should not be called 'lordly man'."
+  ],
+  "concepts": [
+   "homo dominicus",
+   "modes of speech"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d7c3",
+    "pl-l3d7c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:04:37Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d7c3-d1e120": {
+  "summary": "Cites Augustine's Retractations: he doubts whether the mediator Christ Jesus is rightly called 'lordly man', since he is the Lord; he read it in some Catholic writers and used it, but wishes he had not, having later seen that it should not be said, though it could be defended on some grounds.",
+  "claims": [
+   "Augustine retracted the phrase 'lordly man'."
+  ],
+  "concepts": [
+   "homo dominicus",
+   "retraction"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d7c3",
+    "pl-l3d7c3-d1e117"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:04:37Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d7c3-d1e132": {
+  "summary": "Adds that according to the third opinion the Son's person is said to exist in and from two natures by adherence and inherence: one inheres in him, the other is in him.",
+  "claims": [
+   "On the third opinion, the person exists in two natures by adherence and inherence."
+  ],
+  "concepts": [
+   "third opinion",
+   "inherence"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d7c3",
+    "pl-l3d7c2-d1e261"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:04:37Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d7c3-d1e136": {
+  "summary": "Concludes the discussion: Lombard has treated the question carefully according to the various opinions, without assertion or prejudgment. In so great and difficult a matter the reader should not think this discussion sufficient, but read other, perhaps better, treatments and examine the troubling points more vigilantly, holding firmly that God assumed man and man passed into God, not by mutability of nature but by God's condescension, so that neither God was changed into human substance nor man into divine, since change of nature diminishes and abolishes substance.",
+  "claims": [
+   "Lombard treats the question without asserting one opinion.",
+   "God assumed man without change of nature.",
+   "Change of nature would destroy substance."
+  ],
+  "concepts": [
+   "suspension of judgment",
+   "immutability of the natures",
+   "condescension"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d7c3",
+    "pl-l3d6c6-d1e248"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:04:37Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d7c3": {
+  "summary": "Adds that though 'man is God' is said, 'lordly man' (homo dominicus) is not fittingly said, as Augustine retracted. On the third opinion the Son's person exists in and from two natures by adherence and inherence. Lombard ends having treated the question carefully according to the various opinions without assertion or prejudgment; the reader should consult other better treatments, holding firmly that God assumed man and man passed into God, not by change of nature but by God's condescension, since change of nature would diminish and abolish substance.",
+  "claims": [
+   "'Lordly man' is not a fitting title for Christ.",
+   "Lombard presents the three opinions without asserting one.",
+   "God assumed man without change of either nature."
+  ],
+  "concepts": [
+   "homo dominicus",
+   "three opinions",
+   "immutability of the natures",
+   "suspension of judgment"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d7c3-d1e117",
+    "pl-l3d7c3-d1e120",
+    "pl-l3d7c3-d1e132",
+    "pl-l3d7c3-d1e136"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T01:04:37Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

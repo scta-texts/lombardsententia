@@ -1,0 +1,80 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:01:54Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll2d9c2-d1e3514": {
+  "summary": "Proposes to consider what an order is and whether the orders were distinct from creation.",
+  "claims": [],
+  "concepts": [
+   "question"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d9c2",
+    "pl-l2d9c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:01:54Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d9c2-d1e3528": {
+  "summary": "Defines an order as a multitude of heavenly spirits alike in some gift of grace, as they share natural gifts. Seraphim, 'burning,' excel in charity; Cherubim, 'fullness of knowledge,' in knowledge; Thrones are so filled with grace that God sits in them and judges through them (Gregory); Dominations surpass Principalities and Powers; Principalities direct those below in divine mysteries; Powers restrain adverse powers from tempting as much as they wish; Virtues work signs and miracles; Archangels announce greater things, Angels lesser.",
+  "claims": [
+   "Each order is named for a gift of grace.",
+   "The orders have distinct functions."
+  ],
+  "concepts": [
+   "definition of order",
+   "etymology of names"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d9c2",
+    "pll2d9c2-d1e3514"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:01:54Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d9c2": {
+  "summary": "Defines an angelic order as a multitude of heavenly spirits alike in some gift of grace, as they agree in natural gifts. Seraphim burn most with charity; Cherubim excel in knowledge; Thrones are so filled with grace that God sits in them and judges through them (Gregory); Dominations surpass Principalities and Powers; Principalities direct those below them in divine mysteries; Powers restrain adverse powers from tempting as much as they wish; Virtues work signs and miracles; Archangels announce greater things, Angels lesser.",
+  "claims": [
+   "An order is a multitude of spirits alike in a gift of grace.",
+   "Seraphim excel in charity, Cherubim in knowledge.",
+   "Thrones are those in whom God sits and judges.",
+   "Powers restrain demons from tempting as much as they desire.",
+   "Virtues work miracles; Archangels announce greater things, Angels lesser."
+  ],
+  "concepts": [
+   "angelic orders",
+   "gifts of grace",
+   "Gregory",
+   "Hugh"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll2d9c2-d1e3514",
+    "pll2d9c2-d1e3528"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:01:54Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

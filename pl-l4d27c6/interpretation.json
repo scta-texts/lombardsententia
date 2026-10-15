@@ -1,0 +1,162 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T12:53:50Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d27c6-d1e112": {
+  "summary": "Gives their argument that bride and spouse differ greatly: a betrothed woman may, before carnal union, choose a monastery without her betrothed's consent or against his will, after which he may marry another; but a married man or woman can neither keep continence nor enter a monastery without common consent, unless both profess continence.",
+  "claims": [
+   "The betrothed may enter religion alone; spouses may not."
+  ],
+  "concepts": [
+   "betrothal",
+   "religious profession"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d27c6"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:53:50Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d27c6-d1e115": {
+  "summary": "Announces that the saints' authorities prove a betrothed woman may choose a monastery.",
+  "claims": [],
+  "concepts": [
+   "religious profession"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d27c6"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:53:50Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d27c6-d1e118": {
+  "summary": "Cites Pope Eusebius: parents may not give a betrothed girl to another man, but she may choose a monastery.",
+  "claims": [
+   "A betrothed girl may choose a monastery."
+  ],
+  "concepts": [
+   "religious profession",
+   "Eusebius"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d27c6"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:53:50Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d27c6-d1e124": {
+  "summary": "Cites Gregory: legal decrees ruled that a betrothed woman who wishes to enter religion should suffer no penalty.",
+  "claims": [],
+  "concepts": [
+   "religious profession",
+   "Gregory"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d27c6"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:53:50Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d27c6-d1e134": {
+  "summary": "Cites Jerome: Macarius, eminent among Christ's hermits, after the wedding feast, when about to enter the bridal chamber, left the city, crossed the sea, and chose the desert; and blessed Alexis, likewise called from his wedding, deserted his bride and began to serve Christ in poverty.",
+  "claims": [
+   "Saints left their brides for the religious life."
+  ],
+  "concepts": [
+   "Macarius",
+   "Alexis",
+   "religious life"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d27c6"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:53:50Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d27c6-d1e143": {
+  "summary": "Concludes that these authorities and examples show that the betrothed may profess continence without their partners' consent, and vice versa.",
+  "claims": [
+   "The betrothed may profess continence unilaterally."
+  ],
+  "concepts": [
+   "continence",
+   "betrothal"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d27c6"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:53:50Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d27c6": {
+  "summary": "Gives their argument that bride and spouse differ: a betrothed woman may enter a monastery before carnal union without her betrothed's consent, and he may then marry another, while spouses may neither keep continence nor enter a monastery without mutual consent. Pope Eusebius and Gregory permit the betrothed to choose the monastery, and Macarius and Alexis left their brides on the wedding night for the desert and Christ's service. So the betrothed may profess continence without each other's consent.",
+  "claims": [
+   "Betrothed persons may enter religion without each other's consent.",
+   "Spouses may not without mutual consent.",
+   "Macarius and Alexis left their brides for religion."
+  ],
+  "concepts": [
+   "betrothal",
+   "religious profession",
+   "continence",
+   "opposing opinion"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d27c6-d1e112",
+    "pl-l4d27c6-d1e115",
+    "pl-l4d27c6-d1e118",
+    "pl-l4d27c6-d1e124",
+    "pl-l4d27c6-d1e134",
+    "pl-l4d27c6-d1e143"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T12:53:50Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

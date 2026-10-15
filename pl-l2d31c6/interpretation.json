@@ -1,0 +1,165 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T21:06:51Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d31c6-d1e108": {
+  "summary": "Asks whether the cause of original sin said to be in the flesh is fault, punishment, or something else.",
+  "claims": [],
+  "concepts": [
+   "question"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d31c6",
+    "pl-l2d31c5"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:06:51Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d31c6-d1e111": {
+  "summary": "Argues it cannot be fault, since fault is not in an irrational thing; in the flesh before the soul's infusion it would be either actual or original, but it is not actual, nor original, since it is the cause of original sin.",
+  "claims": [
+   "Fault cannot be in the flesh alone."
+  ],
+  "concepts": [
+   "fault"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d31c6",
+    "pl-l2d31c6-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:06:51Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d31c6-d1e114": {
+  "summary": "Asks, if it is punishment, which one: passibility, mortality, or another corruption, since these defects are in the flesh.",
+  "claims": [],
+  "concepts": [
+   "punishment"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d31c6",
+    "pl-l2d31c6-d1e111"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:06:51Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d31c6-d1e118": {
+  "summary": "Answers that the defect of the flesh is manifold, but chiefly a pollution contracted in conception from the heat of the parents' union and lust is the cause of original sin, rightly called a defect or corruption of the flesh, perhaps greater in the propagated flesh than in its source. It is shown by its effect when the soul is infused and stained, as a defect in a jar is known when wine poured in turns sour.",
+  "claims": [
+   "The cause is a pollution of the flesh contracted in conception."
+  ],
+  "concepts": [
+   "analogy of the jar"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d31c6",
+    "pl-l2d31c6-d1e114"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:06:51Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d31c6-d1e121": {
+  "summary": "Warns not to be puzzled that children contract original sin from parents already cleansed of it by baptism.",
+  "claims": [],
+  "concepts": [
+   "objection"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d31c6",
+    "pl-l2d31c6-d1e118"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:06:51Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d31c6-d1e124": {
+  "summary": "Cites Augustine's comparisons: as the foreskin removed by circumcision remains in those the circumcised beget, and chaff carefully separated remains in grain grown from cleansed wheat, so sin cleansed by baptism in parents remains in their offspring; they beget from what is still old in them, according to their carnal, not their spiritual, birth.",
+  "claims": [
+   "Parents beget according to carnal birth."
+  ],
+  "concepts": [
+   "Augustine De peccatorum meritis",
+   "circumcision analogy"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d31c6",
+    "pl-l2d31c6-d1e121"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:06:51Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d31c6": {
+  "summary": "Asks whether the cause of original sin in the flesh is fault, punishment, or something else. It is not fault, since fault cannot be in an irrational thing, and it is the cause, not the fact, of original sin. Is it punishment, such as passibility or mortality? Lombard answers that the defect of flesh is manifold, but chiefly a pollution contracted in conception from the heat of the parents' union and libidinous concupiscence, rightly called a defect or corruption of the flesh, shown by its effect on the infused soul, as a defective jar is shown when wine poured in turns sour. That baptized parents transmit original sin is explained by Augustine's comparisons: the circumcised beget the uncircumcised, and winnowed wheat produces grain with chaff; parents beget according to their carnal, not their spiritual, birth.",
+  "claims": [
+   "The cause of original sin in the flesh is not fault.",
+   "That cause is a pollution of the flesh contracted in conception through lust.",
+   "The flesh's corruption is shown by its effect on the infused soul, like a jar souring wine.",
+   "Baptized parents still transmit original sin.",
+   "Parents beget according to carnal, not spiritual, birth."
+  ],
+  "concepts": [
+   "original sin",
+   "corruption of the flesh",
+   "analogy of the jar",
+   "baptism",
+   "circumcision analogy",
+   "Augustine De peccatorum meritis"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d31c6-d1e108",
+    "pl-l2d31c6-d1e111",
+    "pl-l2d31c6-d1e114",
+    "pl-l2d31c6-d1e118",
+    "pl-l2d31c6-d1e121",
+    "pl-l2d31c6-d1e124"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T21:06:51Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

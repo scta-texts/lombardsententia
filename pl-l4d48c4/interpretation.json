@@ -1,0 +1,60 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T13:14:26Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d48c4-d1e115": {
+  "summary": "Reports that some think the Lord will descend into the valley of Jehoshaphat for judgment, from Joel, 'I will gather all nations into the valley of Jehoshaphat'. An exposition says this is a childish reading, that he will descend into the valley beside the Mount of Olives; rather he will sit not on the earth but in the air opposite the Mount of Olives, from which he ascended; and, as Chrysostom says, angels will carry the sign of the cross before him, 'then the sign of the son of man will appear'. Jehoshaphat means 'judgment of the Lord': the impious will be gathered into the valley of judgment, that is damnation, while the just will not descend into it but be raised in the clouds to meet Christ.",
+  "claims": [
+   "Christ judges from the air over the Mount of Olives.",
+   "The sign of the cross precedes him.",
+   "The valley of Jehoshaphat signifies damnation."
+  ],
+  "concepts": [
+   "valley of Jehoshaphat",
+   "sign of the cross",
+   "allegory",
+   "Joel 3"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d48c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:14:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d48c4": {
+  "summary": "Some think the Lord will descend into the valley of Jehoshaphat for judgment, from Joel. A gloss calls this childish: he will not sit on earth but in the air opposite the Mount of Olives, from which he ascended, with angels bearing the sign of the cross before him, as Chrysostom says. Jehoshaphat means 'judgment of the Lord': the impious will be gathered into the valley of judgment, that is damnation, while the just are lifted in the clouds to meet Christ.",
+  "claims": [
+   "Christ will judge from the air above the Mount of Olives, not in the valley.",
+   "The sign of the cross will be borne before him.",
+   "The valley of Jehoshaphat signifies the damnation of the impious."
+  ],
+  "concepts": [
+   "final judgment",
+   "valley of Jehoshaphat",
+   "sign of the cross",
+   "allegory"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d48c4-d1e115"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T13:14:26Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

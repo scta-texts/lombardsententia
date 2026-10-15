@@ -1,0 +1,103 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:37:02Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d27c4-d1e108": {
+  "summary": "Asks among which goods free choice is contained.",
+  "claims": [],
+  "concepts": [
+   "question"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d27c4",
+    "pl-l2d27c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:37:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d27c4-d1e111": {
+  "summary": "Cites the Retractationes: free choice of will is among middle goods, since we can misuse it, but we cannot live rightly without it; its good use is virtue, found among great goods; since all goods are from God, the good use of free will, which is virtue, is also from God.",
+  "claims": [
+   "Free choice is a middle good.",
+   "Its good use is virtue and from God."
+  ],
+  "concepts": [
+   "Augustine Retractationes"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d27c4",
+    "pl-l2d27c4-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:37:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d27c4-d1e114": {
+  "summary": "Points out the tension: Augustine said the work of virtue is the good use of middle goods, which include free choice, and also that the good use of free choice is virtue; but if it is virtue, it is not the work of virtue, since virtue and its work differ.",
+  "claims": [
+   "Virtue and its work differ."
+  ],
+  "concepts": [
+   "virtue and act",
+   "tension in authorities"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d27c4",
+    "pl-l2d27c4-d1e111",
+    "pl-l2d27c3-d1e110"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:37:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d27c4": {
+  "summary": "Asks among which goods free choice belongs. Augustine places it among middle goods, since it can be misused yet one cannot live rightly without it; its good use is virtue, a great good, and since all goods are from God, so is the good use of free will. Lombard notes a tension: Augustine called the work of virtue the good use of middle goods, among which free choice is; if the good use of free choice is the work of virtue, it is not virtue, since virtue and its work differ.",
+  "claims": [
+   "Free choice is a middle good.",
+   "The good use of free choice is a virtue and a great good.",
+   "The good use of free will is from God.",
+   "If good use of free choice is the work of virtue, it cannot also be virtue."
+  ],
+  "concepts": [
+   "free choice",
+   "middle goods",
+   "virtue",
+   "use",
+   "Augustine Retractationes"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d27c4-d1e108",
+    "pl-l2d27c4-d1e111",
+    "pl-l2d27c4-d1e114"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:37:02Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

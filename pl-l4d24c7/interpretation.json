@@ -1,0 +1,144 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T12:50:50Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d24c7-d1e115": {
+  "summary": "States that the third order is exorcists.",
+  "claims": [],
+  "concepts": [
+   "exorcist"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d24c7"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:50:50Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d24c7-d1e118": {
+  "summary": "Explains that 'exorcist' means adjurer or rebuker: they invoke the Lord's name over catechumens and those with an unclean spirit, adjuring it to depart.",
+  "claims": [
+   "Exorcists adjure unclean spirits in the Lord's name."
+  ],
+  "concepts": [
+   "exorcist",
+   "etymology"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d24c7"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:50:50Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d24c7-d1e124": {
+  "summary": "States that the exorcist must hold the exorcisms in memory and lay hands on the possessed and catechumens; he who commands unclean spirits must have a clean spirit and expel the evil one from his own heart, lest the medicine he gives others not help him and he hear 'physician, heal yourself'.",
+  "claims": [
+   "Exorcists must be clean in spirit themselves."
+  ],
+  "concepts": [
+   "exorcist",
+   "purity of the minister"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d24c7"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:50:50Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d24c7-d1e134": {
+  "summary": "States that at ordination they receive from the bishop the book of exorcisms, with the words: receive and have power to lay hands on the possessed or catechumens.",
+  "claims": [
+   "Exorcists receive the book of exorcisms."
+  ],
+  "concepts": [
+   "exorcist",
+   "ordination rite"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d24c7"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:50:50Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d24c7-d1e143": {
+  "summary": "States that the Lord used this office when he touched the ears and tongue of the deaf mute saying 'Ephphatha', teaching that hearts' ears must be opened to understand and mouths to confess, so the Spirit receives his vessel when the demon is expelled; and when he healed many demoniacs. The order seems to descend from Solomon, who devised a mode of exorcism; Christ mentions such exorcists in the Gospel.",
+  "claims": [
+   "Christ exercised the exorcist's office.",
+   "The order seems to derive from Solomon."
+  ],
+  "concepts": [
+   "Christ as exemplar",
+   "Ephphatha",
+   "origins"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d24c7"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:50:50Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d24c7": {
+  "summary": "The third order is exorcists, meaning adjurers, who invoke the Lord's name over catechumens and the possessed so the unclean spirit departs; they must memorize exorcisms and lay hands on the possessed and catechumens, and must themselves be clean of spirit, lest they hear 'physician, heal yourself'. At ordination they receive the book of exorcisms. Christ used this office in opening the ears and tongue of the deaf mute and in healing demoniacs; the order seems to descend from Solomon.",
+  "claims": [
+   "Exorcists adjure unclean spirits in the Lord's name.",
+   "They must be clean of spirit themselves.",
+   "They receive the book of exorcisms at ordination.",
+   "Christ exercised this office."
+  ],
+  "concepts": [
+   "exorcist",
+   "seven grades",
+   "exorcism",
+   "Christ as exemplar"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d24c7-d1e115",
+    "pl-l4d24c7-d1e118",
+    "pl-l4d24c7-d1e124",
+    "pl-l4d24c7-d1e134",
+    "pl-l4d24c7-d1e143"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T12:50:50Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

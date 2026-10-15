@@ -1,0 +1,78 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T21:06:51Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d32c5-d1e108": {
+  "summary": "Asks whether original sin should be called voluntary or necessary.",
+  "claims": [],
+  "concepts": [
+   "question"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d32c5",
+    "pl-l2d32c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:06:51Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d32c5-d1e111": {
+  "summary": "Answers that it can be called necessary, being unavoidable ('deliver me from my necessities'), and voluntary, having come from the first man's will; Augustine: original sin in infants not yet using free choice is not absurdly called voluntary, since contracted from the first man's evil will it became in a way hereditary.",
+  "claims": [
+   "Original sin is both necessary and voluntary."
+  ],
+  "concepts": [
+   "Psalm 24:17",
+   "Augustine Retractationes"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d32c5",
+    "pl-l2d32c5-d1e108",
+    "pl-l2d30c13"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:06:51Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d32c5": {
+  "summary": "Asks whether original sin should be called voluntary or necessary. It can be called necessary because it cannot be avoided ('deliver me from my necessities,' Ps 24:17), and voluntary because it came from the first man's will; Augustine: original sin in infants, who do not yet use free choice, is not absurdly called voluntary, since contracted from the first man's evil will it became in a way hereditary.",
+  "claims": [
+   "Original sin is necessary because it cannot be avoided.",
+   "Original sin is voluntary because it came from the first man's will.",
+   "Original sin is in a way hereditary."
+  ],
+  "concepts": [
+   "original sin",
+   "voluntary and necessary",
+   "heredity",
+   "Augustine Retractationes"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d32c5-d1e108",
+    "pl-l2d32c5-d1e111"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T21:06:51Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

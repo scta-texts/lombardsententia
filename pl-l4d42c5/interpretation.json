@@ -1,0 +1,139 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T13:07:50Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d42c5-d1e115": {
+  "summary": "Asks whether one may marry his wife's co-mother after the wife's death.",
+  "claims": [],
+  "concepts": [
+   "spiritual kinship",
+   "affinity"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d42c5"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:07:50Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d42c5-d1e118": {
+  "summary": "Cites Pope Nicholas, asked whether one may have two co-mothers, one after the other: since man and woman become one flesh, the man becomes co-father to the woman whose co-mother his wife was, so he cannot marry her.",
+  "claims": [
+   "Through one flesh, the husband shares his wife's spiritual kinship."
+  ],
+  "concepts": [
+   "spiritual kinship",
+   "one flesh",
+   "Nicholas I"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d42c5"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:07:50Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d42c5-d1e127": {
+  "summary": "Cites a contrary text: one who has a spiritual co-father, whose son he received from the font, while his wife is not co-mother, may marry the co-father's widow after his death, since no spiritual generation separates them.",
+  "claims": [],
+  "concepts": [
+   "spiritual kinship",
+   "objection"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d42c5"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:07:50Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d42c5-d1e134": {
+  "summary": "Cites Paschal: after the wife's death, no reason or authority seems to forbid marrying the wife's co-mother, since one does not pass through carnal union to spiritual union.",
+  "claims": [
+   "Spiritual kinship does not pass through carnal union."
+  ],
+  "concepts": [
+   "spiritual kinship",
+   "Paschal II"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d42c5"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:07:50Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d42c5-d1e146": {
+  "summary": "Reconciles: Nicholas concerns one who rendered the debt to his wife after she became co-mother; the others concern one whose wife became co-mother after he left her and was not known by him after, or rather one whose wife died before he knew her.",
+  "claims": [
+   "Intercourse after the co-parenthood transmits the impediment."
+  ],
+  "concepts": [
+   "harmonizing authorities",
+   "spiritual kinship"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d42c5"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:07:50Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d42c5": {
+  "summary": "Asks whether one may marry his late wife's co-mother. Nicholas forbids it, since husband and wife become one flesh, so the husband becomes co-father to his wife's co-mother. Others allow it, as Paschal says no reason forbids it, since spiritual union does not pass through carnal union. Lombard reconciles: Nicholas concerns a man who had intercourse with his wife after she became co-mother; the others, one whose wife became co-mother after he left her and was not known by him afterward, or who died before he knew her.",
+  "claims": [
+   "Whether one may marry a late wife's co-mother is disputed.",
+   "Spiritual kinship passes to the husband through intercourse after the co-parenthood."
+  ],
+  "concepts": [
+   "spiritual kinship",
+   "affinity",
+   "harmonizing authorities"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d42c5-d1e115",
+    "pl-l4d42c5-d1e118",
+    "pl-l4d42c5-d1e127",
+    "pl-l4d42c5-d1e134",
+    "pl-l4d42c5-d1e146"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T13:07:50Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

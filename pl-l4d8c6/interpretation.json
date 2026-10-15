@@ -1,0 +1,79 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T11:54:53Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d8c6-d1e115": {
+  "summary": "Turns to what the sacrament is in the eucharist and what the reality.",
+  "claims": [],
+  "concepts": [
+   "sacramentum et res",
+   "eucharist"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d8c6"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:54:53Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d8c6-d1e118": {
+  "summary": "Answers that a sacrament is the visible form of invisible grace, so the form of bread or wine seen there is the sacrament, a sign of a sacred thing, since beyond the appearance it presents to the senses it makes something else come to mind. The species keep the names of the things that were there before, bread and wine.",
+  "claims": [
+   "The visible form of bread and wine is the sacrament.",
+   "The species keep the names of bread and wine."
+  ],
+  "concepts": [
+   "species",
+   "sign",
+   "sacramentum tantum"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d8c6",
+    "pl-l4d1c2",
+    "pl-l4d1c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:54:53Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d8c6": {
+  "summary": "Asks what is the sacrament and what the reality in the eucharist. A sacrament is the visible form of invisible grace, so the visible form of bread or wine is the sacrament, a sign of a sacred thing, bringing something else to mind; the species keep the names of the things that were there before, bread and wine.",
+  "claims": [
+   "The visible species of bread and wine are the sacrament.",
+   "The species keep the names of bread and wine."
+  ],
+  "concepts": [
+   "sacramentum tantum",
+   "species",
+   "sign",
+   "eucharist"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d8c6-d1e115",
+    "pl-l4d8c6-d1e118"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T11:54:53Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T11:04:07Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l3d32c4-d1e115": {
+  "summary": "Asks whether one person is loved more by God at one time than another, and distinguishes: granted if referred to the effect of love, denied if referred to its essence.",
+  "claims": [
+   "The question is granted regarding effect and denied regarding essence."
+  ],
+  "concepts": [
+   "essence and efficacy",
+   "God's love"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d32c4",
+    "pl-l3d32c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:04:07Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d32c4": {
+  "summary": "Asks whether one person is loved more by God at one time than at another, and answers by distinguishing the sense: it can be granted if it refers to the effect of love, but must be denied if it refers to love's essence.",
+  "claims": [
+   "One may be loved more by God at one time than another according to the effect, not the essence, of love."
+  ],
+  "concepts": [
+   "essence and efficacy",
+   "God's love",
+   "change in time"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d32c4-d1e115"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T11:04:07Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

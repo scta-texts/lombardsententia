@@ -1,0 +1,57 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T21:14:34Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d42c6-d1e108": {
+  "summary": "Lists, with Gregory, seven capital or principal vices: vainglory, anger, envy, acedia or sadness, avarice, gluttony, and lust, signified, as Chrysostom says, by the seven peoples holding the promised land. From these seven springs flow all deadly corruptions of souls; they are capital because all evils arise from them.",
+  "claims": [
+   "All evils arise from seven capital vices."
+  ],
+  "concepts": [
+   "capital vices"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d42c6",
+    "pl-l2d42c5"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:14:34Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d42c6": {
+  "summary": "Lists the seven capital or principal vices, with Gregory: vainglory, anger, envy, acedia or sadness, avarice, gluttony, and lust, signified, as Chrysostom says, by the seven peoples holding the promised land. From these as from seven springs flow all deadly corruptions of souls; they are called capital because all evils originate from them.",
+  "claims": [
+   "There are seven capital vices.",
+   "They are vainglory, anger, envy, acedia or sadness, avarice, gluttony, and lust.",
+   "The seven peoples of Canaan signify them.",
+   "All evils originate from the capital vices."
+  ],
+  "concepts": [
+   "capital vices",
+   "Gregory the Great",
+   "Chrysostom",
+   "seven peoples of Canaan"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d42c6-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T21:14:34Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

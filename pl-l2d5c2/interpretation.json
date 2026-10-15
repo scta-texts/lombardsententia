@@ -1,0 +1,59 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T18:59:02Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll2d5c2-d1e3514": {
+  "summary": "States that all had free choice, the free power and aptitude of rational will: to choose by will and judge by reason. They were not created willing to turn away or toward, but able to will either; after creation some freely chose evil, others good. So God divided light from darkness, the good angels from the bad, illumining the good by grace and blinding the bad.",
+  "claims": [
+   "Free choice consists in will and rational judgment.",
+   "Angels were created indifferent and then chose freely."
+  ],
+  "concepts": [
+   "liberum arbitrium",
+   "allegorical exegesis of Genesis 1:4"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d5c2",
+    "pll2d5c1-d1e3526"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:59:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d5c2": {
+  "summary": "States that all angels had free choice, the free power and aptitude of rational will to choose by will and judge by reason. They were not created already willing to turn toward or away, but able to will either; after creation some freely chose evil, others good. So God divided light from darkness (Gen 1:4), illumining the good angels by grace and blinding the bad.",
+  "claims": [
+   "All angels had free choice, consisting in willing and judging.",
+   "Angels were created able to will either good or evil, not already willing one.",
+   "After creation some freely chose good, others evil.",
+   "God's dividing light from darkness signifies the separation of good and bad angels."
+  ],
+  "concepts": [
+   "liberum arbitrium",
+   "Genesis 1:4",
+   "good and bad angels",
+   "illumination"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll2d5c2-d1e3514"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T18:59:02Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

@@ -1,0 +1,146 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T12:53:50Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d27c4-d1e112": {
+  "summary": "States that the testimonies of the saints prove that from the betrothal itself, in which the conjugal pact is expressed, they are spouses.",
+  "claims": [
+   "Betrothal with conjugal pact makes spouses."
+  ],
+  "concepts": [
+   "betrothal",
+   "consent"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d27c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:53:50Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d27c4-d1e115": {
+  "summary": "Cites Ambrose: when marriage begins, the name of marriage is taken; when she is joined to a man, it is marriage, not when she knows him carnally.",
+  "claims": [
+   "Marriage begins at the joining, not intercourse."
+  ],
+  "concepts": [
+   "betrothal",
+   "Ambrose"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d27c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:53:50Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d27c4-d1e124": {
+  "summary": "Cites Isidore: they are more truly called spouses from the first faith of betrothal, even though conjugal intercourse has not yet occurred.",
+  "claims": [
+   "Spouses are such from the betrothal."
+  ],
+  "concepts": [
+   "betrothal",
+   "Isidore"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d27c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:53:50Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d27c4-d1e130": {
+  "summary": "Cites Augustine: Mary is called spouse from the first faith of betrothal, though Joseph had not known and would not know her; the name was not false where there was and would be no carnal union; so both merited to be called Christ's parents, in mind, not flesh.",
+  "claims": [
+   "Mary and Joseph were true spouses.",
+   "Both are rightly called Christ's parents."
+  ],
+  "concepts": [
+   "Mary and Joseph",
+   "marriage without consummation",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d27c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:53:50Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d27c4-d1e140": {
+  "summary": "Concludes that from the moment voluntary and marital consent, which alone makes marriage, occurs, bridegroom and bride are true spouses.",
+  "claims": [
+   "Marital consent alone makes them spouses."
+  ],
+  "concepts": [
+   "consent",
+   "betrothal"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d27c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:53:50Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d27c4": {
+  "summary": "Proves that from the betrothal in which the conjugal pact is expressed they are spouses: Ambrose, Isidore, and Augustine say marriage begins with the first faith of betrothal, not with intercourse, so that Mary and Joseph were truly called spouses and both Christ's parents, in mind, not flesh. So from the time voluntary marital consent occurs, which alone makes marriage, the betrothed are true spouses.",
+  "claims": [
+   "Spouses are spouses from the betrothal expressing the conjugal pact.",
+   "Mary and Joseph were true spouses without carnal union.",
+   "Voluntary marital consent alone makes marriage."
+  ],
+  "concepts": [
+   "betrothal",
+   "consent",
+   "Mary and Joseph",
+   "marriage without consummation"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d27c4-d1e112",
+    "pl-l4d27c4-d1e115",
+    "pl-l4d27c4-d1e124",
+    "pl-l4d27c4-d1e130",
+    "pl-l4d27c4-d1e140"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T12:53:50Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

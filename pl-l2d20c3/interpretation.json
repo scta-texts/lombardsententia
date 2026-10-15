@@ -1,0 +1,101 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:15:59Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d20c3-d1e108": {
+  "summary": "States that Scripture gives nothing certain about when they would have passed to the spiritual, heavenly life: whether parents, after begetting children and completing justice, would pass by change, not death, or remain in some state until the children reached it and, the number complete, all be changed together to be like the angels.",
+  "claims": [
+   "The time of transition is uncertain."
+  ],
+  "concepts": [
+   "open question"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d20c3",
+    "pl-l2d20c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:15:59Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d20c3-d1e111": {
+  "summary": "Cites Augustine's ambiguous discussion: the first humans could have begotten children who succeeded parents who remained in some state, invigorated by the tree of life, until the number was complete and all animal bodies passed without death into a quality serving the spirit, living without bodily food; or parents could yield to children, being changed after completing justice, not by death but by change.",
+  "claims": [
+   "Augustine offers two possibilities."
+  ],
+  "concepts": [
+   "Augustine De Genesi ad litteram"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d20c3",
+    "pl-l2d20c3-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:15:59Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d20c3-d1e116": {
+  "summary": "Concludes that on the passage to the better state it is left uncertain whether all would be transferred together or in succession.",
+  "claims": [
+   "The manner of transition is uncertain."
+  ],
+  "concepts": [
+   "conclusion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d20c3",
+    "pl-l2d20c3-d1e111"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:15:59Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d20c3": {
+  "summary": "Asks when humans would have passed to the spiritual, heavenly life. Scripture gives nothing certain: perhaps the parents, after begetting children and completing human justice, would have been changed without death; or they would have remained in some state, nourished by the tree of life, until the children reached it and the number was complete, and all would be transformed together, like the angels. Augustine speaks ambiguously, offering both, so the matter is left uncertain.",
+  "claims": [
+   "Scripture does not say when humans would have passed to the higher life.",
+   "Possibly parents would have been changed without death after begetting children.",
+   "Possibly all would be changed together when the number was complete.",
+   "Augustine leaves both possibilities open."
+  ],
+  "concepts": [
+   "passage to the higher life",
+   "translation without death",
+   "Augustine",
+   "open question"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d20c3-d1e108",
+    "pl-l2d20c3-d1e111",
+    "pl-l2d20c3-d1e116"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:15:59Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

@@ -1,0 +1,126 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:01:54Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll2d9c7-d1e3514": {
+  "summary": "States that humans are admitted to beatitude according to the number not of those who fell but of those who remained.",
+  "claims": [
+   "The saved humans correspond to the angels who remained."
+  ],
+  "concepts": [
+   "number of the saved"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d9c7",
+    "pl-l2d9c6"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:01:54Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d9c7-d1e3517": {
+  "summary": "Cites Gregory: the heavenly city consists of angels and humans, and as many humans ascend as angels remained, as Deut 32:8 says, 'he set the bounds of the peoples according to the number of the angels of God.'",
+  "claims": [
+   "Humans ascend in number equal to the angels who remained."
+  ],
+  "concepts": [
+   "Gregory",
+   "Deuteronomy 32:8"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d9c7",
+    "pll2d9c7-d1e3514"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:01:54Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d9c7-d1e3541": {
+  "summary": "Reports that some think humans are restored according to the number of the fallen angels, so the city is neither deprived of citizens nor more numerous.",
+  "claims": [
+   "Some hold humans replace exactly the fallen angels."
+  ],
+  "concepts": [
+   "opinion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d9c7",
+    "pll2d9c7-d1e3517"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:01:54Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d9c7-d1e3545": {
+  "summary": "Cites the Enchiridion: the heavenly Jerusalem will lose none of its citizens, perhaps reigning with more; we know neither the number of saints nor of demons whom the Church's children replace; the number is in the contemplation of the Creator. So Augustine says no fewer humans than fallen angels will be saved, but does not assert more.",
+  "claims": [
+   "No fewer humans than fallen angels will be saved.",
+   "The number is known only to God."
+  ],
+  "concepts": [
+   "Augustine Enchiridion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d9c7",
+    "pll2d9c7-d1e3541"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:01:54Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d9c7": {
+  "summary": "Asks how many humans will be saved. Gregory: humans are admitted to beatitude according to the number of angels who remained, citing Deut 32:8 ('he set the bounds of the peoples according to the number of the angels'). Others think humans are restored according to the number of the fallen angels. Augustine in the Enchiridion says the heavenly Jerusalem will lose none of its citizens and perhaps reign with more, the number being known to God; Lombard notes he says no fewer humans than fallen angels will be saved, but does not assert more.",
+  "claims": [
+   "Gregory holds humans are saved according to the number of angels who remained.",
+   "Others hold humans replace the number of fallen angels.",
+   "Augustine says no fewer humans than fallen angels will be saved, perhaps more.",
+   "The number of the saved is known to God alone."
+  ],
+  "concepts": [
+   "number of the saved",
+   "Gregory",
+   "Augustine Enchiridion",
+   "Deuteronomy 32:8",
+   "heavenly Jerusalem"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll2d9c7-d1e3514",
+    "pll2d9c7-d1e3517",
+    "pll2d9c7-d1e3541",
+    "pll2d9c7-d1e3545"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:01:54Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

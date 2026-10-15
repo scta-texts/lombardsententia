@@ -1,0 +1,57 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T17:50:29Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll1d35c6-d1e3499": {
+  "summary": "States that wisdom or knowledge concerns all things, good and evil, present, past, and future, temporal and eternal; God knows temporal things without failing to know himself, and alone knows himself perfectly, compared to which all creaturely knowledge is imperfect.",
+  "claims": [
+   "God knows all things.",
+   "God alone knows himself perfectly."
+  ],
+  "concepts": [
+   "omniscience"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d35c6",
+    "pll1d35c1-d1e3504"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:50:29Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1d35c6": {
+  "summary": "States that wisdom or knowledge concerns all things, good and evil, present, past, and future, temporal and eternal. God does not know temporal things so as not to know himself; he alone knows himself perfectly, and compared with his knowledge every creature's knowledge is imperfect.",
+  "claims": [
+   "God's knowledge concerns all things, good and evil, past, present, and future.",
+   "God's knowledge includes eternal as well as temporal things.",
+   "God alone knows himself perfectly.",
+   "All creaturely knowledge is imperfect compared with God's."
+  ],
+  "concepts": [
+   "scientia Dei",
+   "self-knowledge of God",
+   "omniscience"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d35c6-d1e3499"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T17:50:29Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

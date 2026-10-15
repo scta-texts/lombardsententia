@@ -1,0 +1,197 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T21:12:25Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d38c4-d1e108": {
+  "summary": "Asks how will, intention, and end differ.",
+  "claims": [],
+  "concepts": [
+   "question",
+   "will and intention"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d38c4",
+    "pl-l2d38c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:12:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d38c4-d1e111": {
+  "summary": "Answers that will is that by which we will something; its end is what we will, by which the will is fulfilled, or rather that for which we will it. Intention is taken sometimes for will, sometimes for its end, which the careful reader must distinguish. The end of will is good or evil delight, to which each strives.",
+  "claims": [
+   "Intention means will or end.",
+   "The end of will is delight."
+  ],
+  "concepts": [
+   "will and intention",
+   "delight"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d38c4",
+    "pl-l2d38c4-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:12:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d38c4-d1e114": {
+  "summary": "Cites Augustine on 'God searches hearts and reins': hearts are what one thinks, reins what delights one, since delight is the end of care and thought; men see our works, but only God sees with what mind they are done and where one wishes to arrive, and directs the just when he sees the heart in heaven, delighting in the Lord.",
+  "claims": [
+   "God sees the intention and delight."
+  ],
+  "concepts": [
+   "Augustine Enarrationes",
+   "Psalm 7:10"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d38c4",
+    "pl-l2d38c4-d1e111"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:12:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d38c4-d1e118": {
+  "summary": "Cites Augustine: the foot of the soul is love, called cupidity or lust if wrong, charity if right; by it the soul moves to good or evil delight. So the end of will is what we will and that for which; intention regards that for which, will that which: in feeding the hungry to have eternal life, the will to feed has feeding as end, the intention aims at life, the supreme end to which the other is referred.",
+  "claims": [
+   "Love moves the soul.",
+   "Will regards the act; intention the further end."
+  ],
+  "concepts": [
+   "cupiditas and caritas",
+   "example of almsgiving"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d38c4",
+    "pl-l2d38c4-d1e114"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:12:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d38c4-d1e123": {
+  "summary": "Asks whether such intention is a will, and if so whether the will to have eternal life and the will to feed the hungry are one.",
+  "claims": [],
+  "concepts": [
+   "question"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d38c4",
+    "pl-l2d38c4-d1e118"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:12:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d38c4-d1e126": {
+  "summary": "States that intention seems to be a will, and that there seem to be two wills, one referred to the other: one rests with some delight in feeding, but it is not the goal, like a traveller's rest compared to a citizen's homeland; these wills are steps toward the homeland, as Augustine's will to see windows and will to see passersby through them.",
+  "claims": [
+   "Some hold two distinct wills, ordered."
+  ],
+  "concepts": [
+   "opinion",
+   "analogy of the traveller"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d38c4",
+    "pl-l2d38c4-d1e123",
+    "pl-l2d38c3-d1e111"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:12:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d38c4-d1e129": {
+  "summary": "Reports others who think it is one will, diversified by multiple objects. Whichever is true, no one doubts the will is weighed by its end, right or wrong, sin or grace, and that intention sometimes means end, sometimes will.",
+  "claims": [
+   "The will is judged by its end."
+  ],
+  "concepts": [
+   "opinion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d38c4",
+    "pl-l2d38c4-d1e126"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:12:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d38c4": {
+  "summary": "Asks how will, intention, and end differ. Will is that by which we will something; the end of will is what we will, by which the will is fulfilled, or rather that for which we will it. Intention sometimes means the will, sometimes its end. The end of will is good or evil delight (Augustine: God searches hearts, what one thinks, and reins, what delights one; the foot of the soul is love, cupidity or charity). In feeding the hungry to gain eternal life, the will aims at feeding, the intention at life, the supreme end. Is that intention a will, and the same as the will to feed? Some say they are different wills, one referred to the other, as Augustine's will to see the window and will to see passersby; others say one will, diversified by objects. Either way, the will is judged right or wrong, sin or grace, by its end.",
+  "claims": [
+   "Will is that by which we will; the end is what we will or that for which we will it.",
+   "Intention sometimes means will, sometimes end.",
+   "The end of will is good or evil delight.",
+   "Love is the foot of the soul: cupidity or charity.",
+   "Some hold the will to the means and the intention to the end are distinct wills; others one will.",
+   "The will is judged by its end."
+  ],
+  "concepts": [
+   "will and intention",
+   "end",
+   "delight",
+   "love",
+   "cupiditas and caritas",
+   "school opinions"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d38c4-d1e108",
+    "pl-l2d38c4-d1e111",
+    "pl-l2d38c4-d1e114",
+    "pl-l2d38c4-d1e118",
+    "pl-l2d38c4-d1e123",
+    "pl-l2d38c4-d1e126",
+    "pl-l2d38c4-d1e129"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T21:12:25Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

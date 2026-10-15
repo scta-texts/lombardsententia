@@ -1,0 +1,88 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T11:04:07Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l3d32c3-d1e112": {
+  "summary": "Distinguishes God's love by essence and by efficacy: by essence it admits no more or less, but by efficacy some are more loved, for whom he prepared from eternity and gives in time greater good. So those converted and justified are said to begin to be loved by God, not because he loves with a new love, since he loved all whom he loves before the world's foundation, but because they then receive the effect of his eternal love, grace or glory.",
+  "claims": [
+   "God's love varies only in efficacy.",
+   "God loves no one with a new love.",
+   "Beginning to be loved means beginning to receive grace or glory."
+  ],
+  "concepts": [
+   "essence and efficacy",
+   "God's love",
+   "justification",
+   "grace and glory"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d32c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:04:07Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d32c3-d1e124": {
+  "summary": "Quotes Augustine: God does not love anyone temporally with a new love, since for him past things have not passed and future things are already done. He loved all his saints before the world's foundation as he predestined them; they are said to begin to be loved when converted, speaking in a way human affection can grasp. So when he is said to be angry with the wicked and gentle to the good, they change, not he, as light is harsh to weak eyes and gentle to strong ones; so when one becomes God's friend by justification, he changes, not God.",
+  "claims": [
+   "God loved the saints from eternity as he predestined them.",
+   "In conversion and justification, the creature changes, not God."
+  ],
+  "concepts": [
+   "immutability",
+   "predestination",
+   "justification",
+   "light analogy",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d32c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:04:07Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d32c3": {
+  "summary": "Distinguishes God's love according to essence and according to efficacy: it admits more and less only in efficacy, so that those to whom he prepared and gives greater good are said to be more loved. So those converted and justified are said to begin to be loved, not because God loves with a new love, since he loved all whom he loves before the world's foundation, but because they then receive the effect of his eternal love, grace or glory. Augustine: God does not love anyone with a new love in time; when people are converted, they change, not he, as light is harsh to weak eyes and gentle to strong ones.",
+  "claims": [
+   "God's love admits more and less only according to efficacy, not essence.",
+   "God loves the saints from eternity, as he predestined them.",
+   "Those justified begin to be loved in that they receive the effect of eternal love.",
+   "In conversion the creature changes, not God."
+  ],
+  "concepts": [
+   "essence and efficacy",
+   "God's love",
+   "predestination",
+   "justification",
+   "immutability"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d32c3-d1e112",
+    "pl-l3d32c3-d1e124"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T11:04:07Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

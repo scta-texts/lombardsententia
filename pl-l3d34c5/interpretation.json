@@ -1,0 +1,91 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T11:06:24Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l3d34c5-d1e115": {
+  "summary": "Quotes Augustine: one who begins to believe in the day of judgment begins to fear; one who still fears lacks confidence and perfect charity, which would make perfect justice and desire the kingdom. Fear is not in perfect charity, but in beginning charity. Fear of the Lord is the beginning of wisdom and prepares a place for charity; as charity grows and moves inward, fear is driven out, the more of one the less of the other. Without fear, charity has no way in, as the bristle draws in the thread when sewing; fear enters first in order to bring charity in.",
+  "claims": [
+   "Fear is not in perfect charity.",
+   "Fear prepares a place for charity.",
+   "As charity grows, fear decreases."
+  ],
+  "concepts": [
+   "fear and charity",
+   "perfect charity",
+   "beginning of wisdom",
+   "bristle and thread analogy",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d34c5"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:06:24Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d34c5-d1e136": {
+  "summary": "Continues Augustine: 'the chaste fear of the Lord endures forever' seems to contradict 'perfect charity casts out fear', but one Spirit, like breath in two pipes, speaks through John and David in harmony for a studious hearer. 'Chaste' is added deliberately: some fear God lest they burn in hell, a fear that introduces charity and leaves, since one who fears penalty does not yet love. Correcting oneself and beginning to desire the good, one has chaste fear: fearing to lose the goods, fearing lest God withdraw, embracing him and desiring to enjoy him.",
+  "claims": [
+   "John and David do not contradict each other on fear.",
+   "Fear of hell introduces charity but does not remain.",
+   "Chaste fear fears God's withdrawal and desires to enjoy him."
+  ],
+  "concepts": [
+   "chaste fear",
+   "servile fear",
+   "harmonizing Scripture",
+   "two pipes analogy",
+   "enjoyment of God"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d34c5"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:06:24Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d34c5": {
+  "summary": "Quotes Augustine at length on 1 John. Whoever believes in judgment begins to fear, but perfect charity casts out fear: fear prepares a place for charity, and as charity grows fear decreases, like the bristle that draws in the thread when sewing. Yet the Psalm says chaste fear of the Lord endures forever. John and David, two pipes of one Spirit, do not conflict: there is a fear that is chaste and one that is not. Some fear God lest they be sent to hell: this fear introduces charity and leaves. Chaste fear fears to lose the goods, that God may withdraw; it embraces God and desires to enjoy him.",
+  "claims": [
+   "Perfect charity casts out fear.",
+   "Fear prepares the way for charity and decreases as charity grows.",
+   "Chaste fear endures forever.",
+   "Fear of punishment introduces charity and then departs.",
+   "Chaste fear fears that God may withdraw."
+  ],
+  "concepts": [
+   "servile fear",
+   "chaste fear",
+   "perfect charity",
+   "harmonizing Scripture",
+   "growth in charity"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d34c5-d1e115",
+    "pl-l3d34c5-d1e136"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T11:06:24Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

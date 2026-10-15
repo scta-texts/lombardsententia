@@ -1,0 +1,100 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T21:06:51Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d32c4-d1e108": {
+  "summary": "Asks by what justice the innocent soul created by God is held by original sin, when it cannot avoid it and does not commit it by free choice, since it is liable to it as soon as it exists.",
+  "claims": [],
+  "concepts": [
+   "question",
+   "justice of original sin"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d32c4",
+    "pl-l2d32c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:06:51Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d32c4-d1e111": {
+  "summary": "Reports some who say the soul is guilty because when infused it takes delight with the flesh and so contracts sin.",
+  "claims": [
+   "One view: the soul consents to the flesh."
+  ],
+  "concepts": [
+   "opinion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d32c4",
+    "pl-l2d32c4-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:06:51Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d32c4-d1e114": {
+  "summary": "Objects that then the sin would be actual, not original. Rather, it is rightly imputed because, as Augustine says, the body's corruption that weighs down the soul was not the cause of the first sin but its punishment: corruptible flesh did not make the soul sinful, but the sinful soul made the flesh corruptible.",
+  "claims": [
+   "Corruption of the body is punishment of sin."
+  ],
+  "concepts": [
+   "Augustine De civitate Dei"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d32c4",
+    "pl-l2d32c4-d1e111"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:06:51Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d32c4": {
+  "summary": "Asks by what justice an innocent soul created by God is held to original sin, which it cannot avoid since it does not commit it by free choice. Some say the soul, when infused, takes delight with the flesh and so contracts sin; but that would make it actual, not original. Rather, it is rightly imputed because, as Augustine says, the corruption of the body was not the cause of the first sin but its punishment: corruptible flesh did not make the soul sinful, but the sinful soul made the flesh corruptible.",
+  "claims": [
+   "The soul is held to a sin it cannot avoid or freely commit.",
+   "If the soul contracted sin by delighting in the flesh, the sin would be actual.",
+   "The body's corruption is the punishment, not the cause, of the first sin.",
+   "The sinful soul made the flesh corruptible, not the reverse."
+  ],
+  "concepts": [
+   "justice of original sin",
+   "imputation",
+   "corruption of the body",
+   "Augustine De civitate Dei"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d32c4-d1e108",
+    "pl-l2d32c4-d1e111",
+    "pl-l2d32c4-d1e114"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T21:06:51Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

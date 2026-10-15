@@ -1,0 +1,64 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:38:20Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d28c4-d1e108": {
+  "summary": "Concludes with Jerome's exposition of the faith to Damasus, against Jovinian, Mani, and Pelagius: we confess free choice so as to say we always need God's help; those who say with Mani that man cannot avoid sin, and those who say with Jovinian that he cannot sin, both err and remove freedom of choice; we say man can always sin and not sin, and so confess we are always free. This is the faith of the Catholic Church.",
+  "claims": [
+   "We always need God's help.",
+   "Man can always sin and not sin."
+  ],
+  "concepts": [
+   "Jerome",
+   "Jovinian",
+   "Manichaeism"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d28c4",
+    "pl-l2d28c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:38:20Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d28c4": {
+  "summary": "Concludes with Jerome's exposition of the Catholic faith to Pope Damasus, refuting Jovinian, Mani, and Pelagius: we confess free choice so as to say we always need God's help; those who say with Mani that man cannot avoid sin err as much as those who say with Jovinian that man cannot sin; both remove freedom of choice; we say man can always sin and not sin, and so is always free.",
+  "claims": [
+   "We always need God's help.",
+   "It is an error to say man cannot avoid sin.",
+   "It is an error to say man cannot sin.",
+   "Both errors remove freedom of choice.",
+   "Man can always sin and not sin, and so is always free."
+  ],
+  "concepts": [
+   "free choice",
+   "grace",
+   "Jerome",
+   "Manichaeism",
+   "Jovinian",
+   "Pelagianism",
+   "Catholic faith"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d28c4-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:38:20Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

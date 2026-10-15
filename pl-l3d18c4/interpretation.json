@@ -1,0 +1,87 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T01:11:30Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l3d18c4-d1e117": {
+  "summary": "Answers whether Christ could have had the glory of immortality and impassibility and the manifestation of God's name without any merit: he could have assumed human nature as glorious as it was in the resurrection and manifested his name to men otherwise; but he could not be a passible man, as he was, and reach that glory without merit.",
+  "claims": [
+   "God could have assumed glorified human nature.",
+   "As passible man, Christ could not reach glory without merit."
+  ],
+  "concepts": [
+   "divine power",
+   "merit of Christ",
+   "glory"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d18c4",
+    "pl-l3d18c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:11:30Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d18c4-d1e120": {
+  "summary": "Explains that he could have reached it without the merit of the passion, by being clothed in immortality once mortality was consumed, but not without the merit of justice, charity, and other virtues. Christ could not be man without the fullness of virtues and grace, and could not have virtues while clothed in mortality without meriting through them. Having them as passible and mortal man, he could not fail to merit the glory of immortality, but he could attain it without the merit of the passion, since by the passion he merited nothing for himself that he had not merited before by his virtues.",
+  "claims": [
+   "Christ could have attained glory without the merit of the passion.",
+   "Christ could not have virtues in mortal flesh without meriting.",
+   "By the passion Christ merited nothing for himself beyond what his virtues merited."
+  ],
+  "concepts": [
+   "merit of Christ",
+   "virtues",
+   "fullness of grace"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d18c4",
+    "pl-l3d18c4-d1e117",
+    "pl-l3d18c2-d1e126"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:11:30Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d18c4": {
+  "summary": "Asks whether Christ could have had the glory of immortality, impassibility, and the manifestation of the divine name without any merit. He could have assumed human nature already glorious, and manifested his name otherwise; but as a passible man he could not have reached that glory without merit. He could have reached it without the merit of the passion, but not without the merit of justice, charity, and other virtues, since he could not be man without the fullness of virtues and grace, and could not have virtues in mortal flesh without meriting through them.",
+  "claims": [
+   "God could have assumed human nature already glorified.",
+   "As passible man, Christ could not attain glory without merit.",
+   "Christ could have attained glory without the merit of the passion, but not without the merit of virtue.",
+   "Christ in mortal flesh could not have virtues without meriting."
+  ],
+  "concepts": [
+   "merit of Christ",
+   "glory",
+   "fullness of grace",
+   "divine power"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d18c4-d1e117",
+    "pl-l3d18c4-d1e120"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T01:11:30Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

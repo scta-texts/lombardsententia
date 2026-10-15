@@ -1,0 +1,131 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:32:08Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d23c3-d1e108": {
+  "summary": "States that the first man before the fall had threefold knowledge: of things made for him, of the Creator, and of himself.",
+  "claims": [
+   "Adam had threefold knowledge."
+  ],
+  "concepts": [
+   "threefold knowledge"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d23c3",
+    "pl-l2d23c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:32:08Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d23c3-d1e114": {
+  "summary": "Explains knowledge of things: man, not God or an angel, named the animals, showing he knew each. God gave him knowledge, providence, and care of what was made for him to rule ('God does not care for oxen'), so they would be subject to him and governed by his reason. He did not lose this by sin, nor knowledge to provide for the flesh; so Scripture teaches him not these but the soul's knowledge, which he lost.",
+  "claims": [
+   "Adam knew and governed the animals.",
+   "Sin did not destroy practical knowledge but the knowledge of the soul."
+  ],
+  "concepts": [
+   "naming of animals",
+   "dominion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d23c3",
+    "pl-l2d23c3-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:32:08Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d23c3-d1e122": {
+  "summary": "Explains knowledge of the Creator: he knew his maker not by hearing alone, as believers seek him absent, but by an inward inspiration contemplating God's presence, though not as excellently as the saints will after this life nor in an enigma as we now see.",
+  "claims": [
+   "Adam contemplated God's presence inwardly.",
+   "His knowledge was between faith now and future vision."
+  ],
+  "concepts": [
+   "knowledge of God",
+   "1 Corinthians 13:12"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d23c3",
+    "pl-l2d23c3-d1e114"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:32:08Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d23c3-d1e129": {
+  "summary": "Explains self-knowledge: he knew what he owed to superior, equal, and inferior, his condition and order, how to proceed, what to do and avoid; without this he would not be guilty of transgression or know himself.",
+  "claims": [
+   "Adam knew his duties.",
+   "Without such knowledge he would not be guilty."
+  ],
+  "concepts": [
+   "self-knowledge",
+   "culpability"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d23c3",
+    "pl-l2d23c3-d1e122"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:32:08Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d23c3": {
+  "summary": "Holds that the first man before the fall had threefold knowledge: of things made for him, of the Creator, and of himself. He knew the creatures, naming the animals and receiving their care and governance (God does not care for oxen, but entrusted them to man); this knowledge he did not lose by sin, so Scripture teaches him about the soul's knowledge instead, which he lost. He knew the Creator not by hearing, as believers seek him absent, but by an inward inspiration contemplating his presence, though not as the saints will hereafter nor in an enigma as now. He knew himself: what he owed to superiors, equals, and inferiors, and his condition, order, and duties; otherwise he would not be guilty of transgression.",
+  "claims": [
+   "Adam knew things made for him, the Creator, and himself.",
+   "He named the animals and had governance over them.",
+   "Knowledge of temporal things was not lost by sin; knowledge pertaining to the soul was.",
+   "Adam knew God by an inward contemplation of his presence, between our faith and the saints' vision.",
+   "Adam knew his duties to superiors, equals, and inferiors, so his transgression was culpable."
+  ],
+  "concepts": [
+   "original knowledge",
+   "naming of animals",
+   "knowledge of God",
+   "self-knowledge",
+   "effects of sin"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d23c3-d1e108",
+    "pl-l2d23c3-d1e114",
+    "pl-l2d23c3-d1e122",
+    "pl-l2d23c3-d1e129"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:32:08Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

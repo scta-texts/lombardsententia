@@ -1,0 +1,80 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T21:09:26Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d33c4-d1e108": {
+  "summary": "Answers that the first parents obtained pardon for that sin through penance.",
+  "claims": [
+   "Adam and Eve were forgiven through penance."
+  ],
+  "concepts": [
+   "penance"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d33c4",
+    "pl-l2d33c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:09:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d33c4-d1e111": {
+  "summary": "Cites De baptismo parvulorum: as the first parents, living justly afterward, are believed freed from final punishment by the Lord's blood, though not recalled to paradise in that life, so the flesh of sin, even with sins forgiven, does not at once merit not to suffer the death it contracted from sin's propagation.",
+  "claims": [
+   "Forgiveness does not remove bodily death."
+  ],
+  "concepts": [
+   "Augustine De peccatorum meritis"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d33c4",
+    "pl-l2d33c4-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:09:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d33c4": {
+  "summary": "Holds that the first parents obtained pardon for their sin through penance. Augustine: they are believed, living justly afterward, to have been freed from final punishment by the Lord's blood, though they did not merit recall to paradise in that life; so too the flesh of sin, even with sins forgiven, does not thereby escape the death it contracted.",
+  "claims": [
+   "Adam and Eve obtained pardon through penance.",
+   "They were freed from final punishment by Christ's blood.",
+   "They were not recalled to paradise in this life.",
+   "Forgiveness of sins does not remove the death contracted from sin."
+  ],
+  "concepts": [
+   "penance",
+   "salvation of Adam",
+   "Christ's blood",
+   "death",
+   "Augustine De peccatorum meritis"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d33c4-d1e108",
+    "pl-l2d33c4-d1e111"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T21:09:26Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

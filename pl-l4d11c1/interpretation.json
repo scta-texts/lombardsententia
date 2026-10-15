@@ -1,0 +1,148 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T12:33:00Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d11c1-d1e115": {
+  "summary": "Asks whether the conversion is formal, substantial, or of another kind, and says he is not able to define it.",
+  "claims": [
+   "Lombard declines to define the kind of conversion."
+  ],
+  "concepts": [
+   "conversion",
+   "limits of understanding"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d11c1",
+    "pl-l4d10c2-d1e183"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:33:00Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d11c1-d1e118": {
+  "summary": "Holds that it is not formal, since the species of the things that were there before remain, as do taste and weight.",
+  "claims": [
+   "The conversion is not formal, since the species remain."
+  ],
+  "concepts": [
+   "formal conversion",
+   "species",
+   "accidents"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d11c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:33:00Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d11c1-d1e121": {
+  "summary": "Reports that some hold it substantial, saying that substance is converted into substance so that one becomes the other essentially, which the authorities cited seem to support.",
+  "claims": [
+   "Some hold the conversion substantial."
+  ],
+  "concepts": [
+   "substantial conversion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d11c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:33:00Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d11c1-d1e125": {
+  "summary": "Gives an objection to this: if the substance of bread or wine is substantially converted into Christ's body or blood, then daily some substance becomes Christ's body that was not before, something is Christ's body today that was not yesterday, and his body is daily increased and formed from matter from which it was not made at the conception.",
+  "claims": [],
+  "concepts": [
+   "increase of Christ's body",
+   "objection"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d11c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:33:00Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d11c1-d1e128": {
+  "summary": "Replies that Christ's body is said to be made by the heavenly word not because the body formed in the Virgin is formed again, but because the substance of bread or wine, which was not Christ's body or blood, becomes his body and blood by the heavenly word. Priests are said to make Christ's body and blood because by their ministry the substance of wine becomes Christ's blood; yet nothing is added to his body or blood, nor are they increased.",
+  "claims": [
+   "The substance of bread becomes Christ's body without his body being formed anew.",
+   "Priests make Christ's body by their ministry.",
+   "Nothing is added to Christ's body."
+  ],
+  "concepts": [
+   "conversion",
+   "minister",
+   "increase of Christ's body"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d11c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:33:00Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d11c1": {
+  "summary": "Asks what kind of conversion takes place, formal, substantial, or of another kind, and confesses he cannot define it. It is not formal, since the species, taste, and weight remain. Some hold it substantial, the substance becoming essentially the other, which the authorities seem to support. Against them it is objected that Christ's body would then daily become something new and be increased from matter not taken at the conception. Lombard replies that Christ's body is not formed anew; rather, the substance of bread and wine, which was not Christ's body and blood, becomes them by the heavenly word, and priests 'make' the body because by their ministry this happens, without anything being added to Christ's body.",
+  "claims": [
+   "Lombard cannot define the kind of conversion.",
+   "The conversion is not formal, since the species remain.",
+   "Some hold it substantial, as the authorities seem to suggest.",
+   "Christ's body is not increased or newly formed by the conversion."
+  ],
+  "concepts": [
+   "conversion",
+   "formal and substantial conversion",
+   "species",
+   "increase of Christ's body",
+   "limits of understanding"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d11c1-d1e115",
+    "pl-l4d11c1-d1e118",
+    "pl-l4d11c1-d1e121",
+    "pl-l4d11c1-d1e125",
+    "pl-l4d11c1-d1e128"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T12:33:00Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

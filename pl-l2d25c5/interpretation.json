@@ -1,0 +1,57 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:33:35Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d25c5-d1e108": {
+  "summary": "States that the first freedom of choice was greater than the second, and the third much greater than both: the first could sin and not sin; the last will be able not to sin and unable to sin; the middle can sin and cannot not sin, before restoration even mortally, after restoration at least venially.",
+  "claims": [
+   "Freedom has three stages of increasing perfection.",
+   "In the present state man cannot avoid all sin."
+  ],
+  "concepts": [
+   "three states"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d25c5",
+    "pl-l2d25c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:33:35Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d25c5": {
+  "summary": "Concludes that the first freedom of choice was greater than the second, and the third far greater than both: the first could sin and not sin; the last will be able not to sin and unable to sin; the middle can sin and cannot not sin, before restoration even mortally, after restoration at least venially.",
+  "claims": [
+   "The first freedom: able to sin and not to sin.",
+   "The middle freedom: able to sin and unable not to sin.",
+   "The final freedom: able not to sin and unable to sin.",
+   "Before restoration man cannot avoid mortal sin; after, he cannot avoid venial sin."
+  ],
+  "concepts": [
+   "three states of free choice",
+   "sin",
+   "restoration"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d25c5-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:33:35Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

@@ -1,0 +1,67 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:38:20Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d28c2-d1e105": {
+  "summary": "Quotes Augustine's De haeresibus: the Pelagian heresy, the most recent, arose from the monk Pelagius; they are such enemies of grace as to believe man can do all God's commands without it; rebuked, Pelagius said grace is given so that what free choice is commanded may be done more easily, implying it can be done, though with difficulty, without grace. They say the grace without which we can do no good is only free choice, given by nature, helped by law and teaching that we may learn, not by the Spirit's gift that we may do; they admit knowledge, which puffs up, is God's gift but deny charity, which builds up, is. They destroy the Church's prayers for unbelievers and the faithful, say grace is given according to merits, and say infants are born without the bond of original sin.",
+  "claims": [
+   "Pelagians think grace only makes good action easier.",
+   "They deny charity is God's gift.",
+   "They deny original sin in infants."
+  ],
+  "concepts": [
+   "Pelagianism",
+   "Augustine De haeresibus",
+   "1 Corinthians 8:1"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d28c2",
+    "pl-l2d28c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:38:20Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d28c2": {
+  "summary": "Quotes Augustine's De haeresibus on the Pelagian heresy, the most recent, from the monk Pelagius: they hold man can fulfill all God's commands without grace; rebuked, Pelagius said grace is given so that what free choice can do may be done more easily, implying it can be done, though with difficulty, without grace. They locate grace only in free choice, received by nature without merits, and in God's law and teaching; they admit knowledge is divinely given but deny charity is; they undermine the Church's prayers for unbelievers and for the faithful; they say grace is given according to merits; and they say infants are born without any bond of original sin.",
+  "claims": [
+   "Pelagians hold man can fulfill all commands without grace.",
+   "Pelagius said grace only makes it easier to do what free choice can do.",
+   "Pelagians reduce grace to free choice and to law and teaching.",
+   "Pelagians admit knowledge but deny charity is God's gift.",
+   "Pelagian doctrine undermines the Church's prayers.",
+   "Pelagians say grace is given according to merits.",
+   "Pelagians deny that infants are born with original sin."
+  ],
+  "concepts": [
+   "Pelagianism",
+   "Pelagius",
+   "grace",
+   "charity",
+   "original sin",
+   "prayer",
+   "Augustine De haeresibus"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d28c2-d1e105"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:38:20Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

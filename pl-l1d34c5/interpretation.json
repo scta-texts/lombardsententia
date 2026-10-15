@@ -1,0 +1,109 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T17:50:29Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll1d34c5-d1e3501": {
+  "summary": "Cites Augustine against Maximinus on homoousion: Father and Son are of one substance, confirmed at Nicaea against the Arians; at Rimini, because of the word's novelty, many were deceived and heretics under Constantius tried to undermine it, but the Catholic faith prevailed. Homoousion means 'one and the same substance,' 'I and the Father are one,' so it is not a profane novelty to be avoided.",
+  "claims": [
+   "Homoousion was confirmed at Nicaea.",
+   "It was undermined at Rimini, then vindicated.",
+   "Homoousion expresses John 10:30."
+  ],
+  "concepts": [
+   "homoousios",
+   "councils"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d34c5",
+    "pll1d34c4-d1e3513"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:50:29Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d34c5-d1e3532": {
+  "summary": "Notes that among the classes of names were those said of God metaphorically by likeness, such as mirror, splendor, character, figure. He tells the reader to understand them from the likeness and the reasons for speaking, in a Catholic sense.",
+  "claims": [
+   "Metaphorical names are understood from their likeness and reasons for speaking."
+  ],
+  "concepts": [
+   "metaphor",
+   "hermeneutics"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d34c5",
+    "pll1d22c1-d1e3528"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:50:29Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d34c5-d1e3535": {
+  "summary": "Concludes the treatise on the mystery of the supreme and ineffable Unity and Trinity, confessing that nothing worthy of its ineffability has been said, but rather that its knowledge is wonderful beyond us.",
+  "claims": [
+   "Nothing worthy of the ineffable Trinity has been said."
+  ],
+  "concepts": [
+   "conclusion",
+   "ineffability"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d34c5",
+    "pll1d34c5-d1e3532"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:50:29Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1d34c5": {
+  "summary": "Notes Augustine's defense of homoousion against Maximinus: it means 'of one and the same substance,' confirmed at Nicaea against the Arians, undermined at Rimini under Constantius, then vindicated; it is not a profane novelty but means 'I and the Father are one.' Lombard adds that names said of God metaphorically (mirror, splendor, character, figure) are to be understood from their likeness and the reasons for speaking, in a Catholic sense. He concludes his treatment of the Unity and Trinity, confessing that nothing worthy of its ineffability has been said.",
+  "claims": [
+   "Homoousion means of one and the same substance.",
+   "It was confirmed at Nicaea, attacked at Rimini, and later vindicated.",
+   "Homoousion is not a profane novelty; it expresses John 10:30.",
+   "Metaphorical names are to be understood from their likeness and the reasons for speaking.",
+   "Nothing worthy of the ineffable Trinity can be said."
+  ],
+  "concepts": [
+   "homoousios",
+   "Council of Nicaea",
+   "Council of Rimini",
+   "metaphorical names",
+   "ineffability",
+   "conclusion of the Trinitarian treatise"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d34c5-d1e3501",
+    "pll1d34c5-d1e3532",
+    "pll1d34c5-d1e3535"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T17:50:29Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

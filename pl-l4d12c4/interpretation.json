@@ -1,0 +1,151 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T12:33:00Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d12c4-d1e112": {
+  "summary": "Quotes Pope Sergius on what the parts signify: Christ's body is threefold: the part of the host placed in the chalice shows Christ's body that has risen; the part eaten, the body still walking on earth; the part remaining on the altar until the end of Mass, the body lying in the tomb, since the saints' bodies will be in their graves until the end of the world.",
+  "claims": [
+   "The three parts signify the risen Christ, the living Church, and the dead."
+  ],
+  "concepts": [
+   "threefold body",
+   "Sergius",
+   "mystical body"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d12c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:33:00Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d12c4-d1e118": {
+  "summary": "Adds that as the parts have a mystical meaning, so the breaking is a representation of Christ's passion and death.",
+  "claims": [
+   "The breaking represents Christ's passion and death."
+  ],
+  "concepts": [
+   "fraction",
+   "memorial of the passion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d12c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:33:00Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d12c4-d1e121": {
+  "summary": "Cites Christ: 'do this in memory of me', that is, in memory of my passion and death.",
+  "claims": [
+   "The eucharist is a memorial of the passion."
+  ],
+  "concepts": [
+   "memorial of the passion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d12c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:33:00Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d12c4-d1e127": {
+  "summary": "Quotes Ambrose: since we were freed by Christ's death, we should remember it in eating and drinking his flesh and blood.",
+  "claims": [
+   "Receiving the eucharist recalls Christ's saving death."
+  ],
+  "concepts": [
+   "memorial of the passion",
+   "Ambrose"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d12c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:33:00Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d12c4-d1e137": {
+  "summary": "Warns each to take care not to receive unworthily, since he eats judgment. This is not bread that goes into the body, but the bread of eternal life that sustains the soul; live so as to merit receiving daily. One is unworthy who celebrates the mystery otherwise than Christ handed down, or who approaches with mortal sin. Before approaching, forgive your debtors, even for daily or non-mortal sins, and approach securely; this is saving bread, not poison. So approaching, you eat spiritually, for he eats spiritually who brings innocence to the altar.",
+  "claims": [
+   "Approaching in mortal sin or with an altered rite is unworthy reception.",
+   "Forgiving others prepares one to approach.",
+   "Bringing innocence to the altar is spiritual eating."
+  ],
+  "concepts": [
+   "unworthy reception",
+   "mortal sin",
+   "forgiveness",
+   "spiritual eating"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d12c4",
+    "pl-l4d9c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:33:00Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d12c4": {
+  "summary": "Explains the meaning of the parts: Pope Sergius says Christ's body is threefold, the part put in the chalice signifying the risen body, the part eaten the body still walking on earth, and the part left on the altar the body lying in the tomb, the saints' bodies remaining in their graves until the end. The breaking represents Christ's passion and death, as 'do this in memory of me' and Ambrose show. Each must take care not to receive unworthily, eating judgment: one is unworthy who celebrates otherwise than Christ handed down or approaches in mortal sin; forgive your debtors and approach securely, and you eat spiritually, bringing innocence to the altar.",
+  "claims": [
+   "The three parts of the host signify the risen Christ, the Church on earth, and the dead in their tombs.",
+   "The breaking represents Christ's passion and death.",
+   "One who approaches in mortal sin receives unworthily.",
+   "One who brings innocence to the altar eats spiritually."
+  ],
+  "concepts": [
+   "threefold body",
+   "fraction",
+   "memorial of the passion",
+   "unworthy reception",
+   "spiritual eating"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d12c4-d1e112",
+    "pl-l4d12c4-d1e118",
+    "pl-l4d12c4-d1e121",
+    "pl-l4d12c4-d1e127",
+    "pl-l4d12c4-d1e137"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T12:33:00Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

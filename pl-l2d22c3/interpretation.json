@@ -1,0 +1,127 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:30:14Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d22c3-d1e108": {
+  "summary": "Asks whether such pride and love of his own power was in the man as in the woman.",
+  "claims": [],
+  "concepts": [
+   "question"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d22c3",
+    "pl-l2d22c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:30:14Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d22c3-d1e111": {
+  "summary": "Answers that Adam was not seduced as the woman was, since he did not think the devil's suggestion true; yet he may be said deceived in thinking venial what was deadly. He was neither first seduced nor in her way, but was a transgressor; some pride could have arisen in him right after the temptation, making him want to try the forbidden tree when he saw the woman did not die.",
+  "claims": [
+   "Adam did not believe the devil.",
+   "Adam was a transgressor.",
+   "Adam may have thought the sin venial."
+  ],
+  "concepts": [
+   "Adam's sin"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d22c3",
+    "pl-l2d22c3-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:30:14Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d22c3-d1e120": {
+  "summary": "Cites Augustine: Paul calls Adam a transgressor but denies he was seduced; asked, he said not 'the woman seduced me' but 'she gave me and I ate,' while the woman said 'the serpent seduced me.'",
+  "claims": [
+   "Adam was not seduced; the woman was."
+  ],
+  "concepts": [
+   "Augustine",
+   "Genesis 3:12–13"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d22c3",
+    "pl-l2d22c3-d1e111"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:30:14Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d22c3-d1e148": {
+  "summary": "Further Augustine: seduction properly means taking a false suggestion as true, that God forbade the tree because they would become gods, as if envying them divinity. Even if the man, because of some pride, was moved by a desire to experience when he saw the woman did not die, he did not, if spiritually minded, believe what the devil suggested.",
+  "claims": [
+   "Seduction is believing a falsehood true.",
+   "Adam did not believe the devil's suggestion."
+  ],
+  "concepts": [
+   "definition of seduction"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d22c3",
+    "pl-l2d22c3-d1e120"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:30:14Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d22c3": {
+  "summary": "Asks whether such pride was in the man as in the woman. Adam was not seduced as she was: he did not think the devil's suggestion true, though he may have been deceived in thinking the sin venial when it was mortal. Yet he was a transgressor (Rom 5:14), and some pride may have arisen in him after the temptation, making him want to try the tree when he saw the woman did not die. Augustine: Paul calls Adam a transgressor but not seduced (1 Tim 2:14); 'seduction' is believing the false suggestion true; Adam may have been moved by desire to experience, but did not believe the devil.",
+  "claims": [
+   "Adam was not seduced as the woman was.",
+   "Adam did not believe the devil's suggestion.",
+   "Adam may have been deceived in thinking the sin venial.",
+   "Adam was a transgressor.",
+   "Some pride or desire to experience may have moved him after the temptation."
+  ],
+  "concepts": [
+   "Adam",
+   "seduction",
+   "transgression",
+   "1 Timothy 2:14",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d22c3-d1e108",
+    "pl-l2d22c3-d1e111",
+    "pl-l2d22c3-d1e120",
+    "pl-l2d22c3-d1e148"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:30:14Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

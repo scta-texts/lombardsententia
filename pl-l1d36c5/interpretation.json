@@ -1,0 +1,83 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T17:51:26Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll1d36c5-d1e3501": {
+  "summary": "Adds that not all said to be 'from God' (ex ipso) is 'of God' (de ipso). Augustine: what is of him can be said from him, but not all from him is of him, which means of his substance. Heaven and earth are from him because he made them, not of him; as a man's son is from and of him, while a house he builds is from him but of earth and wood.",
+  "claims": [
+   "What is 'of God' is of his substance.",
+   "Creatures are from God but not of God."
+  ],
+  "concepts": [
+   "ex vs de",
+   "Augustine De natura boni"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d36c5",
+    "pll1d36c4-d1e3513"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:51:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d36c5-d1e3534": {
+  "summary": "Summarizes: all things, good and evil, are in God's knowledge or presence, but evils not in every way as goods; only goods are in God, as from and through him; what is other than he is not properly 'of him,' while all things he authors are 'from him.'",
+  "claims": [
+   "All things are in God's knowledge, but only goods are in God.",
+   "What is other than God is not of God."
+  ],
+  "concepts": [
+   "summary"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d36c5",
+    "pll1d36c5-d1e3501",
+    "pll1d36c3-d1e3548"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:51:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1d36c5": {
+  "summary": "Adds that not all that is 'from God' (ex ipso) is 'of God' (de ipso), since, with Augustine, 'of him' means from his substance. Heaven and earth are from him because he made them, not of him; as a man's son is from him and of him, but the house he builds is from him but of earth and wood. Lombard summarizes the distinction: all things, good and evil, are in God's knowledge, but not in the same way; only goods are in God, as from and through him; what is other than God is not properly 'of him,' while all things he authors are 'from him.'",
+  "claims": [
+   "Not everything 'from God' is 'of God.'",
+   "'Of God' means from his substance; only the Son and Spirit are so.",
+   "Creatures are from God as their maker, not of his substance.",
+   "All things are in God's knowledge, but only goods are in God as from and through him."
+  ],
+  "concepts": [
+   "ex ipso vs de ipso",
+   "creation vs generation",
+   "substance",
+   "summary"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d36c5-d1e3501",
+    "pll1d36c5-d1e3534"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T17:51:26Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

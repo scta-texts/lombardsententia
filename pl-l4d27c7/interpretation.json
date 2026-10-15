@@ -1,0 +1,149 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T12:53:50Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d27c7-d1e112": {
+  "summary": "States that this is not permitted to spouses: a man cannot adopt the purpose of a better life without his wife's consent, nor she without his.",
+  "claims": [
+   "Spouses need mutual consent to enter religion."
+  ],
+  "concepts": [
+   "consent of spouses",
+   "religious profession"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d27c7"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:53:50Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d27c7-d1e115": {
+  "summary": "Quotes Gregory to Theotista: some say marriages should be dissolved for religion; though human law allowed it, divine law forbids it. If both agree to live continently, who would accuse it? Many saints lived continently with their spouses and later took Church office. But if the wife does not follow the continence the husband seeks, or the reverse, the marriage cannot be divided, since the wife has no power over her body but the husband, and likewise the husband.",
+  "claims": [
+   "Mutual continence is praiseworthy.",
+   "Marriage cannot be divided against one spouse's will."
+  ],
+  "concepts": [
+   "indissolubility",
+   "continence",
+   "Gregory"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d27c7"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:53:50Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d27c7-d1e127": {
+  "summary": "Adds Gregory on Agathosa, whose husband entered a monastery against her will: investigate whether he did so with her consent or she promised to change her life; if so, he stays and she must keep her promise; if not, and she committed no fornication, he must be returned to her even if tonsured, since except for fornication no reason allows a man to dismiss his wife, and once one body, they cannot be partly converted and partly in the world.",
+  "claims": [
+   "A spouse who entered religion without consent must be returned.",
+   "Only fornication allows dismissal of a wife."
+  ],
+  "concepts": [
+   "indissolubility",
+   "religious profession",
+   "Gregory"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d27c7"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:53:50Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d27c7-d1e133": {
+  "summary": "Cites the Eighth Synod: a married person who wishes to enter a monastery is not to be received unless first released by the spouse professing chastity; then both follow Christ without fault, having consented equally to chastity.",
+  "claims": [
+   "Entering religion requires the spouse's release and profession of chastity."
+  ],
+  "concepts": [
+   "religious profession",
+   "conciliar law"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d27c7"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:53:50Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d27c7-d1e143": {
+  "summary": "Adds: if husband and wife agree to separate for religion alone, it must not be done without the bishop's knowledge, so that he may provide for each; if the wife or either is unwilling, marriage is not dissolved even for such a cause.",
+  "claims": [
+   "Separation for religion requires the bishop's oversight and mutual consent."
+  ],
+  "concepts": [
+   "bishop",
+   "consent of spouses"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d27c7"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:53:50Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d27c7": {
+  "summary": "Spouses, however, may not do this: neither may take up a better life without the other's consent. Gregory: though human law allowed dissolving marriages for religion, divine law forbids it; if both agree to continence it is praiseworthy, but if one refuses, the marriage cannot be divided, since each has power over the other's body. A husband who entered a monastery against his wife's will must be returned to her, even if tonsured, unless she consented or committed fornication. Synods require that a married person enter religion only if released by a spouse professing chastity, with the bishop's knowledge.",
+  "claims": [
+   "Spouses cannot enter religion without mutual consent.",
+   "Divine law forbids dissolving marriage for religion unilaterally.",
+   "One who enters religion without consent must be returned to the spouse.",
+   "Separation for religion requires mutual consent and the bishop's knowledge."
+  ],
+  "concepts": [
+   "religious profession",
+   "indissolubility",
+   "marital debt",
+   "consent of spouses"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d27c7-d1e112",
+    "pl-l4d27c7-d1e115",
+    "pl-l4d27c7-d1e127",
+    "pl-l4d27c7-d1e133",
+    "pl-l4d27c7-d1e143"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T12:53:50Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

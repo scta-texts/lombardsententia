@@ -1,0 +1,81 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T18:59:02Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d5c5-d1e104": {
+  "summary": "Reports the objection that the averted should not be blamed, since they could not convert without grace, and it was not their fault that grace was not given, as no fault had yet preceded.",
+  "claims": [],
+  "concepts": [
+   "objection"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d5c5",
+    "pll2d5c4-d1e3514"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:59:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d5c5-d1e106": {
+  "summary": "Answers that grace given to some was not from merit, or it would not be grace; that it was not given to others was their fault, since they could have stood until grace was added, as the others did until it was given them when the proud fell. Though they could not advance without grace, by their created gifts they could avoid falling; nothing compelled them, but they turned by their own will, and otherwise would have received grace.",
+  "claims": [
+   "The fallen could have stood by their natural gifts.",
+   "Their fall was voluntary.",
+   "Had they stood they would have received grace."
+  ],
+  "concepts": [
+   "fault",
+   "gratuity of grace"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d5c5",
+    "pl-l2d5c5-d1e104"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:59:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d5c5": {
+  "summary": "Answers the objection that the fallen should not be blamed, since they could not convert without grace, which was not given them through any fault. Those to whom grace was given did not merit it, or it would not be grace; but its not being given to the others was their fault, since they could have stood until grace was added, as the others did. Though they could not advance without grace, by what they received in creation they could not fall; nothing compelled them, and they turned of their own will; had they not, they too would have received grace.",
+  "claims": [
+   "Grace given to the standing angels was not merited.",
+   "The fallen angels' lack of grace was their own fault.",
+   "By their created gifts they could have stood.",
+   "Nothing compelled their fall; they turned by their own will.",
+   "Had they stood, they would have received grace like the others."
+  ],
+  "concepts": [
+   "grace and merit",
+   "fault of the fallen angels",
+   "free will",
+   "gratuity of grace"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d5c5-d1e104",
+    "pl-l2d5c5-d1e106"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T18:59:02Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

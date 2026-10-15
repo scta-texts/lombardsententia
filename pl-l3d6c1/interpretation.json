@@ -1,0 +1,78 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T01:04:37Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l3d6c1-d1e117": {
+  "summary": "Poses a question of great use but great difficulty: given that God became man and Christ is true God and true man, do the statements 'God was made man', 'the Son of God was made son of man', 'God is man', and 'man is God' say that God became or is something, or that something is God? May one also say 'man was made God' and 'son of man was made Son of God'? And if these do not say that God became or is something, what do they mean?",
+  "claims": [
+   "The meaning of statements such as 'God is man' must be explained."
+  ],
+  "concepts": [
+   "communication of predicates",
+   "modes of speech",
+   "incarnation"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d6c1",
+    "pl-l3d5c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:04:37Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d6c1-d1e120": {
+  "summary": "Notes that the wise differ widely in opening this deep matter and explaining this scrupulous question, introducing the three opinions that follow.",
+  "claims": [
+   "The wise differ on this question."
+  ],
+  "concepts": [
+   "diversity of opinions"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d6c1",
+    "pl-l3d6c1-d1e117"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:04:37Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d6c1": {
+  "summary": "Raises the question at the heart of Distinctions 6 and 7, very useful but difficult and tangled: since all Catholics confess that God became man and Christ is true God and true man, do the statements 'God was made man', 'God is man', 'man is God' say that God became or is something, or that something is God? Can one also say 'man was made God'? If not, how are they to be understood? The wise differ greatly on this.",
+  "claims": [
+   "All Catholics confess that God became man and Christ is true God and true man.",
+   "The meaning of 'God was made man' and 'God is man' is disputed among the wise."
+  ],
+  "concepts": [
+   "communication of predicates",
+   "incarnation",
+   "modes of speech"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d6c1-d1e117",
+    "pl-l3d6c1-d1e120"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T01:04:37Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

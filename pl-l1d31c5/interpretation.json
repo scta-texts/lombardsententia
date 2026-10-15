@@ -1,0 +1,79 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T17:47:08Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll1d31c5-d1e3501": {
+  "summary": "Asks why equality is said to be in the Son, since the equality of the three is one and supreme.",
+  "claims": [],
+  "concepts": [
+   "question"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d31c5",
+    "pll1d31c2-d1e3655"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:47:08Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d31c5-d1e3504": {
+  "summary": "Suggests that the Son is begotten equal to the begetter and to the gift proceeding from both, so the three are called equal because of the Son; the Son has from the Father that he is equal to him and to the Spirit, and the Spirit from both that he is equal to both. He says this without arrogance, preferring to hear the more expert explain such closed sayings.",
+  "claims": [
+   "The Son is begotten equal to the Father and the Spirit.",
+   "The three are called equal because of the Son.",
+   "This is offered tentatively."
+  ],
+  "concepts": [
+   "tentative interpretation",
+   "appropriation"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d31c5",
+    "pll1d31c5-d1e3501"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:47:08Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1d31c5": {
+  "summary": "Asks why equality is said to be in the Son, since the equality of the three is one. Lombard suggests, without presumption and preferring to hear the more expert, that it is because the Son is begotten equal to the Father and to the Gift proceeding from both; so the three are called equal because of the Son, who has his equality from the Father.",
+  "claims": [
+   "Equality is attributed to the Son, though common to all three.",
+   "The Son is begotten equal to the Father and to the Spirit.",
+   "The three are called equal because of the Son.",
+   "Lombard offers this tentatively, preferring to hear the more expert."
+  ],
+  "concepts": [
+   "appropriation",
+   "aequalitas",
+   "theological reticence"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d31c5-d1e3501",
+    "pll1d31c5-d1e3504"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T17:47:08Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

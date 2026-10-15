@@ -1,0 +1,114 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T11:06:24Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l3d36c3-d1e115": {
+  "summary": "Asks how the whole Law and Prophets hang on the two commandments of charity, given the many ceremonial precepts which, if they belonged to charity's sanctification, should not have ceased. They were instituted not for the justification charity effects but as a figure of the future and a burden, and so ceased like a shadow when truth shone. Yet ceremonial precepts in their spiritual meaning, and all moral ones, are referred to charity: all belong to the ten commandments, as the Lord's sermon refers the rest to eight virtues, and the ten are referred to the two of charity, fulfilled through charity and directed to it as end.",
+  "claims": [
+   "Ceremonial precepts were figures and burdens that ceased with the truth.",
+   "All precepts are referred to the Decalogue, and the Decalogue to the two commandments of charity.",
+   "Charity is the end to which all commandments are directed."
+  ],
+  "concepts": [
+   "ceremonial law",
+   "Decalogue",
+   "double commandment",
+   "figure and truth",
+   "charity as end"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d36c3",
+    "pl-l3d27c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:06:24Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d36c3-d1e121": {
+  "summary": "Quotes Augustine: charity, by which we love God and neighbor, the root of all goods, holds the whole greatness and breadth of Scripture; if there is no time to search all the sacred pages, hold charity, on which all hangs. Lombard adds that precepts and counsels are rightly done only when referred to love of God and neighbor for God; what is done from fear of penalty or carnal intention, not referred to charity, is not yet done as it should be. One who refrains from sin through fear of penalty is an enemy of justice, one who refrains from love of it is a friend.",
+  "claims": [
+   "Charity holds the whole meaning of Scripture.",
+   "Precepts and counsels are rightly done only when referred to charity.",
+   "Avoiding sin from fear of penalty does not make one a friend of justice."
+  ],
+  "concepts": [
+   "charity as end",
+   "precept and counsel",
+   "fear and love",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d36c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:06:24Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d36c3-d1e141": {
+  "summary": "Concludes that the sum of all is this: the fullness of the Law and of all Scripture is the love of God and neighbor.",
+  "claims": [
+   "The fullness of the Law and Scripture is love of God and neighbor."
+  ],
+  "concepts": [
+   "fullness of the Law",
+   "double commandment"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d36c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:06:24Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d36c3": {
+  "summary": "Asks how the whole Law and Prophets hang on the two commandments of charity, given the many ceremonial precepts. These were not instituted for the justification charity brings, but as figures of the future and as a burden, and so ceased like a shadow when truth appeared. Yet the ceremonial precepts in their spiritual sense, and all the moral ones, are referred to charity: all pertain to the ten commandments, as the Lord's sermon refers the rest to its eight virtues, and the ten are referred to the two of charity, by which they are fulfilled and toward which as end they must be directed. Augustine: charity holds the whole breadth of Scripture. Precepts and counsels are rightly done only when referred to the love of God and neighbor; one who refrains from sin through fear of penalty is an enemy of justice, one who refrains from love of justice is its friend. The fullness of the Law and all Scripture is the love of God and neighbor.",
+  "claims": [
+   "Ceremonial precepts were figures and burdens that ceased with the truth.",
+   "All precepts, moral and spiritually understood ceremonial, are referred to charity.",
+   "The ten commandments are referred to the two commandments of charity.",
+   "Precepts and counsels are rightly done only when referred to charity.",
+   "The fullness of the Law and Scripture is love of God and neighbor."
+  ],
+  "concepts": [
+   "double commandment",
+   "ceremonial law",
+   "Decalogue",
+   "charity as end",
+   "precept and counsel",
+   "fullness of the Law"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d36c3-d1e115",
+    "pl-l3d36c3-d1e121",
+    "pl-l3d36c3-d1e141"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T11:06:24Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

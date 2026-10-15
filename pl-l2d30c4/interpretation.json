@@ -1,0 +1,85 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:39:39Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d30c4-d1e108": {
+  "summary": "Reports that they say this sin entered the world not by transmission of origin but by likeness of transgression, and all sinned in Adam because he gave all an example of sinning.",
+  "claims": [
+   "One view: Adam's sin spreads by example."
+  ],
+  "concepts": [
+   "imitation"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d30c4",
+    "pl-l2d30c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:39:39Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d30c4-d1e111": {
+  "summary": "Identifies this as the Pelagian error, citing Augustine: Pelagians said the first sin passed by imitation, not propagation, and denied original sin is remitted in infants by baptism. But had Paul meant imitation he would have named the devil as its head, through whose envy death entered (Wis 2:24–25); Adam is imitated by all who transgress by disobedience, but an example to voluntary sinners differs from an origin to those born with sin. So Adam's sin passed to all by the defect of propagation and origin.",
+  "claims": [
+   "Adam's sin passed by propagation, not only imitation.",
+   "Imitation would point to the devil, not Adam."
+  ],
+  "concepts": [
+   "Pelagianism",
+   "Augustine De peccatorum meritis",
+   "Wisdom 2:24"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d30c4",
+    "pl-l2d30c4-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:39:39Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d30c4": {
+  "summary": "Reports the view that this sin entered the world not by transmission of origin but by likeness of transgression, all sinning in Adam because he gave all an example. This is the Pelagian error: Augustine says Pelagians held the first sin passed to others by imitation, not propagation, and so denied infants have original sin remitted in baptism. But had Paul meant imitation, he would have named the devil, not Adam, as its head (Wis 2:24–25); Adam is an example to those who sin by will but an origin to those born with sin. So Adam's sin passed to all not only by example but by the defect of propagation and origin.",
+  "claims": [
+   "Pelagians held the first sin passed by imitation, not propagation.",
+   "Pelagians denied that infants have original sin to be remitted in baptism.",
+   "Had Paul meant imitation, he would have named the devil, not Adam.",
+   "Adam is an example to voluntary sinners and an origin to those born with sin.",
+   "Adam's sin passed to all by propagation and origin."
+  ],
+  "concepts": [
+   "Pelagianism",
+   "imitation and propagation",
+   "original sin",
+   "infant baptism",
+   "Augustine De peccatorum meritis",
+   "Wisdom 2:24"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d30c4-d1e108",
+    "pl-l2d30c4-d1e111"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:39:39Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

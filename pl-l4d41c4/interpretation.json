@@ -1,0 +1,120 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T13:07:50Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d41c4-d1e112": {
+  "summary": "Cites Pope Urban: if two or three men confirm the kinship by oath, or the parties confess it, the marriages are dissolved; otherwise the bishops should adjure them by Christ's faith to confess openly if they recognize themselves as kin; if separated by the bishops' judgment, they may contract other marriages.",
+  "claims": [
+   "Kinship is proved by sworn witnesses or confession.",
+   "Those separated may remarry."
+  ],
+  "concepts": [
+   "proof of kinship",
+   "Urban II"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d41c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:07:50Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d41c4-d1e118": {
+  "summary": "Adds Urban: when two or three of the nearer relatives of the accused, or two or three of the older Genoese who know the kinship, of good repute and truthful, free of love, fear, payment, and malice, confirm it by oath, the marriages are dissolved without delay.",
+  "claims": [
+   "Witnesses must be reputable and impartial."
+  ],
+  "concepts": [
+   "witnesses",
+   "Urban II"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d41c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:07:50Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d41c4-d1e124": {
+  "summary": "Adds that no outsider should accuse others' kin or reckon kinship in synod, but the relatives who know it; if the whole lineage has died out, the bishop should inquire canonically of older and more truthful people who know it, and if found, they are separated.",
+  "claims": [
+   "Only relatives or knowledgeable elders may testify to kinship."
+  ],
+  "concepts": [
+   "proof of kinship",
+   "canonical inquiry"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d41c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:07:50Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d41c4-d1e130": {
+  "summary": "Concludes on who may accuse or testify to dissolve a union of kin that is called marriage.",
+  "claims": [],
+  "concepts": [
+   "proof of kinship"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d41c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:07:50Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d41c4": {
+  "summary": "Explains proof of kinship: Pope Urban says marriages are dissolved if two or three swear to the kinship or the parties confess; otherwise bishops should adjure them to confess, and if separated by the bishops' judgment they may remarry. Testimony comes from the nearer relatives, or, if the line has died out, from older reputable people free of love, fear, bribery, or malice; outsiders may not accuse others' kin.",
+  "claims": [
+   "Kinship is proved by the sworn testimony of two or three, or confession.",
+   "Witnesses must be relatives or reputable elders free of bias.",
+   "Those separated by the Church's judgment may remarry."
+  ],
+  "concepts": [
+   "proof of kinship",
+   "witnesses",
+   "separation",
+   "canon law"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d41c4-d1e112",
+    "pl-l4d41c4-d1e118",
+    "pl-l4d41c4-d1e124",
+    "pl-l4d41c4-d1e130"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T13:07:50Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

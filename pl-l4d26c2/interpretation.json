@@ -1,0 +1,105 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T12:53:50Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d26c2-d1e112": {
+  "summary": "States that marriage was instituted twice: before sin, in paradise, as a duty, with an undefiled bed and honorable nuptials, where they would conceive without ardor and bear without pain; after sin, outside paradise, as a remedy, to avoid unlawful movement. The first was to multiply nature, the second to sustain nature and restrain vice; God said 'increase and multiply' before sin and again after the flood.",
+  "claims": [
+   "Marriage was instituted before sin as duty and after as remedy."
+  ],
+  "concepts": [
+   "institution of marriage",
+   "marriage as remedy",
+   "state of innocence"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d26c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:53:50Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d26c2-d1e121": {
+  "summary": "Cites Augustine: what would be a duty for the healthy is a remedy for the sick.",
+  "claims": [
+   "Marriage is duty for the healthy, remedy for the sick."
+  ],
+  "concepts": [
+   "marriage as remedy",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d26c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:53:50Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d26c2-d1e130": {
+  "summary": "Explains that the weakness of incontinence, in flesh dead through sin, is taken up by the honor of marriage lest it fall into ruin. Had the first humans not sinned, they and their descendants would have united without incentive or heat of lust, and their intercourse would have been good and meritorious; but since the law of deadly concupiscence clings to our members because of sin, without which carnal union does not occur, intercourse is reprehensible and evil unless excused by the goods of marriage.",
+  "claims": [
+   "Marriage remedies incontinence.",
+   "Intercourse in innocence would have been meritorious.",
+   "Since sin, intercourse needs the goods of marriage to be excused."
+  ],
+  "concepts": [
+   "concupiscence",
+   "goods of marriage",
+   "state of innocence"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d26c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:53:50Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d26c2": {
+  "summary": "Marriage was instituted twice: before sin, as a duty in paradise, where they would conceive without ardor and bear without pain, for multiplying nature; after sin, as a remedy outside paradise, to avoid unlawful movement and restrain vice. Augustine: what was a duty for the healthy is a remedy for the sick. The weakness of incontinence is taken up by the honor of marriage; without sin, intercourse would have been without lust and meritorious; since sin, carnal union, impossible without concupiscence, is blameworthy unless excused by the goods of marriage.",
+  "claims": [
+   "Marriage was instituted before sin as duty and after sin as remedy.",
+   "Without sin intercourse would have been without lust and meritorious.",
+   "After sin intercourse is blameworthy unless excused by the goods of marriage."
+  ],
+  "concepts": [
+   "institution of marriage",
+   "marriage as remedy",
+   "concupiscence",
+   "goods of marriage",
+   "state of innocence"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d26c2-d1e112",
+    "pl-l4d26c2-d1e121",
+    "pl-l4d26c2-d1e130"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T12:53:50Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

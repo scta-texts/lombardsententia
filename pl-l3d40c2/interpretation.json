@@ -1,0 +1,61 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T11:10:24Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l3d40c2-d1e115": {
+  "summary": "Identifies the letter that kills, in Paul, as the Decalogue: not because the Law is evil, but because, forbidding sin, it increases concupiscence and adds transgression unless grace frees, and grace did not abound in the Law as in the Gospel. So the Law is good yet kills without grace, being the power of sin, since it commands what cannot be fulfilled without grace; grace was lacking, and so it was a killing letter.",
+  "claims": [
+   "The letter that kills is the Decalogue.",
+   "The Law is good but kills without grace.",
+   "The Law commands what cannot be fulfilled without grace."
+  ],
+  "concepts": [
+   "letter that kills",
+   "Law and grace",
+   "concupiscence",
+   "power of sin"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d40c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:10:24Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d40c2": {
+  "summary": "Identifies the 'letter that kills' with the Decalogue: not because the Law is evil, but because, forbidding sin, it increases concupiscence and adds transgression unless grace frees. Grace did not abound in the Law as in the Gospel; so the Law is good, yet kills without grace, being the power of sin by commanding what cannot be fulfilled without grace.",
+  "claims": [
+   "The letter that kills is the Decalogue.",
+   "The Law is good but kills without grace.",
+   "Forbidding sin increases concupiscence without grace.",
+   "The Law commands what cannot be fulfilled without grace."
+  ],
+  "concepts": [
+   "letter that kills",
+   "Law and grace",
+   "concupiscence",
+   "transgression"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d40c2-d1e115"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T11:10:24Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

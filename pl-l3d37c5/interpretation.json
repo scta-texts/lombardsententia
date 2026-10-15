@@ -1,0 +1,156 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T11:08:35Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l3d37c5-d1e112": {
+  "summary": "Asks whether the Israelites, who at God's command borrowed and carried off the Egyptians' gold and silver vessels and precious garments, committed theft, and answers that those who did it to obey God neither stole nor sinned at all.",
+  "claims": [
+   "Those who took the Egyptians' goods to obey God did not sin."
+  ],
+  "concepts": [
+   "spoliation of the Egyptians",
+   "divine command",
+   "theft"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d37c5"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:08:35Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d37c5-d1e115": {
+  "summary": "Quotes Augustine: the Israelites did not steal but served God's command, who gave the Law, as a judge's minister kills without sin whom the law condemns, but is a murderer if he does so of his own will. The weak who deceived the Egyptians from greed were permitted rather than commanded to do it to those who justly suffered it.",
+  "claims": [
+   "Acting at God's command is not theft.",
+   "Those acting from greed were permitted, not commanded."
+  ],
+  "concepts": [
+   "divine command",
+   "executioner analogy",
+   "permission and command",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d37c5"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:08:35Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d37c5-d1e127": {
+  "summary": "Objects that even the good sinned, transgressing the natural law, with which the Gospel and moral law agree: 'do not do to another what you would not have done to you'. Truth wrote it in man's heart and, since he did not read it there, repeated it on the tablets so that the outward voice might return him to his heart. In this act they seem to have done to others what they would not want done to themselves.",
+  "claims": [
+   "The natural law is written in the heart and repeated in the Decalogue."
+  ],
+  "concepts": [
+   "natural law",
+   "golden rule",
+   "objection",
+   "law written in the heart"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d37c5"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:08:35Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d37c5-d1e133": {
+  "summary": "Answers that 'unjustly' must be understood: do not unjustly do to another what you would not have done to you. Otherwise a judge would break this law in punishing a criminal, not wanting such punishment himself. Likewise 'whatever you would that men do to you' concerns goods we owe one another.",
+  "claims": [
+   "The golden rule forbids doing to others unjustly what one would not want.",
+   "The positive golden rule concerns goods owed to one another."
+  ],
+  "concepts": [
+   "golden rule",
+   "natural law",
+   "justice"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d37c5"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:08:35Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d37c5-d1e140": {
+  "summary": "Gives the fifth precept of the second tablet: 'you shall not bear false witness against your neighbor', which forbids the crime of lying and perjury.",
+  "claims": [
+   "The precept against false witness forbids lying and perjury."
+  ],
+  "concepts": [
+   "eighth commandment",
+   "lying",
+   "perjury"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d37c5"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:08:35Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d37c5": {
+  "summary": "Asks whether the Israelites stole when, at God's command, they took the Egyptians' gold, silver, and garments. Those who did it to obey God did not steal or sin at all, as Augustine says: like an executioner who kills at the law's command, they served God; the weak who deceived from greed were permitted rather than commanded. Against the objection that they broke the natural law, 'do not do to others what you would not have done to you', which Truth wrote in the heart and repeated on the tablets, Lombard answers that 'unjustly' must be understood, otherwise a judge punishing a criminal would break it. The fifth precept, 'you shall not bear false witness against your neighbor', forbids lying and perjury.",
+  "claims": [
+   "The Israelites who despoiled the Egyptians at God's command did not sin.",
+   "Acting at God's command, like an executioner under law, is not theft.",
+   "The natural law 'do not do to others' must be understood as 'unjustly'.",
+   "False witness includes lying and perjury."
+  ],
+  "concepts": [
+   "spoliation of the Egyptians",
+   "divine command",
+   "natural law",
+   "golden rule",
+   "eighth commandment",
+   "lying"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d37c5-d1e112",
+    "pl-l3d37c5-d1e115",
+    "pl-l3d37c5-d1e127",
+    "pl-l3d37c5-d1e133",
+    "pl-l3d37c5-d1e140"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T11:08:35Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

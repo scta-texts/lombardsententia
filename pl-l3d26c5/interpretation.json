@@ -1,0 +1,58 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T11:01:29Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l3d26c5-d1e115": {
+  "summary": "Holds that the ancient fathers held in hell until the passion may fittingly be said to have had faith and the virtue of hope, since they believed and hoped to see God by sight as they did not then see him; vision of God was not open to them before Christ's passion, after which they passed from faith to sight.",
+  "claims": [
+   "The ancient fathers in hell had faith and hope.",
+   "They passed from faith to sight after Christ's passion."
+  ],
+  "concepts": [
+   "ancient fathers",
+   "limbo of the fathers",
+   "faith and vision",
+   "hope"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d26c5"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:01:29Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d26c5": {
+  "summary": "Holds that the ancient fathers held in hell until the passion can fittingly be said to have had the virtues of faith and hope, since they believed and hoped to see God by sight, which was not open to them until Christ's passion, after which they passed from faith to sight.",
+  "claims": [
+   "The ancient fathers in hell had the virtues of faith and hope.",
+   "Vision of God was not open to them before Christ's passion."
+  ],
+  "concepts": [
+   "ancient fathers",
+   "limbo of the fathers",
+   "faith and vision",
+   "hope"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d26c5-d1e115"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T11:01:29Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

@@ -1,0 +1,154 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T17:45:28Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll1d29c3-d1e3501": {
+  "summary": "Introduces Augustine's explanation: the Father is principle of the Son because he begot him, and Father and Son of the Spirit because the Spirit proceeds and is given from both.",
+  "claims": [],
+  "concepts": [
+   "principium"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d29c3",
+    "pl-l1d29c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:45:28Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d29c3-d1e3504": {
+  "summary": "Cites De Trinitate V: if begetter is principle of begotten, the Father is principle of the Son. Whether the Father is principle of the Spirit because he proceeds from him is no small question; if so, principle covers what is given and proceeds. Then Father and Son are principle of the Spirit, not two principles, as they are one creator and lord of creatures; to creatures all three are one principle.",
+  "claims": [
+   "The Father is principle of the Son by begetting.",
+   "Father and Son are one principle of the Spirit.",
+   "Father, Son, and Spirit are one principle of creatures."
+  ],
+  "concepts": [
+   "Augustine De Trinitate V"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d29c3",
+    "pll1d29c3-d1e3501"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:45:28Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d29c3-d1e3528": {
+  "summary": "Draws the point: the Father is principle of the Son by the notion by which he is Father, generation, by which he is also called the Son's author.",
+  "claims": [
+   "The Father is principle and author of the Son by generation."
+  ],
+  "concepts": [
+   "auctor"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d29c3",
+    "pll1d29c3-d1e3504"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:45:28Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d29c3-d1e3531": {
+  "summary": "Cites Hilary, De Trinitate IV: in being called Father he is shown to be author of the one he begot, with a name implying he is from no other. The Church knows one unbegotten God and an only-begotten Son, confessing the Father free from origin and the Son's origin from the beginning, not himself from a beginning but from the unbeginning, born from eternity. The meaning of this needs explaining.",
+  "claims": [
+   "The Father is author of the Son and from no other.",
+   "The Son's origin is from the beginning, but he is from the unbeginning."
+  ],
+  "concepts": [
+   "Hilary",
+   "innascibility",
+   "origin"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d29c3",
+    "pll1d29c3-d1e3528"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:45:28Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d29c3-d1e3558": {
+  "summary": "Explains Hilary: 'the Son's origin is from the beginning' does not mean the Son has a beginning, but that he is from the unbeginning Father. Though the Son is principle from principle, it is not to be granted that he has a principle. Principle from principle is not principle without principle, as the Son is not the Father, yet they are not two principles but one, as they are one creator.",
+  "claims": [
+   "The Son does not have a beginning.",
+   "The Son is principle from principle but should not be said to have a principle.",
+   "Father and Son are one principle, as one creator."
+  ],
+  "concepts": [
+   "interpretation of Hilary",
+   "principium de principio"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d29c3",
+    "pll1d29c3-d1e3531"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:45:28Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1d29c3": {
+  "summary": "Explains how the Father is principle of the Son and Father and Son of the Spirit. Augustine: the begetter is principle of the begotten, so the Father is principle of the Son. Whether he is principle of the Spirit because the Spirit proceeds is a real question; if what is given or proceeds has a principle, Father and Son are one principle of the Spirit, as they are one creator and lord of creatures. So the Father is principle of the Son by the notion of generation, by which he is also the Son's author (Hilary). Hilary's 'the Son's origin is from the beginning, but he himself not from a beginning, but from the unbeginning' means that the Son has no beginning; though principle from principle, he is not to be said to have a principle. Principle from principle and principle without principle are not two principles but one, as Father and Son are one creator.",
+  "claims": [
+   "The Father is principle of the Son because he begot him.",
+   "Father and Son are one principle of the Spirit, from whom he proceeds and is given.",
+   "The Father is principle of the Son by the notion of generation, and so his author.",
+   "The Son is from the unbeginning Father but does not have a beginning.",
+   "The Son is principle from principle, but should not be said to have a principle.",
+   "Principle from principle and principle without principle are one principle."
+  ],
+  "concepts": [
+   "principium",
+   "auctor",
+   "Hilary",
+   "origin without beginning",
+   "one principle of the Spirit"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d29c3-d1e3501",
+    "pll1d29c3-d1e3504",
+    "pll1d29c3-d1e3528",
+    "pll1d29c3-d1e3531",
+    "pll1d29c3-d1e3558"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T17:45:28Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

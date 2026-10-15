@@ -1,0 +1,152 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T21:09:26Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d34c5-d1e108": {
+  "summary": "Cites Augustine that the dialecticians' rule that no thing has two contraries at once fails for good and evil: no drink is sweet and bitter at once, nothing white and black, but good and evil, though contraries, not only coexist but evil cannot exist without and except in good, since corruption needs something to corrupt; so evils arose from goods and exist only in goods, the evil will arising first from the good nature of angel and man.",
+  "claims": [
+   "Good and evil coexist, unlike other contraries."
+  ],
+  "concepts": [
+   "contraries",
+   "dialectic",
+   "Augustine Enchiridion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d34c5",
+    "pl-l2d34c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:09:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d34c5-d1e111": {
+  "summary": "Concludes that this answers the first two questions: evil arose from a good thing and exists in a good thing.",
+  "claims": [
+   "Evil arises from and exists in good."
+  ],
+  "concepts": [
+   "conclusion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d34c5",
+    "pl-l2d34c5-d1e108",
+    "pl-l2d34c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:09:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d34c5-d1e114": {
+  "summary": "Raises the objection: saying good is evil falls under 'woe to those who call good evil and evil good' (Isa 5:20), so we must not say it.",
+  "claims": [],
+  "concepts": [
+   "objection",
+   "Isaiah 5:20"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d34c5",
+    "pl-l2d34c5-d1e111"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:09:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d34c5-d1e118": {
+  "summary": "Gives Augustine's answer: the prophet's words concern the things by which men are evil, not men; whoever calls adultery good, or man evil as man, or iniquity good, falls under it, blaming God's work, man, and praising man's vice, iniquity.",
+  "claims": [
+   "Isaiah condemns praising vice or blaming nature."
+  ],
+  "concepts": [
+   "Augustine Enchiridion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d34c5",
+    "pl-l2d34c5-d1e114"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:09:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d34c5-d1e125": {
+  "summary": "Cites Augustine on 1 John 3:4: nomos is law, and anomia, iniquity, is against the law; so all sinners are counted transgressors, not only those who despise written law but those who corrupt the innocence of natural law.",
+  "claims": [
+   "Iniquity is against written or natural law."
+  ],
+  "concepts": [
+   "natural law",
+   "1 John 3:4"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d34c5",
+    "pl-l2d34c5-d1e118"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:09:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d34c5": {
+  "summary": "Notes that the dialecticians' rule that contraries cannot be in the same thing at once fails for good and evil: evils not only can coexist with goods but can only exist in goods, since corruption needs something to corrupt; evils arose from goods and exist only in goods, the evil will arising first from the good natures of angel and man (Augustine). This answers the first two questions. To the objection 'woe to those who call good evil' (Isa 5:20), Augustine replies that the prophet speaks of the things by which men are evil, not of men: whoever calls adultery good, or man as man evil, falls under it. On 1 John 3:4, iniquity (anomia) is against the law, written or natural.",
+  "claims": [
+   "The rule that contraries cannot coexist fails for good and evil.",
+   "Evil can exist only in good.",
+   "Evil arose from the good natures of angel and man.",
+   "Isaiah 5:20 condemns calling vices good or natures evil, not calling an evil nature an evil good.",
+   "Iniquity is against the law, written or natural."
+  ],
+  "concepts": [
+   "contraries",
+   "origin of evil",
+   "subject of evil",
+   "dialectic",
+   "Isaiah 5:20",
+   "natural law",
+   "iniquity"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d34c5-d1e108",
+    "pl-l2d34c5-d1e111",
+    "pl-l2d34c5-d1e114",
+    "pl-l2d34c5-d1e118",
+    "pl-l2d34c5-d1e125"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T21:09:26Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

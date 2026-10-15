@@ -1,0 +1,82 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T17:44:00Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll1d27c2-d1e3501": {
+  "summary": "Argues that being Father is not entirely the same as having begotten, nor being Son as having a Father; otherwise 'Father' would name only a property, not a hypostasis, and the three names would not signify three persons.",
+  "claims": [
+   "'Father' must name a hypostasis, not only a property."
+  ],
+  "concepts": [
+   "personal names"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d27c2",
+    "pll1d27c1-d1e3520"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:44:00Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d27c2-d1e3504": {
+  "summary": "Holds that 'Father,' 'Son,' and 'Holy Spirit' note relations and signify hypostases, while 'paternity,' 'filiation,' 'procession,' 'to beget,' 'to be begotten,' 'to proceed' signify only relations. 'God is Father' means the divine essence is the Father, the hypostasis that begot and has a Son. When relational terms are predicates, as 'God begot,' they signify only notions, and the subject must be taken for hypostases, not the essence.",
+  "claims": [
+   "Personal names note relations and signify hypostases.",
+   "Relational terms signify only relations.",
+   "In 'God begot,' 'God' stands for the hypostasis."
+  ],
+  "concepts": [
+   "supposition",
+   "notional predication"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d27c2",
+    "pll1d27c2-d1e3501"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:44:00Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1d27c2": {
+  "summary": "Qualifies the identification: being Father and having begotten are not entirely the same, or 'Father' would name only a property and not a hypostasis, and the three names would not signify three persons. So 'Father,' 'Son,' and 'Holy Spirit' both note a relation and signify a hypostasis, while 'paternity,' 'filiation,' 'procession,' 'to beget,' and 'to be begotten' signify only the relations. 'God is Father' means God is the hypostasis that has a Son; in 'God begot,' the predicate signifies only the notion and 'God' stands for the hypostasis, not the essence.",
+  "claims": [
+   "Being Father and having begotten are not entirely the same.",
+   "Personal names signify both a relation and a hypostasis.",
+   "Names of relations (paternity, to beget) signify only the relations.",
+   "In 'God begot,' 'God' stands for the hypostasis, not the essence."
+  ],
+  "concepts": [
+   "personal names",
+   "relation vs hypostasis",
+   "supposition",
+   "notions"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d27c2-d1e3501",
+    "pll1d27c2-d1e3504"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T17:44:00Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

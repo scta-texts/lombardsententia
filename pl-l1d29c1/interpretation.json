@@ -1,0 +1,88 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T17:45:28Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll1d29c1-d1e3501": {
+  "summary": "Introduces another name noting several relations, 'principle,' always said 'ad aliquid.' Father, Son, and Spirit are each principle, but differently; the Father is principle relative to the Son and Spirit.",
+  "claims": [
+   "'Principle' is said relatively.",
+   "Each person is principle in a different way."
+  ],
+  "concepts": [
+   "principium"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d29c1",
+    "pl-l1d28c7"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:45:28Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d29c1-d1e3504": {
+  "summary": "Cites De Trinitate IV: the Father is principle of the whole deity because he is from none, with nothing from which he is or proceeds, while the Son is begotten and the Spirit proceeds from him. He is not principle of himself or of the essence, but of Son and Spirit, in each of whom is the whole divinity. The Son is principle of the Spirit; the Spirit is principle only of creatures, of which all three are principle. So the Father is principle without principle, the Son principle from principle, the Spirit principle from both.",
+  "claims": [
+   "The Father is principle of the deity, being from none.",
+   "The Father is not principle of the divine essence.",
+   "The Son is principle of the Spirit.",
+   "The Spirit is principle only of creatures."
+  ],
+  "concepts": [
+   "principium deitatis",
+   "origin"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d29c1",
+    "pll1d29c1-d1e3501",
+    "pll1d15c9-d1e3482"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:45:28Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1d29c1": {
+  "summary": "Introduces 'principle' (principium), a name of many relations, always said 'ad aliquid.' Father, Son, and Spirit are each called principle, but differently. With Augustine, the Father is principle of the whole deity because he is from none, principle of Son and Spirit, in each of whom is the whole divinity, not of himself or of the essence. The Son is principle of the Spirit; the Spirit is principle only of creatures, of which Father, Son, and the Trinity are also principle. The Father is principle without principle, the Son principle from principle, the Spirit principle from both.",
+  "claims": [
+   "'Principle' is always said relatively.",
+   "The Father is principle of the whole deity because he is from none.",
+   "The Father is not principle of himself or of the essence, but of Son and Spirit.",
+   "The Son is principle of the Spirit.",
+   "The Spirit is principle only of creatures.",
+   "The Father is principle without principle, the Son principle from principle, the Spirit principle from both."
+  ],
+  "concepts": [
+   "principium",
+   "Father as principle of deity",
+   "relation",
+   "creation",
+   "origin"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d29c1-d1e3501",
+    "pll1d29c1-d1e3504"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T17:45:28Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

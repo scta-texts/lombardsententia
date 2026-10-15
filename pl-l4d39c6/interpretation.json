@@ -1,0 +1,122 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T13:06:03Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d39c6-d1e115": {
+  "summary": "Reports some who assert there is no marriage among unbelievers, since their union is neither ratified nor lawful.",
+  "claims": [
+   "Some deny marriage among unbelievers."
+  ],
+  "concepts": [
+   "marriage among unbelievers",
+   "opposing opinion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d39c6"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:06:03Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d39c6-d1e118": {
+  "summary": "Gives their reasons: it is not ratified, since it can be dissolved; nor lawful, since whatever is not of faith is sin; their union is not of faith, so it is sin, and no marriage is sin.",
+  "claims": [],
+  "concepts": [
+   "ratified marriage",
+   "Romans 14:23",
+   "opposing opinion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d39c6"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:06:03Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d39c6-d1e130": {
+  "summary": "Answers that Augustine says there is no true chastity of an unbeliever with a believer, not because their marriage is not true, but because it lacks the threefold good that excuses intercourse and merits reward.",
+  "claims": [
+   "Unbelievers' marriages are true but lack the meritorious goods."
+  ],
+  "concepts": [
+   "goods of marriage",
+   "harmonizing authorities"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d39c6"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:06:03Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d39c6-d1e137": {
+  "summary": "Explains that 'whatever is not of faith is sin' does not mean all that unbelievers do is sin, but that whatever is done against faith, that is, conscience, is done badly; or that in all an unbeliever does he sins, not by doing it, but by not doing it as he ought, not referring it to the due end.",
+  "claims": [
+   "'Not of faith' means against conscience or not referred to the due end."
+  ],
+  "concepts": [
+   "conscience",
+   "right end",
+   "Romans 14:23"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d39c6"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:06:03Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d39c6": {
+  "summary": "Reports some who deny there is marriage among unbelievers, since their union is neither ratified, being dissoluble, nor lawful, since whatever is not of faith is sin. Lombard answers that Augustine's denial of true chastity in the unbeliever means their marriage lacks the threefold good that excuses intercourse and merits reward, not that it is not true marriage; and 'whatever is not of faith is sin' means whatever is against conscience, or that unbelievers sin in not referring their acts to the due end.",
+  "claims": [
+   "Some deny that unbelievers can marry.",
+   "Unbelievers' marriage is true but lacks the meritorious goods.",
+   "'Whatever is not of faith is sin' concerns conscience or the act's end."
+  ],
+  "concepts": [
+   "marriage among unbelievers",
+   "goods of marriage",
+   "conscience",
+   "Romans 14:23"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d39c6-d1e115",
+    "pl-l4d39c6-d1e118",
+    "pl-l4d39c6-d1e130",
+    "pl-l4d39c6-d1e137"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T13:06:03Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

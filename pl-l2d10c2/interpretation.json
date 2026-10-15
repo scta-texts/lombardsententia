@@ -1,0 +1,157 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:01:54Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll2d10c2-d1e3514": {
+  "summary": "Reports that some think Michael, Gabriel, and Raphael were of the higher order; Michael means 'who is like God,' Gabriel 'strength of God,' Raphael 'medicine of God'; these are names of spirits, not orders.",
+  "claims": [
+   "The archangels' names are names of spirits."
+  ],
+  "concepts": [
+   "Michael, Gabriel, Raphael",
+   "Gregory"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d10c2",
+    "pl-l2d10c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:01:54Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d10c2-d1e3534": {
+  "summary": "Reports that some say each name is proper to one spirit.",
+  "claims": [
+   "One view: each name belongs to one spirit."
+  ],
+  "concepts": [
+   "opinion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d10c2",
+    "pll2d10c2-d1e3514"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:01:54Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d10c2-d1e3537": {
+  "summary": "Reports others who say the names apply now to one, now to another spirit, according to the task for which they are sent; similarly demons' names, diabolus ('accuser'), Satan ('adversary'), Belial ('apostate, without yoke'), Leviathan, may be proper to one or common to many.",
+  "claims": [
+   "Angelic names may follow the task.",
+   "Demons have names that may be proper or common."
+  ],
+  "concepts": [
+   "names of demons",
+   "opinion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d10c2",
+    "pll2d10c2-d1e3534"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:01:54Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d10c2-d1e3550": {
+  "summary": "Gives how those who hold all are sent interpret Daniel and Dionysius: the higher ranks are said to stand before God and never leave the inner court not because they are never sent, but because they rarely go out, and even then never leave God's presence and contemplation, as also those often sent.",
+  "claims": [
+   "Angels sent never leave God's presence and contemplation."
+  ],
+  "concepts": [
+   "interpretation",
+   "contemplation in action"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d10c2",
+    "pll2d10c1-d1e3534"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:01:54Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d10c2-d1e3561": {
+  "summary": "Reports others: the highest three orders stand before the Creator and do not go out; the lowest three are sent; the middle three stand between in dignity, place, and office, receiving God's command from the highest and carrying it to the lowest, so all may be called angels. Hebrews' 'all' may mean individual angels of the lower orders. The Seraph sent to Isaiah was of a lower order, called Seraph from its office, because it came to burn away his sins (Dionysius, Gregory).",
+  "claims": [
+   "The middle orders relay God's commands.",
+   "Angels take the name of the office they perform."
+  ],
+  "concepts": [
+   "Hugh",
+   "hierarchical mediation",
+   "Isaiah 6:6"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d10c2",
+    "pll2d10c2-d1e3550"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:01:54Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d10c2": {
+  "summary": "Reports that some think Michael, Gabriel, and Raphael were of the higher order; their names ('who is like God,' 'strength of God,' 'medicine of God') are names of spirits, not orders. Some think each names one spirit, others that the names apply to whichever spirit is sent for a corresponding task, as with demons' names (diabolus, Satan, Belial, Leviathan). Those who hold that all are sent read Daniel and Dionysius as meaning the higher ranks rarely go out and never leave God's presence and contemplation, as is true even of those often sent. Others say the three highest orders never go out, the lowest three are sent, and the middle three relay God's command from the highest to the lowest, so all may be called angels; the Seraph sent to Isaiah was of a lower order but took the name of the office, burning away his sins.",
+  "claims": [
+   "Michael, Gabriel, and Raphael are names of spirits, not orders.",
+   "Some think each name belongs to one spirit; others that names follow the task.",
+   "Demons too have several names, whether proper or common.",
+   "Higher angels, even when sent, never leave God's presence.",
+   "Another view: the highest three orders never go out, the middle relay commands, the lowest are sent.",
+   "Angels sent take the name of the office they perform."
+  ],
+  "concepts": [
+   "archangels",
+   "names of angels",
+   "names of demons",
+   "angelic missions",
+   "Dionysius",
+   "Gregory",
+   "contemplation"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll2d10c2-d1e3514",
+    "pll2d10c2-d1e3534",
+    "pll2d10c2-d1e3537",
+    "pll2d10c2-d1e3550",
+    "pll2d10c2-d1e3561"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:01:54Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

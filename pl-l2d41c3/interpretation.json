@@ -1,0 +1,198 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T21:14:34Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d41c3-d1e108": {
+  "summary": "Asks how to understand Augustine's De vera religione: sin is so much a voluntary evil that it is no sin at all unless voluntary.",
+  "claims": [],
+  "concepts": [
+   "question",
+   "voluntariness of sin"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d41c3",
+    "pl-l2d41c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:14:34Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d41c3-d1e111": {
+  "summary": "Cites the Retractationes: the definition may seem false but is most true if understood of sin that is only sin, not also punishment, such as the first man's sin; yet sins called involuntary, done in ignorance or under compulsion, are not wholly without will: the ignorant do willingly what they wrongly think should be done; the one whose flesh lusts against the spirit desires unwillingly, but if conquered consents willingly; and original sin in infants derives from the first man's evil will.",
+  "claims": [
+   "Even involuntary sins involve will."
+  ],
+  "concepts": [
+   "Augustine Retractationes",
+   "ignorance",
+   "weakness"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d41c3",
+    "pl-l2d41c3-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:14:34Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d41c3-d1e114": {
+  "summary": "Concludes that the saying concerns the first sin, or all mortal sins generally, some called involuntary, through ignorance or weakness, yet voluntary because not committed without will.",
+  "claims": [
+   "Mortal sins are voluntary."
+  ],
+  "concepts": [
+   "conclusion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d41c3",
+    "pl-l2d41c3-d1e111"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:14:34Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d41c3-d1e120": {
+  "summary": "Takes up De duabus animabus, 'sin is nowhere but in the will,' which the Retractationes explains: it seems false given 'what I do not will, I do,' but refers chiefly to the sin followed by just condemnation, the first man's sin.",
+  "claims": [
+   "Sin only in the will refers chiefly to the first sin."
+  ],
+  "concepts": [
+   "Augustine De duabus animabus",
+   "Romans 7:15"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d41c3",
+    "pl-l2d41c3-d1e114"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:14:34Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d41c3-d1e123": {
+  "summary": "Notes De duabus animabus also says sin is only by will, defining will as an uncompelled motion of mind to not losing or gaining something.",
+  "claims": [
+   "Will is an uncompelled motion."
+  ],
+  "concepts": [
+   "definition of will"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d41c3",
+    "pl-l2d41c3-d1e120",
+    "pl-l2d26c2-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:14:34Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d41c3-d1e126": {
+  "summary": "Cites the Retractationes: this definition distinguishes the willing from the unwilling, referring to those who began evil in paradise freely and knowingly against the command, persuaded but not compelled. One who sins in ignorance may be said to sin unwillingly, though he did the deed willingly: will of the deed, not of the sin. One who knowingly sins when he could resist coercion without sin sins willingly. So sin cannot be without will.",
+  "claims": [
+   "Ignorant sin involves will of the deed, not the sin.",
+   "Sin cannot be without will."
+  ],
+  "concepts": [
+   "coercion",
+   "ignorance",
+   "Augustine Retractationes"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d41c3",
+    "pl-l2d41c3-d1e123"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:14:34Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d41c3-d1e129": {
+  "summary": "Concludes that this shows how the preceding sayings are to be taken.",
+  "claims": [],
+  "concepts": [
+   "conclusion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d41c3",
+    "pl-l2d41c3-d1e126"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:14:34Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d41c3": {
+  "summary": "Explains Augustine's sayings that sin is so voluntary that it is no sin unless voluntary, and that sin is nowhere but in the will. In the Retractationes he explains: these concern sin that is only sin, not also punishment, like the first man's sin; yet even sins called involuntary, done in ignorance or under compulsion, are not wholly without will: the ignorant do willingly what they think should be done, the one whose flesh lusts against the spirit consents willingly if overcome, and original sin derives from the first man's evil will. Augustine's definition of will, a motion under no compulsion, was meant to distinguish the willing, as those who began evil in paradise freely and knowingly; one who sins in ignorance wills the deed, not the sin; one who could resist coercion without sin and does not, sins willingly. So sin cannot be without will.",
+  "claims": [
+   "'No sin unless voluntary' concerns sin that is only sin, like the first sin.",
+   "Even sins done in ignorance or weakness are not wholly without will.",
+   "Original sin derives from the first man's evil will.",
+   "One who sins in ignorance wills the deed, not the sin.",
+   "One who could resist coercion and does not sins willingly.",
+   "Sin cannot exist without will."
+  ],
+  "concepts": [
+   "voluntariness of sin",
+   "ignorance",
+   "weakness",
+   "coercion",
+   "Augustine De vera religione",
+   "Augustine Retractationes",
+   "Augustine De duabus animabus"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d41c3-d1e108",
+    "pl-l2d41c3-d1e111",
+    "pl-l2d41c3-d1e114",
+    "pl-l2d41c3-d1e120",
+    "pl-l2d41c3-d1e123",
+    "pl-l2d41c3-d1e126",
+    "pl-l2d41c3-d1e129"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T21:14:34Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

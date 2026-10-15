@@ -1,0 +1,57 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:30:14Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d21c3-d1e108": {
+  "summary": "Explains that the serpent is called most cunning of all beasts because, as Augustine says, bad angels, though cast down by pride, exceed all beasts by nature through reason; the serpent, not rational, could be called wisest by the devil's spirit filling it, as he filled soothsayers. The devil did not choose it but tempted through the animal permitted him.",
+  "claims": [
+   "The serpent's cunning was the devil's.",
+   "The devil used the animal he was permitted."
+  ],
+  "concepts": [
+   "Augustine",
+   "serpent"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d21c3",
+    "pl-l2d21c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:30:14Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d21c3": {
+  "summary": "Explains why the serpent is called the most cunning of beasts: with Augustine, bad angels, though cast down by pride, are by nature superior to all beasts in reason; the serpent was not rational but could be called wisest by the devil's spirit filling it, as he filled soothsayers. The devil did not choose the serpent but tempted through the animal permitted him.",
+  "claims": [
+   "The serpent is called most cunning because of the devil's spirit in it.",
+   "Fallen angels remain naturally superior to beasts in reason.",
+   "The devil tempted through the animal he was permitted to use."
+  ],
+  "concepts": [
+   "serpent",
+   "demonic possession",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d21c3-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:30:14Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

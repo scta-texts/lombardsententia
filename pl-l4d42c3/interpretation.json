@@ -1,0 +1,57 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T13:07:50Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d42c3-d1e115": {
+  "summary": "Cites Pope Nicholas: one should love the one who lifted him from the font as a father; among spiritual siblings and children there is a free and holy communion, not consanguinity but spiritual nearness, so no lawful marriage can be made among them, since the laws do not permit marriage between natural and adopted children; if adoption forbids marriage, much more should those whom the Spirit's regeneration joins abstain from carnal union.",
+  "claims": [
+   "Spiritual kinship forbids marriage among spiritual and natural children.",
+   "Spiritual kinship binds more than adoption."
+  ],
+  "concepts": [
+   "spiritual kinship",
+   "adoption",
+   "Nicholas I"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d42c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:07:50Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d42c3": {
+  "summary": "Nicholas holds that spiritual or adopted children cannot marry natural children: one should love the sponsor as a father; between spiritual siblings and children there is a holy communion called spiritual nearness, not consanguinity, so no lawful marriage can be made between them, as the laws forbid marriage between natural and adopted children; much more should those joined by the Spirit's regeneration abstain.",
+  "claims": [
+   "Spiritual children may not marry the sponsor's natural children.",
+   "Spiritual kinship is stronger than adoption, which also impedes marriage."
+  ],
+  "concepts": [
+   "spiritual kinship",
+   "adoption",
+   "impediments",
+   "Nicholas I"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d42c3-d1e115"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T13:07:50Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

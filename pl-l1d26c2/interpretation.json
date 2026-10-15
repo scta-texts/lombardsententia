@@ -1,0 +1,88 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T17:43:01Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll1d26c2-d1e3501": {
+  "summary": "Turns to the personal properties, often called notions or relations in Scripture, to be repeated so as to be fixed in memory.",
+  "claims": [],
+  "concepts": [
+   "properties",
+   "notions",
+   "relations"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d26c2",
+    "pl-l1d26c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:43:01Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d26c2-d1e3506": {
+  "summary": "Cites the De fide ad Petrum: begetting, being born, and proceeding differ, so Father, Son, and Spirit are other. The Father's proper is begetting the Son, the Son's being born of the Father's essence, the Spirit's proceeding from both. These properties (generation or paternity, nativity or filiation, procession) are designated by the relative names. The relations are not accidental but eternally and immutably in the persons, so the relations are in the things themselves, not only in the names.",
+  "claims": [
+   "Generation, nativity, and procession differ.",
+   "The properties are paternity, filiation, and procession.",
+   "The personal names are relative.",
+   "The relations are eternally and immutably in the persons."
+  ],
+  "concepts": [
+   "proprietates",
+   "relational realism",
+   "De fide ad Petrum"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d26c2",
+    "pll1d26c2-d1e3501"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:43:01Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1d26c2": {
+  "summary": "Treats the personal properties, also called notions or relations. With the De fide ad Petrum, begetting, being born, and proceeding differ, so Father, Son, and Spirit are distinct. The Father's property is to have begotten the Son, the Son's to be born of the Father's essence, the Spirit's to proceed from both. These are paternity, filiation, and procession, designated by the relative names Father, Son, Holy Spirit. These relations are not accidental but eternal and immutable in the persons themselves, so not only the names but the relations are in the things.",
+  "claims": [
+   "The personal properties are also called notions or relations.",
+   "The Father's property is begetting, the Son's being born, the Spirit's proceeding from both.",
+   "The properties are paternity, filiation, and procession.",
+   "The relations are not accidents but are eternally and immutably in the persons.",
+   "Not only the names but the relations themselves are in the persons."
+  ],
+  "concepts": [
+   "proprietates",
+   "notiones",
+   "relationes",
+   "paternity",
+   "filiation",
+   "procession",
+   "non-accidental relation"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d26c2-d1e3501",
+    "pll1d26c2-d1e3506"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T17:43:01Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

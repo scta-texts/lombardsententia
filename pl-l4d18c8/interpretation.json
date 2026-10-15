@@ -1,0 +1,169 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T12:42:09Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d18c8-d1e115": {
+  "summary": "Asks what the stain is, and what the inner darkness, from which God inwardly cleanses the soul when he sends true (sentence continues).",
+  "claims": [],
+  "concepts": [
+   "stain of sin",
+   "darkness of mind"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d18c8",
+    "pl-l4d18c8-d1e118"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:42:09Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d18c8-d1e118": {
+  "summary": "Completes the question: penance.",
+  "claims": [],
+  "concepts": [
+   "stain of sin"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d18c8",
+    "pl-l4d18c8-d1e115"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:42:09Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d18c8-d1e121": {
+  "summary": "Answers about darkness: when someone sins mortally, he loses the grace of virtue if he had any and suffers damage to natural goods, so the intellect is dulled and the whole inner man darkened, the mind wrapped as in fog; this fog is a penalty of sin, which God drives away when he gives penance, restoring lost goods and repairing damaged ones; 'he scatters fog like ashes'.",
+  "claims": [
+   "Mortal sin removes grace and damages natural goods.",
+   "God dispels this darkness through penance."
+  ],
+  "concepts": [
+   "darkness of mind",
+   "grace",
+   "natural goods",
+   "penalty of sin"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d18c8"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:42:09Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d18c8-d1e128": {
+  "summary": "Asks what the stain of sin is: someone willed and committed murder; afterward he ceases willing and doing, yet does not yet repent or intend to confess. What stain remains? The evil will was a stain, but it passed; refusing to repent is a stain, but another sin. What stain remains, from which penance cleanses?",
+  "claims": [],
+  "concepts": [
+   "stain of sin",
+   "difficulty"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d18c8"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:42:09Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d18c8-d1e131": {
+  "summary": "Answers that the soul remains polluted until it repents, as it was while the evil will was in it: as one who touches a corpse remains unclean until washed, so after the act the soul remains polluted as during it, being as far from God by unlikeness, God who is life and purity of mind. This unlikeness from sin and distance from God is the stain cleansed in penance, which only God does, who alone raises and enlightens the soul; priests cannot, though they are physicians of souls.",
+  "claims": [
+   "The stain of sin is unlikeness to and distance from God.",
+   "Only God cleanses it; priests cannot."
+  ],
+  "concepts": [
+   "stain of sin",
+   "unlikeness to God",
+   "physicians of souls"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d18c8"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:42:09Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d18c8-d1e134": {
+  "summary": "Cites the prophet, 'will physicians raise the dead?', with Augustine: good teachers are rightly called physicians, who can treat the living by ministry but not raise the dead; only God's grace revives them.",
+  "claims": [
+   "Only grace revives the dead soul."
+  ],
+  "concepts": [
+   "physicians of souls",
+   "grace",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d18c8"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:42:09Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d18c8": {
+  "summary": "Asks what the stain and inner darkness are from which God cleanses the soul when he gives true penance. The darkness is easy: mortal sin deprives of the grace of virtue and damages natural goods, dulling the intellect and darkening the inner man; this is a penalty of sin, which God drives away when he gives penance, restoring what was lost. The stain is harder: once a murderer stops willing and doing, what stain remains before he repents? The soul remains polluted as during the act, as one who touches a corpse stays unclean until washed, being as far from God by unlikeness as when sinning; this unlikeness and distance from God is the stain, which only God removes, while priests, as physicians of souls, can treat the living but not raise the dead, as Augustine says.",
+  "claims": [
+   "Mortal sin darkens the mind by removing grace and damaging natural goods.",
+   "God dispels this darkness in giving penance.",
+   "The stain of sin is the soul's unlikeness to and distance from God.",
+   "Only God removes the stain; priests are physicians who cannot raise the dead."
+  ],
+  "concepts": [
+   "stain of sin",
+   "darkness of mind",
+   "unlikeness to God",
+   "physicians of souls",
+   "grace"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d18c8-d1e115",
+    "pl-l4d18c8-d1e118",
+    "pl-l4d18c8-d1e121",
+    "pl-l4d18c8-d1e128",
+    "pl-l4d18c8-d1e131",
+    "pl-l4d18c8-d1e134"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T12:42:09Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

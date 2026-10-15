@@ -1,0 +1,124 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T11:52:39Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d7c4-d1e115": {
+  "summary": "Quotes an authority: know that both are great sacraments, but one to be held in greater veneration, as it is given by greater ministers.",
+  "claims": [
+   "Confirmation is to be held in greater veneration."
+  ],
+  "concepts": [
+   "confirmation",
+   "veneration"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d7c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:52:39Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d7c4-d1e121": {
+  "summary": "Notes that confirmation is called the greater sacrament, perhaps not for greater power or usefulness, but because given by worthier ministers and on a worthier part of the body, the forehead; or perhaps because it gives greater increase of virtues, though baptism avails more for remission.",
+  "claims": [
+   "Confirmation is greater by its ministers and place, or by increase of virtues.",
+   "Baptism avails more for remission."
+  ],
+  "concepts": [
+   "baptism and confirmation",
+   "increase of virtues"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d7c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:52:39Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d7c4-d1e124": {
+  "summary": "Notes that Rabanus seems to suggest this, saying that in the anointing of baptism the Spirit descends to consecrate a dwelling for God, while in confirmation his sevenfold grace comes with all fullness of holiness and power.",
+  "claims": [
+   "Confirmation brings the sevenfold grace of the Spirit."
+  ],
+  "concepts": [
+   "sevenfold grace",
+   "Rabanus"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d7c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:52:39Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d7c4-d1e131": {
+  "summary": "States that this sacrament should be given and received only fasting, as baptism, unless necessity compels otherwise.",
+  "claims": [
+   "Confirmation is given and received fasting."
+  ],
+  "concepts": [
+   "fasting",
+   "necessity"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d7c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:52:39Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d7c4": {
+  "summary": "Quotes an authority saying both baptism and confirmation are great sacraments, but confirmation to be held in greater veneration, as given by greater ministers. Lombard suggests this is not because it confers more power or usefulness, but because it is given by worthier ministers and on a worthier part of the body, the forehead; or because it gives greater increase of virtues, though baptism avails more for remission, as Rabanus suggests in distinguishing the Spirit's descent to consecrate a dwelling in baptism and his sevenfold grace in confirmation. It should be given and received fasting, unless necessity compels otherwise.",
+  "claims": [
+   "Confirmation is held in greater veneration than baptism.",
+   "This is because of its ministers and place, or its greater increase of virtues.",
+   "Baptism avails more for remission of sins.",
+   "Confirmation should be given and received fasting."
+  ],
+  "concepts": [
+   "confirmation",
+   "baptism and confirmation",
+   "sevenfold grace",
+   "fasting"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d7c4-d1e115",
+    "pl-l4d7c4-d1e121",
+    "pl-l4d7c4-d1e124",
+    "pl-l4d7c4-d1e131"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T11:52:39Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

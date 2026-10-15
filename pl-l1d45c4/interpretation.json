@@ -1,0 +1,199 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T18:43:26Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll1d45c4-d1e3509": {
+  "summary": "States that God's supremely good will is the cause of all that is naturally made, past, or future, preceded by no cause since eternal; one should not seek its cause, since that would be seeking something greater than it.",
+  "claims": [
+   "God's will causes all natural things.",
+   "God's will has no cause."
+  ],
+  "concepts": [
+   "first cause"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d45c4",
+    "pl-l1d45c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:43:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d45c4-d1e3512": {
+  "summary": "Cites Augustine's 83 Questions: whoever asks why God willed to make the world seeks the cause of his will; but every efficient cause is greater than its effect, and nothing is greater than God's will, so its cause is not to be sought.",
+  "claims": [
+   "Every efficient cause is greater than its effect.",
+   "Nothing is greater than God's will."
+  ],
+  "concepts": [
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d45c4",
+    "pll1d45c4-d1e3509"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:43:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d45c4-d1e3532": {
+  "summary": "Cites Augustine against the Manichees: God's will is the cause of all that is; if it had a cause, something would precede it, which is impious. To 'why did God make heaven and earth?' answer 'because he willed'; to 'why did he will?' one seeks something greater than God's will, which cannot be found. Let human rashness restrain itself.",
+  "claims": [
+   "God made heaven and earth because he willed.",
+   "Nothing precedes God's will.",
+   "Human rashness should restrain itself."
+  ],
+  "concepts": [
+   "Augustine De Genesi contra Manichaeos",
+   "limits of inquiry"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d45c4",
+    "pll1d45c4-d1e3512"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:43:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d45c4-d1e3555": {
+  "summary": "Concludes that God's will has no cause and its cause is not to be sought.",
+  "claims": [
+   "God's will has no cause."
+  ],
+  "concepts": [
+   "conclusion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d45c4",
+    "pll1d45c4-d1e3532"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:43:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d45c4-d1e3558": {
+  "summary": "Cites De Trinitate III: God's will is the first and highest cause of all forms and motions; nothing happens that does not come from the inner court of the supreme Emperor according to ineffable justice.",
+  "claims": [
+   "God's will is the first cause of all forms and motions."
+  ],
+  "concepts": [
+   "Augustine De Trinitate III"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d45c4",
+    "pll1d45c4-d1e3555"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:43:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d45c4-d1e3578": {
+  "summary": "Continues Augustine: God's wisdom works everywhere (Wis 8:1), in ordinary things and in rare wonders like eclipses, earthquakes, and monstrous births, none of which happens without God's will. Philosophers assigned other causes, unable to see the higher cause; God's will is the first cause of health, sickness, rewards, punishments, graces, and retributions.",
+  "claims": [
+   "Nothing happens without God's will, including rare wonders.",
+   "Philosophers failed to see God's will as the first cause."
+  ],
+  "concepts": [
+   "providence",
+   "secondary causes"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d45c4",
+    "pll1d45c4-d1e3558"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:43:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d45c4-d1e3617": {
+  "summary": "Concludes that God's will alone is that from which all that is arose, itself not arisen but eternal.",
+  "claims": [
+   "God's will is the eternal origin of all."
+  ],
+  "concepts": [
+   "conclusion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d45c4",
+    "pll1d45c4-d1e3578"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:43:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1d45c4": {
+  "summary": "Holds that God's supremely good will is the cause of all that naturally happens, has happened, or will happen, and, being eternal, has no prior cause; to seek its cause is to seek something greater than it. Augustine: whoever asks why God willed to make the world seeks a cause of God's will, but every efficient cause is greater than its effect and nothing is greater than God's will. To 'why did God make heaven and earth?' answer 'because he willed'; let human rashness restrain itself. God's will is the first and highest cause of all forms and motions, of ordinary and rare events, of health and sickness, rewards and punishments; philosophers vainly assigned other causes. It alone is the origin of all, itself unoriginated and eternal.",
+  "claims": [
+   "God's will is the cause of all that naturally is.",
+   "God's will has no cause, being eternal.",
+   "Seeking the cause of God's will is seeking something greater than it, which does not exist.",
+   "God made heaven and earth because he willed.",
+   "God's will is the first cause of all forms and motions, including rare and wondrous events.",
+   "Philosophers erred in attributing such events to other causes."
+  ],
+  "concepts": [
+   "divine will as first cause",
+   "no cause of God's will",
+   "creation",
+   "limits of inquiry",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d45c4-d1e3509",
+    "pll1d45c4-d1e3512",
+    "pll1d45c4-d1e3532",
+    "pll1d45c4-d1e3555",
+    "pll1d45c4-d1e3558",
+    "pll1d45c4-d1e3578",
+    "pll1d45c4-d1e3617"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T18:43:26Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

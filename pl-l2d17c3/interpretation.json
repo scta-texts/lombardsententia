@@ -1,0 +1,82 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:14:24Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll2d17c3-d1e3519": {
+  "summary": "Asks whether God made man suddenly in adult age, or by gradually completing and increasing his age as now in the womb.",
+  "claims": [],
+  "concepts": [
+   "question"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d17c3",
+    "pl-l2d17c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:14:24Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d17c3-d1e3522": {
+  "summary": "Cites Augustine: Adam was made at once in adult age according to higher, not lower causes, that is God's will and power, not bound to natural kinds, as Moses's rod became a dragon. Such things are against nature only for us; for God, what he does is nature. In the first conditions it was possible that man be so made but not necessary; that lay in the Creator's good pleasure, whose will is necessity. Adam was made not according to seminal causes but higher ones, not contrary to nature, since it was in natural causes that it could happen so.",
+  "claims": [
+   "Adam was made as an adult by God's will.",
+   "Higher causes do not act against nature.",
+   "God's will is necessity."
+  ],
+  "concepts": [
+   "higher causes",
+   "miracle and nature"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d17c3",
+    "pll2d17c3-d1e3519"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:14:24Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d17c3": {
+  "summary": "Asks whether God made man at once in adult age or by gradual growth as in the womb. Augustine: Adam was made at once in adult age, according to higher, not lower causes, that is God's will and power, not bound to natural kinds, as Moses's rod became a serpent; such things are against nature only to us, since God's doing is nature. The first conditions of causes made it possible for man to be made so, but not necessary; that lay in the Creator's good pleasure, whose will is necessity. So Adam was made not by seminal causes, which did not contain that he would be so made, but by higher causes not working against nature.",
+  "claims": [
+   "Adam was made at once in adult age.",
+   "This was by higher causes (God's will and power), not lower, seminal causes.",
+   "Such works are against nature only from our point of view.",
+   "The original causes made it possible, not necessary, that man be made so.",
+   "God's will is necessity; what he wills and foreknows will certainly happen."
+  ],
+  "concepts": [
+   "higher vs lower causes",
+   "seminal reasons",
+   "miracle",
+   "creation of Adam",
+   "Augustine De Genesi ad litteram"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll2d17c3-d1e3519",
+    "pll2d17c3-d1e3522"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:14:24Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

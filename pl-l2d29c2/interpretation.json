@@ -1,0 +1,211 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:38:20Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d29c2-d1e108": {
+  "summary": "Asks whether man had virtue before the fall.",
+  "claims": [],
+  "concepts": [
+   "question"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d29c2",
+    "pl-l2d29c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:38:20Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d29c2-d1e111": {
+  "summary": "Reports those who deny it: he lacked justice, since he despised God's command; prudence, since he did not provide for himself; temperance, since he desired another's; and fortitude, since he yielded to evil suggestion.",
+  "claims": [
+   "Adam's sin shows lack of the four virtues."
+  ],
+  "concepts": [
+   "objection",
+   "cardinal virtues"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d29c2",
+    "pl-l2d29c2-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:38:20Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d29c2-d1e114": {
+  "summary": "Replies that he did not have these virtues when he sinned, but had them before and lost them then.",
+  "claims": [
+   "Adam had the virtues before sin and lost them in sinning."
+  ],
+  "concepts": [
+   "reply"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d29c2",
+    "pl-l2d29c2-d1e111"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:38:20Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d29c2-d1e118": {
+  "summary": "States that this is proved by many testimonies of the saints.",
+  "claims": [],
+  "concepts": [
+   "authorities"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d29c2",
+    "pl-l2d29c2-d1e114"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:38:20Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d29c2-d1e121": {
+  "summary": "Cites an Augustinian homily: Adam, having lost charity, was found evil.",
+  "claims": [
+   "Adam lost charity."
+  ],
+  "concepts": [
+   "charity"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d29c2",
+    "pl-l2d29c2-d1e118"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:38:20Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d29c2-d1e124": {
+  "summary": "Cites further: the prince of vices, conquering Adam, made in God's image, armed with chastity, composed with temperance, and shining with charity, stripped the first parents of these gifts.",
+  "claims": [
+   "Adam had chastity, temperance, and charity."
+  ],
+  "concepts": [
+   "virtue before the fall"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d29c2",
+    "pl-l2d29c2-d1e121"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:38:20Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d29c2-d1e127": {
+  "summary": "Cites Ambrose to Sabinus: when Adam was alone he did not transgress, since his mind clung to God; and on the Psalm, that before sin man, most blessed, breathed heavenly air. How could he be most blessed without virtue?",
+  "claims": [
+   "Blessedness before sin implies virtue."
+  ],
+  "concepts": [
+   "Ambrose"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d29c2",
+    "pl-l2d29c2-d1e124"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:38:20Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d29c2-d1e130": {
+  "summary": "Cites Augustine on Genesis that Adam before sin had a spiritual mind; so man shone with virtues before sin and was stripped of them by it.",
+  "claims": [
+   "Man before sin had virtues and lost them."
+  ],
+  "concepts": [
+   "Augustine De Genesi ad litteram"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d29c2",
+    "pl-l2d29c2-d1e127"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:38:20Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d29c2": {
+  "summary": "Asks whether man had virtue before the fall. Some deny it: he lacked justice in despising the command, prudence in not providing for himself, temperance in desiring what was not his, and fortitude in yielding to suggestion. Lombard replies that he lacked these when he sinned but had them before and lost them then, as many authorities show: Adam, having lost charity, was found evil; the devil stripped him of chastity, temperance, and charity; Ambrose says his mind clung to God and he was most blessed, which is impossible without virtue; Augustine says he had a spiritual mind. So man shone with virtues before sin and was stripped of them by it.",
+  "claims": [
+   "Some deny that Adam had virtue, since he sinned against justice, prudence, temperance, and fortitude.",
+   "Adam lacked the virtues when he sinned but had them before.",
+   "Adam lost charity by sin.",
+   "Adam was most blessed before sin, which requires virtue.",
+   "Man before sin shone with virtues and was stripped of them by sin."
+  ],
+  "concepts": [
+   "virtue before the fall",
+   "cardinal virtues",
+   "charity",
+   "original state",
+   "Ambrose",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d29c2-d1e108",
+    "pl-l2d29c2-d1e111",
+    "pl-l2d29c2-d1e114",
+    "pl-l2d29c2-d1e118",
+    "pl-l2d29c2-d1e121",
+    "pl-l2d29c2-d1e124",
+    "pl-l2d29c2-d1e127",
+    "pl-l2d29c2-d1e130"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:38:20Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

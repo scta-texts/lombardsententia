@@ -1,0 +1,111 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:39:39Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d30c10-d1e105": {
+  "summary": "Concludes that original sin is the defect of concupiscence that entered through Adam into all born through concupiscence and vitiated them.",
+  "claims": [
+   "Original sin is the defect of concupiscence."
+  ],
+  "concepts": [
+   "original sin"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d30c10",
+    "pl-l2d30c9"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:39:39Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d30c10-d1e108": {
+  "summary": "Cites Augustine: beyond example, Adam by the hidden corruption of his carnal concupiscence corrupted in himself all to come from his stock; so Paul rightly says 'in whom all sinned', sound whether read as 'in which man' or 'in which sin'.",
+  "claims": [
+   "Adam's corruption is hidden, not only exemplary."
+  ],
+  "concepts": [
+   "Romans 5:12",
+   "Augustine De peccatorum meritis"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d30c10",
+    "pl-l2d30c10-d1e105"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:39:39Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d30c10-d1e111": {
+  "summary": "Explains that all sinned in Adam as in matter, not only by example as the Pelagians say, since all were that one man materially, as in a mass; those he begot after corruption were born under sin. So in that one sin all are rightly said to have sinned, since they cannot be free of it unless absolved by Christ's baptism. Personal sins belong only to their agents; this one is that by which all were made sinners.",
+  "claims": [
+   "All were materially in Adam.",
+   "Baptism absolves original guilt.",
+   "Original sin differs from personal sins."
+  ],
+  "concepts": [
+   "massa",
+   "baptism",
+   "Pelagianism"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d30c10",
+    "pl-l2d30c10-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:39:39Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d30c10": {
+  "summary": "Concludes that original sin is the defect of concupiscence that entered through Adam into all born through concupiscence and vitiated them. Augustine: beyond example, Adam by the hidden corruption of carnal concupiscence corrupted all to come from his stock; 'in whom all sinned' is sound whether read 'in which man' or 'in which sin'. All sinned in Adam as in matter, not only by example as the Pelagians say, since all were materially in him, as in a mass; and in that one sin all sinned, since they cannot be free of it unless absolved of its guilt by Christ's baptism. One's own sins differ from this one sin by which all were made sinners.",
+  "claims": [
+   "Original sin is the defect of concupiscence entering through Adam.",
+   "Adam corrupted his descendants by the hidden corruption of concupiscence, not only by example.",
+   "'In whom all sinned' is sound whether read of the man or of the sin.",
+   "All sinned in Adam as in matter, being materially in him.",
+   "Only Christ's baptism absolves from original sin.",
+   "Personal sins differ from the one sin in which all sinned."
+  ],
+  "concepts": [
+   "original sin",
+   "concupiscence",
+   "in quo omnes peccaverunt",
+   "massa",
+   "Pelagianism",
+   "baptism",
+   "Augustine De peccatorum meritis"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d30c10-d1e105",
+    "pl-l2d30c10-d1e108",
+    "pl-l2d30c10-d1e111"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:39:39Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

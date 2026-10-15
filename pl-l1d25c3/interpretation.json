@@ -1,0 +1,285 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T17:43:01Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll1d25c3-d1e3501": {
+  "summary": "Asks whether 'the person of the Father is other than that of the Son and of the Spirit' is said on the same reasoning.",
+  "claims": [],
+  "concepts": [
+   "question"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d25c3",
+    "pll1d25c2-d1e3609"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:43:01Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d25c3-d1e3504": {
+  "summary": "Answers that it can be understood soundly as 'the subsistence or hypostasis of the Father is other than that of the Son and of the Spirit.'",
+  "claims": [
+   "'Other person' means other subsistence."
+  ],
+  "concepts": [
+   "alia persona"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d25c3",
+    "pll1d25c3-d1e3501"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:43:01Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d25c3-d1e3507": {
+  "summary": "Asks whether 'the Father is other in person' or 'other personally' is taken the same way.",
+  "claims": [],
+  "concepts": [
+   "question",
+   "alius personaliter"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d25c3",
+    "pll1d25c3-d1e3504"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:43:01Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d25c3-d1e3513": {
+  "summary": "Answers that it could be, but more fittingly 'person' here means personal property: the Father is other than the Son by his property, the Son other than the Father by his. The Father's hypostasis is distinguished by paternal property, the Son's by filial, the Spirit's from both by processional property.",
+  "claims": [
+   "'Other personally' means other by personal property.",
+   "Hypostases are distinguished by paternity, filiation, and procession."
+  ],
+  "concepts": [
+   "proprietas",
+   "distinction of hypostases"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d25c3",
+    "pll1d25c3-d1e3507"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:43:01Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d25c3-d1e3516": {
+  "summary": "Adds that 'the person of the Father is other than that of the Son' can also mean 'the property by which the Father is Father is other than that by which the Son is Son.'",
+  "claims": [
+   "'Other person' can also mean other property."
+  ],
+  "concepts": [
+   "proprietas"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d25c3",
+    "pll1d25c3-d1e3513"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:43:01Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d25c3-d1e3519": {
+  "summary": "Notes that some take 'three persons' as three properties, but it is better to understand subsistences or hypostases.",
+  "claims": [
+   "'Three persons' is better read as three subsistences."
+  ],
+  "concepts": [
+   "preferred reading"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d25c3",
+    "pll1d25c3-d1e3516"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:43:01Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d25c3-d1e3522": {
+  "summary": "Concludes that 'person' in the Trinity has a threefold sense: sometimes essence, sometimes hypostasis, sometimes property.",
+  "claims": [
+   "'Person' signifies essence, hypostasis, or property depending on use."
+  ],
+  "concepts": [
+   "three senses of persona"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d25c3",
+    "pll1d25c3-d1e3519"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:43:01Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d25c3-d1e3525": {
+  "summary": "Recalls that the essential sense has been shown from Augustine.",
+  "claims": [
+   "'Person' sometimes signifies essence."
+  ],
+  "concepts": [
+   "recapitulation"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d25c3",
+    "pll1d23c1-d1e3526"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:43:01Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d25c3-d1e3531": {
+  "summary": "Proposes to show from the authorities that 'person' is taken for hypostasis and property, lest he seem to speak from conjecture.",
+  "claims": [],
+  "concepts": [
+   "appeal to authority"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d25c3",
+    "pll1d25c3-d1e3522"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:43:01Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d25c3-d1e3535": {
+  "summary": "Cites Jerome's exposition of the faith: no grade in the Trinity; except names indicating personal property, whatever is said of one person is said of all three. Against Arius one substance, against Sabellius three persons distinct by property; we confess not only names but the properties of names, that is persons or hypostases, subsistences. They are one in substance, distinct in persons and names. So properties are persons and persons subsistences.",
+  "claims": [
+   "There is no grade of superior and inferior in the Trinity.",
+   "Against Arius, one substance; against Sabellius, three persons distinct by property.",
+   "Persons are properties of names and subsistences."
+  ],
+  "concepts": [
+   "Jerome",
+   "anti-Arianism",
+   "anti-Sabellianism",
+   "persona as proprietas and subsistentia"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d25c3",
+    "pll1d25c3-d1e3531"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:43:01Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d25c3-d1e3562": {
+  "summary": "Cites John Damascene: in the deity we confess one nature and three hypostases, truly existing, that is, persons.",
+  "claims": [
+   "Persons are hypostases that truly exist."
+  ],
+  "concepts": [
+   "Damascene",
+   "hypostasis"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d25c3",
+    "pll1d25c3-d1e3535"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:43:01Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1d25c3": {
+  "summary": "Applies the account to 'the person of the Father is other than the person of the Son': 'other subsistence.' 'Other in person' or 'other personally' is better taken with 'person' as personal property: the Father is other than the Son by paternity, the Son by filiation, the Spirit by procession. Some take 'three persons' as three properties, but it is better to take it as subsistences. So 'person' has three senses in the Trinity: essence, hypostasis, and property. That it signifies hypostasis and property is shown by Jerome's exposition of the faith (persons distinguished by properties against Sabellius, one substance against Arius; properties are persons, persons subsistences) and by John Damascene (three hypostases, truly existing, that is, persons).",
+  "claims": [
+   "'Other person' means other subsistence.",
+   "'Other personally' means other by personal property.",
+   "The Father is distinguished by paternity, the Son by filiation, the Spirit by procession.",
+   "'Three persons' is better understood as three subsistences than three properties.",
+   "'Person' in the Trinity has three senses: essence, hypostasis, and property.",
+   "Against Arius there is one substance; against Sabellius three persons distinct by property."
+  ],
+  "concepts": [
+   "three senses of persona",
+   "proprietas",
+   "hypostasis",
+   "anti-Arianism",
+   "anti-Sabellianism",
+   "Jerome",
+   "John Damascene"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d25c3-d1e3501",
+    "pll1d25c3-d1e3504",
+    "pll1d25c3-d1e3507",
+    "pll1d25c3-d1e3513",
+    "pll1d25c3-d1e3516",
+    "pll1d25c3-d1e3519",
+    "pll1d25c3-d1e3522",
+    "pll1d25c3-d1e3525",
+    "pll1d25c3-d1e3531",
+    "pll1d25c3-d1e3535",
+    "pll1d25c3-d1e3562"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T17:43:01Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

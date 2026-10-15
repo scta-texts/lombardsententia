@@ -1,0 +1,144 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T01:04:37Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l3d8c2-d1e117": {
+  "summary": "Asks whether Christ should be called twice begotten, as he is called Son of God and of man.",
+  "claims": [],
+  "concepts": [
+   "two births"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d8c2",
+    "pl-l3d8c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:04:37Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d8c2-d1e120": {
+  "summary": "Answers that Christ was born twice and had two births.",
+  "claims": [
+   "Christ had two births."
+  ],
+  "concepts": [
+   "two births"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d8c2",
+    "pl-l3d8c2-d1e117"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:04:37Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d8c2-d1e123": {
+  "summary": "Cites Augustine, De fide ad Petrum: God the Father begot from his nature the Son coequal and coeternal; the same only-begotten was born a second time, once from the Father, once from the mother; God the Word born of the Father, the Word made flesh born of the mother; one and the same Son born before the ages and in time, and both births, divine and human, belong to the one Son.",
+  "claims": [
+   "The one Son was born of the Father and of the mother.",
+   "Both births belong to one Son."
+  ],
+  "concepts": [
+   "two births",
+   "one person"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d8c2",
+    "pl-l3d8c2-d1e120"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:04:37Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d8c2-d1e139": {
+  "summary": "Cites John Damascene: we venerate two births of Christ, one from the Father before the ages, beyond cause, reason, time, and nature; one in the last times, for us (for our salvation), like us (born a man from a woman in nine months), and above us (not from seed but from the Spirit and the Virgin, beyond the law of conception).",
+  "claims": [
+   "Christ's eternal birth is beyond cause and time.",
+   "His temporal birth was for us, like us, and above us."
+  ],
+  "concepts": [
+   "two births",
+   "virginal conception"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d8c2",
+    "pl-l3d8c2-d1e123"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:04:37Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d8c2-d1e148": {
+  "summary": "Concludes that Christ plainly has two births and is twice born.",
+  "claims": [
+   "Christ was born twice."
+  ],
+  "concepts": [
+   "two births"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d8c2",
+    "pl-l3d8c2-d1e139"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:04:37Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d8c2": {
+  "summary": "Asks whether Christ should be said to be twice begotten, as he is Son of God and of man. He was born twice and had two births: Augustine says the same only-begotten was born once of the Father and once of the mother, both births belonging to the one Son; Damascene venerates two births, one from the Father before the ages, beyond cause and time, the other in the last times, for us, like us, and above us.",
+  "claims": [
+   "Christ was born twice.",
+   "Both births belong to one Son.",
+   "The temporal birth was for us, like us, and above us."
+  ],
+  "concepts": [
+   "two births",
+   "birth of Christ"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d8c2-d1e117",
+    "pl-l3d8c2-d1e120",
+    "pl-l3d8c2-d1e123",
+    "pl-l3d8c2-d1e139",
+    "pl-l3d8c2-d1e148"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T01:04:37Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

@@ -1,0 +1,100 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T11:10:24Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l3d39c10-d1e115": {
+  "summary": "Notes that Bede, above, called such an oath perjury.",
+  "claims": [],
+  "concepts": [
+   "perjury",
+   "Bede"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d39c10",
+    "pl-l3d39c9-d1e140"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:10:24Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d39c10-d1e121": {
+  "summary": "Adds John, apocrisiarius of the eastern sees: the word of our father Sophronius means it is better for one who has sworn to perjure than to keep an oath to break holy images.",
+  "claims": [
+   "Breaking an oath to destroy holy images is better than keeping it."
+  ],
+  "concepts": [
+   "holy images",
+   "unjust oath",
+   "Sophronius"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d39c10"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:10:24Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d39c10-d1e127": {
+  "summary": "Explains that such an unkept oath is called perjury, and one who does not fulfil it is said to perjure because he swore something false; he is guilty not for not keeping it but for swearing something unjust, like one who perjures.",
+  "claims": [
+   "The guilt of an unjust oath lies in swearing it."
+  ],
+  "concepts": [
+   "perjury",
+   "unjust oath",
+   "locus of guilt"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d39c10"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:10:24Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d39c10": {
+  "summary": "Notes that Bede called breaking such an oath perjury, and John the Apocrisiarius reports Sophronius as saying it is better to perjure than keep an oath to break holy images. Lombard explains that such an unkept oath is called perjury, and the one who does not fulfil it is said to perjure, because he swore something false; he is guilty not for not keeping it but for swearing something unjust.",
+  "claims": [
+   "Breaking an unjust oath is called perjury.",
+   "The guilt lies in swearing the unjust oath, not in breaking it."
+  ],
+  "concepts": [
+   "perjury",
+   "unjust oath",
+   "Sophronius",
+   "holy images"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d39c10-d1e115",
+    "pl-l3d39c10-d1e121",
+    "pl-l3d39c10-d1e127"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T11:10:24Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

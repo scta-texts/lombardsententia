@@ -1,0 +1,105 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T11:06:24Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l3d34c2-d1e115": {
+  "summary": "Says Ambrose shows the gifts are virtues that will not cease, since they are most abundantly in the angels: the heavenly Jerusalem is watered not by an earthly river but by the Holy Spirit, of whom we drink a little, while he flows more abundantly in the heavenly spirits with the full stream of seven spiritual virtues, gladdening the angelic nature with richer sanctification.",
+  "claims": [
+   "The seven gifts are virtues present most abundantly in the angels."
+  ],
+  "concepts": [
+   "gifts of the Holy Spirit",
+   "angels",
+   "heavenly Jerusalem",
+   "Ambrose"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d34c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:06:24Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d34c2-d1e124": {
+  "summary": "Continues Ambrose: these sanctifications are those Isaiah lists, the spirit of wisdom and understanding, counsel and fortitude, knowledge and piety and fear of God. One river, many streams of spiritual gifts; though many 'spirits' are named, there is one Spirit of God, dividing to each as he wills.",
+  "claims": [
+   "The seven gifts are Isaiah's sanctifications.",
+   "One Spirit is the source of the many gifts."
+  ],
+  "concepts": [
+   "gifts of the Holy Spirit",
+   "Isaiah 11",
+   "unity of the Spirit"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d34c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:06:24Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d34c2-d1e142": {
+  "summary": "Concludes that Ambrose expressly teaches that the seven gifts are virtues and sanctifications of believing minds and will not cease in the future, since they are in the angels.",
+  "claims": [
+   "The seven gifts are virtues and will not cease."
+  ],
+  "concepts": [
+   "gifts of the Holy Spirit",
+   "virtues in the homeland"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d34c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:06:24Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d34c2": {
+  "summary": "Shows from Ambrose that the gifts are virtues and will not cease. The Spirit, river of the heavenly city, flows more abundantly in the angels with the full stream of seven spiritual virtues, the sanctifications Isaiah lists: wisdom, understanding, counsel, fortitude, knowledge, piety, and fear. One river with many streams: one Spirit dividing to each as he wills. Lombard concludes that the seven gifts are virtues and sanctifications of believing minds and will not cease, since they are in the angels.",
+  "claims": [
+   "The seven gifts are virtues.",
+   "The seven gifts are in the angels, so they will not cease in the future.",
+   "One Spirit gives many gifts."
+  ],
+  "concepts": [
+   "gifts of the Holy Spirit",
+   "virtues",
+   "angels",
+   "virtues in the homeland",
+   "Ambrose"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d34c2-d1e115",
+    "pl-l3d34c2-d1e124",
+    "pl-l3d34c2-d1e142"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T11:06:24Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

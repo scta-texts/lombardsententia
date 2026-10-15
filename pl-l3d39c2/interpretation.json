@@ -1,0 +1,62 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T11:10:24Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l3d39c2-d1e112": {
+  "summary": "Reports the view that there is no perjury where there is no lie: as one sometimes says something false without lying, one may swear something false without perjury. Paul perhaps said something false when he promised to come to Corinth, but did not incur the fault of lying, since he meant it; had he confirmed it by oath he would have sworn truly as far as he was concerned, though things turned out otherwise. So, as one is a liar only if he thinks otherwise than he says, some hold no one is a perjurer unless he thinks otherwise than he swears.",
+  "claims": [
+   "One may swear something false without perjury.",
+   "Paul did not lie in his unfulfilled promise.",
+   "On this view, perjury requires speaking against one's mind."
+  ],
+  "concepts": [
+   "perjury",
+   "lying",
+   "Paul's promise",
+   "sincerity",
+   "opposing opinion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d39c2",
+    "pl-l3d38c4-d1e130"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:10:24Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d39c2": {
+  "summary": "Reports the opposite view: there is no perjury without a lie, and as one may say something false without lying, so one may swear something false without perjury. Paul's promise to come to Corinth was perhaps false, yet he did not lie, since he meant it; had he sworn it, he would not have perjured himself. So on this view one is a perjurer only if one swears against one's mind, whatever the facts.",
+  "claims": [
+   "Some hold that there is no perjury without a lie.",
+   "Paul's unfulfilled promise was not a lie, since he meant it.",
+   "On this view, perjury requires swearing against one's mind."
+  ],
+  "concepts": [
+   "perjury",
+   "lying",
+   "sincerity",
+   "Paul's promise"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d39c2-d1e112"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T11:10:24Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

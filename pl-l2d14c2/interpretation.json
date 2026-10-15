@@ -1,0 +1,54 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:11:27Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll2d14c2-d1e3518": {
+  "summary": "Explains with Bede that the creation of the heaven in which the stars are fixed is described here, with waters below in air and earth and others above (Ps 103:3); the firmament, the starry heaven, is in the middle.",
+  "claims": [
+   "The firmament is the starry heaven between waters."
+  ],
+  "concepts": [
+   "Bede"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d14c2",
+    "pl-l2d14c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:11:27Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d14c2": {
+  "summary": "Explains with Bede that this describes the creation of the heaven in which the stars are fixed, with waters below in air and earth and other waters above ('who covers its upper parts with waters,' Ps 103:3); the firmament, the starry heaven, is in the middle.",
+  "claims": [
+   "The second day created the starry heaven.",
+   "There are waters below and above the firmament."
+  ],
+  "concepts": [
+   "firmament",
+   "Bede",
+   "waters above"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll2d14c2-d1e3518"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:11:27Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

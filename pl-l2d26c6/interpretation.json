@@ -1,0 +1,107 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:35:42Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d26c6-d1e108": {
+  "summary": "States that as the prior will precedes the good will, so understanding precedes the prior will.",
+  "claims": [
+   "Understanding precedes the will that precedes faith."
+  ],
+  "concepts": [
+   "intellect and will"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d26c6",
+    "pl-l2d26c5"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:35:42Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d26c6-d1e111": {
+  "summary": "Cites Augustine on Ps 118:20, 'my soul longed to desire your justifications': we sometimes see by reason how useful God's justifications are yet, hindered by weakness, do not desire them; understanding flies ahead and slow or no affection follows; we know the good, do not delight to do it, and desire that it delight. The steps are seeing their usefulness, desiring their desire, and finally, as grace advances, delighting in their doing.",
+  "claims": [
+   "Understanding can precede affection.",
+   "The steps are seeing, desiring, delighting."
+  ],
+  "concepts": [
+   "Augustine Enarrationes",
+   "Psalm 118:20"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d26c6",
+    "pl-l2d26c6-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:35:42Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d26c6-d1e116": {
+  "summary": "Draws out this order of graces: understanding of goods precedes desire for them, and desire precedes the delight that comes through faith and charity; with it the will is truly good and right living is done, the companion of faith, not its forerunner.",
+  "claims": [
+   "Delight in good comes through faith and charity.",
+   "The good will accompanies faith."
+  ],
+  "concepts": [
+   "order of graces",
+   "delight"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d26c6",
+    "pl-l2d26c6-d1e111"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:35:42Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d26c6": {
+  "summary": "Adds that understanding precedes the prior will, as that will precedes the good will. Augustine on 'my soul longed to desire your justifications': understanding flies ahead and slow or no affection follows; we know the good and do not delight to do it, and desire that it delight. The steps are: first seeing how useful and fitting God's justifications are, then desiring to desire them, finally, with grace advancing, delighting in doing them. Understanding precedes desire, and desire precedes the delight that comes through faith and charity; with it the will is truly good, the companion of faith, not its forerunner.",
+  "claims": [
+   "Understanding precedes desire, and desire precedes delight in the good.",
+   "One can know the good without delighting in it.",
+   "Delight in the good comes through faith and charity.",
+   "The truly good will accompanies faith rather than preceding it."
+  ],
+  "concepts": [
+   "order of graces",
+   "intellect and affection",
+   "delight",
+   "desire",
+   "Psalm 118:20",
+   "good will"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d26c6-d1e108",
+    "pl-l2d26c6-d1e111",
+    "pl-l2d26c6-d1e116"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:35:42Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

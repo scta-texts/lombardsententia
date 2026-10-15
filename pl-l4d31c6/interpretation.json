@@ -1,0 +1,99 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T13:01:54Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d31c6-d1e118": {
+  "summary": "Asks: if intercourse for offspring has no fault, what does the Apostle permit 'by indulgence', since pardon is given only to fault? By this some try to prove marriage is sin.",
+  "claims": [],
+  "concepts": [
+   "precept and indulgence",
+   "objection"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d31c6"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:01:54Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d31c6-d1e127": {
+  "summary": "Answers that indulgence is either concession or permission; the Apostle had treated marriage and intercourse and referred 'by indulgence' to both: marriage and nuptial intercourse for offspring alone are indulged by concession; intercourse beyond the need of generation, for incontinence, by permission, since some fault, though light, is present; so it is not commanded or conceded but permitted, being venial, not praiseworthy.",
+  "claims": [
+   "Indulgence for marriage is concession; for incontinent intercourse, permission."
+  ],
+  "concepts": [
+   "precept and indulgence",
+   "venial sin"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d31c6",
+    "pl-l4d26c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:01:54Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d31c6-d1e136": {
+  "summary": "Quotes Augustine: someone will say, if the Apostle granted pardon, marriage is sin, for pardon is granted only to sin. Plainly, what he permitted to weakness by pardon I dare call sin; but granting pardon the Apostle considered the intercourse of spouses where there is the evil of incontinence.",
+  "claims": [
+   "The pardon concerns incontinent intercourse, not marriage itself."
+  ],
+  "concepts": [
+   "venial sin",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d31c6"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:01:54Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d31c6": {
+  "summary": "Asks what the Apostle permits 'by indulgence' if intercourse for offspring is without fault, since pardon is for fault, and some argue marriage is therefore sin. Indulgence is either concession or permission: marriage and intercourse for offspring are indulged by concession; intercourse beyond the need of generation, from incontinence, by permission, since it involves light fault, being tolerated, not commanded or praised. Augustine: what the Apostle permitted by pardon to weakness is sin, namely the intercourse of spouses where the evil of incontinence is present.",
+  "claims": [
+   "Marriage and intercourse for offspring are indulged by concession.",
+   "Intercourse from incontinence is indulged by permission, as a light fault.",
+   "Marriage itself is not sin."
+  ],
+  "concepts": [
+   "precept and indulgence",
+   "marital intercourse",
+   "venial sin",
+   "1 Corinthians 7:6"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d31c6-d1e118",
+    "pl-l4d31c6-d1e127",
+    "pl-l4d31c6-d1e136"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T13:01:54Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

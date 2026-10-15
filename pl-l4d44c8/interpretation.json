@@ -1,0 +1,124 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T13:09:38Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d44c8-d1e115": {
+  "summary": "Asks whether aborted fetuses and monsters will rise, and in what form.",
+  "claims": [],
+  "concepts": [
+   "resurrection of the body",
+   "monsters"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d44c8"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:09:38Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d44c8-d1e118": {
+  "summary": "Quotes Augustine: the question of aborted fetuses arises, born in the womb but not able to be reborn; if we say those already formed will rise, it can somehow be tolerated; but who would not more readily think the unformed perish like seeds not conceived?",
+  "claims": [
+   "Formed fetuses may rise; unformed ones likely do not."
+  ],
+  "concepts": [
+   "abortion",
+   "ensoulment",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d44c8"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:09:38Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d44c8-d1e127": {
+  "summary": "Continues: when man begins to live in the womb, and whether there is a hidden life not yet shown by movement, may be scrupulously disputed; to deny that fetuses cut out to save mothers had lived seems shameless; from when a man begins to live he can die, and dying, wherever death came to him, I cannot see how he would not belong to the resurrection.",
+  "claims": [
+   "Whoever began to live belongs to the resurrection."
+  ],
+  "concepts": [
+   "beginning of life",
+   "resurrection of the body"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d44c8"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:09:38Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d44c8-d1e134": {
+  "summary": "Continues: monsters born and living, however briefly, are not to be denied resurrection, but nature will be corrected; the two-membered child reported from the East, which Jerome recorded, will rise not as one double man but as two, as if born twins; other monsters of great deformity will be restored to human form.",
+  "claims": [
+   "Monsters rise with nature corrected.",
+   "Conjoined twins rise as two persons."
+  ],
+  "concepts": [
+   "monsters",
+   "integrity of the body",
+   "Jerome"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d44c8"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:09:38Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d44c8": {
+  "summary": "Asks whether aborted fetuses and monsters will rise. Augustine: formed fetuses may be said to rise; unformed ones more likely perish like unconceived seeds; when life begins in the womb is a difficult question, but one who began to live can die and so rise. Monsters that are born and live, however briefly, will rise with nature corrected: the two-membered child reported by Jerome will rise as two men, and other deformities will be restored to human form.",
+  "claims": [
+   "Formed fetuses will rise; unformed ones likely do not.",
+   "Whoever began to live can die and rise.",
+   "Monstrous births will rise with nature corrected."
+  ],
+  "concepts": [
+   "resurrection of the body",
+   "abortion",
+   "ensoulment",
+   "monsters",
+   "integrity of the body"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d44c8-d1e115",
+    "pl-l4d44c8-d1e118",
+    "pl-l4d44c8-d1e127",
+    "pl-l4d44c8-d1e134"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T13:09:38Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

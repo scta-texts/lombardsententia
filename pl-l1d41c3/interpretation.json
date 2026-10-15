@@ -1,0 +1,149 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T18:41:19Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll1d41c3-d1e3501": {
+  "summary": "Asks whether God always knows and foreknows all he once knows or foreknows, or once knew or foreknew what he does not now.",
+  "claims": [],
+  "concepts": [
+   "question"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d41c3",
+    "pl-l1d41c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:41:19Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d41c3-d1e3506": {
+  "summary": "Answers about foreknowledge: God foreknew many things he no longer foreknows, since foreknowledge is only of the future, and once things become present or past they cease to be under foreknowledge, though always under knowledge. This is not a defect of knowledge but due to the meaning of 'foreknowledge,' knowing before something happens.",
+  "claims": [
+   "God ceases to foreknow what is no longer future.",
+   "This implies no loss of knowledge."
+  ],
+  "concepts": [
+   "praescientia",
+   "meaning of terms"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d41c3",
+    "pll1d41c3-d1e3501"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:41:19Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d41c3-d1e3510": {
+  "summary": "States that God always knows whatever he ever knows: he always had, has, and will have every knowledge he ever has.",
+  "claims": [
+   "God always knows whatever he ever knows."
+  ],
+  "concepts": [
+   "immutability of knowledge"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d41c3",
+    "pll1d41c3-d1e3506"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:41:19Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d41c3-d1e3513": {
+  "summary": "Objection: God once knew this man would be born, now does not know he will be born; he knew the world was to be created, now does not; so he knew something he does not know now.",
+  "claims": [],
+  "concepts": [
+   "objection",
+   "tensed knowledge"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d41c3",
+    "pll1d41c3-d1e3510"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:41:19Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d41c3-d1e3516": {
+  "summary": "Answers that God now knows the same about this man's birth and the world's creation as before, though it must be expressed in different words, as tomorrow, today, and yesterday name the same day. The patriarchs believed Christ would be born and die, we believe he was; we believe the same. With Augustine, times changed, and so words, not faith.",
+  "claims": [
+   "God's knowledge of an event is the same before and after.",
+   "Different tenses express the same knowledge.",
+   "The patriarchs' faith and ours are the same."
+  ],
+  "concepts": [
+   "tense",
+   "Augustine on John",
+   "unity of faith"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d41c3",
+    "pll1d41c3-d1e3513"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:41:19Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1d41c3": {
+  "summary": "Asks whether God always knows and foreknows whatever he once knows or foreknows. Foreknowledge: God foreknew many things he no longer foreknows, because once they become present or past they cease to be under foreknowledge, which by definition is of the future, though they remain under his knowledge and he knows them no less. Knowledge: God always knows whatever he ever knows. To the objection that he once knew a man would be born and now does not, Lombard answers that he knows the same thing, expressed in different words with changing tenses, as tomorrow, today, and yesterday name the same day, and as the patriarchs believed Christ would be born and we believe he was born: times have changed, not faith.",
+  "claims": [
+   "God ceases to foreknow things once they are no longer future, without loss of knowledge.",
+   "Foreknowledge by definition concerns only the future.",
+   "God always knows whatever he ever knows.",
+   "The same knowledge is expressed by different tenses at different times.",
+   "The patriarchs and we believe the same faith in different tenses."
+  ],
+  "concepts": [
+   "foreknowledge",
+   "immutability of knowledge",
+   "tense and propositions",
+   "faith of the patriarchs"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d41c3-d1e3501",
+    "pll1d41c3-d1e3506",
+    "pll1d41c3-d1e3510",
+    "pll1d41c3-d1e3513",
+    "pll1d41c3-d1e3516"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T18:41:19Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

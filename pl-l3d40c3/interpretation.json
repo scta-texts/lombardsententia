@@ -1,0 +1,88 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T11:10:24Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l3d40c3-d1e115": {
+  "summary": "Distinguishes the letter of the Gospel from that of the Law: their promises differ, the Law promising earthly things and the Gospel heavenly; their sacraments differ, the Law's only signifying, the Gospel's conferring grace; their ceremonial precepts differ, while the moral ones are the same but more fully contained in the Gospel.",
+  "claims": [
+   "The Law promises earthly goods, the Gospel heavenly.",
+   "The Gospel's sacraments confer grace; the Law's only signify.",
+   "Moral precepts are the same in Law and Gospel."
+  ],
+  "concepts": [
+   "Law and Gospel",
+   "sacraments",
+   "promises",
+   "moral and ceremonial precepts"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d40c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:10:24Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d40c3-d1e118": {
+  "summary": "Concludes the book: you have heard the ten strings of the psaltery, given to both sexes, to be plucked with charity so that the beasts of the vices may be slain.",
+  "claims": [
+   "The ten commandments are fulfilled through charity."
+  ],
+  "concepts": [
+   "ten-stringed psaltery",
+   "charity",
+   "vices",
+   "conclusion of Book 3"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d40c3",
+    "pl-l3d37c1-d1e118"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:10:24Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d40c3": {
+  "summary": "Distinguishes the letter of the Gospel from that of the Law: the Law promises earthly things, the Gospel heavenly; the Law's sacraments only signify, the Gospel's confer grace; the ceremonial precepts differ, while the moral ones are the same but more fully contained in the Gospel. Book 3 closes with the image of the ten strings of the psaltery, given to both sexes, to be plucked by charity so that the beasts of the vices may be slain.",
+  "claims": [
+   "The Law promises earthly things, the Gospel heavenly ones.",
+   "The Law's sacraments only signify, the Gospel's confer grace.",
+   "The moral precepts of the Law and Gospel are the same, but fuller in the Gospel.",
+   "The ten commandments are fulfilled by charity."
+  ],
+  "concepts": [
+   "Law and Gospel",
+   "promises",
+   "sacraments",
+   "moral and ceremonial precepts",
+   "ten-stringed psaltery",
+   "conclusion of Book 3"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d40c3-d1e115",
+    "pl-l3d40c3-d1e118"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T11:10:24Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

@@ -1,0 +1,105 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:14:24Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d18c1-d1e108": {
+  "summary": "States that in paradise God formed woman from man's substance, as Scripture says after the animals were named: God cast sleep on Adam, took one of his ribs, and formed it into woman.",
+  "claims": [
+   "God formed woman from Adam's rib."
+  ],
+  "concepts": [
+   "creation of woman",
+   "Genesis 2:21"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d18c1",
+    "pl-l2d17c6"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:14:24Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d18c1-d1e116": {
+  "summary": "Asks why God did not create man and woman simultaneously, as the angels, but first man, then woman from man.",
+  "claims": [],
+  "concepts": [
+   "question"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d18c1",
+    "pl-l2d18c1-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:14:24Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d18c1-d1e119": {
+  "summary": "Answers: so that there would be one principle of the human race, confounding the devil's pride, who desired to be another principle than God, and exalting man by likeness to God; man received as gift what the devil tried to seize. As God is principle of all creation, man is principle of all human generation, showing God's image; and God willed all from one so they would love one another as one.",
+  "claims": [
+   "Humanity has a single principle.",
+   "Man as principle of generation images God as principle of creation.",
+   "Common origin grounds love."
+  ],
+  "concepts": [
+   "one principle",
+   "image of God"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d18c1",
+    "pl-l2d18c1-d1e116"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:14:24Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d18c1": {
+  "summary": "States that in paradise God formed woman from man's substance, casting Adam into sleep and taking a rib (Gen 2:21–22). Why not create both at once like the angels? So that there be one principle of the human race, confounding the devil's pride, who wished to be another principle than God, while man received as gift what the devil sought to seize: as God is principle of creation, man is principle of generation, showing God's image; and so all, knowing they come from one, might love one another as one.",
+  "claims": [
+   "Woman was formed from man's substance in paradise.",
+   "Humanity has one principle, Adam.",
+   "This confounds the devil, who wished to be a principle apart from God.",
+   "As God is principle of creation, man is principle of generation, showing God's image.",
+   "Common origin from one grounds mutual love."
+  ],
+  "concepts": [
+   "creation of woman",
+   "one principle of humanity",
+   "image of God",
+   "devil's pride",
+   "unity of mankind"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d18c1-d1e108",
+    "pl-l2d18c1-d1e116",
+    "pl-l2d18c1-d1e119"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:14:24Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

@@ -1,0 +1,105 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T18:42:25Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll1d44c2-d1e3506": {
+  "summary": "Reports the objection that God cannot always do what he once could: he could be incarnate, die, and rise, which he cannot now; so he had a power he lacks now, and his power seems diminished.",
+  "claims": [],
+  "concepts": [
+   "objection"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d44c2",
+    "pl-l1d44c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:42:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d44c2-d1e3509": {
+  "summary": "Answers that, as God always knows what he once knew and wills what he once willed, he always can what he once could and is never deprived of any power. He is not deprived of the power of being incarnate or rising; as he could once be incarnate, so he can now have been incarnate, which is power for the same thing.",
+  "claims": [
+   "God always has every power he ever had.",
+   "The power to be incarnate and to have been incarnate is the same."
+  ],
+  "concepts": [
+   "immutability of power"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d44c2",
+    "pll1d44c2-d1e3506"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:42:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d44c2-d1e3513": {
+  "summary": "Explains with parallels: as God once knew he would rise and now knows he has risen, the same knowledge, and once willed to rise and now wills to have risen, so he could once be born and rise and now can have been born and risen, the same power. Different tenses spoken at different times make the same sense, as 'he can read today' and tomorrow 'he could have read.' So God always has all the power he once had, but cannot always do everything he once could do; he can do it or have done it. The same holds for will and knowledge.",
+  "claims": [
+   "Knowledge, will, and power of God concern the same thing across changing tenses.",
+   "God cannot always do what he once could, but can have done it."
+  ],
+  "concepts": [
+   "tense",
+   "immutability",
+   "parallel of knowledge, will, power"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d44c2",
+    "pll1d44c2-d1e3509",
+    "pll1d41c3-d1e3516"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:42:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1d44c2": {
+  "summary": "Asks whether God can always do whatever he once could. Some say no: he could become incarnate, die, and rise, which he cannot now, so his power has diminished. Lombard answers that as God always knows what he once knew and always wills what he once willed, he always can what he once could and never loses power. He could once be incarnate and can now have been incarnate, which is power for the same thing, as different tenses at different times express the same knowledge or will. So God always has every power he ever had, though he cannot always do everything he once could do; he can do or have done it.",
+  "claims": [
+   "God always can whatever he once could.",
+   "God never loses any power.",
+   "The power to be incarnate then and to have been incarnate now is the same power.",
+   "Different tenses at different times express the same power, knowledge, or will.",
+   "God cannot always do what he once could do, but can have done it."
+  ],
+  "concepts": [
+   "immutability of power",
+   "tense",
+   "incarnation",
+   "knowledge, will, and power"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d44c2-d1e3506",
+    "pll1d44c2-d1e3509",
+    "pll1d44c2-d1e3513"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T18:42:25Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

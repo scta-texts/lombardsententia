@@ -1,0 +1,100 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T21:14:34Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d42c2-d1e108": {
+  "summary": "Asks whether, when the will and act of a sin have passed but true penance is not yet had, the sin remains in the sinner until he repents.",
+  "claims": [],
+  "concepts": [
+   "question"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d42c2",
+    "pl-l2d42c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:14:34Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d42c2-d1e111": {
+  "summary": "Argues it does not seem to, since the former will and action no longer exist.",
+  "claims": [],
+  "concepts": [
+   "objection"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d42c2",
+    "pl-l2d42c2-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:14:34Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d42c2-d1e114": {
+  "summary": "Answers that sin is said to be in someone and pass in two ways, act and guilt: in act while the will or action is in the sinner; in guilt when the mind is polluted and the whole person bound to eternal punishment for it, whether passed or present. Sin is never in act, except original sin, without being in guilt, but sometimes in guilt after passing in act.",
+  "claims": [
+   "Sin remains in guilt after passing in act."
+  ],
+  "concepts": [
+   "reatus",
+   "act and guilt"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d42c2",
+    "pl-l2d42c2-d1e111",
+    "pl-l2d32c1-d1e144"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:14:34Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d42c2": {
+  "summary": "Asks whether a sin committed by will remains in the sinner until he repents, after the will and act have passed. It seems not, since neither the will nor the act remains. But sin is said to be in someone and to pass in two ways, in act and in guilt: in act while the will or action is in the sinner; in guilt when the mind is polluted and the person bound to eternal punishment for it, whether it has passed or not. Sin is never in act without also in guilt, except original sin, but is sometimes in guilt after it passes in act.",
+  "claims": [
+   "Sin is present in act or in guilt.",
+   "Sin in act is the present will or action.",
+   "Sin in guilt is the pollution and liability that remain.",
+   "Actual sin is never in act without guilt.",
+   "Sin can remain in guilt after it passes in act."
+  ],
+  "concepts": [
+   "reatus",
+   "act and guilt",
+   "penance",
+   "persistence of sin"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d42c2-d1e108",
+    "pl-l2d42c2-d1e111",
+    "pl-l2d42c2-d1e114"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T21:14:34Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

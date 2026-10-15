@@ -1,0 +1,55 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T12:53:50Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d27c5-d1e115": {
+  "summary": "Reports some who assert that true marriage is not contracted before the bride is led home and carnal union occurs, nor are any truly spouses before the mingling of sexes; from the first faith of betrothal the man is bridegroom and the woman bride, not spouses. The betrothed are often called spouses, they say, not because they are but because they will be, having promised it; and so they read the authorities.",
+  "claims": [
+   "Some hold that consummation makes marriage."
+  ],
+  "concepts": [
+   "consummation",
+   "betrothal",
+   "opposing opinion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d27c5"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:53:50Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d27c5": {
+  "summary": "Reports the opposing view that true marriage is not contracted before the bride is led home and carnal union occurs; from the first faith of betrothal they are betrothed, not spouses, and are called spouses because they will become such, which is how they read the authorities.",
+  "claims": [
+   "Some hold marriage is contracted only by carnal union.",
+   "They read the authorities as calling the betrothed spouses by anticipation."
+  ],
+  "concepts": [
+   "betrothal",
+   "consummation",
+   "opposing opinion"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d27c5-d1e115"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T12:53:50Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

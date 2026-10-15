@@ -1,0 +1,59 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:30:14Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d21c2-d1e108": {
+  "summary": "Explains that unable to harm by violence, the devil turned to fraud. Not to be recognized and repelled, he did not come in his own form; yet lest the fraud be too hidden and man seem unjustly exposed, God permitted him only a form in which his malice could be detected. So he came in a serpent, though he might have preferred a dove, a form reserved for the Holy Spirit; by its outward form the woman could have perceived the tempter's cunning.",
+  "claims": [
+   "God permitted the devil only a revealing form.",
+   "Man could have guarded against the temptation."
+  ],
+  "concepts": [
+   "serpent",
+   "permission"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d21c2",
+    "pl-l2d21c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:30:14Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d21c2": {
+  "summary": "Since the devil could not harm man by violence, he turned to fraud. He did not come in his own form lest he be recognized and repelled, nor was he allowed so hidden a form that man could not guard against him: he was permitted to come only in a form suited to his malice, the serpent, rather than the dove he might have preferred, which was reserved for the Holy Spirit. He tempted by speaking through the serpent, so the woman could detect the tempter's cunning by its outward form.",
+  "claims": [
+   "The devil tempted by fraud, not violence.",
+   "He was not permitted his own form or a form that could not be guarded against.",
+   "He was permitted only the serpent, a form fitting his malice.",
+   "The dove was reserved for the Holy Spirit."
+  ],
+  "concepts": [
+   "temptation",
+   "serpent",
+   "divine permission",
+   "fraud"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d21c2-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:30:14Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

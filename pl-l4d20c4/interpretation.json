@@ -1,0 +1,120 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T12:42:09Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d20c4-d1e115": {
+  "summary": "Asks whether the law of satisfaction should be imposed on the dying.",
+  "claims": [],
+  "concepts": [
+   "penance of the dying"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d20c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:42:09Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d20c4-d1e118": {
+  "summary": "Quotes Theodore of Canterbury's penitential: from the sick in danger of death pure confession of sins is to be sought, but the amount of penance is not to be imposed on them but made known, its weight relieved by friends' prayers and alms if they die; if they recover, they should carefully observe the penance imposed by the priest.",
+  "claims": [
+   "The dying confess, but penance is made known, not imposed.",
+   "Friends' prayers and alms lighten their penance."
+  ],
+  "concepts": [
+   "penance of the dying",
+   "suffrages",
+   "Theodore of Canterbury"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d20c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:42:09Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d20c4-d1e127": {
+  "summary": "States that for others, penance is decreed by the superiors' judgment according to the quality of the sin.",
+  "claims": [
+   "Penance is set by the superior according to the sin."
+  ],
+  "concepts": [
+   "priestly discretion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d20c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:42:09Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d20c4-d1e131": {
+  "summary": "Quotes Leo: you should set times of penance with moderation by your judgment, as you see the converts' minds devout, and also consider old age and the needs of dangers or sickness.",
+  "claims": [
+   "Penance should be moderated by devotion, age, and need."
+  ],
+  "concepts": [
+   "priestly discretion",
+   "Leo"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d20c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:42:09Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d20c4": {
+  "summary": "Asks whether satisfaction should be imposed on the dying. Theodore of Canterbury: from the sick in danger of death pure confession is to be sought, but the amount of penance should be made known rather than imposed, its weight lightened by friends' prayers and alms if they die; if they recover, they should keep what the priest imposes. For others, penance is set by the superiors' judgment according to the sin, and Leo tells the bishop to moderate times of penance according to the penitents' devotion, age, and dangers.",
+  "claims": [
+   "Confession is required of the dying, but penance is made known rather than imposed.",
+   "The dying are helped by friends' prayers and alms.",
+   "For others, penance is set by the superior's judgment according to sin, devotion, age, and need."
+  ],
+  "concepts": [
+   "penance of the dying",
+   "priestly discretion",
+   "suffrages",
+   "Theodore of Canterbury"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d20c4-d1e115",
+    "pl-l4d20c4-d1e118",
+    "pl-l4d20c4-d1e127",
+    "pl-l4d20c4-d1e131"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T12:42:09Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

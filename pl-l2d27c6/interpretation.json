@@ -1,0 +1,130 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:37:02Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d27c6-d1e108": {
+  "summary": "Infers that if healing grace is a virtue and not from free choice, then virtue is not a motion or affection of the mind, since every such motion is from free choice: a good one from grace and free choice, an evil one from free choice alone.",
+  "claims": [
+   "Every motion of the mind is from free choice.",
+   "Virtue so understood is not a motion of the mind."
+  ],
+  "concepts": [
+   "motion of the mind"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d27c6",
+    "pl-l2d27c5"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:37:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d27c6-d1e111": {
+  "summary": "Cites the Retractationes: man could fall by his own will and free choice, but not rise again.",
+  "claims": [
+   "Free choice can fall but not rise by itself."
+  ],
+  "concepts": [
+   "Augustine Retractationes"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d27c6",
+    "pl-l2d27c6-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:37:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d27c6-d1e114": {
+  "summary": "Cites De duabus animabus: if souls lack free motion to do or not do, and have no power to abstain from their work, we cannot hold them guilty of sin.",
+  "claims": [
+   "Sin requires free motion of the soul."
+  ],
+  "concepts": [
+   "Augustine De duabus animabus"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d27c6",
+    "pl-l2d27c6-d1e111"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:37:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d27c6-d1e118": {
+  "summary": "Concludes that motion of the mind, good or evil, is from free choice; so if grace or virtue were a motion it would be from free choice, and God would not make it alone. Some therefore teach that virtue is a good quality or form informing the soul, not a motion, which helps free choice toward good; from virtue and free choice arises the good motion and then good outward work. As rain waters the earth to sprout and bear fruit, though rain, earth, sprout, and fruit are distinct, so grace, which God alone inspires, waters free choice, healing it to will good as operating and helping it do good as cooperating; it is fittingly called virtue because it heals and helps the weak will.",
+  "claims": [
+   "Virtue is a quality informing the soul, not a motion.",
+   "Grace is like rain on the earth of the will."
+  ],
+  "concepts": [
+   "virtue as quality",
+   "analogy of rain"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d27c6",
+    "pl-l2d27c6-d1e114"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:37:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d27c6": {
+  "summary": "Infers that if healing grace is a virtue not from free choice, then virtue is not a motion or affection of the mind, since every such motion comes from free choice, the good from grace and free choice, the evil from free choice alone, as Augustine's texts show. So some hold that virtue is a good quality or form informing the soul, not a motion, by which free choice is helped to move toward good; from virtue and free choice arises the good motion, and from it the outward work. As rain waters the earth so it sprouts and bears fruit, though rain, earth, sprout, and fruit are distinct, so grace, which God alone gives, waters the will, healing it to will good (operating) and helping it to do good (cooperating), and is fittingly called virtue.",
+  "claims": [
+   "If virtue is not from free choice, it is not a motion of the mind.",
+   "Every motion of the mind is from free choice.",
+   "Some hold virtue is a quality or form informing the soul, not a motion.",
+   "The good motion arises from virtue and free choice, and good outward work from that.",
+   "Grace is like rain on the earth of free choice.",
+   "God alone gives grace, without man."
+  ],
+  "concepts": [
+   "virtue as quality",
+   "motion of the mind",
+   "free choice",
+   "operating grace",
+   "cooperating grace",
+   "analogy of rain"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d27c6-d1e108",
+    "pl-l2d27c6-d1e111",
+    "pl-l2d27c6-d1e114",
+    "pl-l2d27c6-d1e118"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:37:02Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

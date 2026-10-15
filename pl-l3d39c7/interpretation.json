@@ -1,0 +1,172 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T11:10:24Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l3d39c7-d1e115": {
+  "summary": "Asks what it means to say 'I swear by God'.",
+  "claims": [],
+  "concepts": [
+   "oath",
+   "God as witness"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d39c7"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:10:24Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d39c7-d1e121": {
+  "summary": "Answers that it is to call God as witness: Paul swore saying 'God is my witness', as if he had said 'by God, it is so'.",
+  "claims": [
+   "Swearing by God is calling God as witness."
+  ],
+  "concepts": [
+   "God as witness",
+   "Paul"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d39c7"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:10:24Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d39c7-d1e130": {
+  "summary": "Quotes Augustine: it is ridiculous to think that saying 'by God' is swearing but 'God is witness' is not; each means the other. To swear is to render to God his right, the right of truth, not of falsehood.",
+  "claims": [
+   "'By God' and 'God is witness' are equivalent.",
+   "Swearing renders to God the right of truth."
+  ],
+  "concepts": [
+   "God as witness",
+   "Augustine",
+   "etymology of oath"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d39c7"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:10:24Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d39c7-d1e159": {
+  "summary": "Continues Augustine: whoever swears falsely by a stone is a perjurer, since he calls as witness not the stone, which does not hear, but its Creator. So swearing by any creature is calling its Creator as witness.",
+  "claims": [
+   "Swearing falsely by a creature is perjury.",
+   "Swearing by a creature calls its Creator as witness."
+  ],
+  "concepts": [
+   "oath by creatures",
+   "perjury",
+   "God as witness"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d39c7",
+    "pl-l3d39c5"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:10:24Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d39c7-d1e165": {
+  "summary": "Notes a most grave kind of oath, by execration: 'if I did this, may I suffer that' or 'may that happen to my children'; likewise sometimes 'by my health' or 'by my children', which bind these to God.",
+  "claims": [
+   "Oaths by execration bind oneself or one's own to God."
+  ],
+  "concepts": [
+   "oath of execration",
+   "pledge"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d39c7"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:10:24Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d39c7-d1e177": {
+  "summary": "Quotes Augustine: saying 'by my health' pledges one's health to God; 'by my children' pledges them, that what comes from his mouth may fall on their head, true if true, false if false. So in every oath either God is called as witness, or a creature is pledged to God.",
+  "claims": [
+   "Every oath calls God as witness or pledges something to God."
+  ],
+  "concepts": [
+   "oath",
+   "pledge",
+   "God as witness",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d39c7"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:10:24Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d39c7": {
+  "summary": "Asks what 'I swear by God' means: to call God as witness, as Paul swore by saying 'God is my witness'. Augustine says it is ridiculous to think one swears by 'by God' but not by 'God is witness': to swear is to render God the right of truth. Whoever swears falsely by a stone perjures, since he calls its Creator as witness. There is also a most grave kind of oath by execration, 'if I did this, may I suffer that', or 'by my health' or 'by my children', which pledges them to God. So every oath either calls God as witness or pledges a creature to God.",
+  "claims": [
+   "To swear by God is to call God as witness.",
+   "Swearing by a creature calls its Creator as witness.",
+   "Oaths of execration pledge oneself or one's own to God.",
+   "Every oath either calls God as witness or pledges something to God."
+  ],
+  "concepts": [
+   "oath",
+   "God as witness",
+   "oath of execration",
+   "pledge"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d39c7-d1e115",
+    "pl-l3d39c7-d1e121",
+    "pl-l3d39c7-d1e130",
+    "pl-l3d39c7-d1e159",
+    "pl-l3d39c7-d1e165",
+    "pl-l3d39c7-d1e177"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T11:10:24Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

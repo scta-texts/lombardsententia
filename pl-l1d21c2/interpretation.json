@@ -1,0 +1,174 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T17:39:40Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll1d21c2-d1e3501": {
+  "summary": "Asks whether, as one says 'only the Father is Father,' one can say 'only the Father is God' or 'the Father is the only God,' and the same of Son and Spirit.",
+  "claims": [],
+  "concepts": [
+   "solus Deus",
+   "question"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d21c2",
+    "pll1d21c1-d1e3502"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:39:40Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d21c2-d1e3504": {
+  "summary": "Answers that Father, Son, and Spirit are one God, and the Trinity together is properly said to be the only God, as the only wise and powerful. 'Only the Father is God' or 'the Father is the only God' should not be said in our own words, except where an authority speaks so.",
+  "claims": [
+   "The Trinity is properly the only God.",
+   "'Only the Father is God' is not to be said except following authority."
+  ],
+  "concepts": [
+   "Trinity as solus Deus",
+   "linguistic caution"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d21c2",
+    "pll1d21c2-d1e3501"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:39:40Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d21c2-d1e3509": {
+  "summary": "Cites De Trinitate VI: having shown how 'the Father alone' can be said, Augustine considers the view that the Father alone is not the only true God, but Father, Son, and Spirit.",
+  "claims": [
+   "The Father alone is not the only true God."
+  ],
+  "concepts": [
+   "solus verus Deus"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d21c2",
+    "pll1d21c2-d1e3504"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:39:40Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d21c2-d1e3529": {
+  "summary": "Further Augustine: asked whether the Father alone is God, we say he is God but not the only God; the only God is Father, Son, and Spirit. Some take 'alone' as excluded only in subject position and grant 'the Father is the only God' with 'only' in the predicate.",
+  "claims": [
+   "The Father is God but not the only God.",
+   "Some grant 'the Father is the only God' when 'only' is in the predicate."
+  ],
+  "concepts": [
+   "subject vs predicate position",
+   "exclusive terms"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d21c2",
+    "pll1d21c2-d1e3509"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:39:40Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d21c2-d1e3541": {
+  "summary": "Notes that Augustine's words suggest the whole Trinity should properly be called the only God. Against Maximinus, Paul's 'blessed and only powerful,' 'to the only wise God,' 'to the invisible, only God,' and 'who alone has immortality' refer to the Trinity, not the Father alone, as Maximinus and other heretics argued.",
+  "claims": [
+   "Scriptural 'only God' texts refer to the Trinity.",
+   "The Trinity is the one only God, blessed, powerful, wise, invisible."
+  ],
+  "concepts": [
+   "anti-Arian exegesis",
+   "1 Timothy 6:15"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d21c2",
+    "pll1d21c2-d1e3529"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:39:40Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d21c2-d1e3598": {
+  "summary": "Cites Augustine against Maximinus: since the Trinity is one God, the solution is to understand the only wise and powerful God as Father, Son, and Spirit, who is one and the only God.",
+  "claims": [
+   "The only wise and powerful God is Father, Son, and Spirit."
+  ],
+  "concepts": [
+   "solution"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d21c2",
+    "pll1d21c2-d1e3541"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:39:40Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1d21c2": {
+  "summary": "Asks whether, as one says 'only the Father is Father,' one can say 'only the Father is God' or 'the Father is the only God.' Lombard answers that the Trinity together is properly the only God, the only wise and powerful, and that 'only the Father is God' should not be said in our own words unless an authority uses it. Augustine: the Father is God but not the only God; the only God is Father, Son, and Spirit. Some accept 'the Father is the only God' when 'only' is in the predicate. Scriptural texts such as 'blessed and only powerful,' 'to the only wise God,' and 'who alone has immortality' refer, against Maximinus, to the Trinity, not the Father alone.",
+  "claims": [
+   "The Trinity together is properly the only God.",
+   "'Only the Father is God' should not be said except where an authority uses it.",
+   "The Father is God, but not the only God; the only God is Father, Son, and Spirit.",
+   "Some allow 'the Father is the only God' when 'only' qualifies the predicate.",
+   "Scriptural texts about the 'only' God refer to the Trinity, not the Father alone."
+  ],
+  "concepts": [
+   "solus Deus",
+   "exclusive terms",
+   "subject vs predicate position",
+   "anti-Arianism",
+   "Maximinus"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d21c2-d1e3501",
+    "pll1d21c2-d1e3504",
+    "pll1d21c2-d1e3509",
+    "pll1d21c2-d1e3529",
+    "pll1d21c2-d1e3541",
+    "pll1d21c2-d1e3598"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T17:39:40Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

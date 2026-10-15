@@ -1,0 +1,148 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T13:01:54Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d31c8-d1e115": {
+  "summary": "Objects that all carnal concupiscence and delight in intercourse is evil and sin, since it is from sin and disordered.",
+  "claims": [],
+  "concepts": [
+   "concupiscence",
+   "objection"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d31c8"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:01:54Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d31c8-d1e118": {
+  "summary": "Answers that that concupiscence is always evil, being foul and a penalty of sin, but not always sin: a holy man often delights in the flesh, in rest after labor or food after hunger, and such delight is not sin unless immoderate; so the delight in conjugal intercourse accompanied by the three goods is defended from sin.",
+  "claims": [
+   "Concupiscence is always evil but not always sin.",
+   "Moderate delight is not sin."
+  ],
+  "concepts": [
+   "concupiscence",
+   "delight",
+   "penalty of sin"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d31c8"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:01:54Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d31c8-d1e121": {
+  "summary": "Notes that Gregory seems to think otherwise, that carnal union cannot be without sin: a man who has slept with his wife should not enter church unless washed; the Romans' ancient custom was to wash and abstain briefly from church after union; not that marriage is fault, but since lawful union cannot be without carnal pleasure, and pleasure cannot be without fault, one should abstain from the holy place.",
+  "claims": [
+   "Gregory requires washing before church after intercourse."
+  ],
+  "concepts": [
+   "marital intercourse",
+   "purity",
+   "Gregory"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d31c8"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:01:54Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d31c8-d1e131": {
+  "summary": "Interprets this, lest it contradict the above, as concerning those who unite not for offspring, whose pleasure is not without sin; scarcely anyone who still experiences carnal embraces does not sometimes unite beyond the intention of procreating; whenever this happens one should abstain from entering church.",
+  "claims": [
+   "Gregory's rule concerns intercourse not for offspring."
+  ],
+  "concepts": [
+   "harmonizing authorities",
+   "marital intercourse"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d31c8"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:01:54Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d31c8-d1e134": {
+  "summary": "Shows from Gregory's continuation that this is the meaning: one who uses his wife only for begetting children, not seized by desire for pleasure, should be left to his own judgment about entering church or receiving the Lord's body, since he who is in fire and does not burn should not be forbidden; but when pleasure rather than love of offspring dominates, spouses have something to lament.",
+  "claims": [
+   "Those who unite only for offspring may receive communion."
+  ],
+  "concepts": [
+   "marital intercourse",
+   "communion",
+   "Gregory"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d31c8"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:01:54Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d31c8": {
+  "summary": "Objects that all carnal concupiscence and delight in intercourse is evil and sin, arising from sin and being disordered. Lombard answers that it is always evil, as foul and a penalty of sin, but not always sin: holy men take delight in rest after labor or food after hunger without sin unless it is immoderate; so delight in conjugal intercourse with the three goods is defended from sin. Gregory seems to differ, requiring washing before entering church after intercourse since pleasure cannot be without fault; but this refers to those who unite not for offspring, which few avoid, as Gregory himself shows by leaving those who use their wives only for children to their own judgment.",
+  "claims": [
+   "Carnal concupiscence is always an evil, as a penalty of sin, but not always a sin.",
+   "Moderate bodily delight is not sin.",
+   "Delight in intercourse with the three goods is excused.",
+   "Gregory's restriction concerns intercourse not for offspring."
+  ],
+  "concepts": [
+   "concupiscence",
+   "delight",
+   "penalty of sin",
+   "marital intercourse",
+   "harmonizing authorities"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d31c8-d1e115",
+    "pl-l4d31c8-d1e118",
+    "pl-l4d31c8-d1e121",
+    "pl-l4d31c8-d1e131",
+    "pl-l4d31c8-d1e134"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T13:01:54Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

@@ -1,0 +1,129 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:15:59Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d19c6-d1e110": {
+  "summary": "Cites Augustine on how man was immortal while sharing food with animals: Adam's immortality differs from that hoped for in the resurrection; he could not die unless he sinned, while the sons of resurrection can neither sin nor die. Adam's flesh was made immortal so that, aided by food, it was free of death and pain, keeping immortality by obeying the commands to eat what was allowed and abstain from the forbidden, until, grown and having multiplied, he would eat of the tree of life and become perfectly immortal, no longer needing food.",
+  "claims": [
+   "Adam's immortality was conditional on obedience.",
+   "He would be perfected by eating of the tree of life."
+  ],
+  "concepts": [
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d19c6",
+    "pl-l2d19c5"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:15:59Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d19c6-d1e115": {
+  "summary": "Reports some who say he had from nature an immortality by which he could not die, kept by eating other trees but completed only by taking of the tree of life.",
+  "claims": [
+   "One view: natural immortality perfected by the tree of life."
+  ],
+  "concepts": [
+   "opinion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d19c6",
+    "pl-l2d19c6-d1e110"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:15:59Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d19c6-d1e119": {
+  "summary": "Notes that Augustine seems to agree: the tree gave food by which the body was firmed in stable health, not as other food, but by hidden inspiration of health. So the body could be sustained by other foods but firmed in unfailing health by this; he had by nature a certain mortality and a certain immortality, an aptitude not to die aided by food, but its perfection would have come from the tree of life.",
+  "claims": [
+   "Other foods sustained, the tree of life perfected health."
+  ],
+  "concepts": [
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d19c6",
+    "pl-l2d19c6-d1e115"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:15:59Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d19c6-d1e122": {
+  "summary": "Leaves those who hold this to examine carefully how Augustine's earlier words, that he was immortal from the tree of life, fit this view.",
+  "claims": [
+   "The tension in Augustine is left unresolved."
+  ],
+  "concepts": [
+   "open question"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d19c6",
+    "pl-l2d19c6-d1e119",
+    "pl-l2d19c4-d1e114"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:15:59Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d19c6": {
+  "summary": "Considers what kind of immortality Adam had. Augustine: the immortality of flesh received in Adam differs from that hoped for in the resurrection; Adam could not die if he did not sin, the sons of the resurrection can neither sin nor die. Adam's flesh was created immortal so that, aided by food, it was free of death and pain, keeping immortality by obeying God's commands, until, after growth and multiplying, he would eat of the tree of life and become perfectly immortal, no longer needing food. So some say he had natural immortality, kept by other foods but perfected only by the tree of life, as Augustine suggests: that tree gave stable health by hidden power. Lombard leaves those who hold this to examine how it fits Augustine's other words that his immortality came from the tree of life.",
+  "claims": [
+   "Adam's immortality differs from the resurrection's.",
+   "Adam could avoid death by not sinning; the risen can neither sin nor die.",
+   "Adam's immortality was kept by food and obedience to God's commands.",
+   "He would have been made perfectly immortal by eating of the tree of life.",
+   "Some hold he had natural immortality perfected by the tree of life.",
+   "Lombard leaves open how this fits Augustine's other statements."
+  ],
+  "concepts": [
+   "immortality of Adam",
+   "resurrection immortality",
+   "tree of life",
+   "obedience",
+   "Augustine",
+   "open question"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d19c6-d1e110",
+    "pl-l2d19c6-d1e115",
+    "pl-l2d19c6-d1e119",
+    "pl-l2d19c6-d1e122"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:15:59Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

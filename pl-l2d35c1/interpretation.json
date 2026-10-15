@@ -1,0 +1,169 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T21:09:26Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d35c1-d1e108": {
+  "summary": "Turns to what sin is.",
+  "claims": [],
+  "concepts": [
+   "question"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d35c1",
+    "pl-l2d34c5"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:09:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d35c1-d1e111": {
+  "summary": "Gives Augustine's definition: sin is every word, deed, or desire against the law of God.",
+  "claims": [
+   "Sin is against God's law."
+  ],
+  "concepts": [
+   "definition of sin"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d35c1",
+    "pl-l2d35c1-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:09:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d35c1-d1e114": {
+  "summary": "Gives Augustine's definition in De duabus animabus: sin is the will to keep or obtain what justice forbids.",
+  "claims": [
+   "Sin is a will contrary to justice."
+  ],
+  "concepts": [
+   "definition of sin",
+   "Augustine De duabus animabus"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d35c1",
+    "pl-l2d35c1-d1e111"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:09:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d35c1-d1e118": {
+  "summary": "Explains that both concern actual mortal sin, not venial; the first makes sin an evil will or evil speech and deed, interior and exterior act; the second only an interior act, since will is a motion of the mind.",
+  "claims": [
+   "Both definitions concern mortal sin.",
+   "One includes exterior acts; the other only interior."
+  ],
+  "concepts": [
+   "interior and exterior act"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d35c1",
+    "pl-l2d35c1-d1e114"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:09:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d35c1-d1e121": {
+  "summary": "Cites Ambrose, De paradiso: sin is transgression of divine law and disobedience to heavenly commands; sin is in the transgressor, not in the one commanding; without prohibition there would be no sin, and without sin perhaps no virtue, which could neither subsist nor stand out without seeds of malice.",
+  "claims": [
+   "Sin presupposes prohibition.",
+   "Virtue may require the possibility of malice."
+  ],
+  "concepts": [
+   "Ambrose De paradiso"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d35c1",
+    "pl-l2d35c1-d1e118"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:09:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d35c1-d1e129": {
+  "summary": "Notes that Ambrose defines sin as transgression of law and disobedience.",
+  "claims": [],
+  "concepts": [
+   "definition of sin"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d35c1",
+    "pl-l2d35c1-d1e121"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:09:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d35c1": {
+  "summary": "Asks what sin is. Augustine: sin is every word, deed, or desire against the law of God; and sin is the will to keep or obtain what justice forbids. Both concern actual mortal sin, not venial; the first makes sin evil will or evil speech and deed, interior and exterior acts; the second only an interior act, will being a motion of the mind. Ambrose: sin is transgression of the divine law and disobedience to heavenly commands; without prohibition there would be no sin, and perhaps no virtue.",
+  "claims": [
+   "Sin is every word, deed, or desire against God's law.",
+   "Sin is the will to keep or obtain what justice forbids.",
+   "These definitions concern actual mortal sin.",
+   "Ambrose defines sin as transgression of divine law and disobedience.",
+   "Without prohibition there would be no sin."
+  ],
+  "concepts": [
+   "definition of sin",
+   "actual sin",
+   "mortal sin",
+   "law of God",
+   "Augustine Contra Faustum",
+   "Ambrose De paradiso"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d35c1-d1e108",
+    "pl-l2d35c1-d1e111",
+    "pl-l2d35c1-d1e114",
+    "pl-l2d35c1-d1e118",
+    "pl-l2d35c1-d1e121",
+    "pl-l2d35c1-d1e129"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T21:09:26Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

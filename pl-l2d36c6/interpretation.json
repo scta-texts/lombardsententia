@@ -1,0 +1,174 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T21:12:25Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d36c6-d1e108": {
+  "summary": "States that some sins are without doubt punishments, like envy, grief at another's good, and anger, which are not sins insofar as they are punishments; likewise desire, fear, and the like.",
+  "claims": [
+   "Envy and anger are punishments."
+  ],
+  "concepts": [
+   "passions",
+   "envy"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d36c6",
+    "pl-l2d36c5"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:12:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d36c6-d1e111": {
+  "summary": "Cites the 83 Questions: every perturbation is a passion, every desire a perturbation, so every desire is a passion; we suffer it insofar as it is desire; no passion insofar as suffered is sin; likewise fear. It does not follow that suffered things are not sins, but they are not sins insofar as suffered.",
+  "claims": [
+   "Passions are not sins insofar as suffered."
+  ],
+  "concepts": [
+   "Augustine De diversis quaestionibus"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d36c6",
+    "pl-l2d36c6-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:12:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d36c6-d1e114": {
+  "summary": "Notes that Augustine's saying some evils are done by necessity seems to conflict with Jerome's Exposition of the faith, condemning those who say God commanded the impossible and those who say with Mani that man cannot avoid sin.",
+  "claims": [],
+  "concepts": [
+   "objection",
+   "Jerome"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d36c6",
+    "pl-l2d36c6-d1e111",
+    "pl-l2d28c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:12:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d36c6-d1e120": {
+  "summary": "States the conflict: Jerome calls it error to say man cannot avoid sin, while Augustine says some things are done by necessity and cannot be avoided; so either Augustine errs or Jerome is wrong.",
+  "claims": [],
+  "concepts": [
+   "objection"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d36c6",
+    "pl-l2d36c6-d1e114"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:12:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d36c6-d1e123": {
+  "summary": "Answers that Augustine spoke of the state of this misery, with ignorance and difficulty from just condemnation, including venial sins; Jerome speaks only of mortal sins, which anyone enlightened by grace can avoid, or of man in the state of free choice before sin.",
+  "claims": [
+   "Venial sins are unavoidable now; mortal sins are avoidable with grace."
+  ],
+  "concepts": [
+   "venial and mortal sin",
+   "harmonizing authorities"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d36c6",
+    "pl-l2d36c6-d1e120"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:12:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d36c6-d1e126": {
+  "summary": "Concludes the account of those who say all acts are natures and good insofar as they are, noting some points included are held by all Catholics. They add that some acts are good not only in essence but in kind, like feeding the hungry, a work of mercy; and some absolutely and perfectly good, commended by cause and end too, proceeding from good will and aiming at a good end.",
+  "claims": [
+   "Acts are good by essence, by kind, and perfectly by cause and end."
+  ],
+  "concepts": [
+   "goodness by kind",
+   "works of mercy"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d36c6",
+    "pl-l2d36c6-d1e123",
+    "pl-l2d35c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:12:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d36c6": {
+  "summary": "Some sins are clearly punishments, such as envy, which is grief at another's good, and anger, and likewise desire and fear, though not sins insofar as they are punishments; Augustine: every desire is a perturbation and passion, and we suffer it, but no passion is sin insofar as we suffer it. Augustine's saying that some evils are done by necessity seems to conflict with Jerome's condemning those who say man cannot avoid sin; Lombard answers that Augustine speaks of this state of misery, with ignorance and difficulty, including venial sins, while Jerome speaks of mortal sins, which anyone enlightened by grace can avoid, or of man before sin. Lombard closes his report of the view that all acts are good insofar as they are, noting some points belong to all Catholics; its holders add that some acts are good in kind, like feeding the hungry, and some perfectly good by cause and end.",
+  "claims": [
+   "Envy, anger, desire, and fear are sins that are also punishments.",
+   "No passion is sin insofar as it is suffered.",
+   "Augustine on necessary sins concerns this state of misery and includes venial sins.",
+   "Jerome concerns mortal sins, which grace enables one to avoid, or man before the fall.",
+   "Acts can be good by being, by kind, and perfectly good by cause and end."
+  ],
+  "concepts": [
+   "passions",
+   "envy",
+   "sin as punishment of sin",
+   "necessity and sin",
+   "venial and mortal sin",
+   "harmonizing authorities",
+   "goodness by kind",
+   "Jerome"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d36c6-d1e108",
+    "pl-l2d36c6-d1e111",
+    "pl-l2d36c6-d1e114",
+    "pl-l2d36c6-d1e120",
+    "pl-l2d36c6-d1e123",
+    "pl-l2d36c6-d1e126"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T21:12:25Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

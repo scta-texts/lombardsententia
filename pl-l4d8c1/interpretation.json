@@ -1,0 +1,58 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T11:54:53Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d8c1-d1e115": {
+  "summary": "Introduces the sacrament of the eucharist after baptism and confirmation: by baptism we are cleansed, by the eucharist perfected in the good; baptism extinguishes the heat of vices, the eucharist refreshes spiritually. So it is called eucharist, 'good grace', since in it not only is there increase of virtue and grace, but he who is the fount and origin of all grace is received whole.",
+  "claims": [
+   "Baptism cleanses; the eucharist perfects.",
+   "The eucharist contains the source of all grace."
+  ],
+  "concepts": [
+   "eucharist",
+   "etymology",
+   "source of grace",
+   "spiritual refreshment"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d8c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:54:53Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d8c1": {
+  "summary": "Introduces the eucharist, which follows baptism and confirmation: baptism cleanses, the eucharist perfects in the good; baptism quenches the heat of vices, the eucharist refreshes spiritually. It is called 'good grace' because in it not only is virtue and grace increased, but he who is the source of all grace is received whole.",
+  "claims": [
+   "Baptism cleanses; the eucharist perfects in the good.",
+   "In the eucharist the source of all grace is received whole."
+  ],
+  "concepts": [
+   "eucharist",
+   "baptism and eucharist",
+   "good grace",
+   "source of grace"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d8c1-d1e115"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T11:54:53Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

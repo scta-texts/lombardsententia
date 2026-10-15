@@ -1,0 +1,52 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T18:44:46Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll1d46c1-d1e3509": {
+  "summary": "Raises the question: God's will, his good pleasure, cannot be frustrated, since he did all he willed and nothing resists him. How then is 1 Tim 2:4 ('wills all men to be saved') to be understood, since not all are saved? And Matt 23:37 ('how often I willed to gather your children, and you would not') suggests God's will was overcome by human will. Where then is his omnipotence?",
+  "claims": [],
+  "concepts": [
+   "objection",
+   "universal salvation"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d46c1",
+    "pl-l1d45c7"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:44:46Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1d46c1": {
+  "summary": "Raises the problem that God's will, his good pleasure, cannot be frustrated ('he did all he willed,' Ps 113:11; 'who resists his will?' Rom 9:19), yet Paul says God 'wills all men to be saved' (1 Tim 2:4) though many are damned, and Christ says 'how often I willed to gather your children, and you would not' (Matt 23:37), as if human will overcame God's.",
+  "claims": [],
+  "concepts": [
+   "efficacy of God's will",
+   "universal salvific will",
+   "1 Timothy 2:4",
+   "Matthew 23:37",
+   "omnipotence"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d46c1-d1e3509"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T18:44:46Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

@@ -1,0 +1,103 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T11:04:07Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l3d29c3-d1e115": {
+  "summary": "States that there are different degrees of charity: beginning, advancing, perfect, and most perfect.",
+  "claims": [
+   "Charity has four degrees."
+  ],
+  "concepts": [
+   "degrees of charity"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d29c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:04:07Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d29c3-d1e118": {
+  "summary": "Quotes Augustine: perfect charity is being ready even to die for the brothers. It is not perfect at birth: it is born to be perfected, then nourished, strengthened, and perfected, and when perfect it says 'I desire to be dissolved and be with Christ'.",
+  "claims": [
+   "Perfect charity is readiness to die for the brothers.",
+   "Charity grows by stages to perfection."
+  ],
+  "concepts": [
+   "perfect charity",
+   "growth in charity",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d29c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:04:07Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d29c3-d1e129": {
+  "summary": "Draws out that this shows the progress and perfection of charity, which Christ commends: 'greater love has no one than to lay down his life for his friends', said of the work of love, since no greater effect of love exists. One who lays down his life for friends also lays it down for enemies, that they may become friends.",
+  "claims": [
+   "No greater effect of love exists than laying down one's life for others.",
+   "Dying for friends includes dying for enemies so they become friends."
+  ],
+  "concepts": [
+   "perfect charity",
+   "effect of love",
+   "love of enemies"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d29c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:04:07Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d29c3": {
+  "summary": "Distinguishes degrees of charity: beginning, advancing, perfect, and most perfect. Augustine says perfect charity is readiness to die for the brothers, but charity is born to be perfected, then nourished, strengthened, and perfected, and then says 'I desire to be dissolved and be with Christ'. Christ's 'greater love has no one than to lay down his life for his friends' commends this perfection in work; and one who dies for friends dies also for enemies, so that they become friends.",
+  "claims": [
+   "Charity has degrees: beginning, advancing, perfect, most perfect.",
+   "Perfect charity is readiness to die for the brothers.",
+   "Laying down one's life for others is the greatest effect of love."
+  ],
+  "concepts": [
+   "degrees of charity",
+   "perfect charity",
+   "growth in charity",
+   "martyrdom"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d29c3-d1e115",
+    "pl-l3d29c3-d1e118",
+    "pl-l3d29c3-d1e129"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T11:04:07Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

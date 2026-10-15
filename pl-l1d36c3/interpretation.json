@@ -1,0 +1,128 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T17:51:26Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll1d36c3-d1e3501": {
+  "summary": "Notes that, if we look closely, 'from God,' 'through him,' and 'in him' seem to be the same.",
+  "claims": [
+   "The three expressions mean the same."
+  ],
+  "concepts": [
+   "Romans 11:36"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d36c3",
+    "pll1d36c2-d1e3641"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:51:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d36c3-d1e3504": {
+  "summary": "Cites Ambrose, De Spiritu sancto III: 'from him, through him, in him' are one; 'in him,' 'with him,' and 'through him' have the same force and are understood as alike, not contrary.",
+  "claims": [
+   "'From,' 'through,' and 'in him' have the same force."
+  ],
+  "concepts": [
+   "Ambrose"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d36c3",
+    "pll1d36c3-d1e3501"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:51:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d36c3-d1e3548": {
+  "summary": "Infers that, since things are from and through God because he knows them and is their author, they are in him for the same reason (Acts 17:28). Since he is author only of goods, only goods are in him, though all things, good and evil, are in his knowledge.",
+  "claims": [
+   "Things are in God because he knows and authors them.",
+   "Only goods are in God, though all are in his knowledge."
+  ],
+  "concepts": [
+   "authorship",
+   "Acts 17:28"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d36c3",
+    "pll1d36c3-d1e3504"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:51:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d36c3-d1e3585": {
+  "summary": "Cites Augustine's De natura boni: 'all things from God' means all natures and what is natural, not sins, which vitiate nature and arise from sinners' wills.",
+  "claims": [
+   "Sins are not from God.",
+   "Sins arise from the will of sinners."
+  ],
+  "concepts": [
+   "sin as privation"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d36c3",
+    "pll1d36c3-d1e3548",
+    "pll1d29c2-d1e3506"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:51:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1d36c3": {
+  "summary": "Argues that 'from him, through him, and in him are all things' mean the same thing (Ambrose). Since all things are said to be from and through God because he knows them and is their author, they are in him for the same reason: we live, move, and are in him because he is our author (Acts 17:28). Since he is author only of goods, only goods are in him, though all things, good and evil, are in his knowledge. Augustine: 'all things from God' means all natures, not sins, which vitiate nature and arise from the will.",
+  "claims": [
+   "'From him,' 'through him,' and 'in him' mean the same.",
+   "Things are said to be in God because he knows them and is their author.",
+   "Since God is author only of goods, only goods are in him.",
+   "All things, good and evil, are in God's knowledge.",
+   "Sins are not from God but from the will of sinners."
+  ],
+  "concepts": [
+   "Romans 11:36",
+   "authorship",
+   "sin not from God",
+   "Acts 17:28"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d36c3-d1e3501",
+    "pll1d36c3-d1e3504",
+    "pll1d36c3-d1e3548",
+    "pll1d36c3-d1e3585"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T17:51:26Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

@@ -1,0 +1,327 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:30:14Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d22c4-d1e108": {
+  "summary": "States that from this it can be seen who sinned more, Adam or Eve.",
+  "claims": [],
+  "concepts": [
+   "question"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d22c4",
+    "pl-l2d22c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:30:14Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d22c4-d1e111": {
+  "summary": "Holds that the woman seems to have sinned more, wishing to usurp divine equality and believing it would be so; Adam neither believed it and thought of penance and mercy, consenting to his wife so as not to sadden her or leave her estranged to perish, thinking it venial, not mortal.",
+  "claims": [
+   "Eve sinned more than Adam.",
+   "Adam consented out of affection, thinking the sin venial."
+  ],
+  "concepts": [
+   "comparative guilt"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d22c4",
+    "pl-l2d22c4-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:30:14Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d22c4-d1e114": {
+  "summary": "Cites Augustine: Adam was not seduced first or in the woman's way, but thought he could both please his wife and obtain pardon by penance; he sinned less who thought of penance and mercy. He did not wish to sadden her, not overcome by carnal concupiscence, which he had not yet felt, but by friendly benevolence, by which God is often offended lest a friend be; he was deceived otherwise, thinking the sin venial, inexperienced in divine severity.",
+  "claims": [
+   "Adam acted from benevolence toward his wife.",
+   "He was deceived about the gravity of the sin."
+  ],
+  "concepts": [
+   "Augustine",
+   "friendship over God"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d22c4",
+    "pl-l2d22c4-d1e111"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:30:14Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d22c4-d1e118": {
+  "summary": "Concludes that the woman sinned more, with greater presumption, sinning against herself, her neighbor, and God, the man only against himself and God; and she was more gravely punished ('in pain you shall bear children').",
+  "claims": [
+   "Eve sinned against self, neighbor, and God.",
+   "Her heavier punishment shows greater sin."
+  ],
+  "concepts": [
+   "degrees of sin",
+   "punishment"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d22c4",
+    "pl-l2d22c4-d1e114"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:30:14Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d22c4-d1e123": {
+  "summary": "Raises Augustine's comment on their excuses: Adam blamed the woman, the woman the serpent; neither confessed, 'in unequal sex but equal pride.' This suggests they were equally proud and sinned equally.",
+  "claims": [],
+  "concepts": [
+   "objection",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d22c4",
+    "pl-l2d22c4-d1e118"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:30:14Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d22c4-d1e126": {
+  "summary": "Answers that their pride was equal in excusing their sin and in eating, but unequal, much greater in the woman, in believing and willing to be like God.",
+  "claims": [
+   "Pride was equal in excuse, greater in Eve in seeking divinity."
+  ],
+  "concepts": [
+   "distinction"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d22c4",
+    "pl-l2d22c4-d1e123"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:30:14Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d22c4-d1e129": {
+  "summary": "Notes that Adam too is said to have wished to be like God: Augustine on Ps 68:5 says Adam and Eve, presuming like the devil, tried to seize divinity and lost happiness.",
+  "claims": [],
+  "concepts": [
+   "Augustine",
+   "objection"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d22c4",
+    "pl-l2d22c4-d1e126"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:30:14Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d22c4-d1e132": {
+  "summary": "Further Augustine on 'God, who is like you?': whoever wills to be like God by himself wills perversely, as the devil who would not be under him and man who would not be held by a command but be as God.",
+  "claims": [
+   "Willing to be like God by oneself is perverse."
+  ],
+  "concepts": [
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d22c4",
+    "pl-l2d22c4-d1e129"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:30:14Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d22c4-d1e135": {
+  "summary": "Further Augustine on Phil 2:6: Christ did not usurp what was not his, unlike the devil and the first man.",
+  "claims": [
+   "The first man usurped what was not his."
+  ],
+  "concepts": [
+   "Philippians 2:6"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d22c4",
+    "pl-l2d22c4-d1e132"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:30:14Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d22c4-d1e139": {
+  "summary": "Reports some who think Adam too desired to be like God, but did not believe it possible and knew the devil's promise false; though he coveted divine equality, he did not burn with such ambition as the woman, who thought it possible; some ambition may have crept into him, but not so as to think it true.",
+  "claims": [
+   "Adam may have desired divinity without believing it possible."
+  ],
+  "concepts": [
+   "opinion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d22c4",
+    "pl-l2d22c4-d1e135"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:30:14Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d22c4-d1e144": {
+  "summary": "Reports others who think it is said of Adam because the woman taken from him willed it, as sin is said to have entered through one man though the woman sinned first; or because, had the man not sinned, the race would not have been corrupted. So the man sinned less.",
+  "claims": [
+   "Sin entered through one man because the race depended on him."
+  ],
+  "concepts": [
+   "Romans 5:12",
+   "opinion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d22c4",
+    "pl-l2d22c4-d1e139"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:30:14Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d22c4-d1e153": {
+  "summary": "Raises Isidore's objection: sin is committed by ignorance, weakness, or deliberation, increasingly grave; Eve sinned by ignorance, being seduced, Adam by deliberation, not seduced.",
+  "claims": [],
+  "concepts": [
+   "objection",
+   "Isidore"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d22c4",
+    "pl-l2d22c4-d1e144"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:30:14Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d22c4-d1e165": {
+  "summary": "Answers that though Eve was ignorant in believing the devil's suggestion true, she knew it was God's command and that acting against it was sin, so ignorance could not excuse her.",
+  "claims": [
+   "Eve's ignorance did not excuse her, since she knew the command."
+  ],
+  "concepts": [
+   "ignorance"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d22c4",
+    "pl-l2d22c4-d1e153"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:30:14Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d22c4": {
+  "summary": "Asks who sinned more, Adam or Eve. The woman seems to have sinned more, wishing to usurp equality with God and believing it would happen; Adam neither believed it and thought of penance and God's mercy, consenting so as not to sadden or lose his wife, thinking the sin venial (Augustine). The woman sinned against herself, her neighbor, and God; the man against himself and God; and she was more heavily punished. Against Augustine's 'unequal sex, equal pride' in their excuses, both were equal in excusing and eating but the woman greater in believing and willing to be like God. Some texts say Adam too wished to be like God; some say he desired it without believing it possible, others that it is said of him because the woman, taken from him, wished it. To the objection that Eve sinned by ignorance and Adam by deliberation (Isidore), Lombard answers that Eve knew the command and that transgressing it was sin, so ignorance did not excuse her.",
+  "claims": [
+   "The woman sinned more than Adam.",
+   "She sought equality with God and believed it possible; Adam did not.",
+   "Adam consented out of affection for his wife, thinking the sin venial and counting on penance.",
+   "The woman sinned against herself, neighbor, and God; the man against himself and God.",
+   "Both showed equal pride in excusing themselves.",
+   "Adam may have desired likeness to God without believing it possible.",
+   "Eve's ignorance did not excuse her, since she knew the command."
+  ],
+  "concepts": [
+   "comparative guilt",
+   "Adam and Eve",
+   "pride",
+   "ignorance and sin",
+   "Isidore",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d22c4-d1e108",
+    "pl-l2d22c4-d1e111",
+    "pl-l2d22c4-d1e114",
+    "pl-l2d22c4-d1e118",
+    "pl-l2d22c4-d1e123",
+    "pl-l2d22c4-d1e126",
+    "pl-l2d22c4-d1e129",
+    "pl-l2d22c4-d1e132",
+    "pl-l2d22c4-d1e135",
+    "pl-l2d22c4-d1e139",
+    "pl-l2d22c4-d1e144",
+    "pl-l2d22c4-d1e153",
+    "pl-l2d22c4-d1e165"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:30:14Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

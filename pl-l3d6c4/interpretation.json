@@ -1,0 +1,65 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T01:04:37Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l3d6c4-d1e117": {
+  "summary": "Sets out the third opinion: some deny not only that the person is composed of natures but that any man or substance was composed or made of soul and flesh. They say soul and flesh were united to the Word's person or nature so that no substance or person was made from those two or three, but the Word was clothed with them like a garment to appear fittingly to mortal eyes. He is called true man because he took true flesh and soul, taken into his person's singularity not because they or anything composed of them is one person with the Word, but because their addition did not increase the number of persons into a quaternity, and the Word's person, formerly without the garment, was not divided or changed by putting it on. They say God was made man by habitus: by taking a man he is called made man; by the man taken he is truly man; by the God assuming, man is God. Otherwise, if 'God is man' were said essentially, then had God assumed a man of the female sex, a woman would essentially be God and conversely; but God could have done so.",
+  "claims": [
+   "Soul and flesh are united to the Word as a garment.",
+   "No new substance is composed of soul and flesh in Christ.",
+   "God is man by habitus.",
+   "If 'God is man' were essential predication, God assuming a woman would make a woman essentially God."
+  ],
+  "concepts": [
+   "third opinion",
+   "habitus",
+   "garment analogy",
+   "quaternity",
+   "essential predication"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d6c4",
+    "pl-l3d6c3-d1e117",
+    "pl-l3d12c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:04:37Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d6c4": {
+  "summary": "Sets out the third opinion: those who deny not only that the person is composed of natures but that any man or substance was composed of soul and flesh. Soul and flesh are united to the Word's person or nature as a garment, so that he might appear fittingly to mortal eyes. He is called true man because he took true flesh and soul; they are taken into the singularity of his person not because they are one person with the Word, but because the number of persons is not increased and the Word remains unchanged. They say God was made man by habitus: 'God is man' because he has a man. Otherwise, had God assumed a woman, a woman would essentially be God.",
+  "claims": [
+   "Third opinion: soul and flesh are united to the Word like a garment.",
+   "No substance composed of soul and flesh is formed in the union.",
+   "God is said to be man by habitus, because he has a man.",
+   "Assuming soul and flesh does not change the Word or add a person."
+  ],
+  "concepts": [
+   "third opinion",
+   "habitus",
+   "garment analogy",
+   "immutability of the Word"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d6c4-d1e117"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T01:04:37Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

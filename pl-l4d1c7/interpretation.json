@@ -1,0 +1,128 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T11:47:36Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d1c7-d1e115": {
+  "summary": "Notes that among the old sacraments there was one, circumcision, that conferred the same remedy against sin as baptism now does.",
+  "claims": [
+   "Circumcision conferred the same remedy against sin as baptism."
+  ],
+  "concepts": [
+   "circumcision",
+   "baptism",
+   "remedy for sin"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d1c7"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:47:36Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d1c7-d1e118": {
+  "summary": "Quotes Augustine: from the institution of circumcision among God's people, the seal of the justice of faith, it served to purge original and old sin for adults and children, as baptism from its institution serves to renew man.",
+  "claims": [
+   "Circumcision purged original sin for adults and children."
+  ],
+  "concepts": [
+   "circumcision",
+   "original sin",
+   "seal of faith",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d1c7"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:47:36Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d1c7-d1e127": {
+  "summary": "Quotes Bede: circumcision under the Law did against the wound of original sin what baptism does in the time of revealed grace, except that its recipients could not yet enter the gate of heaven; consoled after death in Abraham's bosom, they awaited entrance to heavenly peace in hope.",
+  "claims": [
+   "Circumcision healed original sin but did not open heaven.",
+   "The circumcised awaited heaven in Abraham's bosom."
+  ],
+  "concepts": [
+   "circumcision",
+   "Abraham's bosom",
+   "gate of heaven",
+   "Bede"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d1c7"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:47:36Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d1c7-d1e137": {
+  "summary": "Draws out that these texts plainly teach that through circumcision, from its institution, God granted remission of original and actual sin to children and adults, as now through baptism.",
+  "claims": [
+   "Circumcision remitted original and actual sin."
+  ],
+  "concepts": [
+   "circumcision",
+   "remission of sin"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d1c7"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:47:36Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d1c7": {
+  "summary": "Notes an exception among the old sacraments: circumcision conferred the same remedy against sin as baptism now does. Augustine says it served to purge original and old sin for great and small from its institution, as baptism does from its institution; Bede adds that it worked the same healing against original sin, except that the circumcised could not yet enter heaven but awaited it in Abraham's bosom. So circumcision gave remission of original and actual sin to children and adults.",
+  "claims": [
+   "Circumcision conferred remission of sin as baptism now does.",
+   "The circumcised could not enter heaven before Christ but rested in Abraham's bosom."
+  ],
+  "concepts": [
+   "circumcision",
+   "baptism",
+   "remission of sin",
+   "Abraham's bosom",
+   "old and new sacraments"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d1c7-d1e115",
+    "pl-l4d1c7-d1e118",
+    "pl-l4d1c7-d1e127",
+    "pl-l4d1c7-d1e137"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T11:47:36Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

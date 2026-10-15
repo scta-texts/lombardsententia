@@ -1,0 +1,160 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T01:11:30Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l3d18c5-d1e117": {
+  "summary": "Asks why he willed to suffer and die if his virtues sufficed to merit those things, and answers: for you, not for himself. His passion and death are your form and cause: form of virtue and humility, cause of glory and freedom; form of obeying God unto death, cause of your liberation and beatitude. By enduring death and passion he merited for us what he had not merited before, entry to paradise and redemption from sin, penalty, and the devil; by his death we have obtained redemption and adoption of the glory of sons, since by dying he became the victim of our liberation.",
+  "claims": [
+   "Christ suffered for us, not for himself.",
+   "Christ's passion is the form and cause of our salvation.",
+   "By his death Christ merited for us entry to paradise and redemption."
+  ],
+  "concepts": [
+   "redemption",
+   "example",
+   "merit of Christ",
+   "sacrifice"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d18c5",
+    "pl-l3d18c4-d1e120"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:11:30Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d18c5-d1e120": {
+  "summary": "Asks how by his death he redeemed us from the devil and sin and opened the entrance to glory.",
+  "claims": [],
+  "concepts": [
+   "redemption"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d18c5",
+    "pl-l3d18c5-d1e117"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:11:30Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d18c5-d1e123": {
+  "summary": "Answers with Ambrose: God decreed in mystery that because of the first sin man would not be admitted to paradise, i.e., to contemplation of God, unless one man had humility sufficient for all his own, as the first man had pride that harmed all his own. None was found but the lion of Judah, who opened the book (Rev 5:5) by fulfilling all justice, the most consummate humility; all others were debtors, their virtue barely sufficing for themselves, so none could offer a sufficient victim. Christ was a sufficient and perfect victim, humbled far more in tasting death than Adam was proud in enjoying the forbidden tree; if Adam's pride shut paradise to all, much more Christ's humility opened the kingdom to all his own, fulfilling God's decree and blotting out the bond.",
+  "claims": [
+   "God decreed that a humility sufficient for all was needed.",
+   "Only Christ's humility sufficed, since all others were debtors.",
+   "Christ's humility exceeded Adam's pride and opened heaven."
+  ],
+  "concepts": [
+   "humility",
+   "pride of Adam",
+   "sacrifice",
+   "divine decree",
+   "redemption"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d18c5",
+    "pl-l3d18c5-d1e120"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:11:30Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d18c5-d1e146": {
+  "summary": "Cites Ambrose: our sin was so great that we could not be saved unless the only Son died for us, debtors of death. This is not to be understood as if he could not save us otherwise than by his death, but that by no other victim could the kingdom be opened and salvation made than by the death of the Only-begotten, whose humility and patience were such that by his merit the kingdom opens to believers. As at the high priest's death those who fled to the city of refuge could return home safely, so by his death we may return to the homeland.",
+  "claims": [
+   "God could have saved us otherwise.",
+   "No other victim could open the kingdom than the Son's death."
+  ],
+  "concepts": [
+   "redemption",
+   "divine power",
+   "sacrifice",
+   "city of refuge"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d18c5",
+    "pl-l3d18c5-d1e123"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:11:30Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d18c5-d1e155": {
+  "summary": "Concludes that it has been shown to some extent how the entry to the kingdom was prepared for us through Christ's death.",
+  "claims": [],
+  "concepts": [
+   "redemption"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d18c5",
+    "pl-l3d18c5-d1e123"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:11:30Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d18c5": {
+  "summary": "Asks why Christ willed to suffer and die if his virtues sufficed for his merit: for us. His passion and death are our form and cause: form of virtue, humility, and obedience unto death, and cause of our glory, liberation, and beatitude. By it he merited for us what he had not merited before: entry to paradise and redemption from sin, penalty, and the devil. Following Ambrose, God decreed that man would not be admitted to contemplation of God unless one man had humility sufficient for all, as the first man's pride harmed all; only Christ, the lion of Judah, fulfilled this, since all others were debtors. His humility in tasting death exceeded Adam's pride, so it opened heaven. Ambrose's 'we could not be saved unless the Son died' means not that God had no other way, but that no other victim could open the kingdom.",
+  "claims": [
+   "Christ suffered and died for us, not for himself.",
+   "Christ's passion is the form of our virtue and the cause of our liberation.",
+   "By his death Christ merited for us entry to paradise and redemption from sin, penalty, and the devil.",
+   "God decreed that a humility sufficient for all was needed to open paradise.",
+   "Only Christ's humility was sufficient, since all others were debtors.",
+   "God could have saved us otherwise, but no other victim could open the kingdom."
+  ],
+  "concepts": [
+   "redemption",
+   "merit of Christ",
+   "humility",
+   "sacrifice",
+   "example",
+   "pride of Adam"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d18c5-d1e117",
+    "pl-l3d18c5-d1e120",
+    "pl-l3d18c5-d1e123",
+    "pl-l3d18c5-d1e146",
+    "pl-l3d18c5-d1e155"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T01:11:30Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

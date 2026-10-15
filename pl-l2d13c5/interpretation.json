@@ -1,0 +1,191 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:11:27Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll2d13c5-d1e3519": {
+  "summary": "States that the natural order counts days from morning to morning, but later, as a mystery, days were counted from evening to evening, joining day to the preceding night, because man fell from light through sin into the darkness of ignorance and sins, then through Christ returned from darkness to light.",
+  "claims": [
+   "The evening-to-evening count signifies fall and redemption."
+  ],
+  "concepts": [
+   "mystical reckoning"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d13c5",
+    "pl-l2d13c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:11:27Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d13c5-d1e3522": {
+  "summary": "Cites Eph 5:8: 'once you were darkness, now light in the Lord.'",
+  "claims": [
+   "Christians pass from darkness to light."
+  ],
+  "concepts": [
+   "Ephesians 5:8"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d13c5",
+    "pll2d13c5-d1e3519"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:11:27Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d13c5-d1e3537": {
+  "summary": "Restates that the first day began not from dawn but full light, and, receiving evening as the light set, was completed at the next morning.",
+  "claims": [
+   "The first day ran from full light to the next morning."
+  ],
+  "concepts": [
+   "first day"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d13c5",
+    "pll2d13c5-d1e3522"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:11:27Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d13c5-d1e3541": {
+  "summary": "Cites Bede: the light set gradually and passed under the lower parts, making evening as the sun now does; returning over the earth it made morning, completing a day of twenty-four hours; the night of those three days was wholly dark until the stars gave some light.",
+  "claims": [
+   "The first three nights were wholly dark."
+  ],
+  "concepts": [
+   "Bede",
+   "Glossa"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d13c5",
+    "pll2d13c5-d1e3537"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:11:27Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d13c5-d1e3559": {
+  "summary": "Asks why the sun was made if that light sufficed to make day.",
+  "claims": [],
+  "concepts": [
+   "question"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d13c5",
+    "pll2d13c5-d1e3541"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:11:27Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d13c5-d1e3562": {
+  "summary": "Answers that perhaps the first light lit the upper parts and the sun was needed for the lower, or rather that with the sun the day's brightness increased.",
+  "claims": [
+   "The sun increased daylight."
+  ],
+  "concepts": [
+   "sun"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d13c5",
+    "pll2d13c5-d1e3559"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:11:27Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d13c5-d1e3565": {
+  "summary": "Asks what became of the first light, which no longer appears: perhaps the sun's body was formed from it, or it is in the part of heaven where the sun is, united with it so as to be indistinguishable.",
+  "claims": [
+   "The first light may have become or joined the sun."
+  ],
+  "concepts": [
+   "first light"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d13c5",
+    "pll2d13c5-d1e3562"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:11:27Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d13c5": {
+  "summary": "Notes that the natural order counts days from morning to morning, but later, as a mystery, days were counted from evening to evening, joining day to the preceding night, because man fell from light into the darkness of ignorance and sin and through Christ returned to light ('once you were darkness, now light in the Lord'). Asks why the sun was made if the first light sufficed: perhaps that light lit only the upper parts, or the sun increased the day's brightness. The first light may have become the sun's body, or be united with it in the sky.",
+  "claims": [
+   "Days are naturally counted from morning to morning.",
+   "Counting from evening to evening signifies man's fall into darkness and return to light through Christ.",
+   "The first night was wholly dark until the stars were made.",
+   "The sun was made perhaps to light lower parts or to increase daylight.",
+   "The first light may have become the sun or be united with it."
+  ],
+  "concepts": [
+   "reckoning of days",
+   "fall and redemption",
+   "Ephesians 5:8",
+   "sun",
+   "first light",
+   "Bede"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll2d13c5-d1e3519",
+    "pll2d13c5-d1e3522",
+    "pll2d13c5-d1e3537",
+    "pll2d13c5-d1e3541",
+    "pll2d13c5-d1e3559",
+    "pll2d13c5-d1e3562",
+    "pll2d13c5-d1e3565"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:11:27Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

@@ -1,0 +1,59 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T18:56:42Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll2d1c2-d1e3514": {
+  "summary": "Distinguishes: to create is properly to make something from nothing; to make is also to work from matter. So humans or angels are makers or craftsmen but not creators; God alone, who makes from nothing and from something, properly bears the name creator, though he shares the other names with creatures and Scripture often uses them interchangeably.",
+  "claims": [
+   "Only God creates.",
+   "Creatures can make but not create."
+  ],
+  "concepts": [
+   "creare vs facere"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d1c2",
+    "pll2d1c1-d1e3514"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:56:42Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d1c2": {
+  "summary": "Distinguishes 'create' from 'make': to create is properly to make something from nothing; to make is also to work from matter. So humans and angels make but do not create; 'creator' belongs properly to God alone, who makes some things from nothing and some from something, though Scripture often uses 'create' and 'make' interchangeably.",
+  "claims": [
+   "To create is properly to make from nothing.",
+   "To make includes working from matter.",
+   "Humans and angels make but do not create.",
+   "'Creator' belongs properly to God alone.",
+   "Scripture often uses 'create' and 'make' without distinction."
+  ],
+  "concepts": [
+   "creare vs facere",
+   "creator",
+   "creatio ex nihilo",
+   "divine names"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll2d1c2-d1e3514"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T18:56:42Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

@@ -1,0 +1,106 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T01:01:00Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l3d2c2-d1e117": {
+  "summary": "Teaches that the Son assumed flesh and soul, but flesh through the medium of the soul: the Word was united to flesh through the intellect, since the divine essence is so subtle and simple that it was not fitting for it to be united to a body formed of clay except through a rational essence.",
+  "claims": [
+   "The Word assumed flesh through the mediation of the rational soul."
+  ],
+  "concepts": [
+   "mediation of the soul",
+   "divine simplicity"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d2c2",
+    "pl-l3d2c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:01:00Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d2c2-d1e123": {
+  "summary": "Adds that the union is inexplicable, as shown by John the Baptist, sanctified in the womb, confessing himself unworthy to loose the strap of Jesus's sandal, since he could not investigate and explain the mode of that union.",
+  "claims": [
+   "The mode of the union is beyond explanation."
+  ],
+  "concepts": [
+   "mystery of the incarnation"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d2c2",
+    "pl-l3d2c2-d1e117"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:01:00Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d2c2-d1e126": {
+  "summary": "Rejects those (citing Augustine against the Manichees) who deny the Son of God took a true man, born of a woman, but say he showed false flesh, fearing God's substance would be defiled. They grant that the sun's rays pass through filth and stay clean; how much more could invisible Truth assume the whole man, soul through spirit and body through soul, without defilement. Lombard explains: spirit, the soul's higher part, is closer to God than the soul's lower part, and soul than body, so the order of assumption is fitting.",
+  "claims": [
+   "Christ had a true body.",
+   "God is not defiled by assuming flesh.",
+   "The Word assumed soul through spirit and body through soul."
+  ],
+  "concepts": [
+   "Docetism",
+   "Manichaeism",
+   "higher and lower soul",
+   "mediation of the soul"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d2c2",
+    "pl-l3d2c2-d1e117"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:01:00Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d2c2": {
+  "summary": "Teaches that the Son assumed flesh through the mediation of the soul: the divine essence is so subtle and simple that it was fitting for it to be united to an earthly body only through a rational nature. The union is beyond explanation, as John the Baptist's unworthiness to loosen Christ's sandal signifies. Those who say Christ showed only an apparent body, fearing that God's substance would be defiled, are refuted by the analogy of the sun's rays passing through filth unsullied: the unchangeable Truth assumed spirit, through spirit the soul, through soul the body, without contamination.",
+  "claims": [
+   "The Word assumed flesh through the mediation of the soul.",
+   "The mode of the union is inexplicable.",
+   "Christ's body was real, and assuming it did not defile God."
+  ],
+  "concepts": [
+   "mediation of the soul",
+   "hypostatic union",
+   "Docetism",
+   "divine impassibility"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d2c2-d1e117",
+    "pl-l3d2c2-d1e123",
+    "pl-l3d2c2-d1e126"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T01:01:00Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

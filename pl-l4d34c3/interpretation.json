@@ -1,0 +1,80 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T13:04:02Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d34c3-d1e115": {
+  "summary": "States the ruling on impediment by sorcery: if through witches and sorcerers intercourse does not follow, those afflicted should confess all sins to God and the priest with contrite spirit and satisfy God by tears, alms, prayers, and fasts, and the Church's ministers should try to heal them by exorcisms and other remedies; if they cannot, they may separate; but after seeking other marriages, they cannot be reconciled to their former spouses while those live, even if the ability to unite returns.",
+  "claims": [
+   "Impotence from sorcery is to be treated by penance and exorcism.",
+   "If incurable, separation is permitted."
+  ],
+  "concepts": [
+   "sorcery",
+   "exorcism",
+   "separation"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d34c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:04:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d34c3-d1e121": {
+  "summary": "Interprets the end of the chapter as said more from rigor than canonical equity, or as meaning they cannot be reconciled except by the Church's judgment, by which the division was made.",
+  "claims": [
+   "The ban on reconciliation is rigorous or requires the Church's judgment."
+  ],
+  "concepts": [
+   "harmonizing authorities",
+   "Church's judgment"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d34c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:04:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d34c3": {
+  "summary": "On impediment by sorcery: if intercourse fails through witches and sorcerers, those afflicted should confess, make satisfaction by tears, alms, prayers, and fasts, and the Church's ministers should try to heal them by exorcisms; if they cannot, they may separate; but after remarrying they cannot be reconciled to the first spouses even if able to unite. Lombard reads this last as said from rigor rather than canonical equity, or as meaning they cannot reconcile except by the Church's judgment that separated them.",
+  "claims": [
+   "Sexual impotence from sorcery is to be treated by penance and exorcism.",
+   "If incurable, the spouses may separate.",
+   "Reconciliation after remarriage requires the Church's judgment."
+  ],
+  "concepts": [
+   "sorcery",
+   "impotence",
+   "exorcism",
+   "separation"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d34c3-d1e115",
+    "pl-l4d34c3-d1e121"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T13:04:02Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

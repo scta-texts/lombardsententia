@@ -1,0 +1,228 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T18:38:53Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll1prol-cadzdd": {
+  "summary": "Opens with humility topoi: like the poor widow casting her mite into the treasury, the author undertakes a work beyond his strength, trusting in the Samaritan who promised to repay what was spent beyond his two denarii. Delight in the promise and fear of the labor contend, but zeal for God's house overcomes weakness.",
+  "claims": [
+   "The author undertakes a task beyond his strength.",
+   "He trusts God to complete and reward the labor.",
+   "Zeal for God's house overcomes his weakness."
+  ],
+  "concepts": [
+   "humility topos",
+   "widow's mite",
+   "Good Samaritan",
+   "zeal"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1prol"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:38:53Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1prol-qifacc": {
+  "summary": "States the work's aims: to fortify, or rather show already fortified, the faith with the shields of David's tower against carnal and animal men; to open the hidden things of theological inquiry; and to teach knowledge of the Church's sacraments, at the urging of studious brothers, driven by Christ's charity.",
+  "claims": [
+   "The work defends the faith against error.",
+   "It opens the hidden matters of theological inquiry.",
+   "It teaches the sacraments of the Church.",
+   "It responds to the requests of students."
+  ],
+  "concepts": [
+   "purpose",
+   "defense of faith",
+   "sacraments",
+   "charity"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1prol",
+    "pll1prol-cadzdd"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:38:53Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1prol-qnavet": {
+  "summary": "Acknowledges, drawing heavily on Hilary, that all human speech is exposed to calumny, since differing wills produce differing judgments. He describes opponents who do not subject will to reason, fit words of wisdom to their dreams, seek what pleases rather than what is true, turn from truth to fables, and corrupt the holiness of faith with false teaching; between assertion of truth and defense of preference there is stubborn conflict.",
+  "claims": [
+   "All human speech is subject to contradiction.",
+   "Perverse wills lead to opposing truth.",
+   "Some seek what pleases them rather than what is true.",
+   "There is conflict between truth and willful error."
+  ],
+  "concepts": [
+   "heresy",
+   "will and intellect",
+   "Hilary",
+   "polemic"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1prol",
+    "pll1prol-qifacc"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:38:53Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1prol-hidqld": {
+  "summary": "Wishing to overthrow this assembly hateful to God and stop their mouths, and to set the lamp of truth on its stand, the author has compiled with much labor, by God's help, a volume from testimonies of truth founded forever, divided into four books.",
+  "claims": [
+   "The work is compiled from enduring testimonies of truth.",
+   "It is divided into four books.",
+   "Its aim is to expose error and exalt truth."
+  ],
+  "concepts": [
+   "four books",
+   "compilation",
+   "lamp of truth"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1prol",
+    "pll1prol-qnavet"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:38:53Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1prol-iqmpdl": {
+  "summary": "Describes the contents: the examples and teaching of the elders, in which, by sincere profession of the Lord's faith, the deceit of viperous teaching is exposed, keeping a moderate course between demonstrating truth and avoiding impious profession; where his own voice has spoken little, it has not departed from the boundaries of the Fathers.",
+  "claims": [
+   "The book contains the examples and teaching of the elders.",
+   "It follows a moderate course.",
+   "It does not depart from the Fathers' boundaries."
+  ],
+  "concepts": [
+   "patristic authority",
+   "moderation",
+   "fidelity to tradition"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1prol",
+    "pll1prol-hidqld"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:38:53Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1prol-nidqhc": {
+  "summary": "Defends the work's utility: it should not seem superfluous to the lazy or the learned, since it is necessary for many diligent and unlearned readers, including the author, gathering the Fathers' sentences with their testimonies in a brief volume so that no one must search many books. Echoing Augustine, he desires not only a pious reader but a free corrector, especially on deep questions of truth, which he wishes had as many discoverers as contradictors.",
+  "claims": [
+   "The work collects the Fathers' sentences with their testimonies.",
+   "It saves readers from searching many books.",
+   "The author welcomes free correction.",
+   "Deep questions have more contradictors than discoverers."
+  ],
+  "concepts": [
+   "brevity",
+   "compilation",
+   "free correction",
+   "Augustine De Trinitate III"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1prol",
+    "pll1prol-iqmpdl"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:38:53Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1prol-uaqcdp": {
+  "summary": "Notes that chapter titles for each book have been prefaced so that what is sought may be found easily.",
+  "claims": [
+   "Chapter titles are provided to aid finding material."
+  ],
+  "concepts": [
+   "apparatus",
+   "capitula"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1prol",
+    "pll1prol-nidqhc"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:38:53Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1prol": {
+  "summary": "The author's prologue to the whole Sentences. Lombard presents the work as a poor widow's mite cast into the Lord's treasury, trusting in the Samaritan's promise to repay, and undertaken from zeal for God's house at the request of fellow students. Its aim is to defend the faith against carnal and animal men, to open the hidden things of theological inquiry, and to teach the sacraments of the Church. He describes his opponents as those who prefer what pleases them to truth and fit doctrine to their desires. Against them he has compiled, from testimonies of truth, a volume in four books gathering the examples and teaching of the elders, keeping a moderate course and not departing from the Fathers. The work spares readers from searching many books by collecting the Fathers' sentences briefly with their testimonies; he asks for a free corrector as well as a pious reader, and prefaces chapter titles for ease of reference.",
+  "claims": [
+   "The work is offered humbly, trusting God to reward the labor.",
+   "Its aims are to defend the faith, open theological questions, and teach the sacraments.",
+   "It was written at the request of students and from zeal for God's house.",
+   "Its opponents subject truth to their will and doctrine to their desires.",
+   "The Sentences are compiled from testimonies of truth in four books.",
+   "The work follows the Fathers and does not depart from their limits.",
+   "It gathers the Fathers' sentences briefly so readers need not search many books.",
+   "The author welcomes free correction, especially on deep questions."
+  ],
+  "concepts": [
+   "purpose of the Sentences",
+   "patristic compilation",
+   "theological method",
+   "humility topos",
+   "defense of faith",
+   "four books",
+   "free correction",
+   "Hilary and Augustine borrowings"
+  ],
+  "_metadata": {
+   "level": "prologus",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1prol-cadzdd",
+    "pll1prol-qifacc",
+    "pll1prol-qnavet",
+    "pll1prol-hidqld",
+    "pll1prol-iqmpdl",
+    "pll1prol-nidqhc",
+    "pll1prol-uaqcdp"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-prologus-v1",
+   "generated_at": "2026-10-14T18:38:53Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

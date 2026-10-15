@@ -1,0 +1,142 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T13:09:38Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d43c2-d1e115": {
+  "summary": "States that the cause of the resurrection of the dead will be the trumpet's voice, heard by all at the Judge's coming, by whose power the dead will be roused and rise from the tombs.",
+  "claims": [
+   "The trumpet's voice causes the resurrection."
+  ],
+  "concepts": [
+   "last trumpet",
+   "resurrection of the body"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d43c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:09:38Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d43c2-d1e118": {
+  "summary": "Cites the prophet: he will give his voice a voice of power, that is, the effect of raising the dead.",
+  "claims": [],
+  "concepts": [
+   "voice of power",
+   "Psalm 67"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d43c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:09:38Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d43c2-d1e124": {
+  "summary": "Cites John: the hour comes when all in the tombs will hear the voice of the Son of God, and the good will come forth to the resurrection of life, the evil to the resurrection of judgment.",
+  "claims": [
+   "All will hear the Son's voice and rise to life or judgment."
+  ],
+  "concepts": [
+   "John 5:28-29",
+   "resurrection of the body"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d43c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:09:38Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d43c2-d1e131": {
+  "summary": "Explains whose and what the voice will be: Paul says the archangel's, that is Christ's, prince of archangels, or that of one or more angels; it is called trumpet because it will be manifest, and last because none will follow.",
+  "claims": [
+   "The voice is Christ's or angels'.",
+   "It is manifest and final."
+  ],
+  "concepts": [
+   "last trumpet",
+   "archangel"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d43c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:09:38Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d43c2-d1e140": {
+  "summary": "Cites Augustine: this trumpet is the cry of the Gospel, 'at midnight a cry was made: the bridegroom comes'; by trumpet is understood a clear and evident sign, called the archangel's voice and God's trumpet by Paul and the Son's voice and the cry in the Gospel, which the dead will hear and rise.",
+  "claims": [
+   "The trumpet is a clear sign heard by the dead."
+  ],
+  "concepts": [
+   "last trumpet",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d43c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:09:38Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d43c2": {
+  "summary": "The cause of the resurrection will be the trumpet's voice, heard by all at the Judge's coming, by whose power the dead will rise, as the Psalm and John's 'the hour comes when all in the tombs will hear the voice of the Son of God' show. The voice is the archangel's, that is Christ himself as prince of archangels, or of one or more angels; called trumpet because manifest and last because none follows. Augustine identifies it with the cry at midnight, 'the bridegroom comes', a clear sign the dead will hear.",
+  "claims": [
+   "The trumpet's voice is the cause of the resurrection.",
+   "The voice is Christ's or an angel's, manifest and final."
+  ],
+  "concepts": [
+   "resurrection of the body",
+   "last trumpet",
+   "voice of Christ",
+   "second coming"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d43c2-d1e115",
+    "pl-l4d43c2-d1e118",
+    "pl-l4d43c2-d1e124",
+    "pl-l4d43c2-d1e131",
+    "pl-l4d43c2-d1e140"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T13:09:38Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

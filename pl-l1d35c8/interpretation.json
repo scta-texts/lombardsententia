@@ -1,0 +1,58 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T17:50:29Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll1d35c8-d1e3501": {
+  "summary": "States that knowledge or wisdom concerns eternal as well as temporal things, so even if nothing were future God's knowledge would be the same, neither less nor greater. God knew eternally and unchangeably all that would be, knows past and future as well as present by his eternal immutable wisdom, and his immense knowledge contains all wisdom and essence (Ambrose).",
+  "claims": [
+   "God's knowledge would be the same without future objects.",
+   "God knows all things eternally and unchangeably."
+  ],
+  "concepts": [
+   "immutability",
+   "Ambrose"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d35c8",
+    "pll1d35c7-d1e3545"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:50:29Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1d35c8": {
+  "summary": "States that knowledge or wisdom concerns not only temporal but eternal things, so even if nothing were future, God's knowledge would be the same, neither less nor greater. God knew from eternity the eternal and all that would be, unchangeably, and knows past and future as well as present by his eternal and immutable wisdom; as Ambrose says, his immense knowledge contains every reason of heavenly and earthly wisdom.",
+  "claims": [
+   "God's knowledge concerns eternal as well as temporal things.",
+   "Without future things, God's knowledge would be the same.",
+   "God knew all eternally and unchangeably.",
+   "God knows past and future as well as present."
+  ],
+  "concepts": [
+   "scientia Dei",
+   "immutability",
+   "eternity"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d35c8-d1e3501"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T17:50:29Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

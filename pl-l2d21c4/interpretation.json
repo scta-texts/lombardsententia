@@ -1,0 +1,103 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:30:14Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d21c4-d1e108": {
+  "summary": "Cites Augustine: the devil did not choose the serpent; wishing to deceive, he could only use the animal permitted him. The will to harm is in each from himself, but the power from God.",
+  "claims": [
+   "The will to harm is from the devil; the power from God."
+  ],
+  "concepts": [
+   "permission"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d21c4",
+    "pl-l2d21c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:30:14Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d21c4-d1e111": {
+  "summary": "Further Augustine: the devil spoke through the ignorant serpent as through the possessed or fanatics, using it as an instrument to form words; the serpent did not understand and did not become rational, called cunning for the devil's astuteness; it spoke as Balaam's ass, but this was diabolical, that angelic.",
+  "claims": [
+   "The serpent was an instrument and did not understand."
+  ],
+  "concepts": [
+   "Balaam's ass",
+   "instrumentality"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d21c4",
+    "pl-l2d21c4-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:30:14Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d21c4-d1e114": {
+  "summary": "Asks why the woman did not fear the serpent: knowing it was created, she thought it had received speech from God.",
+  "claims": [
+   "The woman thought the serpent's speech was from God."
+  ],
+  "concepts": [
+   "woman's credulity"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d21c4",
+    "pl-l2d21c4-d1e111"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:30:14Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d21c4": {
+  "summary": "With Augustine, the devil did not choose the serpent but could tempt only through the animal permitted him: the will to harm is from oneself, the power from God. He spoke through the unknowing serpent as through the possessed, moving it to produce sounds as an instrument; the serpent neither understood nor became rational, as Balaam's ass spoke by angelic work. The woman did not fear the serpent because, knowing it was created, she thought it had received speech from God.",
+  "claims": [
+   "The will to harm is the devil's own; the power is from God.",
+   "The devil spoke through the serpent as an instrument, as through the possessed.",
+   "The serpent did not understand its words.",
+   "The woman thought the serpent had received speech from God."
+  ],
+  "concepts": [
+   "demonic power",
+   "divine permission",
+   "serpent",
+   "Augustine De Genesi ad litteram",
+   "Balaam's ass"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d21c4-d1e108",
+    "pl-l2d21c4-d1e111",
+    "pl-l2d21c4-d1e114"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:30:14Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

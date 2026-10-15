@@ -1,0 +1,99 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T01:01:00Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l3d4c3-d1e117": {
+  "summary": "Asks why the Apostle says the Savior was 'made' of the seed of David (Rom 1:3) and 'made' of a woman (Gal 4:4), since being made and being born differ; he must have meant something by it.",
+  "claims": [],
+  "concepts": [
+   "making and begetting"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d4c3",
+    "pl-l3d4c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:01:00Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d4c3-d1e129": {
+  "summary": "Answers that the Lord's flesh was formed in the Virgin's womb not by human seed but by the Spirit's power, so the Apostle says 'made', not 'born'. Generating with seed and blood differs from procreating by power without mixing; men can beget sons but cannot make them. 'Made' prevents his seedless birth being thought like ours.",
+  "claims": [
+   "Christ's flesh was formed by the Spirit's power, not by seed.",
+   "'Made' marks the difference between Christ's birth and ours."
+  ],
+  "concepts": [
+   "virginal conception",
+   "making and begetting"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d4c3",
+    "pl-l3d4c3-d1e117"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:01:00Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d4c3-d1e138": {
+  "summary": "Explains why Paul adds 'of the seed of David' to 'made': though no man's seed was involved in the Virgin's conception, Christ was formed from flesh that came from seed, so he is rightly said to be made of David's seed.",
+  "claims": [
+   "Christ is of David's seed because his mother's flesh came from seed."
+  ],
+  "concepts": [
+   "Davidic descent",
+   "virginal conception"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d4c3",
+    "pl-l3d4c3-d1e129"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:01:00Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d4c3": {
+  "summary": "Asks why the Apostle says Christ was 'made' of the seed of David and of a woman, not 'born', since making and being born differ. Because Christ's flesh was formed not by human seed but by the Spirit's power, Paul says 'made' so that his seedless birth would not be thought like ours. He adds 'of the seed of David' because the flesh from which Christ was formed came from seed.",
+  "claims": [
+   "Paul says Christ was 'made' because his conception was without seed.",
+   "Christ is 'of the seed of David' because his mother's flesh came from seed."
+  ],
+  "concepts": [
+   "virginal conception",
+   "making and begetting",
+   "Davidic descent"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d4c3-d1e117",
+    "pl-l3d4c3-d1e129",
+    "pl-l3d4c3-d1e138"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T01:01:00Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

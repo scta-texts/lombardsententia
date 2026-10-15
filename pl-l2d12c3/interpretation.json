@@ -1,0 +1,167 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:09:52Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll2d12c3-d1e3514": {
+  "summary": "Proposes to examine the order and manner of creation and formation according to this tradition.",
+  "claims": [],
+  "concepts": [
+   "transition"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d12c3",
+    "pl-l2d12c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:09:52Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d12c3-d1e3517": {
+  "summary": "Reads Gen 1:1: 'heaven' is angelic nature, still unformed for some; 'earth' is the confused matter of the four elements, called earth, per Augustine against the Manichees, because earth is the least beautiful element; it was 'empty and void' because of the mixture.",
+  "claims": [
+   "'Earth' names the unformed matter."
+  ],
+  "concepts": [
+   "Augustine Contra Manichaeos"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d12c3",
+    "pll2d12c3-d1e3514"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:09:52Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d12c3-d1e3561": {
+  "summary": "Notes that the same matter is called 'abyss' ('darkness was over the face of the abyss') because confused and lacking distinct species.",
+  "claims": [
+   "'Abyss' names the unformed matter."
+  ],
+  "concepts": [
+   "Genesis 1:2"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d12c3",
+    "pll2d12c3-d1e3517"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:09:52Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d12c3-d1e3583": {
+  "summary": "Notes that the matter is also called 'water,' over which the Spirit moved as the craftsman's will over what he makes, since it lay under the Creator's will to be formed as he wished; it is called water because all that grows begins to be formed and nourished from moisture.",
+  "claims": [
+   "'Water' names the unformed matter.",
+   "The Spirit over the waters signifies the Creator's will."
+  ],
+  "concepts": [
+   "Spirit over the waters"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d12c3",
+    "pll2d12c3-d1e3561"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:09:52Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d12c3-d1e3606": {
+  "summary": "Explains that this unformed matter was given several familiar names so the unlearned might grasp an unknown thing, and not one name only, lest it be taken for what that name usually means; it was named after the visible things to come from it because of the weakness of the simple.",
+  "claims": [
+   "Matter is named by several visible things for the sake of the unlearned."
+  ],
+  "concepts": [
+   "pedagogy of Scripture"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d12c3",
+    "pll2d12c3-d1e3583"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:09:52Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d12c3-d1e3618": {
+  "summary": "States that darkness then was absence of light: darkness is not a thing, as silence is absence of sound, nakedness absence of covering, emptiness absence of body.",
+  "claims": [
+   "Darkness is the absence of light, not a thing."
+  ],
+  "concepts": [
+   "privation"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d12c3",
+    "pll2d12c3-d1e3606"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:09:52Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d12c3": {
+  "summary": "Follows the six-day tradition. 'In the beginning God created heaven' (angelic nature, still unformed for some) 'and earth' (confused matter, called earth as the least beautiful element, per Augustine), 'empty and void' from the mixture. The same matter is called 'abyss,' being confused, and 'water,' over which the Spirit moved as the craftsman's will over his work, since all that grows begins from moisture. It is given several familiar names so unlearned people grasp an unknown thing. The darkness then was absence of light, as silence is absence of sound, not a thing.",
+  "claims": [
+   "Gen 1:1's 'heaven' means angelic nature; 'earth' means confused matter.",
+   "The same unformed matter is called earth, abyss, and water.",
+   "The Spirit moving over the waters signifies the Creator's will presiding over matter.",
+   "Matter is named by visible things to help the unlearned.",
+   "Darkness is the absence of light, not a thing."
+  ],
+  "concepts": [
+   "unformed matter",
+   "exegesis of Genesis 1:1–2",
+   "darkness as privation",
+   "Augustine Contra Manichaeos"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll2d12c3-d1e3514",
+    "pll2d12c3-d1e3517",
+    "pll2d12c3-d1e3561",
+    "pll2d12c3-d1e3583",
+    "pll2d12c3-d1e3606",
+    "pll2d12c3-d1e3618"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:09:52Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

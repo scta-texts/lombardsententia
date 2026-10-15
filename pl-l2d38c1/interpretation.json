@@ -1,0 +1,149 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T21:12:25Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d38c1-d1e108": {
+  "summary": "Turns to the will and its end.",
+  "claims": [],
+  "concepts": [
+   "will",
+   "end"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d38c1",
+    "pl-l2d37c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:12:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d38c1-d1e111": {
+  "summary": "States with Augustine that the will is known by its end to be right or wrong; the end of good will is beatitude, eternal life, God himself; of evil will, evil delight or something else in which the will should not rest.",
+  "claims": [
+   "The will is judged by its end."
+  ],
+  "concepts": [
+   "beatitude"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d38c1",
+    "pl-l2d38c1-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:12:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d38c1-d1e114": {
+  "summary": "Notes the prophet's 'I have seen the end of all perfection; your command is exceedingly broad': charity is the end of all perfection, of all good will and action, to which every precept is referred.",
+  "claims": [
+   "Charity is the end of every precept."
+  ],
+  "concepts": [
+   "Psalm 118:96"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d38c1",
+    "pl-l2d38c1-d1e111"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:12:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d38c1-d1e118": {
+  "summary": "Cites the Enchiridion: all divine precepts are referred to charity, as 'the end of the precept is charity from a pure heart' (1 Tim 1:5); what is done from fear of punishment or carnal intention, not referred to love of God and neighbor, is not yet done as it should be.",
+  "claims": [
+   "Acts not referred to charity are not done rightly."
+  ],
+  "concepts": [
+   "Augustine Enchiridion",
+   "1 Timothy 1:5"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d38c1",
+    "pl-l2d38c1-d1e114"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:12:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d38c1-d1e123": {
+  "summary": "Concludes that the right end of will or action is charity, which is God, as shown earlier.",
+  "claims": [
+   "Charity is God."
+  ],
+  "concepts": [
+   "charity as Holy Spirit"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d38c1",
+    "pl-l2d38c1-d1e118",
+    "pl-l1d17c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:12:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d38c1": {
+  "summary": "Turns to the will and its end. A will is known to be right or wrong by its end; the end of good will is beatitude, eternal life, God himself; of evil will, evil delight or something else in which the will should not rest. The end of all perfection is charity (Ps 118:96): Augustine says all divine precepts are referred to charity (1 Tim 1:5), and what is done from fear of punishment or a carnal intention, not referred to love of God and neighbor, is not yet done as it should be.",
+  "claims": [
+   "The will is judged right or wrong by its end.",
+   "The end of good will is beatitude, eternal life, God.",
+   "The end of evil will is evil delight or something the will should not rest in.",
+   "All precepts are referred to charity.",
+   "Acts not referred to love of God and neighbor are not done rightly."
+  ],
+  "concepts": [
+   "will",
+   "end",
+   "beatitude",
+   "charity",
+   "1 Timothy 1:5",
+   "Augustine Enchiridion"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d38c1-d1e108",
+    "pl-l2d38c1-d1e111",
+    "pl-l2d38c1-d1e114",
+    "pl-l2d38c1-d1e118",
+    "pl-l2d38c1-d1e123"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T21:12:25Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

@@ -1,0 +1,80 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T11:01:29Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l3d27c2-d1e115": {
+  "summary": "Defines charity as the love by which God is loved for his own sake and the neighbor for God's sake or in God.",
+  "claims": [
+   "Charity loves God for himself and neighbor for God."
+  ],
+  "concepts": [
+   "charity",
+   "love of God",
+   "love of neighbor"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d27c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:01:29Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d27c2-d1e118": {
+  "summary": "States that charity has two commandments: love of God with whole heart, mind, and soul, from Deuteronomy, the greatest commandment of the Law; and love of neighbor as oneself, like it. On these hang the whole Law and the Prophets, and the end of the commandment is love, which is twofold.",
+  "claims": [
+   "Charity has two commandments, love of God and of neighbor.",
+   "The whole Law and the Prophets depend on these two commandments."
+  ],
+  "concepts": [
+   "double commandment",
+   "charity",
+   "Law"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d27c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:01:29Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d27c2": {
+  "summary": "Defines charity as the love by which God is loved for his own sake and neighbor for God's sake or in God. It has two commandments, love of God, the greatest in the Law, and love of neighbor, like it, on which the whole Law and the Prophets hang; the end of the commandment is love, which is twofold.",
+  "claims": [
+   "Charity is love of God for his own sake and of neighbor for God's sake.",
+   "Charity has two commandments on which the whole Law depends."
+  ],
+  "concepts": [
+   "charity",
+   "double commandment",
+   "love of God",
+   "love of neighbor"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d27c2-d1e115",
+    "pl-l3d27c2-d1e118"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T11:01:29Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

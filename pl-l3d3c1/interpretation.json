@@ -1,0 +1,158 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T01:01:00Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l3d3c1-d1e117": {
+  "summary": "Asks whether the Word's flesh, before its conception, was bound to sin, and whether it was assumed as such.",
+  "claims": [],
+  "concepts": [
+   "sanctification of Christ's flesh",
+   "original sin"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d3c1",
+    "pl-l3d2c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:01:00Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d3c1-d1e120": {
+  "summary": "Answers, following the agreement of the saints, that the flesh was previously liable to sin like the rest of the Virgin's flesh, but was so cleansed by the Spirit that it was united to the Word immune from all contagion of sin, with only the penalty remaining, by the will, not the necessity, of the one assuming it.",
+  "claims": [
+   "Christ's flesh was cleansed before union.",
+   "Christ bore the penalty of sin by will, not necessity."
+  ],
+  "concepts": [
+   "sanctification of Christ's flesh",
+   "penalty and guilt"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d3c1",
+    "pl-l3d3c1-d1e117"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:01:00Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d3c1-d1e127": {
+  "summary": "Adds that the Spirit, coming upon Mary, cleansed her wholly from sin and freed her from the tinder of sin, either by removing it entirely, as some hold, or by weakening it so that she never afterward had occasion to sin; he also gave her the power to conceive without a man's seed, as the annunciation shows (Lk 1:35, 38).",
+  "claims": [
+   "The Spirit cleansed Mary from sin.",
+   "The tinder of sin in Mary was either removed or so weakened that she could not sin.",
+   "The Spirit gave Mary the power to conceive without seed."
+  ],
+  "concepts": [
+   "Virgin Mary",
+   "fomes peccati",
+   "virginal conception"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d3c1",
+    "pl-l3d3c1-d1e120"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:01:00Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d3c1-d1e136": {
+  "summary": "Quotes John Damascene: after the Virgin consented, the Spirit came upon her, purifying her and preparing her to receive the Word and to generate; the Wisdom and Power of God, the consubstantial Son, overshadowed her like a divine seed and joined to himself flesh from her purest blood, animated by a rational soul, not by seed but by the Spirit's creating, so that it was at once flesh, God's flesh, and animated flesh.",
+  "claims": [
+   "The Son formed flesh from the Virgin's blood through the Spirit, not by seed.",
+   "The flesh was at once flesh, God's flesh, and animated."
+  ],
+  "concepts": [
+   "virginal conception",
+   "simultaneity of assumption",
+   "consubstantiality"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d3c1",
+    "pl-l3d3c1-d1e127"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:01:00Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d3c1-d1e145": {
+  "summary": "Draws the conclusion: the Word's flesh was conceived and assumed at once, and that flesh, indeed the whole Virgin, was purified from all sin by the Spirit's coming; she was given a new manner of generating, without a man or lust. The flesh God united to himself was conceived without vice and born without sin, yet it is not heavenly or airy but of the same nature as all human flesh. (The paragraph text contains two encoder notes about a missing umlaut and about wrapping several back-to-back quotations.)",
+  "claims": [
+   "Christ's flesh was conceived without vice and born without sin.",
+   "Christ's flesh is of the same nature as all human flesh."
+  ],
+  "concepts": [
+   "sanctification of Christ's flesh",
+   "virginal conception",
+   "reality of Christ's flesh"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d3c1",
+    "pl-l3d3c1-d1e136",
+    "pl-l3d2c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:01:00Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d3c1": {
+  "summary": "Asks whether the Word's flesh was bound to sin before conception and was assumed as such. Lombard holds that it was liable to sin like the rest of the Virgin's flesh but was cleansed by the Spirit so that it was united to the Word free of all sin, keeping only the penalty, assumed by will. The Spirit also cleansed Mary completely, either removing the tinder of sin or so weakening it that she never had occasion to sin, and gave her the power to conceive without a man. John Damascene's account of the Spirit purifying her and the Son forming flesh from her blood confirms that the flesh was conceived and assumed at once.",
+  "claims": [
+   "Christ's flesh was previously liable to sin but was cleansed before union.",
+   "Christ took on the penalty, not the guilt, voluntarily.",
+   "The Spirit cleansed Mary from sin and the tinder of sin.",
+   "The Spirit gave Mary the power to conceive without a man."
+  ],
+  "concepts": [
+   "sanctification of Christ's flesh",
+   "fomes peccati",
+   "Virgin Mary",
+   "virginal conception",
+   "penalty and guilt"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d3c1-d1e117",
+    "pl-l3d3c1-d1e120",
+    "pl-l3d3c1-d1e127",
+    "pl-l3d3c1-d1e136",
+    "pl-l3d3c1-d1e145"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T01:01:00Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

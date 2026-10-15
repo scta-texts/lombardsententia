@@ -1,0 +1,61 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T18:59:02Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll2d6c4-d1e3514": {
+  "summary": "States that as among good angels some rule others, among bad angels some are over others; while the world lasts angels rule angels, humans humans, demons demons, but in the future all rule will cease. Demons rule by greater or lesser knowledge, over a province, a person, or a vice ('spirit of pride'). Riches are called mammon, a demon's name, not because the devil gives or takes riches but because he uses them to tempt and deceive.",
+  "claims": [
+   "Demons have hierarchy.",
+   "All prelacy ends in the future.",
+   "The devil uses riches to tempt."
+  ],
+  "concepts": [
+   "demonic hierarchy",
+   "mammon"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d6c4",
+    "pl-l2d6c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:59:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d6c4": {
+  "summary": "Notes that as among good angels some rule others, so among bad angels some are set over others; while the world lasts angels rule angels, humans humans, and demons demons, but in the future all rule will cease. Demons have greater or lesser rule by their knowledge: some over a province, a person, or a vice, hence 'spirit of pride' or 'of lust.' Riches are called by a demon's name, mammon, not because the devil can give or take riches but because he uses them to tempt and deceive.",
+  "claims": [
+   "Among demons, as among angels, some rule others.",
+   "All rule among creatures will cease in the future.",
+   "Demons rule in proportion to their knowledge, over provinces, persons, or vices.",
+   "Demons are named from the vices they tempt to.",
+   "The devil does not control riches but uses them to tempt."
+  ],
+  "concepts": [
+   "hierarchy of demons",
+   "temptation",
+   "mammon",
+   "vices"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll2d6c4-d1e3514"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T18:59:02Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

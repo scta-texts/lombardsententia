@@ -1,0 +1,123 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:15:59Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d19c4-d1e108": {
+  "summary": "Asks whether the first man had both mortality and immortality from the body's natural condition, or immortality, the ability not to die, was a gift of grace.",
+  "claims": [],
+  "concepts": [
+   "question"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d19c4",
+    "pl-l2d19c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:15:59Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d19c4-d1e111": {
+  "summary": "Answers that he had the ability to die in the body's nature, but the ability not to die from the tree of life, a gift of grace.",
+  "claims": [
+   "Mortality was natural; immortality was from grace through the tree of life."
+  ],
+  "concepts": [
+   "tree of life",
+   "grace"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d19c4",
+    "pl-l2d19c4-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:15:59Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d19c4-d1e114": {
+  "summary": "Cites Augustine: man was in a way created immortal by the tree of life, not by nature; mortal by the condition of the animal body, immortal by the Creator's gift; not wholly immortal, which will come only when spiritual. So the ability not to die came from the tree of life.",
+  "claims": [
+   "Immortality came from the Creator's gift."
+  ],
+  "concepts": [
+   "Augustine De Genesi ad litteram"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d19c4",
+    "pl-l2d19c4-d1e111"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:15:59Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d19c4-d1e124": {
+  "summary": "Reports some who say that had he not used that tree he would not have lived on, because he would have sinned: he was commanded to eat of every tree except the tree of knowledge, so not eating what was commanded would be sin, as eating what was forbidden was.",
+  "claims": [
+   "Not eating what was commanded would have been sin."
+  ],
+  "concepts": [
+   "opinion",
+   "command to eat"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d19c4",
+    "pl-l2d19c4-d1e114"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:15:59Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d19c4": {
+  "summary": "Asks whether the first man's mortality and immortality both came from the body's nature, or immortality (ability not to die) was a gift of grace. He was able to die by nature and able not to die from the tree of life, a gift of grace (Augustine: mortal by the animal body, immortal by the Creator's gift). So some say he would have died had he not used the tree, since he would sin by not eating what was commanded, as by eating what was forbidden.",
+  "claims": [
+   "The first man could die by nature.",
+   "His ability not to die came from the tree of life, a gift of grace.",
+   "He was commanded to eat of every tree but the forbidden one.",
+   "Failing to eat what was commanded would also have been sin."
+  ],
+  "concepts": [
+   "immortality by grace",
+   "tree of life",
+   "Augustine",
+   "grace vs nature"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d19c4-d1e108",
+    "pl-l2d19c4-d1e111",
+    "pl-l2d19c4-d1e114",
+    "pl-l2d19c4-d1e124"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:15:59Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

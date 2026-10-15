@@ -1,0 +1,102 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T12:48:48Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d21c4-d1e112": {
+  "summary": "Explains that Paul distinguished wood, hay, and straw, built by those who, though not seizing others' goods, cling with some love to things granted to weakness; according to their modes of loving, longer like wood, less like hay, least like straw, they will endure the fire. Those who build gold, silver, and precious stones are safe from both fires, the eternal one tormenting the impious and the cleansing one by which some to be saved are purged.",
+  "claims": [
+   "Wood, hay, and straw are degrees of love for temporal things.",
+   "Builders of gold, silver, and stones escape both fires."
+  ],
+  "concepts": [
+   "purgatorial fire",
+   "attachment to temporal goods",
+   "eternal fire"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d21c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:48:48Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d21c4-d1e137": {
+  "summary": "Objects: if wood, hay, and straw are venial sins, and no one is so perfect as not to sin venially, then those who build gold, silver, and precious stones also build wood, hay, and straw, and so will pass through fire.",
+  "claims": [],
+  "concepts": [
+   "venial sin",
+   "objection"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d21c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:48:48Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d21c4-d1e149": {
+  "summary": "Answers that not everyone who sins venially builds wood, hay, and straw, just as not everyone who contemplates God, loves neighbor, and does good works builds gold, silver, and precious stones, though gold signifies contemplation of God, silver love of neighbor, and precious stones good works; those who build wood, hay, and straw also contemplate God, love neighbor, and do good, yet do not build gold, silver, and stones.",
+  "claims": [
+   "Not all venial sin is building wood, hay, and straw.",
+   "Gold, silver, and stones signify contemplation, love of neighbor, and good works."
+  ],
+  "concepts": [
+   "venial sin",
+   "contemplation",
+   "love of neighbor"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d21c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:48:48Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d21c4": {
+  "summary": "Explains that Paul distinguished wood, hay, and straw because those who cling with some love to things allowed to weakness, though they do not seize others' goods, suffer the fire longer or shorter as they loved more or less. Those who build gold, silver, and precious stones are safe from both fires, the eternal one and the cleansing one. To the objection that everyone sins venially, so even builders of gold would pass through fire, Lombard answers that not everyone who sins venially builds wood, hay, and straw, just as not everyone who contemplates God, loves neighbor, and does good works builds gold, silver, and stones.",
+  "claims": [
+   "Wood, hay, and straw signify degrees of attachment to temporal things.",
+   "Builders of gold, silver, and precious stones escape both fires.",
+   "Not all venial sin is building wood, hay, and straw."
+  ],
+  "concepts": [
+   "purgatorial fire",
+   "1 Corinthians 3",
+   "attachment to temporal goods",
+   "perfection"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d21c4-d1e112",
+    "pl-l4d21c4-d1e137",
+    "pl-l4d21c4-d1e149"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T12:48:48Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

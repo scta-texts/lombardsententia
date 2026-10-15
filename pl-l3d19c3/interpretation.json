@@ -1,0 +1,60 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T01:11:30Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l3d19c3-d1e114": {
+  "summary": "Asks from which penalty he redeemed us and answers: temporal and eternal. From eternal penalty by remitting the debt; from temporal penalty he will fully free us in the future, when death the last enemy is destroyed (1 Cor 15:26). We still await the redemption of the body; in soul we are already redeemed in part, not wholly: from guilt, not penalty, and not entirely from guilt, not so that it is not, but so that it does not reign.",
+  "claims": [
+   "Christ redeemed us from eternal penalty by remitting the debt.",
+   "Christ will free us fully from temporal penalty in the future.",
+   "Guilt remains in us but does not reign."
+  ],
+  "concepts": [
+   "redemption",
+   "eternal and temporal penalty",
+   "concupiscence"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d19c3",
+    "pl-l3d19c2-d1e114"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:11:30Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d19c3": {
+  "summary": "Explains from which penalty Christ redeemed us: eternal and temporal. From eternal penalty by remitting the debt; from temporal penalty he will free us fully in the future, when death the last enemy is destroyed. We still await the redemption of the body; in soul we are redeemed in part, from guilt but not penalty, and not entirely from guilt: not so that it does not exist, but so that it does not reign.",
+  "claims": [
+   "Christ redeemed us from eternal penalty by remitting the debt.",
+   "Christ will free us from temporal penalty in the future.",
+   "In this life we are redeemed from guilt so that it does not reign, not so that it does not exist."
+  ],
+  "concepts": [
+   "redemption",
+   "eternal and temporal penalty",
+   "resurrection of the body",
+   "guilt"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d19c3-d1e114"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T01:11:30Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

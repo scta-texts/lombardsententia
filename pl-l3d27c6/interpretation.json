@@ -1,0 +1,150 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T11:01:29Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l3d27c6-d1e115": {
+  "summary": "Begins the claim that the commandment is not fully fulfilled by man in (sentence continues).",
+  "claims": [],
+  "concepts": [
+   "perfection of charity"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d27c6",
+    "pl-l3d27c6-d1e118"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:01:29Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d27c6-d1e118": {
+  "summary": "Completes the claim: this mortal life, but in part, since we love in part as we know in part; in the future it will be fulfilled wholly.",
+  "claims": [
+   "The commandment of love is fulfilled in part in this life and wholly in the future."
+  ],
+  "concepts": [
+   "perfection of charity",
+   "wayfarer and homeland"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d27c6",
+    "pl-l3d27c6-d1e115"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:01:29Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d27c6-d1e128": {
+  "summary": "Quotes Augustine: while any carnal concupiscence remains, God is not loved with the whole soul; the flesh is said to desire only because the soul desires carnally. When the perfect comes, charity will not be removed but increased and completed; then man will be just without sin, with no law opposing the mind, and will love God with whole heart, soul, and mind.",
+  "claims": [
+   "Concupiscence prevents loving God wholly in this life.",
+   "In the homeland charity will be completed and the highest commandment fulfilled."
+  ],
+  "concepts": [
+   "concupiscence",
+   "perfection of charity",
+   "homeland",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d27c6"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:01:29Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d27c6-d1e156": {
+  "summary": "Asks why such perfection is commanded when no one has it in this life, and answers: one cannot run rightly without knowing where to run, and this would not be known unless shown by commandments.",
+  "claims": [
+   "Perfection is commanded to show the goal."
+  ],
+  "concepts": [
+   "commandment and capacity",
+   "goal of the race"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d27c6"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:01:29Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d27c6-d1e162": {
+  "summary": "Concludes that the commandment, though not fully fulfilled here, is fulfilled in part according to the perfection of the way: there is one perfection of the runner and another of the one who arrives. The runner who loves God before and above all keeps the commandment, though not completely.",
+  "claims": [
+   "The commandment is fulfilled here by the perfection of the way.",
+   "Loving God above all fulfills the commandment for the wayfarer."
+  ],
+  "concepts": [
+   "perfection of the way",
+   "wayfarer",
+   "love of God above all"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d27c6"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:01:29Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d27c6": {
+  "summary": "Teaches that the commandment to love God wholly is not fulfilled in this mortal life except in part, as we know in part, but will be fully fulfilled in the future. As long as carnal concupiscence remains, Augustine says, God is not loved with the whole soul; in the fullness to come charity will be increased and completed. Perfection is commanded though no one has it here, because one cannot run rightly without knowing the goal; it is fulfilled here according to the perfection of the way, the runner's perfection, not the arriver's.",
+  "claims": [
+   "The commandment to love God wholly is fulfilled only in part in this life.",
+   "It will be fully fulfilled in the homeland.",
+   "Perfection is commanded to show the goal of the race.",
+   "There is a perfection of the runner and of one who has arrived."
+  ],
+  "concepts": [
+   "perfection of charity",
+   "wayfarer and homeland",
+   "concupiscence",
+   "perfection of the way",
+   "commandment and capacity"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d27c6-d1e115",
+    "pl-l3d27c6-d1e118",
+    "pl-l3d27c6-d1e128",
+    "pl-l3d27c6-d1e156",
+    "pl-l3d27c6-d1e162"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T11:01:29Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

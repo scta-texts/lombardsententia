@@ -1,0 +1,100 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:14:24Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d18c4-d1e108": {
+  "summary": "Asks whether woman was made from the rib without addition of external matter.",
+  "claims": [],
+  "concepts": [
+   "question"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d18c4",
+    "pl-l2d18c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:14:24Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d18c4-d1e111": {
+  "summary": "Notes some did not think so; but if God had added external matter it would exceed the rib, and she would be said to be made rather from that. So her body was made from the rib's substance alone, multiplied in itself by divine power, as the five loaves fed five thousand.",
+  "claims": [
+   "Woman was made from the rib alone, multiplied."
+  ],
+  "concepts": [
+   "miracle of multiplication"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d18c4",
+    "pl-l2d18c4-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:14:24Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d18c4-d1e114": {
+  "summary": "Adds that though angels ministered in forming woman, creative power is not theirs: they can create no nature, neither forming the rib into woman nor supplying flesh in its place; they act but are not creators, as farmers are not of crops. Only God, the Trinity, is creator.",
+  "claims": [
+   "Angels cannot create.",
+   "God alone, the Trinity, creates."
+  ],
+  "concepts": [
+   "angels not creators"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d18c4",
+    "pl-l2d18c4-d1e111",
+    "pl-l2d7c8"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:14:24Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d18c4": {
+  "summary": "Asks whether woman was made from the rib without adding external matter. If God had added external matter, it would exceed the rib and she would be made more from it; so her body was made from the rib's substance alone, multiplied in itself by divine power, as the five loaves fed five thousand. Though angels ministered in forming her, creative power is not to be ascribed to them: angels can create no nature, as farmers are not creators of crops; only God, the Trinity, is creator.",
+  "claims": [
+   "Woman's body was made from the rib alone, multiplied by divine power.",
+   "The multiplication is like that of the five loaves.",
+   "Angels may have ministered, but only God creates."
+  ],
+  "concepts": [
+   "creation of woman",
+   "multiplication",
+   "angels not creators",
+   "Trinity as creator"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d18c4-d1e108",
+    "pl-l2d18c4-d1e111",
+    "pl-l2d18c4-d1e114"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:14:24Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

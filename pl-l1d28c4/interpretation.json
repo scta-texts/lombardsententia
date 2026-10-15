@@ -1,0 +1,107 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T17:45:28Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll1d28c4-d1e3501": {
+  "summary": "Notes that the Arians tried to prove that Father and Son are of different substances because one is called unbegotten and the other begotten.",
+  "claims": [
+   "The Arians inferred different substances from unbegotten and begotten."
+  ],
+  "concepts": [
+   "Arian argument"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d28c4",
+    "pll1d28c3-d1e3501"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:45:28Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d28c4-d1e3504": {
+  "summary": "Cites Ambrose: when he argued that the begotten Son cannot be unequal to the begetting Father, since generation is of nature, some changed their words to ask how unbegotten and begotten can be one substance. Ambrose replies he never found 'unbegotten' in Scripture, so they object to Catholics using unscriptural terms while using one themselves.",
+  "claims": [
+   "Generation is of nature, so the begotten is equal to the begetter.",
+   "'Unbegotten' is not a scriptural term.",
+   "The Arians contradict themselves."
+  ],
+  "concepts": [
+   "Ambrose",
+   "Arian inconsistency"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d28c4",
+    "pll1d28c4-d1e3501"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:45:28Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d28c4-d1e3530": {
+  "summary": "Draws a lesson: as Ambrose would not use 'unbegotten' because of heretics, some things safely believed by Catholics should be passed over in silence because of slanderers. They are not so authoritative that they must always be confessed, nor so wrong that one may not use them when appropriate.",
+  "claims": [
+   "Some true expressions may be omitted because of heretics.",
+   "Their use remains free when appropriate."
+  ],
+  "concepts": [
+   "prudential silence",
+   "theological language"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d28c4",
+    "pll1d28c4-d1e3504"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:45:28Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1d28c4": {
+  "summary": "Reports that the Arians argued from 'unbegotten' and 'begotten' that Father and Son are of different substances. Ambrose answered that he never found 'unbegotten' in Scripture, exposing the Arians for objecting to unscriptural terms while using one. Lombard draws a lesson: as Ambrose avoided the word because of heretics, some things that can be safely believed by Catholics should be passed over in silence because of slanderers, though one remains free to use them when opportune.",
+  "claims": [
+   "The Arians argued that unbegotten and begotten imply different substances.",
+   "Ambrose noted that 'unbegotten' is not found in Scripture.",
+   "Some true terms may be passed over in silence to avoid heretical traps.",
+   "Such terms may still be used when opportune."
+  ],
+  "concepts": [
+   "Arianism",
+   "ingenitus",
+   "scriptural language",
+   "prudential silence",
+   "Ambrose"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d28c4-d1e3501",
+    "pll1d28c4-d1e3504",
+    "pll1d28c4-d1e3530"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T17:45:28Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

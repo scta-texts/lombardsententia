@@ -1,0 +1,101 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T13:06:03Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d40c3-d1e115": {
+  "summary": "Quotes Isidore on why six degrees: when consanguinity, separating gradually through generations, reaches the last degree and ceases to be kinship, the law receives it into the bond of marriage and in a way recalls what was fleeing; kinship is set to the sixth degree so that, as the generation and state of man end in six ages of the world, kinship ends in as many degrees.",
+  "claims": [
+   "Kinship ends at the sixth degree, after which marriage restores the bond.",
+   "Six degrees match the six ages."
+  ],
+  "concepts": [
+   "six ages",
+   "number symbolism",
+   "Isidore"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d40c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:06:03Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d40c3-d1e121": {
+  "summary": "Adds that all names of kinship are contained in these six degrees, beyond which neither affinity nor succession can extend.",
+  "claims": [
+   "Kinship names and succession end at six degrees."
+  ],
+  "concepts": [
+   "degrees of kinship",
+   "succession"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d40c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:06:03Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d40c3-d1e124": {
+  "summary": "Reports that others count seven degrees so that after seven degrees groom joins bride, as after this life of seven days the Church will be joined to Christ.",
+  "claims": [
+   "Seven degrees figure the Church's union with Christ."
+  ],
+  "concepts": [
+   "number symbolism",
+   "Christ and the Church"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d40c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:06:03Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d40c3": {
+  "summary": "Isidore explains why six degrees: when consanguinity extends to the last degree and kinship ceases, the law receives it into marriage, as if recalling what was fleeing; six degrees match the six ages of the world and of man, and all kinship names are contained in them. Others count seven so that bride and groom be joined after seven degrees, as the Church will be joined to Christ after this life of seven days.",
+  "claims": [
+   "Kinship is limited to six degrees, matching the six ages.",
+   "All kinship names fall within six degrees.",
+   "Seven degrees symbolize the Church's union with Christ after this life."
+  ],
+  "concepts": [
+   "degrees of kinship",
+   "number symbolism",
+   "six ages"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d40c3-d1e115",
+    "pl-l4d40c3-d1e121",
+    "pl-l4d40c3-d1e124"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T13:06:03Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

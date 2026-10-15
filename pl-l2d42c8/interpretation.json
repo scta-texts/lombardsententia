@@ -1,0 +1,58 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T21:14:34Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d42c8-d1e105": {
+  "summary": "Resolves it: both are right if understood to include genera of individual sins, not individuals of each genus; there is no kind of sin that does not sometimes come from pride, and none that does not sometimes come from cupidity. As Augustine says, one man would not love money unless he thought it made him excellent, so desires riches to excel, and cupidity arises from pride; another would not love excellence unless he thought it brought more riches, so pride arises from cupidity. Each is rightly called the root of all evil.",
+  "claims": [
+   "Pride and cupidity each generate the other.",
+   "Each is root of all kinds of sin."
+  ],
+  "concepts": [
+   "harmonizing authorities"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d42c8",
+    "pl-l2d42c7"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:14:34Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d42c8": {
+  "summary": "Resolves the conflict: both sayings are right if they include the genera of individual sins, not every individual of each genus; no kind of sin does not sometimes come from pride, and none does not sometimes come from cupidity. Some become proud from cupidity and some greedy from pride: one loves money to excel, another loves to excel to gain wealth. So each is rightly called the root of all evil.",
+  "claims": [
+   "Pride and cupidity are each roots of every kind of sin, not of every single sin.",
+   "Cupidity sometimes arises from pride, and pride from cupidity.",
+   "Both are rightly called the root of all evil."
+  ],
+  "concepts": [
+   "pride",
+   "cupidity",
+   "root of sin",
+   "harmonizing authorities",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d42c8-d1e105"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T21:14:34Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

@@ -1,0 +1,56 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T11:10:24Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l3d39c11-d1e112": {
+  "summary": "States that by whatever verbal craft one swears, God, the witness of conscience, takes it as the one sworn to understands it. One becomes doubly guilty who takes God's name in vain and catches his neighbor by deceit.",
+  "claims": [
+   "God takes an oath in the sense the hearer understands.",
+   "Deceptive oaths are a double sin."
+  ],
+  "concepts": [
+   "equivocation",
+   "God as witness of conscience",
+   "second commandment"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d39c11"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:10:24Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d39c11": {
+  "summary": "Notes that however cleverly one words an oath, God, the witness of conscience, takes it as the one to whom it is sworn understands it. One who swears deceptively is doubly guilty: he takes God's name in vain and traps his neighbor by deceit.",
+  "claims": [
+   "God takes an oath as the person sworn to understands it.",
+   "Deceptive swearing is doubly guilty."
+  ],
+  "concepts": [
+   "equivocation",
+   "oath",
+   "God as witness of conscience"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d39c11-d1e112"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T11:10:24Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

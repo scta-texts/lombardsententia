@@ -1,0 +1,134 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T01:11:30Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l3d19c7-d1e117": {
+  "summary": "States that he is called mediator according to his humanity, not his divinity.",
+  "claims": [
+   "Christ is mediator according to his humanity."
+  ],
+  "concepts": [
+   "mediator"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d19c7",
+    "pl-l3d19c6"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:11:30Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d19c7-d1e120": {
+  "summary": "Explains that he is not mediator between God and God, since God is one, but between God and man as between two extremes, since one can only be in the middle between things. As man he is mediator; as God he is equal to the Father, one God with him. He mediates between men and God the Trinity by his human nature, in which he took what reconciles us to the Trinity, and in which he has something like God and something like men, so that he is neither far from God by being wholly like men, nor far from men by being wholly like God. He appeared mortal with men and just with God, near us by weakness, near God by justice; God-man between immortal God and mortal man, mediator insofar as man; as Word not in the middle, being one God with the Father.",
+  "claims": [
+   "There is no mediator between God and God.",
+   "Christ mediates between men and the Trinity by his human nature.",
+   "Christ is mortal with men and just with God."
+  ],
+  "concepts": [
+   "mediator",
+   "two natures",
+   "Trinity"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d19c7",
+    "pl-l3d19c7-d1e117"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:11:30Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d19c7-d1e126": {
+  "summary": "Addresses heretics: if Christ has only one nature, how is he in the middle? Unless he is God by divine nature and man by human nature, how are human things reconciled to divine in him? Coming, he first joined human things to divine in himself by uniting both natures in one person, then reconciled all the faithful to God by his death, as those who believed and loved Christ's humility and imitated it were healed from impiety.",
+  "claims": [
+   "A Christ of one nature could not be mediator.",
+   "Christ first united human and divine in his person, then reconciled the faithful."
+  ],
+  "concepts": [
+   "Monophysitism",
+   "mediator",
+   "imitation of Christ"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d19c7",
+    "pl-l3d19c7-d1e120"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:11:30Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d19c7-d1e130": {
+  "summary": "Concludes that it has been shown in part why Christ alone is called mediator, by which nature he mediates (human), and to whom (God the Trinity), to whom he reconciled us by his death, by which he also redeemed us from the devil's slavery, not with perishable gold and silver but with the precious blood of the spotless Lamb (1 Pet 1:18–19).",
+  "claims": [
+   "Christ mediates by his human nature to the Trinity.",
+   "We are redeemed by Christ's precious blood."
+  ],
+  "concepts": [
+   "mediator",
+   "redemption"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d19c7",
+    "pl-l3d19c7-d1e120",
+    "pl-l3d19c6-d1e152"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:11:30Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d19c7": {
+  "summary": "Teaches that Christ is mediator according to his humanity, not his divinity. There is no mediator between God and God, since God is one, but between God and man as extremes; as God he is equal to the Father, one God with him. He mediates between men and God the Trinity by his human nature, in which he has something like God and something like men: mortal with men, just with God. Against heretics who hold one nature, he could not be a mediator unless God by divine nature and man by human nature; he first joined human things to divine in his person, then reconciled the faithful by his death. So he mediates by his human nature to the Trinity, to which he reconciled us by his precious blood.",
+  "claims": [
+   "Christ is mediator according to his humanity, not his divinity.",
+   "Christ mediates between men and the whole Trinity.",
+   "A mediator must have something in common with both extremes.",
+   "Christ is mortal with men and just with God.",
+   "A Christ of one nature could not be mediator."
+  ],
+  "concepts": [
+   "mediator",
+   "two natures",
+   "reconciliation",
+   "Monophysitism"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d19c7-d1e117",
+    "pl-l3d19c7-d1e120",
+    "pl-l3d19c7-d1e126",
+    "pl-l3d19c7-d1e130"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T01:11:30Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

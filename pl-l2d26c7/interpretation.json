@@ -1,0 +1,87 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:35:42Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d26c7-d1e108": {
+  "summary": "Concludes that, with this distinction, Augustine's words do not conflict: before prevenient and operating grace some goods come from grace and free choice, some from free choice alone, yet they merit neither life nor justifying grace. No merits precede the grace that heals the will to fulfill the law; it makes the impious just, and to the impious punishment is due, not grace; it is freely given because we had done no good to merit it.",
+  "claims": [
+   "No merits precede justifying grace.",
+   "Goods before grace do not merit life."
+  ],
+  "concepts": [
+   "justification",
+   "merit"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d26c7",
+    "pl-l2d26c6",
+    "pl-l2d26c4-d1e132"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:35:42Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d26c7-d1e111": {
+  "summary": "Grants that many goods are done by free choice before and apart from this grace, as Augustine says against the Pelagians: men farm, build houses, and do many other goods by free choice without cooperating grace.",
+  "claims": [
+   "Free choice does natural goods without cooperating grace."
+  ],
+  "concepts": [
+   "natural goods",
+   "Pelagianism"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d26c7",
+    "pl-l2d26c7-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:35:42Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d26c7": {
+  "summary": "Concludes that with this distinction Augustine's words do not conflict: before prevenient and operating grace, which prepares the good will, some goods come from God's grace and free choice, some from free choice alone, yet by them one merits neither life nor justifying grace. No merits precede the grace that heals the will; it justifies the impious, to whose merits punishment is due, and it is freely given because we had done no good to merit it. Still, many goods are done by free choice before and apart from this grace, such as farming and building houses, as Augustine says against the Pelagians.",
+  "claims": [
+   "Rightly distinguished, Augustine's sayings do not conflict.",
+   "Some goods precede justifying grace, from grace and free choice or from free choice alone.",
+   "No goods before justifying grace merit life or that grace.",
+   "Justifying grace is freely given because no merit precedes it.",
+   "Free choice can do natural goods like farming and building without cooperating grace."
+  ],
+  "concepts": [
+   "prevenient grace",
+   "justification",
+   "merit",
+   "natural goods",
+   "free choice",
+   "Pelagianism",
+   "harmonizing authorities"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d26c7-d1e108",
+    "pl-l2d26c7-d1e111"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:35:42Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

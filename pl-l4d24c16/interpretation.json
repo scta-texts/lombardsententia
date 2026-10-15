@@ -1,0 +1,54 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T12:50:50Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d24c16-d1e112": {
+  "summary": "States that the pontiff is the chief of priests, a way for those following; he is called high priest, since he makes priests and Levites and arranges all ecclesiastical orders.",
+  "claims": [
+   "The bishop ordains priests and deacons and orders the Church."
+  ],
+  "concepts": [
+   "pontiff",
+   "ordination",
+   "bishop"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d24c16"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:50:50Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d24c16": {
+  "summary": "The pontiff is chief of priests, a way for those who follow, also called high priest: he makes priests and Levites and arranges all ecclesiastical orders.",
+  "claims": [
+   "The pontiff is chief of priests and ordains all others."
+  ],
+  "concepts": [
+   "bishop",
+   "pontiff",
+   "ordination"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d24c16-d1e112"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T12:50:50Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

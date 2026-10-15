@@ -1,0 +1,103 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T01:07:53Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l3d12c3-d1e117": {
+  "summary": "Notes that some ask, though curiously, whether God could have assumed human nature in the female sex.",
+  "claims": [],
+  "concepts": [
+   "divine power",
+   "sex of Christ"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d12c3",
+    "pl-l3d12c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:07:53Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d12c3-d1e120": {
+  "summary": "Reports that some think he could have assumed a human in the female sex as he did in the male, but it was more opportune and fitting that he be born of a woman and assume a man, so that the liberation of both sexes would be shown.",
+  "claims": [
+   "Some hold God could have assumed a woman.",
+   "Assuming a man born of a woman shows the liberation of both sexes."
+  ],
+  "concepts": [
+   "fittingness",
+   "liberation"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d12c3",
+    "pl-l3d12c3-d1e117"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:07:53Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d12c3-d1e123": {
+  "summary": "Cites Augustine, 83 Questions: man's liberation had to appear in both sexes; since it was fitting to take a man, the more honorable sex, the liberation of the female sex appeared in that man's being born of a woman. So the Wisdom of God, the only Son, showed man's liberation by assuming a man in and from the Virgin's womb.",
+  "claims": [
+   "Christ took the male sex as more honorable.",
+   "Women's liberation is shown in Christ's birth from a woman."
+  ],
+  "concepts": [
+   "fittingness",
+   "liberation",
+   "sex of Christ"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d12c3",
+    "pl-l3d12c3-d1e120"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:07:53Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d12c3": {
+  "summary": "Asks, though curiously, whether God could have assumed human nature in the female sex. Some think he could, but it was more fitting that he be born of a woman and assume a man, so that the liberation of both sexes would be shown, as Augustine explains: he took the more honorable male sex, and the female's liberation appeared in his being born of a woman.",
+  "claims": [
+   "God could perhaps have assumed the female sex.",
+   "It was more fitting to assume a man born of a woman, showing the liberation of both sexes."
+  ],
+  "concepts": [
+   "fittingness",
+   "sex of Christ",
+   "liberation",
+   "divine power"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d12c3-d1e117",
+    "pl-l3d12c3-d1e120",
+    "pl-l3d12c3-d1e123"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T01:07:53Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

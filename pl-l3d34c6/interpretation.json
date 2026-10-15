@@ -1,0 +1,133 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T11:06:24Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l3d34c6-d1e115": {
+  "summary": "Continues Augustine with two married women: one wants adultery but fears her husband will condemn her, finding his presence burdensome; the other loves her husband and desires his presence. One fears he will come, the other that he will leave; one fears condemnation, the other abandonment. The first is the fear charity casts out, tormenting a conscience not yet justified; charity enters and heals what fear wounds. The second is chaste fear, enduring forever and giving security.",
+  "claims": [
+   "Servile fear fears condemnation; chaste fear fears abandonment.",
+   "Servile fear torments; chaste fear gives security."
+  ],
+  "concepts": [
+   "two wives analogy",
+   "servile fear",
+   "chaste fear",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d34c6"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:06:24Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d34c6-d1e133": {
+  "summary": "Concludes the quotation: the two pipes, John and David, agree: one speaks of the fear by which the soul fears damnation, which charity excludes; the other of the fear by which it fears desertion, which endures forever.",
+  "claims": [
+   "The fear of damnation is excluded by charity; the fear of desertion endures."
+  ],
+  "concepts": [
+   "harmonizing Scripture",
+   "servile fear",
+   "chaste fear"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d34c6"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:06:24Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d34c6-d1e142": {
+  "summary": "Draws out that Augustine has shown plainly what chaste and servile fear are and how they differ.",
+  "claims": [],
+  "concepts": [
+   "servile fear",
+   "chaste fear"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d34c6"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:06:24Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d34c6-d1e149": {
+  "summary": "Argues that Augustine also signified initial fear, neither wholly servile nor wholly chaste but intermediate, making one serve partly from fear of penalty and partly from love of justice. It is in beginning, not perfect, charity, and as charity grows, it decreases as to fear of penalty and torment of conscience. This is the fear Augustine admits in beginning charity; it cannot be servile fear, which does not remain when charity comes, and in which one believes God but not in God and does good but not well.",
+  "claims": [
+   "Initial fear mixes fear of penalty and love of justice.",
+   "Initial fear exists in beginning charity and decreases as it grows.",
+   "Servile fear cannot coexist with any charity."
+  ],
+  "concepts": [
+   "initial fear",
+   "beginning charity",
+   "servile fear",
+   "reading authorities"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d34c6",
+    "pl-l3d34c4-d1e149",
+    "pl-l3d34c5-d1e115"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:06:24Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d34c6": {
+  "summary": "Concludes the Augustinian account of two fears with the image of two wives: one wanting adultery fears her husband will come and condemn her; the other, loving him, fears he will leave. The first fear, which torments a conscience not yet justified, charity casts out; the second, chaste fear, gives security and endures forever. Lombard draws out a third, initial fear, intermediate between servile and chaste, serving partly from fear of penalty and partly from love of justice; it is found in beginning charity, not perfect charity, and decreases as charity grows. This must be the fear Augustine admits in beginning charity, since servile fear cannot coexist with charity at all.",
+  "claims": [
+   "Servile fear fears punishment; chaste fear fears separation.",
+   "Perfect charity casts out servile fear; chaste fear endures.",
+   "Initial fear is intermediate, mixing fear of penalty and love of justice.",
+   "Initial fear exists in beginning charity and decreases as charity grows.",
+   "Servile fear does not coexist with charity at all."
+  ],
+  "concepts": [
+   "servile fear",
+   "chaste fear",
+   "initial fear",
+   "two wives analogy",
+   "beginning charity"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d34c6-d1e115",
+    "pl-l3d34c6-d1e133",
+    "pl-l3d34c6-d1e142",
+    "pl-l3d34c6-d1e149"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T11:06:24Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

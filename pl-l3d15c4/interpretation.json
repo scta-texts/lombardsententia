@@ -1,0 +1,107 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T01:07:53Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l3d15c4-d1e117": {
+  "summary": "Notes that Hilary nonetheless asserts that there was sorrow in Christ, but that its cause was not his own death but the failing of Peter and the other apostles.",
+  "claims": [
+   "Hilary affirms Christ's sorrow, caused by the apostles' failing."
+  ],
+  "concepts": [
+   "sorrow of Christ",
+   "Hilary"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d15c4",
+    "pl-l3d15c3-d1e145"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:07:53Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d15c4-d1e120": {
+  "summary": "Quotes Hilary: being sorrowful 'unto death' differs from being sorrowful 'because of death'; in the latter, death causes sorrow, in the former, death is its end, not its cause. The sorrow was so far from being because of death that it ceased with death. He was sorrowful not for himself but for those who would be scandalized through weakness of the flesh, whom he warned to pray not to enter temptation, though they had promised not to be scandalized.",
+  "claims": [
+   "Christ was sorrowful unto death, not because of death.",
+   "Christ's sorrow was for the disciples who would be scandalized."
+  ],
+  "concepts": [
+   "sorrow of Christ",
+   "Hilary"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d15c4",
+    "pl-l3d15c4-d1e117"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:07:53Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d15c4-d1e147": {
+  "summary": "Cites Hilary, De Synodis: though these kinds of suffering affect the weakness of the flesh, God the Word made flesh could not be changed by suffering; the Word, though he subjected himself to suffering, was not changed by passibility. He could suffer but could not be passible, since passibility signifies a weak nature, while passion is the enduring of what is inflicted.",
+  "claims": [
+   "The Word made flesh was not changed by suffering.",
+   "Passibility signifies a weak nature; passion is enduring what is inflicted."
+  ],
+  "concepts": [
+   "divine immutability",
+   "passibility",
+   "Hilary"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d15c4",
+    "pl-l3d15c4-d1e120"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:07:53Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d15c4": {
+  "summary": "Shows that Hilary nonetheless affirms sorrow in Christ, its cause being not his own death but the failing of Peter and the other apostles: he was sorrowful 'unto death', not 'because of death', death being the end, not the cause, of the sorrow, which was for those who would be scandalized. In De Synodis Hilary adds that the Word made flesh could not be changed by suffering: he could suffer but could not be passible, since passibility signifies a weak nature while passion is enduring what is inflicted.",
+  "claims": [
+   "Hilary affirms that Christ was sorrowful.",
+   "Christ's sorrow was caused by the apostles' weakness, not his own death.",
+   "The Word suffered without being changed.",
+   "Passion is enduring what is inflicted; passibility signifies a weak nature."
+  ],
+  "concepts": [
+   "sorrow of Christ",
+   "Hilary",
+   "passibility",
+   "divine immutability"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d15c4-d1e117",
+    "pl-l3d15c4-d1e120",
+    "pl-l3d15c4-d1e147"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T01:07:53Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

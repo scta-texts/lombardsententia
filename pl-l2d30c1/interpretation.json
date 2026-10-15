@@ -1,0 +1,56 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:39:39Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d30c1-d1e108": {
+  "summary": "States that the first man's sin and its punishment have been shown in part, not perfectly, and adds that both sin and punishment passed through him to his posterity: through one man sin entered the world, and death passed to all.",
+  "claims": [
+   "Sin and punishment passed to all descendants."
+  ],
+  "concepts": [
+   "Romans 5:12"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d30c1",
+    "pl-l2d29c6",
+    "pl-l2d22c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:39:39Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d30c1": {
+  "summary": "Transitions from the first man's sin and its punishment, treated in part, to the claim that both sin and punishment passed through him to his descendants, as Paul says: through one man sin entered the world, and death passed to all (Rom 5:12).",
+  "claims": [
+   "Lombard's account of the first sin is partial, not complete.",
+   "Sin and punishment passed from the first man to his descendants."
+  ],
+  "concepts": [
+   "transmission of sin",
+   "original sin",
+   "Romans 5:12",
+   "death"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d30c1-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:39:39Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

@@ -1,0 +1,125 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T17:47:08Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll1d31c6-d1e3501": {
+  "summary": "States that what is said of the Spirit, that he is the concord of both and that all are connected through him, is easier to understand by recalling what was said earlier.",
+  "claims": [],
+  "concepts": [
+   "concordia"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d31c6",
+    "pll1d31c2-d1e3655"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:47:08Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d31c6-d1e3504": {
+  "summary": "Recalls that, according to the authorities, the Spirit is the love by which Father and Son love each other, so he is rightly called their connection or concord, and all things are connected through him.",
+  "claims": [
+   "The Spirit is the love of Father and Son.",
+   "The Spirit is their connection and concord."
+  ],
+  "concepts": [
+   "connexio"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d31c6",
+    "pll1d31c6-d1e3501",
+    "pl-l1d10c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:47:08Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d31c6-d1e3507": {
+  "summary": "Cites De Trinitate VI: the Spirit of both is a certain consubstantial communion of Father and Son.",
+  "claims": [
+   "The Spirit is the consubstantial communion of Father and Son."
+  ],
+  "concepts": [
+   "communio"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d31c6",
+    "pll1d31c6-d1e3504"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:47:08Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d31c6-d1e3528": {
+  "summary": "Cites De Trinitate VII: the Spirit is the supreme charity joining both and subjecting us.",
+  "claims": [
+   "The Spirit is the supreme charity joining Father and Son."
+  ],
+  "concepts": [
+   "caritas"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d31c6",
+    "pll1d31c6-d1e3507"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:47:08Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1d31c6": {
+  "summary": "Explains that concord of both and the connection of all are attributed to the Spirit, which is easier to understand given what was said: the Spirit is the love by which Father and Son love each other, so he is rightly called their connection or concord, and through him all are connected. Augustine: the Spirit is a consubstantial communion of Father and Son, and the supreme charity joining both and subjecting us.",
+  "claims": [
+   "The Spirit is called the concord or connection of Father and Son.",
+   "The Spirit is the love by which Father and Son love each other.",
+   "Through the Spirit all things are connected.",
+   "The Spirit is the consubstantial communion of Father and Son.",
+   "The Spirit is the supreme charity joining both and subjecting us."
+  ],
+  "concepts": [
+   "Spirit as connexio",
+   "concordia",
+   "communio",
+   "caritas",
+   "appropriation"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d31c6-d1e3501",
+    "pll1d31c6-d1e3504",
+    "pll1d31c6-d1e3507",
+    "pll1d31c6-d1e3528"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T17:47:08Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

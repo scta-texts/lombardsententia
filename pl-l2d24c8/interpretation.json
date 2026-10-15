@@ -1,0 +1,102 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:32:08Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d24c8-d1e105": {
+  "summary": "Describes a spiritual marriage and natural contract between higher and lower reason, the higher ruling as man and the lower obeying as woman, so the man should not be veiled but the woman should. As among the animals no helper like man was found except one taken from him, so among the soul's parts shared with beasts there is no helper like our mind.",
+  "claims": [
+   "Higher reason rules lower reason as husband rules wife."
+  ],
+  "concepts": [
+   "spiritual marriage"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d24c8",
+    "pl-l2d24c7"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:32:08Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d24c8-d1e108": {
+  "summary": "Cites De Trinitate XII: what in us handles temporal things, not shared with beasts, is rational but drawn from the rational mind adhering to unchangeable truth, assigned to govern lower things; as no helper like man was found among animals except one from him, so for the mind consulting truth no helper is found among the parts shared with beasts. Reason is divided by office not to divorce but for partnership; as man and woman are one flesh, intellect and action are 'two in one mind.'",
+  "claims": [
+   "Lower reason is derived from higher reason for help.",
+   "Intellect and action are two in one mind."
+  ],
+  "concepts": [
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d24c8",
+    "pl-l2d24c8-d1e105"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:32:08Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d24c8-d1e113": {
+  "summary": "Concludes that the image of that marriage exists in the human soul, and man, woman, and serpent exist spiritually in each of us.",
+  "claims": [
+   "Man, woman, and serpent exist spiritually in each person."
+  ],
+  "concepts": [
+   "conclusion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d24c8",
+    "pl-l2d24c8-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:32:08Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d24c8": {
+  "summary": "Describes a spiritual marriage between higher and lower reason, in which the higher should rule and the lower obey. As no helper like man was found among the animals, but one taken from him, so among the soul's parts shared with beasts there is no helper like the mind. Augustine: the reason that handles temporal affairs is rational, drawn from the mind that adheres to unchangeable truth and assigned to govern lower things, not separated but derived for help; as two are one flesh, intellect and action, reason and rational appetite, are 'two in one mind.' So the image of marriage, and man, woman, and serpent, exist spiritually in each of us.",
+  "claims": [
+   "Higher and lower reason form a spiritual marriage in which the higher rules.",
+   "No helper like the mind is found among powers shared with beasts.",
+   "Lower reason derives from higher reason to help, without division.",
+   "Intellect and action are 'two in one mind,' as husband and wife are one flesh."
+  ],
+  "concepts": [
+   "spiritual marriage",
+   "ratio superior and inferior",
+   "Augustine De Trinitate XII",
+   "allegory of the fall"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d24c8-d1e105",
+    "pl-l2d24c8-d1e108",
+    "pl-l2d24c8-d1e113"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:32:08Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

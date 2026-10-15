@@ -1,0 +1,116 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T13:04:02Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d36c2-d1e115": {
+  "summary": "Asks whether there is marriage between the slave of one man and the slave of another.",
+  "claims": [],
+  "concepts": [
+   "slave marriage"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d36c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:04:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d36c2-d1e121": {
+  "summary": "Cites the ruling: some, by presumption of power, dissolve slaves' lawful marriages, ignoring 'what God has joined let no man separate'; so slaves' marriages are not to be dissolved even if they have different masters, but remaining in one marriage they serve their masters; this holds where the union was lawful and by the masters' will.",
+  "claims": [
+   "Masters may not dissolve slaves' marriages."
+  ],
+  "concepts": [
+   "slave marriage",
+   "indissolubility"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d36c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:04:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d36c2-d1e130": {
+  "summary": "Notes that the end of the chapter seems to imply that marriage between slaves cannot be contracted without the masters' will, or if contracted is not valid.",
+  "claims": [],
+  "concepts": [
+   "masters' consent",
+   "difficulty"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d36c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:04:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d36c2-d1e134": {
+  "summary": "Reports that some hold slaves can marry even without their masters' knowledge.",
+  "claims": [
+   "Some hold slaves can marry without their masters' knowledge."
+  ],
+  "concepts": [
+   "masters' consent",
+   "alternative opinion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d36c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:04:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d36c2": {
+  "summary": "Asks whether there is marriage between a slave of one master and a slave of another. A ruling forbids masters to dissolve slaves' lawful marriages, even with different masters, since what God joined man must not separate; they remain married while serving their masters, where the union was lawful and by the masters' will. This seems to imply that slaves cannot marry, or validly, without their masters' will, though some hold they can even without the masters' knowledge.",
+  "claims": [
+   "Masters may not dissolve slaves' lawful marriages.",
+   "Slaves of different masters may be married.",
+   "Whether slaves can marry without their masters' consent is disputed."
+  ],
+  "concepts": [
+   "slave marriage",
+   "indissolubility",
+   "masters' consent"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d36c2-d1e115",
+    "pl-l4d36c2-d1e121",
+    "pl-l4d36c2-d1e130",
+    "pl-l4d36c2-d1e134"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T13:04:02Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

@@ -1,0 +1,73 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:32:08Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d24c2-d1e108": {
+  "summary": "Asks what the help given at creation was, by which man could remain if he willed.",
+  "claims": [],
+  "concepts": [
+   "question"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d24c2",
+    "pl-l2d24c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:32:08Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d24c2-d1e111": {
+  "summary": "Answers: freedom of choice free of every stain and corruption, rectitude of will, and the soundness and vigor of all the soul's natural powers.",
+  "claims": [
+   "The help was free choice, upright will, and sound powers."
+  ],
+  "concepts": [
+   "original integrity"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d24c2",
+    "pl-l2d24c2-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:32:08Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d24c2": {
+  "summary": "Asks what the help given at creation was: freedom of choice untouched by any stain or corruption, rectitude of will, and the integrity and vigor of all the soul's natural powers.",
+  "claims": [
+   "The help given at creation was uncorrupted free choice, rectitude of will, and integrity of the soul's powers."
+  ],
+  "concepts": [
+   "grace of creation",
+   "free choice",
+   "original integrity"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d24c2-d1e108",
+    "pl-l2d24c2-d1e111"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:32:08Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

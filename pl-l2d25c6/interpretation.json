@@ -1,0 +1,123 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:33:35Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d25c6-d1e108": {
+  "summary": "Notes four states of free choice. Before sin nothing hindered good or impelled to evil; man had no weakness toward evil and had help toward good; reason could judge without error and will desire good without difficulty.",
+  "claims": [
+   "Before sin free choice was unhindered."
+  ],
+  "concepts": [
+   "state of innocence"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d25c6",
+    "pl-l2d25c5"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:33:35Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d25c6-d1e111": {
+  "summary": "After sin, before restoring grace, man is pressed and overcome by concupiscence, weak toward evil, without grace toward good; so he can sin and cannot not sin, even damnably.",
+  "claims": [
+   "Fallen man without grace cannot avoid mortal sin."
+  ],
+  "concepts": [
+   "fallen state"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d25c6",
+    "pl-l2d25c6-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:33:35Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d25c6-d1e117": {
+  "summary": "After restoration, before confirmation, man is pressed by concupiscence but not overcome, weak toward evil but with grace toward good; he can sin by freedom and weakness, and can avoid mortal sin by freedom and helping grace, but cannot yet wholly not sin, weakness not yet absorbed nor grace consummated.",
+  "claims": [
+   "Restored man can avoid mortal sin but not all sin."
+  ],
+  "concepts": [
+   "state of grace"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d25c6",
+    "pl-l2d25c6-d1e111"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:33:35Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d25c6-d1e124": {
+  "summary": "After confirmation, with weakness wholly consumed and grace consummated, he can be neither overcome nor pressed and will be unable to sin.",
+  "claims": [
+   "Confirmed man cannot sin."
+  ],
+  "concepts": [
+   "state of glory"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d25c6",
+    "pl-l2d25c6-d1e117"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:33:35Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d25c6": {
+  "summary": "Identifies four states of free choice: before sin, nothing hindered good or pushed to evil, reason judged without error and will desired good without difficulty; after sin before grace, man is pressed and overcome by concupiscence, weak toward evil and lacking grace for good, able to sin and unable not to sin, even damnably; after restoration before confirmation, pressed but not overcome, weak but helped by grace, able to sin and able not to sin mortally, but not yet able not to sin at all; after confirmation, weakness consumed and grace perfected, neither pressed nor overcome, unable to sin.",
+  "claims": [
+   "Before sin, nothing hindered good or impelled to evil.",
+   "After sin, before grace, man is overcome by concupiscence and cannot avoid mortal sin.",
+   "After restoration, man is pressed but not overcome and can avoid mortal sin.",
+   "After confirmation man cannot sin."
+  ],
+  "concepts": [
+   "four states of free choice",
+   "concupiscence",
+   "grace",
+   "confirmation"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d25c6-d1e108",
+    "pl-l2d25c6-d1e111",
+    "pl-l2d25c6-d1e117",
+    "pl-l2d25c6-d1e124"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:33:35Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

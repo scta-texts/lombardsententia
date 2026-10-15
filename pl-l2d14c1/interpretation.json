@@ -1,0 +1,49 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:11:27Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll2d14c1-d1e3519": {
+  "summary": "Quotes Gen 1:6–7: God made the firmament in the midst of the waters and divided the waters below it from those above.",
+  "claims": [],
+  "concepts": [
+   "Genesis 1:6–7"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d14c1",
+    "pl-l2d13c7"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:11:27Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d14c1": {
+  "summary": "Quotes the second day's work: God made the firmament in the midst of the waters and divided the waters below it from those above (Gen 1:6–7).",
+  "claims": [],
+  "concepts": [
+   "second day",
+   "firmament",
+   "Genesis 1:6–7"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll2d14c1-d1e3519"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:11:27Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

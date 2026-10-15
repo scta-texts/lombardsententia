@@ -1,0 +1,107 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T01:01:00Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l3d3c3-d1e117": {
+  "summary": "Raises a question: since Christ's flesh was liable to sin in Mary and in those from whom it was transmitted, it seems to have been subject to sin in Abraham. Why then is Levi said to have been tithed in Abraham, and not Christ, since both were materially in Abraham's loins when he gave tithes to Melchizedek?",
+  "claims": [],
+  "concepts": [
+   "seminal reason",
+   "Melchizedek",
+   "original sin"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d3c3",
+    "pl-l3d3c1-d1e120"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:01:00Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d3c3-d1e120": {
+  "summary": "Answers that the Apostle says Levi was tithed in Abraham as in a material cause: just as Abraham was shown inferior to Melchizedek by personally paying tithes, so was the Levitical order, which was in Abraham by seminal reason and descended from him through carnal concupiscence. Christ was not tithed because, though he was there according to flesh, he did not descend by the common law of carnal lust, just as all sinned in Adam but not Christ.",
+  "claims": [
+   "Christ did not descend from Abraham by carnal concupiscence.",
+   "All sinned in Adam except Christ."
+  ],
+  "concepts": [
+   "seminal reason",
+   "concupiscence",
+   "priesthood of Melchizedek"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d3c3",
+    "pl-l3d3c3-d1e117"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:01:00Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d3c3-d1e123": {
+  "summary": "Quotes Augustine, Literal Commentary on Genesis: as those in Adam's loins sinned when he sinned, so those in Abraham's loins were tithed; but this does not follow in Christ, who did not descend by concupiscence of the flesh. Levi was there by the seminal reason by which he would come to his mother through intercourse, while Christ's flesh was not there by that reason, though Mary's flesh was. He was tithed who was in Abraham's loins as one is in one's father's, born by the law of the flesh and invisible concupiscence.",
+  "claims": [
+   "Christ's flesh was not in Abraham by seminal reason.",
+   "Mary's flesh was in Abraham by seminal reason."
+  ],
+  "concepts": [
+   "seminal reason",
+   "concupiscence",
+   "Virgin Mary"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d3c3",
+    "pl-l3d3c3-d1e120"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:01:00Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d3c3": {
+  "summary": "Asks why, if Christ's flesh was liable to sin in its ancestors, Levi is said to have paid tithes in Abraham to Melchizedek (Heb 7:9–10) but Christ is not, though both were in Abraham's loins. Levi was in Abraham by seminal reason and descended through carnal concupiscence; Christ, though there by material substance, did not descend by that common law, just as all sinned in Adam but not Christ. Augustine's Literal Commentary on Genesis confirms this.",
+  "claims": [
+   "Levi was tithed in Abraham because he descended through concupiscence.",
+   "Christ was in Abraham's loins materially but not by seminal reason.",
+   "Christ did not sin in Adam."
+  ],
+  "concepts": [
+   "seminal reason",
+   "Melchizedek",
+   "concupiscence",
+   "original sin",
+   "descent of Christ"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d3c3-d1e117",
+    "pl-l3d3c3-d1e120",
+    "pl-l3d3c3-d1e123"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T01:01:00Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

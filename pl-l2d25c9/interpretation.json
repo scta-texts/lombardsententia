@@ -1,0 +1,84 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:33:35Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d25c9-d1e108": {
+  "summary": "Concludes that freedom from sin and misery is by grace, freedom from necessity by nature.",
+  "claims": [
+   "Two freedoms come by grace, one by nature."
+  ],
+  "concepts": [
+   "grace and nature"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d25c9",
+    "pl-l2d25c8"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:33:35Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d25c9-d1e111": {
+  "summary": "Shows that Paul marks both freedoms in the person of unredeemed man: 'to will is present to me, but to accomplish I do not find' means he has the freedom of nature but not of grace. The natural will cannot be raised to will good effectively or accomplish it unless freed and helped by grace, freed to will and helped to accomplish, since 'it is not of him who wills or runs but of God who shows mercy,' who works in us to will and to do. Grace is not summoned by human will or work, but precedes the will, preparing it to will good, and helps it when prepared to accomplish.",
+  "claims": [
+   "Grace frees the will to will and helps it to accomplish.",
+   "Grace precedes and prepares the will."
+  ],
+  "concepts": [
+   "prevenient grace",
+   "Romans 7:18",
+   "Philippians 2:13"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d25c9",
+    "pl-l2d25c9-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:33:35Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d25c9": {
+  "summary": "Concludes that freedom from sin and misery is by grace, freedom from necessity by nature. Paul notes both in the person of unredeemed man ('to will is present to me, but to accomplish I do not find,' Rom 7:18): he has the freedom of nature but not of grace. The natural will cannot be raised to will good effectively or accomplish it unless freed and helped by grace, freed to will and helped to accomplish; 'it is not of him who wills or runs but of God who shows mercy'; grace is not summoned by human will or work but precedes the will, preparing it to will good, and helps the prepared will to accomplish it.",
+  "claims": [
+   "Freedom from sin and misery is by grace; freedom from necessity by nature.",
+   "Unredeemed man has natural freedom but not the freedom of grace.",
+   "The will cannot effectively will or do good unless freed and helped by grace.",
+   "Grace precedes the will, preparing it, and helps it to accomplish.",
+   "Grace is not summoned by human will or works."
+  ],
+  "concepts": [
+   "grace and nature",
+   "prevenient grace",
+   "Romans 7:18",
+   "Romans 9:16",
+   "freedom of nature and of grace"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d25c9-d1e108",
+    "pl-l2d25c9-d1e111"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:33:35Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

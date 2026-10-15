@@ -1,0 +1,81 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:01:54Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll2d9c1-d1e3514": {
+  "summary": "Turns to the orders of angels, which Scripture names as nine: Angels, Archangels, Principalities, Powers, Virtues, Dominations, Thrones, Cherubim, Seraphim.",
+  "claims": [
+   "There are nine angelic orders."
+  ],
+  "concepts": [
+   "angelic orders",
+   "Hugh"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d9c1",
+    "pl-l2d8c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:01:54Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d9c1-d1e3526": {
+  "summary": "Notes that the orders form three groups of three, impressing a likeness of the Trinity, and gives Dionysius's arrangement: highest Seraphim, Cherubim, Thrones; middle Dominations, Principalities, Powers; lowest Virtues, Archangels, Angels.",
+  "claims": [
+   "The orders form three triads.",
+   "The triads reflect the Trinity."
+  ],
+  "concepts": [
+   "Dionysius",
+   "hierarchy"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d9c1",
+    "pll2d9c1-d1e3514"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:01:54Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d9c1": {
+  "summary": "Introduces the angelic orders: Scripture names nine (Angels, Archangels, Principalities, Powers, Virtues, Dominations, Thrones, Cherubim, Seraphim), arranged in three groups of three as an impressed likeness of the Trinity. Dionysius: highest Seraphim, Cherubim, Thrones; middle Dominations, Principalities, Powers; lowest Virtues, Archangels, Angels.",
+  "claims": [
+   "There are nine orders of angels.",
+   "They form three groups of three, reflecting the Trinity.",
+   "Dionysius places Seraphim, Cherubim, Thrones highest; Dominations, Principalities, Powers in the middle; Virtues, Archangels, Angels lowest."
+  ],
+  "concepts": [
+   "angelic hierarchy",
+   "nine orders",
+   "Dionysius",
+   "vestige of the Trinity"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll2d9c1-d1e3514",
+    "pll2d9c1-d1e3526"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:01:54Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

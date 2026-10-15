@@ -1,0 +1,79 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T11:01:29Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l3d27c1-d1e115": {
+  "summary": "States that though Christ did not have faith and hope, he had, as man, charity so great that none can be greater: from surpassing charity he laid down his life for friends and enemies, showing in deed the charity in his heart, to teach us by that example to love.",
+  "claims": [
+   "Christ as man had the greatest possible charity.",
+   "Christ died for friends and enemies out of charity.",
+   "Christ's deed is a form for our love."
+  ],
+  "concepts": [
+   "charity of Christ",
+   "example",
+   "love of enemies"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d27c1",
+    "pl-l3d26c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:01:29Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d27c1-d1e118": {
+  "summary": "Announces a treatment of charity and of the mode and order of loving God and neighbor.",
+  "claims": [],
+  "concepts": [
+   "charity",
+   "order of love"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d27c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:01:29Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d27c1": {
+  "summary": "Having shown that Christ lacked faith and hope, states that as man he had charity so great that none could be greater: he laid down his life for friends and enemies, and showed in deed the charity in his heart to instruct us to love. This leads into the treatment of charity and of the mode and order of loving God and neighbor.",
+  "claims": [
+   "Christ as man had the greatest possible charity.",
+   "Christ showed his charity in deed as a pattern for us."
+  ],
+  "concepts": [
+   "charity of Christ",
+   "charity",
+   "example",
+   "order of love"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d27c1-d1e115",
+    "pl-l3d27c1-d1e118"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T11:01:29Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

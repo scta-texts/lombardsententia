@@ -1,0 +1,165 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T13:04:02Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d34c5-d1e115": {
+  "summary": "Turns to the canons concerning those who sleep with two sisters, or women with two brothers.",
+  "claims": [],
+  "concepts": [
+   "affinity"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d34c5"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:04:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d34c5-d1e118": {
+  "summary": "Cites the canon: one who slept with two sisters, one of whom was his wife, may have neither, and the adulterers may never be joined in marriage.",
+  "claims": [
+   "Intercourse with the wife's sister forfeits both."
+  ],
+  "concepts": [
+   "affinity",
+   "incestuous adultery"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d34c5"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:04:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d34c5-d1e124": {
+  "summary": "Adds: he may not render the debt to his own wife, whom he made unlawful to himself by knowing her sister; nor, after his wife's death, marry the adulteress.",
+  "claims": [
+   "The guilty husband may not render the debt or marry the accomplice."
+  ],
+  "concepts": [
+   "affinity",
+   "marital debt"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d34c5"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:04:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d34c5-d1e131": {
+  "summary": "Cites Pope Zachary: you lay with your wife's sister; if so, have neither; your wife, if unaware and unwilling to be continent, may marry in the Lord whom she wishes; you and the adulteress remain without hope of marriage and do penance while you live. Lombard reads 'marry whom she wishes' as after the husband's death.",
+  "claims": [
+   "The innocent wife may remarry after the husband's death."
+  ],
+  "concepts": [
+   "remarriage",
+   "Zachary"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d34c5"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:04:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d34c5-d1e140": {
+  "summary": "Cites Gregory: those who catch their wives in adultery may not take another while both live; if the adulteress dies, the husband may marry, but the adulteress never, even after her husband's death, lamenting in penance all her days.",
+  "claims": [
+   "Spouses separated for adultery may not remarry while both live.",
+   "The adulteress may never remarry."
+  ],
+  "concepts": [
+   "adultery",
+   "remarriage",
+   "Gregory"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d34c5"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:04:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d34c5-d1e149": {
+  "summary": "Explains that this concerns adultery committed with the husband's relative or the wife's relative.",
+  "claims": [
+   "The rule concerns incestuous adultery."
+  ],
+  "concepts": [
+   "affinity",
+   "harmonizing authorities"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d34c5"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:04:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d34c5": {
+  "summary": "On those who sleep with two sisters or two brothers: a man who slept with his wife's sister may have neither, and the adulterers may never marry; he may not render the debt to his own wife, having made her unlawful to him, nor marry the adulteress after his wife's death. Zachary allows the innocent wife to remarry, understood as after the husband's death. Gregory forbids spouses separated for adultery to remarry while both live; after the adulteress's death the husband may remarry, but the adulteress never; this concerns adultery with a spouse's relative.",
+  "claims": [
+   "Intercourse with a spouse's sibling creates a lasting impediment.",
+   "The guilty may never marry the accomplice.",
+   "The innocent spouse may remarry after the guilty spouse's death."
+  ],
+  "concepts": [
+   "affinity",
+   "incestuous adultery",
+   "impediments",
+   "remarriage"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d34c5-d1e115",
+    "pl-l4d34c5-d1e118",
+    "pl-l4d34c5-d1e124",
+    "pl-l4d34c5-d1e131",
+    "pl-l4d34c5-d1e140",
+    "pl-l4d34c5-d1e149"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T13:04:02Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

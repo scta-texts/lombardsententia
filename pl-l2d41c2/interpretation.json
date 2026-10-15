@@ -1,0 +1,57 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T21:14:34Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d41c2-d1e105": {
+  "summary": "Explains that good is taken in many ways, as useful, rewardable, sign of good, appearance of good, licit, and others; only intention directed by faith is rewardable for life, but not only it is good; if a Jew or bad Christian relieves a neighbor's need led by natural piety, he does good with a good will.",
+  "claims": [
+   "Natural piety can produce good acts without merit for life."
+  ],
+  "concepts": [
+   "senses of good",
+   "natural piety"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d41c2",
+    "pl-l2d41c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:14:34Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d41c2": {
+  "summary": "Explains, on that view, that 'good' has many senses: useful, rewardable, sign of good, appearance of good, licit, and perhaps others. Only intention directed by faith is rewardable for life, but not only it is good: a Jew or bad Christian who relieves a neighbor's need from natural piety does good, with a good will.",
+  "claims": [
+   "'Good' is said in many ways: useful, rewardable, sign of good, appearance of good, licit.",
+   "Only intention directed by faith is rewardable for eternal life.",
+   "Acts from natural piety without faith can be good."
+  ],
+  "concepts": [
+   "senses of good",
+   "merit",
+   "natural piety",
+   "works of unbelievers"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d41c2-d1e105"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T21:14:34Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

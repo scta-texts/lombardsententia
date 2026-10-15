@@ -1,0 +1,128 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T11:52:39Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d7c3-d1e115": {
+  "summary": "States that the power of this sacrament is the giving of the Holy Spirit for strength, who was given in baptism for remission.",
+  "claims": [
+   "Confirmation gives the Spirit for strength; baptism for remission."
+  ],
+  "concepts": [
+   "confirmation",
+   "gift of the Spirit",
+   "strengthening"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d7c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:52:39Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d7c3-d1e118": {
+  "summary": "Quotes Rabanus: by the high priest's laying on of hands the Paraclete is given to the baptized, so that he is strengthened by the Spirit to preach to others what he obtained in baptism.",
+  "claims": [
+   "Confirmation strengthens the baptized to preach."
+  ],
+  "concepts": [
+   "laying on of hands",
+   "strengthening",
+   "Rabanus"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d7c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:52:39Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d7c3-d1e124": {
+  "summary": "Adds: all the faithful should receive the Holy Spirit through the bishops' laying on of hands after baptism, so as to be found full Christians.",
+  "claims": [
+   "All the faithful should be confirmed."
+  ],
+  "concepts": [
+   "full Christian",
+   "bishop"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d7c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:52:39Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d7c3-d1e131": {
+  "summary": "Quotes Gregory to Bishop Januarius: some were scandalized that we forbade priests to anoint the baptized, which we did according to our church's old usage; if some are saddened, we allow priests to anoint the baptized on the forehead where bishops are lacking. Lombard notes this is thought a one-time concession to quiet scandal.",
+  "claims": [
+   "Gregory allowed priests to confirm where bishops were lacking.",
+   "This is regarded as a one-time concession."
+  ],
+  "concepts": [
+   "minister of confirmation",
+   "Gregory",
+   "dispensation"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d7c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:52:39Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d7c3": {
+  "summary": "The power of confirmation is the giving of the Holy Spirit for strength, as he was given in baptism for remission. Rabanus: the Paraclete is given by the bishop's laying on of hands, so that the baptized is strengthened to preach to others what he received; all the faithful should receive the Spirit this way to be full Christians. Gregory once allowed priests to anoint foreheads where bishops were lacking, to quiet scandal, but this is thought a one-time concession.",
+  "claims": [
+   "Confirmation gives the Spirit for strength, as baptism gives him for remission.",
+   "Confirmation strengthens the baptized to preach the faith.",
+   "All the faithful should be confirmed to be full Christians.",
+   "Gregory's allowance for priests was a one-time concession."
+  ],
+  "concepts": [
+   "confirmation",
+   "gift of the Spirit",
+   "strengthening",
+   "full Christian",
+   "Gregory"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d7c3-d1e115",
+    "pl-l4d7c3-d1e118",
+    "pl-l4d7c3-d1e124",
+    "pl-l4d7c3-d1e131"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T11:52:39Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

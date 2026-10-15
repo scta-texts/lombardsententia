@@ -1,0 +1,58 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T12:53:50Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d26c4-d1e112": {
+  "summary": "Distinguishes three senses of indulgence: concession, remission, permission. In the New Testament there is permission of lesser goods and lesser evils: of lesser goods, marriage, which earns no palm but is a remedy; of lesser evils, that is venial, intercourse for incontinence. Marriage is conceded; such intercourse is permitted, that is tolerated, so that it is not forbidden.",
+  "claims": [
+   "Marriage is a conceded lesser good.",
+   "Intercourse from incontinence is a tolerated venial sin."
+  ],
+  "concepts": [
+   "indulgence",
+   "venial sin",
+   "marriage as remedy"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d26c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:53:50Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d26c4": {
+  "summary": "Distinguishes senses of indulgence: concession, remission, permission. In the New Testament there is permission of lesser goods and lesser evils: marriage, a lesser good meriting no palm but serving as remedy, is granted; intercourse for incontinence, a lesser, venial evil, is permitted, that is, tolerated and not forbidden.",
+  "claims": [
+   "Indulgence means concession, remission, or permission.",
+   "Marriage is a lesser good conceded.",
+   "Intercourse from incontinence is a venial evil tolerated."
+  ],
+  "concepts": [
+   "precept and indulgence",
+   "marriage as remedy",
+   "venial sin",
+   "concupiscence"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d26c4-d1e112"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T12:53:50Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

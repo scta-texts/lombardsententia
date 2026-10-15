@@ -1,0 +1,78 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T11:01:29Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l3d26c2-d1e115": {
+  "summary": "States that hope, like faith, is of things unseen.",
+  "claims": [
+   "Hope concerns unseen things, as faith does."
+  ],
+  "concepts": [
+   "hope",
+   "faith",
+   "the unseen"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d26c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:01:29Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d26c2-d1e118": {
+  "summary": "Quotes Augustine: faith is of things not seen, and 'hope that is seen is not hope'; not seeing is common to faith and hope.",
+  "claims": [
+   "Not seeing their object is common to faith and hope."
+  ],
+  "concepts": [
+   "hope",
+   "faith",
+   "the unseen",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d26c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:01:29Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d26c2": {
+  "summary": "Notes that hope, like faith, concerns things unseen, as Augustine teaches from Hebrews and Romans: not seeing what is believed or hoped for is common to faith and hope.",
+  "claims": [
+   "Hope, like faith, concerns unseen things."
+  ],
+  "concepts": [
+   "hope",
+   "faith",
+   "the unseen"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d26c2-d1e115",
+    "pl-l3d26c2-d1e118"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T11:01:29Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

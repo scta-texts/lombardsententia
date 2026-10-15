@@ -1,0 +1,142 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T11:01:29Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l3d26c3-d1e115": {
+  "summary": "Announces that faith is distinguished from hope by a rational difference as well as in name.",
+  "claims": [],
+  "concepts": [
+   "faith",
+   "hope",
+   "distinction of virtues"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d26c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:01:29Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d26c3-d1e118": {
+  "summary": "First difference: faith concerns bad things as well as good, since both are believed, and this by good faith, not bad.",
+  "claims": [
+   "Faith extends to bad things as well as good."
+  ],
+  "concepts": [
+   "faith",
+   "object of a virtue"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d26c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:01:29Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d26c3-d1e121": {
+  "summary": "Second difference: faith concerns past, present, and future: we believe Christ's death, past; his sitting at the right hand, present; his coming to judge, future.",
+  "claims": [
+   "Faith extends to past, present, and future."
+  ],
+  "concepts": [
+   "faith",
+   "time"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d26c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:01:29Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d26c3-d1e125": {
+  "summary": "Third difference: faith concerns one's own matters and others': each believes that he exists and began to be, and believes many things about other men and about angels.",
+  "claims": [
+   "Faith extends to one's own matters and to others'."
+  ],
+  "concepts": [
+   "faith",
+   "object of a virtue"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d26c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:01:29Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d26c3-d1e128": {
+  "summary": "States the contrast: hope is only of good things, only future ones, and only those pertaining to the one who hopes.",
+  "claims": [
+   "Hope is only of future goods pertaining to the one who hopes."
+  ],
+  "concepts": [
+   "hope",
+   "object of a virtue"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d26c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:01:29Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d26c3": {
+  "summary": "Distinguishes faith from hope by a rational difference as well as by name, following Augustine. Faith is of bad things as well as good, of past, present, and future, and of one's own affairs and others'. Hope is only of good things, only future ones, and only those that pertain to the one who hopes.",
+  "claims": [
+   "Faith concerns good and bad, past, present and future, one's own and others'.",
+   "Hope concerns only future goods pertaining to the one who hopes."
+  ],
+  "concepts": [
+   "faith",
+   "hope",
+   "object of a virtue",
+   "distinction of virtues"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d26c3-d1e115",
+    "pl-l3d26c3-d1e118",
+    "pl-l3d26c3-d1e121",
+    "pl-l3d26c3-d1e125",
+    "pl-l3d26c3-d1e128"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T11:01:29Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

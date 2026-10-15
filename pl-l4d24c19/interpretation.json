@@ -1,0 +1,101 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T12:50:50Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d24c19-d1e115": {
+  "summary": "Defines the cantor as one who modulates his voice in song, of two kinds: the precentor, who leads, and the succentor, who responds; a concentor sings in harmony, and one who does not is no concentor.",
+  "claims": [
+   "Cantors are precentors or succentors."
+  ],
+  "concepts": [
+   "cantor",
+   "etymology"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d24c19"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:50:50Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d24c19-d1e118": {
+  "summary": "Admonishes Christ's ministers, these things briefly treated, that as they excel in dignity of order they should excel in holiness of life, so the people entrusted to them may gladly obey and daily advance by imitating those from whom they receive the sacraments and hear Mass.",
+  "claims": [
+   "Ministers must excel in holiness as in dignity."
+  ],
+  "concepts": [
+   "holiness of ministers",
+   "example"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d24c19"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:50:50Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d24c19-d1e124": {
+  "summary": "Explains that it is called Mass either because the victim is sent, whose commemoration is made, hence 'Ite, missa est', follow the victim sent to heaven; or because a heavenly messenger comes to consecrate the Lord's body and carries the victim to the heavenly altar.",
+  "claims": [
+   "'Mass' is named from the sending of the victim or of an angel."
+  ],
+  "concepts": [
+   "Mass",
+   "etymology",
+   "angel at the altar"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d24c19",
+    "pl-l4d13c1-d1e143"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:50:50Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d24c19": {
+  "summary": "Defines the cantor, who modulates his voice in song, precentor or succentor, and concentor if in harmony. Having briefly treated these, Lombard urges Christ's ministers to excel in holiness of life as in dignity of order, so their people may gladly obey and imitate them. 'Mass' is named either because the victim is sent, 'Ite, missa est', follow the victim sent to heaven, or because a heavenly messenger comes to consecrate the Lord's body and carry it to the heavenly altar.",
+  "claims": [
+   "Ministers must excel in holiness as in dignity.",
+   "'Mass' is named from the sending of the victim or of the heavenly messenger."
+  ],
+  "concepts": [
+   "cantor",
+   "holiness of ministers",
+   "Mass",
+   "etymology"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d24c19-d1e115",
+    "pl-l4d24c19-d1e118",
+    "pl-l4d24c19-d1e124"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T12:50:50Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

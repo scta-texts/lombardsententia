@@ -1,0 +1,143 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T13:01:54Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d31c4-d1e115": {
+  "summary": "Asks when those who procure abortion are judged murderers.",
+  "claims": [],
+  "concepts": [
+   "abortion",
+   "homicide"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d31c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:01:54Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d31c4-d1e118": {
+  "summary": "Answers with Augustine on Exodus that the fetus pertains to homicide when it is formed and has a soul; the law did not want the unformed fetus, without a living soul, to count as homicide.",
+  "claims": [
+   "Abortion of an unformed fetus is not homicide."
+  ],
+  "concepts": [
+   "ensoulment",
+   "Augustine",
+   "Exodus 21"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d31c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:01:54Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d31c4-d1e130": {
+  "summary": "Adds Augustine: the unformed fetus has no soul, so it is punished by a fine, not life for life; the soul is given to the already formed body, not born with the seed, for otherwise many souls would perish daily when seed comes to nothing; the house must be built before the inhabitant enters.",
+  "claims": [
+   "The soul is infused into the formed body.",
+   "The soul is not transmitted with the seed."
+  ],
+  "concepts": [
+   "creation of souls",
+   "ensoulment"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d31c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:01:54Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d31c4-d1e140": {
+  "summary": "Cites Jerome: seeds are gradually formed in the womb, and it is not counted homicide until the elements take shape and members.",
+  "claims": [
+   "It is homicide once the fetus has form and members."
+  ],
+  "concepts": [
+   "ensoulment",
+   "Jerome"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d31c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:01:54Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d31c4-d1e149": {
+  "summary": "Concludes that those who procure abortion are murderers when the fetus is formed and ensouled.",
+  "claims": [
+   "Abortion of a formed fetus is homicide."
+  ],
+  "concepts": [
+   "abortion",
+   "homicide"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d31c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:01:54Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d31c4": {
+  "summary": "Asks when those who procure abortion are judged murderers. Augustine on Exodus: the unformed fetus without a living soul is not counted homicide, the law fining rather than exacting life for life; the soul is given to the formed body, not derived with the seed, else many souls would perish daily. Jerome: it is not homicide until the elements take shape and members. So procuring abortion is homicide when the fetus is formed and ensouled.",
+  "claims": [
+   "Abortion is homicide once the fetus is formed and ensouled.",
+   "The soul is infused into the formed body, not transmitted with the seed."
+  ],
+  "concepts": [
+   "abortion",
+   "homicide",
+   "ensoulment",
+   "creation of souls"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d31c4-d1e115",
+    "pl-l4d31c4-d1e118",
+    "pl-l4d31c4-d1e130",
+    "pl-l4d31c4-d1e140",
+    "pl-l4d31c4-d1e149"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T13:01:54Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

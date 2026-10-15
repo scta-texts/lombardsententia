@@ -1,0 +1,149 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T18:45:54Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll1d48c2-d1e3519": {
+  "summary": "Notes that God's good will is sometimes fulfilled through man's evil will, as in Christ's crucifixion: God willed his death by good will, the Jews crucified him by impious will. They willed what God willed, that Christ suffer and die, and also what he did not will, to kill him, which was sin. God willed the passion, not the Jews' act, nor did he nill it, or it would not have occurred.",
+  "claims": [
+   "God willed Christ's passion, not the Jews' sin.",
+   "God neither willed nor nilled the Jews' act."
+  ],
+  "concepts": [
+   "passion of Christ",
+   "non velle"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d48c2",
+    "pl-l1d48c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:45:54Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d48c2-d1e3544": {
+  "summary": "Objection: if God willed Christ to suffer, either he willed him to suffer from the Jews or not; if not, what God willed not to happen happened; if so, he willed the Jews to kill him.",
+  "claims": [],
+  "concepts": [
+   "dilemma"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d48c2",
+    "pll1d48c2-d1e3519"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:45:54Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d48c2-d1e3547": {
+  "summary": "Answers that God simply willed Christ to suffer and die, since his passion was good and the cause of our salvation. 'He willed him to suffer from the Jews' is true if meaning to undergo the passion inflicted by them, false if meaning he willed the Jews to kill him; God willed the good passion, not the evil act, and this will was fulfilled through their evil wills.",
+  "claims": [
+   "God willed Christ's passion as good.",
+   "God did not will the Jews' act of killing."
+  ],
+  "concepts": [
+   "distinction of senses"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d48c2",
+    "pll1d48c2-d1e3544"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:45:54Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d48c2-d1e3551": {
+  "summary": "Cites the Enchiridion: God fulfills some good wills through evil wills, as Christ was killed for us by malevolent Jews by the Father's good will; this was so good that Peter, not wanting it, was called Satan.",
+  "claims": [
+   "God fulfills good wills through evil ones.",
+   "Christ's death was so good that Peter was rebuked for opposing it."
+  ],
+  "concepts": [
+   "Augustine Enchiridion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d48c2",
+    "pll1d48c2-d1e3547"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:45:54Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d48c2-d1e3572": {
+  "summary": "Concludes that Christ's being killed was a great good, and Peter was rebuked for not willing it.",
+  "claims": [
+   "Christ's death was a great good."
+  ],
+  "concepts": [
+   "conclusion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d48c2",
+    "pll1d48c2-d1e3551"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:45:54Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1d48c2": {
+  "summary": "Notes that God's good will is sometimes fulfilled through man's evil will, as in Christ's crucifixion: God willed Christ to die by good will, the Jews crucified him by impious will. They willed something God willed (Christ's suffering) and something he did not (killing him, which was sin). God willed Christ's passion, not the Jews' act, nor did he nill it, or it would not have happened. To the objection that if God willed Christ to suffer he willed him to suffer from the Jews, Lombard distinguishes: true if meaning he willed Christ to undergo the passion inflicted by them, false if meaning he willed the Jews to kill him. With Augustine, God fulfills some good wills through evil wills, and Christ's death was so good that Peter, opposing it, was called Satan.",
+  "claims": [
+   "God's good will is sometimes fulfilled through human evil will.",
+   "God willed Christ's passion but not the Jews' act of killing.",
+   "God did not nill the Jews' act, or it would not have happened.",
+   "'God willed Christ to suffer from the Jews' is true of the passion, false of the act.",
+   "Christ's death was a great good, cause of our salvation."
+  ],
+  "concepts": [
+   "passion of Christ",
+   "good will through evil will",
+   "distinction of senses",
+   "Peter rebuked",
+   "providence"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d48c2-d1e3519",
+    "pll1d48c2-d1e3544",
+    "pll1d48c2-d1e3547",
+    "pll1d48c2-d1e3551",
+    "pll1d48c2-d1e3572"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T18:45:54Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

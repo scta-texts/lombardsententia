@@ -1,0 +1,147 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T21:12:25Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d36c1-d1e108": {
+  "summary": "States that some sins are such that they are also punishments of sins.",
+  "claims": [
+   "Some sins are punishments."
+  ],
+  "concepts": [
+   "sin as punishment of sin"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d36c1",
+    "pl-l2d35c6"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:12:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d36c1-d1e111": {
+  "summary": "Cites Augustine on Ps 57, 'fire fell on them and they saw not the sun': the fire of pride, concupiscence, and anger; few see these punishments, so Paul in Romans lists many things that are sins and punishments; between the first sin of apostasy and the last punishment of eternal fire, the middle things are both.",
+  "claims": [
+   "Intermediate sins are both sins and punishments."
+  ],
+  "concepts": [
+   "Augustine Enarrationes",
+   "Psalm 57:9"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d36c1",
+    "pl-l2d36c1-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:12:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d36c1-d1e116": {
+  "summary": "Cites Gregory on Ezekiel: God places a stumbling block before the contemptuous impenitent, where he strikes harder; sin not soon removed by penance is either sin and cause of sin, or sin and punishment of sin, or both at once.",
+  "claims": [
+   "Unrepented sin breeds further sin."
+  ],
+  "concepts": [
+   "Gregory the Great",
+   "impenitence"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d36c1",
+    "pl-l2d36c1-d1e111"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:12:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d36c1-d1e120": {
+  "summary": "Adds scriptural texts: the Amorites' sins not yet complete (Gen 15:16); 'add iniquity upon their iniquity' (Ps 68:28); 'blood touched blood,' sin added to sin (Hos 4:2); God handed them over to shameful passions (Rom 1:26); 'to fill up their sins always' (1 Thess 2:16); 'let the filthy be filthier still' (Rev 22:11).",
+  "claims": [
+   "Scripture shows sin added to sin."
+  ],
+  "concepts": [
+   "Genesis 15:16",
+   "Romans 1:26",
+   "Revelation 22:11"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d36c1",
+    "pl-l2d36c1-d1e116"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:12:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d36c1-d1e123": {
+  "summary": "Concludes from these testimonies that some sin is both sin and punishment of sin.",
+  "claims": [],
+  "concepts": [
+   "conclusion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d36c1",
+    "pl-l2d36c1-d1e120"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:12:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d36c1": {
+  "summary": "Notes that some sins are also punishments of sins. Augustine on Ps 57: the fire of pride, concupiscence, and anger is a punishment few see; Paul in Romans lists many things that are both sins and punishments; between the first sin of apostasy and the final punishment of eternal fire, the middle things are both. Gregory: God sets a stumbling block for the impenitent; sin not soon removed by penance is sin and cause of sin, or sin and punishment of sin, or both. Scripture confirms it: the Amorites' sins not yet complete, 'add iniquity to their iniquity,' 'blood touched blood,' God handed them over to shameful passions, 'let the filthy be filthier still.'",
+  "claims": [
+   "Some sins are also punishments of sins.",
+   "Between apostasy and eternal fire, intermediate sins are both sins and punishments.",
+   "Sin not removed by penance becomes the cause or punishment of further sin."
+  ],
+  "concepts": [
+   "sin as punishment of sin",
+   "impenitence",
+   "Romans 1:26",
+   "Gregory Moralia",
+   "Augustine Enarrationes"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d36c1-d1e108",
+    "pl-l2d36c1-d1e111",
+    "pl-l2d36c1-d1e116",
+    "pl-l2d36c1-d1e120",
+    "pl-l2d36c1-d1e123"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T21:12:25Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

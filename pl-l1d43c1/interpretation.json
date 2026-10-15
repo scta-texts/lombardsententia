@@ -1,0 +1,629 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T18:42:25Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll1d43c1-d1e3504": {
+  "summary": "Reports those who, glorying in their own sense, limit God's infinite power, saying God cannot do other than he does, better than he does, or omit what he does. They argue that God can do only what is good and just, and only what he does is good and just for him to do; otherwise he would not do all that is good and just.",
+  "claims": [
+   "Some hold God cannot do other than he does."
+  ],
+  "concepts": [
+   "opposing view",
+   "limits of power"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d43c1",
+    "pl-l1d42c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:42:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d43c1-d1e3518": {
+  "summary": "Adds their argument that God can do only what his justice exacts, which exacts only what he does and that he omit what he omits, so he can do only what he does.",
+  "claims": [],
+  "concepts": [
+   "argument from justice"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d43c1",
+    "pll1d43c1-d1e3504"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:42:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d43c1-d1e3521": {
+  "summary": "Answers by distinguishing: 'God can do only what is good and just' is true if meaning only what would be good and just if done; but he can do many things that are not good or just because they never are or will be.",
+  "claims": [
+   "God can do only what would be good if done.",
+   "God can do much that never will be done."
+  ],
+  "concepts": [
+   "distinction of senses"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d43c1",
+    "pll1d43c1-d1e3504"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:42:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d43c1-d1e3525": {
+  "summary": "Answers the argument from justice: 'exact' is not properly said of God, and the statements have a double sense.",
+  "claims": [
+   "'Exact' is not properly said of God."
+  ],
+  "concepts": [
+   "improper predication"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d43c1",
+    "pll1d43c1-d1e3518"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:42:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d43c1-d1e3528": {
+  "summary": "If 'he can do only what his justice exacts' means only what his just will wills, it is false. God's justice is his most just will, as Augustine reads Gen 19:22 ('I cannot do anything until you enter there'): he could by power but not by justice, that is, he did not will.",
+  "claims": [
+   "God's justice is his just will.",
+   "God could do by power what he did not will."
+  ],
+  "concepts": [
+   "Augustine on Genesis 19:22",
+   "power vs justice"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d43c1",
+    "pll1d43c1-d1e3525"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:42:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d43c1-d1e3558": {
+  "summary": "If it means he can do only what, if done, would befit his justice, it is true. Likewise 'he cannot do what his justice exacts that he not do' is false of what the supremely just does not will, true of what cannot befit his justice.",
+  "claims": [
+   "The statements are true of what befits justice, false of what God wills."
+  ],
+  "concepts": [
+   "distinction of senses"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d43c1",
+    "pll1d43c1-d1e3528"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:42:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d43c1-d1e3563": {
+  "summary": "Adds their argument: God can do only what he ought; he ought to do only what he does; so he can do only what he does.",
+  "claims": [],
+  "concepts": [
+   "argument from debt"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d43c1",
+    "pll1d43c1-d1e3558"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:42:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d43c1-d1e3568": {
+  "summary": "Adds: either he ought to omit what he omits or not; if not, he omits wrongly; if so, he ought not do it, and so cannot; and he cannot omit what he ought to do.",
+  "claims": [],
+  "concepts": [
+   "argument from debt"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d43c1",
+    "pll1d43c1-d1e3563"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:42:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d43c1-d1e3571": {
+  "summary": "Says the word 'ought' has poison: it has an involved meaning and does not properly fit God, who is debtor to us only by promise, while we are debtors by sin. 'God can do only what he ought' is false if meaning what he wills, true if meaning what would befit him if done.",
+  "claims": [
+   "'Ought' does not properly apply to God.",
+   "God is debtor only by promise."
+  ],
+  "concepts": [
+   "debitum",
+   "promise"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d43c1",
+    "pll1d43c1-d1e3568"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:42:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d43c1-d1e3575": {
+  "summary": "Adds their argument: God does and omits nothing except for the best reason, which is eternal and abiding; while it remains, he cannot do otherwise; so he can do only what he does.",
+  "claims": [],
+  "concepts": [
+   "argument from eternal reason"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d43c1",
+    "pll1d43c1-d1e3571"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:42:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d43c1-d1e3580": {
+  "summary": "Answers that God has the best reason, his most just will, against or apart from which he cannot act; yet, the same reason remaining, he could have done other things and omitted these, without acting against it.",
+  "claims": [
+   "God could do otherwise under the same eternal reason."
+  ],
+  "concepts": [
+   "reason and will"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d43c1",
+    "pll1d43c1-d1e3575"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:42:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d43c1-d1e3583": {
+  "summary": "Distinguishes 'he can do only what it is reasonable for him to do': true if meaning only rational things, which would be rational if done; false if meaning he cannot do other rational and good things than those he wills and does.",
+  "claims": [
+   "God can do other good and rational things than those he does."
+  ],
+  "concepts": [
+   "distinction of senses"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d43c1",
+    "pll1d43c1-d1e3580"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:42:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d43c1-d1e3586": {
+  "summary": "Adds their argument from foreknowledge: if God can do other than he does, he can do what he did not foreknow; but nothing can happen apart from his foreknowledge, so all foreknown happens necessarily and nothing else can.",
+  "claims": [],
+  "concepts": [
+   "argument from foreknowledge"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d43c1",
+    "pll1d43c1-d1e3583"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:42:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d43c1-d1e3589": {
+  "summary": "Says this is easily resolved by what was said about foreknowledge.",
+  "claims": [
+   "The foreknowledge argument is answered by the earlier distinctions."
+  ],
+  "concepts": [
+   "cross-reference"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d43c1",
+    "pll1d38c2-d1e3511"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:42:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d43c1-d1e3593": {
+  "summary": "Notes that these searchers, who failed in their searching (Ps 63:7), add testimonies of the saints.",
+  "claims": [],
+  "concepts": [
+   "transition"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d43c1",
+    "pll1d43c1-d1e3589"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:42:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d43c1-d1e3607": {
+  "summary": "Reports their authority from Augustine on the Creed: 'God cannot only what he does not will,' implying he can do only what he wills, and so only what he does.",
+  "claims": [],
+  "concepts": [
+   "authority adduced"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d43c1",
+    "pll1d43c1-d1e3593"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:42:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d43c1-d1e3627": {
+  "summary": "Interprets: the only thing God cannot do is what he does not will himself to be able to do.",
+  "claims": [
+   "God cannot only what he does not will to be able."
+  ],
+  "concepts": [
+   "interpretation"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d43c1",
+    "pll1d43c1-d1e3607"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:42:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d43c1-d1e3630": {
+  "summary": "Reports another authority, Confessions VII: God is not compelled unwillingly, since his will is not greater than his power, which would be so only if he were greater than himself.",
+  "claims": [],
+  "concepts": [
+   "authority adduced"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d43c1",
+    "pll1d43c1-d1e3627"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:42:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d43c1-d1e3645": {
+  "summary": "Their inference: as will is not greater than power, power is not greater than will, so God cannot do more than he wills.",
+  "claims": [],
+  "concepts": [
+   "inference"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d43c1",
+    "pll1d43c1-d1e3630"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:42:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d43c1-d1e3649": {
+  "summary": "Answers: neither is greater than the other, since power and will are one and the same thing, God himself. This does not deny that God can do more than he wills, since more things are subject to his power than to his will. So God can do much he does not will and omit what he does.",
+  "claims": [
+   "God's power and will are one.",
+   "More things are subject to God's power than to his will."
+  ],
+  "concepts": [
+   "power and will",
+   "simplicity"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d43c1",
+    "pll1d43c1-d1e3645"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:42:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d43c1-d1e3652": {
+  "summary": "Proposes to confirm from Scripture that God can do more than he does.",
+  "claims": [],
+  "concepts": [
+   "transition"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d43c1",
+    "pll1d43c1-d1e3649"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:42:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d43c1-d1e3655": {
+  "summary": "Cites Matt 26:53: the Son could ask the Father for twelve legions of angels, and the Father could give them; both could do what they did not.",
+  "claims": [
+   "God could do what he did not do."
+  ],
+  "concepts": [
+   "Matthew 26:53"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d43c1",
+    "pll1d43c1-d1e3652"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:42:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d43c1-d1e3670": {
+  "summary": "Cites the Enchiridion: the omnipotent will can do much it neither wills nor does, such as sending twelve legions against Christ's captors.",
+  "claims": [
+   "God can do much he neither wills nor does."
+  ],
+  "concepts": [
+   "Augustine Enchiridion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d43c1",
+    "pll1d43c1-d1e3655"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:42:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d43c1-d1e3688": {
+  "summary": "Further Enchiridion: why miracles were not done among those who would have repented, but among unbelievers, will be revealed hereafter; God did not unjustly not will their salvation, though they could have been saved had he willed. His will can do much it does not will, but wills nothing it cannot do.",
+  "claims": [
+   "God could have saved those he did not save.",
+   "God's will can do much it does not will.",
+   "God's judgments will be made clear hereafter."
+  ],
+  "concepts": [
+   "Matthew 11:21",
+   "hidden justice"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d43c1",
+    "pll1d43c1-d1e3670"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:42:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d43c1-d1e3711": {
+  "summary": "Cites De natura et gratia: the Lord raised Lazarus in body; could he not raise Judas in mind? He could, but did not will.",
+  "claims": [
+   "God could have converted Judas but did not will to."
+  ],
+  "concepts": [
+   "Augustine",
+   "grace"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d43c1",
+    "pll1d43c1-d1e3688"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:42:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d43c1-d1e3732": {
+  "summary": "Concludes that these and many authorities teach that God can do much he does not will.",
+  "claims": [
+   "God can do much he does not will."
+  ],
+  "concepts": [
+   "conclusion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d43c1",
+    "pll1d43c1-d1e3711"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:42:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d43c1-d1e3735": {
+  "summary": "Proves it by reason: God does not will to justify all, yet can. So he can do other than he does, without becoming other; he can will other than he wills, yet his will cannot be other, new, or mutable. He can will what he never willed, not newly but eternally, having the power from eternity and now to will what he neither wills nor willed.",
+  "claims": [
+   "God can justify all, though he does not will to.",
+   "God can will other than he wills without a new or changed will."
+  ],
+  "concepts": [
+   "immutability of will",
+   "modal power"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d43c1",
+    "pll1d43c1-d1e3732",
+    "pll1d39c2-d1e3504"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:42:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1d43c1": {
+  "summary": "Refutes those who limit God's power, holding that he cannot do other than he does, better than he does, or omit what he does. Their arguments, each answered by distinguishing senses: God can do only what is good and just (true of what would be just if done; but he can do much that never will be); only what his justice 'exacts' ('exacts' is improper of God; false if meaning what his just will wills, true if meaning what would befit his justice); only what he 'ought' ('ought' has poison, since God is debtor only by promise; false if meaning what he wills, true if meaning what would befit him); only what his eternal reason prescribes (he could do otherwise by the same reason); only what he foreknew (answered by the treatment of foreknowledge). Their authorities, 'God cannot only what he does not will' and 'his will is not greater than his power,' are read as meaning that will and power are one, not that power extends no further than will. Scripture (twelve legions, Matt 26:53) and Augustine show God can do much he does not will, as justify all or raise Judas in mind. God can will what he never willed, but not newly.",
+  "claims": [
+   "God can do other than he does and can omit what he does.",
+   "God can do only what would be just and good if done, but much that never will be done.",
+   "'Exacts' and 'ought' are not properly said of God; God is debtor only by promise.",
+   "God could do otherwise by the same eternal reason.",
+   "God's will and power are one; neither is greater than the other.",
+   "More things are subject to God's power than to his will.",
+   "God can will what he never willed, but not by a new will."
+  ],
+  "concepts": [
+   "omnipotence",
+   "limits on divine power rejected",
+   "power and will",
+   "debitum",
+   "distinction of senses",
+   "necessitarianism rejected"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d43c1-d1e3504",
+    "pll1d43c1-d1e3518",
+    "pll1d43c1-d1e3521",
+    "pll1d43c1-d1e3525",
+    "pll1d43c1-d1e3528",
+    "pll1d43c1-d1e3558",
+    "pll1d43c1-d1e3563",
+    "pll1d43c1-d1e3568",
+    "pll1d43c1-d1e3571",
+    "pll1d43c1-d1e3575",
+    "pll1d43c1-d1e3580",
+    "pll1d43c1-d1e3583",
+    "pll1d43c1-d1e3586",
+    "pll1d43c1-d1e3589",
+    "pll1d43c1-d1e3593",
+    "pll1d43c1-d1e3607",
+    "pll1d43c1-d1e3627",
+    "pll1d43c1-d1e3630",
+    "pll1d43c1-d1e3645",
+    "pll1d43c1-d1e3649",
+    "pll1d43c1-d1e3652",
+    "pll1d43c1-d1e3655",
+    "pll1d43c1-d1e3670",
+    "pll1d43c1-d1e3688",
+    "pll1d43c1-d1e3711",
+    "pll1d43c1-d1e3732",
+    "pll1d43c1-d1e3735"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T18:42:25Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

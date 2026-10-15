@@ -1,0 +1,155 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T12:42:09Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d20c3-d1e115": {
+  "summary": "Answers about one who fulfilled an imposed satisfaction that, through the priest's ignorance or negligence, was not worthy of the sin: if his inward grief is great enough to avenge the sin, he is wholly freed; if not, together with the imposed penalty, God will add punishment.",
+  "claims": [
+   "Sufficient inward grief frees one even if imposed satisfaction was inadequate."
+  ],
+  "concepts": [
+   "satisfaction",
+   "contrition",
+   "negligent confessor"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d20c3",
+    "pl-l4d20c2-d1e118"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:42:09Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d20c3-d1e118": {
+  "summary": "Gives the thief as certain proof that inward grief sometimes suffices: by contrition and confession alone, as soon as he was converted, he merited paradise.",
+  "claims": [
+   "Inward contrition can suffice for all punishment."
+  ],
+  "concepts": [
+   "good thief",
+   "contrition"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d20c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:42:09Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d20c3-d1e121": {
+  "summary": "Notes that since the Church's dispensers cannot weigh contrition, not knowing the secrets of hearts, they set laws of penance for all, more and less grieved alike; their effort should be to know the grief of heart as far as possible and impose satisfaction accordingly.",
+  "claims": [
+   "Priests set general laws of penance because they cannot see hearts.",
+   "They should assign satisfaction by the grief of heart."
+  ],
+  "concepts": [
+   "measure of penance",
+   "priestly discretion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d20c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:42:09Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d20c3-d1e125": {
+  "summary": "Quotes Augustine: in penance for a crime that separates from Christ's body, the measure of grief rather than time is to be considered, since God does not despise a contrite heart. But since one heart's grief is hidden from another, Church leaders rightly set times of penance, so that satisfaction is made also to the Church, in which sins are forgiven, outside of which they are not, since it received the pledge of the Spirit.",
+  "claims": [
+   "The measure of grief matters more than time.",
+   "Fixed times satisfy the Church.",
+   "Sins are not forgiven outside the Church."
+  ],
+  "concepts": [
+   "measure of penance",
+   "satisfaction to the Church",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d20c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:42:09Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d20c3-d1e140": {
+  "summary": "Quotes Jerome: the canons do not clearly fix a time of penance for each crime, but leave it to the judgment of a wise priest, since before God the measure of grief counts more than time, and the mortification of vices more than abstinence from food; so they direct that times be shortened for the faith and conduct of penitents and lengthened for negligence, though for some faults modes of penance are fixed.",
+  "claims": [
+   "The canons leave the measure of penance to the priest.",
+   "Times are shortened or lengthened by the penitent's disposition."
+  ],
+  "concepts": [
+   "priestly discretion",
+   "canons",
+   "Jerome"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d20c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:42:09Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d20c3": {
+  "summary": "On one who completed a satisfaction that was inadequate through the priest's ignorance or negligence: if his inward grief suffices, he is wholly freed; if not, God adds punishment. The thief shows that inward contrition can suffice, entering paradise by contrition and confession alone. Since the Church's ministers cannot weigh contrition, not knowing hearts, they set laws of penance for all, but should try to know the grief of heart and assign satisfaction accordingly. Augustine: the measure of grief, not of time, matters, but since grief is hidden, Church leaders rightly set times of penance, so that satisfaction is made also to the Church, outside which sins are not forgiven. Jerome: the canons leave the measure to the priest's judgment, shortening or lengthening it by the penitent's faith or negligence.",
+  "claims": [
+   "If inward grief suffices, inadequate imposed satisfaction does not matter; otherwise God adds punishment.",
+   "Inward contrition can suffice, as with the good thief.",
+   "Priests should assign satisfaction according to the grief of heart.",
+   "Fixed times of penance satisfy the Church, which cannot see hearts.",
+   "The measure of penance is left to the priest's judgment."
+  ],
+  "concepts": [
+   "measure of penance",
+   "contrition",
+   "priestly discretion",
+   "satisfaction to the Church",
+   "good thief"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d20c3-d1e115",
+    "pl-l4d20c3-d1e118",
+    "pl-l4d20c3-d1e121",
+    "pl-l4d20c3-d1e125",
+    "pl-l4d20c3-d1e140"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T12:42:09Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

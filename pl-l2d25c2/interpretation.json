@@ -1,0 +1,78 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:33:35Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d25c2-d1e108": {
+  "summary": "States that free choice is taken differently in Creator and creatures: in God it is his most wise and omnipotent will, which does all not by necessity but by free goodness, as he wills.",
+  "claims": [
+   "God's free choice is his will acting freely by goodness."
+  ],
+  "concepts": [
+   "freedom of God"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d25c2",
+    "pl-l2d25c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:33:35Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d25c2-d1e111": {
+  "summary": "Notes that Jerome, aware that free choice is not in God as in creatures, seems to exclude it from him: God alone cannot sin; others, having free choice, can turn either way. 'The rest' indicates that free choice as in others is not in God.",
+  "claims": [
+   "Jerome's statement concerns creaturely free choice."
+  ],
+  "concepts": [
+   "Jerome"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d25c2",
+    "pl-l2d25c2-d1e108",
+    "pll2d7c2-d1e3517"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:33:35Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d25c2": {
+  "summary": "Explains that free choice is taken differently in Creator and creatures: in God it is his most wise and omnipotent will, which does all not by necessity but by free goodness. So Jerome, aware that free choice is not in God as in creatures, seems to exclude it from God: God alone cannot sin; the rest, having free choice, can turn either way.",
+  "claims": [
+   "Free choice in God is his wise and omnipotent will acting by goodness, not necessity.",
+   "Free choice is not in God as in creatures.",
+   "Jerome's exclusion of free choice from God refers to creaturely free choice."
+  ],
+  "concepts": [
+   "freedom of God",
+   "analogy",
+   "Jerome"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d25c2-d1e108",
+    "pl-l2d25c2-d1e111"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:33:35Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

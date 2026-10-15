@@ -1,0 +1,105 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:01:54Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll2d9c6-d1e3514": {
+  "summary": "Notes the reading that a tenth order is to be restored from humans, puzzling since there are only nine orders, which would be so even if the fallen had stood.",
+  "claims": [],
+  "concepts": [
+   "question"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d9c6",
+    "pl-l2d9c5"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:01:54Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d9c6-d1e3517": {
+  "summary": "Cites Gregory: humans will be assumed into the angelic orders, some into the higher who burn more with charity, others into the lower; so there is no tenth human order, but humans are placed in the angelic orders according to merits.",
+  "claims": [
+   "Humans join the angelic orders by merit.",
+   "There is no separate tenth order of humans."
+  ],
+  "concepts": [
+   "Gregory"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d9c6",
+    "pll2d9c6-d1e3514"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:01:54Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d9c6-d1e3522": {
+  "summary": "Interprets the 'tenth order' as meaning that what fell among the angels, so many as could form a tenth order, will be restored from humans; hence all things are restored in Christ (Eph 1:10), since through him humanity is redeemed, from which the angelic ruin is repaired. Yet man would be saved no less had the angel not fallen.",
+  "claims": [
+   "The fallen angels' place is restored by redeemed humans.",
+   "Human salvation does not depend on the angelic fall."
+  ],
+  "concepts": [
+   "Ephesians 1:10",
+   "restoration"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d9c6",
+    "pll2d9c6-d1e3517",
+    "pll2d1c5-d1e3514"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:01:54Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d9c6": {
+  "summary": "Addresses the reading that a tenth order will be restored from humans, though there are only nine orders. Gregory says humans will be taken into the angelic orders, some higher, some lower, according to merit; so there is no tenth human order. 'A tenth order completed from humans' means that what fell among the angels, enough to make a tenth order, will be restored from humans; all things are restored in Christ (Eph 1:10), through whom humanity is redeemed. Yet man would be saved even if the angels had not fallen.",
+  "claims": [
+   "There are only nine angelic orders.",
+   "Humans will be assumed into the angelic orders according to merit.",
+   "The 'tenth order' means the place of the fallen angels restored from humans.",
+   "All things are restored in Christ.",
+   "Humans would be saved even had angels not fallen."
+  ],
+  "concepts": [
+   "tenth order",
+   "restoration of the angelic fall",
+   "Gregory",
+   "Ephesians 1:10",
+   "merit"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll2d9c6-d1e3514",
+    "pll2d9c6-d1e3517",
+    "pll2d9c6-d1e3522"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:01:54Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

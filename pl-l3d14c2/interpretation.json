@@ -1,0 +1,133 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T01:07:53Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l3d14c2-d1e117": {
+  "summary": "Answers why God did not give Christ's soul power to do all things as well as knowledge: it is naturally capable of knowledge, so it was fittingly given knowledge without measure; it was not given power to do all that God does, lest it be thought omnipotent and therefore God. Perhaps God could not grant it power to do all, though he could grant it power to do some things it cannot do. So Christ's soul knows all that God knows in the Word, which it contemplates more clearly and present than any creature, being united to it, in which also angels know the things of God and things to come.",
+  "claims": [
+   "Christ's soul is naturally capable of knowledge, so received it without measure.",
+   "Christ's soul was not given omnipotence lest it be thought God.",
+   "Christ's soul knows all in the Word."
+  ],
+  "concepts": [
+   "knowledge and power",
+   "omnipotence",
+   "vision in the Word"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d14c2",
+    "pl-l3d14c1-d1e148"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:07:53Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d14c2-d1e120": {
+  "summary": "States an objection from Ambrose on Luke, on 'he will be great and called Son of the Most High' (Lk 1:32): he will be great not because he was not great before, but because the man would receive in time the power that the Son of God has by nature, so that man and God are one person. If the man was to receive that power, it was either the person or the human nature; not the person, which always had it; so the nature, and therefore the soul, since the flesh could not receive it.",
+  "claims": [
+   "Objection: Ambrose says the man received in time the Son's natural power, so the soul must be omnipotent."
+  ],
+  "concepts": [
+   "omnipotence",
+   "person and nature"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d14c2",
+    "pl-l3d14c2-d1e117"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:07:53Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d14c2-d1e132": {
+  "summary": "Answers that it is to be read of the person, not insofar as it is God's person, but insofar as it is the person of a man. There is one person of God and man, Son of God and son of man; as God's person it always had omnipotence naturally; as the person of a man it did not always exist. That person which was always God's was to be the person of a man, and in that respect was to receive in time the power it always had naturally as God's person.",
+  "claims": [
+   "The person, as person of a man, received in time the power it always had as God's person."
+  ],
+  "concepts": [
+   "person of God and person of man",
+   "omnipotence",
+   "secundum quod"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d14c2",
+    "pl-l3d14c2-d1e120"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:07:53Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d14c2-d1e136": {
+  "summary": "Notes that by this distinction that text and similar ones can be soundly understood; it is necessary in many parts of these questions against some people's tangled verbosity. But when the realities are clear, controversy about words is vain.",
+  "claims": [
+   "The distinction resolves many texts.",
+   "When the realities are clear, verbal controversy is vain."
+  ],
+  "concepts": [
+   "distinction",
+   "verbal controversy"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d14c2",
+    "pl-l3d14c2-d1e132"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:07:53Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d14c2": {
+  "summary": "Asks why God did not give Christ's soul the power to do all things as he gave it knowledge of all. The soul is naturally capable of knowledge, so it fittingly received it without measure; it was not given power to do all that God does, lest it be thought omnipotent and therefore God, and perhaps God could not give it that power. It knows all in the Word, which it sees more clearly than any creature. Ambrose's statement that the man would receive in time the power the Son has by nature is read of the person insofar as it is the person of a man: the one person, always omnipotent as God's person, would receive that power in time as the person of a man. This distinction is necessary against verbal confusions, though where things are clear, verbal controversy is pointless.",
+  "claims": [
+   "Christ's soul received knowledge without measure because it is naturally capable of knowledge.",
+   "Christ's soul did not receive omnipotence, lest it be thought God.",
+   "Perhaps God could not give a creature omnipotence.",
+   "The person, as person of a man, received in time the power it always had as God's person."
+  ],
+  "concepts": [
+   "knowledge and power",
+   "omnipotence",
+   "person of God and person of man",
+   "beatific knowledge",
+   "verbal controversy"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d14c2-d1e117",
+    "pl-l3d14c2-d1e120",
+    "pl-l3d14c2-d1e132",
+    "pl-l3d14c2-d1e136"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T01:07:53Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

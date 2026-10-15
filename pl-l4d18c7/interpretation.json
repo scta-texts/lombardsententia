@@ -1,0 +1,144 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T12:42:09Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d18c7-d1e115": {
+  "summary": "Asks how 'whatever you loose on earth will be loosed in heaven' is true, since priests sometimes show people loosed or bound who are not so before God, and by satisfaction or excommunication sometimes bind or loose the unworthy, admit the unworthy to the sacraments, and exclude the worthy.",
+  "claims": [],
+  "concepts": [
+   "power of the keys",
+   "difficulty"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d18c7"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:42:09Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d18c7-d1e121": {
+  "summary": "Answers that this must be understood of those whose merits require loosing or binding: the priest's sentence is approved and confirmed by God and the heavenly court when it proceeds with discernment and the merits of the accused do not contradict it. Whomever they bind or loose, applying the key of discernment to the merits of the accused, are bound or loosed before God; those struck by the Church's sentence according to their merits are outside before God.",
+  "claims": [
+   "The priest's sentence is ratified when it follows discernment and merit."
+  ],
+  "concepts": [
+   "ratification in heaven",
+   "discernment",
+   "merit"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d18c7"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:42:09Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d18c7-d1e124": {
+  "summary": "Adds that one who did not deserve it is not harmed by the Church's sentence, unless he despises it.",
+  "claims": [
+   "An undeserved sentence does not harm unless despised."
+  ],
+  "concepts": [
+   "unjust excommunication",
+   "contempt"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d18c7"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:42:09Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d18c7-d1e128": {
+  "summary": "Quotes Origen: one who leaves truth, faith, and charity leaves the camp of the Church, even if not cast out by the bishop's voice; conversely one cast out by unjust judgment is not harmed if he did nothing to deserve it; sometimes one cast out is within, and one outside seems kept within.",
+  "claims": [
+   "True membership depends on faith and charity, not only the bishop's sentence."
+  ],
+  "concepts": [
+   "unjust excommunication",
+   "membership of the Church",
+   "Origen"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d18c7"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:42:09Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d18c7-d1e137": {
+  "summary": "Concludes on the use of the apostolic keys: it has been partly shown how priests forgive or retain sins, yet God kept for himself a singular power of forgiving or retaining, since he alone by himself remits the debt of eternal death and inwardly cleanses the soul.",
+  "claims": [
+   "God alone remits eternal death and cleanses the soul."
+  ],
+  "concepts": [
+   "God alone forgives",
+   "power of the keys"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d18c7"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:42:09Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d18c7": {
+  "summary": "Asks how 'whatever you loose on earth will be loosed in heaven' is true, since priests sometimes declare people bound or loosed who are not so before God, and bind or loose, admit or exclude, the unworthy. Answer: it holds for those whose merits require binding or loosing; the priest's sentence is confirmed by God and the heavenly court when it proceeds with discernment and does not contradict the merits of the accused. Whoever is not deserving is not harmed by the Church's sentence unless he despises it, as Origen says. So God retained a singular power of forgiving and retaining, since he alone remits the debt of eternal death and inwardly cleanses the soul.",
+  "claims": [
+   "Priestly binding and loosing is ratified in heaven when it accords with merit.",
+   "An undeserved sentence does not harm one who does not despise it.",
+   "God retains a singular power of remitting eternal death and cleansing the soul."
+  ],
+  "concepts": [
+   "power of the keys",
+   "ratification in heaven",
+   "unjust excommunication",
+   "merit"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d18c7-d1e115",
+    "pl-l4d18c7-d1e121",
+    "pl-l4d18c7-d1e124",
+    "pl-l4d18c7-d1e128",
+    "pl-l4d18c7-d1e137"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T12:42:09Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

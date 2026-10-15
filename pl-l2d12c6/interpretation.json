@@ -1,0 +1,58 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:09:52Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll2d12c6-d1e3519": {
+  "summary": "Cites Alcuin: God works in four ways: first, disposing all in the Word; second, creating the unformed matter of the four elements from nothing ('he created all things together'); third, distinguishing creatures in the six days; fourth, renewing known natures from primordial seeds so they do not perish.",
+  "claims": [
+   "God's work has four modes.",
+   "All bodies were created materially at once."
+  ],
+  "concepts": [
+   "Alcuin",
+   "modes of creation"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d12c6",
+    "pll2d12c5-d1e3586"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:09:52Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d12c6": {
+  "summary": "Gives Alcuin's four modes of divine working: disposing all in the Word; creating the unformed matter of the four elements from nothing ('he created all things together'); distinguishing creatures through the six days' works; and continually renewing known natures from primordial seeds so they do not perish.",
+  "claims": [
+   "God works in four ways: disposing in the Word, creating matter from nothing, distinguishing in six days, and renewing natures from seeds.",
+   "All elements were created materially at once.",
+   "Known natures are renewed from primordial seeds, not new ones created."
+  ],
+  "concepts": [
+   "four modes of divine work",
+   "Alcuin",
+   "seminal reasons",
+   "creatio ex nihilo"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll2d12c6-d1e3519"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:09:52Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

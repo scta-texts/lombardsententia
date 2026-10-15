@@ -1,0 +1,126 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T21:12:25Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d36c2-d1e108": {
+  "summary": "Asks whether sin that is also punishment is punishment of sin insofar as it is sin.",
+  "claims": [],
+  "concepts": [
+   "question"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d36c2",
+    "pl-l2d36c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:12:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d36c2-d1e111": {
+  "summary": "Argues not, since all punishment of sin is just, as Augustine says in the Retractationes; so if sin as sin were punishment, it would be just and come from God's justice.",
+  "claims": [
+   "All punishment of sin is just."
+  ],
+  "concepts": [
+   "objection",
+   "Augustine Retractationes"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d36c2",
+    "pl-l2d36c2-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:12:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d36c2-d1e114": {
+  "summary": "Reports their answer: sin is called punishment because through the sin into which man falls, by merit of a prior sin and God's desertion, good nature is corrupted; as eternal fire is the punishment of the wicked though the torment is not the fire but done by it, so the diminution and corruption of natural good is passion and punishment, from God; the sin is not essentially that punishment but its matter and cause, and not from God.",
+  "claims": [
+   "The corruption is punishment from God; sin is its cause, not from God."
+  ],
+  "concepts": [
+   "analogy of fire",
+   "desertion by God"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d36c2",
+    "pl-l2d36c2-d1e111",
+    "pl-l2d35c6"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:12:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d36c2-d1e120": {
+  "summary": "Cites De praedestinatione sanctorum: God foreknew what he would not do, all evils; some sins are punishments of sin (Rom 1:26), yet that is not God's sin but his judgment, that is, punishment. So sins that are punishments are God's not as sins but as punishments; Paul calls them shameful passions, because though some delight they are passions of nature by which it is corrupted.",
+  "claims": [
+   "Such sins are God's only as punishments."
+  ],
+  "concepts": [
+   "God's judgment",
+   "Augustine De praedestinatione sanctorum"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d36c2",
+    "pl-l2d36c2-d1e114"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:12:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d36c2": {
+  "summary": "Asks whether such sin is punishment of sin insofar as it is sin. It seems not, since all punishment of sin is just and from God, so sin as sin would be just and from God. Those who hold all acts good insofar as they are answer: sin is called punishment because through the sin into which man falls, by merit of a prior sin and God's desertion, good nature is corrupted; as eternal fire is the punishment by which the wicked are tormented, though torment is not fire, so the corruption of natural good is the passion and punishment, from God, while the sin is its matter and cause, not from God. Augustine: God foreknew evils he would not do; some sins are punishments, yet that is not God's sin but his judgment, meaning punishment.",
+  "claims": [
+   "All punishment of sin is just and from God.",
+   "Sin is called punishment because it corrupts good nature after God deserts the sinner.",
+   "The corruption of good is punishment and from God; the sin causing it is not from God.",
+   "Sins that are punishments are God's judgment, not God's sin."
+  ],
+  "concepts": [
+   "sin as punishment of sin",
+   "divine justice",
+   "corruption of nature",
+   "God's judgment",
+   "Augustine De praedestinatione sanctorum"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d36c2-d1e108",
+    "pl-l2d36c2-d1e111",
+    "pl-l2d36c2-d1e114",
+    "pl-l2d36c2-d1e120"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T21:12:25Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

@@ -1,0 +1,157 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T13:06:03Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d40c2-d1e115": {
+  "summary": "Quotes Isidore on computing degrees: the series of kinship is divided into six degrees: son and daughter, brother and sister, are the trunk; from it branch grandson and granddaughter, first; great-grandchildren, second; great-great-grandchildren, third; and so on to the sixth.",
+  "claims": [
+   "Isidore counts six degrees from the sibling trunk."
+  ],
+  "concepts": [
+   "degrees of kinship",
+   "Isidore"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d40c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:06:03Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d40c2-d1e121": {
+  "summary": "Notes that Isidore puts only six degrees because he does not count the trunk among the degrees.",
+  "claims": [],
+  "concepts": [
+   "computation"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d40c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:06:03Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d40c2-d1e124": {
+  "summary": "Notes that others who put seven degrees count the trunk among them.",
+  "claims": [],
+  "concepts": [
+   "computation"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d40c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:06:03Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d40c2-d1e128": {
+  "summary": "Explains that degrees are computed variously: some put the father in the first degree and children in the second; others call children the first degree, denying a degree between father and son, who are one flesh. Authorities forbidding to the seventh degree put the father first; those forbidding to the sixth call children the first; so the same persons are found in the sixth or seventh degree.",
+  "claims": [
+   "Differences in computation explain six versus seven degrees."
+  ],
+  "concepts": [
+   "computation",
+   "harmonizing authorities"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d40c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:06:03Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d40c2-d1e134": {
+  "summary": "Cites Pope Zachary's computation: I and my brother are one generation and make the first degree; my son and my brother's son the second generation and degree; and so on.",
+  "claims": [],
+  "concepts": [
+   "computation",
+   "Zachary"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d40c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:06:03Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d40c2-d1e140": {
+  "summary": "Concludes that between those who count six degrees and those who count seven there is no difference in meaning, only in number; the last generation, counted from the brothers, is the seventh.",
+  "claims": [
+   "The two counts agree in substance."
+  ],
+  "concepts": [
+   "computation",
+   "harmonizing authorities"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d40c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:06:03Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d40c2": {
+  "summary": "Explains computing degrees of kinship. Isidore counts six degrees, not counting the trunk, siblings, from grandchildren to great-great-great-grandchildren; others count seven, counting the trunk. Some put the father in the first degree and children in the second, others make children the first, denying a degree between father and son, who are one flesh; so the same persons fall in the sixth or seventh degree. Pope Zachary counts brothers as the first degree and their sons as the second; the six- and seven-degree counts agree in substance.",
+  "claims": [
+   "Isidore counts six degrees; others seven, including the trunk.",
+   "Different counting methods place the same persons in different degrees.",
+   "The six- and seven-degree counts agree in substance."
+  ],
+  "concepts": [
+   "degrees of kinship",
+   "computation",
+   "Isidore"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d40c2-d1e115",
+    "pl-l4d40c2-d1e121",
+    "pl-l4d40c2-d1e124",
+    "pl-l4d40c2-d1e128",
+    "pl-l4d40c2-d1e134",
+    "pl-l4d40c2-d1e140"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T13:06:03Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

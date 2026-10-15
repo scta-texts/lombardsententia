@@ -1,0 +1,101 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T13:06:03Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d39c4-d1e115": {
+  "summary": "Quotes Augustine on whether one may dismiss a spouse for other vices: if unbelief is fornication, idolatry unbelief, and avarice idolatry, then avarice is fornication; so any unlawful concupiscence that makes the soul stray from God's law and be corrupted, not only adultery, allows a husband to dismiss his wife or a wife her husband without crime.",
+  "claims": [
+   "Any corrupting concupiscence is fornication justifying separation."
+  ],
+  "concepts": [
+   "spiritual fornication",
+   "avarice",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d39c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:06:03Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d39c4-d1e124": {
+  "summary": "Adds Augustine: she is most rightly dismissed if she says to her husband, I will not be your wife unless you gather riches by robbery or practice pimping, or demands any crime; then he, if truly penitent with faith working through love, cuts off the member that scandalizes him.",
+  "claims": [
+   "A spouse who demands crime may be dismissed."
+  ],
+  "concepts": [
+   "complicity",
+   "separation"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d39c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:06:03Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d39c4-d1e133": {
+  "summary": "Concludes that not only unbelief but any concupiscence that corrupts harmfully and shamefully is spiritual fornication allowing separation; yet the Apostle counsels the believer not to dismiss an unbeliever who wishes to cohabit and does not draw him from God.",
+  "claims": [
+   "Spiritual fornication allows separation.",
+   "The believer should keep a peaceable unbelieving spouse."
+  ],
+  "concepts": [
+   "spiritual fornication",
+   "conversion of one spouse"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d39c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:06:03Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d39c4": {
+  "summary": "Asks whether a spouse may be dismissed for vices other than unbelief or idolatry: Augustine argues that since avarice is idolatry, any unlawful concupiscence that leads the soul astray from God's law is fornication, for which husband or wife may dismiss the other without crime, as when a wife demands that her husband steal or pimp. So any corrupting concupiscence is spiritual fornication justifying separation, though the Apostle counsels not dismissing an unbeliever willing to live together.",
+  "claims": [
+   "Any corrupting concupiscence is spiritual fornication.",
+   "A spouse who demands crimes may be dismissed."
+  ],
+  "concepts": [
+   "spiritual fornication",
+   "separation",
+   "avarice",
+   "complicity"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d39c4-d1e115",
+    "pl-l4d39c4-d1e124",
+    "pl-l4d39c4-d1e133"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T13:06:03Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

@@ -1,0 +1,78 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T13:09:38Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d44c5-d1e115": {
+  "summary": "Asks how the bodies of the wicked burn in fire and are not consumed, and notes that Augustine argues by various examples that they burn in eternal fires and are not consumed by that burning (sentence continues).",
+  "claims": [
+   "The damned's bodies burn without being consumed."
+  ],
+  "concepts": [
+   "fire of hell",
+   "eternal punishment"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d44c5",
+    "pl-l4d44c5-d1e121"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:09:38Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d44c5-d1e121": {
+  "summary": "Completes: as the soul, by whose presence the body lives, can suffer pain and cannot die; this will then be in the bodies of the damned, as we now know it to be in all souls.",
+  "claims": [
+   "Bodies will suffer without dying, as souls do now."
+  ],
+  "concepts": [
+   "eternal punishment",
+   "soul and body"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d44c5",
+    "pl-l4d44c5-d1e115"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:09:38Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d44c5": {
+  "summary": "Asks how the bodies of the wicked can burn in fire and not be consumed: Augustine shows by various examples that they burn in eternal fire without being consumed, as the soul, whose presence gives the body life, can suffer pain but cannot die; this will be in the damned's bodies what we now know in all souls.",
+  "claims": [
+   "The damned's bodies burn without being consumed.",
+   "As the soul suffers without dying, so will their bodies."
+  ],
+  "concepts": [
+   "eternal punishment",
+   "fire of hell",
+   "resurrection of the damned"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d44c5-d1e115",
+    "pl-l4d44c5-d1e121"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T13:09:38Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

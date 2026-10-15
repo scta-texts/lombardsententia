@@ -1,0 +1,130 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T00:53:36Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d42c4-d1e108": {
+  "summary": "States that the modes of sin are variously distinguished in Scripture: Augustine on Ps 79, 'burned with fire and dug under,' says all mortal sins are committed by cupidity and fear; 'burned' are those arising from cupidity wrongly inflaming, 'dug under' those from fear wrongly humbling, when one desires what should not be desired or fears what should not be feared.",
+  "claims": [
+   "All mortal sins come from cupidity or fear."
+  ],
+  "concepts": [
+   "cupidity and fear",
+   "Psalm 79:17"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d42c4",
+    "pl-l2d42c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T00:53:36Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d42c4-d1e111": {
+  "summary": "States that elsewhere sin is said to be committed in three ways: thought, word, and deed.",
+  "claims": [
+   "Sin is by thought, word, and deed."
+  ],
+  "concepts": [
+   "thought, word, deed"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d42c4",
+    "pl-l2d42c4-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T00:53:36Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d42c4-d1e114": {
+  "summary": "Cites Jerome on Ezekiel: there are three general offenses to which the human race is subject: we sin by thought, speech, or deed.",
+  "claims": [
+   "Three general offenses."
+  ],
+  "concepts": [
+   "Jerome"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d42c4",
+    "pl-l2d42c4-d1e111"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T00:53:36Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d42c4-d1e118": {
+  "summary": "Adds that a fourth mode, habit, is sometimes added, signified by Lazarus four days dead. Man also sins against God, by thinking ill of him as a heretic, usurping divine things by unworthy reception of sacraments, or making God's name contemptible by perjury; against neighbor, by unjustly harming him; and against himself, harming only himself.",
+  "claims": [
+   "Habit is a fourth mode.",
+   "Sin is against God, neighbor, or self."
+  ],
+  "concepts": [
+   "habit",
+   "Lazarus",
+   "John 11:39"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d42c4",
+    "pl-l2d42c4-d1e114"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T00:53:36Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d42c4": {
+  "summary": "Sets out ways of distinguishing sins. Augustine on Ps 79 says all mortal sins are committed from cupidity or fear, 'burned with fire' being from cupidity wrongly inflaming, 'dug under' from fear wrongly humbling, desiring what should not be desired or fearing what should not be feared. Elsewhere sin is threefold, in thought, word, and deed (Jerome), sometimes with a fourth, habit, signified by Lazarus four days dead. Man also sins against God (heresy, unworthy reception of sacraments, perjury), against neighbor (unjust harm), and against himself.",
+  "claims": [
+   "All mortal sins arise from cupidity or fear.",
+   "Sin is committed by thought, word, or deed.",
+   "Habit is sometimes added as a fourth mode, figured by Lazarus four days dead.",
+   "Sin is against God, against neighbor, or against oneself."
+  ],
+  "concepts": [
+   "modes of sin",
+   "cupidity and fear",
+   "thought, word, deed",
+   "habit",
+   "Lazarus",
+   "Jerome",
+   "Augustine Enarrationes"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d42c4-d1e108",
+    "pl-l2d42c4-d1e111",
+    "pl-l2d42c4-d1e114",
+    "pl-l2d42c4-d1e118"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T00:53:36Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

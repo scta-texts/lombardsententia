@@ -1,0 +1,124 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T11:04:07Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l3d33c1-d1e115": {
+  "summary": "Turns to the four virtues called principal or cardinal: justice, fortitude, prudence, temperance.",
+  "claims": [
+   "There are four cardinal virtues."
+  ],
+  "concepts": [
+   "cardinal virtues"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d33c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:04:07Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d33c1-d1e118": {
+  "summary": "Quotes Augustine: justice consists in helping the wretched, prudence in guarding against snares, fortitude in bearing troubles, temperance in restraining wicked pleasures.",
+  "claims": [
+   "Each cardinal virtue has a characteristic act in this life."
+  ],
+  "concepts": [
+   "justice",
+   "prudence",
+   "fortitude",
+   "temperance",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d33c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:04:07Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d33c1-d1e127": {
+  "summary": "Cites Wisdom: 'she teaches sobriety and prudence, justice and strength', explaining that sobriety means temperance and strength means fortitude.",
+  "claims": [
+   "Wisdom names the four cardinal virtues."
+  ],
+  "concepts": [
+   "cardinal virtues",
+   "Scripture"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d33c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:04:07Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d33c1-d1e137": {
+  "summary": "Quotes Jerome: they are called cardinal because by them one lives well in this mortality and afterward reaches eternal life.",
+  "claims": [
+   "The cardinal virtues lead to right living and eternal life."
+  ],
+  "concepts": [
+   "cardinal virtues",
+   "Jerome"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d33c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:04:07Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d33c1": {
+  "summary": "Turns to the four principal or cardinal virtues: justice, fortitude, prudence, temperance. Augustine defines their acts: justice in helping the wretched, prudence in guarding against snares, fortitude in bearing troubles, temperance in restraining wicked pleasures. Wisdom names them as sobriety, prudence, justice, and strength. Jerome says they are called cardinal because by them one lives well in this mortal life and afterward attains eternal life.",
+  "claims": [
+   "There are four cardinal virtues: justice, fortitude, prudence, temperance.",
+   "The cardinal virtues are those by which one lives well here and attains eternal life."
+  ],
+  "concepts": [
+   "cardinal virtues",
+   "justice",
+   "fortitude",
+   "prudence",
+   "temperance"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d33c1-d1e115",
+    "pl-l3d33c1-d1e118",
+    "pl-l3d33c1-d1e127",
+    "pl-l3d33c1-d1e137"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T11:04:07Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

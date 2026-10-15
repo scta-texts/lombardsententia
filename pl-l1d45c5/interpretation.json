@@ -1,0 +1,80 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T18:43:26Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll1d45c5-d1e3509": {
+  "summary": "Notes that Scripture speaks of God's will in various ways, not because the will is diverse but because 'will' is taken for diverse things. Properly, God's will is in him and is his essence; it is one, without multiplicity or mutability, and cannot be unfulfilled.",
+  "claims": [
+   "God's will properly is his essence, one and immutable.",
+   "It cannot be unfulfilled."
+  ],
+  "concepts": [
+   "proper sense of will"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d45c5",
+    "pll1d45c4-d1e3617"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:43:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d45c5-d1e3514": {
+  "summary": "Cites Ps 113:11, Rom 9:19, and Rom 12:2 for this will, which is rightly called God's good pleasure or disposition.",
+  "claims": [
+   "God's will is his good pleasure."
+  ],
+  "concepts": [
+   "beneplacitum",
+   "scriptural texts"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d45c5",
+    "pll1d45c5-d1e3509"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:43:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1d45c5": {
+  "summary": "Notes that Scripture speaks of God's will in various ways, not because the will is diverse but because the word is used for diverse things. Properly, God's will is in him and is his essence, one, without multiplicity or change, and cannot fail to be fulfilled ('the Lord has done all he willed'; 'who resists his will?'). This will is rightly called God's good pleasure (beneplacitum) or disposition.",
+  "claims": [
+   "Scripture speaks of God's will in various ways.",
+   "Properly, God's will is his essence, one and immutable.",
+   "God's will in the proper sense cannot fail to be fulfilled.",
+   "This will is called God's good pleasure or disposition."
+  ],
+  "concepts": [
+   "beneplacitum",
+   "divine will",
+   "proper vs figurative sense"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d45c5-d1e3509",
+    "pll1d45c5-d1e3514"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T18:43:26Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

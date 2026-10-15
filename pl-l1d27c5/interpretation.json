@@ -1,0 +1,193 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T17:44:00Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll1d27c5-d1e3501": {
+  "summary": "Asks whether 'God from God,' 'light from light' are said by substance, since they are clearly not said by relation, and if by substance, then by the rule both Father and Son together could be called 'God from God.'",
+  "claims": [],
+  "concepts": [
+   "question"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d27c5",
+    "pll1d27c4-d1e3504"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:44:00Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d27c5-d1e3504": {
+  "summary": "Answers that 'God,' 'light,' 'wisdom' are said by substance and never relatively, but are sometimes taken for persons, not relatively. In 'God begot God' one stands for Father, the other for Son, as in 'God from God.' Elsewhere essential names are used for persons, as 'God was born, died, suffered,' signifying only the Son, and so 'God from God' is understood of the Son alone.",
+  "claims": [
+   "Essential names can stand for persons.",
+   "'God from God' signifies the Son.",
+   "'God died' stands for the Son only."
+  ],
+  "concepts": [
+   "supposition"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d27c5",
+    "pll1d27c5-d1e3501"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:44:00Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d27c5-d1e3509": {
+  "summary": "Cites De Trinitate VI: 'God from God' and 'light from light' are not said of both together but only of the Son from the Father.",
+  "claims": [
+   "'God from God' refers to the Son alone."
+  ],
+  "concepts": [
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d27c5",
+    "pll1d27c5-d1e3504"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:44:00Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d27c5-d1e3528": {
+  "summary": "Notes that 'this from that' is said only with essential names, though they do not signify substance there, and never with personal names, as 'Word from Word' or 'Son from Son,' since these cannot fit different persons.",
+  "claims": [
+   "'This from that' is said only with essential names.",
+   "Personal names cannot be used this way."
+  ],
+  "concepts": [
+   "rule of predication"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d27c5",
+    "pll1d27c5-d1e3509"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:44:00Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d27c5-d1e3531": {
+  "summary": "Cites Augustine's obscure statement that only what both are not together cannot be said 'this from that,' interpreting it: we cannot use a name not common to both to show one from another, so not Word from Word, Image from Image, or Son from Son.",
+  "claims": [
+   "Names not common to both persons cannot be used in 'this from that.'"
+  ],
+  "concepts": [
+   "interpretation of Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d27c5",
+    "pll1d27c5-d1e3528"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:44:00Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d27c5-d1e3557": {
+  "summary": "Notes that as essential names sometimes signify persons distinctly, they also sometimes signify the whole Trinity together.",
+  "claims": [
+   "Essential names can signify the whole Trinity."
+  ],
+  "concepts": [
+   "supposition"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d27c5",
+    "pll1d27c5-d1e3531"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:44:00Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d27c5-d1e3560": {
+  "summary": "Cites Augustine: in the name of Father he is named by himself, but in the name God both he, the Son, and the Spirit are named, as in 'no one is good but God alone,' since the Trinity is one God.",
+  "claims": [
+   "'Father' names the Father alone.",
+   "'God' can name the whole Trinity."
+  ],
+  "concepts": [
+   "Luke 18:19",
+   "Trinity as one God"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d27c5",
+    "pll1d27c5-d1e3557"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:44:00Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1d27c5": {
+  "summary": "Asks whether 'God from God,' 'light from light' are said by substance, since if so they could be said of Father and Son together. Lombard answers that though 'God,' 'light,' and 'wisdom' are said by substance and never relatively, they are sometimes used for persons, not relatively but standing for persons, as in 'God begot God,' 'God was born, died, suffered.' So 'God from God' refers to the Son alone (Augustine). 'This from that' is said only with essential names, never with personal ones ('Word from Word'), since these cannot fit different persons. Essential names sometimes stand for one person and sometimes for the whole Trinity, as in 'no one is good but God alone.'",
+  "claims": [
+   "Essential names are never said relatively but can stand for persons.",
+   "In 'God begot God' and 'God from God,' 'God' stands for persons.",
+   "'God from God' is said of the Son alone.",
+   "'This from that' is used only with essential names, never with personal names like 'Word from Word.'",
+   "Essential names can stand for one person or for the whole Trinity."
+  ],
+  "concepts": [
+   "supposition of essential names",
+   "Deus de Deo",
+   "Christological predication",
+   "personal vs essential names"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d27c5-d1e3501",
+    "pll1d27c5-d1e3504",
+    "pll1d27c5-d1e3509",
+    "pll1d27c5-d1e3528",
+    "pll1d27c5-d1e3531",
+    "pll1d27c5-d1e3557",
+    "pll1d27c5-d1e3560"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T17:44:00Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

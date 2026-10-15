@@ -1,0 +1,78 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T18:43:26Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll1d45c1-d1e3509": {
+  "summary": "Announces the treatment of God's will, according to the weakness of our understanding.",
+  "claims": [],
+  "concepts": [
+   "transition",
+   "divine will"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d45c1",
+    "pl-l1d44c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:43:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d45c1-d1e3512": {
+  "summary": "States that will or willing is said of God by essence: for him to will is to be, as to be good is to be God. The will by which he always wills is not an affection or motion, which cannot befall God, but the divine ousia by which he wills.",
+  "claims": [
+   "God's will is his essence.",
+   "God's will is not an affection or motion."
+  ],
+  "concepts": [
+   "essential predication",
+   "impassibility"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d45c1",
+    "pll1d45c1-d1e3509"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:43:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1d45c1": {
+  "summary": "Begins the treatment of God's will, to be discussed according to our weak understanding. 'Will' and 'willing' are said of God by essence: for God to will is to be, and his will is not an affection or motion, which cannot befall God, but the divine essence by which he wills.",
+  "claims": [
+   "God's will is said of him by essence.",
+   "For God, to will is to be.",
+   "God's will is not an affection or motion but the divine essence."
+  ],
+  "concepts": [
+   "divine will",
+   "simplicity",
+   "impassibility"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d45c1-d1e3509",
+    "pll1d45c1-d1e3512"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T18:43:26Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

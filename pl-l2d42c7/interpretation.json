@@ -1,0 +1,105 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T21:14:34Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d42c7-d1e108": {
+  "summary": "States that all evils, these and others, arise from pride, since Gregory calls pride the root of all evil, and Scripture says pride, the love of one's own excellence, is the beginning of all sin.",
+  "claims": [
+   "Pride is the root of all sin."
+  ],
+  "concepts": [
+   "pride",
+   "Ecclesiasticus 10:15"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d42c7",
+    "pl-l2d42c6"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:14:34Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d42c7-d1e113": {
+  "summary": "Gives Gregory's four species of pride: attributing to oneself the good one has; believing it from God but given for one's merits; boasting of having what one lacks; despising others and wishing to appear singular.",
+  "claims": [
+   "Pride has four species."
+  ],
+  "concepts": [
+   "species of pride",
+   "Gregory Moralia"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d42c7",
+    "pl-l2d42c7-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:14:34Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d42c7-d1e116": {
+  "summary": "Objects that Paul says cupidity is the root of all evils, and so of pride; how then is pride the root and beginning of all sin?",
+  "claims": [],
+  "concepts": [
+   "objection",
+   "1 Timothy 6:10"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d42c7",
+    "pl-l2d42c7-d1e113"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:14:34Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d42c7": {
+  "summary": "Yet all evils arise from pride, the root of all evil (Gregory), the beginning of all sin, the love of one's own excellence. It has four species: attributing one's good to oneself; believing it given by God but for one's merits; boasting of having what one lacks; and wishing to appear singular, despising others. But Paul says cupidity is the root of all evils (1 Tim 6:10), and so of pride; how then is pride the root?",
+  "claims": [
+   "Pride is the root and beginning of all sin.",
+   "Pride is love of one's own excellence.",
+   "Pride has four species.",
+   "Paul calls cupidity the root of all evils, which seems to conflict."
+  ],
+  "concepts": [
+   "pride",
+   "root of sin",
+   "species of pride",
+   "cupidity",
+   "Gregory Moralia",
+   "Ecclesiasticus 10:15",
+   "1 Timothy 6:10"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d42c7-d1e108",
+    "pl-l2d42c7-d1e113",
+    "pl-l2d42c7-d1e116"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T21:14:34Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

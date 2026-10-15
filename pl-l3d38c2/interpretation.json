@@ -1,0 +1,123 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T11:08:35Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l3d38c2-d1e115": {
+  "summary": "Notes that Augustine's De mendacio gives eight kinds of lies, to be noted carefully so that it appears which lie is venial and which damnable.",
+  "claims": [],
+  "concepts": [
+   "kinds of lies",
+   "venial and mortal sin"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d38c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:08:35Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d38c2-d1e124": {
+  "summary": "Lists the eight kinds: first, the capital lie in religious doctrine, never to be told; second, one that helps no one and harms someone; third, one that helps one and harms another; fourth, one told from sheer desire to lie and deceive; fifth, one told from desire to please with pleasant speech; sixth, one that harms no one and helps someone, as lying about where money is to protect it from unjust seizure; seventh, one that harms no one and helps someone, as lying to save a man sought for death; eighth, one that harms no one and protects someone from bodily defilement.",
+  "claims": [
+   "A lie in religious teaching is the gravest kind.",
+   "The kinds descend from harmful to protective lies."
+  ],
+  "concepts": [
+   "kinds of lies",
+   "doctrinal lie",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d38c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:08:35Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d38c2-d1e130": {
+  "summary": "Adds that the further a lie is from the first kind, the less one sins; but whoever thinks any kind of lie is no sin deceives himself shamefully, judging a deceiver of others to be honest.",
+  "claims": [
+   "The gravity of a lie lessens with distance from the first kind.",
+   "No kind of lie is sinless."
+  ],
+  "concepts": [
+   "gravity of sin",
+   "kinds of lies"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d38c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:08:35Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d38c2-d1e137": {
+  "summary": "Concludes: flee every kind of lie, since no lie is from God.",
+  "claims": [
+   "Every lie is to be avoided."
+  ],
+  "concepts": [
+   "lying"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d38c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:08:35Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d38c2": {
+  "summary": "Sets out Augustine's eight kinds of lies to show which are venial and which damnable: a lie in religious teaching, the capital lie to be utterly avoided; one that harms and helps no one; one that helps one and harms another; one told from sheer love of lying; one told to please by pleasant speech; one that harms no one and helps someone, as hiding money from an unjust taker; one that saves a person sought for death; one that protects someone from bodily defilement. The further from the first, the less the sin; but whoever thinks any kind of lie is no sin deceives himself. Every lie is to be fled, since no lie is from God.",
+  "claims": [
+   "There are eight kinds of lies, the gravest being in religious teaching.",
+   "The further a lie is from the first kind, the lesser the sin.",
+   "No kind of lie is without sin.",
+   "Every lie is to be avoided, since no lie is from God."
+  ],
+  "concepts": [
+   "kinds of lies",
+   "gravity of sin",
+   "doctrinal lie",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d38c2-d1e115",
+    "pl-l3d38c2-d1e124",
+    "pl-l3d38c2-d1e130",
+    "pl-l3d38c2-d1e137"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T11:08:35Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

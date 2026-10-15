@@ -1,0 +1,106 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T18:45:54Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll1d48c1-d1e3519": {
+  "summary": "States that a human will is sometimes evil though it wills the same as God, and sometimes good though it wills otherwise; for a will to be good one must consider what befits it to will and to what end, since what befits God to will may differ from what befits a human.",
+  "claims": [
+   "Same object as God's will does not guarantee a good will.",
+   "Goodness of will depends on fittingness and end."
+  ],
+  "concepts": [
+   "conformity of wills"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d48c1",
+    "pl-l1d47c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:45:54Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d48c1-d1e3523": {
+  "summary": "Cites the Enchiridion: sometimes a human by good will wills what God by his far better will does not, as a good son wills his father to live whom God wills to die; and a bad son may will his father's death as God does. The first wills what God does not, the second what God wills, yet the first's piety accords better with God's good will. What befits a human or God to will, and the end, decide approval.",
+  "claims": [
+   "A good son willing his father's life accords with God more than a bad son willing his death.",
+   "Approval depends on what befits each to will and on the end."
+  ],
+  "concepts": [
+   "Augustine Enchiridion",
+   "example of the father"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d48c1",
+    "pll1d48c1-d1e3519"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:45:54Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d48c1-d1e3541": {
+  "summary": "Adds that one can will a good that does not befit one to will, or a fitting good not referred to the right end, which is not a good will.",
+  "claims": [
+   "Willing a good can still be a bad will if unfitting or wrongly ordered."
+  ],
+  "concepts": [
+   "end",
+   "fittingness"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d48c1",
+    "pll1d48c1-d1e3523"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:45:54Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1d48c1": {
+  "summary": "Notes that a human will can be evil while willing what God wills, and good while willing what God does not; a good will depends on what befits a human to will and its end. Augustine's Enchiridion: a good son may will his father to live whom God wills to die, and a bad son may will his father to die as God does; the first, though willing otherwise, accords better with God's good will. One may will a good that does not befit one to will, or a fitting good not referred to the right end, which is not a good will.",
+  "claims": [
+   "A human will can be evil though it wills what God wills.",
+   "A human will can be good though it wills what God does not will.",
+   "A good will depends on what befits a human to will and the end it is referred to.",
+   "What befits God to will may not befit a human to will.",
+   "Willing a fitting good without the right end is not a good will."
+  ],
+  "concepts": [
+   "conformity of wills",
+   "goodness of will",
+   "intention and end",
+   "Augustine Enchiridion"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d48c1-d1e3519",
+    "pll1d48c1-d1e3523",
+    "pll1d48c1-d1e3541"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T18:45:54Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

@@ -1,0 +1,76 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:14:24Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d17c4-d1e108": {
+  "summary": "States that God took man so formed and placed him in the paradise of pleasure he had planted from the beginning.",
+  "claims": [
+   "God placed man in paradise."
+  ],
+  "concepts": [
+   "paradise"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d17c4",
+    "pl-l2d17c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:14:24Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d17c4-d1e111": {
+  "summary": "Notes that Moses implies man was created outside paradise and then placed in it, because he would not remain there, or so that it be ascribed to grace, not nature.",
+  "claims": [
+   "Man was created outside paradise.",
+   "Paradise was a gift of grace."
+  ],
+  "concepts": [
+   "grace vs nature"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d17c4",
+    "pl-l2d17c4-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:14:24Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d17c4": {
+  "summary": "Notes that God placed man, so formed, in the paradise of pleasure he had planted from the beginning. Moses implies man was created outside paradise and then placed in it, either because he would not remain there or so that it be ascribed to grace, not nature.",
+  "claims": [
+   "Man was created outside paradise and placed in it.",
+   "This shows he would not remain, or that paradise was a gift of grace, not nature."
+  ],
+  "concepts": [
+   "paradise",
+   "grace vs nature"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d17c4-d1e108",
+    "pl-l2d17c4-d1e111"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:14:24Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

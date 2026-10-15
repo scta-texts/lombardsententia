@@ -1,0 +1,102 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T11:52:39Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d6c4-d1e115": {
+  "summary": "Asks whether there is baptism if the words are pronounced incorrectly.",
+  "claims": [],
+  "concepts": [
+   "form of baptism",
+   "validity"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d6c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:52:39Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d6c4-d1e118": {
+  "summary": "Quotes Pope Zachary to Boniface: a priest who knew no Latin baptized saying 'in nomine Patria et Filia et Spiritu sancta', and Boniface considered rebaptizing. But if the baptizer spoke so not to introduce error or heresy but only from ignorance of the Roman tongue, we cannot consent to rebaptism.",
+  "claims": [
+   "Garbled words from ignorance do not invalidate baptism.",
+   "Error or heresy in the form would invalidate it."
+  ],
+  "concepts": [
+   "form of baptism",
+   "ignorance",
+   "intention",
+   "Zachary"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d6c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:52:39Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d6c4-d1e124": {
+  "summary": "Adds that those for whom no evidence exists among relatives, clergy, or neighbors that they were baptized should be baptized lest they perish; reason does not allow what is not shown to have been done to be considered repeated. What is not known to have been conferred should be conferred, since diligent piety is not rash presumption.",
+  "claims": [
+   "Those with no evidence of baptism should be baptized.",
+   "Baptizing them is not repetition."
+  ],
+  "concepts": [
+   "doubtful baptism",
+   "non-repetition of baptism"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d6c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:52:39Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d6c4": {
+  "summary": "Asks whether baptism is valid if the words are pronounced incorrectly. Pope Zachary tells Boniface that a priest ignorant of Latin who said 'in nomine Patria et Filia et Spiritu sancta' through ignorance, not introducing error or heresy, baptized validly and his subjects must not be rebaptized. Those for whom there is no evidence of baptism among relatives, clergy, or neighbors should be baptized, since what is not shown to have been done cannot be considered repeated.",
+  "claims": [
+   "Baptism with garbled words from ignorance, without heretical intent, is valid.",
+   "Those with no evidence of baptism should be baptized."
+  ],
+  "concepts": [
+   "form of baptism",
+   "ignorance",
+   "intention",
+   "doubtful baptism",
+   "Zachary"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d6c4-d1e115",
+    "pl-l4d6c4-d1e118",
+    "pl-l4d6c4-d1e124"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T11:52:39Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

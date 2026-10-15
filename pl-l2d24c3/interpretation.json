@@ -1,0 +1,62 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:32:08Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d24c3-d1e108": {
+  "summary": "Defines free choice as the faculty of reason and will by which good is chosen with grace assisting, or evil with grace withdrawing. It is called free with respect to the will, which can turn either way, and choice with respect to reason, which discerns good and evil; it chooses evil by itself, good only helped by grace. The rational soul has a natural will by which it naturally wills good, though feebly unless grace raises it to will effectively. Animals lack it, lacking reason, though they have sense and sensual appetite.",
+  "claims": [
+   "Free choice is a faculty of reason and will.",
+   "Good is chosen only with grace.",
+   "Natural will to good is feeble without grace."
+  ],
+  "concepts": [
+   "definition of free choice",
+   "natural will"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d24c3",
+    "pl-l2d24c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:32:08Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d24c3": {
+  "summary": "Defines free choice as the faculty of reason and will by which good is chosen with grace assisting, or evil with grace absent. 'Free' refers to the will, which can turn either way; 'choice' (arbitrium) to reason, which discerns good and evil. It chooses evil by itself but good only with grace. The rational soul has a natural will by which it naturally wills good, but feebly unless grace helps it to will effectively. Animals lack free choice, lacking reason, though they have sense and sensual appetite.",
+  "claims": [
+   "Free choice is a faculty of reason and will.",
+   "'Free' refers to the will; 'choice' to reason's discernment.",
+   "Free choice chooses good only with grace, evil by itself.",
+   "The rational soul naturally wills good, but feebly without grace.",
+   "Animals lack free choice, having only sense and appetite."
+  ],
+  "concepts": [
+   "liberum arbitrium",
+   "definition",
+   "grace",
+   "natural will",
+   "reason and will"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d24c3-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:32:08Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

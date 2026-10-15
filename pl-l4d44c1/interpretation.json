@@ -1,0 +1,122 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T13:09:38Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d44c1-d1e115": {
+  "summary": "Notes that some ask whether all will rise at the same age and stature.",
+  "claims": [],
+  "concepts": [
+   "age at resurrection"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d44c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:09:38Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d44c1-d1e118": {
+  "summary": "Reports that some thought all will rise according to the measure of Christ's age and stature, since Paul says 'until we all meet into a perfect man, into the measure of the age of the fullness of Christ'.",
+  "claims": [
+   "Some hold all will rise in Christ's stature."
+  ],
+  "concepts": [
+   "Ephesians 4:13",
+   "opposing opinion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d44c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:09:38Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d44c1-d1e127": {
+  "summary": "Answers that these words assign not the same stature but the same age: all will rise at the age in which Christ died and rose, whatever age they died at; 'man' is said not to distinguish sex but to signify the perfection of strength they will then have; but not all will have the same stature.",
+  "claims": [
+   "All rise at Christ's age, not his stature.",
+   "'Man' signifies strength, not sex."
+  ],
+  "concepts": [
+   "age at resurrection",
+   "stature"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d44c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:09:38Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d44c1-d1e137": {
+  "summary": "Quotes Augustine: Paul says not the measure of body or stature but of age, since each will receive his bodily measure, which he had in youth even if he died old, or would have had if he died before; the age will be Christ's, youthful, about thirty, thirty-two and three months. It is wrong to say the body gains in resurrection a size it never had or would have had, or that larger bodies are reduced to the Lord's, since much would perish, though not a hair will perish.",
+  "claims": [
+   "Each receives his own youthful stature.",
+   "No size is added or removed beyond one's own."
+  ],
+  "concepts": [
+   "stature",
+   "age at resurrection",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d44c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:09:38Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d44c1": {
+  "summary": "Asks whether all will rise at the same age and stature. Some held all will rise in Christ's age and stature, from 'to the measure of the age of Christ's fullness'; but this assigns age, not stature: all will rise at the age in which Christ died and rose, about thirty, 'man' signifying strength, not sex. Augustine: each will receive his own bodily size, what he had in youth or would have had, but nothing added beyond it, nor larger bodies reduced to the Lord's, since not a hair will perish.",
+  "claims": [
+   "All will rise at the age of Christ's death, about thirty.",
+   "Each keeps his own stature, as in youth.",
+   "Nothing of the body's matter will be lost."
+  ],
+  "concepts": [
+   "age at resurrection",
+   "stature",
+   "resurrection of the body",
+   "integrity of the body"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d44c1-d1e115",
+    "pl-l4d44c1-d1e118",
+    "pl-l4d44c1-d1e127",
+    "pl-l4d44c1-d1e137"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T13:09:38Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

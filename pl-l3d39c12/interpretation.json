@@ -1,0 +1,122 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T11:10:24Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l3d39c12-d1e115": {
+  "summary": "Asks whether one who compels a man to swear sins.",
+  "claims": [],
+  "concepts": [
+   "exacting oaths"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d39c12"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:10:24Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d39c12-d1e118": {
+  "summary": "Quotes Augustine: it matters much whether the one demanding the oath knows the other will swear falsely. If he does not know and asks for an oath to be assured, it is not sin, though a human temptation; if he knows the other did it and compels him to swear, he is a murderer.",
+  "claims": [
+   "Demanding an oath without knowing it will be false is not a sin.",
+   "Compelling a known false oath is murder."
+  ],
+  "concepts": [
+   "exacting oaths",
+   "knowledge",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d39c12"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:10:24Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d39c12-d1e130": {
+  "summary": "Adds Augustine: one who provokes a man to swear, knowing he will swear falsely, surpasses a murderer: the murderer kills a body, he kills a soul, indeed two, the other's and his own.",
+  "claims": [
+   "Provoking a false oath kills two souls."
+  ],
+  "concepts": [
+   "exacting oaths",
+   "spiritual murder",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d39c12"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:10:24Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d39c12-d1e137": {
+  "summary": "Notes that a holy synod decreed that, except for making peace, all the faithful should come fasting to oaths.",
+  "claims": [
+   "Oaths should be taken fasting, except for making peace."
+  ],
+  "concepts": [
+   "conciliar law",
+   "oath"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d39c12"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:10:24Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d39c12": {
+  "summary": "Asks whether one sins who compels another to swear. Augustine: it matters whether one knows the other will swear falsely. If not, and one asks for an oath to be assured, it is not a sin but a human temptation; if one knows he did the deed and makes him swear, he is a murderer, worse than one, since he kills two souls, the swearer's and his own. A council decreed that, except for making peace, the faithful should take oaths fasting.",
+  "claims": [
+   "Demanding an oath without knowing it will be false is not a sin.",
+   "Compelling an oath one knows will be false is worse than murder.",
+   "The faithful should take oaths fasting except when making peace."
+  ],
+  "concepts": [
+   "exacting oaths",
+   "cooperation in sin",
+   "perjury",
+   "conciliar law"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d39c12-d1e115",
+    "pl-l3d39c12-d1e118",
+    "pl-l3d39c12-d1e130",
+    "pl-l3d39c12-d1e137"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T11:10:24Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

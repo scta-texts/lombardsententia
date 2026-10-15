@@ -1,0 +1,117 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T13:09:38Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d44c4-d1e115": {
+  "summary": "Asks about the reprobate, whether with the deformities had here (sentence continues).",
+  "claims": [],
+  "concepts": [
+   "resurrection of the damned"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d44c4",
+    "pl-l4d44c4-d1e118"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:09:38Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d44c4-d1e118": {
+  "summary": "Completes the question: they rise.",
+  "claims": [],
+  "concepts": [
+   "resurrection of the damned"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d44c4",
+    "pl-l4d44c4-d1e115"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:09:38Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d44c4-d1e121": {
+  "summary": "Quotes Augustine, who leaves it doubtful: those not freed by Christ from the mass of perdition through Adam will rise, each with his own flesh, to be punished with the devil and his angels; whether with the vices and deformities of their bodies, why labor to inquire? Their uncertain condition or beauty should not tire us, whose damnation is certain and eternal.",
+  "claims": [
+   "The damned rise with their own flesh.",
+   "Whether with deformities is not worth inquiring."
+  ],
+  "concepts": [
+   "resurrection of the damned",
+   "mass of perdition",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d44c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:09:38Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d44c4-d1e131": {
+  "summary": "Notes that Augustine does not define whether the reprobate's bodies will then have the deformities they had here.",
+  "claims": [
+   "The question is left undecided."
+  ],
+  "concepts": [
+   "open question"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d44c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:09:38Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d44c4": {
+  "summary": "Asks whether the reprobate will rise with the deformities they had here. Augustine does not assert it but leaves it doubtful: those not freed by Christ will rise with their own flesh to be punished with the devil, but there is no need to labor over whether with their defects, since their condition is uncertain and their damnation certain.",
+  "claims": [
+   "The reprobate rise with their own flesh for punishment.",
+   "Whether they keep their deformities is left undecided."
+  ],
+  "concepts": [
+   "resurrection of the damned",
+   "open question",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d44c4-d1e115",
+    "pl-l4d44c4-d1e118",
+    "pl-l4d44c4-d1e121",
+    "pl-l4d44c4-d1e131"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T13:09:38Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

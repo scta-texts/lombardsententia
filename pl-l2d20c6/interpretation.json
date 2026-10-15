@@ -1,0 +1,63 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:15:59Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d20c6-d1e108": {
+  "summary": "Concludes that such was man's bodily condition before sin. From this state he was to be transferred with all his descendants to a better state, enjoying the eternal good prepared in heaven. As man is of two natures, God prepared two goods: temporal and eternal, visible and invisible, for flesh and spirit. Since the animal comes first, he gave the temporal good first and promised the eternal, to be sought by merit; to keep the one and merit the other, he added to natural reason, which discerns good and evil, a command of obedience, so that by merit he would reach reward.",
+  "claims": [
+   "God prepared two goods for man.",
+   "The eternal good was to be merited by obedience.",
+   "Natural reason was supplemented by a command."
+  ],
+  "concepts": [
+   "two goods",
+   "merit",
+   "obedience"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d20c6",
+    "pl-l2d20c5"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:15:59Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d20c6": {
+  "summary": "Concludes the account of man's bodily condition before sin. From that state man was to be transferred with all his descendants to a better, worthier state, to enjoy the heavenly, eternal good. As man is twofold, God prepared two goods: temporal and eternal, visible and invisible, for flesh and for spirit. Since the animal comes before the spiritual, he gave the temporal good first, promised the eternal, and set it to be sought by merit; to keep what was given and merit what was promised, he added to natural reason, by which man could discern good and evil, a command of obedience, so that through merit he would come to reward.",
+  "claims": [
+   "Man was to be transferred with his descendants to a better state.",
+   "God prepared two goods for man: temporal and eternal, for flesh and spirit.",
+   "The temporal good was given first; the eternal was promised to be merited.",
+   "God added a command of obedience to natural reason.",
+   "By keeping the command man would keep what he had and gain what was promised."
+  ],
+  "concepts": [
+   "two goods",
+   "original justice",
+   "obedience",
+   "merit and reward",
+   "natural reason"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d20c6-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:15:59Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

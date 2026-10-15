@@ -1,0 +1,105 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T21:14:34Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d41c4-d1e108": {
+  "summary": "Infers that if every mortal sin is voluntary and evil will is mortal sin, evil will is itself voluntary sin.",
+  "claims": [
+   "Evil will is voluntary sin."
+  ],
+  "concepts": [
+   "evil will"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d41c4",
+    "pl-l2d41c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:14:34Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d41c4-d1e111": {
+  "summary": "Cites Augustine: what is so much in the will as the will itself? So evil will is rightly called voluntary sin; will is the first cause of sinning, or no sin is; sin is rightly imputed only to the sinner, and so only to the will.",
+  "claims": [
+   "Will is the first cause of sin.",
+   "Sin is imputed to the will."
+  ],
+  "concepts": [
+   "imputation",
+   "Augustine De libero arbitrio"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d41c4",
+    "pl-l2d41c4-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:14:34Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d41c4-d1e114": {
+  "summary": "States this concerns actual and mortal sin, and that Augustine, as he says in the Retractationes, meant only that will is that by which one sins and lives rightly.",
+  "claims": [
+   "Will is the principle of sin and right living."
+  ],
+  "concepts": [
+   "Augustine Retractationes"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d41c4",
+    "pl-l2d41c4-d1e111"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:14:34Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d41c4": {
+  "summary": "If every mortal sin is voluntary, and evil will is mortal sin, then evil will is itself voluntary sin, since nothing is so in the will as the will itself. Augustine: will is the first cause of sinning, or no sin is; sin is imputed only to the sinner, and so only to the will. This concerns actual mortal sin; Augustine meant only that will is that by which one sins and lives rightly.",
+  "claims": [
+   "Evil will is itself voluntary sin.",
+   "Nothing is so much in the will as the will itself.",
+   "Will is the first cause of sinning.",
+   "Sin is rightly imputed only to the will.",
+   "This concerns actual mortal sin."
+  ],
+  "concepts": [
+   "voluntariness of sin",
+   "evil will",
+   "imputation",
+   "Augustine De libero arbitrio",
+   "Augustine Retractationes"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d41c4-d1e108",
+    "pl-l2d41c4-d1e111",
+    "pl-l2d41c4-d1e114"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T21:14:34Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

@@ -1,0 +1,80 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:15:59Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d19c3-d1e108": {
+  "summary": "Cites Augustine: before sin the body was mortal and immortal, able to die and not to die; not being able to die differs from being able not to die. Sin made it not mortal, which it was, but dead, which it would not have been; the present body is worse than the first man's, having the necessity of dying. So the body before sin was mortal and immortal, but not as it will be in the resurrection.",
+  "claims": [
+   "Being able not to die differs from not being able to die.",
+   "Sin brought the necessity of death."
+  ],
+  "concepts": [
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d19c3",
+    "pl-l2d19c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:15:59Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d19c3-d1e113": {
+  "summary": "Cites Bede on Genesis: bodies before sin were not dead as now; though animal and not yet spiritual, they were not dead, that is, necessarily dying.",
+  "claims": [
+   "Before sin bodies were not under necessity of death."
+  ],
+  "concepts": [
+   "Bede"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d19c3",
+    "pl-l2d19c3-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:15:59Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d19c3": {
+  "summary": "Continues Augustine: before sin the body was mortal and immortal, able to die and not to die; not being able to die differs from being able not to die. Sin made it not mortal, which it was, but dead, with the necessity of dying. Bede agrees: bodies before sin were animal but not dead, not necessarily dying.",
+  "claims": [
+   "Before sin the body was mortal and immortal.",
+   "Being able not to die differs from not being able to die.",
+   "Sin made the body dead, with the necessity of dying.",
+   "Before sin bodies were animal but not dead."
+  ],
+  "concepts": [
+   "mortality",
+   "immortality",
+   "Augustine",
+   "Bede"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d19c3-d1e108",
+    "pl-l2d19c3-d1e113"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:15:59Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

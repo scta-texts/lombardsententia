@@ -1,0 +1,58 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T13:14:26Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d50c4-d1e115": {
+  "summary": "Quotes Augustine on understanding Lazarus and the rich man: if someone thinks souls without bodies are held in bodily places, some will argue that the thirsty rich man was in a bodily place and his soul was bodily with a tongue wanting a drop from Lazarus's finger; but it is better to doubt about hidden things than to quarrel about uncertain ones. I do not doubt that the rich man was in punishment and the poor man in refreshment; but how the rich man's tongue, Lazarus's finger, the flame of hell, Abraham's bosom are to be understood is scarcely found by the gentle and never by the contentious.",
+  "claims": [
+   "The punishment and rest are certain; the details are uncertain.",
+   "Humility should govern inquiry into hidden things."
+  ],
+  "concepts": [
+   "rich man and Lazarus",
+   "intellectual humility",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d50c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:14:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d50c4": {
+  "summary": "On how to understand the rich man and Lazarus: Augustine says some will hold that souls without bodies are held in bodily places, that the thirsty rich man was in a bodily place with a bodily tongue; but it is better to doubt about hidden things than to quarrel about uncertain ones. That the rich man was in punishment and the poor man in refreshment is certain; how to understand the tongue, the finger, the flame, and Abraham's bosom is hardly found by the gentle and never by the contentious.",
+  "claims": [
+   "The rich man's punishment and Lazarus's rest are certain.",
+   "Whether the details are bodily is uncertain.",
+   "It is better to doubt than to quarrel about hidden things."
+  ],
+  "concepts": [
+   "rich man and Lazarus",
+   "separated soul",
+   "intellectual humility",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d50c4-d1e115"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T13:14:26Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

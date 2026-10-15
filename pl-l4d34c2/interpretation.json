@@ -1,0 +1,145 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T13:04:02Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d34c2-d1e115": {
+  "summary": "States that Gregory counsels that those who cannot render the debt because of frigidity remain together; but if the wife says 'I want to be a mother and bear children', both should swear with seven relatives that they never united carnally, and then the wife may contract a second marriage, while the frigid husband remains without hope of marriage.",
+  "claims": [
+   "Impotent spouses should remain together.",
+   "If the wife wants children she may remarry after sworn proof."
+  ],
+  "concepts": [
+   "impotence",
+   "Gregory"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d34c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:04:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d34c2-d1e121": {
+  "summary": "Quotes Gregory on those married who cannot have intercourse: if the woman says the man cannot unite with her and can prove it by just judgment, she may take another; if he takes another, they are to be separated.",
+  "claims": [
+   "Proven impotence allows the wife to remarry."
+  ],
+  "concepts": [
+   "impotence",
+   "proof"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d34c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:04:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d34c2-d1e127": {
+  "summary": "Adds Gregory: if he cannot use her as wife, let him keep her as sister; if they want to break the bond, both remain unmarried, since if he could not naturally agree with her, how with another? If the man wants another wife, he clearly acts from devil-prompted hatred, falsely seeking to dismiss her. If the woman says she wants to be a mother, both swear with seven relatives on holy relics that they never became one flesh; then she may remarry, because of their weakness, while the frigid man remains unmarried; if he too marries, they are guilty of perjury and, after penance, must resume the first marriage.",
+  "claims": [
+   "Impotent spouses may live as brother and sister.",
+   "The impotent husband may not remarry; doing so proves perjury."
+  ],
+  "concepts": [
+   "impotence",
+   "perjury",
+   "Gregory"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d34c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:04:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d34c2-d1e137": {
+  "summary": "Notes that this applies when both agree; but if the husband claims he rendered the debt and the wife denies it, it is rightly asked whom to believe.",
+  "claims": [],
+  "concepts": [
+   "proof",
+   "difficulty"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d34c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:04:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d34c2-d1e143": {
+  "summary": "Cites the statute: if a man took a wife and had her for some time, and she says he never had intercourse with her while he says he did, the husband's word stands, since the man is the woman's head; this was decreed concerning natural impossibility.",
+  "claims": [
+   "In such disputes the husband's word stands."
+  ],
+  "concepts": [
+   "proof",
+   "headship"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d34c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:04:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d34c2": {
+  "summary": "On those unable to render the debt from frigidity, Gregory counsels that they remain together; but if the wife says she wants to be a mother, both should swear with seven relatives that they never united, after which she may remarry and he remain unmarried; a husband who seeks another wife is acting from hatred, and if he does remarry they are perjurers and must return to the first marriage. If the husband says he rendered the debt and the wife denies it, the husband is to be believed, as head of the wife; this concerns natural impossibility.",
+  "claims": [
+   "Impotent spouses should remain together as brother and sister.",
+   "If the wife wants children, after sworn proof she may remarry; the impotent man may not.",
+   "In disputes over consummation the husband is believed."
+  ],
+  "concepts": [
+   "impotence",
+   "frigidity",
+   "proof",
+   "remarriage"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d34c2-d1e115",
+    "pl-l4d34c2-d1e121",
+    "pl-l4d34c2-d1e127",
+    "pl-l4d34c2-d1e137",
+    "pl-l4d34c2-d1e143"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T13:04:02Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

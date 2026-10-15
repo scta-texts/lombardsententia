@@ -1,0 +1,83 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T12:35:45Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d15c4-d1e112": {
+  "summary": "Continues Augustine: many goods are given to the unwilling when their benefit, not their will, is served. But greater is the alms by which we forgive from the heart what someone sinned against us; it is less great to be kind to one who has done no harm, far greater to love your enemy and always will good to one who wishes and does you harm.",
+  "claims": [
+   "Forgiving offenses from the heart is the greatest alms.",
+   "Loving enemies exceeds kindness to the harmless."
+  ],
+  "concepts": [
+   "forgiveness",
+   "love of enemies",
+   "almsgiving"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d15c4",
+    "pl-l3d30c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:35:45Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d15c4-d1e121": {
+  "summary": "Adds: shall we understand 'give alms and all is clean' to mean that all is clean for those who do not believe in Christ if they give such alms? Whoever wants to give alms in order must begin with himself and give it first to himself.",
+  "claims": [
+   "Alms do not cleanse unbelievers.",
+   "Almsgiving must begin with oneself."
+  ],
+  "concepts": [
+   "almsgiving",
+   "faith",
+   "order of charity"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d15c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:35:45Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d15c4": {
+  "summary": "Continues Augustine on almsgiving: many goods are done for people against their will when their benefit, not their will, is served; but the greatest alms is to forgive from the heart those who have sinned against us, to love even one's enemy and will him good. 'Give alms and all is clean' does not mean all is clean for those who do not believe in Christ if they give alms; whoever wishes to give alms in order must begin with himself.",
+  "claims": [
+   "Forgiving offenses from the heart is the greatest alms.",
+   "Alms do not make clean those without faith in Christ.",
+   "Ordered almsgiving begins with oneself."
+  ],
+  "concepts": [
+   "almsgiving",
+   "forgiveness",
+   "love of enemies",
+   "order of charity"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d15c4-d1e112",
+    "pl-l4d15c4-d1e121"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T12:35:45Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

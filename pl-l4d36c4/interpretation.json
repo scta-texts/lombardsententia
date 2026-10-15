@@ -1,0 +1,100 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T13:04:02Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d36c4-d1e115": {
+  "summary": "States that by law boys before fourteen and girls before twelve cannot enter marriage; if joined earlier, even with parents' will and assent, they can be separated; but those joined in childhood who after puberty wish to remain together become spouses and thereafter cannot be separated.",
+  "claims": [
+   "Minimum ages are fourteen and twelve.",
+   "Ratification after puberty makes marriage."
+  ],
+  "concepts": [
+   "age for marriage",
+   "subsequent consent"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d36c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:04:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d36c4-d1e124": {
+  "summary": "Adds: espousals cannot be contracted before seven years, since they are contracted by consent alone, which cannot occur unless each understands what is done between them.",
+  "claims": [
+   "Espousals require understanding, from age seven."
+  ],
+  "concepts": [
+   "espousals",
+   "consent",
+   "age"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d36c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:04:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d36c4-d1e130": {
+  "summary": "Notes that these two, with some others added, have been treated as causes by which marriage can be dissolved, though it need not always be.",
+  "claims": [],
+  "concepts": [
+   "impediments",
+   "dissolution"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d36c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:04:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d36c4": {
+  "summary": "By law, boys before fourteen and girls before twelve cannot marry; if joined earlier, even with parents' consent, they may be separated, but if after puberty they wish to remain together they become spouses and cannot be separated. Espousals cannot be contracted before age seven, since they require consent, which requires understanding. These, with others, are causes by which marriage can be, though need not always be, dissolved.",
+  "claims": [
+   "Boys must be fourteen and girls twelve to marry.",
+   "Child marriages ratified after puberty bind.",
+   "Espousals require age seven, the age of understanding."
+  ],
+  "concepts": [
+   "age for marriage",
+   "consent",
+   "espousals",
+   "impediments"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d36c4-d1e115",
+    "pl-l4d36c4-d1e124",
+    "pl-l4d36c4-d1e130"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T13:04:02Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

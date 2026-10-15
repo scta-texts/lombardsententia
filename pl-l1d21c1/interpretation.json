@@ -1,0 +1,105 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T17:39:40Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll1d21c1-d1e3477": {
+  "summary": "Raises a question from the preceding teaching that the Father alone, or Son alone, or Spirit alone is as great as all three together, and that two or three are not greater than one.",
+  "claims": [],
+  "concepts": [
+   "solus",
+   "equality"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d21c1",
+    "pl-l1d19c11"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:39:40Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d21c1-d1e3480": {
+  "summary": "Gives Augustine's form of the question in De Trinitate VI: how can these be said soundly when the Father is never alone, nor the Son, nor the Spirit, since the three persons are always and inseparably together?",
+  "claims": [
+   "The three persons are inseparable."
+  ],
+  "concepts": [
+   "inseparability",
+   "question"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d21c1",
+    "pll1d21c1-d1e3477"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:39:40Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d21c1-d1e3502": {
+  "summary": "Gives Augustine's answer: we call the Father 'alone' not as separated from Son and Spirit, but because they are not Father with him. 'Only the Father is Father' excludes Son and Spirit from sharing paternity; likewise 'alone' with Son or Spirit excludes the others from filiation or procession. So 'the Father alone is as great as the three' means the Father, who is Father and not Son or Spirit, is so great.",
+  "claims": [
+   "'Alone' excludes the others from the personal property, not from the person's company.",
+   "Only the Father is Father, only the Son is Son, only the Spirit is Holy Spirit.",
+   "'The Father alone is as great as the three' means the Father as such is equal to all three."
+  ],
+  "concepts": [
+   "exclusive terms",
+   "consortium of properties",
+   "paternity, filiation, procession"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d21c1",
+    "pll1d21c1-d1e3480"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:39:40Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1d21c1": {
+  "summary": "Raises a question arising from the equality of the persons: how can one say that 'the Father alone' is as great as the three together, when the persons are inseparable and the Father is never alone? With Augustine, 'alone' does not separate the Father from Son and Spirit but excludes them from the property of paternity: only the Father is Father there, only the Son Son, only the Spirit Holy Spirit.",
+  "claims": [
+   "The three persons are inseparable; none is ever alone.",
+   "'The Father alone' does not separate the Father from the other persons.",
+   "'Alone' excludes the other persons from sharing the personal property.",
+   "Only the Father is Father, only the Son is Son, only the Spirit is Holy Spirit."
+  ],
+  "concepts": [
+   "exclusive terms (solus)",
+   "inseparability",
+   "personal properties",
+   "Trinitarian predication"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d21c1-d1e3477",
+    "pll1d21c1-d1e3480",
+    "pll1d21c1-d1e3502"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T17:39:40Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

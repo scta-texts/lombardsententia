@@ -1,0 +1,76 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T12:48:48Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d21c1-d1e115": {
+  "summary": "Raises the question whether some sins are forgiven after this life.",
+  "claims": [],
+  "concepts": [
+   "forgiveness after death"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d21c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:48:48Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d21c1-d1e118": {
+  "summary": "Answers that the Lord shows in the Gospel that some are forgiven after this life, saying the sin against the Holy Spirit will not be forgiven in this age or in the future; so, as the doctors teach, some sins will be forgiven in the future. Some faults are relaxed in this age, some small ones even in the future, which weigh after death but are forgiven if the persons are worthy, having merited it by good acts in this life.",
+  "claims": [
+   "Some small sins are forgiven after death.",
+   "This forgiveness depends on merit in this life."
+  ],
+  "concepts": [
+   "forgiveness after death",
+   "venial sin",
+   "sin against the Holy Spirit"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d21c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:48:48Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d21c1": {
+  "summary": "Asks whether any sins are forgiven after this life. Christ's saying that the sin against the Holy Spirit will not be forgiven in this age or the next implies, as the doctors teach, that some sins are forgiven in the future: some faults are remitted here, some small ones hereafter, which weigh after death but are forgiven to those who merited it by good acts in this life.",
+  "claims": [
+   "Some sins are forgiven after this life.",
+   "Only small sins are forgiven hereafter, to those who merited it in life."
+  ],
+  "concepts": [
+   "forgiveness after death",
+   "venial sin",
+   "sin against the Holy Spirit",
+   "purgation"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d21c1-d1e115",
+    "pl-l4d21c1-d1e118"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T12:48:48Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

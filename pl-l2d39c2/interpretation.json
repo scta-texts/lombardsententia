@@ -1,0 +1,119 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T21:12:25Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d39c2-d1e108": {
+  "summary": "Asks why the act of this natural power is sin if the acts of other powers, remembering and understanding, are not.",
+  "claims": [],
+  "concepts": [
+   "question"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d39c2",
+    "pl-l2d39c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:12:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d39c2-d1e111": {
+  "summary": "Reports their answer: the act of will is of another kind, directed to obtaining or rejecting, and cannot concern evils without being evil; willing evil is evil, understanding or remembering evil is not, though some fairly hold these acts can be evil too, as remembering evil to do it or seeking truth to attack it.",
+  "claims": [
+   "Willing evil is evil; knowing evil is not."
+  ],
+  "concepts": [
+   "intellect and will"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d39c2",
+    "pl-l2d39c2-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:12:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d39c2-d1e114": {
+  "summary": "Notes this is how those who hold all things good insofar as they are resolve the question.",
+  "claims": [],
+  "concepts": [
+   "conclusion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d39c2",
+    "pl-l2d39c2-d1e111"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:12:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d39c2-d1e118": {
+  "summary": "Reports the briefer answer of those who say evil wills are sins and in no way good: the act of will is not among natural things, but only the power of willing, always good and in all, even infants, who do not yet have its act.",
+  "claims": [
+   "Only the power of will is natural."
+  ],
+  "concepts": [
+   "school opinions"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d39c2",
+    "pl-l2d39c2-d1e114",
+    "pl-l2d37c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:12:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d39c2": {
+  "summary": "Asks why the act of will is sin when acts of memory and intellect are not. Answer: willing is of another kind, aimed at obtaining or rejecting, and cannot concern evil without being evil; to will evil is evil, but to understand or remember evil is not, though some say these too can be evil, as remembering evil to do it. Those who say evil wills are sins and in no way good answer more briefly: the act of will is not among natural things, only the power of willing, always good and present even in infants.",
+  "claims": [
+   "Willing aims at obtaining or rejecting, unlike remembering or understanding.",
+   "To will evil is evil; to understand or remember evil is not.",
+   "Remembering or understanding can be evil when aimed at evil.",
+   "On the other view, only the power of willing is natural and always good, present even in infants."
+  ],
+  "concepts": [
+   "will as power and act",
+   "intellect and will",
+   "school opinions"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d39c2-d1e108",
+    "pl-l2d39c2-d1e111",
+    "pl-l2d39c2-d1e114",
+    "pl-l2d39c2-d1e118"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T21:12:25Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

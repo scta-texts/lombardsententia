@@ -1,0 +1,103 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T12:48:48Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d21c6-d1e112": {
+  "summary": "Raises an objection: perhaps Gregory's saying that some light faults are forgiven in the future concerns the punishment of sin, not the sin itself. If one has true penance, everything is forgiven him, though punishment may remain; so if he dies truly penitent he passes without sin, and if not, he carries a stain that will never be deleted. The builder of wood, hay, and straw truly repents, being good and having charity, and dies in charity; so he passes without sin.",
+  "claims": [],
+  "concepts": [
+   "objection",
+   "forgiveness after death"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d21c6"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:48:48Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d21c6-d1e121": {
+  "summary": "Replies that it does not follow: he is good, has charity, and truly repents, yet passes with a venial sin that penance did not delete, since penance deletes only the sin one abandons. Such sin is often not abandoned in this life, though the person is truly penitent without repenting of all venial sins; one can repent of every mortal and venial sin except one or more venial ones, as one can have charity with venial sins, which is impossible with mortal sins. A good person still attached to worldly things, overtaken by sudden death in that earthly affection, will be saved and purged of it after this life.",
+  "claims": [
+   "Penance deletes only abandoned sin.",
+   "One can repent of all mortal sins while retaining venial ones.",
+   "A good person dying with worldly attachment is purged after death."
+  ],
+  "concepts": [
+   "venial sin",
+   "partial penance",
+   "purgatorial fire"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d21c6"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:48:48Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d21c6-d1e124": {
+  "summary": "Concludes that some sins, but light ones, are forgiven after this life. If the authors meant the punishment of sin, why would they mention light sins rather than grave ones, since the punishment of grave sins, unfinished here, also remains after this life?",
+  "claims": [
+   "Light sins themselves are forgiven after death."
+  ],
+  "concepts": [
+   "forgiveness after death",
+   "venial sin"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d21c6"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:48:48Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d21c6": {
+  "summary": "Answers an objection: Gregory's 'some light faults are forgiven in the future' concerns punishment, not sin, since one who truly repents is forgiven all and passes without sin, while one not truly penitent carries an indelible stain; and the builder of wood, hay, and straw truly repents and dies in charity. Lombard replies that it does not follow: one can be good, have charity, and truly repent, yet die with venial sin that penance did not delete, since penance deletes only the sin one abandons, and one can repent of every mortal sin and some venial ones while keeping others, which is impossible with mortal sins. A good person still attached to worldly things who dies suddenly will be saved and purged of that attachment after this life. So some light sins are forgiven after death; if the authorities meant punishment, why would they mention light sins rather than grave ones, whose unfinished punishment also remains?",
+  "claims": [
+   "One can die in charity with venial sins not yet repented.",
+   "Penance deletes only the sin that one abandons.",
+   "One can repent of all mortal sins while retaining some venial ones.",
+   "Light sins, not merely their punishment, are forgiven after death."
+  ],
+  "concepts": [
+   "forgiveness after death",
+   "venial sin",
+   "partial penance",
+   "purgatorial fire",
+   "charity"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d21c6-d1e112",
+    "pl-l4d21c6-d1e121",
+    "pl-l4d21c6-d1e124"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T12:48:48Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

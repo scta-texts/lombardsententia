@@ -1,0 +1,52 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T11:06:24Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l3d34c1-d1e115": {
+  "summary": "Introduces the seven gifts of the Holy Spirit and sets three questions: whether they are virtues, whether all or some will cease in the future, and whether all were in Christ.",
+  "claims": [],
+  "concepts": [
+   "gifts of the Holy Spirit",
+   "virtues",
+   "virtues in the homeland",
+   "virtues of Christ"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d34c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:06:24Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d34c1": {
+  "summary": "Introduces the treatment of the seven gifts of the Holy Spirit with three questions: whether the gifts are virtues; whether all or some will cease in the future; and whether all were in Christ.",
+  "claims": [],
+  "concepts": [
+   "gifts of the Holy Spirit",
+   "virtues",
+   "virtues in the homeland",
+   "virtues of Christ"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d34c1-d1e115"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T11:06:24Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

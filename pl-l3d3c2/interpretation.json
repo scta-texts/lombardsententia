@@ -1,0 +1,60 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T01:01:00Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l3d3c2-d1e117": {
+  "summary": "Proves that the Virgin was immune from all sin from then on with Augustine, De natura et gratia: for the Lord's honor, he wants no question about sin raised regarding Mary, since more grace was given her to conquer sin completely, as she merited to conceive and bear the sinless one; all other saints would have to confess with John that they have sin. She was preceded and filled with singular grace so that what was born of Adam's stock would derive the origin of the race but not of guilt.",
+  "claims": [
+   "Mary was free from all sin by singular grace.",
+   "All other saints have sin.",
+   "Christ derived from Adam the origin of the race but not of guilt."
+  ],
+  "concepts": [
+   "Virgin Mary",
+   "sinlessness",
+   "grace",
+   "original sin"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d3c2",
+    "pl-l3d3c1-d1e127"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:01:00Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d3c2": {
+  "summary": "Shows from Augustine, De natura et gratia, that the Virgin was free from all sin from that time: he excepts her from any question about sin for the Lord's honor, since more grace was given her to conquer sin, and all other saints would have to confess sin. She was preceded and filled with singular grace so that what was born from the first man's stock would draw the origin of the race but not of guilt.",
+  "claims": [
+   "The Virgin Mary was free from all sin.",
+   "Mary received singular grace to conquer sin.",
+   "Christ took human origin without guilt."
+  ],
+  "concepts": [
+   "Virgin Mary",
+   "sinlessness",
+   "grace"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d3c2-d1e117"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T01:01:00Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

@@ -1,0 +1,128 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T18:44:46Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll1d46c5-d1e3510": {
+  "summary": "Distinguishes kinds of good: good in itself and for the recipient but not the doer, as alms given not for God; good in itself and the doer but not the recipient, as truth preached for God to someone disobedient; good in itself, the doer, and the recipient, as truth preached for God to a believer.",
+  "claims": [
+   "Goods differ by whether they benefit doer, recipient, or both."
+  ],
+  "concepts": [
+   "kinds of good"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d46c5",
+    "pll1d46c4-d1e3586"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:44:46Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d46c5-d1e3513": {
+  "summary": "Cites 2 Cor 2:15–16: we are the good odor of Christ, to some of life, to others of death.",
+  "claims": [
+   "The same good may lead to life or death."
+  ],
+  "concepts": [
+   "2 Corinthians 2:15–16"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d46c5",
+    "pll1d46c5-d1e3510"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:44:46Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d46c5-d1e3530": {
+  "summary": "Adds that something is neither good in itself and harms and damns the doer unless he repents, as evil; yet it is useful for something.",
+  "claims": [
+   "Evil harms the doer but is useful for something."
+  ],
+  "concepts": [
+   "evil"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d46c5",
+    "pll1d46c5-d1e3513"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:44:46Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d46c5-d1e3534": {
+  "summary": "Cites the Enchiridion: all things created by the supremely, equally, and unchangeably good Trinity are good though not supremely, and all together very good, since the admirable beauty of the universe consists of all; in it what is called evil, well ordered and in its place, commends goods more, making them more pleasing by comparison.",
+  "claims": [
+   "All created things are good.",
+   "The universe as a whole is very good.",
+   "Evil, rightly ordered, makes goods more praiseworthy."
+  ],
+  "concepts": [
+   "beauty of the universe",
+   "order",
+   "Augustine Enchiridion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d46c5",
+    "pll1d46c5-d1e3530"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:44:46Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1d46c5": {
+  "summary": "Distinguishes kinds of good: something good in itself and for the recipient but not the doer (alms given not for God); good in itself and for the doer but not the recipient (truth preached to the disobedient); good in itself, for the doer, and for the recipient (truth preached to a believer), as Paul says 'we are the good odor of Christ, to some of life, to others of death.' Evil is neither good in itself and harms the doer unless he repents, yet is useful for something. With Augustine, all things made by the supremely good Trinity are good, and the universe very good, in which even evil, well ordered and in its place, makes goods more pleasing by comparison.",
+  "claims": [
+   "Some things are good in themselves and for the recipient but not the doer.",
+   "Some are good in themselves and for the doer but not the recipient.",
+   "Some are good in themselves, for the doer, and for the recipient.",
+   "Evil is not good in itself and harms the doer unless he repents, yet is useful.",
+   "In the universe, evil, rightly ordered, makes goods more pleasing by contrast."
+  ],
+  "concepts": [
+   "kinds of good",
+   "order of the universe",
+   "beauty of the whole",
+   "evil as useful"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d46c5-d1e3510",
+    "pll1d46c5-d1e3513",
+    "pll1d46c5-d1e3530",
+    "pll1d46c5-d1e3534"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T18:44:46Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

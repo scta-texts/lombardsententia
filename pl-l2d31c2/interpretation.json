@@ -1,0 +1,56 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T21:06:51Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d31c2-d1e105": {
+  "summary": "Reports some who thought original sin is drawn through the soul, not only the flesh, holding that the soul as well as the flesh is propagated: as flesh comes substantially from the father's flesh, the child's soul comes essentially from the parent's soul, and so a sinful soul infected with original corruption comes from a sinful soul.",
+  "claims": [
+   "Traducianists derive original sin through the soul."
+  ],
+  "concepts": [
+   "traducianism"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d31c2",
+    "pl-l2d31c1",
+    "pl-l2d18c7"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:06:51Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d31c2": {
+  "summary": "Reports the view that original sin is transmitted through the soul as well as the flesh, since its holders think souls, like bodies, are propagated: as flesh comes substantially from the father's flesh, so the child's soul comes essentially from the parent's soul, and a sinful soul begets a sinful soul infected with original corruption.",
+  "claims": [
+   "Some held that souls are propagated from parents' souls.",
+   "On that view a sinful soul begets a sinful soul."
+  ],
+  "concepts": [
+   "traducianism",
+   "origin of the soul",
+   "original sin",
+   "Hugh of Saint Victor"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d31c2-d1e105"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T21:06:51Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

@@ -1,0 +1,126 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T13:14:26Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d48c3-d1e115": {
+  "summary": "States that as Christ is said to judge according to the form of a servant, he is said to raise the bodies of the dead according to his humanity, though by the power of the divinity, not of the humanity, because in his humanity he underwent what causes our resurrection, his passion and resurrection.",
+  "claims": [
+   "Christ raises bodies according to his humanity.",
+   "His passion and resurrection cause ours."
+  ],
+  "concepts": [
+   "resurrection of the body",
+   "Christ's humanity",
+   "causality"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d48c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:14:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d48c3-d1e118": {
+  "summary": "Quotes Augustine: through the Word, the Son of God, the resurrection of souls occurs; through the Word made flesh, the son of man, the resurrection of bodies occurs.",
+  "claims": [
+   "The Word raises souls; the Word made flesh raises bodies."
+  ],
+  "concepts": [
+   "resurrection of souls and bodies",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d48c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:14:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d48c3-d1e127": {
+  "summary": "Adds Augustine: not the Father but the Son judges and raises bodies, according to the dispensation of humanity in which Christ is less than the Father; as Son of God he is the life that vivifies souls, as son of man the judge.",
+  "claims": [
+   "The Son judges and raises bodies in his humanity."
+  ],
+  "concepts": [
+   "Christ as judge",
+   "two natures"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d48c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:14:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d48c3-d1e137": {
+  "summary": "Concludes that he is said to raise bodies and judge according to his human form: to judge, because that form will appear to all; to raise, because in that form he took on the merit and cause of our resurrection and will give the voice at which the dead rise. As God he gives life to souls, not the Father only, since Father, Son, and Spirit are the same life, belonging to the soul, not the body. Though Christ does all by divine power, the vivification of souls is fittingly attributed to him in the form of God, judgment and bodily resurrection in the form of a servant.",
+  "claims": [
+   "Christ judges and raises in his human form.",
+   "Father, Son, and Spirit together give life to souls."
+  ],
+  "concepts": [
+   "appropriation",
+   "two natures",
+   "resurrection of the body"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d48c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:14:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d48c3": {
+  "summary": "As Christ is said to judge in the form of a servant, he is said to raise bodies according to his humanity, though by divine power, because in his humanity he underwent the cause of our resurrection, his passion and resurrection. Augustine: through the Word, the Son of God, souls rise; through the Word made flesh, bodies rise; the Son as man judges and raises bodies, as Son of God gives life to souls. So life to souls is attributed to him in the form of God, judgment and bodily resurrection in the form of a servant, though all are done by the power of the deity, the whole Trinity giving life to souls.",
+  "claims": [
+   "Christ raises bodies according to his humanity, since his passion and resurrection cause ours.",
+   "The Word gives life to souls; the Word made flesh raises bodies.",
+   "All is done by divine power, but fittingly attributed to his two forms."
+  ],
+  "concepts": [
+   "resurrection of the body",
+   "Christ's humanity",
+   "appropriation",
+   "two natures"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d48c3-d1e115",
+    "pl-l4d48c3-d1e118",
+    "pl-l4d48c3-d1e127",
+    "pl-l4d48c3-d1e137"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T13:14:26Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

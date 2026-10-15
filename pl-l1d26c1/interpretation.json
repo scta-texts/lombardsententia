@@ -1,0 +1,84 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T17:43:01Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll1d26c1-d1e3501": {
+  "summary": "Announces the treatment of the personal properties often mentioned.",
+  "claims": [],
+  "concepts": [
+   "proprietates personarum"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d26c1",
+    "pl-l1d25c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:43:01Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d26c1-d1e3504": {
+  "summary": "Takes up Jerome's claim that poison lies under 'hypostasis.' Lombard explains that he said this because heretics used it ambiguously, for person and essence, to trap the simple when its meaning was not fixed. Jerome's letter to Damasus confesses three subsisting persons and anathematizes those who deny three hypostases as persons, but warns that the Arians use 'three hypostases' to assert three natures, preferring one substance and three persons. So he did not reject the word, only its unqualified use; otherwise he would contradict himself.",
+  "claims": [
+   "Heretics used 'hypostasis' ambiguously.",
+   "Whoever does not confess three hypostases as three persons is anathema.",
+   "Whoever asserts three hypostases as three natures is alien to Christ.",
+   "Jerome rejected misuse, not the term."
+  ],
+  "concepts": [
+   "hypostasis",
+   "Jerome's letter to Damasus",
+   "ambiguity"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d26c1",
+    "pll1d26c1-d1e3501",
+    "pll1d25c3-d1e3535"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:43:01Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1d26c1": {
+  "summary": "Turns to the personal properties. First notes Jerome's warning that 'poison lies hidden' under 'hypostasis': in his letter to Damasus, Arians demanded he say 'three hypostases,' meaning three natures. Jerome confesses three subsisting persons, but warns against the word without explanation. Lombard reads him as rejecting not the term but its heretical misuse when its meaning was not yet fixed; otherwise he would contradict himself, having confessed three hypostases.",
+  "claims": [
+   "Jerome warned against 'hypostasis' because heretics used it ambiguously.",
+   "Three hypostases, meaning three subsisting persons, is orthodox.",
+   "Three hypostases meaning three natures is heretical.",
+   "Jerome did not reject the word but its misuse without distinction."
+  ],
+  "concepts": [
+   "hypostasis",
+   "Jerome",
+   "terminological caution",
+   "Arianism",
+   "reconciliation of authorities"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d26c1-d1e3501",
+    "pll1d26c1-d1e3504"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T17:43:01Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

@@ -1,0 +1,132 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:37:02Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d27c10-d1e108": {
+  "summary": "States that by the gifts or acts of virtues we are good and live justly; from grace, which is not merit but makes merit, not without free choice, come our merits, good affections, their progress, and good works, which God rewards and which are his gifts.",
+  "claims": [
+   "Grace makes merit.",
+   "Merits are God's gifts."
+  ],
+  "concepts": [
+   "merit"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d27c10",
+    "pl-l2d27c9"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:37:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d27c10-d1e111": {
+  "summary": "Cites Augustine to Sixtus: when God crowns our merits he crowns only his gifts; eternal life, given for preceding merits that were made in us by grace, is rightly called grace because it is given freely, not because it is given without merits but because the merits were given by grace.",
+  "claims": [
+   "God crowns his own gifts.",
+   "Eternal life is grace."
+  ],
+  "concepts": [
+   "eternal life",
+   "Augustine to Sixtus"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d27c10",
+    "pl-l2d27c10-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:37:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d27c10-d1e116": {
+  "summary": "Concludes that the earlier questions can now be partly answered: on this view prevenient grace is a virtue, and virtue is not an act but its cause, not without free choice.",
+  "claims": [
+   "Virtue is the cause of the act, not the act."
+  ],
+  "concepts": [
+   "virtue and act"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d27c10",
+    "pl-l2d27c10-d1e111",
+    "pl-l2d27c2-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:37:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d27c10-d1e120": {
+  "summary": "Resolves the tension in Augustine: his calling the good use of free choice virtue means the act of virtue, since he also called the work of virtue the good use of misusable goods, among which is free choice; by 'virtue' he meant its use.",
+  "claims": [
+   "'Virtue' in that text means its act."
+  ],
+  "concepts": [
+   "harmonizing authorities"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d27c10",
+    "pl-l2d27c10-d1e116",
+    "pl-l2d27c4-d1e114"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:37:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d27c10": {
+  "summary": "Concludes that we are good and live justly by the acts of virtues, and from grace, which is not merit but makes merit, though not without free choice, come our merits, good affections, their progress, and good works, which God rewards and which are his gifts. Augustine: when God crowns our merits he crowns his own gifts; eternal life is called grace not because it is not given for merits but because the merits themselves were given by grace. So prevenient grace is a virtue, not an act but its cause, not without free choice; Augustine's calling the good use of free choice virtue means the act of virtue, else he would contradict himself.",
+  "claims": [
+   "Grace is not merit but makes merit, not without free choice.",
+   "Merits are God's gifts.",
+   "When God crowns our merits he crowns his gifts.",
+   "Eternal life is grace because the merits for which it is given are grace.",
+   "Prevenient grace is a virtue and the cause of acts, not an act.",
+   "Augustine's 'good use of free choice is virtue' means the act of virtue."
+  ],
+  "concepts": [
+   "merit",
+   "grace",
+   "eternal life",
+   "virtue and act",
+   "harmonizing authorities",
+   "Augustine to Sixtus"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d27c10-d1e108",
+    "pl-l2d27c10-d1e111",
+    "pl-l2d27c10-d1e116",
+    "pl-l2d27c10-d1e120"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:37:02Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

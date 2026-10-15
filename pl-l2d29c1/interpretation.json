@@ -1,0 +1,86 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:38:20Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d29c1-d1e108": {
+  "summary": "Asks whether man before sin needed operating and cooperating grace.",
+  "claims": [],
+  "concepts": [
+   "question",
+   "grace before the fall"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d29c1",
+    "pl-l2d28c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:38:20Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d29c1-d1e111": {
+  "summary": "Answers that he needed both, though not in every mode of operating grace: not to free his will, which was not enslaved to sin, but to prepare it to will good effectively, which it could not of itself; he could not merit without grace. Augustine: human nature lost by free choice the immortality of being able not to die and will receive by grace that of being unable to die, which it would have received by merit, though even then no merit without grace; sin lay in free choice alone, but free choice did not suffice to have or keep justice without divine help. Man had the means to stand, but could not move his foot without grace.",
+  "claims": [
+   "Before sin, grace prepared but did not free the will.",
+   "Free choice sufficed to sin but not for justice.",
+   "Adam could stand but not advance without grace."
+  ],
+  "concepts": [
+   "grace before the fall",
+   "Augustine Enchiridion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d29c1",
+    "pl-l2d29c1-d1e108",
+    "pl-l2d24c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:38:20Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d29c1": {
+  "summary": "Asks whether man before sin needed operating and cooperating grace. Lombard answers yes, though not for every mode of operating grace: not to free his will, which was not enslaved to sin, but to prepare it to will good effectively, which it could not of itself. Augustine: human nature lost by free choice the immortality of being able not to die, and will receive by grace the immortality of being unable to die, which it would have received by merit had it not sinned, though even then there could be no merit without grace; free choice sufficed to sin but not to have or keep justice without divine help. Man had the means to stand, but not to move forward without grace.",
+  "claims": [
+   "Man before sin needed operating and cooperating grace.",
+   "Before sin grace did not need to free the will, only to prepare it.",
+   "Even before sin there could be no merit without grace.",
+   "Free choice sufficed for sin but not for justice.",
+   "Adam could stand but not advance without grace."
+  ],
+  "concepts": [
+   "grace before the fall",
+   "operating grace",
+   "cooperating grace",
+   "merit",
+   "original state",
+   "immortality",
+   "Augustine Enchiridion"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d29c1-d1e108",
+    "pl-l2d29c1-d1e111"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:38:20Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

@@ -1,0 +1,132 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:35:42Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d26c3-d1e108": {
+  "summary": "States that the grace preventing and preparing the will is faith with love.",
+  "claims": [
+   "Prevenient grace is faith with love."
+  ],
+  "concepts": [
+   "faith",
+   "charity"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d26c3",
+    "pl-l2d26c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:35:42Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d26c3-d1e111": {
+  "summary": "Cites Augustine on how we are justified by faith and yet freely: lest faith be proud and ask why what it merits is not paid rather than given, it is answered 'what have you that you have not received?' The faith by which you are justified was given freely. So faith is the cause of justification and itself the grace by which the will is prevented and prepared.",
+  "claims": [
+   "Faith is freely given.",
+   "Faith is the cause of justification and itself grace."
+  ],
+  "concepts": [
+   "justification",
+   "1 Corinthians 4:7"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d26c3",
+    "pl-l2d26c3-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:35:42Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d26c3-d1e114": {
+  "summary": "Cites the Retractationes: the will is that by which we sin and live rightly; unless freed by grace from servitude to sin and helped to overcome vice, it cannot live rightly; and the freeing benefit, if it did not precede, would be given for merits and not be grace.",
+  "claims": [
+   "Freeing grace must precede merit."
+  ],
+  "concepts": [
+   "Augustine Retractationes",
+   "gratuity of grace"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d26c3",
+    "pl-l2d26c3-d1e111"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:35:42Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d26c3-d1e118": {
+  "summary": "Concludes that the good will is prevented by the benefit of grace that frees and prepares it, rightly understood as faith in Christ, as the Enchiridion says: choice is freed from sin's servitude not by itself but by grace alone, placed in the faith of Christ; faith obtains what the law commands.",
+  "claims": [
+   "The freeing grace is placed in the faith of Christ.",
+   "Faith obtains what the law commands."
+  ],
+  "concepts": [
+   "faith of Christ",
+   "Augustine Enchiridion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d26c3",
+    "pl-l2d26c3-d1e114"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:35:42Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d26c3": {
+  "summary": "Identifies the grace that prevents and prepares the will as faith with love. Augustine explains how we are justified both by faith and freely: faith, which merits justification, was itself freely given ('what have you that you have not received?'), so faith is the cause of justification and itself the grace by which the will is prevented. Without the grace that frees the will from sin's servitude it cannot live rightly, and that grace, if it did not come first, would be given for merits and not be grace. The Enchiridion places this freeing grace in the faith of Christ, which obtains what the law commands.",
+  "claims": [
+   "The grace preventing the will is faith with love.",
+   "We are justified by faith and freely, because faith itself is a free gift.",
+   "Faith is the cause of justification and is itself grace.",
+   "Freeing grace must precede merit or it would not be grace.",
+   "The grace freeing choice lies in the faith of Christ."
+  ],
+  "concepts": [
+   "faith",
+   "justification",
+   "prevenient grace",
+   "merit",
+   "gratuity of grace",
+   "faith of Christ"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d26c3-d1e108",
+    "pl-l2d26c3-d1e111",
+    "pl-l2d26c3-d1e114",
+    "pl-l2d26c3-d1e118"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:35:42Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

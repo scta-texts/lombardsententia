@@ -1,0 +1,76 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T21:14:34Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d42c5-d1e108": {
+  "summary": "Notes that sin has various names, peccatum and delictum.",
+  "claims": [],
+  "concepts": [
+   "terminology"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d42c5",
+    "pl-l2d42c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:14:34Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d42c5-d1e111": {
+  "summary": "Cites Augustine on Leviticus: delictum is perhaps declining from good, peccatum doing evil; peccatum is perpetrating evil, delictum deserting good, as the name 'derelictum' shows; or delictum is what is done in ignorance, peccatum what is done knowingly; yet each is called by the other's name indifferently.",
+  "claims": [
+   "The terms differ in sense but are interchangeable in use."
+  ],
+  "concepts": [
+   "peccatum and delictum",
+   "Augustine Quaestiones in Leviticum"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d42c5",
+    "pl-l2d42c5-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:14:34Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d42c5": {
+  "summary": "Notes that sin is also called peccatum and delictum. Augustine: delictum is perhaps declining from good, peccatum doing evil; delictum as desertion of good, as the name derelictum shows; or delictum is done in ignorance, peccatum knowingly; yet the terms are used interchangeably.",
+  "claims": [
+   "Delictum may mean deserting good; peccatum doing evil.",
+   "Delictum may mean sin in ignorance; peccatum sin knowingly.",
+   "The two terms are used interchangeably."
+  ],
+  "concepts": [
+   "peccatum and delictum",
+   "omission and commission",
+   "Augustine Quaestiones in Leviticum"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d42c5-d1e108",
+    "pl-l2d42c5-d1e111"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T21:14:34Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

@@ -1,0 +1,83 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:30:14Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d21c6-d1e108": {
+  "summary": "States that there are two kinds of temptation, interior and exterior.",
+  "claims": [
+   "Temptation is interior or exterior."
+  ],
+  "concepts": [
+   "temptation"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d21c6",
+    "pl-l2d21c5"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:30:14Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d21c6-d1e114": {
+  "summary": "Explains: exterior temptation is evil suggested visibly from outside by word or sign, only from the adversary; interior is evil suggested invisibly within, sometimes by the enemy, sometimes by the flesh, from whose corruption arise illicit motion and wrongful tickling. So temptation from the flesh is not without sin; from the enemy, without consent, it is no sin but material for exercising virtue. Interior temptation of the flesh is harder to overcome, attacking with our own strength.",
+  "claims": [
+   "Temptation of the flesh involves sin.",
+   "Temptation from the enemy without consent is not sin."
+  ],
+  "concepts": [
+   "concupiscence",
+   "consent"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d21c6",
+    "pl-l2d21c6-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:30:14Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d21c6": {
+  "summary": "Distinguishes two kinds of temptation, exterior and interior. Exterior temptation suggests evil visibly from outside by word or sign, only from the enemy. Interior temptation suggests evil invisibly within, sometimes from the enemy, sometimes from the flesh; temptation from the flesh is not without sin, since it comes from corruption, while temptation from the enemy has no sin unless consented to and is material for virtue. Interior temptation of the flesh is harder to overcome, attacking with our own strength.",
+  "claims": [
+   "Temptation is exterior or interior.",
+   "Exterior temptation comes only from the enemy.",
+   "Interior temptation comes from the enemy or from the flesh.",
+   "Temptation from the flesh is not without sin.",
+   "Temptation from the enemy is not sin unless consented to.",
+   "Interior temptation from the flesh is harder to overcome."
+  ],
+  "concepts": [
+   "temptation",
+   "exterior and interior",
+   "flesh",
+   "consent"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d21c6-d1e108",
+    "pl-l2d21c6-d1e114"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:30:14Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

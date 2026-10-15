@@ -1,0 +1,57 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:32:08Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d24c5-d1e108": {
+  "summary": "Explains with Augustine that the higher part of reason adheres to contemplating or consulting eternal reasons, the lower turns to governing temporal things; contemplation of the eternal is assigned to wisdom, good use of temporal things to knowledge. Speaking of the mind we speak of one thing, doubled only by its offices. The carnal or sensual motion, common to us and beasts, is removed from the reason of wisdom but near the reason of knowledge.",
+  "claims": [
+   "Higher reason is wisdom; lower reason is knowledge.",
+   "The mind is one, distinguished by functions."
+  ],
+  "concepts": [
+   "wisdom and knowledge"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d24c5",
+    "pl-l2d24c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:32:08Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d24c5": {
+  "summary": "Continues Augustine: the higher part of reason adheres to contemplating or consulting eternal reasons, the lower turns to governing temporal things; the first is assigned to wisdom, the second to knowledge. The mind is one thing, doubled only by its offices. The carnal or sensual motion toward the senses, common to us and beasts, is far from the reason of wisdom but near the reason of knowledge.",
+  "claims": [
+   "The higher part of reason contemplates eternal reasons and is assigned to wisdom.",
+   "The lower part governs temporal things and is assigned to knowledge.",
+   "The mind is one, distinguished only by its functions.",
+   "Sensual motion is near the reason of knowledge, far from wisdom."
+  ],
+  "concepts": [
+   "sapientia and scientia",
+   "ratio superior and inferior",
+   "Augustine De Trinitate XII"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d24c5-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:32:08Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

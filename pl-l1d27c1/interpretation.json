@@ -1,0 +1,128 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T17:44:00Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll1d27c1-d1e3501": {
+  "summary": "Asks whether Hilary's properties (the Father always Father, the Son always Son) are the same as Augustine's (begetting, being begotten, proceeding), and whether these are paternity, filiation, procession.",
+  "claims": [],
+  "concepts": [
+   "question",
+   "proprietates"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d27c1",
+    "pll1d26c3-d1e3529",
+    "pll1d26c2-d1e3506"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:44:00Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d27c1-d1e3507": {
+  "summary": "Argues they are not the same: if being Father were the same as begetting, whatever is Father would beget; so if the divine nature is Father, it begot the Son, and if it did not beget, it is not Father. No one would say either. So being Father and begetting are not the same property.",
+  "claims": [],
+  "concepts": [
+   "objection",
+   "divine nature as Father"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d27c1",
+    "pll1d27c1-d1e3501"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:44:00Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d27c1-d1e3516": {
+  "summary": "Answers, without prejudice to others, that both marked the same properties in different words.",
+  "claims": [
+   "Hilary and Augustine signify the same properties."
+  ],
+  "concepts": [
+   "answer"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d27c1",
+    "pll1d27c1-d1e3507"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:44:00Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d27c1-d1e3520": {
+  "summary": "Interprets Hilary: the Father's proper is that he is always Father, because he always begot the Son, and this is paternity or generation. The Son's is that he is always Son, because always begotten, and this is filiation, nativity, origin, or nascibility. The Spirit's is that he proceeds from both, which is procession.",
+  "claims": [
+   "Paternity is the property of always having begotten.",
+   "Filiation is the property of always being begotten.",
+   "Procession is the Spirit's property."
+  ],
+  "concepts": [
+   "paternity",
+   "filiation",
+   "procession",
+   "synonyms"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d27c1",
+    "pll1d27c1-d1e3516"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:44:00Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1d27c1": {
+  "summary": "Asks whether Hilary's properties (the Father is always Father, the Son always Son) are the same as Augustine's (begetting, being begotten, proceeding), and whether these are paternity, filiation, and procession. It seems not: if being Father were the same as begetting, the divine nature, if Father, would beget, which no one would say. Lombard answers, without prejudice to others, that both mark the same properties in different words: the Father is always Father because he always begot, and this is paternity or generation; likewise filiation and procession.",
+  "claims": [
+   "Hilary and Augustine designate the same personal properties in different words.",
+   "The Father is always Father because he always begot the Son.",
+   "The property by which the Father is Father is paternity or generation.",
+   "The Son's property is filiation, nativity, or origin; the Spirit's is procession."
+  ],
+  "concepts": [
+   "proprietates",
+   "paternity",
+   "filiation",
+   "procession",
+   "reconciliation of authorities"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d27c1-d1e3501",
+    "pll1d27c1-d1e3507",
+    "pll1d27c1-d1e3516",
+    "pll1d27c1-d1e3520"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T17:44:00Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

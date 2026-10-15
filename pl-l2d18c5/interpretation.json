@@ -1,0 +1,82 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:14:24Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d18c5-d1e108": {
+  "summary": "Asks whether the reason God concreated with the first works required that woman be made from man's side, or only made it possible.",
+  "claims": [],
+  "concepts": [
+   "question"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d18c5",
+    "pl-l2d18c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:14:24Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d18c5-d1e113": {
+  "summary": "Explains that the causes of all things are in God from eternity, in his power and disposition, called primordial causes because no others precede them; though God's power and will are one, Augustine speaks of many because of diverse effects, as the future chest is in the craftsman's plan. In creatures are causes of some things, the seminal reasons God implanted, by which things arise from things; these are primordial less properly, having the eternal cause before them, implanted at the first creation, and mutable, unlike the cause in God.",
+  "claims": [
+   "Primordial causes are in God's eternal disposition.",
+   "Seminal reasons in creatures are secondary and mutable."
+  ],
+  "concepts": [
+   "primordial causes",
+   "seminal reasons"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d18c5",
+    "pl-l2d18c5-d1e108",
+    "pl-l2d17c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:14:24Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d18c5": {
+  "summary": "Asks whether the reason God concreated with the first works required that woman be made from man's side or only allowed it. The causes of all things are in God from eternity, in his power and disposition, called primordial causes since no causes precede them; though God's power and will are one, Augustine speaks of many primordial causes because of diverse effects, as a craftsman's plan contains the future chest. In creatures there are causes of some things, the seminal reasons God implanted, by which things come from things; these are called primordial less properly, since they have the eternal cause before them, and they are mutable, while the cause in God is not.",
+  "claims": [
+   "The causes of all things exist in God from eternity.",
+   "These are the primordial causes in the proper sense.",
+   "God's power and will are one, though many causes are named for diverse effects.",
+   "God implanted seminal reasons in creatures by which things come from things.",
+   "Seminal reasons are called primordial less properly and are mutable."
+  ],
+  "concepts": [
+   "primordial causes",
+   "seminal reasons",
+   "causes in God's disposition",
+   "Augustine",
+   "causality"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d18c5-d1e108",
+    "pl-l2d18c5-d1e113"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:14:24Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

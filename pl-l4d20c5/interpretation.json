@@ -1,0 +1,105 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T12:42:09Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d20c5-d1e115": {
+  "summary": "States that in time of necessity penance and reconciliation are not to be denied to penitents.",
+  "claims": [
+   "Penance and reconciliation must not be denied in necessity."
+  ],
+  "concepts": [
+   "penance of the dying",
+   "reconciliation"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d20c5"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:42:09Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d20c5-d1e118": {
+  "summary": "Quotes Leo: those who in necessity and pressing danger beg for the aid of penance and quick reconciliation should not be refused satisfaction or reconciliation, since we can put no measures on God's mercy or define its times. If illness prevents them from signifying what they asked a little before, the testimony of the faithful around them should avail, so they receive the benefit of penance and reconciliation.",
+  "claims": [
+   "God's mercy has no fixed measure or time.",
+   "Bystanders' testimony suffices for those who cannot speak."
+  ],
+  "concepts": [
+   "mercy of God",
+   "reconciliation",
+   "Leo"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d20c5"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:42:09Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d20c5-d1e127": {
+  "summary": "Quotes Pope Julius: a priest who refuses penance to the dying will be guilty of their souls, since the Lord says 'when he turns, he will be saved'; true confession can be made at the last moment, since God inspects not only time but the heart, as the thief shows.",
+  "claims": [
+   "Refusing penance to the dying makes the priest guilty.",
+   "True confession is possible at the last moment."
+  ],
+  "concepts": [
+   "penance of the dying",
+   "good thief",
+   "Julius"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d20c5"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:42:09Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d20c5": {
+  "summary": "Teaches that penance and reconciliation must not be denied to penitents in time of necessity. Leo: those who in danger seek penance and reconciliation should not be refused, since we can set no measures or times for God's mercy; if illness prevents them from expressing what they asked, the testimony of the faithful present should suffice. Julius: a priest who refuses penance to the dying will be guilty of their souls, since true confession can be made at the last, God judging the heart, as the thief shows.",
+  "claims": [
+   "Penance and reconciliation must not be denied in necessity.",
+   "God's mercy has no measures or times.",
+   "Bystanders' testimony suffices for those unable to speak.",
+   "A priest who refuses penance to the dying is guilty of their souls."
+  ],
+  "concepts": [
+   "penance of the dying",
+   "reconciliation",
+   "mercy of God",
+   "good thief"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d20c5-d1e115",
+    "pl-l4d20c5-d1e118",
+    "pl-l4d20c5-d1e127"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T12:42:09Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

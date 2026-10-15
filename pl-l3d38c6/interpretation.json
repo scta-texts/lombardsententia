@@ -1,0 +1,109 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T11:35:44Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l3d38c6-d1e115": {
+  "summary": "Teaches that we are deceived in some things with great harm, in some with little, in some with none. In things that make no difference to attaining God's kingdom, erring is no sin or the least; yet some truths, though unseen, must be believed to reach eternal life. Error must be carefully avoided in great and small things, but one who does not know something does not thereby err; one errs who thinks he knows what he does not, approving the false as true. Some things are better unknown, and error has sometimes helped some, but in the way of the feet, not of morals.",
+  "claims": [
+   "Error about things irrelevant to salvation is no sin or the least.",
+   "Some truths must be believed for eternal life.",
+   "Error consists in thinking one knows what one does not.",
+   "Error in practical matters may help, but not in morals."
+  ],
+  "concepts": [
+   "error",
+   "ignorance",
+   "truths necessary for salvation",
+   "way of feet and way of morals"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d38c6"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:35:44Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d38c6-d1e130": {
+  "summary": "Asks whether Jacob lied when he said he was Esau, thinking otherwise in his mind.",
+  "claims": [],
+  "concepts": [
+   "Jacob and Esau",
+   "lying"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d38c6"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:35:44Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d38c6-d1e133": {
+  "summary": "Quotes Augustine: what Jacob did at his mother's prompting to deceive his father is, carefully considered, not a lie but a mystery. He intended to obey his mother, who knew the mystery through the Spirit; so through the counsel of the Holy Spirit his mother received, Jacob is excused from lying.",
+  "claims": [
+   "Jacob's act was a mystery, not a lie.",
+   "Jacob is excused because he obeyed his mother, who knew the mystery through the Spirit."
+  ],
+  "concepts": [
+   "Jacob and Esau",
+   "mystery",
+   "obedience",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d38c6"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:35:44Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d38c6": {
+  "summary": "Teaches, after Augustine, that in some matters we err with great harm, in some little, in some none. Erring in things that do not matter for attaining God's kingdom is no sin or the slightest; yet some unseen truths must be believed for eternal life. Error is not mere ignorance but thinking one knows what one does not, approving the false as true; some things are better unknown, and some have profited from error in the way of their feet, not of their morals. Jacob's claim to be Esau, made at his mother's direction, was not a lie but a mystery: he meant to obey his mother, who knew the mystery through the Spirit.",
+  "claims": [
+   "Error in matters irrelevant to salvation is no sin or the slightest.",
+   "Some truths must be believed to reach eternal life.",
+   "Error is thinking one knows what one does not.",
+   "Jacob's deception of Isaac was a mystery, not a lie."
+  ],
+  "concepts": [
+   "error",
+   "ignorance",
+   "truths necessary for salvation",
+   "Jacob and Esau",
+   "mystery",
+   "obedience"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d38c6-d1e115",
+    "pl-l3d38c6-d1e130",
+    "pl-l3d38c6-d1e133"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T11:35:44Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

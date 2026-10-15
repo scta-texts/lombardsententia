@@ -1,0 +1,132 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T18:41:19Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll1d41c1-d1e3501": {
+  "summary": "States that hardening has merit but mercy has none, lest grace be emptied if given for merits rather than freely; God has mercy by grace freely given and hardens by judgment rendered for merits.",
+  "claims": [
+   "Mercy has no merit.",
+   "Hardening is by judgment for merits."
+  ],
+  "concepts": [
+   "grace and merit"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d41c1",
+    "pll1d40c2-d1e3614"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:41:19Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d41c1-d1e3504": {
+  "summary": "Infers that as reprobation is God's not willing to have mercy, hardening is his not having mercy: nothing is inflicted to make a person worse, but what would make him better is not given.",
+  "claims": [
+   "Hardening adds no evil; it withholds good."
+  ],
+  "concepts": [
+   "hardening as privation"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d41c1",
+    "pll1d41c1-d1e3501"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:41:19Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d41c1-d1e3516": {
+  "summary": "Shows what Paul meant: no merit calls forth mercy, but hardening is not without merit. 'Mercy' means predestination, especially its effect; 'hardening' means not eternal reprobation, which has no merit, but the privation or withdrawal of grace, its effect; though reprobation is sometimes used for hardening, as predestination for its effect.",
+  "claims": [
+   "'Mercy' means predestination and its effect.",
+   "'Hardening' means withdrawal of grace."
+  ],
+  "concepts": [
+   "Romans 9:18",
+   "effects of predestination and reprobation"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d41c1",
+    "pll1d41c1-d1e3504"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:41:19Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d41c1-d1e3525": {
+  "summary": "Concludes that since grace for justification has no merits, much less can predestination or reprobation have merits: Jacob was chosen and Esau rejected not for merits they then had, since they did not exist, nor for foreseen future merits.",
+  "claims": [
+   "Predestination and reprobation have no merits.",
+   "Election is not based on foreseen merits."
+  ],
+  "concepts": [
+   "Jacob and Esau",
+   "foreseen merits rejected"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d41c1",
+    "pll1d41c1-d1e3516"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:41:19Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1d41c1": {
+  "summary": "Asks about the merit of hardening and mercy. Hardening has merit, mercy has none, lest grace be emptied: God has mercy by grace freely given and hardens by judgment rendered to merits. As reprobation is God's not willing to show mercy, hardening is his not showing mercy, inflicting nothing that makes a person worse, but withholding what would make him better. 'Mercy' here means predestination and its effect; 'hardening' means not eternal reprobation, which has no merit, but the withdrawal of grace, its effect. Since grace for justification has no merits, much less does predestination or reprobation: Jacob was chosen and Esau rejected neither for present merits, since they did not yet exist, nor for foreseen future merits.",
+  "claims": [
+   "Mercy has no merit, otherwise grace would not be grace.",
+   "Hardening has merit; it is rendered by judgment.",
+   "Hardening is not giving grace, not inflicting evil.",
+   "'Mercy' means predestination and its effect; 'hardening' means withdrawal of grace.",
+   "Eternal predestination and reprobation have no merits.",
+   "Jacob was not chosen nor Esau rejected for present or foreseen future merits."
+  ],
+  "concepts": [
+   "grace and merit",
+   "hardening",
+   "predestination",
+   "reprobation",
+   "Jacob and Esau",
+   "gratuity of grace"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d41c1-d1e3501",
+    "pll1d41c1-d1e3504",
+    "pll1d41c1-d1e3516",
+    "pll1d41c1-d1e3525"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T18:41:19Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

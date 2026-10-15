@@ -1,0 +1,223 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T17:51:26Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll1d36c2-d1e3501": {
+  "summary": "Asks whether, since all things are in God by knowledge and God knows good and evil, one should grant simply that evils are in God by knowledge.",
+  "claims": [],
+  "concepts": [
+   "question"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d36c2",
+    "pll1d36c1-d1e3504"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:51:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d36c2-d1e3504": {
+  "summary": "Argues that God always knew all things, good and evil, and foreknew from eternity some who would be evil and their malice, without preparing it (Augustine). So if goods are in God by presence of knowledge, evils seem to be too, and included in Paul's 'all things are from him, through him, in him.'",
+  "claims": [
+   "God foreknew the evil of the wicked without preparing it."
+  ],
+  "concepts": [
+   "objection",
+   "Romans 11:36"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d36c2",
+    "pll1d36c2-d1e3501"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:51:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d36c2-d1e3524": {
+  "summary": "Answers: who but a madman would say evils are in God? What is in him is what is from and through him, of which he is author, and he is author only of goods. So only goods are in him; though he knows evils, he does not know them as he knows goods, but 'from afar' (Ps 137:6), and of evils it is said 'from your hidden things their belly is filled' (Ps 16:14).",
+  "claims": [
+   "God is author only of goods.",
+   "Evils are not in God.",
+   "God knows evils 'from afar.'"
+  ],
+  "concepts": [
+   "authorship",
+   "Psalm 137:6"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d36c2",
+    "pll1d36c2-d1e3504"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:51:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d36c2-d1e3549": {
+  "summary": "Cites Augustine: sins are hidden from the light of God's truth. Asks how, since God knows them; otherwise how would he judge and condemn the wicked?",
+  "claims": [
+   "God must know sins in order to judge them."
+  ],
+  "concepts": [
+   "Augustine",
+   "hidden sins"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d36c2",
+    "pll1d36c2-d1e3524"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:51:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d36c2-d1e3564": {
+  "summary": "Cites Ps 74:7 and Cassiodorus: God is absent neither from the good nor the evil but present to and knowing all. So God knows good and evil by knowledge, but goods also by approval and good pleasure, evils not.",
+  "claims": [
+   "God is present to and knows good and evil.",
+   "God knows goods by approval, evils only by knowledge."
+  ],
+  "concepts": [
+   "Cassiodorus",
+   "approbation"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d36c2",
+    "pll1d36c2-d1e3549"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:51:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d36c2-d1e3591": {
+  "summary": "Cites Cassiodorus: sins are hidden from God because he does not know them, that is, does not approve them.",
+  "claims": [
+   "Sins are 'unknown' to God in the sense of not approved."
+  ],
+  "concepts": [
+   "Cassiodorus"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d36c2",
+    "pll1d36c2-d1e3564"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:51:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d36c2-d1e3610": {
+  "summary": "Explains that in this sense Augustine said sins are hidden from God's light. In his letter to Evodius he says God is not ignorant of anyone, yet will say 'I do not know you' (Matt 7:23), signifying disapproval. So God knows goods in a way he does not know evils: equally as to knowledge, but goods also by approval and good pleasure.",
+  "claims": [
+   "'I do not know you' signifies disapproval.",
+   "God knows good and evil equally as to knowledge but goods also by approval."
+  ],
+  "concepts": [
+   "Augustine",
+   "Matthew 7:23"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d36c2",
+    "pll1d36c2-d1e3591"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:51:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d36c2-d1e3641": {
+  "summary": "Concludes that only goods are said to be in God, goods near and evils far, since though things are in God by presence of knowledge, he knows evils only by knowledge, goods also by approval and good pleasure; and by such knowledge things are in God, as he knows them so as to be their author.",
+  "claims": [
+   "Only goods are in God.",
+   "God knows goods so as to be their author."
+  ],
+  "concepts": [
+   "conclusion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d36c2",
+    "pll1d36c2-d1e3610"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:51:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1d36c2": {
+  "summary": "Asks whether, since all things are in God by knowledge and God knows good and evil, evils are in God. God knows evil and foreknew the wicked and their malice, though without preparing it; yet no one sane would say evils are in God. What is in him is what is from and through him, of which he is author, only goods. He knows evils 'from afar' (Ps 137:6); Augustine says sins are hidden from the light of his truth, which cannot mean God is ignorant, since he judges them. Cassiodorus: God is present and knows both good and evil, but knows goods also by approval and good pleasure, not evils; sins are hidden from God because he does not approve them. Augustine: 'I do not know you' means disapproval. So only goods are in God, since he knows them so as to approve and be their author.",
+  "claims": [
+   "God knows and foreknew both good and evil.",
+   "God foreknew evil but did not prepare it.",
+   "Evils are not in God.",
+   "What is in God is what is from and through him, of which he is author.",
+   "God knows goods by knowledge and approval, evils only by knowledge.",
+   "'Not knowing' evils means not approving them."
+  ],
+  "concepts": [
+   "knowledge of evil",
+   "approbation",
+   "authorship",
+   "foreknowledge without causation",
+   "Cassiodorus",
+   "knowledge by approval"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d36c2-d1e3501",
+    "pll1d36c2-d1e3504",
+    "pll1d36c2-d1e3524",
+    "pll1d36c2-d1e3549",
+    "pll1d36c2-d1e3564",
+    "pll1d36c2-d1e3591",
+    "pll1d36c2-d1e3610",
+    "pll1d36c2-d1e3641"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T17:51:26Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

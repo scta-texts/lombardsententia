@@ -1,0 +1,101 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T17:45:28Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll1d28c7-d1e3501": {
+  "summary": "Notes that although 'Image' is said relatively of the Son, it is sometimes found said by substance.",
+  "claims": [
+   "'Image' is sometimes said substantially."
+  ],
+  "concepts": [
+   "imago"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d28c7",
+    "pll1d27c3-d1e3636"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:45:28Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d28c7-d1e3504": {
+  "summary": "Cites Augustine: the divinity of the Trinity is essentially one, and is the image to which man was made.",
+  "claims": [
+   "The Trinity's one divinity is the image to which man was made."
+  ],
+  "concepts": [
+   "imago Dei"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d28c7",
+    "pll1d28c7-d1e3501"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:45:28Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d28c7-d1e3517": {
+  "summary": "Cites Hilary, De Trinitate V: man is made to the common image; the name does not differ, nor the nature; there is one form to which man was created. So 'image' sometimes signifies essence and is then said 'ad se.'",
+  "claims": [
+   "Man is made to a common image of the one nature.",
+   "'Image' sometimes signifies essence."
+  ],
+  "concepts": [
+   "Hilary",
+   "common image"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d28c7",
+    "pll1d28c7-d1e3504"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:45:28Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1d28c7": {
+  "summary": "Notes that 'Image,' though said relatively of the Son, is sometimes said by substance: Augustine says the divinity of the Trinity is essentially one and the image to which man was made, and Hilary says man was made to a common image of one nature. So 'image' sometimes signifies essence and is then said 'ad se.'",
+  "claims": [
+   "'Image' is usually said relatively of the Son.",
+   "Sometimes 'image' is said by substance, as the image of the whole Trinity to which man was made.",
+   "Man was made to the common image of the one divine nature."
+  ],
+  "concepts": [
+   "imago",
+   "essential vs relative use",
+   "imago Dei"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d28c7-d1e3501",
+    "pll1d28c7-d1e3504",
+    "pll1d28c7-d1e3517"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T17:45:28Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

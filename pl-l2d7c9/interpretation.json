@@ -1,0 +1,60 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:00:33Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll2d7c9-d1e3514": {
+  "summary": "Continues Augustine: as only God can form our mind by justifying, while humans, good or bad, can preach outwardly, so God works creation of visible things inwardly, while angels, good or bad, and humans apply outward operations and occasions. Humans do so with more difficulty, angels more quickly; but only the one who principally forms is creator, God alone. To found and administer creation from the inmost cause is God's; to apply outward operation by given powers is another thing; all things were originally created in the texture of the elements and come forth when opportunities arise.",
+  "claims": [
+   "Only God creates from the inmost cause.",
+   "Angels and humans apply external operations.",
+   "Things come forth from originally created seeds."
+  ],
+  "concepts": [
+   "inner vs outer causation",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d7c9",
+    "pl-l2d7c8"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:00:33Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d7c9": {
+  "summary": "Continues with Augustine: as only God can form our mind by justifying it, while men, good or bad, can preach the Gospel outwardly, so God works the creation of visible things inwardly, while angels or humans apply external operations and occasions. Angels do this more swiftly than humans, but only God creates, forming things from the inmost cause; others apply external operations according to powers given them, so that what was originally created in the texture of the elements comes forth at the right time.",
+  "claims": [
+   "Only God inwardly forms and creates; creatures apply external occasions.",
+   "As only God justifies though humans preach, only God creates though angels act outwardly.",
+   "Angels act more swiftly than humans because of their subtlety.",
+   "All things were originally created in the elements and come forth when occasions arise."
+  ],
+  "concepts": [
+   "creation",
+   "seminal reasons",
+   "inner vs outer causation",
+   "justification analogy"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll2d7c9-d1e3514"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:00:33Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

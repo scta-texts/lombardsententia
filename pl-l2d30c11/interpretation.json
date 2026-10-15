@@ -1,0 +1,80 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:39:39Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d30c11-d1e108": {
+  "summary": "States that original sin, by which all begotten through concupiscence are born sinners, flowed from Adam or his disobedience and passed to descendants.",
+  "claims": [
+   "Original sin flows from Adam's disobedience."
+  ],
+  "concepts": [
+   "original sin"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d30c11",
+    "pl-l2d30c10"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:39:39Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d30c11-d1e111": {
+  "summary": "Explains that Paul later speaks of many made sinners by one man's disobedience, an actual sin, after having said sin entered through one man and all sinned in him, which must be understood of original sin.",
+  "claims": [
+   "Romans 5:12 concerns original sin; 5:19 the actual sin it came from."
+  ],
+  "concepts": [
+   "Romans 5:12",
+   "Romans 5:19"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d30c11",
+    "pl-l2d30c11-d1e108",
+    "pl-l2d30c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:39:39Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d30c11": {
+  "summary": "States that original sin, by which all begotten through concupiscence are born sinners, flowed from Adam's disobedience and passed to his descendants. So Paul afterward speaks of many made sinners by one man's disobedience, an actual sin, having first said sin entered through one man and all sinned in him, which must be taken of original sin.",
+  "claims": [
+   "Original sin flowed from Adam's disobedience to his descendants.",
+   "Romans 5:19 speaks of the actual sin of disobedience.",
+   "Romans 5:12 must be understood of original sin."
+  ],
+  "concepts": [
+   "original sin",
+   "actual sin",
+   "disobedience",
+   "Romans 5"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d30c11-d1e108",
+    "pl-l2d30c11-d1e111"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:39:39Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

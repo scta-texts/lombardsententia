@@ -1,0 +1,126 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:39:39Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d30c8-d1e108": {
+  "summary": "Asks what original sin is, given it is not actual and so not an act or motion of soul or body.",
+  "claims": [
+   "Original sin is not an act."
+  ],
+  "concepts": [
+   "question"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d30c8",
+    "pl-l2d30c7"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:39:39Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d30c8-d1e111": {
+  "summary": "Answers: the tinder of sin, namely concupiscence or concupiscibility, called the law of the members, the languor of nature, the tyrant in our members, or the law of the flesh.",
+  "claims": [
+   "Original sin is the tinder of sin, concupiscence."
+  ],
+  "concepts": [
+   "fomes peccati",
+   "law of the members"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d30c8",
+    "pl-l2d30c8-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:39:39Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d30c8-d1e114": {
+  "summary": "Cites Augustine: there is concupiscence in us not to be allowed to reign; its desires, actual concupiscences, are the devil's weapons from the languor of nature; this languor is a tyrant moving evil desires; to defeat it and disarm the enemy, do not obey evil concupiscence.",
+  "claims": [
+   "Concupiscence must not be obeyed."
+  ],
+  "concepts": [
+   "Augustine De peccatorum meritis"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d30c8",
+    "pl-l2d30c8-d1e111"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:39:39Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d30c8-d1e118": {
+  "summary": "Concludes that the tinder of sin is concupiscence.",
+  "claims": [
+   "The tinder of sin is concupiscence."
+  ],
+  "concepts": [
+   "fomes peccati"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d30c8",
+    "pl-l2d30c8-d1e114"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:39:39Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d30c8": {
+  "summary": "Asks what original sin is, given that it is not actual and so not an act or motion of soul or body. It is the tinder of sin (fomes), namely concupiscence or concupiscibility, called the law of the members, the languor of nature, the tyrant in our members, or the law of the flesh. Augustine: there is in us concupiscence not to be allowed to reign, whose desires, actual concupiscences, are the devil's weapons arising from the languor of nature; this languor is a tyrant moving evil desires.",
+  "claims": [
+   "Original sin is not an act or motion of soul or body.",
+   "Original sin is the tinder of sin, concupiscence.",
+   "Concupiscence is called the law of the members, languor of nature, tyrant, and law of the flesh.",
+   "Actual concupiscences arise from the languor of nature."
+  ],
+  "concepts": [
+   "original sin",
+   "fomes peccati",
+   "concupiscence",
+   "law of the members",
+   "law of the flesh",
+   "Augustine De peccatorum meritis"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d30c8-d1e108",
+    "pl-l2d30c8-d1e111",
+    "pl-l2d30c8-d1e114",
+    "pl-l2d30c8-d1e118"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:39:39Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

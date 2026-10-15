@@ -1,0 +1,126 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T17:51:26Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll1d36c1-d1e3501": {
+  "summary": "Asks whether, since all things are in God's knowledge or presence, which is his essence, it should be granted that all things are in the divine essence or in God by essence.",
+  "claims": [],
+  "concepts": [
+   "question"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d36c1",
+    "pll1d35c9-d1e3570"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:51:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d36c1-d1e3504": {
+  "summary": "Answers that God's knowledge and presence are his essence, but things in his presence or knowledge are not to be said to be in his essence, or they would be of the same essence; only what is the divine essence is in God by essence. God has with him in his presence what is not in his nature.",
+  "claims": [
+   "Things in God's knowledge are not in his essence.",
+   "Only God is in God by essence."
+  ],
+  "concepts": [
+   "presence vs essence"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d36c1",
+    "pll1d36c1-d1e3501"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:51:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d36c1-d1e3509": {
+  "summary": "Cites Augustine's sermon on Eph 1:4: those who do not exist are chosen, and God does not err in choosing; he has the elect he will create, with himself not in his nature but in his presence. They to whom promise was made did not yet exist, yet were promised.",
+  "claims": [
+   "God elects those who do not yet exist.",
+   "He has them in his presence, not his nature."
+  ],
+  "concepts": [
+   "election",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d36c1",
+    "pll1d36c1-d1e3504"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:51:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d36c1-d1e3537": {
+  "summary": "Notes that Augustine says God has the elect not in his nature but in his presence, though his presence is not other than his nature, being his knowledge. 'In his nature' can be taken as the elect's nature: God had them eternally not in their nature, since they did not exist, but in his presence, knowing them as if they were.",
+  "claims": [
+   "God's presence is his knowledge, which is his nature.",
+   "'Not in his nature' may refer to the nature of the elect."
+  ],
+  "concepts": [
+   "interpretation"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d36c1",
+    "pll1d36c1-d1e3509"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:51:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1d36c1": {
+  "summary": "Asks whether, since all things are in God's knowledge or presence and his knowledge is his essence, all things are in the divine essence or in God by essence. No: God's knowledge and presence are his essence, but what is in his presence or knowledge is not in his essence, or it would be of the same essence; only what is the divine essence is in God by essence. With Augustine on Eph 1:4, God has the elect with himself before they exist, not in his nature but in his presence. Lombard notes that 'nature' may also refer to the elect's nature: God had them eternally not in their nature, which did not yet exist, but in his presence, knowing them as if they were.",
+  "claims": [
+   "God's knowledge and presence are his essence.",
+   "What is in God's knowledge is not therefore in his essence.",
+   "Only what is the divine essence is in God by essence.",
+   "God has the elect with himself before creation, in his presence, not in his nature.",
+   "God knows the not-yet-existing elect as if they existed."
+  ],
+  "concepts": [
+   "presence vs essence",
+   "election",
+   "divine knowledge",
+   "Ephesians 1:4"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d36c1-d1e3501",
+    "pll1d36c1-d1e3504",
+    "pll1d36c1-d1e3509",
+    "pll1d36c1-d1e3537"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T17:51:26Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

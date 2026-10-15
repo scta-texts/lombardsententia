@@ -1,0 +1,157 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T11:54:53Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d8c2-d1e115": {
+  "summary": "Presents the manna as a figure of the eucharist: God rained it on the fathers in the desert, 'man ate the bread of angels'; but those who ate it died, while this living bread from heaven gives life to the world. That manna was from the sky, this from above the sky; that spoiled when kept, this is free from corruption, and whoever eats it devoutly will not see corruption.",
+  "claims": [
+   "The manna prefigured the eucharist.",
+   "The eucharist gives life and incorruption, unlike the manna."
+  ],
+  "concepts": [
+   "manna",
+   "figures of the eucharist",
+   "living bread"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d8c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:54:53Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d8c2-d1e121": {
+  "summary": "Continues the comparison: manna was given after the crossing of the Red Sea, where the Hebrews were freed; so this heavenly manna should be given only to the reborn. That bread led the old people through the desert to the promised land; this food carries the faithful crossing the desert of this world to heaven, and so is rightly called viaticum. As the Red Sea prefigured baptism, the manna signified the Lord's body.",
+  "claims": [
+   "The eucharist is given only to the baptized.",
+   "The eucharist is viaticum leading to heaven.",
+   "The Red Sea prefigured baptism, the manna the eucharist."
+  ],
+  "concepts": [
+   "viaticum",
+   "Red Sea",
+   "baptism and eucharist",
+   "typology"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d8c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:54:53Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d8c2-d1e124": {
+  "summary": "States that these two sacraments were shown when blood and water flowed from Christ's side, since Christ came to redeem us from the devil and sin by the blood of redemption and the water of washing, as he freed the Israelites by the paschal lamb's blood from the destroyer and by the sea from the Egyptians.",
+  "claims": [
+   "The blood and water from Christ's side signify eucharist and baptism."
+  ],
+  "concepts": [
+   "side of Christ",
+   "paschal lamb",
+   "redemption",
+   "typology"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d8c2",
+    "pl-l4d3c6"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:54:53Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d8c2-d1e128": {
+  "summary": "Adds that Melchizedek showed the rite of this sacrament when he offered bread and wine to Abraham.",
+  "claims": [
+   "Melchizedek's offering prefigured the eucharistic rite."
+  ],
+  "concepts": [
+   "Melchizedek",
+   "typology"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d8c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:54:53Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d8c2-d1e131": {
+  "summary": "Cites Ambrose: this shows that the sacraments of the Christians are older than those of the Jews.",
+  "claims": [
+   "The Christian sacraments are older than the Jewish."
+  ],
+  "concepts": [
+   "antiquity of the sacraments",
+   "Ambrose"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d8c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:54:53Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d8c2": {
+  "summary": "Presents the figures of the eucharist. The manna rained on the fathers in the desert prefigured it, but they died, while this living bread gives life; the manna spoiled, this is incorruptible. As manna came after the Red Sea, the figure of baptism, so this food is given only to the reborn; as manna led the people to the promised land, this viaticum leads the faithful to heaven. Blood and water from Christ's side showed the two sacraments of redemption and washing, as the paschal lamb's blood and the sea freed Israel. Melchizedek's offering of bread and wine showed its rite, which, as Ambrose says, makes the Christian sacraments older than the Jewish.",
+  "claims": [
+   "The manna prefigured the eucharist.",
+   "The eucharist is given only to the reborn.",
+   "The eucharist is viaticum, leading to the homeland.",
+   "The blood and water from Christ's side signify eucharist and baptism.",
+   "Melchizedek's offering shows the Christian sacraments are older than the Jewish."
+  ],
+  "concepts": [
+   "figures of the eucharist",
+   "manna",
+   "viaticum",
+   "side of Christ",
+   "Melchizedek",
+   "typology"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d8c2-d1e115",
+    "pl-l4d8c2-d1e121",
+    "pl-l4d8c2-d1e124",
+    "pl-l4d8c2-d1e128",
+    "pl-l4d8c2-d1e131"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T11:54:53Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

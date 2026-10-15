@@ -1,0 +1,125 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T11:54:53Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d8c4-d1e115": {
+  "summary": "States that the form is what Christ said: 'This is my body', and then 'This is my blood'. When these words are spoken, the bread and wine are converted into the substance of Christ's body and blood; the rest is said in praise of God.",
+  "claims": [
+   "The words of institution are the form.",
+   "At these words bread and wine are converted into Christ's body and blood."
+  ],
+  "concepts": [
+   "form of the eucharist",
+   "conversion",
+   "words of consecration"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d8c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:54:53Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d8c4-d1e118": {
+  "summary": "Quotes Ambrose: by Christ's word this sacrament is made, since Christ's word changes the creature, and so the bread becomes Christ's body and wine mixed with water in the chalice becomes blood by the consecration of the heavenly word. The consecrating words are 'Take and eat, this is my body' and 'Take and drink, this is my blood'; by all else that is said, praise is given to God and prayer offered for the people and kings.",
+  "claims": [
+   "Christ's word changes the creature.",
+   "The other words of the canon are praise and intercession."
+  ],
+  "concepts": [
+   "words of consecration",
+   "conversion",
+   "Ambrose"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d8c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:54:53Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d8c4-d1e130": {
+  "summary": "Quotes Augustine: it is to be believed that the sacraments are made in Christ's words; all the rest are praises, supplications, and petitions of the faithful.",
+  "claims": [
+   "The sacrament is made by Christ's words."
+  ],
+  "concepts": [
+   "words of consecration",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d8c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:54:53Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d8c4-d1e140": {
+  "summary": "Concludes that this is the institution and form of the sacrament.",
+  "claims": [],
+  "concepts": [
+   "institution of the eucharist",
+   "form of the eucharist"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d8c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:54:53Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d8c4": {
+  "summary": "The form is Christ's words, 'This is my body' and 'This is my blood': when they are spoken, the bread and wine are converted into the substance of Christ's body and blood; the rest is said in praise of God. Ambrose: Christ's word changes the creature, so the bread becomes Christ's body and wine mixed with water his blood by the consecration of the heavenly word; other words are praise and prayer. Augustine agrees.",
+  "claims": [
+   "The form of the eucharist is Christ's words of institution.",
+   "At these words bread and wine are converted into Christ's body and blood.",
+   "The other words of the rite are praise and prayer."
+  ],
+  "concepts": [
+   "form of the eucharist",
+   "words of consecration",
+   "conversion",
+   "Ambrose",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d8c4-d1e115",
+    "pl-l4d8c4-d1e118",
+    "pl-l4d8c4-d1e130",
+    "pl-l4d8c4-d1e140"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T11:54:53Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

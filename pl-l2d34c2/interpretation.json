@@ -1,0 +1,82 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T21:09:26Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d34c2-d1e108": {
+  "summary": "States that the first cause and origin of sin was a good thing, since before the first sin there was no evil to arise from; it arose first in the angel, then in man; the angel was a good nature of God; evil did not arise from God, nor from another than the angel; so it arose from good.",
+  "claims": [
+   "Sin originated in good nature."
+  ],
+  "concepts": [
+   "origin of evil"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d34c2",
+    "pl-l2d34c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:09:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d34c2-d1e111": {
+  "summary": "Cites Augustine's reply to Julian, who said that if sin is from nature, nature is evil: evil works come from evil will as bad fruit from a bad tree, but whence the evil will except from good? Angel and man were God's good works before evil will arose in them; so evil arises from good, and no evil preceded the evil will. Thus the first cause of evil was good nature, and it caused the evil will.",
+  "claims": [
+   "No evil preceded the first evil will.",
+   "Good nature was the cause of evil will."
+  ],
+  "concepts": [
+   "Julian of Eclanum",
+   "Matthew 7:17"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d34c2",
+    "pl-l2d34c2-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:09:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d34c2": {
+  "summary": "Holds that the first cause and origin of sin was a good thing, since before the first sin there was no evil from which it could arise. Sin arose first in the angel, then in man, both good natures of God; it arose not from God nor from another but from the angel, hence from good. Augustine against Julian: all evil works come from evil will as fruit from an evil tree, but the evil will arose only from good, the angel or man, God's good works; so no evil preceded the evil will, which had its origin from good.",
+  "claims": [
+   "The first origin of sin was a good thing.",
+   "Before the first sin there was no evil from which it could arise.",
+   "Sin arose first in the angel, then in man, both good natures.",
+   "Evil works come from evil will; evil will arose from good nature."
+  ],
+  "concepts": [
+   "origin of evil",
+   "evil will",
+   "good nature",
+   "Julian of Eclanum",
+   "Augustine Contra Iulianum"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d34c2-d1e108",
+    "pl-l2d34c2-d1e111"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T21:09:26Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

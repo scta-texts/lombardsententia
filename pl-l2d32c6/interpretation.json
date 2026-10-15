@@ -1,0 +1,77 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T21:06:51Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d32c6-d1e108": {
+  "summary": "Asks why God, who makes the soul without stain and knows it will contract sin from the body and may sometimes be separated before baptism and damned, joins it to the body.",
+  "claims": [],
+  "concepts": [
+   "question"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d32c6",
+    "pl-l2d32c5"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:06:51Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d32c6-d1e111": {
+  "summary": "Answers that this comes from the depth of God's judgments and is not unjust: God keeps unchanged the mode of human condition instituted from the beginning, despite sins, forming bodies from matter made without defect, creating souls from nothing, and joining them; since both were instituted without defect, though vitiated by sin, the unchangeable God need not change the first law of human condition or cease multiplying humans.",
+  "claims": [
+   "God keeps his original law of human condition."
+  ],
+  "concepts": [
+   "divine justice"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d32c6",
+    "pl-l2d32c6-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:06:51Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d32c6": {
+  "summary": "Asks why God, who makes the soul without stain and knows it will contract sin from the body and may sometimes depart before baptism and be damned, joins it to the body. Answer: this comes from the depth of God's judgments and is not unjust. God unchangingly keeps the mode of human condition he instituted from the beginning, despite intervening sins, forming bodies from matter made without defect, creating souls from nothing, and joining them; since both natures were instituted without defect and are vitiated by sin, the unchangeable God need not change the first law of human condition or cease multiplying humans.",
+  "claims": [
+   "God's joining souls to bodies that will stain them comes from the depth of his judgments and is not unjust.",
+   "God keeps unchanged the mode of human condition instituted at the beginning.",
+   "Both body and soul were instituted without defect.",
+   "God need not cease multiplying humans because of sin."
+  ],
+  "concepts": [
+   "creation of souls",
+   "divine justice",
+   "depth of God's judgments",
+   "original sin"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d32c6-d1e108",
+    "pl-l2d32c6-d1e111"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T21:06:51Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

@@ -1,0 +1,206 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T17:47:08Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll1d30c1-d1e3501": {
+  "summary": "States that some things are said of God from time and befit him temporally without change in him, said relatively by an accident not of God but of creatures: creator, lord, refuge, given.",
+  "claims": [
+   "Temporal names apply to God without change in him.",
+   "They are said by an accident of creatures, not of God."
+  ],
+  "concepts": [
+   "temporal names"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d30c1",
+    "pl-l1d29c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:47:08Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d30c1-d1e3504": {
+  "summary": "Cites De Trinitate V: 'creator' is said relatively to creature, as 'lord' to servant.",
+  "claims": [
+   "'Creator' is relative to creature."
+  ],
+  "concepts": [
+   "creator",
+   "relation"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d30c1",
+    "pll1d30c1-d1e3501"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:47:08Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d30c1-d1e3523": {
+  "summary": "Further Augustine: though coeternal, the Spirit is said of something from time, as 'given'; he is eternally gift, temporally given. 'Lord' is said only when God begins to have a servant, so it is temporal, unless creatures were eternal; as there is no servant without lord, there is no lord without servant.",
+  "claims": [
+   "The Spirit is eternally gift and temporally given.",
+   "God is not lord eternally, since creatures are not eternal."
+  ],
+  "concepts": [
+   "dominus",
+   "donatum"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d30c1",
+    "pll1d30c1-d1e3504"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:47:08Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d30c1-d1e3538": {
+  "summary": "Objection: 'lord' does not befit God from time, since he is lord also of time itself, which did not begin in time.",
+  "claims": [],
+  "concepts": [
+   "objection",
+   "lord of time"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d30c1",
+    "pll1d30c1-d1e3523"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:47:08Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d30c1-d1e3541": {
+  "summary": "Answers that though he did not begin in time to be lord of time, he did begin to be lord of time, since time was not always, and he began in time to be lord of man.",
+  "claims": [
+   "God began to be lord of time, since time was not always.",
+   "God began in time to be lord of man."
+  ],
+  "concepts": [
+   "beginning of time"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d30c1",
+    "pll1d30c1-d1e3538"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:47:08Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d30c1-d1e3544": {
+  "summary": "Cites Augustine's answer: even if one argues that God is lord of times that did not begin in time, he certainly became lord of man in time, and of you and me. How then is nothing said of God by accident? Because nothing happens to his nature: relative accidents occur with change in the things of which they are said. A friend begins to be friend by a change of will; a coin is called price or pledge without change. So God's substance is called something relative to creatures, beginning in time, by an accident of the creature. God becomes our refuge when we flee to him and we change for the better; he becomes our Father when we are regenerated.",
+  "claims": [
+   "Relative names can begin to be said without change in the subject.",
+   "A coin becomes price or pledge without changing.",
+   "God becomes our refuge and Father by our change, not his.",
+   "Temporal names are said by accident of the creature, not of God."
+  ],
+  "concepts": [
+   "Augustine De Trinitate V",
+   "coin analogy",
+   "refuge",
+   "regeneration"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d30c1",
+    "pll1d30c1-d1e3541"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:47:08Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d30c1-d1e3585": {
+  "summary": "Concludes that some things are said of God temporally and relatively to creatures without change in God but not without change in the creature. The accident is in the creature, and the name relating creature to Creator notes a relation in the creature, while the name relating Creator to creature is relative but notes no relation in the Creator.",
+  "claims": [
+   "Temporal relative names imply change in the creature, not in God.",
+   "The relation is in the creature, not in the Creator."
+  ],
+  "concepts": [
+   "relation in creature, not Creator",
+   "conclusion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d30c1",
+    "pll1d30c1-d1e3544"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:47:08Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1d30c1": {
+  "summary": "Treats names said of God from time and relatively to creatures (creator, lord, refuge, given), which apply to him without change in him, said by an accident not of God but of creatures. With Augustine: 'creator' relates to creature as 'lord' to servant; the Spirit is eternally Gift but temporally given; God is not eternally lord, or creatures would be eternal. To the objection that God is lord of time, which did not begin in time, Lombard answers that he still began to be its lord, since time was not always, and began to be lord of man. Augustine's examples: as a coin becomes 'price' or 'pledge' without change, and God becomes our refuge or Father when we change, so relative names begin to be said of God in time by an accident of the creature, not of God. The relation is in the creature, not the Creator.",
+  "claims": [
+   "Some names are said of God from time and relatively to creatures, without change in God.",
+   "God is not eternally lord, since creatures are not eternal.",
+   "God began to be lord even of time, since time was not always.",
+   "Temporal relative names are said of God by an accident of the creature, not of God.",
+   "A coin can be called price or pledge without changing; so God is called refuge or Father as we change.",
+   "The relation of creature to Creator is in the creature; the name relating Creator to creature notes no relation in the Creator."
+  ],
+  "concepts": [
+   "temporal relative names",
+   "creator",
+   "dominus",
+   "refugium",
+   "relation in creature, not Creator",
+   "immutability",
+   "accident of creatures"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d30c1-d1e3501",
+    "pll1d30c1-d1e3504",
+    "pll1d30c1-d1e3523",
+    "pll1d30c1-d1e3538",
+    "pll1d30c1-d1e3541",
+    "pll1d30c1-d1e3544",
+    "pll1d30c1-d1e3585"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T17:47:08Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

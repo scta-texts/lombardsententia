@@ -1,0 +1,62 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:39:39Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d30c14-d1e105": {
+  "summary": "Replies that all that is naturally in human bodies was in the first man materially and causally, not formally, descending by the law of propagation and multiplied in itself with no external substance passing into it, and it will rise. Food nourishes but is not converted into the human substance from Adam; Adam passed a small part of his substance into his children's bodies, which grew by self-multiplication, and from it parts were again separated to form descendants, to the end of the race. So all were in Adam bodily by seminal reason.",
+  "claims": [
+   "Human substance was in Adam causally and grows by self-multiplication.",
+   "Food does not become the true human substance."
+  ],
+  "concepts": [
+   "seminal reason",
+   "propagation"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d30c14",
+    "pl-l2d30c13"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:39:39Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d30c14": {
+  "summary": "Replies that whatever is naturally in human bodies was in the first man materially and causally, not formally, and descends by the law of propagation, multiplied in itself without external substance passing into it, and will rise again. Food nourishes it but is not converted into the human substance descending from Adam: Adam passed a small part of his substance into his children's bodies, which grew by self-multiplication without external addition, and from it again parts were separated to form later bodies, to the end of the human race. So all were in Adam bodily by seminal reason.",
+  "claims": [
+   "All human bodily nature was in Adam materially and causally, not formally.",
+   "Human substance descends by the law of propagation and multiplies in itself.",
+   "Food nourishes but does not become the true human substance from Adam.",
+   "The substance descended from Adam is what will rise.",
+   "All were in Adam bodily by seminal reason."
+  ],
+  "concepts": [
+   "truth of human nature",
+   "propagation",
+   "seminal reason",
+   "resurrection",
+   "nutrition",
+   "substance in Adam"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d30c14-d1e105"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:39:39Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

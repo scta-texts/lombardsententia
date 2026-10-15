@@ -1,0 +1,65 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:37:02Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d27c9-d1e108": {
+  "summary": "Explains that faith merits justification and eternal life because its act merits them, and likewise charity and justice; if prevenient faith were itself the mental act that is merit, it would originate in free choice, which it does not; it merits through its act, provided charity is present, without which believing and hoping do not merit life. Hence charity is the Holy Spirit, informing and sanctifying the soul's qualities; without it a quality is not a virtue, since it cannot heal the soul.",
+  "claims": [
+   "Faith merits through its act when charity is present.",
+   "Charity is the Holy Spirit.",
+   "Without charity no quality is a virtue."
+  ],
+  "concepts": [
+   "merit",
+   "charity",
+   "Holy Spirit"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d27c9",
+    "pl-l2d27c8",
+    "pl-l1d17c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:37:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d27c9": {
+  "summary": "Explains that faith is said to merit justification and eternal life because its act merits them, and likewise charity and justice. If prevenient faith were itself the act of mind that is merit, it would originate from free choice, which it does not; so it is called merit because its act is merit, provided charity is present, without which believing and hoping do not merit life. Hence charity is the Holy Spirit, which informs and sanctifies the soul's qualities; without it no quality is a virtue, since it cannot heal the soul.",
+  "claims": [
+   "Faith merits through its act.",
+   "Prevenient faith is not itself an act of free choice.",
+   "Without charity, believing and hoping do not merit life.",
+   "Charity is the Holy Spirit, informing the soul's qualities.",
+   "Without charity no quality of the soul is a virtue."
+  ],
+  "concepts": [
+   "faith",
+   "merit",
+   "charity",
+   "Holy Spirit",
+   "virtue",
+   "act of virtue"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d27c9-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:37:02Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

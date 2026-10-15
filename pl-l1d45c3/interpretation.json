@@ -1,0 +1,80 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T18:43:26Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll1d45c3-d1e3509": {
+  "summary": "States that wherever God is said to know or will, these are said of him by essence.",
+  "claims": [
+   "Knowing and willing are said of God essentially."
+  ],
+  "concepts": [
+   "essential predication"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d45c3",
+    "pl-l1d45c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:43:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d45c3-d1e3512": {
+  "summary": "Explains: 'God knows' or 'wills' predicates the essence and that God is. With 'all' or 'something' added, the essence is predicated so that all things are subject to the knowledge that is his essence, and some things to the will that is himself. God's will is eternal and immutable, though its objects pass, and cannot be unjust or evil, being God.",
+  "claims": [
+   "Objects added to 'knows' or 'wills' signify what is subject to God's essence.",
+   "God's will cannot be unjust."
+  ],
+  "concepts": [
+   "predication with objects",
+   "immutability"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d45c3",
+    "pll1d45c3-d1e3509"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:43:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1d45c3": {
+  "summary": "Explains that 'God knows' and 'God wills' predicate the divine essence. With an object added ('knows all,' 'wills this'), the essence is predicated not absolutely but so that all things are shown subject to the knowledge, and some things to the will, which is God himself. God's will is the eternal, immutable essence, which cannot be unjust or evil, though what is subject to it varies and passes.",
+  "claims": [
+   "'God knows' and 'God wills' predicate the divine essence.",
+   "'God knows all' means all things are subject to God's knowledge, which is his essence.",
+   "God's will is eternal and immutable, though its objects vary.",
+   "God's will cannot be unjust or evil."
+  ],
+  "concepts": [
+   "essential predication",
+   "objects of will and knowledge",
+   "immutability"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d45c3-d1e3509",
+    "pll1d45c3-d1e3512"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T18:43:26Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

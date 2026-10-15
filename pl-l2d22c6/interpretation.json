@@ -1,0 +1,58 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:30:14Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d22c6-d1e108": {
+  "summary": "Answers whether will preceded the sin: it consisted in will and act, the will preceding the act; but no other evil will preceded it; that evil will came from the devil's persuasion and man's choice, by which he deserted justice and began iniquity, and the will itself was iniquity.",
+  "claims": [
+   "The first evil will had no prior evil will.",
+   "The evil will was itself iniquity."
+  ],
+  "concepts": [
+   "evil will"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d22c6",
+    "pl-l2d22c5"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:30:14Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d22c6": {
+  "summary": "Asks whether will preceded that sin: the sin consisted in will and act, and the will preceded the act; but no other evil will preceded that will, which arose from the devil's persuasion and man's choice, by which he deserted justice and began iniquity, and that will itself was iniquity.",
+  "claims": [
+   "The first sin consisted in will and act.",
+   "The will preceded the act.",
+   "No prior evil will preceded the first evil will.",
+   "The first evil will arose from the devil's persuasion and man's choice.",
+   "That will was itself iniquity."
+  ],
+  "concepts": [
+   "first sin",
+   "evil will",
+   "will and act"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d22c6-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:30:14Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

@@ -1,0 +1,73 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:14:24Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll2d17c1-d1e3519": {
+  "summary": "Notes that many questions arise about the origin of the soul: from what, when, and with what grace it was created.",
+  "claims": [],
+  "concepts": [
+   "origin of the soul"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d17c1",
+    "pl-l2d16c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:14:24Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d17c1-d1e3522": {
+  "summary": "States that as man's bodily formation is described ('God formed man from the slime of the earth'), so is his making by soul ('and breathed into his face the breath of life').",
+  "claims": [
+   "Gen 2:7 describes the creation of the soul."
+  ],
+  "concepts": [
+   "Genesis 2:7"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d17c1",
+    "pll2d17c1-d1e3519"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:14:24Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d17c1": {
+  "summary": "Raises questions about the origin of the soul: from what it was created, when, and with what grace. As Gen 2:7 describes the body's formation from the slime of the earth, it describes the soul's making in 'he breathed into his face the breath of life.'",
+  "claims": [
+   "The soul's origin raises questions of source, time, and grace.",
+   "Gen 2:7 describes the making of body and soul."
+  ],
+  "concepts": [
+   "origin of the soul",
+   "Genesis 2:7"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll2d17c1-d1e3519",
+    "pll2d17c1-d1e3522"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:14:24Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

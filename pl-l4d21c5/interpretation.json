@@ -1,0 +1,110 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T12:48:48Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d21c5-d1e112": {
+  "summary": "Quotes Augustine: gold, silver, and stones are built by one who does those three things thinking what is God's, how to please God; wood, hay, and straw can be understood as desires for worldly things, though lawfully granted, such that they cannot be lost without grief of mind; one builds these who thinks what is the world's, how to please the world, holding his riches with carnal affection, though giving much alms and planning no fraud or theft for them.",
+  "claims": [
+   "Gold, silver, and stones belong to those who seek to please God.",
+   "Wood, hay, and straw are lawful worldly attachments."
+  ],
+  "concepts": [
+   "perfection",
+   "attachment to temporal goods",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d21c5"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:48:48Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d21c5-d1e130": {
+  "summary": "Draws out that the same person does not build both at once: the higher building belongs only to the perfect, who seek to please God alone; though they sometimes sin venially, sin is consumed in them by charity's fervor like a drop of water in a furnace, so they never carry combustible things. The lower building belongs to lesser believers who seek to please the world too but put God first; if they put the world first, they would destroy the foundation, not build on it.",
+  "claims": [
+   "In the perfect, venial sins are consumed by charity.",
+   "Lesser believers put God first but also seek the world.",
+   "Preferring the world destroys the foundation."
+  ],
+  "concepts": [
+   "perfection",
+   "charity",
+   "foundation of faith"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d21c5"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:48:48Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d21c5-d1e133": {
+  "summary": "Concludes that the three signify carnal affections for houses, spouses, and possessions, held so that nothing is put before Christ; they do not enter the minds of the perfect, though these commit other venial sins, but in the hearts of lesser believers sometimes last to the end; these pass with such buildings, which dissolve in the fire, while they are saved by the merit of the foundation, yet suffer the gravest punishment. This shows how great God's mercy is here and his severity there, punishing the same sin far more heavily there than here.",
+  "claims": [
+   "Carnal affections lasting to death are burned in purgation.",
+   "Those so purged are saved by the foundation.",
+   "God punishes the same sin more heavily after death than here."
+  ],
+  "concepts": [
+   "purgatorial fire",
+   "mercy and severity",
+   "attachment to temporal goods"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d21c5"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:48:48Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d21c5": {
+  "summary": "Explains, after Augustine, that gold, silver, and stones are built by one who does those three things thinking only how to please God; wood, hay, and straw are desires for worldly things, though lawful, that cannot be lost without grief, built by one who thinks how to please the world, though giving alms and committing no fraud. So the same person does not build both: the higher building belongs to the perfect, in whom venial sins are consumed by charity like a drop in a furnace; the lower to lesser believers who please the world while putting God first, whose carnal affections may last to the end and be burned in the fire, though they are saved by the foundation, suffering grave punishment. God's mercy here is great, his severity there.",
+  "claims": [
+   "Gold, silver, and stones belong to the perfect who seek only to please God.",
+   "Wood, hay, and straw are lawful worldly attachments held by lesser believers.",
+   "In the perfect, venial sins are consumed by charity.",
+   "Lesser believers are saved by the foundation but suffer grave purgation."
+  ],
+  "concepts": [
+   "perfection",
+   "attachment to temporal goods",
+   "charity",
+   "purgatorial fire",
+   "foundation of faith"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d21c5-d1e112",
+    "pl-l4d21c5-d1e130",
+    "pl-l4d21c5-d1e133"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T12:48:48Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

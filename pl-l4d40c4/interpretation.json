@@ -1,0 +1,78 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T13:06:03Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d40c4-d1e115": {
+  "summary": "Notes that Gregory's reply to Augustine, bishop of the English, seems to contradict this: a Roman law permits children of siblings to marry, but experience shows such unions are infertile, so the fourth or fifth generation of believers may lawfully marry.",
+  "claims": [],
+  "concepts": [
+   "consanguinity",
+   "Gregory",
+   "difficulty"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d40c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:06:03Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d40c4-d1e127": {
+  "summary": "Cites Gregory's later explanation to Felix of Messina: what I wrote to Augustine I wrote specially for the English, newly come to faith, lest fearing harsher rules they recede from the good they began, not generally; nor so that, once solidified in faith, those found within kinship or affinity to the seventh generation should not be separated.",
+  "claims": [
+   "The concession was special to new converts.",
+   "The general prohibition remains."
+  ],
+  "concepts": [
+   "dispensation",
+   "pastoral accommodation",
+   "Gregory"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d40c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:06:03Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d40c4": {
+  "summary": "Gregory seems to contradict this, writing to Augustine of Canterbury that cousins should not marry, since such unions are infertile, but the fourth or fifth generation may marry. Asked later by Felix of Messina, Gregory explains that he wrote this specially for the newly converted English, lest they recoil from the good they had begun, not generally, and not so that, once established in faith, those within kinship to the seventh generation should not be separated.",
+  "claims": [
+   "Gregory's permission of the fourth degree was a special concession to the newly converted English.",
+   "The general prohibition to the seventh degree stands."
+  ],
+  "concepts": [
+   "dispensation",
+   "consanguinity",
+   "mission",
+   "Gregory"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d40c4-d1e115",
+    "pl-l4d40c4-d1e127"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T13:06:03Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

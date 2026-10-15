@@ -1,0 +1,131 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T17:43:01Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll1d26c5-d1e3501": {
+  "summary": "States that man, son of God by making, is son of the whole Trinity, which can be called his father.",
+  "claims": [
+   "Adopted man is son of the whole Trinity."
+  ],
+  "concepts": [
+   "adoption",
+   "Trinity"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d26c5",
+    "pll1d26c4-d1e3528"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:43:01Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d26c5-d1e3504": {
+  "summary": "Cites De Trinitate V: the Trinity can be called father only metaphorically with respect to creatures, because of adoption. The one Lord God of Deut 6:4, not excluding Son or Spirit, is rightly called our Father, regenerating us by grace.",
+  "claims": [
+   "The Trinity is called father only by transference, with regard to creatures.",
+   "The one God who regenerates us by grace is our Father."
+  ],
+  "concepts": [
+   "metaphor",
+   "regeneration"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d26c5",
+    "pll1d26c5-d1e3501"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:43:01Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d26c5-d1e3531": {
+  "summary": "Cites Hilary, De Trinitate VI: God is Father to all through faith by which we confess Jesus Christ Son of God. Thus it is shown why being Son is proper to the begotten God: he alone is properly born.",
+  "claims": [
+   "God is Father to all who believe.",
+   "Only the begotten God is properly said to be born."
+  ],
+  "concepts": [
+   "faith",
+   "proprium"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d26c5",
+    "pll1d26c5-d1e3504"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:43:01Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d26c5-d1e3551": {
+  "summary": "Cites Hilary, De Trinitate III, on 'glorify your Son': Christ testified that he is Son not only by name but by property; we are sons of God, but he is true and proper Son by origin, not adoption; truth, not appellation; nativity, not creation.",
+  "claims": [
+   "Christ is Son by property, origin, truth, and nativity.",
+   "We are sons by adoption, appellation, and creation."
+  ],
+  "concepts": [
+   "Hilary",
+   "true sonship"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d26c5",
+    "pll1d26c5-d1e3531"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:43:01Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1d26c5": {
+  "summary": "Adds that man, son of God by making, is son not only of the Father but of the whole Trinity, which can be called his Father. Augustine: the Trinity cannot be called father except metaphorically, with respect to creatures, because of the adoption of sons; the one Lord God who regenerates us by grace is rightly called our Father. Hilary: God is Father to all through faith. So it is proper to the begotten God to be Son, since he alone is properly born, Son by origin, truth, and nativity, not adoption, appellation, or creation.",
+  "claims": [
+   "Humans adopted by grace are sons of the whole Trinity.",
+   "The Trinity can be called father only metaphorically, with respect to adopted creatures.",
+   "God is Father through faith to those who confess Christ.",
+   "Only the begotten God is properly Son, by origin, truth, and nativity."
+  ],
+  "concepts": [
+   "adoption",
+   "Trinity as Father",
+   "metaphorical predication",
+   "regeneration",
+   "proprietas"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d26c5-d1e3501",
+    "pll1d26c5-d1e3504",
+    "pll1d26c5-d1e3531",
+    "pll1d26c5-d1e3551"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T17:43:01Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

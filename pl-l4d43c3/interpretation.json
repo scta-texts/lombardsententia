@@ -1,0 +1,77 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T13:09:38Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d43c3-d1e115": {
+  "summary": "Explains, after Augustine, that he is said to come at midnight not for the hour of time but because he will come when not expected: at midnight, when it is very obscure, that is hidden; the day of the Lord comes like a thief in the night.",
+  "claims": [
+   "Midnight signifies unexpectedness."
+  ],
+  "concepts": [
+   "second coming",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d43c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:09:38Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d43c3-d1e143": {
+  "summary": "Adds that it may also fittingly be understood that he will come at midnight, since, as Cassiodorus says, the firstborn of Egypt were struck at that time, when the bridegroom too will come.",
+  "claims": [
+   "Midnight may be literal, after the Exodus pattern."
+  ],
+  "concepts": [
+   "second coming",
+   "typology",
+   "Cassiodorus"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d43c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:09:38Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d43c3": {
+  "summary": "Christ is said to come at midnight not as an hour of time but because he will come when not expected, as a thief in the night, as Augustine says; yet it may also fittingly be understood literally, since, as Cassiodorus says, the firstborn of Egypt were struck at that hour.",
+  "claims": [
+   "Christ's coming 'at midnight' means unexpectedly.",
+   "It may also be understood literally."
+  ],
+  "concepts": [
+   "second coming",
+   "midnight",
+   "unexpectedness"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d43c3-d1e115",
+    "pl-l4d43c3-d1e143"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T13:09:38Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

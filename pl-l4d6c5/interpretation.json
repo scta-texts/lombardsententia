@@ -1,0 +1,147 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T11:52:39Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d6c5-d1e115": {
+  "summary": "Asks whether one immersed jokingly, as by an actor, but with mention of the Trinity, is baptized.",
+  "claims": [],
+  "concepts": [
+   "baptism in jest",
+   "intention"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d6c5"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:52:39Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d6c5-d1e118": {
+  "summary": "Quotes Augustine, who does not decide: if everything were done in play and jest, whether such baptism should be approved, he thinks divine judgment should be sought by prayer through some revelation.",
+  "claims": [
+   "Augustine leaves baptism in jest undecided."
+  ],
+  "concepts": [
+   "baptism in jest",
+   "Augustine",
+   "open question"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d6c5"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:52:39Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d6c5-d1e127": {
+  "summary": "Notes that to the wise it seems not to be baptism, just as when people are plunged into a bath or river in the Trinity's name it is not baptism, since it is not done with the intention of baptizing. In this and other sacraments, the intention of celebrating them must be had as well as the form kept.",
+  "claims": [
+   "Baptism requires the intention of baptizing.",
+   "All sacraments require form and intention."
+  ],
+  "concepts": [
+   "intention",
+   "form and intention",
+   "validity"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d6c5"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:52:39Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d6c5-d1e131": {
+  "summary": "Adds that one should not be troubled that some bring infants to baptism not believing they will be reborn to eternal life, but thinking to keep or regain temporal health; the infants are not therefore unregenerated.",
+  "claims": [
+   "The bearers' wrong intention does not prevent the infant's regeneration."
+  ],
+  "concepts": [
+   "infant baptism",
+   "intention of the bearers"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d6c5"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:52:39Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d6c5-d1e137": {
+  "summary": "Notes two times for baptizing the elect, Easter and Pentecost, on the Saturday of each; those pressed by danger of death should be baptized at any time.",
+  "claims": [
+   "Solemn baptism is at Easter and Pentecost.",
+   "In danger of death baptism is given at any time."
+  ],
+  "concepts": [
+   "times of baptism",
+   "necessity"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d6c5"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:52:39Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d6c5": {
+  "summary": "Asks whether one immersed in jest, like an actor, with mention of the Trinity, is baptized. Augustine leaves it undetermined, to be judged by revelation; but the wise think it is not baptism, as bathing in the Trinity's name is not, since in this and other sacraments the intention of celebrating them is required as well as the form. Infants brought by those who seek only bodily health are still regenerated. The elect are to be baptized at Easter and Pentecost, but those in danger of death at any time.",
+  "claims": [
+   "Baptism requires the intention of baptizing as well as the form.",
+   "Baptism in jest is not baptism.",
+   "Infants are regenerated even if brought with a wrong intention by others.",
+   "Solemn baptism is at Easter and Pentecost; in danger, at any time."
+  ],
+  "concepts": [
+   "intention",
+   "form and intention",
+   "baptism in jest",
+   "times of baptism"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d6c5-d1e115",
+    "pl-l4d6c5-d1e118",
+    "pl-l4d6c5-d1e127",
+    "pl-l4d6c5-d1e131",
+    "pl-l4d6c5-d1e137"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T11:52:39Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

@@ -1,0 +1,100 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:11:27Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll2d13c3-d1e3519": {
+  "summary": "Asks where the light was made, since the abyss covered the earth, and suggests in the parts now lit by the sun's daily light.",
+  "claims": [
+   "The light was likely made where the sun now shines."
+  ],
+  "concepts": [
+   "question"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d13c3",
+    "pl-l2d13c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:11:27Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d13c3-d1e3522": {
+  "summary": "Notes that light can shine in waters, as divers light the depths by releasing oil from their mouths, and the waters were then thinner, not yet gathered. The light took the sun's place, circling to distinguish night and day.",
+  "claims": [
+   "Light can shine in water.",
+   "The first light distinguished day and night by its motion."
+  ],
+  "concepts": [
+   "divers' analogy"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d13c3",
+    "pll2d13c3-d1e3519"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:11:27Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d13c3-d1e3525": {
+  "summary": "Holds it likely that the light first appeared where the sun travels daily, so that circling it made evening by descending and morning by returning; thus God divided light and darkness, calling them day and night.",
+  "claims": [
+   "The first light made evening and morning by its circuit."
+  ],
+  "concepts": [
+   "day and night"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d13c3",
+    "pll2d13c3-d1e3522"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:11:27Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d13c3": {
+  "summary": "Asks where that light was made, since the abyss covered the earth: perhaps in the parts now lit by the sun. Light can shine in water, as divers light the depths by releasing oil, and the waters were then thinner. The light took the place of the sun, circling to make night and day, descending to make evening and returning to make morning.",
+  "claims": [
+   "The first light was probably made where the sun now shines.",
+   "Light can shine in water.",
+   "The first light did the work of the sun, circling to make day and night."
+  ],
+  "concepts": [
+   "first light",
+   "cosmology",
+   "day and night"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll2d13c3-d1e3519",
+    "pll2d13c3-d1e3522",
+    "pll2d13c3-d1e3525"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:11:27Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

@@ -1,0 +1,59 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:14:24Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d18c3-d1e108": {
+  "summary": "Explains that the rib was taken from Adam sleeping, not waking, to show he felt no pain and to display God's wonderful power, opening his side without waking him (Hugh). This figures the sacrament of Christ and the Church: as woman was formed from the side of sleeping man, the Church is formed from the sacraments flowing from the side of Christ sleeping on the cross, blood and water, by which we are redeemed from punishment and washed from guilt.",
+  "claims": [
+   "Adam felt no pain.",
+   "Eve from Adam's side figures the Church from Christ's side."
+  ],
+  "concepts": [
+   "typology",
+   "sacraments"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d18c3",
+    "pl-l2d18c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:14:24Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d18c3": {
+  "summary": "Explains why the rib was taken from Adam sleeping: to show he felt no pain and to display God's wonderful power in opening his side without waking him (Hugh). This figures Christ and the Church: as woman was formed from the side of sleeping man, the Church is formed from the sacraments, blood and water, flowing from the side of Christ sleeping on the cross, by which we are redeemed from punishment and washed from guilt.",
+  "claims": [
+   "The rib was taken during sleep so Adam felt no pain.",
+   "It displayed God's power.",
+   "Eve's formation from Adam's side figures the Church's formation from Christ's side.",
+   "The sacraments of blood and water flowed from Christ's side on the cross."
+  ],
+  "concepts": [
+   "typology",
+   "Christ and the Church",
+   "sacraments",
+   "Hugh of St Victor"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d18c3-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:14:24Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

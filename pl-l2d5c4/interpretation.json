@@ -1,0 +1,60 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T18:59:02Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll2d5c4-d1e3514": {
+  "summary": "Explains that the angel needed not grace to be justified, since it was not evil, but grace to help it love God perfectly and obey. Operating grace justifies the impious; cooperating grace helps to will well effectively, love God above all, do good, and persevere. The standing angels received cooperating grace and turned from a good not lost to a greater good, by grace cooperating with free choice, not given to those who fell.",
+  "claims": [
+   "Operating grace justifies; cooperating grace helps good willing.",
+   "Standing angels received cooperating grace."
+  ],
+  "concepts": [
+   "operating and cooperating grace"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d5c4",
+    "pll2d5c3-d1e3514"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:59:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d5c4": {
+  "summary": "Explains that the angel needed not justifying grace, since it was not evil, but grace to help it love God perfectly and obey. Operating grace justifies the impious, making the bad good; cooperating grace helps to will well effectively, love God above all, do good, and persevere. The angels who stood received cooperating grace and turned from a good they kept to a greater good they lacked, by grace cooperating with free choice; this grace was not given to those who fell.",
+  "claims": [
+   "The angels did not need justifying grace, since they were not evil.",
+   "Operating grace justifies the impious; cooperating grace helps to will and do good and persevere.",
+   "The standing angels received cooperating grace.",
+   "They turned from a good they kept to a greater good.",
+   "Conversion was by grace cooperating with free choice.",
+   "This grace was not given to the fallen angels."
+  ],
+  "concepts": [
+   "gratia operans vs cooperans",
+   "justification",
+   "perseverance",
+   "grace and free will"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll2d5c4-d1e3514"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T18:59:02Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

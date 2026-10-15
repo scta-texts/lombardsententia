@@ -1,0 +1,99 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:11:27Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll2d14c10-d1e3519": {
+  "summary": "Asks how 'let them be for signs and times and days and years' is to be understood.",
+  "claims": [],
+  "concepts": [
+   "question",
+   "Genesis 1:14"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d14c10",
+    "pl-l2d14c9"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:11:27Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d14c10-d1e3531": {
+  "summary": "Answers that it seems to say times began on the fourth day, though the first three days were not timeless; so 'times' made by the stars means not spans of duration but changes in the air's quality, signs of fair weather and storm and the four seasons; or the distinction of hours, which before had no markers (Augustine).",
+  "claims": [
+   "Time existed before the stars.",
+   "The stars produce seasons and mark hours."
+  ],
+  "concepts": [
+   "time",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d14c10",
+    "pll2d14c10-d1e3519"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:11:27Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d14c10-d1e3562": {
+  "summary": "States that these things were made on the fourth day.",
+  "claims": [],
+  "concepts": [
+   "conclusion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d14c10",
+    "pll2d14c10-d1e3531"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:11:27Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d14c10": {
+  "summary": "Asks how 'let them be for signs and times and days and years' (Gen 1:14) is meant, as if times began on the fourth day, though the first three were not without time. 'Times' made by stars means not spans of duration but changes in the air's quality: signs of fair weather and storm, and the four seasons; or the distinction of hours, which before had no markers (Augustine). These were made on the fourth day.",
+  "claims": [
+   "Time existed before the fourth day.",
+   "'Times' made by the stars mean changes of weather and seasons, not duration itself.",
+   "The stars also mark the hours."
+  ],
+  "concepts": [
+   "time",
+   "fourth day",
+   "seasons",
+   "Augustine De Genesi ad litteram"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll2d14c10-d1e3519",
+    "pll2d14c10-d1e3531",
+    "pll2d14c10-d1e3562"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:11:27Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

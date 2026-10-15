@@ -1,0 +1,59 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:09:52Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll2d12c4-d1e3519": {
+  "summary": "Notes that Augustine says darkness is nothing, while elsewhere darkness is among creatures that bless the Lord (Dan 3:72). So darkness is taken variously: as absence of light, not anything; or as darkened air or a dark quality of air, a created thing. Darkness was over the abyss because there was not yet light, formed on the first day.",
+  "claims": [
+   "Darkness as privation is nothing.",
+   "Darkness as darkened air is created.",
+   "Light was formed on the first day."
+  ],
+  "concepts": [
+   "equivocation",
+   "reconciliation"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d12c4",
+    "pll2d12c3-d1e3618"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:09:52Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d12c4": {
+  "summary": "Notes the apparent conflict between Augustine's 'darkness is not anything' and 'light and darkness, bless the Lord' (Dan 3:72), which lists darkness among creatures. Darkness is taken in different senses: as absence of light, not a thing; or as darkened air, a created quality. Darkness was over the abyss because light, formed on the first day, did not yet exist.",
+  "claims": [
+   "'Darkness' can mean absence of light, which is nothing.",
+   "'Darkness' can mean darkened air, which is created.",
+   "Light was formed on the first day."
+  ],
+  "concepts": [
+   "darkness",
+   "equivocation",
+   "Daniel 3:72",
+   "privation"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll2d12c4-d1e3519"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:09:52Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

@@ -1,0 +1,148 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:33:35Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d25c1-d1e108": {
+  "summary": "Returns to free choice, which philosophers defined as 'free judgment concerning the will,' since the power and aptitude of will and reason is free to move to either; it is called free with respect to the will, which can be moved voluntarily and by spontaneous appetite to what it judges good or evil.",
+  "claims": [
+   "Free choice is free judgment about the will."
+  ],
+  "concepts": [
+   "definition"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d25c1",
+    "pl-l2d24c13",
+    "pl-l2d24c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:33:35Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d25c1-d1e111": {
+  "summary": "Explains that free choice concerns not present or past but future contingents: what is present is determined and cannot not be while it is; whether this or that will be in the future belongs to free choice, but only for things that can be done or not by it, not what is beyond our power or would happen anyway.",
+  "claims": [
+   "Free choice concerns future contingents within our power."
+  ],
+  "concepts": [
+   "future contingents",
+   "modal logic"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d25c1",
+    "pl-l2d25c1-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:33:35Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d25c1-d1e116": {
+  "summary": "Notes that on this account free choice seems to exist only in those who can change their will to contraries, choosing good or evil and doing or omitting either; so not in God or in those confirmed in beatitude so that they cannot sin.",
+  "claims": [],
+  "concepts": [
+   "objection"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d25c1",
+    "pl-l2d25c1-d1e111"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:33:35Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d25c1-d1e120": {
+  "summary": "Cites Augustine, De civitate Dei XXII: should God be denied free choice because he cannot sin?",
+  "claims": [
+   "God has free choice though he cannot sin."
+  ],
+  "concepts": [
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d25c1",
+    "pl-l2d25c1-d1e116"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:33:35Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d25c1-d1e126": {
+  "summary": "Cites Ambrose: the Spirit distributes to each as he wills (1 Cor 12:11), by free will, not by necessity.",
+  "claims": [
+   "The Spirit acts by free will, not necessity."
+  ],
+  "concepts": [
+   "Ambrose"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d25c1",
+    "pl-l2d25c1-d1e120"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:33:35Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d25c1": {
+  "summary": "Returns to free choice, which philosophers defined as 'free judgment concerning the will,' since the power of will and reason is free to move either way; it is called free with respect to the will, which can move spontaneously toward what reason judges good or evil. Free choice concerns not present or past but future contingents, and only those that can be done or not done by it. On this account free choice seems to exist only in those who can change their will to contraries, so not in God or the confirmed blessed; yet Augustine says God, though unable to sin, has free choice, and Ambrose that the Spirit distributes as he wills, by free will, not necessity.",
+  "claims": [
+   "Free choice is free judgment concerning the will.",
+   "It is called free with respect to the will.",
+   "Free choice concerns future contingents within our power, not present or past.",
+   "If free choice required the power to choose contraries, God and the blessed would lack it.",
+   "Augustine and Ambrose attribute free choice to God, who cannot sin."
+  ],
+  "concepts": [
+   "liberum arbitrium",
+   "definition",
+   "future contingents",
+   "freedom of God",
+   "Augustine",
+   "Ambrose"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d25c1-d1e108",
+    "pl-l2d25c1-d1e111",
+    "pl-l2d25c1-d1e116",
+    "pl-l2d25c1-d1e120",
+    "pl-l2d25c1-d1e126"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:33:35Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

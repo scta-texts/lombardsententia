@@ -1,0 +1,141 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T13:14:26Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d50c6-d1e115": {
+  "summary": "Asks whether the saints, seeing the wicked in torments, are moved by compassion toward them and desire them to be freed from torments.",
+  "claims": [],
+  "concepts": [
+   "compassion of the blessed"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d50c6"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:14:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d50c6-d1e118": {
+  "summary": "Recalls Abraham's answer to the rich man: between us and you a great chasm is fixed, so those who wish to cross cannot. What is that chasm between good and bad but justice on one side and iniquity on the other, which cannot be joined? The saints are so devoted to God's justice that they cannot pass over to the reprobate by any compassion, and no intercession is made for them among the saints.",
+  "claims": [
+   "The chasm is justice versus iniquity.",
+   "The saints neither pity nor intercede for the damned."
+  ],
+  "concepts": [
+   "compassion of the blessed",
+   "justice of God",
+   "rich man and Lazarus"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d50c6"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:14:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d50c6-d1e127": {
+  "summary": "Asks how then some are said to wish to cross to them but be unable.",
+  "claims": [],
+  "concepts": [
+   "difficulty"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d50c6"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:14:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d50c6-d1e131": {
+  "summary": "Answers: because if God's justice allowed it, their liberation would not displease them; or they are said to wish and be unable not because they wish and cannot, but because even if they wished they could not help them.",
+  "claims": [
+   "The saints' 'wish' is hypothetical, conditioned on God's justice."
+  ],
+  "concepts": [
+   "will of the blessed",
+   "justice of God"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d50c6"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:14:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d50c6-d1e134": {
+  "summary": "Cites Gregory: as the reprobate wish to pass from punishment to the saints' glory and cannot, so the just in mind wish by mercy to go to those in torment to free them, but cannot, since the souls of the just, though merciful by the goodness of their nature, are now so joined to their author's justice and constrained by such rectitude that they are moved by no compassion toward the reprobate.",
+  "claims": [
+   "The just are moved by no compassion for the reprobate."
+  ],
+  "concepts": [
+   "compassion of the blessed",
+   "rectitude",
+   "Gregory"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d50c6"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:14:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d50c6": {
+  "summary": "Asks whether the saints, seeing the wicked in torment, are moved by compassion and wish them freed. The great chasm between Abraham and the rich man is justice on one side and iniquity on the other, which cannot be joined: the saints are so devoted to God's justice that they cannot pass over to the reprobate by compassion, and no intercession is made for them. They are said to wish to pass and not be able, because if God's justice permitted, their liberation would not displease them, or because even if they wished, they could not help. Gregory: the souls of the just, though naturally merciful, are now so joined to their author's justice that they are moved by no compassion for the reprobate.",
+  "claims": [
+   "The saints do not pity the damned, being wholly devoted to God's justice.",
+   "No intercession is made for the damned.",
+   "The chasm is the separation of justice and iniquity."
+  ],
+  "concepts": [
+   "compassion of the blessed",
+   "justice of God",
+   "damnation",
+   "intercession"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d50c6-d1e115",
+    "pl-l4d50c6-d1e118",
+    "pl-l4d50c6-d1e127",
+    "pl-l4d50c6-d1e131",
+    "pl-l4d50c6-d1e134"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T13:14:26Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

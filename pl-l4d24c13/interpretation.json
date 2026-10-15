@@ -1,0 +1,79 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T12:50:50Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d24c13-d1e115": {
+  "summary": "Answers what order is: a kind of seal, something sacred, by which spiritual power and office are given to the ordained; the spiritual character, where there is promotion of power, is called order or grade.",
+  "claims": [
+   "Order is a seal conferring spiritual power and office.",
+   "Order is a spiritual character."
+  ],
+  "concepts": [
+   "definition of order",
+   "character"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d24c13"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:50:50Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d24c13-d1e118": {
+  "summary": "States that the orders are called sacraments because in receiving them a sacred thing, grace, is conferred, which the rites performed figure.",
+  "claims": [
+   "Orders are sacraments because they confer grace."
+  ],
+  "concepts": [
+   "sacrament of orders",
+   "grace of orders"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d24c13"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:50:50Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d24c13": {
+  "summary": "Asks what order is: a seal, something sacred, by which spiritual power and office are given to the ordained; the spiritual character, where there is promotion in power, is called order or grade. The orders are called sacraments because in receiving them a sacred thing, grace, is conferred, which the rites figure.",
+  "claims": [
+   "Order is a seal by which spiritual power and office are given.",
+   "The spiritual character of promotion is called order.",
+   "Orders are sacraments because they confer grace."
+  ],
+  "concepts": [
+   "definition of order",
+   "character",
+   "sacrament of orders",
+   "grace of orders"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d24c13-d1e115",
+    "pl-l4d24c13-d1e118"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T12:50:50Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

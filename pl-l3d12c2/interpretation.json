@@ -1,0 +1,178 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T01:07:53Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l3d12c2-d1e117": {
+  "summary": "Asks whether that man could sin or not be God: if he could sin, he could be damned; if damned, he could not be God; so if he could sin, he could not be God, since being God and being able to will iniquity cannot coexist.",
+  "claims": [
+   "Being God and being able to will iniquity are incompatible."
+  ],
+  "concepts": [
+   "impeccability"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d12c2",
+    "pl-l3d12c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:07:53Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d12c2-d1e120": {
+  "summary": "Answers with a distinction: if the question is about the person, it is plain that he could neither sin nor not be God. If about the nature, one must ask whether it is considered as united to the Word or as existing without being united. That soul, being united to the Word, cannot sin; it is equally certain that if it existed and were not united, it could sin.",
+  "claims": [
+   "As person, Christ could not sin nor fail to be God.",
+   "Christ's soul united to the Word cannot sin.",
+   "The same soul, if not united, could sin."
+  ],
+  "concepts": [
+   "impeccability",
+   "person and nature",
+   "distinction"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d12c2",
+    "pl-l3d12c2-d1e117"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:07:53Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d12c2-d1e123": {
+  "summary": "Reports an argument that his soul could sin even united to the Word, because it has free choice, which can turn either way.",
+  "claims": [
+   "Objection: free choice implies the ability to sin."
+  ],
+  "concepts": [
+   "free choice",
+   "impeccability"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d12c2",
+    "pl-l3d12c2-d1e120"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:07:53Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d12c2-d1e127": {
+  "summary": "Rejects this as frivolous: angels have free choice yet are confirmed by grace so that they cannot sin; how much more that man, to whom the Spirit was given without measure.",
+  "claims": [
+   "Confirmed angels have free choice but cannot sin.",
+   "Christ, given the Spirit without measure, cannot sin."
+  ],
+  "concepts": [
+   "confirmation in grace",
+   "free choice",
+   "grace of Christ"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d12c2",
+    "pl-l3d12c2-d1e123",
+    "pl-l2d7c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:07:53Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d12c2-d1e136": {
+  "summary": "Reports the authority they adduce: 'who could transgress and did not transgress, do evil and did not do it' (Sir 31:10).",
+  "claims": [
+   "Objection: Scripture speaks of one who could transgress."
+  ],
+  "concepts": [
+   "impeccability"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d12c2",
+    "pl-l3d12c2-d1e123"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:07:53Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d12c2-d1e142": {
+  "summary": "Answers that this must be read of the members, or partly of the head and partly of the members: of the head, that he did not transgress or do evil; of the members, that they could transgress and do evil.",
+  "claims": [
+   "The text applies to Christ's members, or partly to head and partly to members."
+  ],
+  "concepts": [
+   "head and members",
+   "exegesis"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d12c2",
+    "pl-l3d12c2-d1e136"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:07:53Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d12c2": {
+  "summary": "Asks whether that man could sin or not be God, since if he could sin he could be damned and so not be God. A distinction is needed: of the person, plainly he could neither sin nor not be God; of the nature, as united to the Word his soul could not sin, though it could if it existed and were not united. Against those who argue from free choice that it could sin even united, Lombard notes that angels have free choice and are confirmed by grace so as not to sin, much more he to whom the Spirit was given without measure. The text 'who could transgress and did not' (Sir 31:10) is read of the members, or partly of head and partly of members.",
+  "claims": [
+   "As person, Christ could neither sin nor not be God.",
+   "Christ's soul united to the Word could not sin.",
+   "The same soul, if not united, could sin.",
+   "Free choice does not imply the ability to sin, as confirmed angels show."
+  ],
+  "concepts": [
+   "impeccability",
+   "person and nature",
+   "free choice",
+   "confirmation in grace",
+   "head and members"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d12c2-d1e117",
+    "pl-l3d12c2-d1e120",
+    "pl-l3d12c2-d1e123",
+    "pl-l3d12c2-d1e127",
+    "pl-l3d12c2-d1e136",
+    "pl-l3d12c2-d1e142"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T01:07:53Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

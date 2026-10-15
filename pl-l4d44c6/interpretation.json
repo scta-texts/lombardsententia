@@ -1,0 +1,100 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T13:09:38Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d44c6-d1e115": {
+  "summary": "Asks whether demons burn in bodily fire.",
+  "claims": [],
+  "concepts": [
+   "demons",
+   "fire of hell"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d44c6"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:09:38Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d44c6-d1e118": {
+  "summary": "Quotes Augustine: why not say that incorporeal spirits can be afflicted by the punishment of bodily fire in wondrous but true ways, if human spirits, also incorporeal, can now be inseparably bound to their members? Gehenna, called the pool of fire and sulfur, will be bodily fire, tormenting the bodies of the damned, men's solid and demons' airy, one fire for both, as the Truth says.",
+  "claims": [
+   "Incorporeal spirits can suffer bodily fire.",
+   "One bodily fire torments men and demons."
+  ],
+  "concepts": [
+   "demons",
+   "fire of hell",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d44c6"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:09:38Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d44c6-d1e133": {
+  "summary": "Cites Augustine on what and where the fire is: what kind the eternal fire is and in what part of the world it will be, I think no one knows, unless the divine Spirit has shown him.",
+  "claims": [
+   "The nature and place of hell's fire are unknown."
+  ],
+  "concepts": [
+   "limits of knowledge",
+   "fire of hell"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d44c6"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:09:38Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d44c6": {
+  "summary": "Asks whether demons burn in bodily fire. Augustine: why not say that incorporeal spirits can, in wondrous but true ways, be afflicted by bodily fire, since human spirits, also incorporeal, are now bound to bodies? Gehenna, the pool of fire and sulfur, will be bodily fire tormenting the bodies of men, solid, and of demons, airy, one fire for both. What and where that fire is, no one knows unless the Spirit reveals it.",
+  "claims": [
+   "Demons are afflicted by bodily fire.",
+   "Hell's fire is bodily, one fire for men and demons.",
+   "Its nature and place are unknown."
+  ],
+  "concepts": [
+   "fire of hell",
+   "demons",
+   "limits of knowledge",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d44c6-d1e115",
+    "pl-l4d44c6-d1e118",
+    "pl-l4d44c6-d1e133"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T13:09:38Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

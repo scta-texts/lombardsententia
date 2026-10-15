@@ -1,0 +1,57 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T17:39:40Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll1d22c2-d1e3501": {
+  "summary": "Adds, with De Trinitate V, names that befit God from time and are said relatively to creatures: some of all persons, as Lord, Creator, refuge; some not of all, as gifted, given, sent.",
+  "claims": [
+   "Some names apply to God temporally and relatively to creatures.",
+   "Some temporal names apply to all persons, others not."
+  ],
+  "concepts": [
+   "temporal relative names",
+   "mission"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d22c2",
+    "pll1d22c1-d1e3506"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:39:40Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1d22c2": {
+  "summary": "Adds with Augustine the names that befit God from time and are said relatively to creatures: some of all persons (Lord, Creator, refuge), some not of all (gifted, given, sent).",
+  "claims": [
+   "Some names befit God from time and relate to creatures.",
+   "Of these, some are said of all persons (Lord, Creator, refuge).",
+   "Others are not said of all persons (given, sent)."
+  ],
+  "concepts": [
+   "temporal names",
+   "relative to creatures",
+   "divine names"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d22c2-d1e3501"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T17:39:40Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

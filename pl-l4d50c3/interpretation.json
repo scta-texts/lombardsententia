@@ -1,0 +1,77 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T13:14:26Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d50c3-d1e115": {
+  "summary": "Asks whether souls of the reprobate now tormented in hell know what happens to their own in this life, and whether they grieve over their dear ones' misfortunes.",
+  "claims": [],
+  "concepts": [
+   "knowledge of the dead"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d50c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:14:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d50c3-d1e118": {
+  "summary": "Quotes Augustine, who partly explains and partly leaves it unsolved: someone will ask whether the dead feel pain over what happens to their own after death, or how the spirits of the dead know what happens around us; it is a great question not to be treated now. Briefly, the dead care for their loved ones, as the rich man in torment said 'I have five brothers; let him warn them'; the dead care for the living they know to be alive, not seeing them in places of punishment or rest; but it does not follow that they know what happens here to their loved ones, joyful or sad.",
+  "claims": [
+   "The dead care for living loved ones.",
+   "They need not know what happens to them."
+  ],
+  "concepts": [
+   "knowledge of the dead",
+   "rich man and Lazarus",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d50c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:14:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d50c3": {
+  "summary": "Asks whether the souls of the reprobate now in hell know what happens to their own in this life and grieve over their misfortunes. Augustine treats it partly and leaves it partly unsolved: it is a great question; the dead have care for their loved ones, as the rich man asked that his five brothers be warned, knowing they lived since he saw them neither in punishment nor in rest; but it does not follow that they know the joys or sorrows of their loved ones here.",
+  "claims": [
+   "The dead care for the living.",
+   "It does not follow that they know what happens to them here.",
+   "The question is left partly open."
+  ],
+  "concepts": [
+   "knowledge of the dead",
+   "intermediate state",
+   "rich man and Lazarus",
+   "open question"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d50c3-d1e115",
+    "pl-l4d50c3-d1e118"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T13:14:26Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

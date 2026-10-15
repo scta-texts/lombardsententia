@@ -1,0 +1,89 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T01:11:30Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l3d20c4-d1e114": {
+  "summary": "Imagines God, man, and devil coming to trial: devil and man would have nothing to say against God. The devil would be convicted of injury to God for fraudulently abducting and violently holding his servant; man of injury to God for despising his precepts and selling himself to another's dominion; the devil of injury to man for deceiving him with false promises and harming him. So the devil held man unjustly as far as he was concerned, but man was justly held, since the devil never merited power over man, while man by his guilt merited to suffer the devil's tyranny.",
+  "claims": [
+   "The devil held man unjustly as regards himself.",
+   "Man was justly held because of his guilt.",
+   "The devil never merited power over man."
+  ],
+  "concepts": [
+   "rights of the devil",
+   "justice",
+   "devil"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d20c4",
+    "pl-l3d20c3-d1e114"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:11:30Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d20c4-d1e120": {
+  "summary": "Concludes that God, who was over both, could have freed man most rightly by power, by the force of his command alone, but for the reason given chose to use the justice of humility. When he was crucified in mortal flesh we were justified, freed from the devil's power by remission of sins, and so the devil was conquered by Christ through justice, not power. How sins were remitted in his blood was explained above.",
+  "claims": [
+   "God could have freed man by command alone.",
+   "God chose the justice of humility.",
+   "By Christ's crucifixion we are freed from the devil by remission of sins."
+  ],
+  "concepts": [
+   "justice and power",
+   "humility",
+   "justification"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d20c4",
+    "pl-l3d20c4-d1e114",
+    "pl-l3d19c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:11:30Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d20c4": {
+  "summary": "Imagines a trial between God, man, and the devil: devil and man would have nothing to say against God. The devil would be convicted of injury to God, having fraudulently taken and violently held God's servant; man of injury to God, having despised his commands and sold himself to another lord; the devil of injury to man, having deceived and harmed him. So the devil held man unjustly as far as he was concerned, but man was justly held, having merited by guilt to suffer the devil's tyranny. God could most justly have freed man by command alone, but chose the justice of humility: by Christ's crucifixion we are justified, freed from the devil's power by remission of sins.",
+  "claims": [
+   "The devil held man unjustly as regards himself.",
+   "Man was justly held, having merited the devil's tyranny by guilt.",
+   "The devil never merited power over man.",
+   "God could have freed man by command alone but chose the justice of humility."
+  ],
+  "concepts": [
+   "justice and power",
+   "devil",
+   "rights of the devil",
+   "redemption",
+   "humility"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d20c4-d1e114",
+    "pl-l3d20c4-d1e120"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T01:11:30Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

@@ -1,0 +1,134 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T11:01:29Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l3d28c3-d1e112": {
+  "summary": "Continues the sentence from the preceding chapter: so that we understand as neighbor anyone to whom mercy must be shown if he is in need, or would be if he were. No one is excepted, since mercy extends even to enemies; so every man is to be counted a neighbor. 'Neighbor' is relative: one can be neighbor only to a neighbor.",
+  "claims": [
+   "Every man is to be counted a neighbor.",
+   "Mercy is owed even to enemies.",
+   "'Neighbor' is a relative term."
+  ],
+  "concepts": [
+   "neighbor",
+   "love of enemies",
+   "works of mercy",
+   "relative terms"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d28c3",
+    "pl-l3d28c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:01:29Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d28c3-d1e127": {
+  "summary": "Infers that both the one to whom and the one by whom mercy is shown are rightly called neighbor; so the holy angels, who show us so much mercy, are included in the commandment of love of neighbor.",
+  "claims": [
+   "The holy angels are included in the commandment of love of neighbor."
+  ],
+  "concepts": [
+   "love of angels",
+   "neighbor",
+   "relative terms"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d28c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:01:29Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d28c3-d1e130": {
+  "summary": "Adds that the Lord wished to be called our neighbor, as in the parable and the Psalm; but because the divine substance surpasses our nature, the commandment of loving God is distinct from that of loving neighbor. Though God shows us every benefit, he is not included under 'neighbor' in that commandment, since we must love him not as ourselves but more than ourselves, with whole heart and soul.",
+  "claims": [
+   "God is not included under 'neighbor' in the commandment.",
+   "God is to be loved more than oneself."
+  ],
+  "concepts": [
+   "love of God",
+   "neighbor",
+   "divine transcendence"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d28c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:01:29Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d28c3-d1e142": {
+  "summary": "States that Christ as man is to be loved as ourselves and is included in that commandment; as man he is to be loved more than ourselves but not as much as God, since as man he is less than God.",
+  "claims": [
+   "Christ as man is included under the neighbor-commandment.",
+   "Christ as man is to be loved more than ourselves but less than God."
+  ],
+  "concepts": [
+   "love of Christ",
+   "reduplication",
+   "order of love"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d28c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:01:29Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d28c3": {
+  "summary": "Continues: the neighbor is anyone to whom works of mercy must be shown if needed, and none is excepted, since mercy extends even to enemies; so every man is a neighbor. 'Neighbor' is a relative term, applying both to the one who receives and the one who shows mercy, so the holy angels who show us mercy are included in the commandment. The Lord too wished to be called our neighbor, but because the divine substance exceeds our nature, love of God is a separate commandment, and God is to be loved more than ourselves, not as ourselves. Christ as man is included in the neighbor-commandment and is to be loved more than ourselves, but less than God.",
+  "claims": [
+   "Every man is a neighbor, including enemies.",
+   "'Neighbor' is relative, so the holy angels who show us mercy are neighbors.",
+   "God is not included under 'neighbor' and is to be loved more than oneself.",
+   "Christ as man is to be loved more than ourselves but less than God."
+  ],
+  "concepts": [
+   "neighbor",
+   "love of angels",
+   "love of enemies",
+   "relative terms",
+   "love of Christ"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d28c3-d1e112",
+    "pl-l3d28c3-d1e127",
+    "pl-l3d28c3-d1e130",
+    "pl-l3d28c3-d1e142"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T11:01:29Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

@@ -1,0 +1,102 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:23:31Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d15c7-d1e108": {
+  "summary": "Announces that something must be said about the rest of the seventh day.",
+  "claims": [],
+  "concepts": [
+   "transition",
+   "seventh day"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d15c7",
+    "pl-l2d15c6"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:23:31Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d15c7-d1e110": {
+  "summary": "Quotes Gen 2:2: God completed his work on the seventh day and rested from all the work he had done.",
+  "claims": [],
+  "concepts": [
+   "Genesis 2:2"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d15c7",
+    "pl-l2d15c7-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:23:31Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d15c7-d1e121": {
+  "summary": "Explains that God rested not as tired from working but by ceasing to make new creatures; 'rest' means 'cease,' as in Rev 4:8 ('they had no rest saying Holy'). Yet the Father works until now with the Son (John 5:17), administering the kinds then established, since the Creator's power causes every creature's subsistence. He rested from making new creatures without preceding matter or likeness, but works so as not to cease containing and governing what he made (Augustine).",
+  "claims": [
+   "God's rest is ceasing to create new kinds.",
+   "God continually sustains and governs creation."
+  ],
+  "concepts": [
+   "conservation",
+   "John 5:17",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d15c7",
+    "pl-l2d15c7-d1e110"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:23:31Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d15c7": {
+  "summary": "Treats God's rest on the seventh day (Gen 2:2). God rested not from fatigue but by ceasing to make new kinds of creatures; 'rest' means 'cease,' as in Rev 4:8. Yet the Father and the Son work until now (John 5:17), governing the kinds then established, since the Creator's power causes every creature to subsist. God rested from making new creatures without preceding matter or likeness, but works continually to contain and govern what he made (Augustine).",
+  "claims": [
+   "God rested by ceasing to make new kinds of creatures, not from weariness.",
+   "God continues to work by sustaining and governing creation.",
+   "The Creator's power is the cause of every creature's subsistence."
+  ],
+  "concepts": [
+   "God's rest",
+   "seventh day",
+   "conservation",
+   "governance",
+   "John 5:17",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d15c7-d1e108",
+    "pl-l2d15c7-d1e110",
+    "pl-l2d15c7-d1e121"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:23:31Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

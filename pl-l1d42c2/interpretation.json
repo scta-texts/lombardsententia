@@ -1,0 +1,187 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T18:41:19Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll1d42c2-d1e3501": {
+  "summary": "Asks how God can do all things when we can do things he cannot, like walk and speak, which are alien to the divine nature, since a simple incorporeal substance has no instruments for them.",
+  "claims": [],
+  "concepts": [
+   "objection"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d42c2",
+    "pll1d42c1-d1e3528"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:41:19Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d42c2-d1e3506": {
+  "summary": "Answers that walking and speaking are not alien to God's power: though he cannot do them in himself, he can work them in creatures, making a person walk and speak; so his power is not diminished.",
+  "claims": [
+   "God causes walking and speaking in creatures."
+  ],
+  "concepts": [
+   "power in creatures"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d42c2",
+    "pll1d42c2-d1e3501"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:41:19Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d42c2-d1e3509": {
+  "summary": "Notes other things God cannot do at all, such as sin or lie.",
+  "claims": [
+   "God cannot sin or lie."
+  ],
+  "concepts": [
+   "impeccability"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d42c2",
+    "pll1d42c2-d1e3506"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:41:19Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d42c2-d1e3513": {
+  "summary": "Answers that this does not diminish omnipotence: being able to sin would be weakness, not power, and he would not be omnipotent. So it is due to power, not impotence.",
+  "claims": [
+   "Inability to sin is power, not impotence."
+  ],
+  "concepts": [
+   "power vs weakness"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d42c2",
+    "pll1d42c2-d1e3509"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:41:19Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d42c2-d1e3516": {
+  "summary": "Cites De Trinitate XV: it is great power not to be able to lie. What counts as power or praise in some things is blameworthy in others; God is not less powerful for being unable to sin.",
+  "claims": [
+   "Not being able to lie is great power."
+  ],
+  "concepts": [
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d42c2",
+    "pll1d42c2-d1e3513"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:41:19Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d42c2-d1e3536": {
+  "summary": "Notes further things God cannot do, such as die or be deceived, which might seem to limit omnipotence.",
+  "claims": [],
+  "concepts": [
+   "objection"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d42c2",
+    "pll1d42c2-d1e3516"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:41:19Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d42c2-d1e3539": {
+  "summary": "Cites Augustine on the Creed: the omnipotent God cannot die, be deceived, be miserable, or be conquered; if he could suffer such defects he would not be omnipotent. His omnipotence is shown in that these cannot touch him, though he can work them in others.",
+  "claims": [
+   "God cannot die, be deceived, become miserable, or be conquered.",
+   "This shows his omnipotence."
+  ],
+  "concepts": [
+   "impassibility"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d42c2",
+    "pll1d42c2-d1e3536"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:41:19Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1d42c2": {
+  "summary": "Asks how God can do all things when we can do things he cannot, such as walk or speak, alien to his incorporeal nature. Lombard answers that such actions belong to his power, since he makes humans walk and speak, though he cannot do them himself. Other things God cannot do at all, such as sin or lie, but this is not impotence but power: being able to sin would be weakness, and he would not be omnipotent. Augustine: it is great power not to be able to lie; and God cannot die, be deceived, be miserable, or be conquered, which shows his omnipotence, though he can cause these in others.",
+  "claims": [
+   "Walking and speaking belong to God's power since he causes them in creatures.",
+   "God cannot sin or lie, and this is not impotence.",
+   "Being able to sin would be weakness, not power.",
+   "God cannot die, be deceived, be miserable, or be conquered.",
+   "That such defects cannot affect God shows his omnipotence."
+  ],
+  "concepts": [
+   "omnipotence",
+   "impeccability",
+   "impassibility",
+   "power vs weakness"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d42c2-d1e3501",
+    "pll1d42c2-d1e3506",
+    "pll1d42c2-d1e3509",
+    "pll1d42c2-d1e3513",
+    "pll1d42c2-d1e3516",
+    "pll1d42c2-d1e3536",
+    "pll1d42c2-d1e3539"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T18:41:19Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

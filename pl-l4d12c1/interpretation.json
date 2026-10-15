@@ -1,0 +1,60 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T12:33:00Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d12c1-d1e115": {
+  "summary": "Asks in what subject the remaining accidents, the species, taste, and weight, are grounded, and judges it better to admit that they exist without a subject, since the only substance there is the Lord's body and blood, which is not affected by them: Christ's body has not that form in itself, but the form in which it will appear at the judgment. They remain, subsisting by themselves, for the rite of the mystery, for taste, and as a support of faith, covering Christ's body, which has its own form and nature.",
+  "claims": [
+   "The remaining accidents exist without a subject.",
+   "Christ's body is not their subject.",
+   "The accidents serve the rite and faith."
+  ],
+  "concepts": [
+   "accidents without subject",
+   "species",
+   "Christ's body"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d12c1",
+    "pl-l4d11c2-d1e180"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:33:00Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d12c1": {
+  "summary": "Asks in what subject the remaining accidents (species, taste, weight) inhere, and holds it better to say they exist without a subject, since the only substance there is Christ's body and blood, which is not affected by them; his body has not that form but the form in which it will appear at the judgment. These accidents remain, subsisting by themselves, for the rite of the mystery, for taste, and as a support for faith, covering Christ's body which keeps its own form and nature.",
+  "claims": [
+   "The accidents of bread and wine remain without a subject.",
+   "Christ's body is not affected by those accidents.",
+   "The accidents remain for the rite, taste, and faith."
+  ],
+  "concepts": [
+   "accidents without subject",
+   "species",
+   "Christ's body",
+   "faith"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d12c1-d1e115"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T12:33:00Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

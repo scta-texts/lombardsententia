@@ -1,0 +1,131 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T11:04:07Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l3d32c1-d1e115": {
+  "summary": "Adds a treatment of God's love by which he loves us, which is not other than that by which we love him.",
+  "claims": [
+   "God's love for us is the same as that by which we love him."
+  ],
+  "concepts": [
+   "God's love",
+   "Holy Spirit as charity"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d32c1",
+    "pl-l1d17c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:04:07Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d32c1-d1e118": {
+  "summary": "States that God's love is the divine essence; by the same love the Father, Son, and Holy Spirit love one another and us. Though his love is immutable and eternal, he loves some more and some less.",
+  "claims": [
+   "God's love is the divine essence.",
+   "God loves some more and some less, though his love is immutable."
+  ],
+  "concepts": [
+   "God's love",
+   "divine essence",
+   "immutability"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d32c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:04:07Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d32c1-d1e121": {
+  "summary": "Quotes Augustine: God's love is incomprehensible and immutable; he loves in each of us what he made and hates what we made, and so, in a wondrous way, loves us even when he hates us. Who can say how much he loves the members of his Only-begotten, and how much more the Only-begotten himself? Scripture says he hates nothing he made.",
+  "claims": [
+   "God loves what he made in us and hates what we made.",
+   "God loves the members of Christ and Christ still more."
+  ],
+  "concepts": [
+   "God's love",
+   "hatred of sin",
+   "members of Christ",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d32c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:04:07Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d32c1-d1e134": {
+  "summary": "Draws out that God loves all his creatures, since he hates nothing he made and all he made is very good; if he loves every good, he loves all he made. Among them he loves rational creatures more, among these the members of his Son more, and his Son much more.",
+  "claims": [
+   "God loves all creatures because all are good.",
+   "God's love has degrees: creatures, rational creatures, Christ's members, Christ."
+  ],
+  "concepts": [
+   "God's love",
+   "goodness of creation",
+   "degrees of God's love"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d32c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:04:07Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d32c1": {
+  "summary": "Turns to God's love for us, which is the same as that by which we love him. God's love is the divine essence; by it the Father, Son, and Spirit love themselves and us; though immutable and eternal, he loves some more and some less. Augustine: God's love is incomprehensible and immutable, loving in each of us what he made and hating what we made, loving even when he hates, loving the members of his Only-begotten and much more the Only-begotten. So God loves all his creatures, since all he made is good, and among them more the rational ones, more still the members of his Son, and most the Son himself.",
+  "claims": [
+   "God's love is the divine essence.",
+   "God loves all that he made.",
+   "God loves rational creatures more, the members of Christ more, and Christ most.",
+   "God hates what we made, sin, while loving what he made."
+  ],
+  "concepts": [
+   "God's love",
+   "divine essence",
+   "degrees of God's love",
+   "goodness of creation"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d32c1-d1e115",
+    "pl-l3d32c1-d1e118",
+    "pl-l3d32c1-d1e121",
+    "pl-l3d32c1-d1e134"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T11:04:07Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

@@ -1,0 +1,133 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:14:24Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d18c7-d1e108": {
+  "summary": "Reports some who thought that as woman's body was taken from man's, so her soul from his, and all souls after the first are propagated like bodies.",
+  "claims": [
+   "Traducianism holds souls are propagated."
+  ],
+  "concepts": [
+   "traducianism"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d18c7",
+    "pl-l2d18c6"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:14:24Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d18c7-d1e111": {
+  "summary": "Reports others who thought all souls were created together at the beginning. The Catholic Church teaches souls were neither made together nor by propagation, but are infused into bodies sown and formed through intercourse, and created by being infused.",
+  "claims": [
+   "The Church teaches souls are created by infusion."
+  ],
+  "concepts": [
+   "Catholic teaching",
+   "creationism"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d18c7",
+    "pl-l2d18c7-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:14:24Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d18c7-d1e114": {
+  "summary": "Cites the Ecclesiastical Dogmas: souls were not created at the beginning among intellectual natures, as Origen imagined, nor sown with bodies by intercourse, as the Luciferians, Cyril, and some Latins hold; only the body is sown, and God, who alone knows the soul's creation, creates and infuses the soul once the body is formed in the womb, so that man lives in the womb of soul and body.",
+  "claims": [
+   "Origen's preexistence is rejected.",
+   "Souls are not propagated with bodies.",
+   "God creates the soul when the body is formed."
+  ],
+  "concepts": [
+   "Gennadius",
+   "Origen rejected"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d18c7",
+    "pl-l2d18c7-d1e111"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:14:24Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d18c7-d1e118": {
+  "summary": "Cites Jerome, who anathematizes those who say souls come by propagation, citing the prophet 'who fashioned their hearts one by one': God does not make soul from soul but creates souls singly from nothing.",
+  "claims": [
+   "Traducianism is anathematized.",
+   "God creates each soul from nothing."
+  ],
+  "concepts": [
+   "Jerome",
+   "Psalm 32:15"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d18c7",
+    "pl-l2d18c7-d1e114"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:14:24Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d18c7": {
+  "summary": "Treats the origin of souls. Some thought, as woman's body came from man's, her soul came from his, and all souls after the first are propagated like bodies (traducianism); others that all souls were created at once from the beginning. The Catholic Church teaches neither: souls are infused into bodies sown and formed through intercourse and are created by being infused. The Ecclesiastical Dogmas (Gennadius): souls were not created at the beginning among intellectual natures as Origen imagined, nor sown with bodies as the Luciferians and Cyril held, but God creates and infuses the soul once the body is formed in the womb. Jerome anathematizes traducianism, citing 'who fashioned their hearts one by one': God creates souls singly from nothing.",
+  "claims": [
+   "Some held that souls are propagated from parents' souls (traducianism).",
+   "Others held that all souls were created at once at the beginning.",
+   "The Church teaches souls are created by God and infused into formed bodies.",
+   "Origen's preexistence of souls is rejected.",
+   "Only the body is sown by intercourse; God creates each soul.",
+   "Jerome anathematizes traducianism."
+  ],
+  "concepts": [
+   "creationism",
+   "traducianism rejected",
+   "preexistence rejected",
+   "Gennadius",
+   "Jerome",
+   "Origen"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d18c7-d1e108",
+    "pl-l2d18c7-d1e111",
+    "pl-l2d18c7-d1e114",
+    "pl-l2d18c7-d1e118"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:14:24Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

@@ -1,0 +1,142 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T17:41:03Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll1d23c3-d1e3501": {
+  "summary": "Asks why, if the three are called three persons because each is a person, they are not likewise called three gods, since each is God.",
+  "claims": [],
+  "concepts": [
+   "question"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d23c3",
+    "pll1d23c2-d1e3552"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:41:03Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d23c3-d1e3504": {
+  "summary": "Answers briefly: Scripture contradicts the one, and does not contradict the other even if it does not say it.",
+  "claims": [
+   "Scripture contradicts 'three gods' but not 'three persons.'"
+  ],
+  "concepts": [
+   "scriptural warrant"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d23c3",
+    "pll1d23c3-d1e3501"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:41:03Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d23c3-d1e3510": {
+  "summary": "Cites De Trinitate VII raising the question: if we say three persons because what person is is common to them, why not three gods, since Father, Son, and Spirit are each God?",
+  "claims": [],
+  "concepts": [
+   "Augustine's question"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d23c3",
+    "pll1d23c3-d1e3504"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:41:03Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d23c3-d1e3528": {
+  "summary": "Gives Augustine's answer: Scripture does not say three persons anywhere either, but it was permitted to say it for the need of speech because Scripture does not contradict it; 'three gods' would be contradicted by Deut 6:4.",
+  "claims": [
+   "'Three persons' is not in Scripture but is permitted by necessity.",
+   "'Three gods' contradicts Deuteronomy 6:4."
+  ],
+  "concepts": [
+   "necessity of speech",
+   "Deuteronomy 6:4"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d23c3",
+    "pll1d23c3-d1e3510"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:41:03Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d23c3-d1e3549": {
+  "summary": "Concludes that we say three persons rather than three gods because Scripture does not contradict the former.",
+  "claims": [
+   "We say three persons, not three gods, because Scripture permits the former."
+  ],
+  "concepts": [
+   "conclusion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d23c3",
+    "pll1d23c3-d1e3528"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:41:03Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1d23c3": {
+  "summary": "Asks why, if we say three persons because each is a person, we do not likewise say three gods, since each is God. Augustine's answer: Scripture does not say 'three persons' either, but does not contradict it, whereas 'three gods' is contradicted by 'Hear, Israel, the Lord your God is one God.'",
+  "claims": [
+   "We say three persons because each is a person.",
+   "We do not say three gods, though each is God.",
+   "Scripture neither says nor contradicts 'three persons.'",
+   "Scripture contradicts 'three gods' (Deut 6:4)."
+  ],
+  "concepts": [
+   "tres personae vs tres dii",
+   "scriptural warrant",
+   "linguistic necessity"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d23c3-d1e3501",
+    "pll1d23c3-d1e3504",
+    "pll1d23c3-d1e3510",
+    "pll1d23c3-d1e3528",
+    "pll1d23c3-d1e3549"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T17:41:03Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

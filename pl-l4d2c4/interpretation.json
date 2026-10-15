@@ -1,0 +1,79 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T11:47:36Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d2c4-d1e115": {
+  "summary": "Asks what John's baptism was useful for, and answers that it prepared people, through the practice of baptizing, for Christ's baptism.",
+  "claims": [
+   "John's baptism prepared people for Christ's."
+  ],
+  "concepts": [
+   "baptism of John",
+   "preparation"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d2c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:47:36Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d2c4-d1e121": {
+  "summary": "Asks why it is called John's baptism, as in 'the baptism of John, whence was it?': because there was only John's visible operation of washing outwardly, not God's invisible grace working inwardly. Yet John's action was from God, and that baptism was from God, not man; it was called man's because nothing was done there that man did not do.",
+  "claims": [
+   "John's baptism is called his because it involved only outward human washing.",
+   "John's baptism was from God."
+  ],
+  "concepts": [
+   "baptism of John",
+   "outward and inward action",
+   "grace"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d2c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:47:36Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d2c4": {
+  "summary": "Asks what use John's baptism had: it prepared people, by the practice of baptizing, for Christ's baptism. It is called John's baptism because only John's visible outward washing was there, not God's invisible inward grace; yet John's action and baptism were from God, called human because nothing happened there that man did not do.",
+  "claims": [
+   "John's baptism prepared people for Christ's.",
+   "It is called John's because only an outward human action occurred in it.",
+   "John's baptism was nonetheless from God."
+  ],
+  "concepts": [
+   "baptism of John",
+   "preparation",
+   "outward and inward action"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d2c4-d1e115",
+    "pl-l4d2c4-d1e121"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T11:47:36Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

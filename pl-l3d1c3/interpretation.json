@@ -1,0 +1,149 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T01:01:00Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l3d1c3-d1e117": {
+  "summary": "States an objection: since the works of the Trinity are undivided, if the Son assumed flesh, so did the Father and Spirit; otherwise not everything the Son does is done by the Father and Spirit, though all three work together.",
+  "claims": [
+   "Objection: undivided works imply that all three assumed flesh."
+  ],
+  "concepts": [
+   "inseparable operation"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d1c3",
+    "pl-l3d1c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:01:00Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d1c3-d1e120": {
+  "summary": "Answers that the Son does nothing without the Father and the Spirit, whose operation is one and undivided, and yet the Son, not the Father or Spirit, assumed flesh.",
+  "claims": [
+   "The operation of the three is one, yet only the Son assumed flesh."
+  ],
+  "concepts": [
+   "inseparable operation",
+   "incarnation"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d1c3",
+    "pl-l3d1c3-d1e117"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:01:00Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d1c3-d1e123": {
+  "summary": "Explains that the Trinity worked the assumption of flesh, quoting Augustine, De fide ad Petrum: we are reconciled through the Son alone according to the flesh, but not to the Son alone according to the deity, since the Trinity reconciled us by making the Word alone flesh.",
+  "claims": [
+   "The Trinity made the Word alone flesh."
+  ],
+  "concepts": [
+   "inseparable operation",
+   "reconciliation"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d1c3",
+    "pl-l3d1c3-d1e120"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:01:00Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d1c3-d1e136": {
+  "summary": "Concludes that the Trinity made the assumption of flesh, but for the Word, not for the Father or Spirit; if each worked it for himself, the operation would be divided. As the substance of the three is inseparable, so is the operation, according to Augustine, De Trinitate; yet the catholic writers teach that not the Trinity but only the Son was born of the Virgin, crucified, and buried, only the Spirit descended as a dove, and only the Father's voice spoke from heaven, though the three work inseparably. This, Augustine says, is his faith because it is the catholic faith.",
+  "claims": [
+   "The Trinity made the assumption of flesh for the Word alone.",
+   "One undivided operation yields effects proper to one person."
+  ],
+  "concepts": [
+   "inseparable operation",
+   "manifestation of the persons",
+   "Trinity"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d1c3",
+    "pl-l3d1c3-d1e123"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:01:00Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d1c3-d1e151": {
+  "summary": "Sums up: though only the Son assumed flesh, he worked the incarnation itself together with the Father and the Holy Spirit.",
+  "claims": [
+   "The Son alone assumed flesh but worked the incarnation with the Father and Spirit."
+  ],
+  "concepts": [
+   "inseparable operation",
+   "incarnation"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d1c3",
+    "pl-l3d1c3-d1e136"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:01:00Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d1c3": {
+  "summary": "Meets the objection that, since the works of the Trinity are undivided, if the Son took flesh so did the Father and the Spirit. Lombard answers that the Son does nothing without the Father and Spirit, and the Trinity worked the assumption of flesh, but made it the flesh of the Word alone (Augustine, De fide ad Petrum). The one operation is not divided, yet only the Son was born, crucified, and buried, only the Spirit descended as a dove, only the Father's voice spoke from heaven. So the Son alone assumed flesh, but worked the incarnation with Father and Spirit.",
+  "claims": [
+   "The works of the Trinity are undivided.",
+   "The whole Trinity worked the incarnation, but only the Son assumed flesh.",
+   "Distinct manifestations of the persons do not divide their operation."
+  ],
+  "concepts": [
+   "inseparable operation",
+   "incarnation",
+   "Trinity"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d1c3-d1e117",
+    "pl-l3d1c3-d1e120",
+    "pl-l3d1c3-d1e123",
+    "pl-l3d1c3-d1e136",
+    "pl-l3d1c3-d1e151"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T01:01:00Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

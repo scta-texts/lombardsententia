@@ -1,0 +1,53 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:32:08Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d24c13-d1e108": {
+  "summary": "Notes that Scripture often means by 'sensuality' not only what we share with beasts but also the lower part of reason intent on temporal things, which the diligent reader should note where it occurs.",
+  "claims": [
+   "'Sensuality' is used broadly in Scripture."
+  ],
+  "concepts": [
+   "terminology"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d24c13",
+    "pl-l2d24c12"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:32:08Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d24c13": {
+  "summary": "Notes that Scripture often uses 'sensuality' not only for what we share with beasts but also for the lower part of reason attending to temporal things, which the careful reader should note.",
+  "claims": [
+   "'Sensuality' in Scripture sometimes includes the lower part of reason."
+  ],
+  "concepts": [
+   "sensualitas",
+   "terminology",
+   "hermeneutics"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d24c13-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:32:08Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

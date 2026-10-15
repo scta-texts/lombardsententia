@@ -1,0 +1,102 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T18:56:42Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll2d2c3-d1e3514": {
+  "summary": "Concludes that corporeal and spiritual creation were made together with time and the world, the angels not before it, since, as Augustine says, no creature is before the ages.",
+  "claims": [
+   "Angels were not before the world."
+  ],
+  "concepts": [
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d2c3",
+    "pl-l2d2c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:56:42Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d2c3-d1e3531": {
+  "summary": "Cites Jerome on Titus: six thousand years have not passed, yet how many eternities and ages must there have been in which angels, thrones, and dominations served God without temporal change? Some, following this, say worldly time began with the world, but before it existed an immutable eternal time in which angels served.",
+  "claims": [],
+  "concepts": [
+   "Jerome",
+   "contrary opinion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d2c3",
+    "pll2d2c3-d1e3514"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:56:42Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d2c3-d1e3550": {
+  "summary": "Prefers the earlier view as far as he understands, with reverence for hidden things where nothing should be rashly asserted, and thinks Jerome was reporting others' opinion rather than his own.",
+  "claims": [
+   "The angels were created with the world.",
+   "Jerome likely reported others' view."
+  ],
+  "concepts": [
+   "reticence",
+   "interpretation of Jerome"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d2c3",
+    "pll2d2c3-d1e3531"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:56:42Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d2c3": {
+  "summary": "Concludes that corporeal and spiritual creation were made together with time and the world; with Augustine, no creature exists before the ages. Jerome on Titus seems to say angels served God for eternities before this world, and some infer an immutable 'eternal time' before worldly time. Lombard prefers the former view, with reverence for hidden matters where nothing should be rashly asserted, and suggests Jerome was reporting others' opinion, not his own.",
+  "claims": [
+   "Angels were created together with the world and time.",
+   "No creature exists before the ages.",
+   "Jerome seems to place angels before the world, but likely reports others' opinion.",
+   "Nothing should be rashly asserted about hidden matters."
+  ],
+  "concepts": [
+   "creation of angels",
+   "Jerome",
+   "eternal time rejected",
+   "theological reticence"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll2d2c3-d1e3514",
+    "pll2d2c3-d1e3531",
+    "pll2d2c3-d1e3550"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T18:56:42Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

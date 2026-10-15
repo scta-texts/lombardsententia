@@ -1,0 +1,154 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T11:10:24Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l3d39c4-d1e115": {
+  "summary": "Asks whether swearing is evil, and answers that sometimes it is and sometimes not.",
+  "claims": [],
+  "concepts": [
+   "oath",
+   "moral evaluation"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d39c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:10:24Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d39c4-d1e118": {
+  "summary": "Explains that swearing spontaneously and without necessity, or swearing falsely, is a grave sin; swearing from necessity, to confirm treaties of peace or persuade hearers of what is useful to them, is not evil, being necessary.",
+  "claims": [
+   "Unnecessary or false swearing is a grave sin.",
+   "Necessary swearing is not evil."
+  ],
+  "concepts": [
+   "oath",
+   "necessity",
+   "grave sin"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d39c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:10:24Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d39c4-d1e124": {
+  "summary": "Quotes Augustine: an oath is to be made in necessary matters, when men are slow to believe what is useful to them. It is not good to be sought nor evil to be fled when necessary; it is not against God's precept. The Lord forbade swearing so that no one swears by his own choice, as many do who have oaths constantly in their mouths; Paul knew the precept and still swore. We are forbidden to swear from desire or delight in swearing.",
+  "claims": [
+   "Necessary oaths are not against God's precept.",
+   "What is forbidden is swearing from desire or delight.",
+   "Paul swore, knowing the precept."
+  ],
+  "concepts": [
+   "oath",
+   "Augustine",
+   "Paul",
+   "desire to swear"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d39c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:10:24Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d39c4-d1e140": {
+  "summary": "Interprets Christ's 'I say to you, do not swear at all' as commanding that no one seek oaths as good and slip into perjury by frequent swearing.",
+  "claims": [
+   "Christ forbade seeking oaths as good and frequent swearing."
+  ],
+  "concepts": [
+   "Sermon on the Mount",
+   "habit of swearing",
+   "perjury"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d39c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:10:24Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d39c4-d1e149": {
+  "summary": "Interprets 'let your speech be yes, yes; no, no': this is good and to be sought; 'what is more comes from evil' means that if you are compelled to swear, it comes from the weakness of those you persuade, which is an evil from which we daily pray to be freed. He did not say 'what is more is evil', since one who uses an oath well does no evil; it comes from the evil of one who will not otherwise believe, a weakness that is sometimes penalty, sometimes penalty and fault. So the Lord forbade evil, counseled good, and permitted the necessary.",
+  "claims": [
+   "Simple yes and no is good.",
+   "Necessary oaths arise from the hearer's weakness, not from the swearer's evil.",
+   "The Lord forbade evil, counseled good, permitted the necessary."
+  ],
+  "concepts": [
+   "Sermon on the Mount",
+   "weakness of the hearer",
+   "precept, counsel, permission"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d39c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:10:24Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d39c4": {
+  "summary": "Asks whether swearing is evil: sometimes yes, sometimes no. Swearing spontaneously without necessity, or swearing falsely, is a grave sin; swearing from necessity, to confirm peace or persuade hearers of their good, is not evil. Augustine: an oath is not good to be sought, nor evil to be fled, when necessary; the Lord forbade swearing so that none swear from desire or delight in it, since Paul knew the precept and swore. Christ's 'do not swear at all' means not seeking oaths as good and slipping into perjury by habit. 'Let your speech be yes, yes; no, no' is good; what is more comes from evil, the weakness of those who will not otherwise believe, not from the one who swears well. So the Lord forbade evil, counseled good, and permitted the necessary.",
+  "claims": [
+   "Swearing without necessity or swearing falsely is a grave sin.",
+   "Swearing from necessity is not evil.",
+   "Christ forbade swearing from desire, not swearing as such.",
+   "The need for oaths comes from the weakness of those who will not believe."
+  ],
+  "concepts": [
+   "oath",
+   "necessity",
+   "Sermon on the Mount",
+   "habit of swearing",
+   "weakness of the hearer"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d39c4-d1e115",
+    "pl-l3d39c4-d1e118",
+    "pl-l3d39c4-d1e124",
+    "pl-l3d39c4-d1e140",
+    "pl-l3d39c4-d1e149"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T11:10:24Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

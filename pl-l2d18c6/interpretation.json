@@ -1,0 +1,86 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:14:24Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d18c6-d1e108": {
+  "summary": "Holds that the causes of all things are in God, but of some also in creatures; the causes of things in God alone are called hidden in God, since it is in divine disposition that this or that happen, not in a creature's seminal reason. What happens by seminal cause happens naturally, as nature's course is known to us; other things beyond nature.",
+  "claims": [
+   "Some causes are hidden in God alone.",
+   "Natural events follow seminal causes."
+  ],
+  "concepts": [
+   "hidden causes"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d18c6",
+    "pl-l2d18c5"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:14:24Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d18c6-d1e111": {
+  "summary": "Cites Augustine: things beyond nature are those done by grace or wonderfully to signify it, including woman's formation from man's rib: 'that she must be made so was not placed in things but hidden in God.' Nature's course has its laws, but beyond it the Creator can do otherwise, as a dry rod flowering, a barren woman bearing in old age, an ass speaking. The first condition of things had that woman could be made so, not that she must, so God did nothing against the causes he willingly instituted.",
+  "claims": [
+   "Miracles signify grace and have causes hidden in God.",
+   "Nature made it possible, not necessary, that woman come from the rib.",
+   "God does not act against the causes he established."
+  ],
+  "concepts": [
+   "miracle",
+   "grace"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d18c6",
+    "pl-l2d18c6-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:14:24Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d18c6": {
+  "summary": "Holds that the causes of all things are in God, but of some also in creatures; those only in God are called hidden causes, being in divine disposition but not in any seminal reason. What happens by seminal causes happens naturally; other things happen beyond nature. Augustine says the latter are works of grace or wonders signifying grace, among which is woman's formation from the rib: that it must happen so was hidden in God, not placed in things. Beyond nature's laws the Creator can do otherwise with all things, as a dry rod flowering or a barren old woman giving birth; the first condition of things contained that woman could be made so, not that she must, so God does nothing against causes he freely instituted.",
+  "claims": [
+   "Some causes are in God and in creatures; some are hidden in God alone.",
+   "What happens by seminal causes is natural; other things are beyond nature.",
+   "Works of grace and wonders signifying grace have causes hidden in God.",
+   "Woman's formation from the rib was by a cause hidden in God.",
+   "The first condition of things made it possible, not necessary, that woman be made so.",
+   "God's wonders do not contradict the causes he freely established."
+  ],
+  "concepts": [
+   "hidden causes",
+   "nature and miracle",
+   "seminal reasons",
+   "grace",
+   "Augustine De Genesi ad litteram"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d18c6-d1e108",
+    "pl-l2d18c6-d1e111"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:14:24Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

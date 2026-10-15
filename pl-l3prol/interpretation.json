@@ -1,0 +1,65 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T10:59:42Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l3prol-d1e112": {
+  "summary": "Opens Book 3 by turning to the mystery of the incarnate Word, asking for divine revelation to speak a little of ineffable things. Reason's order requires that, after Book 1 on the Trinity and Book 2 on creation and the fall, Books 3 and 4 treat man's restoration through the grace of the Mediator between God and men and through the sacraments of redemption, which bind man's wounds and heal sin, as the Samaritan comes to the wounded man, the physician to the sick, grace to the wretched.",
+  "claims": [
+   "The work proceeds from Trinity to creation and fall to restoration.",
+   "Restoration comes through the Mediator's grace and the sacraments.",
+   "Books 3 and 4 jointly treat restoration."
+  ],
+  "concepts": [
+   "incarnation",
+   "Mediator",
+   "restoration",
+   "sacraments",
+   "order of the work",
+   "Good Samaritan",
+   "grace"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3prol"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T10:59:42Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3prol": {
+  "summary": "The prologue to Book 3 places it in the plan of the whole work. Book 1 treated the Trinity and Book 2 the order of creation and the fall of man; Books 3 and 4 will treat man's restoration through the grace of the Mediator and the sacraments of redemption, which bind up and heal the wounds of sin. The parable of the Samaritan approaching the wounded man frames the remaining books, and the author asks for God's revelation in speaking of ineffable things.",
+  "claims": [
+   "Book 3 treats the mystery of the incarnate Word.",
+   "Books 3 and 4 treat restoration through the Mediator's grace and the sacraments.",
+   "The order of the work runs from Trinity, to creation and fall, to restoration."
+  ],
+  "concepts": [
+   "incarnation",
+   "Mediator",
+   "restoration",
+   "sacraments",
+   "order of the work",
+   "Good Samaritan"
+  ],
+  "_metadata": {
+   "level": "prologus",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3prol-d1e112"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-prologus-v1",
+   "generated_at": "2026-10-15T10:59:42Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

@@ -1,0 +1,83 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:39:39Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d30c13-d1e105": {
+  "summary": "Cites Augustine against Julian, who said there is no sin in infants: Julian asks by what chink sin enters the infant when neither born, begetter, nor Creator sins; Scripture answers, through one man and his disobedience. Asked whether sin is from will or nature, Augustine answers from will, and original sin too, sown from the first man's will so that it was in him and passed to all.",
+  "claims": [
+   "Original sin is from Adam's will."
+  ],
+  "concepts": [
+   "Julian of Eclanum",
+   "Augustine Contra Iulianum"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d30c13",
+    "pl-l2d30c12"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:39:39Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d30c13-d1e110": {
+  "summary": "Reports a literalist objection to all being in Adam: not all flesh descended from Adam could have been in him at once, being far greater in quantity than his body, which did not have as many atoms as there are descendants; so not everyone's substance was in the first parent.",
+  "claims": [
+   "Objection: Adam's body was too small to contain all human substance."
+  ],
+  "concepts": [
+   "objection",
+   "substance in Adam"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d30c13",
+    "pl-l2d30c13-d1e105",
+    "pl-l2d30c10-d1e111"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:39:39Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d30c13": {
+  "summary": "Cites Augustine against Julian, who denied sin in infants: asked how sin enters an infant when neither the born, nor the parent, nor the Creator sins, Scripture answers that through one man's disobedience sin entered the world; asked whether sin is from will or nature, Augustine answers from will, and original sin too is from will, sown by the first man's will so that it was in him and passed to all. Then Lombard reports a literalist objection: not all flesh descended from Adam could have existed in him at once, being far greater than his body, which did not contain as many atoms as there are descendants; so not everyone's substance was in the first parent.",
+  "claims": [
+   "Original sin is from will, the will of the first man.",
+   "Sin enters infants through one man's disobedience.",
+   "Some objected that all human substance could not have been in Adam's body."
+  ],
+  "concepts": [
+   "original sin",
+   "will and nature",
+   "Julian of Eclanum",
+   "Augustine Contra Iulianum",
+   "objection",
+   "substance in Adam"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d30c13-d1e105",
+    "pl-l2d30c13-d1e110"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:39:39Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

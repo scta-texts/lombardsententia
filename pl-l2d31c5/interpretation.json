@@ -1,0 +1,130 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T21:06:51Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d31c5-d1e108": {
+  "summary": "Concludes that sin is said to remain in the flesh: flesh sown in lust has neither fault nor act of fault, but their cause; in what is sown there is corruption, in what is born the defect of concupiscence.",
+  "claims": [
+   "Flesh has the cause of fault, not fault."
+  ],
+  "concepts": [
+   "cause of sin"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d31c5",
+    "pl-l2d31c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:06:51Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d31c5-d1e111": {
+  "summary": "Cites Ambrose on Romans: how does sin dwell in the flesh, since it is not a substance but a privation of good? The first man's body was corrupted by sin, and that corruption remains in the body by the condition of the offense, and by association with it the soul is stained; sin dwells in the flesh because the cause of the deed remains there; this is the law of the flesh.",
+  "claims": [
+   "Sin is a privation of good.",
+   "Corruption remains in the body and stains the soul."
+  ],
+  "concepts": [
+   "privation",
+   "Ambrosiaster"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d31c5",
+    "pl-l2d31c5-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:06:51Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d31c5-d1e114": {
+  "summary": "Cites Ambrose again: sin dwells not in the soul but in the flesh, since the cause of sin is from the flesh; all flesh is from the flesh of sin by propagation, but the soul is not propagated and so has not the cause of sin in itself.",
+  "claims": [
+   "The soul is not propagated."
+  ],
+  "concepts": [
+   "Ambrosiaster",
+   "propagation"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d31c5",
+    "pl-l2d31c5-d1e111"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:06:51Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d31c5-d1e118": {
+  "summary": "Cites Augustine's sermon: the defect of concupiscence belongs to the soul, but it contracted it from the flesh; human nature was not instituted with defect by God but wounded by the defect coming from the first humans' will, so there is no good in the flesh but a defect infecting the soul.",
+  "claims": [
+   "Concupiscence is the soul's defect contracted from the flesh.",
+   "Human nature was wounded, not created defective."
+  ],
+  "concepts": [
+   "Augustine sermons"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d31c5",
+    "pl-l2d31c5-d1e114"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:06:51Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d31c5": {
+  "summary": "Therefore sin is said to remain in the flesh: flesh sown in lust has neither fault nor act of fault, but the cause of fault; in what is sown there is corruption, in what is born the defect of concupiscence. Ambrose: sin, being not a substance but a privation of good, dwells in the flesh because the corruption from Adam's offense remains in the body as cause, and by association with it the soul is stained; sin dwells not in the soul but in the flesh, since the flesh is propagated and the soul is not. Augustine: the defect of concupiscence is the soul's, but contracted from the flesh; human nature was not instituted with defect but wounded by the first humans' will.",
+  "claims": [
+   "Flesh sown in lust has the cause of fault, not fault itself.",
+   "Sin dwells in the flesh as its cause.",
+   "Sin is a privation of good, not a substance.",
+   "The soul is stained by association with corrupted flesh.",
+   "Human nature was created without defect and wounded by the first humans' will."
+  ],
+  "concepts": [
+   "original sin",
+   "cause of sin",
+   "privation",
+   "flesh and soul",
+   "Ambrosiaster",
+   "Augustine sermons"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d31c5-d1e108",
+    "pl-l2d31c5-d1e111",
+    "pl-l2d31c5-d1e114",
+    "pl-l2d31c5-d1e118"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T21:06:51Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

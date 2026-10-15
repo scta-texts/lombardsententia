@@ -1,0 +1,64 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T01:11:30Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l3d20c2-d1e114": {
+  "summary": "Gives another reason why God willed to free us this way: so that the devil would be overcome by justice, not power. By a certain justice of God the human race was handed into the devil's power, the first man's sin passing to all by origin and binding all by its debt, so that all are under the devil from birth; we were by nature children of wrath (Eph 2:3), nature as depraved by sin, not as created upright. Man was handed over not because God did or commanded it, but because he justly permitted it: when God abandoned the sinner, sin's author invaded. Yet God did not withhold his mercy nor release man from the law of his power, since the devil too is not outside God's power or goodness, and nothing lives except through him who gives life to all. God gave many goods even amid penal evils, and at last the remission of sins through Christ's blood rescued man from the devil, to whom the commission of sins had subjected him.",
+  "claims": [
+   "Man was handed to the devil by God's just permission.",
+   "God did not abandon man or the devil to be outside his power.",
+   "Remission of sins through Christ's blood freed man from the devil."
+  ],
+  "concepts": [
+   "justice and power",
+   "divine permission",
+   "devil",
+   "original sin"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d20c2",
+    "pl-l3d20c1-d1e117",
+    "pl-l3d19c2-d1e114"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:11:30Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d20c2": {
+  "summary": "Gives another reason for this way: so that the devil would be conquered by justice, not power. By a certain justice of God the human race was handed into the devil's power, since the first man's sin passed to all and bound all by its debt; we are children of wrath by nature as depraved, not as created. God did not do or command this but justly permitted it: when God left the sinner, sin's author invaded. Yet God did not withhold his mercy or release man from his own power, since the devil too is not outside God's power and goodness; God gave many goods even amid penal evils, and at last the remission of sins through Christ's blood freed man from the devil, so that the devil was conquered by justice, not power.",
+  "claims": [
+   "God willed that the devil be conquered by justice, not power.",
+   "The human race was handed to the devil by God's just permission, not command.",
+   "Man never left God's power, nor did the devil.",
+   "The remission of sins through Christ's blood freed man from the devil."
+  ],
+  "concepts": [
+   "justice and power",
+   "devil",
+   "original sin",
+   "divine permission",
+   "redemption"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d20c2-d1e114"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T01:11:30Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

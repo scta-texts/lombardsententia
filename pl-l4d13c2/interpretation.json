@@ -1,0 +1,143 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T12:33:00Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d13c2-d1e115": {
+  "summary": "Turns to explain briefly, from the holy doctors, what makes a heretic and what a heretic is.",
+  "claims": [],
+  "concepts": [
+   "heresy"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d13c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:33:00Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d13c2-d1e118": {
+  "summary": "Quotes Hilary: many accepted the simplicity of heavenly words but not the meaning of truth itself, interpreting otherwise than the force of the words required; heresy concerns understanding, not Scripture, and the sense, not the word, becomes the crime.",
+  "claims": [
+   "Heresy is a matter of misunderstanding Scripture's meaning."
+  ],
+  "concepts": [
+   "heresy",
+   "interpretation of Scripture",
+   "Hilary"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d13c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:33:00Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d13c2-d1e127": {
+  "summary": "Adds Hilary: the sense of understanding is what is at fault.",
+  "claims": [
+   "Heresy lies in the sense, not the words."
+  ],
+  "concepts": [
+   "heresy",
+   "Hilary"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d13c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:33:00Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d13c2-d1e134": {
+  "summary": "Cites Jerome: heresy is incurred through words spoken disorderly.",
+  "claims": [
+   "Careless speech can incur heresy."
+  ],
+  "concepts": [
+   "heresy",
+   "Jerome"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d13c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:33:00Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d13c2-d1e143": {
+  "summary": "Quotes Augustine's definition: a heretic is one who for some temporal advantage, chiefly glory and preeminence, begets or follows false and new opinions.",
+  "claims": [
+   "A heretic begets or follows false new opinions for temporal gain."
+  ],
+  "concepts": [
+   "heresy",
+   "definition",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d13c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:33:00Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d13c2": {
+  "summary": "Explains what makes a heretic. Hilary: heresy concerns the understanding, not Scripture; the sense, not the word, is the crime. Jerome: heresy can be incurred through words spoken disorderly. Augustine: a heretic is one who, for some temporal advantage, especially glory and preeminence, begets or follows false and new opinions.",
+  "claims": [
+   "Heresy lies in the understanding of Scripture, not in Scripture itself.",
+   "Heresy can be incurred by careless words.",
+   "A heretic begets or follows false new opinions for temporal gain."
+  ],
+  "concepts": [
+   "heresy",
+   "interpretation of Scripture",
+   "Hilary",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d13c2-d1e115",
+    "pl-l4d13c2-d1e118",
+    "pl-l4d13c2-d1e127",
+    "pl-l4d13c2-d1e134",
+    "pl-l4d13c2-d1e143"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T12:33:00Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

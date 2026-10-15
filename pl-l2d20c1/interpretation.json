@@ -1,0 +1,123 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:15:59Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d20c1-d1e108": {
+  "summary": "Asks how the first parents would have begotten children had they not sinned, and what kind of children.",
+  "claims": [],
+  "concepts": [
+   "question"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d20c1",
+    "pl-l2d19c6"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:15:59Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d20c1-d1e111": {
+  "summary": "Reports some who think the first humans could not have united in paradise to beget except after sin, since intercourse cannot occur without corruption or stain, which came only from sin.",
+  "claims": [],
+  "concepts": [
+   "opinion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d20c1",
+    "pl-l2d20c1-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:15:59Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d20c1-d1e114": {
+  "summary": "Answers that had they not sinned, they would have united in paradise without sin or stain, with an undefiled bed and union without concupiscence, commanding the genital members like others, without illicit motion, as one moves the hand to the mouth without lust; this deadly sickness came from sin. They would have begotten children by undefiled union.",
+  "claims": [
+   "Procreation in paradise would have been without concupiscence."
+  ],
+  "concepts": [
+   "undefiled union"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d20c1",
+    "pl-l2d20c1-d1e111"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:15:59Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d20c1-d1e118": {
+  "summary": "Cites Augustine: why not believe the first humans could command their generative members like others? God could have made bodies that, without sin, would sow without passion and bear without pain; after sin they merited that motion which marriage orders and continence restrains. Weakness prone to disgrace is received by marital honor, so what would be an office for the healthy is a remedy for the sick.",
+  "claims": [
+   "Marriage was an office before sin and is a remedy after it."
+  ],
+  "concepts": [
+   "Augustine",
+   "marriage"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d20c1",
+    "pl-l2d20c1-d1e114"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:15:59Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d20c1": {
+  "summary": "Asks how the first parents would have procreated had they not sinned. Some think they could not have united in paradise without sin, since intercourse involves corruption and stain, which came only from sin. Lombard answers that without sin they would have united in paradise without stain or concupiscence, commanding the genital members like other members, without illicit motion or lust, as one moves a hand to the mouth. With Augustine, God could have made bodies whose generative members obeyed the will, sowing without passion and bearing without pain; that disordered motion came after sin, ordered by marriage and restrained by continence, so what would have been an office for the healthy is a remedy for the sick.",
+  "claims": [
+   "Without sin, the first parents would have procreated in paradise.",
+   "Intercourse in paradise would have been without stain or concupiscence.",
+   "The genital members would have obeyed the will like other members.",
+   "Childbirth would have been without pain.",
+   "Disordered sexual motion is a consequence of sin.",
+   "After sin marriage is a remedy for weakness."
+  ],
+  "concepts": [
+   "procreation in paradise",
+   "concupiscence",
+   "marriage as office and remedy",
+   "Augustine De Genesi ad litteram",
+   "original state"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d20c1-d1e108",
+    "pl-l2d20c1-d1e111",
+    "pl-l2d20c1-d1e114",
+    "pl-l2d20c1-d1e118"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:15:59Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

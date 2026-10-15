@@ -1,0 +1,158 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T17:45:28Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll1d28c1-d1e3501": {
+  "summary": "Notes that besides the three properties or notions there are others in the persons, named by other names.",
+  "claims": [
+   "There are other notions besides the three properties."
+  ],
+  "concepts": [
+   "notions"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d28c1",
+    "pl-l1d27c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:45:28Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d28c1-d1e3504": {
+  "summary": "States that 'unbegotten' is said relatively of the Father alone and designates a notion other than Father or Begetter: Father by generation, unbegotten by innascibility. So the Father differs from the Son by the authority of generation and by the property of innascibility.",
+  "claims": [
+   "'Unbegotten' is relative and said only of the Father.",
+   "The Father differs from the Son by generation and by innascibility."
+  ],
+  "concepts": [
+   "innascibility",
+   "generation"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d28c1",
+    "pll1d28c1-d1e3501"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:45:28Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d28c1-d1e3507": {
+  "summary": "Cites De Trinitate V: saying unbegotten is not saying Father, since he would be unbegotten even had he not begotten a Son, and begotten humans beget others. So the notion of begetter differs from that of unbegotten; 'begetter' refers to the begotten, while 'unbegotten' says not what he is but what he is not.",
+  "claims": [
+   "Being unbegotten differs from being Father.",
+   "'Unbegotten' says what the Father is not."
+  ],
+  "concepts": [
+   "Augustine De Trinitate V",
+   "negative predication"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d28c1",
+    "pll1d28c1-d1e3504"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:45:28Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d28c1-d1e3537": {
+  "summary": "Continues Augustine: 'unbegotten' shows that he is not a son; 'not-son' or 'not-begotten' means the same. Usage should not decide, but understanding of the things. A negative particle does not make a relative term substantial but only denies it, as 'not man' denies in the category of substance. 'Not-begotten' is a relative denial, so 'unbegotten' remains in the relative category. Though begotten and unbegotten differ, they do not indicate different substances.",
+  "claims": [
+   "'Unbegotten' means 'not-begotten' or 'not-son.'",
+   "Negation keeps a term in the same category.",
+   "'Unbegotten' is a relative term.",
+   "Begotten and unbegotten do not indicate different substances."
+  ],
+  "concepts": [
+   "categories",
+   "negation",
+   "relative predication"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d28c1",
+    "pll1d28c1-d1e3507"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:45:28Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d28c1-d1e3551": {
+  "summary": "Concludes that 'unbegotten' is said relatively and only of the Father, by a notion other than that of Father, and means the same as 'not-begotten' or 'not-son.'",
+  "claims": [
+   "'Unbegotten' is relative, said of the Father only, and means 'not-begotten.'"
+  ],
+  "concepts": [
+   "conclusion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d28c1",
+    "pll1d28c1-d1e3537"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:45:28Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1d28c1": {
+  "summary": "Adds that there are other notions besides the three properties. 'Unbegotten' is said relatively of the Father alone and marks a notion other than 'Father' or 'Begetter': innascibility, not generation. Augustine: 'unbegotten' and 'Father' differ, since the Father would be unbegotten even had he not begotten, and begotten humans beget. 'Unbegotten' says not what he is but what he is not, meaning 'not-begotten' or 'not-son.' A negative particle does not turn a relative term into a substantial one, so 'unbegotten' is relative and signifies no different substance.",
+  "claims": [
+   "Besides paternity, filiation, and procession, there are other notions.",
+   "'Unbegotten' is said relatively of the Father alone.",
+   "The notion of being unbegotten differs from that of being Father.",
+   "'Unbegotten' says what the Father is not, meaning 'not begotten' or 'not a son.'",
+   "A negation does not change a relative predicate into a substantial one.",
+   "'Begotten' and 'unbegotten' are relative and do not imply different substances."
+  ],
+  "concepts": [
+   "innascibility",
+   "ingenitus",
+   "notions",
+   "negative predication",
+   "relative predication",
+   "anti-Arianism"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d28c1-d1e3501",
+    "pll1d28c1-d1e3504",
+    "pll1d28c1-d1e3507",
+    "pll1d28c1-d1e3537",
+    "pll1d28c1-d1e3551"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T17:45:28Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

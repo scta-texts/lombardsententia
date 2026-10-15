@@ -1,0 +1,118 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T18:56:42Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll2d1c4-d1e3514": {
+  "summary": "Since no one can share God's beatitude except by understanding, which is possessed more as it is understood more, God made the rational creature to understand, love, possess, and enjoy the supreme good. He divided it into angels, remaining pure and unjoined to bodies, and souls joined to bodies; man consists of rational soul and flesh. The cause of rational creation is God's goodness.",
+  "claims": [
+   "Beatitude is shared through understanding.",
+   "Rational creatures are angels and humans.",
+   "God's goodness causes rational creation."
+  ],
+  "concepts": [
+   "rational creature",
+   "beatitude"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d1c4",
+    "pll2d1c3-d1e3534"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:56:42Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d1c4-d1e3526": {
+  "summary": "States that if asked why man or angel was created, the answer is: because of God's goodness; with Augustine, because God is good, we exist, and insofar as we exist, we are good.",
+  "claims": [
+   "We exist because God is good.",
+   "Insofar as we exist we are good."
+  ],
+  "concepts": [
+   "goodness and being",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d1c4",
+    "pll2d1c4-d1e3514"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:56:42Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d1c4-d1e3546": {
+  "summary": "Asks for what end the rational creature was made: to praise, serve, and enjoy God, which benefits it, not God, who cannot grow or diminish. So it was made for God's goodness and its own benefit; serving God is reigning. As man was made for God, the world was made for man, so man is placed in the middle, served and serving, all to his good. All things are ours: superior to enjoy (the Trinity), equals to live with (angels, who even serve us now), and inferior to use.",
+  "claims": [
+   "Rational creatures exist to praise, serve, and enjoy God.",
+   "Serving God benefits the servant.",
+   "The world was made for man.",
+   "All things are ours in different ways."
+  ],
+  "concepts": [
+   "purpose of creation",
+   "man in the middle",
+   "1 Corinthians 3:22",
+   "angels as ministers"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d1c4",
+    "pll2d1c4-d1e3526",
+    "pll1d1c2-ieieas"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:56:42Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d1c4": {
+  "summary": "Explains why God made rational creatures: since one can share his beatitude only by understanding, God made the rational creature to understand, love, possess, and enjoy the supreme good, divided into angels, pure spirits, and humans, souls joined to bodies. Humans and angels were made because of God's goodness, and for praising, serving, and enjoying God, which benefits them, not him. As man was made for God, the world was made for man, so man stands in the middle, serving and served, all for his good: superior things (the Trinity) to enjoy, equals (angels) to live with, inferior things to use.",
+  "claims": [
+   "One shares God's beatitude only through understanding.",
+   "God made rational creatures to understand, love, possess, and enjoy him.",
+   "Rational creatures are angels (incorporeal) and humans (soul and body).",
+   "Rational creatures were made because of God's goodness and for their own benefit.",
+   "Serving God benefits the servant, not God.",
+   "Man was made for God; the world was made for man.",
+   "All things are ours: superior to enjoy, equal to share life, inferior to use."
+  ],
+  "concepts": [
+   "rational creature",
+   "purpose of creation",
+   "angels and humans",
+   "service of God",
+   "man in the middle",
+   "frui et uti"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll2d1c4-d1e3514",
+    "pll2d1c4-d1e3526",
+    "pll2d1c4-d1e3546"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T18:56:42Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

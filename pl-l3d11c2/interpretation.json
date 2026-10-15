@@ -1,0 +1,203 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T01:07:53Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l3d11c2-d1e114": {
+  "summary": "Recalls that Arius's perfidy was to confess Christ a creature; for this his bowels were poured out and he burst asunder, fallen on his face, defiled in the mouth with which he had denied Christ.",
+  "claims": [
+   "Arius taught that Christ is a creature."
+  ],
+  "concepts": [
+   "Arianism"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d11c2",
+    "pl-l3d11c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:07:53Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d11c2-d1e123": {
+  "summary": "Concludes from these testimonies that Christ should not be confessed simply to be made or a creature, but rightly with a qualification, as 'made according to the flesh' or 'according to the man', so that being made is attributed to the humanity, not to God.",
+  "claims": [
+   "Christ is made only according to the flesh or according to the man."
+  ],
+  "concepts": [
+   "secundum quod",
+   "creature"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d11c2",
+    "pl-l3d11c1",
+    "pl-l3d11c2-d1e114"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:07:53Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d11c2-d1e126": {
+  "summary": "Cites Ambrose, De Trinitate I: God was not made, but God the Son of God was born, and afterward made man from Mary according to the flesh. 'God sent his Son, made of a woman, made under the Law': 'his Son' signifies the property of eternal generation, 'made of a woman' ascribes making to the assumption of a body, 'under the Law' to observance of the Law. One generation does not prejudice the other, nor flesh the divinity; the eternal God is one in both, not one from the Father and another from the Virgin, but the same in different ways: first-born because none before him, only-begotten because none after him.",
+  "claims": [
+   "Christ was made from Mary according to the flesh, not as God.",
+   "He is one and the same, born differently of the Father and of the Virgin."
+  ],
+  "concepts": [
+   "two births",
+   "creature",
+   "one person"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d11c2",
+    "pl-l3d11c2-d1e123"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:07:53Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d11c2-d1e179": {
+  "summary": "Concludes that these texts teach how to understand 'Christ was made', whether simply or with an addition: being made or being a creature is referred not to God assuming but to the man assumed.",
+  "claims": [
+   "Being made refers to the man assumed, not to God."
+  ],
+  "concepts": [
+   "creature",
+   "assumed man"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d11c2",
+    "pl-l3d11c2-d1e126"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:07:53Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d11c2-d1e183": {
+  "summary": "Supports this with Ambrose: was Christ made by a word or created by a command? How can there be a creature in God, whose nature is simple, not joined or composite, to whom nothing accrues and who has only what is divine in his nature?",
+  "claims": [
+   "There can be no creature in God.",
+   "God's nature is simple and admits no accidents."
+  ],
+  "concepts": [
+   "divine simplicity",
+   "creature"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d11c2",
+    "pl-l3d11c2-d1e179"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:07:53Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d11c2-d1e195": {
+  "summary": "Warns that though Christ according to man is called a creature, he is not to be predicated a creature simply. Nor can one argue: if Christ as man is a creature, it is either rational or not, God or not, so as to prove that Christ is something non-divine, on the ground that what he is as man, he is.",
+  "claims": [
+   "Christ is not simply predicated a creature.",
+   "One cannot infer that Christ is something non-divine."
+  ],
+  "concepts": [
+   "predication",
+   "creature",
+   "secundum quod"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d11c2",
+    "pl-l3d11c2-d1e179"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:07:53Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d11c2-d1e198": {
+  "summary": "Explains why: right argument does not proceed from figurative locutions, and calling Christ a creature, simply or with an addition, is figurative.",
+  "claims": [
+   "Calling Christ a creature is figurative speech.",
+   "Valid arguments do not proceed from figurative statements."
+  ],
+  "concepts": [
+   "figurative speech",
+   "argument"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d11c2",
+    "pl-l3d11c2-d1e195"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:07:53Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d11c2": {
+  "summary": "Recalls Arius's perfidy in confessing Christ a creature and his gruesome death. From these testimonies Christ should not be called made or a creature simply, but with a qualification, 'made according to the flesh' or 'according to the man', so that being made is attributed to the humanity, not to God (Ambrose on Gal 4:4). There can be no creature in God, whose nature is simple. And though Christ according to man is a creature, one cannot argue from this that Christ is something non-divine, since such statements are figurative and figurative speech does not support valid arguments.",
+  "claims": [
+   "Christ may be called made only with the qualification 'according to the flesh'.",
+   "Being made is attributed to the humanity assumed, not to God assuming.",
+   "There can be no creature in God.",
+   "One cannot argue validly from figurative statements."
+  ],
+  "concepts": [
+   "Arianism",
+   "creature",
+   "modes of speech",
+   "figurative speech",
+   "divine simplicity"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d11c2-d1e114",
+    "pl-l3d11c2-d1e123",
+    "pl-l3d11c2-d1e126",
+    "pl-l3d11c2-d1e179",
+    "pl-l3d11c2-d1e183",
+    "pl-l3d11c2-d1e195",
+    "pl-l3d11c2-d1e198"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T01:07:53Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

@@ -1,0 +1,173 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:09:52Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll2d11c1-d1e3514": {
+  "summary": "States that good angels are assigned to guard humans, so that each of the elect has an angel specially delegated for his progress and protection.",
+  "claims": [
+   "Each of the elect has a guardian angel."
+  ],
+  "concepts": [
+   "guardian angels"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d11c1",
+    "pl-l2d10c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:09:52Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d11c1-d1e3519": {
+  "summary": "Cites Matt 18:10, 'their angels always see the face of the Father,' and Jerome: great is the dignity of souls that each from birth has an angel assigned to guard it.",
+  "claims": [
+   "Each soul has an angel from birth."
+  ],
+  "concepts": [
+   "Matthew 18:10",
+   "Jerome"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d11c1",
+    "pll2d11c1-d1e3514"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:09:52Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d11c1-d1e3544": {
+  "summary": "Cites Gregory: each has a good angel for guarding and a bad one for testing. All good angels will our good, but the assigned one urges specially, as with Tobias and Peter; likewise the bad angel assigned to test incites more strongly to evil.",
+  "claims": [
+   "Each person has a good and a bad assigned angel.",
+   "The assigned angel acts specially on its charge."
+  ],
+  "concepts": [
+   "Gregory",
+   "Tobias",
+   "Peter"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d11c1",
+    "pll2d11c1-d1e3519"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:09:52Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d11c1-d1e3558": {
+  "summary": "Asks whether each angel is assigned to one human or one to several.",
+  "claims": [],
+  "concepts": [
+   "question"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d11c1",
+    "pll2d11c1-d1e3544"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:09:52Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d11c1-d1e3561": {
+  "summary": "Reasons that since the elect equal the good angels in number, and there are more humans than angels overall, one angel, good or bad, is assigned to several people, at the same or different times.",
+  "claims": [
+   "One angel may guard or test several people."
+  ],
+  "concepts": [
+   "number of angels and humans",
+   "Hugh"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d11c1",
+    "pll2d11c1-d1e3558"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:09:52Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d11c1-d1e3573": {
+  "summary": "Explains 'at the same or different times': since humans succeed one another while angels all exist at once, each living person may have his own angel. Either way, each person certainly has an angel; it is no wonder one angel guards many, as one man has charge of many as their lord, bishop, or abbot.",
+  "claims": [
+   "Each living person may have one angel at a time.",
+   "Each person certainly has an assigned angel."
+  ],
+  "concepts": [
+   "analogy of prelates"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d11c1",
+    "pll2d11c1-d1e3561"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:09:52Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d11c1": {
+  "summary": "Holds that good angels are assigned to guard humans, each of the elect having an angel for his progress and protection (Matt 18:10; Jerome: from birth). Gregory adds that each has a good angel to guard and a bad one to test him; all good angels will our good, but the assigned one urges each specially, as with Tobias and Peter. Since humans outnumber angels over all time, one angel may guard several, at once or successively, though perhaps each living person has one at a time; as one man may have charge of many (lord, bishop, abbot).",
+  "claims": [
+   "Each of the elect has a guardian angel.",
+   "Each person has an angel from birth (Jerome).",
+   "Each person has a good angel to guard and a bad angel to test (Gregory).",
+   "The assigned angel urges its charge specially to good.",
+   "One angel may guard several people, at once or at different times."
+  ],
+  "concepts": [
+   "guardian angels",
+   "Matthew 18:10",
+   "Jerome",
+   "Gregory",
+   "testing by demons"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll2d11c1-d1e3514",
+    "pll2d11c1-d1e3519",
+    "pll2d11c1-d1e3544",
+    "pll2d11c1-d1e3558",
+    "pll2d11c1-d1e3561",
+    "pll2d11c1-d1e3573"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:09:52Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

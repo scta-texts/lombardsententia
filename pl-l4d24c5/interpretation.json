@@ -1,0 +1,101 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T12:50:50Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d24c5-d1e115": {
+  "summary": "Describes porters, or doorkeepers, chosen in the Old Testament to guard the temple lest anything unclean enter, named from presiding over the temple's doors; holding the key, they guard all inside and out and, judging between good and bad, receive the worthy and reject the unworthy.",
+  "claims": [
+   "Porters guard the doors and admit the worthy."
+  ],
+  "concepts": [
+   "porter",
+   "Old Testament",
+   "discernment"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d24c5"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:50:50Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d24c5-d1e118": {
+  "summary": "States that at their ordination the bishop gives them the church's keys, saying: act as those who will render account to God for the things locked by these keys.",
+  "claims": [
+   "Porters receive the keys at ordination."
+  ],
+  "concepts": [
+   "porter",
+   "ordination rite"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d24c5"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:50:50Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d24c5-d1e127": {
+  "summary": "States that the Lord took this office in his own person when he drove the buyers and sellers from the temple with a whip of cords, and signified himself as porter, saying 'I am the door'.",
+  "claims": [
+   "Christ exercised the porter's office."
+  ],
+  "concepts": [
+   "Christ as exemplar",
+   "cleansing of the temple"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d24c5"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:50:50Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d24c5": {
+  "summary": "Porters, or doorkeepers, were chosen in the Old Testament to guard the temple from the unclean; they keep the doors, judging between good and bad, admitting the worthy and refusing the unworthy. At ordination the bishop gives them the church's keys, charging them to act as those who will render account. Christ took this office when he drove the sellers from the temple, and called himself the door.",
+  "claims": [
+   "Porters guard the church and admit the worthy.",
+   "At ordination they receive the keys.",
+   "Christ exercised this office in cleansing the temple."
+  ],
+  "concepts": [
+   "porter",
+   "seven grades",
+   "keys of the church",
+   "Christ as exemplar"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d24c5-d1e115",
+    "pl-l4d24c5-d1e118",
+    "pl-l4d24c5-d1e127"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T12:50:50Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

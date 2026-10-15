@@ -1,0 +1,124 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T13:04:02Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d37c2-d1e115": {
+  "summary": "Adds the case of wife-killers, of whom Nicholas writes: those who kill their wives without judgment, not adulteresses or the like, what are they but murderers? So they are to be put to penance and wholly denied marriage.",
+  "claims": [
+   "Wife-killers are murderers denied marriage."
+  ],
+  "concepts": [
+   "uxoricide",
+   "impediment of crime",
+   "Nicholas I"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d37c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:04:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d37c2-d1e121": {
+  "summary": "Notes that Nicholas here seems to permit husbands to kill wives for adultery or the like, but ecclesiastical discipline strikes criminals with the spiritual, not the material, sword.",
+  "claims": [
+   "The Church punishes with the spiritual sword."
+  ],
+  "concepts": [
+   "spiritual sword",
+   "harmonizing authorities"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d37c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:04:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d37c2-d1e127": {
+  "summary": "Cites Nicholas: you asked whether a husband may kill an adulterous wife according to worldly law; but the holy Church of God is never bound by worldly laws and has no sword but the spiritual.",
+  "claims": [
+   "The Church is not bound by worldly laws and has only the spiritual sword."
+  ],
+  "concepts": [
+   "spiritual sword",
+   "Church and secular law"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d37c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:04:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d37c2-d1e134": {
+  "summary": "Cites Pope Pius: whoever kills his own wife without law or cause and marries another must lay down arms and do public penance; if obstinate, let him be anathematized until he consents.",
+  "claims": [
+   "Killing one's wife and remarrying incurs public penance."
+  ],
+  "concepts": [
+   "uxoricide",
+   "public penance",
+   "excommunication"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d37c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:04:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d37c2": {
+  "summary": "Adds the case of those who kill their wives: Nicholas calls them murderers to be put to penance and denied marriage. He seems to permit husbands to kill adulterous wives, but the Church strikes criminals with the spiritual sword, not the material, as Nicholas says elsewhere: the Church is not bound by worldly laws and has only the spiritual sword. Pius imposes public penance on one who kills his wife without law or cause and remarries, with anathema if he resists.",
+  "claims": [
+   "Wife-killers are murderers denied marriage.",
+   "The Church wields only the spiritual sword.",
+   "Killing one's wife and remarrying incurs public penance."
+  ],
+  "concepts": [
+   "uxoricide",
+   "impediment of crime",
+   "spiritual sword",
+   "penance"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d37c2-d1e115",
+    "pl-l4d37c2-d1e121",
+    "pl-l4d37c2-d1e127",
+    "pl-l4d37c2-d1e134"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T13:04:02Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

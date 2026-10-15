@@ -1,0 +1,127 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T12:38:35Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d16c4-d1e115": {
+  "summary": "Adds that penance is done in three ways: before baptism, for earlier sins; after baptism, for graver sins committed afterward; and daily penance for venial sins, which belongs even to the humble and perfect.",
+  "claims": [
+   "There are three modes of penance."
+  ],
+  "concepts": [
+   "three actions of penance"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d16c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:38:35Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d16c4-d1e121": {
+  "summary": "Quotes Augustine: there are three actions of penance. One brings forth the new man until baptism abolishes all past sins, since no one master of his will can begin a new life without repenting of the old; infants are exempt when baptized, being unable to use free choice, yet the faith of those who offer them avails for remission of original sin.",
+  "claims": [
+   "Pre-baptismal penance is required of adults.",
+   "Infants are helped by the faith of others."
+  ],
+  "concepts": [
+   "pre-baptismal penance",
+   "infant baptism",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d16c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:38:35Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d16c4-d1e131": {
+  "summary": "Continues: another action of penance is after baptism, for sins the Decalogue contains. People do penance before baptism for prior sins, yet must be baptized, as Peter says; and they do penance if after baptism they sin so as to deserve excommunication and later reconciliation.",
+  "claims": [
+   "Penance after baptism is for grave sins against the Decalogue."
+  ],
+  "concepts": [
+   "post-baptismal penance",
+   "excommunication",
+   "reconciliation"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d16c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:38:35Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d16c4-d1e143": {
+  "summary": "Continues: there is also the almost daily penance of good and humble believers, in which we strike our breasts saying 'forgive us our debts'; we do not ask forgiveness of what we know was forgiven in baptism (sentence continues in the next chapter).",
+  "claims": [
+   "Daily penance is practiced by the good and humble.",
+   "It does not concern sins forgiven in baptism."
+  ],
+  "concepts": [
+   "daily penance",
+   "Lord's Prayer"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d16c4",
+    "pl-l4d16c5-d1e112"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:38:35Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d16c4": {
+  "summary": "Adds that penance is done in three ways: before baptism for prior sins; after baptism for graver sins committed later; and daily penance for venial sins, belonging even to the humble and perfect. Augustine: the first brings forth the new man until baptism abolishes all past sins, since no adult can begin new life without repenting of the old, while infants are helped by the faith of those who bring them; the second is after baptism for sins against the Decalogue, for which some are excommunicated and reconciled; the third is the almost daily penance of good and humble believers, who strike their breasts saying 'forgive us our debts', not asking forgiveness of sins remitted in baptism. The sentence continues into the next chapter.",
+  "claims": [
+   "Penance is done before baptism, after baptism for grave sins, and daily for venial sins.",
+   "Adults must repent before baptism.",
+   "Daily penance belongs even to the perfect."
+  ],
+  "concepts": [
+   "three actions of penance",
+   "pre-baptismal penance",
+   "daily penance",
+   "venial sin",
+   "Lord's Prayer"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d16c4-d1e115",
+    "pl-l4d16c4-d1e121",
+    "pl-l4d16c4-d1e131",
+    "pl-l4d16c4-d1e143"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T12:38:35Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

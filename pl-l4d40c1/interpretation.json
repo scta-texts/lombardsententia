@@ -1,0 +1,180 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T13:06:03Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d40c1-d1e115": {
+  "summary": "Turns to say something about kinship.",
+  "claims": [],
+  "concepts": [
+   "kinship",
+   "impediments"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d40c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:06:03Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d40c1-d1e118": {
+  "summary": "Distinguishes carnal and spiritual kinship, and turns first to carnal kinship and affinity.",
+  "claims": [
+   "Kinship is carnal or spiritual."
+  ],
+  "concepts": [
+   "consanguinity",
+   "spiritual kinship",
+   "affinity"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d40c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:06:03Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d40c1-d1e121": {
+  "summary": "States that kin or in-laws within the seventh degree should not marry.",
+  "claims": [
+   "Marriage within the seventh degree is forbidden."
+  ],
+  "concepts": [
+   "consanguinity",
+   "degrees of kinship"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d40c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:06:03Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d40c1-d1e125": {
+  "summary": "Cites Gregory: we decreed that each observe his lineage to the seventh generation, and as long as they recognize themselves near by affinity we deny them marriage; if they marry, they are separated.",
+  "claims": [
+   "Kin to the seventh generation may not marry."
+  ],
+  "concepts": [
+   "consanguinity",
+   "Gregory"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d40c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:06:03Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d40c1-d1e134": {
+  "summary": "Cites Pope Nicholas: no one may marry a blood relative until after the seventh generation, or as long as the kinship can be known.",
+  "claims": [],
+  "concepts": [
+   "consanguinity",
+   "Nicholas I"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d40c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:06:03Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d40c1-d1e140": {
+  "summary": "Adds: no one may marry from his blood kinship to the seventh degree.",
+  "claims": [],
+  "concepts": [
+   "consanguinity"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d40c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:06:03Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d40c1-d1e146": {
+  "summary": "Concludes that these and many other authorities forbid unions of blood relatives to the seventh degree.",
+  "claims": [
+   "Consanguinity forbids marriage to the seventh degree."
+  ],
+  "concepts": [
+   "consanguinity"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d40c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:06:03Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d40c1": {
+  "summary": "Turns to kinship, carnal and spiritual, beginning with carnal kinship and affinity: kin or in-laws within the seventh degree may not marry; Gregory, Nicholas, and others forbid marriage within seven generations or as long as kinship can be recognized, on pain of separation.",
+  "claims": [
+   "Kinship is carnal or spiritual.",
+   "Marriage is forbidden within the seventh degree of consanguinity and affinity."
+  ],
+  "concepts": [
+   "consanguinity",
+   "affinity",
+   "impediments",
+   "degrees of kinship"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d40c1-d1e115",
+    "pl-l4d40c1-d1e118",
+    "pl-l4d40c1-d1e121",
+    "pl-l4d40c1-d1e125",
+    "pl-l4d40c1-d1e134",
+    "pl-l4d40c1-d1e140",
+    "pl-l4d40c1-d1e146"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T13:06:03Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

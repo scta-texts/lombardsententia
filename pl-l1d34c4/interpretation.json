@@ -1,0 +1,86 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T17:50:29Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll1d34c4-d1e3501": {
+  "summary": "Explains, following Hugh of St Victor, that Scripture did this so that we would not measure God's immensity by creatures. Hearing 'Father' and 'Son,' one familiar with human fathers might suppose the Father prior and declining with age and the Son later and imperfect; so Scripture calls the Father powerful lest he seem less powerful, and the Son wise lest he seem less wise.",
+  "claims": [
+   "Power is attributed to the Father against the image of an aged father.",
+   "Wisdom is attributed to the Son against the image of an immature son."
+  ],
+  "concepts": [
+   "Hugh of St Victor",
+   "appropriation"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d34c4",
+    "pll1d34c3-d1e3501"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:50:29Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d34c4-d1e3513": {
+  "summary": "Continues: 'spirit' might suggest inflation and harshness, so Scripture calls him the good Spirit, lest the gentle be thought cruel. Not that the Father alone is powerful, the Son alone wise, or the Spirit alone good; there is one power, wisdom, and goodness, and as the Son is homoousios he is also co-omnipotent.",
+  "claims": [
+   "Goodness is attributed to the Spirit lest 'spirit' suggest harshness.",
+   "The three have one power, wisdom, and goodness.",
+   "The Son is co-omnipotent with the Father."
+  ],
+  "concepts": [
+   "appropriation",
+   "co-omnipotence"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d34c4",
+    "pll1d34c4-d1e3501"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:50:29Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1d34c4": {
+  "summary": "Explains the appropriations, following Hugh of St Victor: Scripture prevents measuring God by creatures. Humans who see that a father is older and so weaker, and a son younger and so less wise, would think so of God; so Scripture calls the Father powerful, lest he seem less powerful as prior, and the Son wise, lest he seem less wise as posterior. 'Spirit' might suggest inflation and harshness, so Scripture calls him the good Spirit. Yet power, wisdom, and goodness are one in the three; as the Son is homoousios, he is also co-omnipotent.",
+  "claims": [
+   "Scripture appropriates attributes to prevent measuring God by creatures.",
+   "Power is attributed to the Father lest he seem weakened by age.",
+   "Wisdom is attributed to the Son lest he seem less wise as younger.",
+   "Goodness is attributed to the Spirit lest 'spirit' suggest harshness.",
+   "Power, wisdom, and goodness are one in the three.",
+   "The Son is consubstantial and co-omnipotent with the Father."
+  ],
+  "concepts": [
+   "appropriation",
+   "Hugh of St Victor",
+   "creaturely misconceptions",
+   "homoousios"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d34c4-d1e3501",
+    "pll1d34c4-d1e3513"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T17:50:29Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

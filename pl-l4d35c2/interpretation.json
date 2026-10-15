@@ -1,0 +1,118 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T13:04:02Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d35c2-d1e115": {
+  "summary": "Holds that an adulterous wife cannot be dismissed by her husband unless he himself is free of fornication, and the reverse.",
+  "claims": [
+   "Only an innocent spouse may separate for adultery."
+  ],
+  "concepts": [
+   "mutual guilt",
+   "separation"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d35c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:04:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d35c2-d1e118": {
+  "summary": "Quotes Augustine: nothing is more unjust than to dismiss a wife for fornication if one is convicted of fornicating oneself, since in judging another you condemn yourself; whoever wants to cast off a wife for fornication must first be purged of it, and likewise for the woman.",
+  "claims": [
+   "A guilty spouse cannot justly dismiss the other."
+  ],
+  "concepts": [
+   "mutual guilt",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d35c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:04:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d35c2-d1e130": {
+  "summary": "Adds Augustine: husbands are indignant to hear that adulterous men pay penalties like adulterous women, when they should be punished more heavily, since it belongs more to them to excel in virtue and guide women by example.",
+  "claims": [
+   "Adulterous husbands deserve heavier punishment."
+  ],
+  "concepts": [
+   "adultery",
+   "example",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d35c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:04:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d35c2-d1e137": {
+  "summary": "Concludes that an adulterer cannot dismiss an adulteress, and the reverse.",
+  "claims": [],
+  "concepts": [
+   "mutual guilt"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d35c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:04:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d35c2": {
+  "summary": "An adulterous spouse cannot dismiss an adulterous spouse for fornication: one must be free from fornication to dismiss the other. Augustine: nothing is more unjust than dismissing a wife for fornication when one is guilty oneself, since judging another condemns oneself; and adulterous husbands should be punished more severely, since they should lead women by virtue and example.",
+  "claims": [
+   "One who is himself guilty of fornication cannot dismiss an adulterous spouse.",
+   "Adulterous husbands deserve heavier punishment."
+  ],
+  "concepts": [
+   "adultery",
+   "separation",
+   "mutual guilt"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d35c2-d1e115",
+    "pl-l4d35c2-d1e118",
+    "pl-l4d35c2-d1e130",
+    "pl-l4d35c2-d1e137"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T13:04:02Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

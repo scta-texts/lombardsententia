@@ -1,0 +1,82 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:32:08Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d24c4-d1e108": {
+  "summary": "Distinguishes sensuality, a lower power whose motion tends to the bodily senses and appetite for bodily things, from reason, the higher power, which has two parts: the higher, intent on contemplating or consulting things above, and the lower, attending to temporal arrangements. Whatever in the soul we share with beasts is sensuality; where something first appears not shared with beasts, reason begins.",
+  "claims": [
+   "Sensuality is shared with beasts.",
+   "Reason has higher and lower parts."
+  ],
+  "concepts": [
+   "powers of the soul"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d24c4",
+    "pl-l2d24c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:32:08Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d24c4-d1e113": {
+  "summary": "Cites De Trinitate XII: let us see where the boundary of outer and inner man is; what we share with animals belongs to the outer man, not just the body but the life by which senses flourish; where we first meet something not shared with beasts, reason begins and the inner man can be recognized.",
+  "claims": [
+   "The outer man includes what we share with beasts.",
+   "Reason begins the inner man."
+  ],
+  "concepts": [
+   "Augustine",
+   "outer and inner man"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d24c4",
+    "pl-l2d24c4-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:32:08Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d24c4": {
+  "summary": "Distinguishes sensuality, the lower power of the soul moving toward bodily senses and appetites, from reason, the higher power, which has a higher part, intent on contemplating or consulting things above, and a lower part, attending to temporal affairs. What in the soul we share with beasts belongs to sensuality; where something first appears that we do not share with beasts, reason begins (Augustine, De Trinitate XII: the boundary of outer and inner man).",
+  "claims": [
+   "Sensuality is the lower power, directed to the senses and bodily appetites.",
+   "Reason is the higher power, with higher and lower parts.",
+   "The higher part of reason looks to things above; the lower to temporal affairs.",
+   "What we share with beasts belongs to sensuality; reason begins where we differ."
+  ],
+  "concepts": [
+   "sensualitas",
+   "ratio superior and inferior",
+   "outer and inner man",
+   "Augustine De Trinitate XII"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d24c4-d1e108",
+    "pl-l2d24c4-d1e113"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:32:08Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

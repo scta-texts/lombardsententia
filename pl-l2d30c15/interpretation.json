@@ -1,0 +1,85 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:39:39Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d30c15-d1e108": {
+  "summary": "Cites Christ's saying that whatever enters the mouth goes into the belly and is expelled, as showing nothing external passes into human nature.",
+  "claims": [
+   "Food does not become human nature."
+  ],
+  "concepts": [
+   "Matthew 15:17"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d30c15",
+    "pl-l2d30c14"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:39:39Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d30c15-d1e111": {
+  "summary": "Argues from reason: an infant dying at birth will rise in the stature he would have had at thirty; this can only come from self-multiplication of his small substance, as the rib from which woman was made and the Gospel loaves. Food and humors become flesh and blood, but not the truth of human nature from the first parents, which alone will rise; the rest will be set aside as superfluous.",
+  "claims": [
+   "Resurrection stature comes from self-multiplication.",
+   "Only the truth of human nature rises."
+  ],
+  "concepts": [
+   "resurrection",
+   "truth of human nature"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d30c15",
+    "pl-l2d30c15-d1e108",
+    "pl-l2d18c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:39:39Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d30c15": {
+  "summary": "Supports the claim that nothing external passes into human nature: Christ says whatever enters the mouth goes to the belly and is expelled (Matt 15:17). Reason also shows it: an infant who dies at birth will rise in the stature he would have had at thirty, which can only come from self-multiplication of his small substance, as with the rib from which woman was made and the Gospel loaves. Food and humors do become flesh and blood, but not the truth of human nature descended from the first parents, which alone will rise; the rest will be laid aside as superfluous.",
+  "claims": [
+   "Nothing external passes into the truth of human nature.",
+   "An infant who dies will rise at the stature of a thirty-year-old.",
+   "Growth comes from self-multiplication of substance, like the rib and the loaves.",
+   "Food becomes flesh, but not the truth of human nature.",
+   "Only the truth of human nature will rise."
+  ],
+  "concepts": [
+   "truth of human nature",
+   "resurrection",
+   "nutrition",
+   "multiplication",
+   "Matthew 15:17",
+   "multiplication of loaves"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d30c15-d1e108",
+    "pl-l2d30c15-d1e111"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:39:39Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

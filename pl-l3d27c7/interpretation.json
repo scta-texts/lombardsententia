@@ -1,0 +1,61 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T11:01:29Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l3d27c7-d1e115": {
+  "summary": "Explains that though there are two commandments of charity, one is often put for both, because neither God can be loved without neighbor nor neighbor without God. Paul says the whole Law is contained in 'love your neighbor', and Christ's new commandment mentions only love of one another, seeming to omit the greater one. But each is found in the other: one who loves God cannot despise the one God commanded him to love, and one who loves the neighbor loves God in him. Christ loved God in us, not as we had him but that we might, as a physician loves health in the sick, not the disease; so we should love one another to draw one another to have God.",
+  "claims": [
+   "Love of God and love of neighbor imply each other.",
+   "One who loves the neighbor loves God in him.",
+   "We should love others so as to draw them to have God."
+  ],
+  "concepts": [
+   "double commandment",
+   "love of neighbor",
+   "new commandment",
+   "physician analogy"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d27c7"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:01:29Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d27c7": {
+  "summary": "Explains why one commandment of love is often put for both: neither God can be loved without neighbor nor neighbor without God. So Paul says the whole Law is summed up in love of neighbor, and Christ's new commandment names only love of one another. Both are found in each, since one who loves God cannot despise whom God commands to be loved, and one who loves the neighbor loves God in him, as a physician loves health, not illness, in the sick. We should love one another so as to draw one another to have God.",
+  "claims": [
+   "One commandment of love is often put for both because each implies the other.",
+   "Whoever loves God loves the neighbor, and whoever loves the neighbor loves God in him.",
+   "Christ loved God in us, that we might have him."
+  ],
+  "concepts": [
+   "double commandment",
+   "love of neighbor",
+   "love of God",
+   "new commandment",
+   "physician analogy"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d27c7-d1e115"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T11:01:29Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

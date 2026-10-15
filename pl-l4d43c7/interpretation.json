@@ -1,0 +1,79 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T13:09:38Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d43c7-d1e115": {
+  "summary": "Adds that 'Christ will judge the living and the dead' is understood in two ways: the living as those found alive at his coming, though they die in the rapture, and the dead as those who died before; or the living and the dead as the just and the unjust.",
+  "claims": [
+   "'The living and the dead' has two senses."
+  ],
+  "concepts": [
+   "last judgment",
+   "creed"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d43c7"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:09:38Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d43c7-d1e133": {
+  "summary": "Holds that as all will rise, all will rise incorrupt, not impassible, since the wicked will suffer eternal death, but without loss of members, having all the members of the human body, though not all clothed with the glory and beauty of impassibility.",
+  "claims": [
+   "All rise whole and incorrupt.",
+   "Only the blessed rise impassible."
+  ],
+  "concepts": [
+   "integrity of the body",
+   "impassibility",
+   "resurrection of the body"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d43c7"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:09:38Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d43c7": {
+  "summary": "'Christ will judge the living and the dead' can be understood of those alive at his coming, though they die in the rapture, and those dead before, or of the just and unjust. All will rise incorrupt, not impassible, since the wicked will suffer eternal death, but with no members missing, all having the full human body, though not clothed with the glory of impassibility.",
+  "claims": [
+   "'The living and the dead' means those alive at his coming and the dead, or the just and the unjust.",
+   "All will rise incorrupt and whole, but not all impassible."
+  ],
+  "concepts": [
+   "last judgment",
+   "resurrection of the body",
+   "integrity of the body",
+   "impassibility"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d43c7-d1e115",
+    "pl-l4d43c7-d1e133"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T13:09:38Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

@@ -1,0 +1,55 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T18:59:02Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll2d6c3-d1e3514": {
+  "summary": "States that demons may not dwell in heaven, being bright and pleasant, nor on earth with us lest they harm us too much, but in the dark air as a prison until judgment, per Peter's epistle; then they will be thrust into hell (Matt 25:41).",
+  "claims": [
+   "The air is the demons' prison until judgment."
+  ],
+  "concepts": [
+   "eschatology"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d6c3",
+    "pll2d6c2-d1e3546"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:59:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d6c3": {
+  "summary": "Explains that the demons may not dwell in heaven, a bright and pleasant place, nor on earth with us, lest they harm men too much, but in the dark air, assigned them as a prison until judgment (1 Peter); then they will be cast into hell (Matt 25:41).",
+  "claims": [
+   "Demons may not dwell in heaven or on earth.",
+   "The dark air is their prison until judgment.",
+   "At judgment they will be cast into hell."
+  ],
+  "concepts": [
+   "dwelling of demons",
+   "judgment",
+   "Matthew 25:41"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll2d6c3-d1e3514"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T18:59:02Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

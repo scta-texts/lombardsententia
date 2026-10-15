@@ -1,0 +1,54 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T12:50:50Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d24c15-d1e112": {
+  "summary": "Explains that 'episcopate' is named because the bishop superintends, having care of his subjects; 'scopein' means to watch, and bishops are watchmen, set over the Church to observe the conduct and life of the people beneath them.",
+  "claims": [
+   "A bishop is an overseer who watches over his people."
+  ],
+  "concepts": [
+   "bishop",
+   "etymology",
+   "pastoral care"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d24c15"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:50:50Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d24c15": {
+  "summary": "Explains 'episcopate' from 'superintending': the bishop has the care of his subjects; 'episkopein' means to watch, and bishops are watchmen who observe the conduct and life of the people under them.",
+  "claims": [
+   "'Bishop' means overseer or watchman."
+  ],
+  "concepts": [
+   "bishop",
+   "etymology",
+   "pastoral care"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d24c15-d1e112"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T12:50:50Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

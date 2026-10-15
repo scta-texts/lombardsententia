@@ -1,0 +1,80 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T21:06:51Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d32c8-d1e108": {
+  "summary": "Asks whether all souls are equal by creation or some more excellent than others.",
+  "claims": [],
+  "concepts": [
+   "question"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d32c8",
+    "pl-l2d32c7"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:06:51Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d32c8-d1e111": {
+  "summary": "Reports that many reasonably hold some souls excel others by creation in natural gifts, being subtler and more apt for understanding and memory, as was so with the angels. Yet those departing before baptism receive equal punishment, and those departing immediately after baptism an equal crown, since sharpness or slowness of wit determines no reward or punishment hereafter.",
+  "claims": [
+   "Souls differ in natural gifts.",
+   "Wit does not determine reward or punishment."
+  ],
+  "concepts": [
+   "natural gifts"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d32c8",
+    "pl-l2d32c8-d1e108",
+    "pl-l2d3c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:06:51Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d32c8": {
+  "summary": "Asks whether all souls are equal by creation or some more excellent. Many reasonably hold that some excel others by creation in natural gifts, being subtler and more apt for understanding and memory, as with the angels. Yet souls departing before baptism receive equal punishment, and those departing immediately after baptism an equal crown, since sharpness or slowness of wit determines neither reward nor punishment.",
+  "claims": [
+   "Souls probably differ by creation in natural gifts.",
+   "Angels likewise differ in natural gifts.",
+   "Unbaptized infants receive equal punishment; newly baptized infants an equal crown.",
+   "Natural ability does not determine reward or punishment."
+  ],
+  "concepts": [
+   "equality of souls",
+   "natural gifts",
+   "reward and punishment",
+   "angels",
+   "infants"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d32c8-d1e108",
+    "pl-l2d32c8-d1e111"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T21:06:51Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

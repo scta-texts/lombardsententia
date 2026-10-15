@@ -1,0 +1,160 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T13:06:03Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d39c1-d1e115": {
+  "summary": "Turns to disparity of worship, one of the causes making persons unlawful for marriage.",
+  "claims": [],
+  "concepts": [
+   "disparity of worship",
+   "impediments"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d39c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:06:03Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d39c1-d1e118": {
+  "summary": "States that a Christian may not marry a gentile or Jewess, since the Old Testament forbade believers to take unbelieving wives, 'lest they lead your sons after their gods', and Ezra separated Jews' marriages with foreigners; this is kept in the New Testament too.",
+  "claims": [
+   "Marriage with unbelievers is forbidden in both Testaments."
+  ],
+  "concepts": [
+   "disparity of worship",
+   "Ezra"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d39c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:06:03Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d39c1-d1e124": {
+  "summary": "Quotes Augustine: let a woman marry only a man of her religion and a man take only such a wife; the Lord commands it, the Apostle teaches it, both Testaments prescribe it.",
+  "claims": [
+   "Marry only within one's religion."
+  ],
+  "concepts": [
+   "disparity of worship",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d39c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:06:03Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d39c1-d1e137": {
+  "summary": "Quotes Ambrose: Christian, beware of giving your daughter to a gentile or Jew; beware of taking a Jewish, gentile, or foreign, that is heretical, wife alien to your faith.",
+  "claims": [
+   "Christians must not marry outside the faith, including heretics."
+  ],
+  "concepts": [
+   "disparity of worship",
+   "heresy",
+   "Ambrose"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d39c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:06:03Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d39c1-d1e146": {
+  "summary": "Cites a council: whoever, Christian with Jewess or Jew with Christian, unites carnally is to be wholly separated from the Christian assembly.",
+  "claims": [],
+  "concepts": [
+   "disparity of worship",
+   "excommunication"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d39c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:06:03Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d39c1-d1e152": {
+  "summary": "Concludes that those of different religion and faith cannot contract marriage.",
+  "claims": [
+   "Disparity of faith invalidates marriage."
+  ],
+  "concepts": [
+   "disparity of worship"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d39c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:06:03Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d39c1": {
+  "summary": "Disparity of worship makes persons unlawful for marriage: a Christian may not marry a pagan or Jew, as the Old Testament forbade foreign wives and Ezra separated such marriages, and the New Testament keeps this, as Augustine and Ambrose say; a council separates Christians who unite with Jews from the Christian community. So those of different religion and faith cannot contract marriage.",
+  "claims": [
+   "Disparity of worship is a diriment impediment.",
+   "Christians may not marry pagans, Jews, or heretics."
+  ],
+  "concepts": [
+   "disparity of worship",
+   "impediments",
+   "mixed marriage"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d39c1-d1e115",
+    "pl-l4d39c1-d1e118",
+    "pl-l4d39c1-d1e124",
+    "pl-l4d39c1-d1e137",
+    "pl-l4d39c1-d1e146",
+    "pl-l4d39c1-d1e152"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T13:06:03Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

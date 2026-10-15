@@ -1,0 +1,104 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:30:14Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d21c5-d1e108": {
+  "summary": "Describes how the temptation was made: the proud enemy did not dare to persuade openly but questioned ('why did God command you not to eat of every tree?'); the woman replied they might eat of all but the tree in the middle, 'lest perhaps we die,' giving him an opening; he said 'you will not die... you will be like gods, knowing good and evil.'",
+  "claims": [
+   "The woman's 'lest perhaps' gave the devil an opening."
+  ],
+  "concepts": [
+   "Genesis 3:1–5"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d21c5",
+    "pl-l2d21c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:30:14Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d21c5-d1e119": {
+  "summary": "Notes the order of perdition: God said 'you shall die'; the woman 'lest perhaps we die'; the serpent 'you will not die.' God affirmed, the woman doubted, the devil denied; she who doubted withdrew from the one affirming and approached the one denying.",
+  "claims": [
+   "Doubt led the woman toward the denier."
+  ],
+  "concepts": [
+   "progression of temptation"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d21c5",
+    "pl-l2d21c5-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:30:14Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d21c5-d1e122": {
+  "summary": "To persuade fully, he removed the feared evil and doubled the promise, likeness to God and knowledge of good and evil, tempting by gluttony (eating), vainglory (being as gods), and avarice (knowing); gluttony is immoderate desire for food, vainglory love of one's own excellence, avarice immoderate desire to have, not only money but height and knowledge.",
+  "claims": [
+   "The temptation was by gluttony, vainglory, and avarice."
+  ],
+  "concepts": [
+   "three temptations",
+   "definitions of vices"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d21c5",
+    "pl-l2d21c5-d1e119"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:30:14Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d21c5": {
+  "summary": "Describes the temptation. Fearing exposure, the proud enemy began with a question ('why did God command...'), and the woman's 'lest perhaps we die' gave him an opening to deny: 'you will not die... you will be like gods, knowing good and evil.' Note the progression: God affirmed, the woman doubted, the devil denied; she who doubted drew away from the one affirming and toward the one denying. Removing the feared evil and doubling the promise (likeness to God and knowledge), he tempted in three ways: gluttony (eating), vainglory (being like gods), and avarice (knowledge), the last being immoderate desire not only of money but of height and knowledge.",
+  "claims": [
+   "The devil began with a question to probe the woman.",
+   "The woman's doubt ('lest perhaps we die') gave the devil his opening.",
+   "God affirmed, the woman doubted, the devil denied.",
+   "The devil promised likeness to God and knowledge.",
+   "The temptation was by gluttony, vainglory, and avarice.",
+   "Avarice includes immoderate desire for height and knowledge."
+  ],
+  "concepts": [
+   "temptation",
+   "doubt",
+   "gluttony, vainglory, avarice",
+   "Genesis 3"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d21c5-d1e108",
+    "pl-l2d21c5-d1e119",
+    "pl-l2d21c5-d1e122"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:30:14Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

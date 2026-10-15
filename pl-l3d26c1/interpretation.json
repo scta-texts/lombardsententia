@@ -1,0 +1,63 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T11:01:29Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l3d26c1-d1e115": {
+  "summary": "Defines hope as the virtue by which spiritual and eternal goods are hoped for, awaited with confidence: a certain expectation of future beatitude, coming from God's grace and from merits that precede either hope itself (preceded by nature by charity) or the thing hoped for, eternal beatitude. To hope for something without merits is not hope but presumption.",
+  "claims": [
+   "Hope is a certain expectation of future beatitude from grace and merits.",
+   "Charity naturally precedes hope.",
+   "Hoping without merits is presumption."
+  ],
+  "concepts": [
+   "hope",
+   "beatitude",
+   "merit",
+   "presumption",
+   "charity"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d26c1",
+    "pl-l3d23c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:01:29Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d26c1": {
+  "summary": "Defines hope as the virtue by which spiritual and eternal goods are hoped for, that is, awaited with confidence: a certain expectation of future beatitude, coming from God's grace and from preceding merits. Charity naturally precedes these merits. To hope for anything without merits is presumption, not hope.",
+  "claims": [
+   "Hope is the certain expectation of future beatitude.",
+   "Hope comes from God's grace and preceding merits.",
+   "Hoping without merits is presumption."
+  ],
+  "concepts": [
+   "hope",
+   "beatitude",
+   "merit",
+   "presumption",
+   "theological virtues"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d26c1-d1e115"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T11:01:29Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

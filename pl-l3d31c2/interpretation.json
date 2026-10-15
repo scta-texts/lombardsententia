@@ -1,0 +1,83 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T11:04:07Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l3d31c2-d1e115": {
+  "summary": "Asks how faith, hope, and knowledge are said to be done away because they are partial, but not charity, though it too is partial, since we love in part as we know in part. If all that is partial is done away, why is charity excepted?",
+  "claims": [],
+  "concepts": [
+   "faith, hope and charity",
+   "imperfection",
+   "difficulty"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d31c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:04:07Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d31c2-d1e127": {
+  "summary": "Answers that charity is indeed partial now and will be done away insofar as it is partial: imperfection removed, perfection added. It will remain increased, with its act and mode of loving God for himself with the whole heart and neighbor as oneself; only the mode of imperfection will be eliminated. Faith and hope will be done away entirely; knowledge will be removed in its present act and mode, not in its essence, remaining as a virtue with another use and mode.",
+  "claims": [
+   "Charity loses only its imperfection in the future life.",
+   "Faith and hope are done away entirely.",
+   "Knowledge remains in essence with another use and mode."
+  ],
+  "concepts": [
+   "permanence of charity",
+   "faith, hope and charity",
+   "knowledge",
+   "act and mode"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d31c2",
+    "pl-l3d27c6"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:04:07Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d31c2": {
+  "summary": "Asks how faith, hope, and knowledge are said to be done away because they are partial, while charity is not, though it too is partial. Charity is also partial now and will be done away insofar as it is partial: its imperfection will be removed, but it will remain, increased, with its act and mode of loving God for himself and neighbor as oneself. Faith and hope will be done away entirely; knowledge will be removed in its present act and mode, but not in its essence, remaining with another use and mode.",
+  "claims": [
+   "Charity is partial now and its imperfection will be removed.",
+   "Charity will remain in the future life, increased.",
+   "Faith and hope will be done away entirely.",
+   "Knowledge will remain in essence but change in act and mode."
+  ],
+  "concepts": [
+   "faith, hope and charity",
+   "permanence of charity",
+   "knowledge",
+   "wayfarer and homeland"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d31c2-d1e115",
+    "pl-l3d31c2-d1e127"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T11:04:07Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

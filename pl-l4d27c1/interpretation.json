@@ -1,0 +1,48 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T12:53:50Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d27c1-d1e115": {
+  "summary": "Sets out what is to be considered: what marriage is, its efficient cause, the cause for which it should be contracted, its goods and how they excuse carnal intercourse, which persons are lawful for marriage, and other matters to be briefly treated.",
+  "claims": [],
+  "concepts": [
+   "marriage",
+   "order of inquiry"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d27c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:53:50Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d27c1": {
+  "summary": "Sets out the topics: what marriage is, its efficient cause, the cause for which it should be contracted, its goods and how they excuse intercourse, which persons are lawful for marriage, and other matters to be treated briefly.",
+  "claims": [],
+  "concepts": [
+   "marriage",
+   "order of inquiry"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d27c1-d1e115"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T12:53:50Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

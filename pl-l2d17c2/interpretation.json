@@ -1,0 +1,123 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:14:24Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll2d17c2-d1e3519": {
+  "summary": "Asks whether the first soul was created in or outside the body, a scrupulous question among the learned.",
+  "claims": [],
+  "concepts": [
+   "question"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d17c2",
+    "pl-l2d17c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:14:24Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d17c2-d1e3522": {
+  "summary": "Cites Augustine on Genesis: the soul was created with the angels without a body and later came to the body, not compelled but naturally willing it, as we naturally will to live; willing to live badly comes from a perverse will, not nature.",
+  "claims": [
+   "Augustine: the first soul was created outside the body."
+  ],
+  "concepts": [
+   "Augustine De Genesi ad litteram"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d17c2",
+    "pll2d17c2-d1e3519"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:14:24Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d17c2-d1e3543": {
+  "summary": "Reports others who say the first soul was created in the body, reading 'breathed into his face' as creating in the body a soul animating it all, the face named because adorned with senses for beholding higher things.",
+  "claims": [
+   "Others: the first soul was created in the body."
+  ],
+  "concepts": [
+   "opinion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d17c2",
+    "pll2d17c2-d1e3522"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:14:24Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d17c2-d1e3559": {
+  "summary": "Concludes that whatever is held of the first soul, others are certainly created in the body: God infuses them by creating and creates by infusing. The soul was not created foreknowing its future just or unjust deeds.",
+  "claims": [
+   "Souls are created by being infused.",
+   "The soul was not created with foreknowledge of its deeds."
+  ],
+  "concepts": [
+   "creationism"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d17c2",
+    "pll2d17c2-d1e3543"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:14:24Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d17c2": {
+  "summary": "Asks whether the first man's soul was created in the body or outside it, a thorny question. Augustine holds it was created with the angels without a body and later joined it, not compelled but naturally willing, as we naturally will to live. Others say it was created in the body, 'breathed into his face' meaning the soul animating the whole body, the face named for its senses. Whatever of the first soul, the others are certainly created in the body: God creates them by infusing and infuses by creating. The soul was not created foreknowing its future just or unjust deeds.",
+  "claims": [
+   "Augustine holds the first soul was created outside the body with the angels.",
+   "Others hold it was created in the body.",
+   "All other souls are created in the body: God creates by infusing and infuses by creating.",
+   "The soul was not created foreknowing its future deeds."
+  ],
+  "concepts": [
+   "origin of the soul",
+   "creationism",
+   "Augustine",
+   "creare infundendo",
+   "opinions"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll2d17c2-d1e3519",
+    "pll2d17c2-d1e3522",
+    "pll2d17c2-d1e3543",
+    "pll2d17c2-d1e3559"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:14:24Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

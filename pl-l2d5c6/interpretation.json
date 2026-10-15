@@ -1,0 +1,148 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T18:59:02Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll2d5c6-d1e3514": {
+  "summary": "Asks whether the angels were blessed in confirmation and whether they merited that beatitude.",
+  "claims": [],
+  "concepts": [
+   "question"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d5c6",
+    "pl-l2d5c5"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:59:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d5c6-d1e3519": {
+  "summary": "States that many authorities attest they were blessed in confirmation, which must be held as certain.",
+  "claims": [
+   "The angels were blessed at confirmation."
+  ],
+  "concepts": [
+   "confirmation"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d5c6",
+    "pll2d5c6-d1e3514"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:59:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d5c6-d1e3523": {
+  "summary": "States that whether they merited beatitude by the grace then given is uncertain.",
+  "claims": [
+   "Whether angels merited beatitude is uncertain."
+  ],
+  "concepts": [
+   "merit"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d5c6",
+    "pll2d5c6-d1e3519"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:59:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d5c6-d1e3526": {
+  "summary": "Reports the view that they merited it by the grace received in confirmation, merit and reward being simultaneous, merit preceding reward in cause, not time.",
+  "claims": [
+   "One view: merit preceded reward in cause only."
+  ],
+  "concepts": [
+   "opinion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d5c6",
+    "pll2d5c6-d1e3523"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:59:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d5c6-d1e3529": {
+  "summary": "Reports the other view, which Lombard prefers: the grace given at confirmation was not for meriting but for living blessedly, a good to enjoy, not to merit by; what they received as reward they merit through services rendered to us in obedience and reverence to God, so reward preceded merits.",
+  "claims": [
+   "Confirming grace was for beatitude, not merit.",
+   "Angels merit by their ministry to us.",
+   "Reward preceded merit."
+  ],
+  "concepts": [
+   "Lombard's preference",
+   "angelic ministry"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d5c6",
+    "pll2d5c6-d1e3526"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:59:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d5c6": {
+  "summary": "Asks whether the angels were blessed in their confirmation and whether they merited that beatitude. Many authorities hold they were blessed at confirmation. Whether they merited it is uncertain: some say they merited it by the grace then received, merit and reward being simultaneous, prior only in cause; others, whom Lombard prefers, say that grace was given not for meriting but for living blessedly, and that they merit what they received as reward through services rendered to us in obedience to God, so reward preceded merit.",
+  "claims": [
+   "The angels were blessed at their confirmation.",
+   "Whether they merited that beatitude is uncertain.",
+   "One view: merit and reward were simultaneous, merit prior only in cause.",
+   "Lombard's preferred view: confirming grace was for living blessedly, not for meriting.",
+   "The angels merit their reward afterwards through ministry to us, so reward preceded merit."
+  ],
+  "concepts": [
+   "confirmation of angels",
+   "beatitude",
+   "merit and reward",
+   "angelic ministry",
+   "Lombard's opinion"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll2d5c6-d1e3514",
+    "pll2d5c6-d1e3519",
+    "pll2d5c6-d1e3523",
+    "pll2d5c6-d1e3526",
+    "pll2d5c6-d1e3529"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T18:59:02Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

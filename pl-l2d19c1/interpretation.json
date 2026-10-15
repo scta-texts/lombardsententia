@@ -1,0 +1,101 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:15:59Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d19c1-d1e108": {
+  "summary": "Lists questions about man's first state before sin: what he was in body and soul, mortal or immortal, passible or impassible; the end of the lower life and passage to the higher; the mode of procreation; useful to know though sometimes asked from curiosity.",
+  "claims": [],
+  "concepts": [
+   "questions",
+   "original state"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d19c1",
+    "pl-l2d18c7"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:15:59Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d19c1-d1e111": {
+  "summary": "Proposes to treat first the body, procreation, and related matters before the soul.",
+  "claims": [],
+  "concepts": [
+   "order of treatment"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d19c1",
+    "pl-l2d19c1-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:15:59Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d19c1-d1e114": {
+  "summary": "States that the first man was in a way immortal, able not to die, and in a way mortal, able to die. In the first state he had the ability to die and not to die; in the second, after sin, the ability to die and inability not to die; in the third he will have the ability not to die and inability to die, by grace, not nature.",
+  "claims": [
+   "There are three states regarding death.",
+   "The first immortality was the ability not to die.",
+   "Final immortality is from grace."
+  ],
+  "concepts": [
+   "three states",
+   "immortality"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d19c1",
+    "pl-l2d19c1-d1e111"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:15:59Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d19c1": {
+  "summary": "Introduces questions about man's first state before sin: whether mortal or immortal, passible or impassible, the end of the lower life and passage to the higher, and the mode of procreation, beginning with the body. The first man was in a way immortal (able not to die) and in a way mortal (able to die). There are three states: before sin, able to die and able not to die; after sin, able to die and unable not to die; in the final state, able not to die and unable to die, by grace, not nature.",
+  "claims": [
+   "The first man before sin was able to die and able not to die.",
+   "After sin man is able to die and unable not to die.",
+   "In the final state man will be unable to die, by grace, not nature.",
+   "The first immortality was only the ability not to die."
+  ],
+  "concepts": [
+   "three states of man",
+   "posse mori / posse non mori",
+   "immortality",
+   "original state"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d19c1-d1e108",
+    "pl-l2d19c1-d1e111",
+    "pl-l2d19c1-d1e114"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:15:59Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

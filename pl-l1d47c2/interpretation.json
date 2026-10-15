@@ -1,0 +1,174 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T18:45:54Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll1d47c2-d1e3510": {
+  "summary": "States that many things are done against God's precept or prohibition but not apart from his permission; all evils happen by his permission, yet apart from his eternal will.",
+  "claims": [
+   "Evils happen by God's permission, apart from his eternal will."
+  ],
+  "concepts": [
+   "permission"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d47c2",
+    "pll1d47c1-d1e3583"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:45:54Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d47c2-d1e3513": {
+  "summary": "Cites Augustine on Ps 16:4: 'the works of men' are evils done apart from God's will, which is God, but not apart from his permission, which is not God but is called his will since he willingly permits evils. They are done against his precept or prohibition, but against his eternal will only in the sense of apart from it, never so that he wills and it is not done.",
+  "claims": [
+   "Evils are done apart from God's will but not apart from his permission.",
+   "Permission is called will because God permits willingly."
+  ],
+  "concepts": [
+   "Augustine on Psalm 16"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d47c2",
+    "pll1d47c2-d1e3510"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:45:54Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d47c2-d1e3542": {
+  "summary": "Reads Augustine's 'they did what God did not will, but could not with respect to his omnipotence' as: they acted against God's precept, called his will, but not against his omnipotent will; by acting against his precept, his eternal will, by which he willed their damnation, was fulfilled.",
+  "claims": [
+   "Sinners act against God's precept, not his omnipotent will.",
+   "God's eternal will is fulfilled in their damnation."
+  ],
+  "concepts": [
+   "interpretation"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d47c2",
+    "pll1d47c2-d1e3513",
+    "pll1d47c1-d1e3530"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:45:54Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d47c2-d1e3560": {
+  "summary": "Cites Gregory: many fulfill God's will by striving to change it, and resisting his counsel they obey, since what results from human effort serves his disposition.",
+  "claims": [
+   "Those who resist God's counsel serve his disposition."
+  ],
+  "concepts": [
+   "Gregory"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d47c2",
+    "pll1d47c2-d1e3542"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:45:54Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d47c2-d1e3579": {
+  "summary": "Notes that the wicked, resisting God's counsel and precept, called his will, do what fulfills his will that is himself, called disposition or good pleasure.",
+  "claims": [
+   "The wicked fulfill God's good pleasure while resisting his precept."
+  ],
+  "concepts": [
+   "beneplacitum"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d47c2",
+    "pll1d47c2-d1e3560"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:45:54Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d47c2-d1e3584": {
+  "summary": "Cites the Enchiridion: whatever the wills of angels or humans, good or evil, the Omnipotent's will is always unconquered and can never be evil; even inflicting evils it is just. Whether by mercy or by judgment hardening, God does nothing unjust, nothing unwillingly, and all he wills.",
+  "claims": [
+   "God's will is unconquerable and never evil.",
+   "God does nothing unjust and all he wills."
+  ],
+  "concepts": [
+   "Augustine Enchiridion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d47c2",
+    "pll1d47c2-d1e3579"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:45:54Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1d47c2": {
+  "summary": "Explains that many things are done against God's precept or prohibition, but not apart from his permission; all evils happen by his permission, though apart from his eternal will (Augustine on Ps 16:4). Sinners did what God did not will, that is, against his precept, but could not act against his omnipotent will, which was fulfilled in their damnation. Gregory: many fulfill God's will by trying to change it. With the Enchiridion, the Omnipotent's will is always unconquered, never evil, just even when inflicting evils; whether he has mercy or hardens, he does nothing unjust and does all he wills.",
+  "claims": [
+   "Many things happen against God's precept but not apart from his permission.",
+   "All evils happen by God's permission but apart from his eternal will.",
+   "Sinners act against God's precept but cannot act against his omnipotent will.",
+   "Those who resist God's counsel fulfill his disposition.",
+   "God's will is always unconquered and never evil.",
+   "God does nothing unjust, whether showing mercy or hardening."
+  ],
+  "concepts": [
+   "permission",
+   "precept vs good pleasure",
+   "unconquerable will",
+   "Gregory",
+   "Augustine Enchiridion"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d47c2-d1e3510",
+    "pll1d47c2-d1e3513",
+    "pll1d47c2-d1e3542",
+    "pll1d47c2-d1e3560",
+    "pll1d47c2-d1e3579",
+    "pll1d47c2-d1e3584"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T18:45:54Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

@@ -1,0 +1,102 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T17:45:28Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll1d28c2-d1e3501": {
+  "summary": "Asks whether, as only the Father is called unbegotten, he alone should be called not-begotten or not-son, so the Spirit could not be.",
+  "claims": [],
+  "concepts": [
+   "question"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d28c2",
+    "pll1d28c1-d1e3551"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:45:28Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d28c2-d1e3506": {
+  "summary": "Reports one opinion: only the Father should be called not-begotten or not-son; the Spirit, as not unbegotten, should not be called 'not-begotten' or 'not-son,' though he should be said not to be begotten or a son.",
+  "claims": [
+   "On this view only the Father is 'not-begotten.'"
+  ],
+  "concepts": [
+   "opinion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d28c2",
+    "pll1d28c2-d1e3501"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:45:28Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d28c2-d1e3510": {
+  "summary": "Reports another opinion: the Spirit cannot be called unbegotten but can be called not-begotten or not-son; Augustine's equation was said to show the etymology of the name, not the rule of predication.",
+  "claims": [
+   "On this view the Spirit can be called 'not-begotten.'",
+   "Augustine spoke of etymology, not predication."
+  ],
+  "concepts": [
+   "opinion",
+   "etymology"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d28c2",
+    "pll1d28c2-d1e3506"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:45:28Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1d28c2": {
+  "summary": "Asks whether, as the Father alone is unbegotten, he alone should be called 'not-begotten' or 'not-son,' so that the Spirit could not be. Some say the Spirit should be said not to be begotten or a son, but not to be 'not-begotten' or 'not-son.' Others say the Spirit, though not 'unbegotten,' can be called 'not-begotten' or 'not-son,' and that Augustine's equation referred to etymology, not predication.",
+  "claims": [
+   "Some hold that only the Father should be called not-begotten or not-son.",
+   "They allow that the Spirit is not begotten, but not that he is 'not-begotten.'",
+   "Others hold the Spirit can be called not-begotten or not-son, though not unbegotten.",
+   "On that view Augustine's equation of 'unbegotten' and 'not-begotten' concerns etymology, not predication."
+  ],
+  "concepts": [
+   "ingenitus",
+   "non-genitus",
+   "Holy Spirit",
+   "predication vs etymology",
+   "opinions"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d28c2-d1e3501",
+    "pll1d28c2-d1e3506",
+    "pll1d28c2-d1e3510"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T17:45:28Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

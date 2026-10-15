@@ -1,0 +1,59 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:38:20Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d29c4-d1e108": {
+  "summary": "Explains that since by sin man already had a body subject to death, God, speaking as if angry about proud man, says to the angels: beware lest he eat of the tree of life, of which he is unworthy; had he persisted he would have eaten and lived forever. As he said in word, he did in deed, sending him from the paradise of delight to a fitting place, as an evil man among the good who will not change is expelled from their company.",
+  "claims": [
+   "Man's unworthiness, not the tree's power, is the point.",
+   "Expulsion fits man's changed state."
+  ],
+  "concepts": [
+   "tree of life"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d29c4",
+    "pl-l2d29c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:38:20Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d29c4": {
+  "summary": "Interprets Genesis 3:22: since by sin man already had a body subject to death, the words are God's speaking as if angry: 'beware, angels, lest he eat from the tree of life, of which he is unworthy'; had he persisted he would have eaten and lived forever, but by disobedience he is unworthy. What God said in word he showed in deed, sending man out to a place suited to him, as an evil man living among the good who will not change is expelled from their company.",
+  "claims": [
+   "By sin man's body was already subject to death.",
+   "Genesis 3:22 expresses God's anger and man's unworthiness.",
+   "Had man persisted, he would have eaten from the tree of life and lived forever.",
+   "Man was expelled to a place suited to his condition."
+  ],
+  "concepts": [
+   "tree of life",
+   "expulsion from paradise",
+   "mortality",
+   "disobedience",
+   "Augustine De Genesi ad litteram"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d29c4-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:38:20Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

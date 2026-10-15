@@ -1,0 +1,103 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T21:09:26Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d35c4-d1e108": {
+  "summary": "Asks how sin, being nothing insofar as it is sin, can corrupt or remove good.",
+  "claims": [],
+  "concepts": [
+   "question"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d35c4",
+    "pl-l2d35c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:09:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d35c4-d1e111": {
+  "summary": "Cites De natura boni: abstaining from food is no substance, yet the body languishes if it abstains entirely; so sin is no substance, yet the soul's nature is corrupted by it. Fault is properly corruption of the soul.",
+  "claims": [
+   "Sin corrupts without being a substance."
+  ],
+  "concepts": [
+   "Augustine De natura boni",
+   "analogy of fasting"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d35c4",
+    "pl-l2d35c4-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:09:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d35c4-d1e116": {
+  "summary": "Explains by the parable of the man among robbers how the soul is corrupted: by sin man falls into the devil's power, is stripped of gratuitous goods, the virtues, and wounded in natural goods, reason, memory, talent, which are darkened and vitiated; he is also deprived of the good by whose participation other goods exist, the more the further he withdraws.",
+  "claims": [
+   "Sin strips virtues and wounds nature."
+  ],
+  "concepts": [
+   "Luke 10:30",
+   "natural and gratuitous goods"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d35c4",
+    "pl-l2d35c4-d1e111",
+    "pl-l2d25c7-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:09:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d35c4": {
+  "summary": "Asks how sin, being nothing insofar as it is sin, can corrupt or remove good. Augustine: abstaining from food is no substance, yet the body languishes if it abstains entirely; so sin is no substance, yet the soul's nature is corrupted by it. Fault is properly corruption of the soul. As the parable of the man fallen among robbers shows, by sin man is drawn into the devil's power, stripped of gratuitous goods, the virtues, wounded in natural goods, reason, memory, and talent, which are darkened and vitiated, and deprived of the good by participation in which other goods exist, the more the further he goes from it.",
+  "claims": [
+   "Sin, though no substance, corrupts the soul, as fasting weakens the body.",
+   "Fault is properly corruption of the soul.",
+   "By sin man is stripped of the virtues and wounded in natural goods.",
+   "By sin man is deprived of the highest good in proportion to his distance from it."
+  ],
+  "concepts": [
+   "corruption of the soul",
+   "sin as nothing",
+   "Good Samaritan",
+   "natural and gratuitous goods",
+   "Augustine De natura boni"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d35c4-d1e108",
+    "pl-l2d35c4-d1e111",
+    "pl-l2d35c4-d1e116"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T21:09:26Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

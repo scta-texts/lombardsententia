@@ -1,0 +1,101 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:12:58Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll2d15c10-d1e3519": {
+  "summary": "States that God sanctified and blessed that day by giving it a mystical blessing above the others; hence 'remember to keep holy the sabbath day.'",
+  "claims": [
+   "The seventh day has a special blessing."
+  ],
+  "concepts": [
+   "sabbath",
+   "Exodus 20:8"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d15c10",
+    "pl-l2d15c9"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:12:58Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d15c10-d1e3531": {
+  "summary": "Explains why we count seven days, by whose repetition all time passes: not that there is no eighth day, but that in six days kinds of things were distinguished, and the seventh, though no new kind was instituted, had a new state of sanctification of the works and rest of the maker.",
+  "claims": [
+   "The week reflects creation's six days and the seventh's rest."
+  ],
+  "concepts": [
+   "week"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d15c10",
+    "pll2d15c10-d1e3519"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:12:58Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d15c10-d1e3536": {
+  "summary": "Offers another reading: 'God completed his work on the seventh day' means he saw it completed and consummated.",
+  "claims": [
+   "'Completed' may mean God saw it completed."
+  ],
+  "concepts": [
+   "alternative exegesis"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d15c10",
+    "pll2d15c10-d1e3531"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:12:58Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d15c10": {
+  "summary": "Explains that God sanctified and blessed the seventh day by giving it a mystical blessing above the others ('remember to keep holy the sabbath'). We count seven days, by whose repetition all time passes, because in six days the kinds of things were distinguished, and the seventh, though no new kind was made, had a new state of sanctification of the works and rest of the maker. 'He completed his work on the seventh day' may also mean he saw it completed.",
+  "claims": [
+   "God gave the seventh day a special mystical blessing.",
+   "The seven-day week reflects the six days of distinction and the seventh of rest and sanctification.",
+   "'Completed on the seventh day' can mean God saw his work completed."
+  ],
+  "concepts": [
+   "sabbath",
+   "seventh day",
+   "week",
+   "sanctification"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll2d15c10-d1e3519",
+    "pll2d15c10-d1e3531",
+    "pll2d15c10-d1e3536"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:12:58Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

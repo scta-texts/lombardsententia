@@ -1,0 +1,124 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T13:07:50Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d42c4-d1e112": {
+  "summary": "Reports that some understand this only of the children for whom they became co-parents; others, born before or after the co-parenthood, they grant may lawfully marry.",
+  "claims": [
+   "Some limit the impediment to the sponsored child."
+  ],
+  "concepts": [
+   "spiritual kinship",
+   "alternative opinion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d42c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:07:50Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d42c4-d1e115": {
+  "summary": "Cites Urban II, who seems to agree: baptism is valid if in necessity a woman baptizes a child in the Trinity's name, and the sons or daughters of spiritual parents born before or after the co-parenthood may lawfully marry, except that person through whom they became co-parents.",
+  "claims": [
+   "Women may baptize validly in necessity.",
+   "Only the sponsored child is impeded."
+  ],
+  "concepts": [
+   "emergency baptism",
+   "spiritual kinship",
+   "Urban II"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d42c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:07:50Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d42c4-d1e121": {
+  "summary": "Cites Paschal II to Bishop Reginus, who forbids those born to the co-father or co-mother after the sponsoring of a son or daughter to marry.",
+  "claims": [
+   "Children born after co-parenthood may not marry."
+  ],
+  "concepts": [
+   "spiritual kinship",
+   "Paschal II"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d42c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:07:50Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d42c4-d1e130": {
+  "summary": "Cites the Council of Tribur: one who by chance married his spiritual co-mother's daughter may, after mature counsel, keep her and live honestly in lawful marriage.",
+  "claims": [
+   "A chance marriage with a co-mother's daughter may be kept."
+  ],
+  "concepts": [
+   "spiritual kinship",
+   "dispensation"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d42c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:07:50Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d42c4": {
+  "summary": "Some apply this only to the children for whom the parents became co-parents, allowing children born before or after the co-parenthood to marry, as Urban II seems to agree, also holding a woman's emergency baptism valid. Paschal II forbids children born after co-parenthood to marry. A council allows one who by chance married his co-mother's daughter to keep her after mature counsel.",
+  "claims": [
+   "Some hold spiritual kinship binds only the sponsored child.",
+   "Urban II allows siblings born before or after to marry.",
+   "Paschal II forbids children born after co-parenthood to marry.",
+   "A chance marriage with a co-mother's daughter may be kept."
+  ],
+  "concepts": [
+   "spiritual kinship",
+   "disagreement of authorities",
+   "emergency baptism"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d42c4-d1e112",
+    "pl-l4d42c4-d1e115",
+    "pl-l4d42c4-d1e121",
+    "pl-l4d42c4-d1e130"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T13:07:50Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

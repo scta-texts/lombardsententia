@@ -1,0 +1,120 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:15:59Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d20c5-d1e108": {
+  "summary": "Asks whether, as with the body, those born without sin would be imperfect in sense and understanding and grow to perfection, or be perfect at once.",
+  "claims": [],
+  "concepts": [
+   "question"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d20c5",
+    "pl-l2d20c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:15:59Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d20c5-d1e111": {
+  "summary": "States that those who hold infants would grow in stature and use of limbs also hold they would be imperfect in sense at first and grow in sense and knowledge to perfection.",
+  "claims": [
+   "Bodily and intellectual growth would go together."
+  ],
+  "concepts": [
+   "opinion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d20c5",
+    "pl-l2d20c5-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:15:59Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d20c5-d1e114": {
+  "summary": "Objection: if newborns lacked perfect sense and understanding, they would have ignorance, which is a punishment of sin.",
+  "claims": [],
+  "concepts": [
+   "objection"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d20c5",
+    "pl-l2d20c5-d1e111"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:15:59Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d20c5-d1e118": {
+  "summary": "Answers that not everyone who does not know something, or knows it imperfectly, is in ignorance; ignorance is said only when what ought to be known is not known; such ignorance is a punishment of sin, when the mind is darkened by vice.",
+  "claims": [
+   "Ignorance is not knowing what ought to be known.",
+   "Not all lack of knowledge is penal."
+  ],
+  "concepts": [
+   "definition of ignorance"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d20c5",
+    "pl-l2d20c5-d1e114"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:15:59Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d20c5": {
+  "summary": "Asks whether children born without sin would also be imperfect in sense and understanding at first and grow to perfection over time. Those who hold children would grow bodily also hold they would grow in knowledge. To the objection that this would mean ignorance, a punishment of sin, Lombard answers that not every lack or imperfection of knowledge is ignorance: ignorance is not knowing what one ought to know, when the mind is darkened by vice, and only that is punishment of sin.",
+  "claims": [
+   "Some hold sinless children would grow gradually in understanding.",
+   "Not every lack of knowledge is ignorance.",
+   "Ignorance is not knowing what one ought to know.",
+   "Only ignorance in that sense is a punishment for sin."
+  ],
+  "concepts": [
+   "ignorance",
+   "growth in knowledge",
+   "original state",
+   "punishment of sin"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d20c5-d1e108",
+    "pl-l2d20c5-d1e111",
+    "pl-l2d20c5-d1e114",
+    "pl-l2d20c5-d1e118"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:15:59Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

@@ -1,0 +1,82 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:33:35Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d25c4-d1e108": {
+  "summary": "Continues Augustine: choice that cannot serve sin is much freer; the will by which we will to be blessed, not even able to will misery, is still will and free. As the soul now cannot will unhappiness, it will always be unable to will iniquity. But an order was kept to show how good a rational animal able to sin is, though one unable to sin is better.",
+  "claims": [
+   "Freedom unable to sin is greater.",
+   "A creature able to sin is good; unable to sin is better."
+  ],
+  "concepts": [
+   "Augustine Enchiridion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d25c4",
+    "pl-l2d25c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:33:35Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d25c4-d1e111": {
+  "summary": "Concludes that after confirmation in beatitude humans will have free choice unable to sin, as angels and saints now do, the freer the more immune from sin and inclined to good; the further from the slavery of sin (John 8:34), the freer the judgment in choosing good. Free choice is so called because it can desire or choose without coercion or necessity what reason decides.",
+  "claims": [
+   "Free choice is choosing without coercion or necessity.",
+   "Distance from sin increases freedom."
+  ],
+  "concepts": [
+   "definition of freedom",
+   "John 8:34"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d25c4",
+    "pl-l2d25c4-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:33:35Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d25c4": {
+  "summary": "Continues Augustine: choice that cannot serve sin is much freer; the will by which we will to be blessed, unable even to will misery, is will and free; as we now cannot will unhappiness, we will always be unable to will iniquity; but the order was to show how good a rational creature able to sin is, though one unable to sin is better. So after confirmation free choice will be freer the more it is immune from sin and inclined to good, the servant of sin being least free; free choice is so called because it can desire or choose without coercion or necessity what reason decides.",
+  "claims": [
+   "Choice that cannot serve sin is freer.",
+   "Willing beatitude without being able to will misery is free.",
+   "After confirmation free choice is freer the further it is from sin's servitude.",
+   "Free choice is choosing without coercion or necessity what reason decides."
+  ],
+  "concepts": [
+   "freedom and impeccability",
+   "servitude of sin",
+   "coercion and necessity",
+   "Augustine Enchiridion"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d25c4-d1e108",
+    "pl-l2d25c4-d1e111"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:33:35Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

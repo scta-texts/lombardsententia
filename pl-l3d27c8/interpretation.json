@@ -1,0 +1,77 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T11:01:29Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l3d27c8-d1e115": {
+  "summary": "Turns to inquire what is to be loved with this love.",
+  "claims": [],
+  "concepts": [
+   "objects of charity"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d27c8"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:01:29Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d27c8-d1e118": {
+  "summary": "Quotes Augustine: not all things to be used are to be loved, but only those related with us in fellowship to God, such as man and angel, or those related to us that need God's benefit through us, such as the body, which is to be loved so that it is cared for in an ordered and prudent way.",
+  "claims": [
+   "Only rational creatures in fellowship with us and our body are to be loved.",
+   "The body is to be cared for in an ordered way."
+  ],
+  "concepts": [
+   "objects of charity",
+   "use and enjoyment",
+   "care of the body",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d27c8",
+    "pl-l1d1c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:01:29Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d27c8": {
+  "summary": "Turns to what is to be loved with charity. Following Augustine, not everything we use is to be loved, only what is related with us to God in fellowship, as men and angels, or what is related to us and needs God's benefit through us, like the body, which must be cared for in an ordered and prudent way.",
+  "claims": [
+   "Not everything that is used is to be loved with charity.",
+   "Men, angels, and one's body are to be loved."
+  ],
+  "concepts": [
+   "objects of charity",
+   "use and enjoyment",
+   "care of the body"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d27c8-d1e115",
+    "pl-l3d27c8-d1e118"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T11:01:29Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

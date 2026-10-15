@@ -1,0 +1,127 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T01:11:30Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l3d20c6-d1e114": {
+  "summary": "States that Christ's passion is called the work of the Jews, because it came from their acts, and the work of God, because it was by his authorship, i.e., his will.",
+  "claims": [
+   "The passion is the work of the Jews and of God."
+  ],
+  "concepts": [
+   "providence",
+   "authorship"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d20c6",
+    "pl-l3d20c5-d1e136"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:11:30Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d20c6-d1e117": {
+  "summary": "Cites Augustine: no one takes Christ's life from him, since he has power to lay it down and take it up (Jn 10:18): here is the author of the work; he will lay down his life: here is the work of the author. Generally, whenever Christ suffers something in the flesh, it is the work of the author, since he suffers by his own will, not compelled by another, and so is himself author of the work.",
+  "claims": [
+   "Christ is author of his own suffering.",
+   "Christ suffers by his own will, not by compulsion."
+  ],
+  "concepts": [
+   "authorship",
+   "voluntary passion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d20c6",
+    "pl-l3d20c6-d1e114"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:11:30Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d20c6-d1e132": {
+  "summary": "Asks: since Christ's passion is God's work and therefore good, and Judas and the Jews worked it, should one grant that they worked good?",
+  "claims": [],
+  "concepts": [
+   "moral evaluation of acts"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d20c6",
+    "pl-l3d20c6-d1e117"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:11:30Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d20c6-d1e135": {
+  "summary": "Answers with a distinction: they can be said to have worked good, since good came from their acts, namely Christ's passion; and also not to have worked good but evil, since their action was not good but evil.",
+  "claims": [
+   "Judas and the Jews worked good in the result.",
+   "Their action itself was evil."
+  ],
+  "concepts": [
+   "distinction",
+   "moral evaluation of acts",
+   "intention"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d20c6",
+    "pl-l3d20c6-d1e132"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:11:30Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d20c6": {
+  "summary": "Explains that Christ's passion is the work of the Jews, since it came from their acts, and the work of God, since it was by his authorship and will; Augustine says Christ, having power to lay down and take up his life, is author of the work whenever he suffers in the flesh, since he suffers by his own will. Since the passion is good and Judas and the Jews worked it, did they work good? A distinction: they worked good in that good came from their acts, the passion; they did not work good but evil in that their action was evil.",
+  "claims": [
+   "Christ's passion is both the work of the Jews and the work of God.",
+   "Christ is author of his own suffering, since he suffers by his own will.",
+   "Judas and the Jews worked good in the result but evil in their action."
+  ],
+  "concepts": [
+   "providence",
+   "authorship",
+   "intention",
+   "moral evaluation of acts",
+   "distinction"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d20c6-d1e114",
+    "pl-l3d20c6-d1e117",
+    "pl-l3d20c6-d1e132",
+    "pl-l3d20c6-d1e135"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T01:11:30Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

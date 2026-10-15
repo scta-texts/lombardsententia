@@ -1,0 +1,103 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T13:01:54Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d32c1-d1e115": {
+  "summary": "States that though in all else the husband is over the wife, as head over body, they are equal in rendering the carnal debt.",
+  "claims": [
+   "Spouses are equal in the marital debt."
+  ],
+  "concepts": [
+   "equality of spouses",
+   "headship",
+   "marital debt"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d32c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:01:54Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d32c1-d1e121": {
+  "summary": "Explains that the Apostle commands both equally to be subject to each other in this: the husband render the debt to the wife and the wife to the husband, since neither has power over his own body; neither may give the body to another or keep continence without mutual consent, nor deny the debt when asked. This takes from the husband not lordship but vice.",
+  "claims": [
+   "Neither spouse has power over his own body in the marital debt."
+  ],
+  "concepts": [
+   "marital debt",
+   "1 Corinthians 7:4"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d32c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:01:54Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d32c1-d1e133": {
+  "summary": "Quotes Augustine: spouses owe each other not only fidelity for procreating children, the first society in this mortality, but a mutual service of bearing each other's weakness to avoid unlawful unions, so that if continence pleases one, it is possible only with the other's consent; and even when one asks for incontinence's sake, the other should not refuse, lest they fall into damnable corruption. Rendering the conjugal debt is no crime; demanding it beyond the need of generation is venial; fornication or adultery is a punishable crime.",
+  "claims": [
+   "Spouses owe each other mutual service against weakness.",
+   "Rendering is no sin; demanding beyond need is venial."
+  ],
+  "concepts": [
+   "marital debt",
+   "venial sin",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d32c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:01:54Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d32c1": {
+  "summary": "Though the husband is head of the wife in all else, they are equal in rendering the carnal debt: the Apostle commands each to render it, since neither has power over his or her own body, neither may give it to another or keep continence without mutual consent, and neither may refuse the other; this removes not the husband's lordship but vice. Spouses owe each other not only fidelity for procreation but mutual service in bearing each other's weakness to avoid unlawful unions; rendering the debt is no crime, demanding it beyond need is venial, fornication and adultery are punishable crimes.",
+  "claims": [
+   "Husband and wife are equal in the marital debt.",
+   "Neither may refuse the other or keep continence without consent.",
+   "Rendering the debt is no sin; demanding beyond need is venial."
+  ],
+  "concepts": [
+   "marital debt",
+   "equality of spouses",
+   "headship",
+   "continence"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d32c1-d1e115",
+    "pl-l4d32c1-d1e121",
+    "pl-l4d32c1-d1e133"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T13:01:54Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

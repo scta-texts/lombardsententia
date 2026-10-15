@@ -1,0 +1,158 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T17:45:28Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll1d29c2-d1e3501": {
+  "summary": "States that the Father is principle of the Son from eternity, and Father and Son of the Spirit, but the Spirit is principle only of creatures and so began to be principle when they began. Father and Son also began with the Spirit to be one principle of creatures. The three are one principle, not three, since things are from them in one and the same way.",
+  "claims": [
+   "The Father is eternally principle of the Son; Father and Son of the Spirit.",
+   "The Trinity began to be principle of creatures.",
+   "The three are one principle of creatures."
+  ],
+  "concepts": [
+   "eternal vs temporal principle"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d29c2",
+    "pll1d29c1-d1e3504"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:45:28Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d29c2-d1e3506": {
+  "summary": "Cites Rom 11:36 as showing the Trinity to be one principle, and Augustine's De natura boni: 'all things are from God' means all natures and what naturally is, not sins, which vitiate nature and arise from the will of sinners.",
+  "claims": [
+   "All natures are from God.",
+   "Sins are not from God but from the sinners' will."
+  ],
+  "concepts": [
+   "Romans 11:36",
+   "sin as privation"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d29c2",
+    "pll1d29c2-d1e3501"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:45:28Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d29c2-d1e3538": {
+  "summary": "Concludes that Father, Son, and Spirit are one principle of all natural things, which began, while eternally the Father is principle of the Son by generation and Father and Son one principle of the Spirit.",
+  "claims": [
+   "The three are one principle of creatures.",
+   "Father and Son are one principle of the Spirit."
+  ],
+  "concepts": [
+   "summary"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d29c2",
+    "pll1d29c2-d1e3506"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:45:28Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d29c2-d1e3542": {
+  "summary": "Cites De Trinitate V: 'Father' and 'principle' are both relative, but Father to the Son and principle to all from him. The Son also is principle (John 8:25), not of the Father but as creator. Father and Son are not two principles of creatures but one, as one creator. Whatever remaining in itself produces something is principle of it, so the Spirit too, working while unchanged, is with them one principle, not two or three.",
+  "claims": [
+   "The Son is principle of creatures as creator.",
+   "Father and Son are one principle and one creator of creatures.",
+   "The Spirit is also principle, since he works while remaining unchanged."
+  ],
+  "concepts": [
+   "Augustine De Trinitate V",
+   "John 8:25",
+   "creator"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d29c2",
+    "pll1d29c2-d1e3538"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:45:28Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d29c2-d1e3573": {
+  "summary": "Concludes that Augustine shows the three to be one principle of creatures, principle in one way, since they work all things together.",
+  "claims": [
+   "The three are one principle because they work together."
+  ],
+  "concepts": [
+   "inseparable operations"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d29c2",
+    "pll1d29c2-d1e3542"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:45:28Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1d29c2": {
+  "summary": "Distinguishes eternal and temporal principality. The Father is principle of the Son from eternity, and Father and Son of the Spirit; the Spirit is principle only of creatures and so began to be principle when they began, as Father and Son with him began to be one principle of creatures. The three are one principle of all creatures, not three, since they are principle in one and the same way (Rom 11:36). With Augustine, 'all things from God' means all natures, not sins, which come from the will of sinners. Augustine: 'Father' is said relative to the Son, 'principle' to all from him; the Son too is principle as creator ('I am the beginning,' John 8:25), and Father and Son are one principle of creatures as one creator. The Spirit also, who works while remaining unchanged, is with them one principle, not two or three.",
+  "claims": [
+   "The Father is principle of the Son, and Father and Son of the Spirit, from eternity.",
+   "The Trinity began to be principle of creatures when creatures began.",
+   "Father, Son, and Spirit are one principle of creatures, not three.",
+   "They are one principle because they operate in one and the same way.",
+   "All natures are from God, but sins are not.",
+   "The Spirit works while remaining unchanged and is principle with Father and Son."
+  ],
+  "concepts": [
+   "principium",
+   "temporal predication",
+   "creation",
+   "one creator",
+   "sin not from God",
+   "inseparable operations"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d29c2-d1e3501",
+    "pll1d29c2-d1e3506",
+    "pll1d29c2-d1e3538",
+    "pll1d29c2-d1e3542",
+    "pll1d29c2-d1e3573"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T17:45:28Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

@@ -1,0 +1,152 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:35:42Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d26c2-d1e108": {
+  "summary": "Gives Augustine's definition in De duabus animabus: will is a motion of the mind, compelled by nothing, toward not losing or gaining something. That it not admit evil and gain good, it is prevented and prepared by grace.",
+  "claims": [
+   "Will is an uncompelled motion of the mind."
+  ],
+  "concepts": [
+   "definition of will"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d26c2",
+    "pl-l2d26c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:35:42Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d26c2-d1e111": {
+  "summary": "Cites Augustine: Paul, commending prevenient and subsequent grace, said 'not of him who wills or runs but of God who shows mercy,' not the converse. If it meant only that man's will is insufficient without mercy, one could equally say mercy is insufficient without man's will. Since man cannot believe or hope unless he wills, the saying must give all to God, who prevents and prepares the good will and helps it once prepared, preventing the unwilling that he may will and following the willing that he not will in vain.",
+  "claims": [
+   "Romans 9:16 gives all to God.",
+   "God prevents the unwilling and follows the willing."
+  ],
+  "concepts": [
+   "Augustine Enchiridion",
+   "Romans 9:16"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d26c2",
+    "pl-l2d26c2-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:35:42Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d26c2-d1e116": {
+  "summary": "Concludes that the will is prepared and prevented by grace to will good, and helped not to will in vain.",
+  "claims": [
+   "Grace prepares and helps the will."
+  ],
+  "concepts": [
+   "prevenient grace"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d26c2",
+    "pl-l2d26c2-d1e111"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:35:42Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d26c2-d1e120": {
+  "summary": "States that good will accompanies grace, not grace the will.",
+  "claims": [
+   "Good will follows grace."
+  ],
+  "concepts": [
+   "order of grace and will"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d26c2",
+    "pl-l2d26c2-d1e116"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:35:42Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d26c2-d1e123": {
+  "summary": "Cites Augustine to Boniface against the Pelagians: when faith obtains justification, no human merit precedes grace; grace merits increase and perfection, with the will accompanying, not leading, following, not going before. So grace precedes the merit of good will, which follows it.",
+  "claims": [
+   "No human merit precedes grace.",
+   "Good will follows grace."
+  ],
+  "concepts": [
+   "merit",
+   "Pelagianism"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d26c2",
+    "pl-l2d26c2-d1e120"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:35:42Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d26c2": {
+  "summary": "Gives Augustine's definition of will: a motion of the mind, under no compulsion, toward not losing or gaining something; that it reject evil and gain good, it is prevented by grace. Augustine reads Rom 9:16 not as 'the will alone is insufficient without mercy', which would equally allow 'mercy alone is insufficient without will', but so that all is given to God, who prevents the unwilling that he may will and follows the willing that he not will in vain. So good will accompanies grace, not grace the will: good will is grace's follower, not its leader.",
+  "claims": [
+   "Will is a motion of the mind, under no compulsion, toward not losing or gaining something.",
+   "Romans 9:16 gives all to God, not a shared sufficiency.",
+   "God prevents the unwilling and follows the willing.",
+   "Good will accompanies grace, not grace the will.",
+   "Grace precedes all merit of good will."
+  ],
+  "concepts": [
+   "definition of will",
+   "prevenient grace",
+   "subsequent grace",
+   "merit",
+   "Pelagianism",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d26c2-d1e108",
+    "pl-l2d26c2-d1e111",
+    "pl-l2d26c2-d1e116",
+    "pl-l2d26c2-d1e120",
+    "pl-l2d26c2-d1e123"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:35:42Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

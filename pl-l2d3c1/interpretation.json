@@ -1,0 +1,80 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T18:57:50Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll2d3c1-d1e3514": {
+  "summary": "Having shown where the angels were when created, proposes to examine what they were like at the beginning of their creation.",
+  "claims": [],
+  "concepts": [
+   "transition"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d3c1",
+    "pl-l2d2c5"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:57:50Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d3c1-d1e3517": {
+  "summary": "Lists four things given to angels at creation: simple essence, indivisible and immaterial; personal distinctness; by naturally implanted reason, understanding, memory, and will or love; and free choice, the free faculty of inclining the will to good or evil, without violence or coercion.",
+  "claims": [
+   "Angels have simple essence, personhood, intellect and will, and free choice.",
+   "Free choice can turn to good or evil without coercion."
+  ],
+  "concepts": [
+   "angelic endowments",
+   "liberum arbitrium"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d3c1",
+    "pll2d3c1-d1e3514"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:57:50Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d3c1": {
+  "summary": "Turns from where the angels were to what they were like at creation. Four things were given them: a simple, indivisible, immaterial essence; personal distinctness; reason with understanding, memory, and will or love; and free choice, the faculty of turning the will to good or evil without force or coercion.",
+  "claims": [
+   "Angels have a simple, indivisible, immaterial essence.",
+   "Each angel is personally distinct.",
+   "Angels have reason, with understanding, memory, and will.",
+   "Angels have free choice to turn to good or evil without coercion."
+  ],
+  "concepts": [
+   "angelic nature",
+   "simplicity",
+   "free choice",
+   "liberum arbitrium",
+   "intellect and will"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll2d3c1-d1e3514",
+    "pll2d3c1-d1e3517"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T18:57:50Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

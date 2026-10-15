@@ -1,0 +1,105 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:15:59Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d19c2-d1e108": {
+  "summary": "Explains that in the first state the body was animal, needing food; man was made 'a living soul,' giving life to a body that was animal, not spiritual, sustained by food; so the body was mortal and immortal, able to die and not to die.",
+  "claims": [
+   "The first body was animal and needed food."
+  ],
+  "concepts": [
+   "animal body",
+   "Genesis 2:7"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d19c2",
+    "pl-l2d19c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:15:59Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d19c2-d1e113": {
+  "summary": "States that after sin the body became 'dead' (Rom 8:10), having the necessity of dying; in the resurrection it will be spiritual, agile, needing no food, and immortal so that it cannot die.",
+  "claims": [
+   "After sin the body must die.",
+   "The risen body cannot die."
+  ],
+  "concepts": [
+   "Romans 8:10",
+   "resurrection"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d19c2",
+    "pl-l2d19c2-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:15:59Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d19c2-d1e116": {
+  "summary": "Cites Augustine: the body was first animal, formed from earth; we will rise not to that but to a spiritual body, into which Adam would have been changed had he not merited death by sinning. Paul says not 'mortal because of sin' but 'dead.'",
+  "claims": [
+   "Adam would have passed to a spiritual body without dying.",
+   "Sin made the body 'dead.'"
+  ],
+  "concepts": [
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d19c2",
+    "pl-l2d19c2-d1e113"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:15:59Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d19c2": {
+  "summary": "Explains that in the first state the body was animal, needing food; man was made a 'living soul' (Gen 2:7), giving life to the body through food, and so mortal and immortal. After sin it became 'dead,' having the necessity of dying (Rom 8:10). In the resurrection it will be spiritual, agile, not needing food, and immortal in that it cannot die. Augustine: Adam would have been changed into a spiritual body without death had he not sinned; Paul says the body is 'dead,' not 'mortal,' because of sin.",
+  "claims": [
+   "Before sin the body was animal, needing food.",
+   "After sin the body is 'dead,' having the necessity of dying.",
+   "The risen body will be spiritual, agile, needing no food, and unable to die.",
+   "Had Adam not sinned he would have been changed into a spiritual body without death."
+  ],
+  "concepts": [
+   "animal vs spiritual body",
+   "Romans 8:10",
+   "resurrection body",
+   "Augustine De Genesi ad litteram"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d19c2-d1e108",
+    "pl-l2d19c2-d1e113",
+    "pl-l2d19c2-d1e116"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:15:59Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

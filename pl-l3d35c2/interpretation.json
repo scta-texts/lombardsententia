@@ -1,0 +1,126 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T11:06:24Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l3d35c2-d1e115": {
+  "summary": "Having distinguished knowledge from wisdom, turns to the difference between wisdom and understanding.",
+  "claims": [],
+  "concepts": [
+   "wisdom and understanding"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d35c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:06:24Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d35c2-d1e118": {
+  "summary": "Explains that wisdom properly concerns eternal things, aimed at contemplating eternal Truth, while understanding also concerns invisible, spiritual things arising in time. By understanding we consider the divine nature and also the spiritual natures after it, angels and the good affections of souls. So wisdom regards the Creator alone, understanding the Creator and some creatures; understanding only grasps intelligibles, while wisdom also delights in what it knows.",
+  "claims": [
+   "Wisdom regards the Creator alone; understanding also invisible creatures.",
+   "Wisdom adds delight to knowledge."
+  ],
+  "concepts": [
+   "wisdom and understanding",
+   "contemplation",
+   "delight",
+   "angels"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d35c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:06:24Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d35c2-d1e121": {
+  "summary": "Summarizes the distinction of the three: knowledge serves the right administration of temporal things and good conduct among the wicked (sentence continues).",
+  "claims": [
+   "Knowledge concerns temporal administration and good conduct."
+  ],
+  "concepts": [
+   "knowledge",
+   "wisdom and understanding"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d35c2",
+    "pl-l3d35c2-d1e125"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:06:24Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d35c2-d1e125": {
+  "summary": "Completes the summary: understanding serves the contemplation of the Creator and invisible creatures, wisdom the contemplation and enjoyment of eternal Truth alone.",
+  "claims": [
+   "Understanding contemplates the Creator and invisible creatures.",
+   "Wisdom contemplates and delights in eternal Truth alone."
+  ],
+  "concepts": [
+   "wisdom and understanding",
+   "contemplation"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d35c2",
+    "pl-l3d35c2-d1e121"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:06:24Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d35c2": {
+  "summary": "Distinguishes wisdom from understanding. Wisdom concerns eternal things only, directed to contemplating eternal Truth; understanding concerns also invisible and spiritual things that arose in time, such as angels and the good affections of souls. Wisdom regards only the Creator, understanding the Creator and some creatures; understanding only grasps intelligibles, while wisdom also delights in what it knows. So knowledge serves the right administration of temporal things and good conduct among the wicked; understanding the contemplation of the Creator and invisible creatures; wisdom the contemplation of and delight in eternal Truth alone.",
+  "claims": [
+   "Wisdom concerns eternal Truth alone; understanding also concerns invisible creatures.",
+   "Wisdom delights in what it knows; understanding only grasps it.",
+   "Knowledge, understanding, and wisdom have distinct functions."
+  ],
+  "concepts": [
+   "wisdom and understanding",
+   "knowledge",
+   "contemplation",
+   "gifts of the Holy Spirit",
+   "delight"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d35c2-d1e115",
+    "pl-l3d35c2-d1e118",
+    "pl-l3d35c2-d1e121",
+    "pl-l3d35c2-d1e125"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T11:06:24Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

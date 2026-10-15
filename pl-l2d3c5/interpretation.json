@@ -1,0 +1,74 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T18:57:50Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll2d3c5-d1e3514": {
+  "summary": "Asks what wisdom the angels had before fall or confirmation.",
+  "claims": [],
+  "concepts": [
+   "question"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d3c5",
+    "pll2d3c4-d1e3771"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:57:50Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d3c5-d1e3517": {
+  "summary": "Answers: a threefold natural knowledge, that they were made, by whom, and with whom; and some knowledge of good and evil, what to seek and what to reject.",
+  "claims": [
+   "Angels had threefold natural knowledge.",
+   "Angels knew good and evil in some measure."
+  ],
+  "concepts": [
+   "natural knowledge"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d3c5",
+    "pll2d3c5-d1e3514"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:57:50Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d3c5": {
+  "summary": "Asks what wisdom the angels had before fall or confirmation: a threefold natural knowledge, of what they were made, by whom, and with whom, and some knowledge of good and evil, what to seek and what to reject.",
+  "claims": [
+   "Angels had natural knowledge of what they were, who made them, and with whom they were made.",
+   "Angels had some knowledge of good and evil."
+  ],
+  "concepts": [
+   "angelic knowledge",
+   "natural knowledge"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll2d3c5-d1e3514",
+    "pll2d3c5-d1e3517"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T18:57:50Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

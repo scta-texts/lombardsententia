@@ -1,0 +1,102 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T17:43:01Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll1d26c8-d1e3501": {
+  "summary": "Reports the view of some that 'Holy Spirit' or 'Gift' is not said relatively to Father or Son.",
+  "claims": [],
+  "concepts": [
+   "opposing view"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d26c8",
+    "pll1d26c6-d1e3501"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:43:01Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d26c8-d1e3504": {
+  "summary": "Gives their argument: relatives correspond reciprocally (Father of the Son, Son of the Father), so one should say Father of the Spirit or of the Gift. Lombard replies that not all relatives correspond reciprocally.",
+  "claims": [
+   "Not all relatives have reciprocal names."
+  ],
+  "concepts": [
+   "correlatives"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d26c8",
+    "pll1d26c8-d1e3501"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:43:01Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d26c8-d1e3507": {
+  "summary": "Cites De Trinitate V: the Spirit is said relatively even though the corresponding word is lacking. We say Spirit of the Father but not Father of the Spirit, lest the Spirit be thought his son; and Spirit of the Son but not Son of the Spirit. For gift we say 'gift of the giver' and 'giver of the gift.' Yet God was giver only from time, while the Spirit is Gift from eternity.",
+  "claims": [
+   "Many relatives lack reciprocal names.",
+   "'Gift of the giver' and 'giver of the gift' correspond.",
+   "God is giver only temporally; the Spirit is Gift eternally."
+  ],
+  "concepts": [
+   "Augustine De Trinitate V",
+   "donator"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d26c8",
+    "pll1d26c8-d1e3504"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:43:01Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1d26c8": {
+  "summary": "Rejects the view that 'Holy Spirit' and 'Gift' are not relative to Father and Son because they lack reciprocal correlatives (no 'Father of the Spirit'). With Augustine: not all relatives have reciprocal names. We say Spirit of the Father but not Father of the Spirit, lest the Spirit be thought his son; we say gift of Father and Son but not father of the gift, instead 'gift of the giver' and 'giver of the gift.' But God was giver only in time, while the Spirit is Gift from eternity.",
+  "claims": [
+   "Not all relative terms have reciprocal correlatives.",
+   "'Spirit of the Father' has no correlative 'Father of the Spirit,' lest the Spirit be thought his son.",
+   "'Gift' correlates with 'giver.'",
+   "God is giver only in time, but the Spirit is Gift eternally."
+  ],
+  "concepts": [
+   "relative terms",
+   "correlatives",
+   "donum and donator",
+   "eternal vs temporal"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d26c8-d1e3501",
+    "pll1d26c8-d1e3504",
+    "pll1d26c8-d1e3507"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T17:43:01Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

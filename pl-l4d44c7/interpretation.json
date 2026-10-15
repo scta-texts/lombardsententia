@@ -1,0 +1,123 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T13:09:38Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d44c7-d1e115": {
+  "summary": "Asks, since souls will be tormented by material fire in their bodies, whether meanwhile, before the resurrection, the souls of the reprobate are burned by material fire.",
+  "claims": [],
+  "concepts": [
+   "intermediate state",
+   "fire of hell"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d44c7"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:09:38Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d44c7-d1e118": {
+  "summary": "Cites Julian of Toledo, following Gregory: if the incorporeal spirit of a living man is held in the body, why not held after death by bodily fire? The spirit is held in the torment of fire by seeing and feeling it, as the Gospel shows in the rich man buried in hell, crying 'send Lazarus to cool my tongue, for I am tormented in this flame'; who would deny that reprobate souls are held in fire, especially since Augustine teaches that the soul has a likeness of the body?",
+  "claims": [
+   "Reprobate souls are tormented by fire before the resurrection."
+  ],
+  "concepts": [
+   "separated soul",
+   "rich man and Lazarus",
+   "Julian of Toledo"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d44c7"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:09:38Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d44c7-d1e136": {
+  "summary": "Quotes Augustine: whoever denies that the soul can have a likeness of the body and its members can deny that it is the soul that in dreams sees itself walking, sitting, or flying, which cannot happen without some likeness of a body; so if it bears this likeness among the dead, not bodily but body-like, it is in places not bodily but like bodily ones, at rest or in pain.",
+  "claims": [
+   "The separated soul bears a likeness of the body."
+  ],
+  "concepts": [
+   "separated soul",
+   "dreams",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d44c7"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:09:38Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d44c7-d1e143": {
+  "summary": "Cites Cassian: souls are not idle or insensible, as the rich man cries out tormented in the flame; so souls of the dead are not deprived of their senses or of affections, hope, sorrow, joy, and fear, and already begin to foretaste what is reserved for them at the general judgment.",
+  "claims": [
+   "Separated souls keep their senses and affections.",
+   "They foretaste their final judgment."
+  ],
+  "concepts": [
+   "intermediate state",
+   "Cassian"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d44c7"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:09:38Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d44c7": {
+  "summary": "Asks whether, before the resurrection, the souls of the reprobate are burned by material fire. Julian of Toledo, following Gregory, argues that if the incorporeal spirit is held in a living body, it can be held by bodily fire after death, seeing and feeling it, as the rich man's cry in the flame shows; Augustine teaches that the soul bears a likeness of the body, as in dreams, in non-bodily but body-like places. Cassian says souls of the dead keep their senses and affections, hope, sorrow, joy, and fear, and already foretaste what awaits them at the judgment.",
+  "claims": [
+   "The souls of the reprobate are tormented by fire before the resurrection.",
+   "The soul bears a likeness of the body after death.",
+   "Separated souls keep their senses and affections and foretaste judgment."
+  ],
+  "concepts": [
+   "separated soul",
+   "fire of hell",
+   "intermediate state",
+   "rich man and Lazarus"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d44c7-d1e115",
+    "pl-l4d44c7-d1e118",
+    "pl-l4d44c7-d1e136",
+    "pl-l4d44c7-d1e143"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T13:09:38Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

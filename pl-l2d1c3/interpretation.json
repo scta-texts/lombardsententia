@@ -1,0 +1,116 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T18:56:42Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll2d1c3-d1e3514": {
+  "summary": "Explains that 'make,' 'create,' and 'act' are not said of God as of creatures: no motion or labor is in him, but a new effect of his eternal will, something newly existing by his will without change in him. We are changed in acting; God is called maker because his will is the cause of new things, so 'act' is not properly said of him. As things arise from the sun's heat without change in it, so new things arise from God's will. Aristotle held two principles, matter and form, and a third, the agent, and that the world always was.",
+  "claims": [
+   "God makes without motion or change.",
+   "Creation is a new effect of an eternal will.",
+   "Aristotle held plural principles and an eternal world."
+  ],
+  "concepts": [
+   "creation without change",
+   "sun analogy",
+   "Aristotle"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d1c3",
+    "pll2d1c2-d1e3514"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:56:42Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d1c3-d1e3531": {
+  "summary": "States that the Holy Spirit, refuting these errors, teaches that God created the world at the beginning of time and existed eternally before time, commending his eternity and omnipotence; for him to will is to make.",
+  "claims": [
+   "God created the world at the beginning of time.",
+   "For God, to will is to make."
+  ],
+  "concepts": [
+   "beginning of time",
+   "omnipotence"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d1c3",
+    "pll2d1c3-d1e3514"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:56:42Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d1c3-d1e3534": {
+  "summary": "Concludes that the only cause of creatures, visible or invisible, is the Creator's goodness. Supremely good and eternally blessed, he willed others to share his beatitude, which can be shared but not diminished; he willed to communicate it by goodness alone, not necessity, since it belongs to the supremely good to will to benefit and the omnipotent cannot be harmed.",
+  "claims": [
+   "God's goodness is the only cause of creation.",
+   "God creates by goodness, not necessity.",
+   "God's beatitude can be shared without diminution."
+  ],
+  "concepts": [
+   "divine goodness",
+   "Hugh of St Victor",
+   "freedom"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d1c3",
+    "pll2d1c3-d1e3531"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:56:42Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d1c3": {
+  "summary": "Explains that 'make,' 'create,' and 'act' are said of God not as of creatures: no motion or labor is in God, but a new effect of his eternal will, something newly existing by his will without change in him, as things arise from the sun's heat without change in the sun. So 'act' is not properly said of God, since all action is in motion. Against Aristotle's principles (matter, form, an agent) and the eternity of the world, the Spirit teaches that God created the world at the beginning of time and existed eternally before it. The only cause of all creatures is the goodness of the one true God, who willed to share his beatitude, not by necessity but by goodness, since it belongs to the supremely good to will to benefit.",
+  "claims": [
+   "When God is said to make, no motion or change is meant in him.",
+   "Creation is a new effect of God's eternal will.",
+   "God's will brings new things into being without change in him.",
+   "Aristotle's eternal world and plural principles are rejected.",
+   "God created the world at the beginning of time.",
+   "The cause of all creatures is God's goodness.",
+   "God shares his beatitude by goodness, not necessity."
+  ],
+  "concepts": [
+   "creation without change",
+   "eternal will",
+   "Aristotle",
+   "eternity of the world rejected",
+   "divine goodness",
+   "freedom of creation"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll2d1c3-d1e3514",
+    "pll2d1c3-d1e3531",
+    "pll2d1c3-d1e3534"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T18:56:42Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

@@ -1,0 +1,101 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T12:38:35Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d16c3-d1e115": {
+  "summary": "States that as there are worthy fruits and true satisfaction, so there are unworthy fruits and false satisfaction, that is, false penance.",
+  "claims": [
+   "There is false as well as true satisfaction."
+  ],
+  "concepts": [
+   "false penance"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d16c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:38:35Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d16c3-d1e118": {
+  "summary": "Quotes Gregory: false penances are those not imposed according to the authorities of the saints for the quality of crimes. A soldier, merchant, or one in an office that cannot be exercised without sin, entangled in grave faults, or one unjustly keeping another's goods, or harboring hatred, should recognize that he cannot do true penance unless he leaves the business, abandons the office, forgives hatred from the heart, and restores goods unjustly taken. Yet he should not despair, but do whatever good he can, that God may enlighten his heart to penance.",
+  "claims": [
+   "Penance is false while one persists in a sinful occupation, hatred, or unjust possession.",
+   "Those not yet able to repent should do what good they can."
+  ],
+  "concepts": [
+   "false penance",
+   "restitution",
+   "occupations",
+   "Gregory"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d16c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:38:35Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d16c3-d1e127": {
+  "summary": "Concludes that since penance is inward and outward, it is clear from the foregoing which of each is true and which false.",
+  "claims": [],
+  "concepts": [
+   "inward and outward penance",
+   "true and false penance"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d16c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:38:35Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d16c3": {
+  "summary": "As there are worthy fruits and true satisfaction, there are unworthy fruits and false satisfaction, false penance. Gregory: false penances are those not imposed according to the saints' authority for the quality of the crime; a soldier, merchant, or one in an office that cannot be exercised without sin, one unjustly keeping another's goods, or one harboring hatred cannot do true penance unless he leaves the business, abandons the office, forgives from the heart, and restores what he took; yet he should not despair, but do what good he can so that God may enlighten him. So it is clear which inward and outward penance is true and which false.",
+  "claims": [
+   "False penance is that not imposed according to the quality of the crime.",
+   "Penance is false if one persists in a sinful occupation, hatred, or unjust possession.",
+   "Those unable yet to repent truly should not despair but do what good they can."
+  ],
+  "concepts": [
+   "false penance",
+   "restitution",
+   "occupations",
+   "hatred",
+   "hope"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d16c3-d1e115",
+    "pl-l4d16c3-d1e118",
+    "pl-l4d16c3-d1e127"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T12:38:35Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

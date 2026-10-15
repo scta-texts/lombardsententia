@@ -1,0 +1,124 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T12:53:50Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d27c10-d1e112": {
+  "summary": "States that a woman betrothed only for the future does not remain a widow when her betrothed dies, since he was not her husband; so one who marries her is not barred from holy orders, not having married a widow; for a widow's husband, like a bigamist, is barred from the priesthood, but such a union bars no one.",
+  "claims": [
+   "A future-promise betrothed is not a widow.",
+   "Marrying her does not bar from orders."
+  ],
+  "concepts": [
+   "bigamy",
+   "holy orders",
+   "verba de futuro"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d27c10"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:53:50Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d27c10-d1e115": {
+  "summary": "Applies Pope Pelagius on one who marries the betrothed of a dead man: nothing in the canons bars him from being promoted to holy orders.",
+  "claims": [],
+  "concepts": [
+   "holy orders",
+   "Pelagius"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d27c10"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:53:50Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d27c10-d1e121": {
+  "summary": "Adds that if present consent had occurred between her and her betrothed, she would remain a widow at his death, and one joined to her in marriage could not afterward be ordained, having married a widow.",
+  "claims": [
+   "A present-consent betrothed is a widow, barring her later husband from orders."
+  ],
+  "concepts": [
+   "bigamy",
+   "verba de praesenti"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d27c10"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:53:50Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d27c10-d1e124": {
+  "summary": "Concludes that present consent alone makes marriage and from then they are called true spouses; so if after such consent anyone unites with another, even with carnal union following, he must be recalled to the first union.",
+  "claims": [
+   "Present consent alone makes marriage.",
+   "A later union must yield to the first."
+  ],
+  "concepts": [
+   "verba de praesenti",
+   "indissolubility"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d27c10"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:53:50Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d27c10": {
+  "summary": "A woman betrothed only for the future does not remain a widow if her betrothed dies, so one who marries her is not barred from holy orders, unlike one who marries a widow, as Pope Pelagius affirms; but if present consent had occurred, she would be a widow and her later husband barred from orders. So present consent alone makes marriage and true spouses; anyone who after such consent unites with another, even carnally, must be recalled to the first union.",
+  "claims": [
+   "A future-promise betrothed is not a widow at her betrothed's death.",
+   "Marrying a widow bars from holy orders.",
+   "Present consent alone makes marriage.",
+   "After present consent, a later union, even consummated, must yield to the first."
+  ],
+  "concepts": [
+   "verba de praesenti",
+   "bigamy",
+   "holy orders",
+   "indissolubility"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d27c10-d1e112",
+    "pl-l4d27c10-d1e115",
+    "pl-l4d27c10-d1e121",
+    "pl-l4d27c10-d1e124"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T12:53:50Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

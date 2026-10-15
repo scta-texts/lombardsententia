@@ -1,0 +1,128 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:00:33Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll2d7c3-d1e3514": {
+  "summary": "States that the good have a much freer choice after confirmation than before.",
+  "claims": [
+   "Confirmed angels have freer choice."
+  ],
+  "concepts": [
+   "freedom"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d7c3",
+    "pl-l2d7c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:00:33Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d7c3-d1e3519": {
+  "summary": "Cites the Enchiridion: they do not lack free choice because they cannot will evil; choice that cannot serve sin is much freer; the blessed will to be blessed so that they cannot even will misery.",
+  "claims": [
+   "Choice that cannot serve sin is freer."
+  ],
+  "concepts": [
+   "Augustine Enchiridion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d7c3",
+    "pll2d7c3-d1e3514"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:00:33Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d7c3-d1e3540": {
+  "summary": "States that good angels cannot will evil or misery, not by nature but by grace; before confirmation they could sin, and some did and became demons.",
+  "claims": [
+   "Impeccability comes from grace.",
+   "Before confirmation angels could sin."
+  ],
+  "concepts": [
+   "grace vs nature"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d7c3",
+    "pll2d7c3-d1e3519"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:00:33Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d7c3-d1e3543": {
+  "summary": "Cites Augustine against Maximinus: heavenly creatures could die because they could sin; angels sinned and became demons, and those who did not could have; any rational creature's inability to sin is by grace, not nature; only God by nature cannot sin. So their former ability came from natural free choice, their present inability from grace, which keeps free choice from serving sin.",
+  "claims": [
+   "Inability to sin in creatures comes from grace.",
+   "God alone is impeccable by nature."
+  ],
+  "concepts": [
+   "Augustine Contra Maximinum",
+   "impeccability"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d7c3",
+    "pll2d7c3-d1e3540",
+    "pll1d8c2-d1e3593"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:00:33Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d7c3": {
+  "summary": "Holds that the good angels' choice is much freer after confirmation. Augustine: choice that cannot serve sin is freer; the blessed will to be blessed so that they cannot will misery. The good angels cannot will evil not by nature but by grace: before confirmation they could sin, and some did; as Augustine says, any creature's inability to sin is by God's grace, God alone being unable to sin by nature.",
+  "claims": [
+   "The good angels' free choice is freer after confirmation.",
+   "Choice that cannot serve sin is freer.",
+   "The good angels cannot will evil by grace, not by nature.",
+   "Before confirmation angels could sin.",
+   "Only God cannot sin by nature."
+  ],
+  "concepts": [
+   "freedom and impeccability",
+   "grace vs nature",
+   "confirmation",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll2d7c3-d1e3514",
+    "pll2d7c3-d1e3519",
+    "pll2d7c3-d1e3540",
+    "pll2d7c3-d1e3543"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:00:33Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

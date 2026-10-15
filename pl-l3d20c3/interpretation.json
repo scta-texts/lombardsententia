@@ -1,0 +1,87 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T01:11:30Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l3d20c3-d1e114": {
+  "summary": "Answers: by Jesus Christ's justice. The devil was conquered by it because, finding nothing in him worthy of death, he killed him anyway; so it is just that the debtors he held be released if they believe in him whom he killed without debt. God did not will to conquer by power because the devil, by his perversity, loves power and deserts and attacks justice, and men imitate him in neglecting justice and pursuing power; so it pleased God to free man by conquering through justice, so that man would learn to imitate him. Power followed in the resurrection, since he who died lived again never to die. Would not the devil have been most justly conquered had Christ acted by power alone? Certainly, but Christ put what he could do after what he ought to do.",
+  "claims": [
+   "The devil, killing the sinless Christ, lost his claim on believers.",
+   "God conquered by justice so that men would imitate justice rather than the devil's love of power.",
+   "The devil could have been justly conquered by power."
+  ],
+  "concepts": [
+   "justice and power",
+   "devil",
+   "imitation of Christ"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d20c3",
+    "pl-l3d20c2-d1e114"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:11:30Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d20c3-d1e129": {
+  "summary": "Concludes that the justice of humility freed man, whom power alone could also have freed most justly.",
+  "claims": [
+   "Christ's humble justice freed man.",
+   "Power alone could also have freed man justly."
+  ],
+  "concepts": [
+   "justice and power",
+   "humility"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d20c3",
+    "pl-l3d20c3-d1e114"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T01:11:30Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d20c3": {
+  "summary": "Explains by what justice the devil was conquered: Christ's. Finding nothing in him worthy of death, the devil killed him anyway, so it is just that the debtors he held be released if they believe in him whom he killed without debt. God chose not to conquer by power because the devil loves power and deserts justice, and men imitate him in this; God willed that man learn to imitate Christ in conquering by justice. Power followed in the resurrection. The devil could have been justly conquered by power alone, but Christ put what he could do after what he ought to do. So the justice of humility freed man, whom power alone could also have freed most justly.",
+  "claims": [
+   "The devil was conquered by Christ's justice.",
+   "Killing the sinless Christ forfeited the devil's claim on believers.",
+   "God conquered by justice to teach men to imitate justice, not the devil's love of power.",
+   "Power followed justice in the resurrection.",
+   "Power alone could also have freed man justly."
+  ],
+  "concepts": [
+   "justice and power",
+   "devil",
+   "humility",
+   "imitation of Christ",
+   "resurrection"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d20c3-d1e114",
+    "pl-l3d20c3-d1e129"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T01:11:30Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

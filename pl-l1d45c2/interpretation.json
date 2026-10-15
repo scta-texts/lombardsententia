@@ -1,0 +1,97 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T18:43:26Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll1d45c2-d1e3509": {
+  "summary": "States that although for God to will is to be, God is not all he wills.",
+  "claims": [
+   "God is not all that he wills."
+  ],
+  "concepts": [
+   "will and being"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d45c2",
+    "pll1d45c1-d1e3512"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:43:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d45c2-d1e3512": {
+  "summary": "Reports an objection: if willing is being, 'God wills all he makes' means 'God is all he makes'; otherwise 'will' does not signify the same as 'be' and is not always said by essence, nor relatively.",
+  "claims": [],
+  "concepts": [
+   "objection"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d45c2",
+    "pll1d45c2-d1e3509"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:43:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d45c2-d1e3517": {
+  "summary": "Answers: although willing is wholly the same as being for God, he cannot be said to be all he wills, just as knowing is being for him, yet he knows all things without being all things.",
+  "claims": [
+   "Knowing all does not make God all things; nor does willing."
+  ],
+  "concepts": [
+   "analogy with knowledge"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d45c2",
+    "pll1d45c2-d1e3512"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:43:26Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1d45c2": {
+  "summary": "Notes that although for God to will is to be, it does not follow that God is all he wills. Some object that if willing is being, 'God wills all he makes' would mean 'God is all he makes,' or else 'will' is not always said by essence. Lombard answers that as God's being and knowing are the same, yet he knows all things without being all things, so with willing.",
+  "claims": [
+   "For God, willing is being.",
+   "God is not all that he wills.",
+   "As God knows all without being all, so he wills things without being them."
+  ],
+  "concepts": [
+   "divine will",
+   "simplicity",
+   "predication with objects"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d45c2-d1e3509",
+    "pll1d45c2-d1e3512",
+    "pll1d45c2-d1e3517"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T18:43:26Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

@@ -1,0 +1,126 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T21:12:25Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d36c3-d1e108": {
+  "summary": "States that though every mortal sin can in this sense be called punishment, not every one is punishment of sin, which is that caused by a preceding sin; a sin is punishment relative to a preceding sin and cause relative to a following one, so the same sin is cause and punishment, of different sins.",
+  "claims": [
+   "Punishment of sin has a prior sin as cause."
+  ],
+  "concepts": [
+   "cause of sin"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d36c3",
+    "pl-l2d36c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:12:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d36c3-d1e113": {
+  "summary": "Cites Gregory's Moralia: sin not washed by penance soon drags to another by its weight, so it is sin and cause of sin; the sin arising from sin is also punishment, since by just judgment God clouds the sinner's heart so he falls into others; whom he would not free, he struck by deserting.",
+  "claims": [
+   "God punishes by desertion."
+  ],
+  "concepts": [
+   "Gregory Moralia"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d36c3",
+    "pl-l2d36c3-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:12:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d36c3-d1e116": {
+  "summary": "Cites Augustine: this punishment of a prior sin is itself sin; by God's most just judgment, by desertion or another way explicable or not, some were handed over to shameful passions, so crimes are avenged by crimes and sinners' punishments are increases of vice; the sins Paul lists, coming from pride, are punishments too.",
+  "claims": [
+   "Crimes are avenged by crimes."
+  ],
+  "concepts": [
+   "Augustine",
+   "Romans 1:26"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d36c3",
+    "pl-l2d36c3-d1e113"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:12:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d36c3-d1e120": {
+  "summary": "Concludes that some sins are punishments and causes of sins: punishment when caused by a preceding sin, cause when meriting a subsequent fault.",
+  "claims": [
+   "Sin can be cause and punishment of sin."
+  ],
+  "concepts": [
+   "conclusion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d36c3",
+    "pl-l2d36c3-d1e116"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:12:25Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d36c3": {
+  "summary": "Though in this sense every mortal sin can be called punishment, not every one is punishment of sin: only that caused by a prior sin. A sin is punishment of sin with respect to a preceding sin and cause of sin with respect to a following one, so the same sin can be both. Gregory: sin not washed by penance drags to another by its weight, becoming cause of sin; the sin arising from sin is also punishment, since God justly clouds the sinner's heart so he falls into others, striking by deserting. Augustine: crimes are avenged by crimes, and sinners' punishments are increases of vice.",
+  "claims": [
+   "Every mortal sin may be called punishment, but not every sin is punishment of sin.",
+   "A sin is punishment of a prior sin and cause of a later one.",
+   "Unrepented sin drags the sinner into further sin.",
+   "God punishes by deserting and clouding the sinner's heart.",
+   "Crimes are avenged by crimes."
+  ],
+  "concepts": [
+   "sin as punishment of sin",
+   "cause of sin",
+   "desertion by God",
+   "Gregory Moralia",
+   "Augustine Contra Iulianum"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d36c3-d1e108",
+    "pl-l2d36c3-d1e113",
+    "pl-l2d36c3-d1e116",
+    "pl-l2d36c3-d1e120"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T21:12:25Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

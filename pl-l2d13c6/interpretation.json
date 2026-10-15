@@ -1,0 +1,80 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:11:27Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll2d13c6-d1e3519": {
+  "summary": "Asks how 'God said' is to be taken: temporally, by sound of voice, or otherwise.",
+  "claims": [],
+  "concepts": [
+   "question"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d13c6",
+    "pl-l2d13c5"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:11:27Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d13c6-d1e3525": {
+  "summary": "Cites Augustine: God spoke neither temporally, which would imply change, nor with sound, since there was no tongue nor anyone to hear and understand. God's voice refers to the nature of the Word, through whom all things were made: he said 'let there be' in his coeternal Word, begotten timelessly, disposing from eternity that it be made in time.",
+  "claims": [
+   "God spoke in the eternal Word, not in time or sound.",
+   "God disposed from eternity what is made in time."
+  ],
+  "concepts": [
+   "Word",
+   "eternal decree"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d13c6",
+    "pll2d13c6-d1e3519"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:11:27Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d13c6": {
+  "summary": "Asks how 'God said' is understood: not temporally or with vocal sound, as Augustine teaches, since temporal speech would imply change, and there was no tongue to speak or anyone to hear. God's speaking refers to the Word through whom all was made: he begot the Word timelessly and disposed from eternity that things be made in time, and they were made in him.",
+  "claims": [
+   "God's speaking in creation was not temporal or vocal.",
+   "Temporal speech would imply change in God.",
+   "'God said' refers to the eternal Word through whom all was made.",
+   "God disposed from eternity that things be made in time."
+  ],
+  "concepts": [
+   "divine speech",
+   "Word",
+   "creation",
+   "immutability",
+   "Augustine De Genesi ad litteram"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll2d13c6-d1e3519",
+    "pll2d13c6-d1e3525"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:11:27Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

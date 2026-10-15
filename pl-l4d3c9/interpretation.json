@@ -1,0 +1,87 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T11:50:19Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d3c9-d1e115": {
+  "summary": "States that the cause of baptism's institution is renewal of the mind: one made old by sin is renewed by the grace of baptism, through putting off vices and receiving virtues. Removing sins drives away ugliness, adding virtues brings beauty; this inner cleanness is the reality of the sacrament.",
+  "claims": [
+   "Baptism renews the mind by removing vices and conferring virtues.",
+   "The reality of baptism is inner cleanness."
+  ],
+  "concepts": [
+   "renewal",
+   "res sacramenti",
+   "virtues",
+   "purpose of baptism"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d3c9"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:50:19Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d3c9-d1e118": {
+  "summary": "Asks whether baptism opened heaven where circumcision did not, and answers that neither opened the entrance to the kingdom, but the Savior's sacrifice; had it been offered in the time of circumcision, the people of that time would have entered the kingdom. So the reality of this sacrament is justification.",
+  "claims": [
+   "Christ's sacrifice, not baptism, opened heaven.",
+   "The reality of baptism is justification."
+  ],
+  "concepts": [
+   "opening of heaven",
+   "sacrifice of Christ",
+   "justification",
+   "baptism and circumcision"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d3c9",
+    "pl-l4d1c7"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:50:19Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d3c9": {
+  "summary": "Gives the cause of baptism's institution: renewal of the mind, so that one made old by sin is renewed by grace through putting away vices and receiving virtues. Removing sins drives away ugliness, adding virtues brings beauty; this inner cleanness, justification, is the reality of the sacrament. Neither baptism nor circumcision opened the kingdom, but the Savior's sacrifice; had it been offered in the time of circumcision, those people would have entered the kingdom.",
+  "claims": [
+   "Baptism was instituted for the renewal of the mind.",
+   "Renewal consists in removing vices and conferring virtues.",
+   "The reality of baptism is inner cleanness, justification.",
+   "Christ's sacrifice, not baptism or circumcision, opened the kingdom."
+  ],
+  "concepts": [
+   "purpose of baptism",
+   "renewal",
+   "res sacramenti",
+   "justification",
+   "opening of heaven"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d3c9-d1e115",
+    "pl-l4d3c9-d1e118"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T11:50:19Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

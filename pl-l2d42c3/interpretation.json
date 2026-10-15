@@ -1,0 +1,58 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T21:14:34Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d42c3-d1e108": {
+  "summary": "Notes that reatus in Scripture means fault, punishment, or obligation to temporal or eternal punishment; mortal sin binds to eternal, venial to temporal. There are two kinds of sin: mortal, by which man merits eternal death, a crime worthy of accusation and condemnation as Augustine says; and venial, which does not burden to eternal death but merits punishment and is easily forgiven.",
+  "claims": [
+   "Sins are mortal or venial."
+  ],
+  "concepts": [
+   "mortal and venial sin",
+   "reatus"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d42c3",
+    "pl-l2d42c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T21:14:34Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d42c3": {
+  "summary": "Notes that reatus is taken variously in Scripture: for fault, for punishment, for obligation to temporal or eternal punishment. Mortal sin binds to eternal punishment, venial to temporal; there are two kinds of sin, mortal, by which one merits eternal death (a crime worthy of accusation and condemnation, as Augustine says), and venial, which does not burden to eternal death but merits punishment and is easily forgiven.",
+  "claims": [
+   "Reatus can mean fault, punishment, or obligation to punishment.",
+   "Mortal sin binds to eternal punishment; venial to temporal.",
+   "Mortal sin merits eternal death.",
+   "Venial sin merits punishment but is easily forgiven."
+  ],
+  "concepts": [
+   "reatus",
+   "mortal and venial sin",
+   "crimen",
+   "punishment"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d42c3-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T21:14:34Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

@@ -1,0 +1,151 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T12:33:00Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d11c4-d1e115": {
+  "summary": "Asks why the sacrament is received under two species when the whole Christ is under either.",
+  "claims": [],
+  "concepts": [
+   "two species",
+   "whole Christ under each species"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d11c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:33:00Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d11c4-d1e118": {
+  "summary": "Answers: to show that he assumed the whole human nature to redeem the whole. Bread refers to the flesh, wine to the soul, since wine produces blood, where the physicians say the soul resides. So it is celebrated under two species to signify the assumption of soul and flesh in Christ and the liberation of both in us.",
+  "claims": [
+   "Two species signify Christ's assumption of body and soul and their redemption in us."
+  ],
+  "concepts": [
+   "two species",
+   "body and soul",
+   "redemption"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d11c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:33:00Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d11c4-d1e124": {
+  "summary": "Quotes Ambrose: what we receive avails for the protection of body and soul, since Christ's flesh is offered for the body's salvation and his blood for our soul, as Moses prefigured. Under both species what avails for both is received, though under each the whole Christ is received; if received under one only, it would signify protection of only body or soul. Under each the whole Christ is received, no more under both and no less under one.",
+  "claims": [
+   "The flesh avails for the body, the blood for the soul.",
+   "The whole Christ is received under each species."
+  ],
+  "concepts": [
+   "two species",
+   "whole Christ under each species",
+   "Ambrose"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d11c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:33:00Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d11c4-d1e137": {
+  "summary": "Adds Hilary: the same holds for Christ's body as for the manna, where whoever gathered more had no more and whoever gathered less had no less.",
+  "claims": [
+   "Receiving more or less of the species does not give more or less of Christ."
+  ],
+  "concepts": [
+   "manna",
+   "Hilary"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d11c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:33:00Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d11c4-d1e146": {
+  "summary": "Adds that although the whole Christ is received under each species, bread is converted only into flesh and wine only into blood; there are not two sacraments but one, since the same is received under both; the sacrament is not repeated, since the blessing is not repeated on the same species; and no other substances should be offered, since Christ's body and blood cannot be consecrated from them.",
+  "claims": [
+   "Bread becomes flesh and wine blood.",
+   "It is one sacrament.",
+   "Only bread and wine can be consecrated."
+  ],
+  "concepts": [
+   "conversion",
+   "unity of the sacrament",
+   "matter of the eucharist"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d11c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:33:00Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d11c4": {
+  "summary": "Asks why the sacrament is received under two species when the whole Christ is under either. To show that he assumed the whole human nature to redeem it all: bread refers to the flesh and wine to the soul, since wine makes blood, the seat of the soul. Ambrose: the flesh is offered for the body and the blood for the soul; under both species what avails for both is received, though under either the whole Christ is received, no more under both and no less under one, as with the manna (Hilary). Still the bread is converted only into flesh and the wine only into blood; it is one sacrament, not two; it is not repeated by a second blessing on the same species; and no other substances may be offered.",
+  "claims": [
+   "Two species signify the assumption and redemption of body and soul.",
+   "The whole Christ is under each species, no more under both.",
+   "Bread is converted only into flesh, wine only into blood.",
+   "The eucharist is one sacrament under two species.",
+   "Only bread and wine can be consecrated."
+  ],
+  "concepts": [
+   "two species",
+   "whole Christ under each species",
+   "body and soul",
+   "conversion",
+   "matter of the eucharist"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d11c4-d1e115",
+    "pl-l4d11c4-d1e118",
+    "pl-l4d11c4-d1e124",
+    "pl-l4d11c4-d1e137",
+    "pl-l4d11c4-d1e146"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T12:33:00Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T18:56:42Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll2d1c5-d1e3514": {
+  "summary": "Notes that Scripture sometimes says man was made to repair the angelic ruin, not meaning he would not have been made had the angel not sinned, but that this was one cause among others. Superior, equal, and inferior things are ours, the inferior made to serve us.",
+  "claims": [
+   "Repairing the angelic fall was one cause of man's creation, not the only one."
+  ],
+  "concepts": [
+   "reparatio angelicae ruinae"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d1c5",
+    "pll2d1c4-d1e3546"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:56:42Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d1c5": {
+  "summary": "Explains that man is sometimes said in Scripture to have been made to restore the angelic fall, not as if man would not have been made had angels not sinned, but because this was one cause among others. All things are ours: superior, equal, and inferior, made to serve us.",
+  "claims": [
+   "Man was not made only to restore the fallen angels.",
+   "Restoring the angelic fall is one cause among others for man's creation.",
+   "Inferior things are ours, made to serve us."
+  ],
+  "concepts": [
+   "restoration of the angelic fall",
+   "purpose of man"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll2d1c5-d1e3514"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T18:56:42Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

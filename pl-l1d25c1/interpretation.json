@@ -1,0 +1,296 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T17:43:01Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll1d25c1-d1e3501": {
+  "summary": "Asks, since 'person' is said according to substance, what it means in plural statements like 'three persons,' 'two persons,' and 'the person of the Father is other than that of the Son and of the Spirit.'",
+  "claims": [],
+  "concepts": [
+   "persona",
+   "plural predication"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d25c1",
+    "pl-l1d23c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:43:01Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d25c1-d1e3506": {
+  "summary": "States the dilemma: if 'person' there means essence, we seem to confess several essences and so several gods; if not, 'person' has a different sense in 'the Father is a person' than in 'three persons' and 'the person of the Father is other.'",
+  "claims": [],
+  "concepts": [
+   "dilemma"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d25c1",
+    "pll1d25c1-d1e3501"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:43:01Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d25c1-d1e3510": {
+  "summary": "Recalls Augustine: 'person' is said 'ad se,' and for God being a person is the same as being, as being is being God.",
+  "claims": [
+   "For God, to be a person is to be."
+  ],
+  "concepts": [
+   "persona ad se"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d25c1",
+    "pll1d23c1-d1e3526"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:43:01Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d25c1-d1e3528": {
+  "summary": "Infers that in 'the Father is a person' we predicate the divine essence, and 'person' signifies the same as 'God' in 'the Father is God'; 'God is God' and 'God is a person' both signify the essence.",
+  "claims": [
+   "'The Father is a person' predicates the divine essence.",
+   "'Person' and 'God' signify the same in such statements."
+  ],
+  "concepts": [
+   "essential signification"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d25c1",
+    "pll1d25c1-d1e3510"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:43:01Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d25c1-d1e3531": {
+  "summary": "Asks what 'person' signifies in 'Father, Son, and Spirit are three persons': essence? Augustine's words seem to suggest so.",
+  "claims": [],
+  "concepts": [
+   "question"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d25c1",
+    "pll1d25c1-d1e3528"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:43:01Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d25c1-d1e3537": {
+  "summary": "Gives the argument from Augustine: we say three persons because what person is is common to the three, and because each is a person. So 'person' seems to keep the same sense in 'three persons' as in 'the Father is a person,' signifying what is common to them.",
+  "claims": [
+   "Augustine says three persons because what person is is common.",
+   "So 'person' seems to signify the same in both statements."
+  ],
+  "concepts": [
+   "argument for essential signification"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d25c1",
+    "pll1d25c1-d1e3531"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:43:01Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d25c1-d1e3563": {
+  "summary": "Announces another argument that 'person' signifies essence in 'three persons.'",
+  "claims": [],
+  "concepts": [
+   "second argument"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d25c1",
+    "pll1d25c1-d1e3537"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:43:01Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d25c1-d1e3567": {
+  "summary": "Second argument: 'three persons' answers 'three what?', and 'what' asks about essence, since the three are nothing but essence. So a correct answer must signify essence, and 'person' in 'three persons' means essence.",
+  "claims": [
+   "'Three what?' seems to ask about essence.",
+   "So 'person' would signify essence in 'three persons.'"
+  ],
+  "concepts": [
+   "quid tres"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d25c1",
+    "pll1d25c1-d1e3563"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:43:01Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d25c1-d1e3573": {
+  "summary": "Reports the view of some: 'three persons' means three having in common what person is, each of whom is essence. They read 'the person of the Father is other than that of the Son' as 'the Father is other than the Son,' while having in common what person is.",
+  "claims": [
+   "Some read 'three persons' as 'three, each of whom is essence.'"
+  ],
+  "concepts": [
+   "opposing opinion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d25c1",
+    "pll1d25c1-d1e3567"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:43:01Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d25c1-d1e3579": {
+  "summary": "They cite De Trinitate VII: we say three persons of the same essence or three persons one essence, but not three persons from the same essence, as though essence and person were different.",
+  "claims": [
+   "Essence and person are not different things."
+  ],
+  "concepts": [
+   "authority"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d25c1",
+    "pll1d25c1-d1e3573"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:43:01Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d25c1-d1e3600": {
+  "summary": "By this and the preceding they try to show that 'person' signifies essence in these expressions.",
+  "claims": [],
+  "concepts": [
+   "summary of opinion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d25c1",
+    "pll1d25c1-d1e3579"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:43:01Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll1d25c1-d1e3603": {
+  "summary": "Objects: how will they answer the De fide ad Petrum that the Father is other personally, the Son other personally, the Spirit other personally? If 'person' means only essence, they would agree in being a person. So Lombard proposes another account, more fitting to the Catholic doctors.",
+  "claims": [
+   "'Other personally' cannot be explained if 'person' signifies only essence."
+  ],
+  "concepts": [
+   "objection",
+   "alius personaliter"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d25c1",
+    "pll1d25c1-d1e3600"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:43:01Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1d25c1": {
+  "summary": "Asks what 'person' means in plural expressions ('three persons,' 'the person of the Father is other than that of the Son'), since 'person' is said according to substance. If it signifies essence there, we would seem to confess several essences and gods; if not, it has a different sense than in 'the Father is a person.' 'The Father is a person' clearly predicates the divine essence. Some argue that in 'three persons' too 'person' signifies essence: Augustine says three persons because what person is is common to them, and 'three what?' asks about essence. They read 'three persons' as 'three, each of whom is essence,' citing 'three persons of one essence, not from one essence.' Lombard objects that this cannot explain the De fide ad Petrum's 'other personally,' and proposes a more fitting account.",
+  "claims": [
+   "In 'the Father is a person,' 'person' signifies the divine essence.",
+   "If 'person' signified essence in 'three persons,' there would seem to be three essences and gods.",
+   "Some hold that 'person' signifies essence even in 'three persons,' read as 'three, each of whom is essence.'",
+   "That view cannot account for 'other personally.'"
+  ],
+  "concepts": [
+   "persona",
+   "signification",
+   "three persons",
+   "essence",
+   "opposing opinion",
+   "Augustine De Trinitate VII"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d25c1-d1e3501",
+    "pll1d25c1-d1e3506",
+    "pll1d25c1-d1e3510",
+    "pll1d25c1-d1e3528",
+    "pll1d25c1-d1e3531",
+    "pll1d25c1-d1e3537",
+    "pll1d25c1-d1e3563",
+    "pll1d25c1-d1e3567",
+    "pll1d25c1-d1e3573",
+    "pll1d25c1-d1e3579",
+    "pll1d25c1-d1e3600",
+    "pll1d25c1-d1e3603"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T17:43:01Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

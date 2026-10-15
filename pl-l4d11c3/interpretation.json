@@ -1,0 +1,102 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T12:33:00Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d11c3-d1e115": {
+  "summary": "Gives three reasons why Christ gave his flesh and blood under another species and instituted that it be received so: that faith may have merit, being of things not seen, since faith has no merit where reason supplies proof; that the mind not recoil from what the eye sees, since we do not eat raw flesh and blood, and it is not right that Christ be devoured by teeth; and that the religion not be mocked by unbelievers.",
+  "claims": [
+   "Under another species faith has merit.",
+   "It prevents horror at eating flesh and blood.",
+   "It prevents mockery by unbelievers."
+  ],
+  "concepts": [
+   "merit of faith",
+   "species",
+   "horror",
+   "mockery of unbelievers"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d11c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:33:00Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d11c3-d1e121": {
+  "summary": "Quotes Augustine: nothing is more reasonable than that we take the likeness of blood, so that the truth is not lacking and pagans do not ridicule us for drinking a slain man's blood; so that there be no horror of blood, you receive the sacrament in a likeness.",
+  "claims": [
+   "The likeness of blood preserves the truth while avoiding horror and ridicule."
+  ],
+  "concepts": [
+   "likeness",
+   "truth",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d11c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:33:00Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d11c3-d1e133": {
+  "summary": "Concludes that it is now clear why the Lord celebrated this sacrament under another species, and this one, and instituted that we celebrate it so.",
+  "claims": [],
+  "concepts": [
+   "species"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d11c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:33:00Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d11c3": {
+  "summary": "Gives three reasons why Christ gave his flesh and blood under another species: so that faith would have merit, believing what is not seen; so that the mind would not recoil from eating raw flesh and blood; and so that unbelievers would not mock the religion. Augustine: we take a likeness of blood so that truth is not lacking and pagans cannot ridicule us for drinking a slain man's blood.",
+  "claims": [
+   "Christ gave his body under another species so faith would have merit.",
+   "It was given so that the mind would not recoil.",
+   "It was given so unbelievers would not mock."
+  ],
+  "concepts": [
+   "species",
+   "merit of faith",
+   "horror",
+   "mockery of unbelievers"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d11c3-d1e115",
+    "pl-l4d11c3-d1e121",
+    "pl-l4d11c3-d1e133"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T12:33:00Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

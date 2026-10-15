@@ -1,0 +1,80 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T12:55:20Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d30c4-d1e112": {
+  "summary": "States that though marriage is contracted for a bad end when the person's beauty moves the mind, the marriage is good, since someone's bad life or perverse intention does not contaminate a sacrament.",
+  "claims": [
+   "A bad intention does not contaminate the sacrament of marriage."
+  ],
+  "concepts": [
+   "intention",
+   "sacrament",
+   "validity"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d30c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:55:20Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d30c4-d1e115": {
+  "summary": "States that Mary and Joseph's marriage had special causes: that the Virgin be sustained by a husband's support, that the birth be hidden from the devil, and that Joseph be witness of her chastity, defending her from the shame of suspicion lest she be condemned as an adulteress.",
+  "claims": [
+   "Mary's marriage served her support, concealment from the devil, and her reputation."
+  ],
+  "concepts": [
+   "Mary and Joseph",
+   "incarnation",
+   "devil"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d30c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:55:20Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d30c4": {
+  "summary": "Though marriage is contracted for a bad end when beauty moves the mind, it is still good, since a bad life or perverse intention does not contaminate a sacrament. Mary and Joseph's marriage had special causes: that the Virgin be supported by a husband, that the birth be hidden from the devil, and that Joseph be witness of her chastity, protecting her from suspicion of adultery.",
+  "claims": [
+   "A bad motive does not make marriage evil.",
+   "A sacrament is not contaminated by a bad intention.",
+   "Mary's marriage protected her, hid the birth from the devil, and witnessed her chastity."
+  ],
+  "concepts": [
+   "ends of marriage",
+   "Mary and Joseph",
+   "sacrament",
+   "intention"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d30c4-d1e112",
+    "pl-l4d30c4-d1e115"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T12:55:20Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

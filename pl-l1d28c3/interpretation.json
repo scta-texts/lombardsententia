@@ -1,0 +1,60 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T17:45:28Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll1d28c3-d1e3501": {
+  "summary": "Cites Hilary, De Trinitate IV: one is from one, the Begotten from the Unbegotten, by the property of innascibility and origin in each. With persons signified and innascibility and nativity distinguished in Scripture, God is not thought solitary; Scripture distinguishes persons, not nature.",
+  "claims": [
+   "The Father's property is innascibility, the Son's origin.",
+   "God is not solitary.",
+   "There is distinction of persons, not nature."
+  ],
+  "concepts": [
+   "Hilary",
+   "innascibility",
+   "origin"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l1d28c3",
+    "pll1d28c2-d1e3510"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T17:45:28Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l1d28c3": {
+  "summary": "Identifies the property by which the Father is called unbegotten as innascibility, citing Hilary: one from one, the Begotten from the Unbegotten, by the property in each of innascibility and origin. Given the persons and the distinct sense of innascibility and nativity in Scripture, God is not to be thought solitary; there is distinction of persons, not of nature.",
+  "claims": [
+   "The Father's property as unbegotten is innascibility.",
+   "Innascibility and origin distinguish Father and Son.",
+   "God is not solitary.",
+   "There is distinction of persons, not of nature."
+  ],
+  "concepts": [
+   "innascibility",
+   "Hilary",
+   "distinction of persons"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll1d28c3-d1e3501"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T17:45:28Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

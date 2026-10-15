@@ -1,0 +1,76 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T12:53:50Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d25c3-d1e115": {
+  "summary": "Notes a difference between those ordained by simoniacs knowingly and those ordained unknowingly.",
+  "claims": [],
+  "concepts": [
+   "simony",
+   "knowledge and ignorance"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d25c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:53:50Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d25c3-d1e118": {
+  "summary": "Holds that the consecration of those who knowingly allow simoniacs to consecrate, or rather execrate, them is wholly void; but the ordination of those ordained by simoniacs they did not know to be such, who were then held as Catholics, is mercifully tolerated.",
+  "claims": [
+   "Knowing simoniacal ordination is void.",
+   "Unknowing ordination is tolerated."
+  ],
+  "concepts": [
+   "simony",
+   "validity",
+   "mercy"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d25c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:53:50Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d25c3": {
+  "summary": "Distinguishes those ordained by simoniacs knowingly from those ordained unknowingly: the consecration of those who knowingly let simoniacs consecrate, or rather execrate, them is wholly void; that of those who did not know their ordainers were simoniacs, then held as Catholics, is mercifully tolerated.",
+  "claims": [
+   "Knowing ordination by a simoniac is void.",
+   "Unknowing ordination by a simoniac is mercifully tolerated."
+  ],
+  "concepts": [
+   "simony",
+   "ordination",
+   "knowledge and ignorance"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d25c3-d1e115",
+    "pl-l4d25c3-d1e118"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T12:53:50Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

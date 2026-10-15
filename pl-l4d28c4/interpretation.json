@@ -1,0 +1,103 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T12:55:20Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d28c4-d1e112": {
+  "summary": "Answers that consent to cohabitation or carnal union does not make marriage, but consent to conjugal society expressed in words of present time, as when the man says: I take you as my own, not as mistress, not as servant, but as spouse.",
+  "claims": [
+   "Marriage is made by consent to conjugal society."
+  ],
+  "concepts": [
+   "object of consent",
+   "conjugal society"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d28c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:55:20Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d28c4-d1e115": {
+  "summary": "Explains that since she is given neither as mistress nor as servant, she was formed in the beginning neither from the top nor from the bottom, but from the man's side, for conjugal society: from the head she would seem made to rule, from the feet to serve; but since taken neither as mistress nor servant, she was made from the middle, the side, for conjugal society.",
+  "claims": [
+   "Woman was formed from the side as man's partner."
+  ],
+  "concepts": [
+   "creation of woman",
+   "partnership",
+   "Genesis 2"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d28c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:55:20Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d28c4-d1e118": {
+  "summary": "States that when the man says 'I take you as my spouse' and the woman 'I take you as my husband', in these or equivalent words consent is expressed not to carnal union or bodily cohabitation but to conjugal society, from which they must cohabit, unless they separate bodily for religion by mutual vow, for a time or to the end.",
+  "claims": [
+   "The words of consent express conjugal society.",
+   "Spouses must cohabit unless they separate by mutual vow."
+  ],
+  "concepts": [
+   "conjugal society",
+   "verba de praesenti",
+   "cohabitation"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d28c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:55:20Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d28c4": {
+  "summary": "Holds that marriage is made not by consent to cohabitation or carnal union, but by consent to conjugal society expressed in present words, as when a man says: I take you as my spouse, not my mistress nor my servant. So woman was formed not from the head, lest she seem made to rule, nor from the feet, lest she seem made to serve, but from the side, for conjugal society. Such consent is to conjugal society, from which they must cohabit unless they separate for religion by mutual vow.",
+  "claims": [
+   "Marriage is made by consent to conjugal society, expressed in present words.",
+   "Woman was formed from man's side, as partner, neither ruler nor servant.",
+   "Spouses must cohabit unless they separate for religion by mutual vow."
+  ],
+  "concepts": [
+   "object of consent",
+   "conjugal society",
+   "creation of woman",
+   "partnership"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d28c4-d1e112",
+    "pl-l4d28c4-d1e115",
+    "pl-l4d28c4-d1e118"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T12:55:20Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

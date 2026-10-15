@@ -1,0 +1,103 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:00:33Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll2d7c4-d1e3514": {
+  "summary": "States that after confirmation the angels cannot sin as before by nature, not because grace weakened free choice, but confirmed it, so that a good angel cannot sin, which is from God's grace, not from free choice.",
+  "claims": [
+   "Grace confirmed free choice."
+  ],
+  "concepts": [
+   "confirmation"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d7c4",
+    "pll2d7c3-d1e3543"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:00:33Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d7c4-d1e3517": {
+  "summary": "Interprets Jerome's 'all free creatures can turn either way' as referring to the state of creation, in which man and angel could turn either way; later the good angels were confirmed and the bad hardened.",
+  "claims": [
+   "Jerome refers to the original state."
+  ],
+  "concepts": [
+   "interpretation of Jerome"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d7c4",
+    "pll2d7c4-d1e3514",
+    "pll2d7c2-d1e3517"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:00:33Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d7c4-d1e3534": {
+  "summary": "Interprets Isidore's 'angels are mutable by nature, immutable by grace': by nature they could change at first to good or evil, but by grace they are now bound to good so they cannot change; grace, not nature, resists this.",
+  "claims": [
+   "Angels are mutable by nature, immutable by grace."
+  ],
+  "concepts": [
+   "Isidore"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d7c4",
+    "pll2d7c4-d1e3517"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:00:33Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d7c4": {
+  "summary": "Explains that after confirmation the angels cannot sin as by nature they could before, not because grace weakened their free choice but because it strengthened it, so that the inability is from grace, not free choice. Jerome's 'all free creatures can turn either way' refers to the state of creation; Isidore's 'angels mutable by nature, immutable by grace' means they could change at first by nature, but grace now holds them.",
+  "claims": [
+   "Grace strengthened, not weakened, the angels' free choice.",
+   "The inability to sin comes from grace, not free choice itself.",
+   "Jerome's statement refers to the state of creation.",
+   "Angels are mutable by nature and immutable by grace (Isidore)."
+  ],
+  "concepts": [
+   "confirmation",
+   "grace and free will",
+   "Jerome",
+   "Isidore",
+   "mutability"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll2d7c4-d1e3514",
+    "pll2d7c4-d1e3517",
+    "pll2d7c4-d1e3534"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:00:33Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

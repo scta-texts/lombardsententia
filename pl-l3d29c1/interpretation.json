@@ -1,0 +1,132 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T11:04:07Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l3d29c1-d1e115": {
+  "summary": "Turns to the order of charity, citing the bride's 'he set charity in order in me': we must see what comes first and what after. Whoever acts out of order sins, since knowing what to do without knowing the order is not perfect knowledge, and ignorance of order disturbs the form of merits.",
+  "claims": [
+   "Charity must be ordered.",
+   "Ignorance of order disturbs the form of merit."
+  ],
+  "concepts": [
+   "order of charity",
+   "Song of Songs",
+   "merit"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d29c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:04:07Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d29c1-d1e124": {
+  "summary": "Quotes Augustine on ordered love: one should not love what is not to be loved, fail to love what is, love equally what is to be loved more or less, or more or less what is to be loved equally. No sinner as sinner is to be loved; every man as man for God; God for himself, more than every man and more than oneself. Another man is to be loved more than our body, since he can enjoy God with us, which the body cannot.",
+  "claims": [
+   "God is to be loved more than oneself.",
+   "Another man is to be loved more than one's own body.",
+   "Every man is to be loved as man for God, but not as sinner."
+  ],
+  "concepts": [
+   "ordered love",
+   "order of charity",
+   "enjoyment of God",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d29c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:04:07Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d29c1-d1e133": {
+  "summary": "Summarizes what has been heard: we must love God more than all men and ourselves, and any man's soul more than our body.",
+  "claims": [
+   "God is to be loved above all men and oneself.",
+   "Another's soul is to be loved more than one's body."
+  ],
+  "concepts": [
+   "order of charity"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d29c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:04:07Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d29c1-d1e137": {
+  "summary": "Notes that the earlier list of four objects of love, God, ourselves, neighbor, body, seems by its order to suggest an order of loving; but it is not clear whether we must love all men equally, and as much as or less than ourselves.",
+  "claims": [
+   "Whether all men are to be loved equally is not evident."
+  ],
+  "concepts": [
+   "four objects of love",
+   "order of charity",
+   "open question"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l3d29c1",
+    "pl-l3d28c1"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T11:04:07Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l3d29c1": {
+  "summary": "Turns to the order of charity from 'he set charity in order in me', since knowing what to do without knowing the order of doing it is imperfect knowledge. Augustine's rule: rightly ordered love neither loves what should not be loved nor fails to love what should be, nor loves equally what should be loved more or less, nor more or less what should be loved equally. No sinner is to be loved as sinner, every man as man for God, God for himself and more than every man and oneself, and another man more than one's own body, since he can enjoy God with us. The order of the four objects of love seems to suggest an order, but whether all men must be loved equally, and as much as ourselves, is unclear.",
+  "claims": [
+   "Charity must be ordered.",
+   "God is to be loved more than all men and more than oneself.",
+   "Another man's soul is to be loved more than one's own body.",
+   "No sinner is to be loved as sinner; every man as man for God.",
+   "Whether all men are to be loved equally remains open."
+  ],
+  "concepts": [
+   "order of charity",
+   "ordered love",
+   "four objects of love",
+   "love of sinners"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l3d29c1-d1e115",
+    "pl-l3d29c1-d1e124",
+    "pl-l3d29c1-d1e133",
+    "pl-l3d29c1-d1e137"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T11:04:07Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

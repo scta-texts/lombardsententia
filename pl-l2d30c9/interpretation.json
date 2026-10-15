@@ -1,0 +1,124 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:39:39Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d30c9-d1e108": {
+  "summary": "Clarifies that calling concupiscence the law of the flesh, Augustine meant not the act of desiring but the first defect.",
+  "claims": [
+   "Concupiscence here is a defect, not an act."
+  ],
+  "concepts": [
+   "vitium"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d30c9",
+    "pl-l2d30c8"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:39:39Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d30c9-d1e111": {
+  "summary": "Cites Augustine's sermon on the Apostle: there is always conflict in this body of death, since the concupiscence we were born with cannot be ended while we live; it can be lessened daily, not ended.",
+  "claims": [
+   "Concupiscence lasts through life."
+  ],
+  "concepts": [
+   "Augustine sermons"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d30c9",
+    "pl-l2d30c9-d1e108"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:39:39Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d30c9-d1e114": {
+  "summary": "Explains that the concupiscence we are born with is a defect making the infant apt to desire and the adult desiring.",
+  "claims": [
+   "Concupiscence is a defect of aptitude."
+  ],
+  "concepts": [
+   "concupiscence"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d30c9",
+    "pl-l2d30c9-d1e111"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:39:39Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d30c9-d1e118": {
+  "summary": "Compares it to blindness in an eye at night, hidden until light comes; so the defect in a child does not appear until he is older.",
+  "claims": [
+   "The defect is hidden in infancy."
+  ],
+  "concepts": [
+   "analogy of blindness"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d30c9",
+    "pl-l2d30c9-d1e114"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:39:39Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d30c9": {
+  "summary": "Clarifies that by concupiscence called the law of the flesh Augustine means not the act of desiring but the first defect (vitium). Augustine: the concupiscence we are born with cannot be ended while we live; it can be lessened daily but not ended. It is a defect that makes the infant apt to desire and the adult desiring, as blindness in an eye is hidden at night until light comes; so the defect in a child does not appear until he grows older.",
+  "claims": [
+   "Concupiscence as original sin is a defect, not an act of desiring.",
+   "Concupiscence cannot be ended in this life, only lessened.",
+   "Concupiscence makes the infant apt to desire and the adult desiring.",
+   "The defect in a child is hidden until maturity, like blindness at night."
+  ],
+  "concepts": [
+   "concupiscence",
+   "vitium",
+   "original sin",
+   "analogy of blindness",
+   "Augustine sermons"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d30c9-d1e108",
+    "pl-l2d30c9-d1e111",
+    "pl-l2d30c9-d1e114",
+    "pl-l2d30c9-d1e118"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:39:39Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

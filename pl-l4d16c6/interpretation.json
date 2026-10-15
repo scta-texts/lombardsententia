@@ -1,0 +1,126 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T12:38:35Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d16c6-d1e115": {
+  "summary": "Quotes Augustine's Enchiridion on sufficient satisfaction for venial sins: for daily, brief, light sins, without which this life is not lived, the faithful's daily prayer satisfies; it is theirs to say 'Our Father'. This prayer wholly deletes the smallest daily sins, and also those from which the life of the faithful departs when changed by penance, if 'forgive us our debts' is said truly together with 'as we forgive our debtors', since forgiving those who ask is also alms.",
+  "claims": [
+   "The Lord's Prayer deletes daily sins.",
+   "It requires truly forgiving others."
+  ],
+  "concepts": [
+   "Lord's Prayer",
+   "venial sin",
+   "forgiveness",
+   "Augustine"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d16c6"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:38:35Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d16c6-d1e136": {
+  "summary": "Notes that it is now easy to understand what satisfaction is due for venial sins.",
+  "claims": [],
+  "concepts": [
+   "satisfaction for venial sins"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d16c6"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:38:35Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d16c6-d1e139": {
+  "summary": "States that the Lord's Prayer suffices with some fasting and alms, provided some contrition precedes and confession is added if possible; confession will be treated later.",
+  "claims": [
+   "Venial sins are satisfied by prayer, fasting, and alms with contrition."
+  ],
+  "concepts": [
+   "satisfaction for venial sins",
+   "contrition",
+   "confession"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d16c6"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:38:35Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d16c6-d1e143": {
+  "summary": "States that for graver sins these must be applied much more intensely and strictly, since, as Augustine says, changing one's ways and leaving evil deeds does not suffice for penance unless one also satisfies God for what was done through the grief of penance, the groaning of humility, the sacrifice of a contrite heart, with alms cooperating.",
+  "claims": [
+   "Grave sins require stricter satisfaction.",
+   "Amendment without satisfaction does not suffice."
+  ],
+  "concepts": [
+   "satisfaction",
+   "mortal sin",
+   "contrite heart"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d16c6"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T12:38:35Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d16c6": {
+  "summary": "Explains sufficient satisfaction for venial sins: Augustine says the daily prayer of the faithful, the Lord's Prayer, satisfies for daily light sins and even for grave sins of a life changed by penance, if one truly forgives as one asks to be forgiven. So the Lord's Prayer with some fasting and alms suffices for venial sins, provided some contrition precedes and confession is added if possible. For graver sins these must be applied much more intensely, since, as Augustine says, changing one's life is not enough without satisfying God for past deeds through grief, humble groaning, contrite heart, and alms.",
+  "claims": [
+   "The Lord's Prayer satisfies for daily light sins.",
+   "Venial sins are satisfied by prayer, fasting, and alms with some contrition and confession if possible.",
+   "Graver sins require more intense satisfaction.",
+   "Amendment of life is not enough without satisfaction for past sins."
+  ],
+  "concepts": [
+   "satisfaction for venial sins",
+   "Lord's Prayer",
+   "fasting and alms",
+   "mortal sin"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d16c6-d1e115",
+    "pl-l4d16c6-d1e136",
+    "pl-l4d16c6-d1e139",
+    "pl-l4d16c6-d1e143"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T12:38:35Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

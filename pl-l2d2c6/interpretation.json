@@ -1,0 +1,77 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:07:50Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l2d2c6-d1e113": {
+  "summary": "Asks how, if angels were in the empyrean as soon as made, Isaiah reports Lucifer saying 'I will ascend into heaven, exalt my throne, and be like the Most High.'",
+  "claims": [],
+  "concepts": [
+   "question",
+   "Isaiah 14:13"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d2c6",
+    "pll2d2c4-d1e3601"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:07:50Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d2c6-d1e129": {
+  "summary": "Answers that 'heaven' there means God's height, to which he wished to be equal: 'I will ascend into heaven' means to equality with God.",
+  "claims": [
+   "Lucifer sought equality with God."
+  ],
+  "concepts": [
+   "pride",
+   "exegesis"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d2c6",
+    "pl-l2d2c6-d1e113"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:07:50Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d2c6": {
+  "summary": "Asks how, if angels were in the empyrean as soon as made, Lucifer could say 'I will ascend into heaven... I will be like the Most High' (Isa 14:13). 'Heaven' there means God's height, to which he wished to be equal: 'I will ascend into heaven' means to equality with God.",
+  "claims": [
+   "Lucifer's 'heaven' (Isa 14:13) means equality with God, not a place.",
+   "The angels were already in the empyrean."
+  ],
+  "concepts": [
+   "Lucifer",
+   "pride",
+   "Isaiah 14:13",
+   "exegesis"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l2d2c6-d1e113",
+    "pl-l2d2c6-d1e129"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:07:50Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

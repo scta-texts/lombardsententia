@@ -1,0 +1,100 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T18:59:02Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll2d6c7-d1e3514": {
+  "summary": "States that others, defeated by saints living justly and chastely, seem to lose the power to tempt others.",
+  "claims": [
+   "Defeated demons may lose power to tempt."
+  ],
+  "concepts": [
+   "victory over demons"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d6c7",
+    "pl-l2d6c6"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:59:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d6c7-d1e3517": {
+  "summary": "Cites Origen: saints who resist and conquer these instigators diminish the demons' army, as if killing many, and a spirit defeated by a saint living chastely may not attack another.",
+  "claims": [
+   "Saints diminish the demons' power by victory."
+  ],
+  "concepts": [
+   "Origen"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d6c7",
+    "pll2d6c7-d1e3514"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:59:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d6c7-d1e3532": {
+  "summary": "Reports that some understand this only of the vice in which the demon was defeated: if defeated tempting to pride, it may no longer tempt anyone to pride.",
+  "claims": [
+   "The restriction may apply only to the specific vice."
+  ],
+  "concepts": [
+   "opinion"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d6c7",
+    "pll2d6c7-d1e3517"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T18:59:02Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d6c7": {
+  "summary": "Adds that demons defeated by saints living justly and chastely seem to lose the power to tempt others. Origen: saints who resist and conquer these instigators diminish the army of demons, and a spirit conquered by a chaste saint may not attack another person. Some think this applies only to the vice in which the demon was defeated.",
+  "claims": [
+   "Demons defeated by saints seem to lose the power to tempt others.",
+   "Saints who overcome demons diminish their army.",
+   "Some restrict this to the vice in which the demon was defeated."
+  ],
+  "concepts": [
+   "spiritual warfare",
+   "victory over demons",
+   "Origen",
+   "temptation"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll2d6c7-d1e3514",
+    "pll2d6c7-d1e3517",
+    "pll2d6c7-d1e3532"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T18:59:02Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

@@ -1,0 +1,98 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:12:58Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pll2d15c5-d1e3519": {
+  "summary": "States that after all things were created and disposed, man was made last, as lord and possessor preferred to all ('God saw it was good, and said: Let us make man').",
+  "claims": [
+   "Man was made last as lord of creation."
+  ],
+  "concepts": [
+   "creation of man"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d15c5",
+    "pl-l2d15c4"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:12:58Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d15c5-d1e3542": {
+  "summary": "Proposes, before treating man's creation, to explain more fully what was touched on briefly before.",
+  "claims": [],
+  "concepts": [
+   "transition"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d15c5",
+    "pll2d15c5-d1e3519"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:12:58Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pll2d15c5-d1e3545": {
+  "summary": "Notes that Catholic writers disagree on the distinction of things; some say things were created and distinguished over six days. Since the letter of Genesis fits it better and the Church approves it more, he has taught how bodily kinds were formed from the common unformed matter over six days.",
+  "claims": [
+   "The six-day view fits Genesis better and is favored by the Church."
+  ],
+  "concepts": [
+   "six-day view",
+   "Church approval"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l2d15c5",
+    "pll2d15c5-d1e3542",
+    "pl-l2d12c2"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-14T19:12:58Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l2d15c5": {
+  "summary": "States that after all was created and disposed, man was made last as lord and possessor, preferred to all ('let us make man'). Before treating man, Lombard notes that Catholic writers disagree about the distinction of things; he has followed the view that things were formed over six days from unformed matter, because the letter of Genesis fits it better and the Church approves it more.",
+  "claims": [
+   "Man was made last, as lord and possessor of all.",
+   "Lombard has followed the six-day view because it fits Genesis and the Church favors it."
+  ],
+  "concepts": [
+   "creation of man",
+   "six days",
+   "Lombard's method"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pll2d15c5-d1e3519",
+    "pll2d15c5-d1e3542",
+    "pll2d15c5-d1e3545"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-14T19:12:58Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}

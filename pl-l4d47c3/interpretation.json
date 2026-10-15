@@ -1,0 +1,129 @@
+{
+ "_metadata": {
+  "schema_version": "1.0",
+  "generated_at": "2026-10-15T13:11:58Z",
+  "model": "claude-opus-5-5",
+  "prompt_version": "interpretation-v1",
+  "source_commit": "ae52f24",
+  "generation_method": "hierarchical"
+ },
+ "pl-l4d47c3-d1e115": {
+  "summary": "Quotes Gregory: there will be four orders at the judgment: two parts, elect and reprobate, each containing two orders. Some are judged and perish, some not judged and perish; some judged and reign, some not judged and reign. Those judged and perish hear 'I was hungry and you did not feed me'; those not judged and perish are those of whom it is said 'whoever does not believe is already judged', whose damnation is known and certain. Those with profession of faith without works are judged and perish, rebuked; those who never held the sacraments of faith will not hear the Judge's rebuke, prejudged by their unbelief.",
+  "claims": [
+   "The reprobate are either examined and condemned or condemned without examination.",
+   "Unbelievers are already judged."
+  ],
+  "concepts": [
+   "four orders",
+   "unbelief",
+   "faith without works",
+   "Gregory"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d47c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:11:58Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d47c3-d1e130": {
+  "summary": "Continues Gregory: of the elect, some are judged and reign, who wipe away life's stains with tears and cover them with alms, to whom the Judge will say 'I was hungry and you fed me'; others are not judged and reign, who surpass the law's precepts by the virtue of perfection, fulfilling counsels too; of them it is said the Lord will come to judgment with the senators of his people; these are not held under the general judgment but come as judges, having left all and followed Christ, and the poor despised here will rise to power then.",
+  "claims": [
+   "The ordinary elect are examined and saved.",
+   "The perfect are not judged but come as judges."
+  ],
+  "concepts": [
+   "four orders",
+   "perfection",
+   "counsels",
+   "poverty"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d47c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:11:58Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d47c3-d1e148": {
+  "summary": "Continues: 'to him who overcomes I will grant to sit with me on my throne'; the Lord sat with the Father after his passion and resurrection, his equality with the Father made clear; to sit on the Son's throne is to judge by the Son's power, since we receive the authority of judging from his power.",
+  "claims": [
+   "To sit on Christ's throne is to judge by his power."
+  ],
+  "concepts": [
+   "saints as judges",
+   "Apocalypse 3:21"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d47c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:11:58Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d47c3-d1e158": {
+  "summary": "Concludes that the more perfect saints will judge with Christ by power, and why some are said to be judged and others not.",
+  "claims": [
+   "The perfect will judge with Christ."
+  ],
+  "concepts": [
+   "saints as judges",
+   "four orders"
+  ],
+  "_metadata": {
+   "level": "paragraph",
+   "generation_method": "source_text_with_context",
+   "context_ids": [
+    "pl-l4d47c3"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-paragraph-v1",
+   "generated_at": "2026-10-15T13:11:58Z",
+   "source_commit": "ae52f24"
+  }
+ },
+ "pl-l4d47c3": {
+  "summary": "Explains four orders at the judgment, following Gregory: of the reprobate, some are judged and perish, believers without works who will hear 'I was hungry and you did not feed me', and some are not judged and perish, unbelievers already judged; of the elect, some are judged and reign, who wiped away faults with tears and alms, and some are not judged and reign, the perfect who went beyond the precepts, who will come as judges with the Lord, the senators of his people. To sit on the Son's throne is to judge by his power. So the more perfect saints will judge with Christ by power.",
+  "claims": [
+   "There are four orders at the judgment.",
+   "Unbelievers are condemned without examination; faithful sinners are examined and condemned.",
+   "Ordinary elect are examined and saved; the perfect are not judged but judge."
+  ],
+  "concepts": [
+   "four orders",
+   "final judgment",
+   "perfection",
+   "unbelief",
+   "saints as judges"
+  ],
+  "_metadata": {
+   "level": "capitulum",
+   "generation_method": "descendant_summaries",
+   "input_ids": [
+    "pl-l4d47c3-d1e115",
+    "pl-l4d47c3-d1e130",
+    "pl-l4d47c3-d1e148",
+    "pl-l4d47c3-d1e158"
+   ],
+   "model": "claude-opus-5-5",
+   "prompt_version": "interpretation-capitulum-v1",
+   "generated_at": "2026-10-15T13:11:58Z",
+   "source_commit": "ae52f24"
+  }
+ }
+}
