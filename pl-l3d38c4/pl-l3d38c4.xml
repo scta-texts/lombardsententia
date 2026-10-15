@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -31,7 +32,8 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -51,21 +53,28 @@
     <body>
       <div xml:id="pl-l3d38c4">
         <head xml:id="pl-l3d38c4-Hd1e109">Capitulum 4</head>
-        <p xml:id="pl-l3d38c4-d1e112">[Cap. IV]. <quote xml:id="pl-l3d38c4-Qd1e114"> Porro omne
-          mendacium ideo dicendum esse peccatum, quia hoc debet loqui homo, quod animo gerit, sive
-          illud verum sit, sive putetur, et non sit: verba enim ideo sunt instituta, non ut per ea
-          homines invicem fallant, sed per ea in alterius notitiam suas cogitationes ferant; verbis
-          ergo uti ad fallaciam, non ad quod sunt instituta, peccatum est. Nec ideo etiam ullum
-          mendacium putandum est non esse peccatum, quia possumus alicui aliquando prodesse
-          mentiendo: possumus enim, ut praedictum est, et furando et adulterando prodesse </quote>.
-          <quote xml:id="pl-l3d38c4-Qd1e117"> Mendacium quoque non tunc tantum esse, possumus
-          dicere, quando aliquis laeditur: cum enim a sciente dicitur falsum, mendacium est, sive
-          quis, sive nemo laedatur </quote>.</p>
-        <p xml:id="pl-l3d38c4-d1e121">Ecce ex his constat, omne mendacium esse peccatum. Non tamen
-          de omni mendacio accipiendum est illud: <quote xml:id="pl-l3d38c4-Qd1e123" source="http://scta.info/resource/ps5_7@6-10">Perdes omnes
-          qui loquuntur mendacium;</quote> nec illud: <quote xml:id="pl-l3d38c4-Qd1e126" source="http://scta.info/resource/sap1_11@23-26">Os, quod
-          mentitur, occidit animam;</quote> nec omne mendacium isto praecepto prohiberi videtur, nec
-          praemissa descriptione mendacium ioci includi .</p>
+        <head xml:id="pl-l3d38c4-Hd1e112" type="question-title">Quid mentiri.</head>
+        <p xml:id="pl-l3d38c4-d1e130">Mentiri vero est loqui contra hoc quod animo sentit quis, sive
+          illud verum sit, sive non. Omnis ergo, qui loquitur mendacium, mentitur, quia loquitur
+          contra hoc quod animo sentit, id est voluntate fallendi; sed non omnis qui mentitur,
+          mendacium dicit, quia quod verum est loquitur aliquando mentiendo, sicut e converso falsum
+          dicendo, aliquando verax est.
+        </p>
+        <p xml:id="pl-l3d38c4-d1e134">Unde <name ref="#Augustine">Augustinus</name>: 
+          <quote xml:id="pl-l3d38c4-Qd1e139">Nemo sane mentiens iudicandus est, qui dicit falsum, quod
+          putat verum, quia, quantum in ipso est, non fallit ipse, sed fallitur. Non igitur mendacii
+          arguendus est qui falsa incautius credit ac pro veris habet; potiusque e contrario ille
+          mentitur, qui dicit verum, quod putat falsum. Quantum enim ad animum eius attinet, non
+          verum dicit, quia non quod sentit dicit, quamvis verum inveniatur esse quod dicit. Nec
+          ille liber est a mendacio, qui ore nesciens loquitur verum, sciens autem voluntate
+          mentitur </quote>.
+        </p>
+        <p xml:id="pl-l3d38c4-d1e143">Hic quaeri solet, si Iudaeus dicat Christum esse Deum, cum non
+          ita sentiat animo, utrum loquatur mendacium.
+        </p>
+        <p xml:id="pl-l3d38c4-d1e146">Non est mendacium quod dicit, quia, licet aliter teneat animo,
+          verum tamen est quod dicit; et ideo non est mendacium; mentitur tamen, illud quod verum est dicens.
+        </p>
       </div>
     </body>
   </text>
